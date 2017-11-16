@@ -1,0 +1,109 @@
+---
+title: Q&A in Power BI Embedded
+description: "Power BI Embedded bietet Ihnen eine Möglichkeit, Q&A in eine Anwendung zu integrieren, sodass Ihre Benutzer in natürlicher Sprache Fragen stellen können."
+services: powerbi
+documentationcenter: 
+author: guyinacube
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/18/2017
+ms.author: asaxton
+ms.openlocfilehash: 9f592c2a85794f6c7db5de37be2ffc7b276b8f6a
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 11/13/2017
+---
+# <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
+Power BI Embedded bietet Ihnen eine Möglichkeit, Q&A in eine Anwendung zu integrieren, sodass Ihre Benutzer Fragen in natürlicher Sprache stellen können und sofort Antworten in Form von Visuals wie Diagrammen oder Graphs erhalten.
+
+![Interaktive Q&A-Frage in einem eingebetteten Rahmen](media/qanda/embedded-qanda.gif)
+
+Es gibt zwei Modi für das Einbetten von Q&A in die Anwendung: **interaktiv** und **auf Ergebnisse beschränkt**. Im **interaktiven** Modus können Sie Fragen eingeben und diese innerhalb der Visuals anzeigen lassen. Wenn Sie über eine gespeicherte Frage oder eine festgelegte Frage verfügen, die angezeigt werden soll, können Sie den **auf Ergebnisse beschränkten** Modus verwenden, um die Frage in Ihre Einbettungskonfiguration einzugeben.
+
+Im Folgenden wird der JavaScript-Code veranschaulicht.
+
+```
+// Embed configuration used to describe the what and how to embed.
+// This object is used when calling powerbi.embed within the JavaScript API.
+// You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+var config= {
+    type: 'qna',
+    tokenType:   models.TokenType.Embed | models.TokenType.Aad,
+    accessToken: access token value,
+    embedUrl:    https://app.powerbi.com/qnaEmbed (groupId to be appended as query parameter if required),
+    datasetIds:  array of requested data set ids (at the moment we support only one dataset),
+    viewMode:    models.QnAMode.Interactive | models.QnAMode.ResultOnly,
+    question:    optional parameter for Explore mode (QnAMode.Interactive) and mandatory for Render Result mode (QnAMode.ResultOnly)
+};
+
+// Get a reference to the embedded QNA HTML element
+var qnaContainer = $('#qnaContainer')[0];
+
+// Embed the QNA and display it within the div container.
+var qna = powerbi.embed(qnaContainer, config);
+```
+
+## <a name="set-question"></a>Festgelegte Frage
+Wenn Sie den **Ergebnismodus** mit einer festgelegten Frage verwendet haben, können Sie weitere Fragen in den Rahmen einfügen und sofort beantworten lassen, wobei das vorherige Ergebnis ersetzt wird. Ein neues Visual wird für die neue Frage gerendert.
+
+Ein Beispiel für eine solche Verwendung ist eine Liste mit häufig gestellten Fragen. Der Benutzer kann die Fragen durcharbeiten und die Antworten im selben eingebetteten Teil erhalten.
+
+**Codeausschnitt für JS-SDK-Verwendung:**  
+
+```        
+// Get a reference to the embedded Q&A HTML element
+var qnaContainer = $('#qnaContainer')[0];
+
+// Get a reference to the embedded Q&A.
+qna = powerbi.get(qnaContainer);
+
+qna.setQuestion("This year sales")
+    .then(function (result) {
+        …….
+    })
+    .catch(function (errors) {
+        …….
+    });
+```
+
+## <a name="visual-rendered-event"></a>visualRendered-Ereignis
+Für den **interaktiven** Modus kann die Anwendung mit einem Datenänderungsereignis benachrichtigt werden, wenn sich das gerenderte Visual ändert, um auf die aktualisierte Eingabeabfrage während ihrer Eingabe zu verweisen.
+
+Durch Überwachen des *visualRendered*-Ereignisses können Sie Fragen für die spätere Verwendung speichern. 
+
+**Codeausschnitt für JS-SDK-Verwendung:**  
+
+```
+// Get a reference to the embedded Q&A HTML element
+var qnaContainer = $('#qnaContainer')[0];
+
+// Get a reference to the embedded Q&A.
+qna = powerbi.get(qnaContainer);
+
+// qna.off removes a given event listener if it exists.
+qna.off("visualRendered");
+
+// qna.on will add an event listener.
+qna.on("visualRendered", function(event) {
+     …….
+});
+```
+
+## <a name="embed-token"></a>Einbettungstoken
+Erstellen Sie ein Einbettungstoken aus einem Dataset, um ein Q&A-Teil zu starten. Weitere Informationen finden Sie unter [Generieren eines Tokens für Q&A](https://msdn.microsoft.com/library/mt784614.aspx#qanda).
+
+## <a name="next-steps"></a>Nächste Schritte
+Um sich mit der Q&A-Einbettung vertraut zu machen, sehen Sie sich das [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/) an.
+
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+
