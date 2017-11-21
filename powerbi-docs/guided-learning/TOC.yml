@@ -1,0 +1,16 @@
+- name: Erste Schritte
+  href: 'gettingstarted.yml#step-0'
+- name: Abrufen von Daten
+  href: 'gettingdata.yml#step-0'
+- name: Modellierung
+  href: 'modeling.yml#step-0'
+- name: Visualisierungen
+  href: 'visualizations.yml#step-0'
+- name: Durchsuchen von Daten
+  href: 'exploringdata.yml#step-0'
+- name: Power BI und Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: Veröffentlichen und Freigeben
+  href: 'publishingandsharing.yml#step-0'
+- name: Einführung in DAX
+  href: 'introductiontodax.yml#step-0'

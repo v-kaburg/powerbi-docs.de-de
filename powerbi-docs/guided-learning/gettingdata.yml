@@ -1,0 +1,68 @@
+documentType: Tutorial
+title: Abrufen von Daten
+metadata:
+  title: Abrufen von Daten | Microsoft Power BI
+  description: Erkunden und erlernen Sie die vielen Methoden zum Arbeiten mit Daten und Abrufen von Daten in Power BI.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: modeling
+  nextTutorialTitle: Modellierung
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Erkunden und erlernen Sie die vielen Methoden zum Arbeiten mit Daten und Abrufen von Daten in Power BI.
+  ms.openlocfilehash: b994ce3414ac359333199c2174570ee314193341
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 11/15/2017
+- title: "Übersicht über Power BI Desktop"
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/mdy-eRev6HM?rel=0]
+
+
+    [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
+- title: Erste Schritte mit Power BI Desktop
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
+
+
+    [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
+- title: Herstellen einer Verbindung mit Datenquellen in Power BI Desktop
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
+
+
+    [!INCLUDE [](includes/1-2-connect-to-data-sources-in-power-bi-desktop.md)]
+- title: Bereinigen und Transformieren von Daten mit dem Abfrage-Editor
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o-sinon5JYY?rel=0]
+
+
+    [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
+- title: Erweiterte Datenquellen und Transformation
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
+
+
+    [!INCLUDE [](includes/1-4-advanced-data-sources-and-transformation.md)]
+- title: "Bereinigen von unregelmäßig formatierten Daten"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/74KQmzdvFV8?rel=0]
+
+
+    [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
+- content: "Sie haben den Abschnitt **Abrufen von Daten** des geführten Lernens zu Microsoft Power BI abgeschlossen.\0"
