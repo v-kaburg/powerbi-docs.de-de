@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Datenquellen für Power BI
           href: service-get-data.md
-        - name: Power BI-Videos
-          href: videos.md
-        - name: "Power\_BI-Webinare"
-          href: webinars.md
         - name: Die neue Power BI-Navigation
           href: service-the-new-power-bi-experience.md
         - name: '10 Tipps, um Hilfe zu erhalten'
@@ -58,7 +54,7 @@
           href: sample-supplier-quality.md
         - name: 'Analysebeispiel für IT-Investitionen für Power BI: Tour'
           href: sample-it-spend.md
-        - name: 'Vertriebs- und Marketingbeispiel für Power BI: Tour'
+        - name: 'Beispiel für Vertrieb und Marketing für Power BI: Tour'
           href: sample-sales-and-marketing.md
         - name: 'Beispiel zur Kundenrentabilität für Power BI: Tour'
           href: sample-customer-profitability.md
@@ -278,7 +274,7 @@
           href: service-how-to-q-and-a.md
         - name: 'Tutorial: Erste Schritte mit Power BI Q&A'
           href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: "Verwenden von F&A mit Daten in Power\_BI Gateway\_– Enterprise (Vorschau)"
+        - name: Verwenden von F&A mit Daten in Power BI Gateway – Unternehmensdaten (Vorschau)
           href: service-q-and-a-direct-query.md
         - name: Optimieren Ihrer Daten für Q&A in Power BI
           href: service-prepare-data-for-q-and-a.md
@@ -406,10 +402,6 @@
           href: power-bi-visualization-export-data.md
         - name: Ändern des Visualisierungstyps in einem Power BI-Bericht
           href: power-bi-report-change-visualization-type.md
-        - name: Hinzufügen benutzerdefinierter Visualisierungen zu Power BI-Berichten
-          href: power-bi-report-add-custom-visual.md
-        - name: Herunterladen und Verwenden benutzerdefinierter Visualisierungen aus dem Office Store
-          href: service-custom-visuals-office-store.md
         - name: Erste Schritte mit Farbeinstellungen und Achseneigenschaften
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Tipps und Tricks zur Farbformatierung in Power BI
@@ -434,7 +426,7 @@
           href: power-bi-reports-add-text-and-shapes.md
         - name: 'Lernprogramm: ArcGIS in Power BI'
           href: power-bi-visualization-arcgis.md
-        - name: 'Lernprogramm: Grundlegende Flächendiagramme'
+        - name: 'Tutorial: Grundlegende Flächendiagramme'
           href: power-bi-visualization-basic-area-chart.md
         - name: 'Tutorial: Kombinationsdiagramm in Power BI'
           href: power-bi-visualization-combo-chart.md
@@ -450,9 +442,9 @@
           href: power-bi-visualization-funnel-charts.md
         - name: KPI-Visualisierung
           href: power-bi-visualization-kpi.md
-        - name: 'Lernprogramm: Diagramme für radiales Messgerät in Power BI'
+        - name: 'Tutorial: Diagramme für Radialmessgerät in Power BI'
           href: power-bi-visualization-radial-gauge-charts.md
-        - name: "Tutorial: Punktdiagramme in Power\_BI"
+        - name: 'Tutorial: Punktdiagramme in Power BI'
           href: power-bi-visualization-scatter.md
         - name: 'Lernprogramm: Slicer in Power BI'
           href: power-bi-visualization-slicers.md
@@ -526,13 +518,13 @@
           href: service-gateway-deployment-guidance.md
         - name: Lokales Datengateway
           href: service-gateway-onprem.md
-        - name: Lokales Datengateway – Ausführliche Informationen
+        - name: Ausführliche Informationen zum lokalen Datengateway
           href: service-gateway-onprem-indepth.md
-        - name: Lokales Datengateway – Häufig gestellte Fragen
+        - name: On-premises data gateway – Häufig gestellte Fragen
           href: service-gateway-onprem-faq.md
         - name: Lokales Datengateway (persönlicher Modus)
           href: service-gateway-personal-mode.md
-        - name: Lokales Datengateway – Problembehandlung
+        - name: Problembehandlung beim lokalen Datengateway
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway – Personal
           href: personal-gateway.md
@@ -556,7 +548,7 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Erwerb von Power BI Pro
           href: service-admin-purchasing-power-bi-pro.md
-        - name: "Ansätze für die Power\_BI-Governance und -Bereitstellung"
+        - name: Ansätze für die Power BI-Governance und -Bereitstellung
           href: service-admin-governance.md
         - name: Sicherheit in Power BI
           href: service-admin-power-bi-security.md
@@ -572,6 +564,8 @@
           href: service-admin-portal.md
         - name: Power BI-Überwachung
           href: service-admin-auditing.md
+        - name: Verwenden von Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
         - name: Suchen nach angemeldeten Benutzern
           href: service-admin-access-usage.md
         - name: "Sicherheit auf Zeilenebene mit Power\_BI"
@@ -602,9 +596,9 @@
           href: service-admin-office-365-dedicated-known-issues.md
         - name: Problembehandlung bei „In Excel analysieren“
           href: desktop-troubleshooting-analyze-in-excel.md
-        - name: Lokales Datengateway – Problembehandlung
+        - name: Problembehandlung beim lokalen Datengateway
           href: service-gateway-onprem-tshoot.md
-        - name: Problembehandlung für Power BI Gateway – Personal
+        - name: Problembehandlung bei Power BI Gateway – Personal
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
         - name: Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
@@ -658,7 +652,7 @@
           href: desktop-enter-data-directly-into-desktop.md
         - name: Verbinden mit Excel in Power BI Desktop
           href: desktop-connect-excel.md
-        - name: "Analysis Services – Mehrdimensionale Daten in Power\_BI Desktop"
+        - name: Analysis Services – Mehrdimensionale Daten in Power BI Desktop
           href: desktop-ssas-multidimensional.md
         - name: Verbinden mit CSV-Dateien in Power BI Desktop
           href: desktop-connect-csv.md
@@ -696,7 +690,7 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: DirectQuery für Oracle- und Teradata-Datenbanken
           href: desktop-directquery-for-oracle-teradata.md
-        - name: Verwendung des SAP BW-Connectors in Power BI Desktop (Preview)
+        - name: Verwendung des SAP BW-Connectors in Power BI Desktop (Vorschau)
           href: desktop-sap-bw-connector.md
         - name: "Verwenden von OneDrive for Business-Links in Power\_BI Desktop"
           href: desktop-use-onedrive-business-links.md
@@ -726,7 +720,7 @@
           href: desktop-combine-binaries.md
     - name: Modellieren Ihrer Daten
       items:
-        - name: Datenansicht in Power BI Desktop
+        - name: Datensicht in Power BI Desktop
           href: desktop-data-view.md
         - name: Beziehungsansicht in Power BI Desktop
           href: desktop-relationship-view.md
@@ -758,8 +752,6 @@
           href: desktop-insights.md
         - name: Lesezeichen in Power BI
           href: desktop-bookmarks.md
-        - name: Hinzufügen benutzerdefinierter Visualisierungen zu Berichten (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: Verwenden von Berichtdesigns
           href: desktop-report-themes.md
         - name: Verwenden von Schnellmeasures
@@ -824,11 +816,11 @@
           href: desktop-tutorial-create-calculated-columns.md
         - name: 'Tutorial: Facebook-Analysen mit Power BI Desktop'
           href: desktop-tutorial-facebook-analytics.md
-        - name: Datenschutzbestimmungen für Lächeln senden in Power BI Desktop
+        - name: Lächeln senden – Datenschutzerklärung für Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
     - name: Problembehandlung
       items:
-        - name: "Beheben von Problemen beim Importieren von Access-Datenbanken und XLS-Tabellen in Power\_BI Desktop und Power Query"
+        - name: Beheben von Problemen beim Importieren von Access-Datenbanken und Excel-Tabellen in Power BI Desktop und Power Query
           href: desktop-access-database-errors.md
         - name: Beheben von Problemen beim Starten von Power BI Desktop
           href: desktop-error-launching-desktop.md
@@ -864,7 +856,7 @@
           href: mobile-apps-qr-code.md
         - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
           href: mobile-apps-notification-center.md
-        - name: 'Kommentieren und Freigeben von Kacheln, Berichten oder Visualisierungen in den mobilen Apps'
+        - name: 'Kommentieren und Freigeben von Kacheln, Berichten oder Visuals in den mobilen Apps'
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
           href: mobile-set-data-alerts-in-the-mobile-apps.md
@@ -924,7 +916,7 @@
       items:
         - name: Welche Möglichkeiten bietet Power BI Entwicklern?
           href: developer/what-can-you-do.md
-        - name: Was kann ich mit der Power BI-API tun
+        - name: Was kann ich mit der Power BI-API tun?
           href: developer/overview-of-power-bi-rest-api.md
     - name: Einbetten
       items:
@@ -950,7 +942,7 @@
           href: developer/get-azuread-access-token.md
         - name: "Power\_BI-Berechtigungen"
           href: developer/power-bi-permissions.md
-        - name: 'Sicherheit auf Zeilenebene (Row-Level Security, RLS)'
+        - name: Sicherheit auf Zeilenebene (row-level security; RLS)
           href: developer/embedded-row-level-security.md
         - name: Einbetten von Q&A
           href: developer/qanda.md
@@ -964,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: Veröffentlichen benutzerdefinierter Visualisierungen im Office Store
-          href: developer/office-store.md
         - name: Zertifizierung von benutzerdefinierten Visuals
           href: power-bi-custom-visuals-certified.md
     - name: Übertragen von Daten in ein Dashboard per Push
@@ -1104,6 +1094,8 @@
           href: report-server/quickstart-embed.md
     - name: Referenz
       items:
+        - name: REST-API
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: SOAP-APIs
@@ -1114,5 +1106,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: Ressourcen
   items:
+    - name: Power BI-Videos
+      href: videos.md
+    - name: "Power\_BI-Webinare"
+      href: webinars.md
     - name: Whitepaper
       href: whitepapers.md
