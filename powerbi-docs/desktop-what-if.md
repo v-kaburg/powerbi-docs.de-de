@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Erstellen und Verwenden eines Was-wäre-wenn-Parameters zum Visualisieren von Variablen in Power BI Desktop
 Ab der **Power BI Desktop**-Version von August 2017 können Sie **Was-wäre-wenn**-Variables für Ihre Berichte erstellen, mit der Variablen als Slicer interagieren und auf diese Weise unterschiedliche wichtige Werte in den Berichten visualisieren und quantifizieren.
@@ -30,7 +30,7 @@ Ab der **Power BI Desktop**-Version von August 2017 können Sie **Was-wäre-wenn
 
 Der Parameter **Was-wäre-wenn** befindet sich auf der Registerkarte **Modellierung** von **Power BI Desktop**. Wenn Sie diese Option auswählen, wird ein Dialogfeld angezeigt, in dem Sie den Parameter konfigurieren können.
 
-### <a name="creating-a-what-if-parameter"></a>Erstellen eines Was-wäre-wenn-Parameters
+## <a name="creating-a-what-if-parameter"></a>Erstellen eines Was-wäre-wenn-Parameters
 Wählen Sie zum Erstellen eines **Was-wäre-wenn**-Parameters die Schaltfläche **Was-wäre-wenn** auf der Registerkarte **Modellierung** in **Power BI Desktop**. In der folgenden Abbildung wurde ein Parameter mit dem Namen *Discount percentage* (Rabattprozentsatz) erstellt und sein Datentyp auf *Dezimalzahl* festgelegt. Der Wert von *Minimum* ist 0, und der Wert von *Maximum* ist 0,50 (fünfzig Prozent). Außerdem wurde *Inkrement* auf 0,05 bzw. fünf Prozent festgelegt. Um diesen Betrag wird der Parameter angepasst, wenn in einem Bericht eine Interaktion mit ihm erfolgt.
 
 ![](media/desktop-what-if/what-if_02.png)

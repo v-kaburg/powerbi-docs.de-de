@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurieren von Proxyeinstellungen für On-premises Data Gateway
 Aufgrund Ihres Arbeitsumfelds ist es möglicherweise erforderlich, eine Internetverbindung über einen Proxy herzustellen. Dies kann eine Verbindung von On Premises Data Gateway mit dem Dienst verhindern.
@@ -48,40 +48,6 @@ Die erste Datei bezieht sich auf die Konfigurationsbildschirme, mit denen das Ga
 Die zweite bezieht sich auf den tatsächlichen Windows-Dienst, der mit dem Power BI-Dienst interagiert und die Anfragen verarbeitet.
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
-
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway – Personal
-> [!NOTE]
-> Es gibt eine neue Version von Personal Gateway für Power BI, die als **Lokales Datengateway (persönlicher Modus)** bezeichnet wird. In diesem Abschnitt dieses Artikels wird die vorherige Version des persönlichen Gateways beschrieben, die als **Power BI Gateway – Personal** bezeichnet und nach dem 31. Juli 2017 eingestellt und funktionsunfähig wird. Informationen über die neue Version des persönlichen Gateways samt deren Installation finden Sie im Artikel [**Lokales Datengateway (persönlicher Modus)**](service-gateway-personal-mode.md).
-> 
-> 
-
-Das Personal-Gateway kann auf zwei Arten installiert werden. Als Windows-Dienst (Admin) oder als Anwendung im Benutzermodus. Dies wird während der Installation bestimmt. Daher können sich die Konfigurationsdateien an einem von zwei Speicherorten befinden, je nachdem, wie das Gateway installiert wurde. Überprüfen Sie beide Speicherorte.
-
-**Konfiguration**
-
-Die erste Datei bezieht sich auf die Konfigurationsbildschirme, mit denen das Gateway tatsächlich konfiguriert wird. Wenn beim Konfigurieren des Gateways Probleme auftreten, prüfen Sie diese Datei.
-
-Für den *Windows-Dienst*, prüfen Sie folgende Datei.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-Für die *Anwendung im Benutzermodus* prüfen Sie folgende Datei.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-**Windows-Dienst**
-
-Die zweite bezieht sich auf den tatsächlichen Windows-Dienst, der mit dem Power BI-Dienst interagiert und die Anfragen verarbeitet.
-
-Für den *Windows-Dienst*, prüfen Sie folgende Datei.
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
-
-Für die *Anwendung im Benutzermodus* prüfen Sie folgende Datei.
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
 
 ## <a name="configuring-proxy-settings"></a>Konfigurierung von Proxyeinstellungen
 Die standardmäßige Proxykonfiguration lautet wie folgt.

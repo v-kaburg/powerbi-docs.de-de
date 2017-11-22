@@ -1,6 +1,6 @@
 ---
-title: "Vertriebs- und Marketingbeispiel für Power BI: Tour"
-description: "Vertriebs- und Marketingbeispiel für Power BI: Tour"
+title: "Beispiel für Vertrieb und Marketing für Power BI: Tour"
+description: "Beispiel für Vertrieb und Marketing für Power BI: Tour"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: 42c0e7ad17f9cfd7b4a19862a33c382a608fef3f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="sales--marketing-sample-for-power-bi-take-a-tour"></a>Vertriebs- und Marketingbeispiel für Power BI: Tour
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Beispiel für Vertrieb und Marketing für Power BI: Tour
 Das **Vertriebs- und Marketingbeispiel** enthält ein Dashboard und einen Bericht für das fiktive Fertigungsunternehmen VanArsdel Ltd. Dieses Dashboard wurde vom Chief Marketing Officer (CMO) von VanArsdel erstellt, um die Branche sowie den Marktanteil, das Produktvolumen, die Verkäufe und die Stimmungslage des Unternehmens im Blick zu haben.
 
 VanArsdel hat viel Konkurrenz, aber ist Marktführer seiner Branche. Der CMO möchte den Marktanteil erhöhen und Wachstumschancen aufzeigen. Doch aus irgendeinem Grund geht der Marktanteil von VanArsdel zurück, insbesondere im Juni wurden größere Einbußen verzeichnet.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
 Bevor Sie eine benutzerdefinierte Visualisierung aktivieren, sollten Sie sie auf Sicherheit und Datenschutz überprüfen, um sicherzustellen, dass sie die Standards Ihrer Organisation erfüllt.
@@ -102,9 +102,6 @@ Nachdem Sie die PBIVIZ-Datei extrahiert haben, können Sie den Code überprüfen
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI](power-bi-report-visualizations.md)  
 [Benutzerdefinierte Visualisierungen in Power BI](power-bi-custom-visuals.md)  
-[Herunterladen und Verwenden benutzerdefinierter Visualisierungen aus dem Office Store](service-custom-visuals-office-store.md)  
-[Hinzufügen benutzerdefinierter Visualisierungen zu Berichten (Power BI Desktop)](power-bi-custom-visuals-use.md)  
-[Hinzufügen benutzerdefinierter Visualisierungen zu Berichten (Power BI-Dienst)](power-bi-report-add-custom-visual.md)  
 [Veröffentlichen benutzerdefinierter Visualisierungen im Office Store](developer/office-store.md)  
 [Erste Schritte mit den Power BI-Entwicklertools ](service-custom-visuals-getting-started-with-developer-tools.md)  
 [Zertifizieren eines benutzerdefinierten visuellen Elements](power-bi-custom-visuals-certified.md)    

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4cf0ed9326d59d3282b3a512aa65f239f4ee0490
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: eb5a41c75e26c0c9c5a6644b2ad0122d2d9623b9
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -135,7 +135,7 @@ Anschließend müssen Sie alle benutzerdefinierten Spalten oder Measures, die Si
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Schritt 4: Tabellen, die Beziehungen aufwiesen, erneut verknüpfen
 Viele Dashboards verfügen über zusätzliche Tabellen, die zum Nachschlagen und Filtern verwendet werden, z.B. Datumstabellen oder Tabellen, die für benutzerdefinierte Projekte genutzt werden. Die meisten verbleibenden Probleme werden durch das Wiederherstellen dieser Beziehungen gelöst. Dazu gehen Sie wie folgt vor.
 
-1. Wählen Sie auf der Registerkarte **Modellierung** in **Power BI Desktop** die Option **Beziehungen verwalten** aus, um ein neues Fenster zu öffnen, in dem Sie Beziehungen im Modell verwalten können. Verknüpfen Sie die Tabellen nach Bedarf erneut.
+- Wählen Sie auf der Registerkarte **Modellierung** in **Power BI Desktop** die Option **Beziehungen verwalten** aus, um ein neues Fenster zu öffnen, in dem Sie Beziehungen im Modell verwalten können. Verknüpfen Sie die Tabellen nach Bedarf erneut.
    
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 

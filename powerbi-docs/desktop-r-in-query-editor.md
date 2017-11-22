@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>Verwenden von R im Abfrage-Editor
 Sie können **R**, eine häufig von Statistikern, Business Analysten und Datenanalysten verwendete Programmiersprache, im **Abfrage-Editor** von Power BI Desktop verwenden. Dank der Integration von R in den **Abfrage-Editor** können Sie mithilfe von R Daten bereinigen, erweiterte Datenstrukturierung und Analysen in Datasets ausführen, einschließlich der Ergänzung fehlender Daten, Prognosen und Clustering, um nur einige der Möglichkeiten zu nennen. **R** ist eine leistungsfähige Sprache, die im **Abfrage-Editor** zum Erstellen des Datenmodells und Erzeugen von Berichten verwendet werden kann.
@@ -56,7 +56,7 @@ Um die Verwendung von **R** im **Abfrage-Editor** zu veranschaulichen, verwenden
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> In der R-Umgebung muss das Paket *mice* installiert sein, damit der oben gezeigte Skriptcode ordnungsgemäß ausgeführt wird. Führen Sie zum Installieren des Pakets „mice“ in der R-Installation den folgenden Befehl aus: |      > install.packages('mice')
+   > In der R-Umgebung muss das Paket *mice* installiert sein, damit der oben gezeigte Skriptcode ordnungsgemäß ausgeführt wird. Führen Sie zum Installieren des Pakets „mice“ in der R-Installation den folgenden Befehl aus: |      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ Um die Verwendung von **R** im **Abfrage-Editor** zu veranschaulichen, verwenden
    
    Nachdem wir diese Einstellung vorgenommen haben, wird im Bereich **Felder** eine neue Spalte mit dem Namen *completedValues* angezeigt. Beachten Sie, dass einige Datenelemente fehlen, z.B. in Zeile 15 und 18. Im nächsten Abschnitt wird beschrieben, wie dies von R behandelt wird.
    
-   Hinweis
 
 Mit einigen wenigen Zeilen R-Skript konnte der **Abfrage-Editor** die fehlenden Werte anhand eines Vorhersagemodells einfügen.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
@@ -170,10 +170,6 @@ Dies kann durch unterschiedliche Szenarien verursacht werden.
 2. Ihr Konto ist nicht auf der Registerkarte **Benutzer** der Datenquelle in der Gatewaykonfiguration aufgelistet. Sie müssen den Administrator des Gateways bitten, Ihr Konto dieser Liste hinzuzufügen.
 3. Die Power BI Desktop-Datei verfügt über mehrere Datenquellen, und nicht alle dieser Datenquellen sind für das Gateway konfiguriert. Jede Datenquelle muss für das Gateway definiert sein, damit das Gateway in der geplanten Aktualisierung angezeigt wird.
 
-> [!WARNING]
-> Wenn eine der Datenquellen OAuth-Authentifizierung erfordert, können Sie sie nicht für das lokale Datengateway konfigurieren. OAuth-Authentifizierung wird für das lokale Datengateway derzeit nicht unterstützt. Sie müssen die Datenquelle, die OAuth-Authentifizierung erfordert, aus Power BI Desktop entfernen, um die geplante Aktualisierung zu konfigurieren.
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Fehler: Für die empfangenen unkomprimierten Daten auf dem Gatewayclient wurde das Limit überschritten.
 Das Limit beträgt genau 10 GB unkomprimierte Daten pro Tabelle. Wenn dieses Problem auftritt, haben Sie geeignete Möglichkeiten, es einzuschränken und zu vermeiden. Insbesondere hilft es, die Verwendung langer Zeichenfolgenwerte mit vielen Wiederholungen zu reduzieren und stattdessen einen normalisierten Schlüssel zu verwenden oder die Spalte zu entfernen (sofern sie nicht verwendet wird).
