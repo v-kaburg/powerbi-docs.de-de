@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Strukturieren und Kombinieren von Daten in Power BI Desktop
 Mit **Power BI Desktop** können Sie Verbindungen zu vielen unterschiedlichen Arten von Datenquellen herstellen und anschließend die Daten nach Ihren Anforderungen strukturieren. Das *Strukturieren* von Daten ist mit einem Transformieren der Daten gleichzusetzen. So müssen beispielsweise Spalten oder Tabellen umbenannt, Text in Zahlen umgewandelt, Zeilen entfernt oder die erste Zeile als Überschrift festgelegt werden. Als *Kombinieren* von Daten werden das Verbinden von mehreren Datenquellen, das auf die Anforderungen ausgerichtete Strukturieren der Daten und schließlich das Konsolidieren in eine praktische Abfrage bezeichnet.
@@ -160,11 +160,11 @@ Das Fenster **Erste Zeilen entfernen** wird angezeigt, in dem Sie angeben könne
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>An dieser Stelle sei darauf hingewiesen, dass die *Reihenfolge* der im Abfrage-Editor angewendeten Schritte wichtig ist und sich auf die Strukturierung der Daten auswirken kann. Berücksichtigt werden muss auch, wie sich ein Schritt auf einen anderen, nachfolgenden Schritt auswirkt. Wenn Sie also aus "Angewendete Schritte" einen Schritt entfernen, verhalten sich die nachfolgenden Schritte aufgrund des Einflusses der Schrittreihenfolge der Abfrage möglicherweise nicht mehr so, wie es ursprünglich beabsichtigt war.
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>Wenn Sie die Breite des Abfrage-Editorfensters verringern, werden einige Elemente des Menübands gestaucht, um den angezeigten Raum optimal zu nutzen. Wenn Sie das Fenster des Abfrage-Editors verbreitern, werden die Elemente des Menübands gedehnt, um die größere Fläche des Menübands zu nutzen.
 
 * Benennen Sie die Spalten und die eigentliche Tabelle um. Wie üblich gibt es mehrere Möglichkeiten, eine Spalte umzubenennen: Wählen Sie zuerst die Spalte und dann im Menüband auf der Registerkarte **Transformieren** die Option **Umbenennen** aus, oder klicken Sie mit der rechten Maustaste, und wählen Sie im Kontextmenü die Option **Umbenennen** aus. In der folgenden Abbildung weisen Pfeile auf diese beiden Optionen; sie brauchen nur eine davon auszuwählen.
 

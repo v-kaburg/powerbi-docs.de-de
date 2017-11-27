@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Tour
-## <a name="about-the-retail-analysis-sample"></a>Informationen zum Analysebeispiel für Einzelhandel
+
 Dieses Branchenbeispieldashboard und der zugrunde liegende Bericht analysieren Umsatzdaten des Einzelhandels von Artikeln, die in verschiedenen Läden und Bezirken verkauft wurden. Die Metriken vergleichen die Leistung dieses Jahres mit der des letzten Jahres in den folgenden Bereichen: Umsatz, Einheiten, Bruttogewinn und Varianz sowie Analyse neuer Läden. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com)) in anonymisierter Form.
 
 Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529778).
@@ -134,7 +134,7 @@ Der letzte Bereich, den wir untersuchen möchten, ist unser Wachstum – wir hab
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie aber speichern, können Sie immer wieder zu „Daten abrufen“ zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
-## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
+## <a name="connect-to-your-data"></a>Herstellen einer Verbindung mit den Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen- und Antwortenmodul und Berichte Ihnen Einblicke in Daten zum Einzelhandel geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Nächste Schritte

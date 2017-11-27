@@ -16,86 +16,96 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
+ms.date: 11/19/2017
 ms.author: asaxton
-ms.openlocfilehash: bb3ab7c8f9791aa535e86b8c9b21361c95e4389b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a60682f9da2befe5f87b11749c089f72949a8f6f
+ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/19/2017
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
+
 Jetzt in Power BI: Mit dem neuen Berichts-Webpart für SharePoint Online können Sie interaktive Power BI-Berichte einfach in SharePoint Online-Seiten einbetten.
 
 Mit der neuen Option **In SharePoint Online einbetten** ist die umfassende Sicherheit eingebetteter Berichte gewährleistet. Erstellen Sie einfach sichere interne Portale.
 
 ## <a name="requirements"></a>Anforderungen
+
 Wenn Sie Berichte mit der Option **In SharePoint Online einbetten** verwenden möchten, sind einige Anforderungen zu erfüllen.
 
-* Das Power BI-Webpart für SharePoint Online (Vorschau) erfordert [Moderne Seiten](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
+* Das Power BI-Webpart für SharePoint Online erfordert [Moderne Seiten](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Einbetten des Berichts
-Um den Bericht in SharePoint Online einzubetten, müssen Sie zuerst die URL des Berichts abrufen. Diese URL wird dann im neuen Power BI-Webpart (Vorschau) in SharePoint Online verwendet.
+
+Um den Bericht in SharePoint Online einzubetten, müssen Sie zuerst die URL des Berichts abrufen. Diese URL wird dann im neuen Power BI-Webpart in SharePoint Online verwendet.
 
 ### <a name="get-a-url-to-your-report"></a>Abrufen der Berichts-URL
+
 1. Rufen Sie den Bericht im Power BI-Dienst auf.
+
 2. Wählen Sie den Menüeintrag **Datei** aus.
-3. Wählen Sie **In SharePoint Online einbetten (Vorschau)** aus.
+
+3. Wählen Sie **In SharePoint Online einbetten** aus.
    
     ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
 4. Kopieren Sie die URL aus dem Dialogfeld.
-   
+
     ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-   
+
    > [!NOTE]
    > Sie können auch die URL verwenden, die beim Betrachten eines Berichts in der Adressleiste des Webbrowsers angezeigt wird. Diese URL enthält die derzeit angezeigte Berichtsseite. Sie müssen den Berichtsabschnitt aus der URL entfernen, wenn Sie eine andere Seite verwenden möchten.
-   > 
-   > 
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Hinzufügen des Power BI-Berichts zu einer SharePoint Online-Seite
+
 1. Öffnen Sie die gewünschte Seite in SharePoint Online, und wählen Sie **Bearbeiten** aus.
-   
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
-   
+
     Sie können auch eine neue moderne Websiteseite erstellen, indem Sie in SharePoint Online **+ Neu** auswählen.
-   
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
-2. Wählen Sie **+** und dann das Webpart **Power BI (Vorschau)** aus.
-   
+
+2. Wählen Sie **+** und dann das Webpart **Power BI**  aus.
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+
 3. Wählen Sie **Bericht hinzufügen** aus.
-   
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+
 4. Fügen Sie die Berichts-URL im Eigenschaftsbereich ein. Dies ist die vorhin kopierte URL. Der Bericht wird automatisch geladen.
-   
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+
 5. Wählen Sie **Veröffentlichen** aus, damit Ihre SharePoint Online-Benutzer die Änderung sehen können.
-   
+
     ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>Zugriff gewähren auf Berichte
+
 Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, müssen Sie den Benutzern die Berechtigung geben, den Bericht anzuzeigen. Die Berechtigungen zum Anzeigen des Berichts werden im Power BI-Dienst festgelegt.
 
 > [!IMPORTANT]
 > Überprüfen Sie im Power BI-Dienst, wer den Bericht sehen kann, und stellen Sie sicher, dass nicht aufgeführte, berechtigte Benutzer Zugriff erhalten.
-> 
-> 
 
 Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, geben Sie im Power BI-Dienst an, dass die Benutzer Mitglieder des App-Arbeitsbereichs sind. Dadurch wird sichergestellt, dass die Benutzer die Inhalte der Gruppe sehen können. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
 
 Alternativ können Sie Benutzern den Zugriff auf den Bericht auf folgende Weise gewähren.
 
 1. Heften Sie eine Kachel aus dem Bericht an ein Dashboard an.
+
 2. Geben Sie das Dashboard für die Benutzer frei, die Zugriff auf den Bericht benötigen. Weitere Informationen erhalten Sie unter [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md).
-   
-    Wenn Sie ein Dashboard für eine Sicherheitsgruppe freigeben, müssen Benutzer sich mindestens einmal bei Power BI anmelden, um auf den Bericht zugreifen zu können.
 
 ## <a name="allowing-free-users-access-to-reports"></a>Zulassen des Zugriffs von Free-Benutzern auf Berichte
+
 Free-Benutzer können Berichte anzeigen, die mit dem Power BI-Webpart für SharePoint Online eingebettet wurden. Sie gewähren Free-Benutzern auf die gleiche Weise Zugriff wie Pro-Benutzern. Dies ist oben unter [Zugriff gewähren auf Berichte](#granting-access-to-reports) beschrieben. Für den Arbeitsbereich, in dem sich der Bericht befindet, muss zudem eine entsprechende Power BI Premium-Kapazität vorhanden sein. 
 
 Wenn Sie beispielsweise über einen Bericht in einem App-Arbeitsbereich verfügen, müssen Sie den App-Arbeitsbereich einer Power BI Premium-Kapazität zuweisen. Außerdem müssen Sie den Free-Benutzer der Mitgliedsliste dieses App-Arbeitsbereichs hinzufügen.
 
 ## <a name="web-part-settings"></a>Webpart-Einstellungen
+
 Das Power BI-Webpart für SharePoint Online verfügt über die folgenden Einstellungen.
 
 ![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
@@ -108,15 +118,15 @@ Das Power BI-Webpart für SharePoint Online verfügt über die folgenden Einstel
 | Filterbereich anzeigen |Anzeigen oder Ausblenden des Filterbereichs. |
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+
 Wenn Ihre Power BI-Umgebung die Anmeldung per Multi-Factor Authentication erfordert, können Sie aufgefordert werden, Ihre Identität mithilfe eines Sicherheitsgeräts zu bestätigen. Dies ist der Fall, wenn Sie sich nicht bereits per Multi-Factor Authentication bei SharePoint Online angemeldet haben, Ihre Power BI-Umgebung aber ein per Sicherheitsgerät verifiziertes Konto erfordert.
 
 > [!NOTE]
 > Multi-Factor Authentication wird derzeit noch nicht von Azure Active Directory 2.0 unterstützt. Benutzer erhalten dann die Meldung *Fehler*. Der Benutzer kann sich mithilfe eines Sicherheitsgeräts erneut bei SharePoint Online anmelden, um Zugriff auf den Bericht zu erhalten.
-> 
-> 
 
 ## <a name="reports-that-do-not-load"></a>Nicht geladene Berichte
-Möglicherweise wird der Bericht im Power BI-Webpart (Vorschau) nicht geladen, und die folgende Meldung wird angezeigt.
+
+Möglicherweise wird der Bericht im Power BI-Webpart nicht geladen, und die folgende Meldung wird angezeigt.
 
 *Dieser Inhalt ist nicht verfügbar.*
 
@@ -130,24 +140,21 @@ Dies kann vor allem zwei Gründe haben.
 Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme zu beheben.
 
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
-* Das Power BI-Webpart für SharePoint Online (Vorschau) unterstützt keine Sprachausgabe und keine Tastaturnavigation.
+
 * **Fehler: „Es ist ein Fehler aufgetreten, melden Sie sich ab und wieder an und öffnen Sie diese Seite dann erneut. Korrelations-ID: nicht definiert, HTTP-Antwortstatus: 400, Serverfehlercode 10001, Meldung: Fehlendes Aktualisierungstoken“**
   
   Wenn Sie diesen Fehler erhalten, führen Sie einen der folgenden Schritte aus.
   
   1. Melden Sie sich aus SharePoint ab und anschließend wieder an. Achten Sie darauf, alle Browserfenster zu schließen, bevor Sie sich erneut anmelden.
+
   2. Wenn für Ihr Benutzerkonto die Multi-Factor Authentication (MFA) erforderlich ist, stellen Sie sicher, dass Sie sich in SharePoint mit Ihrem MFA-Gerät anmelden (Smartphone-App, Smartcard usw.).
-* Beim Hinzufügen des Webparts für Power BI (Vorschau) werden Sie zur Anmeldung aufgefordert, können sich aber nicht anmelden. In diesem Fall wird eine Fehlermeldung ähnlich der folgenden angezeigt:
-  
-  * *Sie müssen sich erneut anmelden. Danach werden Sie wieder auf diese Seite geleitet.*
-  * *Es ist ein Fehler aufgetreten, melden Sie sich ab und wieder an und öffnen Sie diese Seite dann erneut.*
-  
-  Um dieses Problem zu beheben, stellen Sie sicher, dass Ihr Mandant auf *First Release für alle* festgelegt wurde, wie weiter oben in diesem Artikel unter **Anforderungen** beschrieben. Wenn Sie einmaliges Anmelden (Single Sign On, SSO) aktivieren möchten, verwendet das Power BI-Webpart *Authentifizierungs-APIs*, die von SharePoint bereitgestellt werden und nur verfügbar sind, wenn *First Release für alle* ausgewählt wurde.
+
 * Power BI unterstützt nicht die gleichen lokalisierte Sprachen wie SharePoint Online. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
+
 * Bei Verwendung von Internet Explorer 10 können Probleme auftreten. Informieren Sie sich über die [Browserunterstützung für Power BI](service-browser-support.md) und für [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Einrichten der Standard- oder First Release-Optionen in Office 365](https://support.office.com/article/Set-up-the-Standard-or-First-Release-options-in-Office-365-3B3ADFA4-1777-4FF0-B606-FB8732101F47)  
+
 [Erstellen moderner Websiteseiten durch Endbenutzer zulassen oder verhindern](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md)  
 [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  

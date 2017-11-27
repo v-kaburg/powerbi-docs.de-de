@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: c7053cbf6dd4cc44424d447eefc060d119a98aa4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 On-premises data gateway fungiert als Brücke, da es eine schnelle und sichere Datenübertragung zwischen lokalen Daten (Daten außerhalb der Cloud) und den Power BI-, Microsoft Flow-, Logic Apps- und PowerApps-Diensten bereitstellt.
@@ -51,8 +51,8 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 <!-- Shared Install steps Include -->
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>Herunterladen und Installieren von On-premises Data Gateway
-Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
+## <a name="download-and-install-the-on-premises-data-gateway"></a>Herunterladen und Installieren des lokalen Datengateways
+Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie das [lokale Datengateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 761f25f92151c2bc2bd6557757de97e6ad8dd54d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -88,46 +88,37 @@ Erstellen wir eine einfache Formel. Diese Aufgabe vertieft Ihr Verständnis für
 
 ### <a name="task-create-a-measure-formula"></a>Aufgabe: Erstellen einer Measureformel
 Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Beispieldatei öffnen.
-
-**1.**  Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
-
-**2.**  Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
-
-**3.**  Geben Sie hinter dem Gleichheitszeichen **SUM** und danach eine öffnende Klammer ein.
-
-> Statt einen Spaltennamen einzugeben, um gleich zu addieren, geben wir eine weitere Funktion ein, um die zu addierenden Daten zu *filtern* .
-> 
-> 
-
-**4.**  Geben Sie zwischen den Klammern **CALCULATE** und danach eine öffnende Klammer ein.
-
-> Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
-> 
-> 
-
-**5.**  Geben Sie zwischen den Klammern **()** für die Funktion **CALCULATE** den Wert **Sales[SalesAmount]** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
-
-**6.** Geben Sie ein Komma (**,**) ein, um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** (Vorquartal) und danach eine öffnende Klammer ein.
-
-> Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um unsere SUM-Ergebnisse nach dem Vorquartal zu filtern.
-> 
-> 
-
-**7.** Geben Sie zwischen den Klammern **()** für die Funktion PREVIOUSQUARTER den Wert **Calendar[DateKey]** ein.
-
-> Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält.
-> 
-> 
-
-**8.** Achten Sie darauf, dass beide an die Funktion PREVIOUSQUARTER und an die Funktion CALCULATE übergebenen Argumente mit zwei schließenden Klammern **))** geschlossen werden.
-
-Die Formel sollte nun wie folgt aussehen:
-
-> **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
-> 
-> 
-
-**9.** Klicken Sie auf das Häkchen ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) in der Bearbeitungsleiste, oder drücken Sie die EINGABETASTE, um die Formel zu überprüfen und sie zum Modell hinzuzufügen.
+    
+1.  Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
+    
+2.  Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
+    
+3.  Geben Sie hinter dem Gleichheitszeichen **SUM** und danach eine öffnende Klammer ein.
+    
+    Statt einen Spaltennamen einzugeben, um gleich zu addieren, geben wir eine weitere Funktion ein, um die zu addierenden Daten zu *filtern* .
+    
+4.  Geben Sie zwischen den Klammern **CALCULATE** und danach eine öffnende Klammer ein.
+    
+    Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
+   
+5.  Geben Sie zwischen den Klammern **()** für die Funktion **CALCULATE** den Wert **Sales[SalesAmount]** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
+    
+6.  Geben Sie ein Komma (**,**) ein, um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** (Vorquartal) und danach eine öffnende Klammer ein.
+    
+    Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um unsere SUM-Ergebnisse nach dem Vorquartal zu filtern.
+    
+7.  Geben Sie zwischen den Klammern **()** für die Funktion PREVIOUSQUARTER den Wert **Calendar[DateKey]** ein.
+    
+    Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält.
+    >
+    
+8.  Achten Sie darauf, dass beide an die Funktion PREVIOUSQUARTER und an die Funktion CALCULATE übergebenen Argumente mit zwei schließenden Klammern **))** geschlossen werden.
+    
+   Die Formel sollte nun wie folgt aussehen:
+    
+    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+    
+9. Klicken Sie auf das Häkchen ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) in der Bearbeitungsleiste, oder drücken Sie die EINGABETASTE, um die Formel zu überprüfen und sie zum Modell hinzuzufügen.
 
 Sie haben‘s geschafft! Sie haben gerade mithilfe von DAX ein Measure erstellt, und noch dazu kein einfaches. Was diese Formel tut – sie berechnet die Gesamtumsätze für das Vorquartal, abhängig von den in einem Bericht angewendeten Filtern. Wenn wir z. B. „SalesAmount“ (Umsatzbetrag) und unser neues Measure „Previous Quarter Sales“ in ein Diagramm einsetzen und dann „Year“ (Jahr) und „QuarterOfYear“ („QuartalImJahr“) als Datenschnitte hinzufügen, kommt etwas in dieser Art heraus:
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 **Power BI Desktop** verfügt über Funktionen, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit **Power BI Desktop**-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -76,7 +76,7 @@ Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berich
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Es gibt einige bekannte Probleme und Einschränkungen bei den Barrierefreiheitsfeatures. Diese werden in der folgenden Liste beschrieben:
 
-* JAWS wird nur in Berichten unterstützt, die im **Power BI-Dienst** angezeigt werden, einschließlich in eingebetteten Berichten. Das **Power BI Desktop**-Team arbeitet daran, JAWS auch in Berichten verfügbar zu machen, die in **Power BI Desktop** angezeigt werden.
+* JAWS wird in Berichten unterstützt, die im **Power BI-Dienst** angezeigt werden, einschließlich in eingebetteten Berichten. JAWS wird auch in **Power BI Desktop** unterstützt. Sie müssen jedoch vor dem Öffnen von **Power BI Desktop**-Dateien die Sprachausgabe öffnen, damit die Sprachausgabe ordnungsgemäß erfolgt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)](desktop-report-themes.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop
 Beim Arbeiten im Fenster **Abfrage-Editor** von Power BI Desktop haben Sie es mit einer Hand voll häufig verwendeter Aufgaben zu tun. In diesem Dokument werden diese allgemeinen Aufgaben vorgestellt. Zudem finden Sie Links zu weiteren Informationen. 

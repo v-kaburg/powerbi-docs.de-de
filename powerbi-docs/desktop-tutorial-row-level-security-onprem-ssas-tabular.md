@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
 Dieses Tutorial zeigt die notwendigen Schritte für die Implementierung der **Sicherheit auf Zeilenebene** in Ihrem **tabellarischen Modell von Analysis Services** und wie sie in einem Power BI-Bericht verwendet wird. Die Schritte in diesem Tutorial sind darauf ausgerichtet, dass Sie sie leicht nachvollziehen und anhand eine Beispiel-Datasets die notwendigen Schritte erlernen können.

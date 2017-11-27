@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: cea38a880ac67208e3b153d9259fd563a3bb8d50
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Abfrageübersicht in Power BI Desktop
 Mit **Power BI Desktop** stellen Sie eine Verbindung zur Welt der Daten her, erstellen überzeugende und fundierte Berichte und teilen Ihre Ergebnisse mit anderen Personen, die dann auf Ihrer Arbeit aufbauen und so ihr Business Intelligence-Potenzial erweitern können.
@@ -66,7 +66,7 @@ Hier ist dargestellt, wie der **Abfrage-Editor** nach dem Herstellen der Datenve
 
 In den folgenden Abschnitten sehen wir uns alle vier Bereiche an – das Menüband, den Abfragebereich, die Datenansicht und der Bereich "Abfrageeinstellungen".
 
-## <a name="the-query-ribbon"></a>Menüband der Ansicht "Abfrage"
+## <a name="the-query-ribbon"></a>Menüband der Ansicht „Abfrage“
 Das Menüband im **Abfrage-Editor** enthält vier Registerkarten: **Start**, **Transformieren**, **Spalte hinzufügen** und **Ansicht**.
 
 Die Registerkarte **Start** enthält allgemeine Abfrageaufgaben sowie die Option **Daten abrufen** (der erste Schritt bei jeder Abfrage). In der folgenden Abbildung ist das Menüband mit der Registerkarte **Start** dargestellt.  
@@ -109,7 +109,7 @@ In der folgenden Abbildung wird die bereits früher erstellte Webdatenverbindung
 
 Bei Auswahl eines Kontextmenüelements (oder einer Schaltfläche im Menüband) wendet die Abfrage den Schritt auf die Daten an und speichert ihn als Teil der Abfrage. Die Schritte werden im Bereich **Abfrageeinstellungen** in der entsprechenden Reihenfolge aufgezeichnet, wie im nächsten Abschnitt beschrieben.  
 
-## <a name="the-query-settings-pane"></a>Bereich "Abfrageeinstellungen"
+## <a name="the-query-settings-pane"></a>Bereich „Abfrageeinstellungen“
 Im Bereich **Abfrageeinstellungen** werden alle Schritte angezeigt, die mit einer Abfrage verbunden sind. Im folgenden Bild geht aus dem Bereich **Abfrageeinstellungen** unter **Angewendete Schritte** beispielsweise hervor, dass wir gerade den Typ der Spalte **Gesamtpunktzahl** geändert haben.
 
 ![](media/desktop-query-overview/queryoverview_querysettingspane.png)

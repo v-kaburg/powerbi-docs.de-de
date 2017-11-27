@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Power BI bietet [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen Ihrer Dashboards](service-how-to-collaborate-distribute-dashboards-reports.md), und Freigeben ist nur eine davon.
@@ -63,7 +63,7 @@ Sehen Sie sich an, wie Amanda ihr Dashboard für Kollegen im Unternehmen und ext
    
    Wenn Empfänger außerhalb der Organisation auf den Link klicken, wird das Dashboard angezeigt, jedoch nicht im üblichen Power BI-Portal. Weitere Informationen finden Sie unter [Freigabe eines Dashboards für Personen außerhalb Ihrer Organisation](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization).
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>Wer hat Zugriff auf das von mir freigegebene Dashboard?
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>Wer hat Zugriff auf das von Ihnen freigegebene Dashboard?
 In einigen Fällen müssen Sie sehen können, für welche Personen Sie ein Dashboard freigegeben haben, und für welche Personen diese das Dashboard freigegeben haben.
 
 1. Wählen Sie in der Liste der Dashboards oder im Dashboard selbst **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png) aus. 
@@ -113,9 +113,7 @@ Aspekte, die beim Freigeben von Dashboards zu beachten sind:
 * Alle Benutzer können die [Dashboarddaten manuell aktualisieren](refresh-data.md).
 * Wenn Sie Office 365 für E-Mails verwenden, ist die Freigabe für Mitglieder einer Verteilergruppe möglich, indem Sie die der Verteilergruppe zugeordnete E-Mail-Adresse eingeben.
 * Kollegen in derselben E-Mail-Domäne wie Sie und Kollegen, die zu einer anderen Domäne gehören, aber innerhalb desselben Mandanten registriert sind, können das Dashboard für andere freigeben. Angenommen, die Domänen „contoso.com“ und „contoso2.com“ sind im selben Mandanten registriert. Wenn Sie die E-Mail-Adresse konrads@contoso.com haben, ist sowohl ravali@contoso.com als auch gustav@contoso2.com eine Freigabe erlaubt, sofern Sie ihnen die Berechtigung zum Freigeben erteilt haben.
-* Wenn Ihre Kollegen bereits über den Zugriff auf ein bestimmtes Dashboard verfügen, können Sie einen direkten Link zu diesem Dashboard senden, indem Sie einfach die URL kopieren, wenn Sie sich auf dem Dashboard befinden. Beispiel:   
-  
-    https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* Wenn Ihre Kollegen bereits über den Zugriff auf ein bestimmtes Dashboard verfügen, können Sie einen direkten Link zu diesem Dashboard senden, indem Sie einfach die URL kopieren, wenn Sie sich auf dem Dashboard befinden. Beispiel: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Ebenso können Sie, wenn Ihre Kollegen bereits Zugriff auf ein bestimmtes Dashboard haben, [einen direkten Link zum zugrunde liegenden Bericht senden](service-share-reports.md). 
 
 ## <a name="next-steps"></a>Nächste Schritte

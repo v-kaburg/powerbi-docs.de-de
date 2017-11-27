@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Hinzufügen einer Spalte aus einem Beispiel in Power BI Desktop
 Ab der **Power BI Desktop**-Version vom April 2017 können Sie Ihrem Modell durch Angabe von Beispielwerten über den **Abfrage-Editor** ganz einfach neue Datenspalten hinzufügen. Zur Erstellung eines Beispiels für die neue Spalte können Sie eine aktuelle Auswahl oder aber eine Eingabe verwenden, die auf allen (oder auf ausgewählten) Spalten in einer bestimmten Tabelle basiert.
@@ -83,26 +83,29 @@ Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwa
 
 * **Verweis**
   
-  * Verweis auf eine bestimmte Spalte (einschließlich Kürzungs-, Bereinigungs- (ab Juni 2017) und Groß-/Kleinschreibungstransformation)
+  * Verweis auf eine bestimmte Spalte (einschließlich Kürzungs-, Bereinigungs- und Groß-/Kleinschreibungstransformation)
+
 * **Texttransformationen**
   
   * Kombinieren (unterstützt das Kombinieren von Literalzeichenfolgen und vollständigen Spaltenwerten)
   * Ersetzen
   * Länge
-  * Extrahieren
-    
+  * Extrahieren   
     * Erste Zeichen
     * Letzte Zeichen
     * Bereich
     * Text vor Trennzeichen
     * Text nach Trennzeichen
     * Text zwischen Trennzeichen
-  * Die folgenden unterstützten **Texttransformationen** stehen ab dem **Power BI Desktop**-Release im Juni 2017 zur Verfügung:
-    
     * Länge
 
+* Die folgenden unterstützten **Texttransformationen** sind ab dem November 2017-Release von **Power BI Desktop** verfügbar:
+    
+  * Zeichen entfernen
+  * Zeichen beibehalten
+
 > [!NOTE]
-> Bei allen *Texttransformationen* wird der potenzielle Bedarf für die Anwendung einer Kürzungs-, Bereinigungs- (ab Juni 2017) oder Groß-/Kleinschreibungstransformation auf den Wert berücksichtigt.
+> Bei allen *Texttransformationen* wird der potenzielle Bedarf für die Anwendung einer Kürzungs-, Bereinigungs- oder Groß-/Kleinschreibungstransformation auf den Wert berücksichtigt.
 > 
 > 
 
@@ -118,8 +121,6 @@ Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwa
   * Woche des Monats
   * Woche des Jahres
   * Jahr
-* Die folgenden unterstützten zusätzlichen **Datumstransformationen** stehen ab dem **Power BI Desktop**-Release im Juni 2017 zur Verfügung:
-  
   * Alter
   * Jahresbeginn
   * Jahresende
@@ -133,13 +134,13 @@ Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwa
   * Tag des Monats
   * Tagesbeginn
   * Tagesende
+
+
 * **Uhrzeittransformationen**
   
   * Stunde
   * Minute
-  * Sekunde
-* **Transformationen für Datum/Zeit/Zeitzone:** Die folgenden unterstützten Transformationen stehen ab dem **Power BI Desktop**-Release vom Juli 2017 zur Verfügung:
-  
+  * Sekunde  
   * In Ortszeit
 
 > [!NOTE]
@@ -147,7 +148,8 @@ Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwa
 > 
 > 
 
-* **Transformationen für Zahlen:** Die folgenden unterstützten Transformationen stehen ab dem **Power BI Desktop**-Release vom Juli 2017 zur Verfügung:
+* **Zahlentransformationen** 
+
   * Absoluter Wert
   * Arkuskosinus
   * Arkussinus
@@ -175,3 +177,10 @@ Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwa
   * Summe
   * Tangens
 
+* Die folgenden unterstützten **Zahlentransformationen** sind ab dem November 2017-Release von **Power BI Desktop** verfügbar:
+
+  * Zuordnen von Buckets/Bereiche
+
+* **Allgemein**
+  
+  * Bedingte Spalte

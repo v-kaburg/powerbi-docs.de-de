@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen
 Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** und Updates des **Power BI-Diensts** steht ein neuer Stichprobenalgorithmus zur Verfügung, der die Darstellung von Daten mit hoher Dichte in Punktdiagrammen verbessert.
@@ -73,7 +73,7 @@ Es gibt Situationen, in denen die **Stichprobenentnahme mit hoher Dichte** nicht
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Aktivieren der **Stichprobenentnahme mit hoher Dichte** für ein Punktdiagramm
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Aktivieren der Stichprobenentnahme mit hoher Dichte für ein Punktdiagramm
 Wählen Sie zum Aktivieren der **Stichprobenentnahme mit hoher Dichte** ein Punktdiagramm aus, wechseln Sie zum Bereich **Formatierung**, und erweitern Sie die Karte **Allgemein**. Im unteren Bereich der Karte ist ein Schieberegler zum Ein-/Ausschalten mit dem Namen **Stichprobenentnahme mit hoher Dichte** verfügbar. Schieben Sie den Schieberegler auf **Ein**, um den Algorithmus zu aktivieren.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
@@ -94,5 +94,5 @@ Der Algorithmus der Stichprobenentnahme mit hoher Dichte ist eine wichtige Verbe
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen über die Stichprobenentnahme mit hoher Dichte in anderen Diagrammen finden Sie im folgenden Artikel.
 
-* [Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI](desktop-high-density-sampling.md)
+* [Stichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI](desktop-high-density-sampling.md)
 

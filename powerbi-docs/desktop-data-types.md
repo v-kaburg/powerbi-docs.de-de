@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
@@ -30,6 +30,7 @@ Wenn Sie Daten in Power BI Desktop laden, wird versucht, den Datentyp der Quells
 
 Dies ist wichtig, da einige DAX-Funktionen spezielle Anforderungen in Bezug auf Datentypen haben. In vielen Fällen konvertiert DAX zwar implizit einen Datentyp für Sie, es gibt jedoch Fälle, in denen dies nicht der Fall ist.  Wenn eine DAX-Funktion beispielsweise einen Datumsdatentyp erfordert und der Datentyp für die Spalte Text ist, funktioniert die DAX-Funktion nicht ordnungsgemäß.  Daher ist es wichtig und nützlich, den richtigen Datentyp für eine Spalte zu verwenden. Implizite Konvertierungen werden weiter unten in diesem Artikel beschrieben.
 
+## <a name="determine-and-specify-a-columns-data-type"></a>Bestimmen und Angeben des Datentyps einer Spalte
 Im Power BI Desktop können Sie den Datentyp einer Spalte im Abfrage-Editor oder in der Datensicht bzw. der Berichtsansicht bestimmen und angeben:
 
 **Datentypen im Abfrage-Editor**

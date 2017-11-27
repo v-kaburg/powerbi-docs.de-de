@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Erste Schritte mit Farbeinstellungen und Achseneigenschaften
 In **Power BI** können Sie die Farbe von Datenreihen und Datenpunkten und selbst den Hintergrund von Visualisierungen ändern. So haben Sie eine umfassende Kontrolle über die Anzeige Ihrer Dashboards und Berichte.
@@ -60,7 +60,7 @@ Beachten Sie außerdem, dass **Filter** anstelle der Symbole angezeigt werden, w
 
 Im Folgenden finden Sie ein Beispiel zu Farben und eines zum Ändern der Achseneigenschaften. Diese Beispiele zeigen Ihnen, wie Farben, Achsen und Beschriftungen angepasst werden.
 
-## <a name="working-with-colors"></a>Arbeiten mit Filtern
+## <a name="working-with-colors"></a>Arbeiten mit Farben
 Zum Anpassen von Farben in einem Diagramm sind die folgenden Schritte auszuführen.
 
 1. Wählen Sie im Berichtszeichenbereich **Säulendiagramm (gruppiert)** aus.
@@ -87,7 +87,7 @@ Häufig soll auch die X-Achse oder die Y-Achse geändert werden. Ähnlich wie be
 
 Wählen Sie zum Reduzieren der Optionen für die **X-Achsen** den Pfeil nach oben aus, der neben der **X-Achse**angezeigt wird.
 
-Die Beschriftungen der X-Achse werden mithilfe des Optionsfelds neben der **X-Achse**komplett ausgeblendet. Das Optionsfeld neben **Titel**legt fest, ob Achsentitel ein- oder ausgeblendet werden.  
+Die Beschriftungen der X-Achse werden mithilfe des Optionsfelds neben der **X-Achse** komplett ausgeblendet. Das Optionsfeld neben **Titel**legt fest, ob Achsentitel ein- oder ausgeblendet werden.  
 
 Auf Ihre Power BI-Berichte und Dashboards können Sie die verschiedensten Farben und viele weitere Anpassungsmöglichkeiten anwenden.
 
@@ -97,6 +97,7 @@ Auf Ihre Power BI-Berichte und Dashboards können Sie die verschiedensten Farben
 > 
 > 
 
+## <a name="next-step"></a>Nächster Schritt
 Weitere Informationen finden Sie im folgenden Artikel:  
 
 * [Tipps und Tricks zur Farbformatierung in Power BI](service-tips-and-tricks-for-color-formatting.md)  

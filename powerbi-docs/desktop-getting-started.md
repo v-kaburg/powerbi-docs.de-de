@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -182,8 +182,8 @@ Sie wählen **Bearbeiten**aus, dann:
 
 * *Verwenden Sie die erste Zeile als Überschrift*. Da wir die oberen drei Zeilen entfernt haben, ist die aktuelle oberste Zeile die benötigte Überschrift.
 
->[!NOTE]
->An dieser Stelle sei darauf hingewiesen, dass die *Reihenfolge* der im **Abfrage-Editor** angewendeten Schritte wichtig ist und sich auf die Strukturierung der Daten auswirken kann. Berücksichtigt werden muss auch, wie sich ein Schritt auf einen anderen, nachfolgenden Schritt auswirkt. Wenn Sie also aus **Angewendete Schritte** einen Schritt entfernen, verhalten sich die nachfolgenden Schritte aufgrund des Einflusses der Schrittreihenfolge der Abfrage möglicherweise nicht mehr so, wie es ursprünglich beabsichtigt war.
+    >[!NOTE]
+    >An dieser Stelle sei darauf hingewiesen, dass die *Reihenfolge* der im **Abfrage-Editor** angewendeten Schritte wichtig ist und sich auf die Strukturierung der Daten auswirken kann. Berücksichtigt werden muss auch, wie sich ein Schritt auf einen anderen, nachfolgenden Schritt auswirkt. Wenn Sie also aus **Angewendete Schritte** einen Schritt entfernen, verhalten sich die nachfolgenden Schritte aufgrund des Einflusses der Schrittreihenfolge der Abfrage möglicherweise nicht mehr so, wie es ursprünglich beabsichtigt war.
 
 * *Benennen Sie die Spalten und die eigentliche Tabelle um*. Wie üblich, gibt es mehrere Möglichkeiten, eine Spalte umzubenennen. Wählen Sie Ihr bevorzugtes Verfahren aus.
 

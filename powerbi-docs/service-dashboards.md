@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/31/2017
 ms.author: mihart
-ms.openlocfilehash: d810383c87dae59e3993cef638497e64fd398dc7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards im Power BI-Dienst
-## <a name="what-is-a-dashboard"></a>Was ist ein Dashboard?
+
 Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich bezeichnet), auf der mithilfe von Visualisierungen eine Geschichte erzählt wird. Wegen der Beschränkung auf eine Seite erkennen Sie ein gut gestaltetes Dashboard daran, dass die Geschichte auf ihre Kernaussagen verdichtet ist.
 
 ![](media/service-dashboards/power-bi-dashboard2.png)
@@ -64,7 +64,7 @@ Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden [Berichte]
 | Visualisierungen erstellen |Es können ausschließlich Widgets zum Dashboard hinzugefügt werden („Kachel hinzufügen“). |Viele verschiedene Visuals können erstellt, benutzerdefinierte Visuals hinzugefügt und Visuals (mit Bearbeitungsberechtigungen) bearbeitet werden. |
 | Anpassung |Visualisierungen (Kacheln) können u.a. verschoben und angeordnet, vergrößert und verkleinert, mit Links versehen, umbenannt, gelöscht und im Vollbildmodus angezeigt werden. Die Daten und Visualisierungen selbst sind allerdings schreibgeschützt. |In der Leseansicht können Berichte u.a. veröffentlicht, eingebettet, gefiltert, exportiert, als PBIX heruntergeladen und in Excel analysiert werden. Außerdem können Sie verwandte Inhalte anzeigen und QR-Codes generieren.  In der Bearbeitungsansicht haben Sie noch mehr Möglichkeiten. |
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>***Ersteller*** und ***Anwender*** von Dashboards
+## <a name="dashboard-creators-and-dashboard-consumers"></a>Ersteller und Anwender von Dashboards
 Erstellen Sie Dashboards für den eigenen Gebrauch, oder geben Sie sie später für Ihre Mitarbeiter frei? Dann sollten Sie wissen, wie Dashboards erstellt und freigegeben werden. Oder erhalten Sie Dashboards von anderen? Dann möchten Sie vielleicht wissen, wie Dashboards funktionieren und wie Sie mit ihnen interagieren.
 
 Hier finden Sie die entsprechenden Anleitungen für jede dieser Rollen.

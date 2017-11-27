@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 68df3ee83a8a9b8268cbced98830a467066add92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Erstellen von Power BI-Visualisierungen mithilfe von R
 Mit **Power BI Desktop** können Sie **R** jetzt zum Visualisieren Ihrer Daten verwenden.
@@ -30,7 +30,7 @@ Mit **Power BI Desktop** können Sie **R** jetzt zum Visualisieren Ihrer Daten v
 Das **R**-Modul ist in **Power BI Desktop** nicht enthalten und wird von Power BI Desktop nicht bereitgestellt oder installiert. Damit Sie R-Skripts in **Power BI Desktop** ausführen können, müssen Sie **R** gesondert auf dem lokalen Computer installieren. **R** können Sie an vielen Stellen im Internet kostenlos herunterladen und installieren, u.a. von der [Revolution R Open-Downloadseite](https://mran.revolutionanalytics.com/download/) und aus dem [CRAN-Repository](https://cran.r-project.org/bin/windows/base/). Die aktuelle Version der R-Skripterstellung in **Power BI Desktop** unterstützt Unicode-Zeichen ebenso wie Leerzeichen (leere Zeichen) im Installationspfad.
 
 ## <a name="enable-r-visuals"></a>Aktivieren von R-Visuals
-1. Zum Aktivieren von R-Visualisierungen wählen Sie **Datei > Optionen und Einstellungen > Optionen** aus. Stellen Sie anschließend sicher, dass auf der Seite **Optionen** im Abschnitt **R-Skripterstellung** des Fensters **Optionen** die lokale Installation von R angegeben ist, wie in der folgenden Abbildung dargestellt. In der folgenden Abbildung lautet der lokale Installationspfad von R **C:\Program Files\R\R-3.2.0**. Dieser Pfad ist im Textfeld explizit angegeben. Stellen Sie sicher, dass der angezeigte Pfad die lokale Installation von R, die von **Power BI Desktop** verwendet werden soll, richtig wiedergibt.
+Zum Aktivieren von R-Visualisierungen wählen Sie **Datei > Optionen und Einstellungen > Optionen** aus. Stellen Sie anschließend sicher, dass auf der Seite **Optionen** im Abschnitt **R-Skripterstellung** des Fensters **Optionen** die lokale Installation von R angegeben ist, wie in der folgenden Abbildung dargestellt. In der folgenden Abbildung lautet der lokale Installationspfad von R **C:\Program Files\R\R-3.2.0**. Dieser Pfad ist im Textfeld explizit angegeben. Stellen Sie sicher, dass der angezeigte Pfad die lokale Installation von R, die von **Power BI Desktop** verwendet werden soll, richtig wiedergibt.
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -42,18 +42,18 @@ Nachdem Sie Ihre Installation von R angegeben haben, können Sie mit dem Erstell
    ![](media/desktop-r-visuals/r-visuals-3.png)
 2. Wenn Sie einem Bericht ein visuelles R-Element hinzufügen, führt **Power BI Desktop** Folgendes aus:
    
-   a) Im Berichtszeichenbereich wird ein Platzhalterbild für ein visuelles R-Element angezeigt.
+   - Im Berichtszeichenbereich wird ein Platzhalterbild für ein R-Visual angezeigt.
    
-   b) Am unteren Rand des mittleren Bereichs wird der **R-Skript-Editor** angezeigt.
+   - Am unteren Rand des mittleren Bereichs wird der **R-Skript-Editor** angezeigt.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 3. Fügen Sie anschließend wie in jeder anderen **Power BI Desktop**-Visualisierung dem Abschnitt **Werte** im Bereich **Felder** Felder hinzu, die im R-Skript verwendet werden sollen. Für das R-Skript sind nur Felder verfügbar, die dem Bereich **Felder** hinzugefügt wurden. Sie können im Bereich **Felder** neue Felder hinzufügen und nicht benötigte Felder entfernen, während Sie das R-Skript im **R-Skript-Editor von Power BI Desktop** bearbeiten. **Power BI Desktop** erkennt automatisch, welche Felder hinzugefügt oder entfernt wurden.
-
-> [!NOTE]
-> Der Standardaggregationstyp für R-Visuals lautet *Nicht zusammenfassen*.
-> 
-> 
-
+   
+   > [!NOTE]
+   > Der Standardaggregationstyp für R-Visuals lautet *Nicht zusammenfassen*.
+   > 
+   > 
+   
 1. Jetzt können Sie die Daten verwenden, die Sie zum Erstellen einer Zeichnung ausgewählt haben. Während Sie Felder auswählen, generiert der **R-Skript-Editor** unterstützenden, gebundenen R-Skript-Code basierend auf Ihrer Auswahl im grauen Abschnitt im oberen Bereich des Editors. Wenn Sie zusätzliche Felder auswählen oder entfernen, wird im R-Skript-Editor automatisch Unterstützungscode entsprechend generiert bzw. entfernt.
    
    Im Beispiel in der folgenden Abbildung wurden drei Felder ausgewählt: „hp“, „gear“ und „drat“. Aufgrund dieser Auswahl generiert der R-Skript-Editor den folgenden Bindungscode:
@@ -66,7 +66,7 @@ Nachdem Sie Ihre Installation von R angegeben haben, können Sie mit dem Erstell
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-> In bestimmten Fällen sind Gruppierungen möglicherweise nicht erwünscht, oder es sollen alle Zeilen, einschließlich doppelter Zeilen, angezeigt werden. In diesem Fall können Sie dem Dataset ein Indexfeld hinzufügen, sodass alle Zeilen als eindeutig betrachtet werden und keine Gruppierung erfolgt.
+   > In bestimmten Fällen sind Gruppierungen möglicherweise nicht erwünscht, oder es sollen alle Zeilen, einschließlich doppelter Zeilen, angezeigt werden. In diesem Fall können Sie dem Dataset ein Indexfeld hinzufügen, sodass alle Zeilen als eindeutig betrachtet werden und keine Gruppierung erfolgt.
    > 
    > 
    
@@ -76,7 +76,7 @@ Nachdem Sie Ihre Installation von R angegeben haben, können Sie mit dem Erstell
     Bei Auswahl von **Ausführen** identifiziert **Power BI Desktop** die Zeichnung und stellt sie im Zeichenbereich dar.
    Da der Vorgang in der lokalen R-Installation ausgeführt wird, stellen Sie sicher, dass die erforderlichen Pakete installiert sind.
    
-    **Power BI Desktop** zeichnet die Visualisierung neu, wenn eines der folgenden Ereignisse eintritt:
+   **Power BI Desktop** zeichnet die Visualisierung neu, wenn eines der folgenden Ereignisse eintritt:
    
    * Auf der Titelleiste des **R-Skript-Editors** wird **Ausführen** ausgewählt
    * Bei jedem Ändern der Daten durch Aktualisieren, Filtern oder Hervorheben von Daten.

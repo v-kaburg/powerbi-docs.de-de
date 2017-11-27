@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 48b0899d27e41cbc1d33d018696dd57d7c6f989a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e4cd07ca9917e7039fa2d179bbeeaf7962492f93
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
@@ -115,9 +115,8 @@ Sie können die mobilen Power BI-Apps ebenfalls kostenlos aus dem entsprechenden
 * [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
 * [Windows Store](http://go.microsoft.com/fwlink/?LinkId=526478)
 
-## <a name="power-bi-desktops-software-license-terms-say-you-may-install-and-use-one-copy-of-the-software-on-your-premises"></a>Die Software-Lizenzbedingungen von Power BI Desktop geben an: „Sie sind berechtigt, eine Kopie der Software in Ihren Geschäftsräumen zu installieren und zu nutzen.“
-### <a name="does-this-mean-i-am-limited-to-one-copy-of-power-bi-desktop-for-the-entire-company"></a>Bedeutet dies, dass ich nur eine Kopie von Power BI Desktop für das ganze Unternehmen verwenden darf?
-Die Nutzungsrechte von Power BI Desktop beschränken Sie nicht auf nur eine Kopie von Power BI Desktop für das gesamte Unternehmen. Jeder Benutzer im Unternehmen darf eine Kopie lokal installieren und verwenden.
+## <a name="am-i-limited-to-one-copy-of-power-bi-desktop-for-my-entire-company"></a>Darf ich für das gesamte Unternehmen nur eine Kopie von Power BI Desktop verwenden?
+Die Software-Lizenzbedingungen von Power BI Desktop geben an: „Sie sind berechtigt, eine Kopie der Software in Ihren Geschäftsräumen zu installieren und zu nutzen.“ Dies bedeutet nicht, dass Sie im gesamten Unternehmen nur eine Kopie von Power BI Desktop verwenden dürfen. Jeder Benutzer im Unternehmen darf eine Kopie lokal installieren und verwenden.
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Wie finde ich den Einstieg in Power BI?
 Folgende Ressourcen helfen Ihnen bei den ersten Schritten:

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c69c3baff3c0ce00b06c5a6af43be8488133d42e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten ermöglichen, indem Sie Ihr lokales Datengateway mit Kerberos konfigurieren. Das lokale Datengateway ermöglicht das einmalige Anmelden über DirectQuery; hiermit werden Verbindungen mit lokalen Datenquellen hergestellt.
@@ -60,6 +60,15 @@ Es folgen weitere Details zu diesen Schritten:
    > Wenn AAD DirSync/Connect konfiguriert ist und Benutzerkonten synchronisiert sind, muss der Gatewaydienst keine lokalen AD-Suchvorgänge zur Laufzeit ausführen, und Sie können die lokale Dienst-SID (statt eines Domänenkontos) für den Gatewaydienst verwenden.  Die in diesem Dokument beschriebenen Schritte für die Konfiguration der eingeschränkten Kerberos-Delegierung sind identisch (sie basieren lediglich auf der Dienst-SID und nicht auf dem Domänenkonto).
    > 
    > 
+
+
+> [!NOTE]
+> Zum Aktivieren von SSO für SAP HANA müssen Sie die folgenden beiden HANA-spezifischen Konfigurationskorrekturen für SAP anwenden:
+>    1. Führen Sie ein Upgrade des SAP HANA-Servers mit dem HANA-Patch 122.13 durch, der von SAP Ende Oktober 2017 veröffentlicht wurde. 
+>    2. Installieren Sie auf dem Gatewaycomputer den aktuellen HANA-ODBC-Treiber von SAP.  Die Mindestversion ist die HANA-ODBC-Version 2.00.020.00 vom August 2017.
+> 
+
+
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Fehler aufgrund einer unzureichenden Kerberos-Konfiguration
 Wenn der zugrunde liegende Datenbankserver und das Gateway nicht ordnungsgemäß für die **eingeschränkte Kerberos-Delegierung** konfiguriert sind, kann die folgende Fehlermeldung ausgegeben werden:

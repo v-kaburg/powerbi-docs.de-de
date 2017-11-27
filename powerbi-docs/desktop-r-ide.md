@@ -17,18 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 149018786ee97606fafdf075e56152e79e6b7bc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bbc0b90c36272c5a30865d92d78039c20f667ee9
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Verwenden einer externen R-IDE mit Power BI
 Mit **Power BI Desktop** können Sie eine externe R-IDE (Integrated Development Environment, integrierte Entwicklungsumgebung) zum Erstellen und Optimieren von R-Skripts verwenden und diese Skripts dann in Power BI nutzen.
 
 ![](media/desktop-r-ide/r-ide_1a.png)
 
-### <a name="enabling-an-external-r-ide"></a>Aktivieren eine externen R-IDE
+## <a name="enable-an-external-r-ide"></a>Aktivieren einer externen R-IDE
 Vor der Veröffentlichung dieser Funktion mussten Sie zum Erstellen und Ausführen von R-Skripts den R-Skript-Editor in **Power BI Desktop** verwenden. Mit dieser Version können Sie die externe R-IDE aus **Power BI Desktop** starten. Ihre Daten werden automatisch importiert und in der R-IDE angezeigt. Dort können Sie das Skript in der externen R-IDE ändern und dann wieder in **Power BI Desktop** einfügen, um visuelle Power BI-Objekte und -Berichte zu erstellen.
 
 Ab der **Power BI Desktop**-Version von September 2016 (Version 2.39.4526.362) können Sie angeben, welche R-IDE Sie verwenden möchten. Diese wird dann automatisch in **Power BI Desktop** gestartet.
@@ -51,7 +51,7 @@ Wenn Sie mehrere R-IDEs installiert haben, können Sie angeben, welche gestartet
 
 Und wenn keine Verknüpfung mit **R**-Dateien vorhanden ist, können Sie im Abschnitt *Wechseln Sie zu Ihrer bevorzugten R-IDE* des Dialogfelds **Optionen** einen Pfad zu einer benutzerdefinierten IDE angeben. Sie können auch eine andere R-IDE starten, indem Sie in **Power BI Desktop** neben dem Pfeilsymbol **R-IDE starten** das Zahnradsymbol **Einstellungen** auswählen.
 
-### <a name="launching-an-r-ide-from-power-bi-desktop"></a>Starten einer R-IDE aus Power BI Desktop
+## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Starten einer R-IDE aus Power BI Desktop
 Führen Sie zum Starten einer R-IDE aus **Power BI Desktop** die folgenden Schritte aus.
 
 1. Laden Sie Daten in **Power BI Desktop**.
@@ -66,7 +66,7 @@ Führen Sie zum Starten einer R-IDE aus **Power BI Desktop** die folgenden Schri
    ![](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
-> Der Standardaggregationstyp für R-Visuals lautet *Nicht zusammenfassen*.
+   > Der Standardaggregationstyp für R-Visuals lautet *Nicht zusammenfassen*.
    > 
    > 
 5. Starten Sie jetzt die R-IDE direkt aus **Power BI Desktop** starten. Wählen Sie die Schaltfläche **R-IDE starten** rechts auf der Titelleiste des **R-Skript-Editors** aus, wie unten dargestellt.
@@ -77,7 +77,7 @@ Führen Sie zum Starten einer R-IDE aus **Power BI Desktop** die folgenden Schri
    ![](media/desktop-r-ide/r-ide_7.png)
    
    > [!NOTE]
-> **Power BI Desktop** fügt die ersten drei Zeilen des Skripts hinzu, damit Ihre Daten aus **Power BI Desktop** importiert werden können, wenn Sie das Skript ausführen.
+   > **Power BI Desktop** fügt die ersten drei Zeilen des Skripts hinzu, damit Ihre Daten aus **Power BI Desktop** importiert werden können, wenn Sie das Skript ausführen.
    > 
    > 
 7. Im Bereich **R-Skript-Editor** in **Power BI Desktop** erstellten Skripts werden ab Zeile 4 in der R-IDE angezeigt. Jetzt können Sie Ihr eigenes R-Skript in der R-IDE erstellen. Sobald das R-Skript in der R-IDE fertig ist, müssen Sie es kopieren und wieder im Bereich **R-Skript-Editor** in **Power BI Desktop** einfügen, *ohne* die ersten drei Zeilen des Skripts, die von **Power BI Desktop** automatisch generiert wurden. Kopieren Sie die ersten drei Zeilen des Skripts nicht wieder in **Power BI Desktop**, diese Zeilen wurden nur zum Importieren der Daten aus **Power BI Desktop** in die R-IDE benötigt.
@@ -88,7 +88,7 @@ Für das Starten einer R-IDE direkt aus Power BI Desktop gelten einige Einschrä
 * Das automatische Exportieren eines Skripts aus der R-IDE in **Power BI Desktop** wird nicht unterstützt.
 * Der **R Client**-Editor (RGui.exe) wird nicht unterstützt, da der Editor selbst das Öffnen von Dateien nicht unterstützt.
 
-### <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 Betrachten Sie die folgenden zusätzlichen Informationen über R in Power BI.
 
 * [Ausführen von R-Skripts in Power BI Desktop](desktop-r-scripts.md)

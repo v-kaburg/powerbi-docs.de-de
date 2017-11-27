@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
@@ -57,7 +57,7 @@ Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse zu registrieren,
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>Welche Lizenz benötige ich?
+## <a name="which-one-do-you-need"></a>Welche Lizenz benötigen Sie?
 Sie können ermitteln, welche Lizenz Sie benötigen, indem Sie die Informationen lesen, die es zu jedem Lizenztyp gibt. Benutzer der kostenlosen (Free) Lizenz können einen Großteil der Funktionalität der Dienste nutzen, ausgenommen sind lediglich die Funktionen für Freigaben (gemeinsame Nutzung) und Zusammenarbeit. Power BI Pro-Benutzer können alle Features im Dienst verwenden, aber diese Lizenz ist nicht kostenfrei. Wenn Sie keine Inhalte freigeben müssen, ist „Kostenlos“ wahrscheinlich ausreichend für Sie. Weitere Informationen hierzu erhalten Sie auf der Seite [Power BI – Preise](https://powerbi.microsoft.com//pricing/).
 
 Im Rest dieses Artikels wird erläutert, wie Sie sich für jede Option registrieren.
@@ -93,7 +93,7 @@ Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein kostenloses Ko
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>Vorgehensweise, wenn ich bereits zu einer vorhandenen Organisation gehöre
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>Vorgehensweise, wenn Sie bereits zu einer vorhandenen Organisation gehören
 Wenn Ihr Konto zu einer bestehenden Organisation gehört, werden Sie in einer Meldung gebeten, sich mit diesem Konto anzumelden. Wählen Sie **Weiter**, und melden Sie sich mit Ihrer Office 365-Anmeldung an.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
@@ -102,7 +102,7 @@ Sie sehen dann eine Meldung, in der Sie gebeten werden, **Starten** auszuwählen
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
-## <a name="in-service-power-bi-pro-60-day-trial"></a>Power BI Pro als 60-Tage-Testversion
+## <a name="in-service-power-bi-pro-60-day-trial"></a>Power BI Pro als 60-Tage-Testversion
 Nachdem Sie sich für ein kostenloses Konto registriert haben, erhalten Sie die Möglichkeit, die Pro-Version 60 Tage lang kostenlos zu testen. Während des Testzeitraums haben Sie Zugriff auf alle Pro-Features. Power BI Pro hat alle Features der kostenlosen Version von Power BI sowie zusätzliche Features für Freigeben und Zusammenarbeit. Weitere Informationen finden Sie unter [Power BI – Preise](https://powerbi.microsoft.com/pricing). Um eine 60 Tage lang gültige kostenlose Testversion von Power BI Pro auszuprobieren, melden Sie sich bei Power BI an, und testen Sie eins dieser Features von Power BI Pro:
 
 * [Erstellen eines App-Arbeitsbereichs](service-create-distribute-apps.md)
@@ -132,7 +132,7 @@ Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein Pro-Testkonto 
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
-## <a name="what-if-you-want-the-full-power-bi-pro"></a>Vorgehensweise, wenn Sie das vollständige Power BI Pro haben möchten
+## <a name="what-if-you-want-the-full-power-bi-pro"></a>Vorgehensweise, um das vollständige Power BI Pro zu erhalten
 Es gibt keine Möglichkeit, die Power BI Pro-Lizenz als Einzelperson zu erhalten. Sie müssen Ihren IT-Administrator bitten, die Lizenz zu erwerben und Ihrem Konto zuzuweisen. Weitere Informationen finden Sie unter [Erwerb von Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
 ## <a name="troubleshooting"></a>Problembehandlung
