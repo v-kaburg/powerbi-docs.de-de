@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c95261c7e29f73b8c68083d2a239e10abaf674e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f157a5efad5af44d4b97149c379211695800cfd9
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -94,7 +94,10 @@ Achten Sie darauf, dass die resultierende Aggregatspalte eine Zahl als Datentyp 
 
 Definieren eines Histogramms, das Brushing unterstützt – Brushing liegt vor, wenn visuelle Elemente miteinander verknüpft sind, sodass, nachdem ein Benutzer einen Datenpunkt in einem visuellen Element ausgewählt hat, in anderen visuellen Elementen auf der Berichtsseite Datenpunkte hervorgehoben oder gefiltert werden, die mit dem ausgewählten Datenpunkt verknüpft sind.  Da Daten zur Abfragezeit verarbeitet werden, müssen Sie eine Beziehung zwischen Tabellen erstellen und sicher sein, dass Sie wissen, welches Detailelement mit dem Bucket im Histogramm verknüpft ist und umgekehrt.
 
-Beginnen Sie den Vorgang, indem Sie die Option „Verweis“ für die Abfrage verwenden, die das Feld umfasst, für das Sie ein Histogramm erstellen möchten.  Geben Sie der neuen Abfrage den Namen „Buckets“.  Für dieses Beispiel soll die ursprüngliche Abfrage den Namen „Details“ haben.  Entfernen Sie als Nächstes alle Spalten außer der Spalte, die Sie als Bucket für das Histogramm verwenden möchten.  Verwenden Sie nun die Funktion „Duplikate entfernen“ in der Abfrage (diese Funktion wird im Kontextmenü angezeigt, wenn Sie die Spalte auswählen), damit die verbleibenden Werte die eindeutigen Werte in der Spalte sind.   Wenn Sie Dezimalzahlen haben, können Sie zunächst den Tipp zum Definieren von Buckets verwenden, um ein Histogramm zu erstellen, damit Sie eine verwaltbare Anzahl von Buckets erhalten.  Prüfen Sie jetzt die Daten, die in der Abfragevorschau angezeigt werden.  Wenn Sie leere Werte oder Nullwerte sehen, müssen Sie diese korrigieren, bevor Sie eine Beziehung erstellen.  Weitere Informationen finden Sie unter „Erstellen einer Beziehung, wenn die Daten Null- oder leere Werte haben“.   Dieser Ansatz kann problematisch sein, weil sortiert werden muss.  Informationen zur richtigen Sortierung der Buckets finden Sie unter „Sortierreihenfolge: Kategorien in der gewünschten Reihenfolge anzeigen“.  Hinweis: Sie sollten sich die Sortierreihenfolge überlegt haben, bevor Sie die visuellen Objekte erstellen.   
+Beginnen Sie den Vorgang, indem Sie die Option „Verweis“ für die Abfrage verwenden, die das Feld umfasst, für das Sie ein Histogramm erstellen möchten.  Geben Sie der neuen Abfrage den Namen „Buckets“.  Für dieses Beispiel soll die ursprüngliche Abfrage den Namen „Details“ haben.  Entfernen Sie als Nächstes alle Spalten außer der Spalte, die Sie als Bucket für das Histogramm verwenden möchten.  Verwenden Sie nun die Funktion „Duplikate entfernen“ in der Abfrage (diese Funktion wird im Kontextmenü angezeigt, wenn Sie die Spalte auswählen), damit die verbleibenden Werte die eindeutigen Werte in der Spalte sind.   Wenn Sie Dezimalzahlen haben, können Sie zunächst den Tipp zum Definieren von Buckets verwenden, um ein Histogramm zu erstellen, damit Sie eine verwaltbare Anzahl von Buckets erhalten.  Prüfen Sie jetzt die Daten, die in der Abfragevorschau angezeigt werden.  Wenn Sie leere Werte oder Nullwerte sehen, müssen Sie diese korrigieren, bevor Sie eine Beziehung erstellen.  Weitere Informationen finden Sie unter „Erstellen einer Beziehung, wenn die Daten Null- oder leere Werte haben“.   Dieser Ansatz kann problematisch sein, weil sortiert werden muss.  Informationen zur richtigen Sortierung der Buckets finden Sie unter „Sortierreihenfolge: Kategorien in der gewünschten Reihenfolge anzeigen“.  
+
+>[!NOTE]
+>Sie sollten sich die Sortierreihenfolge überlegt haben, bevor Sie Visuals erstellen.   
 
 Der nächste Schritt in der Vorgehensweise besteht darin, eine Beziehung zwischen den Abfragen „Buckets“ und „Details“ über die Bucketspalte zu definieren.  Klicken Sie in Power BI Desktop auf **Beziehungen verwalten** im Menüband.  Erstellen Sie eine Beziehung, in der sich „Buckets“ in der linken Tabelle und „Details“ in der rechten Tabelle befindet, und wählen Sie das Feld aus, das Sie für das Histogramm verwenden. 
 
