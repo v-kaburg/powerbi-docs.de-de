@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>Liste der verfügbaren Datenquellentypen
 | **Datenquelle** | **Live/DirectQuery** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Ja |Ja |
 | Analysis Services (tabellarisch) |Ja |Ja |
 | Analysis Services (mehrdimensional) |Ja |Ja |
 | Datei |Nein |Ja |

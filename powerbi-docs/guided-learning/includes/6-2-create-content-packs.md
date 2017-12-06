@@ -1,4 +1,4 @@
-In dieser Lektion erstellen Sie ein *Inhaltspaket* mit in Power BI bereits vorhandenen Artefakten und geben es dann für Ihre Kollegen frei.
+In dieser Lektion erstellen Sie ein *Inhaltspaket* mit in Power BI bereits vorhandenen Artefakten und geben es dann für Ihre Kollegen frei. 
 
 In **Mein Arbeitsbereich** werden ein Dashboard und darunter der Bericht und das Dataset angezeigt. Ich möchte diese als Paket für andere Benutzer in meiner Organisation freigeben, sodass sie sie wiederverwenden können.
 

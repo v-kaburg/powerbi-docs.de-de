@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Definieren von Rollen und Regeln in Power BI Desktop
 Sie können Rollen und Regeln in Power BI Desktop definieren. Wenn Sie etwas in Power BI veröffentlichen, werden auch die Rollendefinitionen veröffentlicht.
 
-Wenn Sie die dynamische Sicherheit nutzen möchten, müssen Sie den Previewschalter „Kreuzfilterung in beide Richtungen für DirectQuery aktivieren“. Dadurch können Sie plattformübergreifend filtern und die Sicherheitsfilter in beide Richtungen anwenden.
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 Gehen Sie wie folgt vor, um Sicherheitsrollen zu definieren:
 
 1. Importieren Sie Daten in Ihren Power BI Desktop-Bericht, oder konfigurieren Sie eine DirectQuery-Verbindung.

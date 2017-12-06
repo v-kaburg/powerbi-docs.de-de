@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4e2199aa5569249ec9706ee1ca02a7ca14eac080
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 32d5d2033805c1c7b32eff590bc2380e6dec6bbc
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="azure-and-power-bi"></a>Azure und Power BI
 Mit **Azure** -Diensten und **Power BI**können Sie Ihre für die Datenverarbeitung aufgewendete Arbeit in Analysen und Berichte überführen, die in Echtzeit Einblicke in Ihre Geschäftsabläufe bieten. Ob Ihre Datenverarbeitung cloudbasiert oder lokal erfolgt, einfach oder komplex ist, aus einer einzelnen Quelle stammt oder massiv skaliert ist, auf Bestandsdaten basiert oder Daten in Echtzeit erfasst werden – Azure und Power BI verfügen immanent über die erforderliche Konnektivität und Integration, um Ihren Business Intelligence-Bemühungen Leben einzuhauchen.

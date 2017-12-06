@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: d1c247b1c01d87dd273c5a3caca19d4e84ac5392
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: f2887b5d93a6f88c00f8ab8d21676ed53776b9f2
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Verwenden von R-gestützten, benutzerdefinierten Visualisierungen in Power BI
 In **Power BI Desktop** und im **Power BI-Dienst** können Sie R-gestützte benutzerdefinierte Visuals erstellen, ganz ohne Kenntnisse in R und ohne Skripts in R zu verfassen. Dadurch können Sie die analytischen Möglichkeiten von R-Visualisierungen und R-Skripten nutzen, ohne R erlernen oder in R programmieren zu müssen.

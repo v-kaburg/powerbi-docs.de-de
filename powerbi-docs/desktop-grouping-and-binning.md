@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 801adc4ddb22536e46273d2639b4a1f0b9496cca
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Verwenden von Gruppierung und Diskretisierung in Power BI Desktop
 Beim Erstellen von Visualisierungen in **Power BI Desktop** werden die Daten basierend auf Werten in den zugrunde liegenden Daten in Blöcken (oder **Gruppen**) aggregiert. Häufig ist dies ausreichend, in manchen Situationen ist es jedoch sinnvoll, die Darstellung der Blöcke zu verfeinern. Beispielsweise möchten Sie eventuell drei Kategorien von Produkten in einer größeren Kategorie (einer *Gruppe*) anordnen. Oder Umsatzzahlen sollen in Diskretisierungen der Größe 1.000.000 Dollar statt des gleichmäßig verteilten Betrags von 923.983 Dollar unterteilt werden.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 1ffbf698f3a53aa1075cf62f2e05467dcde73cee
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5139c6f9f7b2098b51a608fb7719f371173c291
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Analysieren von Webseitendaten mit Power BI Desktop (Lernprogramm)
 In diesem Tutorial erfahren Sie, wie Sie eine Tabelle mit Daten von einer Webseite importieren und zur Visualisierung dieser Daten einen Bericht erstellen. Im Rahmen dieses Prozesses navigieren Sie durch die auf einer Webseite verfügbaren Tabellen und wenden Datentransformierungsschritte an, um die Tabelle neu zu strukturieren.
