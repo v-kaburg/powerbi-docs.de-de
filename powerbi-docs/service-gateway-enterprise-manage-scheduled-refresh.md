@@ -1,6 +1,6 @@
 ---
 title: "Verwalten der Datenquelle – Import/Geplante Aktualisierung"
-description: "So verwalten Sie das Gateway vom Typ „On-premises data gateway“ und die zu diesem Gateway gehörigen Datenquellen. Dieser Artikel bezieht sich auf Datenquellen, die mit Import/Geplante Aktualisierung verwendet werden können."
+description: "So verwalten Sie On-premises data gateway und die zu diesem Gateway gehörigen Datenquellen. Dieser Artikel bezieht sich auf Datenquellen, die mit Import/Geplante Aktualisierung verwendet werden können."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c41035db173c937caedab92b65eeb66dbcfafdb9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 844f887a32dcd9f0749c769ee92d92fe6c81316c
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Verwalten der Datenquelle – Import/Geplante Aktualisierung
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. In diesem Artikel wird untersucht, wie mit Gateways und Datenquellen gearbeitet wird, die für die geplante Aktualisierung im Gegensatz zu DirectQuery oder Live-Verbindungen verwendet werden.
@@ -124,6 +124,6 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway](service-gateway-onprem.md)  
 [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Erste Schritte mit Power BI-Gateways
 Willkommen beim Handbuch **Erste Schritte mit Power BI-Gateways**. In dieser kurzen exemplarischen Vorgehensweise wird die Funktionsweise von Gateways erläutert und wie Sie ein eigenes Gateway installieren, konfigurieren und ausführen.  
@@ -42,9 +42,9 @@ In einem anderen Beispiel arbeiten Sie vielleicht in einer Organisation mit alle
 Glücklicherweise bietet Power BI zwei Gateways, die jeweils ideal zu diesen Szenarien passen. Diese zwei verfügbaren Power BI-Gateways sind:
 
 * **Lokales Datengateway (persönlicher Modus)**: ermöglicht einem Benutzer die Verbindung mit Datenquellen und kann nicht für andere Benutzer freigegeben werden. Kann nur mit Power BI verwendet werden.
-* **Lokales Datengateway**: ermöglicht mehreren Benutzern die Verbindung mit mehreren lokalen Datenquellen und kann mit Power BI, **PowerApps**, Flow und Azure Logic Apps verwendet werden, wobei jeweils eine einzelne Gatewayinstallation verwendet wird.
+* **Lokales Datengateway**: ermöglicht mehreren Benutzern die Verbindung mit mehreren lokalen Datenquellen und kann mit Power BI, PowerApps, Flow und Azure Logic Apps verwendet werden, wobei jeweils eine einzelne Gatewayinstallation verwendet wird.
 
-Beide Gateways haben eine ähnliche Funktion – sie erleichtern den Zugriff auf Daten, die sich in einem privaten lokalen Netzwerk befinden, sodass diese Daten in cloudbasierten Diensten wie Power BI verwendet werden können. Das persönliche Gateway kann von einer Person und nur über Power BI verwendet werden, das **lokale Datengateway** kann von vielen Benutzern und vielen Diensten verwendet werden.
+Beide Gateways haben eine ähnliche Funktion – sie erleichtern den Zugriff auf Daten, die sich in einem privaten lokalen Netzwerk befinden, sodass diese Daten in cloudbasierten Diensten wie Power BI verwendet werden können. Das Personal Gateway kann von einer Person und nur über Power BI verwendet werden, das **lokale Datengateway** kann von vielen Benutzern und vielen Diensten verwendet werden.
 
 Das Einrichten eines Gateways lässt sich in drei Abschnitte unterteilen:
 
@@ -162,7 +162,7 @@ Sie haben jetzt ein Gateway installiert und können Datenquellen hinzufügen. Se
 [Verwenden des lokalen Gateways](service-gateway-onprem.md)  
 [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
 [Lokales Datengateway (persönlicher Modus)](service-gateway-personal-mode.md)
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

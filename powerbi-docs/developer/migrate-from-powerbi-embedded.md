@@ -126,11 +126,11 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 #### <a name="directquery-dataset--report"></a>DirectQuery-Dataset & Bericht
 **Flow**
 
-1. Rufen Sie GET-https://api.powerbi.com/v1.0/collections/ {collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources auf, und speichern Sie die empfangene Verbindungszeichenfolge.
+1. Rufen Sie GET-https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources auf, und speichern Sie die empfangene Verbindungszeichenfolge.
 2. Herunterladen PBIX-API Aufrufen im PaaS-Arbeitsbereich.
 3. Speichern Sie die PBIX.
 4. Rufen Sie Import PBIX SaaS-Arbeitsbereich auf.
-5. Aktualisieren Sie die Verbindungszeichenfolge durch das Aufrufen von – POST https://api.powerbi.com/v1.0/myorg/datasets/ {dataset_id}/Default.SetAllConnections
+5. Aktualisieren Sie die Verbindungszeichenfolge durch das Aufrufen von – POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
 6. Rufen Sie GW-ID und Datasource-ID auf, indem Sie GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources aufrufen
 7. Aktualisieren Sie die Anmeldeinformationen eines Benutzers, indem Sie PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} aufrufen.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a2e533cccca9ec8748ab1a9c37ce5ff1577b357c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a499418572582388552e6a258051b2abddfc1bd
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -87,7 +87,7 @@ Die im vorherigen Absatz beschriebene Situation gilt auch für das Herstellen ei
 
 Das Verhalten von Berichten via SSAS nach der Veröffentlichung im **Power BI-Dienst** ist den DirectQuery-Berichten in folgenden Punkten ähnlich:
 
-* Beim Öffnen eines vorhandenen Berichts im **Power BI-Dienst** oder beim Schreiben eines neuen Berichts wird die zugrunde liegende SSAS-Quelle abgefragt (wobei womöglich ein lokales Datengateway erforderlich ist).
+* Beim Öffnen eines vorhandenen Berichts im **Power BI-Dienst** oder beim Schreiben eines neuen Berichts wird die zugrunde liegende SSAS-Quelle abgefragt (wobei möglicherweise ein lokales Datengateway erforderlich ist).
 * Dashboardkacheln werden automatisch nach einem Zeitplan aktualisiert (z.B. einmal pro Stunde oder wie auch immer die Häufigkeit definiert ist)
 
 Es gibt jedoch auch wichtige Unterschiede, z.B. wird für die Liveverbindung die Identität des Benutzers, der den Bericht öffnet, immer an die zugrunde liegende SSAS-Quelle übergeben.

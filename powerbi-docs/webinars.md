@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 11/27/2017
 ms.author: maikelson
-ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -29,9 +29,11 @@ Registrieren Sie sich für unsere nächsten Livewebinare, oder sehen Sie sich un
 
 ## <a name="featured-webinars"></a>Ausgewählte Webinare
 
-Machen Sie sich mithilfe dieser beliebten Webinare mit Power BI vertraut.
+Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertraut.
 
 - [Getting Started with Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website) (Erste Schritte mit Power BI, in englischer Sprache)
+
+- [Better Together: 5 Benefits Excel Users Will Get From Using Power BI](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website) (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI, in englischer Sprache)
 
 - [How to Design Visually Stunning Power BI Reports](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website) (Entwerfen von visuell beeindruckenden Power BI-Berichten, in englischer Sprache)
 
@@ -45,8 +47,6 @@ Machen Sie sich mithilfe dieser beliebten Webinare mit Power BI vertraut.
 Registrieren Sie sich, um sich von Power BI-Experten informieren zu lassen und an Live-Fragerunden teilzunehmen.
 
 >[Nehmen Sie an bevorstehenden Webinaren der Power BI-Community teil](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Better Together: 5 Benefits Excel Users Will Get From Using Power BI – 27.11.2017](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website) (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI, in englischer Sprache)
 
 - [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability – 05.12.2017](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren, in englischer Sprache)
 

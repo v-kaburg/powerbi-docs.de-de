@@ -22,7 +22,7 @@ Sie werden dann aufgefordert, den Assistenten zum Einrichten des Gateways zu sta
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3b.png)
 
-Sie werden aufgefordert, sich zunächst bei Ihrem Power BI-Dienstkonto und danach beim Windows-Konto des Computers anzumelden, da der Gateway-Dienst unter Ihrem Konto ausgeführt wird.
+Sie werden aufgefordert, sich zunächst bei Ihrem Power BI-Dienstkonto und danach beim Windows-Konto des Computers anzumelden, da der Gatewaydienst unter Ihrem Konto ausgeführt wird.
 
 ![](media/4-6-install-configure-personal-gateway/4-6_3c.png)
 

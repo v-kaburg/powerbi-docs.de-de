@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: addf4983bb3733f899d884515d21aae8da3eaf89
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f314e475d7a08ffe252144add1a887086a32a24d
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets auf einem lokalen Laufwerk
 ## <a name="whats-supported"></a>Was wird unterstützt?
@@ -65,7 +65,7 @@ Stellen Sie sicher, dass die Option **Benachrichtigungs-E-Mail zu Aktualisierung
 ## <a name="troubleshooting"></a>Problembehandlung
 Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf ein Problem mit dem Gateway hin. In den Artikeln über die Fehlerbehebung bei Gateways finden Sie Tools und Informationen zu bekannten Problemen.
 
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)
 
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

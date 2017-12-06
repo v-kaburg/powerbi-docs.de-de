@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen.  
@@ -76,7 +76,7 @@ Wenn in Power BI das verwendete Dataset Felder für Längen- und Breitengrad ent
 
 ![Breiten- und Längengrad](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>Verwenden Sie geografische Hierarchien, um einen Drilldown auf unterschiedliche Ebenen des Standorts ausführen zu können.
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>Verwenden Sie geografische Hierarchien, um einen Drilldown auf unterschiedliche Ebenen des Standorts ausführen zu können.
 Wenn das Dataset bereits verschiedene Ebenen von Standortdaten aufweist, können Sie und Ihre Kollegen mit Power BI *geografische Hierarchien* erstellen. Ziehen Sie zu diesem Zweck mehrere Felder in den Bucket **Standort**. Durch diese gemeinsame Verwendung der Felder wird aus ihnen eine geografische Hierarchie. Im folgenden Beispiel wurden die folgenden geografischen Felder hinzugefügt: „Land/Region“, „Bundesstaat“ und „Ort“. Sie und Ihre Kollegen können in Power BI mithilfe dieser geografischen Hierarchie Drilldowns und Drillups ausführen.
 
   ![Feld „Standort“](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

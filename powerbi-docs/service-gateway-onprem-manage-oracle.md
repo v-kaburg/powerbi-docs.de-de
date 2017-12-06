@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>Verwalten der Datenquelle – Oracle
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Oracle-Datenquelle für die geplante Aktualisierung oder für DirectQuery verwenden.
@@ -142,7 +142,7 @@ Sie können auf der Registerkarte „Benutzer“ für die Datenquelle Benutzer o
 Nachdem Sie die Datenquelle erstellt haben, kann diese mit DirectQuery-Verbindungen oder durch eine geplante Aktualisierung verwendet werden.
 
 > [!WARNING]
-> Die Namen des Servers und der Datenbank müssen in Power BI Desktop und in der Datenquelle innerhalb des lokalen Datengateways übereinstimmen.
+> Der Name des Servers und der Datenbank müssen in Power BI Desktop und in der Datenquelle auf dem lokalen Datengateway übereinstimmen.
 > 
 > 
 
@@ -176,12 +176,12 @@ Diese Fehler können auftreten, wenn der Oracle-Client nicht installiert ist ode
 > 
 > 
 
-Weitere Informationen zur Problembehandlung im Zusammenhang mit dem Gateway finden Sie unter [On-premises Data Gateway – Problembehandlung](service-gateway-onprem-tshoot.md).
+Weitere Informationen zur Problembehandlung im Zusammenhang mit dem Gateway finden Sie unter [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway](service-gateway-onprem.md)  
 [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

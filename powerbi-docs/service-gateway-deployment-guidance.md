@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: dee83471e0c8e2506902ac5bdb163163430bbb9a
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Leitfaden zum Bereitstellen eines Datengateways für Power BI
 Dieser Artikel bietet Anleitungen sowie Überlegungen zur Bereitstellung eines Datengateways in Ihrer Netzwerkumgebung. Ein **Gateway** ist eine Software, die den Zugriff auf Daten in einem privaten, lokalen Netzwerk erleichtert, um diese zu einem späteren Zeitpunkt in einem Clouddienst wie Power BI zu verwenden. Dieser Artikel führt Sie durch die Bereitstellung und bietet einen Leitfaden für die Einrichtung des **lokalen Datengateways**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Weitere Informationen zum **lokalen Datengateway**, einschließlich ein Link zur Installation, finden Sie in diesem [Blogpost](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Weitere Informationen zum **lokalen Datengateway**, einschließlich einem Link zur Installation, finden Sie in diesem [Blogpost](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Hinweise zur Installation für das lokale Datengateway
 Es gibt einige Überlegungen, die Sie bedenken sollten, bevor Sie sich zu sehr mit den Details der Installation und Bereitstellung beschäftigen. In den folgenden Abschnitten werden wichtige Aspekte beschrieben.
@@ -90,7 +90,7 @@ Sie können über das Tool **Windows-Systemmonitor** auf diese Leistungsindikato
 #### <a name="logs"></a>Protokolle
 Konfigurations- und Dienstprotokolle bieten einen anderen Blick auf die Vorkommnisse mit Ihrem Gateway. Überprüfen Sie immer Ihre Gatewayprotokolle, wenn die Verbindung nicht wie erwartet funktioniert, da nicht alle Fehlermeldungen im Power BI-Dienst angezeigt werden.
 
-Eine einfache Möglichkeit zum Anzeigen der Protokolldateien auf dem lokalen Computer ist die Verwendung der Schaltfläche *Protokolle exportieren* auf dem **lokalen Datengateway, wenn Sie das Gateway erneut öffnen, nachdem die anfängliche Installation abgeschlossen ist, und dann **Diagnose > Protokolle exportieren** auswählen.
+Eine einfache Möglichkeit zum Anzeigen der Protokolldateien auf dem lokalen Computer ist die Verwendung der Schaltfläche *Protokolle exportieren* auf dem **lokalen Datengateway**, wenn Sie das Gateway erneut öffnen, nachdem die anfängliche Installation abgeschlossen ist, und dann **Diagnose > Protokolle exportieren** auswählen.
 
 #### <a name="additional-logging"></a>Zusätzliche Protokollierung
 Standardmäßig führt das Gateway eine grundlegende Protokollierung durch. Wenn Sie Gatewayprobleme untersuchen und weitere Informationen zu Details der Abfrageverbindungen benötigen, können Sie zeitweise die *ausführliche Protokollierung* verwenden, um weitere Protokollinformationen zu sammeln. Wählen Sie hierzu im installierten Gateway **Diagnose > Zusätzliche Protokollierung** aus.
@@ -134,7 +134,7 @@ Um Ihre Gateway wiederherzustellen, stellen Sie sicher, dass Sie Administrator a
 Nachdem Sie sich angemeldet haben, wählen Sie die Option **Migrate an existing gateway** (Ein vorhandenes Gateway migrieren) aus. Als nächstes müssen Sie das Gateway auswählen, das Sie wiederherstellen oder migrieren möchten, und letztlich den Wiederherstellungsschlüssel bereitstellen und auf „Konfigurieren“ klicken. Nachdem dieser Schritt abgeschlossen ist, wird das alte Gateway mit dem neuen ersetzt, und das neue Gateway erbt dessen Namen und alle zuvor konfigurierten Datenquellen. Alle Datenquellen durchlaufen nun den neuen Computer, ohne dass Sie etwas erneut veröffentlichen müssen. Automatisches Failover wird noch nicht unterstützt. Allerdings handelt es sich um eine Funktion, die das Gateway-Team in Erwägung zieht.
 
 #### <a name="administrators"></a>Administratoren
-Sie finden eine Liste der Gateway-Administratoren im **Power BI-Dienst**. Wenn Sie sich im **Power BI-Dienst angemeldet haben, wählen Sie **Einstellungen** (das Zahnradsymbol) > „Gateways verwalten“ > Gateway UI (Gateway-Benutzeroberfläche) aus.  
+Sie finden eine Liste der Gateway-Administratoren im **Power BI-Dienst**. Wenn Sie sich beim **Power BI**-Dienst angemeldet haben, wählen Sie **Einstellungen** (das Zahnradsymbol) **> Gateways verwalten > Gateway UI** (Gateway-Benutzeroberfläche) aus.  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 
@@ -144,7 +144,7 @@ Dort können Sie ein Gateway auswählen und die Liste der Gatewayadministratoren
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Konfigurierung von Proxyeinstellungen](service-gateway-proxy.md)  
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Lokales Datengateway – Häufig gestellte Fragen](service-gateway-onprem-faq.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

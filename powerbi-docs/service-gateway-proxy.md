@@ -1,5 +1,5 @@
 ---
-title: "Konfigurieren von Proxyeinstellungen für On-premises Data Gateway"
+title: "Konfigurieren von Proxyeinstellungen für das lokale Datengateway"
 description: "Informationen zur Konfiguration von Proxyeinstellungen für On-premises Data Gateway"
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurieren von Proxyeinstellungen für On-premises Data Gateway
-Aufgrund Ihres Arbeitsumfelds ist es möglicherweise erforderlich, eine Internetverbindung über einen Proxy herzustellen. Dies kann eine Verbindung von On Premises Data Gateway mit dem Dienst verhindern.
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurieren von Proxyeinstellungen für das lokale Datengateway
+Aufgrund Ihres Arbeitsumfelds ist es möglicherweise erforderlich, eine Internetverbindung über einen Proxy herzustellen. Dies kann eine Verbindung des lokalen Datengateways mit dem Dienst verhindern.
 
 ## <a name="does-your-network-use-a-proxy"></a>Verwenden Ihr Netzwerk einen Proxy?
 Im folgende Beitrag auf superuser.com wird erläutert, wie Sie feststellen können, ob sich in Ihrem Netzwerk ein Proxy befindet.
@@ -58,7 +58,7 @@ Die standardmäßige Proxykonfiguration lautet wie folgt.
 
 Die Standardkonfiguration unterstützt die Windows-Authentifizierung. Wenn der Proxy eine andere Form der Authentifizierung verwendet, müssen Sie die Einstellungen zu ändern. Wenn Sie nicht sicher sind, wenden Sie sich an den Netzwerkadministrator.
 
-Weitere Informationen über die Konfiguration der Proxy-Elemente für NET-Konfigurationsdateien erhalte Sie unter [<defaultProxy>-Element (Netzwerkeinstellungen)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
+Weitere Informationen über die Konfiguration der Proxy-Elemente für NET-Konfigurationsdateien finden Sie unter [<defaultProxy>-Element (Netzwerkeinstellungen)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>Ändern des Gateway-Dienstkontos in einen Domänenbenutzer
 Wenn Sie die Proxyeinstellungen wie oben erläutert für die Verwendung von Standardanmeldeinformationen konfigurieren, können beim Proxy Authentifizierungsprobleme auftreten. Der Grund dafür ist, dass das Standarddienstkonto die Dienst-SID und nicht ein authentifizierter Domänenbenutzer ist. Sie können das Dienstkonto des Gateways ändern, um die ordnungsgemäße Authentifizierung beim Proxy zu ermöglichen.

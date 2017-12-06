@@ -772,7 +772,7 @@
           href: desktop-r-powered-custom-visuals.md
         - name: Verwenden von Gitternetzlinien und der Ausrichtung am Raster
           href: desktop-gridlines-snap-to-grid.md
-        - name: Stichprobenentnahme für visuelle Linienelemente mit hoher Dichte
+        - name: Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte
           href: desktop-high-density-sampling.md
         - name: Stichprobenentnahme mit hoher Dichte in Punktdiagrammen
           href: desktop-high-density-scatter-charts.md
@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: Migrations-Codeausschnitte
           href: developer/migrate-code-snippets.md
+        - name: Problembehandlung bei Embedded-Anwendungen
+          href: developer/embedded-troubleshoot.md
+        - name: HÄUFIG GESTELLTE FRAGEN
+          href: developer/embedded-faq.md
     - name: Erstellen benutzerdefinierter Visualisierungen
       items:
         - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools

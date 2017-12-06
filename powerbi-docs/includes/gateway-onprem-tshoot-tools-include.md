@@ -4,7 +4,7 @@
 ### <a name="collecting-logs-from-the-gateway-configurator"></a>Zusammenstellen von Protokollen über den Gateway-Konfigurator
 Es gibt verschiedene Protokolle, die für das Gateway erfasst werden können, und Sie sollten stets mit den Protokollen beginnen. Sie können Protokolle nach dem Installieren des Gateways am einfachsten über die Benutzeroberfläche erfassen. Wählen Sie auf der Benutzeroberfläche des **lokalen Datengateways** die Option **Diagnose** und anschließend den Link **Protokolle exportieren** am unteren Rand der Seite aus, wie in der folgenden Abbildung veranschaulicht.
 
-![Protokolle auf Benutzeroberfläche des lokalen Datengateways](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
+![Lokales-datengateway-UI-protokolle](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
 
 **Installationsprotokolle**
 
@@ -12,16 +12,16 @@ Es gibt verschiedene Protokolle, die für das Gateway erfasst werden können, un
 
 **Konfigurationsprotokolle**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+    %localappdata%\Microsoft\On-premises Data Gateway\GatewayConfigurator*.log
 
 **Dienstprotokolle des lokalen Datengateways**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+    C:\Users\PBIEgwService\AppData\Local\Microsoft\On-premises Data Gateway\Gateway*.log
 
 ### <a name="event-logs"></a>Ereignisprotokolle
 Die Ereignisprotokolle von **On-premises data gateway service** befinden sich unter **Application and Services Logs** (Anwendungs- und Dienstprotokolle).
 
-![on-prem-data-gateway-ereignis-protokolle](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
+![Lokales-datengateway-ereignisprotokolle](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
 
 <a name="fiddler" />
 

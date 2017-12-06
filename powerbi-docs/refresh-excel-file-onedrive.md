@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 936bcdc698a8a18a544b78d584835932c5d45d16
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 33b6cec4222947695fc3c5b822ff97bf1ef45670
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets in OneDrive oder SharePoint Online
 Sie können Excel-Arbeitsmappen importieren, die auf Ihrem Computer lokal oder in der Cloud (z.B. bei OneDrive for Business oder SharePoint Online) gespeichert sind. Im Folgenden behandeln wir die Vorteile des Cloudspeichers für Excel-Dateien. Weitere Informationen zum Importieren von Excel-Dateien in Power BI finden Sie unter [Abrufen von Daten aus Excel-Arbeitsmappendateien](service-excel-workbook-files.md).
@@ -105,7 +105,7 @@ Stellen Sie sicher, dass die Option **Benachrichtigungs-E-Mail zu Aktualisierung
 ## <a name="troubleshooting"></a>Problembehandlung
 Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf ein Problem mit dem Gateway hin. In den Artikeln über die Fehlerbehebung bei Gateways finden Sie Tools und Informationen zu bekannten Problemen.
 
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)
 
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

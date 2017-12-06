@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f3ebba5d1f8e47094865b51edd60f1f036098af4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e0b13b950aed0fbecbc183140f6ec4fc9c44978
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="configuring-scheduled-refresh"></a>Konfigurieren geplanter Aktualisierungen
 
@@ -122,7 +122,7 @@ Bestimmte Datasets werden gegenüber verschiedenen Gateways für geplante Aktual
 ## <a name="troubleshooting"></a>Problembehandlung
 Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf ein Problem mit dem Gateway hin. In den Artikeln über die Fehlerbehebung bei Gateways finden Sie Tools und Informationen zu bekannten Problemen.
 
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)
 
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -130,7 +130,7 @@ Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf e
 [Aktualisieren von Daten in Power BI](refresh-data.md)  
 [Power BI Gateway – Personal](personal-gateway.md)  
 [Lokales Datengateway](service-gateway-onprem.md)  
-[Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md)  
+[Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

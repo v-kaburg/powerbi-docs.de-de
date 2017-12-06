@@ -1,6 +1,6 @@
 ---
 title: Lokales Datengateway
-description: "Dieser Artikel bietet einen Überblick über On-premises data gateway für Power BI. Mithilfe dieses Gateways können Sie mit DirectQuery-Datenquellen arbeiten. Sie können damit außerdem die Clouddatasets mit lokalen Daten aktualisieren."
+description: "Dieser Artikel bietet einen Überblick über das lokale Datengateway für Power BI. Mithilfe dieses Gateways können Sie mit DirectQuery-Datenquellen arbeiten. Sie können damit außerdem die Clouddatasets mit lokalen Daten aktualisieren."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 4693349715e7a38ae936318e9a8750e0b2f3fab0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 On-premises data gateway fungiert als Brücke, da es eine schnelle und sichere Datenübertragung zwischen lokalen Daten (Daten außerhalb der Cloud) und den Power BI-, Microsoft Flow-, Logic Apps- und PowerApps-Diensten bereitstellt.
@@ -91,9 +91,9 @@ Beim Hinzufügen einer Datenquelle für das Gateway müssen Sie für diese Daten
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
 ## <a name="troubleshooting"></a>Problembehandlung
-Sollten beim Installieren und Konfigurieren eines Gateways Probleme auftreten, lesen Sie [Lokales Datengateway – Problembehandlung](service-gateway-onprem-tshoot.md). Wenn Sie glauben, dass ein Problem bei Ihrer Firewall aufgetreten ist, lesen Sie den Abschnitt [Firewall or Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) (Firewall oder Proxy) im Artikel zur Problembehandlung.
+Sollten beim Installieren und Konfigurieren eines Gateways Probleme auftreten, lesen Sie [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md). Wenn Sie glauben, dass ein Problem bei Ihrer Firewall aufgetreten ist, lesen Sie den Abschnitt [Firewall or Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) (Firewall oder Proxy) im Artikel zur Problembehandlung.
 
-Wenn Sie der Meinung sind, dass Proxy-Probleme mit dem Gateway vorliegen, finden Sie weitere Informationen unter [Konfigurieren von Proxyeinstellungen für Power BI Gateways](service-gateway-proxy.md).
+Wenn Sie der Meinung sind, dass Proxyprobleme mit dem Gateway vorliegen, finden Sie weitere Informationen unter [Konfigurieren von Proxyeinstellungen für Power BI-Gateways](service-gateway-proxy.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
@@ -102,7 +102,7 @@ Wenn Sie der Meinung sind, dass Proxy-Probleme mit dem Gateway vorliegen, finden
 [Verwalten der Datenquelle – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Verwalten der Datenquelle – Import/Geplante Aktualisierung](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
-[Lokales Datengateway (persönlicher Modus) – die neue Version des persönlichen Gateways](service-gateway-personal-mode.md)
-[Konfigurieren von Proxyeinstellungen für On-premises Data Gateway](service-gateway-proxy.md)  
+[Lokales Datengateway (persönlicher Modus) – die neue Version des Personal Gateway](service-gateway-personal-mode.md)
+[Konfigurieren von Proxyeinstellungen für das lokale Datengateway](service-gateway-proxy.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

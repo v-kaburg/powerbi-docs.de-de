@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b5f1122d405f35df8690390167fbdab2efd8ee8d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2d780c04a207f67b4f0f7c06672f993df3818275
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [laden Sie das Whitepaper „Sicherheit in Power BI“ herunter](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -63,5 +63,5 @@ Weitere Informationen finden Sie im [Microsoft Trust Center](https://www.microso
 
 Wie weiter oben in diesem Artikel beschrieben, wird die Anmeldung eines Benutzers bei Power BI von lokalen Active Directory-Servern zur Zuordnung zu einem Benutzerprinzipalnamen (UPN) als Anmeldeinformationen verwendet. Es ist jedoch **wichtig** zu beachten, dass Benutzer für die von ihnen freigegebenen Daten verantwortlich sind: Wenn ein Benutzer mithilfe seiner Anmeldeinformationen eine Verbindung zu Datenquellen herstellt, dann einen Bericht (oder ein Dashboard oder ein Dataset) basierend auf diesen Daten freigibt, sind Benutzer, für die das Dashboard freigegeben wird, für die ursprüngliche Datenquelle nicht authentifiziert und erhalten Zugriff auf den Bericht.
 
-Eine Ausnahme stellen Verbindungen mit **SQL Server Analysis Services** über das **lokale Datengateway** dar. Dabei werden Dashboards in Power BI zwischengespeichert. Beim Zugreifen auf zugrunde liegende Berichte oder Datasets wird jedoch von dem Benutzer, der auf den Bericht (oder das Dataset) zugreifen möchte, eine Authentifizierung angefordert, und der Zugriff nur dann gewährt, wenn der Benutzer über ausreichende Anmeldeinformationen für den Zugriff auf die Daten verfügt. Weitere Informationen finden Sie unter [On-premises Data Gateway deep dive](service-gateway-onprem-indepth.md) (Lokales Datengateway im Detail).
+Eine Ausnahme stellen Verbindungen mit **SQL Server Analysis Services** über das **lokale Datengateway** dar. Dabei werden Dashboards in Power BI zwischengespeichert. Beim Zugreifen auf zugrunde liegende Berichte oder Datasets wird jedoch von dem Benutzer, der auf den Bericht (oder das Dataset) zugreifen möchte, eine Authentifizierung angefordert, und der Zugriff wird nur dann gewährt, wenn der Benutzer über ausreichende Anmeldeinformationen für den Zugriff auf die Daten verfügt. Weitere Informationen finden Sie unter [On-premises Data Gateway deep dive](service-gateway-onprem-indepth.md) (Lokales Datengateway im Detail).
 

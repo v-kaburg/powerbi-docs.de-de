@@ -8,8 +8,8 @@ Der Bericht und die Daten, einschließlich der Visualisierungen, Abfragen und be
 
 ![](media/4-1-publish-reports/4-1_2.png)
 
-> HINWEIS: Power BI Desktop-Berichte werden üblicherweise als **PBIX**-Dateien bezeichnet. Diese Erweiterung erhalten sie in Windows.
-> 
+> [!NOTE]
+> Power BI Desktop-Berichte werden üblicherweise als **PBIX**-Dateien bezeichnet. Diese Erweiterung wird in Windows vergeben.
 > 
 
 Wenn der Upload abgeschlossen ist, weist ein Dialogfeld darauf hin, dass die Veröffentlichung erfolgreich war. Dieses Dialogfeld enthält außerdem einen Link, über den Sie direkt zu dem Bericht im Power BI-Dienst in einem Webbrowser gelangen.

@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Installieren von On-premises data gateway
+## <a name="install-the-on-premises-data-gateway"></a>Installieren des lokalen Datengateways
 Das Gateway lässt sich auf Ihrem Computer ausführen und installieren. Es wird empfohlen, das Gateway auf einem Computer zu installieren, der immer eingeschaltet sein kann.
 
 > [!NOTE]
@@ -20,7 +20,7 @@ Beim Installieren beider Modi des Gateways sind einige Punkte zu beachten:
 * Sie können mehrere lokale Gateways auf verschiedenen Computern installieren und alle über dieselbe Power BI Gateway-Verwaltungsschnittstelle verwalten (mit Ausnahme des persönlichen Modus, siehe folgender Aufzählungspunkt).
 * Sie können für jeden Power BI-Benutzer nur ein Gateway im persönlichen Modus ausführen. Wenn Sie ein weiteres Gateway im persönlichen Modus für denselben Benutzer installieren (selbst wenn dies auf einem anderen Computer geschieht), ersetzt die neueste Installation die vorhandene vorherige Installation.
 
-![on-prem-data-gateway-installation-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![Lokales-datengateway-installation-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 Die folgenden Punkte sollten Sie berücksichtigen, bevor Sie das Gateway installieren.
 
@@ -29,11 +29,11 @@ Die folgenden Punkte sollten Sie berücksichtigen, bevor Sie das Gateway install
 
 Sobald das Gateway installiert ist, müssen Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto anmelden.
 
-![on-prem-data-gateway-installation-anmeldung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![Lokales-datengateway-installation-anmeldung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 Nachdem Sie sich angemeldet haben, haben Sie die Option, ein neues Gateway zu konfigurieren oder ein bereits vorhandenes Gateway zu migrieren, wiederherzustellen oder zu übernehmen.
 
-![on-prem-data-gateway-installation-registrierung-wiederherstellung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![Lokales-datengateway-installation-registrierung-wiederherstellung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>Konfigurieren eines neuen Gateways
 1. Geben Sie einen **Namen** für das Gateway ein.
@@ -45,7 +45,7 @@ Nachdem Sie sich angemeldet haben, haben Sie die Option, ein neues Gateway zu ko
 > 
 > 
 
-![on-prem-data-gateway-installation-wiederherstellung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![Lokales-datengateway-installation-wiederherstellung](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Migrieren, wiederherstellen oder übernehmen eines vorhandenen Gateways
 Sie müssen das Gateway auswählen, das Sie wiederherstellen möchten und den Wiederherstellungsschlüssel bereitstellen, der verwendet wurde, als das Gateway erstellt wurde.

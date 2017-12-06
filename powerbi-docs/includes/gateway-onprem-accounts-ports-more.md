@@ -55,7 +55,7 @@ Sie können erzwingen, dass das Gateway zur Kommunikation mit Azure Service Bus 
 
 Beim Wert des *ServiceBusSystemConnectivityModeString*-Parameters muss die Groß-Kleinschreibung beachtet werden. Gültige Werte sind *AutoDetect* und *Https*.
 
-Alternativ können Sie ab der Version von [März 2017](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/) mithilfe der Gateway-Benutzeroberfläche dieses Verhalten des Gateways erzwingen. Wählen Sie auf der Gateway-Benutzeroberfläche **Netzwerk** aus, und wählen Sie dann für **Azure Service Bus connectivity mode** (Azure Service Bus-Verbindungsmodus) die Option **Ein** aus.
+Alternativ können Sie ab der Version von [März 2017](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/) mithilfe der Gateway-Benutzeroberfläche dieses Verhalten des Gateways erzwingen. Wählen Sie auf der Gateway-Benutzeroberfläche **Netzwerk** aus, und wählen Sie dann für **Azure Service Bus-Konnektivitätsmodus** die Option **Ein** aus.
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 

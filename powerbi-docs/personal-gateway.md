@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b1cb5bda9b80cb08ece111959884b840ff8d42cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway – Personal
 > [!NOTE]
@@ -93,7 +93,7 @@ Sehen wir uns die einzelnen Schritte näher an.
 > 
 > 
 
-Sie werden aufgefordert, ein Gateway zu installieren, wenn Sie zum ersten Mal für ein unterstütztes Dataset auf JETZT AKTUALISIEREN oder ZEITPLANAKTUALISIERUNG klicken. Klicken Sie alternativ im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
+Sie werden aufgefordert, ein Gateway zu installieren, wenn Sie zum ersten Mal für ein unterstütztes Dataset auf JETZT AKTUALISIEREN oder ZEITPLANAKTUALISIERUNG klicken. Klicken Sie alternativ im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie das [lokale Datengateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
 
 Sie sollten statt **On-premises data gateway** ein **Persönliches Gateway** auswählen, um ein eigenes Gateway zu besitzen.
 
@@ -186,8 +186,7 @@ Das Gateway kommuniziert über die ausgehenden Ports TCP 443 (Standardwert), 567
 Wenn Sie IP-Adressen in der Positivliste anstelle der Domänen benötigen, können Sie die Liste der Microsoft Azure Datacenter-IP-Bereiche herunterladen und verwenden. [Download](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Lokales Datengateway (persönlicher Modus) – die neue Version des persönlichen Gateways](service-gateway-personal-mode.md)
-
+[Lokales Datengateway (persönlicher Modus) – die neue Version des Personal Gateway](service-gateway-personal-mode.md)
 [Konfigurieren von Proxyeinstellungen für Power BI-Gateways](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)
 

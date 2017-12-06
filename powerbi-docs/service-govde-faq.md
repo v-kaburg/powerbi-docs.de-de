@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/28/2017
 ms.author: davidi
-ms.openlocfilehash: a606798e613bbfa4c1f304d89afa5f8ebd02f81d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9a2f191dcf88d3506ab0724c0916064b31fbf3f0
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland
 Der **Power BI-Dienst** verfügt über eine Version für Kunden in der Europäischen Union/Europäischen Freihandelszone (EU/EFTA), die häufig auch als Microsoft Cloud Deutschland (MCD) bezeichnet wird. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Kunden in der EU/EFTA konzipiert. Es handelt sich hierbei um ein eigenes, von der kommerziellen Version des **Power BI-Diensts** und von den Power BI-Diensten für Kunden in Behörden abweichendes Produkt.
@@ -42,7 +42,7 @@ Die folgenden Fragen und Antworten bieten wichtige Informationen für den Power 
 4. **Gibt es einen kostenlosen Dienst im Power BI-Dienst für die Microsoft Cloud Deutschland?**
    
    Nein. Wir bieten im Power BI-Dienst für die Microsoft Cloud Deutschland keine kostenlosen Lizenzversionen. Wir empfehlen Ihnen jedoch, sich für [Power BI Free in unserer öffentlichen Cloud](https://powerbi.microsoft.com/get-started/) zu registrieren, wenn sich Ihre geschäftlichen Anforderungen mit Power BI Free erfüllen lassen.
-5. **Kann ich mit dem Power BI-Dienst für die Microsoft Cloud Deutschland Power BI Desktop, Power BI Mobile, Lokales Datengateway und Publisher für Excel verwenden?**
+5. **Kann ich mit dem Power BI-Dienst für die Microsoft Cloud Deutschland Power BI Desktop, Power BI Mobile, lokales Datengateway und Publisher für Excel verwenden?**
    
    Ja. Wir haben unsere Power BI-Clientprodukte für die nahtlose Integration in den Power BI-Dienst für die Microsoft Cloud Deutschland aktualisiert. Melden Sie sich mit Ihrem Konto des Power BI-Diensts für die Microsoft Cloud Deutschland an, um die gleichen Clientprodukte mit dem Power BI-Dienst für die Microsoft Cloud Deutschland zu verwenden. Sie können die neueste Version der Clientprodukte auf den folgenden Webseiten herunterladen:
    
