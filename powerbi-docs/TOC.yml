@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Optimieren von Daten für schnelle Einblicke in Power BI
           href: service-insights-optimize.md
-        - name: Anzeigen einer Dashboardkachel im Vollbildmodus (TV-Modus)
-          href: service-tile-fullscreen-mode.md
         - name: Ausgewählte Dashboards in Power BI
           href: service-dashboard-featured.md
         - name: Erstellen einer Telefonansicht eines Dashboards
