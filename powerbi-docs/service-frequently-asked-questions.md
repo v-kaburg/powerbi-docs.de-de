@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
-* Sie können auch auf das **Kontaktsymbol** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) in der rechten unteren Ecke dieses Browserfenster klicken.
 
 ## <a name="what-is-microsoft-power-bi"></a>Was ist Microsoft Power BI?
 [Power BI](https://powerbi.microsoft.com/) ist ein cloudbasierter Business Analytics-Dienst, der jedem die Möglichkeit bietet, Daten schneller, effizienter und verständlicher zu visualisieren und zu analysieren. Er verbindet Benutzer mithilfe einfach zu verwendender Dashboards, interaktiver Berichte und eindrucksvoller Visualisierungen, die Daten lebendig werden lassen, mit einer großen Bandbreite von Daten.
@@ -156,5 +155,4 @@ Wie viele andere Microsoft-Dienste und Software bietet Power BI eine einfache M�
 ## <a name="next-steps"></a>Nächste Schritte
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
-* Sie können auch auf das **Kontaktsymbol** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) in der rechten unteren Ecke dieses Browserfenster klicken.
 
