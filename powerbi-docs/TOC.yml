@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Verwenden der Funktion „Datenschnitt für numerischen Bereich“
           href: desktop-slicer-numeric-range.md
-        - name: Verwenden eines relativen Datenschnitts mit Datum
-          href: desktop-slicer-filter-date-range.md
+        - name: Erstellen eines dynamischen Datenschnitts mit anpassbarer Größe
+          href: power-bi-slicer-filter-responsive.md
         - name: Erstellen benutzerdefinierter Power BI-Antwortkarten für Cortana
           href: service-cortana-answer-cards.md
         - name: Sicherheit auf Zeilenebene

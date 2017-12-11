@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 Mit Sicherheit auf Zeilenebene (Row-Level Security, RLS) kann der Benutzerzugriff auf Daten in einem Bericht oder Dataset eingeschränkt werden. So können mehrere verschiedene Benutzer denselben Bericht verwenden, während für jeden Benutzer unterschiedliche Daten angezeigt werden. RLS kann beim Einbetten von Berichten aus Power BI genutzt werden.
@@ -145,7 +145,7 @@ Rollen können in einem Einbettungstoken mit der Identität angegeben werden. We
 * Der Power BI-Dienst wendet die RLS-Einstellung nicht auf Administratoren oder Mitglieder mit Bearbeitungsberechtigungen an, wenn Sie eine Identität mit einem Einbettungstoken bereitstellen, jedoch auf die Daten.
 * Das Übergeben von Identitätsinformationen beim Aufruf von GenerateToken wird nur für den Lese-/Schreibzugriff auf Berichte unterstützt. Unterstützung für weitere Ressourcen wird später bereitgestellt.
 * Liveverbindungen von Analysis Services werden für lokale Server unterstützt.
-* Liveverbindungen von Azure Analysis Services werden nicht unterstützt.
+* Azure Analysis Services-Liveverbindungen unterstützen Filtern nach Rolle, jedoch nicht dynamisch nach Benutzernamen.
 * Wenn das zugrunde liegende Dataset kein RLS erfordert, darf die GenerateToken-Anforderung **keine** effektive Identität enthalten.
 * Wenn das zugrunde liegende Dataset ein Cloudmodell (Cachemodell oder DirectQuery) ist, muss die effektive Identität mindestens eine Rolle enthalten. Andernfalls erfolgt keine Rollenzuweisung.
 * In der Liste der Identitäten kann nur eine Identität bereitgestellt werden. In Zukunft wird eine Liste verwendet, um Token mit mehreren Identitäten für die Dashboardeinbettung zu ermöglichen.
