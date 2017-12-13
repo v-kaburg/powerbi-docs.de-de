@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
 Auf dieser Seite finden Sie Informationen zu bekannten Problemen und kürzlich veröffentlichen Features im **Power BI-Dienst**. Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -167,7 +167,7 @@ Alle Details finden Sie im [Blog des Power BI-Teams](https://powerbi.microsoft.c
 
 **28. April 2016**
 
-* [Schnelleinblicke in Dashboardkacheln](service-insights.md#run-quick-insights-on-a-dashboard-tile): Klicken Sie beim Anzeigen einer Kachel im Fokusmodus auf „Einblicke erhalten“, um die Kachel und ihre verknüpften Daten nach Korrelationen, Ausreißern, Trends, Saisonalität, Wendepunkten bei Trends und wichtigen Faktoren automatisch und binnen Sekunden zu durchsuchen.
+* [Schnelleinblicke in Dashboardkacheln](service-insights.md): Klicken Sie beim Anzeigen einer Kachel im Fokusmodus auf „Einblicke erhalten“, um die Kachel und ihre verknüpften Daten nach Korrelationen, Ausreißern, Trends, Saisonalität, Wendepunkten bei Trends und wichtigen Faktoren automatisch und binnen Sekunden zu durchsuchen.
 
 Alle Details finden Sie im [Blog des Power BI-Teams](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/).
 

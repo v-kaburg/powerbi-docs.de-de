@@ -92,6 +92,8 @@
           href: service-admin-premium-purchase.md
         - name: Verwalten von Power BI Premium
           href: service-admin-premium-manage.md
+        - name: Unterstützung für große Datasets
+          href: service-premium-large-datasets.md
         - name: Power BI Premium – Häufig gestellte Fragen
           href: service-premium-faq.md
         - name: Power BI Premium – Anmerkungen zu dieser Version
