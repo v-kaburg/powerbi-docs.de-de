@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Verwenden von OneDrive for Business-Links in Power BI Desktop
 Viele Anwender speichern Excel-Arbeitsmappen auf OneDrive for Business-Laufwerken, was auch für Power BI Desktop eine gute Praxis ist. Mit **Power BI Desktop** können Sie Hyperlinks für **Excel**-Dateien verwenden, die in **OneDrive for Business** gespeichert sind, um Berichte und visuelle Elemente zu erstellen. Sie können ein **OneDrive for Business**-Gruppenkonto oder Ihr persönliches **OneDrive for Business**-Konto verwenden.
@@ -37,7 +37,7 @@ Um einen Online-Link aus **OneDrive for Business** zu erstellen, sind einige zus
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. Wählen Sie in **Excel** die Option **Datei > Info** aus, und wählen Sie den Link über der Schaltfläche **Arbeitsmappe schützen** aus. Wählen Sie **Link in die Zwischenablage kopieren** aus.
+2. Wählen Sie in **Excel** die Option **Datei > Info** aus, und wählen Sie den Link über der Schaltfläche **Arbeitsmappe schützen** aus. Wählen Sie **Link in die Zwischenablage kopieren** aus (möglicherweise wird in Ihrer Version auch **Pfad in die Zwischenablage kopieren** angezeigt).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Einführung in DAX"
 metadata:
@@ -10,16 +11,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Hier erfahren Sie von einem renommierten Experten, wie Sie DAX-Ausdrücke erstellen und verwenden.\n"
-  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 11/15/2017
 - title: "Einführung in DAX"
   durationInMinutes: 9
   content: >
@@ -62,4 +63,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "Sie haben den Abschnitt **Einführung in DAX** des geführten Lernens zu Microsoft Power BI abgeschlossen.\0"
+- content: "Sie haben den Abschnitt **Einführung in DAX** des geführten Lernens zu Power BI abgeschlossen. Gut gemacht! Wenn Sie diese Lernprogramme nacheinander durchgearbeitet haben, sind Sie jetzt mit dem **geführten Lernen** fertig. Herzlichen Glückwunsch! Sie können jetzt mit **Power BI** beeindruckende Berichte und Dashboards erstellen, die Ihre Geschichte erzählen.\0"

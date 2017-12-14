@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Erste Schritte
 metadata:
@@ -12,17 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: >
-    Hier erfahren Sie, was Power BI ist, wie die Grundkkomponenten ineinandergreifen und wie Sie mit Ihnen Einblicke in Ihre Daten erhalten.
-  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "In diesem ersten Abschnitt des **geführten Lernens** erfahren Sie, was Power BI ist, wie die Grundkomponenten ineinandergreifen und wie Sie mit ihnen Einblicke in Ihre Daten erhalten.\n"
 - title: "Einführung in Power BI"
   durationInMinutes: 5
   content: >
@@ -49,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Sie haben den Abschnitt **Erste Schritte** des geführten Lernens zu Microsoft Power BI abgeschlossen.\0"
+- content: "Sie haben den Abschnitt **Erste Schritte** des geführten Lernens zu Microsoft Power BI abgeschlossen. Herzlichen Glückwunsch! Sie können jetzt mit dem nächsten Teil des geführten Lernens weitermachen, in dem es um das **Abrufen von Daten** geht. Wählen Sie unten die Schaltfläche **Abrufen von Daten** aus, um fortzufahren.\0"

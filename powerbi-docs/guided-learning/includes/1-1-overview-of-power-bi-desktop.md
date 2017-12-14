@@ -7,7 +7,7 @@ Wie immer in diesem Kurs folgen die Erläuterungen dem Arbeitsablauf in Power BI
 ## <a name="an-overview-of-power-bi-desktop"></a>Übersicht über Power BI Desktop
 Power BI Desktop ist ein Tool zum Herstellen einer Verbindung mit Ihren Daten sowie zum Bereinigen und Visualisieren der Daten. Mit Power BI Desktop können Sie eine Verbindung mit Daten herstellen und diese dann auf unterschiedliche Weise modellieren und darstellen. Die meisten Benutzer, die an Business Intelligence-Projekten arbeiten, nutzen dazu den Großteil der Zeit Power BI Desktop.
 
-Power BI Desktop können Sie [über das Internet](http://go.microsoft.com/fwlink/?LinkID=521662) oder über den Power BI-Dienst herunterladen. Klicken Sie oben rechts in Power BI einfach auf die Schaltfläche mit dem Pfeil nach unten, und wählen Sie dann „Power BI Desktop“ aus.
+Sie können Power BI Desktop [aus dem Web](http://go.microsoft.com/fwlink/?LinkID=521662) herunterladen, **Power BI Desktop** als App über den [**Windows Store**](http://aka.ms/pbidesktopstore) installieren oder aus dem Power BI-Dienst herunterladen. Klicken Sie zum Herunterladen von **Power BI Desktop** im Dienst oben rechts einfach auf die Schaltfläche mit dem Pfeil nach unten, und wählen Sie dann „Power BI Desktop“ aus.
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

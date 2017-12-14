@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "Veröffentlichen und Freigeben"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/06/2017
   ms.author: davidi
+  ms.openlocfilehash: c7204f34360f22f75c43ed65271d1263071719b9
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Das Potenzial von Daten lässt sich effektiver nutzen, wenn sie für andere freigegeben werden. Erfahren Sie, wie Sie Ihre in Power BI aus den Daten gewonnenen Erkenntnisse veröffentlichen, exportieren, freigeben und verteilen.\n"
-  ms.openlocfilehash: 2320f09340fc26313b06ffba3ae0bc6c23e05845
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 11/15/2017
 - title: "Einführung in Inhaltspakete, Sicherheit und Gruppen"
   durationInMinutes: 2
   content: >
@@ -32,7 +33,7 @@ items:
 - title: "Veröffentlichen von Power BI Desktop-Berichten"
   durationInMinutes: 2
   content: >
-    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+    > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
 
 
     [!INCLUDE [](includes/4-1-publish-reports.md)]
@@ -60,7 +61,7 @@ items:
 - title: Erstellen von Gruppen in Power BI
   durationInMinutes: 5
   content: >
-    > [!Video https://www.youtube.com/embed/-758Lnhj9DRo?rel=0]
+    > [!Video https://www.youtube.com/embed/758Lnhj9DRo?rel=0]
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
@@ -103,4 +104,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "Sie haben den Abschnitt **Veröffentlichen und Freigeben** des geführten Lernens zu Microsoft Power BI abgeschlossen.\0"
+- content: "Sie haben den Abschnitt **Veröffentlichen und Freigeben** des geführten Lernens zu Power BI abgeschlossen. Eine Einführung in DAX, die Sprache, mit der Abfragen in Power BI erstellt werden, erhalten Sie im nächsten Tutorial.\0"

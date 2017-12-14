@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -32,7 +32,7 @@ Ihre Geschäftskunden benötigen für den Betrieb ihres Unternehmens häufig meh
 
 Mit Power BI-Apps, die derzeit in der Vorschauphase sind, können Sie Sammlungen von Dashboards und Berichten erstellen und diese Apps in Ihrer gesamten Organisation oder für bestimmte Personen oder Gruppen veröffentlichen. Für Sie als Berichtersteller oder Administrator vereinfachen Apps das Verwalten von Berechtigungen für Sammlungen von Dashboards.
 
-Geschäftskunden erhalten Ihre Apps mit unterschiedlichen Methoden. Wenn der Power BI-Administrator Ihnen die entsprechende Berechtigung gewährt, können Sie sie automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Andernfalls können diese Ihre Apps über Microsoft AppSource installieren, oder Sie können ihnen einen direkten Link senden. Sie können die Inhalte problemlos finden und zu ihnen zurückkehren, da sich alles an zentraler Stelle befindet. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
+Geschäftskunden installieren diese Apps über Microsoft AppSource, oder Sie können ihnen einen direkten Link senden. Sie können die Inhalte problemlos finden und zu ihnen zurückkehren, da sich alles an zentraler Stelle befindet. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Apps und organisationsbezogene Inhaltspakete
 Apps sind die Weiterentwicklung von organisationsbezogenen Inhaltspaketen. Wenn Sie bereits über organisationsbezogene Inhaltspakete verfügen, können sie weiterhin neben Apps verwendet werden.
@@ -119,7 +119,7 @@ Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröf
    
      ![App-Inhalte](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Legen Sie schließlich unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation, bestimmte Personen oder E-Mail-Verteilerlisten. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie die App automatisch für die Empfänger installieren lassen.
+4. Legen Sie schließlich unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation oder nur bestimmte Personen oder Active Directory-Sicherheitsgruppen. 
    
      ![App-Zugriff](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröf
    
      ![Fertigstellen der App](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Die Geschäftskunden, für die Sie die App veröffentlicht haben, können diese auf unterschiedliche Arten finden. Wenn Sie die App automatisch installieren lassen konnten, wird sie im Power BI-Konto unter „Apps“ angezeigt.  Sie können ihnen einen direkten Link zur App senden, oder sie können in Microsoft AppSource, wo alle Apps angezeigt werden, auf die sie Zugriff haben, nach ihr suchen. Die App wird in der Liste angezeigt, wenn sie anschließend „Apps“ aufrufen.
+Die Geschäftskunden, für die Sie die App veröffentlicht haben, können diese auf zwei unterschiedliche Arten finden. Sie können ihnen einen direkten Link zur App senden, oder sie können in Microsoft AppSource, wo alle Apps angezeigt werden, auf die sie Zugriff haben, nach ihr suchen. Die App wird in der Liste angezeigt, wenn sie anschließend „Apps“ aufrufen.
 
 Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
 

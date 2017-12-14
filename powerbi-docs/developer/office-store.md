@@ -1,6 +1,6 @@
 ---
-title: "Veröffentlichen benutzerdefinierter Visualisierungen im Office Store"
-description: "Erfahren Sie, wie Sie eine benutzerdefinierte Visualisierung im Office Store veröffentlichen, damit sie von anderen gefunden und verwendet werden kann."
+title: "Veröffentlichen von benutzerdefinierten Visuals in AppSource"
+description: "Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Veröffentlichen benutzerdefinierter Visualisierungen im Office Store
-Erfahren Sie, wie Sie eine benutzerdefinierte Visualisierung im Office Store veröffentlichen, damit sie von anderen gefunden und verwendet werden kann.
+# <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
+Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann. Office
 
-Nachdem Sie eine benutzerdefinierte Visualisierung erstellt haben, empfiehlt es sich, sie im Office Store zu veröffentlichen, damit sie von anderen Personen gefunden und verwendet werden kann. Zuvor sind jedoch einige vorbereitende Schritte erforderlich. Weitere Informationen zum Erstellen einer benutzerdefinierten Visualisierung finden Sie unter [Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools](../service-custom-visuals-getting-started-with-developer-tools.md).
+Nachdem Sie ein benutzerdefiniertes Visual erstellt haben, empfiehlt es sich, es in AppSource zu veröffentlichen, damit es von anderen Personen gefunden und verwendet werden kann. Zuvor sind jedoch einige vorbereitende Schritte erforderlich. Weitere Informationen zum Erstellen einer benutzerdefinierten Visualisierung finden Sie unter [Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Was ist der Office Store? Einfach gesagt ist der Office Store der Ort, an dem Sie Apps (Add-Ins) für Ihre Office 365-Software finden. Im [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) finden Millionen von Benutzern von Office 365 Lösungen, mit denen sie die Effizienz ihrer Arbeit steigern, größere Einblicke gewinnen oder die Darstellung der Ergebnisse verbessern können.
+Was ist AppSource? Einfach ausgedrückt ist dies der Ort, an dem Sie SaaS-Apps und Add-Ins für Ihre Microsoft-Produkte und -Services finden. In [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) finden Millionen von Benutzern von Office 365, Dynamics 365, Cortana Intelligence und anderen Produkten Lösungen, mit denen sie die Effizienz ihrer Arbeit steigern, größere Einblicke gewinnen oder die Darstellung der Ergebnisse verbessern können.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Vorbereiten der Übermittlung Ihrer benutzerdefinierten Visualisierung
 Nachdem Sie die benutzerdefinierte Visualisierung codiert, getestet und als PBIVIZ-Datei gepackt haben, sollten Sie zudem die folgenden Elemente für die Übermittlung vorbereitet haben.
@@ -53,18 +53,18 @@ Vor Beginn der Übermittlung müssen Sie eine E-Mail an das Power BI-Team für b
 Fügen Sie die PBIVIZ-Datei und die PBIX-Beispielberichtsdatei als Anlage an die E-Mail an. Das Power BI-Team sendet eine Antwort mit Anweisungen und einer XML-Datei mit App-Paket zum Hochladen. Dieses XML-App-Paket ist erforderlich, um Ihr Visual über das Office Developer Center zu übermitteln.
 
 > [!NOTE]
-> Um die Qualität zu verbessern und zu verhindern, dass vorhandene Berichte beschädigt werden, dauert es nach der Genehmigung im Store weitere zwei Wochen, bis Aktualisierungen vorhandener Visualisierungen die Produktionsumgebung erreichen.
+> Um die Qualität zu verbessern und zu verhindern, dass vorhandene Berichte beschädigt werden, dauert es nach der Genehmigung im Store weitere zwei Wochen, bis Aktualisierungen vorhandener Visuals die Produktionsumgebung erreichen.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Übermitteln an den Office Store
-Nachdem Sie das XML-App-Paket vom Power BI-Team erhalten haben, navigieren Sie zum [Office Developer Center](https://sellerdashboard.microsoft.com/Application/Summary), um Ihr Visual an den Office Store zu übermitteln.
+## <a name="submitting-to-appsource"></a>Senden von Inhalten an AppSource
+Nachdem Sie das XML-App-Paket vom Power BI-Team erhalten haben, navigieren Sie zum [Developer Center](https://sellerdashboard.microsoft.com/Application/Summary), um Ihr Visual an AppSource zu übermitteln.
 
 > [!NOTE]
 > Sie benötigen ein gültiges Office-Entwicklerkonto, um sich beim [Office Developer Center](https://dev.office.com/) anzumelden. Das Office-Entwicklerkonto muss ein Microsoft-Konto (Live ID, z. B. hotmail.com oder outlook.com) sein.
 > 
 > [!IMPORTANT]
-> Vor der Übermittlung an den Office Store müssen Sie eine E-Mail mit der PBIVIZ-Datei und der PBIX-Datei an das Power BI-Team senden. Dies ist erforderlich, damit das Power BI-Team die Dateien auf den Server für die öffentliche Freigabe hochladen kann. Andernfalls kann der Office Store die Dateien nicht abrufen. Sie müssen bei jeder Übermittlung einer neuen Visualisierung, bei der Aktualisierung einer vorhandenen Visualisierung und bei Korrekturen von Visualisierungen, die vom Office Store abgelehnt wurden, die Dateien übermitteln.
+> Vor der Übermittlung an AppSource müssen Sie eine E-Mail mit der PBIVIZ-Datei und der PBIX-Datei an das Power BI-Team senden. Dies ist erforderlich, damit das Power BI-Team die Dateien auf den Server für die öffentliche Freigabe hochladen kann. Andernfalls kann der Store die Dateien nicht abrufen. Sie müssen bei jeder Übermittlung eines neuen Visuals, bei der Aktualisierung eines vorhandenen Visuals und bei Korrekturen von abgelehnten Visuals die Dateien übermitteln.
 > 
 > 
 

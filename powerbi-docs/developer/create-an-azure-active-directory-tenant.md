@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Erstellen eines Azure Active Directory-Mandanten für Power BI
 Erfahren Sie, wie Sie mithilfe der Power BI-REST-APIs einen neuen Azure Active Directory-Mandanten (Azure AD) für die Verwendung mit Ihrer benutzerdefinierten Anwendung erstellen können.
@@ -33,7 +33,7 @@ Wenn Sie sich im Besitz eines Azure AD-Mandanten befinden, können Sie eine Anwe
 Möglicherweise verfügt Ihre Organisation bereits über einen Azure AD-Mandanten, den Sie für Ihre Anwendung nutzen können. Sie können diesen Mandanten für die Zwecke Ihrer Anwendung nutzen oder einen neuen Mandanten speziell für Ihre Anwendung erstellen. Dieser Artikel befasst sich mit dem Erstellen eines neuen Mandanten.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Erstellen eines Azure Active Directory-Mandanten
-Um Power BI in Ihre benutzerdefinierte Anwendung integrieren zu können, müssen Sie eine Anwendung innerhalb von Azure AD definieren. Zu diesem Zweck benötigen Sie ein Verzeichnis in Azure AD. Dies ist Ihr Mandant. Wenn Ihre Organisation noch keinen Mandanten besitzt, weil sie Power BI oder Office 365 nicht verwendet, müssen Sie einen erstellen. Möglicherweise müssen Sie einen Mandanten auch dann erstellen, wenn Sie eine Vermischung Ihrer Anwendung mit dem Mandanten Ihrer Organisation verhindern möchten. Dadurch können Sie die Welten getrennt halten.
+Um Power BI in Ihre benutzerdefinierte Anwendung integrieren zu können, müssen Sie eine Anwendung innerhalb von Azure AD definieren. Zu diesem Zweck benötigen Sie ein Verzeichnis in Azure AD. Dies ist Ihr Mandant. Wenn Ihre Organisation noch keinen Mandanten besitzt, weil sie Power BI oder Office 365 nicht verwendet, [müssen Sie einen Mandanten erstellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Möglicherweise müssen Sie einen Mandanten auch dann erstellen, wenn Sie eine Vermischung Ihrer Anwendung mit dem Mandanten Ihrer Organisation verhindern möchten. Dadurch können Sie die Welten getrennt halten.
 
 Es kann auch sinnvoll sein, einen Mandanten für Testzwecke zu erstellen.
 

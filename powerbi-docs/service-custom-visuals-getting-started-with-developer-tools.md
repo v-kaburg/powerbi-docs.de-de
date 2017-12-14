@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
@@ -347,8 +347,8 @@ Weitere Informationen zu [Less](http://lesscss.org/).
 ## <a name="debugging"></a>Debuggen
 Tipps zum Debuggen von benutzerdefinierten Visualisierungen finden Sie im [Debug-Handbuch](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
-## <a name="submit-your-visual-to-the-office-store"></a>Übermitteln der Visualisierung an den Office Store
-Sie können Visualisierungen übermitteln, die in den Office Store aufgenommen werden sollen. Weitere Informationen zu diesem Vorgang finden Sie unter [Veröffentlichen benutzerdefinierter Visualisierungen im Office Store](developer/office-store.md).
+## <a name="submit-your-visual-to-appsource"></a>Senden von Visuals an AppSource
+Indem Sie Ihr Visual an AppSource senden, können Sie es für andere veröffentlichen. Weitere Informationen zu diesem Vorgang finden Sie im Artikel zum [Veröffentlichen benutzerdefinierter Visuals in AppSource](developer/office-store.md).
 
 ## <a name="troubleshooting"></a>Problembehandlung
 **Pbiviz-Befehl wurde nicht gefunden (oder ähnliche Fehler)**

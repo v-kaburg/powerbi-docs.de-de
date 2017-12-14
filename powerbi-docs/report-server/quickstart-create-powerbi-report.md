@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Schnellstart: Erstellen eines Power BI-Berichts für Power BI-Berichtsserver
 Sie können Power BI-Berichte lokal im Webportal von Power BI-Berichtsserver ebenso wie in der Cloud im Power BI-Dienst (https://powerbi.com) speichern und verwalten. Sie erstellen und bearbeiten Berichte in Power BI Desktop und veröffentlichen sie im Webportal. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.
 
 ![Power BI-Bericht im Webportal](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Wenn Sie bereits Power BI-Berichte in Power BI Desktop erstellt haben, sind Sie bereit, Power BI-Berichte für Power BI-Berichtsserver zu erstellen. Falls nicht, folgen hier vier schnelle Schritte, um Ihnen den Einstieg zu erleichtern.
+Hier finden Sie vier einfache Schritte, um Ihnen den Einstieg zu erleichtern.
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>Schritt 1: Installieren von Power BI Desktop (Berichtsserver)
-Möglicherweise haben Sie Power BI Desktop zum Erstellen von Berichten für den Power BI-Dienst bereits installiert. Wir empfehlen die Installation der Version von Power BI Desktop, die für Power BI-Berichtsserver optimiert ist, damit Sie sicher sein können, dass Server und App stets synchron sind. Es können beide Versionen von Power BI Desktop auf demselben Computer installiert sein.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Schritt 1: Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 
-1. Wählen Sie im Webportal von Power BI-Berichtsserver **Neu** > **Power BI-Bericht** aus.
-   
-    ![Neuer Power BI-Bericht](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Wenn Sie keinen Zugriff auf ein Webportal von Power BI-Berichtsserver haben, besuchen Sie das Microsoft Download Center, und laden Sie [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (für Power BI-Berichtsserver optimiert – Juni 2017 GA) herunter.
+Wenn Sie bereits Power BI-Berichte in Power BI Desktop erstellt haben, ist das Erstellen von Power BI-Berichten für Power BI-Berichtsserver auch nicht mehr schwer. Wir empfehlen die Installation der Version von Power BI Desktop, die für Power BI-Berichtsserver optimiert ist, damit Sie sicher sein können, dass Server und App stets synchron sind. Es können beide Versionen von Power BI Desktop auf demselben Computer installiert sein.
+
+1. Wählen Sie im Report Server Web-Portal die **herunterladen** Pfeil > **Power BI Desktop**.
+
+    ![Power BI Desktop aus dem Webportal herunterladen](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    Sie können auch direkt [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimiert für Power BI-Berichtsserver – Oktober 2017) im Microsoft Download Center aufrufen.
+
+2. Wählen Sie im Download Center **Download** aus.
+
+3. Wählen Sie abhängig von Ihrem Computer eine der folgenden Versionen aus:
+
+    - **PBIDesktopRS.msi** (32-Bit-Version) oder
+
+    - **PBIDesktopRS_x64.msi** (64-Bit-Version).
+
+4. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (Oktober 2017) aus.
+
 2. Aktivieren Sie am Ende des Installationsvorgangs **Power BI Desktop jetzt starten**.
    
-    Die App wird automatisch gestartet, sodass Sie gleich loslegen können. Anhand des Texts „Power BI Desktop (Berichtsserver)“ auf der Titelleiste erkennen Sie, dass Sie über die richtige Version verfügen.
+    Die App wird automatisch gestartet, sodass Sie gleich loslegen können. Anhand des Texts „Power BI Desktop (Oktober 2017)“ auf der Titelleiste erkennen Sie, dass Sie über die richtige Version verfügen.
+
+    ![Power BI Desktop-Version von Oktober 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Wenn Sie mit Power BI Desktop nicht vertraut sind, wird empfohlen, sich die Videos auf dem Begrüßungsbildschirm anzusehen.
    
     ![Startbildschirm von Power BI Desktop](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
