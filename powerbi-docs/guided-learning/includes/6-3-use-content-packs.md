@@ -32,5 +32,5 @@ Aber ich kann das Dashboard, den Bericht und sogar das Dataset bei Bedarf bearbe
 
 Inhaltspakete sind also eine einfache Möglichkeit, um Inhalte wiederzuverwenden, die von anderen Personen in Ihrer Organisation erstellt wurden.
 
-Weiter mit der nächsten Lektion: [Erstellen eines Inhaltspakets in Power BI](6-4-update-content-pack.md)
+Auf zur nächsten Lektion!
 

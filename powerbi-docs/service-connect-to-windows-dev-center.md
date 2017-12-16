@@ -72,7 +72,7 @@ Für dieses Inhaltspaket müssen Sie mindestens eine App im Windows Store veröf
 ## <a name="finding-parameters"></a>Suchen von Parametern
 Sie finden die Anwendungs-ID einer App, indem Sie unter „App-Verwaltung“ zur Seite „App-Identität“ wechseln.
 
-Die Anwendungs-ID befindet sich am Ende der URL für den Windows 10 Store: https://www.microsoft.com/store/apps/**{applicationId}**
+Die Anwendungs-ID befindet sich am Ende der URL für den Windows 10 Store: https://www.microsoft.com/store/apps/ **{applicationId}**
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erste Schritte mit Power BI](service-get-started.md)
