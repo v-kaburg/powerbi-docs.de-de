@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
           href: service-url-filters.md
+        - name: Bewährte Methoden zum Erstellen von schnellen und zuverlässigen Berichten in Power BI
+          href: power-bi-reports-performance.md
     - name: Visualisierungen
       items:
         - name: Visualisierungen in Power BI
@@ -746,6 +748,8 @@
       items:
         - name: Berichtsansicht in Power BI Desktop
           href: desktop-report-view.md
+        - name: Q&A in Power BI Desktop
+          href: desktop-qna-in-reports.md
         - name: Analysebereich in Power BI Desktop
           href: desktop-analytics-pane.md
         - name: Verwenden von Einblicken in Power BI Desktop

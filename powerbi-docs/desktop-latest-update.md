@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
 
-## <a name="november-2017-update-2524921202"></a>November 2017-Update (2.52.4921.202)
+## <a name="december-2017-update-2534954481-"></a>Dezember 2017-Update (2.53.4954.481)
 
 Sie können jetzt [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
 
-In diesem Monat gibt es zahlreiche Updates von **Power BI Desktop**. 
+Pünktlich zu den Feiertagen gibt es im Dezember jede Menge Updates für **Power BI Desktop** als Geschenke – voller Funktionen für alle, die sich für Business Intelligence interessieren. Und wir versprechen Ihnen, keiner bekommt eine Rute.
 
 Bedeutung der Links neben den einzelnen Updates:
 
@@ -44,40 +44,39 @@ In diesem Monat bietet **Power BI Desktop** die folgenden Updates:
 
 ### <a name="reporting"></a>Berichterstellung
 
--   Regelbasierte bedingte Formatierung für Tabellen- und Matrixvisuals [[Video]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
--   Zellenausrichtung in Tabellen- und Matrixvisuals [[Video]](https://youtu.be/sI3yRjdnJ7w?t=4m16s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
--   Steuern der Visualsortierung über den Auswahlbereich [[Video]](https://youtu.be/sI3yRjdnJ7w?t=6m21s) [[Blog]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane) 
--   Sperren von Objekten im Bericht [[Video]](https://youtu.be/sI3yRjdnJ7w?t=9m2s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock) 
--   Esri Plus-Abonnement ist für ArcGIS Maps für Power BI erhältlich [[Video]](https://youtu.be/sI3yRjdnJ7w?t=10m31s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
--   Berichtsoptionen für langsame Datenquellen [[Video]](https://youtu.be/sI3yRjdnJ7w?t=16m11s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
--   Verbesserungen der Filterleistung [[Video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   Kürzlich veröffentlichte benutzerdefinierte Visuals [[Video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   Fragen und Antworten zur Berichterstellung [[Video]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
+-   Kreuzhervorhebung für Lesezeichen [[Video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
+-   Mehr Flexibilität bei Lesezeichen [[Video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
+-   Bereich „Feldeigenschaften“ und Feldbeschreibungen [[Video]](https://youtu.be/ZPU8B-1BxjI?t=13m19s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
+-   Punktdiagrammvisual aus x- und y-Achsengruppierungen [[Video]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
+-   Stichprobenentnahme mit hoher Dichte für Karten auf Grundlage von Breiten- und Längengrad [[Video]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
+-   Dynamische Datenschnitte [[Video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
+-   Kürzlich veröffentlichte benutzerdefinierte Visuals [[Video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Analyse
 
--   Formatierung auf Zellenebene mehrdimensionaler AS-Modelle für mehrzeilige Zuordnung [[Video]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
+-   Drillfilter für andere Visuals [[Video]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
 
 ### <a name="data-connectivity"></a>Datenkonnektivität
 
--   Impala-Connector – Unterstützung für Windows-Authentifizierung [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
-
-
-### <a name="other"></a>Sonstige
-
--   Abfragebearbeitung – Verbesserungen beim Hinzufügen von Spalten aus Beispielen [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
+-   Adobe Analytics-Connector [[Video]](https://youtu.be/ZPU8B-1BxjI?t=30m35s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
+-   HDInsight Interactive Query-Connector [[Video]](https://youtu.be/ZPU8B-1BxjI?t=31m13s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
+-   Data.World-Connector [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
+-   Verbesserungen des SAP BW-Connectors [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
+-   Der IBM Netezza-Connector ist jetzt allgemein verfügbar [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
 
 
 
 > [!NOTE]
 > Sie können sich auch [alle für Power BI Desktop verfügbaren Datenquellen ansehen](desktop-data-sources.md). Die Liste wird ständig erweitert, daher sollten Sie sie in regelmäßigen Abständen konsultieren.
 
-Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
+Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
 
 Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Video auch im Blogbeitrag.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](mobile-whats-new-in-the-mobile-apps.md).

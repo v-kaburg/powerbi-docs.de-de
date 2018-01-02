@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -41,14 +41,11 @@ Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertra
 
 - [What's New and Exciting in Power BI Report Server – Nov 2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website) (Neue und spannende Funktionen in Power BI-Berichtsserver – November 2017, in englischer Sprache)
 
-
 ## <a name="upcoming-webinars"></a>Kommende Webinare
 
 Registrieren Sie sich, um sich von Power BI-Experten informieren zu lassen und an Live-Fragerunden teilzunehmen.
 
 >[Nehmen Sie an bevorstehenden Webinaren der Power BI-Community teil](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability – 05.12.2017](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren, in englischer Sprache)
 
 - [Improving Profitability in Healthcare – 12.12.2017](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Erhöhen der Rentabilität im Gesundheitswesen, in englischer Sprache)
 
@@ -60,6 +57,8 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Implementieren einer erfolgreichen Strategie für die Datenkontrolle, um die Sicherheit Ihrer Organisation zu erhöhen, in englischer Sprache)
 
+- [Transforming A Report From Good to GREAT!](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website) (Transformieren eines guten Berichts in einen großartigen Bericht, in englischer Sprache)
+
 - [Ask a Partner: Developing Custom Visuals for Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website) (Fragen Sie einen Partner: Entwickeln benutzerdefinierter Visuals für Power BI, in englischer Sprache)
 
 - [How Microsoft does Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website) (Wie Microsoft Power BI verwendet, in englischer Sprache)
@@ -67,6 +66,8 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 - [Applied Intelligence for Sales & Service](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website) (Angewendete Erkenntnisse für Vertrieb und Kundendienst, in englischer Sprache)
 
 - [Power BI security deep dive](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website) (Vertiefte Einblicke in die Sicherheit von Power BI, in englischer Sprache)
+
+- [Manufacturers: Your industry is going through a digital transformation – Maintain leadership by leveraging analytics to maximize profitability](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren, in englischer Sprache)
 
 ## <a name="see-also"></a>Siehe auch
 

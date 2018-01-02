@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>**Zuletzt verwendete** Inhalte im Power BI-Dienst
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>Was sind zuletzt verwendete Inhalte?
-Als zuletzt verwendete Inhalte gelten die letzten 20 Elemente, die Sie besucht haben.  Dazu gehören: Dashboards, Berichte, Apps und Arbeitsmappen.
+Die zuletzt verwendeten Inhalte sind die letzten Elemente, die Sie geöffnet haben (maximal 20 Elemente).  Dazu gehören Dashboards, Berichte, Apps und Arbeitsmappen in allen Ihren Arbeitsbereichen.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Lassen Sie sich von Amanda zeigen, wie Inhaltslisten des Typs **Zuletzt verwendet** aufgefüllt werden, und befolgen Sie dann die detaillierten Anweisungen unter dem Video, um es selbst ausprobieren.
 

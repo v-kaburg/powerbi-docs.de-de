@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Power BI bietet [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen Ihrer Dashboards](service-how-to-collaborate-distribute-dashboards-reports.md), und Freigeben ist nur eine davon.
@@ -91,6 +91,8 @@ Nur der Dashboardbesitzer kann die erneute Freigabe aktivieren und deaktivie
    * **Lesen**, um Freigaben dieser Person für andere Personen zu verhindern.
    * **Zugriff entfernen**, um zu verhindern, dass diese Person das Dashboard anzeigen kann.
 
+4. Legen Sie im Dialogfeld **Zugriff entfernen** fest, ob Sie auch den Zugriff auf verwandte Inhalte entfernen möchten, z.B. auf Berichte und Datasets. Wenn Sie Elemente mit einem Warnsymbol ![Power BI-Warnsymbol](media/service-share-dashboards/power-bi-warning-icon.png) entfernen, sollten Sie auch verwandte Inhalte entfernen, da sie nicht korrekt angezeigt werden.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Freigabe eines Dashboards für Personen außerhalb Ihrer Organisation
 Bei einer Freigabe für Personen außerhalb Ihrer Organisation erhalten diese eine E-Mail mit einem Link zum freigegebenen Dashboard, und sie müssen sich bei Power BI anmelden, um das Dashboard anzuzeigen. Wenn sie kein Power BI-Konto haben, können sie sich nach Klicken auf den Link für eines registrieren.
 
@@ -115,6 +117,33 @@ Aspekte, die beim Freigeben von Dashboards zu beachten sind:
 * Kollegen in derselben E-Mail-Domäne wie Sie und Kollegen, die zu einer anderen Domäne gehören, aber innerhalb desselben Mandanten registriert sind, können das Dashboard für andere freigeben. Angenommen, die Domänen „contoso.com“ und „contoso2.com“ sind im selben Mandanten registriert. Wenn Sie die E-Mail-Adresse konrads@contoso.com haben, ist sowohl ravali@contoso.com als auch gustav@contoso2.com eine Freigabe erlaubt, sofern Sie ihnen die Berechtigung zum Freigeben erteilt haben.
 * Wenn Ihre Kollegen bereits über den Zugriff auf ein bestimmtes Dashboard verfügen, können Sie einen direkten Link zu diesem Dashboard senden, indem Sie einfach die URL kopieren, wenn Sie sich auf dem Dashboard befinden. Beispiel: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Ebenso können Sie, wenn Ihre Kollegen bereits Zugriff auf ein bestimmtes Dashboard haben, [einen direkten Link zum zugrunde liegenden Bericht senden](service-share-reports.md). 
+
+## <a name="troubleshoot-sharing"></a>Behandeln von Problemen bei der Freigabe
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Die Empfänger meines Dashboards sehen ein Schlosssymbol auf einer Kachel oder die Meldung „Berechtigung erforderlich“.
+
+Wenn die Personen, für die Sie Inhalte freigeben, eine gesperrte Kachel in einem Dashboard oder die Meldung „Berechtigung erforderlich“ sehen, wenn sie einen Bericht anzeigen möchten, müssen Sie ihnen eine Berechtigung für das zugrunde liegende Dataset zuweisen. Dazu gehen Sie wie folgt vor.
+
+1. Wechseln Sie in der Liste Ihrer Inhalte zur Registerkarte **Datasets**.
+
+1. Wählen Sie die Auslassungspunkte (**...** ) neben dem Dataset > **Berechtigungen verwalten** aus.
+
+    ![Verwalten von Berechtigungen](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. Wählen Sie **Benutzer hinzufügen** aus.
+
+    ![„Benutzer hinzufügen“ auswählen](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Geben Sie die vollständigen E-Mail-Adressen für Einzelpersonen, Verteilergruppen oder Sicherheitsgruppen ein. Bei dynamischen Verteilerlisten sind Freigaben nicht möglich.
+
+    ![E-Mail-Adressen hinzufügen](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. Wählen Sie **Hinzufügen**.
+
+### <a name="i-cant-share-a-dashboard"></a>Ein Dashboard kann nicht freigegeben werden
+
+Zum Freigeben eines Dashboards müssen Sie über die Berechtigung zum Freigeben des zugrunde liegenden Inhalts verfügen, d.h. alle zugehörigen Berichte und Datasets. Wenn eine Meldung angezeigt wird, dass die Freigabe nicht möglich ist, bitten Sie den Autor des Berichts, Ihnen für diese Berichte und Datasets die Berechtigung zum erneuten Freigeben zu gewähren.
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.

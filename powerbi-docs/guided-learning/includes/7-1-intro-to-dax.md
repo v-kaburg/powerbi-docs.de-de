@@ -5,7 +5,7 @@ Willkommen zum Abschnitt **Geführtes Lernen** von Power BI, das Ihnen eine Einf
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX und die Videoreihe zum geführten Lernen
 Das Ziel dieses Abschnitts **Geführtes Lernen** ist es, Ihnen die Grundlagen von DAX zu vermitteln – wie man sich DAX vorstellt, wie es funktioniert und die nützlichsten Funktionen, die vom renommierten DAX-Experten [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) erklärt (und mit viel Erfahrung beigebracht) werden.
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Por­t­rät von Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 Die Videos in diesem Abschnitt des **geführten Lernens** von **DAX** vermitteln Ihnen DAX-Grundlagen und zwar in Bezug darauf, wie die DAX-Formelsprache funktioniert. Dies ist nützlich, wenn Sie DAX-Formeln von Grund auf neu erstellen und für das Verständnis darüber, wie Power BI diese DAX-Formeln erstellt, während Sie Abfragen im **Abfrage-Editor** erstellen.
 

@@ -1,6 +1,6 @@
 ---
-title: Anzeigen von Dashboards, Dashboardkacheln und Berichtsseiten im Vollbildmodus
-description: Zeigen Sie Dashboards, Dashboardkacheln und Berichtsseiten im Vollbildmodus (auch als TV-Modus bezeichnet) an.
+title: Zeigen Sie Dashboards, Dashboardkacheln, Berichtsseiten und Berichtsvisualisierungen im Vollbildmodus an.
+description: Zeigen Sie Dashboards, Dashboardkacheln, Berichtsvisuals und Berichtsseiten im Vollbildmodus (auch als TV-Modus bezeichnet) an.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Vollbildmodus in Power BI
 ## <a name="what-is-full-screen-mode"></a>Was ist der Vollbildmodus?
@@ -37,7 +37,7 @@ Einige Verwendungsmöglichkeiten des Vollbildmodus:
 * Anzeigen auf einem kleinen Bildschirm
 * Überprüfen im gesperrten Modus – Sie können den Bildschirm berühren oder mit dem Mauszeiger auf Kacheln zeigen, ohne den zugrunde liegenden Bericht oder das Dashboard zu öffnen.
 
-> **HINWEIS:**Der Vollbildmodus unterscheidet sich vom [Fokusmodus (Aufklappmodus)](service-focus-mode.md).
+> **HINWEIS**: Der Vollbildmodus unterscheidet sich vom [Fokusmodus (Aufklappmodus)](service-focus-mode.md).
 > 
 > 
 
@@ -75,7 +75,7 @@ Schauen Sie sich an, wie Amanda ihr Dashboard im Vollbildmodus öffnet, darin na
    
     ![Symbol „Berichtsnavigation“](media/service-fullscreen-mode/power-bi-report-nav2.png)       
     Verwenden Sie in Berichten im Vollbildmodus diese Pfeile, um zwischen den Seiten im Bericht zu wechseln.    
-3. Um den Vollbildmodus zu beenden, klicken Sie auf das Symbol **Vollbildschirm beenden**.
+3. Um den Vollbildmodus zu beenden, klicken Sie auf das Symbol **Vollbildmodus beenden**.
    
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
@@ -89,7 +89,7 @@ Schauen Sie sich an, wie Amanda ihr Dashboard im Vollbildmodus öffnet, darin na
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Dashboards in Power BI](service-dashboards.md)  
-[Fokusmodus für Dashboards und Dashboardkacheln](service-focus-mode.md)    
+[Fokusmodus](service-focus-mode.md)    
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
