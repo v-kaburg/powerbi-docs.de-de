@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tipps zum Gestalten von Power BI-Dashboards
 Nachdem Sie ein Dashboard erstellt und einige Kacheln hinzugefügt haben, können Sie Ihr Dashboard ansprechend und funktionell gestalten. In der Regel bedeutet das, dass die wichtigsten Informationen hervorgehoben werden, sodass das Dashboard ordentlich und übersichtlich ist.
@@ -54,7 +54,7 @@ Wenn die Texte und Visualisierungen auf Ihrem Dashboard alle gleich groß sind, 
 
 Stellen Sie jedoch unbedingt Kontext bereit.  
 
-Erfahren Sie, wie Sie [eine Kachel mit nur einer Nummer erstellen](power-bi-visualization-big-number.md).
+Erfahren Sie, wie Sie [eine Kachel mit nur einer Nummer erstellen](power-bi-visualization-card.md).
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>Die wichtigsten Informationen in der oberen Ecke platzieren
 Die meisten Personen lesen von oben nach unten. Daher sollten die wichtigsten Details oben angezeigt werden und weitere Einzelheiten in der Leserichtung Ihrer Zielgruppe eingefügt werden (von links nach rechts, von rechts nach links)

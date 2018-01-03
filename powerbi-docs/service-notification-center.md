@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f61ca9c4808cbcf180b60113eeade235b8d28f6d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-Benachrichtigungen
 Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI. Öffnen Sie sie, um Benachrichtigungen über neue Dashboards, die für Sie freigegeben wurden, Änderungen an Ihrem Gruppenbereich, Informationen zu Power BI-Veranstaltungen und -Meetings, eingerichtete Warnungen und viele weitere Benachrichtigungen anzuzeigen. Sie können [Warnungen im Power BI-Dienst festlegen](service-set-data-alerts.md) wie auch in den mobilen Power BI-Apps.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Deaktivieren der Datenschutzeinstellungen in Power BI-Gateway – Privat
 > [!NOTE]
@@ -59,7 +59,8 @@ Mithilfe der folgenden Schritte können Sie schnelles Kombinieren für Ihr priva
     Wenn Sie kein Administrator sind, ist die Datei in folgendem Pfad gespeichert.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2.Fügen Sie der Konfigurationsdatei das Element **&lt;EnableFastCombine&gt;** mit dem Wert „true“ hinzu. Durch das Hinzufügen dieses Elements wird die Option **Schnelles Kombinieren** aktiviert.
+    
+2. Fügen Sie das Element **&lt;EnableFastCombine&gt;** mit dem Wert „true“ der Konfigurationsdatei hinzu. Durch das Hinzufügen dieses Elements wird die Option **Schnelles Kombinieren** aktiviert.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ Mithilfe der folgenden Schritte können Sie schnelles Kombinieren für Ihr priva
     Wenn Sie kein Administrator sind, ist die Datei in folgendem Pfad gespeichert.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2.Entfernen Sie das Element **&lt;EnableFastCombine&gt;** aus der Konfigurationsdatei. Durch das Entfernen dieses Elements wird die Option **Schnelles Kombinieren** deaktiviert.
+
+2. Entfernen Sie das Element **&lt;EnableFastCombine&gt;** aus der Konfigurationsdatei. Durch das Entfernen dieses Elements wird die Option **Schnelles Kombinieren** deaktiviert.
 3. Schließen Sie den Gateway-Konfigurationsbildschirm, und rufen Sie ihn erneut auf.
 4. Der Status zur Aktivierung der Option **Schnelles Kombinieren** wird nicht mehr angezeigt.
 
