@@ -1,6 +1,6 @@
 ---
 title: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
-description: "Hier erfahren Sie, wie Sie in den mobilen Power BI-Apps und im Power BI-Dienst Warnungen festlegen, um Benachrichtigungen zu erhalten, wenn die Daten in einem Dashboard die von Ihnen festgelegten Grenzwerte überschreiten."
+description: "Sie können in den mobilen Power BI-Apps Warnungen festlegen, um Benachrichtigungen erhalten, wenn die Daten in einem Dashboard die von Ihnen festgelegten Grenzen überschreiten."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Festlegen von Datenwarnungen in den mobilen Power BI-Apps
 Gilt für:
@@ -30,7 +30,9 @@ Gilt für:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
 
-Sie können in den mobilen Power BI-Apps und im Power BI-Dienst Warnungen festlegen, um Benachrichtigungen zu erhalten, wenn die Daten in einem Dashboard die von Ihnen festgelegten Grenzwerte überschreiten. Warnungen können für Kacheln mit einer einzelnen Zahl (beispielsweise Karten und Messgeräte) verwendet werden, aber nicht für Streamingdaten. Sie können Datenwarnungen auf dem mobilen Gerät festlegen und im Power BI-Dienst anzeigen und umgekehrt. Nur Sie können die festgelegten Datenwarnungen sehen, auch wenn Sie ein Dashboard oder eine Momentaufnahme einer Kachel freigeben.
+Sie können Warnungen für Dashboards in den mobilen Power BI-Apps und im Power BI-Dienst festlegen. Mit Warnungen werden Sie benachrichtigt, wenn die Daten in einer Kachel die von Ihnen festgelegten Grenzen überschreiten. Warnungen können für Kacheln mit einer einzelnen Zahl (beispielsweise Karten und Messgeräte) verwendet werden, aber nicht für Streamingdaten. Sie können Datenwarnungen auf dem mobilen Gerät festlegen und im Power BI-Dienst anzeigen und umgekehrt. Nur Sie können die festgelegten Datenwarnungen sehen, auch wenn Sie ein Dashboard oder eine Momentaufnahme einer Kachel freigeben.
+
+Sie können Warnungen für Kacheln festlegen, wenn Sie über eine Power BI Pro-Lizenz verfügen oder wenn Sie eine kostenlose Power BI-Lizenz verwenden und das freigegebene Dashboard zu einer Premium-Kapazität gehört. 
 
 > [!WARNING]
 > Datengesteuerte Warnungsbenachrichtigungen liefern Informationen über Ihre Daten. Wenn das Gerät gestohlen wird, sollten Sie im Power BI-Dienst alle Regeln für datengesteuerte Warnungen deaktivieren. 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Exportieren von Daten aus Visualisierungen
 Wenn Sie die Daten anzeigen möchten, mit denen eine Visualisierung erstellt wird, können Sie [die Daten in Power BI anzeigen](service-reports-show-data.md) oder (als XLSX- bzw. CSV-Datei) in Excel exportieren.   
@@ -84,7 +84,7 @@ Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaff
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
-* Die maximale Anzahl von Zeilen, die aus **Power BI Desktop** in das CSV-Format exportiert werden kann, ist 30.000.
+* Die maximale Anzahl von Zeilen, die aus **Power BI Desktop** und aus dem **Power BI-Dienst** in das CSV-Format exportiert werden kann, ist 30.000.
 * In das XLSX-Format können maximal 150.000 Zeilen (Benutzer von Power BI Pro) bzw. 30.000 Zeilen (Benutzer von Power BI Free) aus dem **Power BI-Dienst** exportiert werden.
 * Wenn Sie DirectQuery verwenden, können maximal 16 MB Daten exportiert werden. Dies kann dazu führen, dass weniger als die maximale Anzahl von Zeilen exportiert wird, insbesondere wenn viele Spalten vorhanden sind, die Daten schwierig zu komprimieren sind und weitere Faktoren die Dateigröße erhöhen und die Anzahl exportierter Zeilen verringern.
 * Power BI unterstützt nur Exporte in visuelle Elemente mit einfachen Aggregaten. Für visuelle Elemente mit Modell- oder Berichtsmeasures sind keine Exporte verfügbar.

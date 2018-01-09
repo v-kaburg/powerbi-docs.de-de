@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
-Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten. Warnungen können nur für Kacheln, die über Berichtsvisuals angeheftet wurden, und nur für Messgeräte, KPIs und Karten eingerichtet werden. Warnungen können für aus Streamingdatasets erstellte Visuals festgelegt werden, die aus einem Bericht an ein Dashboard angeheftet wurden. Sie können jedoch nicht für Streamingkacheln festgelegt werden, die mit **Kachel hinzufügen** > **Benutzerdefinierte Streamingdaten** direkt im Dashboard erstellt wurden. Die Warnungen werden nur Ihnen angezeigt, auch wenn Sie das Dashboard freigeben. Datenwarnungen werden mit allen Plattformen synchronisiert. Sie können Datenwarnungen daher [in den mobilen Power BI-Apps](mobile-set-data-alerts-in-the-mobile-apps.md) und im Power BI-Dienst festlegen und anzeigen. Für Power BI Desktop sind keine Datenwarnungen verfügbar. Warnungen können auch [automatisiert und in Microsoft Flow integriert werden](https://flow.microsoft.com) -  – [probieren Sie es einfach aus](service-flow-integration.md).
+Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten. 
+
+Warnungen können nur für Kacheln, die über Berichtsvisuals angeheftet wurden, und nur für Messgeräte, KPIs und Karten festgelegt werden. Warnungen können für aus Streamingdatasets erstellte Visuals festgelegt werden, die aus einem Bericht an ein Dashboard angeheftet wurden. Sie können jedoch nicht für Streamingkacheln festgelegt werden, die mit **Kachel hinzufügen** > **Benutzerdefinierte Streamingdaten** direkt im Dashboard erstellt wurden. 
+
+Die Warnungen werden nur Ihnen angezeigt, auch wenn Sie das Dashboard freigeben. Datenwarnungen werden mit allen Plattformen synchronisiert. Sie können Datenwarnungen daher [in den mobilen Power BI-Apps](mobile-set-data-alerts-in-the-mobile-apps.md) und im Power BI-Dienst festlegen und anzeigen. Für Power BI Desktop sind keine Datenwarnungen verfügbar. Warnungen können auch [automatisiert und in Microsoft Flow integriert werden](https://flow.microsoft.com) -  – [probieren Sie es einfach aus](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ In diesem Beispiel wird eine Kartenkachel aus dem Beispieldashboard zur Einzelha
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Wählen Sie das Glockensymbol ![](media/service-set-data-alerts/power-bi-bell-icon.png) aus, um eine oder mehrere Warnungen für **Läden gesamt** hinzuzufügen.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Stellen Sie zunächst sicher, dass der Schieberegler auf **Ein** festgelegt ist, und geben Sie der Warnung einen Titel. Durch Titel lassen sich Warnungen schnell einordnen.
+1. Wählen Sie zunächst **+ Warnungsregel hinzufügen** aus, stellen Sie sicher, dass der Schieberegler auf **Ein** festgelegt ist, und geben Sie der Warnung einen Titel. Durch Titel lassen sich Warnungen schnell einordnen.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Scrollen Sie nach unten, und geben Sie die Warnungsdetails ein.  In diesem Beispiel erstellen wir eine Warnung, die uns einmal täglich benachrichtigt, wenn die Gesamtzahl der Läden die Zahl 100 überschreitet. Warnungen werden in der Mitteilungszentrale angezeigt. Und außerdem lassen wir uns von Power BI eine E-Mail senden.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Wählen Sie **Speichern**.
 
 ## <a name="receiving-alerts"></a>Empfangen von Warnungen
@@ -76,7 +79,7 @@ Anschließend sendet Power BI eine Warnung an Ihre Mitteilungszentrale und optio
    > 
 
 ## <a name="managing-alerts"></a>Verwalten von Warnungen
-Es gibt drei Möglichkeiten zum Verwalten von Warnungen: in der Dashboardkachel, im Menü für Power BI-Einstellungen und auf einer einzelnen Kachel in der [mobilen Power BI-App auf dem iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) oder in der [mobilen Power BI-App für Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Es gibt eine Reihe von Möglichkeiten zum Verwalten von Warnungen: in der Dashboardkachel, im Menü für Power BI-Einstellungen, auf einer einzelnen Kachel in der [mobilen Power BI-App auf dem iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) oder in der [mobilen Power BI-App für Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>In der Kachel
 1. Wenn Sie eine Warnung für eine Kachel ändern oder entfernen müssen, öffnen Sie das Fenster **Warnungen verwalten** erneut, indem Sie das Glockensymbol ![](media/service-set-data-alerts/power-bi-bell-icon.png) auswählen. Alle Warnungen, die Sie für diese Kachel festgelegt haben, werden angezeigt.

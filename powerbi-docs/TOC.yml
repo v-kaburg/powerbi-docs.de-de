@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Tutorial: Wasserfalldiagramme in Power BI'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Erstellen einer großen numerischen Kachel für ein Power BI-Dashboard durch Stellen einer Frage
-          href: power-bi-visualization-big-number.md
-        - name: Erstellen einer großen numerischen Kachel aus einem Power BI-Bericht
-          href: power-bi-visualization-big-number-report.md
+        - name: 'Tutorial: Karten (Kacheln für große Zahlen) in Power BI'
+          href: power-bi-visualization-card.md
         - name: Erstellen von erweiterten Analysen und Visualisierungen mithilfe von R-Skripts in Power BI
           href: service-r-visuals.md
     - name: Daten aus Dateien
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Integrieren von Inhalten in eine Anwendung (App ist Besitzer der Daten)
           href: developer/embed-sample-for-customers.md
+        - name: Einbetten von benutzerdefinierten Layouts in einer App
+          href: developer/embedded-custom-layout.md
         - name: Erstellen eines Azure Active Directory-Mandanten
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Registrieren einer Anwendung

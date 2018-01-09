@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Aktivieren von Cortana für den Zugriff auf Power BI-Berichte (und deren zugrunde liegende Datasets)
 Sie haben die [Einführung in Cortana für Power BI](service-cortana-intro.md) gelesen (falls nicht, sollten Sie diese lesen und dann hierher zurückkehren). Und jetzt möchten Sie es selbst auszuprobieren.  Bevor Sie in Cortana Fragen in natürlicher Sprache stellen und Antworten anhand der in Power BI-***Berichten*** gespeicherten Daten erhalten können, müssen einige Anforderungen erfüllt sein. Insbesondere müssen Sie folgende Aktionen ausführen.
@@ -47,11 +47,10 @@ Sie müssen sich für jedes Dataset, auf das Contana Zugriff haben soll, beim Po
 2. Das diesem Bericht zugeordnete Dataset heißt **Contoso Vertrieb**.
    
     ![Dataset „Contoso Vertrieb“](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Wählen Sie rechts oben im Power BI-Dienst das Zahnradsymbol und dann **Einstellungen** aus.
+3. Wählen Sie die **Auslassungspunkte (...) > Einstellungen** rechts neben dem Datasetnamen aus.  
    
-    ![„Einstellungen“ auswählen](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Wählen Sie die Registerkarte **Datasets** aus, und wählen Sie aus der Liste auf der linken Seite das Dataset aus, das Sie für Cortana aktivieren möchten.
-5. Wählen Sie **Q&A und Cortana** > **Cortana den Zugriff auf dieses Dataset erlauben** > **Anwenden** aus.
+    ![„Einstellungen“ auswählen](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Wählen Sie **Q&A und Cortana** > **Cortana den Zugriff auf dieses Dataset erlauben** > **Anwenden** aus.
    
    ![Dataset für Cortana-Zugriff](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ Sie müssen sich für jedes Dataset, auf das Contana Zugriff haben soll, beim Po
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Hinzufügen Ihrer Power BI-Anmeldeinformationen zu Windows
 Es muss Windows 10, Version 1511 oder höher, ausgeführt werden.
 
-1. Bestimmen Sie, welche Windows 10-Version Sie ausführen. Öffnen Sie **Einstellungen** > **System** > **Info**.
-   
+1. Bestimmen Sie, welche Windows 10-Version Sie ausführen. Öffnen Sie **Einstellungen**.
+    ![Windows-Einstellungen öffnen](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    Wählen Sie dann **System > Info** aus. Unten auf dem Bildschirm wird **Windows-Spezifikationen > Version** angezeigt.
+
    * Wenn Sie Windows 10, Version 1511 (Windows 10-Update vom November 2015), oder eine höhere Version vor Version 1607 verwenden, fügen Sie Ihr Geschäfts- oder Schulkonto und Ihr Microsoft-Konto hinzu (führen Sie Schritt 2 und 3 aus).
    * Wenn Sie Windows 10, Version 1607 (Windows 10-Update vom Juli 2016) oder eine höhere Version verwenden, fügen Sie Ihr Geschäfts- oder Schulkonto hinzu (führen Sie nur Schritt 2 aus).
-2. Fügen Sie Ihr Geschäfts- oder Schulkonto für Cortana hinzu.
+1. Fügen Sie Ihr Geschäfts- oder Schulkonto für Cortana hinzu.
    
    * Öffnen Sie **Einstellungen** > **Konten**.
      
        ![Einstellungen – Konten](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Führen Sie einen Bildlauf nach unten durch, und wählen Sie **Geschäfts- oder Schulkonto hinzufügen** aus.
+   * Führen Sie einen Bildlauf nach unten durch, und wählen Sie **Geschäfts- oder Schulkonto hinzufügen** aus. Sie können auch auf der Seite **Konten** die Option **Auf Arbeits- oder Schulkonto zugreifen > Verbinden** auswählen.
      
      ![Geschäftskonto hinzufügen](media/service-cortana-enable/power-bi-add-work-account2.png)
 

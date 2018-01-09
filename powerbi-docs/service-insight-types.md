@@ -1,6 +1,6 @@
 ---
-title: "Von Power BI unterstützte schnelle Einblicke"
-description: Schnelle Einblicke mit Power BI.
+title: "Von Power BI unterstützte Einblicke"
+description: "Schnelle Einblicke und „Einblicke anzeigen“ in Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Von Power BI unterstützte schnelle Einblicke
-## <a name="how-does-quick-insights-work"></a>Wie funktionieren schnelle Einblicke?
+# <a name="types-of-insights-supported-by-power-bi"></a>Von Power BI unterstützte Einblicke
+## <a name="how-does-insights-work"></a>Wie funktionieren Einblicke?
 Power BI durchsucht schnell verschiedene Teilmengen des Datasets unter Verwendung eines hoch entwickelten Algorithmus, um potenziell interessante Einblicke zu gewinnen. Power BI untersucht in einer festgelegten Zeit möglichst große Mengen des Datasets.
 
-Sie können schnelle Einblicke für ein Dataset oder eine Kachel ausführen (Verwandte Einblicke).   
+Sie können Einblicke für ein Dataset oder eine Dashboard-Kachel ausführen.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Nach welchen Typen von schnellen Einblicken kann gesucht werden?
+## <a name="what-types-of-insights-can-we-find"></a>Nach welchen Typen von Informationen kann gesucht werden?
 Im Folgenden finden Sie einige der verwendeten Algorithmen:
 
 ## <a name="category-outliers-topbottom"></a>Kategorieausreißer (oben/unten)
@@ -78,9 +78,9 @@ Erkennt in Daten auf einer Zeitreihe, wenn bestimmte Datums- oder Zeitangaben mi
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Schnelle Einblicke in Power BI](service-insights.md)
+[Power BI-Einblicke](service-insights.md)
 
-Wenn Sie ein Dataset besitzen, können Sie es [für Schnelleinblicke optimieren](service-insights-optimize.md).
+Wenn Sie ein Dataset besitzen, können Sie es [für Einblicke optimieren](service-insights-optimize.md).
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

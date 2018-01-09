@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Hinzufügen von Bildern, Text, Video und weiteren Elementen zu Ihrem Dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ Mithilfe des Steuerelements **Kachel hinzufügen** können Sie Ihrem Dashboard d
 Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeigt werden. Sie müssen die Bilddatei online speichern und eine Verknüpfung zu der Datei erstellen. Stellen Sie sicher, dass für den Zugriff auf die Bilddatei keine speziellen Anmeldeinformationen erforderlich sind. So muss beispielsweise für OneDrive und SharePoint eine Authentifizierung ausgeführt werden. Daher können dort gespeicherte Bilder nicht auf diese Weise dem Dashboard hinzugefügt werden.  
 
 1. Wählen Sie **Bild** > **Weiter**.
-2. Fügen Sie dem Bereich **Kacheldetails** Bildinformationen hinzu.
+2. Fügen Sie im Fenster **Bildkachel hinzufügen** Bildinformationen hinzu.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,17 +56,17 @@ Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeig
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Hinzufügen eines Textfelds oder einer Dashboardüberschrift
 1. Wählen Sie **Textfeld > Weiter**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **HINWEIS**: Fügen Sie eine Dashboardüberschrift hinzu, indem Sie diese in das Textfeld eingeben und die Schrift vergrößern.
-   > 
    > 
 2. Formatieren Sie das Textfeld:
    
    * Um einen Titel oberhalb des Textfelds anzuzeigen, wählen Sie **Titel und Untertitel anzeigen** aus, und geben Sie einen Titel und/oder einen Untertitel aus.
    * Geben Sie den Inhalt für das Textfeld ein, und formatieren Sie ihn.  
-   * Legen Sie optional einen benutzerdefinierten Link für den Titel fest.  Allerdings haben wir in diesem Beispiel Hyperlinks innerhalb des Textfelds selbst hinzugefügt, belassen Sie **Benutzerdefinierte Verknüpfung festlegen** also deaktiviert.
-3. Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position des Textfelds nach Bedarf.
+   * Legen Sie optional einen benutzerdefinierten Link für den Titel fest. Bei einem benutzerdefinierten Link kann es sich um eine externe Website oder ein Dashboard oder einen Bericht im Arbeitsbereich handeln. Allerdings haben wir in diesem Beispiel Hyperlinks innerhalb des Textfelds selbst hinzugefügt, daher lassen wir **Benutzerdefinierte Verknüpfung festlegen** deaktiviert.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
+3. Klicken Sie auf **Übernehmen**.  Ändern Sie auf dem Dashboard die Größe und Position des Textfelds nach Bedarf.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
@@ -74,7 +74,7 @@ Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeig
 Wenn Sie Ihrem Dashboard eine YouTube- oder Vimeo-Videokachel hinzufügen, wird das Video direkt auf Ihrem Dashboard abgespielt.
 
 1. Wählen Sie **Video > Weiter**.
-2. Fügen Sie dem Bereich **Kacheldetails** Videoinformationen hinzu.
+2. Fügen Sie im Bereich **Videokachel hinzufügen** Videoinformationen hinzu.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Fügen oder geben Sie HTML-Inhalte ein.  Power BI fügt diese als Kachel Ihrem D
    
    * Um einen Titel oberhalb der Kachel anzuzeigen, wählen Sie *Titel und Untertitel anzeigen* aus und geben einen Titel und/oder Untertitel ein.
    * Geben Sie den Einbindungscode ein. In diesem Beispiel wird ein Twitter-Feed kopiert und eingefügt.
-   * Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position der Webinhaltskachel nach Bedarf.
+3. Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position der Webinhaltskachel nach Bedarf.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

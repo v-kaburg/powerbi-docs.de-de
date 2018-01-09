@@ -15,16 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>Kopieren und Einfügen einer Visualisierung in Power BI
-1. Öffnen Sie in Power BI in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) einen Bericht und [erstellen Sie eine Visualisierung](power-bi-report-add-visualizations-i.md), wenn es darin noch keine gibt. 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Informationen zum Kopieren und Einfügen einer Visualisierung im Power BI-Dienst und in Power BI Desktop
+Zum Kopieren und Einfügen einer Visualisierung benötigen Sie Bearbeitungsberechtigungen für den Bericht. Im Power BI-Dienst muss der Bericht hierzu in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) geöffnet werden.
+
+1. Öffnen Sie einen Bericht, der mindestens eine Visualisierung enthält.  
+
 2. Wählen Sie die Visualisierung aus und verwenden Sie **STRG + C** zum Kopieren und **STRG + V** zum Einfügen.  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 

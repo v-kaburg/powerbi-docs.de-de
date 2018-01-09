@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Schnellstart: Erstellen eines Power BI-Berichts für Power BI-Berichtsserver
 Sie können Power BI-Berichte lokal im Webportal von Power BI-Berichtsserver ebenso wie in der Cloud im Power BI-Dienst (https://powerbi.com) speichern und verwalten. Sie erstellen und bearbeiten Berichte in Power BI Desktop und veröffentlichen sie im Webportal. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.
@@ -112,6 +112,7 @@ Power BI-Berichtsserver-Berichte unterstützen Folgendes nicht:
 * Visuelle R-Elemente
 * ArcGIS-Karten
 * Brotkrümel
+* Vorschaufeatures für Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>In den mobilen Power BI-Apps
 Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobilen Power BI-Apps](../mobile-apps-for-mobile-devices.md), einschließlich:

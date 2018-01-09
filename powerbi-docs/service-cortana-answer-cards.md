@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie den vollständigen Funktionsumfang von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als „Cortana-Antwortkarten“) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Wenn Sie die Vorschauversion für Cortana und Power BI-**Dashboards** testen, müssen Sie den Rest dieses Artikels nicht lesen. Es gelten keine Setupanforderungen, damit Cortana Ihre Power BI-Dashboards durchsuchen kann.
 > 
 > 
@@ -63,7 +63,7 @@ Die Größe einer *Cortana-Antwortseite* in einem Bericht ist speziell für Cort
    > Um die Ergebnisse zu verbessern, sollten Sie keine Wörter verwenden, die auch Spaltennamen sind.
    > 
    > 
-6. Wenn der Bericht über Filter auf Seitenebene verfügt, legen Sie **Einfachauswahl erfordern**fest. Cortana zeigt diesen Bericht nur dann als Antwort an, wenn ein einziges der Filterelemente in der Frage angegeben ist.
+6. Wenn der Bericht über Filter auf Seitenebene verfügt, sollten Sie **Einfachauswahl erforderlich** festlegen (optional). Cortana zeigt diesen Bericht nur dann als Antwort an, wenn ein einziges der Filterelemente in der Frage angegeben ist. **Einfachauswahl erforderlich** wird unten im Bereich **Filter** angezeigt.
    
    > [!NOTE]
    > Damit Cortana einen Bericht mit Seitenebenenfiltern anzeigen kann, muss **Einfachauswahl erforderlich** nicht festgelegt werden.  Beispiel: Die Aufforderung „Verkäufe für Charlotte Lindseys anzeigen“ erzeugt unabhängig von der Einstellung „Einfachauswahl erforderlich“ eine Antwortseite.

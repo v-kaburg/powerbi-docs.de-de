@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
-Mit Sicherheit auf Zeilenebene (Row-Level Security, RLS) kann der Benutzerzugriff auf Daten in einem Bericht oder Dataset eingeschränkt werden. So können mehrere verschiedene Benutzer denselben Bericht verwenden, während für jeden Benutzer unterschiedliche Daten angezeigt werden. RLS kann beim Einbetten von Berichten aus Power BI genutzt werden.
+Mit der Sicherheit auf Zeilenebene (Row Level Security,RLS) kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
 
-Wenn Sie Berichte für Benutzer einbetten, die nicht Power BI verwenden (die App ist Besitzer der Daten), was i. d. R. bei ISVs der Fall ist, ist dieser Artikel für Sie relevant. Sie müssen das Einbettungstoken konfigurieren, um den Benutzer und die Rolle anzugeben. Die Vorgehensweise wird im Folgenden beschrieben.
+Wenn Sie Berichte für Benutzer einbetten, die nicht Power BI verwenden (d.h. die App ist Besitzer der Daten), was normalerweise bei ISVs der Fall ist, ist dieser Artikel für Sie relevant. Sie müssen das Einbettungstoken konfigurieren, um den Benutzer und die Rolle anzugeben. Die Vorgehensweise wird im Folgenden beschrieben.
 
 Wenn Sie Berichte für Power BI-Benutzer in der Organisation einbetten (der Benutzer ist der Besitzer der Daten), wird RLS auf die gleiche Weise wie direkt im Power BI-Dienst angewendet. Sie müssen in der Anwendung nichts unternehmen. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI](../service-admin-rls.md).
 
@@ -34,7 +34,7 @@ Wenn Sie Berichte für Power BI-Benutzer in der Organisation einbetten (der Benu
 
 Um RLS nutzen zu können, müssen Sie drei wichtige Konzepte verstehen: Benutzer, Rollen und Regeln. Sehen wir uns diese im Einzelnen genauer an:
 
-**Benutzer**: Dies sind die Endbenutzer, die Berichte anzeigen. In Power BI Embedded werden Benutzer durch die username-Eigenschaft in einem Einbettungstoken identifiziert.
+**Benutzer**: Endbenutzer, die das Artefakt (Dashboard, Kachel, Bericht oder Dataset) anzeigen. In Power BI Embedded werden Benutzer durch die username-Eigenschaft in einem Einbettungstoken identifiziert.
 
 **Rollen**: Benutzer gehören Rollen an. Eine Rolle ist ein Container für Regeln. Sie kann z.B. mit *Vertriebsleiter* oder *Vertriebsmitarbeiter* benannt werden. Rollen werden in Power BI Desktop erstellt. Weitere Informationen finden Sie unter [Sicherheit auf Zeilenebene (row-level Security; RLS) mit Power BI Desktop](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ Nachdem Sie jetzt die Power BI Desktop-Rollen konfiguriert haben, müssen in Ihr
 
 Benutzer werden durch die Anwendung authentifiziert und autorisiert, und mithilfe von Einbettungstoken wird einem Benutzer Zugriff auf einen bestimmten Power BI Embedded-Bericht gewährt. Power BI Embedded verfügt über keine Informationen über die Identität des Benutzers. Damit RLS erfolgreich angewendet wird, müssen Sie im Einbettungstoken zusätzlichen Kontext in Form von Identitäten übergeben. Dies erfolgt durch die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API.
 
-Die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API akzeptiert eine Liste von Identitäten mit Angabe der entsprechenden Datasets. Derzeit kann nur eine Identität bereitgestellt werden. In Zukunft werden auch mehrere Datasets für das Einbetten von Dashboards unterstützt. Für die erfolgreiche Anwendung von RLS müssen Sie Folgendes als Teil der Identität übergeben.
+Die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API akzeptiert eine Liste von Identitäten mit Angabe der entsprechenden Datasets. Für die erfolgreiche Anwendung von RLS müssen Sie Folgendes als Teil der Identität übergeben.
 
 * **username** (obligatorisch): Dies ist eine Zeichenfolge, die beim Anwenden von RLS-Regeln zum Identifizieren des Benutzers verwendet werden kann. Es kann nur ein einziger Benutzer aufgelistet werden.
 * **roles** (obligatorisch): Eine Zeichenfolge, in der die Rollen angegeben werden, die beim Anwenden von Regeln für die Sicherheit auf Zeilenebene ausgewählt werden sollen. Wenn mehrere Rollen übergeben werden, müssen sie als Zeichenfolgenarray übergeben werden.
-* **dataset** (obligatorisch): Das entsprechende Dataset für den Bericht, den Sie einbetten. Es kann nur ein Dataset in der Liste der Datasets bereitgestellt werden. In Zukunft werden auch mehrere Datasets für das Einbetten von Dashboards unterstützt.
+* **Dataset** (obligatorisch): Das entsprechende Dataset für das Artefakt, das Sie einbetten. 
 
 Sie können das Einbettungstoken mit der **GenerateTokenInGroup**-Methode für **PowerBIClient.Reports** erstellen. Derzeit werden nur Berichte unterstützt.
 
@@ -125,7 +125,7 @@ Wenn Sie die REST-API aufrufen, akzeptiert die aktualisierte API ein zusätzlich
 }
 ```
 
-Da jetzt alle Komponenten implementiert sind, werden für einen Benutzer, der sich zum Anzeigen des Berichts bei der Anwendung anmeldet, nur die Daten angezeigt, die für ihn gemäß der von uns definierten Sicherheit auf Zeilenebene angezeigt werden dürfen.
+Da jetzt alle Komponenten implementiert wurden, werden für einen Benutzer, der sich zum Anzeigen dieses Artefakts bei der Anwendung anmeldet, nur die Daten angezeigt, die für ihn gemäß der von uns definierten Sicherheit auf Zeilenebene angezeigt werden dürfen.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Arbeiten mit den Liveverbindungen von Analysis Services
 Bei Liveverbindungen von Analysis Services kann für lokale Server Sicherheit auf Zeilenebene verwendet werden. Wenn Sie diesen Typ von Verbindung verwenden, sollten Sie einige spezielle Konzepte verstehen.
@@ -143,12 +143,11 @@ Rollen können in einem Einbettungstoken mit der Identität angegeben werden. We
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 * Die Zuweisung von Benutzern zu Rollen im Power BI-Dienst wirkt sich bei Verwendung eines Einbettungstokens nicht auf RLS aus.
 * Der Power BI-Dienst wendet die RLS-Einstellung nicht auf Administratoren oder Mitglieder mit Bearbeitungsberechtigungen an, wenn Sie eine Identität mit einem Einbettungstoken bereitstellen, jedoch auf die Daten.
-* Das Übergeben von Identitätsinformationen beim Aufruf von GenerateToken wird nur für den Lese-/Schreibzugriff auf Berichte unterstützt. Unterstützung für weitere Ressourcen wird später bereitgestellt.
 * Liveverbindungen von Analysis Services werden für lokale Server unterstützt.
 * Azure Analysis Services-Liveverbindungen unterstützen Filtern nach Rolle, jedoch nicht dynamisch nach Benutzernamen.
 * Wenn das zugrunde liegende Dataset kein RLS erfordert, darf die GenerateToken-Anforderung **keine** effektive Identität enthalten.
-* Wenn das zugrunde liegende Dataset ein Cloudmodell (Cachemodell oder DirectQuery) ist, muss die effektive Identität mindestens eine Rolle enthalten. Andernfalls erfolgt keine Rollenzuweisung.
-* In der Liste der Identitäten kann nur eine Identität bereitgestellt werden. In Zukunft wird eine Liste verwendet, um Token mit mehreren Identitäten für die Dashboardeinbettung zu ermöglichen.
+* Wenn das zugrunde liegende Dataset ein Cloudmodell ist (Cachemodell oder DirectQuery), muss die effektive Identität mindestens eine Rolle enthalten. Andernfalls erfolgt keine Rollenzuweisung.
+* Mit einer Identitätenliste werden mehrere Identitätstoken für die Dashboardeinbettung aktiviert. Bei allen anderen Artefakten enthält die Liste eine einzelne Identität.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

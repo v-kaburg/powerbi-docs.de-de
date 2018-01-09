@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Fragen und Antworten in Power BI
 Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Beispiel: „Wie lautet der Gesamtumsatz für das letzte Jahr“.  Verwenden Sie den Bereich für Fragen und Antworten (F&A), um Ihre Daten mithilfe intuitiver Möglichkeiten der natürlichen Sprache zu untersuchen und die entsprechenden Antworten in Form von Diagrammen und Grafiken zu erhalten. Der Bereich für Fragen und Antworten unterscheidet sich von einer Suchmaschine. Q&A stellt ausschließlich Ergebnisse zu den Daten in Power BI bereit.
 
 > [!NOTE]
-> Q&A steht auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](mobile-apps-ios-qna.md) zur Verfügung.
+> Q&A steht auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](mobile-apps-ios-qna.md) sowie in [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) zur Verfügung.
 > 
 > 
 
@@ -51,11 +51,6 @@ Die Erfahrung ist wahrhaft interaktiv... und schnell! Unterstützt durch einen I
 [Tutorial: Verwenden von Q&A für Power BI mit dem Einzelhandelsumsatz-Beispiel:](power-bi-visualization-introduction-to-q-and-a.md) Verwenden Sie Q&A in einem realistischen Branchentutorial.
 
 [Abstimmen der Daten auf Q&A:](service-prepare-data-for-q-and-a.md) Sind Sie die Person, die Datasets und Datenmodelle erstellt?  Dann sind Sie bei diesem Thema richtig.
-
-## <a name="next-steps"></a>Nächste Schritte
-[Power BI – Grundkonzepte](service-basic-concepts.md)
-
-[Erste Schritte mit Power BI](service-get-started.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

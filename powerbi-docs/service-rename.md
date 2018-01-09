@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Sie können praktisch alle Elemente im Power BI-Dienst umbenennen.
 In diesem Artikel wird erläutert, wie Sie Dashboards, Berichte, Berichtsseiten, Arbeitsmappen, Datasets, Apps und Arbeitsbereiche im Power BI-Dienst umbenennen.
@@ -40,7 +40,7 @@ In diesem Artikel wird erläutert, wie Sie Dashboards, Berichte, Berichtsseiten,
 | Inhalte in **Für mich freigegeben** |Nein |Nein |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Umbenennen eines Dashboards, Berichts oder einer Arbeitsmappe
-1. Öffnen Sie einen Arbeitsbereich, und wählen Sie die Registerkarte **Dashboards**, **Berichte** oder **Arbeitsmappen** aus. Zeigen Sie auf das umzubenennende Element, und wählen Sie das Zahnradsymbol ![](media/service-rename/powerbi-cog-icon.png) aus.
+1. Öffnen Sie einen Arbeitsbereich, und wählen Sie die Registerkarte **Dashboards**, **Berichte** oder **Arbeitsmappen** aus. Zeigen Sie auf das umzubenennende Element, und wählen Sie das Zahnradsymbol ![](media/service-rename/powerbi-cog-icon.png) aus. Wenn kein Zahnradsymbol angezeigt wird, verfügen Sie nicht über die Berechtigung zum Umbenennen.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Geben Sie auf der Seite „Einstellungen“ den neuen Namen ein, und wählen Sie **Speichern** aus.
@@ -67,7 +67,7 @@ In diesem Artikel wird erläutert, wie Sie Dashboards, Berichte, Berichtsseiten,
 Jeder Benutzer mit Administratorberechtigungen kann einen App-Arbeitsbereich umbenennen.
 
 1. Wechseln Sie zu dem Arbeitsbereich, den Sie umbenennen möchten.
-2. Wählen Sie in der rechten oberen Ecke die Auslassungspunkte (...) und dann **Arbeitsbereich bearbeiten** aus.  
+2. Wählen Sie in der rechten oberen Ecke die Auslassungspunkte (...) und dann **Arbeitsbereich bearbeiten** aus. Wenn diese Option nicht angezeigt wird, verfügen Sie nicht über die Berechtigung zum Umbenennen dieses Arbeitsbereichs. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Geben Sie einen neuen Namen für den Arbeitsbereich ein, und wählen Sie **Speichern** aus.

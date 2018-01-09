@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Trichterdiagramme (Tutorial)
 Mit einem Trichterdiagramm kann ein linearer Prozess mit aufeinanderfolgenden und miteinander verbundenen Phasen visuell dargestellt werden. Ein Beispiel ist etwa ein Trichterdiagramm für den Verkauf, das die von den Kunden durchlaufenen Phasen nachverfolgt: Lead \> Qualifizierter Lead \> Potenzieller Kunde \> Vertrag \> Abschluss.  Die Form des Trichterdiagramms zeigt auf einen Blick den Zustand des nachverfolgten Prozesses an.
@@ -59,15 +59,15 @@ In diesem Video sehen Sie, wie ein Trichterdiagramm anhand des Beispiels für Ve
 
 Erstellen Sie jetzt ein eigenes Trichterdiagramm, das die Anzahl der Verkaufschancen in jeder der Verkaufsphasen anzeigt.
 
-In dieser Anleitung wird das Beispiel zur Opportunityanalyse verwendet. Gehen Sie wie folgt vor: [Laden Sie das Beispiel herunter](sample-datasets.md), melden Sie sich bei Power BI an, und wählen Sie **Daten abrufen \> Beispiele \> Beispiel zur Nachverfolgung von Verkaufschancen \> Verbinden**.
+In dieser Anleitung wird das Beispiel zur Opportunityanalyse verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](sample-datasets.md).   
 
-1. Beginnen Sie auf einer [leeren Berichtsseite](power-bi-report-add-page.md) in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md), und wählen Sie **SalesStage** \> **Vertriebsphase** aus.  
+1. Beginnen Sie auf einer [leeren Berichtsseite](power-bi-report-add-page.md), und wählen Sie **SalesStage** \> **Vertriebsphase** aus. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zu öffnen.
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Wandeln Sie das Diagramm](power-bi-report-change-visualization-type.md) in ein Trichterdiagramm um. Beachten Sie, dass sich **Vertriebsphase** im Bereich der **Gruppe** befindet. 
 3. Wählen Sie im Bereich **Felder** die Option **Fakt** \> **Anzahl an Verkaufschancen** aus.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Wenn Sie mit dem Mauszeiger auf einen Balken zeigen, werden zahlreiche Informationen angezeigt.
    
    * Name der Phase
@@ -90,14 +90,13 @@ Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu an
 2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](service-reports-visual-interactions.md).
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Erstellen eines Trichterdiagramms in Q&A
-Markieren Sie das Dashboard mit mindestens einer Visualisierung, die vom Dataset „Nachverfolgung von Verkaufschancen“ angeheftet wurde.  Wenn Sie in Q&A eine Frage eingeben, sucht Power BI in allen dem ausgewählten Dashboard zugeordneten Datasets (d. h. mit Kacheln, die dem Dashboard angeheftet sind) nach Antworten. Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](service-basic-concepts.md).
+Öffnen Sie das Dashboard für das Beispiel einer Opportunityanalyse oder ein anderes Dashboard, an das eine Visualisierung aus dem Dataset des Beispiels einer Opportunityanalyse angeheftet wurde.  Wenn Sie in Q&A eine Frage eingeben, sucht Power BI in allen dem ausgewählten Dashboard zugeordneten Datasets (d. h. mit Kacheln, die dem Dashboard angeheftet sind) nach Antworten. Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](service-basic-concepts.md).
 
-1. Markieren Sie das Dashboard mit mindestens einer Kachel, die vom Dataset „Nachverfolgung von Verkaufschancen“ angeheftet wurde.
-2. Geben Sie Ihre Frage in das Fragenfeld von Q&A ein.
+1. Geben Sie im Dashboard des Beispiels einer Opportunityanalyse Ihre Frage im Q&A-Fragefeld ein.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Fügen Sie „als Trichter“ hinzu, um den bevorzugten Visualisierungstyp anzugeben.
+2. Fügen Sie „als Trichter“ hinzu, um den bevorzugten Visualisierungstyp anzugeben.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

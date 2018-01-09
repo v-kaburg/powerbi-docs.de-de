@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop.
 
-Damit Sie Power BI-Berichte für Power BI-Berichtsserver erstellen können, müssen Sie die für Power BI-Berichtsserver optimierte Power BI Desktop-Version herunterladen und installieren. Diese Version unterscheidet sich von der Power BI Desktop-Version, die mit dem Power BI-Dienst verwendet wird. Beispielsweise enthält die Power BI Desktop-Version für den Power BI-Dienst keine Vorschaufeatures, die nach der Veröffentlichung in der Version für den Power BI-Berichtsserver verfügbar sind. Sie müssen diese Version verwenden, um sicherzustellen, dass der Berichtsserver mit einer bekannten Version der Berichte und des Modells interagieren kann. 
+Damit Sie Power BI-Berichte für Power BI-Berichtsserver erstellen können, müssen Sie die für Power BI-Berichtsserver optimierte Power BI Desktop-Version herunterladen und installieren. Diese Version unterscheidet sich von der Power BI Desktop-Version, die mit dem Power BI-Dienst verwendet wird. Beispielsweise enthält die Power BI Desktop-Version für den Power BI-Dienst Vorschaufeatures, die erst nach der Veröffentlichung in der Version für den Power BI-Berichtsserver verfügbar sind. Sie müssen diese Version verwenden, um sicherzustellen, dass der Berichtsserver mit einer bekannten Version der Berichte und des Modells interagieren kann. 
 
 > [!NOTE]
 > Power BI Desktop und das für Power BI-Berichtsserver optimierte Power BI Desktop können parallel auf dem gleichen Computer installiert werden.
@@ -69,6 +69,36 @@ Wenn Sie Power BI Desktop bereits installiert hatten und dann für Power BI-Beri
 Sie können immer zuerst die Version von Power BI Desktop öffnen, die Sie verwenden möchten. Öffnen Sie anschließend die Datei in Power BI Desktop.
 
 Zum Bearbeiten eines Power BI-Berichts in Power BI-Berichtsserver oder Erstellen eines neuen Power BI-Berichts über das Webportal wird stets die richtige Version von Power BI Desktop geöffnet.
+
+## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
+Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://powerbi.com) funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
+
+### <a name="in-a-browser"></a>In einem Browser
+Power BI-Berichtsserver-Berichte unterstützen alle Visualisierungen, einschließlich:
+
+* Benutzerdefinierte Visualisierungen
+
+Power BI-Berichtsserver-Berichte unterstützen Folgendes nicht:
+
+* Visuelle R-Elemente
+* ArcGIS-Karten
+* Brotkrümel
+* Vorschaufeatures für Power BI Desktop
+
+### <a name="in-the-power-bi-mobile-apps"></a>In den mobilen Power BI-Apps
+Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobilen Power BI-Apps](../mobile-apps-for-mobile-devices.md), einschließlich:
+
+* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die mobilen Power BI-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für Smartphone-Berichtslayout](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
+  
+    ![Für Telefone optimierter Bericht](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den mobilen Power BI-Apps nicht unterstützt:
+
+* Visuelle R-Elemente
+* ArcGIS-Karten
+* Benutzerdefinierte Visualisierungen
+* Brotkrümel
+* Geofilter oder Strichcodes
 
 ## <a name="next-steps"></a>Nächste Schritte
 Nachdem Sie Power BI Desktop installiert haben, können Sie mit dem Erstellen von Power BI-Berichten beginnen.

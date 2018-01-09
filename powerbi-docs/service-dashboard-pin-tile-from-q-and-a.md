@@ -1,5 +1,5 @@
 ---
-title: Anheften einer Kachel an ein Power BI-Dashboard aus Q&A
+title: Anheften einer Kachel an ein Dashboard aus Q&A
 description: "Dokumentation zum Anheften einer Kachel an ein Power BI-Dashboard aus dem Fragefeld für Fragen und Antworten (F&A)"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anheften einer Kachel an ein Dashboard aus Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Anheften einer Kachel aus Q&A
 F&A ist das Power BI-Tool zur Ad-hoc-Berichterstellung. Sie möchten bestimmte Erkenntnisse gewinnen? Stellen Sie eine Frage zu den Daten und erhalten Sie eine Antwort in Form einer Visualisierung.
 
-> **HINWEIS:** Öffnen Sie als Begleitung das [Analysebeispiel für den Einzelhandel](sample-retail-analysis.md).
+Q&A steht in Dashboards und Berichten zur Verfügung. In diesem Artikel wird Q&A über ein Dashboard geöffnet. Dashboards stehen im Power BI-Dienst, aber nicht in Power BI Desktop zur Verfügung. Um die Schritte selbst nachzuvollziehen, öffnen Sie das [Dashboard zum Analysebeispiel für Einzelhandel](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,7 +40,9 @@ F&A ist das Power BI-Tool zur Ad-hoc-Berichterstellung. Sie möchten bestimmte E
    werden im Fragefeld Vorschläge angezeigt.
 4. Um das Diagramm als Kachel zu Ihrem Dashboard hinzuzufügen, wählen Sie das Anheftsymbol ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) oben rechts im Zeichenbereich.
 5. Heften Sie die Kachel an ein vorhandenes oder neues Dashboard an. 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus. Sie können nur die Dashboards innerhalb des aktuellen Arbeitsbereichs auswählen.
    * Neues Dashboard: Geben Sie den Namen des neuen Dashboards ein. Dieses wird anschließend dem aktuellen Arbeitsbereich hinzugefügt.
 6. Wählen Sie **Anheften**aus.

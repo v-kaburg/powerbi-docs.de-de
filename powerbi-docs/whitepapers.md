@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -41,5 +41,5 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 | [Sicherheit in Power BI](service-admin-power-bi-security.md) |Bietet eine ausführliche Erläuterung der Sicherheit in Power BI. |
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Sichern des tabellarischen BI-Semantikmodells) (in englischer Sprache) |In diesem Dokument wird das Sicherheitsmodell für die tabellarische BI-Semantik und Power BI vorgestellt. Sie erfahren, wie Sie Rollen erstellen, dynamische Sicherheit implementieren, Einstellungen für Identitätswechsel konfigurieren, Rollen verwalten und eine für den Sicherheitskontext Ihres Netzwerks geeignete Methode zum Herstellen einer Verbindung mit Modellen auswählen. |
 | [Leitfaden zur Kapazitätsplanung für den Power BI-Berichtsserver](report-server/capacity-planning.md) |Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. |
-
+|[Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment) | Technische Whitepaper zu Best Practices und Anleitungen zum Planen, Bereitstellen und Ausführen von Power BI Premium. 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

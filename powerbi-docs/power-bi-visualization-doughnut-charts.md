@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Ringdiagramme in Power BI (Tutorial)
 Ein Ringdiagramm ähnelt einem Kreisdiagramm insofern, als dass es die Beziehung von Teilen zu einem Ganzen zeigt. Der einzige Unterschied ist, dass die Mitte leer und Platz für eine Beschriftung oder ein Symbol bleibt.
 
 ## <a name="create-a-doughnut-chart"></a>Erstellen eines Ringdiagramms
-Melden Sie sich bei Power BI an, und wählen Sie **Daten abrufen** \> **Beispiele** \> **Analysebeispiel für Einzelhandel** \> **Verbinden** aus. 
+Mit dieser Anleitung erstellen Sie anhand des Analysebeispiels für den Einzelhandel ein Ringdiagramm, das den Absatz des laufenden Jahres nach Kategorie anzeigt. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](sample-datasets.md).
 
-1. Wählen Sie im Dashboard die Kachel **Läden gesamt** aus, um den Bericht „Analysebeispiel für Einzelhandel“ zu öffnen.
-2. Wählen Sie **Bericht bearbeiten** , um den Bericht in der Bearbeitungsansicht zu öffnen.
-3. [Fügen Sie eine neue Seite zu Ihrem Bericht hinzu](power-bi-report-add-page.md).
-4. Erstellen Sie ein Ringdiagramm, das den Absatz des laufenden Jahres nach Kategorie anzeigt.
+1. Beginnen Sie auf einer [leeren Berichtsseite](power-bi-report-add-page.md), und wählen Sie **SalesStage** \> **Vertriebsphase** aus. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zu öffnen.
+
+2. Wählen Sie im Bereich „Felder“ die Option **Verkäufe** \> **Verkäufe im letzten Jahr** aus.  
    
-   * Wählen Sie im Bereich **Felder** die Option **Verkäufe**\>**Verkäufe im letzten Jahr** aus.
-   * Konvertieren Sie das Diagramm in ein Ringdiagramm. Wenn sich die Kategorie „Verkäufe im letzten Jahr“ nicht im Bereich **Werte** befindet, ziehen Sie diese dorthin.
+3. Wählen Sie im Bereich „Visualisierungen“ das Symbol für ein Ringdiagramm ![Symbol für Ringdiagramm]() aus, um das Balkendiagramm in ein Ringdiagramm zu konvertieren. Wenn sich die Kategorie **Verkäufe im letzten Jahr** nicht im Bereich **Werte** befindet, ziehen Sie diese dorthin.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * Wählen Sie **Element** \> **Kategorie** aus, um die Kategorie dem Bereich **Legende** hinzuzufügen. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. Wählen Sie **Element** \> **Kategorie** aus, um die Kategorie dem Bereich **Legende** hinzuzufügen. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. Optional können Sie [die Textgröße und -farbe des Diagramms anpassen](power-bi-visualization-customize-title-background-and-legend.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Die Summe der Ringdiagrammwerte muss insgesamt 100 % betragen.

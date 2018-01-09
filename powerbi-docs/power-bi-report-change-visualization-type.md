@@ -1,6 +1,6 @@
 ---
-title: "Ändern des Visualisierungstyps in einem Power BI-Bericht"
-description: "Ändern des Visualisierungstyps in einem Power BI-Bericht"
+title: "Ändern des Visualisierungstyps in einem Bericht"
+description: "Informationen zum Ändern des Visualisierungstyps für Berichte im Power BI-Dienst und in Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Ändern des Visualisierungstyps in einem Power BI-Bericht
-Probieren Sie verschiedene Arten von Visualisierungen in Power BI aus, um festzustellen, welche für Ihre Daten am besten geeignet ist. 
+Probieren Sie verschiedene Arten von Visualisierungen im Power BI-Dienst und in Power BI Desktop aus, um festzustellen, welche für Ihre Daten am besten geeignet ist. 
 
-1. Öffnen Sie den [Bericht in der Bearbeitungsansicht](service-reading-view-and-editing-view.md) und [erstellen Sie eine Visualisierung](power-bi-report-add-visualizations-i.md), wenn es im Bericht noch keine gibt.
+1. Öffnen Sie einen Bericht, der bereits mindestens eine Visualisierung enthält.   
 2. Wählen Sie im Visualisierungsbereich den neuen Visualisierungtyp aus.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

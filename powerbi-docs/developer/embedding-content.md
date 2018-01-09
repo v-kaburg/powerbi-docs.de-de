@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Einbetten von Power BI-Dashboards, -Berichten und -Kacheln
 
@@ -140,9 +140,9 @@ Wenn Sie für Ihre Kunden einbetten, sollten Sie folgende Aktionen ausführen.
 
 | Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 V-Kern |1/2 Kern, 3 GB RAM |1/2 Kern | |1–300 |
-| A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | |301–600 |
-| A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | |601–1.200 |
+| A1 |1 V-Kern |1/2 Kern, 3 GB RAM |1/2 Kern | 5 pro Sekunde |1–300 |
+| A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | 10 pro Sekunde |301–600 |
+| A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | 15 pro Sekunde |601–1.200 |
 | A4 |8 V-Kerne |4 Kerne, 25 GB RAM |4 Kerne |30 pro Sekunde |1.201–2.400 |
 | A5 |16 V-Kerne |8 Kerne, 50 GB RAM |8 Kerne |60 pro Sekunde |2.401–4.800 |
 | A6 |32 V-Kerne |16 Kerne, 100 GB RAM |16 Kerne |120 pro Sekunde |4.801–9600 |

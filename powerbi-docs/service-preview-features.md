@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7038587e567b2d8377f1ef77583f7baa9695fa58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Aktivieren von Power BI-Vorschaufeatures
 ## <a name="what-are-preview-features"></a>Was sind *Vorschaufeatures*?
@@ -33,22 +33,16 @@ Power BI wird ständig verbessert. Neue Funktionen stellen wir immer wieder als 
 > 
 > 
 
-## <a name="current-previews-available"></a>Aktuell verfügbare Vorschaufeatures
-**ArcGIS Maps für Power BI (Vorschau)** Die Kombination von ArcGIS Maps und Power BI bietet völlig neue Möglichkeiten der Kartendarstellung, die über die Darstellung von Punkten weit hinausgeht.
-[Verschaffen Sie sich einen Überblick über ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop](power-bi-visualization-arcgis.md).
-
-## <a name="turn-the-arcgis-preview-feature-on-and-off"></a>Aktivieren (und Deaktivieren) des neuen ArcGIS-Vorschaufeatures
+## <a name="find-previews-and-turn-them-on-and-off"></a>Suchen und Aktivieren (und Deaktivieren) von Vorschauversionen
 1. Öffnen Sie das Menü „Einstellungen“, indem Sie das Zahnradsymbol in der oberen rechten Ecke des Power BI-Bildschirms und dann **Einstellungen** auswählen.
    
    ![](media/service-preview-features/power-bi-settings.png).
-2. Wählen Sie die Registerkarte **Allgemein** und dann **Vorschaufeatures** aus.
+2. Wählen Sie die Registerkarte **Allgemein** aus. Wenn eine Vorschau vorhanden ist, wird eine Option für **Vorschaufeatures** oder ein Vorschaufeature auf der linken Seite angezeigt.  In diesem Beispiel wird eine Vorschau für ArcGIS Maps aufgeführt. 
    
    ![](media/service-preview-features/power-bi-preview-arcgis.png)
-3. Im Optionsfeld können Sie die neue Oberfläche mit **Ein** aktivieren. Klicken Sie auf **Übernehmen**.
-4. Um die Vorschaufeatures zu deaktivieren, befolgen Sie die beiden ersten Schritte, und wählen Sie im dritten Schritt **Aus** > **Übernehmen**.
+3. Im Optionsfeld können Sie die neue Oberfläche mit **Ein** bzw. über das Kontrollkästchen aktivieren. Klicken Sie dann auf **Übernehmen**.
+4. Um die Vorschaufeatures zu deaktivieren, führen Sie die ersten drei oben beschriebenen Schritte aus, und wählen Sie im Sie im dritten Schritt **Aus** aus bzw. deaktivieren Sie das Kontrollkästchen. Wählen Sie dann **Übernehmen** aus.
 
-## <a name="next-steps"></a>Nächste Schritte
-[Die neue Power BI-Navigation](service-the-new-power-bi-experience.md)
 
 Haben Sie Fragen oder Feedback? [Besuchen Sie das Power BI-Communityforum](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Erwerb von Power BI Pro
 Power BI Pro ist für Benutzer, die Berichte veröffentlichen, Dashboards freigeben, mit Kollegen in Arbeitsbereichen zusammenarbeiten und andere damit verbundene Aktivitäten ausüben – z.B. die Möglichkeit:
@@ -118,6 +118,11 @@ Unter **Abrechnung** > **Abonnements** wird nun der Eintrag **Power BI Pro** a
 Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein Pro-Konto verfügen. Klicken Sie dazu auf das **Zahnradsymbol**, und wählen Sie dann **Persönlichen Speicher verwalten**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Karenzzeit
+Nach dem Ablauf einer Power BI Pro-Lizenz gibt es eine 30-tägige Karenzzeit. 
+
+Für Power BI Pro gilt der gleiche Abonnementslebenszyklus wie für Office 365. Weitere Informationen finden Sie unter [Was geschieht mit meinen Daten und dem Zugriff darauf, wenn mein Office 365 Business-Abonnement endet?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Self-Service-Registrierung für Power BI](service-self-service-signup-for-power-bi.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
 
@@ -35,6 +35,16 @@ Sie können die Überwachungsdaten nach Datumsbereich, Benutzer, Dashboard, Beri
 
 > [!NOTE]
 > Die Überwachungsfunktion ist in Power BI derzeit in allen Datenbereichen als Vorschau verfügbar.
+
+## <a name="requirements"></a>Anforderungen
+Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokolle zugreifen zu können:
+
+- Für den Zugriff auf den Überwachungsbereich des Office 365 Security & Compliance Center benötigen Sie eine Exchange Online-Lizenz (in Office 365 Enterprise E3- und E5-Abonnements enthalten).
+- Sie müssen globaler Administrator sein oder die Exchange-Administratorrolle besitzen, die den Zugriff auf das Überwachungsprotokoll ermöglicht. 
+
+  Exchange-Administratorrollen werden über das Exchange Admin Center gesteuert. Weitere Informationen finden Sie unter [Berechtigungen in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum Office 365 Security & Compliance Center abrufen.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Aktivieren der Überwachungsfunktion im Power BI-Verwaltungsportal
 
@@ -70,8 +80,8 @@ Um Ihre Power BI-Protokolle zu überwachen, müssen Sie das O365 Security & Comp
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Wählen Sie **Azure-Überwachungsprotokolle** aus.
-4. 
-5. Wählen Sie **Zum O365 Admin Center wechseln** aus.
+ 
+4. Wählen Sie **Zum O365 Admin Center wechseln** aus.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

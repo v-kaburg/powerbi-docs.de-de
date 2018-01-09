@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Punktdiagramme und Blasendiagramme in Power BI (Tutorial)
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
@@ -47,25 +47,30 @@ In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *
 * Für die Verwendung mit Quadranten.
 
 ## <a name="create-a-scatter-chart"></a>Erstellen eines Punktdiagramms
+In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten beschriebenen Schritten können Sie dann selbst ein solches Diagramm erstellen.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Öffnen Sie das Analysebeispiel für Einzelhandel in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md), und [fügen Sie eine neue Berichtsseite hinzu](power-bi-report-add-page.md).
-2. Wählen Sie im Bereich „Felder“ die Optionen **Umsätze** > **Umsätze pro Quadratfuß** sowie **Umsätze** > **Gesamtabweichung Umsatz %** aus.
-3. Wählen Sie im Bereich „Felder“ die Option **Region > Region** aus.
+
+In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](sample-datasets.md).   
+
+1. Beginnen Sie mit einer [leeren Berichtsseite](power-bi-report-add-page.md), und wählen Sie die Felder **Umsätze** \> **Umsätze pro Quadratfuß** und **Umsätze** > **Gesamtabweichung Umsatz %** aus. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zu öffnen.
+ 
+2. Wählen Sie im Bereich „Felder“ die Option **Region > Region** aus.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Führen Sie eine Konvertierung in ein Punktdiagramm durch. Wählen Sie im Bereich „Visualisierungen“ das Symbol für das Punktdiagramm aus.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Ziehen Sie **Region** von **Details** auf **Legende**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 Wir haben jetzt ein Punktdiagramm, in dem „Gesamtabweichung Umsatz %“ der Y-Achse und „Umsätze pro Quadratfuß“ der X-Achse zugewiesen sind.  Die Farben der Datenpunkte stellen die Regionen dar.  Nun fügen wir eine dritte Dimension hinzu.
 
 ## <a name="create-a-bubble-chart"></a>Erstellen eines Blasendiagramms
 1. Ziehen Sie aus dem Bereich „Felder“ die Option **Umsätze** > **Umsätze dieses Jahr** > **Wert** in den Bereich **Größe**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Zeigen Sie auf eine Blase.  Die Größe der Blase gibt den Wert von **Umsätze dieses Jahr**an.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
