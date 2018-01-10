@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrieren einer Kachel in eine App (Benutzer ist Besitzer der Daten)
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API eine Kachel in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -56,7 +56,7 @@ Zum Abrufen einer **Power BI**-Kachel verwenden Sie den Vorgang [Get Tiles](http
 Zunächst muss eine Dashboard-ID abgerufen werden, ehe Sie die Kachel abrufen können. Weitere Informationen zum Abrufen eines Dashboards finden Sie unter [Integrieren eines Dashboards in eine App (Benutzer ist Besitzer der Daten)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Abrufen von Kacheln mithilfe eines Zugriffstokens
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) aufrufen. Der Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) gibt eine Liste der Kacheln zurück. Sie können eine einzelne Kachel aus der Liste der Kacheln abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen einer Kachel. Beispiele zum Verwenden der Power BI-REST-API finden Sie unter [Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/).
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) aufrufen. Der Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) gibt eine Liste der Kacheln zurück. Sie können eine einzelne Kachel aus der Liste der Kacheln abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen einer Kachel. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Anzeigen der Power BI-Dashboards, die für mich freigegeben wurden
 ## <a name="shared-with-me"></a>Für mich freigegeben
@@ -34,7 +34,7 @@ Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläut
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Sie haben viele Möglichkeiten zum Interagieren mit dem Dashboard und dem zugrunde liegenden Bericht, je nach den Berechtigungen, die Ihnen der Besitzer erteilt. Hierzu zählt die Fähigkeit zum Kopieren des Dashboards, zum Öffnen des Berichts [in der Leseansicht](service-interact-with-a-report-in-reading-view.md) und zum erneuten Freigeben für andere Kollegen.
+Sie haben viele Möglichkeiten zum Interagieren mit dem Dashboard und dem zugrunde liegenden Bericht, je nach den Berechtigungen, die Ihnen der Besitzer erteilt. Hierzu zählt die Fähigkeit zum Kopieren des Dashboards, zum Öffnen des Berichts [in der Leseansicht](service-reading-view-and-editing-view.md) und zum erneuten Freigeben für andere Kollegen.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Im Bildschirm **Für mich freigegeben** verfügbare Aktionen
 * Wählen Sie das Sternsymbol aus, um [ein Dashboard als Favoriten hinzuzufügen](service-dashboard-favorite.md).

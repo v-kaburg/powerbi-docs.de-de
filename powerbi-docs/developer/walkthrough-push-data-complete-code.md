@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: 128b30dcb932dd629d1219fc92da7283918ea467
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 137ff1157d15b5a62ab7a66f30b1ba043747f75d
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Übertragen von Daten in ein Dataset per Push – vollständiger Code
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
@@ -237,7 +237,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
 [Hinzufügen von Zeilen zu einer Power BI-Tabelle](walkthrough-push-data-add-rows.md)  
 [Referenz zur Power BI-REST-API](https://msdn.microsoft.com/library/mt147898.aspx)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
-[Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/)  
+
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

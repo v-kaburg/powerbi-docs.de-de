@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: parthsha
 manager: kfile
-backup: asaxton
+backup: maghan
 editor: 
 tags: 
 qualityfocus: no
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: pashah
-ms.openlocfilehash: 74fea41f3aa77d00292a62f62bf5554442ffac33
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.

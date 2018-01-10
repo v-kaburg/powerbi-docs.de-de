@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrieren eines Dashboards in eine App für Ihre Organisation
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API ein Dashboard in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -56,7 +56,7 @@ Zum Abrufen eines **Power BI**-Dashboards verwenden Sie den Vorgang [Get Dashbo
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Abrufen von Dashboards mit einem Zugriffstoken
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) aufrufen. Der Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) gibt eine Liste von Dashboards zurück. Sie können aus dieser Liste von Dashboards dann ein einzelnes Dashboard abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Dashboards. Beispiele zum Verwenden der Power BI-REST-API finden Sie unter [Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/).
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) aufrufen. Der Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) gibt eine Liste von Dashboards zurück. Sie können aus dieser Liste von Dashboards dann ein einzelnes Dashboard abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Dashboards. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Schritt 3: Erstellen eines Datasets in Power BI
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
@@ -32,7 +32,7 @@ Um einen Aufruf einer anderen Ressource zu erstellen, verwenden Sie eine URL zum
 
 Zum Authentifizieren eines Power BI-REST-Vorgangs fügen Sie das unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) abgerufene Token einem Anforderungsheader hinzu:
 
-Durch Aufrufen des Vorgangs [Dataset erstellen](https://msdn.microsoft.com/library/mt203562.aspx) wird ein neues Dataset erstellt. Beispiele zum Verwenden der Power BI-REST-API finden Sie unter [Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/).
+Durch Aufrufen des Vorgangs [Dataset erstellen](https://msdn.microsoft.com/library/mt203562.aspx) wird ein neues Dataset erstellt. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ Nachstehend finden Sie die [vollständige Codeliste](#code).
 [Übertragung von Daten in ein Power BI-Dashboard per Push](walkthrough-push-data.md)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
 [Referenz zur Power BI-REST-API](https://msdn.microsoft.com/library/mt147898.aspx)  
-[Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

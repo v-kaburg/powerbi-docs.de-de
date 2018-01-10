@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Power BI bietet [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen Ihrer Dashboards](service-how-to-collaborate-distribute-dashboards-reports.md), und Freigeben ist nur eine davon.
@@ -110,7 +110,7 @@ Wenn Sie aus einer mobilen Power BI-App einen Link an Personen außerhalb Ihrer 
 Aspekte, die beim Freigeben von Dashboards zu beachten sind:
 
 * Im Allgemeinen sehen Sie und Ihre Kollegen die gleichen Daten im Dashboard. Wenn Sie folglich mehr Berechtigungen als Ihre Kollegen haben, Daten zu sehen, werden sie alle Daten in Ihrem Dashboard sehen können. Wenn jedoch die [Sicherheit auf Zeilenebene (RLS)](service-admin-rls.md) auf das einem Dashboard zugrunde liegende Dataset angewendet ist, wird anhand der Anmeldeinformationen jeder Person festgelegt, auf welche Daten sie zugreifen kann.
-* Jede Person, für die Sie das Dashboard freigeben, kann es anzeigen und in der [Leseansicht](service-report-open-in-reading-view.md) mit Ihren Berichten interagieren. Sie können keine Berichte erstellen oder Änderungen an vorhandenen Berichten speichern.
+* Jede Person, für die Sie das Dashboard freigeben, kann es anzeigen und in der [Leseansicht](service-reading-view-and-editing-view.md) mit Ihren Berichten interagieren. Sie können keine Berichte erstellen oder Änderungen an vorhandenen Berichten speichern.
 * Das Dataset kann von ihnen nicht angezeigt oder heruntergeladen werden.
 * Alle Benutzer können die [Dashboarddaten manuell aktualisieren](refresh-data.md).
 * Wenn Sie Office 365 für E-Mails verwenden, ist die Freigabe für Mitglieder einer Verteilergruppe möglich, indem Sie die der Verteilergruppe zugeordnete E-Mail-Adresse eingeben.

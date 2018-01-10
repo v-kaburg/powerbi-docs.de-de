@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 Mit der Sicherheit auf Zeilenebene (Row Level Security,RLS) kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
@@ -91,7 +91,7 @@ Die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API akzept
 * **roles** (obligatorisch): Eine Zeichenfolge, in der die Rollen angegeben werden, die beim Anwenden von Regeln für die Sicherheit auf Zeilenebene ausgewählt werden sollen. Wenn mehrere Rollen übergeben werden, müssen sie als Zeichenfolgenarray übergeben werden.
 * **Dataset** (obligatorisch): Das entsprechende Dataset für das Artefakt, das Sie einbetten. 
 
-Sie können das Einbettungstoken mit der **GenerateTokenInGroup**-Methode für **PowerBIClient.Reports** erstellen. Derzeit werden nur Berichte unterstützt.
+Sie können das Einbettungstoken mit der **GenerateTokenInGroup**-Methode für **PowerBIClient.Reports** erstellen. 
 
 Sie können z.B. das Beispiel [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) ändern. Zeile 76 und 77 in *Home\HomeController.cs* können aktualisiert werden von:
 

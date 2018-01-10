@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht in Power BI (in der Bearbeitungsansicht)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Unterschiede zwischen Berichtsfiltern in der Bearbeitungsansicht und in der Leseansicht
-Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht](service-interact-with-a-report-in-reading-view.md) und [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
+Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht](service-reading-view-and-editing-view.md) und [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
 
 * In der Bearbeitungsansicht können Sie Berichts-, Seiten- und visuelle Filter hinzufügen. Wenn Sie den Bericht speichern, werden die Filter ebenfalls gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den von Ihnen hinzugefügten Filtern interagieren, aber die Änderungen nicht speichern.
 * In der Leseansicht können Sie mit allen Berichts-, Seiten- und visuellen Filtern interagieren, die im Bericht bereits vorhanden sind. Sie können Ihre Filteränderungen allerdings nicht speichern.
 
 > [!NOTE]
-> In diesem Artikel wird beschrieben, wie Sie Filter im Bericht **Bearbeitungsansicht** erstellen.  Weitere Informationen zu Filtern in der Leseansicht finden Sie unter [Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-interact-with-a-report-in-reading-view.md).
+> In diesem Artikel wird beschrieben, wie Sie Filter im Bericht **Bearbeitungsansicht** erstellen.  Weitere Informationen zu Filtern in der Leseansicht finden Sie unter [Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md).
 > 
 > 
 
@@ -146,7 +146,7 @@ Wenn der Bereich „Felder“ nicht angezeigt wird, stellen Sie sicher, dass Sie
 
   [Filter und Hervorhebungen in Berichten](power-bi-reports-filters-and-highlighting.md)
 
-[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-interact-with-a-report-in-reading-view.md)
+[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md)
 
 [Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](service-reports-visual-interactions.md)
 

@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation können Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](service-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
@@ -63,7 +63,7 @@ Sie können auch in Microsoft AppSource Apps suchen und installieren, auf die Si
 3. Wählen Sie **Jetzt anfordern** aus, um sie der Seite „Apps“ hinzuzufügen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagieren mit Dashboards und Berichten in der App
-Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Informieren Sie sich über das [Interagieren mit Berichten in Power BI](service-interact-with-a-report-in-reading-view.md). 
+Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Informieren Sie sich über das [Interagieren mit Berichten in Power BI](service-reading-view-and-editing-view.md). 
 
 Sie können vorgenommene Änderungen nicht speichern. Sie können jedoch jederzeit aus einer Tabelle oder einem sonstigen Visual in einem Bericht die [Daten in Excel exportieren](power-bi-visualization-export-data.md).
 

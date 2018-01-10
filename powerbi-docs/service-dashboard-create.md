@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  In diesem Thema und dem zugehörigen Video erfahren Sie, wie Sie ein neues Dashboard durch Anheften von Visualisierungen aus einem vorhandenen Bericht erstellen.
@@ -64,7 +64,7 @@ Wir werden eines der Beispiel-Power BI-Datasets importieren, um damit unser neue
 1. Wählen Sie in diesem Arbeitsbereich die Registerkarte **Berichte** aus. Der neu importierte Bericht wird mit einem gelben Sternchen gekennzeichnet. Wählen Sie den Namen des Berichts aus, um ihn zu öffnen.
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. Der Bericht wird in der [Leseansicht](service-interact-with-a-report-in-reading-view.md) geöffnet. Beachten Sie die zwei Registerkarten am unteren Rand: „Discount Analysis“ und „Spend Overview“. Jede Registerkarte stellt eine Seite des Berichts dar.
+2. Der Bericht wird in der [Leseansicht](service-reading-view-and-editing-view.md) geöffnet. Beachten Sie die zwei Registerkarten am unteren Rand: „Discount Analysis“ und „Spend Overview“. Jede Registerkarte stellt eine Seite des Berichts dar.
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. Zeigen Sie auf eine Visualisierung, um die verfügbaren Optionen anzuzeigen. Um eine Visualisierung einem Dashboard hinzuzufügen, wählen Sie das Stecknadelsymbol ![](media/service-dashboard-create/power-bi-pin-icon.png) aus.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Welche Möglichkeiten bietet Power BI Entwicklern?
 Power BI bietet eine Vielzahl von Möglichkeiten für Entwickler. Dies reicht vom Einbetten bis hin zu benutzerdefinierten Visuals und dem Streamen von Datasets.
@@ -51,7 +51,6 @@ Weitere Informationen finden Sie unter [Übertragen von Daten in ein Dashboard p
 [Veröffentlichen benutzerdefinierter Visualisierungen im Office Store](office-store.md)  
 [Power BI-Visuals-Git-Repository](https://github.com/Microsoft/PowerBI-visuals)  
 [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Power BI-API bei Apiary](http://docs.powerbi.apiary.io/#)  
 [Power BI Premium-Whitepaper](https://aka.ms/pbipremiumwhitepaper)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

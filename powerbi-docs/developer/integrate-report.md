@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrieren eines Berichts in eine App für Ihre Organisation
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API einen Bericht in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -54,7 +54,7 @@ In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufe
 Zum Abrufen eines **Power BI**-Berichts verwenden Sie den Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen), um eine Liste der **Power BI**-Berichte abzurufen. Aus der Liste der Berichte können Sie eine Berichts-ID abrufen.
 
 ### <a name="get-reports-using-an-access-token"></a>Abrufen von Berichten mithilfe eines Zugriffstokens
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) aufrufen. Der Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) gibt eine Liste der Berichte zurück. Anhand der Liste der Berichte können Sie einen einzelnen Bericht abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Berichts. Beispiele zum Verwenden der Power BI-REST-API finden Sie unter [Power BI-REST-API in APIARY](http://docs.powerbi.apiary.io/).
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) aufrufen. Der Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) gibt eine Liste der Berichte zurück. Anhand der Liste der Berichte können Sie einen einzelnen Bericht abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Berichts. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 
