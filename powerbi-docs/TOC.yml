@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Datenquellen für Power BI
           href: service-get-data.md
-        - name: Die neue Power BI-Navigation
+        - name: Bewegen in Power BI – die Navigationsoberfläche
           href: service-the-new-power-bi-experience.md
         - name: '10 Tipps, um Hilfe zu erhalten'
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Allgemeine Aufgaben
       items:
-        - name: Dashboardfavoriten in Power BI
+        - name: 'Bevorzugte Dashboards, Berichte und Apps in Power BI'
           href: service-dashboard-favorite.md
         - name: 'Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite'
           href: service-print.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Optimieren eines Power BI-Visuals für eine beliebige Größe
           href: desktop-create-responsive-visuals.md
-        - name: Verwenden von Bezeichnungen für Inlinehierarchie in Power BI Desktop (Preview)
+        - name: Verwenden von Inlinehierarchiebezeichnungen in Power BI Desktop (Vorschau)
           href: desktop-inline-hierarchy-labels.md
         - name: Verwenden der Funktion „Datenschnitt für numerischen Bereich“
           href: desktop-slicer-numeric-range.md
