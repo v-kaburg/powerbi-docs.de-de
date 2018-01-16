@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Anzeigen verwandter Inhalte im Power BI-Dienst
 Im Bereich **verwandte Inhalte** sehen Sie, wie Ihre Inhalte im Power BI-Dienst (Dashboards, Berichte und Datasets) miteinander verbunden sind.  Außerdem können Sie in diesem Bereich allgemeine Aufgaben ausführen und beispielsweise Elemente aktualisieren oder umbenennen und Einblicke generieren. Wenn Sie einen verwandten Bericht oder ein verwandtes Dashboard auswählen, wird das ausgewählte Element in Ihrem Power BI-Arbeitsbereich geöffnet.   
@@ -74,7 +74,7 @@ Wählen Sie in einem Arbeitsbereich die Registerkarte **Berichte** und anschlie�
 <br>
 **2. Methode**
 
-Öffnen Sie den Bericht in der [Leseansicht](service-interact-with-a-report-in-reading-view.md), und wählen Sie auf der oberen Menüleiste die Option ![](media/service-related-content/power-bi-view-related-new.png) aus.
+Öffnen Sie den Bericht in der [Leseansicht](service-reading-view-and-editing-view.md), und wählen Sie auf der oberen Menüleiste die Option ![](media/service-related-content/power-bi-view-related-new.png) aus.
 
 Der Bereich **Verwandte Inhalte** wird geöffnet. Hier finden Sie das zugeordnete Dataset sowie alle Dashboards mit mindestens einer angehefteten Kachel aus dem Bericht. Bei diesem Bericht sind Visualisierungen an zwei verschiedene Dashboards angeheftet.
 
@@ -97,7 +97,7 @@ Von hier aus können Sie direkt Aktionen für die verwandten Inhalte ausführen.
 
 ## <a name="limitations-and-troubleshooting"></a>Einschränkungen und Problembehandlung
 * Falls für Ihren Browser nicht genug Platz zur Verfügung steht, wird die Option **Verwandte Inhalte anzeigen** nicht angezeigt, aber das Symbol ![](media/service-related-content/power-bi-view-related-icon-new.png) steht weiterhin zur Verfügung. Wählen Sie das Symbol aus, um den Bereich **Verwandte Inhalte** zu öffnen.
-* Um verwandte Inhalte für einen Bericht öffnen zu können, müssen Sie sich in der [Leseansicht](service-interact-with-a-report-in-reading-view.md) befinden.
+* Um verwandte Inhalte für einen Bericht öffnen zu können, müssen Sie sich in der [Leseansicht](service-reading-view-and-editing-view.md) befinden.
 * In Power BI Desktop ist „Verwandte Inhalte“ nicht verfügbar.
 * Das Feature „Verwandte Inhalte“ kann nicht für Streamingdatasets verwendet werden.
 

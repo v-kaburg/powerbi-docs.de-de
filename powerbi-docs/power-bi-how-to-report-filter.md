@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Überblick über den Berichtsbereich „Filter“
 In diesem Artikel sehen wir uns den Bereich „Filter“ in Berichten genauer an. Dieser Bereich steht Ihnen in der Bearbeitungsansicht und der Leseansicht in Power BI-Berichten zur Verfügung.
@@ -29,7 +29,7 @@ In diesem Artikel sehen wir uns den Bereich „Filter“ in Berichten genauer an
 Es gibt viele verschiedene Arten von Datenfiltern in Power BI. Lesen Sie den Artikel [Informationen zu Filtern und Hervorhebungen](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Arbeiten mit Filtern
-Berichte können in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) oder [Leseansicht](service-interact-with-a-report-in-reading-view.md) geöffnet werden. In der Bearbeitungsansicht können Besitzer eines Berichts [einem Bericht Filter hinzufügen](power-bi-report-add-filter.md). Diese Filter werden mit dem Bericht gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den Filtern interagieren, aber keine Änderungen am Filter speichern.
+Berichte können in der [Bearbeitungsansicht oder Leseansicht](service-reading-view-and-editing-view.md) geöffnet werden. In der Bearbeitungsansicht können Besitzer eines Berichts [einem Bericht Filter hinzufügen](power-bi-report-add-filter.md). Diese Filter werden mit dem Bericht gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den Filtern interagieren, aber keine Änderungen am Filter speichern.
 
 ## <a name="filters-in-reading-view"></a>Filter in der Leseansicht
 Wenn ein Bericht im Lesemodus geöffnet ist, wir der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.
@@ -122,7 +122,7 @@ Wenn die Feldwerte Datum oder Uhrzeit darstellen, können Sie bei der Verwendung
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Filter und Hervorhebungen in Berichten](power-bi-reports-filters-and-highlighting.md)  
-[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-interact-with-a-report-in-reading-view.md)  
+[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md)  
 [Erstellen von Filtern in der Bearbeitungsansicht für Berichte](power-bi-report-add-filter.md)  
 [Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](service-reports-visual-interactions.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Suchen von Dashboards, Berichten und Apps in den mobilen Power BI-Apps
-description: "Hier erfahren Sie, wo sich Ihre Dashboards und Berichte in den mobilen Power BI-Apps befinden, abhängig davon, woher sie stammen."
+description: "Hier erfahren Sie, wo sich Ihre Dashboards, Berichte und Apps in den mobilen Power BI-Apps befinden, abhängig davon, woher sie stammen."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Suchen Ihrer Dashboards, Berichten und Apps in den mobilen Power BI-Apps
 Gilt für:
@@ -49,7 +49,7 @@ Möglicherweise verfügen Sie über Verbindungen mit einem oder mehreren lokalen
 ## <a name="3-apps"></a>3. Apps
 Eine App ist eine Sammlung von Dashboards und Berichten, die von Ihrer Organisation entwickelt wurden, um durch die Bereitstellung wichtiger Metriken datengesteuerte Entscheidungen zu beschleunigen und zu vereinfachen. Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Nachdem Sie sie installiert haben, können Sie sie auf einem beliebigen Gerät anzeigen. 
 
-![Neue Power BI-Navigation](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Neue Power BI-Navigation](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Mit Apps erhalten Sie automatisch alle Updates, die der Autor vornimmt, und der Autor steuert auch, wie oft die Daten aktualisiert werden. Sie müssen sich keine Gedanken darüber machen, die App auf dem neuesten Stand zu halten.
 

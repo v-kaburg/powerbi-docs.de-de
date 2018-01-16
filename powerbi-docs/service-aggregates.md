@@ -1,5 +1,5 @@
 ---
-title: Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Power BI
+title: Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Visualisierungen
 description: "Ändern der Aggregation in einem Diagramm (Summe, Mittelwert, Maximum usw.) in Power BI"
 services: powerbi
 documentationcenter: 
@@ -15,43 +15,63 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 40ed3ce1dbb228d8418c8cd5ca7de4bcb0731c2b
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/09/2018
 ---
-# <a name="aggregates-in-power-bi"></a>Aggregate in Power BI
+# <a name="aggregates-in-power-bi-visualizations"></a>Aggregate in Power BI-Visualisierungen
 ## <a name="what-is-an-aggregate"></a>Was ist ein Aggregat?
-Unter Umständen möchten Sie die Werte von Zeilen mathematisch in einer Spalte miteinander kombinieren. Dabei kann es sich um die mathematische Operation zum Ermitteln von Summe, Mittelwert, Maximum, Anzahl usw. handeln. Das Kombinieren der Werte von Daten aus Zeilen in einer Spalte wird als „aggregieren“ bezeichnet. Das Ergebnis dieser mathematischen Operation ist ein *Aggregat*. 
+Unter Umständen möchten Sie Werte in Ihren Daten mathematisch miteinander kombinieren. Dabei kann es sich um die mathematische Operation zum Ermitteln von Summe, Mittelwert, Maximum, Anzahl usw. handeln. Das Kombinieren von Werten in Daten wird als *aggregieren* bezeichnet. Das Ergebnis dieser mathematischen Operation ist ein *Aggregat*. 
 
-Ein numerisches Feld ist ein Wert, der über ein Kategoriefeld aggregiert wird. (Es wird also beispielsweise eine Summe oder ein Mittelwert gebildet.)  Beispiele wären etwa „Umsatz nach Produkt“ und „Mängelanzahl nach Region“. Numerische Felder werden häufig als **Measures** bezeichnet. In der Liste „Felder“ werden Measures mit dem Symbol „∑“ angezeigt. Weitere Informationen finden Sie unter [Berichts-Editor: Verschaffen Sie sich einen Überblick](service-the-report-editor-take-a-tour.md).
+Wenn im Power BI-Dienst und Power BI Desktop Visualisierungen erstellt werden, können dabei Daten aggregiert werden. Häufig handelt es sich bei dem Aggregat bereits um die benötigten Werte, in anderen Fällen möchten Sie die Werte aber vielleicht auch auf andere Weise aggregieren,  z.B. mit einer Summe anstelle eines Durchschnittswerts. Es gibt verschiedene Möglichkeiten zum Verwalten und Ändern des Aggregats, das in einer Visualisierung verwendet wird.
 
-Manchmal handelt es sich bei einem *Measure* eigentlich um ein *berechnetes Measure*. Berechnete Measures werden in Power BI zusammen mit den Daten importiert, die in dem Datenmodell definiert sind, auf dem Ihr Bericht basiert. Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel. Die verwendete Aggregation kann nicht geändert werden. Eine Summe bleibt also beispielsweise eine Summe. In der Feldliste sind *berechnete Measures* mit dem Rechnersymbol gekennzeichnet. Weitere Informationen zur Erstellung berechneter Measures finden Sie unter [Measures in Power BI Desktop](desktop-measures.md).
+Betrachten wir zunächst die *Datentypen*, da der Typ der Daten bestimmt, ob und wie sie aggregiert werden können.
 
-Kategoriefelder sind zwar nicht numerisch, können aber trotzdem aggregiert werden.  Wenn Kategoriefelder in einem *rein numerischen* Bucket wie **Werte** oder **QuickInfos** platziert werden, kann Power BI die Vorkommen oder die eindeutigen Vorkommen der einzelnen Kategorien ermitteln.  Für Zeichenfolgen und Datumsangaben stehen in Power BI mit „Früheste“, „Neueste“, „Erste“ und „Letzte“ noch einige weitere Aggregierungsoptionen zur Verfügung.  
+## <a name="types-of-data"></a>Datentypen
+Die meisten Datasets enthalten mehr als einen Datentyp. Grundsätzlich sind die Daten entweder numerisch oder nicht numerisch. Numerische Daten können als Summe, Durchschnittswert, Anzahl, Mindestwert, Varianz usw. aggregiert werden. Sogar Textdaten, häufig als *Kategoriedaten* bezeichnet, können aggregiert werden. Wenn Sie Kategoriefelder aggregieren (indem Sie sie in einem rein numerischen Bucket wie **Werte** oder **QuickInfos** platzieren), ermittelt Power BI die Vorkommen oder die eindeutigen Vorkommen der einzelnen Kategorien. Für bestimmte Arten von Daten, wie Datumsangaben, gibt es eigene Aggregatsoptionen: früheste, letzte, erste und letzte. 
+
+Betrachten Sie folgendes Beispiel:
+- **Units Sold** und **Manufacturing Price** sind Spalten mit numerischen Daten.
+-  **Segment**, **Country**, **Product**, **Month** und **Month Name** enthalten Kategoriedaten.
+
+   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+
+Beim Erstellen einer Visualisierung in Power BI werden numerische Felder in einem Kategoriefeld aggregiert (die Standardeinstellung ist *Summe*).  Beispiele sind: „Units Sold ***by Product***“, „Units Sold ***by Month***“ und „Manufacturing Price ***by Segment***“. Einige numerische Felder werden auch als **Measures** bezeichnet. Measures sind im Power BI-Berichts-Editor leicht zu erkennen – sie werden in der Feldliste mit dem Symbol ∑ gekennzeichnet. Weitere Informationen finden Sie unter [Berichts-Editor: Verschaffen Sie sich einen Überblick](service-the-report-editor-take-a-tour.md).
+
+![](media/service-aggregates/power-bi-aggregate-fields.png)
+
+
 
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Warum funktionieren Aggregate nicht wie ich mir das vorstelle?
 Die Verwendung von Aggregaten in Power BI kann teilweise etwas verwirrend sein. Haben Sie ein numerisches Feld, und Power BI lässt keine Änderung der Aggregation zu? Oder haben Sie ein Feld (beispielsweise ein Jahr), das nicht aggregiert werden soll, sondern für das Sie lediglich die Anzahl von Vorkommen ermitteln möchten?
 
-In den meisten Fällen ist das Problem auf die Kategorisierung des Felds im Power BI-Dataset zurückzuführen. Möglicherweise wurde das Feld als Text kategorisiert, was erklären würde, warum keine Summe oder kein Mittelwert gebildet werden kann. [Die Kategorisierung eines Felds kann allerdings nur vom Besitzer des Datasets geändert werden.](desktop-measures.md)  
+In den meisten Fällen ist das Problem auf die Definition des Felds im Dataset zurückzuführen. Möglicherweise wurde das Feld als Text definiert, was erklären würde, warum keine Summe oder kein Mittelwert gebildet werden kann. [Die Kategorisierung eines Felds kann allerdings nur vom Besitzer des Datasets geändert werden.](desktop-measures.md) Wenn Sie also über Kontobesitzerberechtigungen für das Dataset verfügen (in Power BI Desktop oder in dem Programm, in dem das Dataset erstellt wurde, z.B. Excel), können Sie das Problem beheben. Andernfalls müssen Sie den Besitzer des Datasets um Hilfe bitten.  
 
 Als Orientierungshilfe haben wir am **Ende dieses Artikels** einige Tipps und Problembehandlungsinformationen bereitgestellt.  Sollten Sie dort keine passende Antwort finden, posten Sie Ihre Frage im [Forum der Power BI-Community](http://community.powerbi.com). Dort erhalten Sie eine schnelle Antwort direkt vom Power BI-Team.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Ändern, wie ein numerisches Feld aggregiert wird
-Angenommen, Sie haben ein Diagramm, das die Verkaufsdaten für verschiedene Regionen zusammenfasst. Sie bevorzugen aber den Mittelwert. 
+Angenommen, Sie haben ein Diagramm, in dem die verkauften Einheiten für verschiedene Produkte addiert werden. Sie benötigen aber den Mittelwert. 
 
-1. Fügen Sie in der Bearbeitungsansicht des Berichts das Measure einer Visualisierung hinzu.
-2. Suchen Sie das Feld im Visualisierungsbereich, klicken Sie mit der rechten Maustaste darauf, und wählen Sie den gewünschten Aggregattyp aus. Wenn die benötigte Aggregation nicht angezeigt wird, wenden Sie sich an den Datasetbesitzer. Möglicherweise verursacht die Kategorisierung des Felds durch den Besitzer das Problem.  
+1. Erstellen Sie ein Diagramm, in dem eine Kategorie und ein Measure verwendet werden. In diesem Beispiel verwenden wir „Units Sold by Product“.  Power BI erstellt standardmäßig ein Diagramm mit der Summe der verkauften Einheiten (Measure im Feld „Wert“) für jedes Produkt (Kategorie im Feld „Achse“).
+
+   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+
+2. Klicken Sie im Visualisierungsbereich mit der rechten Maustaste auf das Measure, und wählen Sie den gewünschten Aggregattyp aus. In diesem Fall wählen wir „Durchschnitt“ aus. Wenn die benötigte Aggregation nicht angezeigt wird, finden Sie weiter unten unter „Zu beachtende Aspekte und Problembehandlung“ weitere Informationen.  
    
-   ![](media/service-aggregates/aggregate_new.png)
+   ![](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > Die in der Dropdownliste verfügbaren Optionen hängen erstens vom ausgewählten Feld und zweitens von der Kategorisierung des ausgewählten Felds durch den Datasetbesitzer ab.
    > 
-   > 
+3. Die Visualisierung wird nun mit einem Durchschnittswert aggregiert.
+
+   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+
+##    <a name="ways-to-aggregate-your-data"></a>Möglichkeiten zum Aggregieren von Daten
 
 Hier sind einige der Optionen aufgeführt, die möglicherweise zum Aggregieren eines Felds zur Verfügung stehen:
 
@@ -91,35 +111,40 @@ führen zu folgenden Ergebnissen:
 * **Varianz:** 416,666...
 * **Median:** 125
 
-## <a name="use-a-non-aggregated-field-as-a-numeric-field"></a>Nicht aggregiertes Feld als numerisches Feld verwenden
-Sie können auch ein nicht aggregiertes Feld als numerisches Feld verwenden. Wenn beispielsweise das Feld „Produktname“ vorhanden ist, können Sie es als Wert hinzufügen und dafür **Anzahl** oder **Diskrete Anzahl**festlegen. 
+## <a name="create-an-aggregate-using-a-category-text-field"></a>Erstellen eines Aggregats mit einem Kategoriefeld (Text)
+Sie können auch nicht numerische Felder aggregieren. Wenn beispielsweise ein Feld mit Produktnamen vorhanden ist, können Sie es als Wert hinzufügen und dafür **Anzahl**, **Diskrete Anzahl**, **Erste** oder **Letzter** festlegen. 
 
-1. Beispiel: Auswahl von **Store > Kette**.
+1. In diesem Beispiel wurde das Feld **Product** in das Feld „Werte“ gezogen. Das Feld „Werte“ wird normalerweise für numerische Felder verwendet. Power BI erkennt, dass es sich um ein Textfeld handelt, legt das Aggregat auf **Nicht zusammenfassen** fest und zeigt eine einspaltige Tabelle an.
    
-   ![](media/service-aggregates/count-of-chain-do_not_summarize.png)
-2. Und wenn Sie die Aggregation von der Standardeinstellung **Nicht zusammenfassen** in **Anzahl (diskrete)**ändern, zählt Power BI die Anzahl der verschiedenen Ketten. In diesem Fall gibt es zwei: Fashions Direct und Lindseys.
+   ![](media/service-aggregates/power-bi-aggregate-value.png)
+2. Wenn Sie die Aggregation von der Standardeinstellung **Nicht zusammenfassen** in **Anzahl (eindeutig)** ändern, zählt Power BI die Anzahl der verschiedenen Produkte. In diesem Fall sind dies 4.
    
-   ![](media/service-aggregates/aggregates_count.png)
-3. Und wenn Sie die Aggregation in **Anzahl**ändern, zählt Power BI die Gesamtanzahl. In diesem Fall sind es 104 Einträge für **Kette**. Durch Hinzufügen von **Kette** als Filter können Sie sehen, dass es 37 Zeilen für Fashions Direct und 67 Zeilen für Lindseys gibt.  
+   ![](media/service-aggregates/power-bi-aggregates-count.png)
+3. Wenn Sie die Aggregation in **Anzahl**ändern, zählt Power BI die Gesamtanzahl. In diesem Fall sind es 7 Einträge für **Product**. 
    
-   ![](media/service-aggregates/count_of_chain_104.png)
+   ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
-## <a name="tips-and-troubleshooting"></a>Tipps und Problembehandlung
+4. Indem Sie das gleiche Feld (in diesem Fall **Product**) in das Feld „Werte“ ziehen und die Standardaggregation **Nicht zusammenfassen** übernehmen, gliedert Power BI die Anzahl nach Produkt.
+
+   ![](media/service-aggregates/power-bi-aggregate-final.png)
+
+## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 F: Warum ist die Funktion **Nicht zusammenfassen** nicht verfügbar?
 
-A: Bei dem gewählten Feld handelt es sich wahrscheinlich um ein berechnetes Measure. Zur Erinnerung: Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel. Die Berechnung kann also nicht geändert werden.
+A: Das ausgewählte Feld ist wahrscheinlich ein berechnetes oder erweitertes Measure, das in Excel oder [Power BI Desktop](desktop-measures.md) erstellt wurde. Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel. Sie können die verwendete Aggregation nicht ändern.  Wenn es sich z.B. um eine Summe handelt, muss es eine Summe bleiben. In der Feldliste sind *berechnete Measures* mit dem Rechnersymbol gekennzeichnet.
 
 F: Mein Feld **ist** numerisch. Warum stehen mir nur die Optionen **Count** und **Distinct Count** zur Verfügung?
 
-A: Wahrscheinlich hat der Besitzer des Datasets das Feld (versehentlich oder absichtlich) *nicht* als Zahl klassifiziert. Wenn beispielsweise ein Dataset das Feld **Jahr** enthält, wurde es vom Besitzer des Datasets eventuell als Text kategorisiert, da die Wahrscheinlichkeit höher ist, dass der Inhalt des Felds **Jahr** gezählt (z. B. die Anzahl der 1974 geborenen Personen) wird, als dass sein Inhalt addiert oder sein Mittelwert berechnet wird. Als Besitzer können Sie das Dataset in Power BI Desktop öffnen und auf der Registerkarte **Modellierung** den Datentyp ändern.  
+A1: Wahrscheinlich hat der Besitzer des Datasets das Feld (versehentlich oder absichtlich) *nicht* als Zahl klassifiziert. Wenn beispielsweise ein Dataset das Feld **Jahr** enthält, wurde es vom Besitzer des Datasets eventuell als Text kategorisiert, da die Wahrscheinlichkeit höher ist, dass der Inhalt des Felds **Jahr** gezählt (z. B. die Anzahl der 1974 geborenen Personen) wird, als dass sein Inhalt addiert oder sein Mittelwert berechnet wird. Als Besitzer können Sie das Dataset in Power BI Desktop öffnen und auf der Registerkarte **Modellierung** den Datentyp ändern.  
 
-A: Eine weitere Möglichkeit: Sie haben das Feld in einem *Bucket* platziert, in dem nur Kategoriewerte zulässig sind.  In diesem Fall stehen nur die Optionen „Count“ und „Distinct Count“ zur Verfügung.
+A2: Wenn das Feld mit einem Rechnersymbol gekennzeichnet ist, handelt es sich um ein *berechnetes Measure*. Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel, die nur vom Besitzer eines Datasets geändert werden kann. Bei der verwendeten Berechnung kann es sich um eine einfache Aggregation wie einen Mittelwert oder eine Summe handeln, aber auch kompliziertere Aggregationen wie „prozentualer Anteil an einer übergeordneten Kategorie“ oder „laufende Summe seit Jahresbeginn“ sind möglich. Power BI bildet keine Summe und keinen Mittelwert für die Ergebnisse, sondern führt stattdessen lediglich eine Neuberechnung für die einzelnen Datenpunkte durch (unter Verwendung der hartcodierten Formel).
 
-A: Dritte Möglichkeit: Das Feld wird für eine Achse verwendet. Auf der Achse eines Balkendiagramms zeigt Power BI beispielsweise jeweils einen Balken pro eindeutigem Wert an. Die Feldwerte werden also überhaupt nicht aggregiert. 
+A3: Eine weitere Möglichkeit: Sie haben das Feld in einem *Bucket* platziert, in dem nur Kategoriewerte zulässig sind.  In diesem Fall stehen nur die Optionen „Count“ und „Distinct Count“ zur Verfügung.
+
+A4: Dritte Möglichkeit: Das Feld wird für eine Achse verwendet. Auf der Achse eines Balkendiagramms zeigt Power BI beispielsweise jeweils einen Balken pro eindeutigem Wert an. Die Feldwerte werden also überhaupt nicht aggregiert. 
 
 >[!NOTE]
 >Eine Ausnahme sind Punktdiagramme, bei denen aggregierte Werte für die X- und Y-Achse *erforderlich* sind.
-
 
 F: Ich habe ein Punktdiagramm und möchte *nicht*, dass mein Feld aggregiert wird.  Wie kann ich das erreichen?
 
@@ -128,10 +153,6 @@ A: Fügen Sie das Feld dem Bucket **Details** (und nicht den Buckets für die X-
 F: Wenn ich ein numerisches Feld einer Visualisierung hinzufüge, wird bei den meisten standardmäßig eine Summe gebildet, bei einigen wird hingegen standardmäßig ein Mittelwert gebildet, die Anzahl ermittelt oder eine andere Aggregation verwendet.  Warum ist die standardmäßige Aggregation nicht immer gleich?
 
 A: Besitzer von Datasets können die Standardzusammenfassung individuell für einzelne Felder festlegen. Als Besitzer eines Datasets können Sie die Standardzusammenfassung auf der Power BI Desktop-Registerkarte **Modellierung** ändern.
-
-F: Mein Feld **ist** numerisch. Warum enthält die Dropdownliste keinerlei Zusammenfassungsoptionen?
-
-A: Wenn das Feld mit einem Rechnersymbol gekennzeichnet ist, handelt es sich um ein *berechnetes Measure*. Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel, die im Power BI-Dienst nicht geändert werden kann. Bei der verwendeten Berechnung kann es sich um eine einfache Aggregation wie einen Mittelwert oder eine Summe handeln, aber auch kompliziertere Aggregationen wie "prozentualer Anteil an einer übergeordneten Kategorie“ oder „laufende Summe seit Jahresbeginn“ sind möglich. Power BI bildet keine Summe und keinen Mittelwert für die Ergebnisse, sondern führt stattdessen lediglich eine Neuberechnung für die einzelnen Datenpunkte durch (unter Verwendung der hartcodierten Formel).
 
 F: Ich bin Besitzer eines Datasets und möchte sicherstellen, dass ein Feld nicht aggregiert wird. Wie gehe ich dazu vor?
 

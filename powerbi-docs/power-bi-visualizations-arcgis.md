@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagieren mit ArcGIS-Karten in Power BI
 Dieses Thema ist für Personen verfasst, die ArcGIS-Karten im Power BI-Dienst, in Power BI Desktop oder in einer mobilen Power BI-App *nutzen*. Sobald ein Ersteller eine ArcGIS-Karte für Sie freigegeben hat, gibt es viele Möglichkeiten für die Interaktion mit dieser Karte.  Weitere Informationen zum Erstellen einer ArcGIS-Karte finden Sie im [Tutorial zu ArcGIS Maps von ESRI](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ ArcGIS-Karten für Power BI stellt drei Auswahlmodi bereit. Es können maximal 2
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interagieren mit einer ArcGIS-Karte
-Die für Sie verfügbaren Funktionen hängen davon ab, ob Sie der *Ersteller* (die Person, von der die Karte erstellt wurde) oder der *Nutzer* (jemand hat eine ArcGIS-Karte für Sie freigegeben) sind. Wenn Sie als Nutzer mit einer ArcGIS-Karte interagieren (auch als [Leseansicht](service-interact-with-a-report-in-reading-view.md) bezeichnet), sind die folgenden Aktionen für Sie verfügbar.
+Die für Sie verfügbaren Funktionen hängen davon ab, ob Sie der *Ersteller* (die Person, von der die Karte erstellt wurde) oder der *Nutzer* (jemand hat eine ArcGIS-Karte für Sie freigegeben) sind. Wenn Sie als Nutzer mit einer ArcGIS-Karte interagieren (auch als [Leseansicht](service-reading-view-and-editing-view.md) bezeichnet), sind die folgenden Aktionen für Sie verfügbar.
 
 * Wie bei anderen Visualisierungstypen können Sie Elemente [an Dashboards anheften](service-dashboard-pin-tile-from-report.md), [die zugrunde liegenden Daten anzeigen](service-reports-show-data.md) und/oder [exportieren](power-bi-visualization-export-data.md) sowie die Karte im [Fokusmodus](service-focus-mode.md) und [Vollbildmodus](service-fullscreen-mode.md) anzeigen.    
 * Erweitern Sie den Bereich **Filter**, um die Karte mithilfe von Filtern zu untersuchen. Wenn Sie den Bericht schließen, werden die angewendeten Filter nicht gespeichert.    

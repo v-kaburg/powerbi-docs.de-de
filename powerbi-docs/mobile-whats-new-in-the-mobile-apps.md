@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -30,24 +30,50 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
 
-## <a name="september-2017"></a>September 2017
-### <a name="filters-for-phone-reports-in-iphones"></a>Filter für Smartphoneberichte auf iPhones
+## <a name="december-2017"></a>Dezember 2017
+### <a name="improved-permission-management"></a>Verbesserte Berechtigungsverwaltung
+
+Wir haben einige Änderungen vorgenommen, die eine präzisere Verwaltung von Benutzerberechtigungen für Datasets, Dashboards und Berichte ermöglichen.
+
+### <a name="auto-installed-apps"></a>Automatisch installierte Apps
+
+Einige der Apps in Power BI müssen Sie nicht installieren. Ersteller von Power BI-Apps in Ihrer Organisation können *Apps* erstellen, die eine Sammlung von Dashboards und Berichten enthalten. Diese App können sie dann veröffentlichen und festlegen, dass sie automatisch im Power BI-Dienst und den mobilen Power BI-Apps installiert wird. Wenn für eine App festgelegt wurde, dass sie installiert wird, wird sie automatisch im Menü **Apps** angezeigt:
+
+![Apps in der mobilen Power BI-App](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>November 2017
+### <a name="iphone-x-optimization"></a>iPhone X-Optimierung
+
+Das App-Layout wurde für das iPhone X optimiert, sodass Sie Ihre Daten problemlos auf jedem Gerät untersuchen können.
+
+## <a name="october-2017"></a>Oktober 2017
+### <a name="filters-for-phone-reports-in-android"></a>Filter für Smartphoneberichte in Android
+
+Wenn Sie in Power BI Desktop einen Bericht mit für das Smartphone optimierten Seiten erstellen und der Bericht Filter enthält, können Sie diese Filter jetzt im Smartphonebericht auf Ihrem Android-Gerät anwenden. Erfahren Sie mehr über Filter für Power BI-Berichte auf Android-Geräten.
+
+### <a name="show-data-in-reports"></a>Daten in Berichten anzeigen
+
+Sie können jetzt bei Visuals in Ihren Berichten zu einer Tabellenansicht wechseln, um die Zahlen zu den Daten anzuzeigen. Um auf dieses Feature zuzugreifen, tippen Sie im Bericht im Menü „...“ für das Visual auf „Daten anzeigen“ oder auf das neue Symbol im erweiterten Aktionsmenü für das Visual.
+
+## <a name="previous-months"></a>Vorherige Monate
+
+### <a name="september-2017"></a>September 2017
+#### <a name="filters-for-phone-reports-in-iphones"></a>Filter für Smartphoneberichte auf iPhones
 Wenn Sie in Power BI Desktop einen Bericht mit für das Smartphone optimierten Seiten erstellen und der Bericht Filter aufweist, können Sie diese Filter jetzt im Smartphonebericht auf dem iPhone anwenden. Erfahren Sie mehr über [Filter für Power BI-Berichte auf iPhones](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/).
 
-## <a name="august-2017"></a>August 2017
-### <a name="ios-proxy-settings-support"></a>Unterstützung von Proxyeinstellungen für iOS
+### <a name="august-2017"></a>August 2017
+#### <a name="ios-proxy-settings-support"></a>Unterstützung von Proxyeinstellungen für iOS
 Sie können jetzt in der mobilen Power BI-App für iOS Proxyeinstellungen festlegen. Dies bedeutet, dass Power BI jetzt mit VPN-Verbindungen auf Ihrem mobilen Gerät verwendet werden kann, sodass mehr Benutzer und Organisationen die Vorteile von Power BI auf sichere Weise mobil nutzen können.
 
-## <a name="july-2017"></a>Juli 2017
+### <a name="july-2017"></a>Juli 2017
 Lesen Sie die [Featurezusammenfassung für mobile Apps vom Juli 2017](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview).
 
-### <a name="ios-devices"></a>iOS-Geräte
+#### <a name="ios-devices"></a>iOS-Geräte
 **Neue Q&A-Umgebung für iOS (Vorschauversion)** Jetzt können Sie natürliche Sprache verwenden, um bereichsbezogene Einblicke abzurufen, statt einfach nur eine Antwort auf Ihre Frage zu erhalten. Selbst wenn Sie sich nicht sicher sind, was Sie suchen, ermittelt Q&A proaktiv zu Ihren Daten relevante Erkenntnisse. Die neue Q&A-Oberfläche für Mobilgeräte, die in Kooperation mit dem Microsoft Research-Team entwickelt wurde, ist ein Beispiel für die leistungsfähigen Technologien, die in das Produkt integriert sind. Probieren Sie das Tutorial [Fragen zu Daten in den mobilen iOS-Apps stellen](mobile-apps-ios-qna.md) aus.
 
 ### <a name="responsive-visuals"></a>Dynamische Visuals
 **Dynamische Visuals für Smartphoneberichte und -dashboards** Sie können Visuals in einem Dashboard oder Bericht auf *dynamisch* festlegen, damit bei jeder Bildschirmgröße automatisch möglichst viele Daten und Informationen angezeigt werden. Lesen Sie das [Blog zu dynamischen Visuals](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
 
-## <a name="previous-months"></a>Vorherige Monate
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle Geräte
 **Speichern von Apps als Favoriten** Es ist bereits möglich, Dashboards als Favoriten zu speichern. Jetzt können Sie auch die [kürzlich in Power BI eingeführten Apps](service-install-use-apps.md) als Favoriten zu speichern. 

@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
 Wenn Sie Dashboards und Berichte erstellen, können Sie mit Nutzungsmetriken nachvollziehen, wie diese sich auswirken. Wenn Sie entweder das Dashboard zu Nutzungsmetriken oder die Berichte zu Nutzungsmetriken ausführen, können Sie ermitteln, wie die Dashboards und Berichte in der gesamten Organisation verwendet werden. Was wurde von wem und zu welchem Zweck verwendet?  
 
 > [!NOTE]
-> Nutzungsmetriken sammeln Nutzungsdaten, wenn Sie Dashboards und Berichte einbetten, jedoch nicht bei der Verwendung von [Im Web veröffentlichen](service-publish-to-web.md)
+> Nutzungsmetriken verfolgen die Verwendung von Berichten nach, die in SharePoint Online eingebettet sind. Sie verfolgen auch das Einbetten von Dashboards und Berichten über die Workflows „Benutzer besitzt Anmeldeinformationen“ und „App besitzt Anmeldeinformationen“ nach. Nutzungsmetriken verfolgen nicht die Verwendung von Berichten nach, die über [Im Web veröffentlichen](service-publish-to-web.md) eingebettet wurden.
 > 
 > 
 

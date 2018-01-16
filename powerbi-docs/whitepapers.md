@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -41,5 +41,6 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 | [Sicherheit in Power BI](service-admin-power-bi-security.md) |Bietet eine ausführliche Erläuterung der Sicherheit in Power BI. |
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Sichern des tabellarischen BI-Semantikmodells) (in englischer Sprache) |In diesem Dokument wird das Sicherheitsmodell für die tabellarische BI-Semantik und Power BI vorgestellt. Sie erfahren, wie Sie Rollen erstellen, dynamische Sicherheit implementieren, Einstellungen für Identitätswechsel konfigurieren, Rollen verwalten und eine für den Sicherheitskontext Ihres Netzwerks geeignete Methode zum Herstellen einer Verbindung mit Modellen auswählen. |
 | [Leitfaden zur Kapazitätsplanung für den Power BI-Berichtsserver](report-server/capacity-planning.md) |Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. |
-|[Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment) | Technische Whitepaper zu Best Practices und Anleitungen zum Planen, Bereitstellen und Ausführen von Power BI Premium. 
+| [Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment)| In diesem Dokument finden Sie Anleitungen und Best Practices für die Planung und Bereitstellung von Premium-Kapazität bei klar definierten Workloads.|
+
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Übersicht über das Inhaltspaketprogramm für den Power BI-Dienst
 Bei einem Inhaltspaket handelt es sich um sofort einsetzbare Inhalte, mit denen Benutzer unmittelbar Einblicke in eine Quelle gewinnen können. Ein Inhaltspaket konzentriert sich in der Regel auf ein bestimmtes Geschäftsszenario und ermöglicht Einblicke in eine Rolle, eine Domäne oder einen Workflow.
@@ -49,6 +49,7 @@ Zum Erstellen und Übermitteln eines Inhaltspakets, das im Power BI-Dienst und i
 * Sie haben eine SaaS-Anwendung, die von Geschäftsbenutzern verwendet wird.
 * Die SaaS-Anwendung enthält Benutzerdaten, die in Power BI visuell dargestellt werden können.
 * Die SaaS-Anwendung verfügt über eine API, auf die über das öffentliche Internet zugegriffen werden kann. Im Idealfall handelt es sich bei der API um eine REST-basierte API oder einen OData-Feed. Power BI-Inhaltspakete unterstützen verschiedene Authentifizierungstypen, z.B. Standardauthentifizierung, OAuth 2.0 und API-Schlüssel. 
+* Ihre SaaS-Anwendung wurde für das Veröffentlichen eines Inhaltspakets genehmigt. Senden Sie Ihre Anfrage an pbiservicesapps@microsoft.com. Wir überprüfen alle Anträge auf Relevanz und die erwartete Nutzung. 
 * Unterzeichnete Partnervereinbarung. Dies erfolgt beim [Übermitteln](template-content-pack-testing.md#submission).
 
 Weitere Informationen zu den technischen Anforderungen finden Sie im Abschnitt zur [Erstellung](template-content-pack-authoring.md).

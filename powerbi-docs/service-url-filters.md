@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 Wenn Sie im Power BI-Dienst einen Bericht öffnen, hat jeder Seite des Berichts eine eigene eindeutige URL. Zum Filtern der jeweiligen Berichtsseite können Sie den Filterbereich des Berichtszeichenbereichs verwenden.  Sie können aber auch die URL mit Abfragezeichenfolgenparametern versehen, um den Bericht zu filtern. Das ist beispielsweise hilfreich, wenn Sie Kollegen einen bereits vorgefilterten Bericht zeigen möchten. Hierzu können Sie etwa der Standard-URL für den Bericht die gewünschten Filterparameter hinzufügen und dann die gesamte URL per E-Mail versenden.
@@ -41,7 +41,7 @@ URL?filter=***Tabelle***/***Feld*** eq '***Wert***'
 * Bei den Namen für **Tabelle** und **Feld** muss die Groß-/Kleinschreibung beachtet werden, beim **Wert** nicht.
 * Zum Filtern können auch Felder verwendet werden, die in der Berichtsansicht ausgeblendet sind.
 * **Wert** muss in einfache Anführungszeichen eingeschlossen werden.
-* Beim Feldtyp muss es sich um eine Zeichenfolge handeln.
+* Der Feldtyp muss eine Zahl oder Zeichenfolge sein.
 * Tabellen- und Feldnamen dürfen keine Leerzeichen enthalten.
 
 Auf all das gehen wir im weiteren Verlauf dieses Artikels noch näher ein.  
@@ -108,7 +108,7 @@ Das ist hilfreich, wenn Sie unterschiedliche Ergebnisse anzeigen möchten (gefil
 Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beachtet werden.
 
 * Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) oder Power BI Embedded verwendet werden.   
-* Beim Feldtyp muss es sich um eine Zeichenfolge handeln.
+* Der Feldtyp muss eine Zahl oder Zeichenfolge sein.
 * Tabellen- und Feldnamen dürfen keine Leerzeichen enthalten.
 
 ## <a name="next-steps"></a>Nächste Schritte

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 5fcfd09e74f661a1cc5ab8fcda6cf4cd0525437a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Anzeigen der Daten, die zum Erstellen der Visualisierung verwendet wurden
 ## <a name="show-data"></a>Anzeigen der Daten
@@ -35,7 +35,7 @@ Sie können die Daten, mit denen die Visualisierung erstellt wurde, auch als XLS
 > 
 
 ## <a name="using-show-data-in-power-bi-service"></a>Verwenden von *Daten anzeigen* im Power BI-Dienst
-1. Öffnen Sie im Power BI-Dienst einen Bericht in der [Leseansicht](service-report-open-in-reading-view.md) oder der [Bearbeitungsansicht](service-reading-view-and-editing-view.md), und wählen Sie eine Visualisierung aus.  Öffnen Sie in Power BI Desktop die Berichtsansicht.
+1. Öffnen Sie im Power BI-Dienst einen Bericht in der [Leseansicht oder der Bearbeitungsansicht](service-reading-view-and-editing-view.md), und wählen Sie ein Visual aus.  Öffnen Sie in Power BI Desktop die Berichtsansicht.
 2. Wählen Sie zum Anzeigen der für das Visual verwendeten Daten **Durchsuchen** > **Daten anzeigen**.
    
    ![](media/service-reports-show-data/power-bi-show-data.png)

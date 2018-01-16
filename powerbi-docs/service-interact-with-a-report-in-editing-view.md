@@ -1,6 +1,6 @@
 ---
-title: Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
-description: Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
+title: Interagieren mit einem Bericht in der Bearbeitungsansicht (Tutorial)
+description: Interagieren mit einem Bericht in der Berichtsbearbeitungsansicht des Power BI-Diensts
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 01/05/2018
 ms.author: mihart
-ms.openlocfilehash: 9cbe01dab4f1019e3943c54685e3da416f1a0ca9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
-# <a name="interact-with-a-report-in-editing-view-in-power-bi"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
-Die [Bearbeitungsansicht](service-reading-view-and-editing-view.md) von Berichten bietet Ihnen große Flexibilität beim Untersuchen und Entwerfen eines Berichts. Neben allen Funktionen der [Leseansicht](service-interact-with-a-report-in-reading-view.md) stehen viele weitere Möglichkeiten zur Verfügung. Die Bearbeitungsansicht ist nur für den Ersteller eines Berichts oder die Kollegen verfügbar, die [den Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](service-create-distribute-apps.md).
+# <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht des Power BI-Diensts
+Wenn Sie über Besitzerberechtigungen verfügen, können Sie Berichte im Power BI-Dienst und in Power BI Desktop bearbeiten. Im Gegensatz zur Desktop-Version verfügt der Power BI-Dienst über zwei verschiedene Modi für die Interaktion mit Berichten: die [Leseansicht](service-reading-view-and-editing-view.md) für *Benutzer des Berichts* und die Bearbeitungsansicht für Besitzer und Bearbeiter eines Berichts. Im Tutorial in diesem Artikel wird die Bearbeitungsansicht im Power BI-Dienst betrachtet. 
+
+Die Bearbeitungsansicht für Berichte bietet Ihnen große Flexibilität beim Untersuchen und Entwerfen eines Berichts. Neben allen Funktionen der [Leseansicht](service-reading-view-and-editing-view.md) stehen viele weitere Möglichkeiten zur Verfügung. Die Bearbeitungsansicht ist nur für den Ersteller eines Berichts oder die Kollegen verfügbar, die [den Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Funktionen, die nur in der Bearbeitungsansicht verfügbar sind
 Sehen Sie sich die Themenliste unter der Überschrift **Berichte** im Inhaltsverzeichnis links an. Es ist eine lange Liste, und viele Themen behandeln Funktionen, die *nur verfügbar sind, wenn Sie Bearbeitungsberechtigungen für einen Bericht haben*.  Um Ihnen das Navigieren im Inhaltsverzeichnis zu erleichtern: Die Bearbeitungsansicht ist für Folgendes erforderlich:
@@ -43,8 +45,6 @@ Sehen Sie sich die Themenliste unter der Überschrift **Berichte** im Inhaltsver
 
 ## <a name="next-steps"></a>Nächste Schritte
 Zurück zu [Leseansicht und Bearbeitungsansicht im Power BI-Dienst](service-reading-view-and-editing-view.md)
-
-Verfügbare Funktionen in der [Leseansicht für Berichte](service-interact-with-a-report-in-reading-view.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

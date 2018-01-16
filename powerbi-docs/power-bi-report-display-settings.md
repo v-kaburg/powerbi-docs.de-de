@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Einstellungen für die Seitenanzeige in einem Power BI-Bericht
 Wir wissen, wie wichtig es ist, dass das Layout des Berichts perfekt ist. Das ist in manchen Fällen jedoch schwierig, da Sie und Ihre Kollegen die Berichte auf Bildschirmen mit unterschiedliche Seitenverhältnissen und Größen anzeigen. 
@@ -45,7 +45,7 @@ Wählen Sie in der Berichtsansicht die Registerkarte **Ansicht** aus, um die Ein
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Die Einstellungen für die Seitenansicht stehen in der [Leseansicht](service-interact-with-a-report-in-reading-view.md) und der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zur Verfügung. In der Bearbeitungsansicht kann der Besitzer eines Berichts einzelnen Berichtsseiten eine Seitenansichtseinstellung zuweisen; diese Einstellungen werden mit dem Bericht gespeichert. Wenn ein Kollege den Bericht in der Leseansicht öffnet, werden ihm die Berichtsseiten mit den Einstellungen des Besitzers angezeigt.  In der Leseansicht können die Kollegen *einige* der Seitenansichtseinstellungen ändern. Die Änderungen werden aber nicht gespeichert, wenn sie den Bericht schließen.
+Die Einstellungen für die Seitenansicht stehen in der [Leseansicht und der Bearbeitungsansicht](service-reading-view-and-editing-view.md) zur Verfügung. In der Bearbeitungsansicht kann der Besitzer eines Berichts einzelnen Berichtsseiten eine Seitenansichtseinstellung zuweisen; diese Einstellungen werden mit dem Bericht gespeichert. Wenn ein Kollege den Bericht in der Leseansicht öffnet, werden ihm die Berichtsseiten mit den Einstellungen des Besitzers angezeigt.  In der Leseansicht können die Kollegen *einige* der Seitenansichtseinstellungen ändern. Die Änderungen werden aber nicht gespeichert, wenn sie den Bericht schließen.
 
 ##    <a name="page-view-settings"></a>Seitenansichtseinstellungen
 Mit der ersten Gruppe von Einstellungen für die *Seitenansicht* wird die Anzeige der Berichtsseite in Relation zum Browserfenster angepasst.  Sie können zwischen folgenden Einstellungen wählen:

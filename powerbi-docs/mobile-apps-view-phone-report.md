@@ -15,15 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
+
+Gilt für:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Android-Smartphone](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhones |Android-Telefone |
+
 Wenn Sie in Power BI Desktop einen Power BI-Bericht erstellen, können Sie auch eine [zum Anzeigen in der Power BI-App auf einem Smartphone optimierte Version des Berichts](desktop-create-phone-report.md) erstellen.
 
 Beim Öffnen eines Power BI-Berichts auf einem Smartphone erkennt Power BI, ob der Bericht für Smartphones optimiert wurde, und öffnet den optimierten Bericht automatisch im Hochformat.

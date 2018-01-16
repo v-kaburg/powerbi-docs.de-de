@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonnieren eines Power BI-Berichts oder -Dashboards
 Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie legen fest, wie oft Power BI die E-Mail-Nachrichten senden soll: von einmal täglich bis einmal pro Woche. Die E-Mail und die Momentaufnahme werden in der Sprache verfasst, die in den Power BI-Einstellungen festgelegt wurde. Wenn keine Sprache definiert wurde, verwendet Power BI die aktuelle Spracheinstellung des Browsers.
@@ -65,7 +65,7 @@ Das **Erstellen** eines Abonnements ist ein Feature von Power BI Pro, und Sie be
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Abonnieren einer Berichtsseite
-1. Öffnen Sie den Bericht in der [Leseansicht](service-report-open-in-reading-view.md).
+1. Öffnen Sie den Bericht in der [Leseansicht](service-reading-view-and-editing-view.md).
 2. Wählen Sie auf der oberen Menüleiste die Option **Abonnieren** aus.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder de
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Die Abonnierfunktion steht zum jetzigen Zeitpunkt nicht für Dashboards oder Berichte aus Inhaltspaketen oder Power BI-Apps zur Verfügung. Es gibt jedoch eine Möglichkeit, dies zu umgehen: Erstellen Sie hierzu eine Kopie des Berichts/Dashboards, und fügen Sie dieser Version Abonnements hinzu.
+* Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtseite abonnieren und dann umbenennen, müssen Sie das Abonnement erneut erstellen.
 * Bei E-Mail-Abonnements für Live Connection-Datasets erhalten Sie nur dann E-Mail-Nachrichten, wenn die Daten geändert wurden. Wenn also eine Aktualisierung erfolgt, aber keine Daten geändert wurden, sendet Power BI keine E-Mail-Nachricht.
 * E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](power-bi-custom-visuals.md).  Die einzige Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](power-bi-custom-visuals-certified.md) wurden.  
 * E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie vor dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.    
