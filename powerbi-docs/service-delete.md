@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Löschen beliebiger Elemente aus dem Power BI-Dienst
 In diesem Artikel wird erläutert, wie Sie ein Dashboard, einen Bericht, eine Arbeitsmappe, ein Dataset, eine App, eine Visualisierung oder einen Arbeitsbereich im Power BI-Dienst löschen.
@@ -141,7 +141,7 @@ Wenn Sie eine App von der Seite mit der Liste der Apps löschen, wird sie nicht 
 In diesem Artikel wird das Löschen der Grundkomponenten des Power BI-Diensts beschrieben. Es gibt jedoch noch weitere Komponenten in Power BI, die Sie löschen können.  
 
 * [Entfernen eines ausgewählten Dashboards](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Entfernen eines Dashboards aus den Favoriten](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Entfernen eines Dashboards aus den Favoriten](service-dashboard-favorite.md)
 * [Löschen einer Berichtsseite](service-delete.md)
 * [Löschen einer Dashboardkachel](service-dashboard-edit-tile.md)
 * [Löschen einer Berichtsvisualisierung](service-delete.md)
