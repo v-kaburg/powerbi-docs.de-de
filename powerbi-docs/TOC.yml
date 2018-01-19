@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Fragen an Ihre Daten stellen
       items:
-        - name: Fragen und Antworten in Power BI
-          href: service-q-and-a.md
-        - name: Power BI Q&A verwenden
-          href: service-how-to-q-and-a.md
-        - name: 'Tutorial: Erste Schritte mit Power BI Q&A'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Verwenden von F&A mit Daten in Power BI Gateway – Unternehmensdaten (Vorschau)
-          href: service-q-and-a-direct-query.md
-        - name: Optimieren Ihrer Daten für Q&A in Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Einführung in Cortana für Power BI
-          href: service-cortana-intro.md
-        - name: Aktivieren von Cortana für Power BI
-          href: service-cortana-enable.md
-        - name: "Erstellen von ausgewählten Fragen für Power\_BI Q&A"
-          href: service-q-and-a-create-featured-questions.md
-        - name: Tipps und Tricks für Fragen mit Q&A in Power BI
-          href: service-q-and-a-tips.md
-        - name: Behandeln von Problemen bei Cortana
-          href: service-cortana-troubleshoot.md
+        - name: Übersicht
+          items:
+            - name: Fragen und Antworten in Power BI
+              href: power-bi-q-and-a.md
+            - name: Einführung in Cortana für Power BI
+              href: service-cortana-intro.md
+        - name: Schnellstart
+          items:
+            - name: Erste Schritte mit Power BI – Q&A
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Lernprogramme
+          items:
+            - name: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
+              href: power-bi-tutorial-q-and-a.md
+        - name: Vorgehensweise
+          items:
+            - name: Verwenden von F&A mit Daten in Power BI Gateway – Unternehmensdaten (Vorschau)
+              href: service-q-and-a-direct-query.md
+            - name: Optimieren Ihrer Daten für Q&A in Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Aktivieren von Cortana für Power BI
+              href: service-cortana-enable.md
+            - name: "Erstellen von ausgewählten Fragen für Power\_BI Q&A"
+              href: service-q-and-a-create-featured-questions.md
+        - name: Ressourcen
+          items:
+            - name: Tipps und Tricks für Fragen mit Q&A in Power BI
+              href: service-q-and-a-tips.md
+            - name: Behandeln von Problemen bei Cortana
+              href: service-cortana-troubleshoot.md
     - name: Freigeben Ihrer Arbeit
       items:
         - name: Wie kann ich Dashboards und Berichte freigeben?
@@ -988,7 +998,7 @@
           href: developer/template-content-pack-testing.md
         - name: Vorlageninhaltspakete in der Praxis
           href: developer/template-content-pack-experience.md
-    - name: Referenzmaterial
+    - name: Referenzen
       items:
         - name: REST-APIs
           href: developer/rest-api-reference.md
