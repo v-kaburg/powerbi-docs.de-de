@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -51,14 +51,9 @@ Als App-Ersteller benötigen Sie eine Power BI Pro-Lizenz. Die Benutzer Ihrer Ap
 ## <a name="app-workspaces"></a>App-Arbeitsbereiche
 Apps werden in *App-Arbeitsbereichen* erstellt. Deshalb müssen Sie zum Erstellen einer App zunächst einen App-Arbeitsbereich erstellen. Wenn Sie in Power BI bereits in einem Gruppenarbeitsbereich gearbeitet haben, werden Ihnen App-Arbeitsbereiche vertraut vorkommen. Sie sind die Weiterentwicklung von Gruppenarbeitsbereichen – Stagingbereiche und Container für die Inhalte der App. 
 
-Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. Jedes Mitglied und jeder Administrator des App-Arbeitsbereichs benötigt eine Power BI Pro-Lizenz. In dem Arbeitsbereich können alle beim Erstellen von Dashboards, Berichten und anderen Artikeln, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten, zusammenarbeiten. 
+Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. Jedes Mitglied und jeder Administrator des App-Arbeitsbereichs benötigt eine Power BI Pro-Lizenz. Im Arbeitsbereich ist die Zusammenarbeit aller Beteiligten beim Erstellen von Dashboards, Berichten und anderen Artikeln möglich, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten. 
 
-Wenn der Inhalt fertig ist, veröffentlichen Sie die App. Sie können einen direkten Link an die größere Zielgruppe senden. Alternativ können deren Mitglieder zu **Klicken Sie, um die App aus dem Store abzurufen** navigieren, um Ihre App auf der Registerkarte „Apps“ zu finden. Diese Personen können die Inhalte der App nicht ändern, aber sie können mit ihnen im Power BI-Dienst oder in einer der mobilen Apps interagieren – indem sie die Daten selbst filtern, hervorheben und sortieren. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Wie unterscheiden sich App-Arbeitsbereiche von Gruppenarbeitsbereichen?
-Alle vorhandenen Gruppenarbeitsbereiche können als App-Arbeitsbereiche fungieren, und Sie können Apps aus jedem dieser Arbeitsbereiche veröffentlichen. App-Arbeitsbereiche und Gruppenarbeitsbereiche unterscheiden sich in der folgenden Hinsicht: Sie erstellen einen App-Arbeitsbereich, um eine bestimmte App zu erstellen und dort unterzubringen. Zwischen der App und den Inhalten des App-Arbeitsbereichs besteht eine 1:1-Beziehung. Alle Elemente im App-Arbeitsbereich sind in der App enthalten, wenn Sie sie veröffentlichen. 
-
-Da Sie jetzt über Apps und App-Arbeitsbereiche Bescheid wissen, lassen Sie uns eine App erstellen und veröffentlichen. 
+Wenn der Inhalt bereit ist, können Sie auswählen, welche Dashboards und Berichte Sie veröffentlichen möchten und die App anschließend veröffentlichen. Sie können einen direkten Link an die größere Zielgruppe senden. Alternativ können deren Mitglieder zu **Klicken Sie, um die App aus dem Store abzurufen** navigieren, um Ihre App auf der Registerkarte „Apps“ zu finden. Diese Personen können die Inhalte der App nicht ändern, aber sie können mit ihnen im Power BI-Dienst oder in einer der mobilen Apps interagieren – indem sie die Daten selbst filtern, hervorheben und sortieren. 
 
 ## <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

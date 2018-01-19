@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Punktdiagramme und Blasendiagramme in Power BI (Tutorial)
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
@@ -75,6 +75,14 @@ Wir haben jetzt ein Punktdiagramm, in dem „Gesamtabweichung Umsatz %“ der Y-
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Optional können Sie [Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund und mehr formatieren](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Barrierefreiheit
+
+Mithilfe von *Markierungsformen* können Sie Personen mit Behinderungen den Zugriff auf Ihre Punkt- oder Blasendiagramme erleichtern. 
+
+Klicken Sie zum Auswählen einer Markierungsform auf den Abschnitt **Format** im Bereich **Visualisierungen**, erweitern Sie den Abschnitt **Formen**, und wählen Sie eine Markierungsform aus.
+
+![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Das Punktdiagramm weist nur einen Datenpunkt auf**

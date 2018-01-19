@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Exportieren von Daten aus Visualisierungen
 Wenn Sie die Daten anzeigen möchten, mit denen eine Visualisierung erstellt wird, können Sie [die Daten in Power BI anzeigen](service-reports-show-data.md) oder (als XLSX- bzw. CSV-Datei) in Excel exportieren.   
@@ -46,7 +46,7 @@ Sehen Sie zu, wie Will Daten aus einer der Visualisierungen in seinem Bericht ex
 ## <a name="from-a-visualization-in-a-report"></a>Aus einer Visualisierung in einem Bericht
 Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaffung](sample-procurement.md) in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md). [Fügen Sie eine neue leere Berichtsseite hinzu](power-bi-report-add-page.md). Befolgen Sie anschließend die untenstehenden Schritte, um eine Aggregation und einen Filter auf Visualisierungsebene hinzuzufügen.
 
-1. Erstellen Sie ein Säulendiagramm.  Wählen Sie im Bereich „Felder“ **Location > City** (Ort > Stadt) und **Invoice > Discount Percent** (Rechnung > Rabatt in Prozent) aus.   
+1. Erstellen Sie ein Säulendiagramm.  Wählen Sie im Bereich „Felder“ **Location > City** (Ort > Stadt) und **Invoice > Discount Percent** (Rechnung > Rabatt in Prozent) aus.  Sie müssen den **Rabatt in Prozent** möglicherweise in den Wertebereich verschieben. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Ändern Sie die Aggregation für **Discount Percent** (Rabatt in Prozent) von **Count** (Anzahl) in **Average** (Durchschnitt). Klicken Sie im Wertebereich auf den Pfeil rechts neben **Discount Percent** (Rabatt in Prozent), wobei die Bezeichnung auch **Count of Discount Percent** (Anzahl von Rabatt in Prozent) lauten kann, und wählen Sie **Average** (Durchschnitt) aus.

@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.
 
-**Flächenkartogramme** basieren auf ESRI-/TopoJSON-Karten, die über die Funktion verfügen, benutzerdefinierte Karten zu verwenden, die Sie erstellen können, wie z.B. geografische Karten, Sitzordnungen, Grundrisse und andere. Die Funktion, benutzerdefinierte Karten zu verwenden, ist für dieses Vorschaurelease das **Flächenkartogramm** nicht verfügbar. Benutzerdefinierte Karten werden jedoch aktiviert, sobald sich diese Funktion nicht mehr in der Vorschauversion befindet, was voraussichtlich mit dem nächsten monatlichen Update für Power BI Desktop der Fall sein wird.
+**Flächenkartogramme** basieren auf ESRI-/TopoJSON-Karten, die über die Funktion verfügen, benutzerdefinierte Karten zu verwenden, die Sie erstellen können, wie z.B. geografische Karten, Sitzordnungen, Grundrisse und andere. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
 
 ## <a name="creating-shape-maps"></a>Erstellen von Flächenkartogrammen
 Sie können das Steuerelement **Flächenkartogramm** mit den Karten testen, die mit dieser Vorschauversion geliefert werden. Alternativ können Sie eine eigene benutzerdefinierte Karte verwenden, sofern sie die im folgenden Abschnitt **Verwenden benutzerdefinierter Karten** genannten Anforderungen erfüllt.
@@ -95,8 +95,9 @@ Sie können eine neue Spalte einfach hinzufügen, indem Sie einen neuen Spaltenn
 Für dieses Vorschaurelease von **Flächenkartogramm** gibt es einige Bedingungen und Anforderungen:
 
 * Die Visualisierung **Flächenkartogramm** befindet sich in der Vorschauversion und muss in Power BI Desktop aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen bei **Flächenkartogramm**, um **Flächenkartogramm** zu aktivieren.
-* Derzeit muss auch der Bucket **Werte** festgelegt sein, damit die Klassifizierung **Legende** ordnungsgemäß funktioniert. Dieses Verhalten soll im endgültigen Release von **Flächenkartogramm** verbessert werden.
-* Die endgültige Releaseversion von **Flächenkartogramm** wird über eine Benutzeroberfläche verfügen, die die Kartenschlüssel der aktuell ausgewählten Karte anzeigt. In dieser Vorschau können Sie die Kartenregionsschlüssel über die Tabellen erhalten, die im folgenden Abschnitt **Regionsschlüssel** dieses Artikels aufgelistet sind.
+* Derzeit muss auch der Bucket **Werte** festgelegt sein, damit die Klassifizierung **Legende** ordnungsgemäß funktioniert.
+* Die endgültige Releaseversion von **Flächenkartogramm** wird über eine Benutzeroberfläche verfügen, die die Kartenschlüssel der aktuell ausgewählten Karte anzeigt (für das endgültige Release wurde kein Datum festgelegt, und **Flächenkartogramm** befindet sich noch in der Vorschauphase). In diesem Vorschaurelease können Sie die Kartenregionsschlüssel über die Tabellen erhalten, die im folgenden Abschnitt **Regionsschlüssel** dieses Artikels aufgelistet sind.
+* Das visuelle Element **Flächenkartogramm** kann maximal 1.000 Datenpunkte zeichnen.
 
 ## <a name="region-keys"></a>Regionsschlüssel
 Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um **Flächenkartogramm** zu testen.

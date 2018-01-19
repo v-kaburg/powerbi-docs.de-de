@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -56,6 +56,10 @@ Microsoft empfiehlt, dass Unternehmen Power BI Premium kaufen – eine für Unte
 
 In bestimmten Fällen empfiehlt sich eine P-SKU für einen (in der Regel großen) ISV, um von den Vorteilen des vorkonfigurierten Power BI-Diensts in seiner Organisation sowie von der Möglichkeit der Einbettung in eigene Anwendungen profitieren zu können. Natürlich werden sich einige Unternehmen für A-SKUs in Azure entscheiden, wenn es ihr Hauptinteresse ist, Branchenanwendungen zu erstellen und Analysefunktionen in diese einzubetten, und weniger, den vorkonfigurierten Power BI-Dienst zu nutzen.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>Wie viele Einbettungstokens kann ich erstellen?
+
+Da Einbettungstokens mit einer PRO-Lizenz nur für Bereitstellungen und das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Sie müssen [eine Kapazität erwerben](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungen in einer Produktionsumgebung vornehmen zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen dafür, wie viele Einbettungstokens generiert werden können.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Ab wann ist Power BI Embedded in Azure verfügbar?
 
 Power BI Embedded ist heute schon verfügbar.
@@ -70,7 +74,7 @@ Power BI Embedded umfasst eine Reihe von APIs, mit der Entwickler eine eingebett
 
 Es folgt eine Liste mit einer Auswahl der Unterschiede.
 
-|Funktion  |Power BI Embedded<br>(A-SKUs) |Power BI Premium-Kapazität<br>(EM-SKUS)  |
+|Ausgewählt  |Power BI Embedded<br>(A-SKUs) |Power BI Premium-Kapazität<br>(EM-SKUS)  |
 |---------|---------|---------|
 |Einbetten von Artefakten aus Power BI-App-Arbeitsbereichen     |Azure-Kapazität |Office 365-Kapazität |
 |Power BI-Lizenz erforderlich, um Berichte zu verarbeiten |Nein  |Ja |
@@ -87,6 +91,12 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
 |Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit der Einbettung von Inhalten in SharePoint Online und Microsoft Teams |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
+
+- Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (MSA-Konten werden nicht unterstützt).
+- Sie müssen über einen Power BI-Mandanten verfügen, d.h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 
+- Sie müssen über ein Azure-Abonnement in Ihrem Organisationsverzeichnis verfügen.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Wie kann ich die Kapazitätsnutzung überwachen?
 
@@ -130,7 +140,7 @@ Power BI Embedded wird nach Stunden abgerechnet.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Wie wird die Nutzung von Power BI Embedded auf meiner Rechnung aufgeführt?
 
-Power BI Embedded wird nach einem feststehenden Stundensatz abgerechnet, der vom Typ der bereitgestellten Knoten abhängt.
+Power BI Embedded wird nach einem feststehenden Stundensatz abgerechnet, der vom Typ der bereitgestellten Knoten abhängt. Beachten Sie, dass Kosten anfallen, solange eine Ressource aktiv ist, auch wenn Sie diese nicht nutzen. Sie müssen Ihre Ressource manuell anhalten, damit keine Kosten mehr anfallen. Das Anhalten kann über Azure oder ARM-APIs erfolgen.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Was geschieht, wenn ich Power BI Premium bereits erworben und jetzt einige der Vorteile von Power BI Embedded in Azure nutzen möchte?
 

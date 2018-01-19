@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -32,6 +32,13 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 ## <a name="october-2017"></a>Oktober 2017
 
 - **Power BI-Berichtsserver**
+    - *Version 1.1.6582.41691 (Build 14.0.600.442), Veröffentlichung: 10. Januar 2018*
+        - Sicherheitsupdates
+        - Fehlerkorrekturen
+            - Es wurde ein Fehler behoben, bei dem „Model.GetParameters “ den Wert 400 zurückgegeben hat.
+            - Es wurde ein Fehler beim Festlegen von freigegebenen Datasets für vorhandene paginierte Berichte (RDL) behoben.
+            - Der Fehler „ExecutionNotFoundException“ beim Exportieren eines Berichts mit verschiedenen Parametern in das PDF-Format wurde behoben.
+
     - *Version 1.1.6551.5155 (Build 14.0.600.438), Veröffentlichung: 11. Dezember 2017*
         - Fehlerkorrekturen
             - Fehler beim Speichern von Daten nach der Aktualisierung bei bestimmten Power BI Desktop-Berichten.
@@ -61,6 +68,9 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
             - Verbesserungen in Bezug auf die Barrierefreiheit
 
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - *Version: 2.51.4885.2501 (Oktober 2017), Veröffentlichung: 10. Januar 2018*
+        - Sicherheitsupdates
+
     - *Version: 2.51.4885.1423 (Oktober 2017), Veröffentlichung: 17. Oktober 2017*
         - Fehlerkorrekturen
             - Korrektur des Problems, dass die 32-Bit-Version von Power BI Desktop unter x86- Betriebssystemen nicht ausgeführt wird
@@ -74,6 +84,9 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 ## <a name="june-2017"></a>Juni 2017
 
 - **Power BI-Berichtsserver**
+    - *Build 14.0.600.309, Veröffentlichung: 10. Januar 2018*
+        - Sicherheitsupdates
+
     - *Build 14.0.600.305, Veröffentlichung: 19. September 2017*  
         - Fehlerkorrekturen
             - Aktualisierung auf das neueste [Websteuerelement für Bing Karten](https://msdn.microsoft.com/library/mt712542.aspx)
@@ -87,6 +100,10 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
     - *Build 14.0.600.271, Veröffentlichung: 12. June 2017*
         - Erste Veröffentlichung von Power BI-Berichtsserver
+
+- **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - *Version: 2.47.4766.4901 (Juni 2017), Veröffentlichung: 10. Januar 2018*
+        - Sicherheitsupdates
 
 ## <a name="next-steps"></a>Nächste Schritte
 

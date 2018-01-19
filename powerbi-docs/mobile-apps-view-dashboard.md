@@ -1,6 +1,6 @@
 ---
-title: Anzeigen von Dashboards in mobilen Power BI-Apps
-description: "Erstellen Sie Dashboards im Power BI-Dienst, oder stellen eine Verbindung mit Dashboards her. Zeigen Sie sie anschließend in den mobilen Power BI-Apps an."
+title: Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
+description: "Erstellen Sie Dashboards und Berichte im Power BI-Dienst, oder stellen eine Verbindung mit diesen her. Zeigen Sie sie anschließend in den mobilen Power BI-Apps an."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Anzeigen Ihrer Dashboards in mobilen Power BI-Apps
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android-Smartphone](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android-Tablet](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10-Geräte](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ Dashboards sind Portale für den Lebenszyklus und die Prozesse des Unternehmens.
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Erstellen von Dashboards im Power BI-Dienst (https://powerbi.com)
 **Sie erstellen keine Dashboards in den mobilen Apps.** 
 
-Wenn Sie Dashboards auf Ihrem mobilen Gerät anzeigen möchten, müssen Sie diese in einem Webbrowser erstellen oder dort eine Verbindung mit diesen herstellen. 
+Wenn Sie Dashboards und Berichte auf Ihrem mobilen Gerät anzeigen möchten, müssen Sie diese in einem Webbrowser erstellen oder dort eine Verbindung mit diesen herstellen. 
 
 1. Rufen Sie den Power BI-Dienst auf ([https://www.powerbi.com](https://www.powerbi.com)), und [registrieren Sie sich für ein Konto](service-self-service-signup-for-power-bi.md).
-2. [Erstellen Sie eigene Power BI-Dashboards](service-dashboard-create.md), oder binden Sie vorhandene [Inhaltspakete für eine Vielzahl von Diensten](service-connect-to-services.md) ein.
+2. [Erstellen Sie Ihre eigenen Power BI-Dashboards und Berichte](service-get-started.md), oder stellen Sie eine Verbindung zu vorhandenen [Power BI-Apps](service-connect-to-services.md) her, um eine Vielzahl von Diensten zu nutzen, z.B. [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) und [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Hier sehen Sie ein Power BI-Dashboard im Power BI-Dienst:
 

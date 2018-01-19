@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Einbetten von Power BI-Dashboards, -Berichten und -Kacheln
 
@@ -133,10 +133,13 @@ Benutzer mit Free-Tarif können Inhalte verwenden, die aus einem App-Arbeitsbere
 
 ### <a name="embedding-for-your-customers"></a>Einbetten für Ihre Kunden
 
-Wenn Sie für Ihre Kunden einbetten, sollten Sie folgende Aktionen ausführen.
+Wenn Sie für Ihre Kunden einbetten, führen Sie folgende Aktionen aus.
 
 * Wenn Sie einen separaten Mandanten für die Entwicklung verwenden, müssen Sie sicherstellen, dass Ihre App-Arbeitsbereiche, zusammen mit Dashboards und Berichten, in der Produktionsumgebung verfügbar sind. Sie müssen die Anwendung in Azure AD für Ihren Produktionsmandanten erstellen und die entsprechenden App-Berechtigungen zuweisen, wie in Schritt 1 angegeben.
 * Erwerben Sie eine Kapazität, die Ihren Anforderungen entspricht. Mit folgender Tabelle können Sie bestimmen, welche SKU für Power BI Embedded-Kapazitäten Sie benötigen. Weitere Informationen finden Sie im [Whitepaper zum Planen von eingebetteten Analysekapazitäten](https://aka.ms/pbiewhitepaper). Sie können das Produkt im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Weitere Informationen zum Erstellen von Power BI Embedded-Kapazität finden Sie unter [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Erstellen von Power BI Embedded-Kapazität im Azure-Portal, in englischer Sprache).
+
+> [!IMPORTANT]
+> Da Einbettungstokens nur für das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
 
 | Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
 | --- | --- | --- | --- | --- | --- |
@@ -152,6 +155,8 @@ Wenn Sie für Ihre Kunden einbetten, sollten Sie folgende Aktionen ausführen.
     ![Zuweisen des App-Arbeitsbereichs zur Kapazität](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Stellen Sie die aktualisierte Anwendung für die Produktion bereit, und beginnen Sie mit dem Einbetten von Power BI-Dashboards und -Berichten.
+
+
 
 ## <a name="admin-settings"></a>Administratoreinstellungen
 
