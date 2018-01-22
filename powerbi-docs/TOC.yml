@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: Ausführliche Informationen zum lokalen Datengateway
           href: service-gateway-onprem-indepth.md
+        - name: Hochverfügbarkeitscluster für lokale Datengateways
+          href: service-gateway-high-availability-clusters.md
         - name: On-premises data gateway – Häufig gestellte Fragen
           href: service-gateway-onprem-faq.md
         - name: Lokales Datengateway (persönlicher Modus)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Verwenden eines Was-wäre-wenn-Parameters
           href: desktop-what-if.md
+        - name: Verwenden von Drillthrough
+          href: desktop-drillthrough.md
+        - name: Verwenden eines relativen Datenschnitts mit Datum und relativen Datumsfilters
+          href: desktop-slicer-filter-date-range.md
         - name: Barrierefreiheit in Power BI-Berichten
           href: desktop-accessibility.md
         - name: Verwenden von Gruppierung und Diskretisierung
