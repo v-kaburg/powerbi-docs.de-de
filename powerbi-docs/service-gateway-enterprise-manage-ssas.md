@@ -192,7 +192,7 @@ Wenn Sie ein Element in der Liste auswählen, können Sie es mithilfe der **Rich
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Verwenden eines Platzhalters (*)
+### <a name="using-wildcard-"></a>Verwenden eines Platzhalters (\*)
 Sie können für die Zeichenfolge in **Ersetzen (Ursprünglicher Name)** einen Platzhalter verwenden. Dieser kann nur einzeln und nicht zusammen mit anderen Teilen der Zeichenfolge verwendet werden. Dadurch können Sie alle Benutzer abdecken und an die Datenquelle einen einzelnen Wert übergeben. Dies ist hilfreich, wenn Sie möchten, dass alle Benutzer in der Organisation die gleichen Benutzernamen in der lokalen Umgebung verwenden.
 
 ### <a name="test-a-mapping-rule"></a>Testen von Zuordnungsregeln
