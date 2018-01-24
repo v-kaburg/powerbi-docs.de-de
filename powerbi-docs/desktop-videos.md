@@ -31,10 +31,10 @@ Die folgende Liste beschreibt alle verfügbaren Videos zu Power BI Desktop. Wäh
 * [Allgemeine Übersicht zu Power BI Desktop:](https://www.youtube.com/watch?v=Qgam9M8I0xA) vom Abrufen von Daten und Erstellen eines Berichts bis zum Hochladen des Berichts auf Power BI, damit er aktualisiert und mit anderen Benutzern geteilt werden kann.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
-*Erfahren Sie, wie Sie mit Power BI Desktop [überzeugende Berichte erstellen](https://www.youtube.com/watch?v=ByIUx-HmQbw).
+* Erfahren Sie, wie Sie mit Power BI Desktop [überzeugende Berichte erstellen](https://www.youtube.com/watch?v=ByIUx-HmQbw).
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>
-*Erfahren Sie, wie Sie Daten in Power BI Desktop [mithilfe des Abfrage-Editors importieren, neu strukturieren und transformieren können](https://www.youtube.com/watch?v=ByIUx-HmQbw).
+* Erfahren Sie, wie Sie Daten in Power BI Desktop [mithilfe des Abfrage-Editors importieren, neu strukturieren und transformieren können](https://www.youtube.com/watch?v=ByIUx-HmQbw).
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
 
