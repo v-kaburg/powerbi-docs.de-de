@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 Es kann oftmals entscheidend sein, dass Sie immer die neuesten Daten erhalten, um die richtigen Entscheidungen zu treffen. Sie haben wahrscheinlich bereits die Funktion „Daten abrufen“ in Power BI verwendet, um eine Verbindung zu Daten herzustellen und diese hochzuladen sowie Berichte und ein Dashboard zu erstellen. Jetzt möchten Sie sicherstellen, dass Ihre Daten wirklich die neuesten und besten sind.
@@ -112,7 +112,7 @@ Ihre Dateien auf OneDrive oder SharePoint Online zu behalten und über Power BI 
 | „Daten abrufen“ (auf der Multifunktionsleiste) wird dazu verwendet, um eine Verbindung zu Daten aus einer beliebigen aufgelisteten Onlinedatenquelle herzustellen und diese abzufragen. |Nein |Ja |Keine (siehe unten) |
 | „Daten abrufen“ wird dazu verwendet, um eine Verbindung zu einer Livedatenbank in Analysis Services herzustellen und diese zu durchsuchen. |Ja |Nein |Ja |
 | „Daten abrufen“ wird verwendet um eine Verbindung zu einer lokalen DirectQuery-Datenquelle herzustellen und diese zu durchsuchen. |Ja |Nein |Ja |
-| „Daten abrufen“ wird dazu verwendet, um eine Verbindung mit Daten aus einer Azure SQL-Datenbank, Azure SQL Data Warehouse und Azure HDInsight Spark herzustellen und diese abzufragen. |Ja (stündlich) |Nein |Nein |
+| „Daten abrufen“ wird dazu verwendet, um eine Verbindung mit Daten aus einer Azure SQL-Datenbank, Azure SQL Data Warehouse und Azure HDInsight Spark herzustellen und diese abzufragen. |Ja |Ja |Nein |
 | „Daten abrufen“ wird dazu verwendet, eine Verbindung mit Daten aus einer beliebigen aufgelisteten lokalen Datenquelle herzustellen und diese abzufragen. Ausgenommen sind Hadoop-Dateien (HDFS) und Microsoft Exchange. |Nein |Ja |Ja |
 
 > [!NOTE]

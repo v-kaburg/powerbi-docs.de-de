@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Schnelles Auffinden und Anzeigen Ihrer Power BI-Daten mithilfe von Cortana für Power BI
 Verwenden Sie Cortana auf Ihren Windows 10-Geräten, um sofort Antworten auf wichtige geschäftliche Fragen zu erhalten. Durch die Integration mit Power BI kann Cortana wichtige Informationen direkt aus Power BI-Dashboards und -Berichten abrufen. Sie benötigen lediglich die Windows 10-Version vom November 2015 oder eine höhere Version, Cortana, Power BI sowie Zugriff auf mindestens ein Dataset.
@@ -70,7 +70,7 @@ Weist Ihr Dashboard einen Titel auf, der aus mehreren Wörtern besteht, gibt Cor
 ### <a name="cortana-and-reports"></a>Cortana und Berichte
  Cortana findet Antworten in Berichten, die [Seiten enthalten, welche speziell für die Anzeige in Cortana entwickelt wurden](service-cortana-answer-cards.md). Stellen Sie einfach Fragen anhand des Titels oder von Schlüsselwörtern aus einer dieser speziellen Berichtsseiten.  
 
-Als zugrunde liegende Technologie für Berichte wird [Power BI Q&A von Microsoft](service-q-and-a.md) verwendet.
+Als zugrunde liegende Technologie für Berichte wird [Power BI Q&A von Microsoft](power-bi-q-and-a.md) verwendet.
 
 Wenn Sie in Cortana eine Frage stellen, gibt Power BI Antworten mit Berichtsseiten aus, die speziell für Cortana entwickelt wurden. Mögliche Antworten werden von Cortana direkt anhand der Cortana-*Antwortkarten* bestimmt, die bereits in Power BI erstellt sind.  Öffnen Sie einfach ein Ergebnis in Power BI, um eine Antwort weiter zu erkunden.
 

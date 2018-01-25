@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: c8eb43a86791fa067f7f2417780806eba007672c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: b494120983f6042eeaad41a504180d7b61aa3db8
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Stichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI
 Ab der im Juni 2017 veröffentlichten Version von **Power BI Desktop** und Updates des **Power BI-Diensts** steht ein neu Stichprobenalgorithmus zur Verfügung, der die visuellen Elemente verbessert, die Daten mit hoher Dichte stichprobenartig entnehmen. Sie können z.B. ein Liniendiagramm aus den Verkaufsergebnissen Ihres Einzelhandelsgeschäfts erstellen, auch wenn jedes Geschäft mehr als zehntausend Verkaufsbelege jährlich verzeichnet. Ein Liniendiagramm mit derartigen Verkaufsinformationen entnimmt stichprobenartig Daten (wählen Sie eine aussagekräftige Darstellung dieser Daten, um zu veranschaulichen, wie die Verkaufszahlen über die Zeit hinweg variieren) aus den Daten jedes Geschäfts und erstellt ein Mehrfachliniendiagramm, das die zugrunde liegenden Daten veranschaulicht. Dies ist bei der Visualisierung von Daten mit hoher Dichte eine häufig genutzte Methode. Die Stichprobenentnahme von Daten mit hoher Dichte von Power BI Desktop wurde verbessert. Dies wird in diesem Artikel ausführlicher beschrieben.

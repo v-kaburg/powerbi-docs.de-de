@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f942c0551a473140903e2fce19feba641a62e5a2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 38b9233bda842877b4c8c16df2904f5fe8b1966d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Herstellen einer Verbindung mit einem Microsoft Dynamics AX-Inhaltspaket mithilfe von Power BI
 Microsoft Dynamics AX bietet drei Power BI-Inhaltspakete, die jeweils auf bestimmte geschäftliche Benutzer zugeschnitten sind. Das Inhaltspaket für die Finanzleistung wurde eigens für CFOs entwickelt und erlaubt Einblicke in die Finanzlage Ihres Unternehmens. Das Inhaltspaket für die Handelskanalleistung ist auf Channel-Manager ausgerichtet und dient der Umsatzanalyse, um direkt aus den Handelsdaten Trends abzuleiten und Erkenntnisse zu gewinnen. Die Kostenverwaltung ist für COOs und CFOs bestimmt. Sie enthält Details zur Leistung von Vorgängen.
@@ -52,7 +52,7 @@ Stellen Sie eine Verbindung mit dem Microsoft Dynamics AX-Inhaltspaket für die
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](service-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
 * [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
 * Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.

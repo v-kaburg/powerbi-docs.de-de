@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 97a799ade391d0691ff7ecd4c362ce225ffa0ab9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e13abe206b4f46726e196a3423bd1fad21391be5
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Herstellen einer Verbindung mit SQL Sentry mithilfe von Power BI
 Das Analysieren Ihrer mithilfe von SQL Sentry gesammelten Leistungsdaten ist mit Power BI ganz einfach. Power BI ruft Ihre Daten ab und erstellt auf Basis dieser Daten ein Standarddashboard und zugehörige Berichte.
@@ -64,7 +64,7 @@ Stellen Sie eine Verbindung zum [SQL Sentry-Inhaltspaket](https://app.powerbi.co
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](service-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
 * [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
 * Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.

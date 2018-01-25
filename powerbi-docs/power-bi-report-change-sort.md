@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 In einem Power BI-Bericht können Sie die meisten Visualisierungen alphabetisch nach den Namen der Kategorien im Diagramm oder nach den numerischen Werten jeder Kategorie sortieren. In diesem Diagramm wird z. B. nach Geschäftsnamen sortiert.
@@ -32,11 +32,12 @@ Sie können ganz einfach statt nach einer Kategorie (Geschäftsname) nach einem 
 
 1. Wählen Sie die Auslassungspunkte (...) und dann **Sortieren nach Sales Per Sq Ft** aus.
 2. Aktivieren Sie bei Bedarf das Sortiersymbol ![](media/power-bi-report-change-sort/sorticon.png), um auf **Absteigend** zu wechseln.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **Hinweis**: Nicht alle Visualisierungen können sortiert werden.  Beispielsweise können die folgenden Visuals nicht sortiert werden: Treemaps, Karten, Flächenkartogramme, Punktdiagramme, Tachometerdiagramme, Kartendiagramme, mehrzeilige Kartendiagramme, Wasserfalldiagramme.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Sortieren mithilfe anderer Kriterien
 Zuweilen möchten Sie Ihre Visualisierung anhand eines anderen Felds oder anderer Kriterien sortieren,  beispielsweise nach Monat (anstatt in alphabetischer Reihenfolge) oder nach ganzen Zahlen anstatt nach Ziffer (z. B. 0, 1, 9, 20 und nicht 0, 1, 20, 9).  
 
@@ -52,4 +53,3 @@ Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-repor
 [Power BI – Grundkonzepte](service-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

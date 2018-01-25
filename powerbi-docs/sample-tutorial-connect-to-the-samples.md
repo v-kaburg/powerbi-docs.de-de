@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 6d043f21635308def7b119c072a7f99c118e901d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Die Power BI-Beispiele – Tutorial
 <!-- Shared newnav Include -->
@@ -91,7 +91,7 @@ Untersuchen Sie jetzt selbstständig das Dashboard, das Dataset und den Bericht.
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Wenn die Kachel mit [Power BI Q&A](service-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet.
+   > Wenn die Kachel mit [Power BI Q&A](power-bi-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet.
    > 
    > 
 4. Auf der Registerkarte **Datasets** haben Sie mehrere Möglichkeiten, das Dataset zu untersuchen.  Sie können es nicht öffnen und alle Zeilen und Spalten anzeigen (wie dies in Power BI Desktop oder in Excel möglich ist).  Wenn eine Person ein Inhaltspaket für Kollegen freigibt, möchte diese Person normalerweise die Informationen freigeben, ihren Kollegen jedoch keinen direkten Zugriff auf die Daten gewähren. Dies bedeutet jedoch nicht, dass Sie das Dataset nicht erkunden können.  

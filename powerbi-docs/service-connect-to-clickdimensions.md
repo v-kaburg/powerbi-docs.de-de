@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: cde6ca545d37b2ba490578bf43e7de95b10931d7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 007d4f6f5181722e23e280e1a57d305d7f069155
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Herstellen einer Verbindung mit ClickDimensions mithilfe von Power BI
 Das ClickDimensions-Inhaltspaket für Power BI ermöglicht es Benutzern, ClickDimensions-Marketingdaten in Power BI zu verwenden. Dadurch erhalten Management-Teams bessere Einblicke in den Erfolg ihrer Vertriebs- und Marketingbemühungen. Visualisieren und analysieren Sie E-Mail-Interaktionen, Webseitenbesuche und Formularübermittlungen in Power BI-Dashboards und -Berichten.
@@ -50,7 +50,7 @@ Stellen Sie eine Verbindung mit dem [ClickDimensions-Inhaltspaket](https://app.p
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](service-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
 * [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
 * Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.

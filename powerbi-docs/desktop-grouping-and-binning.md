@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Verwenden von Gruppierung und Diskretisierung in Power BI Desktop
 Beim Erstellen von Visualisierungen in **Power BI Desktop** werden die Daten basierend auf Werten in den zugrunde liegenden Daten in Blöcken (oder **Gruppen**) aggregiert. Häufig ist dies ausreichend, in manchen Situationen ist es jedoch sinnvoll, die Darstellung der Blöcke zu verfeinern. Beispielsweise möchten Sie eventuell drei Kategorien von Produkten in einer größeren Kategorie (einer *Gruppe*) anordnen. Oder Umsatzzahlen sollen in Diskretisierungen der Größe 1.000.000 Dollar statt des gleichmäßig verteilten Betrags von 923.983 Dollar unterteilt werden.
@@ -69,7 +69,7 @@ Wenn Sie auf **OK** klicken, wird im Bereich **Felder** ein neues Feld angezeigt
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-In diesem [Video](https://youtu.be/UXEYSvgvMaQ?t=12m17s) wird gezeigt, wie **Diskretisierung** angewendet wird.
+In diesem [Video](https://www.youtube.com/watch?v=BRvdZSfO0DY) wird gezeigt, wie **Diskretisierung** angewendet wird.
 
 Nun verfügen Sie über die nötigen Informationen, um **Gruppierung** und **Diskretisierung** zu verwenden und um sicherzustellen, dass die Visualisierungen in den Berichten die Daten genau so anzeigen, wie Sie es wünschen.
 

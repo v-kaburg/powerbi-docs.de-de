@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
 Auf dieser Seite finden Sie Informationen zu bekannten Problemen und kürzlich veröffentlichen Features im **Power BI-Dienst**. Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -470,7 +470,7 @@ Weitere Informationen finden Sie in unserem [Blog](http://blogs.msdn.com/b/power
 
 **6. Oktober 2015**
 
-* Mit Power BI Q&A können Sie Ihre Daten mithilfe von einfachen, intuitiven Fragen untersuchen und Antworten in Form von interaktiven Diagramme und Grafiken erhalten. Mit dieser Version haben wir eine Funktion zum Einstieg in Power BI Q&A hinzugefügt, selbst wenn Sie keinerlei Informationen über die Daten haben. [Navigieren Sie dazu zunächst zu einem Dashboard, und klicken Sie dann neben dem Q&A-Fragefeld auf den Link „Hinweise zu Fragen“](service-how-to-q-and-a.md). Power BI bietet Ihnen eine Reihe von Vorschlägen auf der Grundlage Ihrer Daten an.
+* Mit Power BI Q&A können Sie Ihre Daten mithilfe von einfachen, intuitiven Fragen untersuchen und Antworten in Form von interaktiven Diagramme und Grafiken erhalten. Mit dieser Version haben wir eine Funktion zum Einstieg in Power BI Q&A hinzugefügt, selbst wenn Sie keinerlei Informationen über die Daten haben. [Navigieren Sie dazu zunächst zu einem Dashboard, und klicken Sie dann neben dem Q&A-Fragefeld auf den Link „Hinweise zu Fragen“](power-bi-tutorial-q-and-a.md). Power BI bietet Ihnen eine Reihe von Vorschlägen auf der Grundlage Ihrer Daten an.
 * Vor zwei Wochen wurde die Unterstützung zum Einfügen von Formen in den Berichtsbereich in Power BI Desktop vorgestellt. Diese Woche geben wir erfreut bekannt, dass Sie nun Formen in den Berichtsbereich einfügen können, wenn Sie Berichte in der Power BI-Web-App erstellen oder bearbeiten.
 * Es wurde die Möglichkeit hinzugefügt, E-Mail-Benachrichtigungen zu deaktivieren, wenn Sie ein Dashboard freigeben. Deaktivieren Sie einfach das Kontrollkästchen „E-Mail-Benachrichtigung an Empfänger senden“ im Dialogfeld „Power BI-Freigabe“. Es wird eine URL angezeigt. Kopieren Sie diese URL, und geben Sie sie an Ihre Kollegen weiter, um ihnen den Zugriff auf das Dashboard zu ermöglichen.
 * Microsoft Dynamics NAV ist eine Businessmanagementlösung für kleine und mittlere Organisationen. Sie bietet Kunden eine vollständige Lösung für ihre Unternehmen mit umfassenderer Kontrolle über ihre Finanzdaten und Geschäftsprozesse. Das Power BI-Inhaltspaket bietet Out-of-Box-Berichte für Dynamics NAV-Benutzer, z. B. für Umsätze und Gewinne, Verkaufschancen-Pipeline, Rentabilität und mehr. Diese Metriken werden auf einem Dashboard organisiert, das vollständig angepasst werden kann, sodass Sie einfach eine Verbindung herstellen und sofort mit dem Untersuchen Ihrer Daten beginnen können.

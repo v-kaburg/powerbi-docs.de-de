@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 3aa07c88daccc84bcf09af9d31a73a4411a3e541
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fe4b35a6132a1d36f48e54e1c779454009402340
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Herstellen einer Verbindung mit Application Insights mithilfe von Power BI
 Verwenden Sie Power BI, um leistungsstarke benutzerdefinierte Dashboards auf Basis der [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/)-Telemetriedaten zu erstellen. Profitieren Sie von einer völlig neuen Sicht auf Ihre App-Telemetrie. Kombinieren Sie Metriken aus mehreren Apps oder Komponentendiensten in einem Dashboard. Diese erste Version des Power BI-Inhaltspakets für Application Insights enthält Widgets für auf die allgemeine Nutzung bezogene Metriken wie aktive Benutzer, Seitenansicht, Sitzungen, Browser- und Betriebssystemversion sowie die geografische Verteilung von Benutzern in einer Karte.
@@ -53,7 +53,7 @@ Stellen Sie eine Verbindung mit dem [Application Insights-Inhaltspaket](https://
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](service-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
 * [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
 * Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.

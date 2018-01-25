@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: df80e986a4ad42018c5ba036c2e47e684dba65d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: eff79e26549ee67482a6876dc7850d2a922a4586
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Herstellen einer Verbindung mit SweetIQ mithilfe von Power BI
 Das Power BI-Inhaltspaket ruft Daten per Pull von Ihrem SweetIQ-Konto ab und generiert ohne weitere Konfiguration Inhalte, die Ihnen das problemlose Durchsuchen Ihrer Daten ermöglichen. Verwenden Sie das SweetIQ-Inhaltspaket, um Daten zu Ihren Standorten, Auflistungen, Bewertungen und Rezensionen zu analysieren. Die Daten werden täglich aktualisiert, um sicherzustellen, dass sie auf dem neuesten Stand sind.
@@ -47,7 +47,7 @@ Stellen Sie die Verbindung zum [SweetIQ-Inhaltspaket](https://app.powerbi.com/gr
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](service-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
 * [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
 * Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.

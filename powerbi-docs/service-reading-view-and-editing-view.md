@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
 Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht. 
@@ -56,7 +56,7 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 | [Berichtsoptionen unter **Ansicht**](power-bi-report-display-settings.md) | Ja, bis auf einige Ausnahmen. | Ja, alle einschließlich Gitternetzlinien, Andocken und Sperren. |
 | [Erstellen einer Zeitplanaktualisierung](refresh-data.md) | Nein  | Ja |
 | [Abonnieren eines Berichts](service-report-subscribe.md) | Ja | Nein |
-| [Q&A – Stellen von Fragen in Berichten](service-q-and-a.md) | Nein  | Ja |
+| [Q&A – Stellen von Fragen in Berichten](power-bi-q-and-a.md) | Nein  | Ja |
 | [Anzeigen von Nutzungsmetriken](service-usage-metrics.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
 | [Verwandte Inhalte anzeigen](service-related-content.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
 | [Speichern eines Berichts](service-report-save.md) | Ja, aber nur mit **Speichern unter**. | Ja |
