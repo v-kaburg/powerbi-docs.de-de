@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Erstellen und Veröffentlichen eines organisationsbezogenen Inhaltspakets (Tutorial)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Freigeben eines Dashboards für Kollegen und andere Benutzer
+        - name: Freigeben von Dashboards und Berichten
           href: service-share-dashboards.md
-        - name: Freigeben eines Berichts für Kollegen
+        - name: Freigeben eines gefilterten Berichts
           href: service-share-reports.md
         - name: Veröffentlichen aus Power BI im Web
           href: service-publish-to-web.md
