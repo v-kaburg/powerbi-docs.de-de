@@ -922,8 +922,6 @@
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
         - name: Anzeigen von Power BI im Präsentationsmodus auf Surface Hub
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Freigeben einer Kachel in der mobilen Power BI-App für Windows 10
-          href: mobile-share-tile-windows-10-phone-app.md
 - name: Power BI-Entwickler
   items:
     - name: Übersicht
