@@ -1,5 +1,5 @@
 ---
-title: "Diagramme für radiales Messgerät in Power BI (Tutorial)"
+title: "Tutorial: Diagramme für Radialmessgerät in Power BI"
 description: "Lernprogramm: Diagramme für radiales Messgerät in Power BI"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Diagramme für radiales Messgerät in Power BI (Tutorial)
 Ein Diagramm für ein radiales Messgerät verfügt über einen Kreisbogen und zeigt einen einzelnen Wert an, mit dem der Fortschritt bei Erreichen eines Ziels oder KPI-Werts gemessen wird.  Das Ziel bzw. der Zielwert wird durch die Linie (Nadel) dargestellt. Der Fortschritt zur Erreichung des Ziels wird durch die Schattierung dargestellt.  Der Wert, der für diesen Fortschritt steht, ist innerhalb des Bogens in Fettschrift angegeben. Alle möglichen Werte sind gleichmäßig auf den Bogen verteilt, vom kleinsten Wert (ganz links) bis zum höchsten Wert (ganz rechts).
@@ -39,17 +39,25 @@ Radiale Messgeräte sind gut für folgende Zwecke geeignet:
 * Anzeigen der Integrität eines Measures
 * Anzeigen von Informationen, die schnell überblickt und verstanden werden
 
+### <a name="prerequisites"></a>Voraussetzungen
+ - Power BI-Dienst oder Power BI Desktop
+ - Excel-Arbeitsmappe mit Finanzbeispiel: [Laden Sie das Beispiel direkt herunter](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Erstellen eines einfachen radialen Messgeräts
-Für diese Anleitung wird das Finanzbeispiel verwendet. Gehen Sie wie folgt vor: [Laden Sie das Beispiel auf Ihren Computer herunter](http://go.microsoft.com/fwlink/?LinkID=521962), melden Sie sich bei Power BI an, und wählen Sie **Daten abrufen \>Dateien \> Lokale Datei \> Öffnen** aus. 
+In dieser Anleitung wird der Power BI-Dienst verwendet. Um die Schritte durchzuführen, melden Sie sich bei Power BI an, und öffnen Sie die Excel-Datei mit dem Finanzbeispiel.  
 
 Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messgeräten, Karten und KPIs zu.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Schritt 1: Öffnen der Excel-Datei mit dem Finanzbeispiel
-1. [Laden Sie die Excel-Finanzbeispieldatei herunter](sample-financial-download.md).
-2. Öffnen Sie die Datei in Power BI, indem Sie **Daten abrufen \> Dateien** auswählen und zu dem Speicherort wechseln, an dem Sie die Datei gespeichert haben. Wählen Sie **Importieren** aus. Das Finanzbeispiel wird Ihrem Arbeitsbereich als Dataset hinzugefügt.
-3. Wählen Sie **Finanzbeispiel** , um es im Untersuchungsmodus zu öffnen.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Schritt 1: Öffnen der Excel-Datei mit dem Finanzbeispiel
+1. [Laden Sie die Excel-Finanzbeispieldatei herunter](sample-financial-download.md), falls Sie dies noch nicht getan haben. Merken Sie sich, wo Sie sie gespeichert haben.
+
+2. Öffnen Sie die Datei im ***Power BI-Dienst***, indem Sie **Daten abrufen \> Dateien** auswählen und zu dem Speicherort wechseln, an dem Sie die Datei gespeichert haben. Wählen Sie **Importieren** aus. Das Finanzbeispiel wird Ihrem Arbeitsbereich als Dataset hinzugefügt.
+
+3. Wählen Sie in der Inhaltsliste **Dataset** das **Beispiel zu den Finanzen** aus, um es im Untersuchungsmodus zu öffnen.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Schritt 2: Erstellen eines Tachometerdiagramms zum Nachverfolgen des Bruttoumsatzes
 1. Wählen Sie im Bereich **Felder** die Option **Bruttoumsatz**.

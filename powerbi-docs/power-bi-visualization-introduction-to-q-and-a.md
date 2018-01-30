@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Power BI Q&A (Tutorial)
-description: "Tutorial: Erste Schritte mit Q&A im Power BI-Dienst mit dem Analysebeispiel für den Einzelhandel"
+title: 'Schnellstart: Erste Schritte mit Power BI Q&A'
+description: "Schnellstart: Erste Schritte mit Q&A im Power BI-Dienst mit dem Analysebeispiel für den Einzelhandel"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Erste Schritte mit Power BI Q&A (Tutorial)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Tutorial: Verwenden von Power BI Q&A mit dem Analysebeispiel für den Einzelhandel
-Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen.  In diesem Lernprogramm lernen wir zwei verschiedenen Methoden zum Erstellen der gleichen Visualisierung kennen: in einem Bericht und mithilfe einer Frage mit Fragen & Antworten (F&A).  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Erste Schritte mit Power BI Q&A (Schnellstart)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Verwenden von Power BI Q&A mit dem Analysebeispiel für den Einzelhandel
+Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen.  In diesem Schnellstart lernen wir zwei verschiedenen Methoden zum Erstellen der gleichen Visualisierung kennen: in einem Bericht und mithilfe einer Frage mit Q&A. Wir verwenden den Power BI-Dienst, der Vorgang ist jedoch mit Power BI Desktop fast der gleiche.
+
+Zum Durchführen der Schritte müssen Sie einen Bericht verwenden, den Sie bearbeiten können. Deshalb verwenden wir eines der für Power BI verfügbaren Beispiele.
 
 ## <a name="method-1-using-the-report-editor"></a>Methode 1: Mithilfe des Berichts-Editors
 1. Wählen Sie in dem Power BI-Arbeitsbereich **Daten abrufen** \> **Besipiele** \> **Analysebeispiel für den Einzelhandel**  >  **Verbinden** aus.
@@ -61,13 +63,9 @@ Wie gehen wir beim Erstellen des gleichen Liniendiagramms mithilfe von F&A vor?
 4. Um das Diagramm an Ihr Dashboard anzuheften, wählen Sie das Anheftsymbol ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Welche Art von Fragen kann ich Q&A stellen?](service-q-and-a.md)
-
-[Q&A in Power BI](service-q-and-a.md)
+[Q&A in Power BI](power-bi-q-and-a.md)
 
 [Optimieren Ihrer Daten für Q&A in Power BI](service-prepare-data-for-q-and-a.md)
-
-[Vorbereiten einer Arbeitsmappe für Q&A](service-prepare-data-for-q-and-a.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

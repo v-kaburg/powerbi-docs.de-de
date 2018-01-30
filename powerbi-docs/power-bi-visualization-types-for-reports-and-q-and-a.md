@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 ## <a name="power-bi-visualizations"></a>Power BI-Visualisierungen
 Wir werden neue Visualisierungen hinzufügen, seien Sie gespannt!
 
-Besuchen Sie sich auch den [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sie finden dort eine wachsende Anzahl von benutzerdefinierten Visualisierungen, die Sie herunterladen und in Ihren eigenen Dashboards und Berichten verwenden können. Sind Sie kreativ? [Erfahren Sie, wie Sie eigene Visualisierungen erstellen und zur Communitywebsite hinzufügen können](developer/office-store.md).  
+Besuchen Sie auch [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sie finden dort eine wachsende Anzahl von [benutzerdefinierten Visuals](power-bi-custom-visuals.md), die Sie herunterladen und in eigenen Dashboards und Berichten verwenden können. Sind Sie kreativ? [Erfahren Sie, wie Sie eigene Visuals erstellen und zur Communitywebsite hinzufügen können](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Liste der in Power BI verfügbaren Visualisierungen
 Alle genannten Visualisierungen können zu Power BI-Berichten hinzugefügt, in Fragen und Antworten angegeben und auf Dashboards angeheftet werden.

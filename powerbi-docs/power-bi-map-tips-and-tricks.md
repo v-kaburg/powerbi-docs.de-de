@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
-Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen.  
+Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
 
-Befolgen Sie die nachstehenden Tipps, um die Wahrscheinlichkeit einer korrekten Geocodierung zu erhöhen. Orientieren Sie sich an der ersten Gruppe von Tipps, wenn Sie auf das Dataset selbst zugreifen können. Die zweite Gruppe von Tipps betrifft Aktionen, die Sie in Power BI ausführen können, wenn Sie keinen Zugriff auf das Dataset haben.
+Sie oder der Administrator müssen möglicherweise die Firewall aktualisieren, um den Zugriff auf die von Bing für die Geocodierung verwendeten URLs zuzulassen.  Diese URLs lauten:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+Befolgen Sie die nachstehenden Tipps, um die Wahrscheinlichkeit einer korrekten Geocodierung zu erhöhen. Orientieren Sie sich an der ersten Gruppe von Tipps, wenn Sie auf das Dataset selbst zugreifen können. Die zweite Gruppe von Tipps betrifft Aktionen, die Sie in Power BI ausführen können, wenn Sie keinen Zugriff auf das Dataset haben. Und die letzte Gruppe ist eine Liste mit URLs.
 
 ## <a name="what-is-sent-to-bing-maps"></a>An Bing Maps gesendete Informationen
 Der Power BI-Dienst und Power BI Desktop senden die Geodaten an Bing, die Bing zum Erstellen der Kartenvisualisierung benötigt. Dies kann die Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** sowie geografische Felder in jedem der Buckets **Berichtsstufenfilter**, **Filter auf Seitenebene** oder **Filter auf visueller Ebene** umfassen. Welche Daten genau gesendet werden, variiert je nach Kartentyp. Weitere Informationen finden Sie in der [Bing Maps-Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkID=248686).

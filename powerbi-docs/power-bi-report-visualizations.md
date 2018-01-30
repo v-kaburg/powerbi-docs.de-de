@@ -1,6 +1,6 @@
 ---
-title: Visualisierungen in Power BI
-description: Dokumentation zu Visualisierungen (visuellen Elementen) in Microsoft Power BI.
+title: "Übersicht über Berichtsvisualisierungen im Power BI-Dienst und in Power BI Desktop"
+description: "Übersicht über Berichtsvisualisierungen (Visuals) in Microsoft Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7b23ec8bf284de5419db98c326b206e205e253ec
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bb9244268a0a68f7b15877ae7ff567fe35cb2a1a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="visualizations-in-power-bi"></a>Visualisierungen in Power BI
-Mithilfe von Datenvisualisierungen können Sie mit Ihren Daten interagieren, um Geschäftseinblicke zu gewinnen. Erstellen und ändern Sie Visualisierungen in Ihren Berichten, und heften Sie sie an Ihre Dashboards an.   
+# <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
+Visualisierungen (auch als Visuals bezeichnet) zeigen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](service-dashboard-pin-tile-from-report.md) sein. 
+
+Es ist wichtig, zwischen *Erstellern* und *Nutzern* von Berichten zu unterscheiden. Wenn Sie die Person sind, die den Bericht erstellt oder ändert, sind Sie ein Ersteller.  Ersteller verfügen über Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. In Power BI Desktop bedeutet dies, dass Sie das Dataset in der Datensicht öffnen und in der Berichtsansicht Visuals erstellen können. Im Power BI-Dienst bedeutet dies, dass Sie das Dataset oder den Bericht im Berichts-Editor in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) öffnen können. Wenn ein Bericht oder Dashboard [für Sie freigegeben](service-shared-with-me.md) wurde, sind Sie ein **Nutzer** des Berichts. Sie können den Bericht und seine Visuals anzeigen und mit ihnen interagieren, jedoch keine Änderungen speichern.
+
+Im Power BI-Bereich „VISUALISIERUNGEN“ stehen viele verschiedene Visualtypen zur Verfügung. 
+
+![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+
+Wenn Sie eine noch größere Auswahl wünschen, besuchen Sie die [Website der Microsoft AppSource-Community](https://appsource.microsoft.com), um [benutzerdefinierte Visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) zu suchen und herunterzuladen, die von Microsoft und der Community bereitgestellt werden.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -36,13 +44,13 @@ Mithilfe von Datenvisualisierungen können Sie mit Ihren Daten interagieren, um 
 [Erstellen Sie Visualisierungen](power-bi-report-add-visualizations-i.md) auf Ihren Berichtsseiten Durchsuchen Sie die [Liste der verfügbaren Visualisierungen und verfügbaren Visualisierungstutorials](power-bi-visualization-types-for-reports-and-q-and-a.md). 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Hochladen einer benutzerdefinierten Visualisierung und deren Verwendung in Power BI
-Fügen Sie eine benutzerdefinierte Visualisierung hinzu, die Sie selbst erstellt oder im [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) gefunden haben. Sind Sie kreativ? Nutzen Sie Ihren Quellcode komplett, und erstellen Sie mit unseren Entwicklertools neue Typen von Visualisierungen, die Sie dann [für die Community freigeben](http://visuals.powerbi.com) können.
+Fügen Sie eine benutzerdefinierte Visualisierung hinzu, die Sie selbst erstellt oder auf der [Website der Microsoft AppSource-Community](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) gefunden haben. Sind Sie kreativ? Nutzen Sie Ihren Quellcode komplett, und erstellen Sie mit unseren [Entwicklertools](service-custom-visuals-getting-started-with-developer-tools.md) neue Typen von Visualisierungen, die Sie dann [für die Community freigeben](developer/office-store.md) können.
 
 ## <a name="change-the-visualization-type"></a>Ändern des Visualisierungstyps
 Versuchen Sie [den Visualisierungstyp zu ändern](power-bi-report-change-visualization-type.md), um zu sehen, welcher für Ihre Daten am besten geeignet ist.
 
 ## <a name="pin-the-visualization"></a>Anheften der Visualisierung
-Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie als Kachel an ein [Dashboard anheften](service-dashboard-pin-tile-from-report.md). Wenn Sie die Visualisierung im Bericht ändern, nachdem Sie sie angeheftet haben, verändert sich die Kachel auf dem Dashboard nicht.
+Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-Dienst als Kachel an ein [Dashboard anheften](service-dashboard-pin-tile-from-report.md). Wenn Sie die im Bericht verwendete Visualisierung ändern, nachdem Sie sie angeheftet haben, wird die Kachel im Dashboard nicht geändert. Wenn die Visualisierung ein Liniendiagramm war, bleibt sie ein Liniendiagramm, selbst wenn Sie sie im Bericht in ein Ringdiagramm geändert haben.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

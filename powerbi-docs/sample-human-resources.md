@@ -15,27 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Beispiel für Personalwesen für Power BI: Tour
+
+## <a name="overview-of-the-human-resources-sample"></a>Übersicht über das Beispiel für das Personalwesen
 Die Personalabteilung verwendet dasselbe Berichtsmodell für unterschiedliche Unternehmen, auch wenn diese sich nach Branche oder Größe unterscheiden. In diesem Beispiel werfen wir einen Blick auf neu eingestellte Mitarbeiter, aktive Mitarbeiter und Mitarbeiter, die das Unternehmen verlassen haben. Es wird versucht, Trends bei der Personalgewinnungsstrategie zu ermitteln. Hauptsächlich sollen folgende Erkenntnisse gewonnen werden:
 
 * Wen wir einstellen
 * Tendenzen unserer Personalgewinnungsstrategie
 * Trends bei freiwilligem Ausscheiden
 
-Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form.
-
 ![](media/sample-human-resources/hr1.png)
 
-Führen Sie hierzu die folgenden Schritte aus: Navigieren Sie im [Power BI-Dienst](https://powerbi.com) zu **Daten abrufen > Beispiele > Beispiel für Personalwesen > Verbinden**, um Ihr eigenes Exemplar des Beispiels abzurufen.
+Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form.
 
+## <a name="prerequisites"></a>Voraussetzungen
+
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
+
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
+2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wählen Sie das **Beispiel für das Personalwesen** aus, und wählen Sie dann **Verbinden**.  
+   
+   ![Daten abrufen](media/sample-human-resources/pbi_hr_sample_connect.png)
+5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
+   
+   ![Sternchen](media/sample-human-resources/human-resources-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
+
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. 
+
+ * [Beispiel für das Personalwesen](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529780). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
 
 ## <a name="new-hires"></a>Neue Mitarbeiter
@@ -44,9 +71,9 @@ Betrachten wir zunächst die Neueinstellungen.
 1. Wählen Sie im Arbeitsbereich die Registerkarte **Dashboards**, und öffnen Sie das Dashboard „Personalwesen“.
 2. Wählen Sie im Dashboard die Kachel **Anzahl der Neueinstellungen, Neueinstellungen im gleichen Zeitraum des Vorjahres, % Veränderung der Aktiven im Jahresvergleich** **Nach Monat** aus.  
    ![](media/sample-human-resources/hr2.png)  
-   
+
    Der Beispielbericht „Personalwesen“ wird auf der Seite **Neueinstellungen** geöffnet.  
-   
+
    ![](media/sample-human-resources/hr3.png)
 
 Beachten Sie Folgendes:
@@ -75,10 +102,10 @@ Der Beispielbericht „Personalwesen“ wird auf der Seite **Aktive Mitarbeiter 
 
 * In den Kombinationsdiagrammen auf der linken Seite wird die Veränderung Jahr über Jahr für aktive und ausgeschiedene Mitarbeiter angezeigt. Aufgrund von vermehrten Einstellungen haben wir in diesem Jahr mehr aktive Mitarbeiter, aber auch mehr ausgeschiedene Mitarbeiter als im letzten Jahr.
 * Im August hatten wir im Vergleich zu den anderen Monaten mehr ausgeschiedene Mitarbeiter. Wählen Sie die verschiedenen Altersgruppen, Geschlechter oder Regionen aus, um festzustellen, ob Ausreißer vorhanden sind.
-* Wenn wir uns die Kreisdiagramme ansehen, fällt auf, dass in Bezug auf die aktiven Mitarbeiter nach Geschlecht und Altersgruppe eine relativ gleichmäßige Verteilung besteht. Wählen Sie verschiedene Altersgruppen aus, um die Geschlechtsverteilung nach Alter anzuzeigen. Liegt für jede Altersgruppe eine gleichmäßige Verteilung nach Geschlecht vor? 
+* Wenn wir uns die Kreisdiagramme ansehen, fällt auf, dass in Bezug auf die aktiven Mitarbeiter nach Geschlecht und Altersgruppe eine relativ gleichmäßige Verteilung besteht. Wählen Sie verschiedene Altersgruppen aus, um die Geschlechtsverteilung nach Alter anzuzeigen. Liegt für jede Altersgruppe eine gleichmäßige Verteilung nach Geschlecht vor?
 
 ## <a name="reasons-for-separation"></a>Gründe für das Ausscheiden
-Wir sehen uns den Bericht in der Bearbeitungsansicht an. Wählen Sie in der oberen linken Ecke **Bericht bearbeiten** aus. 
+Wir sehen uns den Bericht in der Bearbeitungsansicht an. Wählen Sie in der oberen linken Ecke **Bericht bearbeiten** aus.
 
 Ändern Sie die Kreisdiagramme so, dass keine Daten für aktive Mitarbeiter, sondern für ausgeschiedene Mitarbeiter angezeigt werden.
 
@@ -87,10 +114,10 @@ Wir sehen uns den Bericht in der Bearbeitungsansicht an. Wählen Sie in der ober
 3. Aktivieren Sie in der Tabelle „Mitarbeiter“ das Kontrollkästchen neben **Anzahl der Ausgeschiedenen** , um dieses Element dem Feld **Werte** in der Feldquelle hinzuzufügen.
 4. Aktivieren Sie im Zeichenbereich für den Bericht im Balkendiagramm **Anzahl der Trennungen nach Trennungsgrund** den Balken **Freiwillig**. Dies hebt in den anderen Visualisierungen im Bericht die Personen hervor, die freiwillig ausgeschieden sind.
 5. Klicken Sie im Kreisdiagramm „Anzahl der Trennungen nach Altersgruppe“ auf das Segment „50+“.
-   
+
    Sehen Sie sich unten rechts das Liniendiagramm „Ausscheiden nach Grund“ an. Dieses Diagramm wird gefiltert, um freiwillig ausgeschiedene Mitarbeiter anzuzeigen.  
    ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
-   
+
    Erkennen Sie den Trend in der Altersgruppe 50+? In der zweiten Jahreshälfte scheiden vermehrt Mitarbeiter mit mehr als 50 Jahren freiwillig aus. Dies ist ein Bereich, der anhand von weiteren Daten genauer untersucht werden kann.
 6. Sie können die gleichen Schritte auch für das Kreisdiagramm **Anzahl der aktiven Mitarbeiter nach Geschlecht** ausführen und es von aktiven Mitarbeiter in Trennungen ändern. Sehen Sie sich die Daten zum freiwilligen Ausscheiden nach Geschlecht an, um nach weiteren Erkenntnissen zu suchen.
 7. Klicken Sie in der oberen Navigationsleiste auf **Power BI** , um zum Dashboard zurückzukehren. Wenn Sie möchten, können Sie die Änderungen speichern, die Sie am Bericht vorgenommen haben.
@@ -99,7 +126,7 @@ Wir sehen uns den Bericht in der Bearbeitungsansicht an. Wählen Sie in der ober
 Als Letztes untersuchen wir den Bereich der Fehleinstellungen. Bei Fehleinstellungen geht es um Mitarbeiter, die weniger als 60 Tage im Unternehmen tätig waren. Wir stellen Mitarbeiter schnell ein. Stellen wir auch gute Kandidaten ein?
 
 1. Wählen Sie die Dashboardkachel **Fehleinstellungen in % aktiver Mitarbeiter nach Altersgruppe** aus. Der Bericht wird auf Seite 3, „Fehleinstellungen“, geöffnet.
-   
+
    ![](media/sample-human-resources/hr7.png)  
 2. Aktivieren Sie im Slicer „Region“ auf der linken Seite das Kontrollkästchen **Nordwesten** und das Segment **Männlich** im Ringdiagramm „Anzahl der Fehleinstellungen nach Geschlecht“.  Sehen Sie sich die anderen Diagramme auf der Seite „Fehleinstellungen“ an. Es sind mehr männliche als weibliche Fehleinstellungen und viele Fehleinstellungen in der Gruppe A erkennbar.
    ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
@@ -107,19 +134,18 @@ Als Letztes untersuchen wir den Bereich der Fehleinstellungen. Bei Fehleinstellu
 4. Wählen Sie den Namen des Dashboards aus der oberen Navigationsleiste aus, um zum Dashboard zurückzukehren.
 
 ## <a name="asking-a-question-in-the-qa-box"></a>Stellen einer Frage im Feld für Fragen und Antworten
-Das [Q&A-Fragefeld](service-how-to-q-and-a.md) ist der Ort, an dem Sie eine natürlichsprachliche Frage eingeben können. Q&A erkennt die eingegebenen Wörter und schließt, wo in Ihrem Dataset eine Antwort zu finden ist.
+Das [Q&A-Fragefeld](power-bi-tutorial-q-and-a.md) ist der Ort, an dem Sie eine natürlichsprachliche Frage eingeben können. Q&A erkennt die eingegebenen Wörter und schließt, wo in Ihrem Dataset eine Antwort zu finden ist.
 
 1. Klicken Sie in das Q&A-Fragefeld. Beachten Sie, dass das Q&A-Feld bereits Vorschläge enthält, noch bevor Sie mit der Eingabe beginnen:
-   
+
    ![](media/sample-human-resources/pbi_hr_sample_qabox.png)
 2. Sie können einen dieser Vorschläge auswählen oder eingeben: **Altersgruppe, Geschlecht und Fehleinstellungen im gleichen Vorjahreszeitraum für Region Osten anzeigen**.  
-   
+
    ![](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
-   
+
    Beachten Sie, dass die meisten der weiblichen Fehleinstellungen jünger als 30 Jahre sind.
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie speichern, können Sie immer wieder zu **Daten abrufen** zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
 ## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen und Antworten-Modul und Berichte Ihnen Einblicke in Personaldaten geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).  
-

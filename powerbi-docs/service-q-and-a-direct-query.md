@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Aktivieren von Q&A für Liveverbindungen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Was ist das lokale Datengateway?  Was ist eine Liveverbindung?
@@ -39,7 +39,7 @@ Da Power BI F&A die Text- und Schemawerte aus Ihrer Datenquelle verwenden, um z
 Weitere Informationen finden Sie unter:
 
 * Was ist das [lokale Datengateway](service-gateway-onprem.md)?
-* [Einführung in Power BI Q&A](service-q-and-a.md)
+* [Einführung in Power BI Q&A](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Aktivieren von Q&A
 Nachdem Sie das Datengateway eingerichtet haben, stellen Sie aus Power BI eine Verbindung mit Ihren Daten her.  Erstellen Sie ein Dashboard mit Ihren lokalen Daten oder laden Sie eine PBIX-Datei hoch, die lokale Daten verwendet.  Möglicherweise enthalten Ihre Dashboards, Berichte und Datasets auch bereits lokale Daten, die für Sie freigegeben wurden.
@@ -55,22 +55,20 @@ Nachdem Sie das Datengateway eingerichtet haben, stellen Sie aus Power BI eine 
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Welche Daten werden zwischengespeichert, und wie werden Daten geschützt?
-Wenn Sie F&A für Ihre lokalen Daten aktivieren, wird eine Teilmenge der Daten im Dienst zwischengespeichert. Damit wird eine akzeptable Leistung von F&A sichergestellt. Werte, die länger als 24 Zeichen sind, werden nicht zwischengespeichert. Wenn Sie F&A deaktivieren (durch Deaktivieren von **Turn on Q&A for this dataset**) oder Ihr Dataset löschen, wird der Cache innerhalb weniger Stunden gelöscht.
+Wenn Sie F&A für Ihre lokalen Daten aktivieren, wird eine Teilmenge der Daten im Dienst zwischengespeichert. Damit wird eine akzeptable Leistung von F&A sichergestellt. Werte, die länger als 24 Zeichen sind, werden in Power BI nicht zwischengespeichert. Wenn Sie F&A deaktivieren (durch Deaktivieren von **Turn on Q&A for this dataset**) oder Ihr Dataset löschen, wird der Cache innerhalb weniger Stunden gelöscht.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Während der Vorschauphase dieses Features gelten mehrere Einschränkungen:
 
-* Das Feature ist zunächst nur für tabellarische SQL Server 2016 Analysis Services-Datenquellen verfügbar. Das Feature wurde für die Zusammenarbeit mit tabellarischen Daten optimiert. Einige Funktionen stehen für mehrdimensionale Datenquellen zur Verfügung, aber die volle Q&A-Leistung wird für mehrdimensionale Datenquellen noch nicht unterstützt. Weitere vom lokalen Datengateway unterstützte Datenquellen werden während der öffentlichen Vorschau eingeführt.
+* Das Feature ist zunächst nur für tabellarische SQL Server 2016 Analysis Services-Datenquellen verfügbar. Das Feature wurde für die Zusammenarbeit mit tabellarischen Daten optimiert. Einige Funktionen stehen für mehrdimensionale Datenquellen zur Verfügung, aber die volle Q&A-Leistung wird für mehrdimensionale Datenquellen noch nicht unterstützt. Im Lauf der Zeit werden weitere vom lokalen Datengateway unterstützte Datenquellen eingeführt.
 * Zunächst steht die in SQL Server Analysis Services definierte vollständige Unterstützung der Sicherheit auf Zeilenebene nicht in der öffentlichen Vorschauversion zur Verfügung. Bei der Eingabe von Fragen in F&A können durch die „automatische Vervollständigung“ Zeichenfolgenwerte angezeigt werden, auf die der Benutzer keinen Zugriff hat. Die im Modell definierte Sicherheit auf Zeilenebene wird jedoch für Berichts- und Diagrammvisualisierungen respektiert, wobei keine zugrunde liegenden numerischen Daten angezeigt werden können. Optionen zum Steuern dieses Verhalten werden in kommenden Updates veröffentlicht.
 * Liveverbindungen werden nur mit dem lokalen Datengateway unterstützt. Daher können sie nicht mit dem persönlichen Gateway verwendet werden.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway](service-gateway-onprem.md)  
 [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Schnelle Einblicke in Power BI](service-insights.md)  
-[Optimieren von Daten für schnelle Einblicke in Power BI](service-insights-optimize.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  
-[Dashboards in Power BI](service-dashboards.md)  
+[Übersicht über Power BI Q&A](power-bi-q-and-a.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

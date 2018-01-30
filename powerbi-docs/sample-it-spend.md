@@ -15,23 +15,53 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 40bb1c80b1dcc9625bdb3f47ec98b51a7be114fd
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für IT-Investitionen für Power BI: Tour
+
+## <a name="overview-of-the-it-spend-analysis-sample"></a>Übersicht über das Analysebeispiel für IT-Ausgaben
 Das [Inhaltspaket](service-organizational-content-pack-introduction.md) für die IT-Investitionsanalyse (Dashboard, Bericht und Dataset) analysiert die geplanten gegenüber den tatsächlichen Kosten einer IT-Abteilung. Dieser Vergleich hilft uns, zu verstehen, wie gut das Unternehmen auf Jahressicht geplant hat und welche Bereiche große Abweichungen gegenüber dem Plan aufwiesen. Das Unternehmen aus dem Beispiel durchläuft einen jährlichen Planungszyklus und erstellt dann quartalsweise eine neueste Schätzung (Latest Estimate, LE), um die Änderungen an den IT-Investitionen im Verlauf des Geschäftsjahrs zu analysieren.
+
+![](media/sample-it-spend/it1.png)
 
 Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce (<http://obvience.com/>) in anonymisierter Form.
 
->[!Note] 
-Sie können [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529783). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wählen Sie zum Anzeigen der Rohdaten **Power Pivot > Verwalten** aus.
+## <a name="prerequisites"></a>Voraussetzungen
 
-![](media/sample-it-spend/it1.png)
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
+
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
+2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wählen Sie das **Analysebeispiel für IT-Ausgaben** aus, und wählen Sie dann **Verbinden**.  
+  
+   ![Daten abrufen](media/sample-it-spend/it-connect.png)
+   
+5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
+   
+   ![Sternchen](media/sample-it-spend/it-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
+
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. 
+
+ * [Analysebeispiel für IT-Ausgaben](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
+Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529783). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
+
 
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>Dashboard zum Analysebeispiel für IT-Investitionen
 Die beiden numerischen Kacheln auf dem Dashboard, **Var Plan %** und **Variance Latest Estimate % Quarter 3**, geben uns einen Überblick darüber, wie wir uns im Vergleich zum Plan und zur Schätzung des letzten Quartals (LE3 = Latest Estimate Quarter 3) geschlagen haben. Insgesamt liegen wir etwa 6 % neben dem Plan. Betrachten wir die Ursache für diese Abweichung – wann, wo und in welcher Kategorie?
@@ -43,19 +73,19 @@ Durch Auswählen der Kachel **Var Plan % nach Region Sales** im Dashboard gelang
 
 Aber Schlüsse nur aus einem Blick auf dieses Diagramm zu ziehen, kann in die Irre führen. Wir müssen die tatsächlichen Dollarbeträge ansehen, um die Dinge im Zusammenhang zu verstehen.
 
-1. Wählen Sie im Diagramm „Var Plan % by Sales Region“ die Option **Aus und NZ** aus, und beobachten Sie das Diagramm „Var Plan by IT Area“. 
-   
+1. Wählen Sie im Diagramm „Var Plan % by Sales Region“ die Option **Aus und NZ** aus, und beobachten Sie das Diagramm „Var Plan by IT Area“.
+
    ![](media/sample-it-spend/it3.png)
 2. Wählen Sie jetzt **USA**aus. Sie verstehen es sicher – Australien stellt einen relativ kleinen Teil der Gesamtinvestitionen dar, gemessen an den USA.
-   
+
     Also haben wir das Problem auf die USA eingegrenzt, wie jetzt weiter? Untersuchen wir, welche Kategorie in den USA die Abweichung verursacht.
 
 ## <a name="ask-questions-of-the-data"></a>Fragen an die Daten stellen
 1. Wählen Sie in der oberen Navigationsleiste **Analysebeispiel für IT-Ausgaben** aus, um zu den Dashboards zurückzukehren.
 2. Geben Sie im Fragefeld „show IT areas, var plan % and var le3 % bar chart“ ein.
-   
-   ![](media/sample-it-spend/it4.png) 
-   
+
+   ![](media/sample-it-spend/it4.png)
+
    Im ersten IT-Bereich, **Infrastructure**, hat sich der Prozentsatz zwischen dem ursprünglichen Abweichungsplan und dem Abweichungsplan der letzten Schätzung drastisch verschoben.
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>Seite „YTD Spend by Cost Elements“
@@ -67,14 +97,14 @@ Kehren Sie zum Dashboard zurück, und sehen Sie sich die Kachel **Var Plan %, Va
 
 1. Klicken Sie auf diese Kachel, um zur Seite „YTD Spend by Cost Elements“ des Analysebeispielberichts für IT-Investitionen zu gelangen.
 2. Klicken Sie auf den Balken **Infrastructure** im Diagramm „Var Plan % and Var LE3 % by IT Area“ unten links, und beobachten Sie die Abweichung gegenüber dem Plan in „Var Plan % by Sales Region“ auf der linken Seite.
-   
+
     ![](media/sample-it-spend/it6.png)
 3. Klicken Sie auf den Namen jeder einzelnen Kostenelementgruppe im Datenschnitt, um das Kostenelement mit einer großen Abweichung zu finden.
 4. Klicken Sie unter „IT Area“ auf **Infrastructure** , während **Other** ausgewählt ist, und klicken Sie auf die Teilbereiche im Datenschnitt „IT Sub Area“, um den Teilbereich mit der größten Abweichung zu finden.  
-   
+
    Wir sehen eine riesige Abweichung in **Networking**.
-   
-   Offenbar hat sich das Unternehmen entschieden, seinen Mitarbeitern Telefondienste als Bonus zu geben, diese Entscheidung war jedoch nicht vorgesehen. 
+
+   Offenbar hat sich das Unternehmen entschieden, seinen Mitarbeitern Telefondienste als Bonus zu geben, diese Entscheidung war jedoch nicht vorgesehen.
 
 ## <a name="plan-variance-analysis-page"></a>Seite „Plan Variance Analysis“
 Klicken Sie, während Sie noch im Bericht sind, auf die Registerkarte „Plan Variance Analysis“ unten im Bericht, um zu Seite 3 des Berichts zu gelangen.
@@ -97,4 +127,3 @@ Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können s
 
 ## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen und Antworten-Modul und Berichte Ihnen Einblicke in Daten zu IT-Investitionen geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).
-

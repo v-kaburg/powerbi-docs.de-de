@@ -1,5 +1,5 @@
 ---
-title: "Erstellen von ausgewählten Fragen für Power BI Q&A"
+title: "Erstellen von ausgewählten Fragen für Power BI Q&A"
 description: "Dokumentation zum Erstellen von ausgewählten Fragen für Power BI Q&A"
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Erstellen von ausgewählten Fragen für Power BI Q&A
-Wenn Sie ein Dataset besitzen, können Sie dem Dataset eigene ausgewählte Fragen hinzufügen.  Power BI Q&A zeigt diese Fragen dann für Kollegen an, die das Dataset verwenden.  Durch die ausgewählten Fragen erhalten Ihre Kollegen Anhaltspunkte für die Arten von Fragen, die sie zum Dataset stellen können. Welche ausgewählten Fragen Sie hinzufügen, ist Ihnen überlassen – häufig gestellte Fragen, Fragen mit interessanten Ergebnissen oder Fragen, die möglicherweise schwierig zu formulieren sind.
+Wenn Sie ein Dataset besitzen, können Sie dem Dataset eigene ausgewählte Fragen hinzufügen.  Power BI Q&A zeigt diese Fragen dann für Kollegen an, die das Dataset verwenden (*nutzen*).  Durch die ausgewählten Fragen erhalten Ihre Kollegen Anhaltspunkte für die Arten von Fragen, die sie zum Dataset stellen können. Welche ausgewählten Fragen Sie hinzufügen, ist Ihnen überlassen – häufig gestellte Fragen, Fragen mit interessanten Ergebnissen oder Fragen, die möglicherweise schwierig zu formulieren sind.
 
 Sehen Sie sich an, wie ausgewählte Fragen zu Power BI Q&A hinzugefügt und diese ausgewählten Fragen dann zum Erkunden des Datasets genutzt werden. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren.
 
@@ -33,7 +33,6 @@ Sehen Sie sich an, wie ausgewählte Fragen zu Power BI Q&A hinzugefügt und dies
 
 > [!NOTE]
 > Ausgewählte Fragen für Q&A stehen auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](mobile-apps-ios-qna.md) und in Power BI Desktop Q&A (Vorschau) zur Verfügung. Das Erstellen der Fragen ist allerdings nur im Power BI-Dienst („app.powerbi.com“) möglich.
-> 
 > 
 
 In diesem Artikel wird das [Analysebeispiel für den Einzelhandel](sample-datasets.md) verwendet.
@@ -54,7 +53,7 @@ In diesem Artikel wird das [Analysebeispiel für den Einzelhandel](sample-datase
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Nächste Schritte
-[Q&A in Power BI](service-q-and-a.md)  
+[Q&A in Power BI](power-bi-q-and-a.md)  
 [Tutorial: Einführung in Power BI Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

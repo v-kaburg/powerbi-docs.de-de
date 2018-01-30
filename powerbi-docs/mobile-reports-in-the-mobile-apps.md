@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -50,7 +50,7 @@ Power BI-Berichte werden abhängig von ihrer Herkunft an verschiedenen Stellen i
   ![Smartphonebericht im Querformat](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Anzeigen von Berichten, die für Telefone optimiert sind
-Autoren von Power BI-Berichten können ein für Telefone optimiertes Berichtslayout erstellen. Ein optimierter Bericht ist in einer Liste mit Berichten durch das Symbol ![Symbol für Smartphonebericht](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)gekennzeichnet:
+Autoren von Power BI-Berichten können ein für Telefone optimiertes Berichtslayout erstellen. Für Smartphones optimierte Berichtsseiten bieten zusätzliche Funktionalität: Beispielsweise können Sie im Fokusmodus in Visuals Drilldowns und Sortierungen durchführen, und Sie haben Zugriff auf die [Filter, die der Autor des Berichts der Berichtsseite hinzugefügt hat](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Ein optimierter Bericht ist in einer Liste mit Berichten durch ein eigenes Symbol ![Symbol für Smartphonebericht](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png) gekennzeichnet:
 
 ![Smartphonebericht öffnen](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Wenn Sie diesen Bericht auf einem Telefon anzeigen, wird er im Hochformat geöff
 
 ![Bericht im Hochformat](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Ein Bericht kann eine Mischung aus für Telefone optimierten Seiten und aus nicht für Telefone optimierten Seiten enthalten. Wenn dies der Fall ist, wechselt beim Durchblättern des Berichts die Ansicht für jede nicht optimierte Seite vom Hochformat zum Querformat.
+ Ein Bericht kann eine Mischung aus für Telefone optimierten Seiten und aus nicht für Telefone optimierten Seiten enthalten. Wenn dies der Fall ist, wechselt beim Durchblättern des Berichts die Ansicht für jede nicht optimierte Seite vom Hochformat zum Querformat.
 
 Weitere Informationen über [Berichte, die für die Smartphoneansicht optimiert sind](mobile-apps-view-phone-report.md).
 

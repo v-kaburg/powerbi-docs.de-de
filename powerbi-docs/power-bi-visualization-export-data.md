@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Exportieren von Daten aus Visualisierungen
 Wenn Sie die Daten anzeigen möchten, mit denen eine Visualisierung erstellt wird, können Sie [die Daten in Power BI anzeigen](service-reports-show-data.md) oder (als XLSX- bzw. CSV-Datei) in Excel exportieren.   
@@ -74,8 +74,7 @@ Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaff
    
    >[!WARNING]
    >Wenn die zugrunde liegenden Daten exportiert werden, sind alle detaillierten Daten – jede Spalte in den Daten – für die Benutzer sichtbar. Power BI-Dienst-Administratoren können dies für ihre Organisation deaktivieren. Wenn Sie Datasetbesitzer sind, können Sie proprietäre Spalten auf „Ausgeblendet“ festlegen, sodass diese weder in Desktop noch im Power BI-Dienst in der Feldliste angezeigt werden.
-   > 
-   > 
+   
    
    **Zugrunde liegende Daten**: Wählen Sie diese Option aus, wenn die Visualisierung ein Aggregat enthält und Sie alle zugrunde liegenden Details anzeigen möchten. Im Grunde wird durch die Auswahl von *Zugrunde liegende Daten* das Aggregat entfernt. Wenn Sie **Exportieren** auswählen, werden die Daten in eine XLSX-Datei exportiert, und Sie werden im Browser dazu aufgefordert, die Datei zu speichern. Öffnen Sie die Datei nach dem Speichern in Excel.
    
@@ -85,7 +84,9 @@ Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaff
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 * Die maximale Anzahl von Zeilen, die aus **Power BI Desktop** und aus dem **Power BI-Dienst** in das CSV-Format exportiert werden kann, ist 30.000.
-* In das XLSX-Format können maximal 150.000 Zeilen (Benutzer von Power BI Pro) bzw. 30.000 Zeilen (Benutzer von Power BI Free) aus dem **Power BI-Dienst** exportiert werden.
+* Die maximale Anzahl von Zeilen, die nach XLSX exportiert werden kann, ist 150.000.
+* Das Exportieren mithilfe von *Zugrunde liegende Daten* ist nicht möglich, wenn die Datenquelle eine Analysis Services-Liveverbindung ist, die Version älter als 2016 ist und die Tabellen im Modell keinen eindeutigen Schlüssel aufweisen.  
+* Das Exportieren mithilfe von *Zugrunde liegende Daten* ist nicht möglich, wenn für die zu exportierende Visualisierung die Option *Elemente ohne Daten anzeigen* aktiviert ist.
 * Wenn Sie DirectQuery verwenden, können maximal 16 MB Daten exportiert werden. Dies kann dazu führen, dass weniger als die maximale Anzahl von Zeilen exportiert wird, insbesondere wenn viele Spalten vorhanden sind, die Daten schwierig zu komprimieren sind und weitere Faktoren die Dateigröße erhöhen und die Anzahl exportierter Zeilen verringern.
 * Power BI unterstützt nur Exporte in visuelle Elemente mit einfachen Aggregaten. Für visuelle Elemente mit Modell- oder Berichtsmeasures sind keine Exporte verfügbar.
 * Benutzerdefinierte Visualisierungen und R-Visualisierungen werden derzeit nicht unterstützt.

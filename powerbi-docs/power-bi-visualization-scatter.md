@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Punktdiagramme und Blasendiagramme in Power BI (Tutorial)
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
@@ -30,6 +30,8 @@ Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerisch
 In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *Blasengröße* eine zusätzliche Datendimension darstellt.
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Sie können die Anzahl der Datenpunkte festlegen.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Wann sollte ein Punktdiagramm oder ein Blasendiagramm verwendet werden?
 ### <a name="scatter-charts-are-a-great-choice"></a>Punktdiagramme sind in folgenden Fällen gut geeignet:
@@ -39,7 +41,7 @@ In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *
 * Zum Darstellen der horizontalen Achse in logarithmischer Skalierung.
 * Zum Anzeigen von Arbeitsblattdaten, die Paare oder gruppierte Werte enthalten. In einem Punktdiagramm können Sie die unabhängigen Skalierungen der Achsen anpassen, um weitere Informationen zu den gruppierten Werten anzugeben.
 * Um Muster in großen Mengen von Daten aufzuzeigen, z. B. lineare oder nicht lineare Trends, Ansammlungen oder Ausreißer.
-* Zum Vergleichen großer Mengen von Datenpunkten ohne Berücksichtigung der Zeit. Je mehr Daten im Punktdiagramm enthalten sind, desto bessere Vergleiche sind möglich.
+* Um große Mengen von Datenpunkten ohne Berücksichtigung der Zeit zu vergleichen.  Je mehr Daten Sie in ein Punktdiagramm aufnehmen, desto bessere Vergleiche können Sie vornehmen.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>Blasendiagramme sind in folgenden Fällen gut geeignet:
 * Wenn Ihre Daten drei Datenreihen aufweisen, die jeweils einen Satz von Werten enthalten.
@@ -76,13 +78,20 @@ Wir haben jetzt ein Punktdiagramm, in dem „Gesamtabweichung Umsatz %“ der Y-
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Optional können Sie [Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund und mehr formatieren](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Barrierefreiheit
+   Sie können auch die Markierungsform in Raute, Dreieck oder Quadrat ändern:
 
-Mithilfe von *Markierungsformen* können Sie Personen mit Behinderungen den Zugriff auf Ihre Punkt- oder Blasendiagramme erleichtern. 
+   ![Quadratischer Marker](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Klicken Sie zum Auswählen einer Markierungsform auf den Abschnitt **Format** im Bereich **Visualisierungen**, erweitern Sie den Abschnitt **Formen**, und wählen Sie eine Markierungsform aus.
+4. Wenn Sie die Anzahl der im Blasendiagramm anzuzeigenden Punkte festlegen möchten, erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Karte **Allgemein**, und passen Sie die **Datenmenge** an. Der Standardwert lautet 3500. 
+ 
+    ![Datenmenge](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht.
+
+5.   Optional können Sie zum Auswählen der Markierungsform die Karte **Formen** erweitern und dann eine Markierungsform auswählen.
+
+      ![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Das Punktdiagramm weist nur einen Datenpunkt auf**

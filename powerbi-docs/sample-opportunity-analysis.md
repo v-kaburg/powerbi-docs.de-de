@@ -15,18 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Verkaufschancen für Power BI: Tour
-Das **Beispiel zur Nachverfolgung von Verkaufschancen** enthält ein Dashboard (und dazugehörigen Bericht) für ein Softwareunternehmen, das über zwei Vertriebskanäle verfügt: *Direkt* und *Partner*. Der Vertriebsleiter erstellt dieses Dashboard, um Verkaufschancen und Umsatz nach Region, Auftragsvolumen und Kanal zu verfolgen.
 
-Der Vertriebsleiter nutzt hierfür zwei Umsatz-Measures:
+## <a name="overview-of-the-opportunity-analysis-sample"></a>Übersicht über das Beispiel einer Opportunityanalyse
+Das **Beispiel einer Opportunityanalyse** enthält ein Dashboard (und den dazugehörigen Bericht) für ein Softwareunternehmen, das über zwei Vertriebskanäle verfügt: *Direkt* und *Partner*. Der Vertriebsleiter erstellt dieses Dashboard, um Verkaufschancen und Umsatz nach Region, Auftragsvolumen und Kanal zu verfolgen.
+
+Der Vertriebsleiter nutzt hierfür zwei Umsatzmeasures:
 
 * **Umsatz:** Dies ist die Schätzung eines Vertriebsmitarbeiters zum Umsatz.
 * **Fakturierter Umsatz:** Wird als „Umsatz x Wahrscheinlichkeit in Prozent“ berechnet und im Allgemeinen als genauere Voraussage des tatsächlichen Umsatzes angesehen. Die Wahrscheinlichkeit wird über die aktuelle ***Verkaufsphase*** des Auftrags ermittelt.
@@ -36,23 +38,51 @@ Der Vertriebsleiter nutzt hierfür zwei Umsatz-Measures:
   * Angebot – 60 %  
   * Abschluss – 80 %
 
+  ![](media/sample-opportunity-analysis/opportunity1.png)
+
 Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form.
 
->[!Note] 
-Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529782). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können.  Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus. 
+## <a name="prerequisites"></a>Voraussetzungen
 
-![](media/sample-opportunity-analysis/opportunity1.png)
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
+
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
+2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wählen Sie das **Beispiel einer Opportunityanalyse** aus, und wählen Sie dann **Verbinden**.  
+  
+   ![Daten abrufen](media/sample-opportunity-analysis/opportunity-connect.png)
+   
+5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
+   
+   ![Sternchen](media/sample-opportunity-analysis/opportunity-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
+
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. 
+
+ * [Beispiel einer Opportunityanalyse](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
+Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529782). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Welche Erkenntnisse gewinnen wir über unser Dashboard?
 Unsere Vertriebsleiterin hat ein Dashboard erstellt, um diese für sie wichtigen Metriken zu verfolgen. Wenn sie etwas Interessantes sieht, kann sie eine Kachel auswählen, um einen genaueren Blick auf die Daten zu werfen.
 
 1. Der Umsatz des Unternehmens beträgt 2 Milliarden US-Dollar, und der fakturierte Umsatz beträgt 461 Millionen US-Dollar.
 2. Die Anzahl der Verkaufschancen und der Umsatz folgen einem vertrauten Trichtermuster, wobei sich die Summen in jeder nachfolgenden Phase verringern.
-3. Die meisten Verkaufschancen liegen für die Region „Osten“ vor. 
+3. Die meisten Verkaufschancen liegen für die Region „Osten“ vor.
 4. Mit den größeren Verkaufschancen wird mehr Umsatz als mit den mittleren oder kleinen Verkaufschancen generiert.
-5. Mit großen Partneraufträgen wird mehr Umsatz generiert: durchschnittlich 8 Millionen US-Dollar gegenüber 6 Millionen US-Dollar für Direktverkäufe. 
+5. Mit großen Partneraufträgen wird mehr Umsatz generiert: durchschnittlich 8 Millionen US-Dollar gegenüber 6 Millionen US-Dollar für Direktverkäufe.
 
-Da der Aufwand zum Gewinnen eines Auftrags unabhängig davon gleich ist, ob er als groß, mittel oder klein klassifiziert ist, sollten sich die Mitarbeiter des Unternehmens die Daten genau ansehen, um mehr Informationen zu großen Verkaufschancen zu erhalten. 
+Da der Aufwand zum Gewinnen eines Auftrags unabhängig davon gleich ist, ob er als groß, mittel oder klein klassifiziert ist, sollten sich die Mitarbeiter des Unternehmens die Daten genau ansehen, um mehr Informationen zu großen Verkaufschancen zu erhalten.
 
 Wählen Sie die Kachel **Verkaufschancenanzahl nach Partnerbeteiligung und Verkaufsphase** , um Seite 1 des Berichts zu öffnen.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
@@ -63,8 +93,8 @@ Wählen Sie die Kachel **Verkaufschancenanzahl nach Partnerbeteiligung und Verka
 
 * „Osten“ ist in Bezug auf die Verkaufschancenanzahl unsere größte Region.  
 * Wählen Sie jede Region im Kreisdiagramm nacheinander aus, um die Seite zu filtern. Für jede Region verfolgen die Partnerunternehmen erheblich mehr große Verkaufschancen.   
-* Im Säulendiagramm „Verkaufschancenanzahl nach Partnerbeteiligung und Verkaufschancengröße“ ist deutlich zu sehen, dass die meisten großen Verkaufschancen über Partnerbeteiligung verfügen und dass dies für kleinere und mittlere Verkaufschancen häufiger nicht der Fall ist. 
-* Wählen Sie die einzelnen Verkaufsphasen im Balkendiagramm unten links, um den Unterschied für die Anzahl in den Regionen anzuzeigen. Sie erkennen, dass alle drei Regionen in den Phasen „Lösung“, „Angebot“ und „Abschluss“ eine ähnliche Anzahl aufweisen, obwohl „Osten“ die größte Region in Bezug auf die Anzahl darstellt. Dies bedeutet, dass wir in den Regionen „Mitte“ und „Westen“ prozentual mehr Abschlüsse erzielen. 
+* Im Säulendiagramm „Verkaufschancenanzahl nach Partnerbeteiligung und Verkaufschancengröße“ ist deutlich zu sehen, dass die meisten großen Verkaufschancen über Partnerbeteiligung verfügen und dass dies für kleinere und mittlere Verkaufschancen häufiger nicht der Fall ist.
+* Wählen Sie die einzelnen Verkaufsphasen im Balkendiagramm unten links, um den Unterschied für die Anzahl in den Regionen anzuzeigen. Sie erkennen, dass alle drei Regionen in den Phasen „Lösung“, „Angebot“ und „Abschluss“ eine ähnliche Anzahl aufweisen, obwohl „Osten“ die größte Region in Bezug auf die Anzahl darstellt. Dies bedeutet, dass wir in den Regionen „Mitte“ und „Westen“ prozentual mehr Abschlüsse erzielen.
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Seite 2 unseres Berichts hat den Titel „Umsatzübersicht“.
 Auf dieser Seite werden die Daten auf ähnliche Weise dargestellt, jedoch nicht bezogen auf die Anzahl, sondern aus Sicht des Umsatzes.  
@@ -82,8 +112,8 @@ Es wird deutlich, dass unsere Partnerunternehmen beim Verkauf an Kunden erfolgre
 Auf dieser Seite werden ähnliche Daten angezeigt, die hier jedoch nach Region und Phase aufgeschlüsselt sind.  
 ![](media/sample-opportunity-analysis/opportunity5.png)
 
-* Wenn Sie nach „Osten“ filtern (wählen Sie im Kreisdiagramm **Osten** ), wird deutlich, dass die Verkaufschancen im Osten nahezu gleich auf Aufträge mit und ohne Partnerbeteiligung aufgeteilt sind. 
-* Große Verkaufschancen kommen am häufigsten in der Region „Mitte“ vor, kleine Verkaufschancen kommen am häufigsten in der Region „Osten“ vor, und mittlere Verkaufschancen kommen am häufigsten in der Region „Westen“ vor. 
+* Wenn Sie nach „Osten“ filtern (wählen Sie im Kreisdiagramm **Osten** ), wird deutlich, dass die Verkaufschancen im Osten nahezu gleich auf Aufträge mit und ohne Partnerbeteiligung aufgeteilt sind.
+* Große Verkaufschancen kommen am häufigsten in der Region „Mitte“ vor, kleine Verkaufschancen kommen am häufigsten in der Region „Osten“ vor, und mittlere Verkaufschancen kommen am häufigsten in der Region „Westen“ vor.
 
 ### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>Seite 4 des Berichts hat den Titel „Bevorstehende Verkaufschancen“.
 Wir suchen wieder nach ähnlichen Faktoren, dieses Mal jedoch bezogen auf Datum bzw. Uhrzeit.  
@@ -101,4 +131,3 @@ Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können s
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen und Antworten-Modul und Berichte Ihnen Einblicke in Daten zur Nachverfolgung von Verkaufschancen geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).
 
 [Beispiele herunterladen](sample-datasets.md)  
-

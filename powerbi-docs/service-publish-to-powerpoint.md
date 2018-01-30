@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportieren von Berichten aus Power BI nach PowerPoint (Preview)
 Mit Power BI können Sie Berichte jetzt in **Microsoft PowerPoint** veröffentlichen und darauf basierend einfach eine Foliengruppe erstellen. Beim **Export nach PowerPoint** geschieht Folgendes:
 
 * Jede Seite im Power BI-Bericht entspricht einer einzelnen Folie in PowerPoint.
-* Jede Visualisierung im Power BI-Bericht wird beim Export in ein hochauflösendes Bild in PowerPoint umgewandelt.
+* Jede Seite im Power BI-Bericht wird beim Export in ein einzelnes hochauflösendes Bild in PowerPoint umgewandelt.
 * Textfelder im Power BI-Bericht entsprechen bearbeitbaren Textfeldern in PowerPoint.
 * In PowerPoint wird ein Link zum Power BI-Bericht erstellt.
 
@@ -65,7 +65,11 @@ Wenn Sie die aus Power BI exportierte PowerPoint-Datei öffnen, werden Sie einig
 2. Außerdem werden weitere nützliche Informationen über den Bericht angezeigt, einschließlich der *letzten Datenaktualisierung*, der der exportierte Bericht zugrunde liegt, und des *Downloadzeitpunkts* (Uhrzeit und Datum). Dabei handelt es sich um Uhrzeit und Datum des Exports des Power BI-Berichts in die PowerPoint-Datei.
 3. Jeder Berichtsseite entspricht eine eigene Folie (siehe linken Navigationsbereich).
 
-Wenn Sie eine einzelne Folie näher betrachten, sehen Sie, dass jede Visualisierung als separates Bild enthalten ist (siehe oben). Auf diese Weise können Sie das Bild kopieren und in einer anderen Folie (oder an einem beliebigen Ort) einfügen.
+Wenn Sie eine einzelne Folie näher betrachten, sehen Sie, dass jede Berichtsseite als separates Bild enthalten ist.
+
+>[!NOTE]
+> Es ist neu, dass für jede Berichtsseite ein Visual vorhanden ist. Das vorherige Verhalten, mit dem für jedes Visual ein eigenständiges Bild bereitgestellt wurde, wird nicht mehr implementiert. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Einige Aspekte und Einschränkungen sind bei der Arbeit mit der Funktion **Expor
 * Seiten werden in PowerPoint immer mit dem Standardseitenverhältnis von 9:16 erstellt, unabhängig von den ursprünglichen Seitengrößen oder -abmessungen im Power BI-Bericht.
 * Berichte, die ein Benutzer außerhalb Ihrer Power BI-Mandantendomäne besitzt (beispielsweise ein Bericht im Besitz einer Person außerhalb Ihrer Organisation, die ihn für Sie freigegeben hat), können nicht in PowerPoint veröffentlicht werden.
 * Wenn Sie ein Dashboard für Personen außerhalb Ihrer Organisation freigeben (und damit für einen Benutzer, der nicht Ihrem Power BI-Mandanten angehört), kann der betreffende Benutzer die zugehörigen Berichte des freigegebenen Dashboards nicht nach PowerPoint exportieren. Wenn Sie beispielsweise aaron@contoso.com sind, können Sie Berichte für david@cohowinery.com freigeben. david@cohowinery.com kann jedoch die zugehörigen Berichte nicht nach PowerPoint exportieren.
+* Wie bereits erwähnt, wird jede Berichtsseite als ein einzelnes Bild in der PowerPoint-Datei exportiert. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 [In Excel analysieren](service-analyze-in-excel.md)

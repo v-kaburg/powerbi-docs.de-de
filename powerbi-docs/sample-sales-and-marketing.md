@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Beispiel für Vertrieb und Marketing für Power BI: Tour
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Übersicht über das Beispiel für Vertrieb und Marketing
 Das **Vertriebs- und Marketingbeispiel** enthält ein Dashboard und einen Bericht für das fiktive Fertigungsunternehmen VanArsdel Ltd. Dieses Dashboard wurde vom Chief Marketing Officer (CMO) von VanArsdel erstellt, um die Branche sowie den Marktanteil, das Produktvolumen, die Verkäufe und die Stimmungslage des Unternehmens im Blick zu haben.
 
 VanArsdel hat viel Konkurrenz, aber ist Marktführer seiner Branche. Der CMO möchte den Marktanteil erhöhen und Wachstumschancen aufzeigen. Doch aus irgendeinem Grund geht der Marktanteil von VanArsdel zurück, insbesondere im Juni wurden größere Einbußen verzeichnet.
 
 Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce (www.obvience.com) in anonymisierter Form.
 
-[!Note] Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529785). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Voraussetzungen
+
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
+
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
+2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Wählen Sie das **Beispiel für Vertrieb und Marketing** aus, und wählen Sie dann **Verbinden**.  
+  
+   ![Beispiel für Vertrieb und Marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
+   
+   ![Sternchen](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
+
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. 
+
+ * [Beispiel für Vertrieb und Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
+Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispiel herunterladen](http://go.microsoft.com/fwlink/?LinkId=529785). Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Welche Erkenntnisse gewinnen wir über unser Dashboard?
 Wir werden uns nun das Dashboard und die Kacheln ansehen, die der CMO angeheftet hat. Wir sehen Informationen zu unserem Marktanteil, den Verkäufen und der Stimmungslage. Die Daten werden nach Region, Zeitraum und Konkurrenz aufgeschlüsselt.
@@ -48,21 +78,21 @@ Wir werden uns nun das Dashboard und die Kacheln ansehen, die der CMO angeheftet
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Welche Segmente steigern unseren Umsatz? Entspricht das dem Branchentrend?
 1. Wählen Sie die Kachel „Gesamte Einheiten nach Segment“ aus, um Q&A zu öffnen.
 2. Geben Sie am Ende der vorhandenen Frage **für VanArsdel** ein. Q&A zeigt die Antwort auf die Frage in einem aktualisierten Diagramm an. Unser Produktvolumen ergibt sich aus Komfort und Moderation.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. Unser Anteil in dem Kategorien **Moderation** und **Komfort** ist sehr hoch – in diesen Segmenten behaupten wir uns im Wettbewerb.
 4. Navigieren Sie zurück zum Dashboard, indem Sie den Namen des Dashboards in der oberen Navigationsleiste (Brotkrümel) auswählen.
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Wie sieht der Marktanteil für die gesamten Einheiten für die Kategorie (im Vergleich zur Region) aus?
-1. Sehen Sie die Kachel „Gesamte Einheiten nach seit Jahresbeginn nach Hersteller, Region“ an. Ich frage mich, wie der Marktanteil für die Einheiten insgesamt nach Kategorie aufgeschlüsselt aussieht. 
-   
+1. Sehen Sie die Kachel „Gesamte Einheiten nach seit Jahresbeginn nach Hersteller, Region“ an. Ich frage mich, wie der Marktanteil für die Einheiten insgesamt nach Kategorie aufgeschlüsselt aussieht.
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. Geben Sie im Fragefeld am oberen Rand des Dashboards die Frage **total units by manufacturer and category for 2014 as a treemap** (Einheiten insgesamt nach Hersteller und Kategorie für 2014 als Treemap) ein. Sie sehen, wie die Visualisierung beim Eingeben der Frage aktualisiert wird.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Heften Sie das Diagramm an Ihr Dashboard an, um die Ergebnisse zu vergleichen. Interessant: 2014 verkaufte VanArsdel nur Produkte aus der Kategorie **Städtisch** .
 4. Kehren Sie zum Dashboard zurück.
 
-Über Dashboards können Sie auch Berichte aufrufen.  Wurde eine Kachel aus einem zugrunde liegenden Bericht erstellt, so wird der Bericht geöffnet, wenn Sie auf diese Kachel klicken. 
+Über Dashboards können Sie auch Berichte aufrufen.  Wurde eine Kachel aus einem zugrunde liegenden Bericht erstellt, so wird der Bericht geöffnet, wenn Sie auf diese Kachel klicken.
 
 Auf dem Dashboard wird in der Zeile zum vergangen Jahr angezeigt, dass unser Marktanteil mit der Zeit nicht mehr steigt, sondern eher zurückgeht. Und warum verzeichnen wir im Juni so große Einbußen? Klicken Sie auf diese Visualisierung, um den zugrunde liegenden Bericht zu öffnen und mehr zu erfahren.
 
@@ -72,7 +102,7 @@ Auf dem Dashboard wird in der Zeile zum vergangen Jahr angezeigt, dass unser Mar
 
 1. Betrachten Sie das Säulendiagramm „Gesamte Einheiten nach Monat und isVanArsdel“ am unteren Seitenrand. Die schwarze Säule zeigt VanArsdel (unsere Produkte) und die grüne Säule unsere Mitbewerber. Die Einbußen, die VanArsdel im Juni 2014 verzeichnet, lassen sich bei der Konkurrenz nicht feststellen.
 2. Das Balkendiagramm „Gesamtes Kategorievolumen nach Segment“ in der Mitte der rechten Seite wird gefiltert, um die zwei besten Segmente von VanArsdel anzuzeigen. Dieser Filter wird folgendermaßen erstellt:  
-   
+
    a.  Erweitern Sie den Filterbereich auf der rechten Seite.  
    b.  Klicken Sie auf diese Option, um die Visualisierung auszuwählen.  
    c.  Unter „Filter auf visueller Ebene“ wird nach **Segment** gefiltert, sodass nur **Komfort** und **Moderation** einbezogen werden.  
@@ -112,4 +142,3 @@ Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können s
 
 ## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, Q&A und Berichte Ihnen Einblicke in Vertriebs- und Marketingdaten geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).  
-
