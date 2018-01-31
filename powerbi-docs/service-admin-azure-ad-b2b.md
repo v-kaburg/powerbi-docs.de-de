@@ -3,7 +3,7 @@ title: Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B
 description: "Power BI ist in Azure Active Directory Business-to-Business (Azure AD B2B) integriert, um die sichere Verteilung von Power BI-Inhalten an Gastbenutzer außerhalb der Organisation zu ermöglichen."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/07/2017
-ms.author: asaxton
-ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.author: maghan
+ms.openlocfilehash: 36fb0838f9c712567d3fe14e7ba0c69d2da3adf4
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B
 

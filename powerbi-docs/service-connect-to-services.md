@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: 
 editor: 
 tags: 
 qualityfocus: no
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: 484545b0c240f54e2efe73ff16ba24ebe77d247c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: caf18362c0793d0a501ced2cd3160acc8f891516
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Herstellung einer Verbindung mit den verwendeten Diensten mithilfe von Power BI
 Sie können eine Verbindung mit einer Reihe von Diensten herstellen, die Sie zur Unterstützung Ihrer Geschäftstätigkeit einsetzen, z.B. Salesforce, Microsoft Dynamics und Google Analytics. Power BI verwendet für die Verbindung mit dem Dienst Ihre Anmeldeinformationen und erstellt dann eine Power BI-App mit einem Dashboard und einer Reihe von Power BI-Berichten, die Ihre Daten automatisch anzeigen und Ihnen visuelle Einblicke in Ihr Unternehmen ermöglichen. 

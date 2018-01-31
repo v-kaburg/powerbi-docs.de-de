@@ -3,7 +3,7 @@ title: "Integrieren eines Dashboards in eine App für Ihre Organisation"
 description: Hier erfahren Sie, wie Sie mit den Power BI-APIs ein Dashboard in eine Web-App integrieren bzw. einbetten.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: 36b19588d76c99cb712dc481752ebdee0c867f0d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrieren eines Dashboards in eine App für Ihre Organisation
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API ein Dashboard in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.

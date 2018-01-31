@@ -3,7 +3,7 @@ title: "Verwenden von Überwachung in der Organisation"
 description: "Erfahren Sie, wie Sie mit der Überwachung in Power BI ergriffene Maßnahmen überwachen und untersuchen können. Sie können das Security & Compliance Center oder PowerShell verwenden."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
-ms.author: asaxton
-ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.author: maghan
+ms.openlocfilehash: 4aca31605b0627929951c34dfb74aa736c89a04f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
 
@@ -151,7 +151,7 @@ Die folgende Tabelle enthält Informationen zu den möglicherweise angezeigten P
 | --- | --- | --- |
 | Downloaded Power BI report (Power BI-Bericht herunterladen) |Diese Aktivität wird bei jedem Herunterladen eines Berichts protokolliert. |Berichtsname, Datasetname |
 | Create report (Bericht erstellen) |Diese Aktivität wird bei jedem Erstellen eines neuen Berichts protokolliert. |Berichtsname, Datasetname |
-| Edit Report (Bericht bearbeiten) |Jedes Mal, wenn ein Bericht bearbeitet wird, wird diese Aktivität protokolliert. |Berichtsname, Datasetname |
+| Bericht bearbeiten |Jedes Mal, wenn ein Bericht bearbeitet wird, wird diese Aktivität protokolliert. |Berichtsname, Datasetname |
 | Create dataset (Dataset erstellen) |Diese Aktivität wird bei jedem Erstellen eines Datasets protokolliert. |Datasetname, DataConnectivityMode |
 | Delete Dataset (Dataset löschen) |Diese Aktivität wird bei jedem Löschen eines Datasets protokolliert. |Datasetname, DataConnectivityMode |
 | Create Power BI app (Power BI-App erstellen) |Diese Aktivität wird bei jedem Erstellen einer Power BI-App protokolliert. |App-Name, Berechtigungen, Arbeitsbereichsname |
