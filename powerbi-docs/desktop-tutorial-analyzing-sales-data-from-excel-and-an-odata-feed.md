@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Lernprogramm: Analysieren von Umsatzdaten aus Excel und einem OData-Feed
 Mit **Power BI Desktop** können Sie Verbindungen mit allen Arten unterschiedlicher Datenquellen herstellen und diese dann in einer Weise kombinieren und formen, die es ermöglicht, interessante und überzeugende Datenanalysen und Visualisierungen zu erstellen. In diesem Tutorial erfahren Sie, wie Sie Daten aus zwei Datenquellen kombinieren. 
@@ -140,7 +140,7 @@ Berechnen der Zwischensumme für jede Zeile in **Order\_Details**
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Schritt 5: Festlegen des Datentyps des Felds „LineTotal“
 1. Klicken Sie mit der rechten Maustaste auf die Spalte **LineTotal** .
-2. Wählen Sie **Typ ändern** und dann **Dezimalzahl aus.
+2. Wählen Sie **Typ ändern** und dann **Dezimalzahl** aus.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Nachdem Sie alle Schritte ausgeführt haben, verfügen Sie über einen Umsatzber
 * [Videos zu Power BI Desktop ansehen](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI-Forum besuchen](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI-Blog lesen](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Überblick über den Berichtsbereich „Filter“ in Power BI"
-description: Verwenden von Berichtsfiltern
+title: "Übersicht über den Berichtsbereich „Filter“ in Power BI"
+description: "Übersicht über den Berichtsbereich „Filter“ im Power BI-Dienst und auf dem Power BI-Dashboard"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Überblick über den Berichtsbereich „Filter“
-In diesem Artikel sehen wir uns den Bereich „Filter“ in Berichten genauer an. Dieser Bereich steht Ihnen in der Bearbeitungsansicht und der Leseansicht in Power BI-Berichten zur Verfügung.
+In diesem Artikel sehen wir uns den Bereich „Filter“ in Berichten genauer an. Sie sehen den Bereich in der [Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst](service-reading-view-and-editing-view.md) sowie in der [Berichtsansicht in Power BI Desktop](desktop-report-view.md).
 
 Es gibt viele verschiedene Arten von Datenfiltern in Power BI. Lesen Sie den Artikel [Informationen zu Filtern und Hervorhebungen](power-bi-reports-filters-and-highlighting.md).
 
@@ -32,7 +32,7 @@ Es gibt viele verschiedene Arten von Datenfiltern in Power BI. Lesen Sie den Art
 Berichte können in der [Bearbeitungsansicht oder Leseansicht](service-reading-view-and-editing-view.md) geöffnet werden. In der Bearbeitungsansicht können Besitzer eines Berichts [einem Bericht Filter hinzufügen](power-bi-report-add-filter.md). Diese Filter werden mit dem Bericht gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den Filtern interagieren, aber keine Änderungen am Filter speichern.
 
 ## <a name="filters-in-reading-view"></a>Filter in der Leseansicht
-Wenn ein Bericht im Lesemodus geöffnet ist, wir der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.
+Wenn ein Bericht in der Leseansicht geöffnet ist, wird der Bereich „Filter“ auf der rechten Seite der Berichtscanvas angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.
 
 In diesem Beispiel arbeiten wir mit einer Visualisierung mit sechs Filtern. Auch die Berichtsseite verfügt über Filter, die Sie unter der Überschrift **Seitenfilter** finden. Es ist ein [Drillthrough-Filter](power-bi-report-add-filter.md) vorhanden, und der gesamte Bericht weist ebenfalls einen Filter auf: **Geschäftsjahr** ist 2013 oder 2014.
 
@@ -59,7 +59,7 @@ Wenn ein Bericht im Bearbeitungsmodus geöffnet ist, wird der Bereich „Filter�
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
-Wenn im Zeichenbereich kein Visual ausgewählt ist, zeigt der Filterbereich nur die Filter am, die für die gesamte Berichtseite oder den gesamten Bericht gelten, sowie etwaige Drillthroughfilter (sofern diese festgelegt wurden). Im folgenden Beispiel ist kein Visual ausgewählt, und es gibt keine Filter auf Seitenebene oder Drillthroughfilter, dafür aber einen Filter auf Berichtsebene.  
+Wenn auf der Canvas kein Visual ausgewählt ist, zeigt der Filterbereich nur die Filter an, die für die gesamte Berichtsseite oder den gesamten Bericht gelten, sowie etwaige Drillthroughfilter (sofern diese festgelegt wurden). Im folgenden Beispiel ist kein Visual ausgewählt, und es gibt keine Filter auf Seitenebene oder Drillthroughfilter, dafür aber einen Filter auf Berichtsebene.  
 
 ![](media/power-bi-how-to-report-filter/power-bi-no-visual.png)  
 
@@ -75,9 +75,9 @@ Um die Optionen für einen bestimmten Filter anzuzeigen, wählen Sie neben dem F
  Wählen Sie im erweiterten oder Standardfiltermodus das Radierersymbol ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) aus, um den Filter zurückzusetzen. 
 
 ## <a name="add-a-filter"></a>Hinzufügen eines Filters
-* Fügen Sie in der Bearbeitungsansicht einem Visual, einer Seite, einem Drillthrough oder einem Bericht einen Filter hinzu, indem Sie im Bereich „Felder“ ein Feld auswählen und dieses in den entsprechenden Filterbereich mit dem Text **Drag fields here** (Felder hierher ziehen) ziehen. Sobald das Feld als Filter hinzugefügt wurde, können Sie den Filter mit den Steuerelementen „Einfaches Filtern“ und „Erweiterte Filterung“ anpassen (siehe unten).
+* Fügen Sie in der Bearbeitungsansicht einem Visual, einer Seite, einem Drillthrough oder einem Bericht einen Filter hinzu. Wählen Sie dazu im Bereich „Felder“ ein Feld aus und ziehen dieses in den entsprechenden Filterbereich mit dem Text **Felder hierher ziehen**. Sobald das Feld als Filter hinzugefügt wurde, können Sie den Filter mit den Steuerelementen „Einfaches Filtern“ und „Erweiterte Filterung“ anpassen (siehe unten).
 
-Wenn Sie ein neues Feld in den Bereich für Filter auf der Visualisierungsebene ziehen, wird das Feld nicht der Visualisierung hinzugefügt; Sie können lediglich die Visualisierung anhand dieses neuen Feldes filtern. Im Beispiel unten wird der Visualisierung als neuer Filter **Kette** hinzugefügt. Wenn Sie **Kette** als Filter hinzufügen, ändert sich die Visualisierung noch nicht. Dazu müssen Sie erst „Einfaches Filtern“ oder „Erweiterte Filterung“ verwenden.
+- **Wenn Sie ein neues Feld auf Ebene der Visuals in den Filterbereich ziehen, wird das Feld nicht dem Visual hinzugefügt**, aber Sie können das Visual anhand dieses neuen Felds filtern. Im Beispiel unten wird der Visualisierung als neuer Filter **Kette** hinzugefügt. Wenn Sie **Kette** als Filter hinzufügen, ändert sich die Visualisierung noch nicht. Dazu müssen Sie erst „Einfaches Filtern“ oder „Erweiterte Filterung“ verwenden.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

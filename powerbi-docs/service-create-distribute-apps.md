@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -32,7 +32,13 @@ Ihre Geschäftskunden benötigen für den Betrieb ihres Unternehmens häufig meh
 
 Mit Power BI-Apps, die derzeit in der Vorschauphase sind, können Sie Sammlungen von Dashboards und Berichten erstellen und diese Apps in Ihrer gesamten Organisation oder für bestimmte Personen oder Gruppen veröffentlichen. Für Sie als Berichtersteller oder Administrator vereinfachen Apps das Verwalten von Berechtigungen für Sammlungen von Dashboards.
 
-Geschäftskunden installieren diese Apps über Microsoft AppSource, oder Sie können ihnen einen direkten Link senden. Sie können die Inhalte problemlos finden und zu ihnen zurückkehren, da sich alles an zentraler Stelle befindet. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
+Geschäftskunden erhalten Ihre Apps mit unterschiedlichen Methoden. Wenn der Power BI-Administrator Ihnen die entsprechende Berechtigung gewährt, können Sie sie automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Andernfalls können diese Ihre Apps über Microsoft AppSource installieren, oder Sie können ihnen einen direkten Link senden. Sie können die Inhalte problemlos finden und zu ihnen zurückkehren, da sich alles an zentraler Stelle befindet. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
+
+### <a name="licenses-for-apps"></a>Lizenzen für Apps
+Als App-Ersteller benötigen Sie eine Power BI Pro-Lizenz. Die Benutzer Ihrer App haben zwei Optionen.
+
+* Option 1: Alle Geschäftsbenutzer benötigen **Power BI Pro**-Lizenzen, um Ihre App anzeigen zu können. 
+* Option 2: Benutzer von Power BI Free in Ihrer Organisation können App-Inhalte anzeigen, wenn sich Ihre App in einer Power BI Premium-Kapazität befindet. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Apps und organisationsbezogene Inhaltspakete
 Apps sind die Weiterentwicklung von organisationsbezogenen Inhaltspaketen. Wenn Sie bereits über organisationsbezogene Inhaltspakete verfügen, können sie weiterhin neben Apps verwendet werden.
@@ -41,12 +47,6 @@ Da Sie jetzt einen Überblick über Apps erlangt haben, wollen wir *App-Arbeitsb
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Apps und App-Arbeitsbereiche
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>Lizenzen für Apps
-Als App-Ersteller benötigen Sie eine Power BI Pro-Lizenz. Die Benutzer Ihrer App haben zwei Optionen.
-
-* Option 1: Alle Geschäftsbenutzer benötigen **Power BI Pro**-Lizenzen, um Ihre App anzeigen zu können. 
-* Option 2: Benutzer von Power BI Free in Ihrer Organisation können App-Inhalte anzeigen, wenn sich Ihre App in einer Power BI Premium-Kapazität befindet. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
 ## <a name="app-workspaces"></a>App-Arbeitsbereiche
 Apps werden in *App-Arbeitsbereichen* erstellt. Deshalb müssen Sie zum Erstellen einer App zunächst einen App-Arbeitsbereich erstellen. Wenn Sie in Power BI bereits in einem Gruppenarbeitsbereich gearbeitet haben, werden Ihnen App-Arbeitsbereiche vertraut vorkommen. Sie sind die Weiterentwicklung von Gruppenarbeitsbereichen – Stagingbereiche und Container für die Inhalte der App. 
@@ -106,21 +106,23 @@ Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröf
    
      ![Veröffentlichen der App](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Geben Sie zunächst in **Details** die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Hintergrundfarbe festlegen, um die App zu personalisieren.
+2. Geben Sie in **Details** die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Hintergrundfarbe festlegen, um die App zu personalisieren.
    
      ![App-Details](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Öffnen Sie anschließend **Inhalt**. Dort wird der Inhalt angezeigt, der als Teil der App veröffentlicht wird. Dies ist der gesamte Inhalt, den Sie in diesem Arbeitsbereich ausgewählt haben. Sie können auch die Landing Page der App festlegen – dies ist das Dashboard oder der Bericht, der für Benutzer als Erstes angezeigt wird, wenn sie Ihre App öffnen. Sie können **Keine** auswählen. Dann wird als Erstes eine Liste des gesamten Inhalts der App angezeigt. 
+3. Unter **Inhalt** wird der Inhalt angezeigt, der als Teil der App veröffentlicht wird. Dies ist der gesamte Inhalt, den Sie in diesem Arbeitsbereich ausgewählt haben. Sie können auch die Landing Page der App festlegen – dies ist das Dashboard oder der Bericht, der für Benutzer als Erstes angezeigt wird, wenn sie Ihre App öffnen. Sie können **Keine** auswählen. Dann wird als Erstes eine Liste des gesamten Inhalts der App angezeigt. 
    
      ![App-Inhalte](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Legen Sie schließlich unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation oder nur bestimmte Personen oder Active Directory-Sicherheitsgruppen. 
+4. Legen Sie unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation, nur bestimmte Personen oder Active Directory-Sicherheitsgruppen. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie die App automatisch für die Empfänger installieren lassen.
+
+    ![App-Zugriff](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Wenn Sie **Fertig stellen** auswählen, wird eine Meldung mit der Bestätigung angezeigt, dass die App jetzt veröffentlicht werden kann. Sie können im Dialogfeld mit der Erfolgsmeldung die URL, die ein direkter Link zu dieser App ist, kopieren und an die Personen senden, für die Sie die App freigegeben haben.
    
      ![Fertigstellen der App](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Die Geschäftskunden, für die Sie die App veröffentlicht haben, können diese auf zwei unterschiedliche Arten finden. Sie können ihnen einen direkten Link zur App senden, oder sie können in Microsoft AppSource, wo alle Apps angezeigt werden, auf die sie Zugriff haben, nach ihr suchen. Die App wird in der Liste angezeigt, wenn sie anschließend „Apps“ aufrufen.
+Die Geschäftskunden, für die Sie die App veröffentlicht haben, können diese auf unterschiedliche Arten finden. Nach einer automatischen Installation der App wird diese im Power BI-Konto unter „Apps“ angezeigt. Sie können ihnen einen direkten Link zur App senden, oder sie können in Microsoft AppSource, wo alle Apps angezeigt werden, auf die sie Zugriff haben, nach ihr suchen. In jedem Fall wird die App nach der Installation in der Liste angezeigt, wenn sie anschließend „Apps“ aufrufen.
 
 Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
 
@@ -137,6 +139,7 @@ Nachdem Sie Ihre App veröffentlicht haben, möchten Sie sie eventuell ändern o
 1. Kehren Sie zur Liste der Inhalte im App-Arbeitsbereich zurück, und wählen Sie **App aktualisieren** aus.
    
      ![Schaltfläche „App aktualisieren“](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. Aktualisieren Sie ggf. **Details**, **Inhalt** und **Zugriff**, und wählen Sie dann **App aktualisieren** aus.
    
      ![Schaltfläche „App aktualisieren“](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Apps sind eine Weiterentwicklung und Vereinfachung von Inhaltspaketen, mit einig
 * Wir planen, im Verlauf der Zeit die Unterstützung organisationsbezogener Inhaltspakete einzustellen, daher wird empfohlen, von nun an Apps zu erstellen.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>Können Gruppen Mitglieder mit schreibgeschütztem Zugriff enthalten?
-Sie können Gruppen Mitglieder mit schreibgeschütztem Zugriff hinzufügen, die den Inhalt nur anzeigen können. Das Hauptproblem bei diesem Ansatz war, dass Sicherheitsgruppen nicht als Mitglieder hinzugefügt werden konnten. Mit Apps können Sie eine schreibgeschützte Version des App-Arbeitsbereichs für große Zielgruppen, einschließlich Sicherheitsgruppen, veröffentlichen. Sie können Ihre Änderungen an den Dashboards und Berichten in der App bereitstellen, ohne Endbenutzer zu beeinträchtigen. Es wird empfohlen, Apps zukünftig auf diese Weise zu verwenden. Langfristig planen wir, die Unterstützung von Mitgliedern von Arbeitsbereichen, die schreibgeschützten Zugriff haben, ebenfalls einzustellen.  
+Sie konnten Gruppen Mitglieder mit schreibgeschütztem Zugriff hinzufügen, die den Inhalt nur anzeigen konnten. Das Hauptproblem bei diesem Ansatz war, dass Sicherheitsgruppen nicht als Mitglieder hinzugefügt werden konnten. 
+
+Mit Apps können Sie eine schreibgeschützte Version des App-Arbeitsbereichs für große Zielgruppen, einschließlich Sicherheitsgruppen, veröffentlichen. Sie können Ihre Änderungen an den Dashboards und Berichten in der App bereitstellen, ohne Endbenutzer zu beeinträchtigen. Es wird empfohlen, Apps zukünftig auf diese Weise zu verwenden. Langfristig planen wir, die Unterstützung von Mitgliedern von Arbeitsbereichen, die schreibgeschützten Zugriff haben, ebenfalls einzustellen.  
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Installieren und Verwenden von Apps in Power BI](service-install-use-apps.md)

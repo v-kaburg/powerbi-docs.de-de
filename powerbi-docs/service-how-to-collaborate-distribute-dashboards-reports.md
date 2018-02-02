@@ -1,11 +1,11 @@
 ---
-title: "Wie kann ich Dashboards und Berichte in Power BI für andere freigeben und mit diesen zusammenarbeiten?"
+title: Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 description: "In Power BI können Sie Dashboards, Berichte und Kacheln auf verschiedene Weisen freigeben und für die Zusammenarbeit verwenden. Jede dieser Möglichkeiten hat ihre Vorteile."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Wie kann ich Dashboards und Berichte in Power BI für andere freigeben und mit diesen zusammenarbeiten?
-Sie erstellen Dashboards und Berichte. Zusätzlich kann es sein, dass Sie gemeinsam mit Ihren Kollegen an diesen Dashboards und Berichten arbeiten. Dann möchten Sie, dass andere Benutzer Zugriff auf die Dashboards und Berichte haben. Was ist die beste Möglichkeit, um sie zu verteilen?
+Sie haben Dashboards und Berichte erstellt. Zusätzlich kann es sein, dass Sie gemeinsam mit Ihren Kollegen an diesen Dashboards und Berichten arbeiten. Dann möchten Sie, dass andere Benutzer Zugriff auf die Dashboards und Berichte haben. Was ist die beste Möglichkeit, um sie zu verteilen?
 
 In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freigabe in Power BI verglichen: 
 
@@ -34,7 +34,7 @@ In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freig
 * Veröffentlichen im Web, sodass beliebige Benutzer sie anzeigen und mit ihnen interagieren können
 * Drucken 
 
-Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-free-vs-pro.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. Vorschläge? Das Power BI-Team ist immer an Ihrem Feedback interessiert. Besuchen Sie daher die [Power BI-Community-Website](https://community.powerbi.com/).
+Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-free-vs-pro.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
 
 ![Apps im Power BI-Dienst](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern ve
 
 ![Symbol „App veröffentlichen“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md#publish-your-app). 
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md#publish-your-app). 
 
 Nachdem die Benutzer eine App installiert haben, können sie diese in ihren Browsern oder mobilen Geräten anzeigen.
 
@@ -69,9 +69,7 @@ Zum Freigeben von Inhalten müssen diese in einer [Premium-Kapazität](service-p
 
 Sie können das Dashboard auch für Personen außerhalb Ihrer Organisation freigeben. Diese können das Dashboard anzeigen und auch damit interagieren, es jedoch nicht freigeben. 
 
-Weitere Informationen zum [Freigeben eines Dashboards](service-share-dashboards.md) im Power BI-Dienst
-
-Sie können auch [einen direkten Link zu einem Bericht freigeben](service-share-reports.md) und das Dashboard umgehen. Sie können dem Link einen Filter hinzufügen, sodass für die Empfänger eine gefilterte Ansicht des Berichts angezeigt wird.
+Erfahren Sie mehr zum [Freigeben von Dashboards und Berichten](service-share-dashboards.md) im Power BI-Dienst. Sie können auch einen Filter zu einem Link hinzufügen und [eine gefilterte Ansicht Ihres Berichts freigeben](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Kommentieren und Freigeben in den mobilen Power BI-Apps
 In den mobilen Power BI-Apps für iOS- und Android-Geräte können Sie Kacheln, Berichte und visuellen Elemente kommentieren und per E-Mail für andere Personen freigeben. 

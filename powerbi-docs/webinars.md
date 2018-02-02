@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -47,13 +47,15 @@ Registrieren Sie sich, um sich von Power BI-Experten informieren zu lassen und a
 
 >[Nehmen Sie an bevorstehenden Webinaren der Power BI-Community teil](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Improving Profitability in Healthcare – 12.12.2017](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Erhöhen der Rentabilität im Gesundheitswesen, in englischer Sprache)
+Es sind noch keine Webinare geplant. Besuchen Sie diese Website regelmäßig, um sich über neue Veranstaltungen zu informieren.
 
 ## <a name="on-demand-webinars"></a>On-Demand-Webinare
 
 Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 
 >[Durchsuchen Sie die Bibliothek der On-Demand-Webinare zu Power BI von unseren Communityexperten](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Improving Profitability in Healthcare](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (Erhöhen der Rentabilität im Gesundheitswesen, in englischer Sprache)
 
 - [How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website) (Implementieren einer erfolgreichen Strategie für die Datenkontrolle, um die Sicherheit Ihrer Organisation zu erhöhen, in englischer Sprache)
 

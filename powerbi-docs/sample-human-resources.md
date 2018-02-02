@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ Die Personalabteilung verwendet dasselbe Berichtsmodell für unterschiedliche Un
 
 ![](media/sample-human-resources/hr1.png)
 
-Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form.
+Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form. Die Daten sind in verschiedenen Formaten verfügbar: Inhaltspaket/-App, Excel-Arbeitsmappe oder Power BI Desktop-PBIX-Datei. Weitere Informationen finden Sie unter [Beispieldatasets](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Voraussetzungen
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht in den Power BI-Dienst exportieren (dieser Vorgang wird auch als *Herunterladen* bezeichnet), indem Sie den Bericht speichern und **Veröffentlichen** auswählen. Es ist auch ein Export in die andere Richtung möglich, und Sie können einen Bericht aus dem Power BI-Dienst in die Desktopversion herunterladen. Die Erweiterung für in beide Richtungen exportierte Dateien lautet *.pbix*.
@@ -37,7 +37,7 @@ Gehen Sie zum Herunterladen der PBIX-Datei folgendermaßen vor:
 2. Wählen Sie auf der Menüleiste **Datei > Bericht herunterladen** aus.
    
    > [!NOTE]
-   > Der Bericht kann nur heruntergeladen werden, wenn er [mithilfe von Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) nach dem 23. November 2016 erstellt oder nach diesem Zeitpunkt aktualisiert wurde. Andernfalls ist die Menüoption *Bericht herunterladen* im Power BI-Dienst abgeblendet.
+   > Der Bericht kann nur heruntergeladen werden, wenn er nach dem 23. November 2016 [mithilfe von Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) erstellt und nach diesem Zeitpunkt aktualisiert wurde. Andernfalls ist die Menüoption *Bericht herunterladen* im Power BI-Dienst abgeblendet.
    > 
    > 
 3. Der Status der PBIX-Dateierstellung wird in einem Statusbanner angezeigt. Wenn die PBIX-Datei bereit ist, werden Sie zum Öffnen oder Speichern der Datei aufgefordert. Der Name der Datei stimmt mit dem Titel des Berichts überein.
@@ -59,7 +59,7 @@ Gehen Sie zum Herunterladen der PBIX-Datei folgendermaßen vor:
 Beim Herunterladen (Exportieren) einer *PBIX*-Datei aus dem Power BI-Dienst sind einige wichtige Aspekte zu beachten:
 
 * Zum Herunterladen der Datei müssen Sie über Bearbeitungszugriff auf den Bericht verfügen.
-* Der Bericht muss aus **Power BI Desktop** stammen und für den **Power BI-Dienst** *veröffentlicht* worden sein, oder die *PBIX*-Datei muss in den Dienst hochgeladen worden sein.
+* Der Bericht muss mit **Power BI Desktop** erstellt und für den **Power BI-Dienst** *veröffentlicht* worden sein, oder die PBIX-Datei muss in den Dienst *hochgeladen* worden sein.
 * Die Berichte müssen nach dem 23. November 2016 veröffentlicht oder aktualisiert worden sein. Vor diesem Datum veröffentlichte Berichte können nicht heruntergeladen werden.
 * Dieses Feature kann nicht für Berichte und Inhaltspakete genutzt werden, die ursprünglich im **Power BI-Dienst** erstellt wurden.
 * Sie sollten immer die neueste Version von **Power BI Desktop** verwenden, wenn Sie heruntergeladene Dateien öffnen. Heruntergeladene *PBIX*-Dateien werden in nicht aktuellen Versionen von **Power BI Desktop** möglicherweise nicht geöffnet.

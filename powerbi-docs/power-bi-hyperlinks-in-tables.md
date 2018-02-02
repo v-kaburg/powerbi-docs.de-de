@@ -1,5 +1,5 @@
 ---
-title: Links in Tabellen
+title: "Hinzufügen eines Links zu einer Tabelle"
 description: Links in Tabellen
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Links in Tabellen
-In diesem Thema wird erläutert, wie in Power BI Desktop Hyperlinks erstellt werden. Nach der Erstellung verwenden Sie entweder Desktop oder den Power BI-Dienst, um diese Hyperlinks Ihren Berichtstabellen und Matrizen hinzuzufügen. 
+In diesem Thema wird erläutert, wie in Power BI Desktop Hyperlinks erstellt werden. Nach der Erstellung verwenden Sie dann entweder Desktop oder den Power BI-Dienst, um diese Hyperlinks Ihren Berichtstabellen und Matrizen hinzuzufügen. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -84,6 +84,11 @@ Sie können Ihren Power BI-Tabellen und -Matrizen auch Hyperlinks hinzufügen, i
 7. Erstellen Sie eine Tabellenvisualisierung, die das URL-Feld enthält.
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+F: Kann ich eine benutzerdefinierte URL als Link in einer Tabelle oder Matrix verwenden?    
+A: Nein. Sie können ein Linksymbol verwenden. Wenn Sie benutzerdefinierten Text für Ihre Links benötigen und die Liste der URLs kurz ist, sollten Sie stattdessen ein Textfeld verwenden.
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)

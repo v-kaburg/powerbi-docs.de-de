@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Erste Schritte mit der mobilen Power BI-App auf einem iPad
 Die iOS-App für Microsoft Power BI auf dem iPad bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
@@ -41,7 +41,7 @@ Machen Sie sich [mit den Neuerungen bei den Power BI-Mobile Apps](mobile-whats-n
 [Laden Sie die iPad-App](http://go.microsoft.com/fwlink/?LinkId=522062) aus dem Apple App Store herunter.
 
 > [!NOTE]
-> Ihr iPad muss mindestens über iOS 9.0 verfügen. 
+> Ihr iPad muss mindestens über iOS 10 verfügen. 
 > 
 > 
 
@@ -54,7 +54,7 @@ Wechseln Sie zu Power BI (https://powerbi.com), um sich für den Dienst zu regis
    
    Zum Anzeigen der mobilen Reporting Services-Berichte und -KPIs tippen Sie auf **SQL Server Reporting Services**. Melden Sie sich mit Ihren SQL Server Reporting Services-Anmeldeinformationen an.
    
-   ![Melden Sie sich bei Power BI an.](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
+   ![Bei Power BI anmelden](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
    
    Tippen Sie in der App auf die globale Navigationsschaltfläche ![Globale Navigationsschaltfläche](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) in der linken oberen Ecke, um zwischen den beiden Diensten zu wechseln. 
 

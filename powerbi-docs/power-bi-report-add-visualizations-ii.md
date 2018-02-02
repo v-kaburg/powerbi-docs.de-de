@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht (Lernprogramm)
 In [Teil 1](power-bi-report-add-visualizations-ii.md) haben Sie eine einfache Visualisierung erstellt, indem Sie Kontrollkästchen neben Feldnamen aktiviert haben.  In Teil 2 lernen Sie, wie Sie Drag &amp; Drop verwenden und die Funktionen der Bereiche **Felder** und **Visualisierungen** nutzen, um Visualisierungen zu erstellen und zu ändern.
+
+### <a name="prerequisites"></a>Voraussetzungen
+- [Teil 1](power-bi-report-add-visualizations-ii.md)
+- Power BI-Dienst: Mithilfe von Power BI Desktop bzw. des Power BI-Diensts können Visualisierungen zu Berichten hinzugefügt werden. Dieses Tutorial verwendet den Power BI-Dienst. 
+- Analysebeispiel für den Einzelhandel
 
 ## <a name="create-a-new-visualization"></a>Erstellen einer neuen Visualisierung
 In diesem Tutorial verwenden wir unser Dataset mit Einzelhandelsdaten und erstellen einige wichtige Visualisierungen.
@@ -64,7 +69,6 @@ In diesem Tutorial verwenden wir unser Dataset mit Einzelhandelsdaten und erstel
 ## <a name="next-steps"></a>Nächste Schritte
 * Weitere Informationen zum Bereich „Felder“ finden Sie unter [Berichts-Editor: Verschaffen Sie sich einen Überblick](service-the-report-editor-take-a-tour.md).   
 * Informationen zum Filtern und Hervorheben der Visualisierungen finden Sie unter [Filter und Hervorhebungen in Power BI-Berichten](power-bi-reports-filters-and-highlighting.md).  
-* Weitere Informationen zum Verwenden und Ändern von Aggregationen finden Sie unter [Aggregate in Berichten](service-aggregates.md).  
 * Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md).  
-* Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
+* Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

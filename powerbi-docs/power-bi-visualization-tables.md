@@ -1,6 +1,6 @@
 ---
-title: Tabellenvisualisierungen in Power BI-Berichten und -Dashboards (Lernprogramm)
-description: "Tipps zum Arbeiten mit Tabellenvisualisierungen in Power BI-Berichten und -Dashboards, einschließlich Erläuterungen zum Ändern der Spaltenbreite."
+title: 'Tutorial: Tabellenvisualisierungen in Power BI-Berichten und -Dashboards (Tutorial)'
+description: "Tutorial zum Arbeiten mit Tabellenvisualisierungen in Power BI-Berichten und -Dashboards, einschließlich Erläuterungen zum Ändern der Spaltenbreite."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Arbeiten mit Tabellen in Power BI-Berichten und -Dashboards (Lernprogramm)
 Eine Tabelle ist ein Raster, das zusammengehörende Daten in einer logischen Folge von Zeilen und Spalten enthält. Zudem können auch Kopfzeilen und eine Zeile für Summen enthalten sein. Tabellen empfehlen sich insbesondere für quantitative Vergleiche, bei denen Sie viele Werte einer einzigen Kategorie betrachten. In dieser Tabelle werden beispielsweise fünf verschiedene Measures für **Kategorie** angezeigt.
@@ -40,11 +40,16 @@ Tabellen sind für folgende Zwecke gut geeignet:
 > Enthält eine Tabelle zu viele Werte, erwägen Sie, sie in eine Matrix zu konvertieren und/oder die Drilldownfunktion zu verwenden.
 > 
 > 
+## <a name="prerequisites"></a>Voraussetzungen
+ - Power BI-Dienst oder Power BI Desktop
+ - Analysebeispiel für den Einzelhandel
+
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
-Melden Sie sich bei Power BI an, und wählen Sie **Daten abrufen > Beispiele > Analysebeispiel für Einzelhandel**. Wir erstellen die oben abgebildete Tabelle, in der Umsatzwerte nach Artikelkategorien angezeigt werden.
+Wir erstellen die oben abgebildete Tabelle, in der Umsatzwerte nach Artikelkategorien angezeigt werden. Melden Sie sich beim Power BI-Dienst an, wählen Sie **Daten abrufen\> Beispiele \> Analysebeispiel für Einzelhandel > Verbinden** aus, und wählen Sie **„Zum Dashboard wechseln“. Zum Erstellen einer Visualisierung benötigen Sie Bearbeitungsberechtigungen für das Dataset und den Bericht. Erfreulicherweise können die Power BI-Beispiele alle bearbeitet werden. Wenn ein Bericht für Sie freigegeben wurde, können Sie keine Visualisierungen in Berichten erstellen.
 
-1. Wählen Sie in **Mein Arbeitsbereich** die Registerkarte „Datasets“ aus, und scrollen Sie nach unten zum gerade hinzugefügten Dataset „Analysebeispiel für Einzelhandel“.  Wählen Sie das Symbol **Bericht erstellen** aus.
+1. Wählen Sie links im Navigationsbereich **Arbeitsbereiche > Mein Arbeitsbereich** aus.    
+2. Wählen Sie die Registerkarte „Datasets“ aus, und führen Sie einen Bildlauf nach unten zum gerade hinzugefügten Dataset „Analysebeispiel für Einzelhandel“ durch.  Wählen Sie das Symbol **Bericht erstellen** aus.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. Wählen Sie im Berichts-Editor **Element** > **Kategorie** aus.  Power BI erstellt automatisch eine Tabelle, in der alle Kategorien aufgelistet werden.

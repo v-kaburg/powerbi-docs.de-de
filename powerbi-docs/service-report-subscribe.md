@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonnieren eines Power BI-Berichts oder -Dashboards
 Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie legen fest, wie oft Power BI die E-Mail-Nachrichten senden soll: von einmal täglich bis einmal pro Woche. Die E-Mail und die Momentaufnahme werden in der Sprache verfasst, die in den Power BI-Einstellungen festgelegt wurde. Wenn keine Sprache definiert wurde, verwendet Power BI die aktuelle Spracheinstellung des Browsers.
@@ -119,6 +119,7 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder de
 * Aufgrund der Beschränkungen für die E-Mail-Größe können Dashboards oder Berichte mit extrem großen Bildern möglicherweise nicht abonniert werden.    
 * Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind, die seit mehr als 2 Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard bzw. der Bericht längere Zeit nicht besucht wurde.    
 * Wenn Sie die E-Mails des Abonnements nicht erhalten, vergewissern Sie sich, dass Ihr Benutzerprinzipalname (UPN) E-Mails empfangen kann. [Das Power BI-Team arbeitet daran, diese Anforderung zu lockern](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) – schauen Sie also wieder vorbei. 
+* Für gesendete Berichte und Dashboards wird Ihre Power BI-Spracheinstellung verwendet. Die Standardsprache ist Englisch. Sie können die Spracheinstellung anzeigen, indem Sie das Zahnradsymbol und dann ![](media/service-report-subscribe/power-bi-settings-icon.png)**Einstellungen > Allgemein > Sprache** auswählen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)    

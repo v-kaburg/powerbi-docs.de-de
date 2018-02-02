@@ -1,5 +1,5 @@
 ---
-title: "Berichts-Editor – Verschaffen Sie sich einen Überblick"
+title: "Schnellstart: Berichts-Editor – Verschaffen Sie sich einen Überblick"
 description: "Berichts-Editor – Verschaffen Sie sich einen Überblick"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Berichts-Editor – Verschaffen Sie sich einen Überblick
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Bearbeiten von Berichten im Power BI-Dienst und in Power BI Desktop
 Der Berichts-Editor im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich. Im Video wird der Berichts-Editor in Power BI Desktop gezeigt, und in diesem Artikel wird der Berichts-Editor im Power BI-Dienst gezeigt. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Der Unterschied zwischen einem *Ersteller* und einem *Anwender* von Berichten
+Die Möglichkeit zum Erstellen und Bearbeiten eines Berichts ist auf die Besitzer (d.h. *Ersteller*) eines Berichts eingeschränkt. Wenn Sie einen Bericht *verwenden*, der für Sie freigegeben wurde, können Sie den Bericht weiterhin [nur in der Leseansicht](service-reading-view-and-editing-view.md) des Power BI-Diensts öffnen und mit ihm interagieren. In diesem Fall haben Sie jedoch keinen Zugriff auf die stabilen und umfangreichen Features, die dem Berichtsersteller zur Verfügung stehen.  
+
+Weitere Informationen zur Leseansicht eines Berichts finden Sie unter [Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst](service-reading-view-and-editing-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Im Power BI-Dienst ist der *Berichts-Editor* nur in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) verfügbar. Wenn Sie einen Bericht in der Bearbeitungsansicht öffnen möchten, müssen Sie Besitzer des Berichts sein.
+Im Power BI-Dienst ist der *Berichts-Editor* nur in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) verfügbar. Wenn Sie einen Bericht in der Bearbeitungsansicht öffnen möchten, müssen Sie Besitzer oder Ersteller des Berichts sein.
 
 Der Power BI-Berichts-Editor besteht aus drei Abschnitten:  
 
@@ -87,7 +93,9 @@ Mit dem Bereich „Analyse“ im Power BI-Dienst können Sie Visualisierungen dy
 
 - - -
 ## <a name="the-filters-pane"></a>Bereich „Filter“
-Sie können Filter auf Seiten-, Berichts-, Drillthrough- und Visualsebene anzeigen, festlegen und ändern.
+Über den Bereich „Filter“ können Sie persistente Filter für Ihre Berichte auf Seiten-, Berichts-, Drillthrough- und visueller Ebene anzeigen, setzen und ändern. Ja, Sie können eine Ad-hoc-Filterung auf Berichtsseiten und in visuellen Elementen durchführen. Hierzu wählen Sie visuelle Elemente aus oder verwenden Werkzeuge wie „Datenschnitt“, aber wenn Sie den Filterbereich verwenden, wird der Zustand der Filter mit dem Bericht gespeichert. 
+
+Der Bereich „Filter“ verfügt über ein weiteres leistungsstarkes Feature: das Filtern mithilfe eines Felds, ***das nicht bereits in einem der visuellen Elemente in Ihrem Bericht verwendet wird***. Mit anderen Worten: Bei der Erstellung einer Berichtsseite fügt Power BI automatisch alle Felder hinzu, die Sie in Ihren Visualisierungen für den Filterbereich der visuellen Ebene im Bereich „Filter“ verwenden.  Möglicherweise möchten Sie einen Filter für ein visuelles Element, eine Seite, einen Drillthrough oder einen Bericht mithilfe eines Felds festlegen. Wenn der betreffende Inhalt derzeit nicht in einer Visualisierung verwendet wird, ziehen Sie ihn einfach auf einen der Filterbuckets.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Im Zeichenbereich des Berichts wird Ihre Arbeit angezeigt. Wenn Sie in den Berei
 ## <a name="next-steps"></a>Nächste Schritte:
 [Erstellen eines Berichts](service-report-create-new.md)
 
-[Bearbeiten eines Berichts](service-interact-with-a-report-in-editing-view.md)
-
-Erfahren Sie mehr über [Berichte in Power BI](service-reports.md).
-
-[Erste Schritte mit Power BI](service-get-started.md)
+Lesen Sie mehr zu Berichten im [Power BI-Dienst](service-reports.md), in [Power BI Desktop](desktop-report-view.md) und [Power BI Mobile](mobile-apps-view-phone-report.md).
 
 [Power BI – Grundkonzepte](service-basic-concepts.md)
 

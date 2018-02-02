@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation können Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](service-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
@@ -34,7 +34,7 @@ In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller di
 Planen Sie das Erstellen einer App? Weitere Informationen finden Sie unter [Erstellen und Veröffentlichen von Apps in Power BI](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Erhalten einer neuen App
-Sie haben zwei Möglichkeiten zum Erhalten von Apps. Der Ersteller der App kann Ihnen einen direkten Link zur App senden, oder Sie können die App in AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie sie nur über einen Direktlink und nicht aus AppSource installieren. 
+Sie können Apps auf unterschiedliche Weise erhalten. Der Ersteller der App kann die App automatisch in Ihrem Power BI-Konto installieren lassen oder Ihnen einen direkten Link zur App senden, oder Sie können die App in AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie sie nur über einen Direktlink und nicht aus AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
 
 ### <a name="install-an-app-from-a-direct-link"></a>Installieren einer App über einen direkten Link
 Die einfachste Möglichkeit, eine neue App selbst zu installieren, ist das Empfangen eines direkten Links vom Ersteller der App. Power BI erstellt einen Link für die Installation, den Ihnen der Ersteller senden kann.

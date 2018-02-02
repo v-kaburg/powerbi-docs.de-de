@@ -1,27 +1,7 @@
----
-title: Strukturieren und Kombinieren von Daten in Power BI Desktop
-description: Strukturieren und Kombinieren von Daten in Power BI Desktop
-services: powerbi
-documentationcenter: 
-author: davidiseminger
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
-ms.author: davidi
-ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+-- title: Strukturieren und Kombinieren von Daten in Power BI Desktop description: Strukturieren und Kombinieren von Daten in Power BI Desktop services: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
+
+ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
+
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Strukturieren und Kombinieren von Daten in Power BI Desktop
 Mit **Power BI Desktop** können Sie Verbindungen zu vielen unterschiedlichen Arten von Datenquellen herstellen und anschließend die Daten nach Ihren Anforderungen strukturieren. Das *Strukturieren* von Daten ist mit einem Transformieren der Daten gleichzusetzen. So müssen beispielsweise Spalten oder Tabellen umbenannt, Text in Zahlen umgewandelt, Zeilen entfernt oder die erste Zeile als Überschrift festgelegt werden. Als *Kombinieren* von Daten werden das Verbinden von mehreren Datenquellen, das auf die Anforderungen ausgerichtete Strukturieren der Daten und schließlich das Konsolidieren in eine praktische Abfrage bezeichnet.

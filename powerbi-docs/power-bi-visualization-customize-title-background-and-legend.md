@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen (Tutorial)
 In diesem Tutorial lernen Sie einige verschiedene Möglichkeiten zum Anpassen von Visualisierungen kennen.   Es gibt eine Vielzahl von Optionen zum Anpassen von Visualisierungen. Diese lernen Sie am besten im Formatierungsbereich kennen (wählen Sie das Farbrollersymbol aus).  Um Ihnen den Einstieg zu erleichtern, wird in diesem Artikel das Anpassen des Titels, der Legende und des Hintergrunds einer Visualisierung erläutert.  
@@ -33,9 +33,12 @@ Sehen Sie sich an, wie Amanda Visualisierungen in ihrem Bericht anpasst (Schnell
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Voraussetzungen
+- Power BI-Dienst oder Power BI Desktop
+- Analysebeispiel für den Einzelhandel
 
 ## <a name="customize-visualization-titles-in-reports"></a>Anpassen der Visualisierungstitel in Berichten
-Melden Sie sich bei „app.powerbi“ an, und [öffnen Sie das Analysebeispiel für den Einzelhandel](sample-datasets.md) in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).
+Melden Sie sich beim Power BI-Dienst (app.powerbi.com) an, und [öffnen Sie das Analysebeispiel für den Einzelhandel](sample-datasets.md) in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > Wenn Sie eine Visualisierung an ein Dashboard anheften, wird sie zu einer Dashboardkachel.  Die Kacheln können auch in Bezug auf [Titel und Untertitel, Hyperlinks und Größe](service-dashboard-edit-tile.md) angepasst werden.
@@ -120,7 +123,6 @@ Erweitern Sie im gleichen Säulendiagramm die Hintergrundoptionen.
 | Wasserfalldiagramm |Ja |Ja |Ja |
 
 ## <a name="next-steps"></a>Nächste Schritte
-Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)  
 [Anpassen der x- und y-Achse](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Anpassen von Farben und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  

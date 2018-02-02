@@ -1,5 +1,5 @@
 ---
-title: "Beispiel zur Kundenrentabilität für Power BI: Tour"
+title: "Tutorial: Beispiel zur Kundenrentabilität für Power BI: Tour"
 description: "Beispiel zur Kundenrentabilität für Power BI: Tour"
 services: powerbi
 documentationcenter: 
@@ -17,20 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Beispiel zur Kundenrentabilität für Power BI: Tour
+
+## <a name="overview-of-the-customer-profitability-sample"></a>Tour durch das Beispiel zur Kundenrentabilität
 Das Inhaltspaket „Beispiel zur Kundenrentabilität“ enthält ein Dashboard, einen Bericht und ein Dataset für ein Unternehmen, das Marketingmaterial herstellt. Dieses Dashboard wurde von einer Finanzdirektorin (CFO) erstellt, um die Metriken für ihre fünf Business Unit Manager (Führungskräfte), Produkte, Kunden und den Bruttogewinn verfolgen zu können. Sie sieht auf einen Blick, welche Faktoren sich auf die Rentabilität auswirken.
 
-Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form.
+<<<<<<< HEAD ![](media/sample-customer-profitability/power-bi-dash.png)
+
+Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form. Die Daten sind in verschiedenen Formaten verfügbar: Inhaltspaket/-App, Excel-Arbeitsmappe oder Power BI Desktop-PBIX-Datei. Informationen finden Sie unter [Beispieldatasets](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Voraussetzungen
-
-Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+Führen Sie hierzu die folgenden Schritte aus: Dieses Tutorial verwendet den Power BI-Dienst und das Beispielinhaltspaket „Kundenrentabilität“.  Da die Benutzeroberflächen sich sehr ähneln, können Sie das Tutorial auch mit Power BI Desktop und der PBIX-Beispieldatei nachvollziehen. Im Folgenden finden Sie die Anweisungen zum Herstellen einer Verbindung mit dem Inhaltspaket und der PBIX-Datei.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
 
@@ -50,13 +53,19 @@ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspa
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
 
-Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. 
-
-- [Beispiel zur Kundenrentabilität](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. [Beispiel zur Kundenrentabilität](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
-Alternativ können Sie nur das Dataset [(Excel-Arbeitsmappe) für dieses Beispiel](http://go.microsoft.com/fwlink/?LinkId=529781) herunterladen. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
+<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Wenn Sie sich die Datenquelle für dieses Beispiel ansehen möchten, dieses steht auch als [(Excel-Arbeitsmappe)](http://go.microsoft.com/fwlink/?LinkId=529781) zur Verfügung. Die Arbeitsmappe enthält Power View-Blätter, die Sie anzeigen und ändern können. Wenn Sie die Rohdaten anzeigen möchten, wählen Sie **Power Pivot > Verwalten** aus.
+=======
+
+Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com/)) in anonymisierter Form. Die Daten sind in verschiedenen Formaten verfügbar: Inhaltspaket/-App, Excel-Arbeitsmappe oder Power BI Desktop-PBIX-Datei. Informationen finden Sie unter [Beispieldatasets](sample-datasets.md).
+
+### <a name="prerequisites"></a>Voraussetzungen
+Führen Sie hierzu die folgenden Schritte aus: Navigieren Sie im [Power BI-Dienst](https://powerbi.com) zu **Daten abrufen > Beispiele > Beispiel für Kundenrentabilität > Verbinden**, um Ihr eigenes Exemplar des Beispiels abzurufen.
+>>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Welche Erkenntnisse gewinnen wir über unser Dashboard?
 
@@ -65,26 +74,64 @@ Suchen Sie unter **Mein Arbeitsbereich** das Dashboard für das Beispiel zur Kun
 ![Dashboard für das Beispiel zur Kundenrentabilität](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Unternehmensweite Dashboardkacheln
-Mit diesen Kacheln erhält die Finanzdirektorin einen groben Überblick über die Metriken des Unternehmens, die für sie wichtig sind.  Wenn sie etwas Interessantes sieht, kann sie eine Kachel auswählen, um einen genaueren Blick auf die Daten zu werfen.
+1. Öffnen Sie das Dashboard im Power BI-Dienst. Auf den Dashboardkacheln erhält die Finanzdirektorin einen groben Überblick über die Metriken des Unternehmens, die für sie wichtig sind.  Wenn sie etwas Interessantes sieht, kann sie eine Kachel auswählen, um einen genaueren Blick auf die Daten zu werfen.
 
-1. Der Bruttogewinn des Unternehmens beträgt 42,5 %.
-2. Es hat 80 Kunden.
-3. Es verkauft fünf verschiedene Produkte.
-4. Die geringste Umsatzabweichung vom Budget in Prozent war im Februar, gefolgt von der höchsten Abweichung im März.
-5. Die meisten Einnahmen stammen aus den Regionen „Osten“ und „Norden“. Der Bruttogewinn hat zu keinem Zeitpunkt das Budget überschritten, wobei die Punkte „ER-0“ und „MA-0“ einer weiteren Untersuchung bedürfen.
-6. Der Gesamtumsatz für das Jahr liegt nahe an der Budgetvorgabe.
+2. Sehen Sie sich die Kacheln auf der linken Seite des Dashboards an.
+
+    ![](media/sample-customer-profitability/power-bi-manager.png)
+
+- Der Bruttogewinn des Unternehmens beträgt 42,5 %.
+- Es hat 80 Kunden.
+- Es verkauft fünf verschiedene Produkte.
+- Die geringste Umsatzabweichung vom Budget in Prozent war im Februar, gefolgt von der höchsten Abweichung im März.
+- Die meisten Einnahmen stammen aus den Regionen „Osten“ und „Norden“. Der Bruttogewinn hat zu keinem Zeitpunkt das Budget überschritten, wobei die Punkte „ER-0“ und „MA-0“ einer weiteren Untersuchung bedürfen.
+- Der Gesamtumsatz für das Jahr liegt nahe an der Budgetvorgabe.
+
 
 ### <a name="manager-specific-dashboard-tiles"></a>Managerspezifische Dashboardkacheln
-Diese Kacheln verfügen über eine Team-Scorecard. Die Finanzdirektorin muss die Aktivitäten ihrer Manager verfolgen können, und über diese Kacheln erhält sie einen ersten Überblick über den Gewinn (unter Verwendung des Bruttogewinns in %). Falls der Trend für den Bruttogewinn in % für einen Manager ungewöhnlich ist, kann sie dies näher untersuchen.
+Die Kacheln auf der rechten Seite des Dashboard zeigen eine Scorecard für das Team an. Die Finanzdirektorin muss die Aktivitäten ihrer Manager verfolgen können, und über diese Kacheln erhält sie einen ersten Überblick über den Gewinn (unter Verwendung des Bruttogewinns in %). Falls der Trend für den Bruttogewinn in % für einen Manager ungewöhnlich ist, kann sie dies näher untersuchen.
 
-Der Bruttogewinn in % von Annelie ist am niedrigsten, aber es ist ein kontinuierlicher Anstieg seit März zu erkennen. Der Bruttogewinn in % von Valery ist dagegen erheblich gefallen. Und Andrew hatte ein wechselhaftes Jahr. Klicken Sie auf eine managerspezifische Kachel, um den zugrunde liegenden Bericht zu öffnen. Der Bericht hat drei Seiten und beginnt mit der Seite „Industry Margin Analysis“.
+![](media/sample-customer-profitability/power-bi-manager2.png)
 
-## <a name="explore-the-pages-in-the-report"></a>Untersuchen der Seiten des Berichts
-Der Bericht hat drei Seiten:
+- Alle Führungskräfte, mit Ausnahme von Carlos, haben ihre Vertriebsziele bereits übertroffen. Carlos tatsächliche Verkaufszahlen sind allerdings die höchsten. 
+- Der Bruttogewinn in % von Annelie ist am niedrigsten, aber es ist ein kontinuierlicher Anstieg seit März zu erkennen.
+- Der Bruttogewinn in % von Valery ist dagegen erheblich gefallen. 
+- Und Andrew hatte ein wechselhaftes Jahr. 
 
-* Auf der Seite „Team Scorecard“ werden die Leistung der fünf Manager und ihre Umsatzdaten aufgeführt.
-* Auf der Seite „Industry Margin Analysis“ wird die Rentabilität im Vergleich zur gesamten Branche analysiert.
-* Auf der Seite „Executive Scorecard“ wird eine für Cortana formatierte Ansicht der Daten der einzelnen Manager geboten.
+## <a name="explore-the-dashboards-underlying-data"></a>Erkunden der zugrunde liegenden Daten auf dem Dashboard
+Auf diesem Dashboard befinden sich Kacheln, die mit einem Bericht und einer Excel-Arbeitsmappe verknüpft sind. 
+
+### <a name="open-the-excel-online-data-source"></a>Öffnen der Excel Online-Datenquelle
+Zwei Kacheln auf dem Dashboard, „Target vs Actual“ und „Year Over Year Revenue Growth“, wurden aus einer Excel-Arbeitsmappe angeheftet. Wenn Sie eine dieser Kacheln auswählen, öffnet Power BI die Datenquelle, in diesem Fall Excel Online.
+
+![](media/sample-customer-profitability/power-bi-excel-online.png)
+
+1. Wählen Sie eine der aus Excel angehefteten Kacheln aus. Excel Online wird im Power BI-Dienst geöffnet.
+2. Beachten Sie, dass diese Arbeitsmappe drei Registerkarten mit Daten enthält. Öffnen Sie „Revenue“.
+3. Nun sehen wir uns an, warum Carlos sein Ziel noch nicht erreicht hat.  
+    a. Wählen Sie aus der Liste „Führungskraft“ den Eintrag **Carlos Grilo**.   
+    b. Die erste PivotTable-Ansicht informiert darüber, dass der Umsatz von Carlos für sein Top-Produkt Primus 152 % geringer ist als im letzten Jahr. Das YoY-Diagramm zeigt, dass er in den meisten Monaten das Budget unterschreitet.  
+
+    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+
+    ![](media/sample-customer-profitability/power-bi-carlos.png)
+
+4. Erkunden Sie die Daten weiter. Wenn Sie etwas Interessantes finden, wählen Sie das Symbol **Anheften** ![](media/sample-customer-profitability/power-bi-excel-pin.png) in der rechten oberen Ecke, um diese Informationen [an ein Dashboard anzuheften](service-dashboard-pin-tile-from-excel.md).
+
+5. Verwenden Sie den Pfeil „Zurück“ in Ihrem Browser, um zum Dashboard zurückzukehren. 
+
+### <a name="open-the-underlying-power-bi-report"></a>Öffnen des zugrunde liegenden Power BI-Berichts
+Die meisten Kacheln im Beispieldashboard für die Kundenrentabilität wurden aus dem zugrunde liegenden Beispielbericht der Kundenrentabilität angeheftet. 
+
+1. Wählen Sie eine dieser Kacheln aus, um den Bericht in der Leseansicht zu öffnen. 
+
+2. Der Bericht umfasst drei Seiten. Jede Registerkarte des Berichts entspricht einer Seite. 
+
+    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+
+    * Auf der Seite „Team Scorecard“ werden die Leistung der fünf Manager und ihre Umsatzdaten aufgeführt.
+    * Auf der Seite „Industry Margin Analysis“ wird die Rentabilität im Vergleich zur gesamten Branche analysiert.
+    * Auf der Seite „Executive Scorecard“ wird eine für Cortana formatierte Ansicht der Daten der einzelnen Manager geboten.
 
 ### <a name="team-scorecard-page"></a>Seite „Team-Scorecard“
 ![](media/sample-customer-profitability/customer2.png)
@@ -126,33 +173,35 @@ Diese Seite wird als Antwortkarte für Cortana formatiert. Weitere Informationen
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Näheres Untersuchen der Daten durch Stellen von Fragen mit Q&A
 Für die Analyse wäre es hilfreich zu ermitteln, in welcher Branche Valery den höchsten Umsatz erzielt. Hierfür verwenden wir Q&A.
 
-1. Wählen Sie in der oberen Navigationsleiste **Power BI** aus, um zum Dashboard zurückzukehren.
-2. Wählen Sie oben im Dashboard das Q&A-Feld aus.
-   
-    ![](media/sample-customer-profitability/customer4.png)
+1. Öffnen Sie den Bericht in der Bearbeitungsansicht, indem Sie **Bericht bearbeiten**auswählen. Die Bearbeitungsansicht ist nur verfügbar, wenn Sie den Bericht „besitzen“. Dies wird manchmal als **Erstellermodus** bezeichnet. Wenn der Bericht stattdessen für Sie freigegeben wurde, können Sie ihn nicht in der Bearbeitungsansicht öffnen.
+
+2.  Wählen Sie in der oberen Menüleiste die Option **Frage stellen** aus, um das Q&A-Feld zu öffnen.
+
+    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+
 3. Geben Sie **Gesamtumsatz nach Branche für Valery**ein. Sie sehen, wie die Visualisierung beim Eingeben der Frage aktualisiert wird.
    
-    ![](media/sample-customer-profitability/customer5.png)
+    ![](media/sample-customer-profitability/power-bi-qna.png)
    
    Die Distribution ist der größte Umsatzbereich für Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Nähere Untersuchung durch das Hinzufügen von Filtern
 Wir sehen uns die Branche *Distribution* an.  
 
-1. Kehren Sie zum Dashboard zurück, und wählen Sie das Flächendiagramm mit dem Bruttogewinntrend für Andrew aus. Der Bericht wird mit der Seite „Analyse der Branchenmarge“ geöffnet.
-2. Erweitern Sie den Filterbereich auf der rechten Seite, ohne eine der Visualisierungen auf der Berichtsseite auszuwählen. Im Filterbereich sollten nur Filter auf Seitenebene angezeigt werden.  
+1. Öffnen Sie die Berichtsseite „Analyse der Branchenmarge“.
+2. Erweitern Sie den Filterbereich auf der rechten Seite, ohne eine der Visualisierungen auf der Berichtsseite auszuwählen (wenn der Bereich nicht bereits erweitert ist). Im Filterbereich sollten nur Filter auf Seitenebene angezeigt werden.  
    
    ![](media/sample-customer-profitability/power-bi-filters.png)
-3. Suchen Sie den Filter für **Branche**, und wählen Sie den Pfeil, um die Liste zu erweitern. Fügen wir nun einen Seitenfilter für die Branche „Distribution“ hinzu. Heben Sie zunächst die gesamte Auswahl auf, indem Sie das Kontrollkästchen **Alles auswählen** deaktivieren. Wählen Sie dann **Distribution** aus.  
+3. Suchen Sie den Filter für **Branche**, und wählen Sie den Pfeil, um die Liste zu erweitern. Fügen wir nun einen Seitenfilter für die Branche „Distribution“ hinzu. Heben Sie zunächst die gesamte Auswahl auf, indem Sie das Kontrollkästchen **Alles auswählen** deaktivieren. Wählen Sie dann nur **Distribution** aus.  
    
    ![](media/sample-customer-profitability/customer7.png)
 4. Im Flächendiagramm „Bruttogewinn nach Monat und Managername“ sehen wir, dass nur Valery und Tina Kunden aus dieser Branche haben und dass Valery für diese Branche nur von Juni bis November tätig war.   
 5. Wählen Sie in der Legende des Flächendiagramms „Bruttogewinn nach Monat und Managername“ zuerst **Tina** und dann **Valery** aus. Beachten Sie, dass der Anteil von „Gesamtumsatz nach Produkt“ im Vergleich zu Valery sehr gering ist. 
-6. Kehren Sie zum Anzeigen des tatsächlichen Umsatzes zum Dashboard zurück, und verwenden Sie den Q&A-Bereich, um nach dem **Gesamtumsatz für Distribution nach Szenario nach Manager** zu fragen.  
+6. Verwenden Sie den Q&A-Bereich, um nach dem **Gesamtumsatz für Distribution nach Szenario und Führungskraft** zu fragen.  
    
-   ![](media/sample-customer-profitability/customer8.png)
+     ![](media/sample-customer-profitability/power-bi-qna2.png)
 
-Auf ähnliche Weise können wir andere Branchen untersuchen und den visuellen Elementen sogar Kunden hinzufügen, um nach Gründen für die Leistung von Valery zu suchen.
+    Auf ähnliche Weise können wir andere Branchen untersuchen und den visuellen Elementen sogar Kunden hinzufügen, um nach Gründen für die Leistung von Valery zu suchen.
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie speichern, können Sie immer wieder zu **Daten abrufen** zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 

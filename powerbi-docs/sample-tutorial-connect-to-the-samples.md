@@ -1,6 +1,6 @@
 ---
-title: "Verwenden der Power BI-Beispiele – Tutorial"
-description: "Lernprogramm: Verwenden der Power BI-Beispiele"
+title: 'Tutorial: Verwenden der Power BI-Beispiele'
+description: "Tutorial: Verwenden der Power BI-Beispiele"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,40 +15,34 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e8dead8f5ace2c3613c109a16808a6bb4c1ec15d
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Die Power BI-Beispiele – Tutorial
-<!-- Shared newnav Include -->
-[!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
 Es wird empfohlen, mit dem Artikel [Beispieldatasets für Power BI](sample-datasets.md) zu beginnen. In diesem Artikel erfahren Sie alles über die Beispiele: wie Sie sie erhalten, wo Sie sie speichern und wie Sie sie verwenden, sowie einige der Geschichten, die jedes Beispiel erzählen kann. Kehren Sie dann zu diesem Tutorial zurück, nachdem Sie die Grundlagen verstanden haben.   
 
-## <a name="about-this-tutorial"></a>Über dieses Tutorial
-In diesem Tutorial erfahren Sie, wie Sie die Beispielinhaltspakete importieren, sie dem Power BI-Dienst hinzufügen und die Inhalte öffnen. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. Die Inhaltspakete stehen in Power BI über die Funktion **Daten abrufen**zur Verfügung.
-
-> [!NOTE]
-> Dieses Tutorial bezieht sich auf den Power BI-Dienst und nicht auf Power BI-Desktop.
-> 
-> 
+### <a name="prerequisites"></a>Voraussetzungen
+Die Beispiele sind für den Power BI-Dienst und für Power BI Desktop verfügbar. Wir verwenden das Analysebeispiel für den Einzelhandel.
 
 Das in diesem Tutorial verwendete Beispielinhaltspaket zur *Einzelhandelsanalyse* besteht aus einem Dashboard, einem Bericht und einem Dataset.
 Um sich mit diesem speziellen Inhaltspaket und seinem Szenario vertraut zu machen, sollten Sie zunächst [eine Tour durch das Analysebeispiel für Einzelhandel unternehmen](sample-retail-analysis.md).
 
-## <a name="get-data-in-this-case-get-a-sample-content-pack"></a>Abrufen von Daten (in diesem Fall Abrufen eines Beispielinhaltspakets)
+## <a name="about-this-tutorial"></a>Über dieses Tutorial
+Dieses Tutorial beschreibt Folgendes: 
+- Importieren eines Beispielinhaltspakets, Hinzufügen des Pakets zum Power BI-Dienst und Öffnen der Inhalte. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. 
+-  Öffnen einer PBIX-Beispieldatei in Power BI Desktop.
+
+
+## <a name="samples-and-power-bi-service"></a>Beispiele und Power BI-Dienst
+
 1. Öffnen Sie den Power BI-Dienst („app.powerbi.com“), und melden Sie sich an.
-2. Wählen Sie einen Arbeitsbereich aus, und erstellen Sie ein neues Dashboard.  
-   
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-create-dashboard2.png)
-3. Benennen Sie es mit **Analysebeispiel für Einzelhandel**.
-   
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-name-dashboard.png)
-4. Wählen Sie unten im linken Navigationsbereich **Daten abrufen** aus. Wenn **Daten abrufen** nicht angezeigt wird, erweitern Sie den Navigationsbereich, indem Sie ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png) auswählen.
+2. Wählen Sie unten im linken Navigationsbereich **Daten abrufen** aus. Wenn **Daten abrufen** nicht angezeigt wird, erweitern Sie den Navigationsbereich, indem Sie ![](media/sample-tutorial-connect-to-the-samples/expand-nav.png) auswählen.
    
    ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. Wählen Sie **Beispiele**aus.  
@@ -59,7 +53,7 @@ Um sich mit diesem speziellen Inhaltspaket und seinem Szenario vertraut zu mache
    ![](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>Was genau wurde importiert?
-Wenn Sie für die Beispielinhaltspakete **Verbinden** auswählen, wird eine Kopie des betreffenden Inhaltspakets in Power BI importiert und in der Cloud gespeichert. Da die Person, die das Inhaltspaket erstellt hat, ein Dataset, einen Bericht und ein Dashboard in das Paket eingeschlossen hat, erhalten Sie diese, wenn Sie auf **Verbinden** klicken.
+Wenn Sie für die Beispielinhaltspakete **Verbinden** auswählen, wird eine Kopie des betreffenden Inhaltspakets in Power BI importiert und in der Cloud gespeichert. Da die Person, die das Inhaltspaket erstellt hat, ein Dataset, einen Bericht und ein Dashboard in das Paket eingeschlossen hat, erhalten Sie diese, wenn Sie auf **Verbinden** klicken. 
 
 1. Das neue Dashboard wird in Power BI erstellt und auf der Registerkarte **Dashboards** aufgeführt. Das gelbe Sternchen gibt an, dass es neu ist.
    
@@ -91,10 +85,10 @@ Untersuchen Sie jetzt selbstständig das Dashboard, das Dataset und den Bericht.
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Wenn die Kachel mit [Power BI Q&A](power-bi-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet.
+   > Wenn die Kachel mit [Power BI Q&A](power-bi-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet. Wenn die Kachel [aus Excel angeheftet](service-dashboard-pin-tile-from-excel.md) wurde, wird Excel Online in Power BI geöffnet.
    > 
    > 
-4. Auf der Registerkarte **Datasets** haben Sie mehrere Möglichkeiten, das Dataset zu untersuchen.  Sie können es nicht öffnen und alle Zeilen und Spalten anzeigen (wie dies in Power BI Desktop oder in Excel möglich ist).  Wenn eine Person ein Inhaltspaket für Kollegen freigibt, möchte diese Person normalerweise die Informationen freigeben, ihren Kollegen jedoch keinen direkten Zugriff auf die Daten gewähren. Dies bedeutet jedoch nicht, dass Sie das Dataset nicht erkunden können.  
+1. Auf der Registerkarte **Datasets** haben Sie mehrere Möglichkeiten, das Dataset zu untersuchen.  Sie können es nicht öffnen und alle Zeilen und Spalten anzeigen (wie dies in Power BI Desktop oder in Excel möglich ist).  Wenn eine Person ein Inhaltspaket für Kollegen freigibt, möchte diese Person normalerweise die Informationen freigeben, ihren Kollegen jedoch keinen direkten Zugriff auf die Daten gewähren. Dies bedeutet jedoch nicht, dass Sie das Dataset nicht erkunden können.  
    
    ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
@@ -104,6 +98,42 @@ Untersuchen Sie jetzt selbstständig das Dashboard, das Dataset und den Bericht.
    * Eine weitere Möglichkeit zum Erkunden des Datasets ist das Ausführen von [Schnelleinblicken](service-insights.md). Wählen Sie die Auslassungspunkte (...) und dann **Einblicke erhalten** aus. Wenn die Einblicke bereit sind, wählen Sie **Einblicke anzeigen** aus.
      
        ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+
+## <a name="samples-and-power-bi-desktop"></a>Beispiele und Power BI Desktop 
+Wenn Sie die PBIX-Beispieldatei zum ersten Mal öffnen, wird sie in der Berichtsansicht angezeigt, in der Sie beliebig viele Berichtsseiten mit Visualisierungen erkunden, erstellen und bearbeiten können. Die Berichtsansicht bietet in etwa den gleichen Funktionsumfang wie die Bearbeitungsansicht für Berichte im Power BI-Dienst. Sie können Visualisierungen verschieben, kopieren, einfügen, zusammenführen usw.
+
+Der Unterschied besteht darin, dass Sie in Power BI Desktop mit Ihren Abfragen und Ihrem Modell arbeiten können, sodass Ihre Daten optimale Einblicke in Ihre Berichte ermöglichen. Sie können die Power BI Desktop-Datei dann jederzeit entweder auf dem lokalen Laufwerk oder in der Cloud speichern.
+
+1. Öffnen Sie die [PBIX-Datei mit dem Analysebeispiel für den Einzelhandel](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) in Power BI Desktop. 
+
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+
+1. Die Datei wird in der Berichtsansicht geöffnet. Sehen Sie die vier Registerkarten im unteren Bereich des Berichts-Editors? Dies bedeutet, dass dieser Bericht vier Seiten umfasst und die Seite „Neue Filialen“ derzeit ausgewählt ist. 
+
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+
+3. Detaillierte Informationen zum Berichts-Editor finden Sie unter [Berichts-Editor – Verschaffen Sie sich einen Überblick](service-the-report-editor-take-a-tour.md).
+
+## <a name="what-exactly-was-imported"></a>Was genau wurde importiert?
+Wenn Sie die PBIX-Beispieldatei in Desktop öffnen, importiert Power BI eine Kopie dieser Daten und in speichert sie in der Cloud. In Desktop haben Sie Zugriff auf den Bericht ***und das zugrunde liegende Dataset***. Wenn die Daten geladen sind, versucht Power BI Desktop, Beziehungen zu finden und zu erstellen.  
+
+1. Wechseln Sie mithilfe des Tabellensymbols ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png) zur [Datenansicht](desktop-data-view.md).
+ 
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
+
+    Die Datenansicht hilft Ihnen beim Überprüfen, Untersuchen und Verstehen von Daten im Power BI Desktop-Modell. Sie unterscheidet sich von der Anzeige von Tabellen, Spalten und Daten im Abfrage-Editor. In der Datenansicht sehen Sie die Daten, nachdem sie in das Modell geladen wurden.
+
+    Wenn Sie Ihre Daten modellieren, möchten Sie möglicherweise sehen, was tatsächlich in einer Tabelle oder Spalte vorhanden ist, ohne eine Visualisierung im Berichtszeichenbereich zu erstellen, und zwar häufig bis auf Zeilenebene. Dies ist besonders dann der Fall, wenn Sie Measures und berechnete Spalten erstellen oder einen Datentyp oder die Datenkategorie identifizieren müssen.
+
+1. Wechseln Sie mithilfe des Symbols ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png) zur [Beziehungsansicht](desktop-relationship-view.md).
+ 
+    ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
+
+    Die Beziehungsansicht zeigt alle Tabellen, Spalten und Beziehungen in Ihrem Modell an. Hier können Sie Beziehungen anzeigen, ändern und erstellen.
+
+## <a name="explore-your-new-content"></a>Untersuchen der neuen Inhalte
+Erkunden Sie das Dashboard, die Beziehungen und den Bericht jetzt selbst. Hilfe für den Einstieg finden Sie unter [Erste Schritte mit Power BI Desktop](desktop-getting-started.md).    
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Power BI – Grundkonzepte](service-basic-concepts.md)

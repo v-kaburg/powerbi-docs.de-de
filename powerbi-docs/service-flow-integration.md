@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow und Power BI
 
@@ -35,7 +35,9 @@ Sehen Sie sich an, wie Sirui einen Flow erstellt, der eine detaillierte E-Mail a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Erstellen eines Flows, der durch eine Power BI-Datenwarnung ausgelöst wird
-In diesem Tutorial erfahren Sie, wie Sie zwei verschiedene Flows erstellen: einen Flow aus einer Vorlage und einen von Grund auf neuen Flow. Um die Schritte des Tutorials auszuführen, [erstellen Sie in Power BI eine Datenwarnung](service-set-data-alerts.md), und [registrieren Sie sich für Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (kostenlos!).
+
+### <a name="prerequisites"></a>Voraussetzungen
+In diesem Tutorial erfahren Sie, wie Sie zwei verschiedene Flows erstellen: einen Flow aus einer Vorlage und einen von Grund auf neuen Flow. Um die Schritte des Tutorials auszuführen, [erstellen Sie in Power BI eine Datenwarnung](service-set-data-alerts.md), erstellen ein kostenloses Slack-Konto und [registrieren Sie sich für Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (kostenlos!).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Erstellen eines Flows, der Power BI verwendet – aus einer Vorlage
 In dieser Aufgabe verwenden wir eine Vorlage, um einen einfachen Flow zu erstellen, der durch eine Power BI-Datenwarnung (Benachrichtigung) ausgelöst wird.
@@ -47,39 +49,40 @@ In dieser Aufgabe verwenden wir eine Vorlage, um einen einfachen Flow zu erstell
 3. Wählen Sie **Aus Vorlage erstellen** aus.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Verwenden Sie das Suchfeld, um Power BI-Vorlagen zu suchen, und wählen Sie **Post a message to a Slack channel when a Power BI data alert is triggered** (Nachricht in einem Slack-Kanal senden, wenn eine Power BI-Datenwarnung ausgelöst wird) aus.
+4. Verwenden Sie das Suchfeld, um Power BI-Vorlagen zu suchen, und wählen Sie **Eine E-Mail an eine beliebige Zielgruppe senden, sobald durch Power BI-Daten eine Warnung ausgelöst wird > Weiter** aus.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. Wählen Sie **Diese Vorlage verwenden** aus.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. Wenn Sie dazu aufgefordert werden, stellen Sie eine Verbindung mit Slack und Power BI her, indem Sie **Anmelden** auswählen und dann den Anweisungen folgen. Ein grünes Häkchen gibt an, dass Sie angemeldet sind.  Nachdem Sie die Verbindungen bestätigt haben, wählen Sie **Weiter** aus.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Erstellen des Flows
-Diese Vorlage verfügt über einen Trigger (Power BI-Datenwarnung bei neuen Olympiamedaillen für Irland) und eine Aktion (Nachricht an Slack senden). Wenn Sie ein Feld auswählen, werden dynamische Inhalte angezeigt, die Sie einschließen können.  In diesem Beispiel haben wir den Kachelwert und die Kachel-URL in den Nachrichtentext eingefügt.
+Diese Vorlage verfügt über einen Trigger (Power BI-Datenwarnung bei neuen Olympiamedaillen für Irland) und eine Aktion (E-Mail senden). Wenn Sie ein Feld auswählen, werden dynamische Inhalte angezeigt, die Sie einschließen können.  In diesem Beispiel haben wir den Kachelwert und die Kachel-URL in den Nachrichtentext eingefügt.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. Wählen Sie in der Trigger-Dropdownliste eine Power BI-Datenwarnung aus. Wählen Sie die Option **New medal for Ireland** (Neue Medaille für Irland). Informationen zum Erstellen einer Warnung finden Sie unter [Datenwarnungen in Power BI](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Geben Sie zum Posten in Slack einen Kanalnamen und einen Nachrichtentext ein (Sie können auch die von Flow erstellte Standardnachricht auswählen). Beachten Sie den dynamischen Inhalt, den wir im Textfeld für Nachrichten hinzugefügt haben.
+2. Geben Sie mindestens eine gültige E-Mail-Adresse ein, und wählen Sie dann **Bearbeiten** (siehe unten) oder **Dynamische Inhalte hinzufügen** aus. 
    
-   > [!NOTE]
-   > Schließen Sie am Anfang des Kanalnamens ein @-Zeichen ein.  Wenn der Slack-Channel beispielsweise „channelA“ heißt, geben Sie in Flow „@channelA“ ein.
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Wenn Sie fertig sind, wählen Sie **Flow erstellen** oder **Flow speichern** aus.  Der Flow wird erstellt und ausgewertet.  Wenn Fehler gefunden werden, wird Ihnen dies mitgeteilt.
-4. Wenn Fehler gefunden wurden, wählen Sie **Fluss bearbeiten** aus, um sie zu beheben. Wählen Sie andernfalls **Fertig** aus, um den neuen Flow auszuführen.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow erstellt einen Titel und eine Nachricht für Sie, den bzw. die Sie beibehalten oder ändern können. Alle Werte, die von Ihnen beim Erstellen der Warnung in Power BI festgelegt wurden, können nun verwendet werden. Platzieren Sie einfach Ihren Cursor, und wählen Sie aus dem grau hervorgehobenen Bereich aus. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Wenn Sie beispielsweise in Power BI eine Warnung mit dem Titel **Wir haben eine weitere Medaille gewonnen** erstellt haben, können Sie **Warnungstitel** auswählen, um den Text in die Betreffzeile Ihrer E-Mail einzufügen.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    Darüber hinaus haben Sie Möglichkeit, den standardmäßigen E-Mail-Text zu übernehmen oder einen eigenen zu erstellen. Das obige Beispiel enthält einige Änderungen an der Nachricht.
+
+1. Wenn Sie fertig sind, wählen Sie **Flow erstellen** oder **Flow speichern** aus.  Der Flow wird erstellt und ausgewertet.  Wenn Fehler gefunden werden, wird Ihnen dies mitgeteilt.
+2. Wenn Fehler gefunden wurden, wählen Sie **Fluss bearbeiten** aus, um sie zu beheben. Wählen Sie andernfalls **Fertig** aus, um den neuen Flow auszuführen.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Öffnen Sie Ihr Slack-Konto, um die Meldung anzuzeigen.  
+5. Sobald die Datenwarnung ausgelöst wird, wird eine E-Mail an die von Ihnen angegeben Adressen gesendet.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Erstellen eines Flows, der Power BI verwendet – ohne Vorlage (leer)
 In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durch eine Power BI-Datenwarnung (Benachrichtigung) ausgelöst wird.
@@ -88,12 +91,12 @@ In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durc
 2. Wählen Sie **Meine Flows** > **Ohne Vorlage erstellen** aus.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. Verwenden Sie das Suchfeld, um einen Power BI-Trigger zu suchen, und wählen Sie **Flow mit einer über Power BI-Daten gesteuerten Warnung auslösen** aus.
+3. Verwenden Sie das Suchfeld, um einen Power BI-Trigger zu suchen, und wählen Sie **Power BI – wenn eine datenbasierte Warnung ausgelöst wird** aus.
 
 ### <a name="build-your-flow"></a>Erstellen des Flows
 1. Wählen Sie in der Dropdownliste den Namen der Warnung aus.  Informationen zum Erstellen einer Warnung finden Sie unter [Datenwarnungen in Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. Wählen Sie **Neuer Schritt** > **Aktion hinzufügen** aus.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

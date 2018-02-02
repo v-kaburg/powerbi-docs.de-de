@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -63,7 +63,7 @@ Wenn Sie diesen Bericht auf einem Telefon anzeigen, wird er im Hochformat geöff
 Weitere Informationen über [Berichte, die für die Smartphoneansicht optimiert sind](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Verwenden von Datenschnitten zum Filtern einer Berichtsseite
-Beachten Sie beim Entwerfen eines Berichts im Power BI-Dienst[(https://powerbi.com)](https://powerbi.com), dass auf einem Telefon der Bereich „Filter“ nicht angezeigt wird. Sie können jedoch [Datenschnitte auf einer Berichtsseite anzeigen](power-bi-visualization-slicers.md). Fügen Sie einem Bericht Datenschnitte hinzu, damit Sie und Ihre Kollegen die Seite auf einem Telefon mithilfe der Datenschnitte filtern können.
+Beim Entwerfen eines Berichts in Power BI Desktop oder dem Power BI-Dienst, ist es von Vorteil, [einer Berichtsseite Datenschnitte hinzuzufügen](power-bi-visualization-slicers.md). Sie und Ihre Kollegen können Datenschnitte verwenden, um die Seite in einem Browser und in den mobilen Apps zu filtern. Wenn Sie den Bericht auf einem Smartphone betrachten, können Sie die Datenschnitte im Querformat und auf einer für das Hochformat des Geräts optimierten Seite sehen und mit ihnen interagieren.
 
 * Wenn Sie auf der Berichtsseite einen Wert in einem Datenschnitt auswählen, werden die anderen Visuals auf der Seite entsprechend gefiltert.
   

@@ -1,5 +1,5 @@
 ---
-title: 'Erstellen eines neuen Berichts aus einem Dataset '
+title: 'Tutorial: Erstellen eines neuen Berichts aus einem Dataset '
 description: Erstellen Sie einen neuen Power BI-Bericht aus einem Dataset.
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Erstellen Sie einen neuen Power BI-Bericht durch Importieren eines Datasets.
 Sie haben [Berichte in Power BI](service-reports.md) gelesen, und jetzt möchten Sie Ihren eigenen erstellen. Es gibt viele verschiedene Möglichkeiten zum Erstellen eines Berichts. In diesem Artikel wird zunächst ein sehr einfacher Bericht aus einem Excel-Dataset erstellt. Nachdem Sie die Grundlagen zur Erstellung eines Berichts kennen, gelangen Sie über die **nächsten Schritte** ganz unten zu komplexeren Themen über Berichte.  
 
 > **TIPP:** Informationen zum Erstellen eines Berichts durch Kopieren eines vorhandenen Berichts finden Sie unter [Kopieren eines Berichts](power-bi-report-copy.md)
 > 
-> 
+### <a name="prerequisites"></a>Voraussetzungen
+- Power BI-Dienst (Informationen zum Erstellen von Berichten mit Power BI Desktop finden Sie unter [Berichtsansicht in Power BI Desktop](desktop-report-view.md)   
+- Dataset des Analysebeispiels für den Einzelhandel
 
 ## <a name="import-the-dataset"></a>Importieren des Datasets
 Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem leeren Berichtszeichenbereich. Um die Vorgehensweise selbst nachzuvollziehen, [laden Sie das Excel-Dataset „Analysebeispiel für Einzelhandel“ herunter](http://go.microsoft.com/fwlink/?LinkId=529778), und speichern Sie es in OneDrive for Business (bevorzugt) oder lokal.
@@ -83,7 +85,7 @@ Die CMO stellt noch weitere Fragen, die beantwortet werden müssen. Sie möchte 
 4. Wählen Sie **Zeit** > **Zeitraum**, um es auch der **Achse** hinzuzufügen.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Wählen Sie zum Sortieren des Visuals die Auslassungspunkte und anschließend die Option **Sort by Period** (Nach Zeitraum sortieren) aus.
+5. Wählen Sie zum Sortieren der Visualisierung die Auslassungspunkte und anschließend die Option **Nach Zeitraum sortieren** aus.
 6. Nun fügen wir den Slicer hinzu. Wählen Sie einen leeren Bereich im Zeichenbereich aus, und wählen Sie dann die Vorlage für Slicer ![](media/service-report-create-new/power-bi-slicer-icon.png) aus. Dadurch wird im Zeichenbereich ein leerer Slicer hinzugefügt.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Die CMO stellt noch weitere Fragen, die beantwortet werden müssen. Sie möchte 
 8. Verwenden Sie den Slicer, um nach Mustern und Einblicken nach Region zu suchen.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. Fügen Sie optional weitere Visualisierungen hinzu.
+
+Erkunden Sie weiter Ihre Daten, und fügen Sie Visualisierungen hinzu. Wenn Sie interessante Einblicke finden, [heften Sie diese an ein Dashboard](service-dashboard-pin-tile-from-report.md) an.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erstellen der Kopie eines Berichts](power-bi-report-copy.md)
-* [Speichern des Berichts](service-report-save.md)    
 * [Hinzufügen einer neuen Seite zum Bericht](power-bi-report-add-page.md)  
-* Erfahren Sie, wie Sie [Visualisierungen an ein Dashboard anheften](service-dashboard-pin-tile-from-report.md).    
+* Erfahren Sie, wie Sie [Visualisierungen an ein Dashboard anheften](service-dashboard-pin-tile-from-report.md).   
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

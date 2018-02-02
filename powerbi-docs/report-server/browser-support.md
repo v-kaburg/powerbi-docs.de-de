@@ -3,7 +3,7 @@ title: "Browserunterstützung für Power BI-Berichtsserver"
 description: "Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 1da8c38a3238ab3de222aa0661c43526d00aceb1
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserunterstützung für Power BI-Berichtsserver
 Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden.
@@ -45,7 +45,7 @@ Es folgt die aktuelle Liste der vom Webportal unterstützten Browser.
 * Mozilla Firefox (+)
 
 **Apple iOS**  
-*iPhone und iPad mit iOS 9*
+*iPhone und iPad mit iOS 10*
 
 * Apple Safari (+)
 

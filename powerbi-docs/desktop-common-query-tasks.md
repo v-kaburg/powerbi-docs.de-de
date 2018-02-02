@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop
 Beim Arbeiten im Fenster **Abfrage-Editor** von Power BI Desktop haben Sie es mit einer Hand voll häufig verwendeter Aufgaben zu tun. In diesem Dokument werden diese allgemeinen Aufgaben vorgestellt. Zudem finden Sie Links zu weiteren Informationen. 
@@ -69,7 +69,7 @@ Andere Datenverbindungen funktionieren ähnlich. Falls für eine Datenverbindung
 Das Verbinden mit Daten in Power BI Desktop wird Schritt für Schritt unter [Verbinden mit Daten in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635) erläutert.
 
 ## <a name="shape-and-combine-data"></a>Strukturieren und Kombinieren von Daten
-Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter [Strukturieren und Kombinieren von Daten mit Power BI Desktop erläutert](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter **[Strukturieren und Kombinieren von Daten mit Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)** erläutert.
 
 Im vorherigen Abschnitt haben wir Verbindungen zu zwei Datasets hergestellt: eine Excel-Arbeitsmappe und eine Webressource. Nach dem Laden im Abfrage-Editor zeigt sich das folgende Bild, wobei die Abfrage von der Website ausgewählt ist (unter den aufgelisteten verfügbaren Abfragen im Bereich **Abfragen** auf der linken Seite des Abfrage-Editor-Fensters).
 
@@ -217,7 +217,7 @@ Die Formelkategorien für den Abfrage-Editor lauten wie folgt:
 * Teilungsfunktion (Splitter)
 * Kombinierungsfunktion (Combiner)
 * Ersetzungsfunktion (Replacer)
-* Typ (Type)
+* Typ
 
 ## <a name="next-steps"></a>Nächste Schritte
 Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in folgenden Ressourcen:
