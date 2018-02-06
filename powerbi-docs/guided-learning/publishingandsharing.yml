@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: introductiontodax
-  nextTutorialTitle: Introduction to DAX
+  nextTutorialTitle: "Einführung in DAX"
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/06/2017
   ms.author: davidi
   ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Data is most powerful when shared with others - learn how to publish, export, share, and distribute your Power BI data insights.
+  content: "Das Potenzial von Daten lässt sich effektiver nutzen, wenn sie für andere freigegeben werden. Erfahren Sie, wie Sie Ihre in Power BI aus den Daten gewonnenen Erkenntnisse veröffentlichen, exportieren, freigeben und verteilen.\n"
 - title: "Einführung in Inhaltspakete, Sicherheit und Gruppen"
   durationInMinutes: 2
   content: >
@@ -93,7 +92,7 @@ items:
 
 
     [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
-- title: "Webveröffentlichung"
+- title: "Im Web veröffentlichen"
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
@@ -104,4 +103,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "You've completed the **Publishing and sharing** section of Power BI Guided Learning. If you want an introduction to DAX, the language used to create Power BI queries, head to the next tutorial.\0"
+- content: "Sie haben den Abschnitt **Veröffentlichen und Freigeben** des geführten Lernens zu Power BI abgeschlossen. Eine Einführung in DAX, die Sprache, mit der Abfragen in Power BI erstellt werden, erhalten Sie im nächsten Tutorial.\0"
