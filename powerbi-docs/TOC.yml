@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Security Center
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Circuit-ID
@@ -980,8 +978,6 @@
       items:
         - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Zertifizierung von benutzerdefinierten Visuals
           href: power-bi-custom-visuals-certified.md
     - name: Übertragen von Daten in ein Dashboard per Push
