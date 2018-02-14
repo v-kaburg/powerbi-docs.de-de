@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Verwalten Ihrer Datenquelle – Analysis Services
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Datenquelle Analysis Services für die geplante Aktualisierung oder für Live-Verbindungen verwenden.
@@ -89,17 +89,6 @@ Klicken Sie auf **Hinzufügen** , nachdem alle Angaben eingetragen wurden.  Sie 
 Sie können die Datenschutzebene für die Datenquelle konfigurieren, die steuert, wie Daten kombiniert werden können. Diese wird nur für die geplante Aktualisierung verwendet und und gilt nicht für Live-Verbindungen. [Weitere Informationen](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Datenabrufumgebung für Analysis Services auf Power BI-Website
-Eine spezielle Option für Analysis Services besteht darin, Daten direkt im Power BI-Dienst abzurufen. Sie können eine Verbindung mit einer Analysis Services-Livedatenquelle herstellen, die innerhalb des Gateways konfiguriert wurde, ohne dass Power BI Desktop erforderlich ist. Ihr Konto muss auf der Registerkarte **Benutzer** unter dem Gateway für die Datenquelle aufgeführt sein, damit es in der Liste angezeigt wird. Um eine Verbindung mit der Datenquelle herzustellen, können Sie Folgendes tun.
-
-1. Wählen Sie innerhalb des Power BI-Diensts die Option **Daten abrufen** aus.
-2. Wählen Sie **Datenbanken** aus.
-3. Wählen Sie **SQL Server Analysis Services** > **Verbinden** aus.
-4. Wählen Sie in der Liste eine Datenquelle aus. Hier werden alle Analysis Services-Datenquelle aufgeführt, auf die Sie Zugriff haben.
-5. Wählen Sie das Modell aus, mit dem Sie eine Verbindung herstellen möchten. Wählen Sie dann **Verbinden** aus.
-
-Daraufhin wird ein Dataset mit dem Namen des Servers angezeigt. Sie können dieses Dataset auswählen und zum Erstellen von Berichten verwenden. Zu diesem Zweck werden Livedaten verwendet.
 
 ## <a name="usernames-with-analysis-services"></a>Benutzernamen bei Analysis Services
 Bei jeder Interaktion eines Benutzers mit einem Bericht, der mit Analysis Services verbunden ist, wird der effektive Benutzername an das Gateway und von dort aus an Ihren lokalen Analysis Services-Server übergeben. Als effektiver Benutzer wird die E-Mail-Adresse, mit der Sie sich bei Power BI anmelden, an Analysis Services übergeben. Diese wird in der Verbindungseigenschaft [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) übergeben. Diese E-Mail-Adresse muss mit einem in der lokalen Active Directory-Domäne definierten UPN übereinstimmen. Der UPN ist eine Eigenschaft des Active Directory-Kontos. Das Windows-Konto muss dann in einer Analysis Services-Rolle vorhanden sein. Wenn in Active Directory keine Übereinstimmung gefunden werden kann, wird die Anmeldung nicht erfolgreich durchgeführt. [Weitere Informationen](https://msdn.microsoft.com/library/ms677605.aspx)

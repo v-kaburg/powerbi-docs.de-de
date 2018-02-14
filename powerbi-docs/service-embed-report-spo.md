@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -98,12 +98,6 @@ Alternativ können Sie Benutzern den Zugriff auf den Bericht auf folgende Weise 
 
 2. Geben Sie das Dashboard für die Benutzer frei, die Zugriff auf den Bericht benötigen. Weitere Informationen erhalten Sie unter [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Zulassen des Zugriffs von Free-Benutzern auf Berichte
-
-Free-Benutzer können Berichte anzeigen, die mit dem Power BI-Webpart für SharePoint Online eingebettet wurden. Sie gewähren Free-Benutzern auf die gleiche Weise Zugriff wie Pro-Benutzern. Dies ist oben unter [Zugriff gewähren auf Berichte](#granting-access-to-reports) beschrieben. Für den Arbeitsbereich, in dem sich der Bericht befindet, muss zudem eine entsprechende Power BI Premium-Kapazität vorhanden sein. 
-
-Wenn Sie beispielsweise über einen Bericht in einem App-Arbeitsbereich verfügen, müssen Sie den App-Arbeitsbereich einer Power BI Premium-Kapazität zuweisen. Außerdem müssen Sie den Free-Benutzer der Mitgliedsliste dieses App-Arbeitsbereichs hinzufügen.
-
 ## <a name="web-part-settings"></a>Webpart-Einstellungen
 
 Das Power BI-Webpart für SharePoint Online verfügt über die folgenden Einstellungen.
@@ -160,5 +154,5 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
 [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  
 [Power BI Premium – Beschreibung](service-premium.md)  
 
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/) 
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Deaktivieren der Datenschutzeinstellungen in Power BI-Gateway – Privat
 > [!NOTE]
@@ -45,7 +45,7 @@ Um diesen Fehler zu umgehen, können Sie **Schnelles Kombinieren**aktivieren. Du
 > 
 
 ## <a name="what-is-fast-combine"></a>Was ist schnelles Kombinieren?
-Weitere Informationen zu Sicherheitsstufen und schnellem Kombinieren finden Sie unter [Sicherheitsstufen](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Standardmäßig wird die Sicherheitsstufe auf „Privat“ festgelegt, was zum oben genannten Fehler führen kann. Dies liegt daran, dass die Einstellung „Privat“ die Datenquelle von anderen Quellen isoliert. Ein Beispiel, in dem dies ein Problem darstellen können, wäre eine parametrisierte Abfrage, die Eingaben aus einer anderen Datenquelle erhält.
+Weitere Informationen zu Sicherheitsstufen und schnellem Kombinieren finden Sie unter [Sicherheitsstufen](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Standardmäßig wird die Sicherheitsstufe auf „Privat“ festgelegt, was zum oben genannten Fehler führen kann. Dies liegt daran, dass die Einstellung „Privat“ die Datenquelle von anderen Quellen isoliert. Ein Beispiel, in dem dies ein Problem darstellen können, wäre eine parametrisierte Abfrage, die Eingaben aus einer anderen Datenquelle erhält.
 
 Durch das Aktivieren von schnellem Kombinieren wird die Einstellung „Privat“ ignoriert und die Ausführung ermöglicht.
 
@@ -85,7 +85,7 @@ Mithilfe der folgenden Schritte können Sie schnelles Kombinieren für Ihr priva
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway (persönlicher Modus) – die neue Version des persönlichen Gateways](service-gateway-personal-mode.md)
-[Datenschutzebenen](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Datenschutzebenen](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

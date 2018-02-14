@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -142,7 +142,7 @@ Die Netzwerklatenz kann die Leistung eines Berichts beeinträchtigen, wenn es l�
 
 Tools wie [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) bieten einen Überblick über die Netzwerklatenz zwischen dem Client und der Azure-Region. Im Allgemeinen sollten sich, um die Auswirkungen der Netzwerklatenz zu minimieren, Datenquellen, Gateways und der Power BI-Cluster in möglichst großer Nähe zueinander befinden. Wenn die Netzwerklatenz ein Problem darstellt, können Sie versuchen, Gateways und Datenquellen näher am Power BI-Cluster anzuordnen, indem Sie sie auf virtuellen Computern platzieren. 
 
-Um die Netzwerklatenz noch weiter zu verbessern, können Sie [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) verwenden. Hiermit können schnellere und zuverlässigere Netzwerkverbindungen zwischen den Clients und Azure-Rechenzentren erstellt werden. 
+Um die Netzwerklatenz noch weiter zu verbessern, können Sie [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) verwenden. Hiermit können schnellere und zuverlässigere Netzwerkverbindungen zwischen den Clients und Azure-Rechenzentren erstellt werden. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 - [Planen einer Power BI Enterprise-Bereitstellung](https://aka.ms/pbienterprisedeploy) mit umfassenden Informationen zu großen Power BI-Bereitstellungen 
