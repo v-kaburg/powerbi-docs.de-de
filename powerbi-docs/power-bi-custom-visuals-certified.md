@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 34733c469b584fe94a55c0521e889cd39fca6ed8
-ms.sourcegitcommit: 8d1aa392600f2a8dd81859687fed0d0080de4b6e
+ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
+ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
 ## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
@@ -98,6 +98,7 @@ Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zert
 | [Vorhersagen mit ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) | |
 | [Trichterdiagramm mit Quelle von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Video](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
+| [Gantt-Diagramm von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Video](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Hierarchiediagramm von Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Video](https://youtu.be/0ZGzJaq_KT4) |
 | [Histogramm](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
