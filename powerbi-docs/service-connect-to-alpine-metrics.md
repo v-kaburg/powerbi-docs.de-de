@@ -3,7 +3,7 @@ title: Herstellen einer Verbindung mit Alpine Metrics Sales Predictions mithilfe
 description: "Alpine Metrics Sales Predictions für Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 8f821ce7081f341f0614ea7c8e3a006adabf3e4f
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Herstellen einer Verbindung mit Alpine Metrics Sales Predictions mithilfe von Power BI
 Alpine Metrics ermöglicht dank hochmoderner Technologie die Optimierung vorhersagbarer Vertriebsprozesse in der Cloud und nach Bedarf – sowohl für kleine als auch für große Vertriebsorganisationen. Das Alpine Metrics Sales Predictions-Inhaltspaket für Power BI umfasst Metriken wie potenzielle und vorhergesagte Verkäufe und Risiken, die Ihnen einen tieferen Einblick in die Zukunft Ihrer Geschäfte bieten. 
