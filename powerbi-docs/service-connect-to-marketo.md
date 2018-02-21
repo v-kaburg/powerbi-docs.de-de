@@ -3,7 +3,7 @@ title: Herstellen einer Verbindung mit Marketo mithilfe von Power BI
 description: "Marketo für Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Herstellen einer Verbindung mit Marketo mithilfe von Power BI
 Mit dem Power BI-Inhaltspaket für Marketo erhalten Sie Einblicke in Ihr Marketo-Konto mit Daten zu Leads und ihren Aktivitäten.Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann ein Dashboard und zugehörige Berichte automatisch bereitgestellt.
@@ -47,7 +47,7 @@ Stellen Sie eine Verbindung mit dem [Marketo-Inhaltspaket](https://app.powerbi.c
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   Dadurch erhält das *Marketo-Inhaltspaket für Power BI* Zugriff auf Ihre [Marketo-Analyse](https://powerbi.microsoft.com/integrations/marketo)daten, und Sie können die Daten in Power BI analysieren. Die Daten werden einmal täglich aktualisiert.
+   Dadurch erhält das [Marketo-Inhaltspaket für Power BI](https://powerbi.microsoft.com/integrations/marketo) Zugriff auf Ihre *Marketo-Analysedaten*, und Sie können die Daten in Power BI analysieren. Die Daten werden einmal täglich aktualisiert.
 6. Sobald die Verbindung zu Ihrem Marketo-Konto besteht, wird ein Dashboard mit Ihren gesamten Daten geladen:
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)
