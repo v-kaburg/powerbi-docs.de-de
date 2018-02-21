@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Verwenden des Matrixvisuals in Power BI Desktop
 Mit dem **Matrixvisual** können Sie visuelle Matrixelemente (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten erstellen. Das neue Visual ermöglicht die Kreuzhervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
@@ -34,6 +34,19 @@ Die Matrix bietet viele Features, die in den folgenden Abschnitten dieses Artike
 > Ab dem **Power BI Desktop**-Release vom Juli 2017 übernehmen die neuen Matrix- und Tabellenvisuals die Formatierung (einschließlich der Farben) des angewendeten **Berichtsdesigns**. Diese entsprechen möglicherweise nicht den erwarteten Farben für das Matrixvisual, die Sie in der Konfiguration für Ihr **Berichtsdesign** ändern können. Weitere Informationen zu Designs finden Sie unter [**Verwenden von Berichtsdesigns in Power BI Desktop**](desktop-report-themes.md).
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Erläuterung der Berechnung von Summen mit Power BI
+
+Bevor Sie mit der Vorgehensweise für die Verwendung des Visuals **Matrix** fortfahren, ist es wichtig, ein Verständnis dafür zu entwickeln, wie Power BI die Werte für Summen und Teilsummen in Tabellen und Matrizen berechnet. Bei Zeilen mit Summen und Teilsummen wird das Measure für alle Zeilen der zugrunde liegenden Daten ausgewertet. Dabei handelt es sich *nicht* um eine einfache Addition der Werte in den sichtbaren oder angezeigten Zeilen. Das bedeutet, dass andere Werte als erwartet in der Zeile für die Summe vorhanden sein können. 
+
+Betrachten Sie die folgenden **Matrix**-Visuals. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+In diesem Beispiel zeigt jede Zeile im **Matrix**-Visual auf der rechten Seite den *Betrag* für jede Kombination von „salesperson“ (Verkäufer) und „date“ (Datum) an. Da ein Verkäufer jedoch für mehrere Datumswerte angezeigt wird, können die Zahlen mehr als einmal angezeigt werden. Daher stimmen die genaue Summe der zugrunde liegenden Daten und die Summe der Addition der sichtbaren Werte nicht überein. Dabei handelt es sich um ein allgemeines Muster, wenn der Wert, dessen Summe Sie bilden, sich auf der Seite „1“ einer 1:n-Beziehung befindet.
+
+Bedenken Sie bei Summen und Teilsummen, dass diese Werte auf den zugrunde liegenden Daten basieren, nicht nur auf den sichtbaren Werten. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Verwenden von Drilldown mit dem Matrixvisual
 Mit dem **Matrixvisual** können Sie Drilldowns jeglicher Art ausführen, die zuvor nicht verfügbar waren. Hierzu zählt die Möglichkeit des Drilldowns auf Zeilen, Spalten und sogar einzelne Abschnitte und Zellen. Befassen wir uns nun mit der Funktionsweise.
@@ -144,16 +157,12 @@ Mit beiden Vorgehensweisen wird das gleiche Ergebnis erreicht. Nach Auswahl von 
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
-Diese Version des **Matrixvisuals** unterliegt einigen Einschränkungen. Hier erfahren Sie, was zu beachten ist.
+## <a name="next-steps"></a>Nächste Schritte
 
-* Drillvorgänge für Spalten können nur über das Kontextmenü ausgeführt werden, und es ist derzeit nicht aus der Visualisierung ersichtlich, dass Drillvorgänge für Gruppen von Zeilen oder Spalten möglich sind.
-* Die Elemente auf einer Ebene können nur gemeinsam erweitert werden, nicht nach Kategorien.
-* Möglicherweise wird im Kontextmenü einer Spaltenüberschrift die Option **Datensätze** angezeigt, die aber noch nicht implementiert ist.
-* Derzeit ist die Zeile *Gesamtsumme* nicht vorhanden.
-* Das Deaktivieren der Zwischensummenzeile im abgestuften Layout hat keine Auswirkungen.
-* Spaltenüberschriften können abgeschnitten werden, wenn der Text einer inneren Gruppe kürzer als der der äußeren Gruppe ist.
-* Wenn Sie im abgestuften Layout den Einzug ändern, sollte der Einzug der Zeilengruppe außen gleich bleiben.
+Folgende Artikel könnten Sie ebenfalls interessieren:
 
-Teilen Sie uns Ihre Meinung mit. Wir führen im Moment eine kurze **Umfrage** zu diesem **Matrixvisual** durch und würden uns über [Ihre Teilnahme](https://www.instant.ly/s/PYXT1) freuen.
+* [Verwenden von Gitternetzlinien und „Am Raster ausrichten“ in Power BI Desktop-Berichten](desktop-gridlines-snap-to-grid.md)
+* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Datentypen in Power BI Desktop](desktop-data-types.md)
 
+ 

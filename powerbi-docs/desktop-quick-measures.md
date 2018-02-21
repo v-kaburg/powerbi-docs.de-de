@@ -1,5 +1,5 @@
 ---
-title: "Verwenden von Schnellmeasures zur einfachen Durchführung gängiger und aufwendiger Berechnungen in Power BI (Vorschau)"
+title: "Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen in Power BI"
 description: "Schnellmeasures bieten vorgefertigte DAX-Formeln zur schnellen Durchführung gängiger Berechnungen."
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>Verwenden von Schnellmeasures zur einfachen Durchführung gängiger und aufwendiger Berechnungen (Vorschau)
-Ab der **Power BI Desktop**-Version vom April 2017 können Sie mithilfe von **Schnellmeasures** schnell und einfach gängige, aufwendige Berechnungen durchführen. Ein **Schnellmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Schnellmeasure ausführt, und sich so besser mit DAX vertraut machen.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen
+Mit **Quickmeasures** können Sie gängige und leistungsstarke Berechnungsfunktionen nutzen. Ein **Schnellmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Schnellmeasure ausführt, und sich so besser mit DAX vertraut machen.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 Klicken Sie zum Erstellen von **Schnellmeasures** im Bereich **Felder** mit der rechten Maustaste auf ein Feld, und wählen Sie im daraufhin angezeigten Menü die Option **Schnellmeasures** aus. Alternativ können Sie auch im Bereich **Werte** eines bereits vorhandenen visuellen Elements mit der rechten Maustaste auf einen beliebigen Wert klicken (etwa auf das Feld *Werte* in einem *Balkendiagramm*). Es stehen zahlreiche Berechnungskategorien und Bearbeitungsmöglichkeiten zur Verfügung, mit denen Sie die Berechnungen an Ihre jeweiligen Anforderungen anpassen können.
 
-### <a name="enable-the-quick-measures-preview"></a>Aktivieren von Schnellmeasures (Vorschau)
-Das neue Feature **Schnellmeasures** steht ab der **Power BI Desktop**-Version vom **April 2017** zur Verfügung. Wenn Sie dieses Vorschaufeature aktivieren möchten, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Schnellmeasures**. Sie müssen Power BI Desktop neu starten, nachdem Sie die Auswahl vorgenommen haben.
+### <a name="quick-measures-now-generally-available"></a>Quickmeasures ab sofort allgemein verfügbar
+
+Quickmeasures sind seit Februar 2018 im neuen Release von **Power BI Desktop** allgemein verfügbar und befinden sich damit nicht mehr in der Vorschauversion. Wenn Sie ein früheres Release von **Power BI Desktop** verwenden, können Sie **Quickmeasures** mit einem Release von **Power BI Desktop** verwenden, das im **April 2017** oder danach erschienen ist. Aktivieren Sie dazu unter **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** das Kontrollkästchen neben **Quickmeasures**.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,22 +57,22 @@ Wenn Sie das Dropdownmenü auswählen, erhalten Sie eine lange Liste mit verfüg
 
 Die Schnellmeasure-Berechnungstypen sind in fünf unterschiedliche Gruppen unterteilt, die jeweils eine Reihe von Berechnungen umfassen. Folgende Gruppen und Berechnungen stehen zur Verfügung:
 
-* **Innerhalb der Kategorie aggregieren**
+* **Pro Kategorie aggregieren**
   * Durchschnitt innerhalb der Kategorie
   * Varianz innerhalb der Kategorie
   * Höchstwert innerhalb der Kategorie
   * Mindestwert innerhalb der Kategorie
   * Gewichteter Durchschnitt pro Kategorie
-* **Filter und Baselines**
-  * Gefiltertes Measure
+* **Filter**
+  * Gefilterter Wert
   * Differenz zu Baseline
-  * Differenz in Prozent zu Baseline
-  * Summen aus neuen Kategorien
+  * Prozentuale Differenz zu gefiltertem Wert
+  * Sales from new categories (Umsätze aus neuen Kategorien)
 * **Zeitinformationen**
   * Summe seit Jahresanfang
   * Summe seit Quartalsanfang
   * Summe seit Monatsanfang
-  * Änderung zwischen zwei Jahren
+  * Veränderung im Vergleich zum Vorjahr
   * Änderung zwischen zwei Quartalen
   * Änderung zwischen zwei Monaten
   * Gleitender Durchschnitt
@@ -85,6 +86,7 @@ Die Schnellmeasure-Berechnungstypen sind in fünf unterschiedliche Gruppen unter
   * Multiplikation
   * Division
   * Prozentualer Unterschied
+  * Korrelationskoeffizient
 * **Text**
   * Bewertungssterne
   * Verkettete Werteliste
@@ -136,7 +138,7 @@ Das ist fast so als hätten Sie einen Lehrer, der umgehend auf Ihre Was-wäre-we
 Und wenn Sie das optimale Measure erstellt haben, können Sie es über das gleiche Kontextmenü mit einem beliebigen Namen versehen.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
-Für die Vorschauversion des Features **Schnellmeasures** gelten einige Einschränkungen und Überlegungen:
+Folgende Einschränkungen und Überlegungen sollten Sie berücksichtigen:
 
 * **Quickmeasures** sind nur verfügbar, wenn Sie das Modell ändern können. Das ist bei DirectQuery und den meisten Liveverbindungen nicht der Fall (SSAS-Liveverbindungen werden unterstützt, wie weiter oben erläutert).
 * Das Measure, das dem Bereich **Felder** hinzugefügt wird, kann für ein beliebiges visuelles Element im Bericht verwendet werden.
@@ -152,8 +154,6 @@ Ab dem **Power BI Desktop**-Update von Oktober 2017 können Sie eigene benutzerd
 
 ### <a name="additional-information-and-examples"></a>Weitere Informationen und Beispiele
 Dieser Schwerpunktartikel wird voraussichtlich noch mit Beispielen und Anleitungen für die einzelnen Berechnungen der **Schnellmeasures** aktualisiert. Schauen Sie daher bald wieder vorbei.
-
-Da es sich hierbei um ein **Vorschaufeature** handelt, sind wir besonders an Ihrem Feedback und an Ihren Ideen interessiert.
 
 Haben Sie eine Idee für ein noch nicht verfügbares **Schnellmeasure**? Sehr gut! Besuchen Sie [diese Seite](https://go.microsoft.com/fwlink/?linkid=842906), und reichen Sie Ihre Ideen (und DAX-Formeln) für das **Schnellmeasure** ein, das Sie sich für **Power BI Desktop** wünschen, damit wir es ggf. in einer späteren Version der Liste mit verfügbaren **Schnellmeasures** hinzufügen können.
 

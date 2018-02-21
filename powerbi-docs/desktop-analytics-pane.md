@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Verwenden des Analysebereichs in Power BI Desktop
-Mit dem Bereich **Analyse** in **Power BI Desktop** können Sie dynamische *Bezugslinien* zu Visualisierungen hinzufügen und wichtige Trends und Erkenntnisse identifizieren. Der Bereich **Analyse** befindet sich im Bereich **Visualisierungen** von Power BI Desktop und ist mit der Version von August 2016 (Version 2.37.4464.321 oder höher) verfügbar (siehe unten).
+Mit dem Bereich **Analyse** in **Power BI Desktop** können Sie dynamische *Bezugslinien* zu Visualisierungen hinzufügen und wichtige Trends und Erkenntnisse identifizieren. Der Bereich **Analyse** befindet sich in Power BI Desktop unter **Visualisierungen**.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Der Bereich **Analyse** wird nur angezeigt, wenn Sie im Power BI Desktop-Zeichenbereich ein Visual auswählen.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Aktivieren von Vorhersagen (Preview)
-Ab der **Power BI Desktop**-Version von September 2016 (Version 2.39.4526.362 oder höher) können Sie außerdem *Vorhersagen* im Bereich **Analyse** ausführen. Sie müssen diese Previewfunktion aktivieren, indem Sie im linken Bereich **Datei > Optionen und Einstellungen > Optionen** und dann **Vorschaufeatures** auswählen. Aktivieren Sie das Kontrollkästchen neben **Prognose**, um das Feature zu aktivieren, wie in der folgenden Abbildung dargestellt. Sie müssen **Power BI Desktop** neu starten, damit die Änderungen wirksam werden.
+## <a name="search-within-the-analytics-pane"></a>Suche im Bereich „Analyse“
+Ab dem Release von **Power BI Desktop** vom Februar 2018 (Version 2.55.5010.201 oder höher) können Sie innerhalb des Bereichs **Analyse** suchen, bei dem es sich um einen Unterabschnitt des Bereichs **Visualisierungen** handelt. Wie in der folgenden Abbildung dargestellt wird ein Suchfeld angezeigt, wenn der Bereich **Analyse** ausgewählt ist.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

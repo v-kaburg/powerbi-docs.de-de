@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 Einblicke in Ihre Project „Madeira“-Daten sind jetzt problemlos mit Power BI und dem Project „Madeira“-Inhaltspaket möglich. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -47,7 +47,7 @@ Stellen Sie eine Verbindung mit dem [Project „Madeira“ Analytics-Inhaltspake
     >[!NOTE]
     >Sie müssen in Project „Madeira“ Superuser sein.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Sobald Sie verbunden sind, werden ein Dashboard, ein Bericht und ein Dataset automatisch geladen. Anschließend werden die Kacheln mit Daten aus Ihrem Konto aktualisiert.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Wenn Sie „OK“ auswählen, wird ein Schlüssel erstellt. Sie können diesen d
 ## <a name="troubleshooting"></a>Problembehandlung
 Das Power BI-Dashboard ist von den oben aufgeführten veröffentlichten Webdiensten abhängig. Es werden entweder Daten aus dem Beispielunternehmen oder aus Ihrem Unternehmen angezeigt, sofern Sie Daten aus Ihrer aktuellen Finanzlösung importieren. Wenn Fehler auftreten, finden Sie in diesem Abschnitt Problemumgehungen für die häufigsten Probleme.
 
-**„Fehler beim Überprüfen der Parameter. Stellen Sie sicher, dass alle Parameter gültig sind.“** Wenn dieser Fehler angezeigt wird, nachdem Sie Ihre Project „Madeira“-URL eingeben, stellen Sie sicher, dass die folgenden Bedingungen erfüllt sind:  
+**„Fehler beim Überprüfen der Parameter – stellen Sie sicher, dass alle Parameter gültig sind“.**
 
-    - Die URL stimmt genau mit diesem Muster überein: „https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')“.  
-    - Löschen Sie sämtlichen Text nach dem Unternehmensnamen in Klammern.  
-    - Achten Sie darauf, dass am Ende der URL kein nachgestellter Schrägstrich vorkommt.  
-    - Stellen Sie sicher, dass die URL eine sichere Verbindung verwendet. Dies wird durch „https“ am Anfang der URL gekennzeichnet.  
+Wenn dieser Fehler angezeigt wird, nachdem Sie die URL vom Projekt „Madeira“ eingeben, stellen Sie sicher, dass die folgenden Bedingungen erfüllt sind:  
+
+   - Die URL stimmt genau mit diesem Muster überein: „https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')“.  
+   - Löschen Sie sämtlichen Text nach dem Unternehmensnamen in Klammern.  
+   - Achten Sie darauf, dass am Ende der URL kein nachgestellter Schrägstrich vorkommt.  
+   - Stellen Sie sicher, dass die URL eine sichere Verbindung verwendet. Dies wird durch „https“ am Anfang der URL gekennzeichnet.  
 
 **„Fehler bei der Anmeldung“:** Wenn beim Anmelden beim Dashboard mit Ihren Project „Madeira“-Anmeldeinformationen ein „Fehler bei der Anmeldung“ auftritt, kann dies durch eines der folgenden Probleme verursacht worden sein:  
 

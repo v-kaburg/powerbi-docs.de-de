@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – Beschreibung
 Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation oder Ihr Team, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die breit gestreute Verteilung von Inhalten, ohne dass Sie für Benutzer mit schreibgeschütztem Zugriff Pro-Benutzer-Lizenzen erwerben müssen.
@@ -46,7 +46,7 @@ Für Power BI sind zwei verschiedene Arten von Kapazität verfügbar. Gemeinsam 
 | Eingebettete API und Steuerelemente |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar")<sup>2</sup> |
 | **Lokale Veröffentlichung von Power BI-Berichten** |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar") |
 
-*<sup>1</sup> Kostenlose Nutzung durch Benutzer in Apps, einschließlich der Anzeige von Inhalten in Web- und mobilen Versionen, Nutzung von F&A, Quick Insights, Cortana, Export nach CSV, Excel und PowerPoint.*  
+*<sup>1</sup> Kostenlose Nutzung durch Benutzer in Apps, einschließlich der Anzeige von Inhalten in Webversionen und mobilen Versionen sowie der Nutzung von Q&A, Quick Insights, Cortana, Export nach CSV, Excel und PowerPoint. Eine Pro-Lizenz ist für andere, nicht aufgeführte Aktivitäten erforderlich, z.B. für das Erstellen von Berichten auf freigegebenen Datasets sowie für Analysen in Excel. Weitere Informationen zur Funktionalität finden Sie unter [Power BI Free und Pro im Vergleich](service-free-vs-pro.md).*  
 *<sup>2</sup> Zukünftige Erweiterungen, die nach der allgemeinen Verfügbarkeit von Power BI Premium eingeführt werden.*
 
 ### <a name="premium-capacity"></a>Premium-Kapazität

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Suchen Ihrer Dashboards, Berichten und Apps in den mobilen Power BI-Apps
 Gilt für:
@@ -41,7 +41,11 @@ Ihre Dashboards, Berichte und Apps sind je nach Ursprung an unterschiedlichen St
 5. [Arbeitsbereiche](mobile-apps-find-content-mobile-devices.md#5-workspaces)
 
 ## <a name="1-favorites"></a>1. Favoriten
-Gruppieren Sie die Dashboards und Apps, die Sie am häufigsten anzeigen, indem Sie sie als Favoriten markieren. Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
+Gruppieren Sie die Dashboards, Berichte und Apps, die Sie am häufigsten anzeigen, indem Sie diese als Favoriten markieren. 
+
+![Favoriten in den mobilen Power BI-Apps](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
+
+Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
 
 ## <a name="2-report-servers"></a>2. Berichtsserver
 Möglicherweise verfügen Sie über Verbindungen mit einem oder mehreren lokalen Power BI-Berichtsservern oder SQL Server Reporting Services-Servern. Wenn dies der Fall ist, werden die auf dem Server vorhandenen KPIs, Power BI-Berichte und paginierten Berichte hier angezeigt. Wenn Sie diese als Favoriten auf dem Server festgelegt haben, werden sie auch in der Favoritenliste aufgeführt. Weitere Informationen zum [Anzeigen von lokalen KPIs und Berichten in den mobilen Power BI-Apps](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
@@ -65,9 +69,9 @@ In den mobilen Power BI-Apps können Sie alle Apps sehen, die Sie bereits instal
 Im Power BI-Dienst können Sie zu Microsoft AppSource wechseln, um weitere Apps zu suchen. In den mobilen Power BI-Apps ist dies allerdings nicht möglich. 
 
 ## <a name="4-shared-with-me"></a>4. Für mich freigegeben
-Hier finden Sie die Dashboards, die Kollegen für Sie freigegeben haben. Sie können die Dashboards nach dem Besitzer filtern oder nach den gewünschten Dashboards suchen. Freigegebene Inhalte, die Sie häufig verwenden, können Sie direkt in der Ansicht **Für mich freigegeben** als Favoriten hinzufügen, indem Sie auf die Auslassungspunkte (...) tippen.
+Hier finden Sie die Dashboards und Berichte, die Kollegen für Sie freigegeben haben. Sie können diese nach dem Besitzer filtern oder nach den gewünschten Dashboards suchen. Freigegebene Inhalte, die Sie häufig verwenden, können Sie direkt in der Ansicht **Für mich freigegeben** als Favoriten speichern, indem Sie auf die Auslassungspunkte (**...**) tippen.
 
-![Neue Power BI-Navigation](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-shared-with-me-fave.png)
+![Power BI-Ansicht „Für mich freigegeben“](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5. Arbeitsbereiche
 Diese Bereiche werden auch als *App-Arbeitsbereiche* bezeichnet und bieten eine Umgebung im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)), in der Sie mit Kollegen an verschiedenen Dashboards und Berichten zusammenarbeiten können. Diese Sammlung können Sie dann als *App* verteilen. 

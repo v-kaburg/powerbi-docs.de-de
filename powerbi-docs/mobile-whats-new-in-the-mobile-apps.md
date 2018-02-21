@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -29,6 +29,24 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
+
+## <a name="january-2018"></a>Januar 2018
+
+### <a name="report-favorites"></a>Speichern von Berichten als Favorit
+
+Speichern Sie Berichte als Favoriten, sodass diese auf der Seite **Favoriten** angezeigt werden. Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Anzeigen von freigegebenen Berichten
+
+Wenn jemand einen Bericht für Sie freigibt, wird dieser nun mit den Dashboards zusammen auf der Seite **Für mich freigegeben** aufgeführt.
+
+### <a name="improved-hyperlink-support"></a>Verbesserte Unterstützung für Hyperlinks
+
+Sie können nun in benutzerdefinierten Visuals auf Links tippen, um diese in Ihrem mobilen Browser zu öffnen.
+
+### <a name="intune-integration-android"></a>Intune-Integration (Android)
+
+Unterstützung für den bedingten Zugriff mithilfe der Verwaltung mobiler Geräte von Intune.
 
 ## <a name="december-2017"></a>Dezember 2017
 

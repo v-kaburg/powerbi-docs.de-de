@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -64,6 +64,8 @@ Sie fügen Inhalte auf die gleiche Weise hinzu, wie Sie in „Mein Arbeitsbereic
 
 * [Stellen Sie eine Verbindung mit Diensten her](service-connect-to-services.md), z.B. Microsoft Dynamics CRM, Salesforce oder Google Analytics.
 * [Rufen Sie Daten aus Dateien ab](service-get-data-from-files.md), z.B. aus Excel-, CSV- oder PBIX-Dateien (Power BI Desktop).
+
+Wenn Sie Inhalte im Arbeitsbereich einer App anzeigen, wird der Besitzer als Name des App-Arbeitsbereichs angezeigt.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Hinzufügen eines Bilds zu Ihrer App (optional)
 Standardmäßig wird für die App in Power BI ein kleiner farbiger Kreis mit den Initialen der App erstellt. Sie können dies jedoch mit einem Bild anpassen. Sie benötigen eine Exchange Online-Lizenz, um ein Bild hinzuzufügen.

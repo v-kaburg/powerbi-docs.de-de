@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 71a86c29c1ac690233016d91c4a66111978d47ba
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -30,6 +30,56 @@ In diesem Artikel werden frühere Updates von **Power BI Desktop** beschrieben. 
 In den folgenden Abschnitten werden die Updates von **Power BI Desktop** der vorherigen Monate beschrieben.
 
 Sie können immer [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
+
+
+## <a name="january-2018-update-2544970761"></a>Update Januar 2018 (2.54.4970.761)
+
+Wir läuteten das neue Jahr mit einigen Updates für **Power BI Desktop** ein, und unser Vorsatz für das neue Jahr besteht darin, stetig weitere zu veröffentlichen.
+
+Bedeutung der Links neben den einzelnen Updates:
+
+* **[Video]**-Ausschnitte werden auf einer neuen Browserregisterkarte wiedergegeben, wenn das Feature erläutert wird.
+* Einige Features werden in einem **[Artikel]** ausführlich erläutert.
+* Die meisten Features werden im **[Blog]**-Beitrag zum monatlichen Update erläutert.
+-   Und schließlich sind einige der Features selbsterklärend, sodass sie keinen Artikel und kein Video erfordern.
+
+Sie können das Video **Neueste Updates** auch direkt aus diesem Artikel von Beginn an ansehen. Hierzu klicken Sie einfach auf das Symbol **Wiedergeben** auf dem Videobild unter der Liste mit den Updates.
+
+Im Januar wurden folgende Updates für **Power BI Desktop** veröffentlicht:
+
+### <a name="reporting"></a>Berichterstellung
+
+-   Ein- und Ausblenden von Seiten [[Video]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   Steuern der Hintergrundfarbe von Datenbeschriftungen für kartesische visuelle Elemente und visuelle Kartenelemente [[Video]](https://youtu.be/W8Pp5wuCXJw?t=3m13s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   Vergrößern des für Achsenbezeichnungen verwendeten Bereichs in Diagrammen [[Video]](https://youtu.be/W8Pp5wuCXJw?t=5m10s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   Steuerelement zum Auffüllen von Leisten und Spalten [[Video]](https://youtu.be/W8Pp5wuCXJw?t=6m40s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   Anzeigen von Daten als Hierarchie (Vorschauversion) [[Video]](https://youtu.be/W8Pp5wuCXJw?t=7m41s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   Hinzufügen eines Ankerdatums für einen relativen Datenschnitt mit Datum [[Video]](https://youtu.be/W8Pp5wuCXJw?t=9m22s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   Top-N-Auswahl in Q&A [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   Viele neue benutzerdefinierte visuelle Elemente [[Video]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+
+### <a name="analytics"></a>Analyse
+
+-   Korrelationskoeffizient für Quickmeasure [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
+
+
+### <a name="data-connectivity"></a>Datenkonnektivität
+
+-   Unterstützung für die Authentifizierung von Azure Active Directory für die Connectors von Azure SQL-Datenbank und Data Warehouse [[Video]](https://youtu.be/W8Pp5wuCXJw?t=21m42s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
+
+
+> [!NOTE]
+> Sie können sich auch [alle für Power BI Desktop verfügbaren Datenquellen ansehen](desktop-data-sources.md). Die Liste wird ständig erweitert, daher sollten Sie sie in regelmäßigen Abständen konsultieren.
+
+Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
+
+Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Video auch im Blogbeitrag.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
 
 
 ## <a name="december-2017-update-2534954481-"></a>Dezember 2017-Update (2.53.4954.481)

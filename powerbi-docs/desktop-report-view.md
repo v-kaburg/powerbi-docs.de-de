@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 1750fc9bec6de6caf17ff3ae6f514efe050f48f1
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 5ae0ef1ec5b13699f3ae5c502d29529841a7a726
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Berichtsansicht in Power BI Desktop
 Wenn Sie bereits mit Power BI gearbeitet haben, wissen Sie, wie einfach Berichte erstellt werden können, die dynamische Perspektiven und Einblicke in Ihre Daten bereitstellen. Power BI verfügt in Power BI Desktop zudem über weitere komplexe Funktionen. Mit Power BI Desktop können Sie komplexe Abfragen erstellen, Daten aus mehreren Quellen kombinieren, Beziehungen zwischen Tabellen erstellen usw.
@@ -62,6 +62,24 @@ Klicken Sie auf das **X** auf der Registerkarte der Seite am unteren Rand der Be
 
 > [!NOTE]
 > Berichte und Visualisierungen können nicht an ein Dashboard aus Power BI Desktop angeheftet werden. Dazu müssen Sie eine [Veröffentlichung aus Power BI Desktop](desktop-upload-desktop-files.md) auf Ihre Power BI-Website durchführen.
-> 
-> 
+
+## <a name="hide-report-pages"></a>Ausblenden von Berichtsseiten
+
+Wenn Sie einen Bericht erstellen, können Sie Seiten aus diesem verbergen. Dies kann nützlich sein, wenn Sie zugrunde liegende Daten oder Visuals in einem Bericht erstellen müssen, diese Seiten jedoch nicht für Dritte sichtbar sein sollen, also wenn Sie z.B. Tabellen oder unterstützende Visuals erstellen, die auf anderen Berichtsseiten verwendet werden. Es gibt viele weitere kreative Gründe dafür, eine Berichtsseite zunächst zu erstellen und dann aus einem Bericht auszublenden, den Sie veröffentlichen möchten. 
+
+Das Ausblenden einer Berichtsseite ist einfach. Klicken Sie einfach mit der rechten Maustaste auf die Registerkarte „Berichtsseite“, und klicken Sie im angezeigten Menü auf **Ausblenden**.
+
+![](media/desktop-report-view/report-view_05.png)
+
+Sie sollten Folgendes bedenken, wenn Sie eine Berichtsseite ausblenden:
+
+* Eine ausgeblendete Berichtsansicht wird in **Power BI Desktop** weiterhin angezeigt. Der Titel der Seite ist allerdings abgeblendet. In der folgenden Abbildung ist Seite 4 ausgeblendet.
+
+    ![](media/desktop-report-view/report-view_06.png)
+
+* Eine ausgeblendete Berichtsseite wird Ihnen *nicht* angezeigt, wenn Sie den Bericht im **Power BI-Dienst** anzeigen.
+
+* Beim Ausblenden einer Berichtsseite handelt es sich *nicht* um eine Sicherheitsmaßnahme. Benutzer können weiterhin auf die Seite zugreifen, und Inhalt ist weiterhin über Drillthroughs und andere Methoden verfügbar.
+
+* Wenn eine Seite im Ansichtsmodus ausgeblendet ist, werden keine Navigationspfeile für den Ansichtsmodus angezeigt.
 

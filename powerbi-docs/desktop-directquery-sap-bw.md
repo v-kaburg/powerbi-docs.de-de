@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery und SAP Business Warehouse (BW)
 Sie können sich mit **SAP Business Warehouse (BW)**-Datenquellen direkt über **DirectQuery** verbinden. Da SAP BW multidimensional ist bzw. OLAP einsetzt, gibt es viele wesentliche Unterschiede zwischen DirectQuery via SAP BW und über relationalen Datenquellen wie SQL Server. Die Unterschiede werden im Folgenden dargestellt:
@@ -74,13 +74,9 @@ In der folgenden Tabelle werden alle Funktionen von SAP BW aufgelistet, die nich
 | Attribute |Es ist nicht möglich, in Power BI auf die Attribute eines Merkmals zuzugreifen. |
 | Einstellung der Sprache des Endbenutzers |Das Gebietsschema, mit dem die Verbindung zu SAP BW hergestellt wird, wird im Rahmen der Verbindungsdetails festgelegt und spiegelt nicht das Gebietsschema des letztendlichen Berichtnutzers wieder. |
 | Textvariablen |Mit SAP BW können Feldnamen Platzhalter für Variablen enthalten (z.B. „$JAHR$ Ist“), die später durch die ausgewählten Werte ersetzt werden. Das Feld wird z.B. als „2016 Ist“ in BEx-Tools angezeigt, wenn das Jahr 2016 für die Variable ausgewählt ist. <br/> <br/> Der Spaltenname wird in Power BI nicht abhängig vom Variablenwert geändert und wird deshalb als „YEAR$ Actuals“ angezeigt.  Allerdings kann der Spaltenname dann in Power BI geändert werden. |
+| Benutzerdefinierte Exit-Variablen | Benutzerdefinierte Exit-Variablen werden nicht von der öffentlichen API zur Verfügung gestellt und deshalb nicht von Power BI unterstützt. |
+| Charakteristische Strukturen | Charakteristische Strukturen in der zugrunde liegenden SAP BW-Quelle führen zum explosionsartigen Verfügbarmachen von Measures in Power BI. Wenn beispielsweise die beiden Measures „Sales“ und „Costs“ vorliegen sowie eine charakteristische Struktur, die „Budget“ und „Actual“ enthält, werden vier Measures zur Verfügung gestellt: Sales.Budget, Sales.Actual, Costs.Budget, Costs.Actual. |
 
-## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
-In der folgenden Tabelle werden die Einschränkungen der Betaversion des SAP BW-Connector aufgelistet.
-
-| Einschränkung | Beschreibung |
-| --- | --- |
-| Kein Aktualisieren |Die Schaltfläche „Aktualisieren“ ist deaktiviert, und die visuellen Elemente bzw. Metadaten können nicht aktualisiert werden. |
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu DirectQuery finden Sie in den folgenden Ressourcen:

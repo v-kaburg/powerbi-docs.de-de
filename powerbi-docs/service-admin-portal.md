@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -40,7 +40,7 @@ Ihr Konto muss in Office 365 oder Azure Active Directory als **Globaler Administ
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-Es gibt innerhalb des Portals fünf Registerkarten. Diese werden nachfolgend beschrieben.
+Innerhalb des Portals gibt es sechs Registerkarten. Diese werden nachfolgend beschrieben.
 
 * [Nutzungsmetriken](#usage-metrics)
 * [Benutzer](#users)
@@ -48,6 +48,7 @@ Es gibt innerhalb des Portals fünf Registerkarten. Diese werden nachfolgend bes
 * [Mandanteneinstellungen](#tenant-settings)
 * [Premium-Einstellungen](#premium-settings)
 * [Einbindungscodes](#embed-codes)
+* [Visuals für Organisationen](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Weitere Informationen zum Verwalten von Premium-Einstellungen finden Sie unter [
 
 Als Administrator können Sie die Einbindungscodes anzeigen, die für Ihren Mandanten generiert werden. Als Aktionen können Sie den Bericht anzeigen und den Einbindungscode löschen, um ihn zu widerrufen.
 
+## <a name="organization-visuals"></a>Visuals für Organisationen
+
+Durch die Registerkarte „organization visuals“ (Visuals für Organisationen) können Sie benutzerdefinierte Visuals innerhalb Ihrer Organisation bereitstellen und verwalten. Somit können Sie proprietäre benutzerdefinierte Visuals einfach in der Organisation bereitstellen, damit Berichtsautoren diese einfach ermitteln und direkt von Power BI Desktop in ihre Berichte importieren können.
+ 
+Die Seite zeigt alle benutzerdefinierten Visuals an, die derzeit im Repository der Organisation bereitgestellt werden.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Hinzufügen eines neuen benutzerdefinierten Visuals
+
+Klicken Sie auf **Benutzerdefiniertes Visual hinzufügen**, um ein neues benutzerdefiniertes Visual zur Liste hinzuzufügen.
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses im Repository der Organisation bereitstellen.
+> 
+
+Füllen Sie folgende Felder aus:
+ 
+* Auswählen einer PBIVIZ-Datei (erforderlich): Wählen Sie eine benutzerdefinierte Visualdatei für den Upload aus. Nur benutzerdefinierte Visuals mit API-Versionsangabe werden unterstützt (lesen Sie hier nach, was dies bedeutet).
+Bevor Sie ein benutzerdefiniertes Visual hochladen, sollten Sie dieses auf Sicherheit und Datenschutz überprüfen, um sicherzustellen, dass das Visual die Standards Ihrer Organisation erfüllt. Holen Sie weitere Informationen zur Sicherheit von benutzerdefinierten Visuals ein.
+ 
+* Benennen Ihrer benutzerdefinierten Visuals (erforderlich): Geben Sie dem Visual einen kurzen Titel, damit die Benutzer von Power BI Desktop dessen Zweck leichter nachvollziehen können.
+ 
+* Symbol (erforderlich): die Symboldatei, die in der Benutzeroberfläche von Power BI Desktop angezeigt wird
+ 
+* Beschreibung: eine kurze Beschreibung des Visuals, um den Benutzern zusätzlichen Kontext bereitzustellen
+ 
+Klicken Sie auf „Anwenden“, um die Uploadanforderung zu initiieren. Wenn der Upload erfolgreich ist, wird das neue Element in der Liste angezeigt. Wenn nicht, erhalten Sie eine entsprechende Fehlermeldung.
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Löschen eines benutzerdefinierten Visuals aus der Liste
+
+Klicken Sie auf das Papierkorbsymbol, um das Visual dauerhaft aus dem Repository zu löschen.
+Wichtig: Der Löschvorgang ist nicht umkehrbar. Sobald das Visual gelöscht wurde, wird dessen Rendern in vorhandenen Berichten sofort beendet. Wenn Sie dasselbe Visual erneut hochladen, wird dieses nicht das vorherige ersetzen, das gelöscht wurde. Die Benutzer müssen das neue Visual erneut importieren und die Instanz ersetzen, die in deren Berichten vorhanden ist.
+ 
+### <a name="how-to-update-a-visual"></a>Aktualisieren eines Visuals
+
+Wenn Sie ein Visual im Repository aktualisieren möchten, weil eine neue Version des Visuals vorhanden ist (z.B. mit Fehlerbehebungen, neuen Funktionalitäten usw.), laden Sie die neue Datei (stellen Sie sicher, dass die ID des Visuals nicht verändert wird) als neuen Eingang in der Liste hoch. Stellen Sie sicher, dass Sie die richtigen Details im Titel und in der Beschreibung (z.B. „My Visual v2.0“) bereitstellen . Wenn die Benutzer das Repository der Organisation das nächste Mal über Power BI Desktop verwenden, können diese die neue Version importieren. Diese wird sie dazu auffordern, die aktuelle Version zu ersetzen, die sich im Bericht befindet.
+ 
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -269,14 +269,21 @@ Wenn Sie das Modell definieren, denken Sie an Folgendes:
 ### <a name="report-design-guidance"></a>Leitfaden zum Berichtsentwurf
 Wenn Sie einen Bericht mithilfe einer DirectQuery-Verbindung erstellen, befolgen Sie die folgenden Leitlinien:
 
+* **Überlegungen für das Verwenden von Optionen zur Verringerung von Abfragen:** Power BI stellt Optionen im Bericht bereit, um weniger Abfragen zu senden und bestimmte Interaktionen zu deaktivieren, die zu einer schlechten Leistung führen würden, wenn die Ausführung der resultierenden Abfrage viel Zeit in Anspruch nehmen würde. Navigieren Sie in **Power BI Desktop** zu **Datei > Optionen und Einstellungen > Optionen**, und klicken Sie auf **Abfrageverringerung**, um auf diese Optionen zuzugreifen. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    Durch die Kontrollkästchen unter **Abfrageverringerung** können Sie die übergreifende Hervorhebung für den gesamten Bericht deaktivieren. Sie können bei Slicer- und Filterauswahlen ebenfalls die Schaltfläche *Übernehmen* anzeigen lassen, durch die Sie viele Slicer und Filter auswählen können, bevor Sie diese anwenden. Dies führt dazu, dass keine Abfragen gesendet werden, bevor Sie auf die Schaltfläche **Anwenden** des Slicers klicken. Ihre Auswahl wird dann zum Filtern der Daten verwendet.
+
+    Diese Optionen gelten für Ihren Bericht, während Sie mit **Power BI Desktop** interagieren, und wenn Ihre Benutzer den Bericht im **Power BI-Dienst** verwenden.
+
 * **Wenden Sie zuerst Filter an:** Wenden Sie immer verfügbare Filter zu Beginn der Erstellung eines visuellen Elements an. Wenden Sie z.B. den Filter „Jahr“ zu Beginn an, anstatt sich im TotalSalesAmount und ProductName zu bewegen und dann nach einem bestimmten Jahr zu filtern. Der Grund dafür ist, dass jeder Schritt zur Erstellung eines visuellen Elements eine Abfrage sendet. Obwohl es möglich ist, Änderungen durchzuführen, bevor die erste Abfrage abgeschlossen ist, bleibt jedoch noch viel unnötige Last auf der zugrunde liegenden Quelle liegen. Wenn Filter früh angewendet werden, werden diese zwischenzeitlichen Abfragen generell günstiger. Darüber hinaus kann es dazu führen, dass die Begrenzung von einer Million Zeilen erreicht wird, wenn die Filter nicht früh angewendet werden.
 * **Begrenzen Sie die Anzahl von visuellen Elementen auf einer Seite:** Wenn eine Seite geöffnet wird (oder einige Datenschnitte auf Seitenebene oder Filter geändert wurden), werden alle visuellen Elemente auf einer Seite aktualisiert. Es gibt auch eine Begrenzung für die Anzahl der Abfragen, die gleichzeitig gesendet werden, denn wenn die Anzahl der visuellen Elemente steigt, werden auch einige visuelle Elemente nacheinander aktualisiert, wodurch viel mehr Zeit für die Aktualisierung der gesamten Seite benötigt wird. Aus diesem Grund wird empfohlen, die Anzahl von visuellen Elementen auf einer Seite zu begrenzen, und stattdessen mehr einfachere Seiten zu haben.
 * **Überlegen Sie, die Interaktion zwischen visuellen Elementen zu deaktivieren:** Standardmäßig können Visualisierungen auf einer Berichtsseite für die Kreuzfilterung und -hervorhebung der anderen Visualisierungen auf der Seite verwendet werden. Wenn beispielsweise „1999“ auf dem Kreisdiagramm ausgewählt ist, wird das Säulendiagramm übergreifend hervorgehoben, um die Verkäufe nach Kategorie für „1999“ anzuzeigen.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Allerdings kann diese Interaktion, wie [in diesem Artikel](service-reports-visual-interactions.md) beschrieben, gesteuert werden. In DirectQuery erfordert dieses Kreuzfiltern und übergreifendes Hervorheben, dass Abfragen an die zugrunde liegende Quelle gesendet werden, damit die Interaktion deaktiviert wird, sollte es ungewöhnlich lange dauern, auf die Auswahl von Benutzern zu reagieren.
-* **Erwägen Sie, nur den Bericht freizugeben:** Es gibt mehrere Möglichkeiten, Inhalt nach der Veröffentlichung im **Power BI-Dienst** freizugeben. Im Fall von DirectQuery es ist ratsam, nur den abgeschlossenen Bericht freizugeben und anderen Benutzern nicht zu erlauben, neue Berichte zu schreiben (und womöglich Leistungsprobleme für die bestimmten visuellen Elemente, die sie erstellen, zu erkennen).
+  In DirectQuery wird durch das Kreuzfiltern und übergreifende Hervorheben erforderlich, dass Abfragen an die zugrunde liegende Quelle übermittelt werden. Dadurch wird die Interaktion deaktiviert, wenn es ungewöhnlich lange dauert, auf die Auswahl von Benutzern zu reagieren. Diese Interaktion kann entweder für den gesamten Bericht (wie zuvor unter *Optionen zur Verringerung von Abfragen* beschrieben) oder wie [in diesem Artikel](service-reports-visual-interactions.md) beschrieben von Fall zu Fall deaktiviert werden.
 
 Beachten Sie zusätzlich zu der oben aufgeführten Liste mit Vorschlägen, dass jede der nachfolgenden Berichtsfunktionen Leistungsprobleme auslösen kann.
 
@@ -294,6 +301,8 @@ Beachten Sie zusätzlich zu der oben aufgeführten Liste mit Vorschlägen, dass 
 * **Median:** Generell wird jede Aggregation (Sum, Count Distinct usw.) per Push an die zugrunde liegende Quelle übermittelt. Dies gilt allerdings nicht für Median, da dieses Aggregat normalerweise nicht von der zugrunde liegenden Quelle unterstützt wird. In solchen Fällen werden die Detaildaten aus der zugrunde liegenden Quelle abgerufen, und der Median wird aus den zurückgegebenen Ergebnissen berechnet. Dies ist sinnvoll, wenn der Median über eine relativ kleine Anzahl von Ergebnissen berechnet werden soll. Es treten jedoch Leistungsprobleme (oder Abfragefehler aufgrund der Zeilenbegrenzung von 1 Mio.) auf, wenn die Kardinalität groß ist.  Den Median der Bevölkerungszahl eines Landes zu ermitteln, kann sinnvoll sein, nicht jedoch die Ermittlung des Median von Verkaufspreisen
 * **Erweiterte Textfilter („enthält“ und ähnlich):** Wenn auf einer Textspalte gefiltert wird, erlaubt das erweiterte Filtern Filter wie „enthält“ und „beginnt mit“ usw. Diese Filter können sicherlich zu Leistungseinbußen bei einigen Datenquellen führen. Insbesondere sollte der Standardfilter „enthält“ nicht verwendet werden, falls wirklich nach einer exakten Übereinstimmung gesucht wird („ist“ oder „ist nicht“). Obwohl das Ergebnis möglicherweise identisch ist, kann sich abhängig von den tatsächlichen Daten die Leistung aufgrund der Verwendung von Indizes erheblich unterscheiden.
 * **Datenschnitte mit Mehrfachauswahl:** Standardmäßig erlauben Datenschnitte nur eine einzige Auswahl. Das Zulassen einer Mehrfachauswahl in Filtern kann zu Leistungsproblemen führen, da der Benutzer einen Satz von Elementen im Datenschnitt auswählt (z.B. die zehn Produkte, an die der Benutzer interessiert ist) und jede Auswahl dazu führt, dass Abfragen an die Back-End-Quelle gesendet werden. Der Benutzer kann das nächste Element auswählen, bevor die Abfrage abgeschlossen ist, was zu zusätzlicher Last auf der zugrunde liegenden Quelle führen kann.
+
+* **Überlegungen zum Deaktivieren von Summen in Visuals:** Standardmäßig werden Summen und Teilsummen in Tabellen und Matrizen angezeigt. In vielen Fällen müssen separate Abfragen an die zugrunde liegende Quelle gesendet werden, um die Werte für solche Summen abzurufen. Dies gilt immer, wenn die Aggregation *DistinctCount* verwendet wird oder wenn DirectQuery über SAP BW oder SAP HANA verwendet wird. Solche Summen sollten deaktiviert werden (mithilfe des Bereichs **Format**), wenn sie nicht erforderlich sind. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnostizieren von Leistungsproblemen
 Dieser Abschnitt beschreibt, wie Sie Leistungsprobleme diagnostizieren oder weitere Informationen darüber erhalten können, wie Berichte optimiert werden.
