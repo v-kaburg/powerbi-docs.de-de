@@ -3,7 +3,7 @@ title: "Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power
 description: "Project Madeira für Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 Einblicke in Ihre Project „Madeira“-Daten sind jetzt problemlos mit Power BI und dem Project „Madeira“-Inhaltspaket möglich. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
