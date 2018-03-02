@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Tour
 
@@ -31,7 +32,7 @@ Dieses Branchenbeispieldashboard und der zugrunde liegende Bericht analysieren U
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
- Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als [Inhaltspaket](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [PBIX-Datei](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) oder [Excel-Arbeitsmappe](http://go.microsoft.com/fwlink/?LinkId=529778) herunterladen.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
 
@@ -166,7 +167,8 @@ Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können s
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen- und Antwortenmodul und Berichte Ihnen Einblicke in Daten zum Einzelhandel geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Herunterladen des Beispielinhaltspakets für die Einzelhandelsanalyse](sample-tutorial-connect-to-the-samples.md)    
+* [Herunterladen des Beispielinhaltspakets für die Einzelhandelsanalyse](sample-tutorial-connect-to-the-samples.md)
+* [Herunterladen einer ZIP-Datei aller Beispieldateien](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Herunterladen der Excel-Arbeitsmappe für dieses Power BI-Beispiel](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Abrufen von Daten (für Power BI)](service-get-data.md)    
 * [Power BI – Grundkonzepte](service-basic-concepts.md)    

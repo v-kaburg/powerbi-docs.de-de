@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Samples
+ms.openlocfilehash: 7cd91ad5d6b43803745e5c6a12b6168e17f376af
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Beispiel für Personalwesen für Power BI: Tour
 
@@ -38,7 +39,7 @@ Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anha
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
- Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als [Inhaltspaket](https://docs.microsoft.com/en-us/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [PBIX-Datei](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix) oder [Excel-Arbeitsmappe](http://go.microsoft.com/fwlink/?LinkId=529780) herunterladen.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
 

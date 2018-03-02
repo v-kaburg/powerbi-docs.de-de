@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
 Auf dieser Seite finden Sie Informationen zu bekannten Problemen und kürzlich veröffentlichen Features im **Power BI-Dienst**. Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -631,8 +632,8 @@ Weitere Informationen finden Sie in unserem [Blog](http://blogs.msdn.com/b/power
 
 **31. März 2015**
 
-* **GitHub** -Dashboards verfügen jetzt über neue Visualisierungen, die sich auf die Erstellung von Communities, bessere Berechnungen und Layouts konzentrieren
-* **SendGrid** -Dashboards verfügen über neue Visualisierungen und ein neues Layout für bessere Erkenntnisse
+* **GitHub**-Dashboards verfügen jetzt über neue Visualisierungen, die sich auf die Erstellung von Communitys, bessere Berechnungen und Layouts konzentrieren
+* **SendGrid**-Dashboards verfügen über neue Visualisierungen und ein neues Layout für bessere Erkenntnisse
 * Können Sie jetzt **Treemaps in Q&A** verwenden, indem Sie den Ausdruck „als Karte“ am Ende der Abfrage anfügen
 * Sie können jetzt aus Q&A und Berichten **Treemaps anheften**. 
 * Viele Fehlerbehebungen!

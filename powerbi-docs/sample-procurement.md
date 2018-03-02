@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Tour
 
@@ -38,7 +39,7 @@ Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anha
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
- Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als Inhaltspaket, PBIX-Datei oder Excel-Arbeitsmappe herunterladen.
+ Bevor Sie das Beispiel verwenden können, müssen Sie es zunächst als [Inhaltspaket](https://docs.microsoft.com/en-us/power-bi/sample-procurement#get-the-content-pack-for-this-sample), [PBIX-Datei](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement Analysis Sample PBIX.pbix) oder [Excel-Arbeitsmappe](http://go.microsoft.com/fwlink/?LinkId=529784) herunterladen.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Abrufen des Inhaltspakets für dieses Beispiel
 

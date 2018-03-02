@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Unterstützung für große Datasets in Power BI Premium
 
-Power BI Premium unterstützt Uploads von Power BI Desktop-Dateien (.pbix) mit einer Größe von bis zu 10 GB. Wenn Sie ein großes Dataset verwenden möchten, veröffentlichen Sie es in einem Arbeitsbereich, dem Premium-Kapazität zugewiesen wurde.
+Power BI Premium unterstützt Uploads von Power BI Desktop-Dateien (.pbix) mit einer Größe von bis zu 10 GB. Sobald der Upload abgeschlossen ist, kann ein Dataset auf bis zu 12 GB aktualisiert werden. Wenn Sie ein großes Dataset verwenden möchten, veröffentlichen Sie es in einem Arbeitsbereich, dem Premium-Kapazität zugewiesen wurde.
  
 ## <a name="best-practices"></a>Bewährte Methoden
 
