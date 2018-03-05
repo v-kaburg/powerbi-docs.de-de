@@ -17,16 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 95c46e6efddd9f0bde6be6cbc1e484f0f72452ce
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Datenquellen für den Power BI-Dienst
 Daten sind der Kern von Power BI. Wenn Sie Daten untersuchen, Diagramme und Dashboards erstellen oder mit Q&A Fragen stellen, stammen die Daten, die allen diesen Visualisierungen und Antworten zugrunde liegen, aus einem Dataset. Doch woher stammt das Dataset? Aus einer Datenquelle.
 
-In diesem Artikel beschreiben wir die unterschiedlichen Typen von Datenquellen, mit denen Sie im Power BI-Dienst eine Verbindung herstellen können. Denken Sie daran, dass Sie Daten auch aus vielen weiteren Typen von Datenquellen beziehen können. Für diese müssen Sie jedoch möglicherweise zunächst Power BI Desktop oder die erweiterten Datenabfrage- und Datenmodellierungsfeatures von Excel verwenden. Damit befassen wir uns später ausführlicher. Betrachten wir zunächst die unterschiedlichen Typen von Datenquellen, mit denen Sie von der Website des Power BI-Diensts eine Verbindung herstellen können.
+In diesem Artikel beschreiben wir die unterschiedlichen Typen von Datenquellen, mit denen Sie im Power BI-Dienst eine Verbindung herstellen können. Denken Sie daran, dass Sie Daten auch aus vielen weiteren Typen von Datenquellen beziehen können. Für diese müssen Sie jedoch möglicherweise zunächst Power BI Desktop oder die erweiterten Datenabfrage- und Datenmodellierungsfeatures von Excel verwenden. Damit befassen wir uns später ausführlicher. Betrachten wir zunächst die unterschiedlichen Typen von Datenquellen, mit denen Sie von der Website des Power BI-Diensts eine Verbindung herstellen können.
 
 Sie können in Power BI Daten aus jeder dieser Datenquellen abrufen, indem Sie auf **Mein Arbeitsbereich** > **Daten abrufen** klicken.
 
@@ -35,7 +36,7 @@ Sie können in Power BI Daten aus jeder dieser Datenquellen abrufen, indem Sie a
 ## <a name="files"></a>Dateien
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (XLSX, XLXM) – Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
+**Excel** (XLSX, XLXM): Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
 
 **Power BI Desktop** (PBIX) – Sie können mithilfe von Power BI Desktop Daten aus externen Datenquellen abfragen und laden, das Datenmodell mit Measures und Beziehungen erweitern und Berichte erstellen. Sie können die Power BI Desktop-Datei in die Power BI-Website importieren. Power BI Desktop eignet sich am besten für fortgeschrittene Benutzer, die über gute Kenntnisse zu Datenquellen, zur Datenabfrage und -transformation und zu Konzepten der Datenmodellierung verfügen. Weitere Informationen finden Sie unter [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md).
 
@@ -50,16 +51,16 @@ Es ist außerdem von Belang, wo Sie die Dateien speichern. OneDrive for Business
 
 In Inhaltspaketen sind bereits alle Daten und Berichte vorbereitet, die Sie benötigen. In Power BI gibt es zwei Typen von Inhaltspaketen: Inhaltspakete aus Diensten wie Google Analytics, Marketo oder Salesforce, und Inhaltspakete, die von anderen Benutzern in Ihrer Organisation erstellt und freigegeben wurden.
 
-**Dienste** – Es gibt Dutzende von Diensten mit Inhaltspaketen für Power BI, und ihre Anzahl nimmt ständig zu. Für die meisten Dienste benötigen Sie ein Konto. Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Diensten](service-connect-to-services.md).
+**Dienste**: Es gibt Dutzende von Diensten mit Inhaltspaketen für Power BI, und ihre Anzahl nimmt ständig zu. Für die meisten Dienste benötigen Sie ein Konto. Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Diensten](service-connect-to-services.md).
 
-**Organisationsbezogen** – Wenn Sie und andere Benutzer in Ihrer Organisation über ein Power BI Pro-Konto verfügen, können Sie Inhaltspakete erstellen, freigeben und verwenden. Weitere Informationen finden Sie unter [Organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md).
+**Organisationsbezogen**: Wenn Sie und andere Benutzer in Ihrer Organisation über ein Power BI Pro-Konto verfügen, können Sie Inhaltspakete erstellen, freigeben und verwenden. Weitere Informationen finden Sie unter [Organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md).
 
 ## <a name="databases"></a>Datenbanken
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**Datenbanken in der Cloud** – Sie können im Power BI-Dienst mithilfe von DirectQuery eine Liveverbindung mit Azure SQL-Datenbank, Azure SQL Data Warehouse, Spark on Azure HDInsight und SQL Server Analysis Services herstellen. Verbindungen von Power BI mit diesen Datenbanken sind Liveverbindungen. Das bedeutet: Nach dem Herstellen der Verbindung z. B. mit einer Azure SQL-Datenbank wird beim Untersuchen der Daten und beim Erstellen von Berichten in Power BI immer eine direkte Abfrage der Datenbank ausgeführt, wenn Sie die Daten segmentieren oder einer Visualisierung ein weiteres Feld hinzufügen. Weitere Informationen finden Sie unter [Azure und Power BI](service-azure-and-power-bi.md).
+**Datenbanken in der Cloud**: Sie können im Power BI-Dienst mithilfe von DirectQuery eine Liveverbindung mit Azure SQL-Datenbank, Azure SQL Data Warehouse, Spark on Azure HDInsight und SQL Server Analysis Services herstellen. Verbindungen von Power BI mit diesen Datenbanken sind Liveverbindungen. Das bedeutet: Nach dem Herstellen der Verbindung z.B. mit einer Azure SQL-Datenbank wird beim Untersuchen der Daten und beim Erstellen von Berichten in Power BI immer eine direkte Abfrage der Datenbank ausgeführt, wenn Sie die Daten segmentieren oder einer Visualisierung ein weiteres Feld hinzufügen. Weitere Informationen finden Sie unter [Azure und Power BI](service-azure-and-power-bi.md).
 
-**Lokale Datenbanken** – Sie können im Power BI-Dienst eine direkte Verbindung mit SQL Server Analysis Services-Datenbanken für tabellarische Modelle herstellen. Dies erfordert Power BI Enterprise-Gateway. Wenn Sie nicht genau wissen, wie Sie eine Verbindung mit der Datenbank für tabellarische Modelle Ihrer Organisation herstellen, wenden Sie sich an den Administrator oder die IT-Abteilung. Weitere Informationen finden Sie unter [SQL Server Analysis Services-Tabellendaten in Power BI](sql-server-analysis-services-tabular-data.md).
+**Lokale Datenbanken**: Sie können im Power BI-Dienst eine direkte Verbindung mit SQL Server Analysis Services-Datenbanken für tabellarische Modelle herstellen. Dies erfordert Power BI Enterprise-Gateway. Wenn Sie nicht genau wissen, wie Sie eine Verbindung mit der Datenbank für tabellarische Modelle Ihrer Organisation herstellen, wenden Sie sich an den Administrator oder die IT-Abteilung. Weitere Informationen finden Sie unter [SQL Server Analysis Services-Tabellendaten in Power BI](sql-server-analysis-services-tabular-data.md).
 
 Für andere Typen von Datenbanken in Ihrer Organisation müssen Sie zunächst mithilfe von Power BI Desktop oder Excel eine Verbindung mit den Daten herstellen, diese abfragen und in ein Datenmodell laden. Anschließend können Sie die Datei nach Power BI importieren, wo ein Dataset erstellt wird. Wenn Sie eine geplante Aktualisierung einrichten, verwendet Power BI die Verbindungsinformationen aus der Datei zusammen mit den von Ihnen konfigurierten Aktualisierungseinstellungen, um eine direkte Verbindung mit der Datenquelle herzustellen und Aktualisierungen abzufragen. Diese Aktualisierungen werden dann in das Dataset in Power BI geladen. Weitere Informationen finden Sie unter [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md).
 
@@ -70,9 +71,9 @@ Die Daten einiger Datenquellen liegen bereits in einem Format vor, das für den 
 
 In anderen Fällen müssen Sie möglicherweise die gewünschten Daten abfragen und in eine Datei laden. Angenommen, in einer Data Warehouse-Datenbank auf einem Server in Ihrer Organisation befinden sich Logistikdaten. Sie können im Power BI-Dienst keine direkte Verbindung mit der Datenbank herstellen und mit der Untersuchung ihrer Daten beginnen (es sei denn, es handelt sich um eine Datenbank für tabellarische Modelle). Sie können jedoch mit Power BI Desktop oder Excel die Logistikdaten abfragen und in ein Datenmodell laden, das Sie dann als Datei speichern. Anschließend können Sie diese Datei nach Power BI importieren, wo ein Dataset erstellt wird.
 
-Ihr Einwand lautet wahrscheinlich: „Die Logistikdaten in der Datenbank ändern sich aber täglich. Wie kann ich sicherstellen, dass das Dataset in Power BI aktualisiert wird?“ Die Verbindungsinformationen aus der Power BI Desktop- oder Excel-Datei werden zusammen mit den Daten in das Dataset importiert. Wenn Sie eine geplante Aktualisierung einrichten oder das Dataset manuell aktualisieren, verwendet Power BI die Verbindungsinformationen aus dem Dataset zusammen mit einigen anderen Einstellungen, um eine direkte Verbindung mit der Datenbank herzustellen, Aktualisierungen abzufragen und diese in das Dataset zu laden. Wahrscheinlich ist Power BI Gateway erforderlich, um die Datenübertragung zwischen dem lokalen Server und Power BI zu sichern. Alle Visualisierungen in Berichten und Dashboards werden automatisch aktualisiert.
+Ihr Einwand lautet wahrscheinlich: „Die Logistikdaten in der Datenbank ändern sich aber täglich. Wie kann ich sicherstellen, dass mein Dataset in Power BI aktualisiert wurde?“ – Die Verbindungsinformationen aus der Power BI Desktop- oder Excel-Datei werden zusammen mit den Daten in das Dataset importiert. Wenn Sie eine geplante Aktualisierung einrichten oder das Dataset manuell aktualisieren, verwendet Power BI die Verbindungsinformationen aus dem Dataset zusammen mit einigen anderen Einstellungen, um eine direkte Verbindung mit der Datenbank herzustellen, Aktualisierungen abzufragen und diese in das Dataset zu laden. Wahrscheinlich ist Power BI Gateway erforderlich, um die Datenübertragung zwischen dem lokalen Server und Power BI zu sichern. Alle Visualisierungen in Berichten und Dashboards werden automatisch aktualisiert.
 
-Sie sehen also, dass Sie Daten auch nach Power BI übertragen können, wenn keine direkte Verbindung vom Power BI-Dienst zur Datenquelle hergestellt werden kann. Es sind lediglich einige zusätzliche Schritte und eventuell ein wenig Hilfe von der IT-Abteilung erforderlich. Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](desktop-data-sources.md).
+Sie sehen also, dass Sie Daten auch nach Power BI übertragen können, wenn keine direkte Verbindung vom Power BI-Dienst zur Datenquelle hergestellt werden kann. Es sind lediglich einige zusätzliche Schritte und eventuell ein wenig Hilfe von der IT-Abteilung erforderlich. Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](desktop-data-sources.md).
 
 ## <a name="some-more-details"></a>Einige weitere Informationen
 Sie werden in Power BI häufig auf die Begriffe „Dataset“ und „Datenquelle“ treffen. Diese werden oft synonym verwendet, bezeichnen jedoch zwei unterschiedliche, wenn auch verwandte Dinge.
