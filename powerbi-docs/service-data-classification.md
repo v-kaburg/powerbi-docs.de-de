@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: amac
-ms.openlocfilehash: d9693d89561bc0f942226934bc401a587a6ae20d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dashboard-data-classification"></a>Datenklassifizierung für Dashboards
 Für jedes Dashboard bestehen andere Anforderungen. Je nach der Datenquelle, mit der Sie eine Verbindung herstellen, werden Sie wahrscheinlich feststellen, dass Sie und die Kollegen, für die Sie das Dashboard freigeben, abhängig von der Vertraulichkeit der Daten verschiedene Vorsichtsmaßnahmen treffen müssen. Einige Dashboards sollten niemals außerhalb Ihres Unternehmens freigegeben oder gedruckt werden, während andere ohne Bedenken freigegeben werden können. Mithilfe der Datenklassifizierung für Dashboards können Sie den Personen, von denen die Dashboards angezeigt werden, die Bestimmung der zu verwendenden Sicherheitsstufe erleichtern. Sie können die Dashboards mit Klassifizierungstags versehen, die von der IT-Abteilung Ihres Unternehmens definiert wurden, damit jede Person, die den Inhalt anzeigt, den gleichen Kenntnisstand hinsichtlich der Vertraulichkeit der Daten hat.

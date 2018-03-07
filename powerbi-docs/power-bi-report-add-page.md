@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 36962e85528668139a4d5d460936212965032233
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Reports
+ms.openlocfilehash: da162a5377b9ba2979e38910b97924396fc921b9
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Hinzufügen einer Seite zu einem Power BI-Bericht im Power BI-Dienst und in Power BI Desktop
 Es gibt keinen Grund, eine Berichtsseite zu überfrachten – fügen Sie einfach eine neue Seite hinzu. 
@@ -29,7 +30,7 @@ Es gibt keinen Grund, eine Berichtsseite zu überfrachten – fügen Sie einfach
 Zum Hinzufügen und Duplizieren von Berichtsseiten sind Bearbeitungsberechtigungen für den Bericht erforderlich. Im Power BI-Dienst muss der Bericht hierzu in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) geöffnet werden. 
 
 ## <a name="add-a-new-blank-page"></a>Hinzufügen einer neuen leeren Seite
-Wählen Sie das gelbe Plussymbol aus und geben Sie dann einen neuen Namen für die Seite ein.  
+Wählen Sie das gelbe Plussymbol aus, und geben Sie dann einen neuen Namen für die Seite ein.  
 
 ![](media/power-bi-report-add-page/reorderpages2.gif)
 

@@ -17,24 +17,25 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: e0dc1bc583935e34f19506622341a10b9ad7683c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: a4c91443da0ce30fc5e35e5ffcf47e3faa68931d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop-Videos
 Wir betreiben einen [YouTube-Kanal für Power BI](http://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
 Die folgende Liste beschreibt alle verfügbaren Videos zu Power BI Desktop. Wählen Sie einen der Links unten, um das zugehörige Video anzuzeigen.
 
-* [Allgemeine Übersicht zu Power BI Desktop:](https://www.youtube.com/watch?v=Qgam9M8I0xA) vom Abrufen von Daten und Erstellen eines Berichts bis zum Hochladen des Berichts auf Power BI, damit er aktualisiert und mit anderen Benutzern geteilt werden kann.
+- [Allgemeine Übersicht zu Power BI Desktop:](https://www.youtube.com/watch?v=Qgam9M8I0xA) vom Abrufen von Daten und Erstellen eines Berichts bis zum Hochladen des Berichts auf Power BI, damit er aktualisiert und mit anderen Benutzern geteilt werden kann.  
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
-* Erfahren Sie, wie Sie mit Power BI Desktop [überzeugende Berichte erstellen](https://www.youtube.com/watch?v=ByIUx-HmQbw).
+  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>  
+- Erfahren Sie, wie Sie mit Power BI Desktop [überzeugende Berichte erstellen](https://www.youtube.com/watch?v=ByIUx-HmQbw).
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>
-* Erfahren Sie, wie Sie Daten in Power BI Desktop [mithilfe des Abfrage-Editors importieren, neu strukturieren und transformieren können](https://www.youtube.com/watch?v=ByIUx-HmQbw).
+  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
+- Erfahren Sie, wie Sie Daten in Power BI Desktop [mithilfe des Abfrage-Editors importieren, neu strukturieren und transformieren können](https://www.youtube.com/watch?v=ByIUx-HmQbw).
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
 

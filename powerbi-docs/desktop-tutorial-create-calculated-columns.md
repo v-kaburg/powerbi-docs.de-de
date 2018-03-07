@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Erstellen von berechneten Spalten in Power BI Desktop
 Manchmal enthalten die Daten, die Sie analysieren, einfach nicht ein bestimmtes Feld, das Sie benötigen, um die gewünschten Ergebnisse zu erzielen. Hier bieten sich berechnete Spalten an. Berechnete Spalten verwenden DAX-Formeln (Data Analysis Expressions), um die Werte einer Spalte zu definieren. Diese Werte können so ziemlich alles sein, von zusammengesetzten Textwerten aus einem Paar verschiedener Spalten an anderen Stellen des Modells bis hin zu berechneten numerischen Werten aus anderen Werten. Angenommen, Ihre Daten weisen eine Spalte „City“ und eine Spalte „State“ auf (als Felder in der Feldliste), Sie möchten aber ein einzelnes Feld verwenden, das beide in einem einzelnen Wert enthält, wie etwa „Miami, FL“. Das ist genau der richtige Einsatzzweck für berechnete Spalten.

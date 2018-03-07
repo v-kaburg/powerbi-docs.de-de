@@ -7,6 +7,7 @@
 | Ordner |Nein |Ja |
 | IBM DB2 |Nein |Ja |
 | IBM Informix-Datenbank |Nein |Ja |
+| IBM Netezza |Ja |Ja |
 | Impala |Ja |Ja |
 | MySQL |Nein |Ja |
 | OData |Nein |Ja |

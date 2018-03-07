@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 2d780c04a207f67b4f0f7c06672f993df3818275
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Administration
+ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [laden Sie das Whitepaper „Sicherheit in Power BI“ herunter](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -54,7 +55,7 @@ Die gepunktete Linie im Bild des **-Back-End** -Clusters oben verdeutlicht die G
 ## <a name="user-authentication"></a>Benutzerauthentifizierung
 Power BI verwendet Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) zum Authentifizieren von Benutzern, die sich beim Power BI-Dienst anmelden, und verwendet wiederum die Power BI-Anmeldeinformationen, wann immer ein Benutzer versucht, auf Ressourcen zuzugreifen, die eine Authentifizierung erfordern. Benutzer melden sich beim Power BI-Dienst mit der E-Mail-Adresse an, die sie zum Einrichten ihres Power BI-Kontos verwendet haben. Power BI verwendet diese zur Anmeldung verwendete E-Mail- Adresse als den *effektiven Benutzernamen*, der an Ressourcen übergeben wird, wann immer ein Benutzer versucht, eine Verbindung mit Daten herzustellen. Der *effektive Benutzername* wird dann einem *Benutzerprinzipalnamen* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) zugeordnet, und für das zugehörige Windows-Domänenkonto aufgelöst, mit dem die Authentifizierung erfolgt.
 
-Für Organisationen, die Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. *david@contoso.com*), ist die Zuordnung von *effektivem Benutzernamen* zum Benutzerprinzipalnamen (UPN) einfach. Für Organisationen, die keine Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. *david@contoso.onmicrosoft.com*), erfordert die Zuordnung zwischen AAD und lokalen Anmeldeinformationen eine [Verzeichnissynchronisierung](https://technet.microsoft.com/library/jj573653.aspx), um ordnungsgemäß zu funktionieren.
+Für Organisationen, die Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. *david@contoso.com*), ist die Zuordnung von *effektivem Benutzernamen* zum Benutzerprinzipalnamen (UPN) einfach. Für Organisationen, die keine Unternehmens-E-Mail-Adressen für die Anmeldung bei Power BI verwendet haben (wie z. B. **david@contoso.onmicrosoft.com*), erfordert die Zuordnung zwischen AAD und lokalen Anmeldeinformationen eine [Verzeichnissynchronisierung](https://technet.microsoft.com/library/jj573653.aspx), um ordnungsgemäß zu funktionieren.
 
 Die Plattformsicherheit für Power BI umfasst auch die Sicherheit der mehrinstanzenfähigen Umgebung sowie Netzwerksicherheit und die Möglichkeit zum Hinzufügen von zusätzlichen AAD-basierten Sicherheitsmaßnahmen.
 

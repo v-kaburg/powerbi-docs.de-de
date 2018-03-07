@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 Einblicke in Ihre Project „Madeira“-Daten sind jetzt problemlos mit Power BI und dem Project „Madeira“-Inhaltspaket möglich. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -106,8 +107,8 @@ Wenn dieser Fehler angezeigt wird, nachdem Sie die URL vom Projekt „Madeira“
 
 **„Fehler bei der Anmeldung“:** Wenn beim Anmelden beim Dashboard mit Ihren Project „Madeira“-Anmeldeinformationen ein „Fehler bei der Anmeldung“ auftritt, kann dies durch eines der folgenden Probleme verursacht worden sein:  
 
-    - Das von Ihnen verwendete Konto verfügt nicht über die Berechtigungen zum Lesen der Project „Madeira“-Daten aus Ihrem Konto. Überprüfen Sie Ihr Benutzerkonto in Project „Madeira“, und vergewissern Sie sich, dass Sie den richtigen Webdienst-Zugriffsschlüssel als Kennwort verwendet haben. Wiederholen Sie den Vorgang dann noch einmal.  
-    - Die Project „Madeira“-Instanz, mit der Sie eine Verbindung herzustellen versuchen, besitzt kein gültiges SSL-Zertifikat. In diesem Fall wird eine ausführlichere Fehlermeldung angezeigt („Es konnte keine vertrauenswürdige SSL-Beziehung hergestellt werden“). Beachten Sie, dass selbstsignierte Zertifikate nicht unterstützt werden.  
+   - Das von Ihnen verwendete Konto verfügt nicht über die Berechtigungen zum Lesen der Project „Madeira“-Daten aus Ihrem Konto. Überprüfen Sie Ihr Benutzerkonto in Project „Madeira“, und vergewissern Sie sich, dass Sie den richtigen Webdienst-Zugriffsschlüssel als Kennwort verwendet haben. Wiederholen Sie den Vorgang dann noch einmal.  
+   - Die Project „Madeira“-Instanz, mit der Sie eine Verbindung herzustellen versuchen, besitzt kein gültiges SSL-Zertifikat. In diesem Fall wird eine ausführlichere Fehlermeldung angezeigt („Es konnte keine vertrauenswürdige SSL-Beziehung hergestellt werden“). Beachten Sie, dass selbstsignierte Zertifikate nicht unterstützt werden.  
 
 **„Entschuldigung“:** Wenn das Fehlerdialogfeld „Entschuldigung“ angezeigt wird, nachdem Sie sich über das Authentifizierungsdialogfeld angemeldet haben, besteht häufig ein Problem beim Herstellen einer Verbindung mit den Daten für das Inhaltspaket. Vergewissern Sie sich, dass die URL dem oben angegebenen Muster entspricht:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

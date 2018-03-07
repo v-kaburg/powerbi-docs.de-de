@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht des Power BI-Diensts
 Wenn Sie über Besitzerberechtigungen verfügen, können Sie Berichte im Power BI-Dienst und in Power BI Desktop bearbeiten. Im Gegensatz zur Desktop-Version verfügt der Power BI-Dienst über zwei verschiedene Modi für die Interaktion mit Berichten: die [Leseansicht](service-reading-view-and-editing-view.md) für *Benutzer des Berichts* und die Bearbeitungsansicht für Besitzer und Bearbeiter eines Berichts. Im Tutorial in diesem Artikel wird die Bearbeitungsansicht im Power BI-Dienst betrachtet. 
