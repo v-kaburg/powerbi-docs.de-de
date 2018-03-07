@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f51d7d07bd36784978e43c516424b6f08fc4e211
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Erstellen eigener Measures in Power BI Desktop
 Einige der leistungsstärksten Data Analysis-Lösungen in Power BI Desktop können mithilfe von Measures erstellt werden. Measures unterstützen uns, indem sie Berechnungen mit unseren Daten durchführen, während wir mit unseren Berichten interagieren. Dieses Tutorial führt Sie durch die Grundlagen hin zum Erstellen einiger eigener einfacher Measures in Power BI Desktop.
@@ -63,7 +64,7 @@ Aus Measures berechnete Werte ändern sich immer in Reaktion auf unsere Interakt
 
 ![](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-Wenn sich das Ergebnis eines Measures aufgrund einer Interaktion mit unserem Bericht ändert, nehmen wir Einfluss auf den *Kontext* unseres Measures. Bei jeder Interaktion mit Ihrem Bericht ändern Sie den Kontext, in dem ein Measure seine Ergebnisse berechnet und anzeigt.
+Wenn sich das Ergebnis eines Measures aufgrund einer Interaktion mit unserem Bericht ändert, nehmen wir Einfluss auf den *Kontext*unseres Measures. Bei jeder Interaktion mit Ihrem Bericht ändern Sie den Kontext, in dem ein Measure seine Ergebnisse berechnet und anzeigt.
 
 In den meisten Fällen wird das von Power BI erledigt, und Power BI gibt Werte entsprechend den Feldern, die wir hinzugefügt, und den Aggregationsarten zurück, die wir ausgewählt haben. Aber in anderen Fällen müssen Sie ggf. eigene Measures erstellen, um komplexere, einzigartige Berechnungen durchzuführen.
 

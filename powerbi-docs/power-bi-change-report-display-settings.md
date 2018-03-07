@@ -17,17 +17,18 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: a1affeff46b67d89939b41ca76b4693cbc4ede33
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>Ändern der Größe einer Berichtsseite (Tutorial)
 Im [vorherigen Artikel und Video](power-bi-report-display-settings.md) haben Sie zwei unterschiedliche Arten zum Steuern der Seitenanzeige in Power BI-Berichten kennengelernt: **Ansicht** und **Seitengröße**. „Seitenansicht“ und „Seitengröße“ sind sowohl im Power BI-Dienst als auch in Power BI Desktop verfügbar, mit nahezu identischem Aussehen und Verhalten. Für dieses Tutorial verwenden wir jedoch den Power BI-Dienst.
 
 ### <a name="prerequisites"></a>Voraussetzungen
-- Power BI-Dienst   
+- Power BI-Dienst   
 - [Bericht zum Analysebeispiel für den Einzelhandel](sample-retail-analysis.md)
 
 ## <a name="first-lets-change-the-page-view-setting"></a>Ändern Sie zunächst die Einstellung für die Seitenansicht.

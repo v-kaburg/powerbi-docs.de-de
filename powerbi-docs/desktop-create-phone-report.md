@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind
 Wenn Sie [in Power BI Desktop einen Bericht erstellen](desktop-report-view.md), können Sie seine Nutzung in den mobilen Apps auf Smartphones optimieren, indem Sie eine spezielle Version des Berichts für das Smartphone erstellen. Sie können den Bericht für das Smartphone anpassen, indem Sie visuelle Elemente neu anordnen, ihre Größe ändern und ggf. nicht alle visuellen Elemente in den Bericht aufnehmen, um eine optimale Benutzererfahrung zu erzielen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im Smartphonebericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.

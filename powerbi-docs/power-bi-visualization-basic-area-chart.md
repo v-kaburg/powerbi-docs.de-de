@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: c9512be1bcba67eb169a41e3f240fac8e9073a5d
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: c4a7a90a8647b4a5d2c76cefbba5041a6e31607d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="basic-area-chart-tutorial"></a>Grundlegendes Flächendiagramm (Tutorial)
 Das grundlegende Flächendiagramm (d.h. überlappendes Flächendiagramm) basiert auf dem Liniendiagramm. Der Bereich zwischen der Achse und der Zeile ist mit Farben gefüllt, um Volumen anzuzeigen. 
@@ -37,7 +38,7 @@ Einfache Flächendiagramme sind gut geeignet,
 * für individuelle Reihen, die einen physisch zählbaren Satz darstellen
 
 ### <a name="prerequisites"></a>Voraussetzungen
- - Power BI-Dienst
+ - Power BI-Dienst
  - Analysebeispiel für den Einzelhandel
 
 Melden Sie sich bei Power BI an, wählen Sie **Daten abrufen\> Beispiele \> Analysebeispiel für Einzelhandel > Verbinden** aus, und wählen Sie **Zum Dashboard wechseln**. 

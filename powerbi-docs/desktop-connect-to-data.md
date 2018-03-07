@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3acd0f833990fa590a6d17468c110ded713b7daa
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Verbinden mit Daten in Power BI Desktop
 Mit Power BI Desktop können Sie problemlos Verbindungen zur ständig wachsenden Welt der Daten herstellen. Wenn Sie noch nicht über Power BI Desktop verfügen, können Sie die Anwendung [herunterladen](http://go.microsoft.com/fwlink/?LinkID=521662) und installieren.
@@ -71,7 +72,7 @@ Nachdem das Datenmodell in der **Berichtsansicht** in Power BI Desktop geladen i
 Dies ist natürlich nur ein einfaches Modell mit einer einzelnen Datenverbindung. Die meisten Power BI-Desktop-Berichte sind mit verschiedenen Datenquellen verbunden, die Ihren Anforderungen entsprechend strukturiert sind und Beziehungen aufweisen, die ein umfassendes Datenmodell erzeugen. 
 
 ### <a name="next-steps"></a>Nächste Schritte
-Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in folgenden Ressourcen:
+Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:
 
 * [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
 * [Übersicht zu Abfragen mit Power BI Desktop](desktop-query-overview.md)
