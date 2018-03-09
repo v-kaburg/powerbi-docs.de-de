@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
@@ -40,23 +40,24 @@ Wenn Sie zu einer bestehenden Organisation gehören, die Office 365 verwendet, k
 
 > [!NOTE]
 > Wenn Sie Mitglied einer Organisation sind, ist die Registrierung für Einzelpersonen möglicherweise deaktiviert. Weitere Informationen finden Sie unter [Registrierung für Einzelpersonen deaktiviert](#individual-sign-up-has-been-turned-off), wenn eine Fehlermeldung darauf hinweist, dass diese Funktion deaktiviert wurde.
-> 
-> 
+>
 
 ## <a name="what-you-need-to-sign-up"></a>Anforderungen für eine Registrierung
-Um sich für Power BI zu registrieren, benötigen Sie eine geschäftliche E-Mail-Adresse. Eine private E-Mail-Adresse funktioniert nicht mit dem Power BI-Dienst.
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Um sich für Power BI zu registrieren, benötigen Sie eine geschäftliche E-Mail-Adresse. Sie können sich nicht mit einer privaten E-Mail-Adresse für Power BI registrieren.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Welche E-Mail-Adresse kann für Power BI verwendet werden?
-Bei der Registrierung für Power BI können nur E-Mail-Adressen von Geschäfts-, Schul- oder Unikonten verwendet werden. Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Dazu gehören auch outlook.com, hotmail.com, gmail.com und andere.
+Bei der Registrierung für Power BI können nur E-Mail-Adressen von Geschäfts-, Schul- oder Unikonten verwendet werden. Sie können sich bei Power BI nicht mit E-Mail-Adressen anmelden, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Dazu gehören auch outlook.com, hotmail.com, gmail.com und andere.
 
 Wenn Sie versuchen, sich mit einer persönlichen E-Mail-Adresse zu registrieren, werden Sie in einer Fehlermeldung dazu aufgefordert, ein Geschäfts-, Schul- oder Unikonto zu verwenden.
 
 > [!NOTE]
-> Power BI unterstützt zu diesem Zeitpunkt keine „.gov“- oder „.mil“-Adressen. Wenden Sie sich an Ihren Office 365-Administrator.
-> 
-> 
+> Sie können sich mit einer .gov- oder .mil-Adresse für Power BI registrieren. Sehen Sie sich für weitere Informationen den Artikel zum [Registrieren einer US-Behörde für den Power BI-Dienst](https://docs.microsoft.com/en-us/power-bi/service-govus-signup) an.
+>
+
+> [!NOTE]
+> Nachdem Sie sich registriert haben, [können Sie Gastbenutzer einladen](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b), um Inhalt in Ihrem Power BI-Mandanten für diese freizugeben. Dies geht mit jeder E-Mail-Adresse, auch mit einer privaten.
+>
 
 ## <a name="which-one-do-you-need"></a>Welche Lizenz benötigen Sie?
 Sie können ermitteln, welche Lizenz Sie benötigen, indem Sie die Informationen lesen, die es zu jedem Lizenztyp gibt. Benutzer der kostenlosen (Free) Lizenz können einen Großteil der Funktionalität der Dienste nutzen, ausgenommen sind lediglich die Funktionen für Freigaben (gemeinsame Nutzung) und Zusammenarbeit. Power BI Pro-Benutzer können alle Features im Dienst verwenden, aber diese Lizenz ist nicht kostenfrei. Wenn Sie keine Inhalte freigeben müssen, ist „Kostenlos“ wahrscheinlich ausreichend für Sie. Weitere Informationen hierzu erhalten Sie auf der Seite [Power BI – Preise](https://powerbi.microsoft.com//pricing/).
@@ -141,7 +142,7 @@ In vielen Fällen ist die Registrierung für Power BI mit dem oben beschriebenen
 
 | **Symptom/Fehlermeldung** | **Mögliche Ursache und Lösung** |
 | --- | --- |
-| **Persönliche E-Mail-Adressen (beispielsweise nancy@gmail.com)** Sie erhalten während der Registrierung eine Meldung wie die folgende: <br /><br /> *Sie haben eine private E-Mail-Adresse eingegeben. Bitte geben Sie Ihre geschäftliche E-Mail-Adresse ein, damit wir die Daten Ihres Unternehmens sicher speichern können.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* |Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. <br /><br /> Damit Sie die Registrierung abschließen können, versuchen Sie es noch mal, und geben Sie eine E-Mail-Adresse Ihrer Organisation oder Bildungseinrichtung an. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Persönliche E-Mail-Adressen (beispielsweise nancy@gmail.com)** Sie erhalten während der Registrierung eine Meldung wie die folgende: <br /><br /> *Sie haben eine private E-Mail-Adresse eingegeben. Bitte geben Sie Ihre geschäftliche E-Mail-Adresse ein, damit wir die Daten Ihres Unternehmens sicher speichern können.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* |Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. <br /><br /> Damit Sie die Registrierung abschließen können, versuchen Sie es noch mal, und geben Sie eine E-Mail-Adresse Ihrer Organisation oder Bildungseinrichtung an. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Lassen Sie das Benutzerkonto als [Azure B2B-Gast](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) einladen. |
 | **Self-Service-Registrierung deaktiviert** Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Ihre Registrierung konnte nicht beendet werden. Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert. Bitte wenden Sie sich an Ihre IT-Abteilung, um den Anmeldeprozess abzuschließen.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* |Der IT-Administrator Ihres Unternehmens hat die Self-Service-Registrierung für Power BI deaktiviert. <br /><br /> Wenden Sie sich an Ihren IT-Administrator, und bitten Sie ihn, die untenstehenden Anweisungen zu befolgen, damit Sie die Registrierung abschließen, vorhandene Benutzer für Power BI registrieren und Ihrem bestehenden Mandanten neue Benutzer hinzufügen können. <br/><br/> Dieses Problem kann auch auftreten, wenn Sie sich über einen Partner für Office 365 registriert haben. [Weitere Informationen](service-admin-syndication-partner.md) <br /><br /> [Power BI in Ihrer Organisation](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **Die E-Mail-Adresse ist keine Office 365-ID**. Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Wir können Sie auf „contoso.com“ nicht finden.  Verwenden Sie auf der Arbeit oder in der Schule eine andere ID? <br /><br /> Versuchen Sie, sich damit anzumelden. Wenn es nicht funktioniert, wenden Sie sich an Ihre IT-Abteilung.* |Ihre Organisation verwendet für die Anmeldung bei Office 365 und anderen Microsoft-Diensten andere IDs als Ihre E-Mail-Adresse.  Ihre E-Mail-Adresse ist z. B., Nancy.Smith@contoso.com aber Ihre ID ist nancys@contoso.com. <br /><br /> Nutzen Sie zum Abschließen der Registrierung die ID, die Ihrem Unternehmen für die Anmeldung bei Office 365 oder anderen Microsoft-Diensten zugewiesen wurde.  Wenn Sie diese nicht kennen, wenden Sie sich an Ihren IT-Administrator. <br /><br /> Wenn Sie sich noch immer nicht registrieren können, besteht auch die Möglichkeit, sich mit einem erweiterten Setup [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement anzumelden](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
