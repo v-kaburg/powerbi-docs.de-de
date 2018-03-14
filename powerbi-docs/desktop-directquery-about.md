@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 572f64cc0e6ba97c62c9a088c60cf3887bacc6ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -88,7 +88,7 @@ Die im vorherigen Absatz beschriebene Situation gilt auch für das Herstellen ei
 
 Das Verhalten von Berichten via SSAS nach der Veröffentlichung im **Power BI-Dienst** ist den DirectQuery-Berichten in folgenden Punkten ähnlich:
 
-* Beim Öffnen eines vorhandenen Berichts im **Power BI-Dienst** oder beim Schreiben eines neuen Berichts wird die zugrunde liegende SSAS-Quelle abgefragt (wobei möglicherweise ein lokales Datengateway erforderlich ist).
+* Beim Öffnen eines vorhandenen Berichts im **Power BI-Dienst** oder beim Schreiben eines neuen Berichts wird die zugrunde liegende SSAS-Quelle abgefragt (wobei womöglich ein lokales Datengateway erforderlich ist).
 * Dashboardkacheln werden automatisch nach einem Zeitplan aktualisiert (z.B. einmal pro Stunde oder wie auch immer die Häufigkeit definiert ist)
 
 Es gibt jedoch auch wichtige Unterschiede, z.B. wird für die Liveverbindung die Identität des Benutzers, der den Bericht öffnet, immer an die zugrunde liegende SSAS-Quelle übergeben.
