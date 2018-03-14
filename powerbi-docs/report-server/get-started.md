@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: maghan
-ms.openlocfilehash: 61558613b0022f7585b31c3e3d674a64ea009d61
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-power-bi-report-server"></a>Erste Schritte mit Power BI-Berichtsserver
 Mithilfe der zahlreichen sofort einsetzbaren Tools und Dienste von Power BI-Berichtsserver können Sie Power BI-, mobile und paginierte Berichte lokal erstellen, bereitstellen und verwalten.
@@ -86,4 +86,5 @@ Weitere [Entwicklerdokumentation für Berichtsserver](https://docs.microsoft.com
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+
 
