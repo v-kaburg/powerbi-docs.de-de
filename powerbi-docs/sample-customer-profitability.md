@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Beispiel zur Kundenrentabilität für Power BI: Tour
 
@@ -40,21 +40,22 @@ Führen Sie hierzu die folgenden Schritte aus: Dieses Tutorial verwendet den Pow
 
 1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
 2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wählen Sie das **Beispiel zur Kundenrentabilität** aus, und wählen Sie dann **Verbinden**.  
-   
+
    ![Daten abrufen](media/sample-customer-profitability/get-supplier-sample.png)
 5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. Verwenden Sie die Beispiele, um einen Testlauf von Power BI auszuführen.  
-   
+
    ![Sternchen](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
 
-Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat. [Beispiel zur Kundenrentabilität](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+Alternativ können Sie das Beispiel als PBIX-Datei herunterladen, ein für Power BI Desktop entworfenes Dateiformat.
+[Beispiel zur Kundenrentabilität](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Abrufen der Excel-Arbeitsmappe für dieses Beispiel
 
@@ -87,13 +88,13 @@ Die Kacheln auf der rechten Seite des Dashboard zeigen eine Scorecard für das T
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Alle Führungskräfte, mit Ausnahme von Carlos, haben ihre Vertriebsziele bereits übertroffen. Carlos tatsächliche Verkaufszahlen sind allerdings die höchsten. 
+- Alle Führungskräfte, mit Ausnahme von Carlos, haben ihre Vertriebsziele bereits übertroffen. Carlos tatsächliche Verkaufszahlen sind allerdings die höchsten.
 - Der Bruttogewinn in % von Annelie ist am niedrigsten, aber es ist ein kontinuierlicher Anstieg seit März zu erkennen.
-- Der Bruttogewinn in % von Valery ist dagegen erheblich gefallen. 
-- Und Andrew hatte ein wechselhaftes Jahr. 
+- Der Bruttogewinn in % von Valery ist dagegen erheblich gefallen.
+- Und Andrew hatte ein wechselhaftes Jahr.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Erkunden der zugrunde liegenden Daten auf dem Dashboard
-Auf diesem Dashboard befinden sich Kacheln, die mit einem Bericht und einer Excel-Arbeitsmappe verknüpft sind. 
+Auf diesem Dashboard befinden sich Kacheln, die mit einem Bericht und einer Excel-Arbeitsmappe verknüpft sind.
 
 ### <a name="open-the-excel-online-data-source"></a>Öffnen der Excel Online-Datenquelle
 Zwei Kacheln auf dem Dashboard, „Target vs Actual“ und „Year Over Year Revenue Growth“, wurden aus einer Excel-Arbeitsmappe angeheftet. Wenn Sie eine dieser Kacheln auswählen, öffnet Power BI die Datenquelle, in diesem Fall Excel Online.
@@ -112,14 +113,14 @@ Zwei Kacheln auf dem Dashboard, „Target vs Actual“ und „Year Over Year Rev
 
 4. Erkunden Sie die Daten weiter. Wenn Sie etwas Interessantes finden, wählen Sie das Symbol **Anheften** ![](media/sample-customer-profitability/power-bi-excel-pin.png) in der rechten oberen Ecke, um diese Informationen [an ein Dashboard anzuheften](service-dashboard-pin-tile-from-excel.md).
 
-5. Verwenden Sie den Pfeil „Zurück“ in Ihrem Browser, um zum Dashboard zurückzukehren. 
+5. Verwenden Sie den Pfeil „Zurück“ in Ihrem Browser, um zum Dashboard zurückzukehren.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Öffnen des zugrunde liegenden Power BI-Berichts
-Die meisten Kacheln im Beispieldashboard für die Kundenrentabilität wurden aus dem zugrunde liegenden Beispielbericht der Kundenrentabilität angeheftet. 
+Die meisten Kacheln im Beispieldashboard für die Kundenrentabilität wurden aus dem zugrunde liegenden Beispielbericht der Kundenrentabilität angeheftet.
 
-1. Wählen Sie eine dieser Kacheln aus, um den Bericht in der Leseansicht zu öffnen. 
+1. Wählen Sie eine dieser Kacheln aus, um den Bericht in der Leseansicht zu öffnen.
 
-2. Der Bericht umfasst drei Seiten. Jede Registerkarte des Berichts entspricht einer Seite. 
+2. Der Bericht umfasst drei Seiten. Jede Registerkarte des Berichts entspricht einer Seite.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Inwiefern variiert die Rentabilität nach der Branche? Wie lassen sich die Produ
 
 Im Blasendiagramm sucht die Finanzdirektorin nach den größten Blasen, da sich diese am stärksten auf den Umsatz auswirken. Wenn Sie die Seite nach Manager filtern, indem Sie im Flächendiagramm auf den jeweiligen Namen klicken, können Sie die Beiträge der Manager nach Branchensegment sehen.
 
-* Der Einflussbereich von Andrew reicht über viele verschiedene Branchensegmente und weist starke Abweichungen beim Bruttogewinn in % (meist positiv) und bei der Abweichung in % auf. 
-* Das Diagramm von Annelie ist ähnlich. Die Ausnahme ist, dass sie nur eine Handvoll Branchensegmente abdeckt und dass der Schwerpunkt auf dem Segment „Behörden“ und dem Produkt „Gladius“ liegt. 
-* Bei Carlos liegt der Schwerpunkt eindeutig auf dem Segment „Dienstleistungen“, und der Gewinn ist gut. Er hat die Abweichung in % für das Segment „Hightech“ stark verbessert und im neuen Segment „Industrie“ gegenüber dem Budget ein hervorragendes Ergebnis erzielt. 
-* Tina bearbeitet eine Handvoll Segmente und verfügt über den höchsten Bruttogewinn in %, aber an den zumeist kleinen Blasen ist erkennbar, dass ihr Beitrag zum Gesamtergebnis des Unternehmens sehr gering ist. 
+* Der Einflussbereich von Andrew reicht über viele verschiedene Branchensegmente und weist starke Abweichungen beim Bruttogewinn in % (meist positiv) und bei der Abweichung in % auf.
+* Das Diagramm von Annelie ist ähnlich. Die Ausnahme ist, dass sie nur eine Handvoll Branchensegmente abdeckt und dass der Schwerpunkt auf dem Segment „Behörden“ und dem Produkt „Gladius“ liegt.
+* Bei Carlos liegt der Schwerpunkt eindeutig auf dem Segment „Dienstleistungen“, und der Gewinn ist gut. Er hat die Abweichung in % für das Segment „Hightech“ stark verbessert und im neuen Segment „Industrie“ gegenüber dem Budget ein hervorragendes Ergebnis erzielt.
+* Tina bearbeitet eine Handvoll Segmente und verfügt über den höchsten Bruttogewinn in %, aber an den zumeist kleinen Blasen ist erkennbar, dass ihr Beitrag zum Gesamtergebnis des Unternehmens sehr gering ist.
 * Valery, die nur für ein Produkt verantwortlich ist, bearbeitet nur fünf Branchensegmente. Ihr Brancheneinfluss ist saisonabhängig, aber es ergibt sich immer eine große Blase. Dies deutet auf einen signifikanten Beitrag zum Gesamtergebnis des Unternehmens hin. Beruht die negative Leistung auf der Branche?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
@@ -174,9 +175,9 @@ Für die Analyse wäre es hilfreich zu ermitteln, in welcher Branche Valery den 
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Geben Sie **Gesamtumsatz nach Branche für Valery**ein. Sie sehen, wie die Visualisierung beim Eingeben der Frage aktualisiert wird.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    Die Distribution ist der größte Umsatzbereich für Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Nähere Untersuchung durch das Hinzufügen von Filtern
@@ -184,15 +185,15 @@ Wir sehen uns die Branche *Distribution* an.
 
 1. Öffnen Sie die Berichtsseite „Analyse der Branchenmarge“.
 2. Erweitern Sie den Filterbereich auf der rechten Seite, ohne eine der Visualisierungen auf der Berichtsseite auszuwählen (wenn der Bereich nicht bereits erweitert ist). Im Filterbereich sollten nur Filter auf Seitenebene angezeigt werden.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Suchen Sie den Filter für **Branche**, und wählen Sie den Pfeil, um die Liste zu erweitern. Fügen wir nun einen Seitenfilter für die Branche „Distribution“ hinzu. Heben Sie zunächst die gesamte Auswahl auf, indem Sie das Kontrollkästchen **Alles auswählen** deaktivieren. Wählen Sie dann nur **Distribution** aus.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. Im Flächendiagramm „Bruttogewinn nach Monat und Managername“ sehen wir, dass nur Valery und Tina Kunden aus dieser Branche haben und dass Valery für diese Branche nur von Juni bis November tätig war.   
-5. Wählen Sie in der Legende des Flächendiagramms „Bruttogewinn nach Monat und Managername“ zuerst **Tina** und dann **Valery** aus. Beachten Sie, dass der Anteil von „Gesamtumsatz nach Produkt“ im Vergleich zu Valery sehr gering ist. 
+5. Wählen Sie in der Legende des Flächendiagramms „Bruttogewinn nach Monat und Managername“ zuerst **Tina** und dann **Valery** aus. Beachten Sie, dass der Anteil von „Gesamtumsatz nach Produkt“ im Vergleich zu Valery sehr gering ist.
 6. Verwenden Sie den Q&A-Bereich, um nach dem **Gesamtumsatz für Distribution nach Szenario und Führungskraft** zu fragen.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Auf ähnliche Weise können wir andere Branchen untersuchen und den visuellen Elementen sogar Kunden hinzufügen, um nach Gründen für die Leistung von Valery zu suchen.
@@ -205,4 +206,3 @@ Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispie
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, Q&A und Berichte Ihnen Einblicke in Kundendaten geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).
 
 [Zurück zu den Beispielen in Power BI](sample-datasets.md)  
-
