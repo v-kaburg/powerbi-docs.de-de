@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welche Beispieldaten sind für die Verwendung mit Power BI verfügbar?
 Angenommen, Sie sind mit Power BI noch nicht vertraut und möchten es ausprobieren, haben jedoch keine Daten.  Oder vielleicht haben Sie ein Dataset, fürchten jedoch, das Dataset zu beschädigen, da Sie mit Power BI (noch) nicht vertraut sind?
@@ -106,16 +106,16 @@ Inhaltspakete sind das einzige Beispielformat, das innerhalb von Power BI verfü
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Abrufen und Öffnen eines Beispielinhaltspakets im Power BI-Dienst
 1. Öffnen Sie den Power BI-Dienst („app.powerbi.com“), und melden Sie sich an.
 2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wählen Sie eines der Beispiele aus, um eine Beschreibung dieses Beispiels zu öffnen. Wählen Sie dann **Verbinden** aus.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. Verwenden Sie die Beispiele, um einen Testlauf von Power BI auszuführen.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 Da Sie jetzt über Daten verfügen, können Sie mit den nächsten Schritten fortfahren.  Probieren Sie mithilfe der Beispielinhaltspakete einige unserer Tutorials aus, oder öffnen Sie einfach den Power BI-Dienst, und machen Sie sich damit vertraut.
@@ -124,7 +124,7 @@ Da Sie jetzt über Daten verfügen, können Sie mit den nächsten Schritten fort
 Jedes der Beispielinhaltspakete ist auch als Excel-Arbeitsmappe verfügbar. Die Excel-Arbeitsmappen sind für die Verwendung im Power BI-Dienst vorgesehen.  
 
 1. Laden Sie die Dateien mithilfe der nachstehenden Links einzeln herunter, oder [laden Sie eine ZIP-Datei mit allen Beispieldateien herunter](http://go.microsoft.com/fwlink/?LinkId=535020). Als erfahrener Benutzer möchten Sie möglicherweise die Excel-Arbeitsmappen herunterladen, um die Datenmodelle zu untersuchen oder zu bearbeiten.
-   
+
    * [Analysebeispiel für den Einzelhandel](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [Analysebeispiel für Lieferantenqualität](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [Beispiel für das Personalwesen](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ Jedes der Beispielinhaltspakete ist auch als Excel-Arbeitsmappe verfügbar. Die 
    * [Analysebeispiel für Beschaffung](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [Beispiel für Vertrieb und Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Speichern Sie die heruntergeladene Datei. Es ist wichtig, wo Sie die Datei speichern.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png) **Lokal** – Wenn Sie die Datei auf einem lokalen Laufwerk Ihres Computers oder an einem anderen Speicherort in Ihrer Organisation speichern, können Sie die Datei über Power BI in Power BI importieren. In Wahrheit verbleibt Ihre Datei aber auf Ihrem lokalen Laufwerk. Die Datei wird also eigentlich gar nicht in Power BI importiert. Tatsächlich wird ein neues Dataset auf Ihrer Power BI-Website erstellt. Daraufhin werden Daten und ggf. das Datenmodell in das Dataset geladen. Wenn Ihre Datei Berichte enthält, werden diese auf Ihrer Power BI-Website unter „Berichte“ angezeigt.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Geschäftlich** – Wenn Sie OneDrive for Business verwenden, können Sie sich mit demselben Konto auch bei Power BI anmelden. So synchronisieren Sie Ihre Arbeit in Excel, Power BI oder einer CSV-Datei mit den Datasets, Berichten und Dashboards in Power BI auf mit Abstand effektivste Art und Weise. Da sich sowohl Power BI als auch OneDrive in der Cloud befinden, verbindet sich Power BI etwa einmal in der Stunde mit Ihrer Datei in OneDrive. Wenn Änderungen gefunden werden, werden Ihre Dataset, Berichte und Dashboards in Power BI automatisch aktualisiert.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Persönlich** – Wenn Sie die Dateien im eigenen OneDrive-Konto speichern, erhalten Sie dennoch viele der Vorteile, die Ihnen OneDrive for Business bieten würde. Der Hauptunterschied besteht darin, dass Sie sich beim ersten Verknüpfen mit Ihrer Datei, mit Ihrem Microsoft-Konto bei OneDrive anmelden müssen (mit „Daten abrufen“ > „Dateien“ > „OneDrive – Persönlich“). Normalerweise sind Ihr Microsoft- und Ihr Power BI-Konto nicht identisch. Stellen Sie bei der OneDrive-Anmeldung mithilfe Ihres Microsoft Kontos sicher, dass Sie die Option „Angemeldet bleiben“ aktiviert haben. Auf diese Weise ist Power BI in der Lage, sich etwa einmal die Stunde mit Ihrer Datei zu verbinden und sicherzustellen, dass Ihr Dataset in Power BI synchronisiert ist.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint-Teamwebsites** – Das Speichern der Power BI-Dateien in SharePoint-Teamwebsites erfolgt auf ähnliche Weise wie das Speichern in OneDrive for Business. Der größte Unterschied besteht im Herstellen der Verknüpfung zur Datei aus Power BI. Sie können eine URL angeben oder eine Verknüpfung mit einem Stammordner erstellen.
 3. Öffnen Sie den Power BI-Dienst („app.powerbi.com“), und melden Sie sich an.
-   
+
    > [!TIP]
    > Jetzt sollten Sie ein neues Dashboard erstellen und nach der Datei benennen, die Sie importieren möchten.  Andernfalls wird beim Importieren des Excel-Datasets kein neues nach dem Beispiel benanntes Dashboard erstellt, sondern dem derzeit geöffneten Dashboard wird eine Kachel hinzugefügt. Durch Auswählen dieser Kachel gelangen Sie zum Bericht für das Dataset. Dies ist kein großes Problem, da Sie jederzeit später ein neues Dashboard erstellen können. Sie ersparen sich jedoch einen oder zwei Schritte, wenn Sie mit einem neuen Dashboard beginnen.
-   > 
-   > 
+   >
+   >
 4. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ **Dateien > Abrufen** aus.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. Navigieren Sie zu dem Verzeichnis, in dem Sie das heruntergeladene Beispiel gespeichert haben.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. Wählen Sie die Datei aus, in diesem Fall **Procurement Analysis Sample.xlsx**, die auf OneDrive for Business gespeichert wurde, und wählen Sie **Verbinden**.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Wählen Sie, ob die Daten importiert werden soll oder ob die Arbeitsmappe in Power BI importiert und genau wie in Excel Online angezeigt werden soll.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. Wenn Sie **Importieren** auswählen, wird die Beispielarbeitsmappe in Power BI importiert und als neues Dataset mit dem Namen **Analysebeispiel für Beschaffung** hinzugefügt.  Wenn die Arbeitsmappe Power View-Blätter, -Tabellen oder -Bereiche oder ein Datenmodell enthält, wird von Power BI auch ein Bericht (mit dem gleichen Namen) erstellt. Und wenn Sie noch kein Dashboard geöffnet haben, wird ein neues Dashboard erstellt. (Wenn beim Klicken auf **Daten abrufen** ein Dashboard geöffnet war, wird auf diesem Dashboard eine neue leere Kachel angezeigt.  Durch Klicken auf diese Kachel gelangen Sie zu dem Bericht für das Dataset, das Sie gerade hinzugefügt haben). Der neue Inhalt wird nach dem Beispiel benannt und mit einem gelben Sternchen markiert.
 10. Wenn der Bildschirm **Ihr Dataset steht bereit** angezeigt wird, wählen Sie **Dataset anzeigen** oder **Schnelleinblicke**  aus, oder verwenden Sie einfach die linke Power BI-Navigationsleiste, um den zugehörigen Bericht oder das zugehörige Dashboard zu suchen und zu öffnen.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Optional) Anzeigen der Excel-Beispiele in Excel
@@ -170,18 +170,18 @@ Möchten Sie wissen, wie die Daten in einer Excel-Arbeitsmappe in Power BI-Datas
 
 * Wenn Sie eine Beispielarbeitsmappe zum ersten Mal in Excel öffnen, werden möglicherweise zwei Warnungen angezeigt. Die erste Warnung besagt, dass die Arbeitsmappe in der geschützten Ansicht angezeigt wird. Wählen Sie **Bearbeitung aktivieren**aus. Die zweite Warnung besagt möglicherweise, dass die Arbeitsmappe externe Datenverbindungen aufweist. Wählen Sie **Inhalt aktivieren**aus.
 * Jede Arbeitsmappe enthält mehrere Tabellen. Da alle diese Excel-Beispiele mindestens ein Power View-Blatt mit Visualisierungen enthalten, erhalten Sie beim Importieren der Excel-Datei in Power BI ein Dataset **und** einen Bericht.
-  
+
    Sie müssen möglicherweise das [Power View-Add-In aktivieren](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957).
 * Wo sind nun die eigentlichen Daten? Sie befinden sich im PowerPivot-Datenmodell. Wählen Sie zum Anzeigen der Daten auf der Registerkarte **PowerPivot****Datenmodell verwalten**aus.
-  
-    Wird die Registerkarte „PowerPivot“ nicht angezeigt? [Aktivieren Sie das Power Pivot-Add-In](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
+
+    Wird die Registerkarte „PowerPivot“ nicht angezeigt? [Aktivieren Sie das Power Pivot-Add-In](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * Die Registerkarte „Info“ enthält Informationen zu obviEnce, dem Unternehmen, das das Beispiel erstellt hat.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Die Power BI-Beispiele als PBIX-Dateien
 Jedes der Beispielinhaltspakete ist auch als PBIX-Datei von Power BI verfügbar. Die PBIX-Dateien sind für die Verwendung mit Power BI Desktop vorgesehen.  
 
 1. Laden Sie mithilfe der folgenden Links die Dateien einzeln herunter.
-   
+
    * [Analysebeispiel für den Einzelhandel](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [Analysebeispiel für Lieferantenqualität](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [Beispiel für das Personalwesen](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Jedes der Beispielinhaltspakete ist auch als PBIX-Datei von Power BI verfügbar.
    * [Beispiel für Vertrieb und Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. Speichern Sie die heruntergeladene Datei.
 3. Wählen Sie in Desktop **Datei > Öffnen** aus, und navigieren Sie zu dem Verzeichnis, in dem Sie die PBIX-Beispieldatei gespeichert haben.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Wählen Sie die PBIX-Datei aus, um sie in Desktop zu öffnen.
 
@@ -204,4 +204,3 @@ Jedes der Beispielinhaltspakete ist auch als PBIX-Datei von Power BI verfügbar.
 [Datenquellen für Power BI](service-get-data.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-
