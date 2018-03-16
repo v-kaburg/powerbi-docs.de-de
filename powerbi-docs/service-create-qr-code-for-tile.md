@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Erstellen eines QR-Codes für eine Kachel in Power BI für die Verwendung in mobilen Apps
 QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen verbinden – es ist keine Navigation oder Suche erforderlich.
 
 Im Power BI-Dienst können Sie einen QR-Code für Kacheln in allen Dashboards erstellen, selbst in Dashboards, die Sie nicht bearbeiten können. Platzieren Sie den QR-Code dann an einer eindeutigen Stelle. Fügen Sie ihn beispielsweise in eine E-Mail ein, oder drucken Sie ihn aus, und stellen Sie ihn an einem bestimmten Ort bereit. 
 
-Kollegen, mit denen Sie das Dashboard gemeinsam verwenden, können [den QR-Code für den Zugriff auf die Kachel direkt mit ihrem mobilen Gerät scannen](mobile-apps-qr-code.md). Sie können entweder den QR-Code-Scanner in der Power BI-App oder jeden anderen auf dem Gerät installierten QR-Scanner verwenden. .
+Kollegen, mit denen Sie das Dashboard gemeinsam verwenden, können [den QR-Code für den Zugriff auf die Kachel direkt mit ihrem mobilen Gerät scannen](mobile-apps-qr-code.md). Sie können entweder den QR-Code-Scanner in der Power BI-App oder jeden anderen auf dem Gerät installierten QR-Scanner verwenden.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Erstellen eines QR-Codes für eine Kachel
 1. Öffnen Sie ein Dashboard im Power BI-Dienst.
