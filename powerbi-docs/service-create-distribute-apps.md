@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -94,7 +95,7 @@ Standardmäßig wird für die App in Power BI ein kleiner farbiger Kreis mit den
      ![Benutzerdefiniertes Bild](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Veröffentlichen der App
-Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröffentlichen Sie sie als eine App. Beachten Sie, dass Sie nicht alle Berichte und Dashboards im Arbeitsbereich veröffentlichen müssen. Sie brauchen nur diejenigen zu veröffentlichen, die fertig sind. 
+Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröffentlichen Sie sie als eine App. Beachten Sie, dass Sie nicht alle Berichte und Dashboards im Arbeitsbereich veröffentlichen müssen. Sie brauchen nur diejenigen zu veröffentlichen, die fertig sind.
 
 1. Entscheiden Sie in der Listenansicht des Arbeitsbereichs, welche Dashboards und Berichte Sie in die App einschließen möchten.
 
@@ -104,23 +105,23 @@ Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröf
 
      ![Warnung zu zugehörigem Dashboard](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Wählen Sie rechts oben die Schaltfläche **App veröffentlichen** aus, um mit dem Freigeben aller Inhalte in diesem Arbeitsbereich zu beginnen.
+2. Wählen Sie rechts oben die Schaltfläche **App veröffentlichen** aus, um mit dem Freigeben aller Inhalte in diesem Arbeitsbereich zu beginnen.
    
      ![Veröffentlichen der App](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Geben Sie in **Details** die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Hintergrundfarbe festlegen, um die App zu personalisieren.
+3. Geben Sie in **Details** die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Hintergrundfarbe festlegen, um die App zu personalisieren.
    
      ![App-Details](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Unter **Inhalt** wird der Inhalt angezeigt, der als Teil der App veröffentlicht wird. Dies ist der gesamte Inhalt, den Sie in diesem Arbeitsbereich ausgewählt haben. Sie können auch die Landing Page der App festlegen – dies ist das Dashboard oder der Bericht, der für Benutzer als Erstes angezeigt wird, wenn sie Ihre App öffnen. Sie können **Keine** auswählen. Dann wird als Erstes eine Liste des gesamten Inhalts der App angezeigt. 
+4. Unter **Inhalt** wird der Inhalt angezeigt, der als Teil der App veröffentlicht wird. Dies ist der gesamte Inhalt, den Sie in diesem Arbeitsbereich ausgewählt haben. Sie können auch die Landing Page der App festlegen – dies ist das Dashboard oder der Bericht, der für Benutzer als Erstes angezeigt wird, wenn sie Ihre App öffnen. Sie können **Keine** auswählen. Dann wird als Erstes eine Liste des gesamten Inhalts der App angezeigt. 
    
      ![App-Inhalte](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Legen Sie unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation, nur bestimmte Personen oder Active Directory-Sicherheitsgruppen. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie die App automatisch für die Empfänger installieren lassen.
+5. Legen Sie unter **Zugriff** fest, wer Zugriff auf die App hat: jeder Benutzer in der Organisation, nur bestimmte Personen oder Active Directory-Sicherheitsgruppen. Wenn Sie über entsprechende Berechtigungen verfügen, können Sie die App automatisch für die Empfänger installieren lassen. Sie können diese Einstellung im [Power BI-Verwaltungsportal](#how-to-enable-pushing-apps) aktivieren. Hier finden Sie weitere Aspekte: [Übertragung einer App mithilfe von Push](#how-to-enable-pushing-apps).
 
     ![App-Zugriff](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Wenn Sie **Fertig stellen** auswählen, wird eine Meldung mit der Bestätigung angezeigt, dass die App jetzt veröffentlicht werden kann. Sie können im Dialogfeld mit der Erfolgsmeldung die URL, die ein direkter Link zu dieser App ist, kopieren und an die Personen senden, für die Sie die App freigegeben haben.
+6. Wenn Sie **Fertig stellen** auswählen, wird eine Meldung mit der Bestätigung angezeigt, dass die App jetzt veröffentlicht werden kann. Sie können im Dialogfeld mit der Erfolgsmeldung die URL, die ein direkter Link zu dieser App ist, kopieren und an die Personen senden, für die Sie die App freigegeben haben.
    
      ![Fertigstellen der App](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Nachdem Sie Ihre App veröffentlicht haben, möchten Sie sie eventuell ändern o
    
      Der App-Arbeitsbereich ist der Stagingbereich. Deshalb werden Ihre Änderungen erst dann mithilfe von Push in die App übertragen, wenn Sie die App erneut veröffentlichen. So können Sie Änderungen vornehmen, ohne dass sich diese auf die veröffentlichten Apps auswirken.  
  
-1. Kehren Sie zur Liste der Inhalte im App-Arbeitsbereich zurück, und wählen Sie **App aktualisieren** aus.
+3. Kehren Sie zur Liste der Inhalte im App-Arbeitsbereich zurück, und wählen Sie **App aktualisieren** aus.
    
      ![Schaltfläche „App aktualisieren“](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Nachdem Sie Ihre App veröffentlicht haben, möchten Sie sie eventuell ändern o
      ![Schaltfläche „App aktualisieren“](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 Den Personen, für die Sie die App veröffentlicht haben, wird automatisch die aktualisierte Version der App angezeigt. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Automatisches Installieren von Apps für Endbenutzer
+Sie können Apps für Endbenutzer automatisch installieren, um so die Verteilung der richtigen Apps an die richtigen Leute oder Gruppen zu vereinfachen.
+
+Apps liefern Daten, die Ihre Endbenutzer benötigen, um ihre Aufträge erledigen zu können. Sie können diese Apps nun automatisch in der Apps-Inhaltsliste installieren, anstatt sie in Microsoft AppSource zu suchen oder einem Installationslink zu folgen. Dies erleichtert es Ihnen, Ihre Benutzer mit dem Standardinhalt von Power BI vertraut zu machen.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>So führen Sie die automatische Installation einer App für Endbenutzer durch
+Sobald der Administrator das Feature aktiviert hat, haben die Herausgeber der App die neue Option **App automatisch installieren**. Wenn das Feld ***aktiviert*** ist, und der Herausgeber der Anwendung **Fertigstellen** (oder für vorhandene Apps **App aktualisieren**) auswählt, wird die App mithilfe von Push an alle Benutzer oder Gruppen übertragen, die im Bereich **Berechtigungen** der App auf der Registerkarte **Zugriff** definiert sind.
+
+![Aktivieren der Übertragung von Apps mithilfe von Push](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>So erhalten Benutzer die Apps, die mithilfe von Push an sie übertragen wurden
+Nachdem Sie eine App mithilfe von Push übertragen haben, wird sie automatisch in der Liste der Apps angezeigt. Sie können die Apps zusammenstellen, die ein Benutzer oder ein Aufgabengebiet in Ihrer Organisation benötigt.
+
+![Aktivieren der Übertragung von Apps mithilfe von Push](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Überlegungen zum automatischen Installieren von Apps
+Beachten Sie bei der Übertragung von Apps mithilfe von Push an Benutzer folgende Punkte:
+
+* Die automatische Installation für Benutzer einer App kann zeitaufwendig sein. Die meisten Apps werden für Benutzer sofort installiert, die Übertragung von Apps mithilfe von Push kann allerdings einige Zeit in Anspruch nehmen.  Dies ist von der Anzahl der Elemente in der App und der Anzahl der Personen abhängig, denen der Zugriff gewährt wird. Es wird empfohlen, die Übertragung von Apps mithilfe von Push außerhalb der Stoßzeiten und mit ausreichend Vorlaufzeit durchzuführen, bevor die Benutzer diese benötigen. Überprüfen Sie die Funktionsfähigkeit des Vorgangs mit einigen wenigen Benutzern, bevor Sie die Verfügbarkeit der App im großen Rahmen ankündigen.
+
+* Aktualisieren Sie Ihren Browser. Bevor die mithilfe von Push übertragene App in der Liste der Apps angezeigt wird, muss der Benutzer seinen Browser gegebenenfalls aktualisieren, schließen und neu öffnen.
+
+* Wenn der Benutzer die App nicht sofort in der Liste der Apps sieht, sollte der Browser aktualisiert, geschlossen und neu geöffnet werden.
+
+* Versuchen Sie die Benutzer nicht zu überfordern. Achten Sie darauf, dass nicht zu viele Apps mithilfe von Push übertragen werden, damit die Benutzer die vorinstallierten Apps als nützlich wahrnehmen. Um ein sinnvolles Timing zu gewährleisten, sollten Sie steuern können, wer Apps mithilfe von Push an Endbenutzer übertragen kann. Sie können eine Kontaktperson auswählen, die für das Übertragen von Apps in Ihrer Organisation mithilfe von Push an Endbenutzer verantwortlich ist.
 
 ## <a name="unpublish-an-app"></a>Aufheben der Veröffentlichung einer App
 Jedes Mitglied eines App-Arbeitsbereichs kann die Veröffentlichung der App aufheben.
@@ -167,7 +194,7 @@ In dieser Version wurden alle Gruppenarbeitsbereiche in App-Arbeitsbereiche umbe
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Wie unterscheiden sich Apps von organisationsbezogenen Inhaltspaketen?
 Apps sind eine Weiterentwicklung und Vereinfachung von Inhaltspaketen, mit einigen wichtigen Unterschieden. 
 
-* Nachdem Geschäftskunden ein Inhaltspaket installiert haben, verliert es seine Gruppenidentität. Es ist dann lediglich eine Liste von Dashboards und Berichten zwischen anderen Dashboards und Berichten. Hingegen bleibt die Gruppierung und Identität von Apps auch nach der Installation erhalten. Dies erleichtert Geschäftskunden die Navigation zu ihnen im zeitlichen Verlauf.  
+* Nachdem Geschäftskunden ein Inhaltspaket installiert haben, verliert es seine Gruppenidentität. Es ist dann lediglich eine Liste von Dashboards und Berichten zwischen anderen Dashboards und Berichten. Hingegen bleibt die Gruppierung und Identität von Apps auch nach der Installation erhalten. Dies erleichtert Geschäftskunden die Navigation zu ihnen im zeitlichen Verlauf.
 * Sie können in jedem Arbeitsbereich mehrere Inhaltspakete erstellen, eine App weist jedoch eine 1:1-Beziehung zu ihrem Arbeitsbereich auf. Wir glauben, dass dies langfristig das Verständnis und die Verwaltung der Apps erleichtert. Im Power BI-Blog finden Sie im Abschnitt zur Planung weitere Informationen zu unseren geplanten Verbesserungen in diesem Bereich. 
 * Wir planen, im Verlauf der Zeit die Unterstützung organisationsbezogener Inhaltspakete einzustellen, daher wird empfohlen, von nun an Apps zu erstellen.  
 
@@ -179,5 +206,5 @@ Mit Apps können Sie eine schreibgeschützte Version des App-Arbeitsbereichs fü
 ## <a name="next-steps"></a>Nächste Schritte
 * [Installieren und Verwenden von Apps in Power BI](service-install-use-apps.md)
 * [Power BI-Apps für externe Dienste](service-connect-to-services.md)
+* [Power BI-Verwaltungsportal](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

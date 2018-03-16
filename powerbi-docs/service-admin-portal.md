@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -192,6 +193,19 @@ Benutzer in der Organisation können Inhaltspakete in der gesamten Organisation 
 ### <a name="create-template-organizational-content-packs"></a>Erstellen von Vorlagenpaketen mit Organisationsinhalten
 
 Benutzer in der Organisation können Vorlageninhaltspakete erstellen, die Datasets verwenden, die auf einer Datenquelle in Power BI Desktop basieren.
+
+### <a name="push-apps-to-end-users"></a>Übertragen von Apps an Endbenutzer mithilfe von Push
+
+Ihr Mandantenadministrator kann die Fähigkeit, Apps mithilfe von Push zu übertragen, in den **Mandanteneinstellungen** aktivieren.
+
+   ![Aktivieren der Übertragung von Apps mithilfe von Push](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+Sie können die Einstellung in **Aktiviert** ändern und anschließend angeben, wer diese Funktion nutzen kann (die gesamte Organisation oder bestimmte Sicherheitsgruppen).
+
+> [!NOTE]
+> Bedenken Sie, dass es einige Zeit dauern kann, bis Änderungen an den Mandanteneinstellungen in Kraft treten.
+
+Weitere Informationen finden Sie unter [Push apps (Übertragen von Apps mithilfe von Push)](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Integrationseinstellungen
 

@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Berichte in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Was ist ein Power BI-Bericht?
 Ein ***Power BI-Bericht*** stellt eine Ansicht eines Datasets aus verschiedenen Perspektiven dar, wobei die aus dem Dataset gewonnenen verschiedenen Ergebnisse und Erkenntnisse als Visualisierungen angezeigt werden.  Ein Bericht kann eine einzelne Visualisierung, aber auch mehrere mit Visualisierungen gefüllte Seiten enthalten. Abhängig von Ihrem Aufgabengebiet *erstellen* Sie vielleicht Berichte, und/oder Sie *nutzen* oder verwenden Berichte.
 
-![](media/service-reports/reportview.png)
+![Berichtseite](media/service-reports/reportview.png)
 
 Dieser Bericht enthält drei Seiten (oder Registerkarten). Derzeit wird die Seite „Store Sales Overview“ angezeigt. Auf dieser Seite befinden sich 6 verschiedene Visualisierungen und ein Seitentitel. Visualisierungen können an Dashboards *angeheftet* werden. Bei der Auswahl einer angehefteten Visualisierung wird der Bericht geöffnet, aus dem heraus sie angeheftet wurde.
 

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Löschen beliebiger Elemente aus dem Power BI-Dienst
 In diesem Artikel wird erläutert, wie Sie ein Dashboard, einen Bericht, eine Arbeitsmappe, ein Dataset, eine App, eine Visualisierung oder einen Arbeitsbereich im Power BI-Dienst löschen.
@@ -35,21 +36,21 @@ Dashboards können entfernt werden. Beim Entfernen des Dashboards werden nicht d
 
 ### <a name="to-delete-a-dashboard"></a>So löschen Sie ein Dashboard
 1. Wählen Sie im Arbeitsbereich die Registerkarte **Dashboards** aus.
-2. Suchen Sie das zu löschende Dashboard, und wählen Sie das Symbol „Löschen“ ![](media/service-delete/power-bi-delete-icon.png) aus.
+2. Suchen Sie das zu löschende Dashboard, und klicken Sie auf „Löschen“. ![Symbol „Löschen“](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![Video](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Löschen eines Berichts
 Keine Sorge, das Löschen eines Berichts löscht nicht das Dataset, auf dem der Bericht basiert.  Und alle Visualisierungen, die Sie aus dem Bericht angeheftet haben, sind auch sicher – sie bleiben auf dem Dashboard, bis Sie sie einzeln löschen.
 
 ### <a name="to-delete-a-report"></a>So löschen Sie einen Bericht
 1. Wählen Sie in Ihrem Arbeitsbereich die Registerkarte **Berichte** aus.
-2. Suchen Sie den zu löschenden Bericht, und wählen Sie das Symbol „Löschen“ ![](media/service-delete/power-bi-delete-icon.png) aus.   
+2. Suchen Sie den zu löschenden Bericht, und wählen Sie das Symbol „Löschen“ aus.   ![Symbol „Löschen“](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![Registerkarte „Berichte“ eines Arbeitsbereichs](media/service-delete/power-bi-delete-reportnew.png)
 3. Bestätigen Sie den Löschvorgang.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Dialogfeld „Bericht löschen“](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Ist der Bericht Teil eines [Inhaltspakets](service-organizational-content-pack-introduction.md), können Sie ihn mit dieser Methode nicht löschen.  Siehe [Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket in Power BI](service-organizational-content-pack-disconnect.md).
@@ -63,12 +64,12 @@ Wenn die Arbeitsmappe auf OneDrive for Business gespeichert ist, wird Sie durch 
 
 ### <a name="to-delete-a-workbook"></a>So löschen Sie eine Arbeitsmappe
 1. Wählen Sie in Ihrem Arbeitsbereich die Registerkarte **Arbeitsmappen** aus.
-2. Suchen Sie die zu löschende Arbeitsmappe, und wählen Sie das Symbol „Löschen“ ![](media/service-delete/power-bi-delete-report2.png) aus.
+2. Suchen Sie die zu löschende Arbeitsmappe, und wählen Sie das Symbol zum Löschen  ![Symbol „Löschen“](media/service-delete/power-bi-delete-report2.png) aus.
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Registerkarte „Arbeitsmappe“](media/service-delete/power-bi-delete-workbooknew.png)
 3. Bestätigen Sie den Löschvorgang.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Dialogfeld „Arbeitsmappe entfernen“](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Löschen eines Datasets
 Datasets können gelöscht werden. Durch das Löschen eines Datasets werden jedoch auch alle Berichte und Dashboardkacheln, die Daten aus diesem Dataset enthalten, gelöscht.
@@ -79,13 +80,13 @@ Wenn ein Dataset einem oder mehreren [organisationsbezogenen Inhaltspaketen](ser
 1. Wählen Sie in Ihrem Arbeitsbereich die Registerkarte **Datasets** aus.
 2. Suchen Sie das zu löschende Dataset, und wählen Sie die Auslassungspunkte (...) aus.  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Registerkarte „Datasets“](media/service-delete/power-bi-delete-datasetnew.png)
 3. Wählen Sie in der Dropdownliste **Löschen** aus.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![Das Menü mit Auslassungspunkten (...)](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Bestätigen Sie den Löschvorgang.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Dialogfeld „Dashboard löschen“](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Löschen eines App-Arbeitsbereichs
 > [!WARNING]
@@ -98,13 +99,13 @@ Wenn Sie der Ersteller eines App-Arbeitsbereichs sind, können Sie ihn löschen.
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>So löschen Sie als Administrator einen App-Arbeitsbereich
 1. Wählen Sie im linken Navigationsbereich **Arbeitsbereiche** aus.
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![App-Arbeitsbereiche](media/service-delete/power-bi-delete-workspace.png)
 2. Wählen Sie die Auslassungspunkte (...) rechts neben dem zu löschenden Arbeitsbereich und dann **Arbeitsbereich bearbeiten** aus.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![Menü mit den Auslassungspunkten > Arbeitsbereich bearbeiten](media/service-delete/power-bi-edit-workspace.png)
 3. Wählen Sie im Fenster **Arbeitsbereich bearbeiten** die Option **Arbeitsbereich löschen** > **Löschen** aus.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![Arbeitsbereich löschen](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>So entfernen Sie einen App-Arbeitsbereich aus der Liste
 Wenn Sie einem App-Arbeitsbereich nicht mehr als Mitglied angehören möchten, können Sie ihn ***verlassen***. Er wird dann aus der Liste entfernt. Wenn Sie einen Arbeitsbereich verlassen, bleibt er für alle anderen Mitglieder des Arbeitsbereichs erhalten.  
@@ -117,7 +118,7 @@ Wenn Sie einem App-Arbeitsbereich nicht mehr als Mitglied angehören möchten, k
 1. Wechseln Sie zu dem App-Arbeitsbereich, den Sie entfernen möchten.
 2. Wählen Sie in der rechten oberen Ecke die Auslassungspunkte (...) und dann **Leave workspace** (Arbeitsbereich verlassen) > **Verlassen** aus.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![Arbeitsbereich verlassen](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > Die in der Dropdownliste angezeigten Optionen hängen davon ab, ob Sie Administrator oder Mitglied des App-Arbeitsbereichs sind.
@@ -133,7 +134,7 @@ Wenn Sie eine App von der Seite mit der Liste der Apps löschen, wird sie nicht 
 1. Wählen Sie im linken Navigationsbereich **Apps** aus, um die Seite mit der Liste der Apps zu öffnen.
 2. Zeigen Sie auf die zu löschende App, und wählen Sie das Symbol „Löschen“ ![](media/service-delete/power-bi-delete-report2.png) aus.
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![Apps auswählen](media/service-delete/power-bi-delete-app.png)
 
    Wenn Sie eine App versehentlich entfernen, stehen Ihnen mehrere Optionen zur Verfügung, um sie wieder zu erhalten.  Sie können den Ersteller der App bitten, sie erneut zu senden, Sie können die ursprüngliche E-Mail mit dem Link zur App suchen, Sie können in der [Mitteilungszentrale](service-notification-center.md) überprüfen, ob die Benachrichtigung für die App noch aufgeführt ist, oder Sie können [AppSource](service-install-use-apps.md) für Ihre Organisation überprüfen.
 

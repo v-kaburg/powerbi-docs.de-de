@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -82,6 +82,7 @@ Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführ
 
 Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführt werden. Ein Fehler 403 kann verschiedene Ursachen haben.
 
+* Die Benutzer haben die Anzahl der Einbettungstoken überschritten, die mit einer gemeinsam genutzten Kapazität generiert werden können. Sie müssen weitere Azure-Kapazitäten erwerben und den Arbeitsbereich dieser Kapazität zuweisen, um weitere Einbettungstoken generieren zu können. Weitere Informationen finden Sie unter [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
 * Das Azure AD-Auth-Token ist abgelaufen.
 * Der authentifizierte Benutzer ist kein Mitglied der Gruppe (App-Arbeitsbereich).
 * Der authentifizierte Benutzer ist kein Administrator der Gruppe (App-Arbeitsbereich).

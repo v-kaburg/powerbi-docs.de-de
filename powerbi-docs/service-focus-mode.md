@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 0ea4dd703f804ed7d519613e6f3cc98ed0409188
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -35,39 +36,41 @@ Im ***Fokusmodus*** können Sie eine Dashboardkachel oder Berichtsvisualisierung
 > Der Fokusmodus unterscheidet sich vom [Vollbildmodus](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Fokusmodus für Dashboards und Dashboardkacheln
-1. Zeigen Sie auf die Kachelvisualisierung, wählen Sie die Auslassungspunkte (...) und dann **Im Fokusmodus öffnen** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png) aus.  
+1. Zeigen Sie auf die Kachelvisualisierung, klicken Sie auf die Auslassungspunkte (...) und dann auf **Im Fokusmodus öffnen**. 
+
+    ![Menü mit Auslassungspunkten (...) für die Kachel](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. Die Kachel wird geöffnet und füllt den gesamten Berichtszeichenbereich. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![Kachel füllt den Berichtszeichenbereich](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Erweitern Sie den Bereich „Filter“, um alle auf diese Visualisierung angewendeten Filter anzuzeigen.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![Fokusmodus mit dem Bereich „Filter“](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Fahren Sie mit der Untersuchung fort, indem Sie die Filter ändern und, wenn Sie etwas Interessantes finden, die Visualisierung an ein Dashboard anheften.
 
 5. Beenden Sie den Fokusmodus, und wechseln Sie zurück zum Dashboard, indem Sie **< Fokusmodus beenden** (in der linken oberen Ecke des Visuals) auswählen.
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![Fokusmodus beenden](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Fokusmodus für Berichtvisualisierungen
 
-1. Zeigen Sie auf die Berichtsvisualisierung, und wählen Sie das Symbol des für den **Fokusmodus** ![](media/service-focus-mode/pbi_popout.jpg) aus.  
+1. Zeigen Sie auf die Berichtsvisualisierung, und wählen Sie das Symbol für den **Fokusmodus** ![Symbol „Fokusmodus“](media/service-focus-mode/pbi_popout.jpg) aus.  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![Symbol „Fokusmodus“ auf der Kachel](media/service-focus-mode/power-bi-hover-focus.png)
 2. Die Visualisierung wird geöffnet und füllt den gesamten Zeichenbereich. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![Visual im Fokusmodus](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Erweitern Sie den Bereich „Filter“, um alle auf diese Visualisierung angewendeten Filter anzuzeigen.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![Fokusmodus mit Anzeige „Filter“](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Fahren Sie mit der Untersuchung fort, indem Sie die Filter ändern und, wenn Sie etwas Interessantes finden, die Visualisierung an ein Dashboard anheften.   
 5. Beenden Sie den Fokusmodus, und wechseln Sie zurück zum Bericht, indem Sie **Zurück zum Bericht** (in der linken oberen Ecke des Visuals) auswählen. 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![Fokusmodus beenden](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Wechseln vom Fokusmodus zum Vollbildmodus
 Nachdem sie im Fokusmodus geöffnet wurde, kann die Kachel oder das Visual im [Vollbildmodus (TV-Modus)](service-fullscreen-mode.md) angezeigt werden. Im Vollbildmodus erfolgt die Anzeige ohne störende Menüs und Navigationssymbole.

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Bearbeiten oder Entfernen einer Dashboardkachel
 
@@ -54,23 +55,23 @@ In diesem Artikel werden folgende Themen behandelt:
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Erstellen einer neuen Visualisierung und Anheften der Visualisierung an das Dashboard
 1. Wählen Sie aus dem Dashboard „Analysebeispiel für IT-Ausgaben“ die Kachel „Betrag“ aus, um den Bericht zu öffnen.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Kachel „Betrag“](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Öffnen Sie den Bericht in der Bearbeitungsansicht, indem Sie auf der oberen Menüleiste **Bericht bearbeiten** auswählen.
 
 3. Fügen Sie eine neue Berichtsseite hinzu, indem Sie das Pluszeichen (+) am unteren Rand des Berichts auswählen.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![Pluszeichen](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. Wählen Sie im Bereich „FELDER“ **Fakt > Betrag** und **Geschäftsbereich > Geschäftsbereich** aus.
  
 5. Wählen Sie im Bereich „VISUALISIERUNGEN“ das Ringdiagrammsymbol aus, um die Visualisierung in ein Ringdiagramm zu konvertieren.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Bereich „Visualisierungen“](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Wählen Sie das Anheftsymbol aus, und heften Sie das Ringdiagramm an das Dashboard „Analysebeispiel für IT-Ausgaben“ an.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![Zeigen Sie auf eine Kachel](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Wenn die Erfolgsmeldung angezeigt wird, wählen Sie **Zum Dashboard wechseln** aus. Sie werden aufgefordert, die Änderungen zu speichern. Wählen Sie **Speichern**.
 
@@ -86,24 +87,23 @@ Suchen Sie die neue Kachel auf dem Dashboard. Wählen Sie die Kachel aus und hal
 ## <a name="resize-the-tile"></a>Ändern der Größe der Kachel
 Sie können Kacheln in vielen unterschiedlichen Größen erstellen – von 1 x 1 Kacheleinheiten bis zu 5 x 5. Wählen Sie den Ziehpunkt (in der unteren rechten Ecke) aus, und ziehen Sie diesen, um die Größe der Kachel zu ändern.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![Video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Das Menü mit den Auslassungspunkten (...)
 
 1. Wählen Sie die Auslassungspunkte in der rechten oberen Ecke der Kachel aus. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![Kachel „Auslassungspunkte“](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Zeigen Sie auf die Kachel „Konto“, und wählen Sie die Auslassungspunkte aus, um die Optionen anzuzeigen. Die verfügbaren Optionen variieren je nach Kacheltyp.  Beispielsweise unterscheiden sich die für eine Live-Kachel verfügbaren Optionen von den Optionen, die für eine Standardvisualisierungskachel verfügbar sind. Zudem verfügen Sie für ein Dashboard, das für Sie freigegeben wurde (Sie sind nicht der Besitzer), über weniger Optionen.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![Optionsmenü mit Auslassungspunkten](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Wählen Sie **Details bearbeiten** aus, um das Fenster „Kacheldetails“ zu öffnen. 
 
     Ändern Sie den Titel und das Standardverhalten der Kachel.  Sie können z.B. festlegen, dass bei Auswahl einer Kachel durch einen *Nutzer* nicht der zum Erstellen dieser Kachel verwendete Bericht, sondern ein neues Dashboard angezeigt wird.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Sie können Kacheln in vielen unterschiedlichen Größen erstellen – von 1 x 1
 ### <a name="rename-the-tile"></a>Umbenennen der Kachel
 Ändern Sie am oberen Rand des Fensters „Kacheldetails“ den **Titel** in **Ausgegebener Betrag**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Fenster „Kacheldetails“](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 
 2. Wählen Sie **Verknüpfung mit einem Dashboard oder Bericht im aktuellen Arbeitsbereich** aus, und wählen Sie dann in der Dropdownliste ein Dashboard aus.  In diesem Beispiel habe ich das Dashboard „Beispiel für Personalwesen“ ausgewählt. Wenn Ihr Arbeitsbereich dieses Beispiel noch nicht enthält, können Sie es hinzufügen und dann zu diesem Schritt zurückkehren, oder Sie können ein anderes Dashboard auswählen. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Dialog „Funktionalität“](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Klicken Sie auf **Übernehmen**.
 
 4. Auf der Kachel wird der neue Titel angezeigt.  Und wenn Sie die Kachel auswählen, wird in Power BI das Personalwesen-Dashboard geöffnet. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![Kachel „Titel“](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Heften Sie die Kachel an ein anderes Dashboard an.
-1. Wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel anheften** ![](media/service-dashboard-edit-tile/pinnooutline.png) aus.
+1. Wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel anheften** ![Stecknadelsymbol](media/service-dashboard-edit-tile/pinnooutline.png) aus.
 2. Entscheiden Sie, ob Sie ein Duplikat dieser Kachel an ein vorhandenes oder ein neues Dashboard anheften möchten. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Wählen Sie **Anheften**aus.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Löschen der Kachel
-1. Um eine Kachel dauerhaft aus einem Dashboard zu entfernen, wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel löschen** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) aus. 
+1. Um eine Kachel dauerhaft aus einem Dashboard zu entfernen, wählen Sie im Dropdownmenü mit den Auslassungspunkten **Kachel löschen** ![Symbol „Löschen“](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) aus. 
 
 2. Durch Löschen einer Kachel wird nicht die zugrunde liegende Visualisierung gelöscht. Öffnen Sie den zugrunde liegenden Bericht, indem Sie die Kachel „Betrag“ auswählen. Öffnen Sie die letzte Seite im Bericht, um sich zu vergewissern, dass die ursprüngliche Visualisierung nicht aus dem Bericht gelöscht wurde. 
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 02/15/2018
 ms.author: maggies
-ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -29,6 +29,12 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
+
+## <a name="february-2018"></a>Februar 2018
+
+### <a name="share-reports"></a>Freigeben von Berichten
+
+Sie können jetzt Berichte direkt über mobile Apps freigeben. Weitere Informationen erhalten Sie unter [Freigeben eines Dashboards in den mobilen Power BI-Apps](mobile-share-dashboard-from-the-mobile-apps.md).
 
 ## <a name="january-2018"></a>Januar 2018
 

@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 223df3a898c925d2a8ffc6d004a26c1a67807fc2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards im Power BI-Dienst
 
 Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich bezeichnet), auf der mithilfe von Visualisierungen eine Geschichte erzählt wird. Wegen der Beschränkung auf eine Seite erkennen Sie ein gut gestaltetes Dashboard daran, dass die Geschichte auf ihre Kernaussagen verdichtet ist.
 
-![](media/service-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
 Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet. Kacheln stammen aus Berichten und werden an ein Dashboard *angeheftet*. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](service-basic-concepts.md).
 
@@ -38,7 +39,7 @@ Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet. Kachel
 
 Die Visualisierungen eines Dashboards stammen aus Berichten. Jeder Bericht basiert auf einem Dataset. Sie können sich ein Dashboard als Fenster zu den zugrunde liegenden Berichten und Datasets vorstellen. Wenn Sie eine Visualisierung auswählen, gelangen Sie zu dem Bericht (und damit dem Dataset), mit dem sie erstellt wurde.
 
-![](media/service-dashboards/power-bi-diagram.png)
+![Diagramm, dass die Beziehungen zwischen Dashboards, Berichten und Datasets anzeigt](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Vorteile von Dashboards
 Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen, entscheidenden Fragen nachgehen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Ein Dashboard fasst lokale und cloudbasierte Daten zusammen und bietet eine konsolidierte Ansicht – unabhängig vom Speicherort der Daten.

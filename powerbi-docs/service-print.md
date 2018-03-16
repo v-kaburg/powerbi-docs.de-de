@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Drucken im Power BI-Dienst
 Drucken Sie vom Power BI-Dienst aus ein ganzes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Berichtsvisualisierung. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken.
@@ -40,25 +41,24 @@ Sehen Sie sich an, wie Amanda aus ihrem Dashboard und Bericht druckt. Befolgen S
 1. Öffnen Sie das Dashboard, das Sie drucken möchten.
 2. Wählen Sie in der rechten oberen Ecke die Auslassungspunkte (...) und dann **Dashboard drucken**aus.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Option „Dashboard drucken“](media/service-print/pbi_print_dash_ellipses.png)
 3. Das Fenster „Drucken“ wird im Browser geöffnet. Wählen Sie die Einstellungen und das Druckziel aus, und klicken Sie auf **Drucken**.
    
    > [!NOTE]
    > Das eingeblendete Dialogfeld „Drucken“ hängt vom verwendeten Browser ab.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![Dialogfeld „Drucken“](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Drucken einer Dashboardkachel
-1. [Öffnen Sie die Kachel im Fokusmodus](service-focus-mode.md), indem Sie die Auslassungspunkte und anschließend das Fokussymbol ![](media/service-print/power-bi-focus-icon.png) auswählen.
+1. [Öffnen Sie die Kachel im Fokusmodus](service-focus-mode.md), indem Sie zuerst auf die Auslassungspunkte und anschließend auf das Fokussymbol ![Fokussymbol](media/service-print/power-bi-focus-icon.png) klicken.
    
-    ![](media/service-print/menu-options.png)
-2. Öffnen Sie die Kachel im [Vollbildmodus](service-fullscreen-mode.md), indem Sie in der oberen Navigationsleiste das Vollbildsymbol ![](media/service-print/power-bi-full-screen-icon.png) auswählen.
+    ![Das Menü mit Auslassungspunkten (...)](media/service-print/menu-options.png)
+2. Öffnen Sie die Kachel im [Vollbildmodus](service-fullscreen-mode.md), indem Sie in der oberen Navigationsleiste auf das Vollbildsymbol ![Vollbildsymbol](media/service-print/power-bi-full-screen-icon.png) klicken.
 3. Zeigen Sie auf die Kachel, um das Menü „Optionen“ anzuzeigen.
    
-    ![](media/service-print/menu-options-new.png)
-4. Wählen Sie das Drucksymbol ![](media/service-print/print-icon.png) aus.     
+    ![Menü „Vollbildoptionen“](media/service-print/menu-options-new.png)
+4. Klicken Sie auf das Drucksymbol ![Drucksymbol](media/service-print/print-icon.png).     
    
    > [!NOTE]
    > Das eingeblendete Dialogfeld „Drucken“ hängt vom verwendeten Browser ab.
@@ -71,7 +71,7 @@ Berichte können seitenweise gedruckt werden.
 1. Öffnen Sie den Bericht im Lesemodus oder in der Bearbeitungsansicht.
 2. Wählen Sie **Datei** > **Drucken** aus, um die aktuelle Berichtsseite zu drucken.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Power BI-Menü „Datei“](media/service-print/power-bi-print.png)
 3. Das Fenster „Drucken“ wird im Browser geöffnet.
    
    > [!NOTE]
@@ -80,7 +80,7 @@ Berichte können seitenweise gedruckt werden.
    > 
 
 ## <a name="print-a-report-visual"></a>Drucken einer Berichtsvisualisierung
-1. [Öffnen Sie das Visual im Fokusmodus](service-focus-mode.md), indem Sie mit dem Mauszeiger auf die Kachel zeigen und rechts oben das Symbol für den Fokus ![](media/service-print/power-bi-focus-icon.png) auswählen.
+1. [Öffnen Sie das visuelle Element im Fokusmodus](service-focus-mode.md), indem Sie mit dem Mauszeiger auf die Kachel zeigen und rechts oben auf das Fokussymbol ![Fokussymbol](media/service-print/power-bi-focus-icon.png) klicken.
 2. Führen Sie die Schritte 2 bis 3 unter *Drucken einer Berichtsseite* weiter oben aus.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung

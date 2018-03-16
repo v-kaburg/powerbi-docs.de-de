@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: eb6c5c5c6ff010e8ed117c643e9763acfa73cfee
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  
@@ -36,7 +36,7 @@ Das Erstellen eines Dashboards ist eine Funktion für **Ersteller** und erforder
 >
 > 
 
-![](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Erstellen eines Dashboards durch Anheften von Visuals und Bildern aus einem Bericht
 Amanda zeigt Ihnen, wie Sie ein neues Dashboard erstellen, indem Sie Visualisierungen aus einem Bericht anheften. Befolgen Sie dann die Schritte unterhalb des Videos, um das Procedere anhand des Beispiels für die Beschaffungsanalyse selbst auszuprobieren.
@@ -54,62 +54,62 @@ Wir werden eines der Beispiel-Power BI-Datasets importieren, um damit unser neue
 3. Wählen Sie **Mein Arbeitsbereich** aus.
 4. Wählen Sie im linken Navigationsbereich **Daten abrufen** aus.
 
-    ![](media/service-dashboard-create/power-bi-get-data3.png)
+    ![Linker Navigationsbereich](media/service-dashboard-create/power-bi-get-data3.png)
 5. Wählen Sie **Dateien**aus.
 
-   ![](media/service-dashboard-create/power-bi-select-files.png)
+   ![Dateien abrufen](media/service-dashboard-create/power-bi-select-files.png)
 6. Navigieren Sie zum Speicherort der Excel-Datei des Beispiels für die Beschaffungsanalyse. Wählen Sie die Datei und dann **Verbinden** aus.
 
-   ![](media/service-dashboard-create/power-bi-connectnew.png)
+   ![Mit Dateien verbinden](media/service-dashboard-create/power-bi-connectnew.png)
 7. Wählen Sie für diese Übung **Importieren** aus.
 
-    ![](media/service-dashboard-create/power-bi-import.png)
+    ![Fenster „OneDrive for Business“](media/service-dashboard-create/power-bi-import.png)
 8. Wenn die Erfolgsmeldung angezeigt wird, schließen Sie sie mit **x**.
 
-   ![](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![Erfolgsmeldung](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>Öffnen des Berichts und Anheften von Kacheln an ein Dashboard
 1. Wählen Sie in diesem Arbeitsbereich die Registerkarte **Berichte** aus. Der neu importierte Bericht wird mit einem gelben Sternchen gekennzeichnet. Wählen Sie den Namen des Berichts aus, um ihn zu öffnen.
 
-    ![](media/service-dashboard-create/power-bi-reports.png)
+    ![Registerkarte „Berichte“](media/service-dashboard-create/power-bi-reports.png)
 2. Der Bericht wird in der [Leseansicht](service-reading-view-and-editing-view.md) geöffnet. Beachten Sie die zwei Registerkarten am unteren Rand: „Discount Analysis“ und „Spend Overview“. Jede Registerkarte stellt eine Seite des Berichts dar.
     Wählen Sie **Bericht bearbeiten** aus, um den Bericht in der Bearbeitungsansicht zu öffnen.
 
-    ![](media/service-dashboard-create/power-bi-reading-view.png)
+    ![Bericht in der Leseansicht](media/service-dashboard-create/power-bi-reading-view.png)
 3. Zeigen Sie auf eine Visualisierung, um die verfügbaren Optionen anzuzeigen. Um eine Visualisierung einem Dashboard hinzuzufügen, wählen Sie das Stecknadelsymbol ![](media/service-dashboard-create/power-bi-pin-icon.png) aus.
 
-    ![](media/service-dashboard-create/power-bi-hover.png)
+    ![Zeigen Sie auf eine Kachel](media/service-dashboard-create/power-bi-hover.png)
 4. Da wir ein neues Dashboard erstellen, wählen Sie die Option **Neues Dashboard** aus, und geben Sie einen Namen ein.
 
-   ![](media/service-dashboard-create/power-bi-pin-tile.png)
+   ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Wenn Sie **Anheften** auswählen, erstellt Power BI das neue Dashboard im aktuellen Arbeitsbereich. Wenn die Meldung **An das Dashboard angeheftet** angezeigt wird, wählen Sie **Zum Dashboard wechseln** aus. Wenn Sie aufgefordert werden, den Bericht zu speichern, wählen Sie **Speichern** aus.
 
-     ![](media/service-dashboard-create/power-bi-pin-success.png)
+     ![Erfolgsmeldung](media/service-dashboard-create/power-bi-pin-success.png)
 6. Power BI öffnet das neue Dashboard. Es enthält eine Kachel: die eben von Ihnen angeheftete Visualisierung.
 
-   ![](media/service-dashboard-create/power-bi-pinned.png)
+   ![Dashboard mit einer Kachel](media/service-dashboard-create/power-bi-pinned.png)
 7. Um zum Bericht zurückzukehren, wählen Sie die Kachel aus. Heften Sie einige weitere Kacheln an das neue Dashboard an. Wenn das Fenster **An das Dashboard anheften** angezeigt wird, wählen Sie dieses Mal **Vorhandenes Dashboard** aus.  
 
-   ![](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Anheften einer vollständigen Berichtsseite an das Dashboard
 Anstatt einzelne Visuals anzuheften, können Sie [eine vollständige Berichtsseite als *Live-Kachel* anheften](service-dashboard-pin-live-tile-from-report.md). Los geht‘s.
 
 1. Wählen Sie im Berichts-Editor die Registerkarte **Ausgabenübersicht**, um die zweite Seite des Berichts zu öffnen.
 
-   ![](media/service-dashboard-create/power-bi-page-tab.png)
+   ![Registerkarte „Bericht“](media/service-dashboard-create/power-bi-page-tab.png)
 
 2. Sie möchten all diese Visuals auf Ihrem Dashboard anzeigen.  Wählen Sie in der oberen rechten Ecke der Menüleiste die Option **Live-Seite anheften**. Kacheln für Live-Seiten werden auf einem Dashboard jedes Mal aktualisiert, wenn die Seite aktualisiert wird.
 
-   ![](media/service-dashboard-create/power-bi-pin-live.png)
+   ![Oben rechts im Berichts-Editor](media/service-dashboard-create/power-bi-pin-live.png)
 
 3. Wenn das Fenster **An das Dashboard anheften** angezeigt wird, wählen Sie **Vorhandenes Dashboard** aus.
 
-   ![](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Wenn die Erfolgsmeldung angezeigt wird, wählen Sie **Zum Dashboard wechseln** aus. Dort sehen Sie die Kacheln, die Sie aus dem Bericht angeheftet haben. Im unten gezeigten Beispiel haben wir zwei Kacheln von Seite 1 des Berichts sowie eine Live-Kachel angeheftet, die Seite 2 des Berichts darstellt.
 
-   ![](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 
 Glückwunsch, Sie haben Ihr erstes Dashboard erstellt! Da Sie jetzt über ein Dashboard verfügen, stehen Ihnen alle Möglichkeiten offen, die ein Dashboard bietet.  Wenn Sie unseren Empfehlungen folgen möchten, finden Sie unten verschiedene **Nächste Schritte**. Oder studieren Sie dieses Beispiel genauer.   
 

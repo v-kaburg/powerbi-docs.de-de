@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Lernprogramm: Analysieren von Umsatzdaten aus Excel und einem OData-Feed
 Mit **Power BI Desktop** können Sie Verbindungen mit allen Arten unterschiedlicher Datenquellen herstellen und diese dann in einer Weise kombinieren und formen, die es ermöglicht, interessante und überzeugende Datenanalysen und Visualisierungen zu erstellen. In diesem Tutorial erfahren Sie, wie Sie Daten aus zwei Datenquellen kombinieren. 
@@ -34,7 +35,7 @@ Der fertige Bericht wird wie folgt aussehen:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Damit Sie die Schritte in diesem Tutorial ausführen können, benötigen Sie die Arbeitsmappe „Products“, die Sie herunterladen können**:**[ Klicken Sie ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[, um die Datei](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[ herunterzuladen. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Damit Sie die Schritte in diesem Tutorial ausführen können, benötigen Sie die Arbeitsmappe „Produkte“, die Sie herunterladen können: **[Klicken Sie hier, um die Datei „Products.xlsx“ herunterzuladen](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**.
 
 Weisen Sie der Datei im Dialogfeld **Speichern unter** die Bezeichnung **Products.xlsx**zu.
 
@@ -82,7 +83,7 @@ Beim Ausführen von Abfrageaktivitäten im Abfrage-Editor werden Abfrageschritte
 | Geänderter Datentyp |Geänderter Typ |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>Aufgabe 2: Importieren von Bestelldaten aus einem OData-Feed
-In dieser Aufgabe lesen Sie die Bestelldaten ein. Dieser Schritt stellt das Herstellen der Verbindung mit einem Vertriebssystem dar. Sie importieren Daten in Power BI Desktop aus dem Northwind-OData-Beispielfeed unter der folgenden URL, die Sie kopieren und in einem der nächsten Schritte einfügen können: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
+In dieser Aufgabe lesen Sie die Bestelldaten ein. Dieser Schritt stellt das Herstellen der Verbindung mit einem Vertriebssystem dar. Sie importieren Daten in Power BI Desktop aus dem Northwind-OData-Beispielfeed unter der folgenden URL, die Sie kopieren und in einem der nächsten Schritte einfügen können: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>Schritt 1: Herstellen der Verbindung mit einem OData-Feed
 1. Wählen Sie im Abfrage-Editor auf der Registerkarte des Menübands **Start** den Befehl **Daten abrufen** aus.

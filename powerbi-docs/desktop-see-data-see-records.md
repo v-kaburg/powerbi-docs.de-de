@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ und „Datensätze anzeigen“ in Power BI Desktop
 In **Power BI Desktop** können Sie beliebige Visualisierungen genauer betrachten (Drilldown ins Detail) und die Textdarstellung der Daten oder einzelner Datenelemente einer bestimmten Visualisierung anzeigen. Diese Features werden auch als *Durchklick*, *Drillthrough* oder *Drillthrough zu den Details* bezeichnet.
@@ -69,6 +70,9 @@ Sie können den Fokus auch auf ein Datenelement einer Visualisierung legen und d
 Sobald die Option **Datensätze anzeigen** aktiviert ist, wird der Bildschirm in **Power BI Desktop** auf das ausgewählte Datenelement fokussiert, und im Zeichenbereich werden die Daten für dieses Element angezeigt (siehe die folgende Abbildung).
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> Sie können keine Änderungen an Daten in einem Bericht speichern, die zu diesem Zeitpunkt in der Ansicht **See Records** (Datensätze anzeigen) von Benutzern abgerufen (oder geändert) werden.
 
 Mit der Schaltfläche **Zurück zum Bericht** in der oberen linken Ecke des Zeichenbereichs können Sie zum Bericht zurückkehren.
 

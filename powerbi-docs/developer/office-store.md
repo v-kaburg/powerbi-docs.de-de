@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
 Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann. Office
@@ -86,7 +86,7 @@ Führen Sie die folgenden Schritte aus, um die Übermittlung durchzuführen.
    * *Titel der Übermittlung:* Der Name Ihrer Übermittlung im Developer Center.
    * *Version:* Die Versionsnummer wird automatisch aus dem Add-In-App-Paket übernommen.
    * *Veröffentlichungsdatum (UTC):* Wählen Sie das Datum aus, an dem die App im Store veröffentlicht werden soll. Bei Auswahl eines in der Zukunft liegenden Datums ist die App erst ab diesem Datum im Store verfügbar.
-   * *Kategorie:* Als erste Kategorie wird automatisch „Datenvisualisierung und BI“ eingetragen. So werden alle benutzerdefinierten Power BI-Visualisierungen gekennzeichnet. Sie können bis zu zwei zusätzliche Kategorien angeben, um Benutzern die Suche nach Ihrer Visualisierung zu erleichtern.
+   * *Kategorie:* Als erste Kategorie wird automatisch „Datenvisualisierung und BI“ eingetragen. Auf diese Weise werden alle benutzerdefinierten Power BI-Visuals gekennzeichnet. Sie können bis zu zwei zusätzliche Kategorien angeben, um Benutzern die Suche nach Ihren Visuals zu erleichtern.
    * *Testhinweise:* Optionale Angabe, wenn Sie Anweisungen für Tester bei Microsoft bereitstellen möchten.
    * *In meiner App ist Kryptografie oder Verschlüsselung enthalten bzw. wird von dieser aufgerufen, unterstützt oder verwendet:* Lassen Sie diese Option deaktiviert.
    * *Dieses Add-In im Office-Add-In-Katalog auf iPad verfügbar machen:* Lassen Sie diese Option deaktiviert.
@@ -121,7 +121,7 @@ Führen Sie die folgenden Schritte aus, um die Übermittlung durchzuführen.
     > Wenn Sie eine andere als die kostenlose Option auswählen oder per In-App-Kauf zu erwerbende Inhalte im übermittelten Visual enthalten sind, wird die Übermittlung zurückgewiesen.
     > 
     > 
-17. Sie können **Als Entwurf speichern** auswählen und das benutzerdefinierte visuelle Element später übermitteln oder es durch Auswählen von **Zur Genehmigung übermitteln** an den Office Store übermitteln.
+17. Sie können auf **Als Entwurf speichern** klicken und das benutzerdefinierte Visual später übermitteln oder es an den Office Store übermitteln, indem Sie auf **Zur Genehmigung übermitteln** klicken.
 
 ## <a name="tracking-submission-status-and-usage"></a>Nachverfolgen des Übermittlungsstatus und der Verwendung
 Sie können sich mit den [Überprüfungsrichtlinien](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals) vertraut machen.

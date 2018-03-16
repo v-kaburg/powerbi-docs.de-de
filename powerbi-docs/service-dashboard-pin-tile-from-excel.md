@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anheften einer Kachel an ein Power BI-Dashboard aus Excel
 Bevor Sie eine Kachel aus der Excel-Arbeitsmappe anheften können, müssen Sie diese Arbeitsmappe mit dem Power BI-Dienst („app.powerbi.com“) verbinden. Durch Verbinden einer Arbeitsmappe wird im Wesentlichen eine verknüpfte schreibgeschützte Version der Arbeitsmappe im Power BI-Dienst bereitgestellt, und Sie können Bereiche an Dashboards anheften. Sie können auch ein gesamtes Arbeitsblatt an ein Dashboard anheften.  
@@ -42,35 +43,35 @@ Sie können Ihre Arbeitsmappe in Power BI nicht bearbeiten. Sollten Sie aber Än
 1. Laden Sie die Arbeitsmappe auf OneDrive for Business hoch.
 2. Über Power BI [stellen Sie eine Verbindung mit der Arbeitsmappe her](service-excel-workbook-files.md), indem Sie **Daten abrufen > Dateien > OneDrive – Geschäftlich** auswählen und zum Speicherort der Excel-Datei navigieren. Wählen Sie die Datei aus, und wählen Sie **Verbinden > Verbinden**.
 
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+   ![Dialogfeld „OneDrive for Business“](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. Die Arbeitsmappe wird in Power BI der Registerkarte **Arbeitsmappen** des Arbeitsbereichs hinzugefügt.  Das Symbol ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) gibt an, dass dies eine Excel-Arbeitsmappe ist, und das gelbe Sternchen gibt an, dass sie neu ist.
+3. Die Arbeitsmappe wird in Power BI der Registerkarte **Arbeitsmappen** des Arbeitsbereichs hinzugefügt.  Das Symbol ![Symbol „Arbeitsmappe“](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) gibt an, dass dies eine Excel-Arbeitsmappe ist, und das gelbe Sternchen gibt an, dass sie neu ist.
    
     
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+   ![Registerkarte „Arbeitsmappe“](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Öffnen Sie die Arbeitsmappe in Power BI, indem Sie den Namen der Arbeitsmappe auswählen.
 
     Änderungen an der Arbeitsmappe in Power BI werden nicht gespeichert und wirken sich nicht auf die ursprüngliche Arbeitsmappe auf OneDrive for Business aus. Wenn Sie Werte in Power BI sortieren, filtern oder ändern, können diese Änderungen nicht gespeichert oder angeheftet werden. Wenn Sie Änderungen vornehmen müssen, die gespeichert werden, klicken Sie oben rechts auf **Bearbeiten**, um sie zur Bearbeitung in Excel Online oder Excel zu öffnen. Es kann einige Minuten in Anspruch nehmen, bis die Kacheln auf den Dashboards mit den auf diese Weise vorgenommenen Änderungen aktualisiert wurden.
    
    
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+   ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Anheften eines Bereichs von Zellen an ein Dashboard
 Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](service-dashboard-tiles.md) ist, dies aus einer Excel-Arbeitsmappe in Power BI durchzuführen. Bereiche können aus Excel-Arbeitsmappen angeheftet werden, die in Ihrem OneDrive for Business oder einer anderen Dokumentbibliothek mit Gruppenfreigabe gespeichert wurden. Die Bereiche können Daten, Diagramme, Tabellen, PivotTables, PivotCharts und andere Excel-Elemente enthalten.
 
 1. Markieren Sie die Zellen, die Sie an das Dashboard anheften möchten.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Wählen Sie das Anheftsymbol ![](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) aus. 
+    ![Zellen in der Excel-Arbeitsmappe auswählen](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
+2. Wählen Sie das Symbol zum Anheften ![Stecknadelsymbol](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) aus. 
 3. Heften Sie die Kachel an ein vorhandenes oder neues Dashboard an. 
    
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus.
    * Neues Dashboard: Geben Sie den Namen des neuen Dashboards ein.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Wählen Sie **Anheften**aus. Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass der Bereich Ihrem Dashboard als Kachel hinzugefügt wurde. 
    
-    ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
+    ![Dialogfeld „An das Dashboard angeheftet“](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Wählen Sie **Zum Dashboard wechseln** aus. Hier können Sie die angeheftete Visualisierung [umbenennen, die Größe ändern, verknüpfen und verschieben](service-dashboard-edit-tile.md). Wenn Sie die angeheftete Kachel auswählen, wird standardmäßig die Arbeitsmappe in Power BI geöffnet.
 
 ## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Anheften einer kompletten Tabelle oder PivotTable an ein Dashboard
@@ -78,14 +79,14 @@ Führen Sie die oben beschriebenen Schritte aus, wählen Sie jedoch statt eines 
 
 Um eine Tabelle anzuheften, wählen Sie den gesamten Bereich der Tabelle, einschließlich der Kopfzeilen, aus.  Stellen Sie zum Anheften einer PivotTable sicher, dass alle sichtbaren Elemente der PivotTable enthalten sind, einschließlich möglicherweise verwendeter Filter.
 
- ![](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
+ ![Zellen auswählen](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
 Eine aus einer Tabelle oder PivotTable erstellte Kachel zeigt die gesamte Tabelle an.  Wenn Sie Zeilen oder Spalten in der ursprünglichen Arbeitsmappe hinzufügen/entfernen/filtern, werden sie ebenfalls in der Kachel hinzugefügt/entfernt/gefiltert.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Anzeigen der mit der Kachel verknüpften Arbeitsmappe
 Wenn Sie eine Arbeitsmappenkachel auswählen, wird die verknüpfte Arbeitsmappe in Power BI geöffnet. Da sich die Datei im OneDrive for Business des Besitzers befindet, erfordert die Anzeige der Arbeitsmappe, dass Sie über Leseberechtigungen für die Arbeitsmappe verfügen. Wenn Sie nicht über die Berechtigungen verfügen, wird eine Fehlermeldung angezeigt.  
 
- ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+ ![Video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Nicht unterstützte Funktionen: Power BI verwendet Excel Services, um die Arbeitsmappenkacheln abzurufen. Da einige Funktionen von Excel in der Excel Services-REST-API nicht unterstützt werden, werden sie nicht auf Kacheln in Power BI angezeigt. Beispiele: Sparklines, bedingte Formatierung von Symbolsätzen und Zeitdatenschnitte. Eine vollständige Liste der nicht unterstützten Features finden Sie unter den [nicht unterstützten Features in der Excel Services-REST-API](http://msdn.microsoft.com/library/office/ff394477.aspx).
