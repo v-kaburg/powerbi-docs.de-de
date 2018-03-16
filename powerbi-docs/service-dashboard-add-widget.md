@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Hinzufügen von Bildern, Text, Video und weiteren Elementen zu Ihrem Dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Kachel hinzufügen
 Mithilfe des Steuerelements **Kachel hinzufügen** können Sie Ihrem Dashboard direkt ein Bild, ein Textfeld, ein Video, Streamingdaten oder Webcode hinzufügen.
 
-1. Wählen Sie auf der oberen Menüleiste **Kachel hinzufügen** aus. Je nach Größenbeschränkungen sehen Sie möglicherweise nur das Pluszeichen ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Wählen Sie auf der oberen Menüleiste **Kachel hinzufügen** aus. Je nach verfügbarem Platz sehen Sie möglicherweise nur das Pluszeichen ![Pluszeichen](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Symbol „Kachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Wählen Sie den Typ der Kachel aus, die Sie hinzufügen möchten: **Bild**, **Textfeld**, **Video**, **Webinhalt** oder **Benutzerdefinierte Streamingdaten**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![Fenster „Kachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Hinzufügen von Bildern
 Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeigt werden. Sie müssen die Bilddatei online speichern und eine Verknüpfung zu der Datei erstellen. Stellen Sie sicher, dass für den Zugriff auf die Bilddatei keine speziellen Anmeldeinformationen erforderlich sind. So muss beispielsweise für OneDrive und SharePoint eine Authentifizierung ausgeführt werden. Daher können dort gespeicherte Bilder nicht auf diese Weise dem Dashboard hinzugefügt werden.  
@@ -44,14 +45,14 @@ Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeig
 1. Wählen Sie **Bild** > **Weiter**.
 2. Fügen Sie im Fenster **Bildkachel hinzufügen** Bildinformationen hinzu.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![Fenster „Bildkachel hinzufügen“](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * Um einen Titel oberhalb des Bilds anzuzeigen, wählen Sie *Titel und Untertitel anzeigen* aus, und geben Sie einen Titel und/oder einen Untertitel aus.
    * Geben Sie die Bild-URL ein.
    * Um die Kachel als Link zu aktivieren, wählen Sie **Benutzerdefinierte Verknüpfung festlegen** aus, und geben Sie die URL ein.  Wenn Arbeitskollegen auf dieses Bild oder diese Kachel klicken, gelangen Sie zur angegebenen URL.
    * Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position des Bilds nach Bedarf.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![Bild auf dem Dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Hinzufügen eines Textfelds oder einer Dashboardüberschrift
 1. Wählen Sie **Textfeld > Weiter**.
@@ -64,11 +65,11 @@ Angenommen, Ihr Firmenlogo oder ein anderes Bild soll auf dem Dashboard angezeig
    * Geben Sie den Inhalt für das Textfeld ein, und formatieren Sie ihn.  
    * Legen Sie optional einen benutzerdefinierten Link für den Titel fest. Bei einem benutzerdefinierten Link kann es sich um eine externe Website oder ein Dashboard oder einen Bericht im Arbeitsbereich handeln. Allerdings haben wir in diesem Beispiel Hyperlinks innerhalb des Textfelds selbst hinzugefügt, daher lassen wir **Benutzerdefinierte Verknüpfung festlegen** deaktiviert.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Fenster „Textfeldkachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Klicken Sie auf **Übernehmen**.  Ändern Sie auf dem Dashboard die Größe und Position des Textfelds nach Bedarf.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![Dashboard mit Bild und Textfeld](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Hinzufügen von Videos
 Wenn Sie Ihrem Dashboard eine YouTube- oder Vimeo-Videokachel hinzufügen, wird das Video direkt auf Ihrem Dashboard abgespielt.
@@ -76,14 +77,14 @@ Wenn Sie Ihrem Dashboard eine YouTube- oder Vimeo-Videokachel hinzufügen, wird 
 1. Wählen Sie **Video > Weiter**.
 2. Fügen Sie im Bereich **Videokachel hinzufügen** Videoinformationen hinzu.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Fenster „Videokachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * Um oben in der Videokachel einen Titel und Untertitel anzuzeigen, wählen Sie *Titel und Untertitel anzeigen* aus, und geben Sie einen Titel und/oder einen Untertitel aus. In diesem Beispiel fügen wir einen Untertitel hinzu und wandeln ihn dann in einen Link zur gesamten Wiedergabeliste auf YouTube um.
    * Geben Sie die URL für das Video ein.
    * Fügen Sie einen Link für den Titel und Untertitel hinzu.  Möglicherweise möchten Sie Ihren Arbeitskollegen die Möglichkeit geben, nach dem Abspielen des eingebetteten Videos die gesamte Wiedergabeliste auf YouTube anzusehen – fügen Sie hier einen Link zu Ihrer Wiedergabeliste hinzu.
    * Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position der Videokachel nach Bedarf.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![Dashboard mit hinzugefügter Videokachel](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Wählen Sie die Videokachel aus, um das Video abzuspielen.
 4. Wählen Sie den Untertitel aus, um zur Wiedergabeliste auf YouTube zu navigieren.
 
@@ -96,13 +97,13 @@ Fügen oder geben Sie HTML-Inhalte ein.  Power BI fügt diese als Kachel Ihrem D
 1. Wählen Sie **Webinhalt > Weiter**.
 2. Machen Sie im Bereich **Webinhaltskachel hinzufügen** die erforderlichen Eingaben.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Fenster „Webinhaltskachel hinzufügen“](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * Um einen Titel oberhalb der Kachel anzuzeigen, wählen Sie *Titel und Untertitel anzeigen* aus und geben einen Titel und/oder Untertitel ein.
    * Geben Sie den Einbindungscode ein. In diesem Beispiel wird ein Twitter-Feed kopiert und eingefügt.
 3. Wählen Sie **Übernehmen**aus.  Ändern Sie auf dem Dashboard die Größe und Position der Webinhaltskachel nach Bedarf.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![Dashboard mit vier Kacheln](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Tipps für das Einbinden von Webinhalten
 * Verwenden Sie für Iframes eine sichere Quelle. Wenn Sie Ihren iframe-Einbindungscode eingeben und eine leere Kachel erhalten, prüfen Sie, ob Sie **http** für die iframe-Quelle verwenden.  Falls ja, ändern Sie die Angabe in **https**.
@@ -145,10 +146,10 @@ So nehmen Sie Änderungen an einer Kachel vor...
 
 1. Zeigen Sie auf die rechte obere Ecke der Kachel, und wählen Sie die Auslassungspunkte aus.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![Kachel „Auslassungspunkte auswählen“](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Wählen Sie das Bearbeiten-Symbol aus, um den Bereich **Kacheldetails** erneut zu öffnen und Änderungen vorzunehmen.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![Stiftsymbol zum Bearbeiten](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Um das Verschieben der Kachel auf dem Dashboard zu vereinfachen, fügen Sie einen Titel und/oder Untertitel hinzu.

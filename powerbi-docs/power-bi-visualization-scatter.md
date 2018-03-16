@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Punktdiagramme und Blasendiagramme in Power BI (Tutorial)
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
@@ -56,44 +57,55 @@ In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten be
 
 In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](sample-datasets.md).   
 
-1. Beginnen Sie mit einer [leeren Berichtsseite](power-bi-report-add-page.md), und wählen Sie die Felder **Umsätze** \> **Umsätze pro Quadratfuß** und **Umsätze** > **Gesamtabweichung Umsatz %** aus. Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zu öffnen.
+1. Wählen Sie das gelbe Plussymbol zum Erstellen einer [leeren Berichtsseite](power-bi-report-add-page.md) aus.
  
-2. Wählen Sie im Bereich „Felder“ die Option **Region > Region** aus.
-   
+2. Wählen Sie im Bereich „Felder“ die folgenden Felder aus:
+   - **Umsätze** > **Umsätze pro Quadratmeter**
+   - **Umsätze** > **Abweichungen der Gesamtumsätze in Prozent**
+   - **Region** > **Region**
+
     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
-4. Führen Sie eine Konvertierung in ein Punktdiagramm durch. Wählen Sie im Bereich „Visualisierungen“ das Symbol für das Punktdiagramm aus.
+
+    Wenn Sie den Power BI-Dienst verwenden, achten Sie darauf, den Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md) zu öffnen.
+
+3. Führen Sie eine Konvertierung in ein Punktdiagramm durch. Wählen Sie im Bereich „Visualisierungen“ das Symbol für das Punktdiagramm aus.
+
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
-5. Ziehen Sie **Region** von **Details** auf **Legende**.
-   
+
+4. Ziehen Sie **Region** von **Details** auf **Legende**. Es wird ein Punktdiagramm angezeigt, in dem die **Abweichungen des Gesamtumsatzes in Prozent** auf der Y-Achse und der **Umsatz pro Quadratmeter** auf der X-Achse dargestellt werden. Die Farben der Datenpunkte stellen die Regionen dar:
+
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
-Wir haben jetzt ein Punktdiagramm, in dem „Gesamtabweichung Umsatz %“ der Y-Achse und „Umsätze pro Quadratfuß“ der X-Achse zugewiesen sind.  Die Farben der Datenpunkte stellen die Regionen dar.  Nun fügen wir eine dritte Dimension hinzu.
+Nun fügen wir eine dritte Dimension hinzu.
 
 ## <a name="create-a-bubble-chart"></a>Erstellen eines Blasendiagramms
-1. Ziehen Sie aus dem Bereich „Felder“ die Option **Umsätze** > **Umsätze dieses Jahr** > **Wert** in den Bereich **Größe**. 
+
+1. Ziehen Sie aus dem Bereich **Felder** die Option **Umsätze** > **Umsätze dieses Jahr** > **Wert** in den Bereich **Größe**. Die Datenpunkte werden zu Werten erweitert, die proportional zu den Umsatzwerten sind.
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
-2. Zeigen Sie auf eine Blase.  Die Größe der Blase gibt den Wert von **Umsätze dieses Jahr**an.
+
+2. Zeigen Sie auf eine Blase. Die Größe der Blase gibt den Wert von **Umsätze dieses Jahr**an.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
-3. Optional können Sie [Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund und mehr formatieren](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+3. Wenn Sie die Anzahl der im Blasendiagramm anzuzeigenden Datenpunkte festlegen möchten, erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Karte **Allgemein**, und passen Sie die **Datenmenge** an. Sie können die maximale Datenmenge auf eine beliebige Zahl bis 10.000 festlegen (der Standardwert ist 3.500).
+
+    ![Datenmenge](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+
+   > [!NOTE]
+   > Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht. Beachten Sie, dass Sie für eine höhere Anzahl von Datenpunkten die Ergebnisse mit verschiedenen Formfaktoren testen sollten, um eine gute Leistung zu garantieren.
+
+4. Sie können [u.a. Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund formatieren](service-getting-started-with-color-formatting-and-axis-properties.md). Zum [Verbessern der Barrierefreiheit](desktop-accessibility.md) sollten Sie das Hinzufügen von Markierungsformen zu jeder Linie in Betracht ziehen. Die Verwendung einer anderen Markierungsform für jede Linie macht es den Benutzern des Berichts leichter, die Linien (oder Flächen) voneinander zu unterscheiden. Sie können zum Auswählen der Markierungsform die Karte **Formen** erweitern und dann eine Markierungsform auswählen.
+
+      ![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    Sie können auch die Markierungsform in Raute, Dreieck oder Quadrat ändern:
 
    ![Quadratischer Marker](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-4. Wenn Sie die Anzahl der im Blasendiagramm anzuzeigenden Punkte festlegen möchten, erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Karte **Allgemein**, und passen Sie die **Datenmenge** an. Der Standardwert lautet 3500. 
- 
-    ![Datenmenge](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
-
-   > [!NOTE]
-   > Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht.
-
-5.   Optional können Sie zum Auswählen der Markierungsform die Karte **Formen** erweitern und dann eine Markierungsform auswählen.
-
-      ![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Das Punktdiagramm weist nur einen Datenpunkt auf**
 Weist Ihr Punktdiagramm nur einen Datenpunkt auf, in dem alle Werte auf der X- und der Y-Achse zusammengefasst sind?  Oder werden alle Werte auf einer einzelnen horizontalen oder vertikalen Linie zusammengefasst?
 

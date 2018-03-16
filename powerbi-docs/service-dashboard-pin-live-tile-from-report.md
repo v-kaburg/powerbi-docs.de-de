@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3638c99b0dfafa8a90a6c911051e203f3e6037c4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Heften Sie eine gesamte Berichtsseite als Live-Kachel an ein Power BI-Dashboard an
 Eine weitere Möglichkeit, eine neue [Dashboardkachel](service-dashboard-tiles.md) hinzuzufügen, besteht im Anheften einer ganzen Berichtsseite. Dies ist eine einfache Möglichkeit, mehr als eine Visualisierung gleichzeitig anzuheften.  Wenn Sie eine gesamte Seite anheften, werden Ihre Kacheln zudem *live* geschaltet. Sie können dann damit direkt auf dem Dashboard interagieren. Änderungen, die Sie im Berichts-Editor an Visualisierungen vornehmen, z. B. Hinzufügen eines Filters oder Ändern der im Diagramm verwendeten Felder, werden von der Dashboardkachel übernommen.  
@@ -43,20 +44,20 @@ Sehen Sie, wie eine Liveberichtsseite an ein Dashboard angeheftet wird, und befo
 1. Öffnen Sie einen Bericht in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).
 2. Wählen Sie auf der Menüleiste **Live-Seite anheften** aus, ohne eine Visualisierung auszuwählen.
    
-   ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
+   ![Symbol „Live-Seite anheften“](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
 3. Heften Sie die Kachel an ein vorhandenes oder neues Dashboard an. Beachten Sie den hervorgehobenen Text: *Durch das Anheften einer Live-Seite können Änderungen an Berichten in der Dashboardkachel angezeigt werden, sobald die Seite aktualisiert wird.*
    
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus. Dashboards, die für Sie freigegeben wurden, werden nicht in der Dropdownliste angezeigt.
    * Neues Dashboard: Geben Sie den Namen des neuen Dashboards ein.
      
-     ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
+     ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
 4. Wählen Sie **Live anheften**aus. Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Seite Ihrem Dashboard als Kachel hinzugefügt wurde.
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>Öffnen Sie das Dashboard, um die angeheftete Livekachel anzuzeigen.
 1. Wählen Sie im Navigationsbereich das Dashboard mit der neuen Live-Kachel aus. Hier können Sie die angeheftete Berichtsseite beispielsweise [umbenennen, verknüpfen, verschieben und in der Größe ändern](service-dashboard-edit-tile.md).  
 2. Interagieren Sie mit der Live-Kachel.  Im nachstehenden Screenshot erfolgte durch Auswählen eines Balkens im Säulendiagramm eine Kreuzfilterung und Kreuzhervorhebung in den anderen Visualisierungen auf der Kachel.
    
-    ![](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
+    ![Dashboard mit einer Live-Kachel](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Dashboards in Power BI](service-dashboards.md)

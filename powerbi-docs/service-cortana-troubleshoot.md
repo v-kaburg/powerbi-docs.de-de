@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Behandeln von Problemen bei Cortana für Power BI
 Dieser Artikel ist Teil einer Serie. Es wird empfohlen, die folgenden drei Artikel zu lesen, sofern noch nicht geschehen.
@@ -95,7 +96,7 @@ Immer noch Probleme?  Jetzt empfiehlt es sich, das Cortana-Problembehandlungstoo
    Da wir ein Ergebnis erhalten haben, wissen wir jetzt, dass Cortana in Power BI **aktiviert ist**. Dadurch wird das Problem eingegrenzt: Es kann sich um eine Einstellung von Windows, um die Spracheinstellung von Cortana oder darum handeln, dass mehr als 100 Datasets für Cortana aktiviert sind.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Sie haben Probleme, Antworten aus einem Dashboard abzurufen?
-Sie suchen ein Dashboard, das für Sie freigegeben wurde?  Öffnen Sie Power BI > **Für mich freigegeben**, und suchen Sie nach dem Namen des Dashboards.  Geben Sie diesen Namen anschließend im Feld *Utterance* (Äußerung) ein.
+Sie suchen ein Dashboard, das für Sie freigegeben wurde?  Öffnen Sie Power BI > **Für mich freigegeben**, und suchen Sie nach dem Namen des Dashboards.  Geben Sie diesen Namen anschließend im Feld **Utterances** (Äußerungen) ein.
 
 ![Öffnen von „Für mich freigegeben“ in Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

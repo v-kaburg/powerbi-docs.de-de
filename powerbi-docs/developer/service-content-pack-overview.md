@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Übersicht über das Inhaltspaketprogramm für den Power BI-Dienst
 Bei einem Inhaltspaket handelt es sich um sofort einsetzbare Inhalte, mit denen Benutzer unmittelbar Einblicke in eine Quelle gewinnen können. Ein Inhaltspaket konzentriert sich in der Regel auf ein bestimmtes Geschäftsszenario und ermöglicht Einblicke in eine Rolle, eine Domäne oder einen Workflow.
@@ -64,9 +64,9 @@ Inhaltspakete bieten Einblicke und Metriken mit Schwerpunkt auf einem bestimmten
 * Erwägen Sie die Bereitstellung mehrerer Inhaltspakete für separate, eindeutige Szenarios.  
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
-**Kann ich ein Inhaltspaket für den Power BI-Dienst für die SaaS-Anwendung eines Drittanbieters erstellen, die ich nicht besitze?**
+**Kann ich als Drittanbieter ein Inhaltspaket für Power BI für eine SaaS-Anwendung erstellen, die ich nicht besitze?**
 
-Nein, zurzeit ist eine unterzeichnete Partnervereinbarung mit dem Besitzer der SaaS-Anwendung erforderlich, damit das Inhaltspaket im Dienst veröffentlicht werden kann.
+Eine unterzeichnete Partnervereinbarung mit dem Besitzer der SaaS-Anwendung ist erforderlich, bevor ein Inhaltspaket im Dienst veröffentlicht werden kann. Als Drittanbieter müssen Sie die Unterzeichnung der Partnervereinbarung mit dem Besitzer der SaaS-Anwendung gewährleisten.
 
 **Ich habe keine öffentliche Entwickler-API für meinen Dienst. Kann ich trotzdem ein Inhaltspaket für den Power BI-Dienst erstellen, das die Daten direkt aus dem Datenspeicher abruft?**
 
@@ -76,9 +76,13 @@ Nein, für Inhaltspakete für den Power BI-Dienst ist eine Entwickler-API erford
 
 Inhaltspakete für den Power BI-Dienst unterstützen alle REST-APIs und OData-Feeds. Power BI kann mit mehreren Authentifizierungstypen arbeiten, u.a. Standardauthentifizierung, OAuth2.0 und Web API-Schlüssel. Weitere Informationen zu den technischen Anforderungen finden Sie im Artikel zur [Erstellung](template-content-pack-authoring.md#dashboard).
 
+**Ich habe ein Inhaltspaket in Power BI veröffentlicht. Wie kann ich es aktualisieren?**
+
+Veröffentlichte Inhaltspakete können einmal im Monat aktualisiert werden. Anforderungen von Updates, die vor dem letzten Tag des aktuellen Monats an [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) übermittelt werden, werden in der ersten Woche des Folgemonats veröffentlicht.
+
 **Ich habe weitere Fragen zu Dienstinhaltspaketen. Wie kann ich Sie kontaktieren?**
 
-Sie können Ihre Fragen per E-Mail an pbiservicesapps@microsoft.com senden.
+Sie können Ihre Fragen per E-Mail an [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com) senden.
 
 ## <a name="support"></a>Support
 Unterstützung bei der Entwicklung erhalten Sie unter [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Diese Website wird aktiv betreut und verwaltet. Kundenanfragen werden schnell an das entsprechende Team weitergeleitet.

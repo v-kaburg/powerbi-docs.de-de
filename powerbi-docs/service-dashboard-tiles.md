@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
 Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile-tiles-in-the-mobile-apps.md). Außerdem können Sie in Power BI Mobile [mit der iPhone-App Grafiken zu Ihrem Dashboard hinzufügen](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Dashboardkacheln
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI-Dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Eine Kachel ist eine Momentaufnahme Ihrer Daten, die an das Dashboard geheftet ist. Eine Kachel kann aus einem Bericht, einem Dataset, einem Dashboard, aus dem Q&A-Feld, aus Excel, aus SSRS (SQL Server Reporting Services) und noch mehr erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.
 
@@ -53,34 +54,34 @@ Es gibt viele verschiedene Möglichkeiten, eine Kachel zu Ihrem Dashboard hinzuz
 
 Eigenständige Kacheln für Bilder, Textfelder, Videos, Streamingdaten und Webinhalte können mit [Kachel hinzufügen](service-dashboard-add-widget.md) direkt auf dem Dashboard erstellt werden.
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Symbol „Kachel hinzufügen“](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interagieren mit Kacheln in einem Dashboard
 ### <a name="move-and-resize-a-tile"></a>Verschieben und Ändern der Größe einer Kachel
-Wählen Sie eine Kachel aus, und [verschieben Sie sie auf dem Dashboard](service-dashboard-edit-tile.md). Zeigen Sie auf eine Kachel, und wählen Sie den Ziehpunkt ![](media/service-dashboard-tiles/resize-handle.jpg) aus, um ihre Größe zu ändern.
+Wählen Sie eine Kachel aus, und [verschieben Sie sie auf dem Dashboard](service-dashboard-edit-tile.md). Zeigen Sie auf eine Kachel, und wählen Sie den Ziehpunkt ![Ziehpunkt](media/service-dashboard-tiles/resize-handle.jpg) aus, um ihre Größe zu ändern.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Zeigen Sie auf eine Kachel, um Aussehen und Verhalten zu ändern.
 1. Zeigen Sie auf die Kachel, um die Auslassungspunkte anzuzeigen.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![Kachel „Auslassungspunkte“](media/service-dashboard-tiles/ellipses_new.png)
 2. Wählen Sie die Auslassungspunkte (...) aus, um das Aktionsmenü zu öffnen.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![Symbol „Auslassungspunkte“](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Hier können Sie Folgendes tun:
    
-   * [Den Bericht öffnen, mit dem diese Kachel erstellt wurde ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Den Bericht öffnen, mit dem diese Kachel erstellt wurde ](service-reports.md) ![Symbol „Bericht“](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Das Arbeitsblatt öffnen, mit dem diese Kachel erstellt wurde ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Das Arbeitsblatt öffnen, mit dem diese Kachel erstellt wurde ](service-reports.md) ![Symbol „Arbeitsblatt“](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Im Fokusmodus anzeigen ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Die auf der Kachel verwendeten Daten exportieren](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Titel und Untertitel bearbeiten, Links hinzufügen und den Zeitpunkt der letzten Aktualisierung anzeigen](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Einblicke ausführen ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Im Fokusmodus anzeigen ](service-focus-mode.md) ![Symbol „Fokus“](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Die auf der Kachel verwendeten Daten exportieren](power-bi-visualization-export-data.md) ![Symbol „Daten exportieren“](media/service-dashboard-tiles/export-icon.png)
+     * [Titel und Untertitel bearbeiten, Links hinzufügen und den Zeitpunkt der letzten Aktualisierung anzeigen](service-dashboard-edit-tile.md) ![Symbol „Bearbeiten“](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Einblicke ausführen ](service-insights.md) ![Symbol „Einblicke“](media/service-dashboard-tiles/power-bi-insights.png)
      * [Anheften der Kachel an ein anderes Dashboard](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Entfernen der Kachel](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![Stecknadelsymbol](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Kachel entfernen](service-dashboard-edit-tile.md)
+     ![Symbol „Löschen“](media/service-dashboard-tiles/trash-icon.png)
 3. Wählen Sie zum Schließen des Aktionsmenüs eine leere Fläche im Zeichenbereich aus.
 
 ### <a name="select-click-a-tile"></a>Auswählen einer Kachel

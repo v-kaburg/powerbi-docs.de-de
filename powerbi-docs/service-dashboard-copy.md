@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Erstellen einer Kopie eines Dashboards im Power BI-Dienst
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Es gibt viele verschiedene Gründe, um eine Kopie eines Dashboards zu erstellen. Vielleicht möchten Sie Änderungen vornehmen und die Leistung gegenüber dem Original testen oder leicht unterschiedliche Versionen für verschiedene Kollegen, Regionen oder Teams verteilen. Möglicherweise gefällt einem Kollegen die Gestaltung Ihres Dashboards, und er möchte sie in eigenen Berichten für seine Vorgesetzten verwenden. Ein weiterer Grund könnte eine neue Datenbank mit der gleichen Datenstruktur und den gleichen Datentypen sein, bei der Sie ein erstelltes Dashboard wiederverwenden möchten – dies ist ebenfalls möglich, erforderlich aber etwas Arbeit in Power BI Desktop. 
 
@@ -36,13 +37,13 @@ Um eine Kopie eines Dashboards zu erstellen, müssen Sie der *Ersteller* des Das
 1. Öffnen Sie das Dashboard.
 2. Wählen Sie in der rechten oberen Ecke die Auslassungspunkte (...) und dann **Dashboard duplizieren** aus.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![Das Menü mit Auslassungspunkten (...)](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Weisen Sie dem Dashboard einen Namen zu, und wählen Sie **Duplizieren** aus. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Dialogfeld „Dashboard duplizieren“](media/service-dashboard-copy/power-bi-name.png)
 4. Das neue Dashboard wird im gleichen Arbeitsbereich wie das Original gespeichert. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Registerkarte „Dashboards“](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Öffnen Sie das neue Dashboard, und bearbeiten Sie es nach Bedarf. Sie können als Nächstes z.B. die folgenden Schritte ausführen:    
     a. [Verschieben, Umbenennen, Ändern der Größe oder Löschen von Kacheln](service-dashboard-edit-tile.md).  

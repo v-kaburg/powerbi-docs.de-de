@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/26/2018
 ms.author: mihart
-ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Drilldown in einer Visualisierung in Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Ein Drilldown setzt eine Hierarchie voraus
@@ -35,6 +36,7 @@ Sie sind nicht sicher, welche Power BI-Visualisierungen eine Hierarchie enthalte
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
 Datumsangaben stellen einen eindeutigen Hierarchietyp dar. Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die Jahr, Quartal, Monat und Tag enthält. Weitere Informationen finden Sie unter [Visuelle Hierarchien und Drilldownverhalten](guided-learning/visualizations.yml#step-18), oder sehen Sie sich das Video unten an.
+
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -51,7 +53,7 @@ Es gibt zwei Methoden, um in Ihrer Visualisierung einen Drilldown (und Drillup) 
 > 
 > 
 
-## <a name="method-1-for-drill-down"></a>Methode 1 für Drilldowns
+## <a name="method-one-for-drill-down"></a>Methode 1 für Drilldowns
 Bei dieser Methode werden die Drilldownsymbole verwendet, die sich in den oberen Ecken der Visualisierung selbst befinden.
 
 1. Öffnen Sie in Power BI einen Bericht in der [Leseansicht oder der Bearbeitungsansicht](service-reading-view-and-editing-view.md). Der Drilldown erfordert eine Visualisierung mit einer Hierarchie. 
@@ -62,7 +64,7 @@ Bei dieser Methode werden die Drilldownsymbole verwendet, die sich in den oberen
 2. Um einen Drilldown zu aktivieren, wählen Sie das Pfeilsymbol in der oberen rechten Ecke der Visualisierung aus. Ist das Symbol dunkel, ist der Drilldown aktiviert. Wenn Sie den Drilldown nicht aktivieren und ein visuelles Element (wie einen Balken oder eine Blase) auswählen, wird ein übergreifender Filtervorgang für die übrigen Diagramme auf der Berichtsseite ausgeführt.    
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Um einen Drilldown für ***jeweils ein Feld*** auszuführen, klicken Sie auf eines der Elemente in der Visualisierung; klicken Sie z.B. in einem Balkendiagramm auf einen Balken, während Sie in einer Treemap auf eines der *Blätter* klicken. Beachten Sie, dass sich der Titel ändert, wenn Sie einen Drilldown und anschließend einen Drillup ausführen. In dieser Animation wird er von „Total Units This Year by Territory“ (Summe der Einheiten, dieses Jahr nach Gebiet) über „Total Units This Year by Territory and City“ (Summe der Einheiten, dieses Jahr nach Gebiet und Stadt) in „Total Units This Year by Territory, City and PostalCode“ (Summe der Einheiten, dieses Jahr nach Gebiet, Stadt und Postleitzahl) und schließlich in „Total Units This Year by Territory, City, PostalCode, and Name“ (Summe der Einheiten, dieses Jahr nach Gebiet, Stadt, Postleitzahl und Name) geändert. Um anschließend einen Drillup auszuführen, wählen Sie das Symbol **Drillup** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) in der linken oberen Ecke der Visualisierung aus (siehe unten).
+3. Um in **einem Feld nach dem anderen** einen Drilldown auszuführen, wählen Sie eines der Elemente in Ihrer Visualisierung aus. In einem Balkendiagramm bedeutet dies, dass Sie auf einen der Balken klicken müssen. In einem Treemap-Diagramm bedeutet dies, dass Sie auf eines der **Blätter** klicken müssen. Beachten Sie, dass sich der Titel ändert, wenn Sie einen Drilldown und anschließend einen Drillup ausführen. In dieser Animation wird er von „Total Units This Year by Territory“ (Summe der Einheiten, dieses Jahr nach Gebiet) über „Total Units This Year by Territory and City“ (Summe der Einheiten, dieses Jahr nach Gebiet und Stadt) in „Total Units This Year by Territory, City and PostalCode“ (Summe der Einheiten, dieses Jahr nach Gebiet, Stadt und Postleitzahl) und schließlich in „Total Units This Year by Territory, City, PostalCode, and Name“ (Summe der Einheiten, dieses Jahr nach Gebiet, Stadt, Postleitzahl und Name) geändert. Um anschließend einen Drillup auszuführen, wählen Sie das Symbol **Drillup** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) in der linken oberen Ecke der Visualisierung aus (siehe unten).
    
    ![](media/power-bi-visualization-drill-down/drill.gif)
 4. Um für ***alle Felder gleichzeitig*** einen Drilldown durchzuführen, wählen Sie den doppelten Pfeil in der linken oberen Ecke der Visualisierung aus.
@@ -72,7 +74,7 @@ Bei dieser Methode werden die Drilldownsymbole verwendet, die sich in den oberen
    
    ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
 
-## <a name="method-2-for-drill-down"></a>Methode 2 für Drilldowns
+## <a name="method-two-for-drill-down"></a>Methode 2 für Drilldowns
 Bei dieser Methode wird das Dropdownmenü **Durchsuchen** in der oberen Power BI-Menüleiste verwendet.
 
 1. Öffnen Sie in Power BI einen Bericht in der [Leseansicht oder der Bearbeitungsansicht](service-reading-view-and-editing-view.md). Der Drilldown erfordert eine Visualisierung mit einer Hierarchie. 
@@ -92,7 +94,64 @@ Bei dieser Methode wird das Dropdownmenü **Durchsuchen** in der oberen Power BI
 5. Wählen Sie für einen anschließenden Drillup **Durchsuchen** > **Drillup** aus.
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
+
 6. Um die zum Erstellen der Visualisierung verwendeten Daten anzuzeigen, wählen Sie **Daten anzeigen**. Die Daten werden in einem Bereich unterhalb der Visualisierung angezeigt. Dieser Bereich bleibt während des Drilldowns in der Visualisierung erhalten. Weitere Informationen finden Sie unter [Anzeigen der zum Erstellen der Visualisierung verwendeten Daten](service-reports-show-data.md).
+
+## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Grundlegendes zur Hierarchieachse und Hierarchiegruppe
+Sie können sich die Hierarchieachse und -gruppe als die Mechanismen vorstellen, die Sie zum Erhöhen und Reduzieren der Granularität der anzuzeigenden Daten verwenden können. Alle Daten, die in Kategorien und Unterkategorien eingeteilt werden können, sind dafür qualifiziert, eine Hierarchie zu besitzen. Dies schließt natürlich Datums- und Uhrzeitangaben mit ein.
+
+Sie können in Power BI Visualisierungen erstellen, die über eine Hierarchie verfügen. Wählen Sie dazu mindestens ein Datenfeld aus, das Sie entweder der Datenquelle **Achse** oder **Gruppe** zusammen mit den Daten hinzufügen, die Sie als Datenfelder unter **Werte** untersuchen möchten. Sobald Drillmodussymbole in der oberen linken und rechten Ecke Ihrer Visualisierung angezeigt werden, wissen Sie, dass Ihre Daten hierarchisch sind. 
+
+Es ist ganz praktisch, sich zwei Typen hierarchischer Daten vorzustellen:
+- Datums- und Uhrzeitdaten: Wenn Sie über ein Datenfeld mit dem DateTime-Datentyp verfügen, besitzen Sie bereits hierarchische Daten. Power BI erstellt automatisch eine Hierarchie für Datenfelder, deren Werte in eine [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx)-Struktur aufgelöst werden können. Sie müssen der **Achse** oder **Gruppe** jeweils nur ein DateTime-Feld hinzufügen
+- Kategorische Daten: Wenn Ihre Daten von Sammlungen abstammen, die untergeordnete Sammlungen enthalten oder in einem anderen Fall über Datenzeilen verfügen, die gemeinsame Werte beinhalten, besitzen Sie hierarchische Daten.
+
+Power BI ermöglicht eine Detailanzeige für eine oder alle Teilmengen. Sie können einen Drilldown durch Ihre Daten ausführen, um eine einzelne Teilmenge pro Ebene anzuzeigen, oder alle Teilmengen gleichzeitig auf jeder Ebene anzuzeigen. Sie können beispielsweise einen Drilldown für ein bestimmtes Jahr durchführen, oder Sie können alle Ergebnisse für jedes Jahr anzeigen, wenn Sie die Hierarchie abgehen. Sie können ebenso einen Drillup ausführen.
+
+In den folgenden Abschnitten werden Drilldowns von der höchsten Ansicht, der mittleren Ansicht und der niedrigsten Ansicht beschrieben
+
+### <a name="hierarchical-data-and-time-data"></a>Hierarchische Datums- und Uhrzeitdaten
+Befolgen Sie in diesem Beispiel das [Analysebeispiel für den Einzelhandel](sample-datasets.md), und erstellen Sie eine Ansicht eines gestapelten Säulendiagramms, das die Angaben **Monat** (Achse) nach **TotalSales** (Gesamtverkäufe) (Werte) enthält.  
+
+Obwohl das Datenfeld „Achse“ **Monat** ist, erstellt es noch immer die Kategorie **Jahr** unter **Achse**. Der Grund dafür ist, dass Power BI die vollständige DateTime-Struktur für alle gelesenen Werte bereitstellt. Die oberste Hierarchieebene zeigt Daten für das Jahr.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+
+Mit dem Drilldownmodus können Sie auf die Säule im Diagramm klicken und diese eine Ebene in der Hierarchie heruntersetzen. Es werden drei Säulen für die verfügbaren Daten der Quartale angezeigt. Wählen Sie aus den Symbolen links oben die Option **Expand all down one level of the hierarchy** (Alles eine Hierarchieebene nach unten erweitern) aus. Wiederholen Sie diesen Schritt, um zur niedrigsten Ebene der Hierarchie zu gelangen, die die Ergebnisse für jeden Monat zeigt.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+
+Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle werden die Ergebnisse von **Daten anzeigen** mit einem Drilldown von einem Monat oder allen Monaten in einem Bericht angezeigt. 
+
+Beachten Sie, dass die Daten für Quartals- und Jahresberichte übereinstimmen. Nach dem Drilldown zur Detailebene, die für **Werte** festgelegt ist, können Sie jedoch sehen, wie der einzelne Bericht genauer wird und dass der Bericht „all months“ (alle Monate) über mehr Daten verfügt.
+
+
+|Modus „Erweitern“|Jahr|Quartal|Monat|Tag|
+| ---|:---:|:---:|:---:|---|
+|Einfach|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Alles|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+
+
+### <a name="hierarchical-category-data"></a>Hierarchische Kategoriedaten
+Daten, die aus Sammlungen und Untersammlungen generiert wurden, sind hierarchisch. Ein gutes Beispiel hierfür sind Standortdaten. Nehmen wir hierfür eine Tabelle in einer Datenquelle, die die Säulen „Land“, „Staat“, „Stadt“ und „PLZ“ besitzt. Daten, deren Werte für Land, Staat und Stadt übereinstimmen, sind hierarchisch.
+
+Nehmen Sie hierzu wieder das [Analysebeispiel für Einzelhandel](sample-datasets.md) her. Erstellen Sie eine Ansicht eines gestapelten Säulendiagramms, das so aussieht: **Gesamte Einheiten in diesem Jahr** (Werte) nach **Gebiet**, **Stadt**, **Postleitzahl** und **Name** (Gruppe).  
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+
+Wählen Sie mit aktivierten Drilldownmodus aus den Symbolen links oben dreimal die Option **Expand all down one level of the hierarchy** (Alles eine Hierarchieebene nach unten erweitern) aus.
+Sie sollten sich auf der untersten Ebene der Hierarchie befinden, auf der die Ergebnisse für Gebiet, Stadt und Postleitzahl angezeigt werden.
+
+![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+
+Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle werden die Ergebnisse von **Daten anzeigen** in einem Bericht angezeigt, der einen Drilldown für ein einzelnes Gebiet oder alle Gebiete durchführt. Wenn Sie einen Drilldown ausführen, können Sie sehen, wie ein einzelner Bericht genauer wird und dass der Bericht „alle Gebiete“ über mehr Daten verfügt.
+
+
+| Modus „Erweitern“|Gebiet|Stadt|PLZ|Name|
+| ---|:---:|:---:|:---:|---|
+|Einfach|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Alles|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 * Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird dadurch keine Hierarchie erstellt. Möglicherweise wird das Feld „Datum“ nicht tatsächlich als Datum gespeichert. Wenn Sie Eigentümer des Datasets sind, öffnen Sie es in der *Datensicht* in Power BI Desktop, wählen Sie die Spalte mit dem Datum aus, und ändern Sie auf der Registerkarte „Modellierung“ den **Datentyp** in **Datum** oder **Datum/Uhrzeit**. Wenn der Bericht für Sie freigegeben wurde, wenden Sie sich an den Eigentümer, um die Änderung anzufordern.  

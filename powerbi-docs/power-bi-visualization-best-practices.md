@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Wählen Sie beim Festlegen von Hintergründen für Berichtsseiten keine Farben, 
 
 Die Aufgabe besteht nicht darin, ein Kunstwerk zu erstellen, sondern einen funktionellen Bericht. Wählen Sie eine Farbe, mit der die Lesbarkeit und Hervorhebung der Berichtselemente verbessert wird.  
 
-Eine Studie zur Verwendung von Farben und Visualisierungen auf Webseiten hat ergeben, dass ein höherer Kontrast zwischen Farben das Verständnis fördert (*The effect of text and background colour on visual search of Web pages** (Auswirkung von Text- und Hintergrundfarben auf die visuelle Suche nach Webseiten) und **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics* (Ermittlung des Benutzereindrucks der visuellen Komplexität und ästhetischen Merkmale von Webseiten)).
+Eine Studie zur Verwendung von Farben und Visualisierungen auf Webseiten hat ergeben, dass ein höherer Kontrast zwischen Farben das Verständnis fördert („The effect of text and background colour on visual search of Web pages“ (Auswirkung von Text- und Hintergrundfarben auf die visuelle Suche nach Webseiten) und **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics** (Ermittlung des Benutzereindrucks der visuellen Komplexität und ästhetischen Merkmale von Webseiten)).
 
 Wir haben einige bewährte Methoden für den Einsatz von Farben auf unseren Beispielbericht angewendet (siehe Abbildungen 20 und 21 weiter unten). Der wichtigste Punkt ist, dass wir die Hintergrundfarbe in Schwarz geändert haben.  Gelb war zu grell und eine Belastung für die Augen.  Außerdem lief der gelbe Teil der Balken im Diagramm „Count of athlete name by year and class“ in den gelben Hintergrund.  Bei Verwendung eines schwarzen (oder weißen) Hintergrunds ist der Kontrast am größten, und die Aufmerksamkeit wird auf die visuellen Elemente geleitet.
 

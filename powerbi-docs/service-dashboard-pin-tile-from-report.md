@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anheften einer Kachel an ein Power BI-Dashboard aus einem Bericht
 ## <a name="pinning-tiles-from-a-report"></a>Anheften von Kacheln aus einem Bericht
@@ -45,7 +46,7 @@ Erstellen Sie jetzt Ihr eigenes Dashboard mithilfe eines der Power BI-Beispielbe
 
 1. Zeigen Sie auf die Visualisierung, die Sie anheften möchten, und wählen Sie das Anheftsymbol ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) aus. Power BI öffnet den Bildschirm **An Dashboard anheften** .
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Fenster „An das Dashboard anheften“](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Entscheiden Sie, ob Sie die Kachel an ein vorhandenes oder ein neues Dashboard anheften möchten.
    
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus. Dashboards, die für Sie freigegeben wurden, werden nicht in der Dropdownliste angezeigt.
@@ -55,7 +56,7 @@ Erstellen Sie jetzt Ihr eigenes Dashboard mithilfe eines der Power BI-Beispielbe
    
    Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Visualisierung als Kachel zu Ihrem Dashboard hinzugefügt wurde.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![Erfolgsmeldung](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. Wählen Sie im Navigationsbereich das Dashboard mit der neuen Kachel. Wählen Sie die Kachel aus, um wieder zurück in den Bericht zu gelangen. Oder [bearbeiten Sie die Darstellung und das Verhalten der Kachel](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Anheften einer gesamten Berichtsseite

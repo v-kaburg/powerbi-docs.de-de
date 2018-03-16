@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow und Power BI
 
@@ -46,44 +46,44 @@ In dieser Aufgabe verwenden wir eine Vorlage, um einen einfachen Flow zu erstell
 1. Melden Sie sich bei Microsoft Flow („flow.microsoft.com“) an.
 2. Wählen Sie **Meine Flows** aus.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Menüleiste „Flow“](media/service-flow-integration/power-bi-my-flows.png)
 3. Wählen Sie **Aus Vorlage erstellen** aus.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Menüleiste „My Flows“ (Meine Flows)](media/service-flow-integration/power-bi-template.png)
 4. Verwenden Sie das Suchfeld, um Power BI-Vorlagen zu suchen, und wählen Sie **Eine E-Mail an eine beliebige Zielgruppe senden, sobald durch Power BI-Daten eine Warnung ausgelöst wird > Weiter** aus.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![Suchergebnisse](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>Erstellen des Flows
 Diese Vorlage verfügt über einen Trigger (Power BI-Datenwarnung bei neuen Olympiamedaillen für Irland) und eine Aktion (E-Mail senden). Wenn Sie ein Feld auswählen, werden dynamische Inhalte angezeigt, die Sie einschließen können.  In diesem Beispiel haben wir den Kachelwert und die Kachel-URL in den Nachrichtentext eingefügt.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![Vorlage „Flow“](media/service-flow-integration/power-bi-template1.png)
 
 1. Wählen Sie in der Trigger-Dropdownliste eine Power BI-Datenwarnung aus. Wählen Sie die Option **New medal for Ireland** (Neue Medaille für Irland). Informationen zum Erstellen einer Warnung finden Sie unter [Datenwarnungen in Power BI](service-set-data-alerts.md).
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![Dropdownliste für Warnungen](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Geben Sie mindestens eine gültige E-Mail-Adresse ein, und wählen Sie dann **Bearbeiten** (siehe unten) oder **Dynamische Inhalte hinzufügen** aus. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Anzeige „E-Mail senden an“](media/service-flow-integration/power-bi-flow-email.png)
 
 3. Flow erstellt einen Titel und eine Nachricht für Sie, den bzw. die Sie beibehalten oder ändern können. Alle Werte, die von Ihnen beim Erstellen der Warnung in Power BI festgelegt wurden, können nun verwendet werden. Platzieren Sie einfach Ihren Cursor, und wählen Sie aus dem grau hervorgehobenen Bereich aus. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Anzeige „E-Mail senden an“](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Wenn Sie beispielsweise in Power BI eine Warnung mit dem Titel **Wir haben eine weitere Medaille gewonnen** erstellt haben, können Sie **Warnungstitel** auswählen, um den Text in die Betreffzeile Ihrer E-Mail einzufügen.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![E-Mail-Text erstellen](media/service-flow-integration/power-bi-flow-message.png)
 
     Darüber hinaus haben Sie Möglichkeit, den standardmäßigen E-Mail-Text zu übernehmen oder einen eigenen zu erstellen. Das obige Beispiel enthält einige Änderungen an der Nachricht.
 
 1. Wenn Sie fertig sind, wählen Sie **Flow erstellen** oder **Flow speichern** aus.  Der Flow wird erstellt und ausgewertet.  Wenn Fehler gefunden werden, wird Ihnen dies mitgeteilt.
 2. Wenn Fehler gefunden wurden, wählen Sie **Fluss bearbeiten** aus, um sie zu beheben. Wählen Sie andernfalls **Fertig** aus, um den neuen Flow auszuführen.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Erfolgsmeldung](media/service-flow-integration/power-bi-flow-running.png)
 5. Sobald die Datenwarnung ausgelöst wird, wird eine E-Mail an die von Ihnen angegeben Adressen gesendet.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![Warnungs-E-Mail](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Erstellen eines Flows, der Power BI verwendet – ohne Vorlage (leer)
 In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durch eine Power BI-Datenwarnung (Benachrichtigung) ausgelöst wird.
@@ -91,28 +91,28 @@ In dieser Aufgabe erstellen wir einen einfachen Flow von Grund auf neu, der durc
 1. Melden Sie sich bei Microsoft Flow an.
 2. Wählen Sie **Meine Flows** > **Ohne Vorlage erstellen** aus.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Obere Menüleiste „Flow“](media/service-flow-integration/power-bi-my-flows.png)
 3. Verwenden Sie das Suchfeld, um einen Power BI-Trigger zu suchen, und wählen Sie **Power BI – wenn eine datenbasierte Warnung ausgelöst wird** aus.
 
 ### <a name="build-your-flow"></a>Erstellen des Flows
 1. Wählen Sie in der Dropdownliste den Namen der Warnung aus.  Informationen zum Erstellen einer Warnung finden Sie unter [Datenwarnungen in Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![Namen der Warnung auswählen](media/service-flow-integration/power-bi-totalstores2.png)
 2. Wählen Sie **Neuer Schritt** > **Aktion hinzufügen** aus.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![Neuen Schritt hinzufügen](media/service-flow-integration/power-bi-new-step.png)
 3. Suchen Sie nach **Outlook**, und wählen Sie **Ereignis erstellen** aus.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![Erstellen des Flows](media/service-flow-integration/power-bi-create-event.png)
 4. Füllen Sie die Ereignisfelder aus. Wenn Sie ein Feld auswählen, werden dynamische Inhalte angezeigt, die Sie einschließen können.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![Fortfahren mit dem Erstellen des Flows](media/service-flow-integration/power-bi-flow-event.png)
 5. Wählen Sie zum Abschluss **Flow erstellen** aus.  Der Flow wird gespeichert und ausgewertet. Wenn keine Fehler vorliegen, wählen Sie **Fertig** aus, um diesen Flow auszuführen.  Der neue Flow wird der Seite **Meine Flüsse** hinzugefügt.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Flow abschließen](media/service-flow-integration/power-bi-flow-running.png)
 6. Wenn der Flow durch die Power BI-Datenwarnung ausgelöst wird, erhalten Sie eine ähnliche Outlook-Ereignisbenachrichtigung wie die folgende.
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Outlook-Benachrichtigung bei Auslösung des Flows](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erste Schritte mit Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)

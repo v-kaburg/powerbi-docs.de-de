@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
 Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![Grafik zu Erstellern und Benutzern von Berichten](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Leseansicht für Berichte
 
@@ -83,17 +84,17 @@ Beachten Sie, dass nur Berichtersteller und -besitzer einen Bericht in der Bearb
 
 1. Ein Bericht wird standardmäßig in der Leseansicht geöffnet. Sie können an der Option **Bericht bearbeiten** erkennen, ob Sie sich in der Leseansicht befinden. Wenn **Bericht bearbeiten** ausgegraut angezeigt wird, sind Sie nicht berechtigt, den Bericht in der Bearbeitungsansicht zu öffnen.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![„Bericht bearbeiten“ ist ausgegraut.](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Wenn **Bericht bearbeiten** nicht ausgegraut ist, können Sie die Option auswählen, um den Bericht in der Bearbeitungsansicht zu öffnen. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Option „Bericht bearbeiten“](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Der Bericht wird dann in der Bearbeitungsansicht mit denselben [Anzeigeeinstellungen](power-bi-report-display-settings.md) angezeigt, die Sie zuletzt in der Leseansicht verwendet haben.
 
 2. Wählen Sie zum Zurückkehren zur Leseansicht in der oberen Navigationsleiste **Leseansicht** aus.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Option „Leseansicht“](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

@@ -16,20 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/03/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: c5776ca5e038a8cab84ab4f225f67f6144afc722
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Abonnieren eines Power BI-Berichts oder -Dashboards
 Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie legen fest, wie oft Power BI die E-Mail-Nachrichten senden soll: von einmal täglich bis einmal pro Woche. 
 
-Für E-Mails und Momentaufnahmen wird die Sprache verwendet, die in den Power BI-Einstellungen festgelegt ist. Weitere Informationen finden Sie unter [Unterstützte Sprachen und Länder/Regionen für Power BI](supported-languages-countries-regions.md). Wenn keine Sprache definiert ist, verwendet Power BI die Sprache, die der Gebietsschemaeinstellung Ihres aktuellen Browsers entspricht. Sie können die Spracheinstellung anzeigen, indem Sie das Zahnradsymbol und dann ![](media/service-report-subscribe/power-bi-settings-icon.png)**Einstellungen > Allgemein > Sprache** auswählen. 
+Für E-Mails und Momentaufnahmen wird die Sprache verwendet, die in den Power BI-Einstellungen festgelegt ist. Weitere Informationen finden Sie unter [Unterstützte Sprachen und Länder/Regionen für Power BI](supported-languages-countries-regions.md). Wenn keine Sprache definiert ist, verwendet Power BI die Sprache, die der Gebietsschemaeinstellung Ihres aktuellen Browsers entspricht. Sie können die Spracheinstellung anzeigen bzw. festlegen, indem Sie zuerst auf das Zahnradsymbol ![Zahnradsymbol](media/service-report-subscribe/power-bi-settings-icon.png) und dann auf **> Einstellungen > Allgemein > Sprache** klicken. 
 
-![](media/service-report-subscribe/power-bi-language.png)
+![Dropdownmenü „Sprache“](media/service-report-subscribe/power-bi-language.png)
 
 > [!NOTE]
 > Abonnements können nur im Power BI-Dienst erstellt werden. Die E-Mail, die Sie erhalten, enthält einen Link, mit dem Sie zum Bericht/Dashboard wechseln können. Wenn Sie diesen Link auf mobilen Geräten auswählen, auf denen Power BI-Apps installiert sind, wird die App gestartet (statt die Standardaktion auszuführen, d.h. den Bericht oder das Dashboard auf der Power BI-Website zu öffnen).
@@ -44,47 +45,47 @@ Sehen Sie sich an, wie Sirui ein E-Mail-Abonnement für einen Bericht einrichtet
 Das **Erstellen** eines Abonnements ist ein Feature von Power BI Pro, und Sie benötigen Berechtigungen zum Anzeigen oder Bearbeiten der Inhalte (Dashboard oder Bericht).
 
 ## <a name="subscribe-to-a-dashboard"></a>Abonnieren eines Dashboards
-![](media/service-report-subscribe/power-bi-subscribe-orientation.png)
+![Das Symbol „Abonnieren“ auswählen](media/service-report-subscribe/power-bi-subscribe-orientation.png)
 
 1. Öffnen Sie das Dashboard.
-2. Wählen Sie in der oberen Menüleiste **Abonnieren** aus, oder wählen Sie das Umschlagsymbol ![](media/service-report-subscribe/power-bi-icon-envelope.png) aus.
+2. Klicken Sie in der oberen Menüleiste auf **Abonnieren**, oder klicken Sie auf das Briefumschlagsymbol ![Symbol „Abonnieren“](media/service-report-subscribe/power-bi-icon-envelope.png).
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Symbol „Abonnieren“](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Mithilfe des gelben Schiebereglers können Sie das Abonnement aktivieren und deaktivieren.  Wenn Sie den Schieberegler auf „Aus“ stellen, wird das Abonnement nicht gelöscht. Verwenden Sie zum Löschen des Abonnements das Papierkorbsymbol.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
+   ![Fenster „Abonnieren“](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
 4. Wählen Sie **Speichern und schließen** aus, um das Abonnement zu speichern. Sie erhalten jedes Mal eine E-Mail-Momentaufnahme des Dashboards, wenn eines der zugrunde liegenden Datasets geändert wurde. Wird das Dashboard an einem Tag mehrmals aktualisiert, erhalten Sie nur eine E-Mail mit einer Momentaufnahme nach der ersten Aktualisierung.
    
-   ![](media/service-report-subscribe/power-bi-dashboard-email-new.png)
+   ![E-Mail mit einer Momentaufnahme des Dashboards](media/service-report-subscribe/power-bi-dashboard-email-new.png)
    
    > [!TIP]
-   > Möchten Sie die E-Mail-Nachricht sofort ansehen? Lösen Sie das Senden einer E-Mail aus, indem Sie eines der mit dem Dashboard verknüpften Datasets aktualisieren. (Wenn Sie nicht über Bearbeitungsberechtigungen für das Dataset verfügen, müssen Sie einen Benutzer mit den entsprechenden Berechtigungen bitten, diesen Schritt für Sie auszuführen.) Um zu ermitteln, welche Datasets zum Erstellen des Dashboards verwendet werden, wählen Sie im Dashboard das Symbol **Verwandte Inhalte anzeigen** ![](media/service-report-subscribe/power-bi-view-related.png) aus, um **Verwandte Inhalte** zu öffnen, und wählen Sie dann das Symbol zum Aktualisieren ![](media/service-report-subscribe/power-bi-refresh.png) aus. 
+   > Möchten Sie die E-Mail-Nachricht sofort ansehen? Lösen Sie das Senden einer E-Mail aus, indem Sie eines der mit dem Dashboard verknüpften Datasets aktualisieren. (Wenn Sie nicht über Bearbeitungsberechtigungen für das Dataset verfügen, müssen Sie einen Benutzer mit den entsprechenden Berechtigungen bitten, diesen Schritt für Sie auszuführen.) Um zu ermitteln, welche Datasets zum Erstellen des Dashboards verwendet werden, klicken Sie im Dashboard auf das Symbol **Verwandte Inhalte anzeigen** ![Symbol „Verwandte Inhalte anzeigen“](media/service-report-subscribe/power-bi-view-related.png), um **Verwandte Inhalte** zu öffnen, und klicken Sie dann auf das Symbol zum Aktualisieren ![Symbol „Aktualisieren“](media/service-report-subscribe/power-bi-refresh.png). 
    > 
    > 
    
-   ![](media/service-report-subscribe/power-bi-view-related-screen.png)
+   ![Zugehörige Datasets](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Abonnieren einer Berichtsseite
 1. Öffnen Sie den Bericht in der [Leseansicht](service-reading-view-and-editing-view.md).
 2. Wählen Sie auf der oberen Menüleiste die Option **Abonnieren** aus.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
+   ![Symbol „Abonnieren“](media/service-report-subscribe/power-bi-subscribe-icon.png)
 3. Die Berichtsseiten können einzeln abonniert werden. Wählen Sie in der Dropdownliste die gewünschte Berichtsseite aus.
    
-   ![](media/service-report-subscribe/power-bi-subscribe-dialog.png)
+   ![Fenster „Abonnement“](media/service-report-subscribe/power-bi-subscribe-dialog.png)
    
    Fügen Sie weitere Berichtsseiten hinzu.
 4. Mithilfe des gelben Schiebereglers können Sie das Abonnement für die einzelnen Seiten aktivieren und deaktivieren.  Wenn Sie den Schieberegler auf „Aus“ stellen, wird das Abonnement nicht gelöscht. Verwenden Sie zum Löschen des Abonnements das Papierkorbsymbol.
    
-   ![](media/service-report-subscribe/power-bi-slider.png)
+   ![Abonnement aktivieren](media/service-report-subscribe/power-bi-slider.png)
 5. Wählen Sie **Speichern und schließen** aus, um das Abonnement zu speichern. Wenn der Bericht aktualisiert wird, erhalten Sie eine E-Mail mit einer Momentaufnahme der einzelnen Berichtsseiten. Wird der Bericht nicht aktualisiert, erhalten Sie an diesem Tag keine E-Mail mit einer Momentaufnahme.  Wird der Bericht an einem Tag mehrmals aktualisiert, erhalten Sie nur eine E-Mail mit einer Momentaufnahme nach der ersten Aktualisierung.
    
-   ![](media/service-report-subscribe/power-bi-subscription-email.png)
+   ![E-Mail mit einer Momentaufnahme des Dashboards](media/service-report-subscribe/power-bi-subscription-email.png)
    
    > [!TIP]
    > Möchten Sie die E-Mail-Nachricht sofort ansehen? Veranlassen Sie das Senden einer E-Mail-Nachricht, indem Sie das Dataset öffnen und **Jetzt aktualisieren** auswählen. Wenn Sie nicht über Bearbeitungsberechtigungen für das Dataset verfügen, müssen Sie einen Benutzer mit den entsprechenden Berechtigungen bitten, diesen Schritt für Sie auszuführen.
    > 
-   > ![](media/service-report-subscribe/power-bi-refresh-now.png)
+   > ![Symbol „Jetzt aktualisieren“ in der Registerkarte „Datasets“](media/service-report-subscribe/power-bi-refresh-now.png)
    > 
    > 
 
@@ -97,13 +98,13 @@ In der folgenden Tabelle wird beschrieben, wie häufig Sie E-Mail-Nachrichten er
 | **Welche Kontrolle hat der Benutzer über den Zeitplan für die abonnierten E-Mails?** |Verfügbare Optionen: täglich oder wöchentlich |Keine Optionen: Der Benutzer erhält jedes Mal eine E-Mail-Nachricht, wenn der Bericht aktualisiert wird, jedoch nicht öfter als einmal pro Tag. |Wenn es sich um einen Zeitplan für die tägliche Aktualisierung handelt, lauten die Optionen „Täglich“ und „Wöchentlich“.  Bei einem Zeitplan für die wöchentliche Aktualisierung ist nur die Option „Wöchentlich“ verfügbar. |Keine Optionen: Der Benutzer erhält jedes Mal eine E-Mail-Nachricht, wenn das Dataset aktualisiert wird, jedoch nicht öfter als einmal pro Tag. |
 
 ## <a name="manage-your-subscriptions"></a>Verwalten Ihrer Abonnements
-Der Bildschirm für die Abonnementverwaltung kann auf zwei Arten aufgerufen werden:  Wählen Sie im Dialogfeld **E-Mails abonnieren** Dialogfeld die Option **Alle Abonnements verwalten** aus (siehe Schritt 3 weiter oben). Oder: Wählen Sie auf der oberen Menüleiste das Power BI-Zahnradsymbol ![](media/service-report-subscribe/power-bi-settings-icon.png) und anschließend **Einstellungen** aus.
+Der Bildschirm für die Abonnementverwaltung kann auf zwei Arten aufgerufen werden:  Wählen Sie im Dialogfeld **E-Mails abonnieren** Dialogfeld die Option **Alle Abonnements verwalten** aus (siehe Schritt 3 weiter oben). Oder: Klicken Sie auf der oberen Menüleiste auf das Power BI-Zahnradsymbol ![Zahnradsymbol](media/service-report-subscribe/power-bi-settings-icon.png) und anschließend auf **Einstellungen**.
 
-![](media/service-report-subscribe/power-bi-subscribe-settings.png)
+![„Einstellungen“ auswählen](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
 Welche Abonnements hier angezeigt werden, hängt vom aktiven Arbeitsbereich ab.  Wenn Sie alle Ihre Abonnements für alle Arbeitsbereiche anzeigen möchten, muss **Mein Arbeitsbereich** aktiv sein. Grundlegende Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche in Power BI](service-create-distribute-apps.md).
 
-![](media/service-report-subscribe/power-bi-subscriptions.png)
+![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](media/service-report-subscribe/power-bi-subscriptions.png)
 
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder der Bericht vom Besitzer gelöscht wird oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
@@ -119,7 +120,7 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder de
 * Aufgrund der Beschränkungen für die E-Mail-Größe können Dashboards oder Berichte mit extrem großen Bildern möglicherweise nicht abonniert werden.    
 * Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind, die seit mehr als 2 Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard bzw. der Bericht längere Zeit nicht besucht wurde.    
 * Wenn Sie die E-Mails des Abonnements nicht erhalten, vergewissern Sie sich, dass Ihr Benutzerprinzipalname (UPN) E-Mails empfangen kann. [Das Power BI-Team arbeitet daran, diese Anforderung zu lockern](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) – schauen Sie also wieder vorbei. 
-* Für gesendete Berichte und Dashboards wird Ihre Power BI-Spracheinstellung verwendet. Die Standardsprache ist Englisch. Sie können die Spracheinstellung anzeigen, indem Sie das Zahnradsymbol und dann ![](media/service-report-subscribe/power-bi-settings-icon.png)**Einstellungen > Allgemein > Sprache** auswählen.
+* Für gesendete Berichte und Dashboards wird Ihre Power BI-Spracheinstellung verwendet. Die Standardsprache ist Englisch. Sie können die Spracheinstellung anzeigen bzw. festlegen, indem Sie zuerst auf das Zahnradsymbol ![Zahnradsymbol](media/service-report-subscribe/power-bi-settings-icon.png) und dann auf **> Einstellungen > Allgemein > Sprache** klicken.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)    

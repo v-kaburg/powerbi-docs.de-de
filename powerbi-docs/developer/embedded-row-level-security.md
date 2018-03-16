@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 Mit der Sicherheit auf Zeilenebene (Row Level Security,RLS) kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
@@ -140,6 +140,47 @@ Beim Arbeiten mit Liveverbindungen von Analysis Services wird ein [lokales Daten
 
 Rollen können in einem Einbettungstoken mit der Identität angegeben werden. Wenn keine Rolle angegeben wurde, wird zum Auflösen der zugehörigen Rollen der angegebene Benutzername verwendet.
 
+**Verwenden des CustomData-Features**
+
+Das CustomData-Feature ermöglicht die Übergabe von Freitext (Zeichenfolge) mithilfe der Verbindungszeichenfolgen-Eigenschaft von CustomData. Dabei handelt es sich um einen Wert, der von AS (über die CUSTOMDATA()-Funktion) verwendet werden soll.
+Sie können dies als alternative Möglichkeit zum Anpassen der Datennutzung verwenden.
+Sie können das Feature innerhalb der DAX-Rollenabfrage verwenden. Außerdem können Sie es ohne eine Rolle in einer DAX-Measureabfrage verwenden.
+Das CustomData-Feature ist Teil der Funktionalität zur Tokengenerierung für folgende Elemente: Dashboards, Berichte und Kacheln. Dashboards können über mehrere CustomData-Identitäten (eine pro Kachel/Modell) verfügen.
+
+> [!NOTE]
+> Das CustomData-Feature funktioniert nur für Modelle, die in Azure Analysis Services gespeichert sind und nur im Livemodus. Im Gegensatz zu Benutzern und Rollen kann das CustomData-Feature nicht innerhalb einer PBIX-Datei festgelegt werden. Wenn ein Token mit dem CustomData-Feature generiert wird, müssen Sie einen Benutzernamen besitzen.
+>
+>
+
+**Erweiterungen des CustomData SDK**
+
+Die CustomData-Zeichenfolgeneigenschaft wurde bei der Tokengenerierung zur effektiven Identität hinzugefügt.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+Die Identität kann mithilfe von benutzerdefinierten Daten erstellt werden, indem Sie folgenden Aufruf verwenden:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Verwendung des CustomData SDK**
+
+Wenn Sie die REST-API aufrufen, können Sie in jeder Identität benutzerdefinierte Daten hinzufügen, z.B.:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 * Die Zuweisung von Benutzern zu Rollen im Power BI-Dienst wirkt sich bei Verwendung eines Einbettungstokens nicht auf RLS aus.
 * Der Power BI-Dienst wendet die RLS-Einstellung nicht auf Administratoren oder Mitglieder mit Bearbeitungsberechtigungen an, wenn Sie eine Identität mit einem Einbettungstoken bereitstellen, jedoch auf die Daten.
@@ -150,4 +191,3 @@ Rollen können in einem Einbettungstoken mit der Identität angegeben werden. We
 * Mit einer Identitätenliste werden mehrere Identitätstoken für die Dashboardeinbettung aktiviert. Bei allen anderen Artefakten enthält die Liste eine einzelne Identität.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
-

@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 Wenn Sie im Power BI-Dienst einen Bericht öffnen, hat jeder Seite des Berichts eine eigene eindeutige URL. Zum Filtern der jeweiligen Berichtsseite können Sie den Filterbereich des Berichtszeichenbereichs verwenden.  Sie können aber auch die URL mit Abfragezeichenfolgenparametern versehen, um den Bericht zu filtern. Das ist beispielsweise hilfreich, wenn Sie Kollegen einen bereits vorgefilterten Bericht zeigen möchten. Hierzu können Sie etwa der Standard-URL für den Bericht die gewünschten Filterparameter hinzufügen und dann die gesamte URL per E-Mail versenden.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Power BI-Bericht im Dienst](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ Die Syntax ist recht einfach: Beginnen Sie mit der Berichts-URL, und fügen Sie 
 
 URL?filter=***Tabelle***/***Feld*** eq '***Wert***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL mit Filter](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * Bei den Namen für **Tabelle** und **Feld** muss die Groß-/Kleinschreibung beachtet werden, beim **Wert** nicht.
 * Zum Filtern können auch Felder verwendet werden, die in der Berichtsansicht ausgeblendet sind.
@@ -49,7 +50,7 @@ Auf all das gehen wir im weiteren Verlauf dieses Artikels noch näher ein.
 ## <a name="filter-on-a-field"></a>Filtern nach einem Feld
 Angenommen, die URL unseres Berichts lautet wie folgt:
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![Ausgangs-URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 Und die Kartendarstellung (weiter oben) zeigt, dass wir über Filialen in North Carolina verfügen.
 
@@ -61,7 +62,7 @@ Wenn Sie den Bericht filtern möchten, sodass nur Daten für Filialen in „NC�
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![URL mit Filter](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* ist als Wert im Feld **Territory** der Tabelle **Store** gespeichert.

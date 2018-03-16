@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Ausgewählte Dashboards im Power BI-Dienst
 ## <a name="create-a-featured-dashboard"></a>Erstellen eines ausgewählten Dashboards
 Viele Benutzer haben ein bevorzugtes Dashboard.  Dies kann das Dashboard sein, mit dem Sie Ihr Unternehmen verwalten, oder ein Dashboard mit einer Aggregation von Kacheln aus unterschiedlichen Dashboards und Berichten.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![Symbol „Als ausgewählt festlegen“](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Wenn Sie ein Dashboard als *ausgewählt* festlegen, wird bei jedem Öffnen des Power BI-Diensts dieses Dashboard angezeigt.  
 
@@ -47,22 +48,22 @@ Sehen Sie, wie ein ausgewähltes Dashboard erstellt wird, und befolgen Sie ansch
 
 
 1. Öffnen Sie das Dashboard, das Sie als *Ausgewählt* festlegen möchten. 
-2. In der oberen Navigationsleiste wird **Als ausgewähltes festlegen** oder nur das entsprechende Symbol ![](media/service-dashboard-featured/power-bi-featured-icon.png) angezeigt. Wählen Sie eines der beiden aus.
+2. In der oberen Navigationsleiste wird **Set as featured** (Als ausgewählt festlegen) oder nur das entsprechende Symbol ![Symbol „ausgewählt“](media/service-dashboard-featured/power-bi-featured-icon.png) angezeigt. Wählen Sie eines der beiden aus.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Symbol „Als ausgewählt festlegen“](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Bestätigen Sie Ihre Auswahl.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![Ausgewähltes Dashboard festlegen](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Ändern des ausgewählten Dashboards
 Selbstverständlich können Sie später jederzeit ein neues Dashboard als ausgewähltes Dashboard festlegen.
 
 1. Führen Sie die obigen Schritte 1 und 2 aus.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Fenster „Ausgewähltes Dashboard ändern“](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Wählen Sie **Als ausgewähltes festlegen**. Wenn das Dashboard nicht mehr als „ausgewählt“ festgelegt ist, bleibt es trotzdem in Ihrem Arbeitsbereich erhalten.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![Erfolgsmeldung](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Entfernen des ausgewählten Dashboards
 Wenn kein Dashboard als ausgewähltes Dashboard festgelegt sein soll, können Sie diese Festlegung aufheben.
@@ -70,7 +71,7 @@ Wenn kein Dashboard als ausgewähltes Dashboard festgelegt sein soll, können Si
 1. Öffnen Sie das zurzeit ausgewählte Dashboard.
 2. Wählen Sie in der oberen Menüleiste **Ausgewähltes deaktivieren**.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![Ausgewähltes löschen](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Power BI wird jetzt mit dem zuletzt verwendeten Dashboard geöffnet.  
 

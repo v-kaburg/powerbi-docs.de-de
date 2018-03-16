@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI-Benachrichtigungen
 Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI. Öffnen Sie sie, um Benachrichtigungen über neue Dashboards, die für Sie freigegeben wurden, Änderungen an Ihrem Gruppenbereich, Informationen zu Power BI-Veranstaltungen und -Meetings, eingerichtete Warnungen und viele weitere Benachrichtigungen anzuzeigen. Sie können [Warnungen im Power BI-Dienst festlegen](service-set-data-alerts.md) wie auch in den mobilen Power BI-Apps.
@@ -34,13 +35,13 @@ Sehen Sie sich an, wie Amanda ihre Benachrichtigungen liest, verwaltet und beant
 
 1. Wenn Sie sich bei Power BI anmelden, werden dem Feed alle neuen Benachrichtigungen hinzugefügt, die an Sie gesendet wurden, während Sie offline waren. Wenn neue Benachrichtigungen für Sie vorhanden sind, wird eine gelbe Blase mit der Anzahl neuer Elemente in Power BI angezeigt.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![Neues Benachrichtigungssymbol](media/service-notification-center/power-bi-new-notification.png)
 2. Wählen Sie in der Power BI-Menüleiste das Benachrichtigungssymbol aus.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![Obere Menüleiste mit ausgewähltem Benachrichtigungssymbol](media/service-notification-center/power-bi-notifications-icon.png)
 3. Die neuesten Benachrichtigungen werden immer ganz oben angezeigt und die ungelesenen hervorgehoben. Benachrichtigungen werden 90 Tage lang aufbewahrt, es sei denn, Sie löschen sie vorher oder erreichen das zulässige Maximum von 100 Benachrichtigungen.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Mitteilungszentrale](media/service-notification-center/power-bi-notifications.png)
 4. Um eine Benachrichtigung zu schließen, klicken Sie auf das Symbol „X“.
 
 ### <a name="next-steps"></a>Nächste Schritte

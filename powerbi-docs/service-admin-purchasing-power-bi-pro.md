@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Erwerb von Power BI Pro
 Power BI Pro ist für Benutzer, die Berichte veröffentlichen, Dashboards freigeben, mit Kollegen in Arbeitsbereichen zusammenarbeiten und andere damit verbundene Aktivitäten ausüben – z.B. die Möglichkeit:
@@ -63,7 +64,7 @@ Wählen Sie dann **Test starten** aus.
 > Bei Verfügbarkeit von Power BI Premium und mit den Änderungen am Power BI Free-Angebot zum 1. Juni 2017 können Sie für die erweiterte Pro-Testversion berechtigt sein. Weitere Informationen finden Sie unter [Aktivierung der erweiterten Pro-Testversion](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Darstellung innerhalb des Diensts
-Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein Pro-Testkonto verfügen. Klicken Sie dazu auf das *Zahnradsymbol*, und wählen Sie dann **Persönlichen Speicher verwalten**.
+Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein Pro-Testkonto verfügen. Klicken Sie dazu zunächst auf das **Zahnradsymbol** und anschließend auf **Persönlichen Speicher verwalten**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

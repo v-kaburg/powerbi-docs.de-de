@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Aktivieren von Q&A für Liveverbindungen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Was ist das lokale Datengateway?  Was ist eine Liveverbindung?
@@ -44,15 +45,15 @@ Weitere Informationen finden Sie unter:
 ## <a name="enable-qa"></a>Aktivieren von Q&A
 Nachdem Sie das Datengateway eingerichtet haben, stellen Sie aus Power BI eine Verbindung mit Ihren Daten her.  Erstellen Sie ein Dashboard mit Ihren lokalen Daten oder laden Sie eine PBIX-Datei hoch, die lokale Daten verwendet.  Möglicherweise enthalten Ihre Dashboards, Berichte und Datasets auch bereits lokale Daten, die für Sie freigegeben wurden.
 
-1. Wählen Sie rechts oben das Zahnradsymbol ![](media/service-q-and-a-direct-query/power-bi-cog.png) und dann **Einstellungen** aus.
+1. Klicken Sie rechts oben auf das Zahnradsymbol ![Zahnradsymbol](media/service-q-and-a-direct-query/power-bi-cog.png) und dann auf **Einstellungen**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menü „Einstellungen“](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Wählen Sie **Datasets**, und wählen Sie das für Q&A aktivierte Dataset aus.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Anzeige „Datasets“ im Menü „Einstellungen“](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Erweitern Sie **Q&A and Cortana**, aktivieren Sie das Kontrollkästchen **Turn on Q&A for this dataset**, und wählen Sie **Anwenden**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Erweiterter Q&A-Bereich](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Welche Daten werden zwischengespeichert, und wie werden Daten geschützt?
 Wenn Sie F&A für Ihre lokalen Daten aktivieren, wird eine Teilmenge der Daten im Dienst zwischengespeichert. Damit wird eine akzeptable Leistung von F&A sichergestellt. Werte, die länger als 24 Zeichen sind, werden in Power BI nicht zwischengespeichert. Wenn Sie F&A deaktivieren (durch Deaktivieren von **Turn on Q&A for this dataset**) oder Ihr Dataset löschen, wird der Cache innerhalb weniger Stunden gelöscht.
