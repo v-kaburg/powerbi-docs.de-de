@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
 
 Wenn Sie Daten in Power BI Desktop laden, wird versucht, den Datentyp der Quellspalte in einen Datentyp zu konvertieren, der eine effizientere Speicherung, Berechnung und Datenvisualisierung unterstützt. Wenn beispielsweise eine Spalte mit Werten, die Sie aus Excel importieren, keine Bruchzahlen aufweist, konvertiert der Power BI Desktop die gesamte Spalte mit Daten in einen Ganzzahldatentyp, der für das Speichern von Ganzzahlen besser geeignet ist.
 
-Dies ist wichtig, da einige DAX-Funktionen spezielle Anforderungen in Bezug auf Datentypen haben. In vielen Fällen konvertiert DAX zwar implizit einen Datentyp für Sie, es gibt jedoch Fälle, in denen dies nicht der Fall ist.  Wenn eine DAX-Funktion beispielsweise einen Datumsdatentyp erfordert und der Datentyp für die Spalte Text ist, funktioniert die DAX-Funktion nicht ordnungsgemäß.  Daher ist es wichtig und nützlich, den richtigen Datentyp für eine Spalte zu verwenden. Implizite Konvertierungen werden weiter unten in diesem Artikel beschrieben.
+Dieses Konzept ist wichtig, da einige DAX-Funktionen spezielle Anforderungen in Bezug auf Datentypen haben. In vielen Fällen konvertiert DAX zwar implizit einen Datentyp für Sie, es gibt jedoch Fälle, in denen dies nicht der Fall ist.  Wenn eine DAX-Funktion beispielsweise einen Datumsdatentyp erfordert und der Datentyp für die Spalte Text ist, funktioniert die DAX-Funktion nicht ordnungsgemäß.  Daher ist es wichtig und nützlich, den richtigen Datentyp für eine Spalte zu verwenden. Implizite Konvertierungen werden weiter unten in diesem Artikel beschrieben.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Bestimmen und Angeben des Datentyps einer Spalte
 Im Power BI Desktop können Sie den Datentyp einer Spalte im Abfrage-Editor oder in der Datensicht bzw. der Berichtsansicht bestimmen und angeben:
@@ -42,7 +42,7 @@ Im Power BI Desktop können Sie den Datentyp einer Spalte im Abfrage-Editor oder
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-Die Dropdownliste "Datentyp" im Abfrage-Editor weist zwei Datentypen auf, die derzeit nicht in der Daten- oder Berichtsansicht enthalten sind: **Datum/Uhrzeit/Zeitzone** und **Dauer**. Wenn eine Spalte mit diesen Datentypen in das Modell geladen und in der Daten- oder Berichtsansicht angezeigt wird, wird eine Spalte mit einem Datentyp Datum/Uhrzeit/Zeitzone in einen Datentyp Datum/Uhrzeit konvertiert, und eine Spalte mit einem Datentyp Dauer in eine Dezimalzahl.
+Die Dropdownliste "Datentyp" im Abfrage-Editor weist zwei Datentypen auf, die derzeit nicht in der Daten- oder Berichtsansicht enthalten sind: **Datum/Uhrzeit/Zeitzone** und **Dauer**. Wenn eine Spalte mit diesen Datentypen in das Modell geladen und in der Daten- oder Berichtansicht angezeigt wird, wird eine Spalte mit einem Datentyp für Datum/Uhrzeit/Zeitzone in einen Datentyp für Datum/Uhrzeit konvertiert, und eine Spalte mit einem Datentyp für die Dauer in eine Dezimalzahl.
 
 ### <a name="number-types"></a>Zahlentypen
 Power BI Desktop unterstützt drei Zahlentypen:
@@ -56,7 +56,7 @@ Power BI Desktop unterstützt drei Zahlentypen:
 ### <a name="datetime-types"></a>Datum/Uhrzeit-Typen
 Power BI Desktop unterstützt fünf Datum/Uhrzeit-Datentypen in der Abfrageansicht und drei in der Berichtsansicht und im Modell.   Sowohl Datum/Uhrzeit/Zeitzone als auch die Dauer werden beim Laden in das Modell konvertiert.
 
-**Datum/Uhrzeit** – Stellt einen Datums-und einen Uhrzeitwert dar.  Im Hintergrund wird der Datum/Uhrzeit-Wert als Dezimalzahltyp gespeichert.  Daher können Sie zwischen den beiden konvertieren.   Der Uhrzeitteil eines Datums wird als Bruch auf ganze Vielfache von 1/300 Sekunden (3,33 ms) gespeichert.  Datumsangaben zwischen den Jahren 1900 und 9999 werden unterstützt.
+**Datum/Uhrzeit** – Stellt einen Datums-und einen Uhrzeitwert dar.  Im Hintergrund wird der Datum/Uhrzeit-Wert als Dezimalzahltyp gespeichert.  Daher können Sie zwischen den beiden konvertieren.   Der Uhrzeitteil eines Datums wird als Bruchteil von ganzen Vielfachen von 1/300 Sekunden (3,33 ms) gespeichert.  Datumsangaben zwischen den Jahren 1900 und 9999 werden unterstützt.
 
 **Datum** – Stellt nur ein Datum (ohne Uhrzeitteil) dar.  Bei der Konvertierung in das Modell entspricht ein Datum einem Datum/Uhrzeitwert mit 0 (null) für den Bruchteilwert.
 
@@ -109,7 +109,7 @@ Wenn beispielsweise eine reelle Zahl bei einer Addition in Verbindung mit Währu
 
 **Subtraktion (-)**
 
-In der folgenden Tabelle ist die Zeilenüberschrift der Minuend (linke Seite) und die Spaltenüberschrift ist der Subtrahend (rechte Seite).
+In der folgenden Tabelle ist die Zeilenüberschrift der Minuend (linke Seite), und die Spaltenüberschrift ist der Subtrahend (rechte Seite).
 
 | Operator(-) | INTEGER | WÄHRUNG | REAL | Datum/Uhrzeit |
 | --- | --- | --- | --- | --- |
@@ -125,7 +125,7 @@ Wenn beispielsweise ein Datum bei einer Subtraktion mit einem beliebigen anderen
 > 
 > 
 
-**Multiplikation(*)**
+**Multiplikation (*)**
 
 | Operator(*) | INTEGER | WÄHRUNG | REAL | Datum/Uhrzeit |
 | --- | --- | --- | --- | --- |
@@ -153,7 +153,7 @@ In Vergleichsausdrücken gelten boolesche Werte als größer als Zeichenfolgewer
 
 Die folgenden DAX-Ausdrücke veranschaulichen dieses Verhalten:
 
-=IF(FALSE()\>"true", "Ausdruck ist true", "Ausdruck ist false"), gibt "Ausdruck ist true" zurück
+=IF(FALSE()\>"true", "Ausdruck ist true", "Ausdruck ist false"), gibt "Ausdruck ist true" zurück.
 
 =IF("12"\>12,"Ausdruck ist true", "Ausdruck ist false"), gibt "Ausdruck ist true" zurück.
 
@@ -169,7 +169,7 @@ Konvertierungen werden implizit für numerische oder Datum/Uhrzeit-Typen ausgef�
 | Datum/Uhrzeit |REAL |REAL |REAL |Datum/Uhrzeit |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>Behandlung von Leerzeichen, leeren Zeichenfolgen und Nullwerten
-In DAX wird ein Nullwert, ein leerer Wert, eine leere Zelle oder ein fehlenden Wert durch den gleichen neuen Werttyp BLANK dargestellt. Sie können auch Leerzeichen mit der BLANK-Funktion generieren oder mit der ISBLANK-Funktion nach Leerzeichen suchen.
+In DAX werden Nullwerte, leere Werte, leere Zellen oder fehlende Werte durch den gleichen neuen Werttyp BLANK dargestellt. Sie können auch Leerzeichen mit der BLANK-Funktion generieren oder mit der ISBLANK-Funktion nach Leerzeichen suchen.
 
 Wie Leerzeichen in Operationen wie Addition oder Verkettung behandelt werden, hängt von der jeweiligen Funktion ab. In der folgende Tabelle werden die Unterschiede zwischen DAX- und Microsoft Excel-Formeln bei der Behandlung von Leerzeichen zusammengefasst.
 

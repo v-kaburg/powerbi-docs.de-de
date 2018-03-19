@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -142,9 +142,13 @@ Sie können auch das Feature nur für eine bestimmte Gruppe von Benutzern aktivi
 
 Benutzer in der Organisation können Dashboards für Benutzer außerhalb der Organisation freigeben.
 
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+Hier sehen Sie die Meldung, die bei der Freigabe an einen externen Benutzer angezeigt wird.
+
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Webveröffentlichung
+### <a name="publish-to-web"></a>Im Web veröffentlichen
 
 Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md)
 

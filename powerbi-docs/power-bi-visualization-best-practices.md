@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -53,7 +53,7 @@ Die Erstellung eines Berichts beginnt vor dem Erstellen des ersten visuellen Ele
 
 Die Antworten auf diese Fragen stellen die Grundlage Ihres Entwurfs dar. Mit jedem Bericht wird eine „Geschichte“ erzählt. Stellen Sie sicher, dass diese Geschichte an der geschäftlichen Anforderung ausgerichtet ist. Es kann verlockend sein, visuelle Elemente hinzuzufügen, mit denen eindrucksvolle Erkenntnisse veranschaulicht werden. Wenn diese Erkenntnisse aber nicht zur geschäftlichen Anforderung passen, ist der Bericht nicht hilfreich – und Benutzer werden durch die visuellen Elemente ggf. eher abgelenkt. Unter Umständen finden Sie auch heraus, dass die Informationen, die zum Treffen der Entscheidung benötigt werden, nicht aus den vorhandenen Daten ermittelt werden können. Kann dieser Bericht genutzt werden, um zu messen, was benötigt wird?
 
-Berichte können zum Überwachen, Aufdecken, Nachverfolgen, Vorhersagen, Messen, Verwalten, Testen usw. verwendet werden. Wenn die geschäftliche Anforderung beispielsweise ein Umsatzbericht ist, mit dem die Leistung gemessen wird, können Sie einen Bericht entwerfen, der Folgendes leistet: Ermitteln des aktuellen Umsatzes, Vergleichen mit vorherigem Umsatz, Vergleichen mit Wettbewerbern und Nutzen von KPIs zum Auslösen von Warnungen.  Es kann beispielsweise sein, dass Leser die ausführlichen Verkaufszahlen anzeigen können, um sich über Geschäftsschließungen oder Lieferkettenprobleme zu informieren, die sich ggf. auf den Umsatz auswirken.  Eine weitere Drilldown-Option kann darin bestehen, den Umsatz nach Geschäft, Region, Produkt, Jahreszeit usw. anzuzeigen.
+Berichte können zum Überwachen, Aufdecken, Nachverfolgen, Vorhersagen, Messen, Verwalten, Testen usw. verwendet werden. Wenn die geschäftliche Anforderung beispielsweise ein Umsatzbericht ist, mit dem die Leistung gemessen wird, können Sie einen Bericht entwerfen, der Folgendes leistet: Ermitteln des aktuellen Umsatzes, Vergleichen mit vorherigem Umsatz, Vergleichen mit Wettbewerbern und Nutzen von KPIs zum Auslösen von Warnungen.  Es kann beispielsweise sein, dass Leser die ausführlichen Verkaufszahlen anzeigen können, um sich über Geschäftsschließungen oder Lieferkettenprobleme zu informieren, die sich ggf. auf den Umsatz auswirken.  Eine weitere Drilldownoption kann darin bestehen, den Umsatz nach Geschäft, Region, Produkt, Jahreszeit usw. anzuzeigen.
 
 Machen Sie sich klar, wer die „Kunden“ (also Empfänger) des Berichts sind. Entwerfen Sie einen Bericht, in dem vertraute Terminologie verwendet wird und der Daten mit dem Detail- bzw. Komplexitätsgrad enthält, der für den Wissensstand der Kunden geeignet ist. Gibt es mehrere Arten von Kunden? Ein Ansatz ist nicht immer für verschiedene Zielgruppen geeignet. Entwerfen Sie je nach Wissensstand separate Berichtsseiten, und wählen Sie für jede Seite eine eindeutige Bezeichnung, damit sie für Kunden selbsterklärend sind. Eine andere Möglichkeit ist die Verwendung von Datenschnitten (Slicern), damit Kunden die Seite je nach Bedarf anpassen können. Beziehen Sie Kunden in die Planungsphase ein, und vermeiden Sie es zu glauben, dass Sie bereits wissen, was benötigt wird.  Seien Sie darauf vorbereitet, neu anzufangen und den Prozess mehrfach zu durchlaufen.
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -136,7 +136,7 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 **Im Web veröffentlichen** wird für die überwiegende Mehrheit der Datenquellen und Berichte im Power BI-Dienst unterstützt, die folgenden werden in „Im Web veröffentlichen“ jedoch aktuell nicht unterstützt oder stehen nicht zur Verfügung:
 
 1. Berichte, die die Sicherheit auf Zeilenebene verwenden
-2. Berichte, die eine beliebige Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst, Azure Analysis Services und dem Power BI-Dienst.
+2. Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst, Azure Analysis Services und dem Power BI-Dienst
 3. Berichte, die für Sie direkt oder über ein Organisationsinhaltspaket freigegeben werden
 4. Berichte in einer Gruppe, in der Sie kein Bearbeitungsmitglied sind
 5. „R“-Visualisierungen werden in „Im Web veröffentlichen“-Berichten derzeit nicht unterstützt.
