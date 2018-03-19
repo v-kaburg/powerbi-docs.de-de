@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 67b9dd605f5de2de1e824948143011797ad1f937
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Get started
+ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
 Ist es Ihnen auch schon einmal beim Arbeiten mit Power BI passiert, dass Sie im entscheidenden Moment keine Antwort auf ihre Frage zu Power BI finden, weil so etwas wie die „Soforthilfe“ fehlt? 
@@ -56,7 +57,7 @@ Es gibt nahezu unendlich viele Schulungsoptionen, von Einzeltraining bis hin zu 
 
 Online finden Sie weitere Angebote, u.a. folgende Ressourcen:
 
-* **edX.org** bietet einen kostenlosen Kurs zum [Analysieren und Visualisieren von Daten mit Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4). 
+* **edX.org** bietet einen kostenlosen Kurs zum [Analysieren und Visualisieren von Daten mit Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4).
 * **Lynda.com** bietet Kurse wie [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) an.
 * Sie können auch nach individuellen Schulungssitzungen nach dem Prinzip „**In einem Tag zum Dashboard**“ suchen.
 
@@ -67,15 +68,14 @@ In der [Power BI-Community](http://community.powerbi.com) können Sie Fragen ste
 Nehmen Sie an einer [Power BI-Benutzergruppe](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) teil und bitten Sie die Gruppe um Hilfe bei der Beantwortung Ihrer Fragen. Sie können auch eine eigene Benutzergruppe für Ihre Anforderungen starten und eine Community von Benutzern schaffen, die sich gegenseitig helfen: in Ihrer Region, für Ihre Daten, in Ihrer Zeitzone.
 
 ## <a name="9-check-the-service-status"></a>9. Dienststatus
-Wenn Sie Schwierigkeiten mit dem Dienst haben, kann es sein, dass beim Dienst selbst Probleme aufgetreten sind. Auf der [Supportseite](https://powerbi.microsoft.com/support/) finden Sie weitere Informationen. 
+Wenn Sie Schwierigkeiten mit dem Dienst haben, kann es sein, dass beim Dienst selbst Probleme aufgetreten sind. Auf der [Supportseite](https://powerbi.microsoft.com/support/) finden Sie weitere Informationen.
 
 ## <a name="10-just-try-it"></a>10. Ausprobieren
-Wenn alles andere nichts hilft, ist der letzte Tipp, das System zu beobachten. Häufig wird gefragt, welche Funktionen Power BI bietet. Eine solche Frage können Sie sich leicht selbst beantworten, indem Sie den Power BI-Dienst oder Power BI Desktop öffnen und die Optionen der Benutzeroberfläche betrachten und ausprobieren. 
+Wenn alles andere nichts hilft, ist der letzte Tipp, das System zu beobachten. Häufig wird gefragt, welche Funktionen Power BI bietet. Eine solche Frage können Sie sich leicht selbst beantworten, indem Sie den Power BI-Dienst oder Power BI Desktop öffnen und die Optionen der Benutzeroberfläche betrachten und ausprobieren.
 
 Angenommen, Sie möchten wissen, ob Sie Dashboards für eine Sicherheitsgruppe freigeben können. Um diese Frage zu beantworten, öffnen Sie das Dialogfeld für die Freigabe und versuchen, eine Sicherheitsgruppe hinzuzufügen. Danach kennen Sie in jedem Fall die Antwort.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erste Schritte mit Power BI](service-get-started.md) 
+* [Erste Schritte mit Power BI](service-get-started.md)
 * Stellen Sie Ihre Frage in der [Power BI-Community](http://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
-
