@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
 Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann. Office
@@ -38,7 +38,7 @@ Nachdem Sie die benutzerdefinierte Visualisierung codiert, getestet und als PBIV
 | Item | Erforderlich | Beschreibung |
 | --- | --- | --- |
 | PBIVIZ-Paket mit allen erforderlichen Metadaten |Ja |Name der Visualisierung<br>Anzeigename<br>GUID<br>Version<br>Beschreibung<br>Name und E-Mail-Adresse des Autors |
-| PBIX-Beispielberichtsdatei |Ja |Um Ihre Visualisierung zu präsentieren, sollten Sie Benutzer mit der Visualisierung vertraut machen. Sie sollten den Nutzen der Visualisierung für den Benutzer unterstreichen und Beispiele für die Verwendung, die Formatierungsoptionen und weitere Funktionen bieten. Sie können auch am Ende eine Seite für *Hinweise* hinzufügen, die Tipps und Tricks, häufige Fehler und ähnliche Hinweise enthält. |
+| PBIX-Beispielberichtsdatei |Ja |Um Ihre Visualisierung zu präsentieren, sollten Sie Benutzer mit der Visualisierung vertraut machen. Sie sollten den Nutzen der Visualisierung für den Benutzer unterstreichen und Beispiele für die Verwendung, die Formatierungsoptionen und weitere Funktionen bieten. Sie können auch am Ende eine Seite für *Hinweise* hinzufügen, die Tipps und Tricks, häufige Fehler und ähnliche Hinweise enthält.<br>Der PBIX-Beispielbericht muss offline ohne externe Verbindung funktionieren. |
 | Symbol |Ja |Sie sollten das Logo der benutzerdefinierten Visualisierung einschließen, das in der digitalen Ladenzeile angezeigt wird. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Bildgröße muss genau 300 px (Breite) x 300 px (Höhe) betragen. Die Dateigröße darf 512 KB nicht überschreiten. |
 | Screenshots |Ja |Sie müssen mindestens einen Screenshot bereitstellen. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Größe muss exakt 1366 px (Breite) x 768 px (Höhe) betragen. Die Dateigröße darf 1024 KB nicht überschreiten. *Um den Nutzen der Screenshots zu erhöhen, fügen Sie Textblasen hinzu, die den Wertbeitrag wichtiger Features, die in den einzelnen Screenshots gezeigt werden, erläutern.* |
 | Support-Downloadlink |Ja |Geben Sie eine URL an, um Kunden zu unterstützen, bei denen Probleme mit Ihrer Visualisierung auftreten. Die URL sollte „https://“ oder „http://“ enthalten. |

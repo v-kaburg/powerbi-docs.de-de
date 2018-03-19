@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -174,6 +174,8 @@ Beachten Sie bei der Übertragung von Apps mithilfe von Push an Benutzer folgend
 * Wenn der Benutzer die App nicht sofort in der Liste der Apps sieht, sollte der Browser aktualisiert, geschlossen und neu geöffnet werden.
 
 * Versuchen Sie die Benutzer nicht zu überfordern. Achten Sie darauf, dass nicht zu viele Apps mithilfe von Push übertragen werden, damit die Benutzer die vorinstallierten Apps als nützlich wahrnehmen. Um ein sinnvolles Timing zu gewährleisten, sollten Sie steuern können, wer Apps mithilfe von Push an Endbenutzer übertragen kann. Sie können eine Kontaktperson auswählen, die für das Übertragen von Apps in Ihrer Organisation mithilfe von Push an Endbenutzer verantwortlich ist.
+
+* Für Gastbenutzer, die keine Einladung angenommen haben, werden keine Apps automatisch installiert.  
 
 ## <a name="unpublish-an-app"></a>Aufheben der Veröffentlichung einer App
 Jedes Mitglied eines App-Arbeitsbereichs kann die Veröffentlichung der App aufheben.
