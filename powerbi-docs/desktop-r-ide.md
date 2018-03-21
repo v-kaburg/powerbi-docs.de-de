@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Verwenden einer externen R-IDE mit Power BI
 Mit **Power BI Desktop** können Sie eine externe R-IDE (Integrated Development Environment, integrierte Entwicklungsumgebung) zum Erstellen und Optimieren von R-Skripts verwenden und diese Skripts dann in Power BI nutzen.
@@ -35,7 +35,7 @@ Vor der Veröffentlichung dieser Funktion mussten Sie zum Erstellen und Ausführ
 Ab der **Power BI Desktop**-Version von September 2016 (Version 2.39.4526.362) können Sie angeben, welche R-IDE Sie verwenden möchten. Diese wird dann automatisch in **Power BI Desktop** gestartet.
 
 ### <a name="requirements"></a>Anforderungen
-Um dieses Feature verwenden zu können, müssen Sie eine **R-IDE** auf dem lokalen Computer installieren. Das R-Modul ist in **Power BI Desktop** nicht enthalten und wird nicht bereitgestellt oder installiert. Sie müssen daher **R** separat auf dem lokalen Computer installieren. Sie können die zu verwendende R-IDE-R auswählen. Dabei stehen Ihnen die folgenden Optionen zur Verfügung:
+Um dieses Feature verwenden zu können, müssen Sie eine **R-IDE** auf dem lokalen Computer installieren. Die R-Engine ist in **Power BI Desktop** nicht enthalten und wird nicht bereitgestellt oder installiert. Sie müssen daher **R** separat auf dem lokalen Computer installieren. Sie können die zu verwendende R-IDE-R auswählen. Dabei stehen Ihnen die folgenden Optionen zur Verfügung:
 
 * Sie können Ihre bevorzugte R-IDE installieren. Viele sind kostenlos, z. B. über die [R Open-Downloadseite](https://mran.revolutionanalytics.com/download/) und das [CRAN-Repository](https://cran.r-project.org/bin/windows/base/).
 * **Power BI Desktop** unterstützt auch [R Studio](https://www.rstudio.com/) und **Visual Studio 2015** mit den Editoren [*R-Tools für Visual Studio*](https://beta.visualstudio.com/vs/rtvs/).
@@ -53,7 +53,7 @@ Wenn Sie mehrere R-IDEs installiert haben, können Sie angeben, welche gestartet
 Und wenn keine Verknüpfung mit **R**-Dateien vorhanden ist, können Sie im Abschnitt *Wechseln Sie zu Ihrer bevorzugten R-IDE* des Dialogfelds **Optionen** einen Pfad zu einer benutzerdefinierten IDE angeben. Sie können auch eine andere R-IDE starten, indem Sie in **Power BI Desktop** neben dem Pfeilsymbol **R-IDE starten** das Zahnradsymbol **Einstellungen** auswählen.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Starten einer R-IDE aus Power BI Desktop
-Führen Sie zum Starten einer R-IDE aus **Power BI Desktop** die folgenden Schritte aus.
+Führen Sie zum Starten einer R-IDE aus **Power BI Desktop** die folgenden Schritte aus:
 
 1. Laden Sie Daten in **Power BI Desktop**.
 2. Wählen Sie einige Felder im Bereich **Felder** aus, mit denen Sie arbeiten möchten. Wenn Sie noch keine visuellen Skriptelemente aktiviert haben, werden Sie hierzu aufgefordert.

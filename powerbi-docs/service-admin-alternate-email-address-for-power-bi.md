@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Verwenden einer alternativen E-Mail-Adresse
 Die E-Mail-Adresse, die Sie für die Registrierung bei Power BI verwendet haben, wird standardmäßig verwendet, um Ihnen Updates über die Aktivität in Power BI zu senden.  Wenn Ihnen beispielsweise ein Benutzer eine Freigabeeinladung sendet, wird diese Adresse verwendet.
@@ -45,6 +45,19 @@ Manchmal möchten Sie möglicherweise, dass diese E-Mails an eine andere Adresse
 > Das Ändern dieser Einstellung hat keinen Einfluss darauf, welche E-Mail-Adresse zum Senden von Dienstupdates, Newslettern und anderen Werbeinformationen verwendet wird.  Diese werden immer an die e-Mail-Adresse gesendet, die Sie ursprünglich für Ihre Registrierung bei Power BI verwendet haben.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Aktualisieren über Azure Active Directory
+Bei der Erfassung eines integrierten AAD-Token (AAD = Active Azure Directory) für Power BI können Sie drei unterschiedliche E-Mail-Typen verwenden. Dabei handelt es sich um folgende drei Typen:
+
+* Die Haupt-E-Mail-Adresse, die dem AAD-Konto eines Benutzers zugeordnet ist
+* Die UPN-E-Mail-Adresse (UPN = UserPrincipalName)
+* Das Attribut für das „andere“ E-Mail-Adressfeld
+
+Power BI wählt anhand der folgenden Kriterien aus, welche E-Mail-Adresse verwendet werden soll:
+1.  Wenn das E-Mail-Attribut im Benutzerobjekt des AAD-Mandanten vorhanden ist, verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse
+2.  Wenn es sich bei der UPN-E-Mail-Adresse *nicht* um eine E-Mail-Adresse der Domäne **\*.onmicrosoft.com** handelt (die Informationen hinter dem Symbol „@“), verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse
+3.  Wenn das Attribut für das „andere“ E-Mail-Adressfeld im AAD-Benutzerobjekt vorhanden ist, wird die erste E-Mail-Adresse in dieser Liste verwendet (dieses Attribut kann eine Liste mit E-Mail-Adressen umfassen)
+4. Wenn keine der oben genannten Bedingungen erfüllt wird, wird die UPN-Adresse verwendet
 
 ## <a name="updating-with-powershell"></a>Aktualisieren mit PowerShell
 Stattdessen können Sie auch die alternative E-Mail-Adresse über PowerShell für Azure Active Directory aktualisieren. Dies erfolgt mit dem Befehl [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).

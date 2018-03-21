@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Installieren des lokalen Datengateways
+## <a name="install-the-on-premises-data-gateway"></a>Installieren von On-premises data gateway
 Das Gateway lässt sich auf Ihrem Computer ausführen und installieren. Es wird empfohlen, das Gateway auf einem Computer zu installieren, der immer eingeschaltet sein kann.
 
 > [!NOTE]

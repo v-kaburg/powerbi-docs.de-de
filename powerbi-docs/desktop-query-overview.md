@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Abfrageübersicht in Power BI Desktop
 Mit **Power BI Desktop** vernetzen Sie sich mit der Welt der Daten, erstellen überzeugende und fundierte Berichte und teilen Ihre Arbeit mit anderen, die dann darauf aufbauen und so ihr Business Intelligence-Potenzial erweitern können.
@@ -102,7 +102,7 @@ Im linken Bereich werden die Anzahl der aktiven Abfragen sowie der Name der Abfr
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
 ## <a name="the-center-data-pane"></a>Mittlerer Bereich (Datenbereich)
-Im mittleren Bereich bzw. Datenbereich werden die Daten der ausgewählten Abfrage angezeigt und können strukturiert werden. Hier werden die meisten Aufgaben im Abfrage-Editor ausgeführt.
+Im mittleren Bereich bzw. Datenbereich werden die Daten der ausgewählten Abfrage angezeigt. Hier werden die meisten Aufgaben im Abfrage-Editor ausgeführt.
 
 In der folgenden Abbildung wird die bereits früher erstellte Webdatenverbindung angezeigt. Die Spalte **Health care quality** ist ausgewählt, und durch Rechtsklick auf die Überschrift werden die im Kontextmenü verfügbaren Elemente angezeigt. Beachten Sie, dass viele Kontextmenüelemente auch als Schaltflächen auf den Registerkarten im Menüband verfügbar sind.  
 

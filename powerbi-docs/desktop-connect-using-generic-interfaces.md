@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Daten mithilfe generischer Schnittstellen in Power BI Desktop
-Sie können mithilfe integrierter Datenconnectors, die von **Access-Datenbanken** bis zu **Zendesk**-Ressourcen reichen und im Fenster **Daten abrufen** aufgeführt sind, eine Verbindung mit zahlreichen unterschiedlichen Datenquellen in **Power BI Desktop** herstellen. Sie können auch eine Verbindung mit verschiedenen *anderen* Datenquellen herstellen. So verfügen Sie noch über weitaus mehr Verbindungsoptionen, indem Sie generische Schnittstellen (z. B. **ODBC** oder **REST-APIs**) verwenden, die in **Power BI Desktop** integriert sind.
+Sie können mithilfe integrierter Datenconnectors, die von **Access-Datenbanken** bis zu **Zendesk**-Ressourcen reichen und im Fenster **Daten abrufen** aufgeführt sind, eine Verbindung mit zahlreichen unterschiedlichen Datenquellen in **Power BI Desktop** herstellen. Sie können auch eine Verbindung mit verschiedenen *anderen* Datenquellen herstellen. So verfügen Sie noch über weitaus mehr Verbindungsoptionen, indem Sie generische Schnittstellen (z.B. **ODBC** oder **REST-APIs**) verwenden, die in **Power BI Desktop** integriert sind.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop-Datenschnittstellen
 **Power BI Desktop** enthält eine ständig wachsende Sammlung von Datenconnectors, die dem Herstellen der Verbindung mit einer bestimmten Datenquelle dienen. Beispielsweise stellt der Datenconnector **SharePoint-Liste** während der Verbindungssequenz bestimmte Felder und unterstützende Informationen bereit, die für **SharePoint-Listen** vorgesehen sind. Dies ist der Fall, wenn Sie **Daten abrufen > Sonstige** auswählen, um sonstige Datenquellen im Fenster anzuzeigen (siehe Abbildung oben).
 
-Sie können in **Power BI Desktop** zudem eine Verbindung mit Datenquellen herstellen, die nicht in den Listen in **Daten abrufen** aufgeführt sind, indem Sie eine der folgenden generischen Datenschnittstellen verwenden:
+Zudem können Sie in **Power BI Desktop** eine Verbindung mit Datenquellen herstellen, die nicht in den Listen in **Daten abrufen** aufgeführt sind, indem Sie eine der folgenden generischen Datenschnittstellen verwenden:
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ Durch die Bereitstellung der entsprechenden Parameter in den Verbindungsfenstern
 
 In den folgenden Abschnitten finden Sie Listen der Datenquellen, auf die über diese generischen Schnittstellen zugegriffen werden kann.
 
-Finden Sie eine Datenquelle nicht, die Sie in **Power BI Desktop** verwenden möchten? Bitte [informieren Sie uns](https://ideas.powerbi.com/), damit wir sie unserer Liste von Vorschlägen und Anfragen hinzufügen können.
+Finden Sie eine Datenquelle nicht, die Sie in **Power BI Desktop** verwenden möchten? Senden Sie Ihre Vorschläge an die [Liste der Vorschläge und Anforderungen](https://ideas.powerbi.com/) des Power BI-Teams.
 
 ## <a name="data-sources-accessible-through-odbc"></a>Datenquellen mit Zugriff über ODBC
 Mit dem **ODBC**-Connector in **Power BI Desktop** können Sie Daten über den ODBC-Treiber von Drittanbietern importieren, indem Sie einfach einen **Datenquellennamen (DSN)** oder eine *Verbindungszeichenfolge* angeben. Optional können Sie auch eine SQL-Anweisung angeben, die für den ODBC-Treiber ausgeführt werden soll.
@@ -114,7 +114,7 @@ In der folgenden Liste sind einige Beispiele für Datenquellen aufgeführt, mit 
 | R-Skript |R-Statistikdateien |[Anleitung zu R-Skript vom CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Nächste Schritte
-Sie können mithilfe von Power BI Desktop eine Verbindung mit allen Arten von Datenquellen herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
+Sie können mithilfe von **Power BI Desktop** eine Verbindung mit allen Arten von Datenquellen herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)

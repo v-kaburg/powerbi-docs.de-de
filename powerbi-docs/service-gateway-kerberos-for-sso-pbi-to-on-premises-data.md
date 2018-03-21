@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten ermöglichen, indem Sie Ihr lokales Datengateway mit Kerberos konfigurieren. Das lokale Datengateway ermöglicht das einmalige Anmelden über DirectQuery; hiermit werden Verbindungen mit lokalen Datenquellen hergestellt.
@@ -64,9 +64,13 @@ Es folgen weitere Details zu diesen Schritten:
 
 
 > [!NOTE]
-> Zum Aktivieren von SSO für SAP HANA müssen Sie sicherstellen, dass folgende HANA-spezifische Konfigurationen für SAP vorgenommen wurden:
->    1. Stellen Sie sicher, dass auf dem SAP HANA-Server Version 2.00.022* oder höher ausgeführt wird. 
->    2. Installieren Sie auf dem Gatewaycomputer den aktuellen HANA-ODBC-Treiber von SAP.  Die Mindestversion ist die HANA-ODBC-Version 2.00.020.00 vom August 2017.
+> Zum Aktivieren von SSO für SAP HANA müssen Sie sicherstellen, dass folgende SAP HANA-spezifischen Konfigurationen für SAP vorgenommen wurden:
+> 1. Vergewissern Sie sich, dass auf dem SAP HANA-Server die erforderliche Mindestversion ausgeführt wird, die von der Plattformebene Ihres SAP HANA-Servers abhängig ist:
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+>
+> 2. Installieren Sie auf dem Gatewaycomputer den aktuellen HANA-ODBC-Treiber von SAP.  Die Mindestversion ist die HANA-ODBC-Version 2.00.020.00 vom August 2017.
 >
 > Im Folgenden finden Sie nützliche Links von SAP zu Patches und Upgrades. Beachten Sie, dass Sie sich bei folgenden Ressourcen mit Ihrem SAP-Supportkonto anmelden müssen und dass SAP diese Links möglicherweise ändert oder aktualisiert.
 > 

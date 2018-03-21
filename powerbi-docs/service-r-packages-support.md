@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>R-Pakete im Power BI-Dienst
 Sie können zum Erstellen visueller Elemente im Power BI-Dienst die leistungsstarke [Programmiersprache R](https://www.r-project.org/) verwenden. Viele R-Pakete werden im Power BI-Dienst unterstützt (die Anzahl der unterstützten Pakete nimmt ständig zu), und einige Pakete werden nicht unterstützt.
@@ -36,12 +36,12 @@ Unterstützte R-Pakete für den **Power BI-Dienst** werden im folgenden Abschnit
 Es gibt eine Reihe von Voraussetzungen und Einschränkungen für R-Pakete:
 
 * Der Power BI-Dienst unterstützt die meisten R-Pakete mit kostenlosen und Open Source-Softwarelizenzen, z.B. GPL-2, GPL-3, MIT+ usw.
-* Der Power BI-Dienst unterstützt in CRAN veröffentlichte Pakete. Der Dienst unterstützt keine privaten oder benutzerdefinierten R-Pakete. Wir bitten unsere Benutzer, ihre privaten Pakete auf CRAN verfügbar zu machen, bevor sie die Veröffentlichung im Power BI-Dienst anfordern.
+* Der Power BI-Dienst unterstützt in CRAN veröffentlichte Pakete. Der Dienst unterstützt keine privaten oder benutzerdefinierten R-Pakete. Es wird empfohlen, dass Benutzer ihre privaten Pakete auf CRAN verfügbar machen, bevor sie deren Veröffentlichung im Power BI-Dienst anfordern.
 * Für **Power BI Desktop** gibt es zwei Varianten von R-Paketen:
   
   * Für R-Visualisierungen können Sie jedes Paket installieren, auch benutzerdefinierte R-Pakete.
   * Bei benutzerdefinierten R-Visualisierungen werden nur öffentliche CRAN-Pakete für die automatische Installation der Pakete unterstützt.
-* Aus Sicherheits- und Datenschutzgründen werden derzeit keine R-Pakete unterstützt, die Client-Server-Abfragen über das World Wide Web im Dienst bereitstellen (z.B. RgoogleMaps). Netzwerke werden bei solchen Versuchen blockiert. Der folgende Abschnitt enthält eine Liste der unterstützten und nicht unterstützten R-Pakete.
+* Aus Sicherheits- und Datenschutzgründen werden keine R-Pakete unterstützt, die Client-Server-Abfragen über das World Wide Web im Dienst bereitstellen (z.B. RgoogleMaps). Netzwerke werden bei solchen Versuchen blockiert. Der folgende Abschnitt enthält eine Liste der unterstützten und nicht unterstützten R-Pakete.
 * Das Genehmigungsverfahren zum Einschließen eines neuen R-Pakets umfasst eine Reihe von Abhängigkeiten. Einige Abhängigkeiten, die im Dienst installiert werden müssen, können nicht unterstützt werden.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>R-Pakete, die in Power BI unterstützt werden
@@ -116,7 +116,7 @@ In der folgenden Tabelle werden die Pakete aufgeführt, die im Power BI-Dienst *
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ In der folgenden Tabelle werden die Pakete aufgeführt, die im Power BI-Dienst *
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ In der folgenden Tabelle werden die Pakete aufgeführt, die im Power BI-Dienst *
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ In der folgenden Tabelle werden die Pakete aufgeführt, die im Power BI-Dienst *
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |

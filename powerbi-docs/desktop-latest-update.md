@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e68f581e735619a85024cb9582bbc88b8f9aca79
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
 
-## <a name="february-2018-update-2555010521"></a>Update Februar 2018 (2.55.5010.521)
+## <a name="march-2018-update-2565023861"></a>Update März 2018 (2.56.5023.861)
 
 Sie können jetzt [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
 
-Wir freuen uns, die Updates für **Power BI Desktop** für diesen Monat zu veröffentlichen, und wir hoffen, dass Sie Ihnen das Leben erleichtern.
+Wir freuen uns, die Updates dieses Monats für **Power BI Desktop** zu veröffentlichen.
 
 Bedeutung der Links neben den einzelnen Updates:
 
@@ -45,46 +45,39 @@ In diesem Monat bietet **Power BI Desktop** die folgenden Updates:
 
 ### <a name="reporting"></a>Berichterstellung
 
-* Mehrfachauswahl von Datenpunkten über mehrere Seiten [[Video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[Artikel]](desktop-multi-select.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Synchronisieren von Slicern über mehrere Seiten eines Berichts [[Video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[Artikel]](desktop-slicers.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
-* Verbesserung des Slicers für numerische Bereiche: Ausrichtung an ganze Zahlen (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=8m44s) [[Artikel]](desktop-slicer-numeric-range.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* Bis zu sechsmal schnellere Geocodierung für Bing-Karten (Webvorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
-* Datenbeschriftungen für den Überlauf von Visuals für Balken- und Säulendiagramme [[Video]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
-* Durchsuchen der Bereiche „Formatierung“ und „Analyse“ [[Video]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[Artikel]](desktop-analytics-pane.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
-
+* QuickInfos der Berichtsseite [[Video]](https://youtu.be/kuI6MMzDh34?t=16s) [[Artikel]]() [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Das Hinzufügen von Lesezeichen ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[Artikel]](desktop-bookmarks.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* Anzeigeeinheiten und Präzisionssteuerung für die Spalten „Tabelle“ und „Matrix“  [[Video]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[Artikel]](desktop-slicer-numeric-range.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Deaktivieren des visuellen Headers im Lesemodus für einen Bericht [[Video]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* Verbesserte Standardplatzierung visueller Elemente [[Video]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>Benutzerdefinierte Visualisierungen
 
-* Benutzerdefinierte Visuals für Organisationen (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
-
-
-### <a name="analytics"></a>Analyse
-
-* Festlegen einer benutzerdefinierten Datentabelle [[Video]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[Artikel]](desktop-date-tables.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
-* Quickmeasures sind nun allgemein verfügbar [[Video]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[Artikel]](desktop-quick-measures.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+* Viele neue benutzerdefinierte visuelle Elemente [[Video]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>Datenkonnektivität
 
-* Verbesserungen für DirectQuery über SAP HANA (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
+* Verbesserungen des Visual Studio Team Services-Connectors [[Video]](https://youtu.be/kuI6MMzDh34?t=32m) [[Artikel]](desktop-multi-select.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* Verbesserungen des SAP HANA-Connectors [[Video]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * Multidimensionale Unterstützung für DirectQuery ist jetzt allgemein verfügbar
+  * Unterstützung für die Prüfung des SSL-Zertifikats
+* SAP BW DirectQuery ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Der Azure Analysis Services-Connector ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
 ### <a name="other"></a>Sonstige
 
-* Leistungsverbesserungen für DirectQuery [[Video]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[Artikel]](desktop-directquery-about.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
-* Leistungsverbesserungen beim Öffnen und Speichern [[Video]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* Verbesserungen an *Elemente ohne Daten anzeigen* [[Video]](https://youtu.be/KeVB5RwMzJo?t=34m6s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* Steuerelement „Permanente Filter“ für kommende Features des **Power BI-Diensts** [[Video]](https://youtu.be/KeVB5RwMzJo?t=34m56s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
-
-
+* Verbesserte Fehlerberichterstellung [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Artikel]](desktop-directquery-about.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* Anzeigen zuvor aufgetretener Fehler [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > Sie können sich auch [alle für Power BI Desktop verfügbaren Datenquellen ansehen](desktop-data-sources.md). Die Liste wird ständig erweitert, daher sollten Sie sie in regelmäßigen Abständen konsultieren.
 
-Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
+Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
 
 
 Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Video auch im Blogbeitrag.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

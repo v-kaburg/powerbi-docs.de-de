@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b8b6dc3932ec4bc1eddd24c91a81a0eaafae479
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Ausführen von R-Skripts in Power BI Desktop
 Sie können R-Skripts direkt in **Power BI Desktop** ausführen und die resultierenden Datasets in ein Power BI Desktop-Datenmodell importieren.
@@ -31,7 +31,7 @@ Sie können R-Skripts direkt in **Power BI Desktop** ausführen und die resultie
 Damit Sie R-Skripts in Power BI Desktop ausführen können, müssen Sie **R** auf dem lokalen Computer installieren. **R** können Sie an vielen Stellen im Internet kostenlos herunterladen und installieren, u.a. von der [Revolution R Open-Downloadseite](https://mran.revolutionanalytics.com/download/) und aus dem [CRAN-Repository](https://cran.r-project.org/bin/windows/base/). Die aktuelle Version der R-Skripterstellung in Power BI Desktop unterstützt Unicode-Zeichen ebenso wie Leerzeichen (leere Zeichen) im Installationspfad.
 
 ## <a name="run-r-scripts"></a>Ausführen von R-Skripts
-Mit nur wenigen Schritten in Power BI Desktop können Sie R-Skripts ausführen und ein Datenmodell erstellen, auf Basis dessen Sie Berichte erstellen und im Power BI-Dienst freigeben können. Die R-Skripterstellung in Power BI Desktop unterstützt jetzt Zahlenformate, die Dezimaltrennzeichen (.) und Kommas (,) verwenden.
+Mit nur wenigen Schritten in Power BI Desktop können Sie R-Skripts ausführen und ein Datenmodell erstellen, auf Basis dessen Sie Berichte erstellen und im Power BI-Dienst freigeben können. Die R-Skripterstellung in Power BI Desktop unterstützt jetzt Zahlenformate, die Dezimaltrennzeichen (.) und Kommas (,) verwenden.
 
 ### <a name="prepare-an-r-script"></a>Vorbereiten eines R-Skripts
 Wenn Sie ein R-Skript in Power BI Desktop ausführen möchten, erstellen Sie das Skript in Ihrer lokalen R-Entwicklungsumgebung, und vergewissern Sie sich, dass es erfolgreich ausgeführt wird.
@@ -48,7 +48,7 @@ Beim Vorbereiten und Ausführen eines R-Skripts in Power BI Desktop müssen Si
 * Wenn Sie das Arbeitsverzeichnis im R-Skript angeben, *müssen* Sie den vollständigen Pfad zu diesem Verzeichnis angeben – der relative Pfad genügt nicht.
 
 ### <a name="run-your-r-script-and-import-data"></a>Ausführen des R-Skripts und Importieren der Daten
-1. In Power BI Desktop befindet sich der R-Skript-Datenconnector unter **Daten abrufen**. Zum Ausführen Ihres R-Skripts wählen Sie **Daten abrufen &gt; Mehr...** und anschließend **Sonstige &gt; R-Skript** aus, wie in der folgenden Abbildung dargestellt.
+1. In Power BI Desktop befindet sich der R-Skript-Datenconnector unter **Daten abrufen**. Wählen Sie zum Ausführen Ihres R-Skripts **Daten abrufen &gt; Mehr...** und anschließend **Sonstige &gt; R-Skript** aus, wie in der folgenden Abbildung dargestellt:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
 2. Wenn R auf dem lokalen Computer installiert ist, wird die neueste installierte Version als R-Modul ausgewählt. Kopieren Sie Ihr Skript einfach in das Skriptfenster, und wählen Sie **OK**aus.
@@ -58,9 +58,9 @@ Beim Vorbereiten und Ausführen eines R-Skripts in Power BI Desktop müssen Si
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   Wenn R installiert ist, jedoch nicht erkannt wird, können Sie dessen Speicherort explizit in dem Textfeld angeben, das angezeigt wird, wenn Sie **R-Installationseinstellungen**erweitern. In der Abbildung oben wird der Pfad *C:\Programme\R\R-3.2.0* explizit im Textfeld angegeben.
+   Wenn R installiert ist und nicht erkannt wird, können Sie dessen Speicherort explizit in dem Textfeld angeben, das angezeigt wird, wenn Sie **R-Installationseinstellungen** erweitern. In der Abbildung oben wird der Pfad *C:\Programme\R\R-3.2.0* explizit im Textfeld angegeben.
    
-   Die R-Installationseinstellungen befinden sich zentral im Abschnitt „R-Skripterstellung“ des Dialogfelds „Optionen“. Um Ihre R-Installationseinstellungen festzulegen, wählen Sie **Datei > Optionen und Einstellungen** und dann **Optionen > R-Skripterstellung** aus. Wenn mehrere Installationen von R verfügbar sind, wird ein Dropdownmenü angezeigt, das Ihnen die Auswahl der gewünschten Installation ermöglicht.
+   Die R-Installationseinstellungen befinden sich zentral im Abschnitt „R-Skripterstellung“ des Dialogfelds „Optionen“. Wählen Sie zum Festlegen Ihrer R-Installationseinstellungen **Datei > Optionen und Einstellungen** und anschließend **Optionen > R-Skripterstellung** aus. Wenn mehrere Installationen von R verfügbar sind, wird ein Dropdownmenü angezeigt, das Ihnen die Auswahl der gewünschten Installation ermöglicht.
    
    ![](media/desktop-r-scripts/r-scripts-4.png)
 4. Wählen Sie **OK** aus, um das R-Skript auszuführen. Wenn das Skript erfolgreich ausgeführt wird, können Sie die resultierenden Datenrahmen auswählen, die Sie dem Power BI-Modell hinzufügen möchten.

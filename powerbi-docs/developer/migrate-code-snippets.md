@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>Codeausschnitte zum Migrieren von Inhalt von Power BI Embedded
-Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind. Zugehörige Flows für bestimmte Berichtstypen finden Sie unter [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichsammlungen zu Power BI](migrate-from-powerbi-embedded.md#content-migration).
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung
+Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind. Zugehörige Flows für bestimmte Berichtstypen finden Sie unter [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlungen zu Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 Ein **Migrationstool** steht Ihnen zur Verfügung, um Sie beim Kopieren von Inhalt aus Power BI Embedded (PaaS) in den Power BI-Dienst (SaaS) zu unterstützen. Insbesondere, wenn Sie viel Inhalt haben. Weitere Informationen finden Sie unter [Power BI Embedded-Migrationstool](migrate-tool.md).
 

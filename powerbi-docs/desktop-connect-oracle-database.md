@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Herstellen einer Verbindung mit einer Oracle-Datenbank
 Um über **Power BI Desktop** eine Verbindung mit einer Oracle-Datenbank herzustellen, muss auf dem Computer, auf dem Power BI Desktop ausgeführt wird, die richtigen Oracle-Clientsoftware installiert sein. Welche Oracle-Clientsoftware Sie verwenden, hängt davon ab, ob Sie für Power BI Desktop die **32-Bit**-Version oder die **64-Bit**-Version installiert haben.
@@ -30,7 +30,7 @@ Um über **Power BI Desktop** eine Verbindung mit einer Oracle-Datenbank herzust
 **Unterstützte Versionen**: Oracle 9 und höher, Oracle-Clientsoftware Version 8.1.7 und höher.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Ermitteln der installierten Version von Power BI Desktop
-Um zu bestimmen, welche Version von Power BI Desktop installiert ist, wählen Sie **Datei > Info** und überprüfen die Zeile **Version**. In der folgenden Abbildung ist eine 64-Bit-Version von Power BI Desktop installiert:
+Um zu bestimmen, welche Version von Power BI Desktop installiert ist, klicken Sie auf **Datei > Hilfe > Info**, und überprüfen Sie die Zeile **Version:**. In der folgenden Abbildung ist eine 64-Bit-Version von Power BI Desktop installiert:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ Verwenden Sie für **64-Bit**-Versionen von Power BI Desktop den folgenden Link,
 * [64-Bit-ODAC 12c-Version 4 (12.1.0.2.4) für Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Herstellen einer Verbindung mit einer Oracle-Datenbank
-Nachdem der entsprechende Oracle-Clienttreiber installiert wurde, können Sie eine Verbindung mit einer Oracle-Datenbank herstellen. Gehen Sie wie folgt vor, um die Verbindung herzustellen.
+Nachdem der entsprechende Oracle-Clienttreiber installiert wurde, können Sie eine Verbindung mit einer Oracle-Datenbank herstellen. Gehen Sie wie folgt vor, um die Verbindung herzustellen:
 
 1. Wählen Sie im Fenster „Daten abrufen“ die Befehlsfolge **Datenbank > Oracle-Datenbank**.
    

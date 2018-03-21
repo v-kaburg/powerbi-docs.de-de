@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: a6c134cd39b835ad0007b5ad8d6b6804b4d243d0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -147,6 +147,8 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
 * Power BI unterstützt nicht die gleichen lokalisierte Sprachen wie SharePoint Online. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
 
 * Bei Verwendung von Internet Explorer 10 können Probleme auftreten. Informieren Sie sich über die [Browserunterstützung für Power BI](service-browser-support.md) und für [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+
+* Das Power BI-Webpart ist in [nationalen Clouds](https://powerbi.microsoft.com/en-us/clouds/) nicht verfügbar. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
