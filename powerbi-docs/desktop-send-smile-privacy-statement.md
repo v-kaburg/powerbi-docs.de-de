@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Datenschutzbestimmungen für Lächeln senden in Power BI Desktop
+
+Ab der **Power BI Desktop**-Version von März 2018 wird bei der Fehlerberichterstellung anstelle der Funktionen *Lächeln senden* oder *Stirnrunzeln senden* die Plattform für Windows-Fehlerberichterstattung verwendet. Weitere Informationen zur Plattform für Windows-Fehlerberichterstattung finden Sie im [Windows Privacy Blog](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/) (Windows-Blog zu Datenschutz und Privatsphäre). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Für Power BI Desktop-Versionen vor März 2018
+
 Bei Microsoft arbeiten wir hart, um Ihre Privatsphäre zu schützen, und gleichzeitig bieten wir Produkte, die Ihnen die gewünschte Leistung sowie den gewünschten Komfort bieten. Diese Datenschutzbestimmung erklärt viele der Datensammlungen und nutzt Methoden der Feedbackfunktion *Lächeln senden* von Microsoft Power BI Desktop. Sie ist nicht gültig für andere Microsoft Online- oder Offline-Websites, -Produkte oder -Dienste.
 
 Wenn nicht anders in dieser Datenschutzbestimmung beschrieben, schickt *Lächeln senden* keine persönlichen Informationen an Microsoft. Informationen, die an Microsoft gesendet werden, werden nicht ohne Ihre Erlaubnis außerhalb von Microsoft und den von Microsoft kontrollierten Tochtergesellschaften sowie Konzerngesellschaften weitergeben.

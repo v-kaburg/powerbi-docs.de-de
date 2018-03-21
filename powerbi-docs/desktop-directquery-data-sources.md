@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Von DirectQuery in Power BI unterstützte Datenquellen
 **Power BI Desktop** und der **Power BI-Dienst** verfügen über viele Datenquellen, mit denen Sie Verbindungen herstellen und auf deren Daten Sie zugreifen können. Dieser Artikel beschreibt, welche Datenquellen für Power BI die als **DirectQuery** bezeichnete Verbindungsmethode unterstützen. Weitere Informationen zu DirectQuery finden Sie unter [**DirectQuery in Power BI**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ Die folgenden Datenquellen unterstützen DirectQuery in Power BI:
 * IBM Netezza (Beta)
 * Impala (Version 2.x)
 * Oracle-Datenbank (Version 12 und höher)
-* SAP Business Warehouse (Beta)
+* SAP Business Warehouse-Anwendungsserver
+* SAP Business Warehouse-Nachrichtenserver (Beta)
 * SAP HANA
 * Snowflake
 * Spark (Beta) (Version 0.9 und höher)
@@ -62,11 +63,14 @@ Die folgende Tabelle gibt an, ob für das Herstellen von Verbindungen mit der an
 | Teradata-Datenbank |Ja |
 | Amazon Redshift |Nein |
 | Impala (Version 2.x) |Ja |
-| Snowflake (Vorschau) |Im **Power BI-Dienst** noch nicht unterstützt |
+| Snowflake |Ja |
 | Spark (Beta) (Version 0.9 und höher) |Im **Power BI-Dienst** noch nicht unterstützt |
-| Azure HDInsight Spark (Beta) |Im **Power BI-Dienst** noch nicht unterstützt |
-| IBM Netezza (Beta) |Im **Power BI-Dienst** noch nicht unterstützt |
-| SAP Business Warehouse (Beta) |Im **Power BI-Dienst** noch nicht unterstützt |
+| Azure HDInsight Spark (Beta) |Nein |
+| IBM Netezza |Ja |
+| SAP Business Warehouse-Anwendungsserver |Ja |
+| SAP Business Warehouse-Nachrichtenserver |Im **Power BI-Dienst** noch nicht unterstützt |
+| BigQuery von Google |Nein |
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu DirectQuery finden Sie in den folgenden Ressourcen:

@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway – Personal
 > [!NOTE]
-> Es gibt eine neue Version von Personal Gateway für Power BI, die als **Lokales Datengateway (persönlicher Modus)** bezeichnet wird. Im folgende Artikel wird die vorherige Version des persönlichen Gateways beschrieben, die als **Power BI Gateway – Personal** bezeichnet und nach dem 31. Juli 2017 eingestellt und funktionsunfähig wird. Informationen über die neue Version des persönlichen Gateways samt deren Installation finden Sie im Artikel [**Lokales Datengateway (persönlicher Modus)**](service-gateway-personal-mode.md).
+> Es gibt eine neue Version des persönlichen Gateways für Power BI, die als **Lokales Datengateway (persönlicher Modus)** bezeichnet wird. Im folgende Artikel wird die vorherige Version des persönlichen Gateways beschrieben, die als **Power BI Gateway – Personal** bezeichnet und nach dem 31. Juli 2017 eingestellt und funktionsunfähig wird. Informationen über die neue Version des persönlichen Gateways samt deren Installation finden Sie im Artikel [**Lokales Datengateway (persönlicher Modus)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -94,14 +94,14 @@ Sehen wir uns die einzelnen Schritte näher an.
 > 
 > 
 
-Sie werden aufgefordert, ein Gateway zu installieren, wenn Sie zum ersten Mal für ein unterstütztes Dataset auf JETZT AKTUALISIEREN oder ZEITPLANAKTUALISIERUNG klicken. Klicken Sie alternativ im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie das [lokale Datengateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
+Sie werden aufgefordert, ein Gateway zu installieren, wenn Sie zum ersten Mal für ein unterstütztes Dataset auf JETZT AKTUALISIEREN oder ZEITPLANAKTUALISIERUNG klicken. Klicken Sie alternativ im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
 
 Sie sollten statt **On-premises data gateway** ein **Persönliches Gateway** auswählen, um ein eigenes Gateway zu besitzen.
 
 Die Installation eines Gateways ist nicht anspruchsvoll. Sie wählen einen Speicherort für die Installation aus. Dann lesen Sie die Lizenzvereinbarung und stimmen ihr zu, wie bei jeder anderen Anwendung. Ein paar wichtige Dinge müssen Sie aber wissen. Insbesondere geht es um die Art des Computers, auf dem Sie das Gateway installieren, und den Typ des Kontos, mit dem Sie bei Windows auf diesem Computer angemeldet sind.
 
 > [!NOTE]
-> Das Gateway muss auf die Datenquelle zugreifen können. Wenn Ihr persönlicher Computer keine Verbindung mit der Datenquelle herstellen kann, empfiehlt es sich, ein [Lokales Datengateway](service-gateway-onprem.md) auf einem Computer zu installieren, der über Zugriff auf die Datenquelle verfügt. Beispiel: Installation von SQL Server auf einem Azure-gehosteten virtuellen Computer (VM). Angenommen, Ihr persönlicher Computer hat keinen Zugriff auf die VM. Sie könnten dann stattdessen ein lokales Datengateway auf der VM installieren und die Datenquelle über den Power BI-Dienst konfigurieren.
+> Das Gateway muss auf die Datenquelle zugreifen können. Wenn Ihr persönlicher Computer keine Verbindung mit der Datenquelle herstellen kann, sollten Sie ein [lokales Datengateway](service-gateway-onprem.md) auf einem Computer installieren, der über Zugriff auf die Datenquelle verfügt. Beispiel: Installation von SQL Server auf einem Azure-gehosteten virtuellen Computer (VM). Angenommen, Ihr persönlicher Computer hat keinen Zugriff auf die VM. Sie könnten dann stattdessen ein lokales Datengateway auf der VM installieren und die Datenquelle über den Power BI-Dienst konfigurieren.
 > 
 > 
 

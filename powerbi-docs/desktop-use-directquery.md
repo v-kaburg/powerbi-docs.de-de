@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Verwenden von DirectQuery in Power BI Desktop
 Wenn Sie mit **Power BI Desktop** eine Verbindung zu Ihrer Datenquelle herstellen, ist es immer möglich, eine Kopie der Daten in **Power BI Desktop** zu importieren. Für einige Datenquellen steht ein alternativer Ansatz zur Verfügung: das Herstellen einer direkten Verbindung zur Datenquelle mit **DirectQuery**.
@@ -95,7 +95,7 @@ Power BI zeigt das Fenster **Einstellungen** an. Wählen Sie dort die Registerk
 
 Wenn Sie vor der Angabe von Anmeldeinformationen versuchen, einen veröffentlichten Bericht zu öffnen oder ein Dataset zu untersuchen, das bzw. der mit einer **DirectQuery**-Verbindung zu einer solchen Datenquelle erstellt wurde, führt dies zu einem Fehler.
 
-Bei anderen Datenquellen als **Azure SQL-Datenbank**, **Azure SQL Data Warehouse** und **Redshift**, die DirectQuery verwenden, muss ein **lokales Datengateway** installiert sein und die Datenquelle registriert werden, um eine Datenverbindung herzustellen. Lesen Sie zu diesem Thema den [Artikel zum lokalen Datengateway](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+Bei anderen Datenquellen als **Azure SQL-Datenbank**, **Azure SQL Data Warehouse** und **Redshift**, die DirectQuery verwenden, muss ein **lokales Datengateway** installiert sein und die Datenquelle registriert werden, um eine Datenverbindung herstellen zu können. Lesen Sie zu diesem Thema den [Artikel zum lokalen Datengateway](http://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu **DirectQuery** finden Sie sich den folgenden Ressourcen:

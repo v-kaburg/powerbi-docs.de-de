@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Lesezeichen in Power BI (Vorschau)
+title: Verwenden von Lesezeichen in Power BI
 description: "Mit den Lesezeichen in Power BI Desktop können Sie Ansichten und Einstellungen in Ihren Berichten speichern und Präsentationen erstellen, die eine Geschichte erzählen."
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und Erstellen von Präsentationen in Power BI (Vorschau)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
 
 Sie können auch eine Sammlung von Lesezeichen erstellen, sie in der gewünschten Reihenfolge anordnen und dann die einzelnen Lesezeichen in einer Präsentation durchlaufen, um eine Reihe von Einsichten hervorzuheben oder die Geschichte, die Sie mit Ihren Visuals und Berichten erzählen möchten, zu präsentieren. 
@@ -33,12 +33,14 @@ Sie können auch eine Sammlung von Lesezeichen erstellen, sie in der gewünschte
 
 Lesezeichen können für viele unterschiedliche Zwecke hinzugefügt werden. Sie können sie zum Nachverfolgen ihrer Fortschritte beim Erstellen von Berichten verwenden (Lesezeichen lassen sich einfach hinzufügen, löschen und umbenennen). Oder Sie können Lesezeichen erstellen, um eine Präsentation wie in PowerPoint zu erzeugen, in der die Lesezeichen nacheinander aufgerufen werden, sodass Ihr Bericht eine Geschichte erzählt. Sie können Lesezeichen nach eigenem Ermessen auch für andere Zwecke nutzen.
 
-### <a name="enable-the-bookmarks-preview"></a>Aktivieren der Lesezeichenvorschau
-Sie können das neue **Lesezeichenfeature** ab der im **Oktober 2017** veröffentlichten Version von **Power BI Desktop** nutzen. Für Berichte, die Lesezeichen unterstützen, können Sie das Feature auch im **Power BI-Dienst** verwenden. Wenn Sie dieses Vorschaufeature aktivieren möchten, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Lesezeichen**. Sie müssen Power BI Desktop neu starten, nachdem Sie die Auswahl vorgenommen haben.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Aktivieren der Lesezeichenvorschau (Versionen vor März 2018)
+Ab der Version von März 2018 sind Lesezeichen in Power BI Desktop allgemein verfügbar. 
+
+Es wird immer empfohlen, auf das neueste Release zu aktualisieren. Wenn Ihre Power BI Desktop-Version älter ist, können Sie jedoch das neue **Lesezeichen**-Feature ab dem im **Oktober 2017** veröffentlichten Release von **Power BI Desktop** nutzen. Für Berichte, die Lesezeichen unterstützen, können Sie dieses Feature auch im **Power BI-Dienst** verwenden. Wenn Sie das Vorschaufeature aktivieren möchten, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Lesezeichen**. 
 
 ![Aktivieren von Lesezeichen im Fenster „Optionen“](media/desktop-bookmarks/bookmarks_02.png)
 
-Sie müssen **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
+Zum Aktivieren der Lesezeichenvorschauversion müssen Sie **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
 
 ## <a name="using-bookmarks"></a>Verwenden von Lesezeichen
 Wählen Sie zum Verwenden von Lesezeichen das Menüband **Ansicht** aus, und aktivieren Sie dann das Kontrollkästchen für **Lesezeichenbereich**. 
@@ -147,14 +149,13 @@ Der **Lesezeichenbereich** bietet im **Power BI-Dienst** die gleichen Funktionen
 Beachten Sie, dass Sie zum Navigieren zwischen den Lesezeichen die graue Lesezeichen-Titelleiste verwenden müssen, und nicht die schwarzen Pfeile (die schwarzen Pfeile dienen der Navigation zwischen Berichtsseiten, nicht zwischen Lesezeichen).
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
-Für die Vorschauversion von **Lesezeichen** gelten einige Einschränkungen und Überlegungen.
+Für dieses Release von **Lesezeichen** gelten einige Einschränkungen und Überlegungen.
 
 * Benutzerdefinierte Visuals können nicht in Lesezeichen gespeichert werden, wenn sie die *Quelle* des Filters sind. Wenn Sie zum Filtern von Elementen auf einer Seite benutzerdefinierte Visuals (z.B. den Chiclet-Datenschnitt) verwenden und mithilfe eines Lesezeichens zu dieser Seite zurückkehren, wird die Seite eventuell gefiltert, das benutzerdefinierte Visual wird jedoch nicht entsprechend der Filterung der Seite aktualisiert. 
 * Beim Erstellen eines Lesezeichens wird die übergreifende Hervorhebung in einem Berichtsbereich *nicht* gespeichert. 
 * Wenn Sie einer Berichtsseite nach dem Erstellen eines Lesezeichens ein Visual hinzufügen, wird das Visual in seinem Standardstatus angezeigt. Dies bedeutet auch, dass beim Anwenden eines Datenschnitts auf einer Seite, auf der Sie zuvor Lesezeichen erstellt haben, das Verhalten des Datenschnitts seinem Standardstatus entspricht.
 * Das Verschieben von Visuals nach dem Erstellen des Lesezeichens wird im Lesezeichen wiedergegeben. 
 * Damit Lesezeichen im **Power BI-Dienst** verfügbar sind, *muss* der Bericht mindestens ein Lesezeichen enthalten, wenn Sie ihn im Power BI-Dienst veröffentlichen. Diese Anforderung gilt für jeden Bericht, den Sie veröffentlichen.
-* Da es sich bei Lesezeichen derzeit um eine Vorschaufunktion handelt, sind sie in [**Power BI Desktop für Berichtsserver**](report-server/quickstart-create-powerbi-report.md) noch nicht verfügbar.
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu Features, die Lesezeichen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
 Dieses Tutorial zeigt die notwendigen Schritte für die Implementierung der **Sicherheit auf Zeilenebene** in Ihrem **tabellarischen Modell von Analysis Services** und wie sie in einem Power BI-Bericht verwendet wird. Die Schritte in diesem Tutorial sind darauf ausgerichtet, dass Sie sie leicht nachvollziehen und anhand eine Beispiel-Datasets die notwendigen Schritte erlernen können.
@@ -87,7 +87,7 @@ In vielen veröffentlichten Artikeln wird beschrieben, wie die dynamische Sicher
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Aufgabe 3: Hinzufügen von Datenquellen im lokalen Datengateway
 1. Sobald das tabellarische Modell bereitgestellt und für die Verwendung bereit ist, müssen Sie eine Datenquellenverbindung auf Ihrem lokalen tabellarischen Analysis Services-Server mit Ihrem Power BI-Portal hinzufügen.
-2. Sie müssen ein **lokales Datengateway** in Ihrer Umgebung installiert und konfiguriert haben, damit der **[Power BI-Dienst](service-gateway-onprem.md)** auf lokale Analysis Services zugreifen kann.
+2. Sie müssen ein **lokales Datengateway** in Ihrer Umgebung installiert und konfiguriert haben, damit der **[Power BI-Dienst](service-gateway-onprem.md)** auf Ihren lokalen Analysedienst zugreifen kann.
 3. Wenn das Gateway ordnungsgemäß konfiguriert wurde, müssen Sie eine Datenquellenverbindung für die **Analysis Services**-Tabelleninstanz erstellen. Dieser Artikel hilft Ihnen dabei, [Datenquellen im Power BI-Portal hinzuzufügen](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Erste Schritte mit der mobilen Power BI-App auf einem iPhone oder iPod Touch
 Die iOS-App für Microsoft Power BI auf dem iPhone oder iPod Touch bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. Bleiben Sie auf dem neuesten Stand mit den aktuellsten Daten auf Ihrer [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +31,7 @@ Die iOS-App für Microsoft Power BI auf dem iPhone oder iPod Touch bietet Ihnen 
 Sie erstellen Power BI-Berichte in Power BI Desktop und veröffentlichen sie:
 
 * [Veröffentlichen Sie sie im Power BI-Dienst](service-get-started.md), und erstellen Sie Dashboards.
-* [Veröffentlichen Sie sie lokal in Power BI-Berichtsserver](report-server/quickstart-create-powerbi-report.md).
+* [Veröffentlichen Sie sie lokal auf dem Power BI-Berichtsserver](report-server/quickstart-create-powerbi-report.md).
 
 In der Power BI-App für das iPhone interagieren Sie anschließend mit Ihren Dashboards und Berichten, die sich auf lokalen Servern oder in der Cloud befinden können.
 
@@ -140,4 +140,5 @@ Es folgen verschiedene andere Aufgaben, die Sie in der iPhone-App mit Dashboards
 ### <a name="see-also"></a>Siehe auch
 * [Erste Schritte mit Power BI](service-get-started.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+
 

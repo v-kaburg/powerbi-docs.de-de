@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Die neue Navigation im Power BI-Dienst
 ## <a name="the-left-navigation-pane"></a>Der linke Navigationsbereich
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![Linker Navigationsbereich](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Kurzübersicht**
 
@@ -64,61 +64,61 @@ Betrachten wir zunächst, wie die grundlegenden Inhalte (Dashboards, Berichte, D
 
 In Power BI Free wird nur ein Arbeitsbereich (**Mein Arbeitsbereich**) angezeigt.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![Kurzvideo vom Arbeitsbereich](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Bevorzugte Dashboards, Berichte und Apps
 **Favoriten** ermöglichen Ihnen den schnellen Zugriff auf die Inhalte, die für Sie am wichtigsten sind.  
 
 1. Wenn Sie ein Dashboard oder einen Bericht geöffnet haben, klicken Sie in der oberen rechten Ecke auf **Favorit**.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![Favorit hinzufügen](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    Aus **Favorit** wird nun **Aus Favoriten entfernen**, und das Sternsymbol wird in Gelb angezeigt.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![Favorit entfernen](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Klicken Sie für eine App im linken Navigationsbereich auf **Apps**, zeigen Sie auf die App, und klicken Sie dann auf den Stern, um diese als Favorit zu markieren.
 
 2. Klicken Sie im linken Navigationsbereich auf den Pfeil rechts neben **Favoriten**, um die Liste aller Inhalte anzuzeigen, die Sie als Favoriten markiert haben. Da der linke Navigationsbereich ein permanentes Feature des Power BI-Diensts ist, haben Sie überall im Power BI-Dienst Zugriff auf diese Liste.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![Flyout „Favoriten“](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     Hier können Sie ein Dashboard, einen Bericht oder eine App auswählen und öffnen.
 
 3. Um den Bereich **Favoriten** zu öffnen, wählen Sie im linken Navigationsbereich **Favoriten** aus, oder wählen Sie das Symbol „Favoriten“ ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![Anzeige „Favoriten“ öffnen](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    Von hier aus können Sie diese öffnen, Inhalte finden und diese als Favorit löschen oder für Kollegen freigeben.
 
 1. Sie können ein Dashboard oder einen Bericht auch über die Registerkarte **Dashboards** oder **Berichte** des Arbeitsbereichs als Favorit speichern.  Öffnen Sie den Arbeitsbereich, um die Inhaltsansicht anzuzeigen, und klicken Sie auf das Sternsymbol links neben dem Namen.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![Als Favorit markieren](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 Weitere Informationen finden Sie unter [Favoriten](service-dashboard-favorite.md).
 
 ### <a name="recents"></a>Zuletzt verwendet
 Über den Bereich **Zuletzt verwendet** gelangen Sie schnell zu den Inhalten, auf die Sie kürzlich zugegriffen haben. Dies gilt für Inhalte aus allen Ihren Arbeitsbereichen.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![Bereich „Zuletzt verwendet“](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 Ähnlich wie bei den Favoriten können Sie überall im Power BI-Dienst auf die zuletzt verwendeten Berichte und Dashboards zugreifen, indem Sie im linken Navigationsbereich auf den Pfeil neben **Zuletzt verwendet** klicken.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![Flyout „Zuletzt verwendet“](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 Weitere Informationen finden Sie unter [Zuletzt verwendete Inhalte in Power BI](service-recent.md).
 
 ### <a name="apps"></a>Apps
 In einer App sind Dashboards und Berichte kombiniert, die erstellt wurden, um Schlüsselmetriken bereitzustellen. Sie können über interne Apps der Organisation und auch über [Apps für externe Dienste](service-connect-to-services.md), z.B. Google Analytics und Microsoft Dynamics CRM, verfügen. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![Bereich „Apps“](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 Weitere Informationen finden Sie unter **App-Arbeitsbereiche** (siehe unten) und [Was sind Power BI-Apps?](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Für mich freigegeben
-Unter **Für mich freigegeben** finden Sie alle Inhalte, die Kollegen für Sie freigegeben haben.  Sie können nach Dashboardbesitzer filtern, das Suchfeld für die Suche relevanter Informationen verwenden und die Elemente nach Datum sortieren.  Und freigegebene Inhalte, die Sie häufig besuchen, können Sie besonders einfach direkt in der Ansicht **Für mich freigegeben** den Favoriten hinzufügen.
+Unter **Für mich freigegeben** finden Sie alle Inhalte, die Kollegen für Sie freigegeben haben.  Sie können nach Dashboardbesitzer filtern, über das Suchfeld relevante Informationen finden und die Elemente nach Datum sortieren.  Und freigegebene Inhalte, die Sie häufig besuchen, können Sie besonders einfach direkt in der Ansicht **Für mich freigegeben** den Favoriten hinzufügen.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![Bereich „Für mich freigegeben“](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 Weitere Informationen finden Sie unter [Anzeigen der Power BI-Dashboards, die für mich freigegeben wurden](service-shared-with-me.md).
 
@@ -130,29 +130,29 @@ Wenn Sie weder Mitglied eines App-Arbeitsbereichs noch Administrator sind, werde
 #### <a name="my-workspace"></a>Mein Arbeitsbereich
 In **Mein Arbeitsbereich** werden alle Inhalte gespeichert, deren Besitzer Sie sind. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Sie können Inhalte von „Mein Arbeitsbereich“ für Kollegen freigeben. In „Mein Arbeitsbereich“ sind die Inhalte auf 4 Registerkarten organisiert: „Dashboards“, „Berichte“, „Arbeitsmappen“ und „Datasets“.
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Anzeige „Mein Arbeitsbereich“](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>App-Arbeitsbereiche
-Apps und App-Arbeitsbereiche sind ein Feature von Power BI Pro. Wenn Sie Dashboards und Berichte für andere Benutzer erstellen, verwenden Sie hierzu App-Arbeitsbereiche. Apps werden in einem App-Arbeitsbereich erstellt. Deshalb müssen Sie zum Erstellen einer App zunächst den App-Arbeitsbereich erstellen. Sie sind die Weiterentwicklung von Gruppenarbeitsbereichen – Stagingbereiche und Container für die Inhalte der App.  Sie und Ihre Kollegen können beim Erstellen von Dashboards, Berichten und anderen Inhalten, die Sie an eine größere Zielgruppe oder sogar die gesamte Organisation verteilen möchten, zusammenarbeiten.
+Apps und App-Arbeitsbereiche sind ein Feature von Power BI Pro. Wenn Sie Dashboards und Berichte für andere Benutzer erstellen, verwenden Sie hierzu App-Arbeitsbereiche. Apps werden in einem App-Arbeitsbereich erstellt. Deshalb müssen Sie zum Erstellen einer App zunächst den App-Arbeitsbereich erstellen. Sie sind die Weiterentwicklung von Gruppenarbeitsbereichen – Stagingbereiche und Container für App-Inhalte.  Sie und Ihre Kollegen können beim Erstellen von Dashboards, Berichten und anderen Inhalten, die Sie an eine größere Zielgruppe oder sogar die gesamte Organisation verteilen möchten, zusammenarbeiten.
 
 Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md#app-workspaces).
 
 Wie in **Mein Arbeitsbereich** sind die Inhalte auf 4 Registerkarten organisiert: „Dashboards“, „Berichte“, „Arbeitsmappen“ und „Datasets“.
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![App-Arbeitsbereich](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Klicken Sie im linken Navigationsbereich auf **Arbeitsbereiche**, um zwischen Arbeitsbereichen zu wechseln.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Einen Arbeitsbereich auswählen](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Suchen und Sortieren von Inhalten
 Die Inhaltsansicht erleichtert das Suchen, Filtern und Sortieren Ihrer Inhalte. Um ein Dashboard, einen Bericht oder eine Arbeitsmappe zu suchen, verwenden Sie den Suchbereich. Durch die Filterung in Power BI werden dann nur die Inhalte angezeigt, die den Suchbegriff als Teil ihres Namens enthalten.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![Nach einem Dashboard suchen](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 Sie können die Inhalte auch nach Name oder Besitzer sortieren.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![Inhalte sortieren](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](service-navigation-search-filter-sort.md).
 

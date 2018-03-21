@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.
@@ -64,7 +64,7 @@ Die in den Auslastungstests verwendeten Tests sind in einem GitHub-Projekt mit d
 * Tests, die das Rendern von kleinen und großen paginierten Berichten simulieren, und 
 * Tests, die das Ausführen verschiedener Typen von Webportalvorgängen simulieren. 
 
-Alle Tests wurden so entworfen, dass sie einen End-to-End-Vorgang (z.B. das Rendern eines Berichts, das Erstellen einer neuen Datenquelle usw.) ausführen. Zu diesem Zweck führen die Tests eine oder mehrere Webanforderungen an den Berichtsserver (über APIs) aus. In der Praxis muss ein Benutzer möglicherweise einige zwischengeschaltete Vorgänge ausführen, um einen dieser End-to-End-Vorgänge abzuschließen. Beispiel: Zum Rendern eines Berichts muss der Benutzer zum Webportal wechseln, zu dem Ordner navigieren, in dem sich der Bericht befindet, und dann auf den Bericht klicken, um ihn zu rendern. In den Tests werden nicht alle Vorgänge ausgeführt, die zum vollständigen Ausführen einer End-to-End-Aufgabe erforderlich sind, jedoch erzeugen sie einen Großteil der Last, die Power BI-Berichtsserver unter realen Bedingungen bewältigen muss. Sie können das GitHub-Projekt erkunden, um mehr über die unterschiedlichen Typen der verwendeten Berichte und die Vielfalt der ausgeführten Vorgänge zu erfahren.
+Alle Tests wurden so entworfen, dass sie einen End-to-End-Vorgang (z.B. das Rendern eines Berichts, das Erstellen einer neuen Datenquelle usw.) ausführen. Zu diesem Zweck führen die Tests eine oder mehrere Webanforderungen an den Berichtsserver (über APIs) aus. In der Praxis muss ein Benutzer möglicherweise einige zwischengeschaltete Vorgänge ausführen, um einen dieser End-to-End-Vorgänge abzuschließen. Beispiel: Zum Rendern eines Berichts muss der Benutzer zum Webportal wechseln, zu dem Ordner navigieren, in dem sich der Bericht befindet, und dann auf den Bericht klicken, um ihn zu rendern. In den Tests werden nicht alle Vorgänge ausgeführt, die zum vollständigen Ausführen einer End-to-End-Aufgabe erforderlich sind, jedoch erzeugen sie einen Großteil der Last, die der Power BI-Berichtsserver unter realen Bedingungen bewältigen muss. Sie können das GitHub-Projekt erkunden, um mehr über die unterschiedlichen Typen der verwendeten Berichte und die Vielfalt der ausgeführten Vorgänge zu erfahren.
 
 ### <a name="workloads"></a>Arbeitsauslastungen
 Bei beiden Tests werden zwei Arbeitsauslastungsprofile verwendet: „Power BI-Bericht – stark“ und „Paginierter Bericht – stark“. In der folgenden Tabelle wird die Verteilung der für den Berichtsserver ausgeführten Anforderungen beschrieben.
@@ -148,4 +148,5 @@ Wenn Sie das Tool LoadTest von Reporting Services für Ihre Power BI-Berichtsser
 5. Wenn Sie die Bereitstellung der Umgebung abgeschlossen haben, befolgen Sie die Anweisungen in https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution (in englischer Sprache), um die Tests auszuführen.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+
 

@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit der mobilen Power BI-App auf Android-Tablets
-description: "Mit der mobilen Power BI-App für Android-Tablets haben Sie überall touchfähigen mobilen Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud in Power BI."
+description: "Mit der mobilen Power BI-App für Android-Tablets haben Sie überall mobilen Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Erste Schritte mit der mobilen Power BI-App auf Android-Tablets
 Die mobile Power BI-App für Android-Tablets bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
@@ -64,7 +64,7 @@ Wenn Sie sich noch nicht registriert haben, wechseln Sie zum [Power BI-Dienst (h
    
    Zum Anzeigen der lokalen Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs tippen Sie auf **Berichtsserver**.
    
-   ![Melden Sie sich bei Power BI an.](media/mobile-android-tablet-app-get-started/power-bi-connect-to-login.png)
+   ![Bei Power BI anmelden](media/mobile-android-tablet-app-get-started/power-bi-connect-to-login.png)
    
    Geben Sie Ihre Berichtsserver-Anmeldedaten zum [Anzeigen von Power BI-Berichtsserver- und Reporting Services-Berichten und -KPIs](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) in der Power BI-App für Android-Tablets ein.
 
@@ -142,3 +142,4 @@ Hier finden Sie weitere Möglichkeiten, die die Android-Tablet-App für Power BI
 * [Herunterladen der Android-App](http://go.microsoft.com/fwlink/?LinkID=544867) aus dem Android App Store.
 * [Erste Schritte mit Power BI](service-get-started.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+

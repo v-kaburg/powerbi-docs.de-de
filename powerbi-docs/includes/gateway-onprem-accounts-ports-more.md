@@ -2,7 +2,7 @@
 Benutzer melden sich entweder mit einem Geschäfts-, Schul- oder Unikonto an. Dies ist das Konto Ihrer Organisation. Wenn Sie sich für ein Office 365-Angebot registriert haben und nicht Ihre tatsächliche geschäftliche E-Mail-Adresse angegeben haben, könnte es wie „nancy@contoso.onmicrosoft.com“ aussehen. Ihr Konto wird innerhalb eines Clouddiensts in einem Mandanten in Azure Active Directory (AAD) gespeichert. In den meisten Fällen entspricht der UPN Ihres AAD-Kontos der E-Mail-Adresse.
 
 ## <a name="windows-service-account"></a>Windows-Dienstkonto
-Das lokale Datengateway ist so konfiguriert, dass als Anmeldeinformationen für den Windows-Dienst *NT SERVICE\PBIEgwService* verwendet wird. Das Gateway hat standardmäßig die Berechtigung „Anmelden als Dienst“. Diese befindet sich im Kontext des Computers, auf dem das Gateway installiert wird.
+Das lokale Datengateway ist so konfiguriert, dass *NT SERVICE\PBIEgwService* als Anmeldeinformationen für den Windows-Dienst verwendet wird. Das Gateway hat standardmäßig die Berechtigung „Anmelden als Dienst“. Diese befindet sich im Kontext des Computers, auf dem das Gateway installiert wird.
 
 > [!NOTE]
 > Wenn Sie den persönlichen Modus ausgewählt haben, konfigurieren Sie das Windows-Dienstkonto separat.
