@@ -1,15 +1,15 @@
 ---
 title: Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
-description: "Erfahren Sie, wie Sie eine benutzerdefinierte Farbpalette verwenden und auf den gesamten Bericht in Power BI Desktop anwenden können."
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Farbpalette verwenden und auf den gesamten Bericht in Power BI Desktop anwenden können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -163,7 +163,7 @@ Um eine JSON-Datei in einem erweiterten Format zu erstellen, die eine detaillier
         }
     }
 
-Sie können für die Abschnitte **visualName** und **cardName** den Namen eines bestimmten Visuals bzw. einer bestimmten Karte angeben oder ein Sternchen („*“) verwenden, wenn diese Einstellung auf alle Visuals oder Karten angewendet werden soll, die eine Eigenschaft für ein bestimmtes Visual enthalten. Sie können das Sternchen („*“) verwenden, wenn Sie eine Einstellung global im Bericht anwenden möchten, z.B. einen Schriftgrad oder eine bestimmte Schriftfamilie, die in allen Visuals des Berichts verwendet werden soll.
+Sie können für die Abschnitte **visualName** und **cardName** den Namen eines bestimmten Visuals bzw. einer bestimmten Karte angeben oder ein Sternchen („\*“) verwenden, wenn diese Einstellung auf alle Visuals oder Karten angewendet werden soll, die eine Eigenschaft für ein bestimmtes Visual enthalten. Sie können das Sternchen („\*“) verwenden, wenn Sie eine Einstellung global im Bericht anwenden möchten, z.B. einen Schriftgrad oder eine bestimmte Schriftfamilie, die in allen Visuals des Berichts verwendet werden soll.
 
 > [!NOTE]
 > Sie müssen nur die Formatierungselemente angeben, die Sie ändern möchten. Für alle Formatierungselemente, die nicht in der JSON-Datei enthalten sind, werden die Standardwerte und -einstellungen verwendet.
