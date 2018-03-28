@@ -1,35 +1,34 @@
 ---
-title: "Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop"
-description: "Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop"
+title: Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
+description: Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop.
 
 Damit Sie Power BI-Berichte für Power BI-Berichtsserver erstellen können, müssen Sie die für Power BI-Berichtsserver optimierte Power BI Desktop-Version herunterladen und installieren. Diese Version unterscheidet sich von der Power BI Desktop-Version, die mit dem Power BI-Dienst verwendet wird. Beispielsweise enthält die Power BI Desktop-Version für den Power BI-Dienst Vorschaufeatures, die erst nach der Veröffentlichung in der Version für den Power BI-Berichtsserver verfügbar sind. Sie müssen diese Version verwenden, um sicherzustellen, dass der Berichtsserver mit einer bekannten Version der Berichte und des Modells interagieren kann. 
 
-> [!NOTE]
-> Power BI Desktop und das für Power BI-Berichtsserver optimierte Power BI Desktop können parallel auf dem gleichen Computer installiert werden.
+Power BI Desktop und das für Power BI-Berichtsserver optimierte Power BI Desktop können glücklicherweise parallel auf dem gleichen Computer installiert werden.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Herunterladen und Installieren von Power BI Desktop
 
@@ -39,7 +38,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     ![Power BI Desktop aus dem Webportal herunterladen](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Sie können auch direkt [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimiert für Power BI-Berichtsserver – Oktober 2017) im Microsoft Download Center aufrufen.
+    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (optimiert für Power BI-Berichtsserver, März 2018) im Microsoft Download Center aufrufen.
 
 2. Wählen Sie im Download Center **Download** aus.
 
@@ -57,7 +56,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 ## <a name="verify-you-are-using-the-correct-version"></a>Überprüfen, ob Sie die richtige Version verwenden
 Sie können überprüfen, ob Sie die richtige Power BI Desktop-Version verwenden, indem Sie einen Blick auf den Startbildschirm oder die Titelleiste in Power BI Desktop werfen. In der Titelleiste werden Monat und Jahr des Releases angegeben.
 
-![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 Die Power BI Desktop-Version für den Power BI-Dienst gibt Monat und Jahr nicht in der Titelleiste an.
 
@@ -71,7 +70,7 @@ Sie können immer zuerst die Version von Power BI Desktop öffnen, die Sie verwe
 Zum Bearbeiten eines Power BI-Berichts in Power BI-Berichtsserver oder Erstellen eines neuen Power BI-Berichts über das Webportal wird stets die richtige Version von Power BI Desktop geöffnet.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://powerbi.com) funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
+Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://powerbi.com)) funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
 
 ### <a name="in-a-browser"></a>In einem Browser
 Power BI-Berichtsserver-Berichte unterstützen alle Visualisierungen, einschließlich:
@@ -99,6 +98,13 @@ Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den
 * Benutzerdefinierte Visualisierungen
 * Brotkrümel
 * Geofilter oder Strichcodes
+
+## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop für frühere Versionen von Power BI-Berichtsserver
+
+Wenn Sie eine frühere Version des Berichtsservers verwenden, benötigen Sie die entsprechende Version von Power BI Desktop. Die beiden früheren Versionen sind:
+
+- Microsoft Power BI Desktop ([optimiert für Power BI-Berichtsserver, Oktober 2017](https://www.microsoft.com/download/details.aspx?id=56136))
+- Microsoft Power BI Desktop ([optimiert für Power BI-Berichtsserver, Juni 2017](https://www.microsoft.com/download/details.aspx?id=55330))
 
 ## <a name="next-steps"></a>Nächste Schritte
 Nachdem Sie Power BI Desktop installiert haben, können Sie mit dem Erstellen von Power BI-Berichten beginnen.
