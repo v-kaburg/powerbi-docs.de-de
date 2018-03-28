@@ -2,27 +2,27 @@
 title: Kopieren eines Power BI-Berichts
 description: Erstellen Sie einen neuen Power BI-Bericht aus einem anderen Bericht.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 63d545f24db126566d5c7f9c485e9cc4fd0e079e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Erstellen eines neuen Berichts aus einem vorhandenen Bericht
 Möglicherweise verfügen Sie über einen Bericht, der bereits eine Verbindung zu Ihren Daten aufgebaut hat und einige Visualisierungen enthält, die Sie wiederverwenden oder ändern möchten.  Warum kopieren Sie diesen Bericht nicht einfach und nutzen ihn als Grundlage für einen neuen Bericht?  Dazu müssen Sie Folgendes tun:
