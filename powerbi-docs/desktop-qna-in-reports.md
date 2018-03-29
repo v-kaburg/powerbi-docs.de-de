@@ -1,15 +1,15 @@
 ---
 title: Verwenden von Q&A in Power BI Desktop
-description: "Mit Q&A können Sie jetzt in Power BI Desktop Abfragen in natürlicher Sprache verwenden."
+description: Mit Q&A können Sie jetzt in Power BI Desktop Abfragen in natürlicher Sprache verwenden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in **Power BI Desktop** möglich.
@@ -33,7 +33,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie Ihr Modell anpassen, um e
 
 ## <a name="add-missing-relationships"></a>Hinzufügen fehlender Beziehungen
 
-Wenn in Ihrem Modell Beziehungen zwischen Tabellen fehlen, können weder Power BI-Berichte noch Q&A interpretieren, wie diese Tabellen verknüpft werden sollen, wenn Sie Fragen dazu stellen. Beziehungen sind die Grundlage eines qualifizierten Modells. Sie können beispielsweise nicht nach dem Gesamtumsatz für Kunden in Seattle fragen, wenn die Beziehung zwischen der Tabelle *Aufträge* und der Tabelle *Kunden* fehlt. Die folgenden Abbildungen zeigen Beispiele für ein Modell, das noch bearbeitet werden muss, und ein Modell, für das Q&A verwendet werden kann.
+Wenn in Ihrem Modell Beziehungen zwischen Tabellen fehlen, können weder Power BI-Berichte noch Q&A interpretieren, wie diese Tabellen verknüpft werden sollen, wenn Sie eine Frage dazu stellen. Beziehungen sind die Grundlage eines qualifizierten Modells. Sie können beispielsweise nicht nach dem Gesamtumsatz für Kunden in Seattle fragen, wenn die Beziehung zwischen der Tabelle *Aufträge* und der Tabelle *Kunden* fehlt. Die folgenden Abbildungen zeigen Beispiele für ein Modell, das noch bearbeitet werden muss, und ein Modell, für das Q&A verwendet werden kann.
 
 **Überarbeitung erforderlich**
 
@@ -50,7 +50,7 @@ Die Auswahl von Tabellen und Spalten ist sehr wichtig für Q&A. Wenn Sie z.B. ei
 
 Q&A kann einfache Wortanalysen durchführen und Pluralformen erkennen, es wird aber davon ausgegangen, dass die Tabellen- und Spaltennamen den Inhalt genau bezeichnen.
 
-Betrachten Sie ein anderes Beispiel. Angenommen, Sie verfügen über eine Tabelle mit dem Namen *Headcount* mit Vor- und Nachnamen sowie Mitarbeiternummern sowie eine andere Tabelle mit dem Namen *Employees*, die Mitarbeiternummern, Auftragszahlen und Datumsangaben zum Beginn enthält. Dies ist für Personen nachvollziehbar, die mit dem Modell vertraut sind. Bei der Frage „count the employees“ wird allerdings die Anzahl der Zeilen in der Tabelle „Employees“ zurückgegeben, und dies ist vermutlich nicht das gewünschte Ergebnis, da es sich hierbei um die Anzahl aller Aufträge der einzelnen Mitarbeiter handelt. Es wäre deutlich sinnvoller, diese Tabellen umzubenennen, um ihren Inhalt eindeutig zu definieren.
+Betrachten Sie ein anderes Beispiel. Angenommen, Sie verfügen über eine Tabelle mit dem Namen *Headcount* mit Vor- und Nachnamen und Mitarbeiternummern sowie eine andere Tabelle mit dem Namen *Employees*, die Mitarbeiternummern, Auftragszahlen und Datumsangaben zum Beginn enthält. Dies ist für Personen nachvollziehbar, die mit dem Modell vertraut sind. Bei der Frage „count the employees“ wird allerdings die Anzahl der Zeilen in der Tabelle „Employees“ zurückgegeben, und dies ist vermutlich nicht das gewünschte Ergebnis, da es sich hierbei um die Anzahl aller Aufträge der einzelnen Mitarbeiter handelt. Es wäre deutlich sinnvoller, diese Tabellen umzubenennen, um ihren Inhalt eindeutig zu definieren.
 
 **Überarbeitung erforderlich**
 
@@ -180,7 +180,7 @@ Die einzige Ausnahme zur Regel „Normalisierung ist besser“ gilt, wenn es meh
 
 Dieser Schritt bezieht sich speziell auf Q&A (und nicht auf Power BI-Berichte im Allgemeinen). Benutzer nutzen häufig verschiedene Begriffe, um auf etwas zu verweisen, z.B. Gesamtumsatz, Nettoumsatz, Gesamtnettoumsatz. Mit dem Power BI-Modell können diese Synonyme zu Tabellen und Spalten im Modell hinzugefügt werden. 
 
-Dies kann ein sehr wichtiger Schritt sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen zuerst einfallen, und wählen nicht aus einer vordefinierten Liste von Spalten. Je mehr sinnvolle Synonyme Sie hinzufügen können, umso besser ist die Benutzererfahrung mit Ihrem Bericht. Wählen Sie zum Hinzufügen von Synonymen in der Ansicht **Beziehungen** im Menüband die Schaltfläche „Synonyme“ aus, wie in der folgenden Abbildung dargestellt.
+Dies kann ein sehr wichtiger Schritt sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen zuerst einfallen, und wählen nicht aus einer vordefinierten Liste von Spalten. Je mehr sinnvolle Synonyme Sie hinzufügen können, umso besser ist die Benutzererfahrung mit Ihrem Bericht. Klicken Sie zum Hinzufügen von Synonymen wie in der folgenden Abbildung dargestellt in der Ansicht **Beziehungen** im Menüband auf die Schaltfläche „Synonyme“.
 
 ![Hinzufügen von Synonymen für Q&A](media/desktop-qna-in-reports/desktop-qna_21.png)
 

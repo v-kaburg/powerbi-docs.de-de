@@ -1,27 +1,27 @@
 ---
-title: "Scannen eines Power BI-QR-Codes mit einem mobilen Gerät"
-description: "QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App für iPhones und Android-Geräte verbinden."
+title: Scannen eines Power BI-QR-Codes mit einem mobilen Gerät
+description: QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App für iPhones und Android-Geräte verbinden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scannen eines Power BI-QR-Codes mit einem mobilen Gerät
 Gilt für:
@@ -36,10 +36,10 @@ Angenommen, ein Kollege hat für einen Bericht oder eine Kachel in einem Dashboa
 
 Der QR-Code kann für einen sofortigen Zugriff auf die entsprechende Kachel oder den entsprechenden Bericht direkt mit dem Smartphone gescannt werden. Dabei kann entweder der Scanner der Power BI-App selbst verwendet werden oder ein anderer auf dem Smartphone installierter Scanner. 
 
+Wenn Ihr Kollege das Dashboard oder den Bericht nicht für Sie freigegeben hat, können Sie den Zugriff direkt über die mobile App anfordern. 
+
 > [!NOTE]
-> Wenn Ihr Kollege das Dashboard oder den Bericht nicht für Sie freigegeben hat, können Sie den Zugriff direkt über die mobile App anfordern.
-> 
-> 
+> Sie können auch [einen QR-Code mit der Power BI für Mixed Reality-App scannen](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Scannen eines Power BI-QR-Codes mit dem Power BI-Scanner auf dem iPhone
 1. Öffnen Sie in der mobilen Power BI-App oben links das globale Navigationsmenü ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png). 
@@ -80,5 +80,6 @@ Der QR-Code kann für einen sofortigen Zugriff auf die entsprechende Kachel oder
 * [Connect to Power BI data from the real world](mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
 * [Erstellen eines QR-Codes für eine Kachel im Power BI-Dienst](service-create-qr-code-for-tile.md)
 * [Erstellen eines QR-Codes für einen Bericht im Power BI-Dienst](service-create-qr-code-for-report.md)
+* Sie können auch [einen QR-Code mit der Power BI für Mixed Reality-App scannen](mobile-mixed-reality-app.md).
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

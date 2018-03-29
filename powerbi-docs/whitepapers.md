@@ -1,27 +1,27 @@
 ---
-title: "Whitepaper für Power BI"
-description: "Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befassen."
+title: Whitepaper für Power BI
+description: Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befassen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -42,5 +42,6 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Sichern des tabellarischen BI-Semantikmodells) (in englischer Sprache) |In diesem Dokument wird das Sicherheitsmodell für die tabellarische BI-Semantik und Power BI vorgestellt. Sie erfahren, wie Sie Rollen erstellen, dynamische Sicherheit implementieren, Einstellungen für Identitätswechsel konfigurieren, Rollen verwalten und eine für den Sicherheitskontext Ihres Netzwerks geeignete Methode zum Herstellen einer Verbindung mit Modellen auswählen. |
 | [Leitfaden zur Kapazitätsplanung für den Power BI-Berichtsserver](report-server/capacity-planning.md) |Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. |
 | [Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment)| In diesem Dokument finden Sie Anleitungen und Best Practices für die Planung und Bereitstellung von Premium-Kapazität bei klar definierten Workloads.|
+| [Power BI und SAP BW](https://aka.ms/powerbiandsapbw)| In diesem Dokument wird erläutert, wie SAP-Kunden von der Verknüpfung von Power BI mit ihren vorhandenen SAP Business Warehouse-Systemen (BW) profitieren können.|
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

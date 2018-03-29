@@ -1,15 +1,15 @@
 ---
-title: "Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop"
-description: "Verwenden eines gemeinsamen Datasets für mehrere Power BI Desktop-Berichte und Verwalten des Berichtslebenszyklus"
+title: Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
+description: Verwenden eines gemeinsamen Datasets für mehrere Power BI Desktop-Berichte und Verwalten des Berichtslebenszyklus
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
 Sie können eine Liveverbindung mit einem gemeinsam genutzten Dataset im Power BI-Dienst herstellen und auf Grundlage des gleichen Datasets viele verschiedene Berichte erstellen. Sie können also in Power BI Desktop ein optimal auf Ihre Anforderungen abgestimmtes Datenmodell erstellen und für den Power BI-Dienst veröffentlichen. Dadurch können Sie und andere Benutzer dann zahlreiche verschiedene Berichte (in separaten PBIX-Dateien) erstellen, die auf diesem gemeinsamen Datenmodell basieren. Das Feature heißt **Liveverbindung mit Power BI-Dienst**.
@@ -116,8 +116,8 @@ Beim Verwenden des Features **Liveverbindung mit Power BI-Dienst** sind einige E
 * Da es sich hierbei um eine Liveverbindung handelt, sind die Navigation nach links sowie die Modellierung deaktiviert – ähnlich wie bei einer Verbindung mit **SQL Server Analysis Services**.
 * Da es sich hierbei um eine Liveverbindung handelt, werden RLS (Row- and Role-Level Security; Sicherheit auf Zeilen- und Rollenebene), OneDrive for Business und ähnliche Verbindungsmerkmale erzwungen – genau wie bei einer Verbindung mit **SQL Server Analysis Services**.
 * Wenn Sie im **Power BI-Dienst** das Dataset auswählen, mit dem eine Verbindung hergestellt werden soll, gilt das Suchfeld nur für Arbeitsbereiche, die erweitert wurden.
-* Wenn Sie die freigegebene PBIX-Originaldatei ändern, werden das Dataset und der im **Power BI-Dienst** freigegebene Bericht überschrieben.
-* Sie können den ursprünglich freigegebenen Bericht nicht ersetzen. Wenn Sie es dennoch versuchen, wird eine Warnung angezeigt, in der Sie zum Umbenennen der Datei und Veröffentlichen des Berichts aufgefordert werden.
+* Wenn der Besitzer die freigegebene PBIX-Originaldatei ändert, werden das Dataset und der im **Power BI-Dienst** freigegebene Bericht überschrieben.
+* Die Mitglieder eines Arbeitsbereichs können den ursprünglich freigegebenen Bericht nicht ersetzen. Wenn Sie es dennoch versuchen, wird eine Warnung angezeigt, in der Sie zum Umbenennen der Datei und Veröffentlichen des Berichts aufgefordert werden.
 * Wenn Sie das freigegebene Dataset im **Power BI-Dienst** löschen, funktionieren andere **Power BI Desktop-Dateien** (PBIX-Dateien) nicht mehr ordnungsgemäß oder zeigen keine visuellen Elemente mehr an.
 * Bei Verwendung von Inhaltspaketen müssen Sie zunächst eine Kopie des Inhaltspakets erstellen, bevor Sie es als Grundlage für die Freigabe eines PBIX-Berichts und Datasets für den **Power BI-Dienst** verwenden.
 * Wenn Inhaltspakete aus *Meine Organisation* kopiert wurden, können Sie den im Dienst erstellten Bericht und/oder einen Bericht, der beim Kopieren eines Inhaltspakets mit einer Liveverbindung erstellt wurde, nicht ersetzen. Wenn Sie es dennoch versuchen, wird eine Warnung angezeigt, in der Sie zum Umbenennen der Datei und Veröffentlichen des Berichts aufgefordert werden. In diesem Fall können Sie nur veröffentlichte Berichte mit Liveverbindung ersetzen.

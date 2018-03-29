@@ -1,27 +1,27 @@
 ---
-title: "Neuigkeiten bei den mobilen Apps für Power BI"
-description: "Neuigkeiten bei den mobilen Apps für Power BI"
+title: Neuigkeiten bei den mobilen Apps für Power BI
+description: Neuigkeiten bei den mobilen Apps für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -30,11 +30,33 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
 
+## <a name="march-2018"></a>März 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
+
+Um Daten letztendlich dorthin zu bringen, wo Sie sich befinden, haben wir die Power BI for Mixed Reality-App entwickelt. Zeigen Sie Ihre Dashboards und Berichte an, während Sie sich in der virtuellen Welt befinden, oder platzieren Sie sie bzw. zeigen Sie sie in Ihrer Umgebung an bestimmten Speicherorten an. Weitere Informationen finden Sie unter [Power BI for Mixed Reality-App](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Externes Freigeben von Berichten und Dashboards
+
+Geben Sie Dashboards und Berichte direkt aus der App für Benutzer außerhalb Ihrer Organisation frei. Die externe Freigabe ist sowohl für Organisations- als auch für Social Media-Konten aktiviert. 
+
+### <a name="persistent-filters"></a>Permanente Filter
+
+Wenn Sie Filter und Slicer in der Webversion von Power BI einstellen, werden Ihre Filtereinstellungen auch in Ihrer mobilen App gespeichert, sodass Sie dort weitermachen können, wo Sie aufgehört haben.
+
+### <a name="refresh-reports-on-the-ipad"></a>Aktualisieren von Berichten auf dem iPad
+
+Power BI-Berichte verfügen jetzt über eine Schaltfläche zum Aktualisieren in der iPad-App.
+
 ## <a name="february-2018"></a>Februar 2018
 
 ### <a name="share-reports"></a>Freigeben von Berichten
 
 Sie können jetzt Berichte direkt über mobile Apps freigeben. Weitere Informationen erhalten Sie unter [Freigeben eines Dashboards in den mobilen Power BI-Apps](mobile-share-dashboard-from-the-mobile-apps.md).
+
+### <a name="improved-tooltips"></a>Verbesserte QuickInfos
+
+Wenn Sie mit den Fingern tippen und ein visuelles Berichtselement festhalten, um auf QuickInfos zuzugreifen, können Sie nun Ihren Finger über das Visual ziehen, um weitere Informationen über jeden Datenpunkt aufzuklappen.
 
 ## <a name="january-2018"></a>Januar 2018
 
@@ -162,7 +184,7 @@ In Balken- und Säulendiagrammen eines Berichts können Sie zum Scrollen nun ans
 #### <a name="ios-devices"></a>iOS-Geräte
 **Befragen von Daten mit einer Vorschau von Q&A** 
 
-Mit Q&A können Sie frei formulierte Fragen zu Ihren Daten stellen und Antworten von Power BI erhalten. Q&A ist bereits im Power BI-Dienst auf „http://powerbi.com“ enthalten. Das Feature ist jetzt auch [in der mobilen App auf Ihrem iPhone oder iPad verfügbar](mobile-apps-ios-qna.md).
+Mit Q&A können Sie frei formulierte Fragen zu Ihren Daten stellen und Antworten von Power BI erhalten. Q&A ist bereits im Power BI-Dienst auf http://powerbi.com enthalten. Das Feature ist jetzt auch [in der mobilen App auf Ihrem iPhone oder iPad verfügbar](mobile-apps-ios-qna.md).
 
 **Herstellen einer Verbindung mit mehreren SSRS-Servern** 
 

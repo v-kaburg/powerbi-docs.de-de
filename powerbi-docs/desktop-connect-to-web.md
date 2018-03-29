@@ -2,14 +2,14 @@
 title: Verbinden mit einer Webseite in Power BI Desktop
 description: Einfaches Verbinden mit und Verwenden von Webseitendaten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Verbinden mit einer Webseite in Power BI Desktop
 Sie können eine Verbindung mit einer Webseite herstellen und deren Daten in Power BI Desktop importieren, um sie in Ihren Visuals und Datenmodellen zu verwenden.
@@ -47,7 +47,7 @@ Wenn Sie **Laden** auswählen, importiert Power BI Desktop die ausgewählten Ele
 
 Das ist auch schon alles, was Sie tun müssen, um eine Verbindung mit einer Webseite herzustellen und deren Daten in Power BI Desktop zu importieren.
 
-Von dort aus können Sie diese Felder auf den Berichtszeichenbereich ziehen und alle Visualisierungen erstellen, die Sie möchten. Sie können mit den Daten der Webseite außerdem arbeiten wie mit allen anderen Daten: Sie können sie strukturieren, Beziehungen zwischen ihnen und anderen Datenquellen in Ihrem Modell erstellen und andernfalls tun, was Sie möchten, um genau den Power BI-Bericht zu erstellen, den Sie möchten.
+Von dort aus können Sie diese Felder auf den Berichtszeichenbereich ziehen und alle Visualisierungen erstellen, die Sie möchten. Sie können die Daten der Webseite wie alle anderen Daten auch verwenden: Sie können sie strukturieren, Beziehungen zwischen ihnen und anderen Datenquellen in Ihrem Modell erstellen und andernfalls tun, was Sie möchten, um genau den Power BI-Bericht zu erstellen, den Sie möchten.
 
 Sehen Sie sich das Handbuch [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) an, um einen detaillierteren Einblick in das Verbinden mit einer Webseite zu erhalten.
 

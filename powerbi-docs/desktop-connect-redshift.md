@@ -2,14 +2,14 @@
 title: Herstellen einer Verbindung mit einer Amazon Redshift-Datenbank in Power BI Desktop
 description: Einfaches Verbinden mit und Verwenden von einer Amazon Redshift-Datenbank in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Verbinden mit Amazon Redshift in Power BI Desktop
 In **Power BI Desktop** können Sie eine Verbindung mit einer **Amazon Redshift**-Datenbank herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Herstellen einer Verbindung mit einer Amazon Redshift-Datenbank
-Wählen Sie in Power BI Desktop im Menüband **Start** die Option **Daten abrufen** aus, um eine Verbindung mit einer **Amazon Redshift**-Datenbank herzustellen. Wählen Sie in den Kategorien auf der linken Seite **Datenbank** aus. Anschließend wird **Amazon Redshift** angezeigt.
+Klicken Sie in Power BI Desktop im Menüband **Start** auf die Option **Daten abrufen**, um eine Verbindung mit einer **Amazon Redshift**-Datenbank herzustellen. Wählen Sie in den Kategorien auf der linken Seite **Datenbank** aus. Anschließend wird **Amazon Redshift** angezeigt.
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
@@ -46,7 +46,7 @@ Nachdem die Verbindung erfolgreich hergestellt wurde, wird das Fenster **Navigat
 
 Sobald Sie im Fenster **Navigator** eine Auswahl vornehmen, können Sie die Daten **laden** oder **bearbeiten**.
 
-* Wenn Sie die Option zum **Laden** von Daten ausgewählt haben, werden Sie aufgefordert, hierzu den Modus *Import* oder *DirectQuery* zu verwenden. Weitere Informationen finden Sie in diesem [Artikel, in dem DirectQuery erläutert wird](desktop-use-directquery.md).
+* Wenn Sie die Option zum **Laden** von Daten ausgewählt haben, werden Sie aufgefordert, hierzu den Modus *importieren* oder *DirectQuery* zu verwenden. Weitere Informationen finden Sie in diesem [Artikel, in dem DirectQuery erläutert wird](desktop-use-directquery.md).
 * Wenn Sie die Option zum **Bearbeiten** der Daten ausgewählt haben, wird der **Abfrage-Editor** angezeigt. In diesem können Sie alle Arten von Transformationen und Filtern auf die Daten anwenden, von denen viele auf die zugrunde liegende **Amazon Redshift**-Datenbank selbst angewendet werden (sofern unterstützt).
 
 ## <a name="next-steps"></a>Nächste Schritte

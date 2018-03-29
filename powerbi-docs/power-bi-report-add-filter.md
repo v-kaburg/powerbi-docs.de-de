@@ -1,50 +1,58 @@
 ---
-title: "Hinzufügen eines Visualisierungs-, Seiten-, Drillthrough- oder Berichtsfilters zu einem Bericht"
-description: "Hinzufügen eines Seiten-, Visualisierungs- oder Berichtsfilters zu einem Bericht in Power BI"
+title: Hinzufügen eines Visualisierungs-, Seiten-, Drillthrough- oder Berichtsfilters zu einem Bericht
+description: Hinzufügen eines Seiten-, Visualisierungs- oder Berichtsfilters zu einem Bericht in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d30941e49915122864976868d36418d53844b927
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
-# <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht in Power BI (in der Bearbeitungsansicht)
+# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht im Power BI-Dienst (in der Bearbeitungsansicht)
 > [!TIP]
 > Es wird empfohlen, zuerst den Artikel [Informationen zu Filtern und Hervorhebungen in Power BI-Berichten](power-bi-reports-filters-and-highlighting.md) zu lesen.
+
+Die Beispiele in diesem Artikel drehen sich um den Power BI-Dienst. Allerdings sind die dargestellten Schritte fast identisch mit denen in Power BI Desktop.
 > 
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Unterschiede zwischen Berichtsfiltern in der Bearbeitungsansicht und in der Leseansicht
 Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht](service-reading-view-and-editing-view.md) und [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
 
-* In der Bearbeitungsansicht können Sie Berichts-, Seiten- und visuelle Filter hinzufügen. Wenn Sie den Bericht speichern, werden die Filter ebenfalls gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den von Ihnen hinzugefügten Filtern interagieren, aber die Änderungen nicht speichern.
-* In der Leseansicht können Sie mit allen Berichts-, Seiten- und visuellen Filtern interagieren, die im Bericht bereits vorhanden sind. Sie können Ihre Filteränderungen allerdings nicht speichern.
+* In der Bearbeitungsansicht können Sie Berichts-, Seiten- und visuelle Filter hinzufügen. Wenn Sie den Bericht speichern, werden die Filter ebenfalls gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den von Ihnen hinzugefügten Filtern interagieren.
+* In der Leseansicht können Sie mit allen Berichts-, Drillthrough-, Seiten- und visuellen Filtern interagieren, die im Bericht bereits vorhanden sind. Sie können jedoch keine neuen Filter hinzufügen. Selbst wenn Sie den Bericht in einer mobilen App anzeigen, werden die von Ihnen vorgenommenen Veränderungen im Bereich „Filter“ zusammen mit dem Bericht gespeichert.  
 
 > [!NOTE]
 > In diesem Artikel wird beschrieben, wie Sie Filter im Bericht **Bearbeitungsansicht** erstellen.  Weitere Informationen zu Filtern in der Leseansicht finden Sie unter [Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md).
-> 
-> 
 
-## <a name="visual-filters-page-filters-drillthrough-filters-and-report-filters"></a>Visualfilter, Seitenfilter, Drillthroughfilter und Berichtsfilter
-Ein **Seitenfilter** gilt für Visualisierungen auf der Berichtsseite. Ein **visueller Filter** gilt für ein einzelne Visualisierung auf einer Berichtsseite. Ein **Berichtsfilter** gilt für alle Seiten im Bericht.
 
-![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filter, die im Bereich *Filter* in Power BI verfügbar sind
+Der Bereich „Filter“ wird auf der rechten Seite des Zeichenbereichs für den Bericht angezeigt, egal ob Sie den Desktop- oder Power BI-Dienst verwenden. Wenn der Filterbereich nicht angezeigt wird, wählen Sie das Symbol „>“ in der oberen rechten Ecke aus, um ihn zu erweitern.
+
+Es gibt vier Arten von Filtern.
+
+- Ein **Seitenfilter** gilt für Visualisierungen auf der Berichtsseite.     
+- Ein **visueller Filter** gilt für ein einzelne Visualisierung auf einer Berichtsseite.    
+- Ein **Drillthroughfilter** gilt für eine einzelne Entität in einem Bericht.    
+- Ein **Berichtsfilter** gilt für alle Seiten im Bericht.    
+
+    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Hinzufügen eines Filters zu einer bestimmten Visualisierung (Visualisierungsfilter)
 Hierfür gibt es zwei Methoden: 
@@ -130,11 +138,11 @@ Im Folgenden wird beschrieben, wie der Drillthroughfilter funktioniert.
 3. Wählen Sie im Bereich „Felder“ das Feld aus, das Sie als neuen Filter auf Berichtsstufe hinzufügen möchten, und ziehen Sie es in den Bereich **Berichtsstufenfilter**.  
 4. Wählen Sie die zu filternden Werte aus (siehe [Verwenden von Berichtsfiltern](power-bi-how-to-report-filter.md)).
 
-Die Visuals auf der aktiven Seite und auf allen Seiten des Berichts ändern sich, um den neuen Filter widerzuspiegeln. Wenn Sie Ihren Bericht mit dem Filter speichern, können Leser des Berichts mit dem Filter in der Leseansicht interagieren und Werte auswählen oder löschen.
+    Die Visuals auf der aktiven Seite und auf allen Seiten des Berichts ändern sich, um den neuen Filter widerzuspiegeln. Wenn Sie Ihren Bericht mit dem Filter speichern, können Leser des Berichts mit dem Filter in der Leseansicht interagieren und Werte auswählen oder löschen.
 
 1. Wählen Sie den Zurück-Pfeil aus, um zur vorherigen Berichtseite zurückzukehren.
 
-## <a name="troubleshooting"></a>Problembehandlung
+## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 ### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Gründe für unterschiedliche Ergebnisse Ihres Filters auf Visualisierungsebene und auf Seitenebene
 Wenn Sie einen Filter auf Visualisierungsebene hinzufügen, filtert Power BI die aggregierten Ergebnisse.  Die standardmäßige Aggregatfunktion ist „Summe“, Sie können jedoch den [Aggregattyp ändern](service-aggregates.md).  
 
