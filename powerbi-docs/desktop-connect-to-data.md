@@ -2,14 +2,14 @@
 title: Verbinden mit Daten in Power BI Desktop
 description: Verbinden mit Daten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Verbinden mit Daten in Power BI Desktop
 Mit Power BI Desktop können Sie problemlos Verbindungen zur ständig wachsenden Welt der Daten herstellen. Wenn Sie noch nicht über Power BI Desktop verfügen, können Sie die Anwendung [herunterladen](http://go.microsoft.com/fwlink/?LinkID=521662) und installieren.
@@ -80,7 +80,7 @@ Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informatione
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)   
 
-Möchten Sie uns Feedback senden? Sehr gut! Verwenden Sie hierzu das Menüelement **Feedback senden** in Power BI Desktop. Wir freuen uns, von Ihnen zu hören!
+Möchten Sie uns Feedback senden? Prima! verwenden Sie das Menüelement **Vorschlag einreichen** in Power BI Desktop oder besuchen Sie [Community-Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Wir freuen uns, von Ihnen zu hören!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

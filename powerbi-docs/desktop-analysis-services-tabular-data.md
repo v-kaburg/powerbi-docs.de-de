@@ -2,14 +2,14 @@
 title: Verwenden von Analysis Services-Tabellendaten in Power BI Desktop
 description: Analysis Services-Tabellendaten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a66272c4fc48c00b8636c7e7f1cd58261cbf5ea6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Verwenden von Analysis Services-Tabellendaten in Power BI Desktop
 Mit Power BI-Desktop verfügen Sie über zwei Möglichkeiten, eine Verbindung mit tabellarischen Modellen von SQL Server Analysis Services herzustellen und Daten aus diesen Modellen abzurufen: Durchsuchen mit Live-Verbindung, oder Auswählen und Importieren von Elementen in Power BI Desktop.
@@ -54,7 +54,7 @@ Dynamische Berichte, die Sie in Power BI Desktop erstellt haben, können Sie dur
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * Wenn Sie Auswählen und Importieren von Elementen verwenden, wählen Sie im Navigator ein tabellarisches Modell oder eine Perspektive aus. Weiter können Sie nur bestimmte Tabellen oder Spalten zum Laden auswählen. Um Ihre Daten vor dem Laden zu modellieren, rufen Sie den Abfrage-Editor auf, indem Sie auf "Bearbeiten" klicken. Wenn Sie dies abgeschlossen haben, klicken Sie auf "Laden", um die Daten in Power BI Desktop zu importieren.
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 **Frage:** Benötige ich ein lokales Datengateway?

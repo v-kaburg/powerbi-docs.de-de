@@ -1,27 +1,27 @@
 ---
 title: Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
-description: "Sie können Kollegen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Erfahren Sie, wie das funktioniert."
+description: Laden Sie andere Personen ein, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Erfahren Sie, wie das funktioniert.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 Gilt für:
@@ -30,7 +30,7 @@ Gilt für:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
 
-Mit einer [Power BI Pro-Lizenz](service-free-vs-pro.md) können Sie Kollegen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Die Personen, für die Sie Dashboards und Berichte freigeben, müssen sich in derselben E-Mail-Domäne befinden wie Sie und ebenfalls über eine Power BI Pro-Lizenz verfügen. Oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln.
+Mit einer [Power BI Pro-Lizenz](service-free-vs-pro.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln.
 
 Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung mit Anmerkungen versehen und freigeben](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 
@@ -38,14 +38,13 @@ Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Moment
 1. Tippen Sie auf der Aktionssymbolleiste am unteren Rand des Dashboards oder Berichts auf das Symbol **Freigeben** ![Symbol „Freigeben“](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
    
    ![iPhone-Freigabesymbol](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Tippen Sie auf **Kollegen einladen**.
-3. Geben Sie die Namen (durch Kommas getrennt) und eine Nachricht ein, die Ihre Einladung begleitet.
-4. Um eine erneute Freigabe zu ermöglichen, lassen Sie **Allow recipients to reshare** (Empfängern das Freigeben erlauben) ausgewählt.
+2. Geben Sie die Namen (durch Kommas getrennt) und eine Nachricht ein, die Ihre Einladung begleitet.
+3. Um eine erneute Freigabe zu ermöglichen, lassen Sie **Allow recipients to reshare** (Empfängern das Freigeben erlauben) ausgewählt.
    
    Mithilfe der erneuten Freigabe können Ihre Kollegen die E-Mail-Einladung an andere Personen in Ihrem Unternehmen weiterleiten, entweder über das Web oder mobile Apps.
 5. Tippen Sie in der rechten oberen Ecke auf **Senden** .
    
-   Ihre Kollegen erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
+   Die Empfänger erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
    
    ![Für mich freigegeben](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
 
 ## <a name="share-from-your-ipad"></a>Freigeben über Ihr iPad
 1. Tippen Sie auf das Symbol **Freigeben** ![Symbol „Freigeben“](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) in der oberen rechten Ecke des Dashboards oder Berichts.
-2. Tippen Sie auf **Einen Kollegen einladen**, und geben Sie die E-Mail-Adressen und eine Nachricht ein, die Ihre Einladung begleitet.
+2. Geben Sie die E-Mail-Adressen und eine Nachricht ein, die Ihre Einladung begleitet.
 3. Um eine erneute Freigabe zu ermöglichen, lassen Sie **Allow recipients to reshare** (Empfängern das Freigeben erlauben) ausgewählt.
    
    Mithilfe der erneuten Freigabe können Ihre Kollegen die E-Mail-Einladung an andere Personen in Ihrem Unternehmen weiterleiten, entweder über das Web oder mobile Apps. 
 
 4. Tippen Sie in der rechten oberen Ecke auf **Senden** .
    
-   Ihre Kollegen erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
+   Die Empfänger erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
    
    ![Für mich freigegeben](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
 1. Tippen Sie auf der Startseite des Dashboards oder Berichts auf die Auslassungspunkte (...) und dann auf **Invite a colleague** (Kollegen einladen).
    
    ![Kollegen einladen](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. Oder tippen Sie in der rechten oberen Ecke Ihres Dashboards oder Berichts auf das Symbol „Einladen“ ![Einladungssymbol](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+2. Oder tippen Sie auf einem Dashboard oder Bericht auf das Symbol „Einladen“. ![Einladungssymbol](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     Wenn Sie der Besitzer des Dashboards sind, sehen Sie die Liste der Kollegen, mit denen Sie das Dashboard oder den Bericht geteilt haben, einschließlich der folgenden Anmerkungen:
 
@@ -111,7 +110,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    
 1. Tippen Sie zum Senden der E-Mail im oberen rechten Bereich auf das Symbol **Senden** ![Symbol „Senden“](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png).
    
-   Ihre Kollegen erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
+   Die Empfänger erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
    
    ![Für mich freigegeben](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -146,7 +145,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    
 1. Tippen Sie auf das Symbol **Senden** oder ![Symbol „Senden“](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   Ihre Kollegen erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
+   Die Empfänger erhalten eine Einladung per E-Mail, die einen direkten Link zum Dashboard oder Bericht enthält. Nach einem Monat läuft die Einladung ab. Wenn sie diese in einem Browser oder in der mobilen Power BI-App öffnen, wird die Einladung dem Abschnitt **Für mich freigegeben** ihres Power BI-Kontos hinzugefügt.
    
    ![Für mich freigegeben](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    

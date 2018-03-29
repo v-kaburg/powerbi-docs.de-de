@@ -2,12 +2,12 @@
 title: Datenquellen in Power BI Desktop
 description: Datenquellen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/29/2016
 ms.service: powerbi
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
 
-Wählen Sie zum Herstellen einer Verbindung mit Daten im Menüband **Start** den Eintrag **Daten abrufen** aus. Wenn Sie den Pfeil nach unten oder den Text **Daten abrufen** auf der Schaltfläche auswählen, wird das Datentypmenü **Am häufigsten verwendet** angezeigt, das in der folgenden Abbildung veranschaulicht wird.
+Wählen Sie zum Herstellen einer Verbindung mit Daten im Menüband **Start** den Eintrag **Daten abrufen** aus. Wenn Sie den Pfeil nach unten oder den Text **Daten abrufen** auf der Schaltfläche auswählen, wird das Datentypmenü **Am häufigsten verwendet** angezeigt, das in der folgenden Abbildung veranschaulicht wird:
 
 ![](media/desktop-data-sources/data-sources_1.png)
 
@@ -78,13 +78,14 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Oracle-Datenbank
 * IBM DB2-Datenbank
 * IBM Informix-Datenbank (Beta)
-* IBM Netezza (Beta)
+* IBM Netezza
 * MySQL-Datenbank
 * PostgreSQL-Datenbank
 * Sybase-Datenbank
 * Teradata-Datenbank
 * SAP HANA-Datenbank
-* SAP Business Warehouse-Server
+* SAP Business Warehouse-Anwendungsserver
+* SAP Business Warehouse-Nachrichtenserver (Beta)
 * Amazon Redshift
 * Impala
 * BigQuery von Google (Beta)
@@ -103,13 +104,14 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 
 * Azure SQL-Datenbank
 * Azure SQL Data Warehouse
-* Azure Analysis Services-Datenbank (Beta)
+* Azure Analysis Services-Datenbank
 * Azure-BLOB-Speicher
 * Azure-Tabellenspeicher
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* HDInsight Interactive Query (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Azure**.
 
@@ -121,6 +123,7 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * SharePoint-Online-Liste
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (Beta)
 * Dynamics 365 for Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
@@ -128,23 +131,24 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Salesforce-Objekte
 * Salesforce-Berichte
 * Google Analytics
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 für Customer Insights (Beta)
+* Data.World – Dataset abrufen (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Merketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Enterprise One – PRM (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One – CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Onlinedienste*
 Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * SharePoint-Liste
 * OData-Feed
@@ -203,4 +208,3 @@ Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informatione
 * [Datentypen in Power BI Desktop](desktop-data-types.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)    
-

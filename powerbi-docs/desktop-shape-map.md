@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von Flächenkartogrammen in Power BI Desktop (Vorschau)"
-description: "Erstellen von relativen Vergleichen von Regionen mithilfe von Flächenkartogrammen in Power BI Desktop"
+title: Verwenden von Flächenkartogrammen in Power BI Desktop (Vorschau)
+description: Erstellen von relativen Vergleichen von Regionen mithilfe von Flächenkartogrammen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.
@@ -73,6 +73,23 @@ Sie können benutzerdefinierte Karten für das **Flächenkartogramm** verwenden,
 Um die **TopoJSON**-Kartendatei zu verwenden, fügen Sie dem Bericht ein visuelles ShapeMap-Element hinzu, und fügen Sie den Buckets *Standort* und *Werte* Daten hinzu. Erweitern Sie dann im Bereich **Visualisierungen**, in dem der Abschnitt **Format** (das Pinselsymbol, in der folgenden Abbildung als (1) dargestellt) ausgewählt ist, den Abschnitt **Form**, und wählen Sie **+ Karte hinzufügen** aus.
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>Benutzerdefinierte Beispielkarte
+Die *Büros der United States Attorneys* (Anwälte der Vereinigten Staaten) veröffentlichen einen jährlichen Finanzbericht über ihre Daten von Gerichtsverfahren und der Anzahl von Fällen.  Alle Berichte finden Sie unter folgendem Link:
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Da Staaten in mehrere Bezirke unterteilt werden können, müssen wir ein benutzerdefiniertes Flächenkartogramm verwenden.  Durch Importieren der **TopoJSON**-Karte der US-Gerichtsbezirke in **Power BI Desktop** können wir die jährlichen Finanzdaten der Bezirksanwälte anzeigen.  Das nachfolgende Bild stellt ein Beispiel dieser Karte dar.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Sie können mit den einzelnen Karten der US-Staaten auch interessante Vorgänge durchführen und weitere Details auf Grundlage der auf der Karte enthaltenen Bezirke anzeigen. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Wenn Sie gerne mit diesem Dataset und der Visualisierung experimentieren möchten, können Sie die PBIX-Originaldatei herunterladen, die zur Generierung dieses Berichts verwendet wurde. Sie finden sie unter folgendem Link:
+
+* [PBIX-Demodatei des benutzerdefinierten Flächenkartogramms](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Abrufen von Kartendaten
 Um schnell Daten in ein Modell abzurufen, um **Flächenkartogramm** zu testen, können Sie eine der Tabellen am Ende dieses Artikels kopieren und anschließend auf dem Menüband **Start** **Daten eingeben** auswählen.

@@ -1,15 +1,15 @@
 ---
-title: "Analysis Services – Mehrdimensionale Daten in Power BI Desktop"
-description: "Analysis Services – Mehrdimensionale Daten in Power BI Desktop"
+title: Analysis Services – Mehrdimensionale Daten in Power BI Desktop
+description: Analysis Services – Mehrdimensionale Daten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
 
-Zum Herstellen einer Verbindung zu einer **SSAS MD**-Datenbank wählen Sie **Daten abrufen &gt; Datenbank &gt; SQL Server Analysis Services-Datenbank** aus, wie in der folgenden Abbildung dargestellt.
+Zum Herstellen einer Verbindung zu einer **SSAS MD**-Datenbank klicken Sie wie in der folgenden Abbildung dargestellt auf **Daten abrufen &gt; Datenbank &gt; SQL Server Analysis Services-Datenbank**.
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -37,13 +37,13 @@ Zum Herstellen einer Verbindung zu einer **SSAS MD**-Datenbank wählen Sie **Dat
 In den folgenden Abschnitten werden die Features und Funktionen von Power BI- und SSAS MD-Verbindungen beschrieben.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Tabellarische Metadaten von mehrdimensionalen Modellen
-Die folgende Tabelle beschreibt die Beziehungen zwischen mehrdimensionalen Objekten und den tabellarischen Metadaten, die an Power BI Desktop zurückgegeben werden. Power BI fragt die tabellarischen Metadaten aus dem Modell ab. Abhängig von den zurückgegebenen Metadaten werden die entsprechenden DAX-Abfragen für Analysis Services ausgeführt, sobald Sie eine Visualisierung erstellen, wie z. B. eine Tabelle, eine Matrix, ein Diagramm oder einen Datenschnitt („Slicer“).
+Die folgende Tabelle beschreibt die Beziehungen zwischen mehrdimensionalen Objekten und den tabellarischen Metadaten, die an Power BI Desktop zurückgegeben werden. Power BI fragt die tabellarischen Metadaten aus dem Modell ab. Abhängig von den zurückgegebenen Metadaten werden die entsprechenden DAX-Abfragen für Analysis Services ausgeführt, sobald Sie eine Visualisierung erstellen, wie z.B. eine Tabelle, eine Matrix, ein Diagramm oder einen Datenschnitt („Slicer“).
 
 | Mehrdimensionales BISM-Objekt | Tabellarische Metadaten |
 | --- | --- |
 | Cube |Modell |
-| Cubedimension |Tabelle (Table) |
-| Dimensionsattribute (Schlüssel, Name) |Spalten |
+| Cubedimension |Tabelle |
+| Dimensionsattribute (Schlüssel), Name |Spalten |
 | Measuregruppe |Tabelle |
 | Measure |Measure |
 | Measures ohne zugeordnete Measuregruppe |Innerhalb einer Tabelle mit dem Namen *Measures* |
@@ -58,7 +58,7 @@ Measuregruppen in einem mehrdimensionalen Cube werden in Power BI im Bereich **
 In einem mehrdimensionalen Modell können Sie für einen Satz von Measures oder KPIs in einem Cube festlegen, dass diese in einem *Anzeigeordner* abgelegt werden. Dies kann zum Vereinfachen komplexer Modelle beitragen. Power BI erkennt Anzeigeordner in tabellarischen Metadaten und zeigt Measures und KPIs in den Anzeigeordnern an. KPIs in mehrdimensionalen Datenbanken unterstützen *Wert*, *Ziel*, *Statusgrafik* und *Trendgrafik*.
 
 ### <a name="dimension-attribute-type"></a>Dimensionsattributtyp
-Mehrdimensionale Modelle unterstützen auch das Zuordnen von Dimensionsattributen zu bestimmten Dimensionsattributtypen. Beispielsweise wird eine Dimension **Geografie** , bei der den Dimensionsattributen *Ort*, *Bundesland/Kanton*, *Land* und *Postleitzahl* die entsprechenden Geografietypen zugeordnet sind, in den tabellarischen Metadaten verfügbar gemacht. Power BI erkennt die Metadaten und ermöglicht es Ihnen dadurch, Kartenvisualisierungen zu erstellen. Damit Sie solche Zuordnungen schnell erkennen können, wird in Power BI im Bereich *Feld* neben dem betreffenden Element ein **Kartensymbol** angezeigt.
+Mehrdimensionale Modelle unterstützen auch das Zuordnen von Dimensionsattributen zu bestimmten Dimensionsattributtypen. Beispielsweise wird eine Dimension **Geografie**, bei der den Dimensionsattributen *Ort*, *Bundesland/Kanton*, *Land* und *Postleitzahl* die entsprechenden Geografietypen zugeordnet sind, in den tabellarischen Metadaten verfügbar gemacht. Power BI erkennt die Metadaten und ermöglicht es Ihnen dadurch, Kartenvisualisierungen zu erstellen. Damit Sie solche Zuordnungen schnell erkennen können, wird in Power BI im Bereich *Feld* neben dem betreffenden Element ein **Kartensymbol** angezeigt.
 
 Power BI kann auch Bilder darstellen, wenn Sie ein Feld mit den URLs (Uniform Resource Locator) der Bilder angeben. Sie können für diese Felder in SQL Server Data Tools (oder anschließend in Power BI) den Typ *ImageURL* festlegen, und diese Typinformationen werden dann in den tabellarischen Metadaten für Power BI bereitgestellt. Power BI kann dann diese Bilder aus der URL abrufen und in Visualisierungen anzeigen.
 
@@ -71,7 +71,7 @@ Mehrdimensionale Modelle unterstützen das Erstellen verschiedener Arten von *be
 * Berechnete Elemente in Attributhierarchien, die nicht mit *Alle* gleichgeordnet sind
 * Berechnete Elemente in Benutzerhierarchien
 
-Mehrdimensionale Modelle machen *berechnete Mitglieder in Attributhierarchien* als Werte in einer Spalte verfügbar. Beim Verfügbarmachen dieser Art von berechneten Elementen gibt es einige zusätzliche Optionen und Einschränkungen:
+Mehrdimensionale Modelle machen *berechnete Elemente in Attributhierarchien* als Werte in einer Spalte verfügbar. Beim Verfügbarmachen dieser Art von berechneten Elementen gibt es einige zusätzliche Optionen und Einschränkungen:
 
 * Ein Dimensionsattribut kann einen optionalen *UnknownMember* haben.
 * Ein Attribut, das berechnete Elemente enthält, kann nicht das Schlüsselattribut der Dimension sein, es sei denn, es ist das einzige Attribut der Dimension.

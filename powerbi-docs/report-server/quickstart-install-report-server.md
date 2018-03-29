@@ -2,39 +2,33 @@
 title: 'Schnellstart: Installieren von Power BI-Berichtsserver'
 description: Die Installation von Power BI-Berichtsserver selbst erfolgt sehr schnell. Die Schritte zum Herunterladen, Installieren und Konfigurieren bis zur Inbetriebnahme dauern nur wenige Minuten.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Schnellstart: Installieren von Power BI-Berichtsserver
 Die Installation von Power BI-Berichtsserver selbst erfolgt sehr schnell. Die Schritte zum Herunterladen, Installieren und Konfigurieren bis zur Inbetriebnahme dauern nur wenige Minuten.
 
 Dies ist ein kurzer Überblick über die Installation eines Berichtsservers, wenn Sie lediglich einen neuen Server in Betrieb nehmen möchten. Detaillierte Informationen zum Installieren eines Berichtsservers finden Sie unter [Installieren von Power BI-Berichtsserver](install-report-server.md).
 
- **Herunterladen** ![herunterladen](media/quickstart-install-report-server/download.png "herunterladen")
-
-Um Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/). 
-
-Wechseln Sie zum Microsoft Download Center, um [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (optimiert für Power BI-Berichtsserver – Oktober 2017) herunterzuladen.
-
-![Tipp](media/quickstart-install-report-server/fyi-tip.png "Tipp") Die Versionsanmerkungen finden Sie unter [Power BI-Berichtsserver: Anmerkungen zu dieser Version](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Video: Installieren von Power BI-Berichtsserver
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -42,7 +36,10 @@ Wechseln Sie zum Microsoft Download Center, um [Microsoft Power BI Desktop](http
 Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver](system-requirements.md) überprüfen.
 
 ## <a name="step-1-download"></a>Schritt 1: Herunterladen
-Laden Sie Installationsdateien für Power BI-Berichtsserver lokal herunter. Power BI-Berichtsserver können Sie aus dem [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=839351) herunterladen.
+
+Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/), und klicken Sie auf **Kostenlose Testversion herunterladen**.
+
+Befolgen Sie die Anweisungen, um die Installationsdateien für Power BI-Berichtsserver lokal herunterzuladen. 
 
 ![Herunterladen von Power BI-Berichtsserver](media/quickstart-install-report-server/download-pbireportserver.png)
 

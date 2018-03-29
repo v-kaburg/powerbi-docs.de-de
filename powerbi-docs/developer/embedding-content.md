@@ -1,27 +1,27 @@
 ---
-title: "So können Sie Ihre Dashboards, Berichte und Kacheln von Power BI einbetten"
-description: "Erfahren Sie mehr zu den Schritten, die Sie durchführen müssen, um Inhalte von Power BI in Ihre Anwendung einzubetten."
+title: So können Sie Ihre Dashboards, Berichte und Kacheln von Power BI einbetten
+description: Erfahren Sie mehr zu den Schritten, die Sie durchführen müssen, um Inhalte von Power BI in Ihre Anwendung einzubetten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Einbetten von Power BI-Dashboards, -Berichten und -Kacheln
 
@@ -88,6 +88,10 @@ Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausfü
 Wenn Sie Dashboards und Berichte für Ihre Kunden einbetten, müssen sich die Dashboards und Berichte in einem App-Arbeitsbereich befinden. Das oben genannte *Hauptkonto* muss ein Administrator des App-Arbeitsbereichs sein.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Ein Benutzer, der kein Administrator ist, kann nur bis zu 250 App-Arbeitsbereiche erstellen. Sie müssen ein Mandantenadministratorkonto verwenden, um weitere App-Arbeitsbereiche zu erstellen.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Erstellen und Hochladen von Berichten
 

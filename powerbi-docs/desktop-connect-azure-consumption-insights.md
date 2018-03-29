@@ -2,14 +2,14 @@
 title: Herstellen einer Verbindung mit Azure Consumption Insights-Daten in Power BI Desktop (Beta)
 description: Einfaches Herstellen einer Verbindung mit Azure und Erhalten von Einblicken in Verbrauch und Verwendung mithilfe von Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -34,7 +34,7 @@ In diesem Artikel erfahren Sie, wie Sie mit dem **Azure Consumption Insights**-C
 ## <a name="connect-to-azure-consumption-insights"></a>Herstellen einer Verbindung mit Azure Consumption Insights
 Zum erfolgreichen Herstellen einer Verbindung mit dem **Azure Consumption Insights**-Connector benötigen Sie Zugriff auf die Enterprise-Features im Azure-Portal.
 
-Um mithilfe des **Azure Consumption Insights**-Connectors eine Verbindung herzustellen, wählen Sie im Menüband **Start** von **Power BI Desktop** die Option **Daten abrufen** aus. Wählen Sie in den Kategorien auf der linken Seite **Onlinedienste** aus. Anschließend wird **Microsoft Azure Consumption Insights (Beta)** angezeigt. Wählen Sie **Verbinden** aus.
+Um mithilfe des **Azure Consumption Insights**-Connectors eine Verbindung herzustellen, klicken Sie im Menüband **Start** von **Power BI Desktop** auf **Daten abrufen**. Wählen Sie in den Kategorien auf der linken Seite **Onlinedienste** aus. Anschließend wird **Microsoft Azure Consumption Insights (Beta)** angezeigt. Wählen Sie **Verbinden** aus.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -42,7 +42,7 @@ Geben Sie im daraufhin angezeigten Dialogfeld Ihre *Registrierungsnummer* ein.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Sie finden Ihre Registrierungsnummer im [Azure Enterprise-Portal](https://ea.azure.com) an der in der folgenden Abbildung dargestellten Position.
+* Sie finden Ihre Registrierungsnummer im [Azure Enterprise-Portal](https://ea.azure.com) an der in der folgenden Abbildung dargestellten Position:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Sobald Sie Ihren *Zugriffsschlüssel* angegeben und **Verbinden** ausgewählt ha
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> Die Tabellen „Summaries“ und *PriceSheets* sind nur für den API-Schlüssel auf Registrierungsebene verfügbar. Standardmäßig sind die Daten für die Tabellen *UsageDetails* und *PriceSheets* die Daten des aktuellen Monats. Die Tabellen *Summaries* und *Marketplace* sind nicht auf den aktuellen Monat beschränkt.
+> Die Tabellen *Summaries* und *PriceSheets* sind nur für den API-Schlüssel auf Registrierungsebene verfügbar. Standardmäßig sind die Daten für die Tabellen *UsageDetails* und *PriceSheets* die Daten des aktuellen Monats. Die Tabellen *Summaries* und *Marketplace* sind nicht auf den aktuellen Monat beschränkt.
 > 
 > 
 
@@ -84,16 +84,16 @@ Geben Sie in der **Bearbeitungsleiste** Folgendes ein:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Es wird eine Sammlung von Beispielen angezeigt, wie in der folgenden Abbildung dargestellt.
+Wie Sie der folgenden Abbildung entnehmen können, wird eine Sammlung von Beispielen angezeigt:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Gehen Sie beim Arbeiten mit Berichten und Erstellen von Abfragen wie folgt vor:
 
-* Verwenden Sie zum Definieren der Anzahl von Monaten ab dem aktuellen Datum *noOfMonths*
+* Verwenden Sie zum Definieren der Anzahl von Monaten ab dem aktuellen Datum *numberOfMonth*.
   * Verwenden Sie zum Darstellen der Anzahl von Monaten ab dem aktuellen Datum, die Sie importieren möchten, einen Wert zwischen 1 und 36. Es wird empfohlen, Daten von nicht mehr als 12 Monaten abzurufen, um das Überschreiten von Importeinschränkungen und der Menge der für Abfragen in Power BI zulässigen Daten zu vermeiden.
 * Verwenden Sie *startBillingDataWindow* und *endBillingDataWindow*, um einen Zeitraum von Monaten in einem historischen Zeitfenster zu definieren.
-* *noOfMonths* darf *nicht* zusammen mit *startBillingDataWindow* oder *endBillingDataWindow* verwendet werden.
+* *numberOfMonth* darf *nicht* zusammen mit *startBillingDataWindow* oder *endBillingDataWindow* verwendet werden.
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrieren vom Azure Enterprise-Connector
 Einige Kunden haben Visuals mit dem *Azure Enterprise-Connector (Beta)* erstellt, dessen Unterstützung demnächst eingestellt wird, da er durch den **Azure Consumption Insights**-Connector ersetzt wird. Der **Azure Consumption Insights**-Connector verfügt u.a. über die folgenden Features und Verbesserungen:
@@ -108,7 +108,7 @@ In den folgenden Schritten wird der Wechsel zu dem neueren **Azure Consumption I
 Der erste Schritt ist das Herstellen einer Verbindung mithilfe des **Azure Consumption Insights**- Connectors, der weiter oben in diesem Artikel ausführlich beschrieben wurde. Wählen Sie in diesem Schritt im Menüband **Start** von **Power BI Desktop** die Option **Daten abrufen > Leere Abfrage** aus.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Schritt 2: Im erweiterten Editor eine Abfrage erstellen
-Wählen Sie im **Abfrage-Editor** im Abschnitt **Abfrage** des Menübands **Start** die Option **Erweiterter Editor** aus. Geben Sie im daraufhin angezeigten Fenster **Erweiterter Editor** die folgende Abfrage ein.
+Wählen Sie im **Abfrage-Editor** im Abschnitt **Abfrage** des Menübands **Start** die Option **Erweiterter Editor** aus. Geben Sie im daraufhin angezeigten Fenster **Erweiterter Editor** die folgende Abfrage ein:
 
     let    
         enrollmentNumber = "100",
@@ -131,10 +131,10 @@ Anschließend müssen Sie alle benutzerdefinierten Spalten oder Measures, die Si
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Benennen Sie *Abfrage1* mit dem Namen der ursprünglichen Detailtabelle um.
-4. Erstellen Sie in der Tabelle neue Measures und benutzerdefinierter Spalten, indem Sie mit der rechten Maustaste auf die Tabelle klicken, **Neues Measure** auswählen und dann die gespeicherten Measures und Spalten ausschneiden und einfügen, bis sie alle eingefügt haben.
+4. Erstellen Sie in der Tabelle neue Measures und benutzerdefinierte Spalten, indem Sie mit der rechten Maustaste auf die Tabelle klicken, **Neues Measure** auswählen und dann die gespeicherten Measures und Spalten ausschneiden und einfügen, bis sie alle eingefügt haben.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Schritt 4: Tabellen, die Beziehungen aufwiesen, erneut verknüpfen
-Viele Dashboards verfügen über zusätzliche Tabellen, die zum Nachschlagen und Filtern verwendet werden, z.B. Datumstabellen oder Tabellen, die für benutzerdefinierte Projekte genutzt werden. Die meisten verbleibenden Probleme werden durch das Wiederherstellen dieser Beziehungen gelöst. Dazu gehen Sie wie folgt vor.
+Viele Dashboards verfügen über zusätzliche Tabellen, die zum Nachschlagen und Filtern verwendet werden, wie z.B. Datumstabellen oder Tabellen, die für benutzerdefinierte Projekte genutzt werden. Die meisten verbleibenden Probleme werden durch das Wiederherstellen dieser Beziehungen gelöst. Dazu gehen Sie wie folgt vor.
 
 - Wählen Sie auf der Registerkarte **Modellierung** in **Power BI Desktop** die Option **Beziehungen verwalten** aus, um ein neues Fenster zu öffnen, in dem Sie Beziehungen im Modell verwalten können. Verknüpfen Sie die Tabellen nach Bedarf erneut.
    
@@ -149,7 +149,7 @@ Azure stellt auch die [**ACI-API (Azure Consumption and Insights)**](https://azu
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Zuordnen von Namen und Nutzungsdetails zwischen dem Portal, dem Connector und der API
 Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connector ähnlich, jedoch nicht immer identisch. Zur Erläuterung enthält die folgende Tabelle eine Zuordnung zwischen der API, dem Connector und den im Azure-Portal angezeigten Spalten. Es wird außerdem angegeben, ob die Spalte veraltet ist. Weitere Informationen und Definitionen der Begriffe finden Sie im [Azure-Wörterbuch für Abrechnungsdaten](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
 
-| Spaltenname im ACI-Connector/Inhaltspaket | ACI-API-Spaltenname | EA-Spaltenname | Veraltet/aus Gründen der Abwärtskompatibilität |
+| Spaltenname im ACI-Connector/Inhaltspaket | ACI-API-Spaltenname | EA-Spaltenname | Veraltet/aus Gründen der Abwärtskompatibilität vorhanden |
 | --- | --- | --- | --- |
 | AccountName |accountName |Kontoname |Nein |
 | AccountId |accountId | |Ja |
@@ -161,7 +161,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nein |
 | Kostenstelle |costCenter |Kostenstelle |Nein |
-| Datum (Date) |date |Datum (Date) |Nein |
+| Datum |date |Datum |Nein |
 | Tag | |Tag |Nein |
 | DepartmentName |departmentName |Abteilungsname |Nein |
 | DepartmentID |departmentId | |Ja |
@@ -175,7 +175,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
 | Monat | |Monat |Nein |
-| Product |product |Product |Nein |
+| Produkt |product |Produkt |Nein |
 | ProductId |productId | |Ja |
 | Ressourcengruppe |resourceGroup |Ressourcengruppe |Nein |
 | Ressourcenspeicherort |resourceLocation |Ressourcenspeicherort |Nein |
