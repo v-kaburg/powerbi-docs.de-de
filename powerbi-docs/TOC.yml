@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Verbinden mit CSV-Dateien in Power BI Desktop
           href: desktop-connect-csv.md
-        - name: Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop (Vorschau)
-          href: desktop-connect-csv.md
+        - name: Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop
+          href: desktop-connect-adobe-analytics.md
         - name: Herstellen einer Verbindung mit einer Impala-Datenbank in Power BI Desktop
           href: desktop-connect-impala.md
         - name: Verbinden mit einem OData-Feed in Power BI Desktop
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: Integrieren von Inhalten in eine Anwendung (App ist Besitzer der Daten)
           href: developer/embed-sample-for-customers.md
+        - name: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden für Sovereign Clouds
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Einbetten von benutzerdefinierten Layouts in einer App
           href: developer/embedded-custom-layout.md
         - name: Erstellen eines Azure Active Directory-Mandanten
