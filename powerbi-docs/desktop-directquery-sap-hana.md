@@ -1,15 +1,15 @@
 ---
-title: "DirectQuery für SAP HANA in Power BI"
-description: "Überlegungen zur Verwendung von DirectQuery mit SAP HANA"
+title: DirectQuery für SAP HANA in Power BI
+description: Überlegungen zur Verwendung von DirectQuery mit SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery und SAP HANA
 Sie können sich mit **SAP HANA**-Datenquellen direkt über **DirectQuery** verbinden. Beim Verbinden mit SAP HANA stehen zwei Optionen zur Verfügung:
@@ -43,7 +43,7 @@ Die beiden Ansätze werden im Folgenden genauer beschrieben.
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA als mehrdimensionale Quelle behandeln (Standard)
 
-Beim Herstellen einer neuen Verbindung mit SAP HANA wird standardmäßig diese Verbindungsmethode verwendet, bei der SAP HANA als mehrdimensionale Datenquelle behandelt wird. Wenn SAP HANA als relationale Datenquelle behandelt werden soll, sind folgende Schritte notwendig: Rufen Sie zuerst **Datei > Optionen und Einstellungen** auf, und aktivieren Sie anschließend unter **DirectQuery** das Kontrollkästchen neben „SAP HANA als relationale Quelle behandeln“. Obwohl dieses Feature in der **Vorschauversion** verfügbar ist, können Berichte, die mit dem mehrdimensionalen Ansatz erstellt wurden, *nicht* im Power BI-Dienst veröffentlicht werden. Wenn das Feature dennoch verwendet wird, führt dies beim Öffnen des Berichts im Power BI-Dienst zu Fehlern.  
+Beim Herstellen einer neuen Verbindung mit SAP HANA wird standardmäßig diese Verbindungsmethode verwendet, bei der SAP HANA als mehrdimensionale Datenquelle behandelt wird. Wenn SAP HANA als relationale Datenquelle behandelt werden soll, sind folgende Schritte notwendig: Rufen Sie zuerst **Datei > Optionen und Einstellungen > Optionen** auf, und aktivieren Sie anschließend unter **DirectQuery** das Kontrollkästchen neben „SAP HANA als relationale Quelle behandeln“. Obwohl dieses Feature in der **Vorschauversion** verfügbar ist, können Berichte, die mit dem mehrdimensionalen Ansatz erstellt wurden, *nicht* im Power BI-Dienst veröffentlicht werden. Wenn das Feature dennoch verwendet wird, führt dies beim Öffnen des Berichts im Power BI-Dienst zu Fehlern.  
 
 Wenn SAP HANA bei einer Verbindung als mehrdimensionale Datenquelle behandelt wird, ist Folgendes zu beachten:
 
@@ -63,24 +63,24 @@ Die Liste **Felder** umfasst alle Measures, Attribute und Hierarchien der SAP HA
 
 * In SAP HANA kann ein Attribut so definiert werden, dass ein anderes Attribut als dessen Bezeichnung verwendet wird. Beispielsweise könnte ein Feld **Produkt** (mit den Werten 1, 2, 3 usw.) die Bezeichnung **Produktname** (mit den Werten „Fahrrad“, „Shirt“, „Handschuhe“ etc.) verwenden. In diesem Fall wird das Feld **Produkt** in der Feldliste angezeigt, deren Werte die Bezeichnungen „Fahrrad“, „Shirt“, „Handschuhe“ usw. sind. Die Bezeichnungen werden allerdings über die eindeutigen Schlüsselwerte 1, 2 und 3 identifiziert und nach diesen sortiert. Außerdem wird die ausgeblendete Spalte **Produkt.Schlüssel** erstellt, über die bei Bedarf auf die entsprechenden Schlüsselwerte zugegriffen werden kann. 
 
-Alle in der zugrunde liegenden SAP HANA-Ansicht definierten Variablen werden zum Verbindungszeitpunkt angezeigt. Dabei können die erforderlichen Werte eingegeben werden. Sie können diese Werte später ändern, indem Sie im Menüband auf **Abfragen bearbeiten** klicken und anschließend aus dem Dropdownmenü den Eintrag **Variablen bearbeiten** auswählen. 
+Alle in der zugrunde liegenden SAP HANA-Ansicht definierten Variablen werden zum Verbindungszeitpunkt angezeigt. Dabei können die erforderlichen Werte eingegeben werden. Sie können diese Werte später ändern, indem Sie im Menüband auf **Abfragen bearbeiten** klicken und anschließend aus dem Dropdownmenü den Eintrag **Variablen verwalten** auswählen. 
 
-Die zulässigen Modellierungsvorgänge sind restriktiver als bei der Verwendung von DirectQuery, da sichergestellt werden muss, dass die richtigen Aggregatdaten immer von SAP HANA abgerufen werden können. Allerdings ist es weiterhin möglich, viele Ergänzungen und Änderungen vorzunehmen und beispielsweise Measures zu definieren, Felder umzubenennen und auszublenden sowie Anzeigeformate zu definieren. Alle Änderungen werden bei einer Aktualisierung beibehalten. Außerdem werden alle an der SAP HANA-Ansicht vorgenommenen Änderungen, die zu keinen Konflikten führen, übernommen. 
+Die zulässigen Modellierungsvorgänge sind restriktiver als bei der Verwendung von DirectQuery, da sichergestellt werden muss, dass die richtigen Aggregatdaten immer von SAP HANA abgerufen werden können. Allerdings ist es weiterhin möglich, viele Ergänzungen und Änderungen vorzunehmen und beispielsweise Measures zu definieren, Felder umzubenennen und auszublenden sowie Anzeigeformate zu definieren. Alle Änderungen werden bei einer Aktualisierung beibehalten. Außerdem werden alle an der SAP HANA-Ansicht vorgenommenen Änderungen übernommen, die zu keinen Konflikten führen. 
 
-### <a name="additional-modelling-restrictions"></a>Zusätzliche Modellierungseinschränkungen
+### <a name="additional-modeling-restrictions"></a>Zusätzliche Modellierungseinschränkungen
 
 Wenn über DirectQuery eine Verbindung mit SAP HANA hergestellt und SAP HANA als mehrdimensionale Quelle verwendet wird, sind v.a. die folgenden zusätzlichen Modellierungseinschränkungen zu berücksichtigen: 
 
 * **Keine Unterstützung für berechnete Spalten**: Das Erstellen von berechneten Spalten ist deaktiviert. Dies bedeutet zudem, dass Gruppierung und Clustering, mit denen berechnete Spalten erstellt werden, nicht zur Verfügung stehen.
 * **Zusätzliche Einschränkungen für Measures**: Für DAX-Ausdrücke, die in Measures verwendet werden können, gelten zusätzliche Einschränkungen, damit die von SAP HANA bereitgestellte Unterstützung übernommen wird.
-* **Keine Unterstützung für das Definieren von Beziehungen:** Innerhalb eines Berichts können nur über eine einzelne Ansicht Abfragen gestellt werden. Daher können auch keine Beziehungen definiert werden.
+* **Keine Unterstützung für das Definieren von Beziehungen:** Innerhalb eines Berichts können nur einzelne Ansichten abgefragt werden. Daher können auch keine Beziehungen definiert werden.
 * **Keine Datenansicht**: Die **Datenansicht** zeigt in der Tabelle normalerweise Daten auf Detailebene an. Aufgrund der Eigenschaften von OLAP-Quellen wie SAP HANA ist diese Ansicht in SAP HANA nicht verfügbar.
 * **Details von Spalten und Measures sind unveränderlich**: Die in der Feldliste anzeigte Listen von Spalten und Measures sind in der zugrunde liegenden Quelle festgelegt und können nicht verändert werden. Es ist z.B. nicht möglich, eine Spalte oder deren Datentyp zu löschen. Sie können sie allerdings umbenennen.
 * **Zusätzliche Einschränkungen in DAX**: Es gibt zusätzliche Einschränkungen für DAX, die in Measuredefinitionen verwendet wird, damit die Einschränkungen in der Quelle übernommen werden. Es ist z.B. nicht möglich, eine Aggregatfunktion für eine Tabelle zu verwenden.
 
 ### <a name="additional-visualization-restrictions"></a>Zusätzliche Visualisierungseinschränkungen
 
-Wenn über DirectQuery eine Verbindung mit SAP HANA hergestellt und SAP HANA als mehrdimensionale Quelle verwendet wird, sind einige Einschränkungen bei Visuals zu beachten: 
+Wenn über DirectQuery eine Verbindung mit SAP HANA hergestellt und SAP HANA als mehrdimensionale Quelle verwendet wird, sind Einschränkungen bei Visuals zu beachten: 
 * **Keine Spaltenaggregation**: Es ist nicht möglich, die Aggregation einer Spalte in einem Visual zu ändern. Sie verfügt immer über den Status *Nicht zusammenfassen*.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA als relationale Quelle behandeln 
@@ -138,14 +138,14 @@ Dies liegt daran, dass Power BI über die SQL-Schnittstelle auf SAP HANA zugreif
 * **Andere Hierarchiemetadaten**: Die grundlegende Struktur von Hierarchien wird in Power BI angezeigt. Einige Hierarchiemetadaten (z.B. die Steuerung des Verhaltens unregelmäßiger Hierarchien) haben jedoch keine Auswirkung.
 Auch dies ist auf die Einschränkungen zurückzuführen, die die SQL-Schnittstelle mit sich bringt.
 * **Verbindung über SSL**: Sie könne keine Verbindung mit SAP HANA-Instanzen herstellen, die für die Nutzung von SSL konfiguriert wurden.
-Unterstützung für Attributansichten: Power BI kann eine Verbindung mit analytischen Ansichten und Berechnungsansichten herstellen. Eine direkte Verbindung mit Attributansichten ist hingegen nicht möglich.
+* **Unterstützung für Attributansichten:** Power BI kann eine Verbindung mit den Ansichten „Analyse“ und „Berechnung“ herstellen. Eine direkte Verbindung mit Ansicht „Attribut“ ist hingegen nicht möglich.
 * **Unterstützung für Katalogobjekte**: Power BI kann keine Verbindung mit Katalogobjekten herstellen.
 * **Änderungen an Variablen nach der Veröffentlichung**: Nachdem der Bericht veröffentlicht wurde, können Sie die Werte der SAP HANA-Variablen nicht mehr direkt im Power BI-Dienst ändern. 
  
 ## <a name="known-issues"></a>Bekannte Probleme 
 In der folgenden Liste werden alle bekannten Probleme beschrieben, die beim Herstellen einer Verbindung mit SAP HANA (DirectQuery) über Power BI auftreten. 
 
-* **Problem mit SAP HANA bei Abfragen für Zähler und andere Measures**: Falsche Daten werden von SAP HANA zurückgegeben, wenn eine Verbindung mit einer analytischen Ansicht hergestellt wird und ein Zählermeasure sowie ein weiteres Verhältnismeasure in demselben Visual enthalten sind. Dieses Problem wird im SAP-Hinweis 2128928 (Unerwartete Ergebnisse beim Abfragen einer berechnete Spalte und eines Zählers) beschrieben. In diesem Fall ist das Verhältnismeasure falsch. 
+* **Problem mit SAP HANA bei Abfragen für Zähler und andere Measures**: Falsche Daten werden von SAP HANA zurückgegeben, wenn eine Verbindung mit einer analytischen Ansicht hergestellt wird und ein Zählermeasure sowie ein weiteres Verhältnismeasure in demselben Visual enthalten sind. Dieses Problem wird im SAP-Hinweis 2128928 „Unexpected results when query a Calculated Column and a Counter“ (Unerwartete Ergebnisse beim Abfragen einer berechneten Spalte und eines Zählers) beschrieben. In diesem Fall ist das Verhältnismeasure falsch. 
 
 * **Erstellung mehrerer Power BI-Spalten aus einer SAP HANA-Spalte**: Bei einigen Berechnungsansichten, in denen eine SAP HANA-Spalte in mehreren Hierarchien verwendet wird, stellt SAP HANA zwei eigenständige Attribute bereit. Dies führt dazu, dass zwei Spalten in Power BI erstellt werden.  Diese werden allerdings standardmäßig ausgeblendet, und alle Abfragen im Zusammenhang mit Hierarchien oder Spalten verhalten sich korrekt. 
  

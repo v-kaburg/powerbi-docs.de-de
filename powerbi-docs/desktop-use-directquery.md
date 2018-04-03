@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von DirectQuery in Power BI Desktop"
-description: "Verwenden von DirectQuery („Liveverbindung“) in Power BI Desktop"
+title: Verwenden von DirectQuery in Power BI Desktop
+description: Verwenden von DirectQuery („Liveverbindung“) in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 83726531a3ef82f59efb6e12c0ea0dbcd4bf5d7c
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Verwenden von DirectQuery in Power BI Desktop
 Wenn Sie mit **Power BI Desktop** eine Verbindung zu Ihrer Datenquelle herstellen, ist es immer möglich, eine Kopie der Daten in **Power BI Desktop** zu importieren. Für einige Datenquellen steht ein alternativer Ansatz zur Verfügung: das Herstellen einer direkten Verbindung zur Datenquelle mit **DirectQuery**.
@@ -62,7 +62,7 @@ Derzeit bestehen einige Einschränkungen bei der Verwendung von **DirectQuery**:
 * Standardmäßig gelten für DAX-Ausdrücke, die in Measures zulässig sind, Einschränkungen; weitere Informationen finden Sie im folgenden Abschnitt (nach dieser Aufzählung).
 * Bei Verwendung von **DirectQuery** können maximal 1 Million Zeilen mit Daten zurückgegeben werden. Dies betrifft nicht Aggregationen oder Berechnungen, die zum Erstellen des mit **DirectQuery** zurückgegebenen Datasets verwendet wurden, sondern nur die zurückgegebenen Zeilen. Sie können beispielsweise 10 Millionen Zeilen mit der Abfrage aggregieren, die für die Datenquelle ausgeführt wird, und die Ergebnisse dieser Aggregation mithilfe von **DirectQuery** präzise an Power BI zurückgeben, solange weniger als 1 Million Zeilen mit Daten an Power BI zurückgegeben werden. Wenn mehr als 1 Million Zeilen von **DirectQuery** zurückgegeben werden, gibt Power BI einen Fehler aus.
 
-Um sicherzustellen, dass Abfragen, die an die zugrundeliegende Datenquelle gesendet werden, eine akzeptable Leistung aufweisen, werden für Measures standardmäßig Einschränkungen angewendet. Fortgeschrittene Benutzer haben die Möglichkeit, diese Einschränkung zu umgehen, indem sie **Datei > Optionen**, dann **Einstellungen > Optionen und Einstellungen > DirectQuery** und schließlich die Option *Unbeschränkte Measures im DirectQuery-Modus zulassen* auswählen. Wenn diese Option aktiviert ist, kann jeder DAX-Ausdruck, der für ein Measure gültig ist, verwendet werden. Die Benutzer müssen sich jedoch bewusst sein, dass einige Ausdrücke, die bei importierten Daten eine sehr gute Leistung zeigen, bei der Ausführung auf der Back-End-Quelle im DirectQuery-Modus zu sehr langsamen Abfragen führen können.
+Um sicherzustellen, dass Abfragen, die an die zugrundeliegende Datenquelle gesendet werden, eine akzeptable Leistung aufweisen, werden für Measures standardmäßig Einschränkungen angewendet. Fortgeschrittene Benutzer können diese Einschränkung umgehen, indem sie **Datei > Optionen und Einstellungen > Optionen**, dann **DirectQuery** und schließlich die Option *Unbeschränkte Measures im DirectQuery-Modus zulassen* auswählen. Wenn diese Option aktiviert ist, kann jeder DAX-Ausdruck, der für ein Measure gültig ist, verwendet werden. Die Benutzer müssen sich jedoch bewusst sein, dass einige Ausdrücke, die bei importierten Daten eine sehr gute Leistung zeigen, bei der Ausführung auf der Back-End-Quelle im DirectQuery-Modus zu sehr langsamen Abfragen führen können.
 
 ## <a name="important-considerations-when-using-directquery"></a>Wichtige Überlegungen bei der Verwendung von DirectQuery
 Die folgenden drei Punkte sollten Sie bei der Verwendung von **DirectQuery** berücksichtigen:
@@ -77,7 +77,7 @@ Die folgenden drei Punkte sollten Sie bei der Verwendung von **DirectQuery** ber
       the maximum allowed size of '1000000' rows.
   
   Diese Situation kann bei einem einfachen Diagramm auftreten, das eine sehr hohe Kardinalitätsspalte enthält und für das die Aggregationsoption auf *Nicht zusammenfassen* festgelegt ist. Das visuelle Element darf nur Spalten mit einer Kardinalität unter 1 Million enthalten, oder es müssen entsprechenden Filter angewendet werden.
-* **Sicherheit** – Alle Benutzer, die einen veröffentlichten Bericht verwenden, stellen die Verbindung mit der Back-End-Datenquelle mit den Anmeldeinformationen her, die nach der Veröffentlichung im Power BI-Dienst eingegeben wurden. Dies ist dieselbe Ausgangssituation wie bei importierten Daten: Für alle Benutzer werden dieselben Daten angezeigt, unabhängig von den in der Back-End-Datenquelle definierten Sicherheitsregeln. Kunden, die benutzerspezifische Sicherheit wünschen, implementieren mit DirectQuery-Quellen und verwenden RLS. [Erfahren Sie mehr zu RLS](service-admin-rls.md).
+* **Sicherheit** – Alle Benutzer, die einen veröffentlichten Bericht verwenden, stellen die Verbindung mit der Back-End-Datenquelle mit den Anmeldeinformationen her, die nach der Veröffentlichung im Power BI-Dienst eingegeben wurden. Dies ist dieselbe Ausgangssituation wie bei importierten Daten: Für alle Benutzer werden dieselben Daten angezeigt, unabhängig von den in der Back-End-Datenquelle definierten Sicherheitsregeln. Kunden, die mit DirectQuery-Quellen benutzerspezifische Sicherheit implementieren möchten, sollten RLS verwenden. [Erfahren Sie mehr zu RLS](service-admin-rls.md).
 * **Unterstützte Funktionen** – Nicht alle Funktionen in **Power BI Desktop** werden im **DirectQuery**-Modus unterstützt, oder es gelten bestimmte Einschränkungen. Darüber hinaus sind einige Funktionen des Power BI-Diensts (z. B. *Schnelleinblicke*) nicht für Datasets verfügbar, die **DirectQuery** verwenden. Daher sollten die Einschränkungen dieser Funktionen bei der Verwendung von **DirectQuery** berücksichtigt werden, wenn bestimmt wird, ob **DirectQuery** verwendet werden soll.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Veröffentlichen im Power BI-Dienst

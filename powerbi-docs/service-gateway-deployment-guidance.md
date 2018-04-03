@@ -1,15 +1,15 @@
 ---
-title: "Leitfaden zum Bereitstellen eines Datengateways für Power BI"
-description: "Informationen zu bewährten Methoden und Überlegungen für das Bereitstellen eines Gateways für Power BI."
+title: Leitfaden zum Bereitstellen eines Datengateways für Power BI
+description: Informationen zu bewährten Methoden und Überlegungen für das Bereitstellen eines Gateways für Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Leitfaden zum Bereitstellen eines Datengateways für Power BI
 Dieser Artikel bietet Anleitungen sowie Überlegungen zur Bereitstellung eines Datengateways in Ihrer Netzwerkumgebung. Ein **Gateway** ist eine Software, die den Zugriff auf Daten in einem privaten, lokalen Netzwerk erleichtert, um diese zu einem späteren Zeitpunkt in einem Clouddienst wie Power BI zu verwenden. Dieser Artikel führt Sie durch die Bereitstellung und bietet einen Leitfaden für die Einrichtung des **lokalen Datengateways**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Weitere Informationen zum **lokalen Datengateway**, einschließlich einem Link zur Installation, finden Sie in diesem [Blogpost](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Weitere Informationen zum **lokalen Datengateway**, einschließlich ein Link zur Installation, finden Sie in diesem [Blogpost](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Hinweise zur Installation für das lokale Datengateway
 Es gibt einige Überlegungen, die Sie bedenken sollten, bevor Sie sich zu sehr mit den Details der Installation und Bereitstellung beschäftigen. In den folgenden Abschnitten werden wichtige Aspekte beschrieben.
@@ -86,7 +86,7 @@ Der *Gateway-Leistungsindikator* bietet Ihnen zusätzlich zu den Leistungsindika
 
 Sie können über das Tool **Windows-Systemmonitor** auf diese Leistungsindikatoren zugreifen. Diese können von beliebigen Tools genutzt werden, die Sie zu diesem Zweck verwenden. Sehen Sie sich für eine ausführliche exemplarische Vorgehensweise zur Verwendung der Gateway-Leistungsüberwachung mit Power BI den folgenden Blogpost aus der Community an.
 
-* [Monitor on-premises data gateways (Überwachen des lokalen Datengateways)](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
+* [Monitor on-premises data gateways (Überwachen von lokalen Datengateways)](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>Protokolle
 Konfigurations- und Dienstprotokolle bieten einen anderen Blick auf die Vorkommnisse mit Ihrem Gateway. Überprüfen Sie immer Ihre Gatewayprotokolle, wenn die Verbindung nicht wie erwartet funktioniert, da nicht alle Fehlermeldungen im Power BI-Dienst angezeigt werden.

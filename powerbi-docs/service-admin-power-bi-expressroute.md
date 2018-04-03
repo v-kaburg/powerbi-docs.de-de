@@ -2,14 +2,14 @@
 title: Power BI und ExpressRoute
 description: Power BI und ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI und ExpressRoute
 Mit **Power BI** und **ExpressRoute** können Sie auch eine private Netzwerkverbindung zwischen Ihrer Organisation oder dem Standort Ihres Servers bei Ihrem Internetdienstanbieter und Power BI einrichten. Dabei umgehen Sie das Internet, um Ihre sensiblen Power BI-Daten und Verbindungen besser zu schützen.
@@ -49,7 +49,7 @@ Die beiden allgemeinen Ausnahmen für die Verwendung von Power BI und ExpressRou
 * Statische Dateien, die von dem **Content Delivery Network (CDN)** und Websites heruntergeladen werden
 * **Telemetrie**-Daten, die über das öffentliche Internet verschickt werden
 
-Power BI verwendet mehrere **Content Delivery Networks (CDNs)** oder Websites, um die erforderlichen statischen Inhalte und Dateien effizient über das öffentliche Internet an die Benutzer, basierend auf einem Gebietsschema, zu verteilen. Diese statischen Dateien umfassen Downloadvorgänge von Produkten (wie **Power BI Desktop**, dem **lokalen Datengateway** oder **Power BI-Inhaltspaketen** von verschiedenen unabhängigen Dienstanbietern), Browserkonfigurationsdateien, die verwendet werden, um alle darauf folgenden Verbindungen mit Power BI zu initiieren und herzustellen, sowie die sichere erste Anmeldeseite für Power BI. Die eigentlichen Anmeldeinformationen werden nur über ExpressRoute gesendet.   
+Power BI verwendet mehrere **Content Delivery Networks (CDNs)** oder Websites, um die erforderlichen statischen Inhalte und Dateien effizient über das öffentliche Internet an die Benutzer, basierend auf einem Gebietsschema, zu verteilen. Diese statischen Dateien umfassen Downloads von Produkten (wie **Power BI Desktop**, dem **lokalen Datengateway** oder **Power BI-Inhaltspaketen** von verschiedenen unabhängigen Dienstanbietern), Browserkonfigurationsdateien, mit denen alle darauffolgenden Verbindungen mit Power BI initiiert und hergestellt werden, sowie die sichere erste Anmeldeseite für Power BI. Die eigentlichen Anmeldeinformationen werden nur über ExpressRoute gesendet.   
 
 Bestimmte **Telemetriedaten** werden auch über das öffentliche Internet und über ExpressRoute gesendet. Telemetriedaten beinhaltet Verwendungsstatistiken und ähnliche Daten, die an Dienste übermittelt werden, die verwendet werden, um die Verwendung und Aktivität zu überwachen.
 
