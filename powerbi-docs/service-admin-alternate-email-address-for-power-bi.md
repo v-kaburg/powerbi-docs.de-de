@@ -2,14 +2,14 @@
 title: Verwenden einer alternativen E-Mail-Adresse
 description: Verwenden einer alternativen E-Mail-Adresse
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Bei der Erfassung eines integrierten AAD-Token (AAD = Active Azure Directory) f�
 
 Power BI wählt anhand der folgenden Kriterien aus, welche E-Mail-Adresse verwendet werden soll:
 1.  Wenn das E-Mail-Attribut im Benutzerobjekt des AAD-Mandanten vorhanden ist, verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse
-2.  Wenn es sich bei der UPN-E-Mail-Adresse *nicht* um eine E-Mail-Adresse der Domäne **\*.onmicrosoft.com** handelt (die Informationen hinter dem Symbol „@“), verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse
+2.  Wenn es sich bei der UPN-E-Mail-Adresse *nicht* um eine E-Mail-Adresse der Domäne **\*.onmicrosoft.com** handelt (die Informationen hinter dem Symbol „\@“), verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse
 3.  Wenn das Attribut für das „andere“ E-Mail-Adressfeld im AAD-Benutzerobjekt vorhanden ist, wird die erste E-Mail-Adresse in dieser Liste verwendet (dieses Attribut kann eine Liste mit E-Mail-Adressen umfassen)
 4. Wenn keine der oben genannten Bedingungen erfüllt wird, wird die UPN-Adresse verwendet
 
