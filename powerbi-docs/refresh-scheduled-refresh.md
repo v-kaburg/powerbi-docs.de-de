@@ -2,13 +2,13 @@
 title: Konfigurieren von geplanten Aktualisierungen
 description: Hier werden die Schritte zur Auswahl eines Gateways und zur Konfiguration einer geplanten Aktualisierung behandelt.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Konfigurieren geplanter Aktualisierungen
 
@@ -70,7 +70,7 @@ Sie müssen sich nur beim ersten Mal bei Datenquellen anmelden, wenn Sie die Akt
 Wenn etwas schief geht, steht das Problem normalerweise im Zusammenhang damit, dass das Gateway offline ist, weil es sich nicht bei Windows anmelden und den Dienst starten konnte, oder damit, dass sich Power BI nicht bei den Datenquellen anmelden konnte, um eine Abfrage nach aktualisierten Daten durchzuführen. Wenn die Aktualisierung fehlschlägt, überprüfen Sie das Dataseteinstellungen. Wenn der Gatewaydienst offline ist, wird Ihnen unter „Gateway-Status“ der Fehler angezeigt. Wenn sich Power BI nicht bei den Datenquellen anmelden kann, sehen Sie eine Fehlermeldung in den Anmeldeinformationen für die Datenquellen.
 
 ### <a name="on-premises-data-gateway"></a>Lokales Datengateway
-Wenn Sie das lokale Datengateway verwenden, um die Daten zu aktualisieren, ist es nicht erforderlich, dass Sie die Anmeldeinformationen angeben, da diese vom Gatewayadministrator für die Datenquelle definiert werden.
+Wenn Sie das lokale Datengateway verwenden, um die Daten zu aktualisieren, müssen Sie keine Anmeldeinformationen angeben, da diese vom Gatewayadministrator für die Datenquelle definiert werden.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 

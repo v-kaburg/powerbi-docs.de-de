@@ -1,15 +1,15 @@
 ---
-title: "Einstellung „Referenzielle Integrität voraussetzen“ in Power BI Desktop"
-description: "Erfahren Sie, wie mit DirectQuery in Power BI Desktop die referenzielle Integrität vorausgesetzt werden kann."
+title: Einstellung „Referenzielle Integrität voraussetzen“ in Power BI Desktop
+description: Erfahren Sie, wie mit DirectQuery in Power BI Desktop die referenzielle Integrität vorausgesetzt werden kann.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Einstellungen für „Referenzielle Integrität voraussetzen“ in Power BI Desktop
 Wenn Sie mithilfe von **DirectQuery** eine Verbindung mit einer Datenquelle herstellen, können Sie die Option **Referenzielle Integrität voraussetzen** verwenden, um die Ausführung effizienterer Abfragen der Datenquelle zu ermöglichen. Diese Funktion beinhaltet einige Anforderungen an die zugrunde liegenden Daten und ist nur bei Verwendung von **DirectQuery** verfügbar.
@@ -45,7 +45,7 @@ Im folgenden Beispiel wird das Verhalten von **Referenzielle Integrität vorauss
 1. Beachten Sie in der folgenden Abbildung mit den Tabellen **Orders** und **Products**, dass die referenzielle Integrität zwischen **Orders[ProductID]** und **Products[ProductID]** vorhanden ist. Die Spalte **[ProductID]** in der Tabelle **Orders** ist nie *NULL*, und jeder Wert ist auch in der Tabelle **Products** vorhanden. Daher sollte **Referenzielle Integrität voraussetzen** festgelegt werden, um effizientere Abfragen zu ermöglichen (durch die Verwendung dieser Einstellung werden die in Visualisierungen angezeigten Werte nicht geändert).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Beachten Sie in der nächsten Abbildung, dass zwischen **Orders[DepotID]** und **Depots[DepotID]** keine referenzielle Integrität vorhanden ist, da **DepotID** gleich *NULL* für einige *Orders* ist. Daher sollte **Referenzielle Integrität voraussetzen** *nicht* festgelegt werden.
+2. Beachten Sie in der nächsten Abbildung, dass zwischen **Orders[DepotID]** und **Depots[DepotID]** keine referenzielle Integrität vorhanden ist, da **DepotID** für einige *Orders* gleich *NULL* ist. Daher sollte **Referenzielle Integrität voraussetzen** *nicht* festgelegt werden.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Schließlich besteht in den folgenden Tabellen keine referenzielle Integrität zwischen **Orders[CustomerID]** und **Customers[CustID]**. **CustomerID** enthält einige Werte (in diesem Fall *CustX*), die nicht in der Tabelle *Customers* enthalten sind. Daher sollte **Referenzielle Integrität voraussetzen** *nicht* festgelegt werden.

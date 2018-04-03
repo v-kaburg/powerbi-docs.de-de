@@ -1,15 +1,15 @@
 ---
 title: Suchen nach angemeldeten Power BI-Benutzern
-description: "Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden."
+description: Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 7730f7b407eee9c474d04d64cd5748b33b9181ff
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78deaa2e98060e86756876e3d736fe973a5f5905
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Suchen nach angemeldeten Power BI-Benutzern
 Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden.
@@ -52,7 +52,7 @@ Sie können das Azure AD-Portal verwenden, um Anmeldeaktivitäten anzuzeigen.
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Filtern Sie die Anwendung entweder nach **Microsoft Power BI** oder nach **Power BI Gateway**, und wählen Sie **Übernehmen** aus.
    
-    **Microsoft Power BI** gilt für Anmeldeaktivitäten, die sich auf den Dienst beziehen, während **Power BI Gateway** für bestimmte Anmeldungen für das lokale Datengateway gilt.
+    **Microsoft Power BI** kann für Anmeldeaktivitäten verwendet werden, die sich auf den Dienst beziehen, während **Power BI Gateway** für bestimmte Anmeldungen für das lokale Datengateway verwendet werden kann.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

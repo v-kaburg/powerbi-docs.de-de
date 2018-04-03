@@ -1,15 +1,15 @@
 ---
 title: Sicherheit in Power BI
-description: "Sicherheit in Power BI. So steht Power BI in Beziehung zu Azure Active Directory und anderen Azure-Diensten. Dieses Thema enthält auch einen Link zu einem ausführlicheren Whitepaper."
+description: Sicherheit in Power BI. So steht Power BI in Beziehung zu Azure Active Directory und anderen Azure-Diensten. Dieses Thema enthält auch einen Link zu einem ausführlicheren Whitepaper.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [laden Sie das Whitepaper „Sicherheit in Power BI“ herunter](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -64,5 +64,5 @@ Weitere Informationen finden Sie im [Microsoft Trust Center](https://www.microso
 
 Wie weiter oben in diesem Artikel beschrieben, wird die Anmeldung eines Benutzers bei Power BI von lokalen Active Directory-Servern zur Zuordnung zu einem Benutzerprinzipalnamen (UPN) als Anmeldeinformationen verwendet. Es ist jedoch **wichtig** zu beachten, dass Benutzer für die von ihnen freigegebenen Daten verantwortlich sind: Wenn ein Benutzer mithilfe seiner Anmeldeinformationen eine Verbindung zu Datenquellen herstellt, dann einen Bericht (oder ein Dashboard oder ein Dataset) basierend auf diesen Daten freigibt, sind Benutzer, für die das Dashboard freigegeben wird, für die ursprüngliche Datenquelle nicht authentifiziert und erhalten Zugriff auf den Bericht.
 
-Eine Ausnahme stellen Verbindungen mit **SQL Server Analysis Services** über das **lokale Datengateway** dar. Dabei werden Dashboards in Power BI zwischengespeichert. Beim Zugreifen auf zugrunde liegende Berichte oder Datasets wird jedoch von dem Benutzer, der auf den Bericht (oder das Dataset) zugreifen möchte, eine Authentifizierung angefordert, und der Zugriff wird nur dann gewährt, wenn der Benutzer über ausreichende Anmeldeinformationen für den Zugriff auf die Daten verfügt. Weitere Informationen finden Sie unter [On-premises Data Gateway deep dive](service-gateway-onprem-indepth.md) (Lokales Datengateway im Detail).
+Eine Ausnahme stellen Verbindungen mit **SQL Server Analysis Services** über das **lokale Datengateway** dar. Dabei werden Dashboards in Power BI zwischengespeichert. Beim Zugreifen auf zugrunde liegende Berichte oder Datasets wird jedoch für den Benutzer, der auf den Bericht (oder das Dataset) zugreifen möchte, eine Authentifizierung initiiert, und der Zugriff wird nur dann gewährt, wenn der Benutzer über ausreichende Anmeldeinformationen für den Zugriff auf die Daten verfügt. Weitere Informationen finden Sie unter [On-premises Data Gateway deep dive](service-gateway-onprem-indepth.md) (Lokales Datengateway im Detail).
 
