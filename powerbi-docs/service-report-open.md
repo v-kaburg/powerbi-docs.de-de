@@ -1,15 +1,15 @@
 ---
-title: "Öffnen eines Berichts in der Leseansicht oder Bearbeitungsansicht im Power BI-Dienst"
-description: "Öffnen eines Power BI-Berichts in der Leseansicht oder der Bearbeitungsansicht"
+title: Öffnen eines Berichts in der Leseansicht oder Bearbeitungsansicht im Power BI-Dienst
+description: Öffnen eines Power BI-Berichts in der Leseansicht oder der Bearbeitungsansicht
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
