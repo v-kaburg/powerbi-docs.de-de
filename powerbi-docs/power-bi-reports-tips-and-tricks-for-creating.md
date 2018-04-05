@@ -1,15 +1,15 @@
 ---
-title: "Tipps zum Erstellen überzeugender Berichte"
+title: Tipps zum Erstellen überzeugender Berichte
 description: Tipps und Tricks zum Erstellen von Berichten im Power BI-Dienst
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Tipps zum Erstellen überzeugender Berichte
 Erstellung und Verwendung von Berichten im Power BI-Dienst und in Power BI Desktop sind sehr ähnlich, sodass die meisten dieser Links für beide Varianten gelten.
@@ -45,7 +45,7 @@ Community-Mitglied Miguel Myers ist sowohl Datenanalysten als auch Grafikdesigne
 * [Blogbeitrag lesen](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [Webinar ansehen](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte 
 [Power BI – Grundkonzepte](service-basic-concepts.md)
 
 [Berichte in Power BI](service-reports.md)
