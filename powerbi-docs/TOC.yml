@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Verwenden von Flächenkartogrammen in Power BI Desktop (Vorschau)
           href: desktop-shape-map.md
-        - name: Kombinieren von Binärdateien
+        - name: Kombinieren von Dateien (Binärdateien)
           href: desktop-combine-binaries.md
     - name: Modellieren Ihrer Daten
       items:
