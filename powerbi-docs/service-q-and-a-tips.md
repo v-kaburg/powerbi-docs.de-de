@@ -1,15 +1,15 @@
 ---
-title: "Tipps und Tricks für Fragen mit Q&A in Power BI"
-description: "Tipps und Tricks für Fragen mit Q&A in Power BI"
+title: Tipps und Tricks für Fragen mit Q&A in Power BI
+description: Tipps und Tricks für Fragen mit Q&A in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tipps zum Stellen von Fragen mit Power BI Q&A
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Wörter und Begriffe, die von Q&A erkannt werden
@@ -94,9 +94,6 @@ Q&A ist so konzipiert, dass die Antwort die Frage möglichst genau widerspiegelt
 * Es werden automatisch Ersatzbegriffe aus den zugrunde liegenden Datasets vorgeschlagen, wenn Sie den Cursor wieder in das Fragefeld setzen.
 * Die Frage wird anhand der Daten in den zugrunde liegenden Datasets umformuliert. Damit wird sichergestellt, dass Q&A Ihre Frage richtig verstanden hat, da Q&A die von Ihnen verwendeten Wörter durch Synonyme aus den zugrunde liegenden Datasets ersetzt.
 * Nicht verstandene Wörter werden abgeblendet.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Ergebnisse aus mehreren Datasets kombinieren
-Eines der leistungsstärksten Features von Power BI ist die Möglichkeit, Daten aus verschiedenen Datasets zu kombinieren.  Beschränken Sie Ihre Fragen daher nicht auf ein einzelnes Dataset, sondern stellen Sie Fragen, mit denen Sie Daten aus mehreren Datasets abrufen können. Beispiel: Wenn Ihr Dashboard Kacheln aus dem Analysebeispiel für den Einzelhandel und ein Dataset zur Bevölkerungszahl der Bundesländer enthält, können Sie fragen: *Zeige die Anzahl der Geschäfte nach Bevölkerungszahl der Bundesländer als absteigendes Balkendiagramm an*.
 
 ## <a name="dont-stop-now"></a>Das ist noch nicht alles
 Halten Sie die Konversation am Laufen, nachdem Q&A Ihre Ergebnisse anzeigt! Nutzen Sie die interaktiven Features der Visualisierung und von Q&A, um weitere Einblicke zu gewinnen.

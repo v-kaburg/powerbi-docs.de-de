@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
 Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar. Daten können importiert werden, oder Daten können direkt mit DirectQuery oder über eine Liveverbindung mit SQL Server Analysis Services abgefragt werden.
@@ -84,7 +84,7 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Web |Ja |Ja |Nein |
 | XML |Ja |Ja |Nein |
 | appFigures (Beta) |Ja |Nein |Nein |
-| Azure Analysis Services-Datenbank (Beta) |Ja |Nein |Nein |
+| Azure Analysis Services-Datenbank |Ja |Nein |Ja |
 | Azure Cosmos DB (Beta) |Ja |Nein |Nein |
 | Azure HDInsight Spark (Beta) |Ja |Nein |Nein |
 | Common Data Service (Beta) |Ja |Nein |Nein |

@@ -1,15 +1,15 @@
 ---
-title: "Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded"
-description: "Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalte für Ihre gesamte Organisation aktivieren können."
+title: Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
+description: Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalte für Ihre gesamte Organisation aktivieren können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 Hier erfahren Sie, wie Sie Power BI Premium- und Power BI Embedded-Kapazitäten verwalten können, um dedizierte Ressourcen für Ihre Inhalte bereitzustellen.
@@ -47,6 +47,10 @@ Damit Sie von dedizierter Kapazität profitieren können, müssen Sie im Office 
 * **Power BI Embedded:** [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Wenn Sie Power BI Premium-SKUs erwerben, erhält Ihr Mandant die entsprechende Anzahl von V-Kernen zur Verwendung in Kapazitäten, die ausgeführt werden. Beispielsweise erhält der Mandant durch den Erwerb einer Power BI Premium P3-SKU 32 V-Kerne.
+
+> [!NOTE]
+> Nach Ablauf Ihres Abonnements erhalten Sie 30 Tage lang kostenlos Zugriff. Anschließend wird für Ihre Inhalte wieder eine gemeinsam genutzte Kapazität verwendet. Modelle, die größer als 1 GB sind, werden bei Nutzung einer üblichen gemeinsamen Lizenz nicht unterstützt.
+>
 
 ## <a name="capacity-admins"></a>Kapazitätsadministrator
 > [!NOTE]
