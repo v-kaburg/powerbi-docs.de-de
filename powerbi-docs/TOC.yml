@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Slicer in Power BI Desktop
           href: desktop-slicers.md
+        - name: Verwenden von Schaltflächen in Power BI
+          href: desktop-buttons.md
         - name: Lesezeichen in Power BI
           href: desktop-bookmarks.md
         - name: Erstellen benutzerdefinierter QuickInfos für Berichte (Vorschau)
