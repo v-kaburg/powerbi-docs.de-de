@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Zertifizierung von benutzerdefinierten Visuals
           href: power-bi-custom-visuals-certified.md
+        - name: Veröffentlichen von benutzerdefinierten Visuals in AppSource
+          href: developer/office-store.md
     - name: Übertragen von Daten in ein Dashboard per Push
       items:
         - name: Übertragen von Daten in ein Dashboard per Push
