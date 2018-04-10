@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -62,7 +62,7 @@ Die JSON-Datei muss die folgenden Zeilen enthalten:
 
 * **name** – Der Name des Designs. Dieses ist das einzige Pflichtfeld.
 * **dataColors** – Eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visualisierungen. Die Liste kann beliebig viele oder wenige Farben umfassen.
-* **background**, **foreground** und **tableAccent** – Werte für diese Farbeinstellungen sollten bei den Visualisierungen **Tabelle** und **Matrix** vergeben werden. Wie diese Farben verwendet werden, hängt ab vom Format der Tabelle oder Matrix. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
+* **background**, **foreground** und **tableAccent** – Werte für diese Farbeinstellungen sollten bei den Visualisierungen **Tabelle** und **Matrix** vergeben werden. Wie Sie diese Farben verwenden, hängt vom Format der Tabelle oder Matrix ab. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
 
 Um der Visualisierung **Tabelle** oder **Matrix** ein Format zuzuweisen, wählen Sie die Visualisierung im Bereich **Visualisierungen** und dann den Bereich **Format** aus. Erweitern Sie dann die Option **Tabellenstil/Matrixformat**, und wählen Sie im Dropdownmenü **Stil** einen Stil aus.
 
@@ -100,7 +100,7 @@ Also alles im grünen Bereich. Das liegt daran, dass diese Farben Teil des **Ber
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situationen, in denen Berichtdesignfarben in Berichten nicht dargestellt werden
 Wenn Sie einem Datenpunkt in einer Visualisierung eine benutzerdefinierte Farbpalette (oder einzelne Farbe) zuweisen, wird die Datenpunktfarbe durch das Berichtdesign *nicht überschrieben*.
 
-Wenn Sie die Datenpunktfarbe mithilfe des Bereichs „Designfarben“ der Farbpalette manuell festlegen, werden diese Einstellungen beim Zuweisen eines neuen Berichtdesigns ebenfalls *nicht überschrieben*. Wenn Sie wieder die Standardfarben verwenden möchten, damit alle Farben vom Berichtdesign vorgegeben werden, klicken Sie in der Palette **Designfarben** auf **Auf Standardwert zurücksetzen**.
+Wenn Sie die Datenpunktfarbe mithilfe des Bereichs „Designfarben“ der Farbpalette manuell festlegen, werden diese Farben beim Zuweisen eines neuen Berichtdesigns ebenfalls *nicht überschrieben*. Wenn Sie wieder die Standardfarben verwenden möchten, damit alle Farben vom Berichtdesign vorgegeben werden, klicken Sie in der Palette **Designfarben** auf **Auf Standardwert zurücksetzen**.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Voraussetzungen für Power BI-Datenquellen"
-description: "Voraussetzungen für Power BI-Datenquellen"
+title: Voraussetzungen für Power BI-Datenquellen
+description: Voraussetzungen für Power BI-Datenquellen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 274c94c7cdb2586e0c03af77de7f937700b6814e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 282526e18777e623725859adc84475525dcf25ba
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Voraussetzungen für Power BI-Datenquellen
 Power BI unterstützt für jeden Datenanbieter einer bestimmten Anbieterversion auf Objekten. Weitere Informationen zu den für Power BI verfügbaren Datenquellen finden Sie unter [Datenquellen](desktop-data-sources.md). Diese Anforderungen sind in der folgenden Tabelle beschrieben.
@@ -33,7 +33,7 @@ Power BI unterstützt für jeden Datenanbieter einer bestimmten Anbieterversion
 | Access |Microsoft Access-Datenbankmodul (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (nur XLS-Dateien) (siehe Hinweis 1) |Microsoft Access-Datenbankmodul (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen, Arbeitsblätter |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (siehe Hinweis 2) |ODP.NET |ODAC 11.2 Version 5 (11.2.0.3.20) |9.x und höher |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
-| System.Data.OracleClient (in .Net Framework integriert) |.NET Framework 3.5 |9.x und höher |Tabellen/Ansichten |In .NET Framework 3.5 oder höher enthalten | |
+| | System.Data.OracleClient (in .NET Framework integriert) |.NET Framework 3.5 |9.x und höher |Tabellen/Ansichten |In .NET Framework 3.5 oder höher enthalten |
 | IBM DB2 |ADO.NET-Client von IBM (Teil des Treiberpakets des IBM-Datenservers) |10.1 |9.1+ |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |Tabellen/Ansichten, skalare Funktionen |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
 | PostgreSQL |NPGSQL ADO.NET-Anbieter |2.0.12 |7.4 |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |

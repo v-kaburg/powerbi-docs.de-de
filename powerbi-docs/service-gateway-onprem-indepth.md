@@ -1,15 +1,15 @@
 ---
-title: "Ausführliche Informationen zu On-premises data gateway"
-description: "Dieser Artikel befasst sich ausführlich mit dem lokalen Gateway. Er beleuchtet die Funktionsweise des Diensts in Kombination mit Azure Active Directory und Ihrem lokalen Active Directory, wenn Sie Analysis Services nutzen."
+title: Ausführliche Informationen zu On-premises data gateway
+description: Dieser Artikel befasst sich ausführlich mit dem lokalen Gateway. Er beleuchtet die Funktionsweise des Diensts in Kombination mit Azure Active Directory und Ihrem lokalen Active Directory, wenn Sie Analysis Services nutzen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises data gateway
 Benutzer in Ihrer Organisation können auf lokale Daten zugreifen (für die sie bereits über Zugriffsberechtigungen verfügen). Bevor diese Benutzer jedoch eine Verbindung mit der lokalen Datenquelle herstellen können, muss ein lokales Datengateway installiert und konfiguriert werden. Das Gateway ermöglicht die schnelle und sichere, im Hintergrund ablaufende Kommunikation eines Benutzers in der Cloud mit Ihrer lokalen Datenquelle und zurück in die Cloud.

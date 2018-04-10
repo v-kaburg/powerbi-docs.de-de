@@ -2,14 +2,14 @@
 title: 'Tutorial: Analysieren von Umsatzdaten aus Excel und einem OData-Feed in Power BI Desktop'
 description: 'Lernprogramm: Analysieren von Umsatzdaten aus Excel und einem OData-Feed'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Lernprogramm: Analysieren von Umsatzdaten aus Excel und einem OData-Feed
 Mit **Power BI Desktop** können Sie Verbindungen mit allen Arten unterschiedlicher Datenquellen herstellen und diese dann in einer Weise kombinieren und formen, die es ermöglicht, interessante und überzeugende Datenanalysen und Visualisierungen zu erstellen. In diesem Tutorial erfahren Sie, wie Sie Daten aus zwei Datenquellen kombinieren. 
@@ -133,7 +133,7 @@ Berechnen der Zwischensumme für jede Zeile in **Order\_Details**
 1. Klicken Sie auf der Menübandregisterkarte **Spalte hinzufügen** auf **Benutzerdefinierte** **Spalte hinzufügen**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Geben Sie im Dialogfeld **Benutzerdefinierte Spalte hinzufügen** im Textfeld **Benutzerdefinierte Spaltenformel** Folgendes ein: **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**.
+2. Geben Sie im Dialogfeld **Benutzerdefinierte Spalte hinzufügen** im Textfeld **Benutzerdefinierte Spaltenformel** Folgendes ein: **[Order\_Details.UnitPrice]**  \* **[Order\_Details.Quantity]**
 3. Geben Sie in das Textfeld **Neuer Spaltenname** den Namen **LineTotal**ein.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

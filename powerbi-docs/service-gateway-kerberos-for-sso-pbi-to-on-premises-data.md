@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von Kerberos am lokalen Gateway für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen"
-description: "Konfigurieren des Gateways mit Kerberos für SSO von Power BI bei lokalen Datenquellen"
+title: Verwenden von Kerberos am lokalen Gateway für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
+description: Konfigurieren des Gateways mit Kerberos für SSO von Power BI bei lokalen Datenquellen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten ermöglichen, indem Sie Ihr lokales Datengateway mit Kerberos konfigurieren. Das lokale Datengateway ermöglicht das einmalige Anmelden über DirectQuery; hiermit werden Verbindungen mit lokalen Datenquellen hergestellt.
@@ -208,7 +208,7 @@ An früherer Stelle in diesem Artikel wurde das Umstellen des Gateways von einem
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_11.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-Weitere Informationen zum **lokalen Datengateway** und zu **DirectQuery** finden Sie in den folgenden Ressourcen:
+Weitere Informationen zum **lokalen Datengateway** und **DirectQuery** finden Sie in den folgenden Ressourcen:
 
 * [Lokales Datengateway](service-gateway-onprem.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)

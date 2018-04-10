@@ -2,14 +2,14 @@
 title: Allgemeine Abfrageaufgaben in Power BI Desktop
 description: Allgemeine Abfrageaufgaben in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop
 Beim Arbeiten im Fenster **Abfrage-Editor** von Power BI Desktop haben Sie es mit einer Hand voll häufig verwendeter Aufgaben zu tun. In diesem Dokument werden diese allgemeinen Aufgaben vorgestellt. Zudem finden Sie Links zu weiteren Informationen. 
@@ -45,7 +45,7 @@ Die erste Datenverbindung ist eine Excel-Arbeitsmappe. Die andere ist eine Webre
 Mit den Schritten, die zum Verbinden mit diesen beiden Datenquellen erforderlich sind, beginnen die allgemeinen Abfrageaufgaben.
 
 ## <a name="connect-to-data"></a>Verbinden mit Daten
-Für eine Datenverbindung in Power BI Desktop wählen Sie im Menüband auf der Registerkarte **Start** die Schaltfläche **Daten abrufen** aus. Power BI Desktop zeigt ein Menü mit den am häufigsten verwendeten Datenquellen an. Um eine vollständige Liste der Datenquellen abzurufen, zu denen Power BI Desktop eine Verbindung herstellen kann, klicken Sie unten im Menü auf die Schaltfläche **Mehr...** Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+Für eine Datenverbindung in Power BI Desktop wählen Sie im Menüband auf der Registerkarte **Start** die Schaltfläche **Daten abrufen** aus. Power BI Desktop zeigt ein Menü mit den am häufigsten verwendeten Datenquellen an. Um eine vollständige Liste der Datenquellen abzurufen, zu denen Power BI Desktop eine Verbindung herstellen kann, klicken Sie unten im Menü auf die Schaltfläche **Mehr...** Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,10 +67,10 @@ Wählen Sie **OK** aus. Wie zuvor prüft Power BI Desktop die Arbeitsmappe und z
 
 Andere Datenverbindungen funktionieren ähnlich. Falls für eine Datenverbindung eine Authentifizierung erforderlich ist, fordert die Power BI Query Sie auf, die entsprechenden Abmeldeinformationen einzugeben.
 
-Das Verbinden mit Daten in Power BI Desktop wird Schritt für Schritt unter [Verbinden mit Daten in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635) erläutert.
+Das Verbinden mit Daten in Power BI Desktop wird Schritt für Schritt unter [Verbinden mit Daten in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data) erläutert.
 
 ## <a name="shape-and-combine-data"></a>Strukturieren und Kombinieren von Daten
-Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter **[Strukturieren und Kombinieren von Daten mit Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)** erläutert.
+Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter **[Strukturieren und Kombinieren von Daten mit Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)** erläutert.
 
 Im vorherigen Abschnitt haben wir Verbindungen zu zwei Datasets hergestellt: eine Excel-Arbeitsmappe und eine Webressource. Nach dem Laden im Abfrage-Editor zeigt sich das folgende Bild, wobei die Abfrage von der Website ausgewählt ist (unter den aufgelisteten verfügbaren Abfragen im Bereich **Abfragen** auf der linken Seite des Abfrage-Editor-Fensters).
 
@@ -98,11 +98,13 @@ Das Fenster **Gruppieren nach...** wird angezeigt. Wenn im Abfrage-Editor Zeilen
 1. *Gruppieren nach* – Dies ist die zu gruppierende Spalte. Der Abfrage-Editor wählt zwar die markierte Spalte aus, aber Sie können die Spalte in diesem Fenster ändern und eine beliebige andere Spalte der Tabelle verwenden.
 2. *Neuer Spaltenname* – Der Abfrage-Editor schlägt auf Basis des zum Gruppieren der Spalte ausgeführten Vorgangs einen Namen für die neue Spalte vor. Sie können den Namen der neuen Spalte jedoch beliebig ändern.
 3. *Vorgang* – Hier geben Sie den Vorgang an, den der Abfrage-Editor anwenden soll.
-4. *Plus-/Minuszeichen (+/-)* – Sie können im Fenster **Gruppieren nach** und in einem einzelnen Vorgang einen und sogar mehrere Aggregationsvorgänge (Aktionen des Typs **Gruppieren nach**) für mehrere Spalten ausführen. Der Abfrage-Editor erstellt eine neue Spalte (anhand Ihrer Auswahl in diesem Fenster), die für mehrere Spalten gilt. Wählen Sie die Schaltfläche **+** aus, um dem Vorgang **Gruppieren nach** mehrere Spalten oder Aggregationen hinzuzufügen. Durch Auswahl des Minuszeichens (-) können Sie eine Spalte oder Aggregation entfernen. Probieren Sie es einfach aus, und sehen Sie sich die Ergebnisse an. 
+4. *Gruppierung hinzufügen* und *Aggregation hinzufügen* – Diese Optionen werden angezeigt, nachdem die Option **Erweitert** ausgewählt wurde. Sie können im Fenster **Gruppieren nach** und in einem einzelnen Vorgang einen und sogar mehrere Gruppierungsvorgänge (Aktionen des Typs **Gruppieren nach**) für mehrere Spalten ausführen. Der Abfrage-Editor erstellt eine neue Spalte (anhand Ihrer Auswahl in diesem Fenster), die für mehrere Spalten gilt. 
+
+Wählen Sie die Schaltfläche **Gruppierungen hinzufügen** oder **Aggregation hinzufügen**, um weitere Gruppierungen oder Aggregationen zu einem **Gruppieren nach**-Vorgang hinzuzufügen. Durch Auswahl des Symbols **...** und durch Auswahl von **Löschen** können Sie eine Gruppierung oder Aggregation entfernen. Probieren Sie es einfach aus, und sehen Sie sich die Ergebnisse an.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Bei Auswahl von **OK** führt die Abfrage den Vorgang **Gruppieren nach** aus und gibt die Ergebnisse zurück. Sehen Sie sich das an! Ohio, Texas, Illinois und Kalifornien haben jeweils über tausend Bildungsträger.
+Bei Auswahl von **OK** führt die Abfrage den Vorgang **Gruppieren nach** aus und gibt die Ergebnisse zurück. Sehen Sie sich das an! Ohio, Texas, Illinois und Kalifornien haben jetzt jeweils über tausend Bildungsträger.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Bei Auswahl von **OK**zeigt die Abfrage die Tabelle entsprechend den im Fenster 
 ## <a name="create-custom-columns"></a>Erstellen benutzerdefinierter Spalten
 Im Abfrage-Editor können Sie benutzerdefinierte Formeln für mehrere Spalten in Ihrer Tabelle erstellen und anschließend die Ergebnisse dieser Formeln in eine neue (benutzerdefinierte) Spalte einfügen. Der Abfrage-Editor macht es Ihnen einfach, benutzerdefinierte Spalten zu erstellen.
 
-Wählen Sie im Abfrage-Editor im Menüband auf der Registerkarte **Spalte hinzufügen** die Option **Benutzerdefinierte Spalte hinzufügen** aus.
+Wählen Sie im Abfrage-Editor im Menüband auf der Registerkarte **Spalte hinzufügen** die Option **Benutzerdefinierte Spalte** aus.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Der Abfrage-Editor zeichnet alle angewendeten Abfrageschritte als Text auf, den 
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Hier sehen Sie den **Erweiterter Editor**, in dem die Abfrageschritte der Abfrage **USA\_StudentEnrollment** angezeigt werden. Diese Schritte werden in der Power Query-Formelsprache erstellt, die häufig auch nur **M** genannt wird. Informationen hierzu finden Sie unter [Informationen zu Power Query-Formeln](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Laden Sie die [Microsoft Power Query-Spezifikation für die Excel-Formelsprache](http://go.microsoft.com/fwlink/?linkid=320633) herunter, um die eigentliche Spezifikation dieser Formelsprache anzuzeigen.
+Hier sehen Sie den **Erweiterter Editor**, in dem die Abfrageschritte der Abfrage **USA\_StudentEnrollment** angezeigt werden. Diese Schritte werden in der Power Query-Formelsprache erstellt, die häufig auch nur **M** genannt wird. Informationen hierzu finden Sie unter [Informationen zu Power Query-Formeln](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Um die eigentliche Spezifikation dieser Formelsprache anzuzeigen, öffnen Sie [Microsoft Power Query-Spezifikation für die Excel-Formelsprache](http://go.microsoft.com/fwlink/?linkid=320633).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
@@ -218,7 +220,7 @@ Die Formelkategorien für den Abfrage-Editor lauten wie folgt:
 * Teilungsfunktion (Splitter)
 * Kombinierungsfunktion (Combiner)
 * Ersetzungsfunktion (Replacer)
-* Typ (Type)
+* Typ
 
 ## <a name="next-steps"></a>Nächste Schritte
 Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:

@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von OneDrive for Business-Links in Power BI Desktop"
-description: "Verwenden von OneDrive for Business-Links in Power BI Desktop"
+title: Verwenden von OneDrive for Business-Links in Power BI Desktop
+description: Verwenden von OneDrive for Business-Links in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Verwenden von OneDrive for Business-Links in Power BI Desktop
 Viele Anwender speichern Excel-Arbeitsmappen auf OneDrive for Business-Laufwerken, was auch für Power BI Desktop eine gute Praxis ist. Mit **Power BI Desktop** können Sie Hyperlinks für **Excel**-Dateien verwenden, die in **OneDrive for Business** gespeichert sind, um Berichte und visuelle Elemente zu erstellen. Sie können ein **OneDrive for Business**-Gruppenkonto oder Ihr persönliches **OneDrive for Business**-Konto verwenden.
@@ -59,7 +59,7 @@ Sie können den Link, den Sie gerade in die Zwischenablage kopiert haben, in Pow
 Ein **Navigator**-Fenster wird angezeigt. es ermöglicht Ihnen die Auswahl aus der Liste der Tabellen, Arbeitsblätter und Bereiche in der Excel-Arbeitsmappe. Von dort können Sie die OneDrive für Business-Datei wie jede andere Excel-Datei verwenden, Berichte erstellen und sie in Datasets wie jede andere Datenquelle verwenden.
 
 > [!NOTE]
-> Um eine **OneDrive for Business**-Datei im Power BI-Dienst als Datenquelle zu verwenden, muss für diese Datei **Service Refresh** aktiviert sein, und Sie müssen **OAuth2** als **Authentifizierungsmethode** auswählen, wenn Sie die Aktualisierungseinstellungen konfigurieren. Andernfalls kann beim Verbindungsversuch oder Aktualisieren ein Fehler auftreten (wie *Fehler beim Aktualisieren der Datenquellen-Anmeldeinformationen*). Durch Auswahl der Authentifizierungsmethode **OAuth2** wird das Auftreten dieses Anmeldeinformationsfehlers vermieden.
+> Um eine **OneDrive for Business**-Datei im Power BI-Dienst als Datenquelle zu verwenden, muss für diese Datei **Dienst aktualisieren** aktiviert sein, und Sie müssen **OAuth2** als **Authentifizierungsmethode** auswählen, wenn Sie die Aktualisierungseinstellungen konfigurieren. Andernfalls kann beim Verbindungsversuch oder Aktualisieren ein Fehler auftreten (wie *Fehler beim Aktualisieren der Datenquellen-Anmeldeinformationen*). Durch Auswahl der Authentifizierungsmethode **OAuth2** wird das Auftreten dieses Anmeldeinformationsfehlers vermieden.
 > 
 > 
 

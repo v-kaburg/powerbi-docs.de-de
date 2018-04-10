@@ -1,15 +1,15 @@
 ---
-title: "Lokales Datengateway (persönlicher Modus)"
-description: "Datengateway für Power BI, das Einzelpersonen verwenden können, um sich mit lokalen Daten zu verbinden"
+title: Lokales Datengateway (persönlicher Modus)
+description: Datengateway für Power BI, das Einzelpersonen verwenden können, um sich mit lokalen Daten zu verbinden
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokales Datengateway (persönlicher Modus)
 Sie können lokale Datenquellen verwenden und Power BI-Berichte und Dashboards erstellen, indem Sie ein Gateway verwenden. Ein **Gateway** ist eine Software, die den Zugriff auf Daten erleichtert, die in einem privaten, lokalen Netzwerk gespeichert sind. Dann können Sie diese Daten in Onlinediensten wie z.B. **Power BI-Dienst** nutzen. Das **lokale Datengateway (persönlicher Modus)** ist ein kürzlich veröffentlichtes Update für das Power BI-Gateway, das es Benutzern ermöglicht, ein Gateway auf ihrem eigenen Computer zu installieren und auf lokale Daten zuzugreifen.
@@ -34,7 +34,7 @@ Sie können lokale Datenquellen verwenden und Power BI-Berichte und Dashboards e
 > 
 > 
 
-## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Funktionen des lokalen Datengateways (persönlicher Modus)
+## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Funktionen des lokalen Datengateway (persönlicher Modus)
 Mit der Veröffentlichung des **lokalen Datengateways (persönlicher Modus)** ist jetzt eine Sammlung von Verbesserungen und Funktionen verfügbar. In der vorherigen Version von Personal Gateway (das **Power BI Gateway – Personal** heißt) hat die Implementierung einige Einschränkungen auferlegt. Wie bei vielen Power BI-Produkten haben wir das Kundenfeedback, Kundenwünsche und den Gebrauch des Produkts durch Kunden berücksichtigt. Daher wurde das **lokale Datengateway (persönlicher Modus)** von Grund auf neu gestaltet und umfasst die folgenden Funktionen und Verbesserungen:
 
 * **Verbesserte Zuverlässigkeit**: Die neue Version von Personal Gateway ist, gegenüber der vorherigen Version, zuverlässiger. Dies konnte aufgrund von Code- und strukturellen Softwareverbesserungen erreicht werden.
@@ -84,12 +84,12 @@ Um die Version von Personal Gateway zu bestimmen, die Sie gerade installiert hab
 Wechseln Sie zu **Programme hinzufügen/entfernen** und finden Sie heraus, ob **Power BI Gateway – Personal** in der Liste angezeigt wird. In diesem Fall haben Sie die vorherige Version von Personal Gateway installiert.
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>Verwendung von schnellem Kombinieren mit Personal Gateway
-Wenn Sie **schnelles Kombinieren** mit dem vorherigen Gateway verwendet haben, müssen Sie die folgenden Schritte ausführen, um **schnelles Kombinieren** erneut zu aktivieren und mit dem **lokalen Datengateway (persönlicher Modus)** zu arbeiten:
+Wenn Sie **schnelles Kombinieren** mit dem vorherigen Gateway verwendet haben, müssen Sie die folgenden Schritte ausführen, um **schnelles Kombinieren** erneut zu aktivieren, um mit dem **lokalen Datengateway (persönlicher Modus)** zu arbeiten:
 
 1. Öffnen Sie die folgende Datei mit dem Datei-Explorer:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. Fügen Sie am Ende der Datei den folgenden Text ein:
    
@@ -122,10 +122,10 @@ Unterstützung für Spark ist für die zweite Hälfte des Kalenderjahres 2017 ge
 * Kann ich das **lokale Datengateway (persönlicher Modus)** parallel mit dem **lokalen Datengateway** ausführen (vormals bekannt als die Enterpriseversion des Gateways)?
   
   * **Antwort**: Ja, mit der neuen Version können beide gleichzeitig ausgeführt werden.
-* Kann ich das **lokale Datengateway (persönlicher Modus)** als Dienst ausführen?
+* Kann ich das **lokale Datengateway (persönlicher Modus)** als einen Dienst ausführen?
   
-  * **Antwort:** Nein. Das **lokale Datengateway (persönlicher Modus)** kann nur als Anwendung ausgeführt werden. Wenn Sie das Gateway als Dienst bzw. im Administratormodus ausführen müssen, müssen Sie das [**lokale Datengateway**](service-gateway-onprem.md) (vormals bekannt als das Enterprisegateway) in Betracht ziehen.
-* Wie oft wird das **lokale Datengateway (persönlicher Modus)** aktualisiert?
+  * **Antwort:** Nein. Das **lokale Datengateway (persönlicher Modus)** kann nur als Anwendung ausgeführt werden. Wenn Sie das Gateway als Dienst bzw. im Administratormodus ausführen müssen, müssen Sie das [**lokale Datengateway**](service-gateway-onprem.md) berücksichtigen (vormals bekannt als das Enterprisegateway).
+* Wie oft das **lokale Datengateway (persönlicher Modus)** aktualisiert?
   
   * **Antwort**: Wir möchten das Personal Gateway monatlich aktualisieren.
 * Warum werde ich aufgefordert, Anmeldeinformationen zu aktualisieren?

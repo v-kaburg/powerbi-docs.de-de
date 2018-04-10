@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.
@@ -32,7 +32,7 @@ Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um 
 ## <a name="creating-shape-maps"></a>Erstellen von Flächenkartogrammen
 Sie können das Steuerelement **Flächenkartogramm** mit den Karten testen, die mit dieser Vorschauversion geliefert werden. Alternativ können Sie eine eigene benutzerdefinierte Karte verwenden, sofern sie die im folgenden Abschnitt **Verwenden benutzerdefinierter Karten** genannten Anforderungen erfüllt.
 
-Die Visualisierung **Flächenkartogramm** befindet sich in der Vorschauversion und muss in Power BI Desktop aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen bei **Flächenkartogramm**, um **Flächenkartogramm** zu aktivieren. Sie müssen Power BI Desktop neu starten, nachdem Sie die Auswahl vorgenommen haben.
+Die Visualisierung **Flächenkartogramm** befindet sich in der Vorschauversion und muss in Power BI Desktop aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen bei **Visuelles Formzuordnungselement**, um **Formzuordnung** zu aktivieren. Sie müssen Power BI Desktop neu starten, nachdem Sie die Auswahl vorgenommen haben.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ Power BI Desktop erstellt einen leeren Entwurfszeichenbereich für die Visualisi
 
 Führen Sie die folgenden Schritte aus, um ein **Flächenkartogramm** zu erstellen:
 
-1. Ziehen Sie im Bereich **Felder** ein Datenfeld mit den Regionsnamen (oder Abkürzungen) auf den Bucket **Standort** und eines der Felder, mit denen Daten gemessen werden, auf den Bucket **Werte** (es wird noch keine Karte angezeigt).
+1. Ziehen Sie im Bereich **Felder** ein Datenfeld mit den Regionsnamen (oder Abkürzungen) auf den Bucket **Speicherort** und ein Datenmeasurefeld in den Bucket **Farbsättigung** (eine Zuordnung wird noch nicht angezeigt).
    
    > [!NOTE]
 > Informationen dazu, wie Sie schnell Kartendaten zum Testen eines **Flächenkartogramms** erhalten, finden Sie weiter unten im Abschnitt **Abrufen von Kartendaten**.
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um ein **Flächenkartogramm** zu erstell
 ## <a name="use-custom-maps"></a>Verwenden benutzerdefinierter Karten
 Sie können benutzerdefinierte Karten für das **Flächenkartogramm** verwenden, sofern sie das **TopoJSON**-Format aufweisen. Wenn die Karte in einem anderen Format vorliegt, können Sie mit Onlinetools, z.B. [**Map Shaper**](http://mapshaper.org/), die *Shape-Dateien* oder *GeoJSON*-Karten in das **TopoJSON**-Format konvertieren.
 
-Um die **TopoJSON**-Kartendatei zu verwenden, fügen Sie dem Bericht ein visuelles ShapeMap-Element hinzu, und fügen Sie den Buckets *Standort* und *Werte* Daten hinzu. Erweitern Sie dann im Bereich **Visualisierungen**, in dem der Abschnitt **Format** (das Pinselsymbol, in der folgenden Abbildung als (1) dargestellt) ausgewählt ist, den Abschnitt **Form**, und wählen Sie **+ Karte hinzufügen** aus.
+Um die **TopoJSON**-Kartendatei zu verwenden, fügen Sie dem Bericht ein visuelles ShapeMap-Element hinzu, und fügen Sie den Buckets *Standort* und *Farbsättigung* Daten hinzu. Erweitern Sie dann im Bereich **Visualisierungen**, in dem der Abschnitt **Format** (in der folgenden Abbildung als (1) dargestellt) ausgewählt ist, den Abschnitt **Form**, und wählen Sie **+ Karte hinzufügen** aus.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Um schnell Daten in ein Modell abzurufen, um **Flächenkartogramm** zu testen, k
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Sie können die Tabelle anschließend in Power BI Desktop einfügen. Die oberste Zeile wird automatisch als Überschrift identifiziert.
+Wenn Ihre Daten mehrere Spalten haben, müssen Sie zum Einfügen der Daten einen Editor wie Excel verwenden und dann jede Datenspalte einzeln kopieren. Sie können die Daten anschließend in Power BI Desktop einfügen. Die oberste Zeile wird automatisch als Überschrift identifiziert.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Sie können eine neue Spalte einfach hinzufügen, indem Sie einen neuen Spaltenn
 ## <a name="preview-behavior-and-requirements"></a>Vorschauverhalten und -anforderungen
 Für dieses Vorschaurelease von **Flächenkartogramm** gibt es einige Bedingungen und Anforderungen:
 
-* Die Visualisierung **Flächenkartogramm** befindet sich in der Vorschauversion und muss in Power BI Desktop aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen bei **Flächenkartogramm**, um **Flächenkartogramm** zu aktivieren.
-* Derzeit muss auch der Bucket **Werte** festgelegt sein, damit die Klassifizierung **Legende** ordnungsgemäß funktioniert.
-* Die endgültige Releaseversion von **Flächenkartogramm** wird über eine Benutzeroberfläche verfügen, die die Kartenschlüssel der aktuell ausgewählten Karte anzeigt (für das endgültige Release wurde kein Datum festgelegt, und **Flächenkartogramm** befindet sich noch in der Vorschauphase). In diesem Vorschaurelease können Sie die Kartenregionsschlüssel über die Tabellen erhalten, die im folgenden Abschnitt **Regionsschlüssel** dieses Artikels aufgelistet sind.
+* Die Visualisierung **Flächenkartogramm** befindet sich in der Vorschauversion und muss in Power BI Desktop aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen bei **Visuelles Formzuordnungselement**, um **Formzuordnung** zu aktivieren.
+* Derzeit muss auch der Bucket **Farbsättigung** festgelegt sein, damit die Klassifizierung **Legende** ordnungsgemäß funktioniert.
+* Die endgültige Version **Formenzuordnung** wird über eine Benutzeroberfläche verfügen, die die Zuordnungsschlüssel der aktuell ausgewählten Zuordnung anzeigt (es ist kein Datum festgelegt, für die endgültige Version, und **Formenzuordnung** ist weiterhin als Vorschau verfügbar). In dieser Vorschauversion können Sie auf die Zuordnungsregionsschlüssel in den Tabellen verweisen, die in folgendem Abschnitt **Regionsschlüssel** dieses Artikels zu finden sind.
 * Das visuelle Element **Flächenkartogramm** kann maximal 1.000 Datenpunkte zeichnen.
 
 ## <a name="region-keys"></a>Regionsschlüssel

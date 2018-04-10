@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Öffnen Sie einen Bericht im Power BI-Dienst (app.powerbi.com).
 Berichte sind im Power BI-Dienst, in Power BI Desktop, in der mobilen Power BI-Version und sogar in Power BI Embedded verfügbar. Dieser Artikel beschreibt das Öffnen von Berichten im ***Power BI-Dienst***.
@@ -78,7 +78,7 @@ Eine weitere Möglichkeit besteht darin, einen Bericht aus einem Dataset zu öff
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Weitere Möglichkeiten zum Öffnen eines Berichts
 Wie Sie mit der Navigation im Power BI-Dienst besser vertraut sind, werden Sie feststellen, welche Arbeitsabläufe für Sie am besten geeignet sind. Weitere Möglichkeiten zum Zugriff auf Berichte:
-- Über den linken Navigationsbereich mit **Favoriten**, **Zuletzt verwendet**, **Apps* und **Für mich freigegeben**. 
+- Über den linken Navigationsbereich mit **Favoriten**, **Zuletzt verwendet**, **Apps** und **Für mich freigegeben**. 
 - Mit [Verwandte Inhalte anzeigen](service-related-content.md)
 - Über eine E-Mail, wenn jemand [einen Bericht für Sie freigibt](service-share-reports.md) oder Sie [eine Benachrichtigung](service-set-data-alerts.md) festgelegt haben.    
 - Über die [Mitteilungszentrale](service-notification-center.md)    
