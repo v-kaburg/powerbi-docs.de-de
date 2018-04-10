@@ -1,15 +1,15 @@
 ---
-title: "Änderungsprotokoll für Power BI-Berichtsserver"
-description: "Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build."
+title: Änderungsprotokoll für Power BI-Berichtsserver
+description: Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,41 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
 Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build.
 
-Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md).
+Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
+
+## <a name="march-2018"></a>März 2018
+- **Power BI-Berichtsserver**
+    - *Version 1.2.6660.39920 (Build 15.0.2.389), Veröffentlichung: 28. März 2018*
+        - Fehlerkorrekturen
+            - Bei Power BI-Berichten (PBIX) funktioniert die Korrektur für den Datenexport für Power BI-Visuals nicht.
+            - Bei Power BI-Berichten (PBIX) funktioniert die Korrektur für URL-Filter nicht.
+            - Bei paginierten Berichten (RDL) funktioniert die Korrektur für die ordnungsgemäße Anzeige von Bildern in IE11 nicht, nachdem ein Upgrade auf die Power BI-Berichtsserverversion von März ausgeführt wurde.
+
+    - *Version 1.2.6648.38132 (Build 15.0.2.378), Veröffentlichung: 19. März 2018*
+        - Sicherheitsupdates
+        - Verbesserungen in Bezug auf die Barrierefreiheit
+        - Fehlerkorrekturen
+            - Für paginierte Berichte (RDL): Fehlerkorrektur für Parameter, die in einem verknüpften Bericht sichtbar sind, der nach Bearbeitung seiner Eigenschaften wiederhergestellt wurde
+            - Fehlerkorrektur für das Webportal mit benutzerdefinierter Formularauthentifizierung, die das Cookie für den variablen Ablauf ignoriert
+            - Fehlerkorrektur für den Export in Word, wo eine ungleiche Zeilenhöhe erstellt wird, wenn der Zeileninhalt leer ist.
+            - Für paginierte Berichte (RDL): Fehlerkorrektur für auf Ausdrücken basierende Verbindungszeichenfolge, die gelöscht wird, wenn wir die Anmeldeinformationen für die Datenquelle ändern
+            - Fehlerkorrektur für die Möglichkeit, KPI mit Textwerten zu verwenden
+            - Für paginierten Bericht (RDL): Fehlerkorrektur für die Möglichkeit, einem vorhandenen paginierten Bericht (RDL) ein neues Dataset zuzuweisen
+            - Andere Fehlerkorrekturen für Stabilität und Nutzbarkeit
+
+- **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - Version: 2.56.5023.1043 (März 2018), Veröffentlicht: 19. März 2018
+        - Enthält Änderungen, die für die Verbindung mit Power BI-Berichtsserver (März 2018) erforderlich sind
 
 ## <a name="october-2017"></a>Oktober 2017
 

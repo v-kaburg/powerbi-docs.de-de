@@ -1,28 +1,28 @@
 ---
-title: "Veröffentlichen im Web aus Power BI"
-description: "Mit der Power BI-Funktion „Im Web veröffentlichen“ können Sie auf einfache Weise interaktive Power BI-Visualisierungen auf beliebigen Geräten online einbetten, etwa in Blogbeiträgen, auf Websites, in E-Mails oder über soziale Medien."
+title: Veröffentlichen im Web aus Power BI
+description: Mit der Power BI-Funktion „Im Web veröffentlichen“ können Sie auf einfache Weise interaktive Power BI-Visualisierungen auf beliebigen Geräten online einbetten, etwa in Blogbeiträgen, auf Websites, in E-Mails oder über soziale Medien.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -133,13 +133,16 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 
 ## <a name="limitations"></a>Einschränkungen
 
-**Im Web veröffentlichen** wird für die überwiegende Mehrheit der Datenquellen und Berichte im Power BI-Dienst unterstützt, die folgenden werden in „Im Web veröffentlichen“ jedoch aktuell nicht unterstützt oder stehen nicht zur Verfügung:
+**Im Web veröffentlichen** wird für die überwiegende Mehrheit der Datenquellen und Berichte im Power BI-Dienst unterstützt, die folgenden werden in „Im Web veröffentlichen“ jedoch **aktuell nicht unterstützt oder stehen nicht zur Verfügung**:
 
 1. Berichte, die die Sicherheit auf Zeilenebene verwenden
-2. Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst, Azure Analysis Services und dem Power BI-Dienst
+2. Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst und Azure Analysis Services.
 3. Berichte, die für Sie direkt oder über ein Organisationsinhaltspaket freigegeben werden
 4. Berichte in einer Gruppe, in der Sie kein Bearbeitungsmitglied sind
 5. „R“-Visualisierungen werden in „Im Web veröffentlichen“-Berichten derzeit nicht unterstützt.
+6. Exportieren von Daten aus visuellen Elementen in einen Bericht, der im Web veröffentlicht wurde
+7. ArcGIS Maps for Power BI-Visuals
+8. [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Mandanteneinstellung
 
@@ -177,7 +180,7 @@ Sie müssen ein Microsoft Power BI-Benutzer sein, um **Im Web veröffentlichen**
 
 ## <a name="how-it-works-technical-details"></a>Funktionsweise (technische Details)
 
-Wenn Sie mithilfe von **Im Web veröffentlichen**einen Einbindungscode erstellen, wird der Bericht für Benutzer im Internet sichtbar gemacht. Er ist öffentlich verfügbar, daher können Sie davon ausgehen, dass Leser den Bericht in Zukunft einfach über soziale Medien teilen. Wenn Benutzer den Bericht anzeigen, entweder indem sie die direkte öffentliche URL öffnen oder den Bericht auf einer Webseite oder in einem Blog eingebettet anzeigen, speichert Power BI die Berichtsdefinition und die Ergebnisse der zum Anzeigen des Berichts erforderlichen Abfragen zwischen. Dieser Ansatz stellt sicher, dass der Bericht ohne Beeinträchtigung der Leistung von Tausenden von Benutzern zugleich angezeigt werden kann.  
+Wenn Sie mithilfe von **Im Web veröffentlichen**einen Einbindungscode erstellen, wird der Bericht für Benutzer im Internet sichtbar gemacht. Er ist öffentlich verfügbar, daher können Sie davon ausgehen, dass Leser den Bericht in Zukunft einfach über soziale Medien teilen. Wenn Benutzer den Bericht anzeigen, entweder indem sie die direkte öffentliche URL öffnen oder den Bericht auf einer Webseite oder in einem Blog eingebettet anzeigen, speichert Power BI die Berichtsdefinition und die Ergebnisse der zum Anzeigen des Berichts erforderlichen Abfragen zwischen. Dieser Ansatz stellt sicher, dass der Bericht ohne Beeinträchtigung der Leistung von Tausenden von Benutzern zugleich angezeigt werden kann.
 
 Der Cache hat einen langen Lebenszyklus. Wenn Sie die Berichtsdefinition updaten (etwa, indem Sie den Ansichtsmodus ändern) oder die Berichtsdaten aktualisieren, kann es daher ungefähr eine Stunde dauern, ehe die Änderungen in der von Ihren Benutzern angezeigten Version des Berichts angezeigt werden. Es wird daher empfohlen, dass Sie Ihre Arbeit rechtzeitig vorab bereitstellen und den Einbindungscode für **Im Web veröffentlichen** erst erstellen, wenn Sie mit den Einstellungen zufrieden sind.
 

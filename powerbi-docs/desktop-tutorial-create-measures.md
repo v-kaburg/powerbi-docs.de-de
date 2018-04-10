@@ -2,14 +2,14 @@
 title: 'Tutorial: Erstellen eigener Measures in Power BI Desktop'
 description: 'Tutorial: Erstellen eigener Measures in Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,242 +18,192 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Erstellen eigener Measures in Power BI Desktop
-Einige der leistungsstärksten Data Analysis-Lösungen in Power BI Desktop können mithilfe von Measures erstellt werden. Measures unterstützen uns, indem sie Berechnungen mit unseren Daten durchführen, während wir mit unseren Berichten interagieren. Dieses Tutorial führt Sie durch die Grundlagen hin zum Erstellen einiger eigener einfacher Measures in Power BI Desktop.
+Sie können einige der leistungsstärksten Data Analysis-Lösungen in Power BI Desktop können mithilfe von Measures erstellen. Measures unterstützen uns, indem sie Berechnungen mit Ihren Daten durchführen, während Sie mit Ihren Berichten interagieren. Dieses Tutorial führt Sie durch die Grundlagen von Measures hin zum Erstellen eigener einfacher Measures in Power BI Desktop.
 
-Dieses Artikel richtet sich an Power BI-Benutzer, die mit der Verwendung von Power BI Desktop zum Erstellen etwas fortgeschrittener Modelle bereits vertraut sind. Sie sollten bereits mit der Verwendung von „Daten abrufen“ und des Abfrage-Editors zum Importieren von Daten, dem Arbeiten mit mehreren aufeinander bezogenen Tabellen und dem Hinzufügen von Feldern zur Berichtszeichenfläche vertraut sein. Wenn Sie noch nicht mit Power BI Desktop vertraut sind, sollten Sie [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) lesen.
+### <a name="prerequisites"></a>Voraussetzungen
+- Dieses Tutorial richtet sich an Power BI-Benutzer, die mit der Verwendung von Power BI Desktop zum Erstellen etwas fortgeschrittener Modelle bereits vertraut sind. Sie sollten bereits mit der Verwendung von „Daten abrufen“ und des Abfrage-Editors zum Importieren von Daten, dem Arbeiten mit mehreren aufeinander bezogenen Tabellen und dem Hinzufügen von Feldern zur Berichtszeichenfläche vertraut sein. Wenn Sie noch nicht mit Power BI Desktop vertraut sind, sollten Sie [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) lesen.
+  
+- Laden Sie die Datei [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) herunter, die bereits Onlinevertriebsdaten des fiktiven Unternehmens Contoso, Inc. enthält. Da die Daten in der Datei aus einer Datenbank importiert wurden, können Sie keine Verbindungen mit der Datenquelle herstellen oder sie im Abfrage-Editor anzeigen. Entpacken Sie die Datei auf dem lokalen Computer, und öffnen Sie sie dann in Power BI Desktop.
 
-Um die Schritte in diesem Tutorial ausführen zu können, müssen Sie die Datei [Contoso Sales for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) herunterladen. Sie enthält bereits Onlinevertriebsdaten des fiktiven Unternehmens Contoso, Inc. Da die Daten in der Datei aus einer Datenbank importiert wurden, können Sie keine Verbindungen mit der Datenquelle herstellen oder sie im Abfrage-Editor anzeigen. Wenn Sie die Datei auf dem lokalen Computer gespeichert haben, öffnen Sie sie in Power BI Desktop.
+## <a name="understand-measures"></a>Grundlagen von Measures
 
-## <a name="what-are-these-measures-all-about"></a>Worum geht es bei Measures überhaupt?
-Measures werden in den meisten Fällen automatisch für uns erstellt, etwa wenn wir das Kontrollkästchen neben dem Feld **SalesAmount** (Umsatzbetrag) in der Tabelle **Sales** (Umsatz) in der Feldliste aktivieren oder **SalesAmount** auf die Berichtszeichenfläche ziehen.
+Measures werden meistens automatisch für Sie erstellt. In der Datei „Contoso Sales Sample“ aktivieren Sie in der Tabelle **Sales** (Umsatz) in der Feldliste das Kontrollkästchen neben dem Feld **SalesAmount** (Umsatzbetrag), oder ziehen Sie **SalesAmount** in den Berichtszeichenbereich. Es erscheint eine neue Säulendiagrammvisualisierung, die die Summe aller Werte in der Spalte „SalesAmount“ der Tabelle „Sales“ anzeigt.
 
-![](media/desktop-tutorial-create-measures/measurestut_salesamountinfieldlist.png)
+![SalesAmount-Diagramm](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-Eine neue Diagrammvisualisierung wird angezeigt, wie diese:
+Jedes Feld, das im Bereich „Felder“ mit einem Sigmasymbol ![Sigmasymbol](media/desktop-tutorial-create-measures/meastut_sigma.png) angezeigt wird, ist numerisch, und seine Werte können aggregiert werden. Anstatt eine Tabelle mit allen zwei Millionen Zeilen von SalesAmount-Werten anzuzeigen, erkannte Power BI Desktop einen numerischen Datentyp und erstellte und berechnete automatisch ein Measure zur Aggregation der Daten. Eine Summe ist die Standardaggregation für einen numerischen Datentyp, aber Sie können auch problemlos verschiedene Aggregationen wie Mittelwert oder Anzahl anwenden. Das Konzept von Aggregation ist für das Verständnis von Measures von grundlegender Wichtigkeit, da jedes Measure irgendeine Form von Aggregation durchführt. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
+Um die Diagrammaggregation auf Mittelwert zu ändern, klicken Sie im Bereich „Visualisierungen“ im Abschnitt **Wert** auf den Abwärtspfeil neben **SalesAmount** und wählen Sie **Mittelwert**. Die Visualisierung zeigt dann einen Mittelwert aller Vertriebswerte im Feld „SalesAmount“.
 
-Was wir erhalten, ist ein Säulendiagramm, das eine Gesamtsumme der Umsatzwerte aus dem Feld „SalesAmount“ darstellt.  Unser Feld „SalesAmount“ ist einfach nur eine Spalte mit dem Namen „SalesAmount“ in der Tabelle „Sales“, die wir bereits importiert haben.
+![SalesAmount-Diagramm für Mittelwerte](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-Die Spalte „SalesAmount“ enthält über zwei Millionen Zeilen mit Umsatzwerten. Sie fragen sich vielleicht, warum Sie keine Tabelle mit Zeilen mit all diesen Werten sehen. Nun, Power BI Desktop weiß, dass alle diese Werte in „SalesAmount“ einen numerischen Datentyp aufweisen und Sie sie vermutlich in irgendeiner Weise zusammenfassen möchten, sei es durch Addition, Mittelwertbildung, Zählung usw.
+Sie können die Aggregationsart je nach dem gewünschten Ergebnis ändern, aber nicht alle Aggregationsarten gelten für alle numerischen Datentypen. Für das Feld „SalesAmount“ z.B. sind „Summe“ und „Mittelwert“ sinnvoll. „Minimum“ und „Maximum“ haben hier auch ihre Berechtigung. „Anzahl“ ist für das Feld „SalesAmount“ hingegen nicht wirklich sinnvoll, denn seine Werte sind zwar numerisch, aber eigentlich stellen sie eine Währung dar.
 
-Immer, wenn Sie in der Liste „Felder“ ein Feld mit einem Sigmasymbol ![](media/desktop-tutorial-create-measures/meastut_sigma.png) sehen, bedeutet dies, dass das Feld numerisch ist und seine Werte aggregiert werden können. Wenn wir „SalesAmount“ auswählen, erstellt Power BI Desktop in diesem Fall ein eigenes Measure, und die Summe aller Umsatzbeträge wird berechnet und in unserem Diagramm angezeigt.
+Aus Measures berechnete Werte ändern sich als Reaktion auf Ihre Interaktionen mit Ihrem Bericht. Wenn Sie z.B. das Feld **RegionCountryName** (Name von Region/Land) aus der Tabelle **Geography** (Geografie) auf Ihr Diagramm ziehen, werden die durchschnittlichen Umsatzbeträge für jedes Land gezeigt.
 
-Summe ist die Standardaggregation, wenn ein Feld mit einem numerischen Datentyp ausgewählt wird, wir können jedoch recht einfach zu einer anderen Aggregationsart wechseln.
+![Umsatzbetrag nach Land](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-Wenn wir im Bereich **Werte** auf den Abwärtspfeil neben **SalesAmount**klicken, können wir anschließend **Mittelwert**auswählen.
+Wenn sich das Ergebnis eines Measures aufgrund einer Interaktion mit unserem Bericht ändert, nehmen Sie Einfluss auf den *Kontext* Ihres Measures. Bei jeder Interaktion mit Ihren Berichtvisualisierungen ändern Sie den Kontext, in dem ein Measure seine Ergebnisse berechnet und anzeigt.
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaverage.png)
+## <a name="create-and-use-your-own-measures"></a>Erstellen und Verwenden eines eigenen Measures
 
-Die Visualisierung ändert sich in einen Mittelwert aller Umsatzwerte im Feld „SalesAmount“.
+In den meisten Fällen berechnet und liefert Power BI automatisch Werte entsprechend den von Ihnen gewählten Feld- und Aggregationstypen, aber in einigen Fällen können Sie auch eigene Measures erstellen, um komplexere und eindeutigere Berechnungen durchzuführen. Mit Power BI Desktop können Sie Ihre eigenen Measures mit der DAX-Formelsprache (Data Analysis Expressions) erstellen. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+DAX-Formeln verwenden häufig die gleichen Funktionen, Operatoren und die gleiche Syntax wie Excel-Formeln. Allerdings sind die DAX-Funktionen für die Arbeit mit relationalen Daten und zur Durchführung dynamischerer Berechnungen während Ihrer Interaktion mit Berichten ausgelegt. Es gibt mehr als 200 DAX-Funktionen, die alles von einfachen Aggregationen wie Summe und Mittelwert bis hin zu komplexeren Statistik- und Filterfunktionen ausführen. Es gibt zahlreiche Ressourcen, die Sie nutzen können, um mehr über DAX zu erfahren. Nachdem Sie dieses Tutorial abgeschlossen haben, werfen Sie unbedingt einen Blick auf [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 
-Wir können die Aggregationsart je nach dem gewünschten Ergebnis ändern, aber nicht alle Aggregationsarten gelten für alle numerischen Datentypen. Für unser Feld „SalesAmount“ z. B. sind „Sum“ (Summe) und „Average“ (Mittelwert) sinnvoll. „Minimum“ und „Maximum“ haben hier auch ihre Berechtigung. „Anzahl“ ist für unser Feld „SalesAmount“ hingegen nicht wirklich sinnvoll, denn seine Werte sind zwar numerisch, aber eigentlich stellen sie eine Währung dar.
+Wenn Sie ein eigenes Measure erstellen, wird es zur Liste „Felder“ für die von Ihnen ausgewählte Tabelle hinzugefügt und als *Modell*-Measure bezeichnet. Modellmeasures bieten z.B. folgende Vorteile: Sie können für sie beliebige, aussagekräftige Namen vergeben, Sie können sie als Argumente in anderen DAX-Ausdrücken verwenden, und Sie können sie sehr schnell komplexe Berechnungen durchführen lassen.
 
-Das Konzept von Aggregation ist für das Verständnis von Measures von grundlegender Wichtigkeit, da jedes Measure irgendeine Form von Aggregation durchführt. Wir sehen später noch Beispiele zur Verwendung einer Summenaggregation, wenn Sie ein paar eigene Measures erstellen.
+>[!TIP]
+>Ab der Power BI Desktop-Version von Februar 2018 stehen Ihnen viele gängige Berechnungen als **Quickmeasures** zur Verfügung, die die DAX-Formeln basierend auf Ihren Eingaben in ein Dialogfeld schreiben. Diese schnellen, leistungsstarken Berechnungen eignen sich auch hervorragend, um DAX-Formeln zu erlernen oder eigene maßgeschneiderte Measures einzusetzen. Um Quickmeasures zu erstellen oder zu erkunden, wählen Sie die Option **Neues Quickmeasure** in der Liste **Weitere Optionen** einer Tabelle oder auf der Registerkarte „Start“ des Menübands unter **Berechnungen**. Weitere Informationen zum Erstellen und Verwenden von Quickmeasures finden Sie unter [Verwenden von Quickmeasures](desktop-quick-measures.md).
 
-Aus Measures berechnete Werte ändern sich immer in Reaktion auf unsere Interaktionen mit unserem Bericht. Wenn wir z.B. das Feld **RegionCountryName** aus der Tabelle **Geography** auf unser Diagramm ziehen, wird für die Umsatzbeträge für jedes Land der Mittelwert gebildet und dargestellt.
+### <a name="create-a-measure"></a>Erstellen eines Measures
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
+Sie möchten Ihren Nettoumsatz analysieren, indem Sie Rabatte und Retouren von den Gesamtumsätzen abziehen. Für jeden Kontext in Ihrer Visualisierung benötigen Sie ein Measure, das die Summe aus „DiscountAmount“ (Rabattbetrag) und „ReturnAmount“ (Retourenbetrag) von der Summe aus „SalesAmount“ subtrahiert. In der Liste „Felder“ gibt kein Feld für Nettoumsatz, aber Sie haben die Bausteine, um Ihr eigenes Measure zur Berechnung des Nettoumsatzes zu erstellen. 
 
-Wenn sich das Ergebnis eines Measures aufgrund einer Interaktion mit unserem Bericht ändert, nehmen wir Einfluss auf den *Kontext*unseres Measures. Bei jeder Interaktion mit Ihrem Bericht ändern Sie den Kontext, in dem ein Measure seine Ergebnisse berechnet und anzeigt.
-
-In den meisten Fällen wird das von Power BI erledigt, und Power BI gibt Werte entsprechend den Feldern, die wir hinzugefügt, und den Aggregationsarten zurück, die wir ausgewählt haben. Aber in anderen Fällen müssen Sie ggf. eigene Measures erstellen, um komplexere, einzigartige Berechnungen durchzuführen.
-
-Mit Power BI Desktop erstellen Sie Ihre eigenen Measures mit der DAX-Formelsprache (Data Analysis Expressions). DAX-Formeln sind Excel-Formeln sehr ähnlich. Tatsächlich verwendet DAX häufig die gleichen Funktionen, Operatoren und die gleiche Syntax wie Excel-Formeln. Allerdings sind die DAX-Funktionen für die Arbeit mit relationalen Daten und zur Durchführung dynamischerer Berechnungen während unserer Interaktion mit Berichten ausgelegt.
-
-Es gibt mehr als 200 DAX-Funktionen, die alles von einfachen Aggregationen wie Summe und Mittelwert bis hinzu komplexeren Statistik- und Filterfunktionen ausführen. Wir gehen an dieser Stelle nicht zu sehr ins Detail, was die DAX-Sprache betrifft, aber es gibt eine Vielzahl von Ressourcen, die Sie beim weiteren Lernen unterstützen. Nachdem Sie dieses Tutorial durchgearbeitet haben, werfen Sie unbedingt einen Blick auf [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
-
-Wenn wir eigene Measures erstellen, werden diese der Liste „Felder“ für die von uns gewünschte Tabelle hinzugefügt. Dies wird als *Modellmeasure* bezeichnet und bleibt als Feld in unserer Tabelle. Einer der großen Vorzüge von Modellmeasures besteht darin, dass wir sie nach Belieben benennen können, was ihre Identifikation erleichtert. Wir können sie außerdem als Argument in anderen DAX-Ausdrücken verwenden, und wir können Measures erstellen, die sehr schnell komplexe Berechnungen ausführen.
-
-## <a name="lets-create-our-own-measure"></a>Erstellen wir unser eigenes Measure
-Angenommen, wir möchten unseren Nettoumsatz analysieren. Wenn wir unsere Tabelle „Sales“ in der Feldliste betrachten, wird ersichtlich, dass es kein Feld mit dem Namen „NetSales“ (Nettoumsatz) gibt. Wir haben aber die Bausteine, um unser eigenes Measure zum Berechnen des Nettoumsatzes zu erstellen.
-
-Wir benötigen ein Measure, um Rabatte und Vergütungen von den Umsatzbeträgen zu subtrahieren. Da unser Measure ein Ergebnis für jeden beliebigen Kontext in unserer Visualisierung berechnen soll, müssen wir effektiv die Summe von „DiscountAmount“ (Rabattbetrag) und „ReturnAmount“ (Vergütungsbetrag) von der Summe von „SalesAmount“ subtrahieren. Dies mag im Moment etwas verwirrend erscheinen; keine Sorge, es wird noch klarer.
-
-### <a name="net-sales"></a>Nettoumsatz
-1.  Klicken Sie in der Liste „Felder“ mit der rechten Maustaste auf die Tabelle **Sales**, oder klicken Sie auf den Abwärtspfeil neben der Tabelle, und klicken Sie dann auf **Neues Measure**. Dies stellt sicher, dass unser neues Measure in der Tabelle „Sales“ gespeichert wird, wo es leicht zu finden ist.
+1.  Klicken Sie in der Liste „Felder“ mit der rechten Maustaste auf die Tabelle **Sales**, oder zeigen Sie auf die Tabelle, und wählen Sie die Auslassungspunkte (....) für **Weitere Optionen**. Wählen Sie dann **Neues Measure**. Dies speichert Ihr neues Measure in der Tabelle „Sales“, wo es leicht zu finden ist.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
+    ![Neues Measure](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    > [!TIP]
-    > Sie können ein neues Measure auch durch Klicken auf die Schaltfläche „Neues Measure“ im Menüband auf der Registerkarte „Start“ von Power BI Desktop erstellen.
-    > 
-    > ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
-    > 
-    > Wenn Sie ein Measure vom Menüband aus erstellen, kann das Measure in irgendeiner der Tabellen erstellt werden. Zwar muss ein Measure nicht zu einer bestimmten Tabelle gehören, es ist aber leichter zu finden, wenn Sie es in einer Tabelle erstellen, in der es Ihnen logisch erscheint. Wenn Sie das Measure in einer bestimmten Tabelle erstellen möchten, klicken Sie zuerst auf die Tabelle, um sie aktiv zu machen. Klicken Sie dann auf „Neues Measure“. In unseren Fall erstellen wir unser erstes Measure in der Tabelle „Sales“.
-    > 
-    > 
+    Sie können auch ein neues Measure erstellen, indem Sie auf der Registerkarte „Start“ des Power BI Desktop-Menübands in der Gruppe „Berechnungen“ die Option **Neues Measure** wählen.
     
-    Die Bearbeitungsleiste wird entlang der Oberkante der Berichtszeichenfläche angezeigt. Das ist der Ort, an dem wir das Measure umbenennen und eine DAX-Formel eingeben können.
+    ![Neues Measure über Menüband](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
+    >[!TIP]
+    >Wenn Sie ein Measure über das Menüband erstellen, kann es in jeder beliebigen Tabelle erstellt werden, aber es ist einfacher zu finden, wenn Sie es direkt am späteren Verwendungsort erstellen. Wählen Sie in diesem Fall zuerst die Tabelle „Sales“, um sie zu aktivieren, und wählen Sie dann **Neues Measure**. 
     
-    Geben wir unseren Measure einen neuen Namen. Standardmäßig heißt ein neues Measure einfach nur „Measure“. Wenn wir es nicht umbenennen, heißt das nächste erstellte Measure „Measure 2“, dann „Measure 3“ usw. Wir möchten aber schon, dass unser Measure leichter zu erkennen ist, also nennen wir es „Net Sales“.
+    Die Bearbeitungsleiste erscheint oben im Berichtszeichenbereich, wo Sie Ihr Measure umbenennen und eine DAX-Formel eingeben können.
     
-2. Markieren Sie **Measure** in der Bearbeitungsleiste, und geben Sie dann **Net Sales** ein.
+    ![Bearbeitungsleiste](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-    Jetzt können wir mit dem Eingeben unserer Formel beginnen.
+2.  Standardmäßig heißt ein neues Measure einfach nur „Measure“. Wenn Sie es nicht umbenennen, werden weitere neue Measures „Measure 2“, „Measure 3“ usw. benannt. Damit Sie Ihre Measures besser identifizieren können, markieren Sie **Measure** in der Bearbeitungsleiste, und geben Sie dann **Net Sales** (Nettoumsatz) ein.
     
-3.  Geben Sie hinter dem Gleichheitszeichen ein **S** ein. Jetzt wird eine Dropdownliste mit Vorschlägen angezeigt, die alle DAX-Funktionen enthält, die mit dem Buchstaben „S“ beginnen. Je mehr wir eingeben, desto stärker verengt sich die Vorschlagsliste auf die benötigte Funktion. Wählen Sie durch Scrollen nach unten **SUM** aus, und drücken Sie dann die EINGABETASTE.
+3.  Jetzt können Sie mit dem Eingeben Ihrer Formel beginnen. Geben Sie nach dem Gleichzeichen **Sum** (Summe) ein. Während der Eingabe wird eine Dropdownliste mit Vorschlägen angezeigt, die alle DAX-Funktionen enthält, die mit den eingegebenen Buchstaben beginnen. Führen Sie ggf. einen Bildlauf nach unten aus, um in der Liste **SUM** auszuwählen, und drücken Sie dann die EINGABETASTE.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
+    ![Auswählen von SUM](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
     
-    Nach dem Drücken der EINGABETASTE wird eine Klammer zusammen mit einer weiteren Vorschlagsliste mit allen verfügbaren Spalten angezeigt, die wir der Funktion SUM übergeben können.
+    Es wird eine Klammer zusammen mit einer weiteren Dropdownliste mit Vorschlägen für alle verfügbaren Spalten angezeigt, die Sie der Funktion SUM übergeben können.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
+    ![Auswählen der Spalte](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    Ein Ausdruck tritt immer zwischen einer öffnenden und einer schließenden Klammer auf. In diesem Fall soll unser Ausdruck ein einzelnes Argument enthalten, das der Funktion SUM übergeben wird; eine zu summierende Spalte. Wir können unsere Spaltenliste einengen, indem wir die ersten Buchstaben der gewünschten Spalte eingeben. In diesem Fall möchten wir die Spalte „SalesAmount“, wenn wir also mit der Eingabe bei „salesam“ angekommen sind, besteht unsere Liste nur noch aus zwei Einträgen, unter denen wir wählen können. Und die bezeichnen auch noch die gleiche Spalte. Eine zeigt nur „[SalesAmount]“ an, da wir unser Measure in der gleichen Tabelle erstellen, in der sich die Spalte „SalesAmount“ befindet. Als anderen Eintrag sehen wir den Spaltennamen mit vorangestelltem Tabellennamen.
+    Ausdrücke treten immer zwischen einer öffnenden und einer schließenden Klammer auf. Der Ausdruck enthält ein einzelnes Argument, das an die SUM-Funktion übergeben werden muss: die SalesAmount-Spalte. Beginnen Sie mit der Eingabe von „SalesAmount“, bis in der Liste nur noch ein Wert angezeigt wird: „Sales(SalesAmount)“. Der Spaltenname, dem der Tabellenname vorangestellt ist, wird als *vollqualifizierter Name* der Spalte bezeichnet. Vollqualifizierte Spaltennamen verbessern die Lesbarkeit Ihrer Formeln. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
-    
-    Im Allgemeinen empfiehlt es sich, den vollqualifizierten Namen einer Spalte einzugeben. Dadurch wird die Lesbarkeit der Formeln verbessert.
+    ![Auswählen von SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
 4. Wählen Sie **Sales[SalesAmount]** aus, und geben Sie dann eine schließende Klammer ein.
     
     > [!TIP]
     > Syntaxfehler werden meistens durch eine fehlende oder falsch platzierte schließende Klammer verursacht.
-    > 
-    > 
     
-    Jetzt möchten wir unsere zwei Spalten subtrahieren.
     
-5.  Geben Sie nach der schließenden Klammer für unseren ersten Ausdruck ein Leerzeichen und dann einen Minusoperator (**-**) gefolgt von einem weiteren Leerzeichen ein. Geben Sie dann noch eine SUM-Funktion mit der Spalte **Sales[DiscountAmount]** als Argument ein.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
+5.  So subtrahieren Sie die anderen beiden Spalten
+    1. Geben Sie nach der schließenden Klammer für den ersten Ausdruck ein Leerzeichen, einen Minusoperator (**-**) und ein weiteres Leerzeichen ein. 
+    2. Geben Sie eine weitere SUM-Funktion ein, und beginnen Sie mit der Eingabe von „DiscountAmount“, bis Sie die Spalte **Sales[DiscountAmount]** als Argument auswählen können. Fügen Sie eine schließende Klammer hinzu. 
+    3. Geben Sie ein Leerzeichen, einen weiteren Minusoperator, ein Leerzeichen, eine weitere SUM-Funktion mit **Sales[ReturnAmount]** als Argument und eine schließende Klammer ein.
     
-    Langsam geht uns der Platz für unsere Formel aus. Kein Problem.
+    ![Vollständige Formel](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  Klicken Sie in der Bearbeitungsleiste auf den nach unten gerichteten Winkel.
+6.  Drücken Sie die Eingabetaste, oder klicken Sie in der Bearbeitungsleiste auf das Kontrollkästchen, um die Bearbeitung abzuschließen und zu validieren. Das validierte Measure kann jetzt in der Liste „Felder“ für die Tabelle „Sales“ verwendet werden. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
+    ![Measure in Liste „Felder“](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
-    Jetzt haben wir mehr Platz. Wir können unserer Formel in einer neuen Zeile neue Teile hinzufügen, indem wir ALT+EINGABE drücken. Wir können Dinge auch mithilfe der Tabulatortaste verschieben.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
-    
-    Jetzt können wir den Schlussteil unserer Formel hinzufügen.
-    
-7.  Geben Sie einen weiteren Minusoperator, gefolgt von einer weiteren SUM-Funktion mit der Spalte **Sales[ReturnAmount]** als Argument ein.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
-    
-    Jetzt sieht unsere Formel fertig aus.
+Wenn nicht mehr genügend Platz für die Eingabe einer Formel vorhanden ist, oder Sie möchten, dass sie in separaten Zeilen steht, wählen Sie das nach unten weisende Chevron auf der rechten Seite der Bearbeitungsleiste, um mehr Platz zu schaffen.
 
-8.  Drücken Sie die Eingabetaste, oder klicken Sie in der Bearbeitungsleiste auf das Kontrollkästchen, um die Bearbeitung abzuschließen. Die Formel wird überprüft und der Feldliste in der Tabelle „Sales“ hinzugefügt.
+![Formel – Chevron](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
 
-### <a name="lets-add-our-new-measure-to-a-report"></a>Fügen wir unser neues Measure einem Bericht hinzu
-Jetzt können wir unser Measure „Net Sales“ zur Berichtszeichenfläche hinzufügen, und der Nettoumsatz wird für alle anderen Felder, die wir dem Bericht außerdem hinzufügen, berechnet. Sehen wir uns den Nettoumsatz nach Ländern an.
+Sie können Teile Ihrer Formel auf verschiedenen Zeilen aufteilen, indem Sie **Alt-Eingabetaste** drücken, oder Teile mit der **Tabulatortaste** verschieben.
 
-1.  Ziehen Sie das Measure **Net Sales** von der Tabelle **Sales** auf die Berichtszeichenfläche.
+![Formel – erweitert](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
+
+### <a name="use-your-measure-in-the-report"></a>Verwenden Ihres Measures im Bericht
+Jetzt können Sie das Measure „Net Sales“ zum Berichtszeichenbereich hinzufügen, und den Nettoumsatz für alle anderen Felder berechnen, die Sie dem Bericht außerdem hinzufügen. Sehen Sie sich den Nettoumsatz nach Ländern an:
+
+1. Wählen Sie das Measure **Net Sales** aus der Tabelle **Sales**, und ziehen Sie es in den Berichtszeichenbereich.
     
-2. Ziehen Sie jetzt das Feld **RegionCountryName** aus der Tabelle **Geography** auf das Diagramm.
+2. Wählen Sie jetzt das Feld **RegionCountryName** aus der Tabelle **Geography**, und ziehen Sie es in das Diagramm.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
+    ![Nettoumsatz nach Ländern](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-    Fügen wir noch ein paar mehr Daten hinzu.
+Um den Unterschied zwischen Nettoumsatz und Umsatzbetrag nach Land darzustellen, wählen Sie das Feld **SalesAmount** und ziehen es in das Diagramm. 
+
+![Umsatzbetrag und Nettoumsatz nach Ländern](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
+
+Das Diagramm verwendet nun zwei Measures: „SalesAmount“, das automatisch summiert wurde, und das von Ihnen erstellte Measure „Net Sales“. Jedes Measure wurde im Kontext eines anderen Feldes, „RegionCountryName“, berechnet.
     
-3.  Ziehen Sie das Feld **SalesAmount** auf das Diagramm, um den Unterschied zwischen Nettoumsatz und Umsatzbetrag darzustellen.
+### <a name="use-your-measure-with-a-slicer"></a>Verwenden Ihres Measures mit einem Datenschnitt
+
+Sie können einen Datenschnitt hinzufügen, um die Nettoumsätze und Umsatzbeträge nach Kalenderjahren weiter zu filtern.
     
-    Wir haben jetzt tatsächlich zwei Measures im Diagramm. „SalesAmount“, das automatisch aufsummiert wurde, und das von uns erstellte Measure „Net Sales“. In jedem Fall wurden die Ergebnisse im Kontext eines anderen Felds berechnet, das wir im Diagramm haben, der Länder in „RegionCountryName“.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
-    
-    Fügen wir einen Datenschnitt hinzu, damit wir unsere Nettoumsätze und Umsatzbeträge nach Kalenderjahren aufschlüsseln können.
-    
-4.  Klicken Sie auf einen leeren Bereich neben dem Diagramm, und klicken Sie dann in **Visualisierungen** auf die Visualisierung „Tabelle“.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktablevisbutton.png)
-    
-    Dadurch wird im Berichtszeichenbereich eine leere Tabellenvisualisierung erstellt.
+1.  Klicken Sie auf einen leeren Bereich neben dem Diagramm, und wählen Sie dann in **Visualisierungen** die Visualisierung **Tabelle**. Dadurch wird im Berichtszeichenbereich eine leere Tabellenvisualisierung erstellt.
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-5.  Ziehen Sie das Feld **Year** von der Tabelle **Calendar** in die neue leere Tabelle.
+2.  Ziehen Sie das Feld **Jahr** aus der Tabelle **Kalender** in die neue leere Tabellenvisualisierung. Da „Jahr“ ein numerisches Feld ist, fasst Power BI Desktop seine Werte zusammen, aber als Aggregation ergibt dies nicht viel Sinn. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
+    ![Jahr – Aggregation](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-    Da es sich bei „Year“ um ein numerisches Feld handelt, hat Power BI Desktop dessen Werte addiert und ein Diagramm für uns erstellt. Das hilft uns aber als Datenschnitt nicht weiter.
+3.  Wählen Sie im Bereich „Visualisierungen“ im Abschnitt **Werte** den Abwärtspfeil neben **Jahr**, und wählen Sie dann **Nicht zusammenfassen**. In der Tabelle werden jetzt einzelne Jahre aufgeführt.
     
-6. Klicken Sie in **Werte** auf den Abwärtspfeil neben **Year**, und klicken Sie dann auf **Nicht zusammenfassen**.
+    ![Nicht zusammenfassen](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
-    
-    Wir können jetzt das Feld „Year“ in der Tabellenvisualisierung in einen Datenschnitt umwandeln.
+4.  Wählen Sie im Bereich „Visualisierungen“ das Symbol **Datenschnitt**, um die Tabelle in einen Datenschnitt zu konvertieren.
 
-    7.  Klicken Sie in **Visualisierungen** auf die Visualisierung **Datenschnitt**.
+    ![Ändern in Datenschnitt](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
+    
+5.  Wählen Sie einen beliebigen Wert im Datenschnitt **Jahr**, um das Diagramm für **Nettoumsätze und Umsatzbeträge nach Ländern** entsprechend zu filtern. Die Measures „Net Sales“ und „SalesAmount“ berechnen die Ergebnisse neu und zeigen sie im Kontext des ausgewählten Feldes „Jahr“ an. 
+    
+    ![Diagrammdatenschnitt nach Jahr](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
-    
-    Jetzt haben wir „Year“ als Datenschnitt. Wir können jedes einzelne Jahr oder jede Gruppe von Jahren auswählen, und die Visualisierungen unseres Berichts werden entsprechend aufgeteilt.
-    
-8. Klicken Sie nun auf **2013**. Sie sehen, wie sich das Diagramm ändert. Unsere Measures „Net Sales“ und „SalesAmount“ werden neu berechnet und zeigen jetzt neue Ergebnisse an, nur für 2013. Auch hier haben wir wieder den Kontext geändert, in dem unsere Measures Ergebnisse berechnen und anzeigen.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
+### <a name="use-your-measure-in-another-measure"></a>Verwenden Ihres Measures in einem anderen Measure
 
-## <a name="lets-create-another-measure"></a>Erstellen wir noch ein Measure
-Da Sie jetzt wissen, wie Sie eigene Measures erstellen können, wollen wir noch eins erstellen.
+Sie möchten herausfinden, welche Produkte den höchsten Nettoumsatz pro verkaufter Einheit haben. Daher benötigen Sie ein Measure, das den Nettoumsatz durch die Menge der verkauften Einheiten dividiert. Sie können ein neues Measure erstellen, das das Ergebnis Ihres Measures „Net Sales“ durch die Summe aus „Sales[SalesQuantity]“ dividiert.
 
-### <a name="net-sales-per-unit"></a>Nettoumsatz pro Artikel
-Wie gehen wir vor, wenn wir herausfinden möchten, welche Produkte die stärksten Umsätze pro verkauftem Artikel aufweisen?
+1.  Erstellen Sie in der Tabelle „Sales“ ein neues Measure namens **Net Sales per Unit** (Nettoumsatz pro Einheit).
+    
+2.  Beginnen Sie in der Bearbeitungsleiste mit der Eingabe von **Net Sales**. Die Vorschlagsliste zeigt an, was Sie hinzufügen können. Wählen Sie **[Net Sales]**aus.
+    
+    ![Formel mit „Net Sales“](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
+    
+    Sie können außerdem auf Measures verweisen, indem Sie einfach eine öffnende eckige Klammer eingeben (**[**). In der Vorschlagsliste werden nur für Ihre Formel geeignete Measures angezeigt.
+    
+    ![Klammer zeigt nur die Measures](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
+    
+3.  Geben Sie ein Leerzeichen, einen Divisionsoperator (**/**), ein anderes Leerzeichen, eine SUM-Funktion und dann **Quantity** ein. Die Vorschlagsliste zeigt alle Spalten an, deren Name „Quantity“ enthält. Wählen Sie **Sales[SalesQuantity]**, geben Sie die schließende Klammer ein, und drücken Sie die EINGABETASTE, oder wählen Sie das Häkchen, um Ihre Formel zu bestätigen. Die Formel sollte nun so aussehen:
+    
+    `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
+    
+4. Wählen Sie in der Tabelle „Sales“ das Measure **Net Sales per Unit**, und ziehen Sie es an eine leere Stelle im Berichtszeichenbereich. Die Grafik zeigt den Nettoumsatz pro Einheit für alle verkauften Produkte, was wenig aussagekräftig ist. 
+    
+    ![Gesamtnettoumsatz pro Einheit](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
+    
+5. Für ein anderes Erscheinungsbild ändern Sie den Visualisierungstyp des Diagramms in **Treemap**.
+    
+    ![Ändern in Treemap](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
+    
+6. Wählen Sie das Feld **Produktkategorie**, oder ziehen Sie es in die Treemap oder im Bereich „Visualisierungen“ in das Feld „Gruppe“. Jetzt haben Sie verwertbare Informationen.
+    
+    ![Treemap nach Produktkategorie](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
+    
+7. Entfernen Sie das Feld **ProductCategory**, und ziehen Sie stattdessen das Feld **ProductName** in das Diagramm. 
+    
+    ![Treemap nach Produktname](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
+    
+OK, Sie haben jetzt etwas herumgespielt, aber Sie müssen zugeben, dass es Spaß gemacht hat. Experimentieren Sie mit anderen Möglichkeiten, die Visualisierung zu filtern und zu formatieren.
 
-Nun ja, wir können noch ein Measure erstellen. In diesem Fall möchten wir den Nettoumsatz durch die Menge der verkauften Einheiten dividieren. Effektiv möchten wir das Ergebnis unseres Measures „Net Sales“ durch die Summe von „Sales[SalesQuantity]“ dividieren.
-
-1.  Erstellen Sie ein neues Measure namens **Net Sales per Unit** entweder in der Tabelle „Sales“ oder in „Products“.
-    
-    In diesem Measure verwenden wir das Measure „Net Sales“, das wir vorher erstellt haben. Mit DAX können wir in unserer Formel auf andere Measures verweisen. 
-    
-2.  Beginnen Sie, **Net Sales** einzugeben. Die Vorschlagsliste zeigt an, was wir hinzufügen können. Wählen Sie **[Net Sales]**aus.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
-    
-    Sie können außerdem auf ein anderes Measure verweisen, indem Sie einfach eine öffnende eckige Klammer eingeben(**[**). Die Vorschlagsliste zeigt nur die Measures an, die der Formel hinzugefügt werden können.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
-    
-3.  Geben Sie direkt hinter **[Net Sales]** ein Leerzeichen, anschließend einen Divisionsoperator (**/**), dann eine SUM-Funktion und schließlich **Quantity** ein. Die Vorschlagsliste zeigt alle Spalten an, deren Name „Quantity“ enthält. Wählen Sie **Sales[SalesQuantity]**aus. Die Formel sollte nun so aussehen:
-    
-    > **Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])**
-    > 
-    > 
-    
-    Ziemlich cool, nicht? Das Eingeben von DAX-Formeln ist wirklich ziemlich einfach, wenn wir die Such- und Vorschlagsfunktionen des DAX-Editors verwenden. Sehen wir, was wir mit unserem neuen Measure „Net Sales per Unit“ erhalten.
-    
-4. Ziehen Sie das Measure **Net Sales per Unit** in einen leeren Bereich im Berichtszeichenbereich.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
-    
-    Das ist nicht besonders interessant, oder? Keine Sorge.
-    
-5.  Ändern Sie den Visualisierungstyp des Diagramms in **Treemap**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
-    
-6. Ziehen Sie jetzt das Feld **ProductCategory** aus der Tabelle **ProductCategory** nach unten in den Bereich **Gruppe**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
-    
-    Das sind ziemlich gute Informationen, aber was, wenn wir uns die Nettoumsätze nach Produkten ansehen möchten?
-    
-7. Entfernen Sie das Feld **ProductCategory**, und ziehen Sie dann stattdessen das Feld **ProductName** aus der Tabelle **Product** nach unten in den Bereich **Gruppe**. 
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
-    
-    OK, wir haben nun einfach herumgespielt, aber Sie geben vermutlich zu, dass dies echt cool ist. Natürlich können wir diese Treemap auf viele Arten filtern, aber das sprengt den Rahmen dieses Tutorials.
-
-## <a name="what-weve-learned"></a>Was wir gelernt haben
-Measures geben uns große Möglichkeiten zum Erlangen der Einsichten, die wir aus unseren Daten gewinnen möchten. Wir haben jetzt gelernt, wie Measures mithilfe der Bearbeitungsleiste erstellt werden können. Wir können Measures ganz nach Belieben benennen, und die Vorschlagsliste macht uns die Auswahl der richtigen Elemente für unsere Formeln leicht. Wir haben außerdem eine Einführung in Kontext erhalten, wodurch sich das Ergebnis von Berechnungen nach Maßgabe anderer Felder oder anderer Ausdrücke in unserer Measureformel ändert.
+## <a name="what-youve-learned"></a>Was Sie gelernt haben
+Measures sind leistungsstarke Hilfsmittel, wenn es darum geht, aus Ihren Daten die gewünschten Erkenntnisse zu gewinnen. Sie haben gelernt, wie Sie mithilfe der Bearbeitungsleiste Measures erstellen, diese sinnvoll benennen und anhand der DAX-Vorschlagslisten die richtigen Formelelemente finden und auswählen. Sie haben außerdem eine Einführung in Kontext erhalten, wodurch sich das Ergebnis von Berechnungen entsprechend anderer Felder oder anderer Ausdrücke in Ihrer Formel ändert.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Wenn Sie tiefer in DAX-Formeln einsteigen möchten und weitere fortgeschrittene Measures erstellen möchten, lesen Sie [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
-
-Denken Sie daran, die [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) zu Ihren Favoriten hinzuzufügen. Das ist der Ort, an dem Sie detaillierte Informationen zur DAX-Syntax, Operatoren und den über 200 DAX-Funktionen finden.
+- Weitere Informationen zu Quickmeasures von Power BI Desktop, die Ihnen viele gängige Measureberechnungen bieten, finden Sie unter [Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen](desktop-quick-measures.md).
+  
+- Wenn Sie tiefer in DAX-Formeln einsteigen und fortgeschrittenere Measures erstellen möchten, lesen Sie [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
+  
+- Denken Sie daran, die [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) zu Ihren Favoriten hinzuzufügen. Das ist der Ort, an dem Sie detaillierte Informationen zur DAX-Syntax, Operatoren und den über 200 DAX-Funktionen finden.
 

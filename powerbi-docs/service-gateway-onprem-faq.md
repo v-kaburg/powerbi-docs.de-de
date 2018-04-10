@@ -1,15 +1,15 @@
 ---
-title: "On-premises data gateway – Häufig gestellte Fragen"
-description: "Dies sind die häufig gestellten Fragen für On-premises data gateway. Hier werden häufig gestellte Fragen für das Gateway an einem Ort gesammelt."
+title: Lokales Datengateway – Häufig gestellte Fragen
+description: Dies sind die häufig gestellten Fragen zum lokalen Datengateway. Hier werden häufig gestellte Fragen für das Gateway an einem Ort gesammelt.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
-# <a name="on-premises-data-gateway-faq"></a>On-premises data gateway – Häufig gestellte Fragen
+# <a name="on-premises-data-gateway-faq"></a>Lokales Datengateway – Häufig gestellte Fragen
 <!-- Shared FAQ shared Include -->
 [!INCLUDE [gateway-onprem-faq-shared-include](./includes/gateway-onprem-faq-shared-include.md)]
 

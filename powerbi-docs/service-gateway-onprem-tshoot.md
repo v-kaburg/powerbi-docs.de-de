@@ -1,30 +1,30 @@
 ---
-title: Problembehandlung beim lokalen Datengateway
-description: "Dieser Artikel erläutert Wege, wie Sie Probleme behandeln können, die mit dem lokalen Datengateway auftreten. Er bietet eventuell Hilfestellungen für bekannte Probleme und nennt Tools, die Sie unterstützen."
+title: Lokales Datengateway – Problembehandlung
+description: Dieser Artikel erläutert Wege, wie Sie Probleme behandeln können, die mit dem lokalen Datengateway auftreten. Er bietet eventuell Hilfestellungen für bekannte Probleme und nennt Tools, die Sie unterstützen.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>Problembehandlung beim lokalen Datengateway
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
 
 <!-- Shared Community & support links Include -->
@@ -78,7 +78,7 @@ Führen Sie die folgenden Schritte aus, um den Fehler zu beheben.
 1. Deinstallieren Sie das Gateway.
 2. Löschen Sie den folgenden Ordner:
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Installieren Sie das Gateway erneut.
 4. Wenden Sie bei Bedarf den Wiederherstellungsschlüssel an, um ein vorhandenes Gateway wiederherzustellen.
 
@@ -178,8 +178,8 @@ Das Limit beträgt genau 10 GB unkomprimierte Daten pro Tabelle. Wenn dieses Pro
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Bericht konnte nicht auf die Datenquelle zugreifen, weil Sie nicht über ein lokales Datengateway auf Ihre Datenquelle zugreifen können.
 Hierfür gibt es meist eine der folgenden Ursachen.
 
-1. Die Datenquelleninformationen stimmen nicht mit dem Inhalt des zugrunde liegenden Datasets überein. Der Server- und der Datenbankname der Datenquelle, die für On-premises data gateway definiert ist, müssen mit Ihren Angaben in Power BI Desktop übereinstimmen. Wenn Sie in Power BI Desktop eine IP-Adresse verwenden, müssen Sie für die On-premises data gateway-Quelle, ebenfalls eine IP-Adresse verwenden.
-2. Auf den Gateways Ihrer Organisation sind keine Datenquellen verfügbar. Sie können die Datenquelle auf einem neuen oder vorhandenen lokalen Gateway konfigurieren.
+1. Die Datenquelleninformationen stimmen nicht mit dem Inhalt des zugrunde liegenden Datasets überein. Der Server- und der Datenbankname der Datenquelle, die für das lokale Datengateway definiert ist, müssen mit Ihren Angaben in Power BI Desktop übereinstimmen. Wenn Sie in Power BI Desktop eine IP-Adresse verwenden, muss die Datenquelle für das lokale Datengateway ebenfalls eine IP-Adresse verwenden.
+2. Auf den Gateways Ihrer Organisation sind keine Datenquellen verfügbar. Sie können die Datenquelle für ein neues oder vorhandenes lokales Gateway konfigurieren.
 
 ### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Fehler: Fehler beim Zugriff auf die Datenquelle. Bitte wenden Sie sich an den Gatewayadministrator.
 Wenn dieser Bericht eine Liveverbindung mit Analysis Services verwendet, könnte ein Problem mit einem an EffectiveUserName übergebenen Wert auftreten, der entweder nicht gültig ist oder über keine Berechtigungen auf dem Analysis Services-Computer verfügt. Ein Authentifizierungsproblem ist normalerweise darauf zurückzuführen, dass der Wert, der an EffectiveUserName übergeben wird, mit keinem lokalen Benutzerprinzipalnamen (user principal name; UPN) übereinstimmt.
@@ -193,7 +193,7 @@ Sie können Folgendes tun, um dies zu bestätigen.
 
 Sie können optional anzeigen, was Power BI von Azure Active Directory erhält.
 
-1. Navigieren Sie zu [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Wechseln Sie zu [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
 2. Wählen Sie **Sign in** (Anmelden) in der rechten oberen Ecke aus.
 3. Führen Sie die folgende Abfrage aus. Ihnen wird eine ziemlich große JSON-Antwort angezeigt.
    
@@ -314,8 +314,10 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-Ändern Sie in der Datei *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* den `TraceVerbosity`-Wert von `4` in `5`. Standardmäßig befindet sich diese Datei unter *C:\Programme\Lokales Datengateway*. Durch das Ändern dieser Einstellung wird mit dem Protokollieren von ausführlichen Einträgen im Gateway-Protokoll begonnen. Dazu gehören auch Einträge, die die Dauer anzeigen.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+Ändern Sie in der Datei *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* den `TracingVerbosity`-Wert von `4` in `5`. Standardmäßig befindet sich diese Datei unter *C:\Programme\Lokales Datengateway*. Durch das Ändern dieser Einstellung wird mit dem Protokollieren von ausführlichen Einträgen im Gateway-Protokoll begonnen. Dazu gehören auch Einträge, die die Dauer anzeigen. Sie können auch ausführliche Einträge aktivieren, indem Sie die Schaltfläche „Zusätzliche Protokollierung“ in der lokalen Gatewayanwendung aktivieren.
+
+   ![Zusätzliche Protokollierung](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
 > Das Aktivieren von TraceVerbosity `5` kann das Protokoll erheblich vergrößern, abhängig von der Auslastung des Gateways. Wenn Sie die Protokolle überprüft haben, sollten Sie TraceVerbosity auf `4` festlegen. Es wird nicht empfohlen, diese Einstellung langfristig aktiviert zu lassen.
@@ -352,10 +354,76 @@ Sie können wie folgt vorgehen, um zu bestimmen, wie lange die Abfrage der Daten
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Wenn der zugrundeliegende Datenbankserver und das lokale Daten-Gateway nicht ordnungsgemäß für die [eingeschränkte Kerberos-Delegierung](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) konfiguriert sind, aktivieren Sie die [ausführliche Protokollierung](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) am Gateway und untersuchen Sie anhand der Fehler bzw. Ablaufverfolgungen in den Protokolldateien des Gateways als Ausgangspunkt für die Fehlersuche.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+Das ImpersonationLevel bezieht sich auf die SPN-Einrichtung oder die lokale Richtlinieneinstellung.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Lösung**
+
+Folgen Sie diesen Schritten zur Lösung des Problems:
+1. Richten Sie einen SPN für das lokale Gateway ein.
+2. Richten Sie eine eingeschränkte Delegierung in Ihrem Active Directory (AD) ein.
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Windows-Identität für Benutzer userid konnte nicht erstellt werden
+
+Der Ausnahmefehler FailedToImpersonateUserException tritt auf, wenn Sie nicht die Identität zu einem anderen Benutzer wechseln können. Dies kann auch passieren, wenn das Konto, zu dessen Identität Sie wechseln möchten, von einer anderen Domäne als derjenigen stammt, auf der sich die Gatewaydienstdomäne befindet (dies ist eine Einschränkung).
+
+**Lösung**
+* Vergewissern Sie sich, dass die Konfiguration korrekt ist, wie oben im Abschnitt „ImpersonationLevel“ beschrieben.
+* Stellen Sie sicher, dass die Benutzeridentität, zu der Sie versuchen zu wechseln, ein gültiges AD-Konto ist.
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Allgemeiner Fehler: 1033. Fehler beim Parsen von Protokoll
+
+Fehler 1033 tritt auf, sobald Ihre externe ID, die in SAP HANA konfiguriert ist, nicht mit den Anmeldeinformationen übereinstimmt, wenn die Identität des Benutzers über den UPN (alias@domain.com) gewechselt wird. In den Protokollen sehen Sie den „Original UPN „alias@domain.com“, der durch einen neuen UPN „alias@domain.com“ ersetzt wird, wie unten gezeigt.“
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Lösung**
+* Der imitierte Benutzer muss für SAP HANA das Attribut „sAMAccountName“ in AD (Benutzeralias) verwenden. Ist dieses nicht korrekt, wird Fehler 1033 angezeigt.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* In den Protokollen sollten Sie den sAMAccountName (Alias) und nicht den UPN sehen, bei dem es sich um den Alias gefolgt von der Domäne handelt (alias@doimain.com).
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Kommunikationsverbindungsfehler;-10709 Verbindungsfehler (RTE:[-1] Kerberos-Fehler. Hauptversion: „Sonstiger Fehler [851968]“, Nebenversion: „Im Sicherheitspaket sind keine Anmeldeinformationen verfügbar.“
+
+Die Fehlermeldung „-10709 Verbindungsfehler“ wird angezeigt, wenn Ihre Delegierung nicht ordnungsgemäß in AD konfiguriert wurde.
+
+**Lösung**
+* Stellen Sie sicher, dass Sie der SAP Hana-Server auf der Registerkarte „Delegierung“ im AD für das Gatewaydienstkonto vorhanden ist.
+
+   ![Registerkarte „Delegierung“](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>Aktualisieren des Verlaufs
+### <a name="refresh-history"></a>Verlauf aktualisieren
 Beim Verwenden des Gateways für die planmäßige Aktualisierung können Sie über die Option **Verlauf aktualisieren** erkennen, welche Fehler aufgetreten sind, und nützliche Daten für eine Supportanfrage abrufen. Sie können sowohl geplante Aktualisierungen als auch Aktualisierungen nach Bedarf anzeigen. Hier ist beschrieben, wie Sie zur Option **Verlauf aktualisieren**gelangen.
 
 1. Wählen Sie im Power BI-Navigationsbereich in **Datasets** für das Dataset &gt; Menü öffnen &gt;**Aktualisierung planen** aus.
@@ -378,4 +446,3 @@ Weitere Informationen zur Problembehandlung bei Aktualisierungsszenarien finden 
 [Verwalten Ihrer Datenquelle – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Verwalten der Datenquelle – Import/Geplante Aktualisierung](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

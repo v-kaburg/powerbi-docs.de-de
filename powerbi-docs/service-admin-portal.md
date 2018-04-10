@@ -1,28 +1,28 @@
 ---
-title: "Power BI-Verwaltungsportal"
-description: "Das Verwaltungsportal ermöglicht die Mandantenverwaltung von Power BI in Ihrer Organisation. Es enthält Elemente wie z. B. Nutzungsmetriken und Zugriff auf das Office 365 Admin Center und die Einstellungen."
+title: Power BI-Verwaltungsportal
+description: Das Verwaltungsportal ermöglicht die Mandantenverwaltung von Power BI in Ihrer Organisation. Es enthält Elemente wie z. B. Nutzungsmetriken und Zugriff auf das Office 365 Admin Center und die Einstellungen.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -326,8 +326,8 @@ Wichtig: Der Löschvorgang ist nicht umkehrbar. Sobald das Visual gelöscht wurd
  
 ### <a name="how-to-update-a-visual"></a>Aktualisieren eines Visuals
 
-Wenn Sie ein Visual im Repository aktualisieren möchten, weil eine neue Version des Visuals vorhanden ist (z.B. mit Fehlerbehebungen, neuen Funktionalitäten usw.), laden Sie die neue Datei (stellen Sie sicher, dass die ID des Visuals nicht verändert wird) als neuen Eingang in der Liste hoch. Stellen Sie sicher, dass Sie die richtigen Details im Titel und in der Beschreibung (z.B. „My Visual v2.0“) bereitstellen . Wenn die Benutzer das Repository der Organisation das nächste Mal über Power BI Desktop verwenden, können diese die neue Version importieren. Diese wird sie dazu auffordern, die aktuelle Version zu ersetzen, die sich im Bericht befindet.
- 
+Wenn Sie ein Visual im Repository aktualisieren möchten, weil es eine neue Version des Visuals gibt (z.B. Fehlerkorrekturen, neue Funktionen usw.), wählen Sie das Symbol **Aktualisieren**, und laden Sie die neue Datei hoch. Stellen Sie sicher, dass die Visual-ID unverändert bleibt. Die neue Datei ersetzt die vorherige Datei für alle Berichte in der gesamten Organisation. Wenn jedoch die neue Version des Visuals irgendeine Verwendung oder Datenstruktur der vorherigen Version des Visuals beeinträchtigen könnte, ersetzen Sie die vorherige Version nicht. Stattdessen sollten Sie einen neuen Eintrag für die neue Version des Visuals erstellen. Fügen Sie beispielsweise eine neue Versionsnummer (Version X.X) zum Titel des neuen gelisteten Visuals hinzu. Auf diese Weise wird deutlich, dass es sich nur um das gleiche Visual mit einer aktualisierten Versionsnummer handelt, sodass die Funktionalität bestehender Berichte nicht beeinträchtigt wird. Stellen Sie erneut sicher, dass die Visual-ID unverändert bleibt. Wenn die Benutzer dann das Repository der Organisation das nächste Mal über Power BI Desktop verwenden, können diese die neue Version importieren. Diese wird sie dazu auffordern, die aktuelle Version zu ersetzen, die sich im Bericht befindet.
+
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  

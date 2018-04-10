@@ -1,15 +1,15 @@
 ---
 title: Grundlegendes zu Datenschutzebenen in Power BI Desktop
-description: "Power BI Desktop – Datenschutzebenen"
+description: Power BI Desktop – Datenschutzebenen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop – Datenschutzebenen
 In **Power BI Desktop** geben Datenschutzebenen eine Isolationsstufe an, die den Grad der Isolation einer Datenquelle von anderen Datenquellen angibt. Obwohl eine restriktive Isolationsstufe den Austausch von Informationen zwischen Datenquellen blockiert, kann sie Funktionalitäts- und Leistungseinbußen bewirken.
@@ -31,15 +31,6 @@ Die Einstellung **Datenschutzebenen** unter **Datei > Optionen und Einstellungen
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- Das Dialogfeld mit den Einstellungen für den **Datenschutz** für jede Datenquelle befindet sich unter **Datei > Optionen und Einstellungen > Datenquelleneinstellungen**. Wählen Sie die Datenquelle und dann **Bearbeiten**aus. Das Dialogfeld **Datenquelleneinstellungen** wird angezeigt, in dem Sie unten im Dropdownmenü die gewünschte Datenschutzebene auswählen können (siehe die folgende Abbildung).
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> Sie sollten eine Datenquelle mit äußerst sensiblen oder vertraulichen Daten als **Privat** konfigurieren.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Konfigurieren einer Datenschutzebene
 Mithilfe von Datenschutzebenen geben Sie eine Isolationsstufe an, die den Grad der Isolation einer Datenquelle von anderen Datenquellen angibt.
 
@@ -47,7 +38,7 @@ Mithilfe von Datenschutzebenen geben Sie eine Isolationsstufe an, die den Grad d
 | --- | --- | --- |
 | **Private Datenquelle** |Eine **private** Datenquelle enthält sensible oder vertrauliche Informationen, wobei die Sichtbarkeit der Datenquelle ggf. auf autorisierte Benutzer beschränkt ist. Eine private Datenquelle ist von anderen Datenquellen vollständig isoliert. |Facebook-Daten, eine Textdatei mit Aktienzuteilungen oder eine Arbeitsmappe mit Mitarbeitergesprächsinformationen. |
 | **Organisationsweite Datenquelle** |Eine **organisationsweite** Datenquelle schränkt die Sichtbarkeit einer Datenquelle auf eine vertrauenswürdige Gruppe von Personen ein. Eine **organisationsweite** Datenquelle ist von allen **öffentlichen** Datenquellen isoliert, aber für andere **organisationsweite** Datenquellen sichtbar. |Ein **Microsoft Word** -Dokument auf einer SharePoint-Intranetwebsite mit Berechtigungen, die für eine vertrauenswürdige Gruppe aktiviert sind. |
-| **Öffentliche Datenquelle** |Eine **öffentliche** Datenquelle ermöglicht jedem die Anzeige der in der Datenquelle enthaltenen Daten. Nur Dateien, Internetdatenquellen und Arbeitsmappendaten können als **öffentlich**markiert werden. |Frei zugängliche Daten in Microsoft Azure Marketplace, Daten auf einer Wikipedia-Seite und lokale Dateien, die von einer öffentlichen Webseite kopierte Daten enthalten |
+| **Öffentliche Datenquelle** |Eine **öffentliche** Datenquelle ermöglicht jedem die Anzeige der in der Datenquelle enthaltenen Daten. Nur Dateien, Internetdatenquellen und Arbeitsmappendaten können als **öffentlich** markiert werden. |Frei zugängliche Daten in Microsoft Azure Marketplace, Daten auf einer Wikipedia-Seite und lokale Dateien, die von einer öffentlichen Webseite kopierte Daten enthalten. |
 
 ## <a name="configure-privacy-level-settings"></a>Konfigurieren von Einstellungen für Datenschutzebenen
 Das Dialogfeld mit den Einstellungen für den **Datenschutz** für jede Datenquelle befindet sich unter **Datei > Optionen und Einstellungen > Datenquelleneinstellungen**.

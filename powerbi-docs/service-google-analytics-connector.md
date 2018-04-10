@@ -1,15 +1,15 @@
 ---
-title: "Drittanbieterdienst: Google Analytics-Connector für Power BI Desktop"
-description: "Drittanbieterdienst: Google Analytics-Connector für Power BI Desktop"
+title: 'Drittanbieterdienst: Google Analytics-Connector für Power BI Desktop'
+description: 'Drittanbieterdienst: Google Analytics-Connector für Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Google Analytics-Connector für Power BI Desktop
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 Sie können mithilfe des **Google Analytics**-Connectors eine Verbindung zu Google Analytics-Daten herstellen. Gehen Sie dazu folgendermaßen vor:
 
 1. Wählen Sie in **Power BI Desktop** auf der Registerkarte des Menübands **Start** den Eintrag **Daten abrufen**.
-2. Wählen Sie im Fenster **Daten abrufen** aus den Kategorien im linken Bereich **Andere** .
+2. Wählen Sie im Fenster **Daten abrufen** aus den Kategorien im linken Bereich **Onlinedienste**.
 3. Wählen Sie **Google Analytics** aus der Auswahl im rechten Bereich aus.
 4. Wählen Sie am unteren Rand des Fensters **Verbinden**aus.  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

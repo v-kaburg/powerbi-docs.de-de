@@ -1,15 +1,15 @@
 ---
 title: Verwenden von QuickInfo-Berichtsseiten in Power BI
-description: "Mit QuickInfo-Seiten können Sie in Power BI Desktop umfangreiche QuickInfos für Visuals in Berichten erstellen, wenn Sie mit der Maus darauf zeigen."
+description: Mit QuickInfo-Seiten können Sie in Power BI Desktop umfangreiche QuickInfos für Visuals in Berichten erstellen, wenn Sie mit der Maus darauf zeigen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop (Vorschau)
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 
 
 ![QuickInfos für Berichte in Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-Sie können beliebig viele QuickInfo-Seiten erstellen. Jede QuickInfo-Seite kann einem oder mehreren Feldern in Ihrem Bericht zugeordnet werden. Wenn Sie nun auf ein Visual zeigen, das das ausgewählte Feld enthält, wird die QuickInfo angezeigt, die Sie auf der QuickInfo-Seite erstellt haben, und dies gefiltert nach Datenpunkten, auf die mit der Maus gezeigt wird. 
+Sie können beliebig viele QuickInfo-Seiten erstellen. Jede QuickInfo-Seite kann einem Feld oder mehreren Feldern in Ihrem Bericht zugeordnet werden. Wenn Sie nun auf ein Visual zeigen, das das ausgewählte Feld enthält, wird die QuickInfo angezeigt, die Sie auf der QuickInfo-Seite erstellt haben, und dies gefiltert nach Datenpunkten, auf die mit der Maus gezeigt wird. 
 
 QuickInfos für Berichte bieten Ihnen viele interessante Möglichkeiten. Erfahren Sie im folgenden Abschnitt, wie Sie QuickInfos erstellen und konfigurieren.
 
 ### <a name="enable-the-tooltips-preview"></a>Aktivieren der Vorschau für QuickInfos 
-QuickInfos für Berichte befinden sich derzeit in der Vorschauversion. Daher müssen Sie die Funktion aktivieren, um QuickInfos für Berichte erstellen zu können. Wenn Sie das QuickInfo-Vorschaufeature für Berichte aktivieren möchten, wählen Sie in Power BI Desktop **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Lesezeichen**. 
+QuickInfos für Berichte befinden sich derzeit in der Vorschauversion. Daher müssen Sie die Funktion aktivieren, um QuickInfos für Berichte erstellen zu können. Wenn Sie das QuickInfo-Vorschaufeature für Berichte aktivieren möchten, wählen Sie in Power BI Desktop **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **QuickInfos zur Berichtsseite**. 
 
 ![Aktivieren des QuickInfo-Vorschaufeatures für Berichte](media/desktop-tooltips/desktop-tooltips_01.png)
 

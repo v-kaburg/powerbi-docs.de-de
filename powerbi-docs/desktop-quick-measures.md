@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen in Power BI"
-description: "Schnellmeasures bieten vorgefertigte DAX-Formeln zur schnellen Durchführung gängiger Berechnungen."
+title: Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen in Power BI
+description: Schnellmeasures bieten vorgefertigte DAX-Formeln zur schnellen Durchführung gängiger Berechnungen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen
-Mit **Quickmeasures** können Sie gängige und leistungsstarke Berechnungsfunktionen nutzen. Ein **Schnellmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Schnellmeasure ausführt, und sich so besser mit DAX vertraut machen.
+Mit **Quickmeasures** können Sie gängige und leistungsstarke Berechnungsfunktionen nutzen. Ein **Quickmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Quickmeasure ausführt, und sich so besser mit DAX vertraut machen.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -48,7 +48,7 @@ Das Feature **Quickmeasures** ist nur verfügbar, wenn das geladene Dataset mode
 
 Bei Verwendung von SSAS-Liveverbindungen (SQL Server Analysis Services) sind einige **Quickmeasures** verfügbar. In **Power BI Desktop** wird nur die Sammlung der **Quickmeasures** angezeigt, die für die Version von SSAS unterstützt werden, mit der die Verbindung hergestellt wird. Wenn eine Verbindung mit einer SSAS-Livedatenquelle besteht und bestimmte **Quickmeasures** nicht in der Liste enthalten sind, unterstützt die SSAS-Version, mit der die Verbindung besteht, nicht das DAX-Measure, mit dem das betreffende **Quickmeasure** implementiert wurde.
 
-Nach Auswahl der Option im Kontextmenü erscheint das Fenster **Schnellmeasures**. Hier können Sie die gewünschte Berechnung sowie die Felder auswählen, für die die Berechnung erfolgen soll.
+Nach Auswahl der Option im Kontextmenü erscheint das Fenster **Quickmeasures**. Hier können Sie die gewünschte Berechnung sowie die Felder auswählen, für die die Berechnung erfolgen soll.
 
 ![](media/desktop-quick-measures/quick-measures_03.png)
 
@@ -59,14 +59,14 @@ Wenn Sie das Dropdownmenü auswählen, erhalten Sie eine lange Liste mit verfüg
 Die Schnellmeasure-Berechnungstypen sind in fünf unterschiedliche Gruppen unterteilt, die jeweils eine Reihe von Berechnungen umfassen. Folgende Gruppen und Berechnungen stehen zur Verfügung:
 
 * **Pro Kategorie aggregieren**
-  * Durchschnitt innerhalb der Kategorie
-  * Varianz innerhalb der Kategorie
-  * Höchstwert innerhalb der Kategorie
-  * Mindestwert innerhalb der Kategorie
+  * Durchschnitt pro Kategorie
+  * Varianz pro Kategorie
+  * Höchstwert pro Kategorie
+  * Mindestwert pro Kategorie
   * Gewichteter Durchschnitt pro Kategorie
 * **Filter**
   * Gefilterter Wert
-  * Differenz zu Baseline
+  * Differenz zu gefiltertem Wert
   * Prozentuale Differenz zu gefiltertem Wert
   * Sales from new categories (Umsätze aus neuen Kategorien)
 * **Zeitinformationen**
@@ -92,7 +92,7 @@ Die Schnellmeasure-Berechnungstypen sind in fünf unterschiedliche Gruppen unter
   * Bewertungssterne
   * Verkettete Werteliste
 
-Diese Berechnungen werden voraussichtlich noch ergänzt. Daher würden wir gerne von Ihnen erfahren, welche **Schnellmeasures** Sie sich wünschen und ob Sie Vorschläge (einschließlich zugrunde liegender DAX-Formeln) für **Schnellmeasures** haben. Weitere Informationen hierzu finden Sie am Ende dieses Artikels.
+Diese Berechnungen werden voraussichtlich noch ergänzt. Daher würden wir gerne von Ihnen erfahren, welche **Quickmeasures** Sie sich wünschen und ob Sie Vorschläge (einschließlich zugrunde liegender DAX-Formeln) für **Quickmeasures** haben. Weitere Informationen hierzu finden Sie am Ende dieses Artikels.
 
 ## <a name="example-of-quick-measures"></a>Beispiel für Schnellmeasures
 In diesem Abschnitt sehen wir uns ein Beispiel dieser **Schnellmeasures** in Aktion an.
@@ -101,7 +101,7 @@ Die folgende **Matrix** zeigt eine Verkaufstabelle für verschiedene Elektronikp
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Wenn wir mit der rechten Maustaste auf den Feldbereich **Werte** klicken und **Schnellmeasures** auswählen, können wir als *Berechnung* die Option *Durchschnitt innerhalb der Kategorie* und als *Basiswert* die Option *Summe von SalesAmount* auswählen. Anschließend können wir *SalesAmount* angeben, indem wir das entsprechende Feld aus dem Bereich *Felder* (rechts) in den Bereich *Kategorie* (links) ziehen.
+Wenn wir mit der rechten Maustaste auf den Feldbereich **Werte** klicken und **Quickmeasures** auswählen, können wir als *Berechnung* die Option *Durchschnitt pro Kategorie* und als *Basiswert* die Option *Summe von SalesAmount* auswählen. Anschließend können wir *SalesAmount* angeben, indem wir das entsprechende Feld aus dem Bereich *Felder* (rechts) in den Bereich *Kategorie* (links) ziehen.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -128,9 +128,9 @@ Ein weiterer Vorteil von **Schnellmeasures**: Das Feature zeigt Ihnen direkt die
 
 ![](media/desktop-quick-measures/quick-measures_10.png)
 
-Das ist praktisch, denn so erfahren Sie, welche Formel dem Measure zugrunde liegt. Was aber vielleicht noch wichtiger ist: Sie können anhand von **Schnellmeasures** sehen, wie die zugrunde liegenden DAX-Formeln erstellt werden sollten.
+Das ist praktisch, denn so erfahren Sie, welche Formel dem Measure zugrunde liegt. Was aber vielleicht noch wichtiger ist: Sie können anhand von **Quickmeasures** sehen, wie die zugrunde liegenden DAX-Formeln erstellt werden sollten.
 
-Angenommen, Sie müssen eine Berechnung für einen Jahresvergleich durchführen, wissen aber nicht so recht, wie Sie die DAX-Formel strukturieren (oder wo Sie überhaupt anfangen) sollen. In diesem Fall können Sie ein **Schnellmeasure** mit der Berechnung **Änderung zwischen zwei Jahren** erstellen und sich den Vorgang ansehen. Gehen Sie dazu wie folgt vor: Erstellen Sie das **Schnellmeasure**, betrachten Sie die Darstellung in Ihrem visuellen Element, sehen Sie sich an, wie die DAX-Formel funktioniert, und ändern Sie dann entweder die DAX-Formel direkt, oder erstellen Sie ein weiteres Measure, bis die Berechnungen Ihren Anforderungen oder Erwartungen entsprechen.
+Angenommen, Sie müssen eine Berechnung für einen Jahresvergleich durchführen, wissen aber nicht so recht, wie Sie die DAX-Formel strukturieren (oder wo Sie überhaupt anfangen) sollen. In diesem Fall können Sie ein **Quickmeasure** mit der Berechnung **Änderung zwischen zwei Jahren** erstellen und sich den Vorgang ansehen. Gehen Sie dazu wie folgt vor: Erstellen Sie das **Quickmeasure**, betrachten Sie die Darstellung in Ihrem visuellen Element, sehen Sie sich an, wie die DAX-Formel funktioniert, und ändern Sie dann entweder die DAX-Formel direkt, oder erstellen Sie ein weiteres Measure, bis die Berechnungen Ihren Anforderungen oder Erwartungen entsprechen.
 
 Das ist fast so als hätten Sie einen Lehrer, der umgehend auf Ihre Was-wäre-wenn-Fragen reagiert – und das mit nur wenigen Mausklicks. Sie können diese Measures jederzeit aus Ihrem Modell löschen, wenn sie Ihnen nicht zusagen. Dazu müssen Sie lediglich mit der rechten Maustaste auf das Measure klicken und **Löschen** auswählen.
 
