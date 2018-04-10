@@ -2,14 +2,14 @@
 title: Strukturieren und Kombinieren von Daten in Power BI Desktop
 description: Strukturieren und Kombinieren von Daten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/30/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Strukturieren und Kombinieren von Daten in Power BI Desktop
 Mit **Power BI Desktop** können Sie Verbindungen zu vielen unterschiedlichen Arten von Datenquellen herstellen und anschließend die Daten nach Ihren Anforderungen strukturieren. Das *Strukturieren* von Daten ist mit einem Transformieren der Daten gleichzusetzen. So müssen beispielsweise Spalten oder Tabellen umbenannt, Text in Zahlen umgewandelt, Zeilen entfernt oder die erste Zeile als Überschrift festgelegt werden. Als *Kombinieren* von Daten werden das Verbinden von mehreren Datenquellen, das auf die Anforderungen ausgerichtete Strukturieren der Daten und schließlich das Konsolidieren in eine praktische Abfrage bezeichnet.
 
-In diesem Dokument wird veranschaulicht, wie Sie eine Abfrage mit Power BI Desktop strukturieren. Besonders hervorgehoben werden einige der dabei am häufigsten auszuführenden Aufgaben. Die hier verwendete Abfrage (und auch der gesamte Erstellungsvorgang) ist im Handbuch [Erste Schritte mit Power BI-Desktop](desktop-getting-started.md) ausführlicher beschrieben.
+In diesem Artikel wird veranschaulicht, wie Sie eine Abfrage mit Power BI Desktop strukturieren. Besonders hervorgehoben werden einige der dabei am häufigsten auszuführenden Aufgaben. Die hier verwendete Abfrage (und auch der gesamte Erstellungsvorgang) ist im Handbuch [Erste Schritte mit Power BI-Desktop](desktop-getting-started.md) ausführlicher beschrieben.
 
 Es ist wichtig zu wissen, dass im **Abfrage-Editor** von Power BI Desktop neben den im Menüband verfügbaren Optionen häufig Kontextmenüs (Rechtsklick) zum Einsatz kommen. Die meisten Optionen, die im Menüband **Transformieren** zur Auswahl stehen, können auch über Klicken auf ein Element (z. B. eine Spalte) mit der rechten Maustaste und Auswählen aus dem Kontextmenü aufgerufen werden.
 
@@ -38,76 +38,98 @@ Die Schritte, die Sie angeben (z. B. Umbenennen einer Tabelle, Transformieren ei
 
 Die folgende Abbildung zeigt den Bereich **Abfrageeinstellungen** für eine strukturierte Abfrage. In den nächsten Abschnitten werden die Schritte im Einzelnen erläutert.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished.png)
+![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-Wir verwenden wieder die Daten zu den bevorzugten Wohnorten für Pensionäre aus dem Handbuch [Erste Schritte mit Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471664), die wir über die Verbindung mit einer Webdatenquelle gefunden haben. Wir werden die Daten so strukturieren, dass sie unseren Anforderungen entsprechen.
+Wir verwenden wieder die Daten zu den bevorzugten Wohnorten für Pensionäre aus dem Handbuch [Erste Schritte mit Power BI Desktop](desktop-getting-started.md), die wir über die Verbindung mit einer Webdatenquelle gefunden haben. Wir werden die Daten so strukturieren, dass sie unseren Anforderungen entsprechen.
 
-Zunächst sehen wir, dass die Werte in einer Spalte beim Laden der Tabelle vom Abfrage-Editor nicht automatisch von Text in Zahlen transformiert wurden. Wir benötigen aber Zahlen. Kein Problem: Klicken Sie einfach mit der rechten Maustaste auf die Spaltenüberschrift, und wählen Sie **Typ ändern \> Ganze Zahl** aus, um die Werte zu ändern. Um mehr als eine Spalte auszuwählen, wählen Sie zuerst eine Spalte aus, drücken Sie die **UMSCHALTTASTE**, und wählen Sie dann mit gedrückter Taste weitere angrenzende Spalten aus. Klicken Sie anschließend mit der rechten Maustaste auf eine Spaltenüberschrift, um alle ausgewählten Spalten zu ändern. Sie können auch die **STRG-TASTE** verwenden, um nicht angrenzende Spalten auszuwählen.
+Fügen Sie zunächst eine benutzerdefinierte Spalte hinzu, um den Rang basierend auf allen Daten als gleichwertige Faktoren zu berechnen, und diese mit der vorhandenen Spalte _Rang_ zu vergleichen.  Im Folgenden ist das Menüband **Spalte hinzufügen** mit einem auf die Schaltfläche **Benutzerdefinierte Spalte** zeigenden Pfeil abgebildet, mit der Sie eine benutzerdefinierte Spalte hinzufügen können.
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype.png)
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-Sie können im Menüband **Transformieren** auch Spalten von Text in Überschriften *transformieren*. Die Abbildung zeigt das Menüband **Transformieren**. Der Pfeil weist auf die Schaltfläche **Datentyp**, mit der Sie den aktuellen Datentyp in einen anderen Typ transformieren können.
+Geben Sie im Dialogfeld **Benutzerdefinierte Spalte** unter **Neuer Spaltenname** einen Wert für _Neuer Rang_ und unter **Benutzerdefinierte Spaltenformel** Folgendes ein:
+
+    ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+
+Vergewissern Sie sich, dass die Statusmeldung _Es wurden keine Syntaxfehler erkannt._ angezeigt wird, und klicken Sie auf **OK**.
+
+![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+
+Um die Konsistenz der Spaltendaten sicherzustellen, transformieren Sie die neuen Spaltenwerte in ganze Zahlen. Klicken Sie einfach mit der rechten Maustaste auf die Spaltenüberschrift, und wählen Sie **Typ ändern \> Ganze Zahl** aus, um die Werte zu ändern. 
+
+Wenn Sie mehr als eine Spalte auswählen müssen, wählen Sie zuerst eine Spalte aus, halten Sie die **UMSCHALTTASTE** gedrückt, und wählen Sie dann weitere angrenzende Spalten aus. Klicken Sie anschließend mit der rechten Maustaste auf eine Spaltenüberschrift, um alle ausgewählten Spalten zu ändern. Sie können auch die **STRG-TASTE** verwenden, um nicht angrenzende Spalten auszuwählen.
+
+![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+
+Sie können über das Menüband **Transformieren** Spaltendatentypen auch *transformieren* . Die Abbildung zeigt das Menüband **Transformieren**. Der Pfeil weist auf die Schaltfläche **Datentyp**, mit der Sie den aktuellen Datentyp in einen anderen Typ transformieren können.
 
 ![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-Im Bereich **Abfrageeinstellungen** sehen Sie, dass unter **Angewendete Schritte** alle Schritte zum Strukturieren der Daten aufgeführt sind. Wenn Sie einen Schritt aus dem Strukturierungsprozess entfernen möchten, wählen Sie einfach das **X** links neben dem jeweiligen Schritt aus. In der folgenden Abbildung werden unter **Angewendete Schritte** die bisher ausgeführten Schritte aufgelistet: Herstellen einer Verbindung zur Website (**Quelle**), Auswahl der Tabelle (**Navigation**) und die automatische Konvertierung von textbasierten Zahlenspalten von *Text* in *Ganze Zahl* (**Geänderter Typ**) durch den Abfrage-Editor beim Laden der Tabelle. Eine Spalte mit Bewertungen wurde jedoch nicht automatisch in einen zahlenbasierten Typ geändert. Warum das so ist, werden wir in den nächsten Abschnitten feststellen.
+Im Bereich **Abfrageeinstellungen** sehen Sie, dass unter **Angewendete Schritte** alle Schritte zum Strukturieren der Daten aufgeführt sind. Wenn Sie einen Schritt aus dem Strukturierungsprozess entfernen möchten, wählen Sie einfach das **X** links neben dem jeweiligen Schritt aus. In der folgenden Abbildung werden unter **Angewendete Schritte** die bisher ausgeführten Schritte aufgelistet: Herstellen einer Verbindung zur Website (**Quelle**), Auswahl der Tabelle (**Navigation**) und die automatische Konvertierung von textbasierten Zahlenspalten von *Text* in *Ganze Zahl* (**Geänderter Typ**) durch den Abfrage-Editor beim Laden der Tabelle. Die letzten beiden Schritte spiegeln unsere vorherigen Aktionen mit **Hinzugefügte benutzerdefinierte Spalte** und **Typ1 geändert** wider. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly.png)
+![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
 Bevor wir mit dieser Abfrage arbeiten können, müssen wir ein paar Änderungen vornehmen, um die Daten nach unseren Anforderungen zu ordnen:
 
-* *Entfernen der ersten Spalte:* Diese Spalte brauchen wir nicht. Sie enthält nur überflüssige Zeilen mit dem Text „Check out how your state ranks for retirement“, ein Artefakt aufgrund der Tatsache, dass es sich bei dieser Datenquelle um eine webbasierte Tabelle handelt.
-* *Beheben von Fehlern:* In einer Spalte, **Health care quality** gibt es bei den Bewertungen der Bundesstaaten einige Male einen Gleichstand. Auf der Website waren diese mit dem Text *(tie)* nach den Zahlen versehen. Das funktioniert gut auf der Website, stellt uns aber vor die Aufgabe, diese Spalte manuell von Text in Daten konvertieren zu müssen. Dieses Problem ist in Power BI Desktop ganz einfach zu beheben und veranschaulicht ein nützliches Feature der Abfrage im Bereich **Angewendete Schritte**.
-* *Ändern des Tabellennamens:* **Table 0** ist kein sinnvoller Deskriptor, er kann aber sehr einfach geändert werden.
+* *Anpassen der Rangfolgen durch Entfernen einer Spalte*: Wir sind zu dem Schluss gekommen, dass **Lebenshaltungskosten** kein Faktor in unseren Ergebnissen ist. Nachdem diese Spalte entfernt wurde, waren wir mit dem Problem konfrontiert, dass die Daten nicht geändert wurden. Dieses Problem kann mit Power BI Desktop jedoch mühelos behoben werden, was ein interessantes Feature des Bereichs **Angewendete Schritte** in der Abfrage veranschaulicht.
+* *Beheben einiger Fehler*: Da wir eine Spalte entfernt haben, müssen wir unsere Berechnungen in der Spalte **Neuer Rang** erneut anpassen. Hierbei muss eine Formel geändert werden.
+* *Sortieren von Daten*: Wir sortieren Daten basierend auf den Spalten **Neuer Rang** und **Rang**. 
+* *Ersetzen von Daten*: Wir zeigen, wie ein bestimmter Wert ersetzt wird und dabei ein Schritt unter **Angewendete Schritte** einzufügen ist.
+* *Ändern des Tabellennamens*: **Table 0** ist kein sinnvoller Deskriptor, kann aber sehr einfach geändert werden.
 
-Um die erste Spalte zu entfernen, wählen Sie zuerst die Spalte und dann im Menüband die Registerkarte **Start** aus. Klicken Sie anschließend auf **Spalten entfernen**, wie in der folgenden Abbildung gezeigt.
+Um die Spalte **Lebenshaltungskosten** zu entfernen, wählen Sie zuerst die Spalte und dann im Menüband die Registerkarte **Start** aus. Klicken Sie anschließend auf **Spalten entfernen**, wie in der folgenden Abbildung gezeigt.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnsretirement.png)
+![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Als Nächstes nehmen wir uns die Textspalte vor und transformieren sie in Zahlen. Zunächst erscheint es ganz einfach, den Typ der Spalte **Health care quality** von Text in Zahlen (z. B. *Ganze Zahl* oder *Dezimalzahl*) zu ändern. Wenn wir jedoch den Typ von **Text** in **Ganze Zahl** ändern und dann die Werte in dieser Spalte betrachten, stellen wir fest, dass die Abfrage Fehler meldet.
+Beachten Sie, dass die Werte _Neuer Rang_ nicht geändert wurden. Dies liegt an der Reihenfolge der Schritte. Der Abfrage-Editor zeichnet die Schritte zwar nacheinander, aber unabhängig voneinander auf. Daher können Sie unter **Angewendete Schritte** die Schritte in der Reihenfolge nach oben oder unten verschieben. Klicken Sie einfach mit der rechten Maustaste auf einen Schritt, und der Abfrage-Editor stellt ein Kontextmenü mit folgenden Optionen bereit: **Umbenennen**, **Löschen**, **Bis zum** **Ende löschen** (entfernt den aktuellen und alle nachfolgenden Schritte) **Nach oben** oder **Nach unten**. Fahren Sie fort, und verschieben Sie den letzten Schritt _Entfernte Spalten_ an die Stelle direkt über den Schritt _Hinzugefügte benutzerdefinierte Spalte_.
 
-![](media/desktop-shape-and-combine-data/shapecombine_error.png)
+![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+Wählen Sie als Nächstes den Schritt _Hinzugefügte benutzerdefinierte Spalte_ aus. Beachten Sie, dass bei den Daten nun ein _Fehler_ angezeigt wird, den wir beheben müssen. 
+
+![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
 
 Es gibt verschiedene Möglichkeiten, weitere Informationen zu den einzelnen Fehlern zu erhalten. Sie können entweder die Zelle auswählen (ohne auf das Wort **Fehler**zu klicken) oder direkt auf das Wort **Fehler** klicken. Wenn Sie die Zelle *ohne* Klicken auf das Wort **Fehler**auswählen, zeigt der Abfrage-Editor die Fehlerinformationen unten im Fenster an.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo.png)
+![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
 
-Wenn Sie direkt auf das Wort *Fehler* klicken, erstellt die Abfrage im Bereich **Abfrageeinstellungen** unter **Angewendete Schritte** einen weiteren Schritt und zeigt die Informationen zu dem Fehler an.
+Wenn Sie direkt auf das Wort *Fehler* klicken, erstellt die Abfrage im Bereich **Abfrageeinstellungen** unter **Angewendete Schritte** einen weiteren Schritt und zeigt die Informationen zu dem Fehler an. Diesen Weg möchten wir jedoch nicht gehen. Klicken Sie daher auf **Abbrechen**.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorselect.png)
+Wählen Sie zur Behebung des Fehlers die Spalte _Neuer Rang_ aus, und zeigen Sie dann die Datenbearbeitungsleiste der Spalte an, indem Sie das Menüband **Ansicht** öffnen und das Kontrollkästchen **Bearbeitungsleiste** aktivieren. 
 
-Um wieder zur Abfrage zu gelangen, müssen Sie diesen Schritt entfernen, indem Sie auf das zugehörige **X** klicken.
+![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
 
-Wenn Sie unter **Angewendete Schritte**den letzten Schritt auswählen, wird der eben beschriebene Fehler angezeigt, wie aus der folgenden Abbildung hervorgeht.
+Nun können Sie den Parameter _Lebenshaltungskosten_ entfernen und den Divisor durch Ändern der Formel in folgenden Wert verringern: 
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep1.png)
+    Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
 
-Da die Abfrage die Schritte nacheinander aufzeichnet, können wir unter **Angewendete Schritte**den Schritt vor der Typänderung auswählen und den Wert dieser Zelle vor der Transformation anzeigen (siehe Abbildung).
+Aktivieren Sie das Kontrollkästchen „Bearbeitungsleiste“, oder drücken Sie die **EINGABETASTE**. Die Daten sollten daraufhin durch geänderte Werte ersetzt werden und der Schritt **Hinzugefügte benutzerdefinierte Spalte** sollte nun *ohne Fehler*  durchgeführt werden.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystep2.png)
+> [!NOTE]
+> Sie können auch die Option **Fehler entfernen** (im Menüband oder Kontextmenü) verwenden, mit der fehlerhafte Zeilen entfernt werden. In diesem Fall würden damit alle Zeilen aus den Daten entfernt. Das möchten wir aber nicht, sondern wir möchten alle Daten in der Tabelle beibehalten.
 
-Nun können wir diese Werte korrigieren und *danach* den Typ ändern. Der Abfrage-Editor zeichnet die Schritte zwar nacheinander, aber unabhängig voneinander auf. Daher können Sie unter **Angewendete Schritte** die Schritte in der Reihenfolge nach oben oder unten verschieben. Klicken Sie einfach mit der rechten Maustaste auf einen Schritt, und der Abfrage-Editor stellt ein Kontextmenü mit folgenden Optionen bereit: **Umbenennen**, **Löschen**, **Bis zum** **Ende löschen** (entfernt den aktuellen und alle nachfolgenden Schritte) **Nach oben** oder **Nach unten**.
+Nun müssen wir die Daten basierend auf der Spalte **Neuer Rang** sortieren. Wählen Sie zuerst den zuletzt angewendeten Schritt **Typ1 geändert** aus, um die neuesten Daten abzurufen. Wählen Sie anschließend die Dropdownliste neben der Spaltenüberschrift **Neuer Rang** und dann **Aufsteigend sortieren** aus.
 
-![](media/desktop-shape-and-combine-data/shapecombine_querystepreorder.png)
+![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+
+Beachten Sie, dass die Daten nun nach **Neuer Rang** sortiert sind.  Wenn Sie sich jedoch die Spalte **Rang** ansehen, wird Ihnen auffallen, dass die Daten in Fällen, in denen der Wert **Neuer Rang** gleichwertig ist, nicht ordnungsgemäß sortiert wurden. Wählen Sie zur Behebung dieses Problems die Spalte **Neuer Rang** aus, und ändern Sie die Formel in der **Bearbeitungsleiste** in den folgenden Wert:
+
+    = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+
+Aktivieren Sie das Kontrollkästchen „Bearbeitungsleiste“, oder drücken Sie die **EINGABETASTE**. Die Zeilen sollten nun gemäß den beiden Spalten _Neuer Rang_ und _Rang_ sortiert werden.
 
 Außerdem können Sie unter **Angewendete Schritte** einen beliebigen Schritt in der Liste auswählen und die Strukturierung der Daten an diesem Punkt der Reihenfolge fortsetzen. Der Abfrage-Editor fügt unter **Angewendete Schritte**nach dem aktuell ausgewählten Schritt automatisch einen neuen Schritt ein. Probieren wir es aus.
 
-Zunächst wählen wir unter **Angewendete Schritte** den Schritt vor der Änderung des Typs der Spalte **Health care quality** aus. Dann ersetzten wir die Werte, die in der Zelle mit dem Text "(tie)" versehen sind so, dass nur noch die Zahlen erhalten bleiben. Klicken Sie mit der rechten Maustaste auf die Zelle mit dem Inhalt "35 (tie)", und wählen Sie *Werte ersetzen...* im angezeigten Kontextmenü aus. Achten Sie darauf, welcher Schritt unter **Angewendete Schritte** aktuell ausgewählt ist (der Schritt vor der Typänderung).
+Wählen Sie vor Hinzufügen der benutzerdefinierten Spalte zunächst den jeweiligen Schritt unter **Angewendete Schritte** aus, d.h. den Schritt _Entfernte Spalten_. An dieser Stelle wird der Wert der Rangfolge _Wetter_ in Arizona ersetzt. Klicken Sie mit der rechten Maustaste auf die Zelle, die die Rangfolge _Wetter_ von Arizona enthält, und wählen Sie *Werte ersetzen...* im angezeigten Kontextmenü aus. Achten Sie darauf, welcher Schritt unter **Angewendete Schritte** aktuell ausgewählt ist (der Schritt vor dem Schritt _Hinzugefügte benutzerdefinierte Spalte_).
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues.png)
+![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
 Da wir einen Schritt einfügen, warnt uns der Abfrage-Editor vor möglichen Konsequenzen - die nachfolgenden Schritte könnten u.U. beeinträchtigt und die Abfrage unbrauchbar werden. Wir müssen sorgfältig und mit Bedacht vorgehen! Da dies ein Tutorial ist und wir ein wirklich nützliches Feature der Abfrage zum Erstellen, Löschen, Einfügen und Neuordnen von Schritten veranschaulichen möchten, fahren wir fort und wählen **Einfügen** aus.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Dreimal ist eine Zahl mit dem Text "(tie)" versehen. Daher ersetzen wir alle drei Werte. Wenn Sie einen neuen angewendeten Schritt erstellen, benennt ihn der Abfrage-Editor nach der jeweiligen Aktion, in diesem Fall **Ersetzter Wert**. Wenn die Abfrage mehrere Schritte gleichen Namens enthält, versieht der Abfrage-Editor unter **Angewendete Schritte** jeden Folgeschritt zur Unterscheidung mit einer Nummer in der entsprechenden Reihenfolge.
+Ändern Sie den Wert in _51_. Die Daten für Arizona werden daraufhin ersetzt. Wenn Sie einen neuen angewendeten Schritt erstellen, benennt ihn der Abfrage-Editor nach der jeweiligen Aktion, in diesem Fall **Ersetzter Wert**. Wenn die Abfrage mehrere Schritte gleichen Namens enthält, versieht der Abfrage-Editor unter **Angewendete Schritte** jeden Folgeschritt zur Unterscheidung mit einer Nummer in der entsprechenden Reihenfolge.
 
-In der folgenden Abbildung sehen Sie in den **Abfrageeinstellungen** die drei Schritte **Ersetzter Wert**, aber noch etwas viel Interessanteres: Da wir alle Instanzen des Texts "(tie)" aus der Spalte **Health care quality** entfernt haben, wird der Schritt **Geänderter Typ** jetzt *ohne Fehler* ausgeführt.
-
-![](media/desktop-shape-and-combine-data/shapecombine_replacedvaluesok.png)
-
-> [!NOTE]
-> Sie können auch die Option **Fehler entfernen** (im Menüband oder Kontextmenü) verwenden, mit der fehlerhafte Zeilen entfernt werden. In diesem Fall würden damit alle Bundesstaaten aus den Daten entfernt, deren Zahlen mit dem Text *(tie)* versehen sind. Das möchten wir aber nicht, sondern wir möchten alle Bundesstaaten in der Tabelle behalten.
+Wählen Sie nun den letzten Schritt _Sortierte Zeilen_ unter **Angewendete Schritte** aus, und berücksichtigen Sie den Umstand, dass die Daten bezüglich der neuen Rangfolge von Arizona geändert wurden.  Dies ist darauf zurückzuführen, dass wir den Schritt _Ersetzter Wert_ an der richtigen Stelle eingefügt haben, nämlich vor dem Schritt _Hinzugefügte benutzerdefinierte Spalte_.
 
 Zugegeben, das war jetzt ein bisschen kompliziert, aber ein gutes Beispiel für die leistungsfähigen und vielseitigen Abfragefunktionen.
 
@@ -115,7 +137,7 @@ Zum Schluss möchten wir noch den Namen der Tabelle in einen aussagekräftigeren
 
 Das Ändern des Tabellennamen ist einfach: Geben Sie im Bereich **Abfrageeinstellungen** unter **Eigenschaften**einfach den neuen Namen der Tabelle ein (siehe Abbildung), und drücken Sie dann die **EINGABETASTE**. Wir nennen diese Tabelle *RetirementStats*.
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable.png)
+![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
 
 Die Daten sind nun soweit strukturiert, dass sie unseren Anforderungen entsprechen. Jetzt stellen wir eine Verbindung zu einer anderen Datenquelle her und kombinieren die Daten.
 
@@ -126,11 +148,11 @@ Glücklicherweise gibt es eine andere öffentliche Datenquelle, die genau das be
 
 <http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
-Wählen Sie im Abfrage-Editor im Menüband auf der Registerkarte **Start** die Optionen **Neue Quelle \> Web** aus. Geben Sie die Adresse ein, und klicken Sie auf „OK“. Im Navigator werden die Ergebnisse von dieser Webseite angezeigt.
+Wählen Sie im Abfrage-Editor im Menüband auf der Registerkarte **Start** die Optionen **Neue Quelle \> Web** aus. Geben Sie die Adresse ein, und klicken Sie auf **Verbinden**. Im Navigator werden die Ergebnisse von dieser Webseite angezeigt.
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator.png)
+ ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-Wählen Sie **Table[edit]** aus, da diese Tabelle die gewünschten Daten enthält. Sie muss aber noch strukturiert werden, damit diese Tabelle nur noch die gewünschten Daten enthält.
+Wählen Sie **Codes und Abkürzungen...** aus, da diese Tabelle die gewünschten Daten enthält. Sie muss aber noch strukturiert werden, damit diese Tabelle nur noch die gewünschten Daten enthält.
 
 > [!TIP]
 > Gibt es einen schnelleren oder einfacheren Weg, die nachstehenden Schritte auszuführen? Ja, Sie könnten eine *Beziehung* zwischen den beiden Tabellen erstellen und die Daten basierend auf dieser Beziehung strukturieren. Die folgenden Schritte sind immer noch hilfreich beim Lernen der Arbeit mit Tabellen. Nehmen Sie jedoch zur Kenntnis, dass Beziehungen dabei helfen können, Daten aus mehreren Tabellen schnell zu verwenden.
@@ -139,11 +161,14 @@ Wählen Sie **Table[edit]** aus, da diese Tabelle die gewünschten Daten enthäl
 
 Befolgen Sie die folgenden Schritte, um diese Daten zu strukturieren:
 
-* Entfernen Sie die beiden oberen Zeilen. Sie sind auf die Erstellungsweise der Webseitentabelle zurückzuführen und werden nicht gebraucht. Wählen Sie im Menüband auf der Registerkarte **Start** die Optionen **Zeilen verringern \> Zeilen entfernen \> Erste Zeilen entfernen** aus.
+* Entfernen Sie die oberste Zeile. Diese ist als Folge der Erstellungsweise der Webseitentabelle entstanden und wird nicht gebraucht. Wählen Sie im Menüband auf der Registerkarte **Start** die Optionen **Zeilen verringern \> Zeilen entfernen \> Erste Zeilen entfernen** aus.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
 Das Fenster **Erste Zeilen entfernen** wird angezeigt, in dem Sie angeben können, wie viele Zeilen Sie entfernen möchten.
+
+>[!NOTE]
+>Wenn Power BI die Tabellenüberschriften versehentlich als Zeile in der Datentabelle importiert, können Sie zur Korrektur der Tabelle auf der Registerkarte **Start** oder der Registerkarte **Transformieren** im Menüband **Erste Zeile als Überschrift verwenden** auswählen.
 
 * Entfernen Sie die letzten 26 Zeilen. Hierbei handelt es sich um Gebiete, die wir nicht brauchen. Wählen Sie im Menüband auf der Registerkarte **Start** die Optionen **Zeilen verringern \> Zeilen entfernen \> Letzte Zeilen entfernen** aus.
 
@@ -153,13 +178,9 @@ Das Fenster **Erste Zeilen entfernen** wird angezeigt, in dem Sie angeben könne
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Entfernen Sie ein paar überflüssige Spalten. Wir benötigen nur die Zuordnung der Bundesstaaten zu den offiziellen zweistelligen Länderkürzeln. Daher können wir die folgenden Spalten entfernen: **Column2**, **Column3** sowie **Column5** bis **Column10**. Wählen Sie zuerst **Column2** aus, und wählen Sie dann mit gedrückter STRG-TASTE die übrigen zu entfernenden Spalten aus (mit STRG können Sie mehrere, nicht angrenzende Spalten auswählen). Wählen Sie im Menüband auf der Registerkarte „Start“ die Optionen **Spalten entfernen \> Spalten entfernen** aus.
+* Entfernen Sie ein paar überflüssige Spalten. Wir benötigen nur die Zuordnung der Bundesstaaten zu den offiziellen zweistelligen Länderkürzeln. Daher können wir die folgenden Spalten entfernen: **Column1**, **Column3**, **Column4** sowie **Column6** bis **Column11**. Wählen Sie zuerst **Column1** aus, und wählen Sie dann mit gedrückter **STRG**-TASTE die übrigen zu entfernenden Spalten aus (mit STRG können Sie mehrere nicht angrenzende Spalten auswählen). Wählen Sie im Menüband auf der Registerkarte „Start“ die Optionen **Spalten entfernen \> Spalten entfernen** aus.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
-
-* Verwenden Sie die erste Zeile als Überschrift. Da wir die oberen drei Zeilen entfernt haben, ist die aktuelle oberste Zeile die benötigte Überschrift. Sie können **Erste Zeile als Überschriften verwenden** im Menüband entweder auf der Registerkarte **Start** oder auf der Registerkarte **Transformieren** auswählen.
-
-![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
 >[!NOTE]
 >An dieser Stelle sei darauf hingewiesen, dass die *Reihenfolge* der im Abfrage-Editor angewendeten Schritte wichtig ist und sich auf die Strukturierung der Daten auswirken kann. Berücksichtigt werden muss auch, wie sich ein Schritt auf einen anderen, nachfolgenden Schritt auswirkt. Wenn Sie also aus "Angewendete Schritte" einen Schritt entfernen, verhalten sich die nachfolgenden Schritte aufgrund des Einflusses der Schrittreihenfolge der Abfrage möglicherweise nicht mehr so, wie es ursprünglich beabsichtigt war.
@@ -179,17 +200,15 @@ Zum Kombinieren von Daten gibt zwei bevorzugte Möglichkeiten: *Zusammenführen*
 
 Wenn eine oder mehrere Spalten zu einer anderen Abfrage hinzugefügt werden sollen, werden die Abfragen **zusammengeführt** . Wenn einer vorhandenen Abfrage zusätzliche Datenzeilen hinzugefügt werden sollen, wird die Abfrage **angehangen** .
 
-Im vorliegenden Fall werden wir die Abfragen zusammenführen. Wählen Sie zunächst im linken Bereich des Abfrage-Editors die Abfrage aus, *mit der* die andere Abfrage zusammengeführt werden soll, in diesem Fall *RetirementStats*. Anschließend wählen Sie im Menüband auf der Registerkarte **Start\> die** Optionen Kombinieren **Abfragen** zusammenführen aus.
+Im vorliegenden Fall sollen Abfragen zusammengeführt werden. Wählen Sie zunächst im linken Bereich des Abfrage-Editors die Abfrage aus, *mit der* die andere Abfrage zusammengeführt werden soll, in diesem Fall *RetirementStats*. Anschließend wählen Sie im Menüband auf der Registerkarte **Start\> die** Optionen Kombinieren **Abfragen** zusammenführen aus.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 
 Möglicherweise werden Sie aufgefordert, die Sicherheitsstufen festzulegen, um sicherzustellen, dass die Daten kombiniert werden, ohne Daten mit einzuschließen oder zu übertragen, die Sie nicht einschließen oder übertragen möchten.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeriesb.png)
-
 Im Fenster **Zusammenführen** werden Sie aufgefordert, die Tabelle auszuwählen, die mit der ausgewählten Tabelle zusammengeführt werden soll. Anschließend müssen Sie die Spalten angeben, die für die Zusammenführung verwendet werden sollen. Wählen Sie „State“ in der Tabelle (Abfrage) *RetirementStats* und dann die Abfrage *StateCodes* aus. (Das ist in diesem Fall recht einfach, da es nur eine andere Abfrage gibt. Wenn Sie Verbindungen zu vielen Datenquellen herstellen, stehen hier viele Abfragen zur Auswahl.) Wenn Sie die übereinstimmenden Spalten – **State** aus *RetirementStats* und **State Name** aus *StateCodes* – richtig auswählen, sieht das Fenster **Zusammenführen** wie folgt aus, und die Schaltfläche **OK** ist aktiviert.
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge.png)
+![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
 Am Ende der Abfrage wird eine neue Spalte namens **NewColumn** erstellt, die den Inhalt der Tabelle (Abfrage) enthält, die mit der vorhandenen Abfrage zusammengeführt wurde. Alle Spalten der zusammengeführten Abfrage werden auf die neue Spalte **NewColumn** reduziert. Sie können jedoch die Tabelle **erweitern** und die gewünschten Spalten einbeziehen.
 
@@ -206,7 +225,7 @@ In unserem Fall benötigen wir nur die Spalte **State Code**. Daher wählen Sie 
 
 Wir haben jetzt eine einzelne Abfrage (Tabelle), in der zwei entsprechend den Anforderungen strukturierte Datenquellen miteinander kombiniert sind. Diese Abfrage kann als Grundlage für viele weitere interessante Datenverbindungen dienen, z. B. für Statistiken zu Wohnkosten, demografischen Daten oder Beschäftigungsmöglichkeiten in den einzelnen Bundesstaaten.
 
-Um die Änderungen zu übernehmen und den Abfrage-Editor zu schließen, wählen Sie im Menüband auf der Registerkarte **Start** die Option „Schließen und Anwenden“ aus. Das transformierte Dataset wird in Power BI Desktop angezeigt und kann zum Erstellen von Berichten verwendet werden.
+Um die Änderungen zu übernehmen und den Abfrage-Editor zu schließen, wählen Sie auf der Registerkarte **Start** des Menübands die Option **Schließen und Anwenden** aus. Das transformierte Dataset wird in Power BI Desktop angezeigt und kann zum Erstellen von Berichten verwendet werden.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
