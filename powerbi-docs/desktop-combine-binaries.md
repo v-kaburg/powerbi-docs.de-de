@@ -1,15 +1,15 @@
 ---
-title: "Kombinieren von Binärdateien in Power BI Desktop"
-description: "Einfaches Kombinieren binärer Datenquellen in Power BI Desktop"
+title: Kombinieren von (binären) Dateien in Power BI Desktop
+description: Einfaches Kombinieren von (binären) Datenquellen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,39 +18,39 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 395562dfecba4657ffa906494f81532febb6a11f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
-# <a name="combine-binaries-in-power-bi-desktop"></a>Kombinieren von Binärdateien in Power BI Desktop
+# <a name="combine-files-binaries-in-power-bi-desktop"></a>Kombinieren von (binären) Dateien in Power BI Desktop
 Ein sehr effizienter Ansatz zum Importieren von Daten in **Power BI Desktop** ist das Kombinieren mehrerer Dateien, die das gleiche Schema aufweisen, in einer einzelnen logischen Tabelle. Mit der **Power BI Desktop**-Version vom November 2016 (und Folgeversionen) wurde dieser beliebte Ansatz vereinfacht und erweitert, wie in diesem Artikel beschrieben.
 
-Wählen Sie **Daten abrufen > Datei > Ordner** aus, um mit dem Kombinieren von Binärdateien aus demselben Ordner zu beginnen.
+Wählen Sie **Daten abrufen > Datei > Ordner** aus, um mit dem Kombinieren von Dateien aus demselben Ordner zu beginnen.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-binaries-behavior"></a>Vorheriges Verhalten beim Kombinieren von Binärdateien
-Vor der **Power BI Desktop**-Version vom November 2016 konnten Sie bestimmte Dateitypen mithilfe der Transformation **Binärdateien kombinieren** kombinieren, jedoch galten dabei Einschränkungen:
+## <a name="previous-combine-files-binaries-behavior"></a>Vorheriges Verhalten beim Kombinieren von (binären) Dateien
+Vor der **Power BI Desktop**-Version vom November 2016 hieß diese Funktion **Binärdateien kombinieren**. Damit konnten Sie bestimmte Dateitypen mithilfe der Transformation **Binärdateien kombinieren** kombinieren, jedoch galten dabei Einschränkungen:
 
 * Transformationen waren nicht für jede einzelne Datei möglich, bevor die Dateien in einer einzelnen Tabelle kombiniert wurden. Daher mussten Sie häufig Dateien kombinieren und dann im Rahmen der Bearbeitung Zeilen filtern, um *Kopfzeilenwerte* herauszufiltern.
 * Die Transformation **Binärdateien kombinieren** wurde nur für *Text*- oder *CSV*-Dateien und nicht für andere unterstützte Dateiformate, z. B. Excel-Arbeitsmappen und JSON-Dateien, ausgeführt.
 
-Da Kunden eine intuitivere Ausführung des Vorgangs **Binärdateien kombinieren** wünschten, wurde die Transformation verbessert.
+Da Kunden eine intuitivere Ausführung des Vorgangs **Binärdateien kombinieren** wünschten, wurde die Transformation verbessert und in **Dateien kombinieren** umbenannt.
 
-## <a name="current-combine-binaries-behavior"></a>Aktuelles Verhalten beim Kombinieren von Binärdateien
-**Power BI Desktop** behandelt jetzt das **Kombinieren von Binärdateien** effektiver. Sie wählen zunächst **Binärdateien kombinieren** aus, entweder auf der Registerkarte **Start** des Menübands im **Abfrage-Editor** oder in der Spalte selbst.
+## <a name="current-combine-files-behavior"></a>Aktuelles Verhalten beim Kombinieren von Dateien
+In **Power BI Desktop** wird das **Kombinieren von (binären) Dateien** jetzt effektiver verarbeitet. Sie wählen zunächst **Dateien kombinieren** aus, entweder auf der Registerkarte **Start** des Menübands im **Abfrage-Editor** oder in der Spalte selbst.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-Die Transformation **Binärdateien kombinieren** weist jetzt das folgende Verhalten auf:
+Die Transformation **Dateien kombinieren** weist jetzt das folgende Verhalten auf:
 
-* Die Transformation **Binärdateien kombinieren** analysiert jede Eingabedatei und bestimmt das richtige zu verwendende Dateiformat, z. B. *Text*-, *Excel-Arbeitsmappen*- oder *JSON*-Datei.
+* Die Transformation **Dateien kombinieren** analysiert jede Eingabedatei und bestimmt das richtige zu verwendende Dateiformat, z.B. *Text*-, *Excel-Arbeitsmappen*- oder *JSON*-Datei.
 * Die Transformation ermöglicht Ihnen die Auswahl eines bestimmten Objekts aus der ersten Datei, z. B. einer *Excel-Arbeitsmappe*, das extrahiert werden soll.
   
   ![](media/desktop-combine-binaries/combine-binaries_3.png)
-* Die Transformation **Binärdateien kombinieren** führt dann automatisch die folgenden Schritte aus:
+* Über **Dateien kombinieren** werden anschließend automatisch folgende Abfragen ausgeführt:
   
   * Erstellen einer Musterabfrage, die alle erforderlichen Extraktionsschritte in einer einzelnen Datei ausführt.
   * Erstellen einer *Funktionsabfrage*, die die Datei-/Binäreingabe in die *Musterabfrage* parametrisiert. Die Musterabfrage und die Funktionsabfrage werden verknüpft, sodass Änderungen an der Musterabfrage in der Funktionsabfrage wiedergegeben werden.
@@ -58,7 +58,7 @@ Die Transformation **Binärdateien kombinieren** weist jetzt das folgende Verhal
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Mit dem neuen Verhalten von **Binärdateien kombinieren** können Sie alle Binärdateien in einem bestimmten Ordner einfach kombinieren, solange sie den gleichen Dateityp und die gleiche Struktur (z. B. die gleichen Spalten) aufweisen.
+Mit dem neuen Verhalten von **Dateien kombinieren** können Sie alle Dateien in einem bestimmten Ordner einfach kombinieren, solange sie den gleichen Dateityp und die gleiche Struktur (z.B. die gleichen Spalten) aufweisen.
 
 Außerdem können Sie einfach zusätzliche Transformations- oder Extraktionsschritte anwenden, indem Sie die automatisch erstellte *Musterabfrage* ändern. Dabei müssen Sie keine Schritte der *Funktionsabfrage* ändern und keine zusätzlichen Schritte für sie erstellen. Alle Änderungen an der *Musterabfrage* werden automatisch in der verknüpften *Funktionsabfrage* generiert.
 
