@@ -1,15 +1,15 @@
 ---
-title: "Freigeben von Dashboards, die mit einer Excel-Datei in OneDrive verbunden sind – Power BI"
-description: "Erfahren Sie, wie Sie Dashboards freigeben können, die mit einer Excel-Arbeitsmappe auf OneDrive for Business verbunden sind, und bei denen Sie Kacheln aus der Arbeitsmappe anheften."
+title: Freigeben von Dashboards, die mit einer Excel-Datei in OneDrive verbunden sind – Power BI
+description: Erfahren Sie, wie Sie Dashboards freigeben können, die mit einer Excel-Arbeitsmappe auf OneDrive for Business verbunden sind, und bei denen Sie Kacheln aus der Arbeitsmappe anheften.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

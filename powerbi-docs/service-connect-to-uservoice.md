@@ -1,15 +1,15 @@
 ---
 title: Herstellen einer Verbindung mit UserVoice mithilfe von Power BI
-description: "UserVoice für Power BI"
+description: UserVoice für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

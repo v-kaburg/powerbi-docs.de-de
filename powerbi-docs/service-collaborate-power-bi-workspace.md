@@ -1,15 +1,15 @@
 ---
 title: Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
-description: "Informieren Sie sich über die Zusammenarbeit an Power BI Desktop-Dateien in Ihrem App-Arbeitsbereich sowie über die Verwendung von Office 365-Diensten, z.B. über das Freigeben von Dateien in OneDrive for Business, Unterhaltungen in Exchange, im Kalender und in Aufgaben."
+description: Informieren Sie sich über die Zusammenarbeit an Power BI Desktop-Dateien in Ihrem App-Arbeitsbereich sowie über die Verwendung von Office 365-Diensten, z.B. über das Freigeben von Dateien in OneDrive for Business, Unterhaltungen in Exchange, im Kalender und in Aufgaben.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

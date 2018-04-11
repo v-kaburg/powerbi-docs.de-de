@@ -1,15 +1,15 @@
 ---
-title: "Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket – Power BI"
-description: "Hier erhalten Sie Informationen zum Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket durch Löschen des Datasets in Power BI."
+title: Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket – Power BI
+description: Hier erhalten Sie Informationen zum Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket durch Löschen des Datasets in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

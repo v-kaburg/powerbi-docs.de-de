@@ -1,15 +1,15 @@
 ---
 title: Herstellen einer Verbindung mit Microsoft Azure Consumption Insights mithilfe von Power BI
-description: "Microsoft Azure Consumption Insights für Power BI"
+description: Microsoft Azure Consumption Insights für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

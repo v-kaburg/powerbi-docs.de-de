@@ -1,16 +1,16 @@
 ---
-title: "Erstellen von ausgewählten Fragen für Power BI Q&A"
-description: "Dokumentation zum Erstellen von ausgewählten Fragen für Power BI Q&A"
+title: Erstellen von ausgewählten Fragen für Power BI Q&A
+description: Dokumentation zum Erstellen von ausgewählten Fragen für Power BI Q&A
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

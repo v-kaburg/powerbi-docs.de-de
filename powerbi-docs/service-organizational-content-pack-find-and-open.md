@@ -1,15 +1,15 @@
 ---
-title: "Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen – Power BI"
-description: "Suchen und Öffnen von Organisationsinhaltspaketen in Power BI"
+title: Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen – Power BI
+description: Suchen und Öffnen von Organisationsinhaltspaketen in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

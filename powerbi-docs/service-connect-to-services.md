@@ -1,15 +1,15 @@
 ---
 title: Herstellung einer Verbindung mit den verwendeten Diensten mithilfe von Power BI
-description: "Stellen Sie eine Verbindung mit einer Reihe von Diensten her, die Sie zur Unterstützung Ihrer Geschäftstätigkeit einsetzen, z.B. Salesforce, Microsoft Dynamics CRM und Google Analytics."
+description: Stellen Sie eine Verbindung mit einer Reihe von Diensten her, die Sie zur Unterstützung Ihrer Geschäftstätigkeit einsetzen, z.B. Salesforce, Microsoft Dynamics CRM und Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
