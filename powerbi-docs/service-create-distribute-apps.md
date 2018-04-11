@@ -1,14 +1,14 @@
 ---
-title: "Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI"
-description: "Hier erfahren Sie, wie Sie Apps erstellen und veröffentlichen. Eine App ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für Ihre Organisation bereitzustellen."
+title: Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
+description: Hier erfahren Sie, wie Sie Apps erstellen und veröffentlichen. Eine App ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für Ihre Organisation bereitzustellen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -107,7 +107,7 @@ Wenn die Dashboards und Berichte in Ihrem App-Arbeitsbereich fertig sind, veröf
 
 2. Wählen Sie rechts oben die Schaltfläche **App veröffentlichen** aus, um mit dem Freigeben aller Inhalte in diesem Arbeitsbereich zu beginnen.
    
-     ![Veröffentlichen der App](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+     ![App veröffentlichen](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. Geben Sie in **Details** die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Hintergrundfarbe festlegen, um die App zu personalisieren.
    

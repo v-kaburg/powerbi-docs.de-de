@@ -1,15 +1,15 @@
 ---
 title: 'Organisationsbezogene Inhaltspakete: Verwalten und Aktualisieren'
-description: "Erfahren Sie, wie Sie organisationsbezogene Inhaltspakete in Power BI verwalten, aktualisieren und löschen."
+description: Erfahren Sie, wie Sie organisationsbezogene Inhaltspakete in Power BI verwalten, aktualisieren und löschen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

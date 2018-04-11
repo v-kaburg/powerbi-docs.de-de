@@ -2,14 +2,14 @@
 title: Exportieren von Berichten aus Power BI nach PowerPoint (Preview)
 description: Erfahren Sie, wie Sie einen Power BI-Bericht nach PowerPoint exportieren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

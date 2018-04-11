@@ -34,5 +34,5 @@
 
 Der Arbeitsbereich wird in Power BI erstellt und geöffnet. Er wird in der Liste der Arbeitsbereiche angezeigt, deren Mitglied Sie sind. Da Sie Administrator sind, können Sie die Auslassungspunkte (...) auswählen, um zurückzukehren, und Änderungen vornehmen, neue Mitglieder hinzufügen oder deren Berechtigungen ändern.
 
-![Bearbeiten des Arbeitsbereichs](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Arbeitsbereich bearbeiten](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Einführung in organisationsbezogene Inhaltspakete in Power BI"
-description: "Erfahren Sie, wie Sie Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets in organisationsbezogene Inhaltspakete packen, die Sie für Ihre Kollegen freigeben können."
+title: Einführung in organisationsbezogene Inhaltspakete in Power BI
+description: Erfahren Sie, wie Sie Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets in organisationsbezogene Inhaltspakete packen, die Sie für Ihre Kollegen freigeben können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

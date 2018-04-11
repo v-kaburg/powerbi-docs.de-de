@@ -1,15 +1,15 @@
 ---
 title: Herstellen einer Verbindung mit Webtrends mithilfe von Power BI
-description: "Webtrends für Power BI"
+description: Webtrends für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

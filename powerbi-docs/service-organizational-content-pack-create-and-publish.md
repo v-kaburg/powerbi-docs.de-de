@@ -1,15 +1,15 @@
 ---
-title: "Erstellen und Veröffentlichen eines organisationsbezogenen Inhaltspakets – Power BI"
-description: "In diesem Tutorial erstellen Sie ein Organisationsinhaltspaket, schränken den Zugriff auf eine bestimmte Gruppe ein und veröffentlichen es in der Inhaltspaketbibliothek Ihrer Organisation in Power BI."
+title: Erstellen und Veröffentlichen eines organisationsbezogenen Inhaltspakets – Power BI
+description: In diesem Tutorial erstellen Sie ein Organisationsinhaltspaket, schränken den Zugriff auf eine bestimmte Gruppe ein und veröffentlichen es in der Inhaltspaketbibliothek Ihrer Organisation in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

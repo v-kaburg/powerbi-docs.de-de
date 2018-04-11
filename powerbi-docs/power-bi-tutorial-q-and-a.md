@@ -2,11 +2,11 @@
 title: 'Tutorial: Verwenden von Q&A in einem Dashboard oder einem Bericht'
 description: Tutorial zum Erstellen neuer Visualisierungen in Dashboards und Berichten mit Power BI Q&A
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

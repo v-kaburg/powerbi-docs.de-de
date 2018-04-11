@@ -1,15 +1,15 @@
 ---
 title: Verwalten Ihres App-Arbeitsbereichs in Power BI und Office 365
-description: "App-Arbeitsbereiche in Power BI stellen eine Umgebung für die Zusammenarbeit dar, die auf Office 365-Gruppen basiert. Verwalten Sie Ihre App-Arbeitsbereiche sowohl in Power BI als auch in Office 365."
+description: App-Arbeitsbereiche in Power BI stellen eine Umgebung für die Zusammenarbeit dar, die auf Office 365-Gruppen basiert. Verwalten Sie Ihre App-Arbeitsbereiche sowohl in Power BI als auch in Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

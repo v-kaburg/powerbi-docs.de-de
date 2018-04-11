@@ -1,15 +1,15 @@
 ---
 title: Herstellen einer Verbindung mit Xero mithilfe von Power BI
-description: "Xero für Power BI"
+description: Xero für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

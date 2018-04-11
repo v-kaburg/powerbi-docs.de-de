@@ -1,12 +1,12 @@
 ---
 title: Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
-description: "In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen."
+description: In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi
