@@ -1,40 +1,33 @@
 ---
-title: Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop (Vorschau)
+title: Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop
 description: Einfaches Verbinden mit und Verwenden von Adobe Analytics in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop (Vorschau)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop 
 In **Power BI Desktop** können Sie eine Verbindung mit **Adobe Analytics** herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden. 
 
 ![Abrufen von Daten aus Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Aktivieren der Vorschau für Adobe Analytics-Connector 
-Der **Adobe Analytics**-Connector ist derzeit als Vorschauversion verfügbar. Aktivieren Sie das Vorschaufeature, damit der Connector im Fenster **Daten abrufen** verfügbar ist. Wenn Sie das Connector-Vorschaufeature aktivieren möchten, wählen Sie in Power BI Desktop **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Lesezeichen**. 
-
-![Aktivieren der Vorschau für Adobe Analytics-Connector unter Optionen](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Zum Aktivieren der Vorschau für Adobe Analytics-Connector müssen Sie **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Herstellen einer Verbindung mit Adobe Analytics-Daten
 Wählen Sie in Power BI Desktop im Menüband **Start** die Option **Daten abrufen** aus, um eine Verbindung mit den **Adobe Analytics**-Daten herzustellen. Wählen Sie in den Kategorien auf der linken Seite **Onlinedienste** aus. Anschließend wird **Adobe Analytics-Connector** angezeigt.
