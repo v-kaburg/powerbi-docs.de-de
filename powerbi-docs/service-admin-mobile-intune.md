@@ -1,28 +1,28 @@
 ---
 title: Konfigurieren mobiler Apps mit Microsoft Intune
-description: "Informationen zum Konfigurieren der mobilen Power BI-Apps mit Microsoft Intune Dies umfasst das Hinzufügen und Bereitstellen der Anwendung sowie das Erstellen der Richtlinie für mobile Anwendungen zum Kontrollieren der Sicherheit."
+description: Informationen zum Konfigurieren der mobilen Power BI-Apps mit Microsoft Intune Dies umfasst das Hinzufügen und Bereitstellen der Anwendung sowie das Erstellen der Richtlinie für mobile Anwendungen zum Kontrollieren der Sicherheit.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2ac008a1b71a4e4df4e6515c85ec11e95dac7205
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c33fcbdfa93e38283e17b0842e1242634664be7a
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurieren mobiler Apps mit Microsoft Intune
 Microsoft Intune ermöglicht Organisationen das Verwalten von Geräten und Anwendungen. Die mobilen Power BI-Anwendungen für iOS und Android lassen sich in Intune integrieren, damit Sie die Anwendung auf Ihren Geräten verwalten und die Sicherheit kontrollieren können. Über Konfigurationsrichtlinien können Sie Einstellungen steuern, z. B. eine Zugriffs-PIN anfordern, festlegen, wie Daten von der Anwendung verarbeitet werden, und sogar Anwendungsdaten verschlüsseln, wenn die App nicht genutzt wird.

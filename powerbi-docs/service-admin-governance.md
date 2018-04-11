@@ -1,28 +1,28 @@
 ---
-title: "Ansätze für Governance und Bereitstellung"
-description: "In diesem Whitepaper erfahren Sie etwas über Konzepte, Optionen und Vorschläge für die Governance innerhalb der Power BI-Umgebung."
+title: Ansätze für Governance und Bereitstellung
+description: In diesem Whitepaper erfahren Sie etwas über Konzepte, Optionen und Vorschläge für die Governance innerhalb der Power BI-Umgebung.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Ansätze für Governance und Bereitstellung
 In den letzten Jahrzehnten haben zunehmend mehr Unternehmen erkannt, wie wichtig die strategische Nutzung von Datenressourcen zur Umwandlung von Marktchancen in Unternehmenserlöse ist. Durch Wettbewerbsanalysen oder Einblicke in betriebliche Abläufe verstehen viele Organisationen jetzt, dass sie von einer Datenstrategie profitieren können, da sie eine Möglichkeit bietet, der Konkurrenz einen Schritt voraus zu sein.  
