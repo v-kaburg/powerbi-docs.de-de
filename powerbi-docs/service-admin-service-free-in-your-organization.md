@@ -1,28 +1,28 @@
 ---
 title: Power BI Free in Ihrer Organisation
-description: "Dieser Artikel beschäftigt sich mit den Optionen zur Nutzung von Power BI Free aus Sicht einer Organisation. Administratoren für Mandanten erfahren, wie sie Registrierungen für die Free-Version verwalten."
+description: Dieser Artikel beschäftigt sich mit den Optionen zur Nutzung von Power BI Free aus Sicht einer Organisation. Administratoren für Mandanten erfahren, wie sie Registrierungen für die Free-Version verwalten.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ec266cd2631797a1bbbef686824f78b0f1e3e14a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI Free in Ihrer Organisation
 In diesem Artikel wird erläutert, wie Sie Power BI Free in Ihrer Organisation verwenden können. „Organisation“ bedeutet hier, dass Sie über einen Mandanten verfügen und Benutzer und Dienste in diesem Mandanten verwalten können. Als Administrator können Sie die Zuweisung von Lizenzen steuern, oder Sie können den Benutzern erlauben, sich individuell zu registrieren. Wir beschäftigen uns hier mit der Power BI Free-Lizenz und den Methoden, wie Sie eine individuelle Registrierung steuern können.

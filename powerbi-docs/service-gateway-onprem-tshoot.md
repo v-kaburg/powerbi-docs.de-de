@@ -3,7 +3,7 @@ title: Lokales Datengateway – Problembehandlung
 description: Dieser Artikel erläutert Wege, wie Sie Probleme behandeln können, die mit dem lokalen Datengateway auftreten. Er bietet eventuell Hilfestellungen für bekannte Probleme und nennt Tools, die Sie unterstützen.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 03/23/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
@@ -53,7 +53,7 @@ Der Fehler kann auch auf eine fehlerhafte Proxykonfiguration zurückzuführen se
 Informationen wurden vom Power BI-Dienst an das Gateway empfangen. Die Informationen wurden dem lokalen Windows-Dienst übergeben, aber nicht zurückgeliefert. Möglicherweise ist die Erstellung eines symmetrischen Schlüssels fehlgeschlagen. Die innere Ausnahme wird unter **Details anzeigen**angezeigt. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
 
 ### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>Fehler: Der Power BI-Dienst hat gemeldet, dass das lokale Gateway nicht erreichbar ist. Bitte starten Sie das Gateway neu, und versuchen Sie es erneut.
-Am Ende der Konfiguration wird Power BI-Dienst erneut aufgerufen, um das Gateway zu validieren. Der Power BI-Dienst hat dabei das Gateway nicht als *live* gemeldet. Das Neustarten des Windows-Diensts könnte bewirken, dass die Kommunikation anschließend erfolgreich ist. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
+Am Ende der Konfiguration wird Power BI-Dienst erneut aufgerufen, um das Gateway zu validieren. Der Power BI-Dienst hat dabei das Gateway nicht als *live*gemeldet. Das Neustarten des Windows-Diensts könnte bewirken, dass die Kommunikation anschließend erfolgreich ist. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Skriptfehler bei der Anmeldung bei Power BI
 Sie erhalten möglicherweise einen Skriptfehler, wenn Sie sich im Rahmen der Konfiguration des lokalen Datengateways bei Power BI anmelden. Das Problem sollte gelöst werden, wenn Sie das folgende Sicherheitsupdate installieren. Die Installation kann über Windows Update durchgeführt werden.
@@ -423,7 +423,7 @@ Die Fehlermeldung „-10709 Verbindungsfehler“ wird angezeigt, wenn Ihre Deleg
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>Verlauf aktualisieren
+### <a name="refresh-history"></a>Aktualisieren des Verlaufs
 Beim Verwenden des Gateways für die planmäßige Aktualisierung können Sie über die Option **Verlauf aktualisieren** erkennen, welche Fehler aufgetreten sind, und nützliche Daten für eine Supportanfrage abrufen. Sie können sowohl geplante Aktualisierungen als auch Aktualisierungen nach Bedarf anzeigen. Hier ist beschrieben, wie Sie zur Option **Verlauf aktualisieren**gelangen.
 
 1. Wählen Sie im Power BI-Navigationsbereich in **Datasets** für das Dataset &gt; Menü öffnen &gt;**Aktualisierung planen** aus.
