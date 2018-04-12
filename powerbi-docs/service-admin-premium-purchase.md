@@ -1,28 +1,28 @@
 ---
 title: Erwerben von Power BI Premium
-description: "Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalte für Ihre gesamte Organisation aktivieren können."
+description: Erfahren Sie, wie Sie Power BI Premium verwalten und den Zugriff auf Inhalte für Ihre gesamte Organisation aktivieren können.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
 Erfahren Sie, wie Sie Power BI-Premium-Kapazität für Ihre Organisation erwerben.
@@ -50,7 +50,7 @@ Wenn Sie über eine Organisation verfügen, müssen Sie entweder globaler Admini
 
 Gehen Sie wie folgt vor, um eine Premium-Kapazität zu erwerben.
 
-1. Wählen Sie im Power BI-Dienst in der **Office 365-App-Auswahl** > **Administrator** aus. Alternativ können Sie zum Office 365 Admin Center wechseln. Dorthin gelangen Sie, indem Sie zu „https://portal.office.com“ navigieren und **Administrator** auswählen.
+1. Wählen Sie im Power BI-Dienst in der **Office 365-App-Auswahl** > **Administrator** aus. Alternativ können Sie zum Office 365 Admin Center wechseln. Dorthin gelangen Sie, indem Sie zu https://portal.office.com navigieren und **Administrator** auswählen.
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. Wählen Sie **Abrechnung** > **Dienste erwerben** aus.
