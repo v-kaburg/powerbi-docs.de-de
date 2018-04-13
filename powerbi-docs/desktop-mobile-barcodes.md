@@ -1,14 +1,14 @@
 ---
-title: "Markieren eines Barcodefelds in Power BI Desktop für die mobilen Apps"
-description: "Wenn Sie in Ihrem Modell in Power BI Desktop ein Barcodefeld markieren, können Sie Daten für Barcodes in der Power-BI-App auf Ihrem iPhone automatisch filtern."
+title: Markieren eines Barcodefelds in Power BI Desktop für die mobilen Apps
+description: Wenn Sie in Ihrem Modell in Power BI Desktop ein Barcodefeld markieren, können Sie Daten für Barcodes in der Power-BI-App auf Ihrem iPhone automatisch filtern.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: acac005938eb5f97a4a745dd9be72540438ed6ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45cca153bbc65c5bad6c0f2ba8d41fbec4682ca5
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Markieren eines Barcodes in Power BI Desktop für die mobilen Apps
 In Power BI Desktop können Sie in einer Spalte [Daten kategorisieren](desktop-data-categorization.md), damit Power BI Desktop weiß, wie Werte in Visualisierungen in einem Bericht behandelt werden sollen. Sie können auch eine Spalte als **Barcode** kategorisieren. Wenn Sie oder Ihre Kollegen [einen Barcode auf einem Produkt mit der Power BI-App scannen](mobile-apps-scan-barcode-iphone.md), finden Sie auf dem iPhone jeden Bericht, der diesen Barcode enthält. Wenn Sie den Bericht in der mobilen App öffnen, filtert Power BI im Bericht automatisch nach Daten, die mit diesem Barcode verknüpft sind.
@@ -52,7 +52,7 @@ Die folgenden Barcodes erkennt Power BI, wenn Sie sie in einem Power BI-Bericht 
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Scannen eines Barcodes mit der Power BI-App auf dem iPhone](mobile-apps-scan-barcode-iphone.md)
-* [Probleme beim Scannen eines Barcodes](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [Probleme beim Scannen eines Barcodes mit einem iPhone](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md)  
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

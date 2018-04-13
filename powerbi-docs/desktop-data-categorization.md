@@ -2,14 +2,14 @@
 title: Datenkategorisierung in Power BI Desktop
 description: Datenkategorisierung in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Datenkategorisierung in Power BI Desktop
 In **Power BI Desktop** können Sie die Kategorie der Daten für eine Spalte angeben, damit Power BI Desktop weiß, wie es seine Werte in einer Visualisierung behandeln soll.
@@ -40,7 +40,7 @@ Soll Power BI Desktop die Codes in der Spalte „GeoCode“ als Abkürzung für 
 **So geben Sie eine Datenkategorie an**
 
 1. In der Berichtsansicht oder der Datenansicht wählen Sie in der Liste **Felder** das Feld aus, das nach einer anderen Kategorisierung sortiert werden soll.
-2. Klicken Sie im Menüband auf der Registerkarte für **Datenmodellierungs-Tools** auf die Dropdownliste **Datenkategorie:** .  Daraufhin wird eine Liste der möglichen Kategorien angezeigt, die Sie für die Spalte auswählen können.  Möglicherweise sind einige Optionen deaktiviert, wenn sie mit dem aktuellen Datentyp der Spalte nicht funktionieren.  Beispiel: Bei einer Spalte mit einem binären Datentyp erlaubt Power BI Desktop Ihnen nicht, geografische Datenkategorien auszuwählen. 
+2. Klicken Sie im Menüband auf der Registerkarte **Modellierung** auf die Dropdownliste **Datenkategorie:**.  Daraufhin wird eine Liste der möglichen Kategorien angezeigt, die Sie für die Spalte auswählen können.  Möglicherweise sind einige Optionen deaktiviert, wenn sie mit dem aktuellen Datentyp der Spalte nicht funktionieren.  Beispiel: Bei einer Spalte mit einem binären Datentyp erlaubt Power BI Desktop Ihnen nicht, geografische Datenkategorien auszuwählen. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 
