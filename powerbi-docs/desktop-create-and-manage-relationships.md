@@ -2,14 +2,14 @@
 title: Erstellen und Verwalten von Beziehungen in Power BI Desktop
 description: Erstellen und Verwalten von Beziehungen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd0f89766a07d468942735d5da0d99e5c6d1c87f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Erstellen und Verwalten von Beziehungen in Power BI Desktop
 Wenn Sie mehrere Tabellen importieren, werden Sie mit großer Wahrscheinlichkeit einige Analysen mit Daten aus allen diesen Tabellen durchführen. Beziehungen zwischen diesen Tabellen sind erforderlich, um die Ergebnisse genau zu berechnen und die richtigen Informationen in Ihren Berichten anzuzeigen. Mit Power BI Desktop können diese Beziehungen ganz leicht erstellt werden. Tatsächlich müssen Sie in den meisten Fällen keine weiteren Schritte unternehmen, da die AutoErmittlungsfunktion dies für Sie übernimmt. In einigen Fällen müssen Sie die Beziehungen jedoch möglicherweise selbst erstellen oder Änderungen an einer Beziehung vornehmen. In beiden Fällen ist es wichtig zu verstehen, wie Beziehungen in Power BI funktionieren und wie sie erstellt und bearbeitet werden.
@@ -40,38 +40,38 @@ Klicken Sie auf der Registerkarte **Start** auf **Beziehungen verwalten**\>**Aut
 2. Wählen Sie im Dialogfeld **Beziehung erstellen** in der ersten Dropdownliste für Tabellen eine Tabelle aus, und wählen Sie dann die Spalte aus, die Sie in der Beziehung verwenden möchten.
 3. In der zweiten Dropdownliste für Tabellen wählen Sie die andere Tabelle aus, die in die Beziehung einbezogen werden soll. Wählen Sie dann die andere zu verwendende Spalte aus, und klicken Sie auf **OK**.
 
-![](media/desktop-create-and-manage-relationships/manualrelationship.gif)
+![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Standardmäßig konfiguriert Power BI Desktop automatisch die Kardinalität (Richtung), Kreuzfilterrichtung und aktiven Eigenschaften für die neue Beziehung. Sie können diese jedoch bei Bedarf unter "Erweiterte Optionen" ändern. Weitere Informationen finden Sie im Abschnitt "Informationen zu erweiterten Optionen" weiter unten in diesem Artikel.
+Standardmäßig konfiguriert Power BI Desktop automatisch die Kardinalität (Richtung), Kreuzfilterrichtung und aktiven Eigenschaften für die neue Beziehung. Sie können diese jedoch bei Bedarf ändern. Weitere Informationen finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 
 ## <a name="edit-a-relationship"></a>Bearbeiten einer Beziehung
 1. Klicken Sie auf der Registerkarte **Start** auf **Beziehungen verwalten**.
 2. Wählen Sie im Dialogfeld **Beziehungen verwalten** die Beziehung aus, und klicken Sie dann auf **Bearbeiten**.
 
-## <a name="configure-advanced-options"></a>Konfigurieren der erweiterten Optionen
-Beim Erstellen oder Bearbeiten einer Beziehung können Sie erweiterte Optionen konfigurieren.  Die erweiterten Optionen werden standardmäßig auf Basis einer bestmöglichen Schätzung automatisch konfiguriert. Dies kann für jede Beziehung auf Basis der in den Spalten enthaltenen Daten unterschiedlich verlaufen.
+## <a name="configure-additional-options"></a>Konfigurieren zusätzlicher Optionen
+Beim Erstellen oder Bearbeiten einer Beziehung können Sie zusätzliche Optionen konfigurieren.  Die zusätzlichen Optionen werden standardmäßig auf Basis einer bestmöglichen Schätzung automatisch konfiguriert. Dies kann für jede Beziehung auf Basis der in den Spalten enthaltenen Daten unterschiedlich verlaufen.
 
 ## <a name="cardinality"></a>Kardinalität
 **N zu Eins (\*:1)** – Dies ist der am häufigsten verwendete Typ und somit der Standardtyp. Das bedeutet, dass die Spalte in einer Tabelle mehrere Instanzen eines Werts aufweisen kann, während die andere verknüpfte Tabelle, die häufig als Nachschlagetabelle bezeichnet wird, nur eine Instanz eines Werts besitzt.
 
 **Eins zu Eins (1:1)** – Dies bedeutet, dass die Spalte in einer Tabelle nur eine Instanz eines bestimmten Werts aufweist, wobei die andere verknüpfte Tabelle ebenfalls nur eine Instanz eines bestimmten Werts besitzt.
 
-Weitere Informationen über den geeigneten Zeitpunkt zum Ändern der Kardinalität finden Sie im Abschnitt "Informationen zu erweiterten Optionen" weiter unten in diesem Artikel.
+Weitere Informationen über den geeigneten Zeitpunkt zum Ändern der Kardinalität finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 
 ## <a name="cross-filter-direction"></a>Kreuzfilterrichtung
 **Beide** – Dies ist die am häufigsten verwendete und somit die Standardrichtung. Es bedeutet, dass beide Tabellen zu Filterzwecken so behandelt werden, als wären sie eine einzelne Tabelle.  Dies funktioniert problemlos mit einer einzelnen Tabelle, die über eine Reihe von Nachschlagetabellen verfügt, die sie umgeben.  Ein Beispiel dafür ist eine Tabelle von Ist-Umsatzwerten mit einer Nachschlagetabelle für Abteilung.  Dies wird häufig als Sternschema-Konfiguration bezeichnet (eine zentrale Tabelle mit mehreren Nachschlagetabellen).  Wenn Sie jedoch zwei oder mehr Tabellen haben, die ebenfalls über Nachschlagetabellen verfügen (wobei einige gemeinsam genutzt werden), empfiehlt es sich nicht, die Einstellung "Beide" zu verwenden.  Um mit dem vorherigen Beispiel fortzufahren: In diesem Fall Sie haben Sie auch eine Tabelle "Budgetverkauf", die das Zielbudget für jede Abteilung aufzeichnet.  Und die Abteilungstabelle ist sowohl mit der Umsatz- als auch mit der Budget-Tabelle verbunden.  Vermeiden Sie die Einstellung "Beide" für diese Art von Konfiguration.
 
 **Einfach** – Dies bedeutet, dass Filteroptionen in verknüpften Tabellen auf die Tabelle angewendet werden, in der die Werte aggregiert werden. Wenn Sie eine Power Pivot-Tabelle in ein Datenmodell von Excel 2013 oder früher importieren, weisen alle Beziehungen nur eine Richtung auf. 
 
-Weitere Informationen zum geeigneten Zeitpunkt zum Ändern der Kreuzfilterrichtung finden Sie im Abschnitt „Informationen zu erweiterten Optionen“, der später in diesem Artikel folgt.
+Weitere Informationen zum geeigneten Zeitpunkt zum Ändern der Kreuzfilterrichtung finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 
 ## <a name="make-this-relationship-active"></a>Aktivieren dieser Beziehung
 Wenn dieses Kontrollkästchen aktiviert ist, bedeutet dies, dass die Beziehung als aktive Standardbeziehung dient.  Wenn zwischen zwei Tabellen mehrere Beziehungen vorhanden sind, bietet die aktive Beziehung Power BI Desktop eine Möglichkeit, automatisch visuelle Elemente zu erstellen, die beide Tabellen einbeziehen.
 
-Weitere Informationen zum geeigneten Zeitpunkt zum Aktivieren einer bestimmten Beziehung finden Sie im Abschnitt „Informationen zu erweiterten Optionen“, der später in diesem Artikel folgt.
+Weitere Informationen zum geeigneten Zeitpunkt zum Aktivieren einer bestimmten Beziehung finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 
 ## <a name="understanding-relationships"></a>Informationen zu Beziehungen
-Nachdem Sie zwei Tabellen mit einer Beziehung verbunden haben, können Sie mit den Daten in beiden Tabellen arbeiten, als würde es sich um eine einzelne Tabelle handeln. Dadurch brauchen Sie sich nicht um Details der Beziehung kümmern oder diese Tabellen vor dem Importieren auf eine einzelne Tabelle reduzieren.  In vielen Situationen kann Power BI Desktop automatisch Beziehungen erstellen, sodass es möglicherweise für Sie nicht erforderlich ist, dies selbst zu tun. Wenn jedoch Power BI Desktop nicht mit hoher Zuverlässigkeit feststellen kann, dass eine Beziehung zwischen den beiden Tabellen besteht, wird die Beziehung nicht automatisch erstellt. In diesem Fall müssen Sie die Beziehung zu erstellen.   
+Nachdem Sie zwei Tabellen mit einer Beziehung verbunden haben, können Sie mit den Daten in beiden Tabellen arbeiten, als würde es sich um eine einzelne Tabelle handeln. Dadurch brauchen Sie sich nicht um Details der Beziehung kümmern oder diese Tabellen vor dem Importieren auf eine einzelne Tabelle reduzieren.  In vielen Situationen kann Power BI Desktop automatisch Beziehungen erstellen, sodass es möglicherweise für Sie nicht erforderlich ist, dies selbst zu tun. Wenn Power BI Desktop jedoch nicht mit hoher Zuverlässigkeit feststellen kann, dass eine Beziehung zwischen den beiden Tabellen besteht, wird die Beziehung nicht automatisch erstellt. In diesem Fall müssen Sie die Beziehung zu erstellen.   
 
 Führen wir ein kurzes Lernprogramm durch, um Ihnen besser zu vermitteln, wie Beziehungen in Power BI Desktop funktionieren.
 
@@ -123,18 +123,18 @@ Erinnern Sie sich an die Spalten, die in beiden Tabellen mit einem Projektnamen 
 
 Warum diese Spalten? Wenn wir die Spalte „Projekt“ in der Tabelle „Projektstunden“ betrachten, sehen wir Werte wie „Blau“, „Rot“, „Gelb“, „Orange“ usw. Tatsächlich sehen wir mehrere Zeilen, die denselben Wert enthalten. Tatsächlich liegen viele Farbwerte für „Projekt“ vor.
 
-Wenn wir die Spalte „Projektname“ in der Tabelle „UnternehmenProjekt“ betrachten, ist dort nur einer der einzelnen Farbwerte für „Projekt“ vorhanden. Jeder Farbwert in dieser Tabelle ist eindeutig, und das ist wichtig, da zwischen diesen beiden Tabellen eine Beziehung erstellt werden kann. In diesem Fall eine n:1-Beziehung. In einer n:1-Beziehung muss mindestens eine Spalte in einer der Tabellen eindeutige Werte enthalten. Es gibt für einige Beziehungen erweiterte Optionen, die wir später betrachten. Zunächst jedoch erstellen wir eine Beziehung zwischen den Spalten „Projekt“ Spalten in den beiden Tabellen.
+Wenn wir die Spalte „Projektname“ in der Tabelle „UnternehmenProjekt“ betrachten, ist dort nur einer der einzelnen Farbwerte für „Projekt“ vorhanden. Jeder Farbwert in dieser Tabelle ist eindeutig, und das ist wichtig, da zwischen diesen beiden Tabellen eine Beziehung erstellt werden kann. In diesem Fall eine n:1-Beziehung. In einer n:1-Beziehung muss mindestens eine Spalte in einer der Tabellen eindeutige Werte enthalten. Es gibt für einige Beziehungen zusätzliche Optionen, die später erläutert werden. Zunächst wird jedoch eine Beziehung zwischen den Spalten „Projekt“ in den beiden Tabellen erstellt.
 
 ### <a name="to-create-the-new-relationship"></a>So erstellen Sie eine neue Beziehung
 1. Klicken Sie auf **Beziehungen verwalten**.
-2. In **Beziehungen verwalten**klicken Sie auf **Neu**. Daraufhin wird das Dialogfeld **Beziehung erstellen** geöffnet, in dem die für unsere Beziehung gewünschten Tabellen, Spalten und erweiterten Einstellungen ausgewählt werden können.
+2. In **Beziehungen verwalten**klicken Sie auf **Neu**. Daraufhin wird das Dialogfeld **Beziehung erstellen** geöffnet, in dem die für die Beziehung gewünschten Tabellen, Spalten und zusätzliche Einstellungen ausgewählt werden können.
 3. Wählen Sie in der ersten Tabelle **Projektstunden**und dann die Spalte **Projekt** aus. Das ist die n-Seite („viele“) unserer Beziehung.
 4. Wählen Sie in der zweiten Tabelle **UnternehmenProjekt**und dann die Spalte **Projektname** aus. Dies ist die 1-Seite unserer Beziehung.  
 5. Fahren Sie fort, und klicken Sie sowohl im Dialogfeld **Beziehung erstellen** als auch im Dialogfeld **Beziehungen verwalten** auf **OK** .
 
 ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
 
-Im Interesse der vollständigen Offenlegung wurde diese Beziehung soeben auf manuelle Weise erstellt. Wir hätten auch einfach im Dialogfeld „Beziehungen verwalten“ auf die Schaltfläche „AutoErmittlung“ klicken können. Tatsächlich würde die AutoErmittlung dies bereits beim Laden der Daten für Sie erledigen, wenn beide Spalten den gleichen Namen haben. Aber wo bleibt da die Herausforderung?
+Im Interesse der vollständigen Offenlegung wurde diese Beziehung soeben auf manuelle Weise erstellt. Wir hätten auch einfach im Dialogfeld „Beziehungen verwalten“ auf die Schaltfläche „AutoErmittlung“ klicken können. Die automatische Erkennung erledigt dies bereits beim Laden der Daten für Sie, wenn beide Spalten den gleichen Namen haben. Aber wo bleibt da die Herausforderung?
 
 Betrachten wir die Tabelle jetzt erneut im Berichtszeichenbereich.
 
@@ -144,14 +144,14 @@ Das sieht doch schon viel besser aus, oder?
 
 Wenn wir die Stunden nach Priorität addieren, sucht Power BI Desktop nach jeder Instanz der eindeutigen Farbwerte in der Nachschlagetabelle „UnternehmenProjekt“ und dann nach jeder Instanz dieser Werte in der Tabelle „UnternehmenProjekt“, um dann für jeden eindeutigen Wert die Endsumme zu berechnen.
 
-Das war doch ziemlich einfach, und mithilfe der AutoErmittlung wäre es noch einfacher gewesen.
+Dieser Vorgang ist ziemlich einfach. Mit der automatischen Erkennung ist dieser sogar noch einfacher.
 
-## <a name="understanding-advanced-options"></a>Informationen zu erweiterten Optionen
-Wenn eine Beziehung entweder mithilfe der AutoErmittlung oder manuell erstellt wird, konfiguriert Power BI Desktop die erweiterten Optionen automatisch auf Basis der Daten in Ihren Tabellen. Sie können erweiterte Beziehungseigenschaften konfigurieren, indem Sie im Dialogfeld „Beziehung erstellen/bearbeiten“ die Option „Erweiterte Optionen“ erweitern.
+## <a name="understanding-additional-options"></a>Informationen zu zusätzlichen Optionen
+Wenn eine Beziehung entweder mithilfe der automatischen Erkennung oder manuell erstellt wird, konfiguriert Power BI Desktop die zusätzlichen Optionen automatisch auf Basis der Daten in Ihren Tabellen. Sie können die zusätzlichen Beziehungseigenschaften konfigurieren, die sich im untersten Bereich des Dialogfelds „Beziehung erstellen/bearbeiten“ befinden.
 
- ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
-Wie bereits erwähnt, werden diese in der Regel automatisch festgelegt, und Sie müssen sich nicht darum kümmern. Es gibt jedoch verschiedene Situationen, in denen Sie die erweiterten Optionen möglicherweise selbst konfigurieren möchten.
+Wie bereits erwähnt, werden diese in der Regel automatisch festgelegt, und Sie müssen sich nicht darum kümmern. Es gibt jedoch verschiedene Situationen, in denen Sie diese Optionen möglicherweise selbst konfigurieren möchten.
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Zukünftige Updates für die Daten erfordern eine andere Kardinalität
 Normalerweise kann Power BI Desktop automatisch die beste Kardinalität für die Beziehung bestimmen.  Wenn Sie jedoch die automatische Einstellung außer Kraft setzen müssen, weil Sie wissen, dass sich die Daten in der Zukunft ändern, können Sie die Auswahl über das Steuerelement „Kardinalität“ vornehmen. Betrachten wir ein Beispiel, in dem wir eine andere Kardinalität auswählen müssen.
@@ -179,7 +179,7 @@ Die nachfolgende Tabelle „UnternehmenPriorität“ stellt eine Liste aller Unt
 
 Wenn wir zwischen der Spalte „Projekt“ in der Tabelle „UnternehmenProjektPriorität“ und der Spalte „Genehmigte Projekte“ in der Tabelle „Projektbudget“ wie folgt eine Beziehung erstellen:
 
- ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj.png)
+ ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png)
 
 wird für die Kardinalität automatisch Eins-zu-Eins („1: 1“) und für die Kreuzfilterrichtung „Beide“ festgelegt (wie dargestellt).  Dies liegt daran, dass für Power BI Desktop die beste Kombination aus beiden Tabellen tatsächlich wie folgt aussieht:
 
@@ -219,9 +219,9 @@ Aber angenommen, Sie wissen, dass die Daten bei der nächsten Aktualisierung ge�
 | Blau |A |80000 |6/1/2013 |
 | Rot |B |90000 |6/1/2013 |
 
-In dieser neuen kombinierten Tabelle weist die Spalte „Projekt“ sich wiederholende Werte auf.  Die beiden ursprünglichen Tabellen weisen nach der Aktualisierung der Tabelle keine 1:1-Beziehung auf. Da wir wissen, dass zukünftige Updates in diesem Fall dazu führen, dass die Spalte „Projekt“ Duplikate enthält, möchten wir für die Kardinalität eine n:1-Beziehung (\*:1) festlegen, wobei sich die n-Seite auf der „Projektbudget“-Seite und die 1-Seite auf der „UnternehmenProjekt“-Seite befinden soll.
+In dieser neuen kombinierten Tabelle weist die Spalte „Projekt“ sich wiederholende Werte auf.  Die beiden ursprünglichen Tabellen weisen nach der Aktualisierung der Tabelle keine 1:1-Beziehung auf. Da in diesem Fall bekannt ist, dass zukünftige Updates dazu führen, dass die Spalte „Projekt“ Duplikate enthält, wird für die Kardinalität eine n:1-Beziehung festgelegt, wobei n „ProjectBudget“ entspricht und 1 „CompanyProjectPriority“.
 
-## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-of-relationships"></a>Anpassen der Kreuzfilterrichtung für einen komplexen Satz von Tabellen von Beziehungen
+## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>Anpassen der Kreuzfilterrichtung für einen komplexen Satz von Tabellen und Beziehungen
 Für die meisten Beziehungen wird die Kreuzfilterrichtung auf „Beide“ festgelegt.  Es gibt jedoch einige eher unübliche Umstände, unter denen Sie möglicherweise nicht die Standardoption festlegen, z. B. beim Importieren eines Modells, das mit einer älteren Version von Power Pivot erstellt wurde, in dem für jede Beziehung die Richtung „Einfach“ festgelegt ist. 
 
 Mithilfe der Einstellung „Beide“ kann Power BI Desktop alle Aspekte von verknüpften Tabellen so behandeln, als würde es sich um eine einzelne Tabelle handeln.  Es gibt jedoch einige Situationen, in denen Power BI Desktop für die Kreuzfilterrichtung einer Beziehung nicht „Beide“ festlegen kann und es für Berichtszwecke außerdem einen eindeutigen Satz von Standardwerten zur Verfügung stellen muss. Wenn für die Kreuzfilterrichtung der Beziehung nicht „Beide“ festlegt wird, liegt dies in der Regel daran, dass dies zur Mehrdeutigkeit führen würde.  Wenn die Standardeinstellung für die Kreuzfilterrichtung für Sie nicht geeignet ist, versuchen Sie, sie in Richtung einer bestimmten Tabelle oder auf „Beide“ festzulegen.
@@ -230,7 +230,7 @@ Die Kreuzfilterrichtung „Einfach“ funktioniert in vielen Situationen.  Wenn 
 
  ![](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 
-Bei der Kreuzfilterungsrichtung „Einfach“ können Sie einen Bericht erstellen, der die Projektstunden addiert. Dann können Sie nach „UnternehmenProjekt“, „Priorität“ oder „UnternehmenMitarbeiter“, „Ort“ zusammenfassen (oder filtern).   Wenn Sie jedoch die Anzahl der Mitarbeiter pro Projekt zählen möchten (eine seltenere Fragestellung) , funktioniert das nicht. Sie erhalten eine Spalte mit Werten, die alle identisch sind.  Im nachfolgenden Beispiel wird für beide Beziehungen für die Kreuzfilterrichtung die Option „Einfach“ mit Bezug auf die Tabelle „Projektstunden“ festgelegt:
+Bei der Kreuzfilterungsrichtung „Einfach“ können Sie einen Bericht erstellen, der die Projektstunden addiert. Dann können Sie nach „CompanyProject“, „Priority“ oder „CompanyEmployee“, „City“ zusammenfassen (oder filtern).   Wenn Sie jedoch die Anzahl der Mitarbeiter pro Projekt zählen möchten (eine seltenere Fragestellung), funktioniert das nicht. Sie erhalten eine Spalte mit Werten, die alle identisch sind.  Im nachfolgenden Beispiel wird für beide Beziehungen für die Kreuzfilterrichtung die Option „Einfach“ mit Bezug auf die Tabelle „Projektstunden“ festgelegt:
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
@@ -250,9 +250,9 @@ Die Kreuzfilterrichtung ist nicht für allgemeinere Strukturen geeignet, die sic
 
  ![](media/desktop-create-and-manage-relationships/candmrel_crossfilterwithloops.png)
 
-Wenn eine solche Tabellenstruktur mit Schleifen vorliegt, kann die Kreuzfilterung zu mehrdeutigen Beziehungssätzen führen. Wenn Sie z. B. ein Feld aus Tabelle „X“ zusammenfassen und anschließend nach einem Feld in Tabelle „Y“ filtern, dann ist nicht eindeutig, wie der Filter verlaufen soll, denn er kann die obere oder untere Tabelle durchqueren. Ein allgemeines Beispiel für diese Art von Struktur ist Tabelle „X“ als Umsatztabelle mit Ist-Umsatzdaten und Tabelle „Y“ mit Budgetdaten. Die Tabellen in der Mitte sind dann Nachschlagetabellen, die von beiden Tabellen genutzt werden, wie z. B. Division oder Region. 
+Wenn eine solche Tabellenstruktur mit Schleifen vorliegt, kann die Kreuzfilterung zu mehrdeutigen Beziehungssätzen führen. Wenn Sie z. B. ein Feld aus Tabelle „X“ zusammenfassen und anschließend nach einem Feld in Tabelle „Y“ filtern, dann ist nicht eindeutig, wie der Filter verlaufen soll, denn er kann die obere oder untere Tabelle durchqueren. Ein allgemeines Beispiel für diese Art von Struktur ist „TableX“ als Umsatztabelle mit tatsächlichen Daten und „TableY“ mit Budgetdaten. Die Tabellen in der Mitte sind dann Nachschlagetabellen, die von beiden Tabellen genutzt werden, wie z. B. Division oder Region. 
 
-Wie bei aktiven/inaktiven Beziehungen gestattet es Power BI Desktop nicht, für eine Beziehung „Beide“ festzulegen, wenn dies im Bericht zur Uneindeutigkeit führt. Es gibt verschiedene andere Möglichkeiten, wie Sie damit zurecht kommen. Dies sind die beiden am häufigsten verwendeten Methoden:
+Wie bei aktiven/inaktiven Beziehungen gestattet es Power BI Desktop nicht, für eine Beziehung „Beide“ festzulegen, wenn dies im Bericht zur Uneindeutigkeit führt. Es gibt verschiedene andere Möglichkeiten, dies durchzuführen. Im Folgenden werden die beiden am häufigsten verwendeten Methoden erläutert:
 
 * Löschen Sie Beziehungen, oder markieren Sie sie als „inaktiv“, um die Mehrdeutigkeit zu reduzieren. Dann können Sie für die Kreuzfilterrichtung einer Beziehung möglicherweise die Option „Beide“ festlegen.
 * Führen Sie die Tabelle zweimal zu (beim zweiten Mal unter anderem Namen), um Schleifen zu beseitigen.  Dadurch erhält die Struktur der Beziehungen ein Sternschema.  Bei einem Sternschema kann für alle Beziehungen die Option „Beide“ festgelegt werden.
