@@ -2,14 +2,14 @@
 title: Verwenden von berechneten Spalten in Power BI Desktop
 description: Berechnete Spalten in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Verwenden von berechneten Spalten in Power BI Desktop
 Mit berechneten Spalten können Sie einer bereits in Ihrem Modell vorhandenen Tabelle neue Daten hinzufügen. Aber statt Werte abzufragen und sie aus einer Datenquelle in Ihre neue Spalte zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Spalte" in der Berichtsansicht erstellt.
 
-Im Gegensatz zu benutzerdefinierten Spalten, die als Teil einer Abfrage im Abfrage-Editor mithilfe von „Benutzerdefinierte Spalte hinzufügen“ erstellt werden, basieren berechnete Spalten, die in der Berichtsansicht oder in der Datenansicht erstellt werden, auf bereits in das Modell geladenen Daten. Sie können beispielsweise entscheiden, Werte aus zwei verschiedenen Spalten in zwei verschiedenen, aber aufeinander bezogenen Tabellen zu verketten, eine Addition auszuführen oder Teilzeichenfolgen zu extrahieren.
+Im Gegensatz zu benutzerdefinierten Spalten, die als Teil einer Abfrage im Abfrage-Editor mithilfe von „Benutzerdefinierte Spalte hinzufügen“ erstellt werden, basieren berechnete Spalten, die in der Berichtsansicht oder in der Datenansicht erstellt werden, auf bereits in das Modell geladenen Daten. Sie können sich beispielsweise dazu entschließen, Werte aus zwei verschiedenen Spalten in zwei verschiedenen, aber aufeinander bezogenen Tabellen zu verketten, eine Addition auszuführen oder Teilzeichenfolgen zu extrahieren.
 
 Die von Ihnen erstellten berechneten Spalten werden ebenso in der Liste "Felder" angezeigt wie jedes andere Feld, sie weisen jedoch ein besonderes Symbol auf, das seine Werte als Ergebnis einer Formel anzeigt. Sie können Ihre Spalten nach Belieben benennen und sie Berichtsvisualisierungen hinzufügen, genau wie andere Felder.
 
@@ -54,7 +54,7 @@ Jetzt hat Tyge das gewünschte Feld.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Und er kann es zusammen mit der Anzahl der Lieferungen zum Berichtszeichenbereich hinzufügen. Sehr schnell und mit minimalem Aufwand hat Tyge jetzt ein Feld für Stadt und Bundesstaat. Er kann dieses Feld nahezu beliebigen Visualisierungen hinzufügen. Tyge kann auch sehen, dass Power BI Desktop beim Erstellen einer Kartenvisualisierung sogar weiß, wie die Werte für Stadt und Bundesstaat in der neuen Spalte zu lesen sind.
+Und er kann es zusammen mit der Anzahl der Lieferungen zum Berichtszeichenbereich hinzufügen. Tyge kann jetzt schnell und einfach jedem Visualisierungstyp ein „City, State“-Feld hinzufügen. Tyge kann auch sehen, dass Power BI Desktop beim Erstellen einer Kartenvisualisierung sogar weiß, wie die „City, State“-Werte in der neuen Spalte zu lesen sind.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

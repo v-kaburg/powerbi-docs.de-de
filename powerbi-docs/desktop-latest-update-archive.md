@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 50dd3dcf791cd3f2e366957ad37c830b7f4c35f2
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -31,6 +31,61 @@ In diesem Artikel werden frühere Updates von **Power BI Desktop** beschrieben. 
 In den folgenden Abschnitten werden die Updates von **Power BI Desktop** der vorherigen Monate beschrieben.
 
 Sie können immer [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
+
+
+Wir haben uns gefreut, die Updates für März für **Power BI Desktop** veröffentlichen zu können.
+
+Bedeutung der Links neben den einzelnen Updates:
+
+* **[Video]**-Ausschnitte werden auf einer neuen Browserregisterkarte wiedergegeben, wenn das Feature erläutert wird.
+* Einige Features werden in einem **[Artikel]** ausführlich erläutert.
+* Die meisten Features werden im **[Blog]**-Beitrag zum monatlichen Update erläutert.
+* Und schließlich sind einige der Features selbsterklärend, sodass sie keinen Artikel und kein Video erfordern.
+
+Sie können das Video **Neueste Updates** auch direkt aus diesem Artikel von Beginn an ansehen. Hierzu klicken Sie einfach auf das Symbol **Wiedergeben** auf dem Videobild unter der Liste mit den Updates.
+
+In diesem Monat bietet **Power BI Desktop** die folgenden Updates:
+
+### <a name="reporting"></a>Berichterstellung
+
+* QuickInfos der Berichtsseite [[Video]](https://youtu.be/kuI6MMzDh34?t=16s) [[Artikel]]() [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Das Hinzufügen von Lesezeichen ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[Artikel]](desktop-bookmarks.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* Anzeigeeinheiten und Präzisionssteuerung für die Spalten „Tabelle“ und „Matrix“  [[Video]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[Artikel]](desktop-slicer-numeric-range.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* Deaktivieren des visuellen Headers im Lesemodus für einen Bericht [[Video]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* Verbesserte Standardplatzierung visueller Elemente [[Video]](https://youtu.be/kuI6MMzDh34?t=14m45s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
+
+### <a name="custom-visuals"></a>Benutzerdefinierte visuelle Elemente
+
+* Viele neue benutzerdefinierte visuelle Elemente [[Video]](https://youtu.be/kuI6MMzDh34?t=15m43s) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Datenkonnektivität
+
+* Verbesserungen des Visual Studio Team Services-Connectors [[Video]](https://youtu.be/kuI6MMzDh34?t=32m) [[Artikel]](desktop-multi-select.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* Verbesserungen des SAP HANA-Connectors [[Video]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * Multidimensionale Unterstützung für DirectQuery ist jetzt allgemein verfügbar
+  * Unterstützung für die Prüfung des SSL-Zertifikats
+* SAP BW DirectQuery ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* Der Azure Analysis Services-Connector ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
+
+### <a name="other"></a>Sonstige
+
+* Verbesserte Fehlerberichterstellung [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Artikel]](desktop-directquery-about.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* Anzeigen zuvor aufgetretener Fehler [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
+
+> [!NOTE]
+> Sie können sich auch [alle für Power BI Desktop verfügbaren Datenquellen ansehen](desktop-data-sources.md). Die Liste wird ständig erweitert, daher sollten Sie sie in regelmäßigen Abständen konsultieren.
+
+Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
+
+
+Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Video auch im Blogbeitrag.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
 
 
 ## <a name="february-2018-update-2555010521"></a>Update Februar 2018 (2.55.5010.521)
@@ -58,7 +113,7 @@ Im Februar 2018 wurden folgende Updates für **Power BI Desktop** veröffentlich
 * Durchsuchen der Bereiche „Formatierung“ und „Analyse“ [[Video]](https://youtu.be/KeVB5RwMzJo?t=14m46s) [[Artikel]](desktop-analytics-pane.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>Benutzerdefinierte Visualisierungen
+### <a name="custom-visuals"></a>Benutzerdefinierte visuelle Elemente
 
 * Benutzerdefinierte Visuals für Organisationen (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 

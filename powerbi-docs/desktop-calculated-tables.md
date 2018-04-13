@@ -2,14 +2,14 @@
 title: Verwenden von berechneten Tabellen in Power BI Desktop
 description: Berechnete Tabellen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Verwenden von berechneten Tabellen in Power BI Desktop
 Mit berechneten Tabellen können Sie dem Modell eine neue Tabelle hinzufügen. Aber anstatt Werte abzufragen und aus einer Datenquelle in die Spalten Ihrer neuen Tabelle zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Tabelle" in der Berichtsansicht oder der Datenansicht erstellt.
@@ -36,7 +36,7 @@ Genau so wie normale Tabellen können auch berechnete Tabellen Beziehungen zu an
 Berechnete Tabellen verwenden zum Berechnen von Ergebnissen [DAX](https://msdn.microsoft.com/library/gg413422.aspx) (Data Analysis Expressions), eine Formelsprache, die für das Arbeiten mit relationalen Daten, wie sie in Power BI Desktop verwendet werden, konzipiert ist. DAX beinhaltet eine Bibliothek aus über 200 Funktionen, Operatoren und Konstrukten, die eine enorme Flexibilität beim Erstellen von Formeln zum Berechnen von Ergebnissen für so ungefähr jede benötigte Datenanalyse verfügbar macht.
 
 ## <a name="lets-look-at-an-example"></a>Betrachten wir dazu ein Beispiel.
-Jan, Projektmanager bei Contoso, verfügt über eine Tabelle mit Mitarbeitern im Nordwesten und eine andere Tabelle mit Mitarbeitern im Südwesten. Jan möchte die beiden Tabellen zu einer einzelnen Tabelle zusammenfügen.
+Jan, Projektmanager bei Contoso, verfügt über eine Tabelle mit Mitarbeitern im Nordwesten und über eine Tabelle mit Mitarbeitern im Südwesten. Jan möchte die beiden Tabellen zu einer einzelnen Tabelle zusammenfügen.
 
 **Mitarbeiter im Nordwesten**
 
@@ -71,7 +71,15 @@ Berechnete Tabellen können durch einen DAX-Ausdruck definiert werden, der eine 
 
 Sie können berechnete Tabellen zusammen mit DAX verwenden, um eine Vielzahl von analytischen Problemen zu lösen. Dies ist nur eine kurze Einführung in berechnete Tabellen. Für den Einstieg zum Arbeiten mit berechneten Tabellen werden hier einige der gängigeren DAX-Tabellenfunktionen aufgeführt, die hilfreich sein könnten:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Siehe die [DAX-Funktionsreferenz](https://msdn.microsoft.com/ee634396.aspx) für diese und andere Tabellen, die DAX-Funktionen zurückgeben.
 
