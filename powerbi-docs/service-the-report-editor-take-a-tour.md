@@ -1,29 +1,29 @@
 ---
-title: "Schnellstart: Berichts-Editor – Verschaffen Sie sich einen Überblick"
-description: "Berichts-Editor – Verschaffen Sie sich einen Überblick"
+title: 'Schnellstart: Berichts-Editor – Verschaffen Sie sich einen Überblick'
+description: Berichts-Editor – Verschaffen Sie sich einen Überblick
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Berichts-Editor – Verschaffen Sie sich einen Überblick
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Bearbeiten von Berichten im Power BI-Dienst und in Power BI Desktop
@@ -56,7 +56,6 @@ Der im Berichts-Editor angezeigte Inhalt variiert je nach ausgewählten Optionen
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>wird am Anfang des Bereichs „Visualisierung“ der Typ des verwendeten visuellen Elements angegeben; in diesem Beispiel ein gruppiertes Säulendiagramm.<br><br></li> <li>werden am Ende des Bereichs „Visualisierung“ (möglicherweise müssen Sie nach unten scrollen) die vom visuellen Element verwendeten Felder angezeigt. In diesem Diagramm werden „FiscalMonth“, „DistrictManager“ und „Total Sales Variance“ verwendet. <br><br></li><li>werden im Bereich „Filter“ (möglicherweise müssen Sie nach unten scrollen) alle Filter angezeigt, die angewendet wurden. <br><br></li><li>werden im Bereich „Felder“ die verfügbaren Tabellen und, wenn Sie den Namen einer Tabelle erweitern, die Felder aufgelistet, die diese Tabelle bilden. An gelber Schrift können Sie erkennen, dass mindestens ein Feld aus dieser Tabelle in der Visualisierung verwendet wird.<br><br></li><li>![Farbrollensymbol](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Klicken Sie auf das Farbrollensymbol, um den Formatierungsbereich der ausgewählten Visualisierung anzuzeigen.<br><br></li><li>![Lupensymbol](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Klicken Sie auf das Lupensymbol, um den Analysebereich anzuzeigen.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Bereich „Visualisierungen“ (von oben nach unten)
 ![Oben im Bereich „Visualisierungen“](media/service-the-report-editor-take-a-tour/selectviz.png)

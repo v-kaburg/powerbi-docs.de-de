@@ -1,28 +1,28 @@
 ---
-title: "Power BI für Office 365 wird eingestellt"
-description: "Power BI für Office 365 wird eingestellt. Erfahren Sie, wie Sie Power BI jetzt verwenden und verwalten."
+title: Power BI für Office 365 wird eingestellt
+description: Power BI für Office 365 wird eingestellt. Erfahren Sie, wie Sie Power BI jetzt verwenden und verwalten.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI für Office 365 wird eingestellt
 Power BI für Office 365, eine frühere Version von Power BI, wurde auf die aktuelle Version von [Power BI](https://powerbi.microsoft.com) umgestellt. Benutzer, die **Power BI für Office 365** verwendet haben, können jetzt die aktuelle Version von Power BI verwenden. Weitere Informationen über [Power BI](service-get-started.md)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
 Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht.
@@ -48,7 +48,6 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 |Aufgabe  | Leseansicht  | Bearbeitungsansicht |
 |-------------------------|-------|-------|
 |**Berichte, allgemein**  |
-||||
 | [Erstellen oder Bearbeiten eines Berichts](service-report-create-new.md) | Nein  | Ja |
 | [Freigeben eines Berichts](service-share-reports.md)| Ja | Ja, außerdem Verwalten von Berechtigungen, einschließlich Zuweisen der Berechtigung *Besitzer*. |
 | [Erstellen von permanenten Filtern auf Visualebene, Drillthrough-Filtern sowie Filtern auf Seiten- und Berichtsebene im Bereich „Filter“](power-bi-report-add-filter.md) | Nein  | Ja |
@@ -63,12 +62,10 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 | [Speichern eines Berichts](service-report-save.md) | Ja, aber nur mit **Speichern unter**. | Ja |
 | [Löschen eines Berichts](service-delete.md) | Nein  | Ja |
 |**Berichtseiten** |
-||||
 | [Hinzufügen oder Umbenennen einer Berichtseite](power-bi-report-add-page.md)  | Nein  | Ja  |
 | [Duplizieren einer Berichtseite](power-bi-report-copy-paste-page.md) | Nein  | Ja |
 | [Löschen einer Berichtseite](service-delete.md) | Nein | Ja |
 |**Arbeiten mit Berichtsvisualisierungen**|
-||||
 | [Hinzufügen von Visualisierungen zu einem Bericht](power-bi-report-add-visualizations-i.md) | Nein  | Ja |
 | [Hinzufügen von Textfeldern und Formen zu einem Bericht](power-bi-reports-add-text-and-shapes.md) | Nein  | Ja |
 | [Verwenden des Bereichs „Formatierung“ in einem Bericht](service-the-report-editor-take-a-tour.md) | Nein | Ja |

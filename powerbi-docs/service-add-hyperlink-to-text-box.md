@@ -1,32 +1,32 @@
 ---
-title: "Hinzufügen eines Links zu einem Textfeld in einem Bericht"
-description: "Hinzufügen eines Links zu einem Textfeld im Power BI-Dienst und in der Desktop-Version"
+title: Hinzufügen eines Links zu einem Textfeld in einem Bericht
+description: Hinzufügen eines Links zu einem Textfeld im Power BI-Dienst und in der Desktop-Version
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Hinzufügen eines Links zu einem Textfeld in einem Bericht
-Textfelder können zu Berichten hinzugefügt, aus Berichten an Dashboards angeheftet und direkt zu Dashboards hinzugefügt werden. Links können jedem Textfeld hinzugefügt werden, unabhängig davon, wo sich dieses befindet. **In diesem Thema werden Textfelder in Berichten im Power BI-Dienst (nicht in Power BI Desktop) behandelt.**
+Textfelder können zu Berichten hinzugefügt, aus Berichten an Dashboards angeheftet und direkt zu Dashboards hinzugefügt werden. Links können jedem Textfeld hinzugefügt werden, unabhängig davon, wo sich dieses befindet.  
 
 > **HINWEIS**: Informationen zu Links in Power BI-Tabellen und -Matrizen finden Sie unter [Links in Tabellen](power-bi-hyperlinks-in-tables.md). Informationen zum Hinzufügen von Textfeldern zu Ihrem **Dashboard** finden Sie unter [Hinzufügen einer Kachel direkt aus dem Dashboard](service-dashboard-add-widget.md). 
 > 
@@ -61,8 +61,6 @@ Textfelder können zu Berichten hinzugefügt, aus Berichten an Dashboards angehe
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Textfelder in Power BI-Berichten](power-bi-reports-add-text-and-shapes.md)
-
-[Hinzufügen eines Textfelds zu einem Dashboard](service-dashboard-add-widget.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
