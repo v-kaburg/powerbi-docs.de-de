@@ -2,15 +2,15 @@
 title: Anheften einer Kachel an ein Power BI-Dashboard aus Excel
 description: Heften Sie eine Kachel aus Excel an ein Power BI-Dashboard auf OneDrive for Business an. Anheften von Bereichen, Diagrammen, Tabellen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anheften einer Kachel an ein Power BI-Dashboard aus Excel
 Bevor Sie eine Kachel aus der Excel-Arbeitsmappe anheften können, müssen Sie diese Arbeitsmappe mit dem Power BI-Dienst („app.powerbi.com“) verbinden. Durch Verbinden einer Arbeitsmappe wird im Wesentlichen eine verknüpfte schreibgeschützte Version der Arbeitsmappe im Power BI-Dienst bereitgestellt, und Sie können Bereiche an Dashboards anheften. Sie können auch ein gesamtes Arbeitsblatt an ein Dashboard anheften.  
@@ -41,20 +41,19 @@ Wenn Sie **Verknüpfen** wählen, wird die Arbeitsmappe in Power BI genauso ange
 Sie können Ihre Arbeitsmappe in Power BI nicht bearbeiten. Sollten Sie aber Änderungen vornehmen müssen, können Sie auf der Registerkarte **Arbeitsmappen** Ihres Arbeitsbereichs das Stiftsymbol auswählen und die Arbeitsmappe dann in Excel Online bearbeiten oder lokal auf Ihrem Computer in Excel öffnen. Alle vorgenommenen Änderungen werden in der Arbeitsmappe in OneDrive gespeichert.
 
 1. Laden Sie die Arbeitsmappe auf OneDrive for Business hoch.
+
 2. Über Power BI [stellen Sie eine Verbindung mit der Arbeitsmappe her](service-excel-workbook-files.md), indem Sie **Daten abrufen > Dateien > OneDrive – Geschäftlich** auswählen und zum Speicherort der Excel-Datei navigieren. Wählen Sie die Datei aus, und wählen Sie **Verbinden > Verbinden**.
 
-   ![Dialogfeld „OneDrive for Business“](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Dialogfeld „OneDrive for Business“](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. Die Arbeitsmappe wird in Power BI der Registerkarte **Arbeitsmappen** des Arbeitsbereichs hinzugefügt.  Das Symbol ![Symbol „Arbeitsmappe“](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) gibt an, dass dies eine Excel-Arbeitsmappe ist, und das gelbe Sternchen gibt an, dass sie neu ist.
-   
     
-   ![Registerkarte „Arbeitsmappe“](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![Registerkarte „Arbeitsmappe“](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Öffnen Sie die Arbeitsmappe in Power BI, indem Sie den Namen der Arbeitsmappe auswählen.
 
     Änderungen an der Arbeitsmappe in Power BI werden nicht gespeichert und wirken sich nicht auf die ursprüngliche Arbeitsmappe auf OneDrive for Business aus. Wenn Sie Werte in Power BI sortieren, filtern oder ändern, können diese Änderungen nicht gespeichert oder angeheftet werden. Wenn Sie Änderungen vornehmen müssen, die gespeichert werden, klicken Sie oben rechts auf **Bearbeiten**, um sie zur Bearbeitung in Excel Online oder Excel zu öffnen. Es kann einige Minuten in Anspruch nehmen, bis die Kacheln auf den Dashboards mit den auf diese Weise vorgenommenen Änderungen aktualisiert wurden.
    
-   
-   ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Anheften eines Bereichs von Zellen an ein Dashboard
 Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](service-dashboard-tiles.md) ist, dies aus einer Excel-Arbeitsmappe in Power BI durchzuführen. Bereiche können aus Excel-Arbeitsmappen angeheftet werden, die in Ihrem OneDrive for Business oder einer anderen Dokumentbibliothek mit Gruppenfreigabe gespeichert wurden. Die Bereiche können Daten, Diagramme, Tabellen, PivotTables, PivotCharts und andere Excel-Elemente enthalten.

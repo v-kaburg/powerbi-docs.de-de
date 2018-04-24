@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Verwalten von Power BI in Ihrer Organisation
 Mit Microsoft Power BI können Benutzer Daten visualisieren, Erkenntnisse teilen und auf intuitive neue Art zusammenarbeiten. Weitere Informationen finden Sie unter [Erste Schritte mit Power BI](service-get-started.md).
@@ -185,8 +185,6 @@ Um die folgenden Schritte ausführen zu können, müssen Sie die neueste 64-Bit-
 Wenn Ihre Organisation bereits über eine Office 365-Umgebung verfügt und alle Benutzer in der Organisation über Office 365-Konten verfügen, ergeben sich keine Änderungen an der Identitätsverwaltung.
 
 Verfügt Ihre Organisation bereits über eine Office 365-Umgebung, in der jedoch nicht alle Benutzer mit einem Office 365-Konten ausgestattet sind, erstellen wir einen Benutzer im Mandanten und weisen Lizenzen anhand der Firmen- oder Schul-E-Mail-Adresse des Benutzers zu. Dies bedeutet, dass die Anzahl der von Ihnen verwalteten Benutzer zu einem bestimmten Zeitpunkt größer wird, wenn sich Benutzer in Ihrer Organisation für den Dienst registrieren.
-
-Wenn Sie Ihr Verzeichnis lokal verwalten und Active Directory Federation Services (AD FS) verwenden, fügt Microsoft Ihrem Mandanten keine Benutzer hinzu. Dann erhalten Benutzer, die Ihrem Mandanten beizutreten versuchen, eine Nachricht, dass sie sich mit dem Administrator Ihrer Organisation in Verbindung setzen sollen.
 
 Wenn Ihre Organisation nicht über eine Office 365-Umgebung verfügt, die mit Ihrer E-Mail-Domäne verbunden ist, ändert sich die Verwaltung der Identität für Sie nicht. Benutzer werden einem neuen, ausschließlich cloudseitigen Benutzerverzeichnis hinzugefügt, und Sie haben die Möglichkeit, als Mandantenadministrator deren Verwaltung zu übernehmen.
 
