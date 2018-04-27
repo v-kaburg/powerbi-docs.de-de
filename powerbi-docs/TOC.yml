@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Problembehandlung
       items:
-        - name: Beheben von Problemen beim Importieren von Access-Datenbanken und Excel-Tabellen in Power BI Desktop und Power Query
-          href: desktop-access-database-errors.md
+        - name: Lösen von Problemen bei der Anmeldung für Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Beheben von Problemen beim Starten von Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: Beheben von Problemen beim Importieren von Access-Datenbanken und Excel-Tabellen in Power BI Desktop und Power Query
+          href: desktop-access-database-errors.md
 - name: Mobile Apps für Power BI
   items:
     - name: Erste Schritte
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Arbeiten mit KPIs
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Unterstützte Datenquellen
+        - name: Datenquellen für Power BI-Berichte (PBIX)
           href: report-server/data-sources.md
-        - name: Verbinden mit Datenquellen
+        - name: Datenquellen für paginierte Berichte (RDL)
           href: report-server/connect-data-sources.md
         - name: 'Zugreifen auf freigegebene Datasets als OData-Feeds '
           href: report-server/access-dataset-odata.md
