@@ -1,15 +1,15 @@
 ---
-title: "Problembehandlung für die geplante Aktualisierung in Power BI-Berichtsserver"
-description: "In diesem Artikel werden die verfügbaren Ressourcen für die Behandlung von Problemen mit der geplanten Aktualisierung in Power BI-Berichtsserver erläutert."
+title: Problembehandlung für die geplante Aktualisierung in Power BI-Berichtsserver
+description: In diesem Artikel werden die verfügbaren Ressourcen für die Behandlung von Problemen mit der geplanten Aktualisierung in Power BI-Berichtsserver erläutert.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problembehandlung für die geplante Aktualisierung in Power BI-Berichtsserver
 In diesem Artikel werden die verfügbaren Ressourcen für die Behandlung von Problemen mit der geplanten Aktualisierung in Power BI-Berichtsserver erläutert.
@@ -60,7 +60,6 @@ Anhand der folgenden Einstellungen kann die geplante Aktualisierung konfiguriert
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |Aktiviert bzw. deaktiviert die Fähigkeit, importierte Daten in Berichten zu verwenden. Gültige Werte sind „True“ und „False“. |
 | MaxFileSizeMb |Maximale Dateigröße für hochgeladene Berichte. Die Standardeinstellung ist 1.000 MB (1 GB). Der Maximalwert ist 2.000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Legt fest, wie oft das Modell für die Entfernung aus dem Speicher überprüft wird. Die Standardeinstellung ist 15 Minuten. |
 | ModelExpirationMinutes |Legt anhand des Zeitpunkts der letzten Verwendung den Zeitraum bis zum Ablauf und zur Entfernung des Modells fest. Die Standardeinstellung ist 60 Minuten. |
