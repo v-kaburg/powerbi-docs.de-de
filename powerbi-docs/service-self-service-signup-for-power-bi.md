@@ -1,13 +1,13 @@
 ---
-title: "Registrieren für Power BI als Einzelperson"
-description: "Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen."
+title: Registrieren für Power BI als Einzelperson
+description: Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
@@ -68,7 +68,7 @@ Im Rest dieses Artikels wird erläutert, wie Sie sich für jede Option registrie
 Die Registrierung für ein Power BI Free-Konto geht besonders schnell. Bei diesem Konto fallen keine Kosten an, und Sie können viele Features des Diensts nutzen.
 
 > [!NOTE]
-> Wenn Sie die Meldung erhalten, dass Sie bereits registriert sind, rufen Sie „https://app.powerbi.com“ auf, und melden Sie sich an.
+> Wenn Sie die Meldung erhalten, dass Sie bereits registriert sind, rufen Sie https://app.powerbi.com auf, und melden Sie sich an.
 > 
 > 
 
@@ -88,7 +88,7 @@ Um sich für Power BI zu registrieren, können Sie wie folgt vorgehen.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Wählen Sie den Link in der E-Mail aus, um Ihre E-Mail-Adresse zu bestätigen. Dadurch gelangen Sie zurück in die Schrittfolge für die Registrierung. Sie müssen möglicherweise einige zusätzliche Informationen über sich selbst angeben.
-7. Sie werden dann zu „https://app.powerbi.com“ weitergeleitet und können Power BI kostenfrei nutzen.
+7. Sie gelangen dann zu https://app.powerbi.com und können Power BI als Benutzer der Free-Version nutzen.
 
 ### <a name="what-this-looks-like-within-the-service"></a>Darstellung innerhalb des Diensts
 Bei geöffnetem Dienst können Sie überprüfen, ob Sie über ein kostenloses Konto verfügen. Klicken Sie dazu auf das **Zahnradsymbol**, und wählen Sie dann **Persönlichen Speicher verwalten**.

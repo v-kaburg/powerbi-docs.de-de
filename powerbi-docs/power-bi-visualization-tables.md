@@ -1,29 +1,29 @@
 ---
-title: 'Tutorial: Tabellenvisualisierungen in Power BI-Berichten und -Dashboards (Tutorial)'
-description: "Tutorial zum Arbeiten mit Tabellenvisualisierungen in Power BI-Berichten und -Dashboards, einschließlich Erläuterungen zum Ändern der Spaltenbreite."
+title: Tabellenvisualisierungen in Power BI-Berichten und -Dashboards (Lernprogramm)
+description: Tutorial zum Arbeiten mit Tabellenvisualisierungen in Power BI-Berichten und -Dashboards, einschließlich Erläuterungen zum Ändern der Spaltenbreite.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Arbeiten mit Tabellen in Power BI-Berichten und -Dashboards (Lernprogramm)
 Eine Tabelle ist ein Raster, das zusammengehörende Daten in einer logischen Folge von Zeilen und Spalten enthält. Zudem können auch Kopfzeilen und eine Zeile für Summen enthalten sein. Tabellen empfehlen sich insbesondere für quantitative Vergleiche, bei denen Sie viele Werte einer einzigen Kategorie betrachten. In dieser Tabelle werden beispielsweise fünf verschiedene Measures für **Kategorie** angezeigt.
@@ -43,7 +43,7 @@ Tabellen sind für folgende Zwecke gut geeignet:
 > 
 ## <a name="prerequisites"></a>Voraussetzungen
  - Power BI-Dienst oder Power BI Desktop
- - Analysebeispiel für den Einzelhandel
+ - Retail Analysis sample
 
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
@@ -69,15 +69,21 @@ Es gibt viele Möglichkeiten zum Formatieren einer Tabelle, hier werden nur eini
 
 * Experimentieren Sie mit der Formatierung des Tabellenrasters. Hier haben wir ein blaues vertikales Raster hinzugefügt, Abstand zwischen den Zeilen hinzugefügt und die Kontur und den Text etwas vergrößert.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Bei den Spaltenüberschriften wurde die Hintergrundfarbe geändert, eine Gliederung hinzugefügt und die Schriftgröße vergrößert. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Unten sehen Sie die fertige Tabelle nach einigen weiteren Formatierungen. Da es so viele Formatierungsoptionen gibt, lernen Sie am besten, indem Sie mit einer einfachen Tabelle beginnen, den Formatierungsbereich ![](media/power-bi-visualization-tables/power-bi-format.png) öffnen und die verschiedenen Optionen ausprobieren. 
+
+* Sie können sogar einzelne Spalten und Spaltenheader formatieren. Erweitern Sie dazu zunächst die **Feldformatierung**, und wählen Sie die zu formatierende Spalte aus der Dropdownliste aus. Je nach Spaltenwerten können Sie über die Feldformatierung u.a Folgendes festlegen: Anzeigeeinheiten, Anzahl der Dezimalstellen, Hintergrund und Ausrichtung. Wenn Sie die Einstellungen angepasst haben, können Sie diese auch auf die Header und die Ergebniszeile anwenden.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Unten sehen Sie die fertige Tabelle nach einigen weiteren Formatierungen. Da es so viele Formatierungsoptionen gibt, lernen Sie am besten, indem Sie mit der Standardformatierung beginnen, den Formatierungsbereich ![](media/power-bi-visualization-tables/power-bi-format.png) öffnen und die verschiedenen Optionen ausprobieren. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

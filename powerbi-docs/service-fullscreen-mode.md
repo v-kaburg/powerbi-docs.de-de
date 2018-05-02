@@ -1,35 +1,39 @@
 ---
-title: Zeigen Sie Dashboards, Dashboardkacheln, Berichtsseiten und Berichtsvisualisierungen im Vollbildmodus an.
+title: Anzeigen von Dashboards, Kacheln, Berichtsseiten und -visuals im Vollbildmodus
 description: Zeigen Sie Dashboards, Dashboardkacheln, Berichtsvisuals und Berichtsseiten im Vollbildmodus (auch als *TV-Modus* bezeichnet) an.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Vollbildmodus in Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Vollbildmodus im Power BI-Dienst
 ## <a name="what-is-full-screen-mode"></a>Was ist der Vollbildmodus?
 ![Dashboardvollbildmodus vorher und nachher](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Zeigen Sie Ihre Inhalte (Dashboards, Berichtsseiten, Kacheln und Visualisierungen) ohne störende Menüs und Navigationsleisten an.  Sie erhalten jederzeit eine aufgeräumte vollständige Ansicht Ihrer Inhalte auf einen Blick. Dies wird gelegentlich auch als TV-Modus bezeichnet. Die im Vollbildmodus verfügbaren Funktionen variieren je nach Inhalt.  
+Zeigen Sie Ihre Power BI-Inhalte (Dashboards, Berichtsseiten, Kacheln und Visuals) ohne störende Menüs und Navigationsleisten an.  Sie erhalten jederzeit eine aufgeräumte vollständige Ansicht Ihrer Inhalte auf einen Blick. Dies wird gelegentlich auch als TV-Modus bezeichnet. Die im Vollbildmodus verfügbaren Funktionen variieren je nach Inhalt. 
+
+Wenn Sie Power BI Mobile verwenden, ist [der Vollbildmodus für mobile Windows 10-Apps verfügbar](mobile-windows-10-app-presentation-mode.md). In Power BI Desktop ist kein Vollbildmodus für Berichte oder Visuals enthalten. Es gibt allerdings die Option „An Seite anpassen“ für die [Beziehungsansicht](desktop-report-view.md) und den [Fokusmodus für Berichtsvisuals](service-focus-mode.md).
+
+ 
 
 Einige Verwendungsmöglichkeiten des Vollbildmodus:
 

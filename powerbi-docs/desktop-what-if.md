@@ -1,15 +1,15 @@
 ---
-title: "Verwenden von Was-wäre-wenn-Parametern zum Visualisieren von Variablen in Power BI Desktop"
-description: "Erstellen Sie eine eigene Was-wäre-wenn-Variable, um Variablen in Power BI-Berichten zu imaginieren und visualisieren"
+title: Verwenden von Was-wäre-wenn-Parametern zum Visualisieren von Variablen in Power BI Desktop
+description: Erstellen Sie eine eigene Was-wäre-wenn-Variable, um Variablen in Power BI-Berichten zu imaginieren und visualisieren
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Erstellen und Verwenden eines Was-wäre-wenn-Parameters zum Visualisieren von Variablen in Power BI Desktop
 Ab der **Power BI Desktop**-Version von August 2017 können Sie **Was-wäre-wenn**-Variables für Ihre Berichte erstellen, mit der Variablen als Slicer interagieren und auf diese Weise unterschiedliche wichtige Werte in den Berichten visualisieren und quantifizieren.
@@ -37,7 +37,7 @@ Wählen Sie zum Erstellen eines **Was-wäre-wenn**-Parameters die Schaltfläche 
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Stellen Sie Dezimalzahlen eine 0 voran, also in diesem Feld 0,50 und nicht ,50. Andernfalls wird die Zahl nicht ausgewertet, und die Schaltfläche **OK** kann nicht ausgewählt werden.
+> Stellen Sie Dezimalzahlen eine 0 voran, also 0,50 und nicht ,50. Andernfalls wird die Zahl nicht ausgewertet, und die Schaltfläche **OK** kann nicht ausgewählt werden.
 > 
 > 
 
@@ -49,7 +49,7 @@ Durch das Erstellen eines **Was-wäre-wenn**-Parameters wird auch ein Measure er
 
 ![](media/desktop-what-if/what-if_04.png)
 
-Beachten Sie, dass nach dem Erstellen eines **Was-wäre-wenn**-Parameters sowohl der Parameter als auch das Measure Teil des Modells werden. Sie sind somit im gesamten Bericht verfügbar und können auf anderen Berichtsseiten verwendet werden. Und da sie Teil des Modells sind, können Sie den Slicer von der Berichtsseite löschen. Wenn er wieder auf ihr enthalten sein soll, ziehen Sie einfach den Parameter **Was-wäre-wenn** aus der Liste **Felder** in den Zeichenbereich (ändern Sie dann das Visual in einen Slicer), um den **Was-wäre-wenn**-Parameter einfach wieder dem Bericht hinzuzufügen.
+Beachten Sie, dass nach dem Erstellen eines **Was-wäre-wenn**-Parameters sowohl der Parameter als auch das Measure Teil des Modells werden. Sie sind somit im gesamten Bericht verfügbar und können auf anderen Berichtsseiten verwendet werden. Da sie Teil des Modells sind, können Sie zudem den Slicer von der Berichtsseite löschen. Wenn er wieder auf ihr enthalten sein soll, ziehen Sie einfach den Parameter **Was-wäre-wenn** aus der Liste **Felder** in den Zeichenbereich (ändern Sie dann das Visual in einen Slicer), um den Parameter einfach wieder dem Bericht hinzuzufügen.
 
 ## <a name="using-a-what-if-parameter"></a>Verwenden eines Was-wäre-wenn-Parameters
 Lassen Sie uns ein einfaches Beispiel für die Verwendung eines **Was-wäre-wenn**-Parameters erstellen. Im vorherigen Abschnitt haben wir den **Was-wäre-wenn**-Parameter erstellt. Jetzt werden wir ihn auch verwenden, indem wir ein neues Measure erstellen, dessen Wert mit dem Schieberegler angepasst wird. Zu diesem Zweck erstellen wir ein neues Measure.

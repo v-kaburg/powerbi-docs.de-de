@@ -1,28 +1,28 @@
 ---
-title: "Bewährte Entwurfsmethoden für Berichte und Visualisierungen (Whitepaper)"
-description: "Whitepaper: Bewährte Methoden für den Entwurf von Berichten in Power BI"
+title: Bewährte Entwurfsmethoden für Berichte und Visualisierungen (Whitepaper)
+description: 'Whitepaper: Bewährte Methoden für den Entwurf von Berichten in Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Wenn Liniendiagramme der Standard für die Darstellung von Daten in Abhängigkei
 
 Ausführlichere Informationen zu Balken- und Säulendiagrammen finden Sie auf den folgenden Seiten:
 
-* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou) (Grundlagen von Balkendiagrammen)
+* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts) (Grundlagen von Balkendiagrammen)
 * [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Katalog zu Datenvisualisierungen: Balkendiagramm)
 * [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Katalog zu Datenvisualisierungen: Multiset-Balkendiagramm)
 
@@ -680,7 +680,7 @@ In diesem Liniendiagramm ist leicht erkennbar, dass der Umsatzanstieg für „Co
 * Wie bei Balken-/Säulendiagrammen auch, können Sie die horizontale oder die vertikale Anzeige wählen.   Die horizontale Anzeige ist die bessere Wahl, wenn Sie lange Beschriftungen verwenden, und die vertikale Anzeige hat Vorteile, wenn Sie Zeitreihendaten verwenden.  
 * Vermeiden Sie die Nutzung von gestapelten Balken-/Säulendiagrammen, wenn Sie Trends und andere Veränderungsmuster in Abhängigkeit der Zeit darstellen möchten.  Andere Diagramme, z.B. Liniendiagramme, sind für diese Aufgabe deutlich besser geeignet.
 * Sie können das Diagramm auch so einrichten, dass die Verteilung auf dem Gesamtvolumen oder einem Prozentsatz des Gesamtwerts basiert.  
-* Wie Stephen Few angemerkt hat*, ist es schwierig, die Segmente eines gestapelten Balkens zu vergleichen. Wenn die Segmente nebeneinander angeordnet werden und alle von der gleichen Grundlinie aus nach oben verlaufen, kann die Höhe leicht verglichen werden. Dies ist aber schwierig, wenn sie gestapelt werden. Außerdem ist zwar relativ leicht erkennbar, wie sich der Umsatz von Monat zu Monat geändert hat, aber es nicht einfach zu sehen, wie sich der Umsatz in anderen Kategorien geändert hat*.  
+* Wie Stephen Few angemerkt hat *, ist es schwierig, die Segmente eines gestapelten Balkens zu vergleichen. Wenn die Segmente nebeneinander angeordnet werden und alle von der gleichen Grundlinie aus nach oben verlaufen, kann die Höhe leicht verglichen werden. Dies ist aber schwierig, wenn sie gestapelt werden. Außerdem ist zwar relativ leicht erkennbar, wie sich der Umsatz von Monat zu Monat geändert hat, aber es nicht einfach zu sehen, wie sich der Umsatz in anderen Kategorien geändert hat*.  
 * Diagramme vom Typ „Gestapelt (100 %)“ sind eine gute Wahl, wenn Sie Prozentsätze verwenden, die zusammen den Wert 100 ergeben.  Im Beispiel unten ist die Kategorieverteilung nach Team zu sehen.  Die Prozentsätze sind relativ und ermöglichen das Erkennen von Mustern auf einen Blick. Der Umsatz von Everton stammt hauptsächlich aus der Kategorie „Broadcasting“ (über 70 %), während PSG nur 20 % seines Umsatzes in dieser Kategorie erzielt.  Wenn die horizontale Anzeige gewählt wird, ist mehr Platz für die Namen der Teams vorhanden, und die Auswirkung der Umsatzart ist besser erkennbar.
   
   ![](media/power-bi-visualization-best-practices/power-bi-deloite3.png)

@@ -2,27 +2,27 @@
 title: Tipps zum Gestalten von Power BI-Dashboards
 description: Tipps zum Gestalten von Power BI-Dashboards
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tipps zum Gestalten von Power BI-Dashboards
 Nachdem Sie ein Dashboard erstellt und einige Kacheln hinzugefügt haben, können Sie Ihr Dashboard ansprechend und funktionell gestalten. In der Regel bedeutet das, dass die wichtigsten Informationen hervorgehoben werden, sodass das Dashboard ordentlich und übersichtlich ist.
@@ -31,25 +31,28 @@ Nachfolgend finden Sie einige Tipps.
 
 > [!TIP]
 > Viele der Entwurfsgrundlagen für Berichte gelten auch für Dashboards.  Lesen Sie unser Whitepaper [Bewährte Entwurfsmethoden für Berichte und Visualisierungen](power-bi-visualization-best-practices.md).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Zielgruppe berücksichtigen
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Sehen Sie sich das [Webinar zur Dashboard-Überarbeitung](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html) an.
+Sehen Sie, wie Marc Reguera, leitender Programm-Manager und Power BI-Dashboard-Experte bei Microsoft [Dashboard-Überarbeitungen durchführt](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Zielgruppe berücksichtigen
 Wie lauten die wichtigsten Kennzahlen, um Entscheidungen zu treffen? Wie wird das Dashboard verwendet? Welche erlernten oder kulturellen Annahmen wirken sich möglicherweise auf die Gestaltung aus? Welche Informationen benötigt Ihre Zielgruppe, um erfolgreich zu sein?
 
 Bedenken Sie, dass das Dashboard eine Übersicht ist, mit der Sie den aktuellen Status der Daten prüfen können. Das Dashboard basiert auf zugrunde liegenden Berichten und Datasets, die möglicherweise unzählige Details enthalten. Die Leser können die Berichte über Ihr Dashboard aufrufen. Nehmen Sie daher nur die Details in das Dashboard auf, die Ihre Leser prüfen sollen.
 
 Wo wird das Dashboard angezeigt? Wird es auf einem großen Monitor angezeigt, können Sie mehr Inhalt einfügen. Wird es von Lesern auf Tablets angezeigt, ist es mit weniger Kacheln besser lesbar.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Alle Informationen auf einen Blick
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Alle Informationen auf einen Blick
 Dashboards sind dafür vorgesehen, auf einen Blick wichtige Informationen anzuzeigen. Idealerweise sollten daher alle Kacheln auf einem Bildschirm erscheinen. Können Sie Bildlaufleisten auf Ihrem Dashboard vermeiden?
 
 Ist das Dashboard unübersichtlich?  Entfernen Sie alles bis auf die wesentlichen Informationen, die leicht gelesen und interpretiert werden können.
 
-### <a name="make-use-of-full-screen-mode"></a>Nutzen des Vollbildmodus
+## <a name="make-use-of-full-screen-mode"></a>Nutzen des Vollbildmodus
 Zeigen Sie das Dashboard im [Vollbildmodus](service-fullscreen-mode.md) ohne störende Elemente an.
 
-### <a name="make-the-most-important-information-biggest"></a>Die wichtigsten Informationen in der größten Schrift anzeigen
+## <a name="make-the-most-important-information-biggest"></a>Die wichtigsten Informationen in der größten Schrift anzeigen
 Wenn die Texte und Visualisierungen auf Ihrem Dashboard alle gleich groß sind, haben die Leser Schwierigkeiten, sich auf das Wesentliche zu konzentrieren. So sind z. B. Kartenvisualisierungen eine gute Möglichkeit, wichtige Informationen anschaulich zu präsentieren:  
 ![Kartenvisualisierung](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Stellen Sie jedoch unbedingt Kontext bereit.
 
 Erfahren Sie, wie Sie [eine Kachel mit nur einer Nummer erstellen](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>Die wichtigsten Informationen in der oberen Ecke platzieren
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>Die wichtigsten Informationen in der oberen Ecke platzieren
 Die meisten Personen lesen von oben nach unten. Daher sollten die wichtigsten Details oben angezeigt werden und weitere Einzelheiten in der Leserichtung Ihrer Zielgruppe eingefügt werden (von links nach rechts, von rechts nach links)
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Die richtigen Visualisierungen für die Daten verwenden und diese in ein übersichtliches Format bringen
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Die richtigen Visualisierungen für die Daten verwenden und diese in ein übersichtliches Format bringen
 Vermeiden Sie zahlreiche Visualisierungen auf Kosten der Vielfalt.  Visualisierungen sollten ein Bild vermitteln und leicht zu „lesen“ und interpretieren sein.  Für einige Daten und Visualisierungen reicht eine einfache grafische Visualisierung aus. Möglicherweise erfordern andere Daten eine komplexere Visualisierung – verwenden Sie Titel und Beschriftungen sowie andere Anpassungen, um das Lesen zu erleichtern.  
 
 * [Wählen Sie die entsprechenden Datenvisualisierungen](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Seien Sie vorsichtig mit Diagrammen, die die Realität verzerren, z. B. 3D-Diagramme. Bedenken Sie, dass das Interpretieren bestimmter Kreisformen für das menschliche Gehirn schwierig ist. Kreisdiagramme, Ringdiagramme, Messgerätdiagramme und andere Arten von Kreisdiagrammen mögen nett aussehen, sind aber nicht die optimale Lösung für die Datenvisualisierung.
@@ -84,7 +87,6 @@ Wenn Sie die Gestaltung erstklassiger Dashboards perfektionieren möchten, infor
 * *Advanced Presentations* von Design by Andrew Abela   
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboards in Power BI](service-dashboards.md)  
+[Erstellen eines Dashboards aus einem Bericht](service-dashboard-create.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

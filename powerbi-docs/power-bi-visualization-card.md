@@ -1,28 +1,28 @@
 ---
-title: "Kartenvisualisierungen (auch als Kacheln für große Zahlen bezeichnet)"
+title: Kartenvisualisierungen (auch als Kacheln für große Zahlen bezeichnet)
 description: Erstellen von Kartenvisualisierungen in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Kartenvisualisierungen
 Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashboard oder Bericht nachverfolgen möchten, wie z.B. der Gesamtumsatz, der Marktanteil im Jahresverlauf oder die Gesamtverkaufschancen. Eine solche Visualisierung wird als *Karte* bezeichnet. Wie fast alle nativen Power BI-Visualisierungen können Karten im Berichts-Editor oder in Q&A erstellt werden.
@@ -91,6 +91,25 @@ Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. D
 - Wenn kein Fragefeld angezeigt wird, wenden Sie sich an den System- oder Mandantenadministrator.    
 - Wenn Sie die Desktop-Version verwenden und beim Klicken an eine leere Stelle im Bericht Q&A nicht geöffnet wird, müssen Sie diese Funktion möglicherweise aktivieren.  Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures > Q&A** aus, und starten Sie Power BI Desktop neu.
 
+## <a name="format-a-card"></a>Formatieren einer Karte
+Sie haben viele Möglichkeiten, Beschriftungen, Text, Farben usw. zu ändern. Der einfachste Weg, um dies zu lernen, ist eine Karten zu erstellen und dann den Formatierungsbereich zu erkunden. Hier sehen Sie ein paar Beispiele der verfügbaren Formatierungsoptionen. 
+
+1. Öffnen Sie den Formatierungsbereich, indem Sie das Pinselsymbol auswählen. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Erweitern Sie **Datenbeschriftung**, und verändern Sie die Farbe, die Größe und die Schriftfamilie. Wenn Sie Tausende Filialen haben, können Sie **Anzeigeeinheiten** verwenden, um die Anzahl der Filialen in Tausenderschritten anzeigen und die Dezimalstellen ebenso zu steuern. Beispielsweise 125,8k anstatt 125.832,00.
+
+3.  Erweitern Sie die **Kategoriebeschriftung**, und ändern Sie Farbe und Größe.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Erweitern Sie den **Hintergrund**, und verschieben Sie den Regler auf „On“ (Ein).  Sie können nun die Hintergrundfarbe und -transparenz ändern.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Machen Sie sich weiter mit den Formatoptionen vertraut, bis Ihre Karte so aussieht, wie Sie es sich vorstellen. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Dashboardkacheln in Power BI](service-dashboard-tiles.md)

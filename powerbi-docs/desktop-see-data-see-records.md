@@ -1,15 +1,15 @@
 ---
-title: "Daten und Datensätze in Power BI Desktop-Visualisierungen genauer betrachten"
-description: "Verwenden der Power BI Desktop-Funktionen „Daten anzeigen“ und „Datensätze anzeigen“ für Drilldowns"
+title: Daten und Datensätze in Power BI Desktop-Visualisierungen genauer betrachten
+description: Verwenden der Power BI Desktop-Funktionen „Daten anzeigen“ und „Datensätze anzeigen“ für Drilldowns
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ und „Datensätze anzeigen“ in Power BI Desktop
-In **Power BI Desktop** können Sie beliebige Visualisierungen genauer betrachten (Drilldown ins Detail) und die Textdarstellung der Daten oder einzelner Datenelemente einer bestimmten Visualisierung anzeigen. Diese Features werden auch als *Durchklick*, *Drillthrough* oder *Drillthrough zu den Details* bezeichnet.
+In **Power BI Desktop** können Sie beliebige Visualisierungen genauer betrachten (Drillthrough) und die Textdarstellung der zugrunde liegenden Daten oder einzelner Datensätze der ausgewählten Visuals anzeigen. Diese Features werden auch als *Durchklicken*, *Drillthrough* oder *Drillthrough zu den Details* bezeichnet.
 
-Mit **Datensätze anzeigen** können Sie die zugrunde liegenden Zeilen eines bestimmten Datenelements in einer Visualisierung anzeigen, mit **Daten anzeigen** die Textdarstellung der Werte einer Visualisierung. Bei der Verwendung von **Daten anzeigen** und **Datensätze anzeigen** gelten einige Einschränkungen, die am Ende dieses Artikels genannt werden.
+Mit **Daten anzeigen** können Sie die Textdarstellung der Werte einer ausgewählten Visualisierung anzeigen und mit **Datensätze anzeigen** die zugrunde liegenden Zeilen eines bestimmten Datensatzes oder Datenpunkts. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![„Daten anzeigen“ und „Datensätze anzeigen“](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ in Power BI Desktop
-Die Schaltfläche **Daten anzeigen** befindet sich auf der Registerkarte **Daten/Drillvorgang** im Abschnitt **Visuelle Tools** des Menübands.
+>[!IMPORTANT]
+>**Daten anzeigen** und **Datensätze anzeigen** unterstützen nur die folgenden Visualisierungstypen:
+>  - Balkendiagramm
+>  - Säulendiagramm
+>  - Ringdiagramm
+>  - Flächenkartogramm
+>  - Trichterdiagramm
+>  - Zuordnung
+>  - Kreisdiagramm
+>  - Treemap
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ in Power BI Desktop
 
-Sie können auch **Daten anzeigen**, indem Sie auf eine Visualisierung klicken und im nun angezeigten Menü **Daten anzeigen** wählen.
+**Daten anzeigen** zeigt Ihnen die einer Visualisierung zugrunde liegenden Daten. **Daten anzeigen** befindet sich auf der Registerkarte **Daten/Drillvorgang** im Abschnitt **Visuelle Tools** des Menübands.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![„Daten anzeigen“ im Menüband](media/desktop-see-data-see-records/see-data1.png)
+
+Sie können die Daten auch anzeigen, indem Sie mit der rechten Maustaste auf eine Visualisierung klicken und dann im Kontextmenü **Daten anzeigen** aufrufen. Alternativ können Sie auch auf die Auslassungspunkte (...) für **weitere Optionen** in der oberen rechten Ecke der Visualisierung klicken und **Daten anzeigen** auswählen.
+
+![„Daten anzeigen“ per Klick mit rechter Maustaste](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![„Daten anzeigen“ über „Weitere Optionen“](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
 > Sie müssen auf einen Datenpunkt im Visual zeigen, damit das Kontextmenü verfügbar ist.
-> 
-> 
 
-Bei der Option **Daten anzeigen** werden in **Power BI Desktop** die Visualisierung und die Daten, die Sie ausgewählt haben, in den Fokus genommen: Die Visualisierung und die Textdarstellung der Daten nehmen den gesamten Zeichenbereich ein. Die Visualisierung wird in der oberen Hälfte, die Daten werden in der unteren Hälfte des Zeichenbereichs angezeigt (siehe die folgende Abbildung). *Horizontale* Ansicht:
+Wenn Sie auf **Daten anzeigen****** klicken, wird im Power BI Desktop-Zeichenbereich sowohl das Visual als auch die Textdarstellung der Daten angezeigt. Das Visual wird in der *horizontalen Ansicht* in der oberen Hälfte der Zeichenfläche angezeigt und die Daten in der unteren. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![Horizontale Ansicht](media/desktop-see-data-see-records/see-data4a.png)
 
-Mit dem Symbol in der oberen rechten Ecke können Sie auch zu einer *vertikalen Ansicht* (und zurück zur *horizontalen Ansicht*) wechseln.
+Mit dem Symbol in der oberen rechten Ecke können Sie zwischen der*vertikalen Ansicht* und der horizontalen Ansicht wechseln.
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![Wechsel zur vertikalen Ansicht](media/desktop-see-data-see-records/see-data4.png)
 
-Um zum Bericht zurückzukehren, wählen Sie in der oberen linken Ecke des Zeichenbereichs **< Zurück zum Bericht**.
+Um zum Bericht zurückzukehren, wählen Sie in der oberen linken Ecke des Zeichenbereichs **< Zurück zum Bericht** aus.
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![Zurück zum Bericht](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Verwenden von „Datensätze anzeigen“ in Power BI Desktop
-Sie können den Fokus auch auf ein Datenelement einer Visualisierung legen und die zugrunde liegenden Daten genauer betrachten. Bei ausgewählter Visualisierung bestehen zwei Möglichkeiten, die Option **Datensätze anzeigen** zu verwenden: Entweder können Sie den Schalter **Datensätze anzeigen** im Menüband **Daten/Drillvorgang** aktivieren und dann auf ein Datenelement klicken, oder Sie können mit der rechten Maustaste auf ein Datenelement klicken und **Datensätze anzeigen** im Kontextmenü wählen.
+## <a name="use-see-records-in-power-bi-desktop"></a>Verwenden von „Datensätze anzeigen“ in Power BI Desktop
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+Sie können den Fokus auch auf einen Datensatz einer Visualisierung legen und die zugrunde liegenden Daten genauer betrachten. Um **Datensätze anzeigen** zu verwenden, klicken Sie auf eine Visualisierung, wählen Sie in der Registerkarte **Daten/Drilldown** im Teil **Visual Tools** des Menübands **Datensätze anzeigen** aus, und klicken Sie dann auf einen Datenpunkt oder eine Zeile in der Visualisierung. 
 
-> [!NOTE]
-> Wenn das ausgewählte Visual die Option **Datensätze anzeigen** nicht unterstützt, ist die Schaltfläche auf dem Menüband abgeblendet.
-> 
-> 
-
-Sobald die Option **Datensätze anzeigen** aktiviert ist, wird der Bildschirm in **Power BI Desktop** auf das ausgewählte Datenelement fokussiert, und im Zeichenbereich werden die Daten für dieses Element angezeigt (siehe die folgende Abbildung).
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![„Datensätze anzeigen“ im Menüband](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> Sie können keine Änderungen an Daten in einem Bericht speichern, die zu diesem Zeitpunkt in der Ansicht **See Records** (Datensätze anzeigen) von Benutzern abgerufen (oder geändert) werden.
+> Wenn die Schaltfläche **Datensätze anzeigen** im Menüband deaktiviert und ausgegraut ist, bedeutet dies, dass die ausgewählte Visualisierung **Datensätze anzeigen** nicht unterstützt.
 
-Mit der Schaltfläche **Zurück zum Bericht** in der oberen linken Ecke des Zeichenbereichs können Sie zum Bericht zurückkehren.
+Sie können auch mit der rechten Maustaste auf ein Datenelement klicken, und **Datensätze anzeigen** aus dem angezeigten Menü auswählen.
 
-## <a name="limitations"></a>Einschränkungen
-Bei der Verwendung der Optionen **Daten anzeigen** und **Datensätze anzeigen** sind einige Einschränkungen zu beachten:
+![„Datensätze anzeigen“ per Klick mit der rechten Maustaste](media/desktop-see-data-see-records/see-record2.png)
 
-* Die folgenden Visualisierungstypen werden unterstützt:
-  * **Balken**
-  * **Spalte**
-  * **Zuordnung**
-  * **Treemap-Diagramme**
-  * **Flächenkartogramm**
-  * **Kreisdiagramm**
-  * **Ringdiagramm**
-  * **Trichterdiagramm**
-* Wenn die Visualisierung ein berechnetes Measure beinhaltet, können Sie **Datensätze anzeigen** nicht verwenden.
-* Sie können **Datensätze anzeigen** nicht verwenden, wenn Sie mit einem aktiven mehrdimensionalen Modell (MD-Modell) verbunden sind.
+Wenn Sie **Datensätze anzeigen** für ein Datenelement auswählen, werden im Zeichenbereich von Power BI Desktop alle Daten angezeigt, die dem ausgewählten Element zugeordnet sind. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+Um zum Bericht zurückzukehren, wählen Sie in der oberen linken Ecke des Zeichenbereichs **< Zurück zum Bericht** aus.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>Für **Datensätze anzeigen** gelten folgende Einschränkungen:
+> - Sie können die Daten in der Ansicht **Datensätze anzeigen** nicht ändern und wieder im Bericht speichern.
+> - Wenn die Visualisierung ein berechnetes Measure beinhaltet, können Sie **Datensätze anzeigen** nicht verwenden.
+> - Sie können **Datensätze anzeigen** nicht verwenden, wenn Sie mit einem aktiven mehrdimensionalen Modell (MD-Modell) verbunden sind.
 
 ## <a name="next-steps"></a>Nächste Schritte
 In **Power BI Desktop** stehen verschiedene Features für das Formatieren von Berichten und die Datenverwaltung zur Verfügung. Die folgenden Ressourcen enthalten einige Beispiele:

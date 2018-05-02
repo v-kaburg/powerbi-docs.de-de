@@ -2,14 +2,14 @@
 title: Erstellen von Power BI-Visualisierungen mithilfe von R
 description: Erstellen von Power BI-Visualisierungen mithilfe von R
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Erstellen von Power BI-Visualisierungen mithilfe von R
 Mit **Power BI Desktop** können Sie **R** jetzt zum Visualisieren Ihrer Daten verwenden.
 
 ## <a name="install-r"></a>Installieren von R
-Das **R**-Modul ist in **Power BI Desktop** nicht enthalten und wird von Power BI Desktop nicht bereitgestellt oder installiert. Damit Sie R-Skripts in **Power BI Desktop** ausführen können, müssen Sie **R** gesondert auf dem lokalen Computer installieren. **R** können Sie an vielen Stellen im Internet kostenlos herunterladen und installieren, u.a. von der [Revolution R Open-Downloadseite](https://mran.revolutionanalytics.com/download/) und aus dem [CRAN-Repository](https://cran.r-project.org/bin/windows/base/). Die aktuelle Version der R-Skripterstellung in **Power BI Desktop** unterstützt Unicode-Zeichen ebenso wie Leerzeichen (leere Zeichen) im Installationspfad.
+Das **R**-Engine ist in **Power BI Desktop** nicht enthalten und wird von Power BI Desktop nicht bereitgestellt oder installiert. Damit Sie R-Skripts in **Power BI Desktop** ausführen können, müssen Sie **R** gesondert auf dem lokalen Computer installieren. **R** können Sie an vielen Stellen im Internet kostenlos herunterladen und installieren, u.a. von der [Revolution R Open-Downloadseite](https://mran.revolutionanalytics.com/download/) und aus dem [CRAN-Repository](https://cran.r-project.org/bin/windows/base/). Die aktuelle Version der R-Skripterstellung in **Power BI Desktop** unterstützt Unicode-Zeichen ebenso wie Leerzeichen (leere Zeichen) im Installationspfad.
 
 ## <a name="enable-r-visuals"></a>Aktivieren von R-Visuals
 Zum Aktivieren von R-Visualisierungen wählen Sie **Datei > Optionen und Einstellungen > Optionen** aus. Stellen Sie anschließend sicher, dass auf der Seite **Optionen** im Abschnitt **R-Skripterstellung** des Fensters **Optionen** die lokale Installation von R angegeben ist, wie in der folgenden Abbildung dargestellt. In der folgenden Abbildung lautet der lokale Installationspfad von R **C:\Program Files\R\R-3.2.0**. Dieser Pfad ist im Textfeld explizit angegeben. Stellen Sie sicher, dass der angezeigte Pfad die lokale Installation von R, die von **Power BI Desktop** verwendet werden soll, richtig wiedergibt.
@@ -41,21 +41,27 @@ Nachdem Sie Ihre Installation von R angegeben haben, können Sie mit dem Erstell
 1. Wählen Sie zum Hinzufügen eines visuellen R-Elements das Symbol **visuelle R-Elemente** im Bereich **Visualisierung**, wie im folgenden Bild dargestellt.
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. Wenn Sie einem Bericht ein visuelles R-Element hinzufügen, führt **Power BI Desktop** Folgendes aus:
+
+   Wenn Sie einem Bericht ein visuelles R-Element hinzufügen, führt **Power BI Desktop** Folgendes aus:
    
    - Im Berichtszeichenbereich wird ein Platzhalterbild für ein R-Visual angezeigt.
    
    - Am unteren Rand des mittleren Bereichs wird der **R-Skript-Editor** angezeigt.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. Fügen Sie anschließend wie in jeder anderen **Power BI Desktop**-Visualisierung dem Abschnitt **Werte** im Bereich **Felder** Felder hinzu, die im R-Skript verwendet werden sollen. Für das R-Skript sind nur Felder verfügbar, die dem Bereich **Felder** hinzugefügt wurden. Sie können im Bereich **Felder** neue Felder hinzufügen und nicht benötigte Felder entfernen, während Sie das R-Skript im **R-Skript-Editor von Power BI Desktop** bearbeiten. **Power BI Desktop** erkennt automatisch, welche Felder hinzugefügt oder entfernt wurden.
+
+2. Fügen Sie anschließend wie in jeder anderen **Power BI Desktop**-Visualisierung dem Abschnitt **Werte** im Bereich **Felder** Felder hinzu, die im R-Skript verwendet werden sollen. 
+    
+    Für Ihr R-Skript sind nur Felder verfügbar, die dem Bereich **Felder** hinzugefügt wurden. Sie können im Bereich **Felder** neue Felder hinzufügen und nicht benötigte Felder entfernen, während Sie das R-Skript im **R-Skript-Editor von Power BI Desktop** bearbeiten. **Power BI Desktop** erkennt automatisch, welche Felder hinzugefügt oder entfernt wurden.
    
    > [!NOTE]
    > Der Standardaggregationstyp für R-Visuals lautet *Nicht zusammenfassen*.
    > 
    > 
    
-1. Jetzt können Sie die Daten verwenden, die Sie zum Erstellen einer Zeichnung ausgewählt haben. Während Sie Felder auswählen, generiert der **R-Skript-Editor** unterstützenden, gebundenen R-Skript-Code basierend auf Ihrer Auswahl im grauen Abschnitt im oberen Bereich des Editors. Wenn Sie zusätzliche Felder auswählen oder entfernen, wird im R-Skript-Editor automatisch Unterstützungscode entsprechend generiert bzw. entfernt.
+3. Jetzt können Sie die Daten verwenden, die Sie zum Erstellen einer Zeichnung ausgewählt haben. 
+
+    Während Sie Felder auswählen, generiert der **R-Skript-Editor** unterstützenden, gebundenen R-Skript-Code basierend auf Ihrer Auswahl im grauen Abschnitt im oberen Bereich des Editors. Wenn Sie zusätzliche Felder auswählen oder entfernen, wird im R-Skript-Editor automatisch Unterstützungscode entsprechend generiert bzw. entfernt.
    
    Im Beispiel in der folgenden Abbildung wurden drei Felder ausgewählt: „hp“, „gear“ und „drat“. Aufgrund dieser Auswahl generiert der R-Skript-Editor den folgenden Bindungscode:
    
@@ -71,52 +77,52 @@ Nachdem Sie Ihre Installation von R angegeben haben, können Sie mit dem Erstell
    > 
    > 
    
-   Der generierte Datensatz wird als **Dataset**bezeichnet, und auf die ausgewählten Spalten kann über ihre Namen zugegriffen werden. Beispiel: Der Zugriff auf das Feld „gear“ erfolgt durch die Eingabe von *dataset$gear* im R-Skript. Verwenden Sie für Felder mit Leerzeichen oder Sonderzeichen einfache Anführungszeichen.
-2. Mit dem Datensatz, der automatisch anhand der von Ihnen ausgewählten Felder generiert wurde, können Sie R-Skript zum Erzeugen von Zeichnungen auf dem R-Standardgerät schreiben. Wenn das Skript abgeschlossen ist, wählen Sie **Ausführen** auf der Titelleiste des **R-Skript-Editors** aus (**Ausführen** befindet sich auf der rechten Seite der Titelleiste).
+   Der generierte Datensatz wird als **Dataset** bezeichnet, und Sie können auf die ausgewählten Spalten über ihre Namen zugreifen. Greifen Sie beispielsweise auf das Feld „gear“ zu, indem Sie *dataset$gear* in Ihr R-Skript schreiben. Verwenden Sie für Felder mit Leerzeichen oder Sonderzeichen einfache Anführungszeichen.
+
+4. Mit dem Datenrahmen, der automatisch anhand der von Ihnen ausgewählten Felder generiert wurde, können Sie ein R-Skript zum Erzeugen von Zeichnungen auf dem R-Standardgerät schreiben. Wenn das Skript abgeschlossen ist, wählen Sie **Ausführen** auf der Titelleiste des **R-Skript-Editors** aus (**Ausführen** befindet sich auf der rechten Seite der Titelleiste).
    
-    Bei Auswahl von **Ausführen** identifiziert **Power BI Desktop** die Zeichnung und stellt sie im Zeichenbereich dar.
-   Da der Vorgang in der lokalen R-Installation ausgeführt wird, stellen Sie sicher, dass die erforderlichen Pakete installiert sind.
+    Bei Auswahl von **Ausführen** identifiziert **Power BI Desktop** die Zeichnung und stellt sie im Zeichenbereich dar. Da der Vorgang in der lokalen R-Installation ausgeführt wird, stellen Sie sicher, dass die erforderlichen Pakete installiert sind.
    
    **Power BI Desktop** zeichnet die Visualisierung neu, wenn eines der folgenden Ereignisse eintritt:
    
-   * Auf der Titelleiste des **R-Skript-Editors** wird **Ausführen** ausgewählt
+   * Wenn Sie auf der Titelleiste des **R-Skript-Editors** **Ausführen** auswählen.
    * Bei jedem Ändern der Daten durch Aktualisieren, Filtern oder Hervorheben von Daten.
 
-Die folgende Abbildung zeigt ein Beispiel für den Korrelationszeichnungscode, wobei die Korrelationen zwischen Attributen verschiedener Autotypen gezeichnet werden.
+    Die folgende Abbildung zeigt ein Beispiel für den Korrelationszeichnungscode, wobei die Korrelationen zwischen Attributen verschiedener Autotypen gezeichnet werden.
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-Um eine größere Ansicht der Visualisierungen zu erhalten, können Sie den **R-Skript-Editor**minimieren. Und selbstverständlich können Sie die Korrelationszeichnung wie andere Visualisierungen in **Power BI Desktop** kreuzfiltern, indem Sie in der Ringdiagrammvisualisierung (im obigen Beispielbild die runde Visualisierung auf der rechten Seite) nur Sportwagen auswählen.
+5. Um eine größere Ansicht der Visualisierungen zu erhalten, können Sie den **R-Skript-Editor**minimieren. Selbstverständlich können Sie die Korrelationszeichnung wie andere Visuals in **Power BI Desktop** kreuzfiltern, indem Sie im Ringdiagrammvisual (im obigen Beispielbild die runden Visuals auf der rechten Seite) nur Sportwagen auswählen.
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-Sie können auch das R-Skript ändern, um die Visualisierung anzupassen, und die Funktionsvielfalt von R nutzen, indem Sie dem Zeichenbefehl Parameter hinzufügen.
+6. Sie können auch das R-Skript ändern, um die Visualisierung anzupassen, und die Funktionsvielfalt von R nutzen, indem Sie dem Zeichenbefehl Parameter hinzufügen.
 
-Der ursprüngliche Zeichenbefehl lautete wie folgt:
+    Der ursprüngliche Zeichenbefehl lautete wie folgt:
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-Mit einigen Änderungen im R-Skript lautet der Befehl jetzt folgendermaßen:
+    Mit einigen Änderungen im R-Skript lautet der Befehl jetzt folgendermaßen:
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-Deshalb zeichnet jetzt das visuelle R-Element Kreise, berücksichtigt nur die obere Hälfte und ordnet die Matrix neu an, um korrelierte Attribute zu gruppieren, wie in der folgenden Abbildung gezeigt.
+    Deshalb zeichnet jetzt das visuelle R-Element Kreise, berücksichtigt nur die obere Hälfte und ordnet die Matrix neu an, um korrelierte Attribute zu gruppieren, wie in der folgenden Abbildung gezeigt.
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-Wenn ein R-Skript ausgeführt wird, das einen Fehler verursacht, wird das visuelle R-Element nicht gezeichnet, und im Zeichenbereich wird eine Fehlermeldung angezeigt. Um Informationen zu dem Fehler zu erhalten, wählen Sie in der Fehlermeldung des visuellen R-Elements **Details anzeigen** aus.
+    Wenn ein R-Skript ausgeführt wird, das einen Fehler verursacht, wird das visuelle R-Element nicht gezeichnet, und im Zeichenbereich wird eine Fehlermeldung angezeigt. Um Informationen zu dem Fehler zu erhalten, wählen Sie in der Fehlermeldung des visuellen R-Elements **Details anzeigen** aus.
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **R-Skript-Sicherheit:** R-Visualisierungen werden aus R-Skripts erstellt, die Code mit Sicherheits- oder Datenschutzrisiken enthalten können. Wenn ein Benutzer eine R-Visualisierung zum ersten Mal aufruft oder damit interagiert, wird eine Sicherheitswarnmeldung angezeigt. Aktivieren Sie visuelle R-Elemente nur dann, wenn Sie dem Autor und der Quelle vertrauen, oder wenn Sie die zugehörigen Skripts überprüft und nachvollzogen haben.
-> 
-> 
+    > **R-Skript-Sicherheit:** R-Visualisierungen werden aus R-Skripts erstellt, die Code mit Sicherheits- oder Datenschutzrisiken enthalten können. Wenn ein Benutzer ein R-Visual zum ersten Mal aufruft oder damit interagiert, wird eine Sicherheitswarnmeldung angezeigt. Aktivieren Sie visuelle R-Elemente nur dann, wenn Sie dem Autor und der Quelle vertrauen, oder wenn Sie die zugehörigen Skripts überprüft und nachvollzogen haben.
+    > 
+    > 
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 Für visuelle R-Elemente in **Power BI Desktop** ergeben sich einige Einschränkungen:
 
 * Beschränkungen der Datengröße – die vom visuellen R-Element zum Zeichnen verwendeten Daten sind auf 150.000 Zeilen beschränkt. Bei Auswahl von mehr als 150.000 Zeilen werden nur die oberen 150.000 Zeilen verwendet, und im Bild wird eine Meldung angezeigt.
-* Beschränkung der Berechnungszeit – wenn die Berechnung des visuellen R-Elements 5 Minuten überschreitet, wird die Ausführung aufgrund der Zeitüberschreitung abgebrochen und eine Fehlermeldung angezeigt.
+* Beschränkung der Berechnungszeit: Wenn die Berechnung des visuellen R-Elements 5 Minuten überschreitet, wird die Ausführung aufgrund der Zeitüberschreitung abgebrochen und eine Fehlermeldung angezeigt.
 * Beziehungen – wie bei anderen Power BI Desktop-Visualisierungen tritt ein Fehler auf, wenn Datenfelder aus unterschiedlichen Tabellen ausgewählt werden, zwischen denen keine Beziehung definiert ist.
 * Visuelle R-Elemente werden aktualisiert, wenn Daten aktualisiert, gefiltert oder hervorgehoben werden. Das Bild selbst ist jedoch nicht interaktiv und kann nicht als Quelle für die Kreuzfilterung verwendet werden.
 * Visuelle R-Elemente reagieren auf das Hervorheben anderer Visualisierungen. Sie können jedoch nicht auf visuelle R-Elemente klicken, um eine Kreuzfilterung anderer Elemente auszuführen.

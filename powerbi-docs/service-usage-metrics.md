@@ -1,29 +1,29 @@
 ---
-title: "Nutzungsmetriken für Dashboards und Berichte"
-description: "Anzeigen, Speichern und Verwenden von Nutzungsmetriken für Power BI-Dashboards und -Berichte. Messen und vergrößern Sie Ihre Auswirkung mit Nutzungsmetriken für Inhaltsersteller."
+title: Nutzungsmetriken für Dashboards und Berichte
+description: Anzeigen, Speichern und Verwenden von Nutzungsmetriken für Power BI-Dashboards und -Berichte. Messen und vergrößern Sie Ihre Auswirkung mit Nutzungsmetriken für Inhaltsersteller.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
 Wenn Sie Dashboards und Berichte erstellen, können Sie mit Nutzungsmetriken nachvollziehen, wie diese sich auswirken. Wenn Sie entweder das Dashboard zu Nutzungsmetriken oder die Berichte zu Nutzungsmetriken ausführen, können Sie ermitteln, wie die Dashboards und Berichte in der gesamten Organisation verwendet werden. Was wurde von wem und zu welchem Zweck verwendet?  
@@ -53,7 +53,7 @@ Wenn Sie auf **Nutzungsmetriken** oder das Symbol ![Symbol „Nutzungsmetriken�
 
 Der Bericht zu Nutzungsmetriken wird nicht unter **Zuletzt verwendet**, **Arbeitsbereiche**, **Favoriten** oder in anderen Inhaltslisten angezeigt. Sie können nicht zu Apps hinzugefügt werden. Wenn Sie eine Kachel aus dem Bericht zu Nutzungsmetriken an ein Dashboard anheften, kann das Dashboard nicht zu einer App oder einem Inhaltspaket hinzugefügt werden.
 
-Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Berichte aus dem Dataset zu erstellen, klicken Sie auf **Speichern unter** (weitere Informationen finden Sie unter [Save the Usage Metrics report as a full-featured Power BI report (Bericht zu Nutzungsmetriken als vollständigen Power BI-Bericht speichern)](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)).
+Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Berichte aus dem Dataset zu erstellen, klicken Sie auf **Speichern unter** (weitere Informationen finden Sie unter [Save the Usage Metrics report as a full-featured Power BI report (Bericht zu Nutzungsmetriken als vollständigen Power BI-Bericht speichern)](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Öffnen des Berichts „Nutzungsmetriken“ für ein Dashboard oder einen Bericht
 1. Starten Sie im Arbeitsbereich, der das Dashboard oder den Bericht enthält.

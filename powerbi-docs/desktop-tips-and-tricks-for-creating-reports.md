@@ -1,27 +1,27 @@
 ---
-title: Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
-description: Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
+title: Tipps und Tricks zum Erstellen von Berichten in Power BI
+description: Tipps und Tricks zum Erstellen von Berichten in Power BI und Power BI Desktop
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: willthom
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: 69e4d89f4118e6ea34ddbd4308965a90a662a970
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -39,46 +39,46 @@ Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, 
 Ein zu beachtender wichtiger Punkt: Kursivformatierung im Datenraster bedeutet nicht, dass der Datentyp richtig festgelegt ist, sondern bedeutet nur, dass die Daten nicht als Text angesehen werden.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Verweisabfragen im Abfrage-Editor
-Wenn Sie im Navigator des Abfrage-Editors mit der rechten Maustaste auf eine der Abfragen klicken, ist eine Option für „Verweis“ verfügbar.  Dies ist aus folgendem Grund hilfreich:
+Wenn Sie im Navigator des Abfrage-Editors in Power BI Desktop mit der rechten Maustaste auf eine der Abfragen klicken, ist eine Option für „Reference“ (Verweis) verfügbar.  Dies ist aus folgendem Grund hilfreich:
 
 * Wenn Sie Dateien als Datenquelle für eine Abfrage verwenden, wird der absolute Pfad zur Datei in der Abfrage gespeichert. Wenn Sie eine Power BI Desktop-Datei oder eine Excel-Arbeitsmappe freigeben oder verschieben, sparen Sie Zeit, wenn Sie die Pfade aktualisieren, indem Sie diese nur einmal statt jeweils einzeln aktualisieren.
 
 Standardmäßig werden alle Abfragen entweder auf ein Excel-Arbeitsblatt oder in das Datenmodell (oder beides) geladen. Einige Abfragen sind zwischengeschaltete Schritte sind und nicht für Endbenutzer vorgesehen.  Dies ist häufig der Fall, wenn so, wie oben angegeben, auf Abfragen verwiesen wird.  Sie können das Ladeverhalten einer Abfrage steuern, indem Sie im Navigator mit der rechten Maustaste auf die Abfrage klicken und dann die Option „Laden aktivieren" umschalten.  Wenn kein Häkchen neben „Laden aktivieren“ angezeigt wird, ist die Abfrage weiterhin auf der Abfrageregisterkarte verfügbar, und Sie können sie mit anderen Abfragen verwenden.  Dies ist insbesondere in Verbindung mit Zusammenführungs-, Anfügungs- und Verweistransformationen nützlich.  Weil die Ergebnisse der Abfrage aber nicht in das Datenmodell geladen werden, führt die Abfrage nicht dazu, dass die Feldliste Ihres jeweiligen Berichts oder Ihr Datenmodell überladen wird. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Punktdiagramme erfordern einen Punktbezeichner
-Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm zeichnen, aggregiert Power BI Desktop alle Werte in einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   Eine einfache Möglichkeit hierzu ist, auf der Abfrageregisterkarte die Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ zu verwenden. 
+Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm darstellen, aggregiert Power BI alle Werte zu einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   In Power BI Desktop können Sie dies ganz einfach auf der Abfrageregisterkarte mithilfe der Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ tun. 
 
 ## <a name="reference-lines-in-your-report"></a>Bezugslinien in Ihrem Bericht
-Sie können eine berechnete Spalte verwenden, um eine Bezugslinie zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie eine Bezugslinie erstellen möchten.  Wählen Sie „Neue Spalte“ im Menüband aus, und geben Sie in der Bearbeitungsleiste die folgende Formel ein:
+Sie können in Power BI Desktop eine berechnete Spalte verwenden, um eine Bezugslinie zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie eine Bezugslinie erstellen möchten.  Wählen Sie „Neue Spalte“ im Menüband aus, und geben Sie in der Bearbeitungsleiste die folgende Formel ein:
 
     Target Value = 100
 
 Diese berechnete Spalte gibt den Wert 100 zurück, unabhängig davon, wo sie verwendet wird.  Die neue Spalte wird in der Feldliste angezeigt.  Fügen Sie berechnete Spalte „Target Value“ zu einem Liniendiagramm hinzu, um darzustellen, wie sich die Datenreihen zu dieser bestimmten Bezugslinie verhalten.  
 
 ## <a name="sort-by-another-column"></a>Sortieren nach einer anderen Spalte
-Wenn Sie einen Kategoriewert (Zeichenfolge) für Diagrammachsen in Power BI-Desktop oder in einem Datenschnitt oder Filter verwenden, ist die standardmäßige Reihenfolge alphabetisch. Wenn Sie diese Reihenfolge außer Kraft setzen müssen, z. B. für Angaben wie Tage der Woche oder des Monats, können Sie Power BI Desktop anweisen, nach einer anderen Spalte zu sortieren. Weitere Informationen hierzu finden Sie unter [Sortieren nach Spalten in Power BI Desktop](desktop-sort-by-column.md).
+Wenn Sie einen Kategoriewert (Zeichenfolge) für Diagrammachsen in Power BI oder in einem Slicer oder Filter verwenden, ist die Standardreihenfolge alphabetisch. Wenn Sie diese Reihenfolge außer Kraft setzen müssen, z. B. für Angaben wie Tage der Woche oder des Monats, können Sie Power BI Desktop anweisen, nach einer anderen Spalte zu sortieren. Weitere Informationen hierzu finden Sie unter [Sortieren nach Spalten in Power BI Desktop](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Einfacheres Erstellen von Karten mit Hinweisen auf Bing
-Power BI arbeitet mit Bing zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie einfacher Karten erstellen können.  Bing verwendet einige Algorithmen und Hinweise, um zu versuchen, die richtige Ortsangabe zu ermitteln, dies ist aber eine bestmögliche Schätzung.   Durch Beachten der folgenden Tipps können Sie die Wahrscheinlichkeit einer richtigen Geocodierung erhöhen:
+Power BI arbeitet mit Bing zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie einfacher Karten erstellen können.  Bing verwendet einige Algorithmen und Hinweise, um zu versuchen, die richtige Ortsangabe zu ermitteln, dies ist aber eine bestmögliche Schätzung. Durch Beachten der folgenden Tipps können Sie die Wahrscheinlichkeit einer richtigen Geocodierung erhöhen:
 
-Wenn Sie eine Karte erstellen, möchten Sie häufig Länder (Staaten), Bundesländer (Bundesstaaten) und Städte zeichnen.  Wenn Sie Namensspalten nach der geografischen Bezeichnung verwenden, wird es für Bing einfacher, zu erraten, was Sie anzeigen möchten. Wenn Sie beispielsweise ein Feld für Namen von US-Bundesstaaten wie „Kalifornien“ und „Washington“ haben, könnte Bing für das Wort „Washington“ den Standort Washington DC anstelle von Washington Bundesstaat zurückgeben.  Ein Benennen der Spalte „Bundesland“ verbessert das Geocoding.  Das gleiche gilt für Spalten namens „Land“, „Bundesland“ und „Ort“.   
+Wenn Sie eine Karte erstellen, sollen häufig auch Länder (Staaten), Bundesländer (Bundesstaaten) und Städte darin dargestellt werden.  Wenn Sie Spalten in Power BI Desktop nach der geografischen Bezeichnung benennen, erkennt Bing leichter, was Sie anzeigen möchten. Wenn Sie beispielsweise ein Feld für Namen von US-Bundesstaaten wie „Kalifornien“ und „Washington“ haben, könnte Bing für das Wort „Washington“ den Standort Washington DC anstelle von Washington Bundesstaat zurückgeben.  Ein Benennen der Spalte „Bundesland“ verbessert das Geocoding.  Das gleiche gilt für Spalten namens „Land“ und „Stadt“.   
 
 Einige Bezeichnungen sind mehrdeutig, wenn sie im Kontext mehrerer Länder/Regionen berücksichtigt werden.  In einigen Fällen wird das, was in einem Land bzw. in einer Region als „Staat“ bezeichnet wird, als ein „Bundesland“ oder ein „Landkreis“ oder eine andere Bezeichnung behandelt.  Sie können die Genauigkeit der Geocodierung erhöhen, indem Sie Spalten erstellen, in denen mehrere Felder zusammengefügt sind, und dann diese Spalten dazu verwenden, Datenortsangaben zu zeichnen.  Ein Beispiel: Statt nur „Wiltshire“ zu übergeben, können Sie „Wiltshire, England“ übergeben, um ein genauere Geocodierungsergebnis zu erhalten. 
 
-Sie können immer bestimmte Breiten- und Längengrade für Ortsangaben bereitstellen.  In diesem Fall müssen Sie auch ein „Ortsangabe“-Feld übergeben, denn andernfalls werden die Daten standardmäßig aggregiert, sodass die Ortsangabe aus Breiten- und Längengrad möglicherweise nicht dem entspricht, was Sie erwartet haben.
+Sie können in Power BI oder Power BI Desktop immer bestimmte Breiten- und Längengrade für Ortsangaben bereitstellen.  In diesem Fall müssen Sie auch ein „Ortsangabe“-Feld übergeben, denn andernfalls werden die Daten standardmäßig aggregiert, sodass die Ortsangabe aus Breiten- und Längengrad möglicherweise nicht dem entspricht, was Sie erwartet haben.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Kategorisieren von geografischen Feldern als Hinweise für Bings Geocodierung
-In Power BI Desktop können Sie sicherstellen, dass Felder richtig geocodiert sind, indem Sie die Datenkategorie der Datenfelder festlegen.   Wählen Sie in Power BI Desktop die gewünschte Tabelle aus, wechseln Sie zum Menüband „Erweitert“, und legen Sie dann die „Datenkategorie“ auf „Adresse“, „Ort“, „Kontinent“, „Land/Region“, „Landkreis“, „Postleitzahl“ oder „Bundesland oder Kanton“ fest.  Diese Datenkategorien ermöglichen Bing, Datumsangaben richtig zu codieren. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md).
+Sie können die korrekte Geocodierung der Felder auch sicherstellen, indem Sie die Datenkategorie der Datenfelder festlegen.   Wählen Sie in Power BI Desktop die gewünschte Tabelle aus, wechseln Sie zum Menüband „Erweitert“, und legen Sie dann die „Datenkategorie“ auf „Adresse“, „Ort“, „Kontinent“, „Land/Region“, „Landkreis“, „Postleitzahl“ oder „Bundesland oder Kanton“ fest.  Mithilfe dieser Datenkategorien können Daten von Bing richtig codiert werden. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md).
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Besseres Geocoding mit spezielleren Ortsangaben
-Manchmal genügt es aber nicht, die Datenkategorien für ein Kartenzeichnen festzulegen.  In der Abfrage können Sie mit dem Abfrage-Editor in Power BI Desktop einen speziellere Ortsangabe, etwa Straße und Hausnummer, erstellen.  Verwenden Sie die Funktion „Spalte hinzufügen“, um eine benutzerdefinierte Spalte zu erstellen.  Erstellen Sie die gewünschte Ortsangabe dann wie folgt: 
+Manchmal genügt es aber nicht, die Datenkategorien für die Zuordnung festzulegen.  Mit dem Abfrage-Editor in Power BI Desktop können Sie eine speziellere Ortsangabe erstellen, etwa eine Straße mit Hausnummer.  Verwenden Sie die Funktion „Spalte hinzufügen“, um eine benutzerdefinierte Spalte zu erstellen.  Erstellen Sie die gewünschte Ortsangabe dann wie folgt: 
 
     = [Field1] & " " & [Field2]
 
-Verwenden Sie dieses resultierende Feld anschließend in den Kartenvisualisierungen. Dies ist sehr nützlich für ein Erstellen von Straßenadressen (Straße und Hausnummer) aus Versandadressenfeldern, die in Datasets üblich sind.  Zu beachten ist, dass die Verkettung nur mit Textfeldern funktioniert.  Gegebenenfalls konvertieren Sie die Hausnummer in einen Text-Datentyp, bevor Sie sie dazu verwenden, eine Adresse zu erstellen.
+Verwenden Sie dieses resultierende Feld anschließend in den Kartenvisualisierungen. Dies ist sehr nützlich für das Erstellen von Adressen (Straße und Hausnummer) aus Versandadressfeldern, die in Datasets üblich sind.  Zu beachten ist, dass die Verkettung nur mit Textfeldern funktioniert.  Gegebenenfalls konvertieren Sie die Hausnummer in einen Text-Datentyp, bevor Sie sie dazu verwenden, eine Adresse zu erstellen.
 
 ## <a name="histograms-in-the-query-stage"></a>Histogramme in der Abfragephase
-Es gibt verschiedene Möglichkeiten zum Erstellen von Histogrammen. Hier wird mit der einfachsten begonnen:
+Es gibt in Power BI Desktop verschiedene Möglichkeiten zum Erstellen von Histogrammen. Hier wird mit der einfachsten begonnen:
 
 Einfachstes Histogramm - Bestimmen Sie, welche Abfrage das Feld hat, für das Sie ein Histogramm erstellen möchten.  Verwenden Sie die Option „Verweis“ für die Abfrage, um eine neue Abfrage zu erstellen, und geben Sie dieser den Namen „FieldName-Histogramm“. Verwenden Sie die Option „Gruppieren nach“ im Menüband „Transformieren“, und wählen Sie das Aggregat „Zeilen zählen“ aus.  Achten Sie darauf, dass die resultierende Aggregatspalte eine Zahl als Datentyp hat. Visualisieren Sie diese Daten dann auf der Berichtsseite.  Dies ist schnell und einfach zu erstellen, funktioniert aber nicht brauchbar, wenn Sie viele Datenpunkte haben, und ermöglicht kein Brushing über visuelle Objekte hinweg.
 
@@ -104,7 +104,7 @@ Der nächste Schritt in der Vorgehensweise besteht darin, eine Beziehung zwische
 Der letzte Schritt ist die Erstellung des Histogramms.  Ziehen Sie das Bucketfeld aus der Tabelle „Buckets“.  Entfernen Sie das Standardfeld aus dem resultierenden Säulendiagramm.  Ziehen Sie nun das Histogrammfeld aus der Tabelle „Details“ in dasselbe visuelle Objekt.  Ändern Sie in der Feldquelle das Standardaggregat in „Anzahl“.  Das Ergebnis ist das Histogramm. Wenn Sie ein weiteres visuelles Objekt erstellen, etwa eine Tree Map aus der Tabelle „Details“, wählen Sie einen Datenpunkt in der Tree Map aus, um die Histogrammhervorhebung zu sehen und das Histogramm für den ausgewählten Datenpunkt in Bezug auf den Trend für das gesamte Dataset anzuzeigen.
 
 ## <a name="histograms"></a>Histogramme
-Sie können ein berechnetes Feld verwenden, um ein Histogramm zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie ein Histogramm erstellen möchten.  Geben Sie im Berechnungsbereich die folgende Formel ein:
+In Power BI Desktop können Sie ein berechnetes Feld verwenden, um ein Histogramm zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie ein Histogramm erstellen möchten.  Geben Sie im Berechnungsbereich die folgende Formel ein:
 
 > Frequency:=COUNTROWS(\<Spaltenname\>)
 > 
@@ -112,7 +112,7 @@ Sie können ein berechnetes Feld verwenden, um ein Histogramm zu definieren.  Er
 
 Speichern Sie Ihre Änderungen, und kehren Sie zu Ihrm Bericht zurück.  Fügen Sie \<Spaltenname\> und den Frequency-Wert (Häufigkeit) einer Tabelle hinzu, und konvertieren Sie die Werte in ein Balkendiagramm.  Achten Sie darauf, dass \<Spaltenname\> die x-Achse und das berechnete Frequency-Feld (Häufigkeit) die y-Achse bildet.
 
-## <a name="tips-and-tricks-for-creating-relationships"></a>Tipps und Tricks zum Erstellen von Beziehungen
+## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Beziehungen in Power BI Desktop
 Wenn Sie Detaildatasets aus mehreren Quellen laden, verhindern Probleme wie Nullwerte, leere Werte oder doppelte Werte häufig, dass Sie Beziehungen erstellen können. 
 
 Betrachten wir dazu ein Beispiel: 
@@ -125,10 +125,10 @@ Sie laden Datasets mit aktiven Kundenupportanfragen und ein anderes Dataset mit 
 
 Wenn alle Ereignisse und Arbeitsaufgaben überwacht werden sollen, die zu einem bestimmten Kundennamen gehören, genügt es nicht, einfach eine Beziehung zwischen diesen beiden Datasets zu erstellen.  Einige Arbeitsaufgaben sind möglicherweise keinem Kundennamen zugeordnet, sodass das Feld „Kundenname“ leer oder gleich NULL ist.  Es gibt möglicherweise mehrere Datensätze in „Arbeitsaufgaben“ und „Kundenereignisse“ für einen Namen in „Kundenname“.  
 
-### <a name="creating-relationships-when-the-data-has-null-or-blank-values"></a>Erstellen einer Beziehung, wenn die Daten Null- oder leere Werte haben
+### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Erstellen von Beziehungen in Power BI Desktop, wenn Daten über NULL- oder leere Werte verfügen
 Häufig enthalten Datasets Spalten mit Null- oder leeren Werten.  Dies kann Probleme verursachen, wenn versucht wird, Beziehungen zu verwenden.  Sie haben grundsätzlich zwei Optionen zum Reagieren auf die Probleme.  Sie können die Zeilen entfernen, die Null- oder leere Werte enthalten.  Sie können dazu entweder die Filterfunktion auf der Abfrageregisterkarte oder, wenn Sie Abfragen zusammenführen, die Option „Nur übereinstimmende Zeilen beibehalten“ verwenden. Alternativ können Sie die Null- oder leeren Werte durch Werte ersetzen, die in Beziehungen funktionieren, in der Regel Zeichenfolgen wie „NULL“ und „(leer)“.   Es gibt hier keinen richtigen Ansatz - ein Herausfiltern in der Abfragephase bewirkt ein Entfernen von Zeilen, kann sich aber auf Übersichtsstatistiken und -berechnungen auswirken.  Der zweite Ansatz bewirkt, dass Datenzeilen erhalten bleiben, kann jedoch dazu führen, dass nicht verknüpfte Zeilen im Modell als verknüpft erscheinen, wodurch sich Fehlberechnungen ergeben.  Wenn Sie die zweite Lösung umsetzen, müssen in der Ansicht/im Diagramm geeignete Filter verwenden, damit sichergestellt ist, dass Sie genaue Ergebnisse erzielen.  Am wichtigsten ist, dass Sie ermitteln, welche Zeilen beibehalten/entfernt werden, und dass Sie die Auswirkungen auf die Analyse erkennen.  
 
-### <a name="creating-relationships-when-the-data-has-duplicate-values"></a>Erstellen einer Beziehung, wenn die Daten doppelte Werte haben
+### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-duplicate-values"></a>Erstellen von Beziehungen in Power BI Desktop, wenn Daten über doppelte Werte verfügen
 Wenn Sie Detaildatasets aus mehreren Quellen laden, verhindern häufig doppelte Datenwerte, dass Sie Beziehungen erstellen können.  Dies lässt sich umgehen, indem Sie eine Dimensionstabelle mit eindeutigen Werte aus beiden Datasets erstellen. 
 
 Betrachten wir dazu ein Beispiel: 
@@ -155,7 +155,7 @@ Sie haben nun eine Dimensionstabelle, die Sie dazu verwenden können, Beziehunge
 Der Abfrage-Editor ist sehr leistungsfähig hinsichtlich des Bearbeitens von Daten, um diese zu formen und zu bereinigen, sodass sie visualisiert oder modelliert werden können. Es gibt einige Muster, die Sie beachten sollten.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Temporäre Spalten können gelöscht werden, nachdem ein Ergebnis berechnet ist
-Häufig müssen Sie eine Berechnung erstellen, in der Daten aus mehreren Spalten in eine einzige neue Spalte transformiert werden.  Dies kann komplex sein.  Eine einfache Möglichkeit, das Problem zu umgehen, besteht darin, den Vorgang in Schritte zu zerlegen.  Beginnen Sie, indem Sie die ursprünglichen Spalten duplizieren. Erstellen Sie danach temporäre Spalten. Erstellen Sie daran anschließend eine Spalte für das Endergebnis.  Nun können Sie die temporären Spalten löschen, damit das resultierende Dataset nicht überladen ist. Dies ist möglich, weil Schritte auf der Abfrageregisterkarte der Reihe nach ausgeführt wird. 
+Häufig müssen Sie in Power BI Desktop eine Berechnung erstellen, in der Daten aus mehreren Spalten in eine einzige neue Spalte transformiert werden.  Dies kann komplex sein.  Eine einfache Möglichkeit, das Problem zu umgehen, besteht darin, den Vorgang in Schritte zu zerlegen.  Beginnen Sie, indem Sie die ursprünglichen Spalten duplizieren. Erstellen Sie danach temporäre Spalten. Erstellen Sie daran anschließend eine Spalte für das Endergebnis.  Nun können Sie die temporären Spalten löschen, damit das resultierende Dataset nicht überladen ist. Dies ist möglich, weil Schritte auf der Abfrageregisterkarte der Reihe nach ausgeführt wird. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Duplizieren der oder Verweisen auf die Abfragen, dann Zusammenführen mit der ursprünglichen Abfrage
 Manchmal sollen Übersichtsstatistiken für ein Dataset berechnet werden.  Die einfache Möglichkeit hierzu ist, die Abfrage auf der Abfrageregisterkarte zu duplizieren oder dort auf diese Abfrage zu verweisen. Danach verwenden Sie **Gruppieren nach** , um die Übersichtsstatistiken zu berechnen.  Übersichtsstatistiken versetzen Sie in die Lage, die ursprünglichen Daten zu normalisieren, sodass sie besser vergleichbar sind als im ursprünglichen Zustand.  Dies ist besonders nützlich für ein Vergleichen von einzelnen Werten mit allen Werten.  Wechseln Sie dazu zur ursprüngliche Abfrage, und wählen Sie die Option für Zusammenführen aus.  Führen Sie dann die Daten aus der Übersichtsstatistikabfrage zusammen, die mit den entsprechenden Bezeichnern übereinstimmen.  Nun können Sie die Daten nach Bedarf für Ihre Analyse zu normalisieren.
@@ -168,4 +168,3 @@ DAX ist die Formelsprache für Berechnungen in Power BI Desktop.  Sie ist für B
 [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX-Ressourcencenter](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
-

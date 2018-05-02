@@ -1,15 +1,15 @@
 ---
 title: Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI
-description: "Erfahren Sie, wie Sie Inhalte aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded migrieren und die Vorteile für das Einbetten in Apps nutzen können."
+description: Erfahren Sie, wie Sie Inhalte aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded migrieren und die Vorteile für das Einbetten in Apps nutzen können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded
 Erfahren Sie, wie Sie Inhalte aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded migrieren und die Vorteile für das Einbetten in Apps nutzen.
@@ -58,8 +58,7 @@ Die folgenden Konten müssen in Ihrem Mandanten vorhanden sein.
 
 > [!NOTE]
 > Diese Konten benötigen Power BI Pro-Lizenzen, um App-Arbeitsbereiche nutzen zu können.
-> 
-> 
+>
 
 1. Ein Mandantenadministrator
    
@@ -71,10 +70,13 @@ Die folgenden Konten müssen in Ihrem Mandanten vorhanden sein.
    
     Das Back-End der Anwendung speichert die Anmeldeinformationen für dieses Konto und ruft damit ein Azure AD-Token für die Verwendung mit Power BI-APIs ab. Mit diesem Konto wird das Einbettungstoken für die Anwendung generiert. Dieses Konto muss einem Administrator der App-Arbeitsbereiche gehören, die für die Einbettung erstellt werden.
    
-   > [!NOTE]
-   > Dies ist lediglich ein herkömmliches Benutzerkonto in Ihrer Organisation, das für Einbettungszwecke verwendet wird.
-   > 
-   > 
+> [!NOTE]
+> Dies ist lediglich ein herkömmliches Benutzerkonto in Ihrer Organisation, das für Einbettungszwecke verwendet wird.
+>
+
+> [!NOTE]
+> Wenn die Tokenauthentifizierung ausschließlich für Apps eine Voraussetzung für Ihre Anwendung ist, kontaktieren Sie uns [hier](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement).
+>
 
 ## <a name="app-registration-and-permissions"></a>App-Registrierung und Berechtigungen
 Sie müssen eine Anwendung in Azure AD registrieren und bestimmte Berechtigungen erteilen.
@@ -126,13 +128,13 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 #### <a name="directquery-dataset--report"></a>DirectQuery-Dataset & Bericht
 **Flow**
 
-1. Rufen Sie GET-https://api.powerbi.com/v1.0/collections/ {collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources auf, und speichern Sie die empfangene Verbindungszeichenfolge.
+1. Rufen Sie GET auf (https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources), und speichern Sie die erhaltene Verbindungszeichenfolge.
 2. Herunterladen PBIX-API Aufrufen im PaaS-Arbeitsbereich.
 3. Speichern Sie die PBIX.
 4. Rufen Sie Import PBIX SaaS-Arbeitsbereich auf.
-5. Aktualisieren Sie die Verbindungszeichenfolge durch das Aufrufen von – POST https://api.powerbi.com/v1.0/myorg/datasets/ {dataset_id}/Default.SetAllConnections
-6. Rufen Sie GW-ID und Datasource-ID auf, indem Sie GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources aufrufen
-7. Aktualisieren Sie die Anmeldeinformationen eines Benutzers, indem Sie PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} aufrufen.
+5. Aktualisieren Sie die Verbindungszeichenfolge, indem Sie POST aufrufen (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections).
+6. Rufen Sie die GW-ID und Datenquellen-ID über GET (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources) auf.
+7. Aktualisieren Sie die Benutzeranmeldedaten, indem Sie PATCH (https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}) aufrufen.
 
 #### <a name="old-dataset--reports"></a>Altes Dataset & Bericht
 Hierbei handelt es sich um Datasets/Berichte, die vor Oktober 2016 erstellt wurden. Das Herunterladen von PBIX unterstützt keine PBIXs, die vor Oktober 2016 hochgeladen wurden

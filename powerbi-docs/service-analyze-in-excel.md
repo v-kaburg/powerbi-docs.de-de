@@ -2,27 +2,27 @@
 title: In Excel analysieren
 description: Erfahren Sie, wie Sie Power BI-Datasets in Excel analysieren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>In Excel analysieren
 Es gibt Situationen, in denen Sie zum Anzeigen von und Interagieren mit einem Datenset aus Power BI Excel verwenden möchten. Mit **In Excel analysieren** können Sie genau dies tun. Greifen Sie in Excel basierend auf dem in Power BI existierenden Dataset auf PivotTable-, Diagramm- und Datenschnitt-Features in Excel zu.
@@ -105,3 +105,5 @@ Wenn Sie die Arbeitsmappe für andere Benutzer freigegeben haben, sehen diese di
 
 Da Benutzer das Dataset aktualisieren müssen und dies in Excel Online nicht für externe Verbindungen unterstützt wird, wird für solche Benutzer empfohlen, die Arbeitsmappe in der Desktopversion von Excel auf ihrem Computer zu öffnen.
 
+## <a name="troubleshooting"></a>Problembehandlung
+Es kann bei der Verwendung von „In Excel analysieren“ vorkommen, dass ein unerwartetes Ergebnis auftritt oder eine Funktion nicht wie erwartet funktioniert. [Diese Seite enthält Lösungen für häufige Probleme bei der Verwendung von „In Excel analysieren“.](desktop-troubleshooting-analyze-in-excel.md)

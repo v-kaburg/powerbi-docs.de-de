@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises data gateway
 Benutzer in Ihrer Organisation können auf lokale Daten zugreifen (für die sie bereits über Zugriffsberechtigungen verfügen). Bevor diese Benutzer jedoch eine Verbindung mit der lokalen Datenquelle herstellen können, muss ein lokales Datengateway installiert und konfiguriert werden. Das Gateway ermöglicht die schnelle und sichere, im Hintergrund ablaufende Kommunikation eines Benutzers in der Cloud mit Ihrer lokalen Datenquelle und zurück in die Cloud.
@@ -87,10 +87,7 @@ Die Clouddienste haben nur Kenntnis von Konten in Azure Active Directory. Es spi
    Sie können im Azure-Portal oder im Office 365 Admin Portal ein Konto erstellen, bei dem der Kontoname dem UPN des lokalen Active Directory-Kontos entspricht.
 2. Sie können das [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)-Tool verwenden, um lokale Konten mit Ihrem Azure Active Directory-Mandanten zu synchronisieren.
    
-   Das Azure AD Connect-Tool stellt Optionen für die Synchronisierung des Verzeichnisses und des Kennworts bereit. Wenn Sie weder ein Mandantenadministrator noch ein lokaler Domänenadministrator sind, müssen Sie sich für diese Konfiguration an Ihren IT-Administrator wenden.
-3. Sie können Active Directory-Verbunddienste (Active Directory Federation Services; AD FS) konfigurieren.
-   
-   Sie können den AD FS-Server mithilfe des [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)-Tools Ihrem AAD-Mandanten zuordnen. AD FS verwendet die zuvor erwähnte Verzeichnissynchronisierung, erlaubt aber auch das einmalige Anmelden (Single Sign-On; SSO). Wenn Sie sich beispielsweise in Ihrem Arbeitsplatznetzwerk befinden und sich bei einem Clouddienst anmelden möchten, werden Sie möglicherweise nicht dazu aufgefordert, Ihren Benutzernamen oder Ihr Kennwort einzugeben. Sie müssen mit Ihrem IT-Administrator besprechen, ob diese Funktion für Ihre Organisation verfügbar ist.
+   Das Azure AD Connect-Tool umfasst Optionen für die Verzeichnissynchronisierung und das Einrichten der Authentifizierung wie die Kennworthashsynchronisierung, die Passthrough-Authentifizierung und den Verbund. Wenn Sie weder ein Mandantenadministrator noch ein lokaler Domänenadministrator sind, müssen Sie sich für diese Konfiguration an Ihren IT-Administrator wenden.
 
 Mit Azure AD Connect können Sie sicherstellen, dass der UPN Ihres AAD-Kontos und der Ihres lokalen Active Directory-Kontos übereinstimmen.
 

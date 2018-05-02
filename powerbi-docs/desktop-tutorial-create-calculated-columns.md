@@ -2,14 +2,14 @@
 title: 'Tutorial: Erstellen von berechneten Spalten in Power BI Desktop'
 description: 'Tutorial: Erstellen von berechneten Spalten in Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,135 +18,126 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Erstellen von berechneten Spalten in Power BI Desktop
-Manchmal enthalten die Daten, die Sie analysieren, einfach nicht ein bestimmtes Feld, das Sie benötigen, um die gewünschten Ergebnisse zu erzielen. Hier bieten sich berechnete Spalten an. Berechnete Spalten verwenden DAX-Formeln (Data Analysis Expressions), um die Werte einer Spalte zu definieren. Diese Werte können so ziemlich alles sein, von zusammengesetzten Textwerten aus einem Paar verschiedener Spalten an anderen Stellen des Modells bis hin zu berechneten numerischen Werten aus anderen Werten. Angenommen, Ihre Daten weisen eine Spalte „City“ und eine Spalte „State“ auf (als Felder in der Feldliste), Sie möchten aber ein einzelnes Feld verwenden, das beide in einem einzelnen Wert enthält, wie etwa „Miami, FL“. Das ist genau der richtige Einsatzzweck für berechnete Spalten.
 
-Berechnete Spalten ähneln Measures darin, dass beide auf einer DAX-Formel aufbauen, ihre Verwendung sich aber unterscheidet. Measures werden meistens im Bereich „Werte“ einer Visualisierung verwendet, um Ergebnisse auf der Grundlage anderer Felder zu berechnen, die in Form einer Zeile in einer Tabelle vorliegen, oder sie kommen im Bereich „Achse“, „Legende“ oder „Gruppe“ einer Visualisierung vor. Berechnete Spalten werden hingegen verwendet, wenn Sie die Ergebnisse der Spalte in einer Zeile der Tabelle oder im Bereich „Achse“, „Legende“ oder „Gruppe“ einer Visualisierung verwenden möchten.
+Manchmal enthalten die Daten, die Sie analysieren, nicht ein bestimmtes Feld, das Sie für die gewünschten Ergebnisse benötigen. Hier bieten sich *berechnete Spalten* an. Berechnete Spalten verwenden DAX-Formeln (Data Analysis Expressions), um die Werte einer Spalte zu definieren. Diese reichen von zusammengesetzten Textwerten aus mehreren verschiedenen Spalten bis zu einem berechneten numerischen Wert aus anderen Werten. Angenommen, Ihre Daten weisen die Felder **Stadt** und **Bundesstaat** auf, Sie möchten aber ein einzelnes Feld für **Standort** verwenden, das beide Werte in einem enthält, wie etwa „Miami, FL“. Das ist genau der richtige Einsatzzweck für berechnete Spalten.
 
-Dieses Tutorial stellt Ihnen das Konzept vor und führt Sie durch das Erstellen eigener berechneter Spalten in Power BI Desktop. Es richtet sich an Power BI-Benutzer, die mit der Verwendung von Power BI Desktop zum Erstellen etwas fortgeschrittener Modelle bereits vertraut sind. Sie sollten bereits mit der Verwendung des Abfragemoduls zum Importieren von Daten, dem Arbeiten mit mehreren aufeinander bezogenen Tabellen und dem Hinzufügen von Feldern zur Berichtszeichenfläche vertraut sein. Wenn Sie noch nicht mit Power BI Desktop vertraut sind, sollten Sie [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) lesen.
+Berechnete Spalten ähneln [Measures](desktop-tutorial-create-measures.md) dahingehend, dass beide auf DAX-Formeln aufbauen. Sie unterscheiden sich jedoch in ihrer Verwendung. Measures werden häufig im **Werte**-Bereich einer Visualisierung verwendet, um die Ergebnisse auf Grundlage anderer Felder zu berechnen. Berechnete Spalten werden als neue **Felder** in den Bereichen „Zeile“, „Achse“, „Legende“ und „Gruppe“ einer Visualisierung verwendet.
 
-Um die Schritte in diesem Tutorial ausführen zu können, müssen Sie die Datei [Contoso Sales for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) herunterladen. Dies ist die gleiche Beispieldatei, die im Tutorial [Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md) verwendet wird. Sie enthält bereits Vertriebsdaten des fiktiven Unternehmens Contoso, Inc. Da die Daten in der Datei aus einer Datenbank importiert wurden, können Sie keine Verbindungen mit der Datenquelle herstellen oder sie im Abfrage-Editor anzeigen. Wenn Sie die Datei auf dem lokalen Computer gespeichert haben, öffnen Sie sie in Power BI Desktop.
+Dieses Tutorial stellt Ihnen das Konzept vor und gibt schrittweise Anweisungen für das Erstellen von berechneten Spalten und deren Verwendung in Berichtsvisualisierungen in Power BI Desktop. 
 
-## <a name="lets-create-a-calculated-column"></a>Erstellen wir eine berechnete Spalte
-Angenommen, wir möchten Produktkategorien zusammen mit Produktunterkategorien als einzelnen Wert in einer Zeile anzeigen, etwa als „Mobiltelefone – Zubehör“, „Mobiltelefone – Smartphones und PDAs“ usw. Wenn wir uns in der Berichtsansicht oder Datenansicht (hier verwenden wir die Berichtsansicht) in der Liste „Felder“ die Produkttabellen ansehen, erkennen wir, dass kein Feld mit den gewünschten Eigenschaften vorhanden ist. Wir haben aber ein Feld „ProductCategory“ und ein Feld „ProductSubcategory“, jedes in jeweils einer eigenen Tabelle.
+### <a name="prerequisites"></a>Voraussetzungen
+- Dieses Tutorial richtet sich an Power BI-Benutzer, die mit der Verwendung von Power BI Desktop zum Erstellen etwas fortgeschrittener Modelle bereits vertraut sind. Sie sollten bereits mit der Verwendung von **Daten abrufen** und des **Power Query-Editors** zum Importieren von Daten, dem Arbeiten mit mehreren verknüpften Tabellen und dem Hinzufügen von Feldern zum Zeichenbereich für den Bericht vertraut sein. Wenn Sie noch nicht mit Power BI Desktop vertraut sind, sollten Sie [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) lesen.
+  
+- Für das Tutorial wird das Beispiel [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) verwendet, das auch im Tutorial [Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md) Anwendung findet. Diese Verkaufsdaten des fiktiven Unternehmens Contoso, Inc. wurden aus einer Datenbank importiert. Daher können Sie keine Verbindung mit der Datenquelle herstellen oder die Daten im Power Query-Editor anzeigen. Laden Sie die Datei herunter, entpacken Sie sie auf Ihrem Computer, und öffnen Sie sie dann in Power BI Desktop.
 
- ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
+## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Erstellen einer berechneten Spalte mit Werten aus verknüpften Tabellen
 
-Wir erstellen eine neue berechnete Spalte, um Werte aus diesen zwei Spalten zu neuen Werten für unsere neue Spalte zu kombinieren. Interessanterweise müssen wir dazu Daten aus zwei verschiedenen Tabellen in einer einzelnen Spalte zusammenführen. Da wir DAX zum Erstellen unserer neuen Spalte verwenden, können wir die Leistungsfähigkeit des bereits vorhandenen Modells im vollen Umfang nutzen, einschließlich der bereits bestehenden Beziehungen zwischen verschiedenen Tabellen.
+Angenommen, Sie möchten im Verkaufsbericht Produktkategorien und Unterkategorien als einzelne Werte anzeigen, etwa als „Mobiltelefone: Zubehör“, „Mobiltelefone: Smartphones und PDAs“ usw. In der Liste **Felder** gibt es kein Feld mit diesen Daten. Allerdings gibt es in den entsprechenden Tabellen jeweils die Felder **ProductCategory** und **ProductSubcategory**. Sie können hier nun eine berechnete Spalte erstellen, die Werte aus diesen beiden Spalten miteinander kombiniert. DAX-Formeln können die Leistungsfähigkeit des bereits vorhandenen Modells in vollem Umfang nutzen, einschließlich der Beziehungen zwischen verschiedenen bereits bestehenden Tabellen. 
 
-### <a name="to-create-a-productfullcategory-column"></a>So erstellen Sie eine Spalte „ProductFullCategory“
-1.  Klicken Sie mit der rechten Maustaste in der Tabelle **ProductSubcategory** in der Feldliste, oder klicken Sie auf den Pfeil nach unten, und klicken Sie dann auf **Neue Spalte**. Dadurch wird unsere neue Spalte der Tabelle „ProductSubcategory“ hinzugefügt.
+ ![Spalten in der Liste „Felder“](media/desktop-tutorial-create-calculated-columns/create1.png)
+
+1.  Wählen Sie die Auslassungspunkte (...) für **Weitere Optionen** aus, oder klicken Sie mit der rechten Maustaste in der Liste „Felder“ auf die Tabelle **ProductSubcategory**, und klicken Sie anschließend auf **Neue Spalte**. Dadurch wird in der Tabelle „ProductSubcategory“ eine neue Spalte erstellt.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumn.png)
+    ![Neue Spalte](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    Die Bearbeitungsleiste wird entlang der Oberkante der Berichtszeichenfläche oder des Datenrasters angezeigt. Dies ist der Ort, an dem wir die Spalte umbenennen und eine DAX-Formel eingeben können.
+    Die Bearbeitungsleiste wird oben im Zeichenbereich für den Bericht angezeigt, wo Sie die Spalte benennen und eine DAX-Formel eingeben können.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumnformula.png)
+    ![Bearbeitungsleiste](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-    Standardmäßig erhält eine neue berechnete Spalte einfach den Namen „Spalte“. Wenn wir sie nicht umbenennen, heißt die nächste erstellte Spalte dann „Spalte 2“, dann „Spalte 3“ usw. Wir möchten unsere Spalten aber leicht wiederfinden können, daher geben wir unserer neuen Spalte einen neuen Namen.
+2.  Der Standardname für eine neue berechnete Spalte lautet „Spalte“. Wenn Sie diese nicht umbenennen, werden weitere neue Spalten „Spalte 2“, „Spalte 3“ usw. benannt. Wenn Sie die Spalte eindeutiger bezeichnen möchten, geben Sie für die bereits markierte **Spalte** in der Bearbeitungsleiste den Namen **ProductFullCategory** und anschließend ein Gleichheitszeichen (**=**) ein.
     
-2.  Da der Name **Spalte** bereits in der Bearbeitungsleiste markiert ist, brauchen Sie nur **ProductFullCategory** einzugeben.
+3.  Die Werte in der neuen Spalte sollen mit dem ProductCategory-Namen beginnen. Da sich diese Spalte in einer anderen, aber verknüpften Tabelle befindet, können Sie die Funktion [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) zum Abrufen der Spalte verwenden.
     
-    Jetzt können wir mit dem Eingeben unserer Formel beginnen. Wir möchten, dass die Werte in der neuen Spalte mit dem ProductCategory-Namen aus der Tabelle „ProductCategory“ beginnen. Da sich diese Spalte in einer anderen (aber verwandten) Tabelle befindet, verwenden wir die Funktion [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) als Unterstützung beim Abrufen.
+    Geben Sie hinter dem Gleichheitszeichen ein **R** ein. In einer Dropdown-Vorschlagsliste werden alle DAX-Funktionen angezeigt, die mit dem Buchstaben „R“ beginnen. Wenn Sie eine Funktion auswählen, wird jeweils die Beschreibung ihrer Auswirkungen angezeigt. Während der Eingabe wird die Skalierung der Vorschlagsliste immer genauer an die von Ihnen gewünschte Funktion angepasst. Klicken Sie auf **RELATED**, und drücken Sie dann die **EINGABETASTE**.
     
-3.  Geben Sie hinter dem Gleichheitszeichen ein **R** ein. Jetzt wird eine Dropdownliste mit Vorschlägen angezeigt, die alle DAX-Funktionen enthält, die mit dem Buchstaben „R“ beginnen. Je mehr wir eingeben, desto stärker verengt sich die Vorschlagsliste auf die benötigte Funktion. Neben der Funktion wird eine Beschreibung der Funktion angezeigt. Wählen Sie durch Scrollen nach unten **RELATED** aus, und drücken Sie dann die EINGABETASTE.
+    ![Auswählen von „RELATED“](media/desktop-tutorial-create-calculated-columns/create4.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_1.png)
+    Es wird eine öffnende Klammer sowie eine weitere Vorschlagsliste mit den verknüpften Spalten angezeigt, die an die Funktion „RELATED“ übergeben werden können, einschließlich Beschreibungen und Informationen zu den erwarteten Parametern. 
     
-    Eine öffnende Klammer wird zusammen mit einer weiteren Vorschlagsliste mit allen verfügbaren Spalten angezeigt, die wir der Funktion RELATED übergeben können. Darüber hinaus werden eine Beschreibung und Details zu den erwarteten Parametern angezeigt.
+    ![Auswählen von „ProductCategory“](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_2.png)
-    
-    Ein Ausdruck tritt immer zwischen einer öffnenden und einer schließenden Klammer auf. In diesem Fall soll unser Ausdruck ein einzelnes Element enthalten, das an die Funktion RELATED übergeben wird; eine zugeordnete Spalte, aus der Werte zurückgegeben werden. Die Liste der Spalten wird automatisch eingeschränkt und zeigt nur die zugeordneten Spalten an. In diesem Fall möchten wir nur die Spalte „ProductCategory“ in der Tabelle „ProductCategory“ haben.
-    
-    Wählen Sie **ProductCategory[ProductCategory]**aus, und geben Sie dann eine schließende Klammer ein.
+4.  Sie möchten nur die Spalte **ProductCategory** in der Tabelle **ProductCategory**. Klicken Sie auf **ProductCategory[ProductCategory]**, drücken Sie die **EINGABETASTE**, und geben Sie dann eine schließende Klammer ein.
     
     > [!TIP]
-    > Syntaxfehler werden meistens durch eine fehlende oder falsch platzierte schließende Klammer verursacht. Wenn Sie dies vergessen, werden diese aber häufig von Power BI Desktop hinzugefügt.
-    > 
-    > 
+    > Syntaxfehler werden meistens durch eine fehlende oder falsch platzierte schließende Klammer verursacht. In manchen Fällen wird sie jedoch auch von Power BI Desktop hinzugefügt.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_3.png)
+4. Damit in den neuen Werten „ProductCategories“ und „ProductSubcategories“ durch Bindestriche und Leerzeichen voneinander getrennt werden, geben Sie hinter der schließenden Klammer des ersten Ausdrucks ein Leerzeichen, ein kaufmännisches Und-Zeichen (**&**), ein doppeltes Anführungszeichen (**"**), ein weiteres Leerzeichen, einen Bindestrich (**-**), ein weiteres Leerzeichen, ein weiteres doppeltes Anführungszeichen sowie ein weiteres kaufmännisches Und-Zeichen ein. Die Formel sollte nun wie folgt aussehen:
     
-4. Wir möchten einen Bindestrich verwenden, um die einzelnen Werte zu trennen. Geben Sie also nach der schließenden Klammer des ersten Ausdrucks ein Leerzeichen, ein kaufmännisches Und (&), ein doppeltes Anführungszeichen, ein Leerzeichen, einen Bindestrich (-), noch ein Leerzeichen, ein doppeltes Anführungszeichen und dann ein weiteres kaufmännisches Und ein. Die Formel sollte nun wie folgt aussehen:
-    
-    **ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &**
+    `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
-    > Klicken Sie rechts von der Formelleiste auf das Erweiterungssymbol (Winkel nach unten), um den Formel-Editor zu erweitern. Drücken Sie auf ALT+EINGABETASTE, um eine Zeile nach unten zu springen, und die TAB-TASTE, um zur Seite zu springen.
-    > 
-    > 
+    > Klicken Sie für mehr Platz auf der rechten Seite der Bearbeitungsleiste auf das Erweiterungssymbol (den nach unten gerichteten Winkel), um den Formel-Editor zu erweitern. Drücken Sie im Editor auf **ALT+EINGABETASTE**, um eine Zeile nach unten zu springen, und die **TAB-TASTE** zum Verschieben.
     
-5.  Geben Sie schließlich eine weitere öffnende eckige Klammer ein, und wählen Sie dann die Spalte **[ProductSubcategory]** aus, um die Formel fertig zu stellen. Ihre Formel sollte nun so aussehen:
+5.  Geben Sie eine öffnende eckige Klammer (**[**) ein, und wählen Sie dann die Spalte **[ProductSubcategory]** aus, um die Formel fertigzustellen. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_5.png)
+    ![Auswählen von „ProductSubcategory“](media/desktop-tutorial-create-calculated-columns/create6.png)
     
-    Sie werden bemerkt haben, dass wir keine weitere RELATED-Funktion im zweiten Ausdruck verwendet haben, mit dem die Spalte „ProductSubcategory“ aufgerufen wird. Das hat den Grund, dass sich diese Spalte bereits in der Tabelle befindet, in der wir unsere neue Spalte erstellen. Wir können [ProductCategory] mit dem Tabellennamen (vollqualifiziert) oder ohne ihn (nicht qualifiziert) eingeben.
+    Zum Aufrufen der Tabelle „ProductSubcategory“ im zweiten Ausdruck musste keine weitere RELATED-Funktion verwendet werden, da die berechnete Spalte in dieser Tabelle erstellt wird. Sie können [ProductSubcategory] mit dem Präfix für den Tabellennamen (vollqualifiziert) oder ohne (nicht qualifiziert) eingeben.
     
-6.  Stellen Sie die Formel fertig, indem Sie die EINGABETASTE drücken oder in der Bearbeitungsleiste auf das Häkchen klicken. Die Formel wird überprüft und der Feldliste in der Tabelle **ProductSubcategory** hinzugefügt.
+6.  Stellen Sie die Formel fertig, indem Sie die **EINGABETASTE** drücken oder in der Bearbeitungsleiste auf das Häkchen klicken. Die Formel ist gültig, und der Spaltenname **ProductFullCategory** wird in der Tabelle **ProductSubcategory** der Liste „Felder“ angezeigt. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_6.png)
+    ![Fertiggestellte Spalte „ProductFullCategory“](media/desktop-tutorial-create-calculated-columns/create7.png)
     
-    Sie werden bemerkt haben, dass für berechnete Spalten ein besonderes Symbol in der Feldliste angezeigt wird. So wird angezeigt, dass sie eine Formel enthalten. Sie werden nur in Power BI Desktop in dieser Weise angezeigt. Im Power BI-Dienst (Ihre Power BI-Website) ist es nicht möglich, eine Formel zu ändern. Daher verfügen Felder berechneter Spalten nicht über ein Symbol.
+    >[!NOTE]
+    >Berechnete Spalten erhalten in Power BI Desktop in der Liste „Felder“ ein eigenes Symbol, das anzeigt, dass sie Formeln enthalten. Im Power BI-Dienst (Ihre Power BI-Website) ist es nicht möglich, eine Formel zu ändern. Daher verfügen berechnete Spalten hier über kein Symbol.
     
-## <a name="lets-add-our-new-column-to-a-report"></a>Fügen wir die neue Spalte zu einem Bericht hinzu
-Jetzt können wir unsere neue Spalte „ProductFullCategory“ der Berichtszeichenfläche hinzufügen. Sehen wir uns „SalesAmount“ nach „ProductFullCategory“ einmal an.
+## <a name="use-your-new-column-in-a-report"></a>Verwenden der neuen Spalte in einem Bericht
 
-Ziehen Sie die Spalte **ProductFullCategory** aus der Tabelle **ProductSubcategory** auf die Berichtszeichenfläche, und ziehen Sie dann das Feld **SalesAmount** aus der Tabelle **Sales** auf das Diagramm.
+Jetzt können Sie die neue Spalte „ProductFullCategory“ verwenden, um „SalesAmount“ nach „ProductFullCategory“ geordnet anzuzeigen.
 
-![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_report_1.png)
+1. Wählen Sie die Spalte **ProductFullCategory** aus, oder ziehen Sie sie aus der Tabelle **ProductSubcategory** in den Zeichenbereich für den Bericht. So wird eine Tabelle mit allen ProductFullCategory-Namen erstellt.
+   
+   ![Tabelle „ProductFullCategory“](media/desktop-tutorial-create-calculated-columns/vis1.png)
+    
+2. Wählen Sie das Feld **SalesAmount** aus, oder ziehen Sie es aus der Tabelle **Sales** in die Tabelle. So wird der Verkaufsbetrag für jede vollständige Produktkategorie angezeigt.
+   
+   ![Tabelle „SalesAmount“ nach „ProductFullCategory“ geordnet](media/desktop-tutorial-create-calculated-columns/vis2.png)
+    
+## <a name="create-a-calculated-column-that-uses-an-if-function"></a>Erstellen einer berechneten Spalte, die eine IF-Funktion verwendet
 
-## <a name="lets-create-another"></a>Erstellen wir noch eine Spalte
-Da Sie jetzt wissen, wie Sie eine berechnete Spalte erstellen können, erstellen wir gleich noch eine.
+Das Beispiel „Contoso Sales Sample“ enthält Verkaufsdaten für aktive und inaktive Geschäfte. Stellen Sie sicher, dass in Ihrem Bericht der Umsatz von aktiven und inaktiven Geschäften deutlich voneinander getrennt dargestellt wird. Erstellen Sie hierfür das Feld „Active StoreName“. In der neuen berechneten Spalte „Active StoreName“ wird jedes aktive Geschäft mit vollständigem Namen angezeigt, während alle inaktiven Geschäfte zusammen unter „Inactive“ gruppiert werden. 
 
-Das Modell „Contoso Sales Sample for Power BI Desktop“ enthält Umsatzdaten für aktive und inaktive Ladengeschäfte. Wir möchten sicherstellen, dass Daten für inaktive Ladengeschäfte als solche kenntlich sind. Effektiv wünschen wir uns ein Feld mit dem Namen „Active StoreName“. Zu diesem Zweck erstellen wir eine weitere Spalte. In diesem Fall möchten wir, dass unsere neue Spalte „Active StoreName“ (als Feld) den Namen eines inaktiven Geschäfts als „Inactive“, den Namen von aktiven Geschäften jedoch als vollständigen Namen des Geschäfts anzeigt.
+Die Tabelle „Stores“ besitzt glücklicherweise eine Spalte namens **Status** mit den Werten „On“ für aktive Geschäfte und „Off“ für inaktive Geschäfte. Verwenden Sie diese Werte, um Werte für die neue „Active StoreName“-Spalte zu erstellen. Die DAX-Formel verwendet die logische Funktion [IF](https://msdn.microsoft.com/library/ee634824.aspx), um den Status jedes Geschäfts zu überprüfen und je nach Ergebnis einen bestimmten Wert zurückzugeben. Wenn der Status eines Geschäfts „On“ ist, gibt die Formel den Namen des Geschäfts zurück. Ist der Status „Off“, weist die Formel für „Active StoreName“ den Wert „Inactive“ zu. 
 
-Glücklicherweise weist unsere Tabelle „Stores“ eine Tabelle mit dem Namen „Status“ auf, die den Wert „On“ für aktive Ladengeschäfte und „Off“ für inaktive Ladengeschäfte trägt. Wir können Werte für jede Zeile in der Spalte „Status“ abfragen, um in unserer neuen Spalte neue Werte zu erstellen.
 
-### <a name="to-create-an-active-storename-column"></a>So erstellen Sie eine Spalte „Active StoreName“
-1.  Erstellen Sie eine neue berechnete Spalte mit dem Namen **Active StoreName** in der Tabelle **Stores**.
+1.  Erstellen Sie in der Tabelle **Stores** eine neue berechnete Spalte, und benennen Sie sie in der Bearbeitungsleiste **Active StoreName**.
     
-    Für diese Spalte überprüft unsere DAX-Formel den Status jedes einzelnen Geschäfts. Wenn der Status eines Geschäfts „On“ ist, gibt die Formel den Namen des Geschäfts zurück. Wenn er „Off“ ist, erhält das Geschäft den Namen „Inactive“. Zu diesem Zweck verwenden wir die logische Funktion [IF](https://msdn.microsoft.com/library/ee634824.aspx), um den Status des Geschäfts zu überprüfen und einen bestimmten Wert zurückzugeben, wenn die Bedingung erfüllt bzw. nicht erfüllt wurde.
+2.  Beginnen Sie hinter dem Gleichheitszeichen **=** mit der Eingabe von **IF**. Die Vorschlagsliste zeigt an, was Sie hinzufügen können. Wählen Sie **IF**aus.
     
-2.  Beginnen Sie mit der Eingabe von **IF**. Die Vorschlagsliste zeigt an, was wir hinzufügen können. Wählen Sie **IF**aus.
+    ![Auswählen von „IF“](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_1.png)
+3.  Das erste Argument für IF ist ein logischer Test, bei dem überprüft wird, ob der Status eines Geschäfts „On“ ist. Geben Sie eine öffnende eckige Klammer **[** ein, durch die Spalten aus der Tabelle „Stores“ angezeigt werden. Wählen Sie **[Status]** aus.
     
-    Das erste Argument für IF ist ein logischer Test. Wir möchten testen, ob ein Geschäft den Status „On“ aufweist oder nicht.
+    ![Auswählen von „Status“](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-3.  Geben Sie eine öffnende eckige Klammer **[** ein, die uns ermöglicht, Spalten aus der Tabelle „Stores“ auszuwählen. Wählen Sie **[Status]**aus.
+4.  Geben Sie direkt hinter **[Status]** den Wert **="On"** ein. Geben Sie anschließend zum Beenden des Arguments ein Komma (**,**) ein. In der QuickInfo wird vorgeschlagen, dass Sie nun einen Wert hinzufügen, der für das Ergebnis „TRUE“ zurückgibt.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_2.png)
+    ![Wert für „TRUE“ hinzufügen](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-4.  Geben Sie direkt hinter **[Status]** die Zeichen **=„On“** ein, und geben Sie dann ein Komma (**,**) ein, um das zweite Argument einzugeben. Die QuickInfo schlägt vor, dass wir den Wert für wahre Ergebnisse hinzufügen müssen.
+5.  Wenn der Status des Geschäfts „On“ lautet, soll der Name des Geschäfts angezeigt werden. Geben Sie eine öffnende eckige Klammer (**[**) ein, wählen Sie die Spalte **[StoreName]** aus, und geben Sie dann ein weiteres Komma ein. In der QuickInfo wird nun vorgeschlagen, dass Sie einen Wert hinzufügen, der für das Ergebnis „FALSE“ zurückgegeben wird. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_3.png)
+    ![Wert für „FALSE“ hinzufügen](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-5.  Wenn das Geschäft aktiv ist („On“), möchten wir den Namen des Geschäfts anzeigen. Geben Sie eine öffnende eckige Klammer **[** ein, wählen Sie die Spalte **[StoreName]** aus, und geben Sie dann ein weiteres Komma ein, damit wir das dritte Argument eingeben können.
+6.  Wenn Sie möchten, dass der Wert *Inactive* lautet, geben Sie **"Inactive"** ein. Stellen Sie die Formel fertig, indem Sie die **EINGABETASTE** drücken oder in der Bearbeitungsleiste auf das Häkchen klicken. Die Formel ist gültig, und der neue Spaltenname wird in der Liste „Felder“ in der Tabelle **Stores** angezeigt.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step5.png)
+    ![Spalte „Active StoreName“](media/desktop-tutorial-create-calculated-columns/if5.png)
     
-6.  Wir müssen einen Wert für den Fall eingeben, dass das Ergebnis des Tests falsch ist, und hier möchten wir den Wert **„Inactive“** verwenden.
+8.  Sie können die neue Spalte „Active StoreName“ in Visualisierungen genau wie jedes andere Feld verwenden. Klicken Sie zum Anzeigen von „SalesAmounts“ nach „Active StoreName“ geordnet auf das Feld **Active StoreName**, oder ziehen Sie es in den Zeichenbereich. Klicken Sie anschließend auf das Feld **SalesAmount**, oder ziehen Sie es in die Tabelle. In dieser Tabelle werde aktive Geschäfte einzeln nach Namen geordnet angezeigt. Inaktive Geschäfte werden hingegen am Ende zusammen unter *Inactive* gruppiert. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step6.png)
+    ![Tabelle „SalesAmount“ nach „Active StoreName“ geordnet](media/desktop-tutorial-create-calculated-columns/if6.png)
     
-7.  Stellen Sie die Formel fertig, indem Sie die EINGABETASTE drücken oder in der Bearbeitungsleiste auf das Häkchen klicken. Die Formel wird überprüft und der Feldliste in der Tabelle „Stores“ hinzugefügt.
-    
-    Genau wie jedes andere Feld können wir unsere neue Spalte „Active StoreName“ in Visualisierungen verwenden. In diesem Diagramm werden Geschäfte mit dem Status „On“ einzeln mit ihrem Namen dargestellt, Geschäfte mit dem Status „Off“ werden jedoch gruppiert und als „Inactive“ angezeigt. 
-    
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_viz.png)
-    
-## <a name="what-weve-learned"></a>Was wir gelernt haben
-Berechnete Spalten können unsere Daten bereichern und Erkenntnisse leichter zugänglich machen. Wir haben gelernt, wie berechnete Spalten mithilfe der Bearbeitungsleiste erstellt werden, wie die Vorschlagsliste verwendet wird und wie Spalten sinnvoll benannt werden.
+## <a name="what-youve-learned"></a>Was Sie gelernt haben
+Berechnete Spalten können Ihre Daten bereichern und Einsichten leichter zugänglich machen. Sie haben gelernt, wie berechnete Spalten in der Liste „Felder“ und der Bearbeitungsleiste erstellt werden, wie Vorschlagslisten und QuickInfos beim Erstellen von Formeln helfen, wie die DAX-Funktionen „RELATED“ und „IF“ mit den entsprechenden Argumenten aufgerufen werden und wie berechnete Spalten in Berichtsvisualisierungen verwendet werden.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Lesen Sie sich die Informationen unter [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) durch, wenn Sie tiefer in DAX-Formeln einsteigen und berechnete Spalten unter Verwendung fortgeschrittener DAX-Formeln erstellen möchten. Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
+Ausführlichere Information zu DAX-Formeln und der Erstellung von berechneten Spalten unter Verwendung von komplexeren Formeln finden Sie unter [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Dieser Artikel konzentriert sich auf grundlegende Konzepte in DAX, wie etwa Syntax, Funktionen und ein tiefer gehendes Verständnis von Kontext.
 
 Denken Sie daran, die [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) zu Ihren Favoriten hinzuzufügen. Das ist der Ort, an dem Sie detaillierte Informationen zur DAX-Syntax, Operatoren und den über 200 DAX-Funktionen finden.
 

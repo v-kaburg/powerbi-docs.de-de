@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -29,6 +29,17 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
+
+## <a name="april-2018"></a>April 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Ausführen mobiler Drilldown- und Drillupvorgänge
+
+Sie können nun einen Drilldown- und Drillupvorgang ausführen, um detaillierte Informationen zu Berichtsvisuals auf Ihrem mobilen Gerät zu erhalten. Um auf dieses Feature zuzugreifen, tippen Sie auf das QuickInfo-Menü auf einem Berichtsvisual, und halten Sie es zum Öffnen gedrückt. Tippen Sie anschließend auf die Drillschaltfläche, um Ihre Daten ausführlich zu durchsuchen.
+
+### <a name="persistent-filters"></a>Permanente Filter
+
+Wir haben vor Kurzem die Berichtsfilter und Berichtsdatenschnitte aktualisiert. Sie können nun automatisch von der Webversion von Power BI in der mobilen Power BI-App gespeichert werden. Jetzt werden Filter und Datenschnitte, die Sie in der mobilen App festlegen, automatisch in der Webversion von Power BI gespeichert.
+
 
 ## <a name="march-2018"></a>März 2018
 

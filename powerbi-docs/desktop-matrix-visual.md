@@ -2,14 +2,14 @@
 title: Verwenden des Matrixvisuals in Power BI Desktop
 description: Visuelles Matrixelement mit abgestuftem Layout und granularen Hervorhebungen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Verwenden des Matrixvisuals in Power BI Desktop
-Mit dem **Matrixvisual** können Sie visuelle Matrixelemente (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten erstellen. Das neue Visual ermöglicht die Kreuzhervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
+Mit dem Feature **Matrixvisual** können Sie visuelle Matrixelemente (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten erstellen. Das neue Feature ermöglicht die Kreuzhervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -38,7 +38,7 @@ Die Matrix bietet viele Features, die in den folgenden Abschnitten dieses Artike
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Erläuterung der Berechnung von Summen mit Power BI
 
-Bevor Sie mit der Vorgehensweise für die Verwendung des Visuals **Matrix** fortfahren, ist es wichtig, ein Verständnis dafür zu entwickeln, wie Power BI die Werte für Summen und Teilsummen in Tabellen und Matrizen berechnet. Bei Zeilen mit Summen und Teilsummen wird das Measure für alle Zeilen der zugrunde liegenden Daten ausgewertet. Dabei handelt es sich *nicht* um eine einfache Addition der Werte in den sichtbaren oder angezeigten Zeilen. Das bedeutet, dass andere Werte als erwartet in der Zeile für die Summe vorhanden sein können. 
+Bevor Sie mit der Vorgehensweise für die Verwendung des Visuals **Matrix** fortfahren, ist es wichtig, ein Verständnis dafür zu entwickeln, wie Power BI die Werte für Summen und Teilsummen in Tabellen und Matrizen berechnet. Bei Zeilen mit Summen und Teilsummen wird das Measure für alle Zeilen der zugrunde liegenden Daten ausgewertet. Dabei handelt es sich *nicht* um eine einfache Addition der Werte in den sichtbaren oder angezeigten Zeilen. Das bedeutet, dass andere Werte als erwartet in der Zeile für die Gesamtsumme vorhanden sein können. 
 
 Betrachten Sie die folgenden **Matrix**-Visuals. 
 
@@ -63,11 +63,11 @@ Wenn für die Visualisierung im Abschnitt **Zeilen** eine Gruppierung erstellt w
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-Mit diesen Schaltflächen können Sie in der Hierarchie einen Drilldown (oder Drillup) ausführen (das Verhalten gleicht dem in anderen Visualisierungen). In diesem Fall können wir einen Drilldown von *Kategorie* zu *Unterkategorie* ausführen (siehe die folgende Abbildung, in der das Gabelpfeil-Symbol für den Drilldown um eine Ebene gewählt wurde).
+Mit diesen Schaltflächen können Sie in der Hierarchie einen Drilldown (oder Drillup) ausführen (das Verhalten gleicht dem in anderen Visualisierungen). In diesem Fall können Sie einen Drilldown von *Kategorie* zu *Unterkategorie* ausführen (siehe die folgende Abbildung, in der das Gabelpfeil-Symbol für den Drilldown um eine Ebene ausgewählt wurde).
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
-Statt die Symbole zu verwenden, können Sie auch einen Rechtsklick auf eine beliebige Zeilenüberschrift ausführen und den Drilldown über das nun angezeigte Menü veranlassen.
+Statt die Symbole zu verwenden, können Sie auch mit der rechten Maustaste auf eine beliebige Zeilenüberschrift klicken und den Drilldown über das nun angezeigte Menü ausführen.
 
 ![](media/desktop-matrix-visual/matrix-visual_7.png)
 
@@ -77,11 +77,11 @@ Mit **Drilldown** wird die Matrix für *diese* Zeilenebene erweitert, alle ander
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Um zur Ansicht der obersten Ebene zurückzukehren, klicken Sie auf das Symbol für **Drillup**. Wenn Sie im Kontextmenü **Nächste Ebene anzeigen** auswählen, erhalten Sie eine alphabetische Liste aller Elemente auf der nächsten Ebene (hier das Feld *Unterkategorie*) ohne die Kategorisierung der höheren Hierarchieebene.
+Um zur Ansicht der obersten Ebene zurückzukehren, klicken Sie auf das Symbol für **Drillup**. Wenn Sie im Kontextmenü **Nächste Ebene anzeigen** auswählen, wird eine alphabetische Liste aller Elemente auf der nächsten Ebene (hier das Feld *Unterkategorie*) ohne die Kategorisierung der höheren Hierarchieebene angezeigt.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Wenn Sie links oben auf das Symbol für **Drillup** klicken, werden wieder alle Kategorien auf der obersten Ebene in der Matrix angezeigt. Wenn Sie nun erneut einen Rechtsklick ausführen und **Auf nächste Ebene erweitern** auswählen, sehen Sie Folgendes:
+Wenn Sie links oben auf das Symbol für **Drillup** klicken, werden wieder alle Kategorien auf der obersten Ebene in der Matrix angezeigt. Wenn Sie nun erneut einen Rechtsklick ausführen und **Auf nächste Ebene erweitern** auswählen, wird Folgendes angezeigt:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,29 +96,29 @@ Wenn Sie im **Matrixvisual** mit der rechten Maustaste auf eine Spalte klicken, 
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-Wenn **Drilldown** ausgewählt wurde, wird die nächste Ebene der Spaltenhierarchie von *Deluxe* angezeigt, in diesem Fall *Farbe*.
+Wenn Sie **Drilldown** auswählen, wird die nächste Ebene der Spaltenhierarchie von *Deluxe* angezeigt, in diesem Fall *Farbe*.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-Alle weiteren Kontextmenüelemente für Spalten sind identisch mit denen für Zeilen (siehe den vorigen Abschnitt **Drilldown auf Zeilenüberschriften**). Wie bei Zeilen stehen bei Spalten die Optionen **Nächste Ebene anzeigen**, **Auf nächste Ebene erweitern** und **Einschließen** oder **Ausschließen** zur Verfügung.
+Alle weiteren Kontextmenüelemente für Spalten sind identisch mit denen für Zeilen (siehe den vorigen Abschnitt **Drilldown auf Zeilenüberschriften**). Wie bei Zeilen stehen bei Spalten die Optionen **Nächste Ebene anzeigen**, **Auf nächste Ebene erweitern**, **Einschließen** oder **Ausschließen** zur Verfügung.
 
 > [!NOTE]
-> Die Symbole für Drilldown und Drillup oben links im Matrixvisual sind für Zeilen vorbehalten. Um einen Drilldown auf Spalten auszuführen, verwenden Sie das Kontextmenü.
+> Die Symbole für Drilldown und Drillup oben links im Matrixvisual gelten nur für Zeilen. Um einen Drilldown auf Spalten auszuführen, verwenden Sie das Kontextmenü.
 > 
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Abgestuftes Layout mit visuellen Matrixelementen
-Beim **Matrixvisual** werden Unterkategorien in einer Hierarchie automatisch unter dem übergeordneten Element eingerückt. Dieser Einzug wird als **abgestuftes Layout** bezeichnet.
+Beim **Matrixvisual** werden Unterkategorien in einer Hierarchie automatisch unter dem übergeordneten Element eingerückt. Dieser Einzug wird als **Abgestuftes Layout** bezeichnet.
 
-In der *ursprünglichen* Version der Matrixvisualisierung wurden Unterkategorien in einer eigenen Spalte angezeigt. Dadurch beanspruchten sie deutlich mehr Platz in der Visualisierung. Die folgende Abbildung zeigt die Tabelle in der ursprünglichen **Matrix**-Visualisierung (mit eigener Spalte für Unterkategorien).
+In der *ursprünglichen* Version der Matrixvisualisierung wurden Unterkategorien in einer eigenen Spalte angezeigt. Dadurch beanspruchten sie deutlich mehr Platz in der Visualisierung. Die folgende Abbildung zeigt die Tabelle im ursprünglichen **Matrix**-Visual (mit eigener Spalte für Unterkategorien).
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-In der Abbildung unten sehen Sie ein **Matrixvisual** mit aktiviertem **abgestuften Design**. Bei der Kategorie *Computer* sind die Unterkategorien (Computerzubehör, Desktops, Laptops, Monitore usw.) leicht eingerückt und die Visualisierung ist klarer und prägnanter strukturiert.
+In der Abbildung unten sehen Sie ein **Matrixvisual** mit aktiviertem **abgestuften Layout**. Bei der Kategorie *Computer* sind die Unterkategorien (Computerzubehör, Desktops, Laptops, Monitore usw.) leicht eingerückt und die Visualisierung ist klarer und prägnanter strukturiert.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Sie können die Einstellungen für das **abgestufte Layout** einfach anpassen. Erweitern Sie bei ausgewähltem **Matrixvisual** im Abschnitt **Format** (das Farbroller-Symbol) des Bereichs **Visualisierungen** den Abschnitt **Zeilenüberschriften**. Dort haben Sie zwei Optionen: den Schalter **Abgestuftes Layout** (zum Ein-/Ausschalten des Layouts) und das Eingabefeld **Abgestufter Layouteinzug** (zum Festlegen des Einzugs in Pixel).
+Sie können die Einstellungen für das abgestufte Layout einfach anpassen. Erweitern Sie bei ausgewähltem **Matrixvisual** im Abschnitt **Format** (das Farbroller-Symbol) des Bereichs **Visualisierungen** den Abschnitt **Zeilenüberschriften**. Sie haben zwei Optionen: den Schalter **Abgestuftes Layout** (zum Ein-/Ausschalten des Layouts) und das Eingabefeld **Abgestufter Layouteinzug** (zum Festlegen des Einzugs in Pixel).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,14 +136,14 @@ Erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Kart
 Dasselbe Verfahren wird für die Spaltenteilergebnisse angewendet.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kreuzhervorhebung mit visuellen Matrixelementen
-Jedes Element im **Matrixvisual** kann als Basis für die übergreifende Hervorhebung dienen. Wenn Sie in einem **Matrixvisual** eine Spalte auswählen, wird sie hervorgehoben (wie bei anderen Visuals auf der Berichtsseite). Die Auswahl eines Datenpunkts ist eine Standardfunktion in anderen Visuals, die jetzt auch im **Matrixvisual** unterstützt wird.
+Jedes Element im **Matrixvisual** kann als Basis für Kreuzhervorhebungen dienen. Wenn Sie in einem **Matrixvisual** eine Spalte auswählen, wird sie hervorgehoben (wie bei anderen Visuals auf der Berichtsseite). Dies ist ein Standardfeature in anderen Visuals und bei der Auswahl eines Datenpunkts, das jetzt auch im **Matrixvisual** unterstützt wird.
 
 Auch wird STRG+Klicken jetzt für die Kreuzhervorhebung unterstützt. In der folgenden Abbildung sehen Sie eine Reihe von Unterkategorien, die im **Matrixvisual** ausgewählt wurden. Nicht ausgewählte Elemente sind abgeblendet (grau). Andere Visuals auf der Seite reflektieren die im **Matrixvisual** getroffene Auswahl.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Schattierung und Schriftfarben für Matrixvisuals
-Mit dem **Matrixvisual** können Sie **bedingte Formatierung** (Farben und Schattierung) auf den Hintergrund von Zellen in der Matrix und bedingte Formatierung auf den Text und die Werte selbst anwenden.
+Mit dem **Matrixvisual** können Sie **Bedingte Formatierung** (Farben und Schattierung) auf den Hintergrund von Zellen in der Matrix und bedingte Formatierung auf den Text und die Werte selbst anwenden.
 
 Um bedingte Formatierung anzuwenden, können Sie einen der folgenden Schritte ausführen, wenn ein Matrixvisual ausgewählt ist:
 

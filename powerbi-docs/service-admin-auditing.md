@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Erfahren Sie, wie Sie mit der Überwachung in Power BI ergriffene Maßnahmen überwachen und untersuchen können. Sie können das Security & Compliance Center oder PowerShell verwenden.
 
 Es kann wichtig sein zu wissen, wer welche Aktion für welches Element im Power BI-Mandanten ausführt. Dies kann Ihrer Organisation bei der Einhaltung von Anforderungen helfen, was beispielsweise die Einhaltung gesetzlicher Bestimmungen und die Dokumentverwaltung betrifft.
 
 Sie können die Überwachungsdaten nach Datumsbereich, Benutzer, Dashboard, Bericht, Dataset und Aktivitätstyp filtern. Sie können die Aktivitäten auch als CSV-Datei (durch Trennzeichen getrennte Datei) herunterladen, um die Analyse offline durchzuführen.
-
-> [!NOTE]
-> Die Überwachungsfunktion ist in Power BI derzeit in allen Datenbereichen als Vorschau verfügbar.
 
 ## <a name="requirements"></a>Anforderungen
 Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokolle zugreifen zu können:
@@ -47,28 +42,8 @@ Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokoll
 
 - Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum Office 365 Security & Compliance Center abrufen.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Aktivieren der Überwachungsfunktion im Power BI-Verwaltungsportal
-
-Die Überwachung muss für Ihre Organisation aktiviert werden, damit sie in Berichten verwendet werden kann. Rufen Sie hierzu die Mandanteneinstellungen im Verwaltungsportal auf.
-
-1. Wählen Sie das **Zahnradsymbol** in der rechten oberen Ecke aus.
-
-2. Wählen Sie **Verwaltungsportal** aus.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Wählen Sie **Mandanteneinstellungen** aus.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Aktivieren Sie **Überwachungsprotokolle für interne Aktivitätsüberwachung und Konformität erstellen**.
-
-5. Wählen Sie **Übernehmen**aus.
-
-Ab jetzt werden verschiedene Aktivitäten der Benutzer in Power BI erfasst. Es dauert bis zu 48 Stunden, bis die Protokolle im O365 Security & Compliance Center angezeigt werden. Weitere Informationen dazu, welche Aktivitäten erfasst werden, finden Sie unter [Liste der in Power BI überwachten Aktivitäten](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Um die Power BI-Überwachung in Ihrem Mandanten zu aktivieren, ist mindestens eine Exchange-Postfachlizenz im Mandanten erforderlich.
+> Um die Power BI-Überwachungsprotokolle in Ihrem Mandanten anzuzeigen, ist mindestens eine Exchange-Postfachlizenz im Mandanten erforderlich.
 
 ## <a name="accessing-your-audit-logs"></a>Zugriff auf Überwachungsprotokolle
 

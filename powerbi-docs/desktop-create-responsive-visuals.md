@@ -1,40 +1,40 @@
 ---
-title: "Optimieren eines Power BI-Visuals für eine beliebige Größe"
-description: "Hier erfahren Sie, wie Sie in Power BI Desktop und im Power BI-Dienst Visuals für die Power BI-Smartphone-Apps optimieren."
+title: Optimieren eines Power BI-Visuals für eine beliebige Größe
+description: Hier erfahren Sie, wie Sie in bereits vorhandenen Berichten in Power BI Desktop und im Power BI-Dienst Visuals für Power BI-Smartphone-Apps optimieren können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c80048213b20365102bcb9c6842c342d8b9052b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimieren eines Power BI-Visuals für eine beliebige Größe
-Sie können Visuals in einem Dashboard oder Bericht auf *dynamisch* festlegen, damit bei jeder Bildschirmgröße automatisch möglichst viele Daten und Informationen angezeigt werden.
+Wenn Sie einen neuen Bericht erstellen, sind die Visuals standardmäßig *dynamisch*, d.h., sie ändern sich auf dynamische Weise, um unabhängig von der Bildschirmgröße die maximale Anzahl von Daten und Informationen anzuzeigen. Die Größe von Visuals älterer Berichte können Sie ebenfalls dynamisch anpassen.
 
 Wenn Sie die Größe des Visuals ändert, hat die Datenansicht in Power BI die höchste Priorität. Beispielsweise wird automatisch die Auffüllung entfernt und die Legende über das Visual verschoben, damit es auch bei einer Verkleinerung relevant bleibt. Dynamik ist insbesondere bei Visuals in der mobilen Power BI-App auf Smartphones nützlich.
 
 ![Größenänderung eines dynamischen Visuals](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
-Sie können die Dynamik für jedes Visual mit X- und Y-Achsen sowie Slicern aktivieren.
+Die Größe von sämtlichen Visuals mit X- und Y-Achsen sowie Slicern kann ebenfalls auf dynamische Weise geändert werden.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Aktivieren der Dynamik in Power BI Desktop
-1. Vergewissern Sie sich in Power BI Desktop auf der Registerkarte **Ansicht**, dass Sie sich im **Desktoplayout** befinden.
+1. Vergewissern Sie sich bei älteren Berichten in Power BI Desktop auf der Registerkarte **Ansicht**, dass Sie sich im **Desktoplayout** befinden.
    
     ![Symbol „Desktoplayout“](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Wählen Sie ein Visual aus. Wählen Sie dann im Bereich **Visualisierungen** den Abschnitt **Format** aus.
@@ -45,19 +45,18 @@ Sie können die Dynamik für jedes Visual mit X- und Y-Achsen sowie Slicern akti
      Wenn Sie jetzt einen [für Smartphones optimierten Bericht erstellen](desktop-create-phone-report.md) und dieses Visual hinzufügen, wird dessen Größe automatisch dynamisch angepasst.
 
 ## <a name="turn-on-responsiveness-in-the-power-bi-service"></a>Aktivieren der Dynamik im Power BI-Dienst
-Die Dynamik für ein Visual in einem Bericht wird im Power BI-Dienst aktiviert. Dazu müssen Sie berechtigt sein, den Bericht zu bearbeiten.
+Die Dynamik für ein Visual in einem Bericht kann im Power BI-Dienst aktiviert werden. Dazu müssen Sie berechtigt sein, den Bericht zu bearbeiten.
 
-1. Wählen Sie in einem Bericht im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) die Option **Bericht bearbeiten** aus.
+1. Klicken Sie in einem Bericht im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) auf **Bericht bearbeiten**.
 2. Wählen Sie ein Visual aus. Wählen Sie dann im Bereich **Visualisierungen** den Abschnitt **Format** aus.
 3. Erweitern Sie **Allgemein**, und stellen Sie den Schieberegler **Dynamisch** auf **Ein**.
    
     ![„Dynamisch“ aktivieren](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
-     Wenn Sie jetzt eine [Smartphoneansicht eines Dashboards erstellen](service-create-dashboard-mobile-phone-view.md) und dieses Visual hinzufügen, wird dessen Größe automatisch dynamisch angepasst.
+     Wenn Sie jetzt eine [Smartphoneansicht dieses Berichts erstellen](desktop-create-phone-report.md) und dieses Visual hinzufügen, wird dessen Größe automatisch dynamisch angepasst.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind](desktop-create-phone-report.md)
-* [Erstellen einer Telefonansicht eines Dashboards in Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind](mobile-apps-view-phone-report.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 
