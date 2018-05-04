@@ -5,24 +5,25 @@ metadata:
   description: Hier erfahren Sie, was Power BI ist, wie die Grundkkomponenten ineinandergreifen und wie Sie mit Ihnen Einblicke in Ihre Daten erhalten.
   audience: Business User
   level: Beginner
-  nextTutorialHref: gettingdata
+  nextTutorialHref: gettingdata.yml
   nextTutorialTitle: Abrufen von Daten
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 7eac10ab7caf67209bc9dc61d24890371e1a4f94
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "In diesem ersten Abschnitt des **geführten Lernens** erfahren Sie, was Power BI ist, wie die Grundkomponenten ineinandergreifen und wie Sie mit ihnen Einblicke in Ihre Daten erhalten.\n"
-- title: "Einführung in Power BI"
+  content: >
+    In diesem ersten Abschnitt des **geführten Lernens** erfahren Sie, was Power BI ist, wie die Grundkomponenten ineinandergreifen und wie Sie mit ihnen Einblicke in Ihre Daten erhalten.
+- title: Einführung in Power BI
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
@@ -44,8 +45,8 @@ items:
 
 
     [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
-- title: "Zusammenfassung und nächste Schritte"
+- title: Zusammenfassung und nächste Schritte
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Sie haben den Abschnitt **Erste Schritte** des geführten Lernens zu Microsoft Power BI abgeschlossen. Herzlichen Glückwunsch! Sie können jetzt mit dem nächsten Teil des geführten Lernens weitermachen, in dem es um das **Abrufen von Daten** geht. Wählen Sie unten die Schaltfläche **Abrufen von Daten** aus, um fortzufahren.\0"
+- content: Sie haben den Abschnitt **Erste Schritte** des geführten Lernens zu Microsoft Power BI abgeschlossen. Herzlichen Glückwunsch! Sie können jetzt mit dem nächsten Teil des geführten Lernens weitermachen, in dem es um das **Abrufen von Daten** geht. Wählen Sie unten die Schaltfläche **Abrufen von Daten** aus, um fortzufahren.

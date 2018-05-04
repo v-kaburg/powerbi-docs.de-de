@@ -5,24 +5,25 @@ metadata:
   description: Visualisierungen erwecken Ihre Daten zum Leben und bieten Erkenntnisse, die sich nur durch ansprechende und beeindruckende visuelle Darstellungen gewinnen lassen. In diesem Abschnitt erfahren Sie, wie dies geschieht.
   audience: Business User
   level: Beginner
-  nextTutorialHref: exploringdata
+  nextTutorialHref: exploringdata.yml
   nextTutorialTitle: Durchsuchen von Daten
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 8ce82b4d86d6e6eb8affbe567cc606fe2cc37732
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Visualisierungen erwecken Ihre Daten zum Leben und bieten Erkenntnisse, die sich nur durch ansprechende und beeindruckende visuelle Darstellungen gewinnen lassen. In diesem Abschnitt des geführten Lernens zu **Power BI** erfahren Sie, wie Sie damit arbeiten.\n"
-- title: "Einführung in Visuals in Power BI"
+  content: >
+    Visualisierungen erwecken Ihre Daten zum Leben und bieten Erkenntnisse, die sich nur durch ansprechende und beeindruckende visuelle Darstellungen gewinnen lassen. In diesem Abschnitt des geführten Lernens zu **Power BI** erfahren Sie, wie Sie damit arbeiten.
+- title: Einführung in Visuals in Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
@@ -78,14 +79,14 @@ items:
 
 
     [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
-- title: "Maßstäbe und Infokarten mit einzelner Zahl"
+- title: Maßstäbe und Infokarten mit einzelner Zahl
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
 
 
     [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
-- title: "Ändern von Farben in Diagrammen und visuellen Elementen"
+- title: Ändern von Farben in Diagrammen und visuellen Elementen
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
@@ -127,7 +128,7 @@ items:
 
 
     [!INCLUDE [](includes/3-11c-display-empty-categories.md)]
-- title: "Optionen für die Zusammenfassung und Kategorie"
+- title: Optionen für die Zusammenfassung und Kategorie
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/Co2z9b-s_yM?rel=0]
@@ -155,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Gut gemacht. Sie haben den Abschnitt zu **Visualisierungen** im **geführten Lernen** abgeschlossen und können jetzt mit dem nächsten Tutorial weitermachen: **Durchsuchen von Daten**.\0"
+- content: 'Gut gemacht. Sie haben den Abschnitt zu **Visualisierungen** im **geführten Lernen** abgeschlossen und können jetzt mit dem nächsten Tutorial weitermachen: **Durchsuchen von Daten**.'
