@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
@@ -69,6 +69,10 @@ Konfigurieren Sie eine Berichtsseite so, wie sie im Lesezeichen angezeigt werden
 
 Sobald ein Lesezeichen erstellt wurde, können Sie es anzeigen, indem Sie einfach im Bereich **Lesezeichen** auf das Lesezeichen klicken. 
 
+Sie können auch auswählen, ob jedes Lesezeichen Eigenschaften von *Daten* anwendet, z.B. Filter und Datenschnitte, die *Anzeigeeigenschaften*, z.B. Spotlight und seine Sichtbarkeit, und Seitenänderungen, sodass die Seite angezeigt wird, die sichtbar war, als das Lesezeichen hinzugefügt wurde. Diese Funktionen sind nützlich, wenn Sie Lesezeichen verwenden, um zwischen Visualisierungstypen zu wechseln – in diesem Fall möchten Sie die Dateneigenschaften wahrscheinlich deaktivieren, damit Filter nicht zurückgesetzt werden, wenn Benutzer Visualisierungstypen ändern. 
+
+Um solche Änderungen vorzunehmen, wählen Sie die Auslassungspunkte neben dem Namen des Lesezeichens aus, wie in der vorherigen Abbildung gezeigt, und dann aktivieren oder deaktivieren Sie das Häkchen neben *Daten*, *Anzeige* und anderen Steuerelementen. 
+
 ## <a name="arranging-bookmarks"></a>Anordnen von Lesezeichen
 Beim Erstellen von Lesezeichen werden Sie möglicherweise feststellen, dass die Reihenfolge ihrer Erstellung nicht unbedingt die gleiche Reihenfolge ist, in der Sie sie dem Publikum präsentieren möchten. Dies ist kein Problem, da Sie die Reihenfolge der Lesezeichen leicht ändern können.
 
@@ -105,13 +109,13 @@ Beim Hinzufügen eines Lesezeichens wird der Sichtbarkeitsstatus jedes Objekts b
 Es ist wichtig zu beachten, dass Berichtsseiten weiterhin durch **Datenschnitte** gefiltert werden, auch wenn sie nicht sichtbar sind. Sie können daher viele verschiedene Lesezeichen mit unterschiedlichen Datenschnitteinstellungen erstellen und eine einzelne Berichtsseite in verschiedenen Lesezeichen sehr unterschiedlich darstellen (und jeweils andere Erkenntnisse hervorheben).
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Lesezeichen für Formen und Bilder
-Sie können auch Formen und Bilder mit Lesezeichen verknüpfen. Wenn Sie dann auf ein Objekt klicken, wird das mit dem Objekt verknüpfte Lesezeichen angezeigt. 
+Sie können auch Formen und Bilder mit Lesezeichen verknüpfen. Wenn Sie dann auf ein Objekt klicken, wird das mit dem Objekt verknüpfte Lesezeichen angezeigt. Dies kann bei der Arbeit mit Schaltflächen besonders hilfreich sein; weitere Informationen finden Sie im Artikel [Verwenden von Schaltflächen in Power BI](desktop-buttons.md). 
 
-Wenn Sie einem Objekt ein Lesezeichen zuweisen möchten, wählen Sie das Objekt aus, und wählen Sie dann im Bereich **Form formatieren** die Option **Link** aus, wie in der folgenden Abbildung dargestellt.
+Wenn Sie einem Objekt ein Lesezeichen zuweisen möchten, wählen Sie das Objekt aus, und erweitern Sie dann den Abschnitt **Aktion** im Bereich **Form formatieren**, wie in der folgenden Abbildung dargestellt.
 
 ![Hinzufügen von Lesezeichenlink zu einem Objekt](media/desktop-bookmarks/bookmarks_10.png)
 
-Nachdem Sie den Schieberegler **Link** auf **Ein** gestellt haben, können Sie auswählen, ob das Objekt ein Link oder ein Lesezeichen ist. Wenn Sie „Lesezeichen“ wählen, können Sie das Lesezeichen auswählen, mit dem das Objekt verknüpft wird.
+Nachdem Sie den Schieberegler **Aktion** auf **Ein** gestellt haben, können Sie auswählen, ob das Objekt eine Schaltfläche „Zurück“, ein Lesezeichen oder ein Frage- und Antwortbefehl ist. Wenn Sie „Lesezeichen“ wählen, können Sie das Lesezeichen auswählen, mit dem das Objekt verknüpft wird.
 
 Das Hinzufügen von Lesezeichen, die mit Objekten verknüpft sind, bietet Ihnen viele interessante Möglichkeiten. Sie können auf der Berichtsseite ein visuelles Inhaltsverzeichnis erstellen oder unterschiedliche Ansichten (z.B. Visualtypen) der gleichen Informationen erstellen, indem Sie einfach auf ein Objekt klicken.
 
@@ -138,9 +142,7 @@ Wenn hingegen im Menü mit den drei Auslassungspunkten für das Visual **Spotlig
 Wenn beim Hinzufügen eines Lesezeichens einer der beiden Modi ausgewählt wird, wird dieser Modus (Fokus oder Spotlight) im Lesezeichen gespeichert.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Lesezeichen im Power BI-Dienst
-Wenn Sie im **Power BI-Dienst** einen Bericht mit mindestens einem Lesezeichen veröffentlichen, können Sie diese Lesezeichen im **Power BI-Dienst** anzeigen und mit ihnen interagieren. Damit das Lesezeichenfeature im **Power BI-Dienst** verfügbar ist, müssen Sie vor dem Veröffentlichen eines Berichts mindestens ein Lesezeichen in diesem erstellt haben.
-
-Wenn in einem Bericht Lesezeichen verfügbar sind, können Sie **Ansicht > Auswahlbereich** oder **Ansicht > Lesezeichenbereich** auswählen, um den jeweiligen Bereich anzuzeigen.
+Wenn Sie im **Power BI-Dienst** einen Bericht mit mindestens einem Lesezeichen veröffentlichen, können Sie diese Lesezeichen im **Power BI-Dienst** anzeigen und mit ihnen interagieren. Wenn in einem Bericht Lesezeichen verfügbar sind, können Sie **Ansicht > Auswahlbereich** oder **Ansicht > Lesezeichenbereich** auswählen, um den jeweiligen Bereich anzuzeigen.
 
 ![Anzeigen des Lesezeichen- und Auswahlbereichs im Power BI-Dienst](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Beachten Sie, dass Sie zum Navigieren zwischen den Lesezeichen die graue Lesezei
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Für dieses Release von **Lesezeichen** gelten einige Einschränkungen und Überlegungen.
 
-* Benutzerdefinierte Visuals können nicht in Lesezeichen gespeichert werden, wenn sie die *Quelle* des Filters sind. Wenn Sie zum Filtern von Elementen auf einer Seite benutzerdefinierte Visuals (z.B. den Chiclet-Datenschnitt) verwenden und mithilfe eines Lesezeichens zu dieser Seite zurückkehren, wird die Seite eventuell gefiltert, das benutzerdefinierte Visual wird jedoch nicht entsprechend der Filterung der Seite aktualisiert. 
-* Beim Erstellen eines Lesezeichens wird die übergreifende Hervorhebung in einem Berichtsbereich *nicht* gespeichert. 
+* Die meisten benutzerdefinierten Visualisierungen sollten mit Lesezeichen gut funktionieren. Wenn bei einem Lesezeichen Probleme in Zusammenhang mit einer benutzerdefinierten Visualisierung auftreten sollten, bitten Sie den Ersteller der benutzerdefinierten Visualisierung, dafür zu sorgen, dass seine Visualisierung Lesezeichen unterstützt. 
 * Wenn Sie einer Berichtsseite nach dem Erstellen eines Lesezeichens ein Visual hinzufügen, wird das Visual in seinem Standardstatus angezeigt. Dies bedeutet auch, dass beim Anwenden eines Datenschnitts auf einer Seite, auf der Sie zuvor Lesezeichen erstellt haben, das Verhalten des Datenschnitts seinem Standardstatus entspricht.
 * Das Verschieben von Visuals nach dem Erstellen des Lesezeichens wird im Lesezeichen wiedergegeben. 
-* Damit Lesezeichen im **Power BI-Dienst** verfügbar sind, *muss* der Bericht mindestens ein Lesezeichen enthalten, wenn Sie ihn im Power BI-Dienst veröffentlichen. Diese Anforderung gilt für jeden Bericht, den Sie veröffentlichen.
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu Features, die Lesezeichen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:

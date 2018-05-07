@@ -2,14 +2,14 @@
 title: Importieren von Excel-Arbeitsmappen in Power BI Desktop
 description: Importieren von Excel-Arbeitsmappen in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 998f33eb2251814839a2d456da2624981e6114ab
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importieren von Excel-Arbeitsmappen in Power BI Desktop
 Mit **Power BI Desktop** können Sie Excel-Arbeitsmappen, die Power Query-Abfragen, Power Pivot-Modelle und Power View-Arbeitsblätter enthalten, einfach in Power BI Desktop importieren. Berichte und Visualisierungen werden basierend auf der Excel-Arbeitsmappe automatisch erstellt. Nach dem Importieren können Sie diese Berichte mit Power BI Desktop weiter verbessern und verfeinern, indem Sie die vorhandenen Features und die neuen Features verwenden, die im Rahmen jedes monatlichen Power BI Desktop-Updates veröffentlicht werden.
@@ -62,17 +62,17 @@ Mit Power BI Desktop können die folgenden Elemente importiert werden, die in Ex
 | --- | --- |
 | Power Query-Abfragen |Alle Power Query-Abfragen aus Excel werden in Power BI Desktop in Abfragen konvertiert. Falls in der Excel-Arbeitsmappe Abfragegruppen definiert waren, wird in Power BI Desktop die gleiche Organisation repliziert. Alle Abfragen werden geladen, es sei denn, sie sind in Excel auf „Nur Verbindung erstellen“ festgelegt. Sie können das Ladeverhalten in Power BI Desktop über den **Abfrage-Editor** im Dialogfeld **Eigenschaften** auf der Registerkarte **Start** anpassen. |
 | Externe Power Pivot-Datenverbindungen |Alle externen Power Pivot-Datenverbindungen werden in Power BI Desktop in Abfragen konvertiert. |
-| Verknüpfte Tabellen oder Tabellen der aktuellen Arbeitsmappe |Wenn eine Arbeitsblatttabelle in Excel mit dem Datenmodell oder einer Abfrage verknüpft ist (mithilfe von *From Table* oder der Funktion *Excel.CurrentWorkbook()* in M), werden die folgenden Optionen bereitgestellt:
-  1. Importieren der Tabelle in die Power BI Desktop-Datei. Diese Tabelle stellt eine einmalige Momentaufnahme der Daten dar, nach der Sie die Daten in der Tabelle in Power BI Desktop nicht bearbeiten können. Es gilt eine Größenbeschränkung von 1 Mio. Zeichen (alle Spaltenüberschriften und Zellen zusammen) für Tabellen, die mit dieser Option erstellt werden.    
-  2. Beibehalten einer Verbindung mit der ursprünglichen Arbeitsmappe. Alternativ dazu können Sie eine Verbindung mit der ursprünglichen Excel-Arbeitsmappe beibehalten. Power BI Desktop ruft dann bei jeder Aktualisierung die neuesten Inhalte dieser Tabelle ab, wie dies auch für alle anderen Abfragen durchgeführt wird, die für eine Excel-Arbeitsmappe in Power BI Desktop erstellt werden. | | Datenmodell: Berechnete Spalten, Measures, KPIs, Datenkategorien und Beziehungen | Diese Datenmodellobjekte werden in die entsprechenden Objekte in Power BI Desktop konvertiert. Beachten Sie, dass es bestimmte Datenkategorien gibt, die in Power BI Desktop noch nicht verfügbar sind, z.B. **Bild**. In diesen Fällen werden die Datenkategorieinformationen für die betreffenden Spalten zurückgesetzt. | | Power View-Arbeitsblätter |Für jedes Power View-Arbeitsblatt in Excel wird eine neue Berichtsseite erstellt. Der Name und die Reihenfolge dieser Berichtsseiten stimmen mit der ursprünglichen Excel-Arbeitsmappe überein. |
+| Verknüpfte Tabellen oder Tabellen der aktuellen Arbeitsmappe |Wenn eine Arbeitsblatttabelle in Excel mit dem Datenmodell oder einer Abfrage verknüpft ist (mithilfe von *From Table* oder der Funktion *Excel.CurrentWorkbook()* in M), werden die folgenden Optionen bereitgestellt: 1. Importieren der Tabelle in die Power BI Desktop-Datei. Diese Tabelle stellt eine einmalige Momentaufnahme der Daten dar, nach der Sie die Daten in der Tabelle in Power BI Desktop nicht bearbeiten können. Es gilt eine Größenbeschränkung von 1 Mio. Zeichen (alle Spaltenüberschriften und Zellen zusammen) für Tabellen, die mit dieser Option erstellt werden. 2. Beibehalten einer Verbindung mit der ursprünglichen Arbeitsmappe. Alternativ dazu können Sie eine Verbindung mit der ursprünglichen Excel-Arbeitsmappe beibehalten. Power BI Desktop ruft dann bei jeder Aktualisierung die neuesten Inhalte dieser Tabelle ab, wie dies auch für alle anderen Abfragen durchgeführt wird, die für eine Excel-Arbeitsmappe in Power BI Desktop erstellt werden. |
+| Berechnete Spalten des Datenmodells, Measures, KPIs, Datenkategorien und Beziehungen |Diese Datenmodellobjekte werden in Power BI Desktop in gleichwertige Objekte konvertiert. Beachten Sie, dass bestimmte Datenkategorien in Power BI Desktop nicht verfügbar sind, z.B. **Bild**. In diesen Fällen werden die Datenkategorieinformationen für die betreffenden Spalten zurückgesetzt. |
+| Power View-Arbeitsblätter |Für jedes Power View-Arbeitsblatt in Excel wird eine neue Berichtsseite erstellt. Der Name und die Reihenfolge dieser Berichtsseiten stimmen mit der ursprünglichen Excel-Arbeitsmappe überein. |
 
 ## <a name="are-there-any-limitations-to-importing-a-workbook"></a>Gelten für den Import einer Arbeitsmappe Einschränkungen?
 Es gelten einige Einschränkungen in Bezug auf den Import einer Arbeitsmappe in Power BI Desktop, die im Folgenden aufgeführt werden:
 
-1. **Externe Verbindungen mit tabellarischen Analysis Services-Modellen:** In Excel 2013 ist es möglich, eine Verbindung mit tabellarischen SQL Server Analysis Services-Modellen herzustellen und basierend auf diesen Modellen Power View-Berichte zu erstellen, ohne dass die Daten importiert werden müssen. Diese Art von Verbindung wird für das Importieren von Excel-Arbeitsmappen in Power BI Desktop derzeit nicht unterstützt, ist aber für eines der nächsten Updates geplant. In der Zwischenzeit müssen Sie diese externen Verbindungen in Power BI Desktop neu erstellen.
-2. **Hierarchien:** Diese Art von Datenmodellobjekt wird in Power BI Desktop derzeit nicht unterstützt. Hierarchien werden beim Importieren einer Excel-Arbeitsmappe in Power BI Desktop daher übersprungen.
-3. **Binäre Datenspalten:** Diese Art von Datenmodellspalte wird in Power BI Desktop derzeit nicht unterstützt. Binäre Datenspalten werden in Power BI Desktop aus der sich ergebenden Tabelle entfernt.
-4. **Nicht unterstützte Power View-Elemente:** Power View verfügt über einige Features, die in Power BI Desktop noch nicht enthalten sind, z. B. Designs oder bestimmte Arten von Visualisierungen (Punktdiagramm mit Wiedergabeachse, Drilldownverhalten usw.). Diese nicht unterstützten Visualisierungen führen zur Meldung *Nicht unterstützte Visualisierung* an den entsprechenden Positionen im Power BI Desktop-Bericht, die Sie löschen oder für die Sie eine Neukonfiguration durchführen können.
-5. **Benannte Bereiche mit Verwendung von*****From Table*****in Power Query oder*****Excel.CurrentWorkbook*****in M:** Das Importieren dieser Daten benannter Bereiche in Power BI Desktop wird derzeit nicht unterstützt, ist aber als Update für Power BI Desktop geplant. Momentan werden diese benannten Bereiche in Power BI Desktop als Verbindung mit der externen Excel-Arbeitsmappe geladen.
-6. **PowerPivot zu SSRS:** Externe PowerPivot-Verbindungen mit SQL Server Reporting Services (SSRS) werden derzeit nicht unterstützt, da diese Datenquelle in Power BI Desktop momentan nicht verfügbar ist.
+* **Externe Verbindungen mit tabellarischen Analysis Services-Modellen:** In Excel 2013 ist es möglich, eine Verbindung mit tabellarischen SQL Server Analysis Services-Modellen herzustellen und basierend auf diesen Modellen Power View-Berichte zu erstellen, ohne dass die Daten importiert werden müssen. Diese Art von Verbindung wird für das Importieren von Excel-Arbeitsmappen in Power BI Desktop derzeit nicht unterstützt. Als Umgehung müssen Sie diese externen Verbindungen in Power BI Desktop neu herstellen.
+* **Hierarchien:** Diese Art von Datenmodellobjekt wird in Power BI Desktop derzeit nicht unterstützt. Hierarchien werden beim Importieren einer Excel-Arbeitsmappe in Power BI Desktop daher übersprungen.
+* **Binäre Datenspalten:** Diese Art von Datenmodellspalte wird in Power BI Desktop derzeit nicht unterstützt. Binäre Datenspalten werden in Power BI Desktop aus der sich ergebenden Tabelle entfernt.
+* **Nicht unterstützte Power View-Elemente:** Power View verfügt über einige Features, die in Power BI Desktop nicht enthalten sind, z.B. Designs oder bestimmte Arten von Visualisierungen (Punktdiagramm mit Wiedergabeachse, Drilldownverhalten usw.). Diese nicht unterstützten Visualisierungen führen zur Meldung *Nicht unterstützte Visualisierung* an den entsprechenden Positionen im Power BI Desktop-Bericht, die Sie löschen oder für die Sie eine Neukonfiguration durchführen können.
+* **Benannte Bereiche mit Verwendung von*****From Table*****in Power Query oder*****Excel.CurrentWorkbook*****in M:** Das Importieren dieser Daten benannter Bereiche in Power BI Desktop wird derzeit nicht unterstützt, ist aber als Update für Power BI Desktop geplant. Momentan werden diese benannten Bereiche in Power BI Desktop als Verbindung mit der externen Excel-Arbeitsmappe geladen.
+* **PowerPivot zu SSRS:** Externe PowerPivot-Verbindungen mit SQL Server Reporting Services (SSRS) werden derzeit nicht unterstützt, da diese Datenquelle in Power BI Desktop momentan nicht verfügbar ist.
 

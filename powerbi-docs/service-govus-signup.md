@@ -1,28 +1,28 @@
 ---
-title: "Registrieren bei Power BI für Angehörige von US-Behörden"
-description: "USA Hier finden Sie Informationen zur Registrierung einer US-Behörde für den Power-BI US Government-Dienst"
+title: Registrieren bei Power BI für Angehörige von US-Behörden
+description: USA Hier finden Sie Informationen zur Registrierung einer US-Behörde für den Power-BI US Government-Dienst
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrieren einer US-Behörde für den Power BI-Dienst
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -48,7 +48,7 @@ Wenn Ihre Organisation neuer Kunde der **Office Government Cloud** ist, gehen Si
 > Diese Schritte sollten vom Portaladministrator ausgeführt werden.
 >
 
-1. Besuchen Sie die Seite [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Wechseln Sie zu [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Wenn Sie sich nicht sofort für Office Government Cloud registrieren möchten, wenden Sie sich an Ihren Vertriebsmitarbeiter.
@@ -97,12 +97,7 @@ Wechseln Sie zu **Abrechnung > Abonnements**, und wählen Sie das Abonnement **P
 ### <a name="whitelisting-instructions"></a>Anweisungen zum Aufnehmen in die Whitelist
 Das *Aufnehmen in die Whitelist* ist ein Prozess, bei dem das Power BI-Technikerteam Kunden aus der Umgebung der kommerziellen Cloud in die sichere Umgebung der Cloud für Behörden verschieben. Dadurch wird sichergestellt, dass die in der Cloud für die US-Regierung verfügbaren Funktionen erwartungsgemäß funktionieren. Alle vorhandenen (oder neuen) US-Behördenkunden, die erstmalig **Power BI**-Dienste für US-Behörden erwerben, *müssen* den folgenden Prozess zum Aufnehmen in die Whitelist befolgen. Der Prozess muss vor der Einrichtung von bzw. Migration auf **Power BI**-Dienste für US-Behörden ausgeführt werden. 
 
-Damit Ihr Mandant für die Cloud für US-Behörden *in die Whitelist aufgenommen* wird, füllen Sie über den folgenden Link ein Supportticket für diese Anforderung aus. Beachten Sie, dass nur Administratoren diese Anforderung erstellen können:
-
-* [*Aufnahme in die Whitelist* – Onlinesupportanfrage ](https://powerbi.microsoft.com/clouds/)
-* Achten Sie darauf, die Domäne anzugeben, die *in die Whitelist aufgenommen* werden soll. Schließen Sie außerdem die E-Mail-Adresse des Microsoft-Vertreters ein, der diesen Vorgang mit Ihnen bearbeitet.
-
-Der Vorgang für die *Aufnahme in die Whitelist* dauert ungefähr drei Wochen. Während dieser Zeit nimmt das Power BI-Technikteam entsprechende Änderungen vor, um sicherzustellen, dass Ihr Mandant ordnungsgemäß in der Cloud für US-Behörden arbeitet.
+Damit Ihr Mandant *in die Whitelist* der Cloud für US-Behörden aufgenommen wird, wenden Sie sich an das Microsoft-Kontoteam zur Unterstützung bei der Aufnahme in die Whitelist. Beachten Sie, dass nur Administratoren diese Anforderung erstellen können. Der Vorgang für die *Aufnahme in die Whitelist* dauert ungefähr drei Wochen. Während dieser Zeit nimmt das Power BI-Technikteam entsprechende Änderungen vor, um sicherzustellen, dass Ihr Mandant ordnungsgemäß in der Cloud für US-Behörden arbeitet.
 
 Bei Kunden, die von **Free**-Power BI-Lizenzen zu **Power BI US Government** migrieren (und damit definitionsgemäß zu den zugehörigen Features der **Pro**-Lizenz, die weiter oben im Artikel beschrieben sind), werden die im folgenden Abschnitt dieses Artikels beschriebenen Probleme auftreten, bis ihr Mandant durch das Power BI-Technikteam in die *Whitelist aufgenommen* wurde.
 

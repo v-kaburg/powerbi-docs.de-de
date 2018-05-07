@@ -1,6 +1,6 @@
 ---
 title: Durchsuchen von Berichten in den mobilen Power BI-Apps
-description: 'Hier erfahren Sie, wie Sie in den mobilen Power BI-Apps auf Ihrem Telefon oder Tablet Berichte anzeigen und mit diesen interagieren. Erstellen Sie Berichte im Power BI-Dienst oder in Power BI Desktop, und verwenden Sie sie anschließend in den mobilen Apps. '
+description: Hier erfahren Sie, wie Sie in den mobilen Power BI-Apps auf Ihrem Telefon oder Tablet Berichte anzeigen und mit diesen interagieren. Erstellen Sie Berichte im Power BI-Dienst oder in Power BI Desktop, und verwenden Sie sie anschließend in den mobilen Apps.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -50,7 +50,7 @@ Power BI-Berichte werden abhängig von ihrer Herkunft an verschiedenen Stellen i
   ![Smartphonebericht im Querformat](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Anzeigen von Berichten, die für Telefone optimiert sind
-Autoren von Power BI-Berichten können ein für Telefone optimiertes Berichtslayout erstellen. Für Smartphones optimierte Berichtsseiten bieten zusätzliche Funktionalität: Beispielsweise können Sie im Fokusmodus in Visuals Drilldowns und Sortierungen durchführen, und Sie haben Zugriff auf die [Filter, die der Autor des Berichts der Berichtsseite hinzugefügt hat](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Der Bericht wird auf Ihrem Smartphone geöffnet, und es werden die im Web gefilterten Werte zusammen mit einer Meldung angezeigt, dass die Seite aktive Filter enthält. Sie können die Filtereinstellungen auf Ihrem Smartphone ändern.
+Autoren von Power BI-Berichten können ein für Telefone optimiertes Berichtslayout erstellen. Für Smartphones optimierte Berichtsseiten bieten zusätzliche Funktionalität: Beispielsweise können Sie in Visuals Drilldowns und Sortierungen durchführen, und Sie haben Zugriff auf die [Filter, die der Autor des Berichts der Berichtsseite hinzugefügt hat](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Der Bericht wird auf Ihrem Smartphone geöffnet, und es werden die im Web gefilterten Werte zusammen mit einer Meldung angezeigt, dass die Seite aktive Filter enthält. Sie können die Filtereinstellungen auf Ihrem Smartphone ändern.
 
 Ein optimierter Bericht ist in einer Liste mit Berichten durch das Symbol ![Symbol für Smartphonebericht](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)gekennzeichnet:
 
@@ -64,7 +64,7 @@ Wenn Sie diesen Bericht auf einem Telefon anzeigen, wird er im Hochformat geöff
 
 Weitere Informationen über [Berichte, die für die Smartphoneansicht optimiert sind](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Verwenden von Datenschnitten zum Filtern einer Berichtsseite
+## <a name="use-slicers-to-filter-a-report"></a>Verwenden von Datenschnitten zum Filtern eines Berichts
 Beim Entwerfen eines Berichts in Power BI Desktop oder dem Power BI-Dienst, ist es von Vorteil, [einer Berichtsseite Datenschnitte hinzuzufügen](power-bi-visualization-slicers.md). Sie und Ihre Kollegen können Datenschnitte verwenden, um die Seite in einem Browser und in den mobilen Apps zu filtern. Wenn Sie den Bericht auf einem Smartphone betrachten, können Sie die Datenschnitte im Querformat und auf einer für das Hochformat des Geräts optimierten Seite sehen und mit ihnen interagieren. Wenn Sie einen Wert in einem Slicer oder Filter im Browser auswählen, wird der Wert auch beim Anzeigen der Seite in der mobilen App ausgewählt. Es wird eine Meldung angezeigt, dass die Seite aktive Filter enthält.  
 
 * Wenn Sie auf der Berichtsseite einen Wert in einem Datenschnitt auswählen, werden die anderen Visuals auf der Seite entsprechend gefiltert.
@@ -73,7 +73,7 @@ Beim Entwerfen eines Berichts in Power BI Desktop oder dem Power BI-Dienst, ist 
   
   In dieser Abbildung filtert der Datenschnitt das Säulendiagramm nach Juli-Werten.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Kreuzfiltern und Hervorheben einer Power BI-Berichtsseite
+## <a name="cross-filter-and-highlight-a-report"></a>Kreuzfiltern und Hervorheben eines Berichts
 Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht nach diesem gefiltert. Jedoch werden die entsprechenden Werte in den anderen Visuals hervorgehoben.
 
 * Tippen Sie auf einen Wert in einem Visual.
@@ -88,8 +88,8 @@ Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht
    ![Visual sortieren](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Um die Sortierreihenfolge umzukehren, tippen Sie erneut auf die Auslassungspunkte (**...**), und tippen Sie dann erneut auf den gleichen Feldnamen.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Ausführen von Drilldown und Drillup in einem Visual auf einem iPad oder Tablet
-Wenn ein Berichtsautor diese Funktion zu einem Visual hinzugefügt hat, können Sie auf einem iPad oder Tablet einen Drilldown in einem Visual ausführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](power-bi-visualization-drill-down.md). 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Durchführen eines Drilldowns auf einem iPad oder Tablet
+Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie auf einem iPad oder Tablet einen Drilldown in einem Visual ausführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](power-bi-visualization-drill-down.md). 
 
 > [!NOTE]
 > Derzeit können auf einem iPad oder Tablet keine Drilldowns für Karten ausgeführt werden.

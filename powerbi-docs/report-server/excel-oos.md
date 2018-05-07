@@ -1,39 +1,32 @@
 ---
-title: Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
-description: "Geschäftsanwender können nicht nur Power BI-Berichte im Webportal, sondern auch Excel-Arbeitsmappen in Power BI-Berichtsserver anzeigen."
+title: Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS) – Power BI-Berichtsserver
+description: Außer Power BI-Berichte im Webportal anzuzeigen kann der Power BI-Berichtsserver auch Excel-Arbeitsmappen mithilfe von Office Online Server (OOS) hosten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
-Geschäftsanwender können nun nicht nur Power BI-Berichte im Webportal, sondern auch Excel-Arbeitsmappen in Power BI-Berichtsserver anzeigen. Damit verfügen sie über einen zentralen Ort zum Veröffentlichen und Anzeigen ihrer Microsoft BI-Self-Service-Inhalte.
+Außer Power BI-Berichte im Webportal anzuzeigen kann der Power BI-Berichtsserver auch Excel-Arbeitsmappen mithilfe von [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) hosten. Der Berichtsserver wird zu einem zentralen Ort zum Veröffentlichen und Anzeigen von Microsoft BI-Self-Service-Inhalt.
 
-> [!NOTE]
-> Dies ist eine Vorschaufunktion der Vorschauversion vom August 2017. Weitere Informationen erhalten Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md).
-> 
-> 
-
-![Im Berichtsserver-Webportal angezeigte Excel-Berichte.](media/excel-oos/excel-in-pbirs.png)
-
-Hierfür wird [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) verwendet.
+![Im Berichtsserver-Webportal angezeigte Excel-Berichte](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Vorbereiten des Servers für die Ausführung von Office Online Server
 Führen Sie diese Vorgänge auf dem Server aus, auf dem Office Online Server ausgeführt werden soll. Auf diesem Server muss Windows Server 2012 R2 oder Windows Server 2016 ausgeführt werden. Für Windows Server 2016 ist Office Online Server April 2017 oder eine spätere Version erforderlich.
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parameter**
 
-* **–InternalURL** ist der vollqualifizierte Domänenname des Servers, auf dem Office Online Server ausgeführt wird, z.B. http://servername.contoso.com.
+* **–InternalURL** ist der vollqualifizierte Domänenname des Servers, auf dem Office Online Server ausgeführt wird, z.B. „http://servername.contoso.com“.
 * **–ExternalURL** ist der FQDN, auf den aus dem Internet zugegriffen werden kann.
 * **–CertificateName** ist der Anzeigename des Zertifikats.
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parameter**
 
-* **–InternalURL** ist der Name des Servers, auf dem Office Online Server ausgeführt wird, z.B. http://servername.
+* **–InternalURL** ist der Name des Servers, auf dem Office Online Server ausgeführt wird, z.B. „http://servername“.
 * **–AllowHttp** konfiguriert die Farm für die Verwendung von HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Vergewissern Sie sich, dass die Office Online Server-Farm erfolgreich erstellt wurde
