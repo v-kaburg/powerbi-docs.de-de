@@ -1,15 +1,15 @@
 ---
-title: "Beispiel für Personalwesen: Tour"
-description: "Beispiel für Personalwesen für Power BI: Tour"
+title: 'Beispiel für Personalwesen: Tour'
+description: 'Beispiel für Personalwesen für Power BI: Tour'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

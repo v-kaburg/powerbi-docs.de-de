@@ -2,15 +2,15 @@
 title: Anzeigen verwandter Inhalte im Power BI-Dienst
 description: Vereinfachte Navigation zum Anzeigen verwandter Inhalte in Dashboards, Berichten und Datasets
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

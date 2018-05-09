@@ -1,14 +1,14 @@
 ---
 title: Dashboardkacheln im Power BI-Dienst
-description: "Alle wichtigen Informationen über Dashboardkacheln in Power BI. Dies schließt Kacheln ein, die über SQL Server Reporting Services (SSRS) erstellt wurden."
+description: Alle wichtigen Informationen über Dashboardkacheln in Power BI. Dies schließt Kacheln ein, die über SQL Server Reporting Services (SSRS) erstellt wurden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
 qualitydate: 03/15/2016
 ms.service: powerbi
 ms.devlang: NA

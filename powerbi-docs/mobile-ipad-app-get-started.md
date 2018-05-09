@@ -1,13 +1,13 @@
 ---
 title: Erste Schritte mit der mobilen Power BI-App auf einem iPad
-description: "Erfahren Sie, wie Sie Power BI mit der Microsoft Power BI-App für iOS auf dem iPad mobil nutzen können und Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud erhalten."
+description: Erfahren Sie, wie Sie Power BI mit der Microsoft Power BI-App für iOS auf dem iPad mobil nutzen können und Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud erhalten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
 qualitydate: 08/08/2016
 ms.service: powerbi

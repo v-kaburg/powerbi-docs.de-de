@@ -1,16 +1,16 @@
 ---
-title: "Hinzufügen von Bildern, Text, Video und Streamingdaten zu Ihrem Dashboard"
-description: "Dokumentation zur Verwendung des Widgets „Kachel hinzufügen“, um eine Bild-, Video-, Textfeld-, Webcode- und Streamingdatenkachel zu einem Dashboard hinzuzufügen."
+title: Hinzufügen von Bildern, Text, Video und Streamingdaten zu Ihrem Dashboard
+description: Dokumentation zur Verwendung des Widgets „Kachel hinzufügen“, um eine Bild-, Video-, Textfeld-, Webcode- und Streamingdatenkachel zu einem Dashboard hinzuzufügen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: e2PD8m1Q0vU
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

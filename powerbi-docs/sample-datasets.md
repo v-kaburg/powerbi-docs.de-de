@@ -1,13 +1,13 @@
 ---
-title: "Überblick über die für Power BI verfügbaren Beispiele"
-description: "Beispiele für Inhaltspakete, PBIX-Dateien und Excel-Datasets für Power BI"
+title: Überblick über die für Power BI verfügbaren Beispiele
+description: Beispiele für Inhaltspakete, PBIX-Dateien und Excel-Datasets für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/05/2017
 ms.service: powerbi

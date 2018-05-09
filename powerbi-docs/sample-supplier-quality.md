@@ -1,15 +1,15 @@
 ---
-title: "Analysebeispiel für Lieferantenqualität für Power BI: Tour"
-description: "Analysebeispiel für Lieferantenqualität für Power BI: Tour"
+title: 'Analysebeispiel für Lieferantenqualität für Power BI: Tour'
+description: 'Analysebeispiel für Lieferantenqualität für Power BI: Tour'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

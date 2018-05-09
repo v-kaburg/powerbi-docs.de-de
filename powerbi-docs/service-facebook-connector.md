@@ -1,15 +1,15 @@
 ---
-title: "Drittanbieterdienst: Facebook-Connector für Power BI Desktop"
-description: "Drittanbieterdienst: Facebook-Connector für Power BI Desktop"
+title: 'Drittanbieterdienst: Facebook-Connector für Power BI Desktop'
+description: 'Drittanbieterdienst: Facebook-Connector für Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

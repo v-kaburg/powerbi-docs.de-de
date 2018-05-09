@@ -1,15 +1,15 @@
 ---
-title: "Erstellen eines QR-Codes für eine Kachel für die Verwendung in mobilen Power BI-Apps"
-description: "QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App verbinden – es ist keine Suche erforderlich."
+title: Erstellen eines QR-Codes für eine Kachel für die Verwendung in mobilen Power BI-Apps
+description: QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App verbinden – es ist keine Suche erforderlich.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

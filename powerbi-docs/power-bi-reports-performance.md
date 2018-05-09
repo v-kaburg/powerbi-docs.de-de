@@ -1,15 +1,15 @@
 ---
-title: "Bewährte Methoden für die Power BI-Leistung"
-description: "Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI."
+title: Bewährte Methoden für die Power BI-Leistung
+description: Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

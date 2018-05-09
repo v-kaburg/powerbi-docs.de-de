@@ -1,15 +1,15 @@
 ---
-title: "Power BI – Erste Schritte mit Drittanbieter-Apps"
-description: "Power BI – Erste Schritte mit Drittanbieter-Apps"
+title: Power BI – Erste Schritte mit Drittanbieter-Apps
+description: Power BI – Erste Schritte mit Drittanbieter-Apps
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

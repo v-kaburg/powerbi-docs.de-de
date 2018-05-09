@@ -1,14 +1,14 @@
 ---
-title: "Interagieren mit einer ArcGIS-Karte, die für Sie freigegeben wurde"
+title: Interagieren mit einer ArcGIS-Karte, die für Sie freigegeben wurde
 description: 'Verwenden einer ArcGis-Karte in der Leseansicht '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
+featuredvideoid: ''
 qualityfocus: monitoring
 qualitydate: 06/23/2017
 ms.service: powerbi

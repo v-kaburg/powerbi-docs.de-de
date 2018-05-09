@@ -2,27 +2,27 @@
 title: Suchen und Sortieren von Inhalten im Power BI-Dienst
 description: Dokumentation zum Sortieren und Sortieren von Inhalten in Power BI-Arbeitsbereichen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 8a98780e0854b997e00a88f1ab3a5002e8c2fb10
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navigation: Suchen und Sortieren von Inhalten im Power BI-Dienst
 Für die Navigation in Inhalten im Power BI-Dienst gibt es verschiedene Möglichkeiten. Inhalte sind je nach Typ in unterschiedliche Arbeitsbereiche unterteilt: Dashboards, Berichte, Arbeitsmappen und Datasets.  Außerdem sind Inhalte nach Nutzung kategorisiert: Favoriten, zuletzt verwendet, Apps, für mich freigegeben und ausgewählt. Anhand dieser unterschiedlichen Wege, Inhalte aufzurufen, finden Sie schnell das Gesuchte im Power BI-Dienst.  

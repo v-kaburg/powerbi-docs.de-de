@@ -1,16 +1,16 @@
 ---
-title: "Ausgewählte Dashboards in Power BI"
-description: "Dokumentation zum Erstellen eines ausgewählten Dashboards im Power BI-Dienst"
+title: Ausgewählte Dashboards in Power BI
+description: Dokumentation zum Erstellen eines ausgewählten Dashboards im Power BI-Dienst
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: G26dr2PsEpk
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

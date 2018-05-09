@@ -1,15 +1,15 @@
 ---
 title: Aktivierung der erweiterten Pro-Testversion
-description: "Ab 1. Juni 2017 können sich alle berechtigten Benutzer für die erweiterte Pro-Testversion für den Power BI-Dienst anmelden."
+description: Ab 1. Juni 2017 können sich alle berechtigten Benutzer für die erweiterte Pro-Testversion für den Power BI-Dienst anmelden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

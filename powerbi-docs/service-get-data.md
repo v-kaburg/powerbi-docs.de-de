@@ -1,28 +1,28 @@
 ---
-title: "Datenquellen für Power BI"
-description: "Datenquellen für Power BI"
+title: Datenquellen für Power BI
+description: Datenquellen für Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 70f1b5faa496c28dc39347831d4216db3ad07c59
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Datenquellen für den Power BI-Dienst
 Daten sind der Kern von Power BI. Wenn Sie Daten untersuchen, Diagramme und Dashboards erstellen oder über Q&A Fragen stellen, stammen die Daten, die all diesen Visualisierungen und Antworten zugrunde liegen, aus einem Dataset. Doch woher stammt das Dataset? Aus einer Datenquelle.

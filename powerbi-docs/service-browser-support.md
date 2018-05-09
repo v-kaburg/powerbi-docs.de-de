@@ -1,15 +1,15 @@
 ---
-title: "Unterstützte Browser für Power BI"
-description: "Liste der Browser, die Power BI unterstützen"
+title: Unterstützte Browser für Power BI
+description: Liste der Browser, die Power BI unterstützen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

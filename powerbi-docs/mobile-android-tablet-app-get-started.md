@@ -1,15 +1,15 @@
 ---
 title: Erste Schritte mit der mobilen Power BI-App auf Android-Tablets
-description: "Mit der mobilen Power BI-App für Android-Tablets haben Sie überall mobilen Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud."
+description: Mit der mobilen Power BI-App für Android-Tablets haben Sie überall mobilen Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

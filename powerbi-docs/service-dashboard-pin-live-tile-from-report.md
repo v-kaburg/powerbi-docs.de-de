@@ -2,15 +2,15 @@
 title: 'Anheften einer gesamten Berichtsseite an ein Power BI-Dashboard '
 description: Dokumentation zum Anheften einer gesamten Live-Berichtsseite aus einem Bericht an ein Power BI-Dashboard.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,12 +2,12 @@
 title: Was ist ein Power BI-Dashboard?
 description: Dashboards sind ein zentrales Feature des Power BI-Diensts.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 04/05/2017
 ms.service: powerbi
