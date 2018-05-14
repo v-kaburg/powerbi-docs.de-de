@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Analysis Services-Tabellendaten in Power BI Desktop
+title: Verwenden tabellarischer Analysis Services-Daten in Power BI Desktop
 description: Analysis Services-Tabellendaten in Power BI Desktop
 services: powerbi
 documentationcenter: ''
@@ -24,7 +24,7 @@ ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/26/2018
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Verwenden von Analysis Services-Tabellendaten in Power BI Desktop
+# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Verwenden tabellarischer Analysis Services-Daten in Power BI Desktop
 Mit Power BI-Desktop verfügen Sie über zwei Möglichkeiten, eine Verbindung mit tabellarischen Modellen von SQL Server Analysis Services herzustellen und Daten aus diesen Modellen abzurufen: Durchsuchen mit Live-Verbindung, oder Auswählen und Importieren von Elementen in Power BI Desktop.
 
 Sehen wir uns das einmal näher an.
