@@ -1,16 +1,16 @@
 ---
-title: "Hinzufügen eines Bilds zu einem Power BI-Dashboard"
-description: "Dokumentation zum Hinzufügen eines Bilds zu einem Power BI-Dashboard"
+title: Hinzufügen eines Bilds zu einem Power BI-Dashboard
+description: Dokumentation zum Hinzufügen eines Bilds zu einem Power BI-Dashboard
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

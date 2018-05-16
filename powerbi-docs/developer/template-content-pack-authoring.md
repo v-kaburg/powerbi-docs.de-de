@@ -2,14 +2,14 @@
 title: Erstellen von Vorlageninhaltspaketen in Power BI
 description: Erstellen von Vorlageninhaltspaketen
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

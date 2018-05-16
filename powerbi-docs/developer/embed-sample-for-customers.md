@@ -1,15 +1,15 @@
 ---
-title: "Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden"
-description: "Hier erfahren Sie, wie Sie mit den Power BI-APIs ein Dashboard, eine Kachel oder einen Bericht für Ihre Kunden in eine Web-App integrieren bzw. einbetten."
+title: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
+description: Hier erfahren Sie, wie Sie mit den Power BI-APIs ein Dashboard, eine Kachel oder einen Bericht für Ihre Kunden in eine Web-App integrieren bzw. einbetten.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in die Anwendung
 Hier erfahren Sie, wie Sie mithilfe des Power BI-.NET-SDK und der Power BI-JavaScript-API ein Dashboard, eine Kachel oder einen Bericht in eine Web-App integrieren oder einbetten, wenn das Einbetten für Ihre Kunden erfolgt. Dies ist in der Regel das Szenario für ISVs.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 Es muss ein Einbettungstoken generiert werden, das aus der JavaScript-API verwendet werden kann. Das Einbettungstoken ist spezifisch für das eingebettete Element. Das heißt, dass Sie bei jedem Einbetten eines Power BI-Inhaltselements dafür ein neues Einbettungstoken erstellen müssen. Weitere Informationen hierzu, u.a. zum erforderlichen **accessLevel**, finden Sie unter [GenerateToken-API](https://msdn.microsoft.com/library/mt784614.aspx).
 
 > [!IMPORTANT]
-> Da Einbettungstokens nur für das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
+> Da Einbettungstokens nur für das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens. Informieren Sie sich unter [Verfügbare Features abrufen](https://msdn.microsoft.com/en-us/library/mt846473.aspx) darüber, wie viele kostenlose Einbettungstoken verwendet wurden.
 
 Ein Beispiel hierfür finden Sie in **Controllers\HomeController.cs** im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

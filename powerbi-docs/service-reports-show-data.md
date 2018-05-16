@@ -1,15 +1,15 @@
 ---
 title: Anzeigen der Daten, die zum Erstellen der Power BI-Visualisierung verwendet wurden
-description: "In diesem Dokument wird erläutert, wie Sie die zum Erstellen eines Visuals in Power BI verwendeten Daten anzeigen und diese Daten in eine CSV-Datei exportieren."
+description: In diesem Dokument wird erläutert, wie Sie die zum Erstellen eines Visuals in Power BI verwendeten Daten anzeigen und diese Daten in eine CSV-Datei exportieren.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

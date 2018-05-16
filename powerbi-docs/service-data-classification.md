@@ -1,13 +1,13 @@
 ---
-title: "Datenklassifizierung für Dashboards"
-description: "Erfahren Sie mehr über die Datenklassifizierung für Dashboards. Hier erfahren Sie auch, wie diese von einem Administrator eingerichtet werden sollte und wie Eigentümer des Dashboards die Klassifizierung ändern können."
+title: Datenklassifizierung für Dashboards
+description: Erfahren Sie mehr über die Datenklassifizierung für Dashboards. Hier erfahren Sie auch, wie diese von einem Administrator eingerichtet werden sollte und wie Eigentümer des Dashboards die Klassifizierung ändern können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 03/15/2016
 ms.service: powerbi

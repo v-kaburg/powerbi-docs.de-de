@@ -1,15 +1,15 @@
 ---
 title: Umbenennen von Dashboards, Berichten, Arbeitsbereichen, Berichtsseiten und Datasets
-description: "Sie können praktisch alle Elemente im Power BI-Dienst umbenennen."
+description: Sie können praktisch alle Elemente im Power BI-Dienst umbenennen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

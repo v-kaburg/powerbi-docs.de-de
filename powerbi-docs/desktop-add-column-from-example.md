@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Hinzufügen einer Spalte aus einem Beispiel in Power BI Desktop
-Ab der **Power BI Desktop**-Version vom April 2017 können Sie Ihrem Modell durch Angabe von Beispielwerten über den **Abfrage-Editor** ganz einfach neue Datenspalten hinzufügen. Zur Erstellung eines Beispiels für die neue Spalte können Sie eine aktuelle Auswahl oder aber eine Eingabe verwenden, die auf allen (oder auf ausgewählten) Spalten in einer bestimmten Tabelle basiert.
+Ab der **Power BI Desktop**-Version vom April 2017 können Sie Ihrem Modell durch Angabe von Beispielwerten über den **Abfrage-Editor** ganz einfach neue Datenspalten hinzufügen. Zur Erstellung eines Beispiels für eine neue Spalte können Sie eine aktuelle Auswahl oder aber eine Eingabe verwenden, die auf allen (oder auf ausgewählten) Spalten in einer bestimmten Tabelle basiert.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
@@ -42,7 +42,7 @@ Wenn Sie eine neue Spalte auf der Grundlage eines Beispiels hinzufügen möchten
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-In diesem Artikel verwenden wir Daten aus dem folgenden Wikipedia-Artikel. (Sie können auf den Link klicken und die Daten selbst abrufen, um das Beispiel nachzuvollziehen.)
+Wenn Sie Daten über eine Webseite abrufen möchten, wechseln Sie zur Registerkarte **Start**, klicken Sie auf **Daten abrufen > Web**, und fügen Sie die URL in das Dialogfeld ein, das angezeigt wird. Für diesen Artikel werden Daten aus einem Wikipedia-Artikel verwendet. Sie können auf den folgenden Link klicken, um die Daten abzurufen und die folgenden Schritte auszuführen:
 
 * [**Liste der Bundesstaaten und Gebiete der USA**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -53,7 +53,7 @@ Nachdem Sie den **Abfrage-Editor** gestartet und einige Daten geladen haben, kö
 ## <a name="the-add-column-from-examples-pane"></a>Der Bereich „Spalte aus Beispielen hinzufügen“
 Nachdem Sie ausgewählt haben, dass Sie eine neue Spalte auf der Grundlage von Beispielen hinzufügen möchten, wird ein neuer Bereich mit den Spalten der aktuellen Tabelle angezeigt. (Unter Umständen müssen Sie scrollen, um alle anzuzeigen.) Rechts wird auch die neue Spalte **Column1** angezeigt. Hierbei handelt es sich um die Spalte, die **Power BI Desktop** auf der Grundlage Ihrer Beispiele erstellt. Unter der Überschrift der neuen Spalte **Column1** befinden sich leere Zellen, in die Sie die Beispiele eingeben können, auf deren Grundlage Power BI dann passende Regeln und Transformationen erstellt.
 
-Beachten Sie außerdem, dass es sich hierbei um einen **angewendeten Schritt** im Bereich **Abfrageeinstellungen** handelt. Der **Abfrage-Editor** erfasst wie gewohnt Ihre Transformationsschritte und wendet sie in der angegebenen Reihenfolge auf die Abfrage an.
+Beachten Sie, dass es sich hierbei um einen **angewendeten Schritt** im Bereich **Abfrageeinstellungen** handelt. Der **Abfrage-Editor** erfasst wie gewohnt Ihre Transformationsschritte und wendet sie in der angegebenen Reihenfolge auf die Abfrage an.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -66,9 +66,9 @@ Der Bereich **Spalte aus Beispielen hinzufügen** ist in vier Hauptbereiche unte
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Wenn Sie Ihr Beispiel in die neue Spalte eingeben, liefert Power BI auf der Grundlage der erkannten Transformationen eine Vorschau der fertigen Spalte. Ein Beispiel: Wir haben in die erste Zeile den Wert *Alabama* eingegeben, was dem Wert *Alabama* in der ersten Spalte der Tabelle entspricht. Nach dem Drücken der *EINGABETASTE* füllt Power BI die Spalte auf der Grundlage dieses Werts aus.
+Wenn Sie Ihr Beispiel in die neue Spalte eingeben, liefert Power BI auf der Grundlage der erkannten Transformationen eine Vorschau der fertigen Spalte. Ein Beispiel: Wenn Sie in die erste Zeile *Alabama* eingegeben, entspricht dies dem Wert *Alabama* in der ersten Spalte der Tabelle. Nach dem Drücken der *EINGABETASTE* füllt Power BI die Spalte auf der Grundlage dieses Werts aus.
 
-Anschließend haben wir allerdings in der Zeile, die *Massachusetts[E]* enthält, das (für uns überflüssige) *[E]* gelöscht, woraufhin Power BI diese Änderung erkannt und anhand des Beispiels eine Transformation erstellt hat. Beachten Sie die Erläuterung der Transformation (oben in der Mitte).
+Wenn Sie dann aber z.B. zu der Zeile gehen, die *Massachusetts[E]* enthält und Sie den Teil *[E]* löschen (weil Sie dafür keine Verwendung mehr haben), passiert Folgendes: Power BI erkennt die Änderung und verwendet das Beispiel, um eine Transformation zu erstellen. Beachten Sie die Erläuterung der Transformation (oben in der Mitte).
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Möchten Sie das Feature in Aktion erleben? Das folgende Video zeigt die Nutzung
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwar viele Transformationen zur Verfügung, aber nicht alle. Die folgende Liste enthält alle *unterstützten* Transformationen:
+Bei der Verwendung des Features **Spalte aus Beispielen hinzufügen** stehen zwar viele Transformationen zur Verfügung, aber nicht alle. Die folgende Liste enthält alle unterstützten Transformationen.
 
 * **Verweis**
   

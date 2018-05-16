@@ -2,14 +2,14 @@
 title: Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 description: Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

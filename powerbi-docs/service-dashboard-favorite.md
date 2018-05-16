@@ -2,15 +2,15 @@
 title: Favoriten im Power BI-Dienst (Dashboards, Berichte, Apps)
 description: Dokumentation zum Festlegen von Dashboards, Berichten und Apps als Favoriten im Power BI-Dienst
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

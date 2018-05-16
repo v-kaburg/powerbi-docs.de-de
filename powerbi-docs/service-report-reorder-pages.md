@@ -2,14 +2,14 @@
 title: Neuanordnen von Seiten in einem Bericht in Power BI
 description: Neuanordnen von Seiten in einem Bericht im Power BI-Dienst und in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

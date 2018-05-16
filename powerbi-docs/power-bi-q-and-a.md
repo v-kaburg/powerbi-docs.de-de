@@ -11,22 +11,22 @@ tags: ''
 qualityfocus: ''
 qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-service
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 814c4a4274b5f2e022074454ce5460d13a20f1e2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Q&A im Power BI-Dienst und in Power BI Desktop
 ## <a name="what-is-qa"></a>Was ist Q&A?
-Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Beispiel: „Wie lautet der Gesamtumsatz für das letzte Jahr“.  Verwenden Sie den Bereich für Fragen und Antworten (F&A), um Ihre Daten mithilfe intuitiver Möglichkeiten der natürlichen Sprache zu untersuchen und die entsprechenden Antworten in Form von Diagrammen und Grafiken zu erhalten. Der Bereich für Fragen und Antworten unterscheidet sich von einer Suchmaschine. Q&A stellt ausschließlich Ergebnisse zu den Daten in Power BI bereit.
+Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Beispiel: „Wie lautet der Gesamtumsatz für das letzte Jahr“.  Verwenden Sie den Bereich für Fragen und Antworten (F&A), um Ihre Daten mithilfe intuitiver Möglichkeiten der natürlichen Sprache zu untersuchen und die entsprechenden Antworten in Form von Diagrammen und Grafiken zu erhalten. Der Bereich für Fragen und Antworten unterscheidet sich von einer Suchmaschine. Dieser Bereich stellt ausschließlich Ergebnisse zu den Daten in Power BI bereit.
 
 Dieser Artikel ist der Ausgangspunkt für alle Themen rund um Q&A. Wählen Sie unten einen Link aus, um sich über die Funktionsweise von Q&A im Power BI-Dienst (Dashboards und Berichte), in Power BI Desktop (Berichte), in Power BI Embedded und in Power BI Mobile zu informieren.  
 

@@ -1,27 +1,27 @@
 ---
 title: Registrieren einer App zum Einbetten von Power BI-Inhalten
-description: "Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory registrieren können."
+description: Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory registrieren können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten
 Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory (Azure AD) registrieren können.
@@ -59,6 +59,22 @@ So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
    
     Sie erhalten dann eine **Client-ID**. Wenn Sie **Serverseitige Web-App** ausgewählt haben, erhalten Sie außerdem einen **geheimen Clientschlüssel**. Die **Client-ID** kann bei Bedarf später aus dem Azure-Portal abgerufen werden. Wenn Sie das **Clientgeheimnis** verlieren, müssen Sie im Azure-Portal ein neues erstellen.
 
+8. Sie müssen zu Azure navigieren, um **Berechtigungen erteilen** auszuwählen.
+> [!Note]
+    > Diese Aufgabe kann nur von einem globalen Administrator im Azure-Mandanten ausgeführt werden.
+>
+
+* Wechseln Sie zu Azure.
+* Suchen Sie die **App Registrierungen**, und wählen Sie sie aus.
+* Wählen Sie Ihre App aus.
+* Wählen Sie **Einstellungen**aus.
+* Wählen Sie **Erforderliche Berechtigungen** aus.
+* Wählen Sie **Power BI-Dienst** aus, um die Berechtigungen zu überprüfen, die Sie auf der App-Registrierungswebsite ausgewählt haben.
+* Wählen Sie **Berechtigungen erteilen** aus.
+
+
+
+
 Jetzt können Sie die registrierte Anwendung als Teil Ihrer benutzerdefinierten Anwendung verwenden, um die Interaktion mit dem Power BI-Dienst zu implementieren.
 
 > [!IMPORTANT]
@@ -77,8 +93,8 @@ Die andere Möglichkeit zum Registrieren Ihrer Anwendung besteht direkt im Azure
     ![](media/register-app/azuread-new-app-registration.png)
 5. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung .
    
-   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, bei der sich die Benutzer anmelden können, z.B. http://localhost:13526.
-   * Geben Sie für native Anwendungen einen Umleitungs-URI an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. http://myapplication/redirect.
+   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, bei der sich die Benutzer anmelden können, z.B. „http://localhost:13526“.
+   * Geben Sie für native Anwendungen einen Umleitungs-URI an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. „http://myapplication/redirect“.
 
 Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory finden Sie unter [Integrieren von Anwendungen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -190,4 +206,5 @@ Sie können sich entweder mit dem *Hauptkonto* zum Einbetten oder dem Konto eine
 Sie haben Ihre Anwendung in Azure AD registriert und müssen jetzt Benutzer in der Anwendung authentifizieren. Weitere Informationen hierzu finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für Ihre Power BI-App](get-azuread-access-token.md).
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+
 

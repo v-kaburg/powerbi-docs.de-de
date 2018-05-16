@@ -1,15 +1,15 @@
 ---
-title: "Datenschutzbestimmungen für Lächeln senden in Power BI Desktop"
-description: "Datenschutzbestimmungen für Lächeln senden in Power BI Desktop"
+title: Datenschutzbestimmungen für Lächeln senden in Power BI Desktop
+description: Datenschutzbestimmungen für Lächeln senden in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

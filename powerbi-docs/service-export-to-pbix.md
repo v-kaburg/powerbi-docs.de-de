@@ -2,14 +2,14 @@
 title: Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 description: Herunterladen eines Berichts aus dem Power BI-Dienst in eine Power BI Desktop-Datei
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

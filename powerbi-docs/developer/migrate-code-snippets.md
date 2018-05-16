@@ -1,15 +1,15 @@
 ---
 title: Codeausschnitte zum Migrieren von Inhalt von Power BI Embedded
-description: "Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind."
+description: Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

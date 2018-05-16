@@ -2,15 +2,15 @@
 title: Power BI-Mitteilungszentrale
 description: Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: bZMSv5KAlcE
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

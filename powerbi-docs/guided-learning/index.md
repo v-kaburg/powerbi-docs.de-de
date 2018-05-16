@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Power BI – Geführtes Lernen"
-description: "In dieser Kursreihe können Sie sich mit den zahlreichen leistungsfähigen Funktionen von Microsoft Power BI vertraut machen."
+title: Microsoft Power BI – Geführtes Lernen
+description: In dieser Kursreihe können Sie sich mit den zahlreichen leistungsfähigen Funktionen von Microsoft Power BI vertraut machen.
 layout: LandingPage
 ms.openlocfilehash: c0c9b77489731ff2107135f8720b14d320d11e52
 ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d

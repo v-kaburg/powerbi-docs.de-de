@@ -2,15 +2,15 @@
 title: Anheften einer Kachel an ein Power BI-Dashboard aus einem Bericht
 description: Heften Sie eine Kachel an ein Power BI-Dashboard aus einem Bericht an.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lJKgWnvl6bQ
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

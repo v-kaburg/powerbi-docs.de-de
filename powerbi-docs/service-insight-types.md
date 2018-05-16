@@ -1,15 +1,15 @@
 ---
-title: "Von Power BI unterstützte Einblicke"
-description: "Schnelle Einblicke und „Einblicke anzeigen“ in Power BI"
+title: Von Power BI unterstützte Einblicke
+description: Schnelle Einblicke und „Einblicke anzeigen“ in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
-description: Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar.
+description: Power BI-Berichte (PBIX) können Verbindungen mit einer Reihe von Datenquellen herstellen. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
-Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar. Daten können importiert werden, oder Daten können direkt mit DirectQuery oder über eine Liveverbindung mit SQL Server Analysis Services abgefragt werden.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte (PBIX) in Power BI-Berichtsserver
+Power BI-Berichte können Verbindungen mit einer Reihe von Datenquellen herstellen. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar. Daten können importiert werden, oder Daten können direkt mit DirectQuery oder über eine Liveverbindung mit SQL Server Analysis Services abgefragt werden.
 
-Diese Datenquellen sind spezifisch für Power BI-Berichte, die in Power BI-Berichtsserver verwendet werden. Weitere Informationen zu Datenquellen, die für paginierte Berichte unterstützt werden, finden Sie unter [Von Reporting Services unterstützte Datenquellen](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Diese Datenquellen sind spezifisch für Power BI-Berichte, die in Power BI-Berichtsserver verwendet werden. Weitere Informationen zu Datenquellen, die für paginierte Berichte (RDL) unterstützt werden, finden Sie unter [Von Reporting Services unterstützte Datenquellen](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Alle Datenquellen in einem Power BI Desktop-Bericht müssen unterstützt werden, damit geplante Aktualisierungen konfiguriert werden können.
-> 
-> 
+> Alle Datenquellen in einem Power BI Desktop-Bericht müssen das Konfigurieren geplanter Aktualisierungen unterstützen.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Liste der unterstützten Datenquellen
 
@@ -216,7 +215,7 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-Nach erfolgter Auswahl der Datenquelle [erstellen Sie einen Bericht](quickstart-create-powerbi-report.md) anhand der Daten aus der betreffenden Datenquelle.
+Nachdem Sie die Verbindung mit Ihrer Datenquelle hergestellt haben, [erstellen Sie einen Power BI-Bericht](quickstart-create-powerbi-report.md) anhand der Daten aus der betreffenden Datenquelle.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

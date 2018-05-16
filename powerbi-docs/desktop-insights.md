@@ -1,28 +1,28 @@
 ---
 title: Verwenden von Einblicken in Power BI Desktop (Vorschau)
-description: "Einfaches Erlangen von Einblicken in Rückgänge oder Anstiege in Power BI Desktop"
+description: Einfaches Erlangen von Einblicken in Rückgänge oder Anstiege in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/25/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 17a66c362124616796eb48a7052d89226555df3b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2a98e0e5f79819c7530f713d2ccb541a18b0ce6c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Verwenden von Einblicken in Power BI Desktop (Vorschau)
 Sie können sich in **Power BI Desktop** Rückgänge oder Anstiege in Diagrammen erläutern lassen und schnell automatische aussagekräftige Analysen der Daten erhalten. Klicken Sie einfach mit der rechten Maustaste auf einen Datenpunkt, und wählen Sie **Analysieren > Erläutern Sie den Rückgang** (oder „Erläutern Sie den Anstieg“, wenn der vorherige Balken niedriger war) aus. Daraufhin bietet Ihnen ein benutzerfreundliches Fenster entsprechenden Einblick.

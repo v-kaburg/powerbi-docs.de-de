@@ -1,15 +1,15 @@
 ---
-title: "Erstellen eines Power BI-Dashboards für Mobiltelefone"
-description: "Hier erfahren Sie, wie Sie eine benutzerdefinierte, für die Anzeige auf Smartphones geeignete Ansicht eines Dashboards im Power BI-Dienst erstellen können."
+title: Erstellen eines Power BI-Dashboards für Mobiltelefone
+description: Hier erfahren Sie, wie Sie eine benutzerdefinierte, für die Anzeige auf Smartphones geeignete Ansicht eines Dashboards im Power BI-Dienst erstellen können.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -2,15 +2,15 @@
 title: Erste Schritte mit dem Power BI-Dienst
 description: Erste Schritte mit dem Power BI-Dienst
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: adamw
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

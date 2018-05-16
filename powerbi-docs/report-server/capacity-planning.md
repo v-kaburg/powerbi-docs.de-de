@@ -1,15 +1,15 @@
 ---
-title: "Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver"
-description: "Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse von Auslastungstests mit verschiedenen Arbeitsauslastungen."
+title: Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
+description: Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse von Auslastungstests mit verschiedenen Arbeitsauslastungen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: parthsha
 manager: kfile
 backup: maghan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

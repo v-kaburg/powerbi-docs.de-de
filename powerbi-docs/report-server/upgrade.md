@@ -2,14 +2,14 @@
 title: Aktualisieren von Power BI-Berichtsserver
 description: Erfahren Sie, wie Power BI-Berichtsserver aktualisiert wird.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
