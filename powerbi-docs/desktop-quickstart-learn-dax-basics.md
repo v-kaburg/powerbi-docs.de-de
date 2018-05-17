@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 86f229ecf60a1e1ef89213eed83521a8fadd64a2
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -43,7 +43,7 @@ Wir legen den Schwerpunkt auf das Verstehen der DAX-Formeln, die in Berechnungen
 Die beste Möglichkeit, DAX zu lernen, besteht im Erstellen einiger einfacher Formeln, ihrer Verwendung mit ein paar echten Daten und im Beobachten der Ergebnisse. Für die Beispiele und Aufgaben in diesem Artikel wird die Contoso Sales for Power BI Desktop Preview-Datei verwendet. Das ist die Beispieldatei, die auch im Artikel [Tutorial: Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md) verwendet wird. Die Beispieldatei, die Sie herunterladen können, finden Sie [hier](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
 
 ## <a name="lets-begin"></a>Fangen wir an!
-Den Bezugsrahmen für unser Verständnis von DAX bilden drei grundlegende Konzepte: *Syntax*, *Funktionen*und *Kontext*. Natürlich gibt es andere wichtige Konzepte in DAX, aber das Verständnis dieser drei Konzepte bietet die beste Grundlage für die Entwicklung Ihrer DAX-Fertigkeiten.
+Den Bezugsrahmen für unser Verständnis von DAX bilden drei grundlegende Konzepte: *Syntax*, *Funktionen* und *Kontext*. Natürlich gibt es andere wichtige Konzepte in DAX, aber das Verständnis dieser drei Konzepte bietet die beste Grundlage für die Entwicklung Ihrer DAX-Fertigkeiten.
 
 ### <a name="syntax"></a>Syntax
 Bevor Sie eigene Formeln erstellen, werfen wir einen Blick auf die DAX-Formelsyntax. Zur Syntax gehören die verschiedenen Elemente, aus denen eine Formel besteht, oder, einfacher, wie sich die Formel zusammensetzt. Betrachten wir als Beispiel eine einfache DAX-Formel für ein Measure.

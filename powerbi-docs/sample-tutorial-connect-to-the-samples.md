@@ -1,13 +1,13 @@
 ---
-title: 'Tutorial: Verwenden der Power BI-Beispiele'
-description: "Lernprogramm: Verwenden der Power BI-Beispiele"
+title: Verwenden der Power BI-Beispiele
+description: Verwenden der Power BI-Beispiele
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/08/2017
 ms.service: powerbi
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8255b14fea75f3a2f83629a6beb8fe3281d012e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3a9cf39d3601a3f1c6b35d20726144cb404bdbe2
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="the-power-bi-samples-a-tutorial"></a>Die Power BI-Beispiele – Tutorial
+# <a name="the-power-bi-samples"></a>Die Power BI-Beispiele
 
 Es wird empfohlen, mit dem Artikel [Beispieldatasets für Power BI](sample-datasets.md) zu beginnen. In diesem Artikel erfahren Sie alles über die Beispiele: wie Sie sie erhalten, wo Sie sie speichern und wie Sie sie verwenden, sowie einige der Geschichten, die jedes Beispiel erzählen kann. Kehren Sie dann zu diesem Tutorial zurück, nachdem Sie die Grundlagen verstanden haben.   
 

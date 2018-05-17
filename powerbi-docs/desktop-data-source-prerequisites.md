@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 282526e18777e623725859adc84475525dcf25ba
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: c7e2d3e949da96c9f2c54a7b589856f48702ff6c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Voraussetzungen für Power BI-Datenquellen
 Power BI unterstützt für jeden Datenanbieter einer bestimmten Anbieterversion auf Objekten. Weitere Informationen zu den für Power BI verfügbaren Datenquellen finden Sie unter [Datenquellen](desktop-data-sources.md). Diese Anforderungen sind in der folgenden Tabelle beschrieben.
@@ -30,8 +30,8 @@ Power BI unterstützt für jeden Datenanbieter einer bestimmten Anbieterversion
 | Datenquelle | Anbieter | Minimale Anbieterversion | Minimale Datenquellenversion | Unterstützte Datenquellenobjekte | Download-Link |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (in .Net Framework integriert) |.NET Framework 3.5 (ausschließlich) |SQL Server 2005 und höher |Tabellen/Ansichten, skalare Funktionen, Tabellenfunktionen |In .NET Framework 3.5 oder höher enthalten |
-| Access |Microsoft Access-Datenbankmodul (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Excel (nur XLS-Dateien) (siehe Hinweis 1) |Microsoft Access-Datenbankmodul (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen, Arbeitsblätter |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| Access |Microsoft Access-Datenbank-Engine (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| Excel (nur XLS-Dateien) (siehe Hinweis 1) |Microsoft Access-Datenbank-Engine (ACE) |ACE 2010 SP1 |Keine Einschränkung |Tabellen, Arbeitsblätter |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (siehe Hinweis 2) |ODP.NET |ODAC 11.2 Version 5 (11.2.0.3.20) |9.x und höher |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (in .NET Framework integriert) |.NET Framework 3.5 |9.x und höher |Tabellen/Ansichten |In .NET Framework 3.5 oder höher enthalten |
 | IBM DB2 |ADO.NET-Client von IBM (Teil des Treiberpakets des IBM-Datenservers) |10.1 |9.1+ |Tabellen/Ansichten |[Downloadlink](http://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |

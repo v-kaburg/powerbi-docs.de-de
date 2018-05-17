@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
 Power BI-Berichtsserver wird mehrmals pro Jahr veröffentlicht. Sicherheits- und wichtige Updates stehen bis zur allgemeinen Verfügbarkeit der nächsten Version zur Verfügung. Nach Veröffentlichung der nächsten Version erhält die vorherige Version weiterhin Sicherheitsupdates für die Restlaufzeit der zwölfmonatigen Gültigkeitsdauer der Version.
@@ -46,7 +46,7 @@ Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Be
 [Neuerungen in Power BI-Berichtsserver](whats-new.md)  
 [Benutzerhandbuch](user-handbook-overview.md)  
 [Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

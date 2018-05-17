@@ -3,13 +3,13 @@ Nachdem Sie Ihre Rolle erstellt haben, können Sie die Ergebnisse der Rolle in P
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-Mit dem Dialog **Als Rollen anzeigen** können Sie die Ansicht für einen bestimmten Benutzer oder eine bestimmte Rolle ändern. Ihnen werden die Rollen angezeigt, die Sie erstellt haben.
+Mit dem Dialog **Als Rollen anzeigen** können Sie die Ansicht für einen bestimmten Benutzer oder eine bestimmte Rolle ändern. Sie können die Rollen sehen, die Sie erstellt haben.
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-Wählen Sie die Rolle aus, die Sie erstellt haben, und wählen Sie anschließend **OK** aus, um diese Rolle auf die vor Ihnen liegende Ansicht anzuwenden. Die Berichte werden nur die für diese Rolle relevanten Daten rendern.
+Wählen Sie die Rolle aus, die Sie erstellt haben, und klicken Sie anschließend auf **OK**, um diese Rolle auf die vor Ihnen liegende Ansicht anzuwenden. Die Berichte werden nur die für diese Rolle relevanten Daten rendern.
 
-Sie können auch „Anderer Benutzer“ auswählen und einen bestimmten Benutzer angeben. Am besten geben Sie den Benutzerprinzipalnamen (User Principal Name; UPN) an, da der Power BI-Dienst diesen verwendet. Wählen Sie **OK** aus, und die Berichte rendern auf Grundlage dessen, was dem Benutzer angezeigt wird. 
+Sie können auch **Anderer Benutzer** auswählen und einen bestimmten Benutzer angeben. Am besten geben Sie den Benutzerprinzipalnamen (User Principal Name; UPN) an, da der Power BI-Dienst diesen verwendet. Klicken Sie auf **OK**, und die Berichte rendern auf Grundlage dessen, was dem Benutzer angezeigt wird. 
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 

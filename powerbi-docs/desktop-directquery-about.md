@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: bad0a8cb7f0f6eab7414d06ee5545e9499ccdc95
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -34,7 +34,7 @@ Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen hers
 
 Kurz gesagt besteht die bewährte Methode für die Verwendung von Import im Vergleich zu DirectQuery aus Folgendem:
 
-* **Importieren** Sie Dateien in Power BI, wann immer dies möglich ist. Dadurch wird das leistungsstarke Abfragemodul von Power BI genutzt, und Sie erhalten eine hoch interaktive und vollständig ausgestattete Erfahrung über Ihre Daten.
+* **Importieren** Sie Dateien in Power BI, wann immer dies möglich ist. Dadurch wird die leistungsstarke Abfrage-Engine von Power BI genutzt, und Sie erhalten eine hoch interaktive und vollständig ausgestattete Erfahrung über Ihre Daten.
 * Wenn Ihre Ziele nicht durch den Import von Daten erreicht werden können, erwägen Sie, **DirectQuery** zu verwenden. DirectQuery ist womöglich die beste Wahl, wenn sich die Daten z.B. oft ändern und Berichte die neuesten Daten wiedergeben müssen. Die Verwendung von DirectQuery ist jedoch im Allgemeinen nur möglich, wenn die zugrunde liegende Datenquelle interaktive Abfragen (weniger als 5 Sekunden) für die typische Aggregatabfrage bereitstellen und die generierte Abfragelast verarbeiten kann. Darüber hinaus muss die Liste der Einschränkungen, die die Verwendung von DirectQuery begleitet, sorgfältig geprüft werden, um sicherzustellen, dass Ihre Ziele weiterhin erfüllt werden können.
 
 Die Reihe der Funktionen, die von Power BI für beide Konnektivitätsmodi – Import und DirectQuery – angeboten wird, wird mit der Zeit weiterentwickelt. Dadurch wird mehr Flexibilität beim Verwenden importierter Daten bereitgestellt, damit der Import in mehr Fällen genutzt werden kann. Es werden zudem einige Nachteile der Verwendung von DirectQuery entfernt. Unabhängig von den Verbesserungen wird die Leistung der zugrunde liegenden Datenquelle bei Verwendung von DirectQuery immer ein wichtiger Gesichtspunkt bleiben. Wenn die zugrunde liegende Datenquelle langsam ist, kann DirectQuery für diese Quelle nicht verwendet werden.

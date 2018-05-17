@@ -1,6 +1,6 @@
 ---
 title: Tipps zum Erstellen überzeugender Berichte
-description: Tipps und Tricks zum Erstellen von Berichten im Power BI-Dienst und in Power BI Desktop
+description: Tipps und Tricks zum Erstellen von Berichten in Power BI und Power BI Desktop
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop und im Power BI-Dienst
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop, im Power BI-Dienst *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen.
@@ -42,14 +42,14 @@ Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, 
 Ein zu beachtender wichtiger Punkt: Kursivformatierung im Datenraster bedeutet nicht, dass der Datentyp richtig festgelegt ist, sondern bedeutet nur, dass die Daten nicht als Text angesehen werden.
 
 ### <a name="reference-queries-in-the-query-editor"></a>Verweisabfragen im Abfrage-Editor
-Wenn Sie im Navigator des Abfrage-Editors in Power BI Desktop mit der rechten Maustaste auf eine der Abfragen klicken, ist eine Option für „Verweis“ verfügbar.  Dies ist aus folgendem Grund hilfreich:
+Wenn Sie im Navigator des Abfrage-Editors in Power BI Desktop mit der rechten Maustaste auf eine der Abfragen klicken, ist eine Option für „Reference“ (Verweis) verfügbar.  Dies ist aus folgendem Grund hilfreich:
 
 * Wenn Sie Dateien als Datenquelle für eine Abfrage verwenden, wird der absolute Pfad zur Datei in der Abfrage gespeichert. Wenn Sie eine Power BI Desktop-Datei oder eine Excel-Arbeitsmappe freigeben oder verschieben, sparen Sie Zeit, wenn Sie die Pfade aktualisieren, indem Sie diese nur einmal statt jeweils einzeln aktualisieren.
 
 Standardmäßig werden alle Abfragen entweder auf ein Excel-Arbeitsblatt oder in das Datenmodell (oder beides) geladen. Einige Abfragen sind zwischengeschaltete Schritte sind und nicht für Endbenutzer vorgesehen.  Dies ist häufig der Fall, wenn so, wie oben angegeben, auf Abfragen verwiesen wird.  Sie können das Ladeverhalten einer Abfrage steuern, indem Sie im Navigator mit der rechten Maustaste auf die Abfrage klicken und dann die Option „Laden aktivieren" umschalten.  Wenn kein Häkchen neben „Laden aktivieren“ angezeigt wird, ist die Abfrage weiterhin auf der Abfrageregisterkarte verfügbar, und Sie können sie mit anderen Abfragen verwenden.  Dies ist insbesondere in Verbindung mit Zusammenführungs-, Anfügungs- und Verweistransformationen nützlich.  Weil die Ergebnisse der Abfrage aber nicht in das Datenmodell geladen werden, führt die Abfrage nicht dazu, dass die Feldliste Ihres jeweiligen Berichts oder Ihr Datenmodell überladen wird.
 
 ### <a name="scatter-charts-need-a-point-identifier"></a>Punktdiagramme erfordern einen Punktbezeichner
-Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in ein Punktdiagramm zeichnen, aggregiert Power BI alle Werte in einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   Eine einfache Möglichkeit hierfür in Power BI Desktop ist, auf der Abfrageregisterkarte die Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ zu verwenden.
+Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm darstellen, aggregiert Power BI alle Werte zu einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   Eine einfache Möglichkeit hierfür in Power BI Desktop ist, auf der Abfrageregisterkarte die Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ zu verwenden.
 
 ### <a name="reference-lines-in-your-report"></a>Bezugslinien in Ihrem Bericht
 Sie können in Power BI Desktop eine berechnete Spalte verwenden, um eine Bezugslinie zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie eine Bezugslinie erstellen möchten.  Wählen Sie „Neue Spalte“ im Menüband aus, und geben Sie in der Bearbeitungsleiste die folgende Formel ein:
@@ -64,14 +64,14 @@ Wenn Sie einen Kategoriewert (eine Zeichenfolge) für Diagrammachsen in Power BI
 ### <a name="building-maps-more-easily-with-hints-to-bing"></a>Einfacheres Erstellen von Karten mit Hinweisen auf Bing
 Power BI arbeitet mit Bing zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie einfacher Karten erstellen können.  Bing verwendet einige Algorithmen und Hinweise, um zu versuchen, die richtige Ortsangabe zu ermitteln, dies ist aber eine bestmögliche Schätzung. Durch Beachten der folgenden Tipps können Sie die Wahrscheinlichkeit einer richtigen Geocodierung erhöhen:
 
-Beim Erstellen einer Karte sollen häufig Länder (Staaten), Bundesländer (Bundesstaaten) und Städte gezeichnet werden.  Wenn Sie Spalten in Power BI Desktop nach der geografischen Bezeichnung benennen, erkennt Bing leichter, was Sie anzeigen möchten. Wenn Sie beispielsweise ein Feld für Namen von US-Bundesstaaten wie „Kalifornien“ und „Washington“ haben, könnte Bing für das Wort „Washington“ den Standort Washington DC anstelle von Washington Bundesstaat zurückgeben.  Ein Benennen der Spalte „Bundesland“ verbessert das Geocoding.  Das gleiche gilt für Spalten namens „Land“ und „Stadt“.   
+Wenn Sie eine Karte erstellen, sollen häufig auch Länder (Staaten), Bundesländer (Bundesstaaten) und Städte darin dargestellt werden.  Wenn Sie Spalten in Power BI Desktop nach der geografischen Bezeichnung benennen, erkennt Bing leichter, was Sie anzeigen möchten. Wenn Sie beispielsweise ein Feld für Namen von US-Bundesstaaten wie „Kalifornien“ und „Washington“ haben, könnte Bing für das Wort „Washington“ den Standort Washington DC anstelle von Washington Bundesstaat zurückgeben.  Ein Benennen der Spalte „Bundesland“ verbessert das Geocoding.  Das gleiche gilt für Spalten namens „Land“ und „Stadt“.   
 
 Einige Bezeichnungen sind mehrdeutig, wenn sie im Kontext mehrerer Länder/Regionen berücksichtigt werden.  In einigen Fällen wird das, was in einem Land bzw. in einer Region als „Staat“ bezeichnet wird, als ein „Bundesland“ oder ein „Landkreis“ oder eine andere Bezeichnung behandelt.  Sie können die Genauigkeit der Geocodierung erhöhen, indem Sie Spalten erstellen, in denen mehrere Felder zusammengefügt sind, und dann diese Spalten dazu verwenden, Datenortsangaben zu zeichnen.  Ein Beispiel: Statt nur „Wiltshire“ zu übergeben, können Sie „Wiltshire, England“ übergeben, um ein genauere Geocodierungsergebnis zu erhalten.
 
-Sie können in Power BI Desktop oder im Power BI-Dienst immer bestimmte Breiten- und Längengrade für Ortsangaben bereitstellen.  In diesem Fall müssen Sie auch ein „Ortsangabe“-Feld übergeben, denn andernfalls werden die Daten standardmäßig aggregiert, sodass die Ortsangabe aus Breiten- und Längengrad möglicherweise nicht dem entspricht, was Sie erwartet haben.
+Sie können in Power BI oder Power BI Desktop immer bestimmte Breiten- und Längengrade für Ortsangaben bereitstellen.  In diesem Fall müssen Sie auch ein „Ortsangabe“-Feld übergeben, denn andernfalls werden die Daten standardmäßig aggregiert, sodass die Ortsangabe aus Breiten- und Längengrad möglicherweise nicht dem entspricht, was Sie erwartet haben.
 
 ### <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Kategorisieren von geografischen Feldern als Hinweise für Bings Geocodierung
-Sie können die korrekte Geocodierung der Felder auch sicherstellen, indem Sie die Datenkategorie der Datenfelder festlegen.   Wählen Sie in Power BI Desktop die gewünschte Tabelle aus, wechseln Sie zum Menüband „Erweitert“, und legen Sie dann die „Datenkategorie“ auf „Adresse“, „Ort“, „Kontinent“, „Land/Region“, „Landkreis“, „Postleitzahl“ oder „Bundesland oder Kanton“ fest.  Diese Datenkategorien helfen Bing, die Daten richtig zu codieren. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md).
+Sie können die korrekte Geocodierung der Felder auch sicherstellen, indem Sie die Datenkategorie der Datenfelder festlegen.   Wählen Sie in Power BI Desktop die gewünschte Tabelle aus, wechseln Sie zum Menüband „Erweitert“, und legen Sie dann die „Datenkategorie“ auf „Adresse“, „Ort“, „Kontinent“, „Land/Region“, „Landkreis“, „Postleitzahl“ oder „Bundesland oder Kanton“ fest.  Mithilfe dieser Datenkategorien können Daten von Bing richtig codiert werden. Weitere Informationen finden Sie unter [Datenkategorisierung in Power BI Desktop](desktop-data-categorization.md).
 
 ### <a name="better-geocoding-with-more-specific-locations"></a>Besseres Geocoding mit spezielleren Ortsangaben
 Manchmal genügt es aber nicht, die Datenkategorien für die Zuordnung festzulegen.  Mit dem Abfrage-Editor in Power BI Desktop können Sie eine speziellere Ortsangabe erstellen, etwa eine Straße mit Hausnummer.  Verwenden Sie die Funktion „Spalte hinzufügen“, um eine benutzerdefinierte Spalte zu erstellen.  Erstellen Sie die gewünschte Ortsangabe dann wie folgt:
@@ -166,7 +166,7 @@ Manchmal sollen Übersichtsstatistiken für ein Dataset berechnet werden.  Die e
 ### <a name="using-dax-for-the-first-time"></a>Erstmaliges Verwenden von DAX
 DAX ist die Formelsprache für Berechnungen in Power BI Desktop.  Sie ist für Business Intelligence (BI) optimiert.  Sie unterscheidet sich ein wenig von dem, mit dem Sie möglicherweise vertraut sind, wenn Sie nur eine SQL-orientierte Abfragesprache verwendet haben. Sowohl online als auch in Buchform gibt es sehr gute Ressourcen zum Erlernen von DAX.
 
-[Schnellstart: DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Erlernen der DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 

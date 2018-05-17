@@ -1,28 +1,28 @@
 ---
-title: "Ausführen von R-Skripts in Power BI Desktop"
-description: "Ausführen von R-Skripts in Power BI Desktop"
+title: Ausführen von R-Skripts in Power BI Desktop
+description: Ausführen von R-Skripts in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34e756a661ec580e2c0eea8fc53378566eccf305
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78102beae41c1ef1f6a1d1b82e945fc3eff04a0f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Ausführen von R-Skripts in Power BI Desktop
 Sie können R-Skripts direkt in **Power BI Desktop** ausführen und die resultierenden Datasets in ein Power BI Desktop-Datenmodell importieren.
@@ -51,7 +51,7 @@ Beim Vorbereiten und Ausführen eines R-Skripts in Power BI Desktop müssen Si
 1. In Power BI Desktop befindet sich der R-Skript-Datenconnector unter **Daten abrufen**. Wählen Sie zum Ausführen Ihres R-Skripts **Daten abrufen &gt; Mehr...** und anschließend **Sonstige &gt; R-Skript** aus, wie in der folgenden Abbildung dargestellt:
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
-2. Wenn R auf dem lokalen Computer installiert ist, wird die neueste installierte Version als R-Modul ausgewählt. Kopieren Sie Ihr Skript einfach in das Skriptfenster, und wählen Sie **OK**aus.
+2. Wenn R auf dem lokalen Computer installiert ist, wird die neueste installierte Version als R-Engine ausgewählt. Kopieren Sie Ihr Skript einfach in das Skriptfenster, und wählen Sie **OK**aus.
    
    ![](media/desktop-r-scripts/r-scripts-2.png)
 3. Wenn R nicht installiert ist, nicht erkannt wird oder mehrere Installationen auf dem lokalen Computer vorhanden sind, erweitern Sie **R-Installationseinstellungen** , um Installationsoptionen anzuzeigen oder die Installation auszuwählen, mit der Sie das R-Skript ausführen möchten.

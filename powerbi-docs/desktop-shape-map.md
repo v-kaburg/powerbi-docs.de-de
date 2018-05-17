@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 5d18d7b5f5ebdd096cc5fb0e40eef845dc72c0db
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.

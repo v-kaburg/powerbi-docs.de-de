@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problembehandlung für Power BI Gateway – Personal
 Im Folgenden werden einige häufige Fehler erläutert, die beim Verwenden von Power BI Gateway – Personal möglicherweise auftreten.
@@ -76,11 +76,11 @@ Dieser Fehler kann z.B. in den Einstellungen für \<dataset\> auftreten, wenn Si
 
 **Fehler: [Daten können nicht verbunden werden] &lt;Abfragteteil&gt;/&lt;…&gt;/&lt;…&gt; greift auf Datenquellen mit Sicherheitsstufen zu, die nicht gemeinsam verwendet werden können. Erstellen Sie diese Datenkombination neu.**
 
-**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen. [Weitere Informationen](refresh-enable-fast-combine.md)
+**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
 
 **Fehler: Datenquellenfehler: Der Wert „\[Tabelle\]“ kann nicht in den Typ „Tabelle“ konvertiert werden.**
 
-**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen. [Weitere Informationen](refresh-enable-fast-combine.md)
+**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
 
 **Fehler: Für diese Zeile ist nicht ausreichend Platz vorhanden.**
 

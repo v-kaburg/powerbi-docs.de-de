@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in **Power BI Desktop** möglich.
 
 Damit Q&A die Vielzahl von Fragen, die vom Programm beantwortet werden können, erfolgreich interpretieren kann, muss Q&A Annahmen über das Modell machen. Wenn die Struktur des Modells nicht mindestens einer dieser Annahmen entspricht, müssen Sie das Modell anpassen. Diese Anpassungen für Q&A sind die gleichen Optimierungen, die als bewährte Methoden für jedes Modell in Power BI vorgenommen werden, unabhängig davon, ob Sie Q&A verwenden. 
+
+> [!NOTE]
+> Q&A ist nur verfügbar, wenn Sie mit einem Modell arbeiten, das **importierte** Daten enthält. Liveverbindungen mit SSAS- und DirectQuery-Modellen werden nicht unterstützt.
+>
+>
 
 In den folgenden Abschnitten wird beschrieben, wie Sie Ihr Modell anpassen, um es für Q&A in Power BI zu optimieren.
 

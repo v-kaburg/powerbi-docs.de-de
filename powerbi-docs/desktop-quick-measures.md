@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen
 Mit **Quickmeasures** können Sie gängige und leistungsstarke Berechnungsfunktionen nutzen. Ein **Quickmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Quickmeasure ausführt, und sich so besser mit DAX vertraut machen.
@@ -43,8 +43,6 @@ Sie müssen **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenomme
 Klicken Sie zum Erstellen eines **Schnellmeasures** in **Power BI Desktop** im Bereich **Felder** mit der rechten Maustaste auf ein beliebiges Feld, und wählen Sie im daraufhin angezeigten Menü die Option **Schnellmeasures** aus.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-Das Feature **Quickmeasures** ist nur verfügbar, wenn das geladene Dataset modellierbar ist. Daher wird bei Liveverbindungen (etwa bei einer Verbindung mit einem Dataset des Power BI-Diensts) das Menüelement **Quickmeasures** nicht angezeigt, wenn Sie mit der rechten Maustaste auf die Liste **Felder** klicken. Diese Einschränkung gilt nicht für SSAS-Liveverbindungen. 
 
 Bei Verwendung von SSAS-Liveverbindungen (SQL Server Analysis Services) sind einige **Quickmeasures** verfügbar. In **Power BI Desktop** wird nur die Sammlung der **Quickmeasures** angezeigt, die für die Version von SSAS unterstützt werden, mit der die Verbindung hergestellt wird. Wenn eine Verbindung mit einer SSAS-Livedatenquelle besteht und bestimmte **Quickmeasures** nicht in der Liste enthalten sind, unterstützt die SSAS-Version, mit der die Verbindung besteht, nicht das DAX-Measure, mit dem das betreffende **Quickmeasure** implementiert wurde.
 
@@ -141,9 +139,10 @@ Und wenn Sie das optimale Measure erstellt haben, können Sie es über das gleic
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Folgende Einschränkungen und Überlegungen sollten Sie berücksichtigen:
 
-* **Quickmeasures** sind nur verfügbar, wenn Sie das Modell ändern können. Das ist bei DirectQuery und den meisten Liveverbindungen nicht der Fall (SSAS-Liveverbindungen werden unterstützt, wie weiter oben erläutert).
+* **Quickmeasures** sind nur verfügbar, wenn Sie das Modell ändern können. Das ist bei einigen Liveverbindungen nicht der Fall (tabellarische SSAS-Liveverbindungen werden unterstützt, wie weiter oben erläutert).
 * Das Measure, das dem Bereich **Felder** hinzugefügt wird, kann für ein beliebiges visuelles Element im Bericht verwendet werden.
 * Sie können jederzeit die DAX-Formel anzeigen, die einem **Schnellmeasure** zugeordnet ist. Wählen Sie hierzu im Bereich **Felder** das erstellte Measure aus, und sehen Sie sich die Formel auf der **Bearbeitungsleiste** an.
+* Beim Arbeiten im DirectQuery-Modus können Sie keine Quickmeasures mit Zeitintelligenz erstellen. Die DAX-Funktionen, die in diesen Quickmeasures verwendet werden, haben Auswirkungen auf die Leistung, wenn sie in die T-SQL-Anweisungen übersetzt werden, die an Ihre Datenquelle gesendet werden.
 
 > [!WARNING]
 > Ein Schnellmeasure generiert derzeit *nur* DAX-Anweisungen mit Kommas als Argumenttrennzeichen. Wenn Ihre Version von **Power BI Desktop** für eine Sprache lokalisiert ist, in der Kommas als Dezimaltrennzeichen verwendet werden, können Quickmeasures nicht ordnungsgemäß funktionieren.
@@ -151,7 +150,7 @@ Folgende Einschränkungen und Überlegungen sollten Sie berücksichtigen:
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Zeitintelligenz und Quickmeasures
-Ab dem **Power BI Desktop**-Update von Oktober 2017 können Sie eigene benutzerdefinierte Datumstabellen mit Zeitintelligenz-**Quickmeasures** verwenden. Wenn das Datenmodell eine benutzerdefinierte Datumstabelle enthält, können Sie die primäre Datumsspalte in dieser Tabelle für Zeitintelligenz-Quickmeasures verwenden. Sie *müssen* sicherstellen, dass die primäre Datumsspalte in dieser Tabelle beim Erstellen des Modells als Datumstabelle markiert wurde, wie in [diesem Artikel](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) beschrieben.
+Ab dem **Power BI Desktop**-Update von Oktober 2017 können Sie eigene benutzerdefinierte Datumstabellen mit Zeitintelligenz-**Quickmeasures** verwenden. Wenn Sie ein externes Tabellenmodel verwenden, müssen Sie sicherstellen, dass die primäre Datumsspalte in dieser Tabelle beim Erstellen des Modells als Datumstabelle markiert wurde, wie in diesem [Artikel beschrieben](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Wenn Sie Ihre eigene Datumstabelle importieren, stellen Sie sicher, dass Sie diese als Datumstabelle markieren, wie in [diesem Artikel](https://docs.microsoft.com/power-bi/desktop-date-tables) beschrieben.
 
 ### <a name="additional-information-and-examples"></a>Weitere Informationen und Beispiele
 Dieser Schwerpunktartikel wird voraussichtlich noch mit Beispielen und Anleitungen für die einzelnen Berechnungen der **Schnellmeasures** aktualisiert. Schauen Sie daher bald wieder vorbei.

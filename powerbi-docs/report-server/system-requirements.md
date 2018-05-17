@@ -1,15 +1,15 @@
 ---
-title: "Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver"
-description: "Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver."
+title: Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
+description: Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
 Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver.
@@ -42,7 +42,7 @@ Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Instal
 > 
 
 ## <a name="database-server-version-requirements"></a>Anforderungen an die Version des Datenbankservers
-Als Host der Berichtsserver-Datenbanken wird SQL Server verwendet. Die Instanz des SQL Server-Datenbankmoduls kann eine lokale oder Remoteinstanz sein. Die folgenden unterstützten Versionen des SQL Server-Datenbankmoduls können als Host der Berichtsserver-Datenbanken verwendet werden:
+Als Host der Berichtsserver-Datenbanken wird SQL Server verwendet. Die Instanz der SQL Server-Datenbank-Engine kann eine lokale oder Remoteinstanz sein. Die folgenden unterstützten Versionen der SQL Server-Datenbank-Engine können als Host der Berichtsserver-Datenbanken verwendet werden:
 
 * SQL Server 2017
 * SQL Server 2016
@@ -56,9 +56,9 @@ Zum Erstellen der Berichtsserver-Datenbank auf einem Remotecomputer müssen Sie 
 ## <a name="considerations"></a>Überlegungen
 Power BI-Berichtsserver installiert Standardwerte zum Konfigurieren der Haupteinstellungen, die für die Inbetriebnahme eines Berichtsservers erforderlich sind. Es gelten die folgenden Anforderungen:
 
-* Ein SQL Server-Datenbankmodul muss nach dem Setup und vor der Konfiguration der Datenbank für den Berichtsserver verfügbar sein. Die Instanz des Datenbankmoduls hostet die Berichtsserver-Datenbank, die der Konfigurations-Manager für Reporting Services erstellt. Das Datenbankmodul ist für das eigentliche Setup nicht erforderlich.
+* Eine SQL Server-Datenbank-Engine muss nach dem Setup und vor der Konfiguration der Datenbank für den Berichtsserver verfügbar sein. Die Instanz der Datenbank-Engine hostet die Berichtsserver-Datenbank, die der Konfigurations-Manager für Reporting Services erstellt. Die Datenbank-Engine ist für das eigentliche Setup nicht erforderlich.
 * Das Benutzerkonto zum Ausführen von Setup muss Mitglied der lokalen Gruppe „Administratoren“ sein.
-* Das Benutzerkonto für den Konfigurations-Manager für Reporting Services benötigen die Berechtigung für den Zugriff auf und das Erstellen von Datenbanken in der Instanz des Datenbankmoduls, die die Berichtsserver-Datenbanken hostet.
+* Das Benutzerkonto für den Konfigurations-Manager für Reporting Services benötigen die Berechtigung für den Zugriff auf und das Erstellen von Datenbanken in der Instanz der Datenbank-Engine, die die Berichtsserver-Datenbanken hostet.
 * Setup muss die Standardwerte verwenden können, um die URLs zu reservieren, die Zugriff auf den Berichtsserver und das Webportal gewähren. Zu diesen Werten gehören Port 80, ein Platzhalter und Namen der virtuellen Verzeichnisse im Format **ReportServer** und **Reports**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Schreibgeschützter Domänencontroller (RODC)
@@ -76,7 +76,7 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 ## <a name="next-steps"></a>Nächste Schritte
 [Benutzerhandbuch](user-handbook-overview.md)  
 [Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 

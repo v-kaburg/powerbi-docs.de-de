@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Verwenden von Inlinehierarchiebeschriftungen in Power BI Desktop
 **Power BI Desktop** unterstützt die Verwendung von **Inlinehierarchiebeschriftungen**. Dies ist das erste von zwei Features, die die Ermittlung hierarchischer Details verbessern sollen. Das zweite Feature, das derzeit entwickelt wird, ist die Fähigkeit, geschachtelte Hierarchiebeschriftungen zu verwenden (achten Sie auf weitere Updates).   
@@ -30,35 +30,41 @@ ms.lasthandoff: 05/04/2018
 ## <a name="how-inline-hierarchy-labels-work"></a>Funktionsweise von Inlinehierarchiebeschriftungen
 Mit Inlinehierarchiebeschriftungen werden bei der Erweiterung von Visualisierungen mit dem Feature **Alle erweitern** Hierarchiebeschriftungen angezeigt. Ein großer Vorteil dieser Hierarchiebeschriftungen ist, dass Sie diese beim Erweitern der Hierarchiedaten auch **sortieren** können.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Verwenden des integrierten Features „Alle erweitern“ (ohne Sortierung nach Hierarchiebeschriftungen)
-Bevor wir uns Inlinehierarchiebeschriftungen in Aktion ansehen, werfen wir einen Blick auf das Verhalten des Standardfeatures **Alle erweitern**. Dies verdeutlicht, wie nützlich Inlinehierarchiebeschriftungen sein können
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Verwenden des integrierten Features „Erweitern“ (ohne Sortierung nach Hierarchiebeschriftungen)
+Bevor wir uns Inlinehierarchiebeschriftungen in Aktion ansehen, werfen wir einen Blick auf das Verhalten des Standardfeatures **Auf nächste Ebene erweitern**. Dies verdeutlicht, wie nützlich Inlinehierarchiebeschriftungen sein können
 
-Die folgende Abbildung zeigt ein visuelles Balkendiagramm für den Jahresumsatz. Wenn Sie mit der rechten Maustaste klicken, können Sie **Alle erweitern** auswählen.
+Die folgende Abbildung zeigt ein visuelles Balkendiagramm für den Jahresumsatz. Wenn Sie einen Rechtsklick auf die Leiste ausführen, können Sie **Auf nächste Ebene erweitern** auswählen.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Kontextmenü erweitern](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Nachdem Sie **Alle erweitern** ausgewählt haben, wird die Datenhierarchie in der Visualisierung von *Jahr* zu *Quartal* erweitert, wie in der folgenden Abbildung dargestellt.
+> [!NOTE]
+> Alternativ können Sie zum Rechtsklick auf eine Leiste auch auf der Visualisierung oben links auf die Schaltfläche *Erweitern* klicken.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Schaltfläche „Erweitern“](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
+
+
+Nachdem Sie **Auf nächste Ebene erweitern** ausgewählt haben, wird die Datenhierarchie im Visual von *Jahr* zu *Quartal* erweitert, wie in der folgenden Abbildung dargestellt.
+
+![Visual zu Jahr und Quartal erweitert](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
 
 Die Beschriftungen *Jahr* und *Quartal* werden dabei jeweils in einer Zeile angezeigt. Dieses Beschriftungsschema setzt sich fort, wenn Sie bis zum Ende der Hierarchie weiter **Alle erweitern** auswählen.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+![Visual zu Jahr, Quartal und Monat erweitert](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Dies ist die Verhaltensweise der integrierten Hierarchie für *Datum* in Verbindung mit Feldern mit dem Datentyp *Datum/Uhrzeit*. Gehen wir zum nächsten Abschnitt, in dem erläutert wird, was bei der neuen Feature für Inlinehierarchiebeschriftungen anders ist.
 
 ### <a name="using-inline-hierarchy-labels"></a>Verwenden von Inlinehierarchiebeschriftungen
-Sehen wir uns jetzt ein anderes Diagramm an. Dieses enthält Daten mit einer informellen Hierarchie. In der folgenden Visualisierung wird ein Balkendiagramm für den **SalesAmount** mit *Color* als Achse angezeigt. In diesen Daten bilden *Color* und *Class* eine informelle Hierarchie. Von hier aus können Sie erneut *Alle erweitern* auswählen, um einen Drilldown in der Hierarchie durchzuführen.
+Sehen wir uns jetzt ein anderes Diagramm an. Dieses enthält Daten mit einer informellen Hierarchie. Im folgenden Visual wird ein Balkendiagramm mit **Quantity** mit *ProductName* als Achse angezeigt. In diesen Daten bilden *ProductName* und *ShipCountry* eine informelle Hierarchie. Von hier aus können Sie erneut *Auf nächste Ebene erweitern* auswählen, um einen Drilldown in der Hierarchie durchzuführen.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Diagramm mit informeller Hierarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Durch Auswahl von **Alle erweitern** wird die nächste Ebene mit der Inlineanzeige von Hierarchiebeschriftungen angezeigt. Standardmäßig werden Inlinehierarchien nach Measurewert sortiert – in diesem Fall **SalesAmount**. Wenn Sie Inlinehierarchiebeschriftungen aktivieren, können Sie diese Daten auch nach Hierarchie sortiere. Klicken Sie hierfür rechts oben die Auslassungszeichen (**...**), und wählen Sie dann **Sortieren nach > Color Class**, wie in der folgenden Abbildung dargestellt.
+Durch Auswahl von **Auf nächste Ebene erweitern** wird die nächste Ebene mit der Inlineanzeige von Hierarchiebeschriftungen angezeigt. Standardmäßig werden Inlinehierarchien nach Measurewert sortiert, in diesem Fall **Quantity**. Wenn Sie Inlinehierarchiebeschriftungen aktivieren, können Sie diese Daten auch nach Hierarchie sortiere. Klicken Sie hierfür rechts oben auf die Auslassungszeichen (**...**), und wählen Sie dann **Sort by ProductName ShipCountry** (Sortieren nach ProductName ShipCountry), wie in der folgenden Abbildung dargestellt.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Diagramm mit der Standardsortierung der informellen Hierarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Sobald **Color Class** ausgewählt ist, werden die Daten nach der informellen Hierarchieauswahl sortiert, wie in der folgenden Abbildung dargestellt.
+Sobald **ShipCountry** ausgewählt ist, werden die Daten nach der informellen Hierarchieauswahl sortiert, wie in der folgenden Abbildung dargestellt.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Diagramm mit der informellen Hierarchie, die nach der formellen Hierarchie sortiert ist](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > Mit dem Feature für Inlinehierarchiebeschriftungen kann die integrierte Zeithierarchie noch nicht nach Wert, sondern nur nach hierarchischer Reihenfolge sortiert werden.

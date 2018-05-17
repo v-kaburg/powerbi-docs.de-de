@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in eine Anwendung für Sovereign Clouds
 Hier erfahren Sie, wie Sie mithilfe des Power BI-.NET-SDK und der Power BI-JavaScript-API ein Dashboard, eine Kachel oder einen Bericht in eine Web-App integrieren oder einbetten, wenn das Einbetten für Ihre Kunden erfolgt. Dies ist in der Regel das Szenario für ISVs.
@@ -38,7 +38,7 @@ Sovereign (private) Clouds werden von Power BI ebenfalls unterstützt. Jede Sove
 
 ![Eingebettetes Dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie sich je nach Art der Regierung für ein [Power BI-Konto der US-Regierung](../service-govus-signup.md) oder ein [Power BI-Konto für Cloud Deutschland](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) anmelden.
+Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie sich je nach Art der Regierung für ein [Power BI-Konto der US-Regierung](../service-govus-signup.md) oder ein [Power BI-Konto für Cloud Deutschland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) anmelden.
 
 > [!NOTE]
 > Möchten Sie stattdessen ein Dashboard für Ihre Organisation einbetten? Siehe [Integrieren eines Dashboards in eine App für Ihre Organisation](integrate-dashboard.md).
@@ -407,7 +407,7 @@ Ein Anwendungsbeispiel hierfür ist im [Beispiel zum Einbetten für Ihre Organis
 
 * Eine Beispielanwendung können Sie auf GitHub einsehen. Die obigen Beispiele basieren auf diesem Beispiel. Weitere Informationen finden Sie im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Weitere Informationen zur JavaScript-API finden Sie unter [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
-* Weitere Informationen zur Power BI für Cloud Deutschland finden Sie unter [Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland](https://docs.microsoft.com/en-us/power-bi/service-govde-faq).
+* Weitere Informationen zur Power BI für Cloud Deutschland finden Sie unter [Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland](https://docs.microsoft.com/power-bi/service-govde-faq).
 * [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI](migrate-from-powerbi-embedded.md)
 
 Einschränkungen und Überlegungen

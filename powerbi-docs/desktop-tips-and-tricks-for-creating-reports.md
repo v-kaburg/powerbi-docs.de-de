@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: f28df3bff1759c1a0b06d49710a8c7df017229fa
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -46,7 +46,7 @@ Wenn Sie im Navigator des Abfrage-Editors in Power BI Desktop mit der rechten Ma
 Standardmäßig werden alle Abfragen entweder auf ein Excel-Arbeitsblatt oder in das Datenmodell (oder beides) geladen. Einige Abfragen sind zwischengeschaltete Schritte sind und nicht für Endbenutzer vorgesehen.  Dies ist häufig der Fall, wenn so, wie oben angegeben, auf Abfragen verwiesen wird.  Sie können das Ladeverhalten einer Abfrage steuern, indem Sie im Navigator mit der rechten Maustaste auf die Abfrage klicken und dann die Option „Laden aktivieren" umschalten.  Wenn kein Häkchen neben „Laden aktivieren“ angezeigt wird, ist die Abfrage weiterhin auf der Abfrageregisterkarte verfügbar, und Sie können sie mit anderen Abfragen verwenden.  Dies ist insbesondere in Verbindung mit Zusammenführungs-, Anfügungs- und Verweistransformationen nützlich.  Weil die Ergebnisse der Abfrage aber nicht in das Datenmodell geladen werden, führt die Abfrage nicht dazu, dass die Feldliste Ihres jeweiligen Berichts oder Ihr Datenmodell überladen wird. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Punktdiagramme erfordern einen Punktbezeichner
-Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm darstellen, aggregiert Power BI alle Werte zu einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   In Power BI Desktop können Sie dies ganz einfach auf der Abfrageregisterkarte mithilfe der Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ tun. 
+Nehmen Sie als ein Beispiel eine einfache Tabelle, die Temperaturen sowie die Uhrzeiten enthält, zu denen die Messungen erfolgt sind. Wenn Sie diese Daten direkt in einem Punktdiagramm darstellen, aggregiert Power BI alle Werte zu einem einzigen Punkt. Damit einzelne Datenpunkte angezeigt werden, müssen Sie ein Feld zum „Details“-Bucket der Feldquelle hinzufügen.   Eine einfache Möglichkeit hierfür in Power BI Desktop ist, auf der Abfrageregisterkarte die Option „Indexspalte hinzufügen“ im Menüband „Spalte hinzufügen“ zu verwenden. 
 
 ## <a name="reference-lines-in-your-report"></a>Bezugslinien in Ihrem Bericht
 Sie können in Power BI Desktop eine berechnete Spalte verwenden, um eine Bezugslinie zu definieren.  Ermitteln Sie die Tabelle und die Spalte, für die Sie eine Bezugslinie erstellen möchten.  Wählen Sie „Neue Spalte“ im Menüband aus, und geben Sie in der Bearbeitungsleiste die folgende Formel ein:
@@ -56,7 +56,7 @@ Sie können in Power BI Desktop eine berechnete Spalte verwenden, um eine Bezugs
 Diese berechnete Spalte gibt den Wert 100 zurück, unabhängig davon, wo sie verwendet wird.  Die neue Spalte wird in der Feldliste angezeigt.  Fügen Sie berechnete Spalte „Target Value“ zu einem Liniendiagramm hinzu, um darzustellen, wie sich die Datenreihen zu dieser bestimmten Bezugslinie verhalten.  
 
 ## <a name="sort-by-another-column"></a>Sortieren nach einer anderen Spalte
-Wenn Sie einen Kategoriewert (Zeichenfolge) für Diagrammachsen in Power BI oder in einem Slicer oder Filter verwenden, ist die Standardreihenfolge alphabetisch. Wenn Sie diese Reihenfolge außer Kraft setzen müssen, z. B. für Angaben wie Tage der Woche oder des Monats, können Sie Power BI Desktop anweisen, nach einer anderen Spalte zu sortieren. Weitere Informationen hierzu finden Sie unter [Sortieren nach Spalten in Power BI Desktop](desktop-sort-by-column.md).
+Wenn Sie einen Kategoriewert (eine Zeichenfolge) für Diagrammachsen in Power BI oder in einem Datenschnitt oder Filter verwenden, ist die Standardreihenfolge alphabetisch. Wenn Sie diese Reihenfolge außer Kraft setzen müssen, z. B. für Angaben wie Tage der Woche oder des Monats, können Sie Power BI Desktop anweisen, nach einer anderen Spalte zu sortieren. Weitere Informationen hierzu finden Sie unter [Sortieren nach Spalten in Power BI Desktop](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Einfacheres Erstellen von Karten mit Hinweisen auf Bing
 Power BI arbeitet mit Bing zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie einfacher Karten erstellen können.  Bing verwendet einige Algorithmen und Hinweise, um zu versuchen, die richtige Ortsangabe zu ermitteln, dies ist aber eine bestmögliche Schätzung. Durch Beachten der folgenden Tipps können Sie die Wahrscheinlichkeit einer richtigen Geocodierung erhöhen:
@@ -112,7 +112,7 @@ In Power BI Desktop können Sie ein berechnetes Feld verwenden, um ein Histogram
 
 Speichern Sie Ihre Änderungen, und kehren Sie zu Ihrm Bericht zurück.  Fügen Sie \<Spaltenname\> und den Frequency-Wert (Häufigkeit) einer Tabelle hinzu, und konvertieren Sie die Werte in ein Balkendiagramm.  Achten Sie darauf, dass \<Spaltenname\> die x-Achse und das berechnete Frequency-Feld (Häufigkeit) die y-Achse bildet.
 
-## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Beziehungen in Power BI Desktop
+## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen einer Beziehung in Power BI Desktop
 Wenn Sie Detaildatasets aus mehreren Quellen laden, verhindern Probleme wie Nullwerte, leere Werte oder doppelte Werte häufig, dass Sie Beziehungen erstellen können. 
 
 Betrachten wir dazu ein Beispiel: 
@@ -163,7 +163,7 @@ Manchmal sollen Übersichtsstatistiken für ein Dataset berechnet werden.  Die e
 ## <a name="using-dax-for-the-first-time"></a>Erstmaliges Verwenden von DAX
 DAX ist die Formelsprache für Berechnungen in Power BI Desktop.  Sie ist für Business Intelligence (BI) optimiert.  Sie unterscheidet sich ein wenig von dem, mit dem Sie möglicherweise vertraut sind, wenn Sie nur eine SQL-orientierte Abfragesprache verwendet haben. Sowohl online als auch in Buchform gibt es sehr gute Ressourcen zum Erlernen von DAX. 
 
-[Schnellstart: DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Erlernen der DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [DAX-Referenz (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 Hier erfahren Sie, wie Sie Power BI Premium- und Power BI Embedded-Kapazitäten verwalten können, um dedizierte Ressourcen für Ihre Inhalte bereitzustellen.
@@ -55,8 +55,8 @@ Wenn Sie Power BI Premium-SKUs erwerben, erhält Ihr Mandant die entsprechende A
 ## <a name="capacity-admins"></a>Kapazitätsadministratoren
 > [!NOTE]
 > Kapazitätsadministratoren für Power BI Embedded-Kapazität werden im Microsoft Azure-Portal definiert.
-> 
-> 
+>
+>
 
 Wenn Sie einer Kapazität als Kapazitätsadministrator zugewiesen werden, haben Sie die volle Kontrolle über die Kapazität und deren Verwaltungsfeatures. Sie können über das Power BI-Verwaltungsportal weitere Kapazitätsadministratoren hinzufügen (nur in Power BI Premium) oder Benutzern Kapazitätszuweisungsberechtigungen erteilen. Sie können eine Massenzuweisung von Arbeitsbereichen zu einer Kapazität durchführen und sich Nutzungsmetriken einer Kapazität anzeigen lassen.
 
@@ -81,14 +81,14 @@ Wenn Sie verfügbare V-Kerne haben, können Sie Ihre neue Kapazität mit den fol
 1. Klicken Sie auf **Set up new capacity** (Neue Kapazität einrichten).
 2. **Benennen** Sie Ihre Kapazität.
 3. Legen Sie einen Kapazitätsadministrator fest.
-   
+
     Kapazitätsadministratoren müssen nicht Administratoren von Power BI oder globale Administratoren von Office 365 sein. Weitere Informationen finden Sie unter [Power BI Premium capacity admins (Kapazitätsadministratoren von Power BI Premium)](#capacity-admins).
 4. Wählen Sie den Kapazitätsumfang aus. Die verfügbaren Optionen hängen von der Anzahl der verfügbaren V-Kerne ab. Sie können keine Option mit einer Anzahl wählen, die größer als die verfügbare Anzahl ist.
-   
+
     ![Verfügbare Premium-Kapazitätsumfänge](media/service-admin-premium-manage/premium-capacity-size.png)
 5. Klicken Sie auf **Einrichten**.
 
-![Einrichten einer neuen Kapazität](media/service-admin-premium-manage/set-up-capacity.png)
+    ![Einrichten einer neuen Kapazität](media/service-admin-premium-manage/set-up-capacity.png)
 
 Die Kapazität wird Kapazitätsadministratoren sowie Administratoren von Power BI und globale Administratoren von Office 365 im Verwaltungsportal angezeigt.
 
@@ -103,15 +103,15 @@ Sie können auf der Verwaltungsseite für Premium-Kapazitäten unter „Actions�
 
 > [!NOTE]
 > Power BI Embedded-Kapazitätseinstellungen werden im Microsoft Azure-Portal verwaltet.
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Ändern des Kapazitätsumfangs (Power BI Premium)
 Power BI-Administratoren und globale Office 365-Administratoren ändern den Power BI Premium-Kapazitätsumfang, indem sie **Kapazitätsumfang ändern** auswählen. Kapazitätsadministratoren, die keine Power BI- oder globale Office 365-Administratoren sind, verfügen nicht über diese Option.
 
 ![Ändern des Power BI Premium-Kapazitätsumfangs](media/service-admin-premium-manage/change-capacity-size.png)
 
-Im Bildschirm **Kapazitätsumfang ändern** können Sie ein Upgrade oder Downgrade des Kapazitätsumfangs ausführen, wenn die entsprechenden Ressourcen verfügbar sind. Administratoren können Knoten erstellen, löschen und ihre Größe ändern, solange sie über die erforderliche Anzahl von V-Kernen verfügen. 
+Im Bildschirm **Kapazitätsumfang ändern** können Sie ein Upgrade oder Downgrade des Kapazitätsumfangs ausführen, wenn die entsprechenden Ressourcen verfügbar sind. Administratoren können Knoten erstellen, löschen und ihre Größe ändern, solange sie über die erforderliche Anzahl von V-Kernen verfügen.
 
 P-SKUs können nicht auf EM-SKUs herabgestuft werden. Sie können auf deaktivierte Optionen zeigen, um ihre Erläuterung anzuzeigen.
 
@@ -129,31 +129,41 @@ Sie können zusätzliche **Kapazitätsadministratoren** für Power BI Premium-Ka
 
 > [!NOTE]
 > Kapazitätsadministratoren für Power BI Embedded-Kapazität werden im Microsoft Azure-Portal zugewiesen.
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>Nutzungsmessungen (Power BI Premium)
-Sie können für jede Kapazität Nutzungsmessungen der CPU, des Arbeitsspeichers und der direkten Abfragen vornehmen. Jeder KPI hat drei Anzeigemöglichkeiten, **Gut (grün)**, **Grenzwertig (gelb)** und **Kritisch (rot)**. Es wird empfohlen, dass Sie diese Metriken überwachen, um sicherzustellen, dass Ihre Benutzer beim Verwenden von Premiuminhalt mit der Leistung zufrieden sind.
+Für jede Kapazität werden Nutzungsmessungen für „CPU“, „Speicherauslastung“, „Speicherüberlastung“ und „Direkte Abfrage“ angezeigt. Wir empfehlen, diese Metriken im Auge zu behalten, um sicherzustellen, dass Ihre Benutzer eine gute Leistung für Ihre Kapazität erhalten:
 
-**Die Power BI Embedded-Kapazitätsauslastung wird im Azure-Portal überwacht.**
+![Nutzung in den letzten sieben Tagen](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "Metriken zur Kapazitätsauslastung – Kritisch")
+> [!NOTE]
+> Die Power BI Embedded-Kapazitätsauslastung wird im Azure-Portal überwacht.
 
 | Metrik | Beschreibung |
 | --- | --- |
-| CPU |CPU-Auslastung Ihrer Kernspeicher |
-| Arbeitsspeicher |Zeigt die Speicherauslastung Ihrer Back-End-Kernspeicher. Dies ist insbesondere eine Metrik darüber, wie oft Modelle aufgrund von hoher Speicherauslastung durch das Verwenden mehrerer Modelle aus dem Arbeitsspeicher entfernt werden. |
-| DQ/s |* Die Gesamtzahl von Abfragen mit DirectQuery und Liveverbindungen pro Sekunde ist eingeschränkt.<br/>* Die Grenzwerte betragen 30/s für P1, 60/s für P2 und 120/s für P3.<br/>* Abfragen mit DirectQuery und Liveverbindungen zählen in die oben stehende Begrenzung gleichermaßen hinein. Wenn Sie z.B. 15 direkte Abfragen und 15 Liveverbindungen in einer Sekunde haben, ist die Begrenzung erreicht.<br/>* Dies gilt sowohl für lokale als auch Cloudverbindungen. |
+| CPU |Häufigkeit, mit der die CPU eine Auslastung von 80 % überschritten hat. |
+| Speicherüberlastung |Zeigt die Speicherauslastung Ihrer Back-End-Kerne. Dies ist insbesondere eine Metrik dazu, wie oft Datasets aufgrund hoher Speicherauslastung bei Verwenden mehrerer Datasets aus dem Arbeitsspeicher entfernt werden. |
+| Memory Usage |Durchschnittliche Arbeitsspeicherauslastung in Gigabytes (GB). |
+| DQ/s | Häufigkeit, mit der die Anzahl von „Direkte Abfrage“- und Liveverbindungen 80 % des Grenzwerts überschritten hat. <br> <br> * Die Gesamtzahl von Abfragen mit DirectQuery und Liveverbindungen pro Sekunde ist eingeschränkt.<br><br>* Die Grenzwerte betragen 30/s für P1, 60/s für P2 und 120/s für P3.<br><br> * Die Anzahl von Abfragen des Typs „Direkte Abfrage“ und „Liveverbindung“ werden zur Drosselung hinzu gerechnet. Wenn Sie z.B. 15 direkte Abfragen und 15 Liveverbindungen in einer Sekunde haben, ist die Begrenzung erreicht.<br/><br>* Dies gilt sowohl für lokale als auch Cloudverbindungen. |
 
-Wenn diese Metriken grenzwertig/kritisch sind, bemerken Ihre Benutzer möglicherweise einen Verlust der Leistung beim Berichten und Aktualisieren, insbesondere bei Spitzen in den Ladezeiten.
+Metriken spiegeln die Auslastung in der letzten Woche wider.  Wenn Sie eine detailliertere Ansicht der Metriken wünschen, können Sie dies tun, indem Sie auf eine der Zusammenfassungskacheln klicken.  Sie gelangen zu detaillierten Diagrammen für jede der Metriken für Ihre Premium-Kapazität.  Diese Diagramme sind für die letzte Woche stündlich zusammengefasst und können Ihnen helfen zu ermitteln, wann bestimmte leistungsbezogene Ereignisse in Ihrer Premium-Kapazität aufgetreten sind.  
 
-Metriken spiegeln die Auslastung in der letzten Woche wieder. Sie wurden dazu entwickelt, Ihre Instanzen zu zählen, wenn die Kapazität überladen ist. Deshalb bieten sie Ihren Benutzern eine nicht optimale Leistung.
+![Ausführlicher Nutzungsdiagramm zur CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-Jedes Vorkommen von *Auslastung über 80 %* sollte als möglicher Grund für einen Leistungsverlust behandelt werden. Wenn dies zu oft vorkommt, ist dies ein deutlicher Hinweis auf erhebliche Probleme in der Leistung für die Benutzer.
+![Ausführlicher Nutzungsdiagramm zur Speicherüberlastung](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Ausführlicher Nutzungsdiagramm zur Speichergröße](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Ausführlicher Nutzungsdiagramm zur Speicherüberlastung](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Sie können auch die für jede der Metriken zugrunde liegenden Daten in eine CSV-Datei exportieren.  Dieser Export liefert Ihnen im Drei-Minuten-Takt detaillierte Informationen für jeden Tag der vergangenen Woche.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Zuweisen eines Arbeitsbereichs zu einer Kapazität
 Sie haben mehrere Möglichkeiten, einer Kapazität einen Arbeitsbereich zuzuweisen.
@@ -165,7 +175,7 @@ Kapazitätsadministratoren können, genauso wie Administratoren von Power BI und
 
 1. Klicken Sie auf **Arbeitsbereiche zuweisen**. Dies wird an mehreren Stellen angezeigt und führt die gleiche Aufgabe durch.
 2. Klicken Sie entweder auf **The entire organization's workspaces** (Arbeitsbereiche der gesamten Organisation) oder auf **Specific workspaces by user** (Bestimmte Arbeitsbereiche nach Benutzer).
-   
+
    | Auswahl (Selection) | Beschreibung |
    | --- | --- |
    | **Arbeitsbereiche der gesamten Organisation** |Wenn Sie die Arbeitsbereiche der gesamten Organisation einer Premium-Kapazität zuweisen, werden alle App-Arbeitsbereiche und Meine Arbeitsbereiche, die sich in Ihrer Organisation befinden, dieser Premium-Kapazität zugewiesen. Des Weiteren erhalten alle aktuellen und zukünftigen Benutzer die Berechtigung, einzelne Arbeitsbereiche erneut dieser Kapazität zuzuweisen. |
@@ -180,19 +190,19 @@ Sie können einer Premium-Kapazität auch einen App-Arbeitsbereich über die Ein
 Um einen Arbeitsbereich in eine Kapazität zu verschieben, müssen Sie über Administratorberechtigungen für diesen Arbeitsbereich verfügen sowie über Berechtigungen zu Kapazitätszuweisung für diese Kapazität. Beachten Sie, dass Arbeitsbereichsadministratoren einen Arbeitsbereich jederzeit aus einer Premium-Kapazität entfernen können.
 
 1. Sie können einen App-Arbeitsbereich bearbeiten, indem Sie auf die **Auslassungspunkte (...)** und dann auf **Edit workspace** (Arbeitsbereich bearbeiten) klicken.
-   
+
     ![Bearbeiten des Arbeitsbereichs über das Kontextmenü mit den Auslassungspunkten](media/service-admin-premium-manage/edit-app-workspace.png)
 2. Erweitern Sie unter **Edit workspace** (Arbeitsbereich bearbeiten) **Erweitert**.
 3. Wenn Ihnen die Berechtigung zur Kapazitätszuweisung für eine Kapazität erteilt wurde, haben Sie die Option, **Premium** für diesen Arbeitsbereich zu aktivieren.
 4. Wählen Sie die Kapazität aus, die Sie diesem App-Arbeitsbereich zuweisen möchten.
-   
+
     ![Dropdownliste für die Kapazitätsauswahl](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. Wählen Sie **Speichern**.
 
 Sobald Sie die Änderungen speichern, wird der Arbeitsbereich mitsamt seinen Inhalten in die Premium-Kapazität verschoben, ohne dass die Benutzererfahrung der Endbenutzer beeinträchtigt wird.
 
 ## <a name="what-premium-looks-like-for-users"></a>So sieht Premium für Benutzer aus
-Meistens ist es nicht vonnöten, dass Benutzern überhaupt bewusst ist, dass sie sich in einer Premium-Kapazität befinden. Die Dashboards und Berichte der Benutzer funktionieren einfach wie gewohnt. Arbeitsbereiche, die sich in einer Premium-Kapazität befinden, sind durch ein Diamantsymbol optisch markiert. 
+Meistens ist es nicht vonnöten, dass Benutzern überhaupt bewusst ist, dass sie sich in einer Premium-Kapazität befinden. Die Dashboards und Berichte der Benutzer funktionieren einfach wie gewohnt. Arbeitsbereiche, die sich in einer Premium-Kapazität befinden, sind durch ein Diamantsymbol optisch markiert.
 
 ![Raute, die angibt, dass der Arbeitsbereich zu einer Premium-Kapazität gehört](media/service-admin-premium-manage/premium-workspace.png)
 
@@ -211,4 +221,3 @@ Weitere Informationen finden Sie unter [Install Power BI Report Server (Installa
 Geben Sie veröffentlichte Apps für Free-Benutzer frei, wenn Sie den Arbeitsbereich einer Premium-Kapazität zuweisen. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

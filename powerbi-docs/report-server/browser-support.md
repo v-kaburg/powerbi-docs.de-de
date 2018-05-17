@@ -1,15 +1,15 @@
 ---
-title: "Browserunterstützung für Power BI-Berichtsserver"
-description: "Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden."
+title: Browserunterstützung für Power BI-Berichtsserver
+description: Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserunterstützung für Power BI-Berichtsserver
 Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden.
@@ -120,7 +120,7 @@ Verwenden Sie einen Browser mit aktivierter Skriptunterstützung. Wenn der Brows
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 

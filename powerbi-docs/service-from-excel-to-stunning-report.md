@@ -1,15 +1,15 @@
 ---
-title: 'Tutorial: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht'
-description: 'Tutorial: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht'
+title: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
+description: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 Ihre Vorgesetzte möchte bis zum Ende des Arbeitstages von Ihnen einen Bericht über die aktuellen Verkaufszahlen in Verbindung mit den Eindrücken der letzten Kampagne angefertigt bekommen. Die neuesten Daten befinden sich jedoch in verschiedenen Systemen von Drittanbietern und in Dateien auf Ihrem Laptop. Bisher hat es Stunden gedauert, Visualisierungen zu erstellen und einen Bericht zu formatieren. Sie werden langsam unruhig.

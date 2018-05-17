@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 04d622bd6cc2c4d0cc00b02bbd538e721bebf133
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
 Sie können eine Liveverbindung mit einem gemeinsam genutzten Dataset im Power BI-Dienst herstellen und auf Grundlage des gleichen Datasets viele verschiedene Berichte erstellen. Sie können also in Power BI Desktop ein optimal auf Ihre Anforderungen abgestimmtes Datenmodell erstellen und für den Power BI-Dienst veröffentlichen. Dadurch können Sie und andere Benutzer dann zahlreiche verschiedene Berichte (in separaten PBIX-Dateien) erstellen, die auf diesem gemeinsamen Datenmodell basieren. Das Feature heißt **Liveverbindung mit Power BI-Dienst**.

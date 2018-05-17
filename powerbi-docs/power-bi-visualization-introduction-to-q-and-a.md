@@ -1,6 +1,6 @@
 ---
-title: 'Schnellstart: Erste Schritte mit Power BI Q&A'
-description: 'Schnellstart: Erste Schritte mit Q&A im Power BI-Dienst mit dem Analysebeispiel für den Einzelhandel'
+title: Erste Schritte mit Power BI – Q&A
+description: Erste Schritte mit Q&A im Power BI-Dienst mit dem Analysebeispiel für den Einzelhandel
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Erste Schritte mit Power BI Q&A (Schnellstart)
+# <a name="get-started-with-power-bi-qa"></a>Erste Schritte mit Power BI – Q&A
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Verwenden von Power BI Q&A mit dem Analysebeispiel für den Einzelhandel
 Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen.  In diesem Schnellstart lernen wir zwei verschiedenen Methoden zum Erstellen der gleichen Visualisierung kennen: in einem Bericht und mithilfe einer Frage mit Q&A. Wir verwenden den Power BI-Dienst, der Vorgang ist jedoch mit Power BI Desktop fast der gleiche.
 

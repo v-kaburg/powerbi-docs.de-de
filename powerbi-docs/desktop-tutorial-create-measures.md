@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 99b02d0225dec670b3f4600e2436e9094a97b91f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Erstellen eigener Measures in Power BI Desktop
 Sie können einige der leistungsstärksten Data Analysis-Lösungen in Power BI Desktop können mithilfe von Measures erstellen. Measures unterstützen uns, indem sie Berechnungen mit Ihren Daten durchführen, während Sie mit Ihren Berichten interagieren. Dieses Tutorial führt Sie durch die Grundlagen von Measures hin zum Erstellen eigener einfacher Measures in Power BI Desktop.
@@ -167,7 +167,7 @@ Sie möchten herausfinden, welche Produkte den höchsten Nettoumsatz pro verkauf
 
 1.  Erstellen Sie in der Tabelle „Sales“ ein neues Measure namens **Net Sales per Unit** (Nettoumsatz pro Einheit).
     
-2.  Beginnen Sie in der Bearbeitungsleiste mit der Eingabe von **Net Sales**. Die Vorschlagsliste zeigt an, was Sie hinzufügen können. Wählen Sie **[Net Sales]**aus.
+2.  Beginnen Sie in der Bearbeitungsleiste mit der Eingabe von **Net Sales**. Die Vorschlagsliste zeigt an, was Sie hinzufügen können. Wählen Sie **[Net Sales]** aus.
     
     ![Formel mit „Net Sales“](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     

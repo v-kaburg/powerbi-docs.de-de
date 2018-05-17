@@ -2,27 +2,27 @@
 title: Erste Schritte mit Power BI Desktop
 description: Erste Schritte mit Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 33908283e567cadc5ef8d4ffe2389ac8fef54b65
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -31,7 +31,7 @@ Gefallen Ihnen Videos besser als Text? Gerne können Sie sich auch unser [Video 
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
-Mit Power BI Desktop erstellen Sie eine Sammlung von Abfragen, Datenverbindungen und Berichten, die Sie ganz einfach für andere Personen freigeben können. Power BI Desktop setzt auf bewährten Microsoft-Technologien (leistungsfähiges Abfragemodul, Datenmodellierung und Visualisierungen) auf und arbeitet online nahtlos mit dem [**Power BI-Dienst**](https://app.powerbi.com/) zusammen.
+Mit Power BI Desktop erstellen Sie eine Sammlung von Abfragen, Datenverbindungen und Berichten, die Sie ganz einfach für andere Personen freigeben können. Power BI Desktop setzt auf bewährten Microsoft-Technologien (leistungsfähige Abfrage-Engine, Datenmodellierung und Visualisierungen) auf und arbeitet online nahtlos mit dem [**Power BI-Dienst**](https://app.powerbi.com/) zusammen.
 
 Dank der Kombination von **Power BI Desktop** (hier erstellen Analysten und andere Personen leistungsfähige Datenverbindungen, Modelle und Berichte) mit dem [**Power BI-Dienst**](https://preview.powerbi.com/) (hier werden Berichte aus Power BI Desktop freigegeben, damit Benutzer diese anzeigen und bearbeiten können) lassen sich neue Erkenntnisse aus der Welt der Daten leichter modellieren, erstellen, freigeben und ergänzen.
 

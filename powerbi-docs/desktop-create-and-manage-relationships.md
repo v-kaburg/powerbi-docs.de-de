@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: d6c624b80bb1ea30dc62026032b5b4f5dd1ef745
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Erstellen und Verwalten von Beziehungen in Power BI Desktop
 Wenn Sie mehrere Tabellen importieren, werden Sie mit großer Wahrscheinlichkeit einige Analysen mit Daten aus allen diesen Tabellen durchführen. Beziehungen zwischen diesen Tabellen sind erforderlich, um die Ergebnisse genau zu berechnen und die richtigen Informationen in Ihren Berichten anzuzeigen. Mit Power BI Desktop können diese Beziehungen ganz leicht erstellt werden. Tatsächlich müssen Sie in den meisten Fällen keine weiteren Schritte unternehmen, da die AutoErmittlungsfunktion dies für Sie übernimmt. In einigen Fällen müssen Sie die Beziehungen jedoch möglicherweise selbst erstellen oder Änderungen an einer Beziehung vornehmen. In beiden Fällen ist es wichtig zu verstehen, wie Beziehungen in Power BI funktionieren und wie sie erstellt und bearbeitet werden.
@@ -65,7 +65,7 @@ Weitere Informationen über den geeigneten Zeitpunkt zum Ändern der Kardinalit�
 
 Weitere Informationen zum geeigneten Zeitpunkt zum Ändern der Kreuzfilterrichtung finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 
-## <a name="make-this-relationship-active"></a>Aktivieren dieser Beziehung
+## <a name="make-this-relationship-active"></a>Diese Beziehung aktivieren
 Wenn dieses Kontrollkästchen aktiviert ist, bedeutet dies, dass die Beziehung als aktive Standardbeziehung dient.  Wenn zwischen zwei Tabellen mehrere Beziehungen vorhanden sind, bietet die aktive Beziehung Power BI Desktop eine Möglichkeit, automatisch visuelle Elemente zu erstellen, die beide Tabellen einbeziehen.
 
 Weitere Informationen zum geeigneten Zeitpunkt zum Aktivieren einer bestimmten Beziehung finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
