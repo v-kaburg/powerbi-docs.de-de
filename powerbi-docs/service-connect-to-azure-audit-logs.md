@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 description: Azure-Überwachungsprotokolle für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 Mit dem Azure-Überwachungsprotokoll-Inhaltspaket können Sie die in den Überwachungsprotokollen gespeicherten Informationen analysieren und visualisieren. Power BI ruft Ihre Daten ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -67,8 +59,8 @@ Das Azure-Überwachungsprotokolle-Inhaltspaket erfordert Zugriff auf Überwachun
 ## <a name="finding-parameters"></a>Suchen von Parametern
 Es gibt zwei einfache Möglichkeiten, Ihre Abonnement-ID zu suchen.
 
-1. Über „https://portal.azure.com“ &gt; „Durchsuchen“ &gt; „Abonnements“ &gt; „Abonnement-ID“
-2. Über „https://manage.windowsazure.com“ &gt; „Einstellungen“ &gt; „Abonnement-ID“
+1. Über https://portal.azure.com -&gt; Durchsuchen &gt; Abonnements &gt; Abonnement-ID
+2. Über https://manage.windowsazure.com -&gt; Einstellungen &gt; Abonnement-ID
 
 Ihre Abonnement-ID besteht aus einer langen Abfolge von Zahlen und Zeichen, ähnlich wie in dem Beispiel in Schritt 4 oben. 
 

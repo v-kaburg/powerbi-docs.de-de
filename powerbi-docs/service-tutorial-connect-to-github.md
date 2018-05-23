@@ -1,30 +1,23 @@
 ---
-title: 'Tutorial: Herstellen einer Verbindung mit der GitHub-App mit Power BI'
+title: 'Tutorial: Herstellen einer Verbindung zu einem GitHub-Beispiel mit Power BI'
 description: In diesem Tutorial stellen Sie mit Power BI eine Verbindung mit realen Daten im GitHub-Dienst her. Anschließend erstellt Power BI automatisch Dashboards und Berichte.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Tutorial: Herstellen einer Verbindung mit der GitHub-App mit Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Herstellen einer Verbindung zu einem GitHub-Beispiel mit Power BI
 In diesem Tutorial stellen Sie mit Power BI eine Verbindung mit realen Daten im GitHub-Dienst her. Anschließend erstellt Power BI automatisch Dashboards und Berichte. Sie verbinden sich mit dem öffentlichen *Repository* mit Power BI-Inhalten und sehen dort Informationen, wie z.B. die Anzahl der Mitwirkenden an öffentlichen Power BI-Inhalten. Sie erfahren, wer sich am aktivsten beteiligt und am welchen Tag der Woche es die meisten Beiträge gab. Außerdem finden Sie Antworten auf weitere Fragen. 
 
 ![Der GitHub-Bericht in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
@@ -67,7 +60,7 @@ Für dieses Tutorial benötigen Sie ein GitHub-Konto, falls Sie noch keines habe
 
 6. Wählen Sie als **Authentifizierungsmethode** die Option **oAuth2** \> **Anmelden** aus.
 
-7. Befolgen Sie die Anweisungen auf den Bildschirmen der GitHub-Authentifizierung. Erteilen Sie den GitHub-Daten die Berechtigung für Power BI.
+7. Befolgen Sie die Anweisungen auf den Bildschirmen der Github-Authentifizierung. Erteilen Sie den GitHub-Daten die Berechtigung für Power BI.
    
    Jetzt kann Power BI eine Verbindung mit GitHub und den Daten herstellen.  Die Daten werden einmal täglich aktualisiert.
 
@@ -87,7 +80,7 @@ Für dieses Tutorial benötigen Sie ein GitHub-Konto, falls Sie noch keines habe
 
     
 
-## <a name="ask-a-question"></a>Stellen einer Frage
+## <a name="ask-a-question"></a>Frage stellen
 
 11. Platzieren Sie den Cursor in **Stellen Sie eine Frage zu Ihren Daten**, und wählen Sie dann **Pull Requests** aus. 
 

@@ -1,28 +1,20 @@
 ---
 title: Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Farbpalette verwenden und auf den gesamten Bericht in Power BI Desktop anwenden können.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -149,7 +141,7 @@ Die grundlegende JSON-Datei enthält fünf erforderliche Zeilen:
 
 * **name** – Der Name des Designs. Dieses ist das einzige Pflichtfeld.
 * **dataColors** – Eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visualisierungen. Die Liste kann beliebig viele oder wenige Farben umfassen.
-* **background**, **foreground** und **tableAccent** – Werte für diese Farbeinstellungen sollten bei den Visualisierungen **Tabelle** und **Matrix** vergeben werden. Wie diese Farben verwendet werden, hängt ab vom Format der Tabelle oder Matrix. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
+* **background**, **foreground** und **tableAccent**: Diese Werte stehen für Farben und sollten für unterschiedliche Visualtypen angewendet werden. **foreground** (Vordergrund) gilt für den Text des Textfelds, den KPI-Zieltext, den mehrzeiligen Text auf der Karte, den Text des Kartenwerts, den Legendentext des Messgeräts, den Text des vertikalen Datenschnittelements sowie für den Text der Gesamtzahl und der Werte von **table** und **matrix**. **background** (Hintergrund) gilt für die Füllung der Schaltfläche sowie den Hintergrund der Kombinationsdiagrammbezeichnung. Wie diese Farben verwendet werden, hängt ab vom Format des angewendeten Visuals. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
 
 Um eine JSON-Datei in einem erweiterten Format zu erstellen, die eine detailliertere und präzisere Steuerung der Formatierung ermöglicht, müssen Sie der JSON-Datei den **visualStyles**-Abschnitt hinzufügen und die Formatierungsangaben in diesem Abschnitt schachteln. Der **visualStyles**-Abschnitt hat das folgende Format:
 

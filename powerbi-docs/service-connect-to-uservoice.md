@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit UserVoice mithilfe von Power BI
 description: UserVoice für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Herstellen einer Verbindung mit UserVoice mithilfe von Power BI
 Das Nachverfolgen und Durchsuchen Ihrer UserVoice-Daten ist mit Power BI und dem UserVoice-Inhaltspaket problemlos möglich. Power BI ruft Ihre Daten ab, einschließlich der Tickets, Vorschläge und Zufriedenheitsbewertungen, und erstellt dann ohne Konfiguration ein Dashboard sowie Berichte auf der Grundlage dieser Daten.
@@ -42,7 +34,7 @@ Stellen Sie die Verbindung zum [UserVoice-Inhaltspaket](https://app.powerbi.com/
 3. Wählen Sie **UserVoice** und dann **Abrufen** aus.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Wenn Sie dazu aufgefordert werden, geben Sie Ihre UserVoice-URL ein. Die URL muss der Syntax https://fabrikam.uservoice.com exakt entsprechen, wobei „fabrikam“ durch den Namen Ihres Produkts oder Diensts ersetzt wird.
+4. Wenn Sie dazu aufgefordert werden, geben Sie Ihre UserVoice-URL ein. Die URL muss dem folgenden Muster https://fabrikam.uservoice.com exakt entsprechen, wobei "fabrikam" durch den Namen Ihres Produkts oder Diensts ersetzt wird.
    
    >[!NOTE]
    >Am Ende der URL darf sich kein nachgestellter Schrägstrich befinden, und die Verbindung erfolgt per http**s**.
@@ -70,7 +62,7 @@ Stellen Sie die Verbindung zum [UserVoice-Inhaltspaket](https://app.powerbi.com/
 
 Wenn dieser Fehler nach dem Eingeben der UserVoice-URL angezeigt wird, stellen Sie sicher, dass die folgenden Bedingungen erfüllt sind:
 
-* Die URL folgt genau diesem Muster: "https://fabrikam.uservoice.com", wobei "fabrikam" durch Ihr korrektes UserVoice-URL-Präfix ersetzt wurde.
+* Die URL folgt genau diesem Muster: https://fabrikam.uservoice.com, wobei „fabrikam“ durch Ihr korrektes UserVoice-URL-Präfix ersetzt wird.
 * Achten Sie darauf, nur Kleinbuchstaben zu verwenden.
 * Vergewissern Sie sich, dass es sich bei der URL um „http**s**“ handelt.
 * Achten Sie darauf, dass am Ende der URL kein nachgestellter Schrägstrich vorkommt.

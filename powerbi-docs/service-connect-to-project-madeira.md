@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 description: Project Madeira für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 Einblicke in Ihre Project „Madeira“-Daten sind jetzt problemlos mit Power BI und dem Project „Madeira“-Inhaltspaket möglich. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -40,7 +32,7 @@ Stellen Sie eine Verbindung mit dem [Project „Madeira“ Analytics-Inhaltspake
     ![](media/service-connect-to-project-madeira/services.png)
 3. Wählen Sie **Project „Madeira“** und dann **Abrufen** aus.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Geben Sie Ihre Project „Madeira“-URL ein, wenn Sie aufgefordert werden. Die URL muss genau das folgende Muster aufweisen: „https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')“ mit Ihrem Project „Madeira“-Firmennamen. Beachten Sie, dass am Ende kein Schrägstrich verwendet werden darf und dass die Verbindung per HTTPS erfolgen muss. Einzelheiten zum Ermitteln dieser URL finden Sie [weiter unten](#FindingParams).  
+4. Geben Sie Ihre Project „Madeira“-URL ein, wenn Sie aufgefordert werden. Die URL muss genau das folgende Muster aufweisen: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') mit Ihrem Project „Madeira“-Firmennamen. Beachten Sie, dass am Ende kein Schrägstrich verwendet werden darf und dass die Verbindung per HTTPS erfolgen muss. Einzelheiten zum Ermitteln dieser URL finden Sie [weiter unten](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Wenn Sie aufgefordert werden, wählen Sie die Standardauthentifizierungsmethode aus und geben Ihre E-Mail-Adresse für Project „Madeira“ als Benutzernamen und die Webdienst-Zugriffsschlüssel für Ihr Project „Madeira“-Konto als Kennwort ein. Wenn Sie in Ihrem Browser bereits bei Project „Madeira“ angemeldet sind, werden Sie möglicherweise nicht zur Eingabe von Anmeldeinformationen aufgefordert. Einzelheiten zum Erstellen dieses Zugriffsschlüssels finden Sie [weiter unten](#FindingParams).  

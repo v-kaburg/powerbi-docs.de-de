@@ -1,28 +1,20 @@
 ---
 title: Bewährte Methoden für die Power BI-Leistung
 description: Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.
-services: powerbi
-documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -74,7 +66,7 @@ Im folgenden Abschnitt werden allgemeine bewährte Methoden für die Herstellung
 - Vermeiden Sie Beziehungen bei berechneten Spalten und Spalten mit eindeutigen Bezeichnern. 
 - Legen Sie versuchsweise „Referenzielle Integrität voraussetzen“ bei Beziehungen fest. In vielen Fällen kann hiermit die Abfrageleistung erheblich verbessert werden.  
 
-### <a name="general"></a>Allgemein 
+### <a name="general"></a>General 
 - Wenden Sie zuerst Filter an. 
 - Überlegen Sie, ob Sie Interaktionen zwischen Visuals deaktivieren. So wird die Abfrageauslastung bei Kreuzhervorhebung durch die Benutzer reduziert. 
 - Schränken Sie die Anzahl der Visuals und die Daten für jedes Visual ein, wie oben beschrieben. 
@@ -96,8 +88,14 @@ Beachten Sie, dass dieser Abfragecache bei DirectQuery und Liveverbindungen in r
 ## <a name="understand-custom-visual-performance"></a>Ermitteln der Leistung von benutzerdefinierten Visuals 
 Achten Sie darauf, jedes benutzerdefinierte Visual zu analysieren, um eine hohe Leistung sicherzustellen. Schlecht optimierte benutzerdefinierte Visual können sich negativ auf die Leistung des gesamten Berichts auswirken. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Detaillierte Analyse der Abfrageleistung mit SQL Profiler und Power BI Desktop 
-Wenn Sie genauer ermitteln möchten, welche Visuals die meiste Zeit und Ressourcen in Anspruch nehmen, können Sie SQL Profiler mit Power BI Desktop verbinden und eine detaillierte Ansicht der Abfrageleistung abrufen. Anweisungen: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Detaillierte Analyse der Abfrageleistung mit SQL Profiler und Power BI Desktop
+
+Wenn Sie genauer ermitteln möchten, welche Visuals die meiste Zeit und Ressourcen in Anspruch nehmen, können Sie SQL Profiler mit Power BI Desktop verbinden und eine detaillierte Ansicht der Abfrageleistung abrufen.
+
+> [!NOTE]
+> Power BI Desktop unterstützt die Verbindung mit einem Diagnoseport. Der Diagnoseport erlaubt anderen Tools, eine Verbindung herzustellen und Überwachungen zu Diagnosezwecken durchzuführen. *Das Durchführen von Änderungen am Modell wird nicht unterstützt! Änderungen am Modell können zu Datenbeschädigung und Datenverlust führen.*
+
+Anweisungen:
   
 1. **Installieren von SQL Server Profiler und Ausführen von Power BI Desktop** 
 

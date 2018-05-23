@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Zuora mithilfe von Power BI
 description: Zuora für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Herstellen einer Verbindung mit Zuora mithilfe von Power BI
 Mit Zuora für Power BI können Sie wichtige Umsatzerlös-, Abrechnungs- und Abonnementdaten visuell darstellen. Verwenden Sie die standardmäßigen Dashboards und Berichte, um Nutzungstrends zu analysieren, Abrechnungen und Zahlungen nachzuverfolgen und wiederkehrende Umsatzerlöse zu überwachen, oder passen Sie sie an Ihre eigenen Anforderungen an Dashboards und Berichte an.
@@ -39,7 +31,7 @@ Stellen Sie eine Verbindung mit [Zuora](https://app.powerbi.com/getdata/services
 3. Wählen Sie **Zuora** \> **Abrufen** aus.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Geben Sie Ihre Zuora-URL an. Diese ist in der Regel „https://www.zuora.com“. Nachstehend finden Sie weitere Informationen zum [Suchen dieser Parameter](#FindingParams).
+4. Geben Sie Ihre Zuora-URL an. Diese lautet in der Regel „https://www.zuora.com“. Unten finden Sie Einzelheiten zum [Suchen dieser Parameter](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
 5. Wählen Sie als **Authentifizierungsmethode****Standard** aus, und geben Sie Ihren Benutzernamen und Ihr Kennwort ein (Groß- und Kleinschreibung müssen beachtet werden), und wählen Sie dann **Anmelden**aus.

@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit SQL Sentry mithilfe von Power BI
 description: SQL Sentry für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Herstellen einer Verbindung mit SQL Sentry mithilfe von Power BI
 Das Analysieren Ihrer mithilfe von SQL Sentry gesammelten Leistungsdaten ist mit Power BI ganz einfach. Power BI ruft Ihre Daten ab und erstellt auf Basis dieser Daten ein Standarddashboard und zugehörige Berichte.
@@ -30,7 +22,7 @@ Das Analysieren Ihrer mithilfe von SQL Sentry gesammelten Leistungsdaten ist mit
 Stellen Sie eine Verbindung zum [SQL Sentry-Inhaltspaket](https://app.powerbi.com/groups/me/getdata/services/sql-sentry) für Power BI her.
 
 >[!NOTE]
->Für das Herstellen der Verbindung sind Zugriff auf ein SQL Sentry-Konto, das Sie für die Verbindung mit „http://cloud.sqlsentry.com“ verwenden, und die ID der zu überwachenden Datenbank erforderlich.  Hinweise, wie Sie die Datenbank-ID finden, sind unten aufgeführt.
+>Für das Herstellen der Verbindung ist Zugriff auf ein SQL Sentry-Konto erforderlich, das Sie verwenden, um sich mit http://cloud.sqlsentry.com und einer Datenbank-ID zu verbinden.  Hinweise, wie Sie die Datenbank-ID finden, sind unten aufgeführt.
 
 ## <a name="how-to-connect"></a>Herstellen der Verbindung
 1. Wählen Sie unten im linken Navigationsbereich **Daten abrufen** aus.
