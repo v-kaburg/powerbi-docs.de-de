@@ -1,36 +1,28 @@
 ---
 title: Erfassen von zusätzlichen Diagnoseinformationen
 description: Erfassen von zusätzlichen Diagnoseinformationen
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9aef989b4b61ce8c9d11fd4275d68c867791f644
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Erfassen von zusätzlichen Diagnoseinformationen
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Erfassen von zusätzlichen Diagnoseinformationen für Power BI
 Diese Anweisungen bieten zwei mögliche Optionen für die manuelle Erfassung von zusätzlichen Diagnoseinformationen aus dem Webclient von Power BI.  Nur eine dieser Optionen muss angewendet werden.
 
-## <a name="network-capture---edge--internet-explorer"></a>Netzwerkerfassung – Microsoft Edge & Internet Explorer
+## <a name="network-capture---edge--internet-explorer"></a>Netzwerkerfassung – Edge & Internet Explorer
 1. Rufen Sie [Power BI](https://app.powerbi.com) mit Microsoft Edge oder Internet Explorer auf.
-2. Öffnen Sie die Microsoft Edge-Entwicklertools, indem Sie F12 drücken.
+2. Öffnen Sie die Edge-Entwicklertools, indem Sie F12 drücken.
 3. Daraufhin wird das Fenster „Entwicklungstools“ aufgerufen: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)

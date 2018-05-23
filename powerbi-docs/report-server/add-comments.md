@@ -1,27 +1,19 @@
 ---
-title: "Hinzufügen von Kommentaren zu einem Bericht in einem Berichtsserver – Power BI-Berichtsserver"
-description: "Erfahren Sie, wie Sie einem Power BI-Bericht oder einem paginierten Bericht auf einem Power BI-Berichtsserver oder einem SQL Server Reporting Services-Berichtsserver Kommentare hinzufügen können."
-services: powerbi
-documentationcenter: 
+title: Hinzufügen von Kommentaren zu einem Bericht in einem Berichtsserver – Power BI-Berichtsserver
+description: Erfahren Sie, wie Sie einem Power BI-Bericht oder einem paginierten Bericht auf einem Power BI-Berichtsserver oder einem SQL Server Reporting Services-Berichtsserver Kommentare hinzufügen können.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 24848b978ae88ae890cbd5b6eea24146cd01e542
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Hinzufügen von Kommentaren zu einem Bericht in einem Berichtsserver
 Im Webportal eines Berichtsservers können Sie Berichten, einschließlich Power BI-Berichten, Kommentare hinzufügen. Die Kommentare verbleiben im Bericht, und jeder mit den entsprechenden Berechtigungen kann die Kommentare zum Bericht anzeigen. Weitere Informationen finden Sie weiter unten im Abschnitt [Berechtigungen](#permissions).

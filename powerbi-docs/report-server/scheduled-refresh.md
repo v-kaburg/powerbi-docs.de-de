@@ -1,27 +1,19 @@
 ---
 title: Geplante Aktualisierung von Power BI-Berichten in Power BI-Berichtsserver
-description: "Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar."
-services: powerbi
-documentationcenter: 
+description: Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 1c6020a84ccaa1827a347049b7959313cd09f173
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplante Aktualisierung von Power BI-Berichten in Power BI-Berichtsserver
 Durch die geplante Aktualisierung für Power BI-Berichte wird sichergestellt, dass die Daten für einen Bericht auf dem neuesten Stand bleiben.
@@ -39,7 +31,7 @@ Beim Verwenden der geplanten Aktualisierung für Ihre Power BI-Berichte werden v
 * Geplante Aufträge werden einer Warteschlange von Ereignissen und Benachrichtigungen in der Berichtsserver-Datenbank hinzugefügt. In einer Bereitstellung für horizontales Skalieren wird die Warteschlange für alle Berichtsserver in der Bereitstellung gemeinsam genutzt.
 * Die gesamte Berichtsverarbeitung, die infolge eines geplanten Ereignisses auftritt, wird als Hintergrundprozess ausgeführt.
 * Das Datenmodell wird in einer Analysis Services-Instanz geladen.
-* Für einige Datenquellen wird das Power Query-Mashupmodul verwendet, um eine Verbindung mit Datenquellen herzustellen und um die Daten zu transformieren. Die Verbindung mit anderen Datenquellen kann direkt aus einem Analysis Services-Dienst hergestellt werden, der die Datenmodelle für Power BI-Berichtsserver hostet.
+* Für einige Datenquellen wird das Power Query-Mashup-Engine verwendet, um eine Verbindung mit Datenquellen herzustellen und um die Daten zu transformieren. Die Verbindung mit anderen Datenquellen kann direkt aus einem Analysis Services-Dienst hergestellt werden, der die Datenmodelle für Power BI-Berichtsserver hostet.
 * Neue Daten werden in das Datenmodell in Analysis Services geladen.
 * Analysis Services verarbeitet die Daten und führt alle erforderlichen Berechnungen aus.
 

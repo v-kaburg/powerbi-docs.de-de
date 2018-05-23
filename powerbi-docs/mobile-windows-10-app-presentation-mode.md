@@ -1,27 +1,19 @@
 ---
-title: "Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI I"
-description: "Erfahren Sie, wie Sie Power BI-Berichte auf dem Surface Hub sowie Power BI-Dashboards, -Berichte und -Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen können."
-services: powerbi
-documentationcenter: 
+title: Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI I
+description: Erfahren Sie, wie Sie Power BI-Berichte auf dem Surface Hub sowie Power BI-Dashboards, -Berichte und -Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen können.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: cd4fa5d694b76a93ccb017ec17473e8f2775ed85
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Anzeigen von Berichten im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
 Sie können Berichte auf dem Surface Hub im Präsentationsmodus sowie Dashboards, Berichte und Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen. 

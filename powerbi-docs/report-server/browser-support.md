@@ -1,27 +1,19 @@
 ---
 title: Browserunterstützung für Power BI-Berichtsserver
 description: Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserunterstützung für Power BI-Berichtsserver
 Erfahren Sie mehr über die Browserversionen, die zum Verwalten und Anzeigen von Power BI-Berichtsserver und Berichts-Viewer-Steuerelementen unterstützt werden.
@@ -54,7 +46,7 @@ Es folgt die aktuelle Liste der vom Webportal unterstützten Browser.
 
 * Google Chrome (+)
   
-  **(+)**  Neueste veröffentliche Version
+  **(+) ** Neueste veröffentliche Version
 
 ## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>Browseranforderungen für das Berichts-Viewer-Steuerelement (2015)
 Es folgt die aktuelle Liste der vom Berichts-Viewer-Steuerelement unterstützten Browser. Der Berichts-Viewer unterstützt die Anzeige von Berichten über das Webportal.
@@ -72,7 +64,7 @@ Es folgt die aktuelle Liste der vom Berichts-Viewer-Steuerelement unterstützten
 
 * Apple Safari (+)
   
-  **(+)**  Neueste veröffentliche Version
+  **(+) ** Neueste veröffentliche Version
 
 ### <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 Browser unterstützen spezifische Authentifizierungsschemas, die vom Berichtsserver verarbeitet werden müssen, damit die Clientanforderung erfolgreich ist. In der folgenden Tabelle sind die Standardauthentifizierungstypen aufgeführt, die von den einzelnen Browsern unter einem Windows-Betriebssystem unterstützt werden.
@@ -85,7 +77,7 @@ Browser unterstützen spezifische Authentifizierungsschemas, die vom Berichtsser
 | **Mozilla Firefox**(+) |NTLM, Standard |NTLM |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Firefox. |
 | **Apple Safari**(+) |NTLM, Standard |Standard |Ja. Die Standardauthentifizierungseinstellungen funktionieren mit Safari. |
 
- **(+)**  Neueste veröffentliche Version
+ **(+) ** Neueste veröffentliche Version
 
 ### <a name="script-requirements-for-viewing-reports"></a>Skriptanforderungen zum Anzeigen von Berichten
 Um den Berichts-Viewer verwenden zu können, konfigurieren Sie Ihren Browser für das Ausführen von Skripts.
@@ -116,7 +108,7 @@ Verwenden Sie einen Browser mit aktivierter Skriptunterstützung. Wenn der Brows
 * Google Chrome (+)
 * Mozilla Firefox (+)
   
-  **(+)**  Neueste veröffentliche Version
+  **(+) ** Neueste veröffentliche Version
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Administratorhandbuch](admin-handbook-overview.md)  

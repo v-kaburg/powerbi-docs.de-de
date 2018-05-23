@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Azure Consumption Insights-Daten in Power BI Desktop (Beta)
 description: Einfaches Herstellen einer Verbindung mit Azure und Erhalten von Einblicken in Verbrauch und Verwendung mithilfe von Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -151,7 +143,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 
 | Spaltenname im ACI-Connector/Inhaltspaket | ACI-API-Spaltenname | EA-Spaltenname | Veraltet/aus Gründen der Abwärtskompatibilität vorhanden |
 | --- | --- | --- | --- |
-| AccountName |accountName |Kontoname |Nein |
+| AccountName |accountName |Account Name |Nein |
 | AccountId |accountId | |Ja |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |Nein |
 | AdditionalInfo |additionalInfo |AdditionalInfo |Nein |
@@ -161,23 +153,23 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nein |
 | Kostenstelle |costCenter |Kostenstelle |Nein |
-| Datum |date |Datum |Nein |
+| Date |date |Date |Nein |
 | Tag | |Tag |Nein |
-| DepartmentName |departmentName |Abteilungsname |Nein |
+| DepartmentName |departmentName |Department Name |Nein |
 | DepartmentID |departmentId | |Ja |
 | Instanzen-ID | | |Ja |
 | InstanceId |instanceId |Instanzen-ID |Nein |
 | Standort | | |Ja |
 | Kategorie für Messung |meterCategory |Kategorie für Messung |Nein |
 | Messungs-ID | | |Ja |
-| Messung |meterName |Messung |Nein |
+| Meter Name |meterName |Meter Name |Nein |
 | Messbereich |meterRegion |Messbereich |Nein |
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
 | Monat | |Monat |Nein |
-| Produkt |product |Produkt |Nein |
+| Product |product |Product |Nein |
 | ProductId |productId | |Ja |
-| Ressourcengruppe |resourceGroup |Ressourcengruppe |Nein |
+| Resource Group |resourceGroup |Resource Group |Nein |
 | Ressourcenspeicherort |resourceLocation |Ressourcenspeicherort |Nein |
 | ResourceGroupId | | |Ja |
 | ResourceLocationId |resourceLocationId | |Ja |
@@ -189,7 +181,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ServiceInfo2Id | | |Ja |
 | Dienstbezeichner speichern |storeServiceIdentifier |Dienstbezeichner speichern |Nein |
 | StoreServiceIdentifierId | | |Ja |
-| Abonnementname |subscriptionName |Abonnementname |Nein |
+| Subscription Name |subscriptionName |Subscription Name |Nein |
 | Tags |tags |Tags |Nein |
 | TagsId | | |Ja |
 | Maßeinheit |unitOfMeasure |Maßeinheit |Nein |

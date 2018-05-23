@@ -1,27 +1,19 @@
 ---
 title: Aktualisieren von Power BI-Berichtsserver
 description: Erfahren Sie, wie Power BI-Berichtsserver aktualisiert wird.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Aktualisieren von Power BI-Berichtsserver
 Erfahren Sie, wie Power BI-Berichtsserver aktualisiert wird.
@@ -37,7 +29,7 @@ Bevor Sie ein Upgrade für einen Berichtsserver ausführen, empfehlen wir, die f
 Bei der erstmaligen Konfiguration einer Berichtsserverinstallation sollten Sie eine Sicherungskopie der Verschlüsselungsschlüssel erstellen. Ebenso sollten Sie bei jeder Änderung der Dienstkontoidentität oder jeder Umbenennung des Computers eine Sicherungskopie der Schüssel erstellen. Weitere Informationen finden Sie unter [Sichern und Wiederherstellen der Reporting Services-Verschlüsselungsschlüssel](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
 
 ### <a name="backing-up-the-report-server-databases"></a>Sichern der Berichtsserver-Datenbanken
-Da es sich bei einem Berichtsserver um einen statusfreien Server handelt, sind alle Anwendungsdaten in den Datenbanken **reportserver** und **reportservertempdb** gespeichert, die auf einer Instanz eines SQL Server-Datenbankmoduls ausgeführt werden. Die Sicherung der Datenbanken **reportserver** und **reportservertempdb** kann mithilfe einer der unterstützten Methoden für das Sichern von SQL Server-Datenbanken erfolgen. Zu den für Berichtsserver-Datenbanken spezifischen Empfehlungen zählen die folgenden:
+Da es sich bei einem Berichtsserver um einen statusfreien Server handelt, sind alle Anwendungsdaten in den Datenbanken **reportserver** und **reportservertempdb** gespeichert, die auf einer Instanz einer SQL Server-Datenbank-Engine ausgeführt werden. Die Sicherung der Datenbanken **reportserver** und **reportservertempdb** kann mithilfe einer der unterstützten Methoden für das Sichern von SQL Server-Datenbanken erfolgen. Zu den für Berichtsserver-Datenbanken spezifischen Empfehlungen zählen die folgenden:
 
 * Verwenden Sie das vollständige Wiederherstellungsmodell zum Sichern der **reportserver**-Datenbank.
 * Verwenden Sie das einfache Wiederherstellungsmodell zum Sichern der **reportservertempdb**-Datenbank.
