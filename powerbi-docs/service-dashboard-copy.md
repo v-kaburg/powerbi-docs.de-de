@@ -1,29 +1,21 @@
 ---
 title: Erstellen einer Kopie eines Power BI-Dashboards
 description: 'Duplizieren eines Power BI-Dashboards '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 28dd9e7ca63964e5964e08cf720a26a5eff468c1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Erstellen einer Kopie eines Dashboards im Power BI-Dienst
 ![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)

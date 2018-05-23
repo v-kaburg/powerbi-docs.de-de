@@ -1,29 +1,21 @@
 ---
 title: Tipps und Tricks für Zuordnungen (einschließlich der Integration von Bing Maps)
 description: 'Tipps und Tricks für Power BI-Kartenvisualisierungen, Visuals, Standorte, Längen- und Breitengrad und deren Funktionsweise mit Bing Maps. '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 321ff4ec528ef9b72324758417e0f72d67258ac3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 

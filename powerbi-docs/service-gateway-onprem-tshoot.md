@@ -1,28 +1,20 @@
 ---
 title: Lokales Datengateway – Problembehandlung
 description: Dieser Artikel erläutert Wege, wie Sie Probleme behandeln können, die mit dem lokalen Datengateway auftreten. Er bietet eventuell Hilfestellungen für bekannte Probleme und nennt Tools, die Sie unterstützen.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
@@ -53,7 +45,7 @@ Der Fehler kann auch auf eine fehlerhafte Proxykonfiguration zurückzuführen se
 Informationen wurden vom Power BI-Dienst an das Gateway empfangen. Die Informationen wurden dem lokalen Windows-Dienst übergeben, aber nicht zurückgeliefert. Möglicherweise ist die Erstellung eines symmetrischen Schlüssels fehlgeschlagen. Die innere Ausnahme wird unter **Details anzeigen**angezeigt. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
 
 ### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-please-restart-the-gateway-and-try-again"></a>Fehler: Der Power BI-Dienst hat gemeldet, dass das lokale Gateway nicht erreichbar ist. Bitte starten Sie das Gateway neu, und versuchen Sie es erneut.
-Am Ende der Konfiguration wird Power BI-Dienst erneut aufgerufen, um das Gateway zu validieren. Der Power BI-Dienst hat dabei das Gateway nicht als *live*gemeldet. Das Neustarten des Windows-Diensts könnte bewirken, dass die Kommunikation anschließend erfolgreich ist. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
+Am Ende der Konfiguration wird Power BI-Dienst erneut aufgerufen, um das Gateway zu validieren. Der Power BI-Dienst hat dabei das Gateway nicht als *live* gemeldet. Das Neustarten des Windows-Diensts könnte bewirken, dass die Kommunikation anschließend erfolgreich ist. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Skriptfehler bei der Anmeldung bei Power BI
 Sie erhalten möglicherweise einen Skriptfehler, wenn Sie sich im Rahmen der Konfiguration des lokalen Datengateways bei Power BI anmelden. Das Problem sollte gelöst werden, wenn Sie das folgende Sicherheitsupdate installieren. Die Installation kann über Windows Update durchgeführt werden.
@@ -232,7 +224,7 @@ Es gibt drei allgemeine Gruppierungen dieser Leistungsindikatoren.
 | ADO.NET |Wird für alle DirectQuery-Verbindungen verwendet. |
 | ADOMD |Wird für Analysis Services 2014 und frühere Versionen verwendet. |
 | OLEDB |Wird von bestimmten Datenquellen verwendet. Dies schließt SAP HANA und Analysis Services 2016 und höher ein. |
-| Mashup |Umfasst alle importierten Datenquellen. Wenn Sie eine Aktualisierung planen oder eine Aktualisierung nach Bedarf ausführen, wird das Mashup-Modul durchlaufen. |
+| Mashup |Umfasst alle importierten Datenquellen. Wenn Sie eine Aktualisierung planen oder eine Aktualisierung nach Bedarf ausführen, wird das Mashup-Engine durchlaufen. |
 
 Im Folgenden finden Sie eine Liste der verfügbaren Leistungsindikatoren.
 
@@ -337,7 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 | --- | --- |
 | MGEQ |Über ADO.NET ausgeführte Abfragen. Hierzu gehören DirectQuery-Datenquellen. |
 | MGEO |Über OLEDB ausgeführte Abfragen. Dies schließt SAP HANA und Analysis Services 2016 ein. |
-| MGEM |Über das Mashup-Modul ausgeführte Abfragen. Dies wird mit importierten Datasets verwendet, die geplante Aktualisierungen oder Aktualisierungen bei Bedarf verwenden. |
+| MGEM |Über das Mashup-Engine ausgeführte Abfragen. Dies wird mit importierten Datasets verwendet, die geplante Aktualisierungen oder Aktualisierungen bei Bedarf verwenden. |
 
 ### <a name="determine-the-duration-of-a-query"></a>Bestimmen der Dauer einer Abfrage
 Sie können wie folgt vorgehen, um zu bestimmen, wie lange die Abfrage der Datenquelle gedauert hat.
@@ -423,7 +415,7 @@ Die Fehlermeldung „-10709 Verbindungsfehler“ wird angezeigt, wenn Ihre Deleg
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>Aktualisieren des Verlaufs
+### <a name="refresh-history"></a>Verlauf aktualisieren
 Beim Verwenden des Gateways für die planmäßige Aktualisierung können Sie über die Option **Verlauf aktualisieren** erkennen, welche Fehler aufgetreten sind, und nützliche Daten für eine Supportanfrage abrufen. Sie können sowohl geplante Aktualisierungen als auch Aktualisierungen nach Bedarf anzeigen. Hier ist beschrieben, wie Sie zur Option **Verlauf aktualisieren**gelangen.
 
 1. Wählen Sie im Power BI-Navigationsbereich in **Datasets** für das Dataset &gt; Menü öffnen &gt;**Aktualisierung planen** aus.

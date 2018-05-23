@@ -1,28 +1,20 @@
 ---
 title: Hinzufügen einer benutzerdefinierten Spalte in Power BI Desktop
 description: Schnelles Erstellen einer neuen benutzerdefinierten Spalte in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 30f39cd2b79792e9d4d3c41a1d60a8ddce6802f6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Hinzufügen einer benutzerdefinierten Spalte in Power BI Desktop
 Mit dem **Abfrage-Editor** in **Power BI Desktop** können Sie dem Modell einfach eine neue benutzerdefinierte Datenspalte hinzufügen. Sie können mit einfachen Schaltflächen die benutzerdefinierte Spalte erstellen und umbenennen, um [M-Formeln](https://msdn.microsoft.com/library/mt270235.aspx) zum Definieren der benutzerdefinierten Spalte zu entwerfen. Die M-Formel weist einen [umfassenden Funktionsreferenz-Inhaltssatz](https://msdn.microsoft.com/library/mt779182.aspx) auf. 

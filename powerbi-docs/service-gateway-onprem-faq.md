@@ -1,28 +1,20 @@
 ---
 title: On-premises data gateway – Häufig gestellte Fragen
 description: Dies sind die häufig gestellten Fragen zum lokalen Datengateway. Hier werden häufig gestellte Fragen für das Gateway an einem Ort gesammelt.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 152a5ffe0c209be7251bd4dd4e94cf1769c10d79
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>On-premises data gateway – Häufig gestellte Fragen
 <!-- Shared FAQ shared Include -->
@@ -57,7 +49,7 @@ ms.lasthandoff: 04/08/2018
 **Frage:** Kann ich Informationen über die Verwendung und über Statistiken der Gateways in meiner Organisation erhalten?  
 **Antwort:** Nein. Das ist zwar geplant, jedoch können wir noch keinen Zeitrahmen nennen.
 
-## <a name="power-bi"></a>Power BI
+## <a name="power-bi"></a>Power BI.
 **Frage:** Muss ich das persönliche Gateway upgraden?
 **Antwort:** Nein, Sie können weiterhin das persönliche Gateway für Power BI verwenden.
 

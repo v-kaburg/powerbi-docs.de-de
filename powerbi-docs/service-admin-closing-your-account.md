@@ -1,28 +1,20 @@
 ---
 title: Schließen des Power BI-Kontos
 description: Schließen des Power BI-Kontos
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d74aed9f3d2f21459853781089b4c32bcdf51b2c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Schließen des Power BI-Kontos
 Wenn Sie Power BI nicht mehr verwenden möchten, bitten Sie uns, Ihr Power BI-Konto zu schließen.  Nachdem Ihr Konto geschlossen wurde, können Sie sich nicht mehr bei Power BI anmelden.  Außerdem werden alle von Ihnen in Power BI hochgeladenen oder erstellten Kundendaten gemäß der Datenaufbewahrungsrichtlinie in den Vertragsbedingungen für Power BI gelöscht.

@@ -1,28 +1,20 @@
 ---
 title: Erstellen eines QR-Codes für einen Bericht für die Verwendung in mobilen Power BI-Apps
 description: QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen in der mobilen Power BI-App verbinden – es ist keine Suche erforderlich.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Erstellen eines QR-Codes für einen Bericht in Power BI für die Verwendung in mobilen Apps
 QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen verbinden – es ist keine Navigation oder Suche erforderlich.

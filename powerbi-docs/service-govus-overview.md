@@ -1,28 +1,20 @@
 ---
 title: Power BI für Angehörige von US-Behörden – Übersicht
 description: USA Angehörige von US-Behörden finden hier Informationen über die Funktionen und Einschränkungen des Power-BI US Government-Diensts.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -104,7 +96,7 @@ Mit Power BI können Sie viele verschiedene Aufgaben ausführen. Weitere Informa
 
 * [Registrierung bei Power BI for US Government](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo zu Power BI US Government</a>
-* [Geführtes Lernen zu Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Geführtes Lernen zu Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Erste Schritte mit Power BI](service-get-started.md)
 * [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
 

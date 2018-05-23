@@ -1,28 +1,20 @@
 ---
 title: Optimieren eines Power BI-Visuals für eine beliebige Größe
 description: Hier erfahren Sie, wie Sie in bereits vorhandenen Berichten in Power BI Desktop und im Power BI-Dienst Visuals für Power BI-Smartphone-Apps optimieren können.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimieren eines Power BI-Visuals für eine beliebige Größe
 Wenn Sie einen neuen Bericht erstellen, sind die Visuals standardmäßig *dynamisch*, d.h., sie ändern sich auf dynamische Weise, um unabhängig von der Bildschirmgröße die maximale Anzahl von Daten und Informationen anzuzeigen. Die Größe von Visuals älterer Berichte können Sie ebenfalls dynamisch anpassen.

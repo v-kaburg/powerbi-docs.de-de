@@ -1,31 +1,23 @@
 ---
 title: Anzeigen der Daten, die zum Erstellen der Power BI-Visualisierung verwendet wurden
 description: In diesem Dokument wird erläutert, wie Sie die zum Erstellen eines Visuals in Power BI verwendeten Daten anzeigen und diese Daten in eine CSV-Datei exportieren.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Anzeigen der Daten, die zum Erstellen der Visualisierung verwendet wurden
-## <a name="show-data"></a>Anzeigen der Daten
+## <a name="show-data"></a>Daten anzeigen
 Eine Power BI-Visualisierung wird mithilfe von Daten aus Ihren Datasets erstellt. Sie haben in Power BI die Möglichkeit, die Daten *anzuzeigen*, die der Visualisierung zugrunde liegen. Wenn Sie **Daten anzeigen** auswählen, werden die Daten in Power BI unter (oder neben) der Visualisierung angezeigt.
 
 Sie können die Daten, mit denen die Visualisierung erstellt wurde, auch als XLSX- oder CSV-Datei exportieren und in Excel anzeigen. Weitere Informationen finden Sie unter [Exportieren von Daten aus Power BI-Visualisierungen](power-bi-visualization-export-data.md).

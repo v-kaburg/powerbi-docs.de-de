@@ -1,35 +1,27 @@
 ---
 title: Registrieren für Power BI als Einzelperson
 description: Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/02/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
 
 ![](media/service-self-service-signup-for-power-bi/dashboard-report.png "Power BI-Dashboard und -Bericht")
 
-Power BI kann Ihr persönliches Tool für Berichte und Visualisierungen sein und darüber hinaus als Modul für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
+Power BI kann Ihr persönliches Tool für Berichte und Visualisierungen sein und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
 
 Dieser Artikel führt Sie durch die Optionen, die es für das Registrieren und erste Schritte mit dem Power BI-Dienst gibt. Informationen zu den Unterschieden zwischen Power BI Free und Pro finden Sie unter [Power BI Free und Pro im Vergleich](service-free-vs-pro.md).
 

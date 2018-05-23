@@ -1,28 +1,20 @@
 ---
 title: Datenklassifizierung für Dashboards
 description: Erfahren Sie mehr über die Datenklassifizierung für Dashboards. Hier erfahren Sie auch, wie diese von einem Administrator eingerichtet werden sollte und wie Eigentümer des Dashboards die Klassifizierung ändern können.
-services: powerbi
-documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="dashboard-data-classification"></a>Datenklassifizierung für Dashboards
 Für jedes Dashboard bestehen andere Anforderungen. Je nach der Datenquelle, mit der Sie eine Verbindung herstellen, werden Sie wahrscheinlich feststellen, dass Sie und die Kollegen, für die Sie das Dashboard freigeben, abhängig von der Vertraulichkeit der Daten verschiedene Vorsichtsmaßnahmen treffen müssen. Einige Dashboards sollten niemals außerhalb Ihres Unternehmens freigegeben oder gedruckt werden, während andere ohne Bedenken freigegeben werden können. Mithilfe der Datenklassifizierung für Dashboards können Sie den Personen, von denen die Dashboards angezeigt werden, die Bestimmung der zu verwendenden Sicherheitsstufe erleichtern. Sie können die Dashboards mit Klassifizierungstags versehen, die von der IT-Abteilung Ihres Unternehmens definiert wurden, damit jede Person, die den Inhalt anzeigt, den gleichen Kenntnisstand hinsichtlich der Vertraulichkeit der Daten hat.

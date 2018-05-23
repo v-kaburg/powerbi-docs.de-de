@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Webtrends mithilfe von Power BI
 description: Webtrends für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Herstellen einer Verbindung mit Webtrends mithilfe von Power BI
 Das Webtrends-Inhaltspaket für Power BI enthält eine Vielzahl von Metriken, die ohne Konfiguration verfügbar sind, wie etwa die Anzahl der Seitenaufrufe und die Besuche nach Verkehrsquelle. Das Visualisieren Ihrer Webtrends-Daten in Power BI beginnt mit dem Herstellen der Verbindung mit Ihrem Webtrends-Konto. Sie können die bereitgestellten Dashboards und Berichte verwenden oder sie anpassen, um die für Sie wichtigsten Informationen hervorzuheben.  Die Daten werden automatisch einmal täglich aktualisiert.
@@ -102,7 +94,7 @@ Ihre Anmeldeinformationen sind die gleichen, die Sie für die Anmeldung bei Webt
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Problembehandlung
-Nachdem Sie Ihre Anmeldeinformationen angegeben haben, kann beim Laden des Inhaltspakets ein Problem auftreten. Wenn während des Ladens die Meldung „Entschuldigung“ angezeigt wird, überprüfen Sie die folgenden Vorschläge zur Problembehandlung. Wenn das Problem weiterhin besteht, erstellen Sie unter „https://support.powerbi.com“ ein Support-Ticket.
+Nachdem Sie Ihre Anmeldeinformationen angegeben haben, kann beim Laden des Inhaltspakets ein Problem auftreten. Wenn während des Ladens die Meldung „Entschuldigung“ angezeigt wird, überprüfen Sie die folgenden Vorschläge zur Problembehandlung. Wenn das Problem weiterhin besteht, erstellen Sie unter https://support.powerbi.com ein Support-Ticket.
 
 1. Die richtige Profil-ID wird verwendet (weitere Informationen finden Sie im Abschnitt [Suchen von Parametern](#FindingParams)).
 2. Der Benutzer hat Zugriff auf die im Abschnitt [„Inhalt“](#Included) aufgelisteten Berichte.

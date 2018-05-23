@@ -1,28 +1,20 @@
 ---
 title: Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 description: Herunterladen eines Berichts aus dem Power BI-Dienst in eine Power BI Desktop-Datei
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht in den Power BI-Dienst exportieren (dieser Vorgang wird auch als *Herunterladen* bezeichnet), indem Sie den Bericht speichern und **Veröffentlichen** auswählen. Es ist auch ein Export in die andere Richtung möglich, und Sie können einen Bericht aus dem Power BI-Dienst in die Desktopversion herunterladen. Die Erweiterung für in beide Richtungen exportierte Dateien lautet *.pbix*.
@@ -38,7 +30,7 @@ Gehen Sie zum Herunterladen der PBIX-Datei folgendermaßen vor:
 2. Wählen Sie auf der Menüleiste **Datei > Bericht herunterladen** aus.
    
    > [!NOTE]
-   > Der Bericht kann nur heruntergeladen werden, wenn er nach dem 23. November 2016 [mithilfe von Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) erstellt und nach diesem Zeitpunkt aktualisiert wurde. Andernfalls ist die Menüoption *Bericht herunterladen* im Power BI-Dienst abgeblendet.
+   > Der Bericht kann nur heruntergeladen werden, wenn er nach dem 23. November 2016 [mithilfe von Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) erstellt und nach diesem Zeitpunkt aktualisiert wurde. Andernfalls ist die Menüoption *Bericht herunterladen* im Power BI-Dienst abgeblendet.
    > 
    > 
 3. Der Status der PBIX-Dateierstellung wird in einem Statusbanner angezeigt. Wenn die PBIX-Datei bereit ist, werden Sie zum Öffnen oder Speichern der Datei aufgefordert. Der Name der Datei stimmt mit dem Titel des Berichts überein.

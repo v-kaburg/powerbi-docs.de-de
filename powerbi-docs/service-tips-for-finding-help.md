@@ -1,28 +1,20 @@
 ---
 title: 10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
-description: "Es gibt 10 Möglichkeiten, Hilfe zu erhalten, wenn Sie Fragen zur Funktionsweise von Power BI haben."
-services: powerbi
-documentationcenter: 
+description: Es gibt 10 Möglichkeiten, Hilfe zu erhalten, wenn Sie Fragen zur Funktionsweise von Power BI haben.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
 Ist es Ihnen auch schon einmal beim Arbeiten mit Power BI passiert, dass Sie im entscheidenden Moment keine Antwort auf ihre Frage zu Power BI finden, weil so etwas wie die „Soforthilfe“ fehlt? 
@@ -52,7 +44,7 @@ Passen Videos besser zu Ihrem Lernstil? Power BI bietet zwei Kategorien, die Sie
 ## <a name="6-attend-training"></a>6. Schulungen
 Es gibt nahezu unendlich viele Schulungsoptionen, von Einzeltraining bis hin zu kurzen Videos.
 
-* [Geführtes Lernen](guided-learning/gettingstarted.yml#step-1) auf der Power BI-Website.
+* [Geführtes Lernen](guided-learning/gettingstarted.yml?tutorial-step=1) auf der Power BI-Website.
 * [Kostenlose Power BI-Webinare](webinars.md), live und On-Demand auf der Power BI-Website.
 
 Online finden Sie weitere Angebote, u.a. folgende Ressourcen:

@@ -1,28 +1,20 @@
 ---
 title: Hochverfügbarkeitscluster für lokale Datengateways
 description: Sie können Cluster mit lokalen Datengateways erstellen, um die Hochverfügbarkeit für Ihr Unternehmen sicherzustellen.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ca925b45460f2b2e173e0a5e25b839e52eff309
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Hochverfügbarkeitscluster für lokale Datengateways
 Sie können **Hochverfügbarkeitscluster** mit Installationen von **lokalen Datengateways** erstellen, um den Zugriff Ihrer Organisation auf lokale Datenressourcen sicherzustellen, die in Power BI-Berichten und -Dashboards verwendet werden. Mit solchen Clustern können Gatewayadministratoren Gateways gruppieren und so Single Points of Failure beim Zugriff auf lokale Datenressourcen vermeiden. In diesem Artikel wird beschrieben, mit welchen Schritten Sie einen Hochverfügbarkeitscluster mit lokalen Datengateways erstellen und welche Best Practices Sie beim Einrichten beachten sollten. Für Gatewaycluster mit hoher Verfügbarkeit ist mindestens das Update von November 2017 auf dem lokalen Datengateway erforderlich.

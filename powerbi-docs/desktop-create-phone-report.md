@@ -1,28 +1,20 @@
 ---
-title: "Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind"
-description: "Erfahren Sie, wie Sie in Power BI Desktop Berichtsseiten für die Power BI-Smartphone-Apps optimieren."
-services: powerbi
-documentationcenter: 
+title: Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind
+description: Erfahren Sie, wie Sie in Power BI Desktop Berichtsseiten für die Power BI-Smartphone-Apps optimieren.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind
 Wenn Sie [in Power BI Desktop einen Bericht erstellen](desktop-report-view.md), können Sie seine Nutzung in den mobilen Apps auf Smartphones optimieren, indem Sie eine spezielle Version des Berichts für das Smartphone erstellen. Sie können den Bericht für das Smartphone anpassen, indem Sie visuelle Elemente neu anordnen, ihre Größe ändern und ggf. nicht alle visuellen Elemente in den Bericht aufnehmen, um eine optimale Benutzererfahrung zu erzielen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im Smartphonebericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.

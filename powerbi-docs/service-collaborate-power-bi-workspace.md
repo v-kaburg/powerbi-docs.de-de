@@ -1,28 +1,20 @@
 ---
 title: Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 description: Informieren Sie sich über die Zusammenarbeit an Power BI Desktop-Dateien in Ihrem App-Arbeitsbereich sowie über die Verwendung von Office 365-Diensten, z.B. über das Freigeben von Dateien in OneDrive for Business, Unterhaltungen in Exchange, im Kalender und in Aufgaben.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Dafür sind Arbeitsbereiche gedacht – für die Zusammenarbeit. Nachdem Sie die Zusammenarbeit mit den Kollegen an Dashboards und Berichten beendet haben, können Sie das Ergebnis als App packen und verteilen. Erfahren Sie mehr über das [Erstellen von Apps und App-App-Arbeitsbereichen in Power BI](service-create-distribute-apps.md). 

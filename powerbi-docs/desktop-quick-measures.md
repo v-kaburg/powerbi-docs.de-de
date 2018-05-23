@@ -1,28 +1,20 @@
 ---
 title: Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen in Power BI
 description: Schnellmeasures bieten vorgefertigte DAX-Formeln zur schnellen Durchführung gängiger Berechnungen.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: f8eb978aaacd345a29f2d9e2395fad419a651be0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen
 Mit **Quickmeasures** können Sie gängige und leistungsstarke Berechnungsfunktionen nutzen. Ein **Quickmeasure** führt für eine Eingabe, die Sie in einem Dialogfeld vornehmen, im Hintergrund eine Reihe von (vorgefertigten) DAX-Befehlen aus und liefert Ergebnisse, die Sie dann in Ihrem Bericht verwenden können. Und das Beste: Sie können sich ansehen, welche DAX-Befehle das Quickmeasure ausführt, und sich so besser mit DAX vertraut machen.

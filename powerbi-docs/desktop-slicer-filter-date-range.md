@@ -1,28 +1,20 @@
 ---
 title: Verwenden eines relativen Datenschnitts mit Datum oder relativen Datumsfilters in Power BI Desktop
 description: Hier erfahren Sie, wie Sie mit einem Datenschnitt oder Filter relative Datumsbereiche in Power BI Desktop einschränken.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26facbc0c634efb613ec0f01691a5ffe1be0fc5d
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 1d074cbd61373bf53e22ecc60c0c1389c0b94881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Verwenden eines relativen Datenschnitts mit Datum und relativen Datumsfilters in Power BI Desktop
 Mit dem **relativen Datenschnitt mit Datum** oder **relativem Datumsfilter** können Sie zeitbasierte Filter auf beliebige Datumsspalten in Ihrem Datenmodell anwenden. Ein Beispiel: Sie können mit dem **relativen Datenschnitt mit Datum** nur Daten zu Verkäufen anzeigen lassen, die innerhalb der letzten dreißig Tage (des letzten Monats, des Kalendermonats usw.) aufgetreten sind. Wenn Sie die Daten aktualisieren, wendet der relative Zeitraum automatisch die entsprechende relative Datumseinschränkung an.

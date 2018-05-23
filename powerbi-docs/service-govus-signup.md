@@ -1,28 +1,20 @@
 ---
 title: Registrieren bei Power BI für Angehörige von US-Behörden
 description: USA Hier finden Sie Informationen zur Registrierung einer US-Behörde für den Power-BI US Government-Dienst
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrieren einer US-Behörde für den Power BI-Dienst
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -130,7 +122,7 @@ Um die Benutzer in Ihrem Mandanten zu identifizieren, die die Free-Lizenz von Po
 Mit Power BI können Sie viele verschiedene Aufgaben ausführen. Weitere Informationen und Anweisungen sowie einen Artikel zur Registrierung für den Dienst finden Sie in den folgenden Ressourcen:
 
 * [Übersicht über Power BI for US Government](service-govus-overview.md)
-* [Geführtes Lernen zu Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Geführtes Lernen zu Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Erste Schritte mit Power BI](service-get-started.md)
 * [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
 

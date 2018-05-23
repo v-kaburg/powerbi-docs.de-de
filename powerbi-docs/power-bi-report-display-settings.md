@@ -1,29 +1,21 @@
 ---
-title: "Einstellungen für Seitenanzeige und Seitenansicht für Berichte"
-description: "Einstellungen für Seitenanzeige und Seitenansicht für Berichte"
-services: powerbi
-documentationcenter: 
+title: Einstellungen für Seitenanzeige und Seitenansicht für Berichte
+description: Einstellungen für Seitenanzeige und Seitenansicht für Berichte
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8d8fd5e3c983acc458647ae5efce67bafd4cd412
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Einstellungen für die Seitenanzeige in einem Power BI-Bericht
 Wir wissen, wie wichtig es ist, dass das Layout des Berichts perfekt ist. Das ist in manchen Fällen jedoch schwierig, da Sie und Ihre Kollegen die Berichte auf Bildschirmen mit unterschiedliche Seitenverhältnissen und Größen anzeigen. 
@@ -52,8 +44,8 @@ Die Einstellungen für die Seitenansicht stehen in der [Leseansicht und der Bear
 Mit der ersten Gruppe von Einstellungen für die *Seitenansicht* wird die Anzeige der Berichtsseite in Relation zum Browserfenster angepasst.  Sie können zwischen folgenden Einstellungen wählen:
 
 * **An Seite anpassen** (Standard): Inhalte werden für die beste Anpassung an die Seitengröße skaliert.
-* **An Breite anpassen:**Inhalte werden für die Anpassung an die Seitenbreite skaliert.
-* **Originalgröße:**Inhalte werden in voller Größe angezeigt.
+* **An Breite anpassen:** Inhalte werden für die Anpassung an die Seitenbreite skaliert.
+* **Originalgröße:** Inhalte werden in voller Größe angezeigt.
 
 Die zweite Gruppe von Einstellungen für die *Seitenansicht* steuert die Positionierung von Objekten im Zeichenbereich des Berichts.
 

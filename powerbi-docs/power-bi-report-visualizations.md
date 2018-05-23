@@ -1,29 +1,21 @@
 ---
-title: "Übersicht über Berichtsvisualisierungen im Power BI-Dienst und in Power BI Desktop"
-description: "Übersicht über Berichtsvisualisierungen (Visuals) in Microsoft Power BI"
-services: powerbi
-documentationcenter: 
+title: Übersicht über Berichtsvisualisierungen im Power BI-Dienst und in Power BI Desktop
+description: Übersicht über Berichtsvisualisierungen (Visuals) in Microsoft Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6846a58642dd65545016a7159f6bb461edaf373
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
 Visualisierungen (auch als Visuals bezeichnet) zeigen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](service-dashboard-pin-tile-from-report.md) sein. 

@@ -1,28 +1,20 @@
 ---
 title: Verwalten Ihrer Datenquelle – SQL
 description: So verwalten Sie das lokale Datengateway und die zu diesem Gateway gehörigen Datenquellen.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 563c0c65ab7c696449732ad01a0f20ca87383d15
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Verwalten Ihrer Datenquelle – SQL Server
 Nach der Installation des lokalen Datengateways können Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Datenquelle SQL Server für die geplante Aktualisierung oder für DirectQuery verwenden.
@@ -94,7 +86,7 @@ Sie können auf der Registerkarte „Administratoren“ für das Gateway Benutze
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings8.png)
 
-## <a name="manage-users"></a>Verwalten von Benutzern
+## <a name="manage-users"></a>Benutzer verwalten
 Sie können auf der Registerkarte „Benutzer“ für die Datenquelle Benutzer oder Sicherheitsgruppen hinzufügen und entfernen, die diese Datenquelle verwenden dürfen.
 
 > [!NOTE]

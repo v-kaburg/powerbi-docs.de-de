@@ -1,28 +1,20 @@
 ---
 title: Löschen eines Dashboards, eines Berichts, einer Arbeitsmappe, eines Datasets oder eines Arbeitsbereichs
 description: Erfahren Sie, wie Sie beliebige Elemente aus Power BI löschen können.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8da5ea98d7304169bc50cf8a5e94f8f1d5354666
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 5701176e362649d992fb6f9cd79e003abcf87bf5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Löschen beliebiger Elemente aus dem Power BI-Dienst
 In diesem Artikel wird erläutert, wie Sie ein Dashboard, einen Bericht, eine Arbeitsmappe, ein Dataset, eine App, eine Visualisierung oder einen Arbeitsbereich im Power BI-Dienst löschen.

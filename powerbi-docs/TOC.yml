@@ -8,7 +8,7 @@
       items:
         - name: Erkunden von Power BI
           href: service-the-new-power-bi-experience.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Herstellen einer Verbindung mit dem GitHub-Onlinedienst
           href: service-tutorial-connect-to-github.md
@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -416,8 +414,6 @@
                   href: refresh-csv-file-onedrive.md
                 - name: Problembehandlung bei Aktualisierungsszenarios
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Deaktivieren von Datenschutzeinstellungen
-                  href: refresh-enable-fast-combine.md
             - name: Problembehandlung
               items:
                 - name: Sie haben Ihr Kennwort für Power BI vergessen?
@@ -466,10 +462,22 @@
       items:
         - name: Verbinden mit Daten
           href: desktop-quickstart-connect-to-data.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Strukturieren und Kombinieren mehrerer Datenquellen
           href: desktop-shape-and-combine-data.md
+        - name: Importieren und Analysieren der Daten von einer Webseite mithilfe von Power BI Desktop
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Analysieren von Umsatzdaten aus Excel und einem OData-Feed'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Erstellen eigener Measures in Power BI Desktop
+          href: desktop-tutorial-create-measures.md
+        - name: Erstellen von berechneten Spalten in Power BI Desktop
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Facebook-Analysen mit Power BI Desktop
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Beispiele
       items:
         - name: Herunterladen der Arbeitsmappe mit dem Finanzbeispiel für Power BI
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Veröffentlichen aus Power BI Desktop
           href: desktop-upload-desktop-files.md
-        - name: Importieren und Analysieren der Daten von einer Webseite mithilfe von Power BI Desktop
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Analysieren von Umsatzdaten aus Excel und einem OData-Feed'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Erstellen eigener Measures in Power BI Desktop
-          href: desktop-tutorial-create-measures.md
-        - name: Erstellen von berechneten Spalten in Power BI Desktop
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Facebook-Analysen mit Power BI Desktop
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: "Benutzerdefinierte Visualisierungen in Power\_BI"
           href: power-bi-custom-visuals.md
         - name: Benutzerdefinierte Visuals für Organisationen in Power BI
@@ -792,7 +788,7 @@
       items:
         - name: Erkunden von Dashboards und Berichten
           href: mobile-apps-quickstart-view-dashboard-report.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Stellen von Fragen in mobilen iOS-Apps
           href: tutorial-mobile-apps-ios-qna.md
@@ -880,7 +876,7 @@
       items:
         - name: Welche Möglichkeiten bietet Power BI Entwicklern?
           href: developer/what-can-you-do.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Einbetten von Inhalten für Kunden
           href: developer/embed-sample-for-customers.md
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Vorgehensweise
       items:
-        - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Einbetten von Inhalten
           href: developer/embedding-content.md
         - name: Übertragen von Daten in ein Dashboard per Push
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: Integrieren von Inhalten in Ihre Anwendung (App ist Besitzer der Daten)
           href: developer/embed-sample-for-customers.md
+        - name: Integrieren von Inhalten in Ihre Anwendung für Sovereign Cloud (App ist Besitzer der Daten)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Erstellen benutzerdefinierter Visualisierungen
+          items:
+            - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Zertifizierung von benutzerdefinierten Visuals
+              href: power-bi-custom-visuals-certified.md
+            - name: Veröffentlichen von benutzerdefinierten Visuals in AppSource
+              href: developer/office-store.md
         - name: Einbetten
           items:
             - name: Einbetten mit Power BI
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Problembehandlung bei Embedded-Anwendungen
               href: developer/embedded-troubleshoot.md
-        - name: Erstellen benutzerdefinierter Visualisierungen
-          items:
-            - name: Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Zertifizierung von benutzerdefinierten Visuals
-              href: power-bi-custom-visuals-certified.md
         - name: Übertragen von Daten in ein Dashboard per Push
           items:
             - name: Registrieren einer App in Azure AD
@@ -976,7 +976,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Ressourcen
       items:
-        - name: JavaScript-Einbettungsdemo
+        - name: JavaScript Playground-Beispiel
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Beispiele
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
@@ -992,7 +992,7 @@
           href: report-server/get-started.md
         - name: Vergleichen von Power BI-Berichtsserver mit dem Dienst
           href: report-server/compare-report-server-service.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer
           href: report-server/tutorial-explore-report-server-web-portal.md
@@ -1096,7 +1096,7 @@
       items:
         - name: Was sind Power BI-Gateways?
           href: service-gateway-getting-started.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
         - name: Herstellen einer Verbindung mit SQL Server-Daten
           href: service-gateway-sql-tutorial.md
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Konfigurierung von Proxyeinstellungen
           href: service-gateway-proxy.md
-        - name: Ausführliche Informationen zum lokalen Datengateway
-          href: service-gateway-onprem-indepth.md
         - name: Hochverfügbarkeitscluster für lokale Datengateways
           href: service-gateway-high-availability-clusters.md
+        - name: Lokales Datengateway
+          href: service-gateway-onprem.md
+        - name: Ausführliche Informationen zum lokalen Datengateway
+          href: service-gateway-onprem-indepth.md
         - name: Lokales Datengateway (persönlicher Modus)
           href: service-gateway-personal-mode.md
         - name: Problembehandlung beim lokalen Datengateway
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Schließen des Power BI-Kontos
           href: service-admin-closing-your-account.md
+        - name: Power BI Pro in Ihrer Organisation
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI Free in Ihrer Organisation
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI und ExpressRoute

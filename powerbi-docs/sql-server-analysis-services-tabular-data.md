@@ -1,28 +1,20 @@
 ---
 title: SQL Server Analysis Services-Livedaten in Power BI
 description: SQL Server Analysis Services-Livedaten in Power BI. Dies erfolgt über eine Datenquelle, die für ein Enterprise-Gateway konfiguriert wurde.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d9124479b429c15857199b20cb6ffe980478c126
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 9baa22d6271e796581f898989698ac87d7609c4d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services-Livedaten in Power BI
 In Power BI gibt es zwei Möglichkeiten, die Verbindung mit einem SQL Server Analysis Services-Liveserver herzustellen. In **Daten abrufen** können Sie eine Verbindung mit einem SQL Server Analysis Services-Server oder aber mit einer [Power BI Desktop-Datei](service-desktop-files.md) bzw. einer [Excel-Arbeitsmappe](service-excel-workbook-files.md) herstellen, die bereits mit einem Analysis Services-Server verbunden ist.

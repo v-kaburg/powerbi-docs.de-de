@@ -1,28 +1,20 @@
 ---
 title: Datenquellen für Power BI
 description: Datenquellen für Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 70f1b5faa496c28dc39347831d4216db3ad07c59
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Datenquellen für den Power BI-Dienst
 Daten sind der Kern von Power BI. Wenn Sie Daten untersuchen, Diagramme und Dashboards erstellen oder über Q&A Fragen stellen, stammen die Daten, die all diesen Visualisierungen und Antworten zugrunde liegen, aus einem Dataset. Doch woher stammt das Dataset? Aus einer Datenquelle.
@@ -36,7 +28,7 @@ Sie können in Power BI Daten aus jeder dieser Datenquellen abrufen, indem Sie a
 ## <a name="files"></a>Dateien
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (XLSX, XLXM) � Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
+**Excel** (XLSX, XLXM) Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
 
 **Power BI Desktop** (PBIX) – Sie können mithilfe von Power BI Desktop Daten aus externen Datenquellen abfragen und laden, das Datenmodell mit Measures und Beziehungen erweitern und Berichte erstellen. Sie können die Power BI Desktop-Datei in die Power BI-Website importieren. Power BI Desktop eignet sich am besten für fortgeschrittene Benutzer, die über gute Kenntnisse zu Datenquellen, zur Datenabfrage und -transformation und zu Konzepten der Datenmodellierung verfügen. Weitere Informationen finden Sie unter [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md).
 
@@ -71,7 +63,7 @@ Die Daten einiger Datenquellen liegen bereits in einem Format vor, das für den 
 
 In anderen Fällen müssen Sie möglicherweise die gewünschten Daten abfragen und in eine Datei laden. Angenommen, in einer Data Warehouse-Datenbank auf einem Server in Ihrer Organisation befinden sich z.B. Logistikdaten. Sie können im Power BI-Dienst keine direkte Verbindung mit der Datenbank herstellen und mit der Untersuchung ihrer Daten beginnen (es sei denn, es handelt sich um eine Datenbank für tabellarische Modelle). Sie können jedoch mit Power BI Desktop oder Excel die Logistikdaten abfragen und in ein Datenmodell laden, das Sie dann als Datei speichern. Anschließend können Sie diese Datei nach Power BI importieren, wo ein Dataset erstellt wird.
 
-Ihr Einwand lautet wahrscheinlich: �Die Logistikdaten in der Datenbank ändern sich aber täglich. Wie kann ich sicherstellen, dass mein Dataset in Power BI aktualisiert wurde?“ – Die Verbindungsinformationen aus der Power BI Desktop- oder Excel-Datei werden zusammen mit den Daten in das Dataset importiert. Wenn Sie eine geplante Aktualisierung einrichten oder das Dataset manuell aktualisieren, verwendet Power BI die Verbindungsinformationen aus dem Dataset zusammen mit einigen anderen Einstellungen, um eine direkte Verbindung mit der Datenbank herzustellen, Aktualisierungen abzufragen und diese in das Dataset zu laden. Wahrscheinlich ist Power BI Gateway erforderlich, um die Datenübertragung zwischen dem lokalen Server und Power BI zu sichern. Alle Visualisierungen in Berichten und Dashboards werden automatisch aktualisiert.
+Ihr Einwand lautet wahrscheinlich: Die Logistikdaten in der Datenbank ändern sich aber täglich. Wie kann ich sicherstellen, dass mein Dataset in Power BI aktualisiert wurde?“ – Die Verbindungsinformationen aus der Power BI Desktop- oder Excel-Datei werden zusammen mit den Daten in das Dataset importiert. Wenn Sie eine geplante Aktualisierung einrichten oder das Dataset manuell aktualisieren, verwendet Power BI die Verbindungsinformationen aus dem Dataset zusammen mit einigen anderen Einstellungen, um eine direkte Verbindung mit der Datenbank herzustellen, Aktualisierungen abzufragen und diese in das Dataset zu laden. Wahrscheinlich ist Power BI Gateway erforderlich, um die Datenübertragung zwischen dem lokalen Server und Power BI zu sichern. Alle Visualisierungen in Berichten und Dashboards werden automatisch aktualisiert.
 
 Sie sehen also, dass Sie Daten auch in Power BI übertragen können, wenn keine direkte Verbindung vom Power BI-Dienst mit der Datenquelle hergestellt werden kann. Es sind lediglich einige zusätzliche Schritte und eventuell ein wenig Hilfe von der IT-Abteilung erforderlich. Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](desktop-data-sources.md).
 

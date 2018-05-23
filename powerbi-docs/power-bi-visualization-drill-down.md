@@ -1,29 +1,21 @@
 ---
 title: Drilldown in einer Visualisierung in Power BI
 description: Dieses Dokument veranschaulicht, wie Sie im Microsoft Power BI-Dienst und in Power BI Desktop einen Drilldown in eine Visualisierung durchführen können.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Drilldown in einer Visualisierung in Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Ein Drilldown setzt eine Hierarchie voraus
@@ -35,7 +27,7 @@ Sie sind nicht sicher, welche Power BI-Visualisierungen eine Hierarchie enthalte
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-Datumsangaben stellen einen eindeutigen Hierarchietyp dar. Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die Jahr, Quartal, Monat und Tag enthält. Weitere Informationen finden Sie unter [Visuelle Hierarchien und Drilldownverhalten](guided-learning/visualizations.yml#step-18), oder sehen Sie sich das Video unten an.
+Datumsangaben stellen einen eindeutigen Hierarchietyp dar. Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die Jahr, Quartal, Monat und Tag enthält. Weitere Informationen finden Sie unter [Visuelle Hierarchien und Drilldownverhalten](guided-learning/visualizations.yml?tutorial-step=18), oder sehen Sie sich das Video unten an.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -129,7 +121,7 @@ Beachten Sie, dass die Daten für Quartals- und Jahresberichte übereinstimmen. 
 |Modus „Erweitern“|Jahr|Quartal|Monat|Tag|
 | ---|:---:|:---:|:---:|---|
 |Einfach|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Alles|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Alle|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Hierarchische Kategoriedaten
@@ -147,10 +139,10 @@ Sie sollten sich auf der untersten Ebene der Hierarchie befinden, auf der die Er
 Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle werden die Ergebnisse von **Daten anzeigen** in einem Bericht angezeigt, der einen Drilldown für ein einzelnes Gebiet oder alle Gebiete durchführt. Wenn Sie einen Drilldown ausführen, können Sie sehen, wie ein einzelner Bericht genauer wird und dass der Bericht „alle Gebiete“ über mehr Daten verfügt.
 
 
-| Modus „Erweitern“|Gebiet|Stadt|PLZ|Name|
+| Modus „Erweitern“|Territory|Stadt|PLZ|Name|
 | ---|:---:|:---:|:---:|---|
 |Einfach|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Alles|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Alle|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen

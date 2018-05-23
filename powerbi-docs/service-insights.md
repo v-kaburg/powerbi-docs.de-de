@@ -1,29 +1,21 @@
 ---
 title: Automatisches Erstellen von Einblicken in Daten mit Power BI
 description: Hier erfahren Sie, wie Sie Einblicke in Ihre Datasets und Dashboardkacheln erhalten.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Automatisches Erstellen von Einblicken in Daten mit Power BI
 Sie besitzen ein neues Dataset und wissen nicht, womit Sie beginnen sollen?  Sie müssen schnell ein Dashboard erstellen?  Sie möchten nach Einblicken suchen, die Sie möglicherweise übersehen haben?
@@ -64,7 +56,7 @@ Jetzt sind sie dran. Erkunden Sie Einblicke anhand des [Analysebeispiels für di
     ![Zeichenbereich „Schnelle Einblicke“](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Interaktion mit Karten für Einblicke
-  ![Stecknadelsymbol](media/service-insights/pbi_hover.png)
+  ![Anheften-Symbol](media/service-insights/pbi_hover.png)
 
 1. Zeigen Sie auf eine Karte, und wählen Sie das Anheftsymbol aus, um die Visualisierung einem Dashboard hinzuzufügen.
 2. Halten Sie den Mauszeiger über eine Karte, wählen Sie die Auslassungspunkte (...) aus, und wählen Sie dann **Einblicke anzeigen** aus. Hiermit wird ein Einblick im Vollbildmodus geöffnet.

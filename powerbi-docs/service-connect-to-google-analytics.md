@@ -1,28 +1,20 @@
 ---
 title: Herstellen einer Verbindung mit Google Analytics mithilfe von Power BI
 description: Google Analytics für Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Google Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Google Analytics über Power BI beginnt mit dem Herstellen einer Verbindung mit Ihrem Google Analytics-Konto. Sie erhalten ein Power BI-Dashboard und eine Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern. Die Daten werden automatisch einmal täglich aktualisiert.

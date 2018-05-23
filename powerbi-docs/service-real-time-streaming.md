@@ -1,28 +1,20 @@
 ---
 title: Echtzeitstreaming in Power BI
 description: Streaming von Daten und visuellen Elementen in Echtzeit in Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ce42eceb478023b0ebbfd26e1762c63084ac84a6
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 15d8d4ff64b69143b30bd8e72264af3dcc42d53d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Echtzeitstreaming in Power BI
 Mit dem Power BI-Echtzeitstreaming können Sie in Echtzeit Daten streamen und Dashboards aktualisieren. Alle visuellen Elemente und Dashboards, die in Power BI erstellt werden können, können so erstellt werden, dass Echtzeitdaten und visuelle Echtzeitelemente angezeigt und aktualisiert werden. Die Geräte und Quellen von Streamingdaten können Factorysensoren, soziale Medien, Servicenutzungsmetriken sowie alle Elemente sein, über die zeitkritische Daten erfasst oder übertragen werden können.

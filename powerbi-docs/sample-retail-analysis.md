@@ -1,28 +1,20 @@
 ---
 title: 'Analysebeispiel für Einzelhandel für Power BI: Tour'
 description: 'Analysebeispiel für Einzelhandel für Power BI: Tour'
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: dda92ff8280295e6112cf2ab6a51f4606e5c474d
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: ff5da3623d572b8ecb3edc8c5eb40d866e6961d5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Tour
 
@@ -45,11 +37,11 @@ Dieses Branchenbeispieldashboard und der zugrunde liegende Bericht analysieren U
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wählen Sie das **Analysebeispiel für Einzelhandel** aus, und wählen Sie dann **Verbinden**.  
   
-   ![Analysebeispiel für den Einzelhandel](media/sample-retail-analysis/retail16.png)
+   ![Retail Analysis Sample](media/sample-retail-analysis/retail16.png)
    
 5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
    
-   ![Analysebeispiel für den Einzelhandel](media/sample-retail-analysis/retail17.png)
+   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
 
