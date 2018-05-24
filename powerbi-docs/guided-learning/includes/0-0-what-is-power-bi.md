@@ -11,7 +11,7 @@ Als **Anfänger** erhalten Sie in diesem Kurs einen umfassenden Einstieg in Powe
 
 ![](media/0-0-what-is-power-bi/c0a0_1.png)
 
-**Power BI** kann einfach und schnell sein – und Schnelleinblicke aus einem Excel-Arbeitsblatt oder einer lokalen Datenbank erstellen. Aber **Power BI** ist auch stabil und unternehmenstauglich und kann sofort zur umfassenden Modellierung, für Echtzeitanalysen und bei der benutzerdefinierten Entwicklung eingesetzt werden. Somit kann Power BI als persönliches Tool für Berichte und Visualisierungen genutzt werden und darüber hinaus als Modul für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
+**Power BI** kann einfach und schnell sein – und Schnelleinblicke aus einem Excel-Arbeitsblatt oder einer lokalen Datenbank erstellen. Aber **Power BI** ist auch stabil und unternehmenstauglich und kann sofort zur umfassenden Modellierung, für Echtzeitanalysen und bei der benutzerdefinierten Entwicklung eingesetzt werden. Somit kann Power BI als persönliches Tool für Berichte und Visualisierungen genutzt werden und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
 
 ## <a name="the-parts-of-power-bi"></a>Komponenten von Power BI
 Power BI besteht aus einer Windows-Desktopanwendung mit dem Namen **Power BI Desktop**, einem SaaS-Onlinedienst (*Software-as-a Service*), dem sogenannten **Power BI-Dienst**, und mobilen Power BI-**Apps**, die für Windows-Mobiltelefone und -Tablets sowie für iOS- und Android-Geräte zur Verfügung stehen.
