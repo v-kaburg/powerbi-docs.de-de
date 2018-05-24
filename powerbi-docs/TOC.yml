@@ -846,7 +846,9 @@
           items:
             - name: Erste Schritte mit der Android-App für Power BI
               href: mobile-android-app-get-started.md
-            - name: 'Fehlerbehebung, wenn das SSL-Zertifikat Ihres Unternehmens nicht vertrauenswürdig ist'
+            - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

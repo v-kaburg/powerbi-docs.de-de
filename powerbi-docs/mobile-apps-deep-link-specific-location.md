@@ -1,27 +1,19 @@
 ---
 title: Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 description: Erfahren Sie, wie Sie mit einem URI (Uniform Resource Identifier) einen Deep-Link zu einem bestimmten Dashboard, einer bestimmten Kachel oder einem bestimmten Bericht in der mobilen Power BI-App erstellen.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 Sie können einen URI (Uniform Resource Identifier) erstellen und als Link zu einer bestimmten Stelle (*Deep-Link*) in den mobilen Power BI-Apps auf allen Plattformen verwenden: iOS, Android und Windows 10.
@@ -47,7 +39,7 @@ https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270*
 
 Wenn sich das Dashboard in einer anderen Gruppe als „Mein Arbeitsbereich“ befindet, fügen Sie `&GroupObjectId=<36-character-group-id>` vor oder nach der Dashboard-ID hinzu. Beispiel: 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 Beachten Sie das kaufmännische Und-Zeichen (&) zwischen den beiden IDs.
 

@@ -1,28 +1,20 @@
 ---
-title: "Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket"
-description: "Wenn Sie das Xero-Inhaltspaket für Power BI verwenden, sind Sie möglicherweise auf ein Problem bei der täglichen Aktualisierung des Inhaltspakets festgestellt, das kürzlich durch eine Störung des Power BI-Diensts verursacht wurde."
-services: powerbi
-documentationcenter: 
+title: Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket
+description: Wenn Sie das Xero-Inhaltspaket für Power BI verwenden, sind Sie möglicherweise auf ein Problem bei der täglichen Aktualisierung des Inhaltspakets festgestellt, das kürzlich durch eine Störung des Power BI-Diensts verursacht wurde.
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2be07994ebd136fa3cd99cd3d64967618cde7258
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket nach einem Aktualisierungsfehler
 Wenn Sie das Xero-Inhaltspaket für Power BI verwenden, sind Sie möglicherweise auf Probleme bei der täglichen Aktualisierung des Inhaltspakets festgestellt, das kürzlich durch eine Störung des Power BI-Diensts verursacht wurde.
@@ -52,7 +44,7 @@ Wenn Sie sehen, dass die Aktualisierung wie oben gezeigt fehlgeschlagen ist, bef
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Wenn weiterhin Probleme beim Aktualisieren auftreten, nehmen Sie bitte unter [http://support.powerbi.com](http://support.powerbi.com) Kontakt mit uns auf. 
+Wenn weiterhin Probleme beim Aktualisieren auftreten, wenden Sie sich unter [http://support.powerbi.com](http://support.powerbi.com) an uns. 
 
 Weitere Informationen zum Xero-Inhaltspaket für Power BI finden Sie auf der [Hilfeseite für das Xero-Inhaltspaket](service-connect-to-xero.md).
 

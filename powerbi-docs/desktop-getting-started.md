@@ -1,28 +1,20 @@
 ---
 title: Erste Schritte mit Power BI Desktop
 description: Erste Schritte mit Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -336,6 +328,10 @@ Weitere Informationen zum Erstellen, Freigeben und Ändern von Dashboards finden
 
 Es gibt diverse anspruchsvolle Mashups und Visualisierungen, die Sie mit Power BI Desktop und dem Power BI-Dienst erstellen können. Weitere Informationen hierzu finden Sie im folgenden Abschnitt.
 
+## <a name="diagnostics"></a>Diagnose
+
+Power BI Desktop unterstützt die Verbindung mit einem Diagnoseport. Der Diagnoseport erlaubt anderen Tools, eine Verbindung herzustellen und Überwachungen zu Diagnosezwecken durchzuführen. *Das Durchführen von Änderungen am Modell wird nicht unterstützt! Änderungen am Modell können zu Datenbeschädigung und Datenverlust führen.*
+
 ## <a name="next-steps"></a>Nächste Schritte
 Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in folgenden Ressourcen:
 
@@ -344,4 +340,3 @@ Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informatione
 * [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Allgemeine Abfrageaufgaben in Power BI Desktop](desktop-common-query-tasks.md)   
-

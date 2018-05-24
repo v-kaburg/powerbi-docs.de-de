@@ -1,27 +1,19 @@
 ---
 title: Erste Schritte mit der mobilen Power BI-App auf einem iPhone
 description: Erfahren Sie, wie Sie Power BI mit der Microsoft Power BI-App für iOS auf dem iPhone mobil nutzen können und Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud erhalten.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Erste Schritte mit der mobilen Power BI-App auf einem iPhone oder iPod Touch
 Die iOS-App für Microsoft Power BI auf dem iPhone oder iPod Touch bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. Bleiben Sie auf dem neuesten Stand mit den aktuellsten Daten auf Ihrer [Apple Watch](mobile-apple-watch.md).  
@@ -46,7 +38,7 @@ Machen Sie sich [mit den Neuerungen bei den Power BI-Mobile Apps](mobile-whats-n
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Registrieren beim Power BI-Dienst
-Wechseln Sie zu Power BI (https://powerbi.com), um sich für den Dienst zu registrieren, falls Sie dies noch nicht getan haben. Kostenlos!
+Wechseln Sie zu Power BI (https://powerbi.com) für den Dienst, falls Sie dies noch nicht getan haben. Kostenlos!
 
 ## <a name="get-started-with-the-power-bi-app"></a>Erste Schritte mit der Power BI-App
 1. Öffnen Sie die Power BI-App auf dem iPhone.

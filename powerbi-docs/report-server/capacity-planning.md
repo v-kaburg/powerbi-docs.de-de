@@ -1,27 +1,19 @@
 ---
 title: Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 description: Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse von Auslastungstests mit verschiedenen Arbeitsauslastungen.
-services: powerbi
-documentationcenter: ''
 author: parthsha
 manager: kfile
-backup: maghan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.
@@ -47,17 +39,17 @@ Die verwendete Testtopologie basierte auf Microsoft Azure Virtual Machines statt
 ### <a name="power-bi-report-server-topology"></a>Topologie von Power BI-Berichtsserver
 Die Bereitstellung von Power BI-Berichtsserver umfasste die folgenden virtuellen Computer:
 
-* Active Directory-Domänencontroller: Dieser wurde vom SQL Server-Datenbankmodul, von SQL Server Analysis Services und von Power BI-Berichtsserver benötigt, um alle Anforderungen sicher zu authentifizieren.
-* SQL Server-Datenbankmodul und SQL Server Analysis Services: Dort wurden alle Datenbanken für die Berichte gespeichert, die beim Rendern der Berichte verwendet wurden.
+* Active Directory-Domänencontroller: Dieser wurde von der SQL Server-Datenbank-Engine, von SQL Server Analysis Services und von Power BI-Berichtsserver benötigt, um alle Anforderungen sicher zu authentifizieren.
+* SQL Server-Datenbank-Engine und SQL Server Analysis Services: Dort wurden alle Datenbanken für die Berichte gespeichert, die beim Rendern der Berichte verwendet wurden.
 * Power BI-Berichtsserver
-* Power BI-Berichtsserver-Datenbank. Die Berichtsserver-Datenbank wird auf einem anderen Computer als Power BI-Berichtsserver gehostet, damit es zu keinen Konflikten mit dem SQL Server-Datenbankmodul im Hinblick auf Arbeitsspeicher, CPU-, Netzwerk- und Datenträgerressourcen kommt.
+* Power BI-Berichtsserver-Datenbank. Die Berichtsserver-Datenbank wird auf einem anderen Computer als Power BI-Berichtsserver gehostet, damit es zu keinen Konflikten mit der SQL Server-Datenbank-Engine im Hinblick auf Arbeitsspeicher, CPU-, Netzwerk- und Datenträgerressourcen kommt.
 
 ![](media/capacity-planning/report-server-topology.png)
 
 In Anhang 1.1, „Topologie von Power BI-Berichtsserver“ und Anhang 1.2, „Konfiguration des virtuellen Power BI-Berichtsserver-Computers“ finden Sie genaue Informationen zur Konfiguration der einzelnen virtuellen Computer in der Topologie.
 
 ### <a name="tests"></a>Tests
-Die in den Auslastungstests verwendeten Tests sind in einem GitHub-Projekt mit dem Namen „Reporting Services LoadTest“ (in englischer Sprache) öffentlich verfügbar (siehe https://github.com/Microsoft/Reporting-Services-LoadTest). Mit diesem Tool können Benutzer die Eigenschaften von SQL Server Reporting Services und Power BI-Berichtsserver im Hinblick auf Leistung, Zuverlässigkeit, Skalierbarkeit und Wiederherstellbarkeit untersuchen. Dieses Projekt besteht aus vier Gruppen von Testfällen:
+Die in den Auslastungstests verwendeten Tests sind in einem GitHub-Projekt mit dem Namen „Reporting Services LoadTest“ (in englischer Sprache) öffentlich verfügbar (siehe https://github.com/Microsoft/Reporting-Services-LoadTest)). Mit diesem Tool können Benutzer die Eigenschaften von SQL Server Reporting Services und Power BI-Berichtsserver im Hinblick auf Leistung, Zuverlässigkeit, Skalierbarkeit und Wiederherstellbarkeit untersuchen. Dieses Projekt besteht aus vier Gruppen von Testfällen:
 
 * Tests, die das Rendern von Power BI-Berichten simulieren,
 * Tests, die das Rendern von mobilen Berichten simulieren,
@@ -121,17 +113,18 @@ Die in diesem Dokument beschriebenen Ergebnisse wurden aus dem Ausführen eines 
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie von Power BI-Berichtsserver**
 
-Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu den einzelnen VM-Größen finden Sie im Abschnitt „Allgemein“ unter https://azure.microsoft.com/de-de/pricing/details/virtual-machines/windows/.
+Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Typ des virtuellen Computers | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
 | **Active Directory-Domänencontroller** |2 Kerne |7 GB |Standard_DS2_v2 |
-| **SQL Server-Datenbankmodul und Analysis Services** |16 Kerne |56 GB |Standard_DS5_v2 |
+| 
+  **SQL Server-Datenbank-Engine und Analysis Services** |16 Kerne |56 GB |Standard_DS5_v2 |
 | **Berichtsserver-Datenbank** |16 Kerne |56 GB |Standard_DS5_v2 |
 
 **1.2 Konfiguration des virtuellen Power BI-Berichtsserver-Computers** 
 
-Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im Abschnitt „Allgemein“ unter https://azure.microsoft.com/de-de/pricing/details/virtual-machines/windows/.
+Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Virtueller Computer | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
@@ -141,11 +134,11 @@ Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden untersc
 ### <a name="2-run-the-loadtest-tool"></a>2 Ausführen des Tools LoadTest
 Wenn Sie das Tool LoadTest von Reporting Services für Ihre Power BI-Berichtsserver-Bereitstellung oder eine Microsoft Azure-Bereitstellung von Power BI-Berichtsserver ausführen möchten, führen Sie die folgenden Schritte aus.
 
-1. Klonen Sie das Projekt „Reporting Services LoadTest“ aus GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
+1. Klonen Sie das Reporting Services LoadTest-Projekt von GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
 2. Das Projektverzeichnis enthält eine Projektmappendatei mit dem Namen „RSLoadTests.sln“. Öffnen Sie diese Datei in Visual Studio 2015 oder höher.
 3. Bestimmen Sie, ob dieses Tool für Ihre Bereitstellung von Power BI-Berichtsserver oder für eine Bereitstellung von Power BI-Berichtsserver in Microsoft Azure ausgeführt werden soll. Wenn Sie es für Ihre eigene Bereitstellung ausführen möchten, fahren Sie mit Schritt 5 fort.
-4. Befolgen Sie die Anweisungen im Abschnitt https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure (in englischer Sprache), um eine Power BI-Berichtsserver-Umgebung in Azure zu erstellen.
-5. Wenn Sie die Bereitstellung der Umgebung abgeschlossen haben, befolgen Sie die Anweisungen in https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution (in englischer Sprache), um die Tests auszuführen.
+4. Befolgen Sie die Anweisungen unter https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure, um eine Power BI-Berichtsserver-Umgebung in Azure zu erstellen.
+5. Sobald Sie mit der Bereitstellung der Umgebung fertig sind, befolgen Sie die Anweisungen unter https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution, um die Tests auszuführen.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

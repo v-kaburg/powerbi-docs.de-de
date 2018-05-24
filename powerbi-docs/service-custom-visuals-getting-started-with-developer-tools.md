@@ -1,27 +1,19 @@
 ---
 title: Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 description: Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
@@ -87,7 +79,7 @@ Um ein benutzerdefiniertes visuelles Element zu erstellen, müssen Sie NodeJS in
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Einrichten des Serverzertifikats
 Für eine Livevorschau eines visuellen Elements benötigen Sie einen vertrauenswürdigen HTTSP-Server. Damit Sie beginnen können, müssen Sie ein SSL-Zertifikat installieren, durch das visuelle Objekte in Ihrem Webbrowser geladen werden können. 
@@ -97,9 +89,24 @@ Für eine Livevorschau eines visuellen Elements benötigen Sie einen vertrauensw
 > 
 > 
 
-Führen Sie zum *Hinzufügen* eines Zertifikats den folgenden Befehl aus.
+Führen Sie zum *Erstellen* eines Zertifikats den folgenden Befehl aus.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Es sollte eine Meldung angezeigt werden, die Sie über den Speicherortpfad zum Zertifikat sowie über eine neu generierte Passphrase informiert.
+> 
+> 
+
+
+Führen Sie zum *Installieren* des Zertifikats den folgenden Befehl aus.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Es sollte eine Meldung angezeigt werden, die Ihnen Ihre neu generierte Passphrase zur Installation eines PFX-Zertifikats mitteilt.
+> 
+> 
 
 **Windows**
 

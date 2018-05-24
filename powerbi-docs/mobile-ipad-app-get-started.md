@@ -1,27 +1,19 @@
 ---
 title: Erste Schritte mit der mobilen Power BI-App auf einem iPad
 description: Erfahren Sie, wie Sie Power BI mit der Microsoft Power BI-App für iOS auf dem iPad mobil nutzen können und Zugriff auf Unternehmensdaten auf lokalen Servern und in der Cloud erhalten.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Erste Schritte mit der mobilen Power BI-App auf einem iPad
 Die iOS-App für Microsoft Power BI auf dem iPad bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
