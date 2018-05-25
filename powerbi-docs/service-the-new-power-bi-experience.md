@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -125,6 +125,19 @@ Sie können die Inhalte auch nach Name oder Besitzer sortieren.
 ![Inhalte sortieren](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](service-navigation-search-filter-sort.md).
+
+## <a name="clean-up-resources"></a>Bereinigen von Ressourcen
+Sobald Sie diesen Schnellstart abgeschlossen haben, können Sie das Retail Analysis-Beispieldashboard, den dazugehörigen Bericht und das Dataset löschen.
+
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.    
+2. Wählen Sie im linken Navigationsbereich die Optionen **Arbeitsbereiche > Mein Arbeitsbereich** aus.  
+    Sehen Sie den gelben Stern, der anzeigt, dass es sich um einen Favoriten handelt?    
+3. Klicken Sie auf der Registerkarte **Dashboards** neben dem Retail Analysis-Dashboard auf das Mülleimersymbol zum **Löschen**.    
+
+    ![Dashboard löschen](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Wählen Sie die Registerkarte **Berichte**aus, und führen Sie die gleichen Schritte für den Retail Analysis-Bericht durch.
+1. Wählen Sie die Registerkarte **Datasets**aus, und führen Sie die gleichen Schritte für das Retail Analysis-Dataset durch.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

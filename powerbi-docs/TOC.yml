@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Abonnieren eines Berichts oder Dashboards
                   href: service-report-subscribe.md
+                - name: Viele Möglichkeiten zum Öffnen eines Berichts
+                  href: service-report-open.md
                 - name: Umbenennen von Inhalten in Power BI
                   href: service-rename.md
                 - name: Anzeigen von Dashboards und Berichten im Vollbildmodus (TV-Modus)
