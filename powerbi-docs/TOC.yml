@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: Browserunterstützung
           href: report-server/browser-support.md
-        - name: Berichtsserver für Administratoren
+        - name: Administratorübersicht
           href: report-server/admin-handbook-overview.md
         - name: Berichtsserver – Grundlagen
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: Konfigurieren der Kerberos-Authentifizierung zur Verwendung von Power BI-Berichten
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Konfigurieren des remoten Zugriffs auf mobile Apps
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Hosten von Excel-Arbeitsmappen
               href: report-server/excel-oos.md
     - name: Referenz
