@@ -1,29 +1,20 @@
 ---
 title: 'Tutorial: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer'
 description: In diesem Tutorial erstellen Sie einen virtuellen Computer, auf dem Power BI-Berichtsserver bereits installiert ist, und erkunden das Webportal.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813942"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445001"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Erkunden des Power BI-Berichtsserver-Webportals auf einem virtuellen Computer
 In diesem Tutorial erstellen Sie einen virtuellen Azure-Computer mit bereits installiertem Power BI-Berichtsserver, sodass Sie das Anzeigen, Bearbeiten und Verwalten von Power BI-Beispielberichten und paginierten Berichten sowie KPIs üben können.
@@ -58,6 +49,8 @@ Das Power BI-Team hat einen virtuellen Computer erstellt, auf dem Power BI-Beric
 5. Erstellen Sie einen Benutzername und ein Kennwort.
 
 6. Wählen Sie unter **Ressourcengruppe** die Option **Neu erstellen** aus, und geben Sie den Namen **reportserverresourcegroup** ein.
+
+    Wenn Sie mehrmals das Tutorial durchlaufen, müssen Sie der Ressourcengruppe nach dem ersten Mal einen anderen Namen geben. Sie können denselben Ressourcengruppennamen nicht zweimal in einem Abonnement verwenden. 
 
 7. Behalten Sie die anderen Standardwerte bei, und klicken Sie auf **OK**.
 
@@ -99,7 +92,7 @@ Wenn der virtuelle Computer geöffnet wird, werden auf dem Desktop folgende Elem
 
 ![Virtueller Computer mit Power BI-Berichtsserver nach dem Start](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Nummer  |Beschreibung  |
+|Zahl (Number)  |Beschreibung  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Startet SQL Server Data Tools zum Erstellen paginierter Berichte (RDL) |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI-Beispielberichte (PBIX)  |
@@ -111,7 +104,7 @@ Doppelklicken Sie auf das Symbol **Berichtsserver-Webportal**. Der Browser öffn
 
 ![Webportal von Power BI-Berichtsserver](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Nummer  |Beschreibung  |
+|Zahl (Number)  |Beschreibung  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Im Webportal erstellte KPIs |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Power BI-Berichte (PBIX)  |
@@ -165,6 +158,8 @@ Im Webportal können Sie Power BI-Berichte anzeigen und damit interagieren und P
      Der Bericht wird in Power BI Desktop geöffnet. Beachten Sie den Namen in der oberen Leiste: Power BI Desktop (März 2018). Das ist die für Power BI-Berichtsserver optimierte Version.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     Verwenden Sie die Version von Power BI Desktop, die auf der VM installiert ist. Sie können Berichte nicht domänenübergreifend hochladen.
 
 3. Erweitern Sie im Bereich „Felder“ die Tabelle „Customers“, und ziehen Sie das Feld „Occupation“ in den Filterbereich auf Berichtsebene.
 
@@ -252,7 +247,9 @@ Nachdem Sie dieses Tutorial beendet haben, löschen Sie die Ressourcengruppe, de
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-In diesem Tutorial haben Sie einen virtuellen Computer mit Power BI-Berichtsserver erstellt. Sie haben einige der Funktionen des Webportals ausprobiert und einen Power BI-Bericht sowie einen paginierten Bericht in den jeweiligen Editoren geöffnet. Um mehr über die Erstellung von Berichten für Power BI-Berichtsserver zu erfahren, fahren Sie mit den nächsten Schritten fort.
+In diesem Tutorial haben Sie einen virtuellen Computer mit Power BI-Berichtsserver erstellt. Sie haben einige der Funktionen des Webportals ausprobiert und einen Power BI-Bericht sowie einen paginierten Bericht in den jeweiligen Editoren geöffnet. Auf dieser VM sind SSAS-Datenquellen (SQL Server Analysis Services) installiert. Sie können also versuchen, Ihre eigenen Power BI-Berichte und paginierten Berichte mit den gleichen Datenquellen zu installieren. 
+
+Um mehr über die Erstellung von Berichten für Power BI-Berichtsserver zu erfahren, fahren Sie mit den nächsten Schritten fort.
 
 > [!div class="nextstepaction"]
 > [Erstellen eines Power BI-Berichts für Power BI-Berichtsserver](./quickstart-create-powerbi-report.md)
