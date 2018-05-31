@@ -1,27 +1,28 @@
 ---
 title: Favoriten in den mobilen Power BI-Apps
-description: "Hier erfahren Sie mehr über das Erstellen und Anzeigen Ihrer als Favoriten gespeicherten Power BI-Dashboards, -Berichte und -Apps sowie über Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs in den mobilen Apps."
+description: Hier erfahren Sie mehr über das Erstellen und Anzeigen Ihrer als Favoriten gespeicherten Power BI-Dashboards, -Berichte und -Apps sowie über Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs in den mobilen Apps.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812148"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Erstellen und Anzeigen von Favoriten in den mobilen Power BI-Apps
 Gilt für:
@@ -32,7 +33,7 @@ Gilt für:
 
 Hier erfahren Sie mehr über das Erstellen und Anzeigen Ihrer als Favoriten gespeicherten Power BI-Dashboards, -Berichte und -Apps sowie über Ihre favorisierten lokalen Power BI-Berichtsserver- und Reporting Services-KPIs und -Berichte in den mobilen Apps.
 
-Wenn Sie einen Favoriten in mobilen Power BI-Apps speichern, werden diese im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf allen Ihren Mobilgeräten auf der Favoritenseite angezeigt. 
+Wenn Sie einen Favoriten in mobilen Power BI-Apps speichern, werden diese im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf all Ihren Mobilgeräten auf der Favoritenseite angezeigt. 
 
 ![Favoriten in den mobilen Power BI-Apps](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
 
@@ -80,7 +81,7 @@ Sie können ein Dashboard oder einen Bericht in der Liste der Dashboards oder Be
     ![Stern „Android-Favoriten“](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Erstellen von Favoriten für Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs
-Sie können Ihre als Favoriten gespeicherten Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs in den mobilen Power BI-Apps zwar anzeigen, sie dort aber nicht als Favoriten ablegen. Sie [müssen sie im Webportal als Favoriten markieren](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+Sie können Ihre als Favoriten gespeicherten Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs in den mobilen Power BI-Apps zwar anzeigen, sie dort aber nicht als Favoriten ablegen. Sie [müssen sie im Webportal als Favoriten markieren](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Als Favoriten gespeicherte Dashboards im Power BI-Dienst](service-dashboard-favorite.md) 

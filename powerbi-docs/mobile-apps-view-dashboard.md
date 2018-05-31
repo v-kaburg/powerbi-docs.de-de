@@ -1,27 +1,20 @@
 ---
 title: Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
-description: "Erstellen Sie Dashboards und Berichte im Power BI-Dienst, oder stellen eine Verbindung mit diesen her. Zeigen Sie sie anschließend in den mobilen Power BI-Apps an."
-services: powerbi
-documentationcenter: 
+description: Erstellen Sie Dashboards und Berichte im Power BI-Dienst, oder stellen eine Verbindung mit diesen her. Zeigen Sie sie anschließend in den mobilen Power BI-Apps an.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295871"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:
@@ -32,13 +25,13 @@ Gilt für:
 
 Dashboards sind Portale für den Lebenszyklus und die Prozesse des Unternehmens. Ein Dashboard stellt eine Übersicht dar, eine zentrale Stelle, um den aktuellen Status des Unternehmens zu überwachen.
 
-## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Erstellen von Dashboards im Power BI-Dienst (https://powerbi.com)
+## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Erstellen von Dashboards im Power BI-Dienst (https://powerbi.com)
 **Sie erstellen keine Dashboards in den mobilen Apps.** 
 
 Wenn Sie Dashboards und Berichte auf Ihrem mobilen Gerät anzeigen möchten, müssen Sie diese in einem Webbrowser erstellen oder dort eine Verbindung mit diesen herstellen. 
 
 1. Rufen Sie den Power BI-Dienst auf ([https://www.powerbi.com](https://www.powerbi.com)), und [registrieren Sie sich für ein Konto](service-self-service-signup-for-power-bi.md).
-2. [Erstellen Sie Ihre eigenen Power BI-Dashboards und Berichte](service-get-started.md), oder stellen Sie eine Verbindung zu vorhandenen [Power BI-Apps](service-connect-to-services.md) her, um eine Vielzahl von Diensten zu nutzen, z.B. [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) und [Adobe Analytics](service-connect-to-adobe-analytics.md).
+2. [Erstellen Sie Ihre eigenen Power BI-Dashboards und Berichte](service-get-started.md), oder stellen Sie eine Verbindung mit vorhandenen [Power BI-Apps](service-connect-to-services.md) her, um eine Vielzahl von Diensten zu nutzen, z.B. [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) und [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Hier sehen Sie ein Power BI-Dashboard im Power BI-Dienst:
 
@@ -115,31 +108,21 @@ Mithilfe der Zusammendrückbewegung können Sie unterschiedliche Bereiche des Da
    
    ![Dashboard-Startseite](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Gelbe Sterne ![Favoriten-Stern](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) kennzeichnen die Dashboards, die Favoriten sind. 
+    Gelbe Sterne ![Favoriten-Stern](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) kennzeichnen die Dashboards, die Favoriten sind. 
 
-     -     Eine Bezeichnung unterhalb eines Dashboardnamens (in diesem Fall „MBI“) ![Datenklassifizierung](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) gibt an, wie die Daten im jeweiligen Dashboard klassifiziert sind. Erfahren Sie mehr über die [Klassifizierung von Daten in Power BI](service-data-classification.md).
-
+    Eine Bezeichnung unterhalb eines Dashboardnamens (in diesem Fall „MBI“) ![Datenklassifizierung](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) gibt an, wie die Daten im jeweiligen Dashboard klassifiziert sind. Erfahren Sie mehr über die [Klassifizierung von Daten in Power BI](service-data-classification.md).
 
     Power BI-Dashboards sehen auf Android-Mobiltelefonen etwas anders aus. Alle Kacheln werden in der gleichen Breite angezeigt und sind nacheinander von oben nach unten angeordnet.
 
     ![Dashboard in Hochformatansicht](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Drehen Sie Ihr Smartphone alternativ auf die Seite, um sie im Querformat auf Ihrem Smartphone anzuzeigen.
-
-    > [AZURE.TIP] Wenn Sie Besitzer des Dashboards sind, können Sie im Power BI-Dienst [eine Ansicht des Dashboards speziell für Smartphones](service-create-dashboard-mobile-phone-view.md) im Hochformat erstellen. 
+    Wenn Sie Besitzer des Dashboards sind, können Sie im Power BI-Dienst [eine Ansicht des Dashboards speziell für Smartphones](service-create-dashboard-mobile-phone-view.md) im Hochformat erstellen. 
 
 1. Tippen Sie auf dem Dashboard auf die vertikalen Auslassungspunkte (...) neben dem Namen, um einen Kollegen einzuladen, das Dashboard zu aktualisieren oder Informationen davon abzurufen:
    
    ![Menü unter Auslassungspunkten](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Streichen Sie nach oben oder unten, um alle [Kacheln im Dashboard](mobile-tiles-in-the-mobile-apps.md) anzuzeigen. 
 3. Gehen Sie zurück zur Dashboard-Startseite, tippen Sie auf den Namen des Dashboards, um die Breadcrumbspur zu öffnen, und tippen Sie dann auf **Mein Arbeitsbereich**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Anzeigen von Dashboards im Querformat auf dem Android-Smartphone
-Sie können Dashboards auch im Querformat anzeigen, indem Sie Ihr Telefon einfach drehen. Das Layout des Dashboards ändert sich von einer Reihe von Kacheln in eine Ansicht des gesamten Dashboards. Das Layout der Dashboardkacheln entspricht dem im Power BI-Dienst.
-
-![Dashboards im Querformat](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Mithilfe der Zusammendrückbewegung können Sie unterschiedliche Bereiche des Dashboards vergrößern und verkleinern und mit einer Schwenkbewegung navigieren. Sie können auch [auf eine Kachel tippen](mobile-tiles-in-the-mobile-apps.md), um die Kachel im Fokusmodus zu öffnen und mit Ihren Daten zu interagieren.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Anzeigen von Dashboards auf dem Android-Tablet
 1. Öffnen Sie die Power BI-App auf Ihrem Android-Tablet und melden Sie sich an.

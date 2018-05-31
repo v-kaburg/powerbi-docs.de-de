@@ -1,31 +1,24 @@
 ---
-title: Erste Schritte beim Formatieren von Power BI-Visualisierungen (Lernprogramm)
-description: 'Tutorial: Anpassen von Visualisierungstitel, Hintergrund und Legende'
-services: powerbi
-documentationcenter: 
+title: Erste Schritte beim Formatieren von Power BI-Visualisierungen
+description: Anpassen von Visualisierungstitel, Hintergrund und Legende
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297099"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen (Tutorial)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen
 In diesem Tutorial lernen Sie einige verschiedene Möglichkeiten zum Anpassen von Visualisierungen kennen.   Es gibt eine Vielzahl von Optionen zum Anpassen von Visualisierungen. Diese lernen Sie am besten im Formatierungsbereich kennen (wählen Sie das Farbrollersymbol aus).  Um Ihnen den Einstieg zu erleichtern, wird in diesem Artikel das Anpassen des Titels, der Legende und des Hintergrunds einer Visualisierung erläutert.  
 
 Nicht alle Visualisierungen können benutzerdefiniert angepasst werden. [Hier finden Sie eine vollständige Liste](#list).  
@@ -36,7 +29,7 @@ Sehen Sie sich an, wie Amanda Visualisierungen in ihrem Bericht anpasst (Schnell
 
 ### <a name="prerequisites"></a>Voraussetzungen
 - Power BI-Dienst oder Power BI Desktop
-- Analysebeispiel für den Einzelhandel
+- Retail Analysis sample
 
 ## <a name="customize-visualization-titles-in-reports"></a>Anpassen der Visualisierungstitel in Berichten
 Melden Sie sich beim Power BI-Dienst (app.powerbi.com) an, und [öffnen Sie das Analysebeispiel für den Einzelhandel](sample-datasets.md) in der [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).

@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813367"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Das Kombinationsdiagramm ist auch nicht aussagekräftig, wenn für das Säulendi
 
 Weitere Informationen:
 
-* [Tutorial: Kombinationsdiagramm in Power BI](power-bi-visualization-combo-chart.md)
+* [Kombinationsdiagramm in Power BI](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) (Die Gefahr von Achsen mit unterschiedlichem Maßstab in visuellen Elementen)
 
 ### <a name="scatter-chart"></a>Punktdiagramm
@@ -810,7 +811,7 @@ Mit KPIs werden der Wert, der Status, der Zielwert und die Abweichung vom Zielwe
 
 Weitere Informationen finden Sie unter:
 
-* [Lernprogramm: Diagramme für radiales Messgerät in Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [Radialmessgerät-Diagramme in Power BI](power-bi-visualization-radial-gauge-charts.md)
 * [KPIs in Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Fazit

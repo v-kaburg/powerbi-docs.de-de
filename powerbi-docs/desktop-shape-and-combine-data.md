@@ -1,33 +1,34 @@
 ---
-title: Strukturieren und Kombinieren von Daten in Power BI Desktop
-description: Strukturieren und Kombinieren von Daten in Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Strukturieren und Kombinieren von Daten aus mehreren Quellen
+description: In diesem Tutorial erfahren Sie, wie Sie Daten in Power BI Desktop strukturieren und kombinieren.
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288749"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Strukturieren und Kombinieren von Daten in Power BI Desktop
-Mit **Power BI Desktop** können Sie Verbindungen zu vielen unterschiedlichen Arten von Datenquellen herstellen und anschließend die Daten nach Ihren Anforderungen strukturieren. Das *Strukturieren* von Daten ist mit einem Transformieren der Daten gleichzusetzen. So müssen beispielsweise Spalten oder Tabellen umbenannt, Text in Zahlen umgewandelt, Zeilen entfernt oder die erste Zeile als Überschrift festgelegt werden. Als *Kombinieren* von Daten werden das Verbinden von mehreren Datenquellen, das auf die Anforderungen ausgerichtete Strukturieren der Daten und schließlich das Konsolidieren in eine praktische Abfrage bezeichnet.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Strukturieren und Kombinieren von Daten in Power BI Desktop
 
-In diesem Artikel wird veranschaulicht, wie Sie eine Abfrage mit Power BI Desktop strukturieren. Besonders hervorgehoben werden einige der dabei am häufigsten auszuführenden Aufgaben. Die hier verwendete Abfrage (und auch der gesamte Erstellungsvorgang) ist im Handbuch [Erste Schritte mit Power BI-Desktop](desktop-getting-started.md) ausführlicher beschrieben.
+Mit **Power BI Desktop** können Sie Verbindungen zu vielen unterschiedlichen Arten von Datenquellen herstellen und anschließend die Daten nach Ihren Anforderungen strukturieren. So können Sie visuelle Berichte erstellen und mit anderen Benutzern gemeinsam nutzen. Das *Strukturieren* von Daten ist mit einem Transformieren der Daten gleichzusetzen. So müssen beispielsweise Spalten oder Tabellen umbenannt, Text in Zahlen umgewandelt, Zeilen entfernt oder die erste Zeile als Überschrift festgelegt werden. Als *Kombinieren* von Daten werden das Verbinden von mehreren Datenquellen, das auf die Anforderungen ausgerichtete Strukturieren der Daten und schließlich das Konsolidieren in eine praktische Abfrage bezeichnet.
+
+In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
+
+* Strukturieren von Daten mit dem **Abfrage-Editor**
+* Herstellen einer Verbindung mit einer Datenquelle
+* Herstellen einer Verbindung mit einer anderen Datenquelle
+* Kombinieren dieser Datenquellen und Erstellen eines Datenmodells zur Verwendung in Berichten
+
+Dieses Tutorial veranschaulicht, wie Sie eine Abfrage mit Power BI Desktop strukturieren, und erläutert einige der dabei am häufigsten auszuführenden Aufgaben. Die hier verwendete Abfrage (und auch der gesamte Erstellungsvorgang) ist im Handbuch [Erste Schritte mit Power BI-Desktop](desktop-getting-started.md) ausführlicher beschrieben.
 
 Es ist wichtig zu wissen, dass im **Abfrage-Editor** von Power BI Desktop neben den im Menüband verfügbaren Optionen häufig Kontextmenüs (Rechtsklick) zum Einsatz kommen. Die meisten Optionen, die im Menüband **Transformieren** zur Auswahl stehen, können auch über Klicken auf ein Element (z. B. eine Spalte) mit der rechten Maustaste und Auswählen aus dem Kontextmenü aufgerufen werden.
 

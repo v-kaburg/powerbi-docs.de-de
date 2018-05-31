@@ -1,28 +1,21 @@
 ---
 title: Verwenden von berechneten Spalten in Power BI Desktop
 description: Berechnete Spalten in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290359"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Verwenden von berechneten Spalten in Power BI Desktop
 Mit berechneten Spalten können Sie einer bereits in Ihrem Modell vorhandenen Tabelle neue Daten hinzufügen. Aber statt Werte abzufragen und sie aus einer Datenquelle in Ihre neue Spalte zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Spalte" in der Berichtsansicht erstellt.
@@ -59,7 +52,7 @@ Und er kann es zusammen mit der Anzahl der Lieferungen zum Berichtszeichenbereic
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Weitere Informationen
-Dies ist nur eine kurze Einführung in berechnete Spalten. Lesen Sie unbedingt das Lernprogramm [Erstellen von berechneten Spalten in Power BI Desktop](desktop-tutorial-create-calculated-columns.md), für das Sie eine Beispieldatei herunterladen können und weitere schrittweise Lektionen zum Erstellen weiterer Spalten erhalten. 
+Dies ist nur eine kurze Einführung in berechnete Spalten. Lesen Sie unbedingt das [Tutorial: Erstellen von berechneten Spalten in Power BI Desktop](desktop-tutorial-create-calculated-columns.md), in dem Sie eine Beispieldatei herunterladen können und Schrittanleitungen zum Erstellen weiterer Spalten erhalten. 
 
 Weitere Informationen zu DAX finden Sie unter [DAX-Grundlagen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 

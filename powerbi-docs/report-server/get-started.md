@@ -1,89 +1,73 @@
 ---
-title: Erste Schritte mit Power BI-Berichtsserver
-description: 'Erfahren Sie, wie Power BI-Berichtsserver installiert wird. '
+title: Was ist der Power BI-Berichtsserver?
+description: Sie erhalten einen Überblick über den Power BI-Berichtsserver, um zu verstehen, wie der Berichtsserver mit SQL Server Reporting Services (SSRS) und dem Rest von Power BI harmoniert.
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840095"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Erste Schritte mit Power BI-Berichtsserver
-Mithilfe der zahlreichen sofort einsetzbaren Tools und Dienste von Power BI-Berichtsserver können Sie Power BI-, mobile und paginierte Berichte lokal erstellen, bereitstellen und verwalten.
+# <a name="what-is-power-bi-report-server"></a>Was ist der Power BI-Berichtsserver?
 
-## <a name="create-deploy-and-manage-reports"></a>Erstellen, Bereitstellen und Verwalten von Berichten
-Power BI-Berichtsserver ist eine Lösung, die Kunden lokal für das Erstellen, Veröffentlichen und Verwalten von Berichten bereitstellen. Diese Berichte werden anschließend auf verschiedene Weisen den gewünschten Benutzern zur Verfügung gestellt, z.B. in einem Webbrowser, auf einem Mobilgerät oder als E-Mail im Posteingang.
+Der Power BI-Berichtsserver ist ein lokaler Berichtsserver mit einem Webportal, in dem Sie Berichte und KPIs anzeigen und verwalten, zusammen mit den Tools zum Erstellen von Power BI-Berichten, paginierten Berichten, mobilen Berichten und KPIs. Ihre Benutzer können auf unterschiedliche Weise auf diese Berichte zugreifen: Anzeige in einem Webbrowser bzw. auf einem mobilen Gerät oder als E-Mail in ihrem Posteingang.
 
-Power BI-Berichtsserver bietet ein Paket von Produkten:
+![Webportal von Power BI-Berichtsserver](media/get-started/power-bi-report-server-overview.png)
 
-* Ein modernes Webportal, das Sie in einem beliebigen modernen Browser anzeigen können. Im Webportal können Sie Berichte und KPIs organisieren und anzeigen. Sie können im Portal auch Excel-Arbeitsmappen speichern.
-* Mit Power BI Desktop erstellte Power BI-Berichte, die Sie im Webportal in Ihrer Umgebung anzeigen können.
-* Paginierte Berichte, damit Sie mit den entsprechenden Tools modern aussehende Berichte erstellen können.
-* Mobile Berichte mit einem reaktionsfähigen Layout, das sich an verschiedene Geräte und die verschiedenen Möglichkeiten anpasst, diese zu halten.
+## <a name="comparing-power-bi-report-server"></a>Vergleichen im Power BI-Berichtsserver 
+Zwischen dem Power BI-Berichtsserver sowie SQL Server Reporting Services und Power BI-Onlinedienst gibt es Parallelen. Wie der Power BI-Dienst hostet der Power BI-Berichtsserver Power BI-Berichte (PBIX) und Excel-Dateien. Wie Reporting Services ist der Power BI-Berichtsserver lokal und hostet paginierte Berichte (RDL). Der Power BI-Berichtsserver ist eine Obermenge von Reporting Services: Alle Aufgaben, die Sie in Reporting Services durchführen können, und mehr können Sie mit dem Power BI-Berichtsserver durchführen, und darüber hinaus werden Power BI-Berichte unterstützt. Weitere Informationen finden Sie unter [Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst](compare-report-server-service.md).
 
-Mehr dazu erfahren Sie im weiteren Verlauf dieses Artikels.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
-Mithilfe dieser Quellen bleiben Sie hinsichtlich neuer Features in Power BI-Berichtsserver auf dem neuesten Stand.
-
-* [Neuerungen in Power BI-Berichtsserver](whats-new.md)
-* [Microsoft Power BI-Blog](https://powerbi.microsoft.com/blog/)
-* [Blog des SQL Server Reporting Services-Teams](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [YouTube-Kanal „Guy in a Cube“](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Lizenzieren des Power BI-Berichtsservers
+Der Power BI-Berichtsserver ist über zwei verschiedene Lizenzen verfügbar: [Power BI Premium](../service-premium.md) und [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) mit Software Assurance. Mit einer Power BI Premium-Lizenz können Sie eine hybride, gemischte Cloud/Lokal-Bereitstellung erstellen.  
 
 ## <a name="web-portal"></a>Webportal
-![](media/get-started/web-portal.png)
+Der Einstiegspunkt für den Power BI-Berichtsserver ist ein sicheres Webportal, das Sie in allen modernen Browsern anzeigen können. Hier können Sie auf alle Ihre Berichte und KPIs zugreifen. Der Inhalt des Webportals ist in einer herkömmlichen Ordnerhierarchie angeordnet. In Ihren Ordnern ist der Inhalt nach Typ gruppiert: Power BI-Berichte, mobile Berichte, paginierte Berichte, KPIs sowie Excel-Arbeitsmappen plus freigegebene Datasets und freigegebene Datenquellen, die als Bausteine für Ihre Berichte dienen. Sie können Favoriten markieren, um sie in einem einzelnen Ordner anzuzeigen. Und auch KPIs können Sie direkt im Webportal erstellen. 
 
-Für Endbenutzer von Power BI-Berichtsserver erfolgt der Zugriff über ein modernes Webportal, das Sie in modernen Browsern anzeigen können. Sie können im neuen Portal auf alle Berichte und KPIs zugreifen.
+![Webportal von Power BI-Berichtsserver](media/get-started/web-portal.png)
 
-Sie können Ihr benutzerdefiniertes [Branding](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) auf das Webportal anwenden. Und auch KPIs können Sie direkt im Webportal erstellen. KPIs dienen zum Erfassen wichtiger Geschäftsmetriken auf einen Blick im Browser, ohne einen Bericht öffnen zu müssen.
+Abhängig von Ihren Berechtigungen können Sie den Inhalt im Webportal verwalten. Sie können die Berichtsverarbeitung planen, bedarfsgesteuert auf Berichte zugreifen und veröffentlichte Berichte abonnieren. Sie können auch Ihr benutzerdefiniertes [Branding](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) auf das Webportal anwenden. 
 
-Der Inhalt des Webportals ist nach Typ organisiert: Power BI-Berichte, mobile Berichte, paginierte Berichte und KPIs sowie Excel-Arbeitsmappen, freigegebene Datasets und freigegebene Datenquellen, die als Bausteine für Ihre Berichte dienen. Sie können diese hier in der herkömmlichen Ordnerhierarchie sicher speichern und verwalten. Sie können Ihre Favoriten markieren und den Inhalt verwalten, sofern Sie über diese Rolle verfügen.
-
-Außerdem können Sie im neuen Webportal die Berichtsverarbeitung planen, auf Berichte bedarfsgesteuert zugreifen und veröffentlichte Berichte abonnieren.
-
-Weitere Informationen zum [Webportal](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Weitere Informationen zum [Webportal (einheitlicher SSRS-Modus)](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Power BI-Berichte
-![](media/get-started/powerbi-reports.png)
+Sie erstellen Power BI-Berichte (PBIX) mit der für den Berichtsserver optimierten Version von Power BI Desktop. Anschließend veröffentlichen Sie sie und zeigen sie im Webportal in Ihrer Umgebung an.
 
-Ein Power BI-Bericht stellt eine Ansicht eines Datasets aus verschiedenen Perspektiven dar, wobei die aus dem Dataset gewonnenen verschiedenen Ergebnisse und Einblicke als Visualisierungen angezeigt werden.  Ein Bericht kann eine einzelne Visualisierung, aber auch mehrere mit Visualisierungen gefüllte Seiten enthalten. Abhängig von Ihrem Aufgabengebiet erstellen Sie vielleicht Berichte, und/oder Sie nutzen oder verwenden Berichte.
+![Power BI-Berichte im Power BI-Berichtsserver](media/get-started/powerbi-reports.png)
 
-Berichte basieren auf einem einzelnen Dataset. Jede Visualisierung in einem Bericht stellt eine wertvolle Information dar. Und die Visualisierungen sind nicht statisch. Sie können Daten hinzufügen und entfernen, die Visualisierungstypen ändern sowie Filter und Slicer anwenden, wenn Sie die Daten detaillierter untersuchen, um Erkenntnisse zu gewinnen und Antworten zu finden. Ähnlich wie ein Dashboard – aber mit noch mehr Funktionen – ist ein Bericht ausgesprochen interaktiv und weitgehend anpassbar, und die Visualisierungen werden aktualisiert, wenn sich die zugrunde liegenden Daten ändern.
+Ein Power BI-Bericht stellt eine Ansicht eines Datenmodells aus verschiedenen Perspektiven dar, wobei die aus dem Datenmodell gewonnenen verschiedenen Ergebnisse und Erkenntnisse als Visualisierungen angezeigt werden.  Ein Bericht kann eine einzelne Visualisierung, aber auch mehrere mit Visualisierungen gefüllte Seiten enthalten. Je nach Ihrer Rolle können Sie Berichte lesen und durchsuchen oder sie für andere Benutzer erstellen.
+
+Installieren Sie den [optimierten Power BI Desktop für den Power BI-Berichtsserver](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Paginierte Berichte
-![](media/get-started/paginated-reports.png)
+Paginierte Berichte (RDL) sind Berichte im Dokumentstil mit Visualisierungen, in denen Tabellen horizontal und vertikal erweitert werden, um alle darin enthaltenen Daten anzuzeigen, nach Bedarf von Seite zu Seite. Dieses Format ist ideal zum Generieren zu druckender Dokumente mit festem Layout und perfektem Aussehen, wie z.B. PDF- und Word-Dateien.
 
-Paginierte Berichte haben ein Dokumentformat. Je mehr Daten Sie haben, desto mehr Zeilen enthalten die Tabellen und desto mehr Seiten enthält der Bericht. Dieses Format ist ideal zum Generieren zu druckender Dokumente mit festem Layout und perfektem Aussehen, wie z.B. PDF- und Word-Dateien.
+![Paginierte Berichte im Power BI-Berichtsserver](media/get-started/paginated-reports.png)
 
 Sie können mit dem [Berichts-Generator](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) oder Berichts-Designer in [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) modern aussehende Berichte erstellen.
 
+## <a name="reporting-services-mobile-reports"></a>Mobile Reporting Services-Berichte
+Mobile Berichte stellen eine Verbindung mit lokalen Daten her und haben ein dynamisches Layout, das sich an verschiedene Geräte und die verschiedenen Möglichkeiten anpasst, diese zu halten. Sie erstellen Sie mit dem Publisher für mobile Berichte von Microsoft SQL Server.
+
+Weitere Informationen zu [Mobile Reporting Services-Berichte](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+
 ## <a name="report-server-programming-features"></a>Berichtsserver-Programmierfeatures
-Nutzen Sie Programmierfeatures von Power BI-Berichtsserver zum Erweitern und Anpassen Ihrer Berichterstellungsfunktionen mithilfe von APIs für das Integrieren oder Erweitern der Daten- und Berichtsverarbeitung in benutzerdefinierten Anwendungen.
+Nutzen Sie Programmierfeatures des Power BI-Berichtsservers zum Erweitern und Anpassen Ihrer Berichterstellungsfunktionen mithilfe von APIs für das Integrieren oder Erweitern der Daten- und Berichtsverarbeitung in benutzerdefinierten Anwendungen.
 
 Weitere [Entwicklerdokumentation für Berichtsserver](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Benutzerhandbuch](user-handbook-overview.md)  
-[Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

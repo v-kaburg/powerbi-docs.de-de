@@ -1,29 +1,22 @@
 ---
-title: "Schnellstart: Erstellen eines paginierten Berichts für Power BI-Berichtsserver"
-description: "Erfahren Sie, wie Sie in wenigen einfachen Schritten einen paginierten Bericht für Power BI-Berichtsserver erstellen."
-services: powerbi
-documentationcenter: 
+title: Erstellen eines paginierten Berichts für Power BI-Berichtsserver
+description: Erfahren Sie, wie Sie in wenigen einfachen Schritten einen paginierten Bericht für Power BI-Berichtsserver erstellen.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294914"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Schnellstart: Erstellen eines paginierten Berichts für Power BI-Berichtsserver
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Erstellen eines paginierten Berichts für Power BI-Berichtsserver
 Wie der Name bereits vermuten lässt, können paginierte Berichte viele Seiten aufweisen. Sie verfügen über ein Layout in einem festen Format und ermöglichen eine präzise Anpassung. Bei paginierten Berichten handelt es sich um RDL-Dateien.
 
 Sie können paginierte Berichte im Webportal von Power BI-Berichtsserver ebenso wie im Webportal von SQL Server Reporting Services (SSRS) speichern und verwalten. Sie erstellen und bearbeiten sie im Berichts-Generator oder Berichts-Designer von SQL Server Data Tools (SSDT) und veröffentlichen sie dann in einem der Webportale. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.

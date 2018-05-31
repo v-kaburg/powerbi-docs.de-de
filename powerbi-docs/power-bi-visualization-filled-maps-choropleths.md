@@ -1,6 +1,6 @@
 ---
-title: Flächenkartogramme (Choroplethenkarten) in Power BI (Tutorial)
-description: Dokumentation – Lernprogramm zum Erstellen gefüllter Karten (Choroplethen) in Power BI
+title: Flächenkartogramme (Choroplethenkarten) in Power BI
+description: Dokumentation zum Erstellen von Flächenkartogrammen (Choroplethenkarten) in Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812309"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Flächenkartogramme (Choroplethenkarten) in Power BI (Tutorial)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Flächenkartogramme (Choroplethenkarten) in Power BI
 In einem Flächenkartogramm wird mithilfe von Schattierungen, Farben oder Mustern angezeigt, in welchem Verhältnis Werte innerhalb eines geografischen Gebiets stehen.  Diese relativen Unterschiede werden mithilfe von Schattierungen angezeigt, wobei hell eine geringe Menge/Häufigkeit und dunkel eine große Menge/Häufigkeit anzeigt.    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
@@ -52,7 +53,7 @@ Flächenkartogramme sind gut für folgende Zwecke geeignet:
 
 ### <a name="prerequisites"></a>Voraussetzungen
 - Power BI-Dienst oder Power BI Desktop
-- Beispiel für Vertrieb und Marketing
+- Sales and Marketing Sample
 
 Im Tutorial wird der Power BI-Dienst und nicht Power BI Desktop verwendet.
 
