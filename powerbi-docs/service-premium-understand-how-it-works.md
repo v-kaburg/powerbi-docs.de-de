@@ -2,19 +2,18 @@
 title: Nutzung und Optimierung des Power BI Premium-Kapazitätsspeichers
 description: Lernen Sie Verwaltung und Optimierung des Power BI Premium-Kapazitätsspeichers kennen.
 ms.date: 04/30/2018
-ms.topic: conceptual
+ms.topic: article
 ms.service: powerbi
-ms.component: powerbi-admin
 ms.author: susuresh
 ms.reviewer: susuresh
 author: suds001
 manager: kfile
-ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 4b849d1fa86ebe8c75f915e549326c80ff1e51ef
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298456"
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33916951"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Verwaltung und Optimierung der Power BI Premium-Kapazitätsressource
 
