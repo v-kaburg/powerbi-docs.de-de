@@ -1,40 +1,33 @@
 ---
-title: Abrufen von Power BI Desktop
+title: Power BI Desktop erwerben
 description: Herunterladen und Installieren von Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286633"
 ---
-# <a name="get-power-bi-desktop"></a>Abrufen von Power BI Desktop
+# <a name="get-power-bi-desktop"></a>Power BI Desktop erwerben
 In **Power BI Desktop** können Sie erweiterte Abfragen, Modelle und Berichte erstellen, die Daten visualisieren. Mit **Power BI Desktop** können Sie Datenmodelle entwerfen, Berichte erstellen und Ihre Arbeit durch die Veröffentlichung im Power BI-Dienst freigeben.  **Power BI Desktop** steht als kostenloser Download zur Verfügung.
 
-Sie können **Power BI Desktop** auf zwei Arten abrufen, von denen jede in den folgenden Abschnitten beschrieben wird:
+Sie können **Power BI Desktop** auf zwei Arten erhalten, von denen jede in den folgenden Abschnitten beschrieben wird:
 
 * Direktes **Herunterladen** (ein MSI-Paket, das Sie herunterladen und auf dem Computer installieren)
 * Installation als App aus dem **Microsoft Store**
 
 Mit beiden Methoden erhalten Sie auf Ihrem Computer die neueste Version von **Power BI Desktop**. Es sind jedoch einige Unterschiede zu beachten, die in den folgenden Abschnitten beschrieben werden.
 
-## <a name="download-power-bi-desktop"></a>Herunterladen von Power BI Desktop
+## <a name="download-power-bi-desktop"></a>Laden Sie Power BI Desktop herunter
 Um die neueste Version von **Power BI Desktop** herunterzuladen, können Sie im Power BI-Dienst rechts oben auf das Downloadsymbol klicken und **Power BI Desktop** auswählen.
 
 ![](media/desktop-get-the-desktop/getpbid_downloads.png)
@@ -67,9 +60,9 @@ Sie können **Power BI Desktop** auch über den folgenden Link aus dem Microsoft
 
 Das Installieren von **Power BI Desktop** aus dem Microsoft Store bietet einige Vorteile:
 
-* **Automatische Updates**: Windows lädt automatisch im Hintergrund die aktuelle Version herunter, sobald sie verfügbar ist, sodass Ihre Version immer auf dem neuesten Stand ist.
+* **Automatische Updates** – Windows lädt automatisch im Hintergrund die aktuelle Version herunter, sobald sie verfügbar ist, sodass Ihre Version immer auf dem neuesten Stand ist.
 * **Kleinere Downloads**: Durch den **Microsoft Store** wird sichergestellt, dass in den einzelnen Updates nur geänderte Komponenten auf Ihren Computer heruntergeladen werden, was zu kleineren Downloads für jedes Update führt.
-* **Keine Administratorberechtigung erforderlich**: Wenn Sie die MSI-Datei direkt herunterladen und installieren, müssen Sie Administrator sein, damit die Installation erfolgreich abgeschlossen wird. Wenn Sie **Power BI Desktop** aus dem Microsoft Store abrufen, ist *keine* Administratorberechtigung erforderlich.
+* **Keine Administratorberechtigung erforderlich** – Wenn Sie die MSI-Datei direkt herunterladen und installieren, müssen Sie Administrator sein, damit die Installation erfolgreich abgeschlossen wird. Wenn Sie **Power BI Desktop** aus dem Microsoft Store abrufen, ist *keine* Administratorberechtigung erforderlich.
 * **Rollout durch IT möglich**: Die **Microsoft Store**-Version lässt sich leichter für alle Benutzer in der Organisation bereitstellen (per *Rollout*), und **Power BI Desktop** kann über den **Microsoft Store für Unternehmen** verfügbar gemacht werden.
 * **Spracherkennung**: Die **Microsoft Store**-Version umfasst alle unterstützten Sprachen und überprüft bei jedem Start, welche Sprachen auf dem Computer verwendet werden. Dies wirkt sich auch auf die Lokalisierung von Modellen aus, die in **Power BI Desktop** erstellt werden. Beispielsweise entsprechen integrierte Datumshierarchien der Sprache, die in **Power BI Desktop** beim Erstellen der PBIX-Datei verwendet wurde.
 
@@ -82,7 +75,7 @@ Für die Installation von **Power BI Desktop** aus dem Microsoft Store gelten ei
 > Das Installieren der heruntergeladenen Version (MSI-Paket) von **Power BI Desktop** und der Version aus dem **Microsoft Store** auf demselben Computer (auch als *parallele Installation* bezeichnet) wird nicht unterstützt. Sie müssen **Power BI Desktop** manuell deinstallieren, bevor Sie den Download aus dem **Microsoft Store** starten.
 > 
 > [!NOTE]
-> Die Power BI-Berichtsserver-Version von **Power BI Desktop** ist eine eigene Installation und unterscheidet sich von den in diesem Artikel behandelten Versionen. Informationen über die Berichtsserver-Version von **Power BI Desktop** finden Sie im Artikel [Schnellstart: Erstellen eines Power BI-Berichts für Power BI-Berichtsserver](report-server/quickstart-create-powerbi-report.md).
+> Die Power BI-Berichtsserver-Version von **Power BI Desktop** ist eine eigene Installation und unterscheidet sich von den in diesem Artikel behandelten Versionen. Informationen über die Berichtsserver-Version von **Power BI Desktop** finden Sie im Artikel [Erstellen eines Power BI-Berichts für Power BI-Berichtsserver](report-server/quickstart-create-powerbi-report.md).
 > 
 > 
 
@@ -102,8 +95,8 @@ Die folgende Liste zeigt die Mindestanforderungen zur Ausführung von **Power BI
 * .NET 4.5
 * Internet Explorer 9 oder höher
 * **Arbeitsspeicher (RAM):** Mindestens 1 GB freier Arbeitsspeicher, 1,5 GB oder mehr empfohlen.
-* **Bildschirm:** Mindestens 1440 × 900 oder 1600 × 900 (16:9) empfohlen. Geringere Auflösungen, z.B. 1024 × 768 oder 1280 × 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z.B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
-* **Windows-Anzeigeeinstellungen:** Wenn Ihre Anzeigeeinstellungen so konfiguriert sind, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder möglicherweise nicht sichtbar, die geschlossen oder bearbeitet werden müssen, damit Sie weiter in **Power BI Desktop** arbeiten können. Wenn dieses Problem auftritt, überprüfen Sie Ihre **Anzeigeeinstellungen**. Wählen Sie dazu in Windows **Einstellungen > System > Anzeige** aus, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100% zurück.
+* **Bildschirm:** Mindestens 1440 x 900 oder 1600 x 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 x 768 oder 1280 x 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
+* **Windows-Anzeigeeinstellungen:** Wenn Ihre Anzeigeeinstellungen so konfiguriert sind, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder möglicherweise nicht sichtbar, die geschlossen oder bearbeitet werden müssen, damit Sie weiter in **Power BI Desktop** arbeiten können. Wenn dieses Problem auftritt, überprüfen Sie Ihre **Anzeigeeinstellungen**; wählen Sie dazu in Windows **Einstellungen > System > Anzeige** aus, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100 % zurück.
 * **CPU:** x86- oder x64-Prozessor mit 1 Gigahertz (GHz) oder schneller empfohlen.
 
 ## <a name="next-steps"></a>Nächste Schritte

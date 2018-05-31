@@ -1,75 +1,96 @@
 ---
-title: "Stellen von Fragen mit dem virtuellen Q&A-Analysten in iOS-Apps – Power BI"
-description: "Stellen Sie in diesem Tutorial in der mobilen Power BI-App auf Ihrem iOS-Gerät mit dem virtuellen Q&A-Analysten in Ihren eigenen Worten Fragen zu den Beispieldaten."
+title: Virtueller Q&A-Analyst in iOS-Apps – Power BI
+description: Mit dem virtuellen Q&A-Analysten können Sie in der mobilen Power BI-App auf Ihrem iOS-Gerät in Ihren eigenen Worten Fragen zu den Beispieldaten stellen.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-mobile
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 531d067566a03289f0806d21309e9db7cfb837b1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812171"
 ---
-# <a name="ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Stellen von Fragen zu Ihren Daten mit dem virtuellen Q&A-Analysten in iOS-Apps – Power BI
+# <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Virtueller Q&A-Analyst in iOS-Apps – Power BI
+
+Am schnellsten nähern Sie sich Ihren Daten, wenn Sie Fragen in eigenen Worten stellen können. In diesem Artikel verwenden Sie den virtuellen Q&A-Analysten in der mobilen Microsoft Power BI-App auf Ihrem iPad, iPhone und iPod Touch, um Fragen zu Ihren Beispieldaten zu stellen und wichtige Einblicke anzuzeigen. 
+
 Gilt für:
 
 | ![iPhone](media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhones |iPads |
 
-Am schnellsten nähern Sie sich Ihren Daten, wenn Sie Fragen in eigenen Worten stellen können. In diesem Tutorial stellen Sie mit dem virtuellen Q&A-Analysten Fragen zu den Beispieldaten und zeigen Einblicke zu diesen an.
+Der virtuelle Q&A-Analyst ist eine BI-Benutzeroberfläche für die Kommunikation, der auf zugrunde liegende Q&A-Daten im Power BI-Dienst [(https://powerbi.com)](https://powerbi.com) zugreift. Der Analyst schlägt Dateneinblicke vor, und Sie können über die Tastatur oder per Spracheingabe selbst Fragen stellen.
 
 ![Virtueller Q&A-Analyst für stärkste Umsätze](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-Der virtuelle Q&A-Analyst in der mobilen Microsoft Power BI-App auf dem iPad, iPhone und iPod Touch ist eine neue, verbesserte Version von Q&A in iOS, die eine BI-Oberfläche für die Kommunikation bietet. Der virtuelle Q&A-Analyst greift ebenfalls auf die Q&A-Daten im Power BI-Dienst [(https://powerbi.com)](https://powerbi.com) zu. Sie können weiterhin eine Frage eingeben oder mündlich stellen, und der Analyst bietet ebenfalls Einblicke zu Daten im Kontext.
+Wenn Sie noch nicht bei Power BI registriert sind, müssen Sie sich zuerst für eine [kostenlose Testversion registrieren](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-## <a name="download-the-samples"></a>Beispiele herunterladen
-Der erste Schritt im Tutorial ist das Herunterladen der Beispiele zu Einzelhandelsanalyse und Opportunityanalyse im Power BI-Dienst.
+## <a name="prerequisites"></a>Voraussetzungen
 
-* Im Arbeitsbereich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)):
+### <a name="install-the-power-bi-for-ios-app"></a>Installieren der Power BI für iOS-App
+[Laden Sie die iOS-App](http://go.microsoft.com/fwlink/?LinkId=522062 "Herunterladen der iPhone-App") aus dem Apple App Store auf Ihr iPad, Ihr iPhone oder Ihren iPod Touch herunter.
 
-  * Wählen Sie **Daten abrufen** > **Beispiele** > **Analysebeispiel für Opportunity** > **Verbinden** aus.
-  * Wenn das Beispiel einer Opportunityanalyse komplett heruntergeladen wurde, wählen Sie **Daten abrufen** > **Beispiele** > **Analysebeispiel für Einzelhandel** > **Verbinden** aus.
+Folgende Versionen unterstützen die Power BI für iOS-App:
+- iPad mit iOS 10 oder höher
+- iPhone 5 und höher mit iOS 10 oder höher 
+- iPod Touch mit iOS 10 oder höher
 
-## <a name="try-featured-insights"></a>Ausgewählte Einblicke
-1. Rufen Sie die Power BI-App auf dem iPhone oder iPad auf, und navigieren Sie z.B. zum Dashboard einer Opportunityanalyse.
-2. Tippen Sie auf das Symbol „Virtueller Q&A-Analyst“ ![Symbol „Virtueller Q&A-Analyst“](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) im Aktionsmenü unten auf der Seite (auf einem iPad oben auf der Seite).
+### <a name="download-samples"></a>Beispiele herunterladen
+Der erste Schritt besteht darin, die Beispiele zu Einzelhandelsanalyse und Opportunityanalyse im Power BI-Dienst herunterzuladen.
 
-     ![Dashboard zum Beispiel einer Opportunityanalyse](media/mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+**Abrufen des Beispiels für die Einzelhandelsanalyse**
 
-     Der virtuelle Q&A-Analyst von Power BI bietet einige Vorschläge für den Einstieg.
+1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.
 
-     ![Schaltfläche für ausgewählte Einblicke](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. Tippen Sie auf **featured insights** (Ausgewählte Einblicke).
+2. Wählen Sie im linken Navigationsbereich die Optionen **Arbeitsbereiche** und **Mein Arbeitsbereich** aus.
 
-     Der virtuelle Q&A-Analyst stellt einige Einblicke vor.
-4. Scrollen Sie nach rechts, und tippen Sie auf **Insight 2**.
+3. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
+   
+    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-    ![Schaltfläche „Insight 2“](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+3. Wählen Sie auf der Seite „Daten abrufen“ das Symbol **Beispiele** aus.
+   
+   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-     Der virtuelle Q&A-Analyst zeigt „Insight 2“ an.
+4. Wählen Sie das **Beispiel für die Einzelhandelsanalyse** aus.
+ 
+    ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-rs.png)
+ 
+8. Wählen Sie **Verbinden** aus.  
+  
+   ![Retail Analysis Sample](media/mobile-apps-ios-qna/retail16.png)
+   
+5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt.
+   
+   ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
-    ![Insight 2](media/mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
-5. Tippen Sie auf das Diagramm, um es im Fokusmodus zu öffnen.
+**Abrufen des Beispiels für die Opportunityanalyse**
 
-    ![Diagramm von „Insight 2“ im Fokusmodus](media/mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
-6. Tippen Sie in der linken oberen Ecke auf den Pfeil, um zur Oberfläche des virtuellen Q&A-Analysten zurückzukehren.
+- Führen Sie die gleichen Schritte aus wie für das Beispiel für die Einzelhandelsanalyse. Wählen Sie in Schritt 4 jedoch das **Beispiel für die Opportunityanalyse** aus.
+
+    ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-oa.png)
+  
+Sie können die Beispiele jetzt auf Ihrem iOS-Gerät anzeigen.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Fragen stellen auf dem iPhone oder iPad
-1. Rufen Sie die Power BI-App auf dem iPhone oder iPad auf, und navigieren Sie zum Dashboard zum Analysebeispiel für Einzelhandel.
+1. Tippen Sie auf Ihrem iPhone oder iPad auf die globale Navigationsschaltfläche ![Globale Navigationsschaltfläche](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) > **Arbeitsbereiche** > **Mein Arbeitsbereich**, und öffnen Sie das Dashboard für das Beispiel für die Einzelhandelsanalyse.
+
 2. Tippen Sie im Aktionsmenü unten auf der Seite (auf einem iPad oben auf der Seite) auf das Symbol „Virtueller Q&A-Analyst“ ![Symbol „Virtueller Q&A-Analyst“](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png).
      Der virtuelle Q&A-Analyst bietet einige Vorschläge für den Einstieg.
 3. Geben Sie **show** ein, tippen Sie in der Liste der Vorschläge auf **sales** (Umsatz) und anschließend auf **Senden** ![Symbol „Senden“](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).

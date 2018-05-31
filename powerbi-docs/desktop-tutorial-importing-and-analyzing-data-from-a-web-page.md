@@ -1,168 +1,196 @@
 ---
-title: 'Tutorial: Importieren und Analysieren der Daten von einer Webseite mithilfe von Power BI Desktop'
-description: 'Tutorial: Importieren und Analysieren der Daten von einer Webseite mithilfe von Power BI Desktop'
+title: 'Tutorial: Importieren und Analysieren von Daten von einer Webseite mithilfe von Power BI Desktop'
+description: 'Tutorial: Importieren und Analysieren von Daten von einer Webseite mithilfe von Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945961"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>Analysieren von Webseitendaten mit Power BI Desktop (Lernprogramm)
-In diesem Tutorial erfahren Sie, wie Sie eine Tabelle mit Daten von einer Webseite importieren und zur Visualisierung dieser Daten einen Bericht erstellen. Im Rahmen dieses Prozesses navigieren Sie durch die auf einer Webseite verfügbaren Tabellen und wenden Datentransformierungsschritte an, um die Tabelle neu zu strukturieren.
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analysieren von Webseitendaten mit Power BI Desktop
 
- Inhalt dieses Artikels:
+Wenn Sie Fußballfan sind, möchten Sie vielleicht eine Übersicht über alle Europameister der vergangenen Jahre erstellen. Mit Power BI Desktop können Sie diese Daten von einer Webseite in einen Bericht importieren und Visualisierungen erstellen, um die Daten anzuzeigen. In diesem Tutorial erfahren Sie, wie Sie Power BI Desktop für Folgendes verwenden:
 
-* **Aufgabe 1:** Herstellen einer Verbindung mit einer Webdatenquelle
-* **Aufgabe 2:** Strukturieren von Daten in der Abfrageansicht
-  * Schritt 1: Entfernen sonstiger Spalten zur ausschließlichen Anzeige relevanter Spalten
-  * Schritt 2: Ersetzen von Werten zum Bereinigen von Werten in einer ausgewählten Spalte
-  * Schritt 3: Filtern von Werten in einer Spalte
-  * Schritt 4: Umbenennen einer Spalte
-  * Schritt 5: Filtern von NULL-Werten in einer Spalte
-  * Schritt 6: Umbenennen einer Abfrage
-  * Erstellte Abfrageschritte
-* **Aufgabe 3:** Erstellen von Visualisierungen mithilfe der Berichtsansicht
-  * Schritt 1: Laden der Abfrage in Ihren Bericht
-  * Schritt 2: Erstellen einer Kartenvisualisierung
+- Herstellen einer Verbindung mit einer Datenquelle und Navigieren in den verfügbaren Tabellen
+- Strukturieren und Transformieren von Daten im **Power Query-Editor**
+- Benennen einer Abfrage und Importieren der Abfrage in einen Power BI Desktop-Bericht 
+- Erstellen und Anpassen einer Visualisierung auf einer Karte und in einem Kreisdiagramm
 
-## <a name="task-1-connect-to-a-web-data-source"></a>Aufgabe 1: Herstellen einer Verbindung mit einer Webdatenquelle
- In Aufgabe 1 importieren Sie eine Tabelle zu einer Turnierübersicht von der Wikipedia-Seite zur UEFA-Fußball-Europameisterschaft unter http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship.
+## <a name="connect-to-a-web-data-source"></a>Herstellen einer Verbindung mit einer Webdatenquelle
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+Sie können die Daten zu den Europameistern aus der Ergebnistabelle auf der Wikipedia-Seite zur UEFA-Fußball-Europameisterschaft unter http://en.wikipedia.org/wiki/UEFA_European_Football_Championship abrufen. 
 
-### <a name="add-a-wikipedia-page-data-source"></a>Hinzufügen einer Wikipedia-Seite als Datenquelle
-1. Wählen Sie im Dialogfeld **Erste Schritte** oder auf der Registerkarte des Menübands **Start** die Option **Daten abrufen** aus.
-2. Dadurch wird das Dialogfeld **Daten abrufen** geöffnet, in dem Sie aus einer Vielzahl von Datenquellen auswählen können, um Daten in Power BI Desktop zu importieren. Wählen Sie die Option **Web** aus, die unter der Gruppe **Alle** oder **Sonstige** verfügbar ist.
-3. Fügen Sie im Dialogfeld **Webinhalt** im Textfeld **URL** die Wikipedia-URL ein (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship).
-4. Klicken Sie auf **OK**.
+![Ergebnistabelle in Wikipedia](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-Nachdem die Verbindung mit der Webseite hergestellt wurde, sehen Sie eine Liste der auf dieser Wikipedia-Seite verfügbaren Tabellen im Dialogfeld **Navigator** . Sie können auf jede dieser Tabellen klicken, um eine Vorschau der Daten anzuzeigen.
+So importieren Sie die Daten:
 
-Wählen Sie im linken Bereich von **Navigator** die Tabelle **Ergebnisse [Bearbeiten]** aus, um die Ergebnisse der Turnierübersicht anzuzeigen, oder wählen Sie die Tabelle **Ergebnisse [Bearbeiten]** aus, und wählen Sie dann **Bearbeiten**aus. Auf diese Weise kann diese Tabelle umstrukturiert werden, bevor sie in den Bericht geladen wird, da die Daten nicht die für die Analyse erforderliche Struktur aufweisen.
+1. Klicken Sie auf der Registerkarte **Start** des Power BI Desktop-Menübands auf den nach unten weisenden Pfeil neben **Daten abrufen**, und wählen Sie **Web** aus.
+   
+   ![„Daten abrufen“ im Menüband](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >Sie können das Element **Daten abrufen** auch selbst auswählen. Alternativ dazu können Sie im Power BI-Dialogfeld **Erste Schritte** auf **Daten abrufen** klicken und dann im Dialogfeld **Daten abrufen** im Abschnitt **Alle** oder **Andere** auf **Web** klicken und danach **Verbinden** auswählen.
+   
+2. Fügen Sie im Dialogfeld **Aus dem Web** die URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` in das Textfeld **URL** ein, und klicken Sie dann auf **OK**.
+   
+    ![„Daten abrufen“ im Dialogfeld](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   Wenn die Verbindung mit der Wikipedia-Webseite hergestellt ist, zeigt das Power BI-Dialogfeld **Navigator** eine Liste aller verfügbaren Tabellen auf dieser Seite an. Sie können jeden beliebigen Tabellennamen auswählen, um eine Vorschau der Tabellendaten anzuzeigen. Die Tabelle **Results[edit]** enthält die gewünschten Daten, allerdings nicht exakt in der Struktur, die Sie möchten. Sie werden die Daten neu strukturieren und bereinigen, bevor Sie sie in Ihren Bericht laden. 
+   
+   ![Navigator-Dialogfeld](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >Der Bereich **Vorschau** zeigt die zuletzt ausgewählte Tabelle an, es werden aber alle ausgewählten Tabellen in den **Power Query-Editor** geladen, wenn Sie auf **Bearbeiten** oder **Laden** klicken. 
+   
+3. Wählen Sie die **Results[edit]**-Tabelle in der **Navigator**-Liste aus, und klicken Sie auf **Bearbeiten**. 
+   
+   Eine Vorschau der Tabelle wird im **Power Query-Editor** geöffnet, in dem Sie Transformationen zum Bereinigen der Daten anwenden können. 
+   
+   ![Power Query-Editor](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>Strukturieren von Daten im Power Query-Editor
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+Um eine bessere Übersicht über die Daten zu ermöglichen, möchten Sie nur die Jahre und die Sieger anzeigen. Um diese Schritte zur Datenstrukturierung und -bereinigung auszuführen, können Sie den **Power Query-Editor** verwenden.
 
-Dadurch wird eine Vorschau der Tabelle in der Abfrageansicht angezeigt, in der eine Reihe von Transformationsschritten angewendet werden können, um die Daten zu bereinigen.
+Entfernen Sie zunächst alle Spalten aus der Tabelle außer **Year** und **Final Winners**.
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. Wählen Sie im **Power Query-Editor**-Raster die Spalten **Year** und **Final Winners** aus (halten Sie die **STRG**-Taste gedrückt, um mehrere Einträge auszuwählen).
+   
+2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Andere Spalten entfernen** aus der Dropdownliste aus. Sie können auch auf der Menübandregisterkarte **Start** aus der Gruppe **Spalten verwalten** die Optionen **Spalten entfernen** > **Andere Spalten entfernen** auswählen, um alle anderen Spalten aus der Tabelle zu entfernen. 
+   
+   ![Option „Andere Spalten entfernen“ in Dropdownliste](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) oder ![Option „Andere Spalten entfernen“ im Menüband](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>Aufgabe 2: Strukturieren von Daten in der Betrefftabelle
-Nachdem Sie die Betrefftabelle für Ihre Datenabfrage ausgewählt haben, erfahren Sie, wie die verschiedenen Schritte zum Strukturieren und Bereinigen der Daten ausgeführt werden.
-
-**Schritt 1:** Entfernen sonstiger Spalten zur ausschließlichen Anzeige relevanter Spalten
-
-In diesem Schritt entfernen Sie alle Spalten außer **Year** und **Final Winners**.
-
-1. Wählen Sie im Raster **Abfragevorschau** die Spalten **Year** und **Final Winners** aus (verwenden Sie dazu **STRG** + **Klicken**).
-2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift im Raster **Abfragevorschau** , und klicken Sie dann auf **Andere Spalten entfernen** , um die nicht ausgewählten Spalten zu entfernen. Dieser Vorgang ist auch über die Registerkarte des Menübands **Start** in der Gruppe **Spalten verwalten** verfügbar.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**Schritt 2:** Ersetzen von Werten zum Bereinigen der Werte in einer ausgewählten Spalte
-
-In diesem Schritt ersetzen Sie das Suffix „Details“ in der Spalte **Year** . Beachten Sie, dass sich dieses Suffix in einer neuen Zeile befindet, sodass es in der Tabellenvorschau nicht angezeigt wird. Wenn Sie jedoch in eine der Zellen mit einem numerischen Wert in der Spalte „Year“ klicken, wird der vollständige Wert in der Detailansicht angezeigt.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+Entfernen Sie als Nächstes das überflüssige Wort **Details** aus den Spaltenzellen **Year**.
 
 1. Wählen Sie die Spalte **Year** aus.
-2. Klicken Sie auf dem Menüband **Abfrageansicht** auf der Registerkarte **Start** auf **Werte ersetzen** , oder klicken Sie mit der rechten Maustaste auf die Spalte **Year** , und klicken Sie dann auf **Werte ersetzen** , um die Details durch leeren Text zu ersetzen.
-3. Geben Sie im Dialogfeld **Werte ersetzen** die Details im Textfeld **Zu suchender Wert** ein, und lassen Sie das Textfeld **Ersetzen durch** leer.
-4. Klicken Sie auf **OK**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **Schritt 3:** Filtern von Werten in einer Spalte
-
-In diesem Schritt filtern Sie die Spalte **Year** , um Zeilen anzuzeigen, die nicht „Year“ enthalten.
-
-1. Klicken Sie auf den Dropdownpfeil des Filters der Spalte **Year** .
-2. Deaktivieren Sie in der Dropdownliste **Filter** die Option **Year** .
-3. Klicken Sie auf **OK**.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**Schritt 4:** Umbenennen einer Spalte
-
-Nachdem die Daten in der Spalte **Year** bereinigt wurden, befassen wir uns mit der Spalte **Final Winner** .
-
-Da wir nur die Liste der Gewinner betrachten, können wir diese Spalte in **Country**umbenennen.
-
-1. Wählen Sie die Spalte **Final Winner** in der Abfragevorschau aus.
-2. Auf dem Menüband **Abfrageansicht** unter der Registerkarte **Transformieren** und der Gruppe **Beliebige Spalte** finden Sie die Option **Umbenennen**.
-3. Dadurch kann der Name der Spalte bearbeitet werden. Diese Spalte wird in **Country**umbenannt.
-
-**Schritt 5:** Filtern von Nullwerten in einer Spalte
-
-In der Spalte **Country** müssen die Nullwerte ebenfalls herausgefiltert werden. Zu diesem Zweck könnten wir das in Schritt 3 veranschaulichte Filtermenü verwenden. Alternativ bietet sich auch die folgende Option:
-
-1. Klicken Sie mit der rechten Maustaste auf eine der Zelle in der Spalte **Country** , die einen NULL-Wert enthält.
-2. Wählen Sie im Kontextmenü die Option **Textfilter -\> Ist nicht gleich** aus.
-3. Dadurch wird ein neuer Filterschritt erstellt, um Zeilen mit NULL-Werten in der Spalte **Country** zu entfernen.
-
-**Schritt 6:** Benennen einer Abfrage
-
-In diesem Schritt weisen Sie der letzten Abfrage die Bezeichnung **Euro Cup Winners**zu.
-
-1. Geben Sie im Bereich **Abfrageeinstellungen** im Feld **Name** die Zeichenfolge **Euro Cup Winners**ein.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>Aufgabe 3: Erstellen von Visualisierungen mithilfe der Berichtsansicht
-Nachdem die Daten in die für die Analyse erforderliche Struktur konvertiert wurden, können wir die sich ergebende Tabelle in unseren Bericht laden und einige Visualisierungen erstellen.
-
-**Schritt 1:** Laden der Abfrage in Ihren Bericht
-
-Um die Abfrageergebnisse in Power BI Desktop zu laden und einen Bericht zu erstellen, wählen Sie auf dem Menüband **Start** den Befehl **Schließen & laden** aus.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-Dadurch werden die Auswertung der Abfrage und das Laden der Tabellenausgabe in den Bericht ausgelöst. Wählen Sie in Power BI Desktop das Symbol **Bericht** aus, um Power BI Desktop in der Berichtsansicht darzustellen.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-Die sich ergebenden Tabellenfelder werden im Bereich **Felder** angezeigt, der sich rechts neben der **Berichtsansicht**befindet.
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**Schritt 2:** Erstellen einer Kartenvisualisierung
-
-Sie können Felder aus der **Feldliste** ziehen und diese im **Berichtszeichenbereich**ablegen, um eine Visualisierung zu erstellen.
-
-1. Ziehen Sie das Feld **Country** , und legen Sie es im **Berichtszeichenbereich**ab. Dadurch wird im **Berichtszeichenbereich**eine neue Visualisierung erstellt. Da in diesem Fall eine Liste von Ländern vorliegt, wird eine **Kartenvisualisierung**erstellt.
+2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Werte ersetzen** aus der Dropdownliste aus. Alternativ dazu können Sie auch auf der Menübandregisterkarte **Home** aus der Gruppe **Transformieren** die Option **Werte ersetzen** auswählen (Sie finden diese Option auch auf der Registerkarte **Transformieren** in der Gruppe **Beliebige Spalte**). 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. Wir können die Art der Visualisierung einfach ändern, in dem wir im Bereich **Visualisierung** ein anderes Symbol auswählen.
+   ![„Werte ersetzen“ in der Dropdownliste](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) oder ![„Werte ersetzen“ im Menüband](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. Wir bleiben für die Abbildung beim Visualisierungstyp **Karte**. Die Größe der Visualisierung kann auch durch Ziehen an einer der Ecken der Visualisierung auf das gewünschte Format angepasst werden.
+3. Geben Sie im Dialogfeld **Werte ersetzen** im Textfeld **Zu suchender Wert** den Wert **Details** ein. Lassen Sie das Textfeld **Ersetzen durch** leer, und klicken Sie auf **OK**, um das Wort „Details“ aus den **Year**-Einträgen zu löschen.
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. Beachten Sie, dass alle Punkte in der Karte zurzeit dieselbe Größe aufweisen. Dies soll geändert werden, damit Länder, die mehr Europameisterschaften gewonnen haben, auf der Karte durch einen größeren Punkt dargestellt werden. Dazu kann das Feld **Year** aus der **Feldliste** in der unteren Hälfte des **Feldbereichs** auf das Feld **Werte**gezogen werden.
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+Einige **Year**-Zellen enthalten nur das Wort „Year“, keine Jahreszahlenwerten. Sie können die Spalte **Year** filtern, um nur diejenigen Zeilen anzuzeigen, die nicht das Wort „Year“ enthalten. 
+
+1. Klicken Sie auf den Dropdownpfeil des Filters in der Spalte **Year**.
+   
+2. Scrollen Sie in der Dropdownliste nach unten, und deaktivieren Sie das Kontrollkästchen neben der Option **Year**. Klicken Sie dann auf **OK**, um die Zeilen zu entfernen, die in der Spalte **Year** nur das Wort „Year“ enthalten. 
+
+   ![Daten filtern](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+Nachdem Sie die Daten in der Spalte **Year** bereinigt haben, können Sie sich jetzt mit der Spalte **Final Winner** befassen. Da Sie nur die Sieger betrachten, können Sie diese Spalte in **Country** umbenennen. So benennen Sie die Spalte um:
+
+1. Doppelklicken Sie auf die Spaltenüberschrift **Final Winner**, oder klicken Sie darauf und halten die Maustaste gedrückt. 
+   - Sie können auch mit der rechten Maustaste auf die Spaltenüberschrift **Final Winners** klicken und **Umbenennen** aus der Dropdownliste auswählen. 
+   - Die dritte Möglichkeit besteht darin, die Spalte **Final Winners** auszuwählen und auf der Menübandregisterkarte **Transformieren** aus der Gruppe **Beliebige Spalte** die Option **Umbenennen** auszuwählen. 
+   
+   ![„Umbenennen“ in der Dropdownliste](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) oder ![„Umbenennen“ im Menüband](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. Geben Sie in der Kopfzeile **Country** ein, und drücken Sie die **EINGABETASTE**, um die Spalte umzubenennen.
+
+Sie möchten auch Zeilen wie „2020“ herausfiltern, die in der Spalte **Country** null-Werte aufweisen. Dafür können Sie das Filtermenü verwenden, wie bei den **Year**-Werten. Es gibt aber auch diese Möglichkeiten:
+
+1. Klicken Sie mit der rechten Maustaste auf die Zelle **Country** in der Zeile **2020**, die den Wert *null* aufweist. 
+2. Wählen Sie im Kontextmenü die Option **Textfilter** > **Ist nicht gleich** aus, um alle Zeilen zu entfernen, die den Wert dieser Zelle enthalten.
+   
+   ![Textfilter](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>Importieren der Abfrage in die Berichtsansicht
+
+Nachdem Sie die Daten wie gewünscht strukturiert haben, können Sie Ihre Abfrage „Euro Cup Winners“ nennen und in Ihren Bericht importieren.
+
+1. Geben Sie im Bereich **Abfrageeinstellungen** im Feld **Name** die Zeichenfolge **Euro Cup Winners** ein, und drücken Sie die **EINGABETASTE**.
+   
+   ![Abfrage benennen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. Klicken Sie auf der Registerkarte **Home** des Menübands auf die Option **Schließen und anwenden** > **Schließen und Anwenden**.
+   
+   ![Schließen und übernehmen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+Die Abfrage wird in die **Berichtsansicht** von Power BI Desktop geladen. Dort können Sie sie im Bereich **Felder** anzeigen. 
+   
+   ![Bereich „Felder“](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>Sie können immer zum **Power Query-Editor** zurückkehren und Ihre Abfrage bearbeiten und optimieren. Dazu stehen zwei Möglichkeiten zur Verfügung:
+>- Klicken Sie im Bereich **Felder** neben **Euro Cup Winners** auf die Schaltfläche mit den drei Auslassungspunkten (**...**), um **weitere Optionen** anzuzeigen, und wählen Sie **Abfrage bearbeiten** aus der Dropdownliste aus.
+>- Wählen Sie auf der Menübandregisterkarte **Start** der Ansicht „Bericht“ in der Gruppe **Externe Daten** nacheinander die Optionen **Abfragen bearbeiten** > **Abfragen bearbeiten** aus. 
+
+## <a name="create-a-visualization"></a>Erstellen einer Visualisierung
+
+So erstellen Sie eine Visualisierung basierend auf Ihren Daten: 
+
+1. Wählen Sie im Bereich **Felder** das Feld **Country** aus, oder ziehen Sie es auf die Berichtscanvas. Power BI Desktop erkennt die Daten als Ländernamen und erstellt automatisch eine **Kartenvisualisierung**. 
+   
+   ![Kartenvisualisierung](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. Vergrößern Sie die Karte, indem Sie an den Ziehpunkten in den Ecken ziehen, sodass alle Ländernamen von Europameistern sichtbar sind.  
+
+   ![Karte vergrößern](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. Die Karte zeigt für alle Länder, die eine EM gewonnen haben, identische Datenpunkte. Um die Größe der Datenpunkte so anzupassen, dass sie angeben, wie häufig ein Land gewonnen hat, ziehen Sie das Feld **Year** im unteren Teil des Bereichs **Visualisierungen** auf **Datenfelder hierher ziehen** (unter **Größe**). Das Feld ändert sich automatisch in den Messwert **Count of Year**, und die Kartenvisualisierung zeigt jetzt größere Datenpunkte für Länder, die das Turnier häufiger gewonnen haben. 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-Wie Sie sehen können, ist es sehr einfach, Visualisierungen im Bericht anzupassen, um die Daten auf die gewünschte Weise zu präsentieren. Power BI Desktop bietet ein nahtloses End-to-End-Erlebnis, das vom Abrufen der Daten aus einer Vielzahl von Datenquellen über die Strukturierung der Daten für Analysezwecke bis zur Visualisierung dieser Daten auf umfassende und interaktive Weise reicht. Nachdem Ihr Bericht fertig ist, können Sie ihn [in Power BI hochladen](desktop-upload-desktop-files.md) und auf seiner Grundlage Dashboards erstellen, die Sie für andere Power BI-Benutzer freigeben können.
+## <a name="customize-the-visualization"></a>Anpassen der Visualisierung
 
-Damit ist das Tutorial **Importieren von Daten aus dem Web** abgeschlossen. Sie können die vollständige Power BI Desktop-Datei [hier](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix) herunterladen.
+Wie Sie sehen, ist es sehr einfach, Visualisierungen basierend auf Ihren Daten zu erstellen. Es ist auch einfach, Ihre Visualisierungen anzupassen, sodass sie die Daten genau so anzeigen, wie Sie es wünschen. 
 
-## <a name="where-else-can-i-get-more-information"></a>Wo erhalte ich weitere Informationen?
+### <a name="format-the-map"></a>Formatieren der Karte
+Sie können die Darstellung einer Visualisierung ändern, indem Sie die Visualisierung auswählen und dann im Bereich **Visualisierungen** auf das Symbol **Formatieren** (Farbrolle) klicken. Ein Beispiel: Die Datenpunkte für Deutschland sind etwas irreführend, da vor der Wiedervereinigung Westdeutschland zweimal Europameister wurde und Deutschland nach der Wiedervereinigung einmal. Auf der Karte werden die beiden Punkte übereinander angezeigt, anstatt sie zu addieren oder getrennt anzuzeigen. Sie können diese beiden Punkte farblich kennzeichnen, um auf diesen Umstand hinzuweisen. Sie können die Karte auch mit einem aussagekräftigeren und attraktiveren Titel versehen. 
+
+1. Wählen Sie die Visualisierung aus, klicken Sie auf das Symbol **Formatieren**, und klicken Sie dann auf **Datenfarben**, um die Optionen für Datenfarben zu erweitern. 
+   
+   ![Datenfarben formatieren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. Legen Sie **Alle anzeigen** auf **Ein** fest, wählen Sie dann die Dropdownliste neben **West Germany** aus, und wählen Sie eine gelbe Farbe. 
+   
+   ![Farbe ändern](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. Klicken Sie auf **Titel**, um die Titeloptionen zu erweitern, und geben Sie im Feld **Titeltext** anstelle des aktuellen Titels **Euro Cup Winners** ein. 
+4. Ändern Sie die **Schriftfarbe** zu Rot, die **Textgröße** zu **12** und die **Schriftfamilie** zu **Segoe (Fett)**. 
+   
+   ![Datenfarben formatieren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+Ihre Kartenvisualisierung sieht jetzt folgendermaßen aus:
+
+![Formatierte Kartenvisualisierung](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>Ändern des Visualisierungstyps
+Sie können den Typ einer Visualisierung ändern, indem Sie die Visualisierung auswählen und oben im Bereich **Visualisierung** ein anderes Symbol auswählen. Beispielsweise fehlen auf Ihrer Kartenvisualisierung die Daten für die Sowjetunion und die Tschechoslowakei, weil es diese Länder auf der Weltkarte nicht mehr gibt. Möglicherweise sind andere Arten von Visualisierungen wie z.B. eine Treemap oder ein Kreisdiagramm präziser, da diese alle Werte anzeigen. 
+
+Um die Karte in ein Kreisdiagramm zu ändern, wählen Sie die Karte aus, und klicken Sie dann im Bereich **Visualisierung** auf das Symbol **Kreisdiagramm**. 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- Sie können die Formatierungsoptionen **Datenfarben** verwenden, um „Germany“ und „West Germany“ mit der gleichen Farbe anzuzeigen. 
+>- Um die Länder mit den meisten Siegen im Kreisdiagramm zu gruppieren, klicken Sie oben rechts in der Visualisierung auf die Auslassungspunkte (**...**), und wählen Sie **Nach Anzahl der Jahre sortieren** aus der Dropdownliste aus. 
+
+Power BI Desktop bietet ein nahtloses End-to-End-Erlebnis, das vom Abrufen der Daten aus einer Vielzahl von Datenquellen über die Strukturierung der Daten für Analysezwecke bis zur Visualisierung dieser Daten auf umfassende und interaktive Weise reicht. Nachdem Ihr Bericht fertig ist, können Sie ihn [in Power BI hochladen](desktop-upload-desktop-files.md) und auf seiner Grundlage Dashboards erstellen, die Sie für andere Power BI-Benutzer freigeben können.
+
+## <a name="see-also"></a>Siehe auch
 * [Weitere Tutorials zu Power BI Desktop lesen](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [Videos zu Power BI Desktop ansehen](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Power BI-Forum besuchen](http://go.microsoft.com/fwlink/?LinkID=519326)

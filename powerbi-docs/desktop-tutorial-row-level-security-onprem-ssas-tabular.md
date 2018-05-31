@@ -1,30 +1,24 @@
 ---
-title: 'Tutorial: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services in Power BI'
-description: 'Tutorial: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services'
-services: powerbi
-documentationcenter: ''
+title: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services in Power BI
+description: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456132"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
 In diesem Tutorial wird gezeigt, wie die **Sicherheit auf Zeilenebene** in Ihrem **tabellarischen Modell von Analysis Services** implementiert und wie sie in einem Power BI-Bericht verwendet wird. Die Schritte in diesem Tutorial sind darauf ausgerichtet, dass Sie sie leicht nachvollziehen und anhand eine Beispiel-Datasets die notwendigen Schritte erlernen können.
 
 In diesem Tutorial werden die folgenden Schritte ausführlich beschrieben, was Ihnen dabei hilft, zu verstehen, wie Sie die dynamischen Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services implementieren müssen:
@@ -76,7 +70,7 @@ In vielen veröffentlichten Artikeln wird beschrieben, wie die dynamische Sicher
 6. In diesem Schritt verwenden wir die **LOOKUPVALUE**-Funktion zum Zurückgeben von Werten für eine Spalte, in der der Windows-Benutzername dem von der Funktion **USERNAME** zurückgegebenen Benutzernamen entspricht. Abfragen können dann eingeschränkt werden, wenn die Werte, die von **LOOKUPVALUE** zurückgegeben wurden, mit Werten in der gleichen Tabelle oder einer verwandten Tabelle übereinstimmen. Geben Sie in der Spalte **DAX Filter** die folgende Formel ein:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    In dieser Formel gibt die **LOOKUPVALUE**-Funktion alle Werte für die Spalte **DimUserSecurity[SalesTerritoryID]**zurück, wobei **DimUserSecurity[UserName]** dem Namen des gegenwärtig eingeloggten Windowsbenutzers und **DimUserSecurity[SalesTerritoryID]** **DimSalesTerritory[SalesTerritoryKey]** entspricht.
+    In dieser Formel gibt die **LOOKUPVALUE**-Funktion alle Werte für die Spalte **DimUserSecurity[SalesTerritoryID]** zurück, wobei **DimUserSecurity[UserName]** dem Namen des gegenwärtig eingeloggten Windowsbenutzers und **DimUserSecurity[SalesTerritoryID]** **DimSalesTerritory[SalesTerritoryKey]** entspricht.
    
    Der Satz von SalesTerritoryKey, der von **LOOKUPVALUE** zurückgegeben wird, wird verwendet, um die Zeilen, die in **DimSalesTerritory** angezeigt werden, zu beschränken. Es werden nur Zeilen angezeigt. in denen sich **SalesTerritoryKey** für die Zeile im Satz von IDs befindet, die von der **LOOKUPVALUE**-Funktion zurückgegeben werden.
 8. Geben Sie für die Tabelle **DimUserSecurity** in der **DAX Filter**-Spalte die folgende Formel ein:

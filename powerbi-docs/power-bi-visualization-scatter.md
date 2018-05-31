@@ -1,16 +1,16 @@
 ---
-title: Punktdiagramme in Power BI (Tutorial)
-description: "Tutorial: Punktdiagramme in Power BI"
+title: Punktdiagramme in Power BI
+description: Punktdiagramme in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813114"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Punktdiagramme und Blasendiagramme in Power BI (Tutorial)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Punktdiagramme und Blasendiagramme in Power BI
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
 
 In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *Blasengröße* eine zusätzliche Datendimension darstellt.

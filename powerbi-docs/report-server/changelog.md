@@ -1,27 +1,20 @@
 ---
 title: Änderungsprotokoll für Power BI-Berichtsserver
 description: Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295677"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -31,6 +24,24 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 ## <a name="march-2018"></a>März 2018
 - **Power BI-Berichtsserver**
+    - *Version 1.2.6690.34729 (Build 15.0.2.402), Veröffentlichung: 27. April 2018*
+        - Fehlerkorrekturen
+            - Aktivieren der Migration von SQL Server Reporting Services 2017-Katalogen
+            - Für Power BI-Berichte (PBIX)
+                - Berichte können aktualisiert werden, wenn ein Server für die Verwendung der benutzerdefinierten Authentifizierung konfiguriert ist.
+                - Durch Ändern der Eigenschaften eines Berichts werden die Anmeldeinformationen der Datenquelle nicht zurückgesetzt.
+            - Für paginierte Berichte (RDL)
+                - Die Verwendung von `Lookup()` oder Ableitungsfunktionen wie `LookupSet()` und `MultiLookup()` in RDL-Ausdrücken führt nicht mehr zu `#Error`.
+                - Verknüpfte Berichte behalten beim Drucken die Seitengröße des Zielberichts bei.
+                - Abonnements können für verknüpfte Berichte erstellt werden, die kaskadierende Parameter verwenden.
+                - Bei Verwendung von IE11 können die Standardwerte mehrwertiger Parameter geändert werden.
+                - Die Übermittlungsoptionen für datengesteuerte Abonnements können bearbeitet werden.
+                - Abonnements können angezeigt und bearbeitet werden, während das Abonnement ausgeführt wird.
+                - Durch Festlegen von Anmeldeinformationen für Datenquellen werden ausdrucksbasierte Verbindungszeichenfolgen nicht entfernt.
+            - Für KPIs
+                - Trendlinien werden aktualisiert, wenn Daten aktualisiert werden.
+            - Allgemeine Verbesserungen der Stabilität
+
     - *Version 1.2.6660.39920 (Build 15.0.2.389), Veröffentlichung: 28. März 2018*
         - Fehlerkorrekturen
             - Bei Power BI-Berichten (PBIX) funktioniert die Korrektur für den Datenexport für Power BI-Visuals nicht.
@@ -46,7 +57,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
             - Fehlerkorrektur für den Export in Word, wo eine ungleiche Zeilenhöhe erstellt wird, wenn der Zeileninhalt leer ist.
             - Für paginierte Berichte (RDL): Fehlerkorrektur für auf Ausdrücken basierende Verbindungszeichenfolge, die gelöscht wird, wenn wir die Anmeldeinformationen für die Datenquelle ändern
             - Fehlerkorrektur für die Möglichkeit, KPI mit Textwerten zu verwenden
-            - Für paginierten Bericht (RDL): Fehlerkorrektur für die Möglichkeit, einem vorhandenen paginierten Bericht (RDL) ein neues Dataset zuzuweisen
+            - Für paginierte Berichte (RDL): Fehlerkorrektur für die Möglichkeit, einem vorhandenen paginierten Bericht (RDL) ein neues Dataset zuzuweisen.
             - Andere Fehlerkorrekturen für Stabilität und Nutzbarkeit
 
 - **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
@@ -120,7 +131,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
     - *Build 14.0.600.301, Veröffentlichung: 11. July 2017*
         - Fehlerkorrekturen
-            - Das {{UserId}}-Tag wird in die gespeicherten Anmeldeinformationen aufgelöst und nicht in den Benutzer, der den Bericht in Power BI-Berichten ausführt.
+            - Das `{{UserId}}`-Tag wird in die gespeicherten Anmeldeinformationen aufgelöst und nicht in den Benutzer, der den Bericht in Power BI-Berichte ausführt.
             - Einige Bilder werden in Berichten in Power BI-Berichtsserver nicht dargestellt.
             - Der Name eines Power BI-Berichts kann im Power BI-Berichtsserver nicht geändert werden.
             - Benutzerdefinierte Visuals können in der mobilen Power BI-App nicht geladen werden (Neuinstallation der mobilen App erforderlich, um den lokalen Cache zu löschen)
@@ -136,7 +147,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 [Benutzerhandbuch](user-handbook-overview.md)  
 [Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 

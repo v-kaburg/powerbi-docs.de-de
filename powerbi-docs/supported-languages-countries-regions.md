@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871476"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Unterstützte Sprachen und Länder/Regionen für Power BI
 
@@ -165,6 +166,11 @@ Neben der Sprache für die Power BI Desktop-Anwendung können Sie auch die Model
 - Vergleichen und Sortieren von Zeichenfolgen. Da z.B. das Türkische über zwei verschiedene Buchstaben „i“ verfügt, kann es sein, dass je nach Sortierung der Datenbank die beiden Buchstaben beim Sortieren an unterschiedlichen Stellen in der Reihenfolge stehen. 
 - Die Sprache, die Power BI Desktop beim Erstellen ausgeblendeter Datumstabellen aus Datumsfeldern verwendet. Die Felder heißen z.B. „Month“, „Monat“, „Mois“ usw.
 
+> [!NOTE]
+> Das Modell von Power BI verwendet derzeit ein Gebietsschema, das nicht die Groß-/Kleinschreibung (bzw. Unterscheidung nach Kana) berücksichtigt, sodass „ABC“ und „abc“ gleichwertig behandelt werden. Wenn „ABC“ zuerst in die Datenbank geladen wird, werden sonstige Zeichenfolgen, die sich wie „Abc“ nur durch den Fall unterscheiden, nicht als separate Werte geladen.
+> 
+>
+
 So legen Sie die Modellsprache fest
 
 1. Öffnen Sie in Power BI Desktop **Datei** > **Optionen und Einstellungen** > **Optionen**.
@@ -173,6 +179,10 @@ So legen Sie die Modellsprache fest
 
     ![Festlegen der Modellsprache in Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Nach der Erstellung kann die Sprache eines Power BI-Modells nicht mehr geändert werden.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Sprachen in der Hilfedokumentation
 Die Hilfe ist in diesen 10 Sprachen verfügbar: 

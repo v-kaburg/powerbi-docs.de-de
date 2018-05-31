@@ -1,31 +1,24 @@
 ---
-title: 'Tutorial: Kombinationsdiagramm'
+title: Kombinationsdiagramm in Power BI
 description: In diesem Tutorial zu Kombinationsdiagrammen wird erläutert, wann sie verwendet werden sollten und wie sie im Power BI-Dienst und in Power BI Desktop erstellt werden.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293580"
 ---
-# <a name="combo-chart-in-power--tutorial"></a>Kombinationsdiagramm in Power BI (Tutorial)
+# <a name="combo-chart-in-power-bi"></a>Kombinationsdiagramm in Power BI
 Ein Kombinationsdiagramm in Power BI ist eine einzelne Visualisierung, die ein Liniendiagramm und ein Säulendiagramm kombiniert. Die Kombination von zwei Diagrammen in einem ermöglicht einen schnelleren Vergleich von Daten.
 
 Kombinationsdiagramme können ein oder zwei y-Achsen haben.

@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813252"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 Lernen Sie die Neuerungen in Power BI-Berichtsserver kennen. Dieser Artikel, in dem die wichtigsten Funktionsbereiche behandelt werden, wird aktualisiert, sobald neue Elemente freigegeben werden.
 
 Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
 
-Informationen zu verwandten Neuigkeiten finden Sie unter:
+Sehen Sie sich auch folgende Quellen an, um sich über die neuesten Features in Power BI-Berichtsserver zu informieren.
+
+* [Microsoft Power BI-Blog](https://powerbi.microsoft.com/blog/)
+* [Blog des SQL Server Reporting Services-Teams](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [YouTube-Kanal „Guy in a Cube“](https://aka.ms/guyinacube)
+
+Informationen zu verwandten Power BI-Neuigkeiten finden Sie hier:
 
 * [Neuigkeiten beim Power BI-Dienst](../service-whats-new.md)
 * [Neuigkeiten in Power BI Desktop](../desktop-latest-update.md)
 * [Neuigkeiten bei den mobilen Apps für Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blog des Power BI-Teams](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Release im März 2018
 
@@ -103,14 +109,14 @@ Wenn Sie in einer bestimmten Kategorie eines Visuals einen Drilldown ausführen,
 - [Durchsuchen der Bereiche „Formatierung“ und „Analyse“](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Bereich „Feldeigenschaften“ und Feldbeschreibungen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analyse
+### <a name="analytics"></a>Analytics
 
 - [UTCNOW() und UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Markieren einer benutzerdefinierten Datumstabelle](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 - [Drillfilter für andere Visuals](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [Formatierung auf Zellenebene mehrdimensionaler AS-Modelle für mehrzeilige Zuordnung](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
  
-### <a name="performance"></a>Leistung
+### <a name="performance"></a>Performance
 
 - [Verbesserung der Filterleistung](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [Leistungsverbesserungen für DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -208,7 +214,7 @@ Power BI-Berichtsserver unterstützt nun die neuen Power BI-Tabellen- und Matrix
 ## <a name="next-steps"></a>Nächste Schritte
 [Benutzerhandbuch](user-handbook-overview.md)  
 [Administratorhandbuch](admin-handbook-overview.md)  
-[Schnellstart: Installieren von Power BI-Berichtsserver](quickstart-install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 

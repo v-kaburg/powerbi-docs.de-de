@@ -1,15 +1,15 @@
 ---
-title: "Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht (Lernprogramm)"
-description: "Lernprogramm: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht"
+title: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
+description: Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,20 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814310"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht (Lernprogramm)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
 In [Teil 1](power-bi-report-add-visualizations-ii.md) haben Sie eine einfache Visualisierung erstellt, indem Sie Kontrollkästchen neben Feldnamen aktiviert haben.  In Teil 2 lernen Sie, wie Sie Drag &amp; Drop verwenden und die Funktionen der Bereiche **Felder** und **Visualisierungen** nutzen, um Visualisierungen zu erstellen und zu ändern.
 
 ### <a name="prerequisites"></a>Voraussetzungen
 - [Teil 1](power-bi-report-add-visualizations-ii.md)
 - Power BI-Dienst: Mithilfe von Power BI Desktop bzw. des Power BI-Diensts können Visualisierungen zu Berichten hinzugefügt werden. Dieses Tutorial verwendet den Power BI-Dienst. 
-- Analysebeispiel für den Einzelhandel
+- Retail Analysis sample
 
 ## <a name="create-a-new-visualization"></a>Erstellen einer neuen Visualisierung
 In diesem Tutorial verwenden wir unser Dataset mit Einzelhandelsdaten und erstellen einige wichtige Visualisierungen.
