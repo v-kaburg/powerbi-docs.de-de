@@ -1,30 +1,22 @@
 ---
 title: Erstellen von ArcGIS-Karten von ESRI in Power BI
 description: 'Erstellen einer ArcGIS-Karte von ESRI in Power BI '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
+ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a71073c6e4f5962e8cdd6ddfb92d41628d8799c1
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 7a43b5c210c0e7f2bd26eea03bdcd5d2fa975321
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813344"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297306"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop
 Dieses Tutorial richtet sich an Personen, die eine ArcGIS-Karte erstellen. Sobald der Ersteller eine ArcGIS-Karte für einen Kollegen freigegeben hat, kann dieser die Karte anzeigen und mit ihr interagieren, jedoch keine Änderungen speichern. Weitere Informationen zum Anzeigen von ArcGIS-Karten finden Sie unter [Interagieren mit ArcGIS-Karten](power-bi-visualizations-arcgis.md).

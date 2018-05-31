@@ -1,29 +1,21 @@
 ---
 title: Verwenden von berechneten Spalten in Power BI Desktop
 description: Berechnete Spalten in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810918"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290359"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Verwenden von berechneten Spalten in Power BI Desktop
 Mit berechneten Spalten können Sie einer bereits in Ihrem Modell vorhandenen Tabelle neue Daten hinzufügen. Aber statt Werte abzufragen und sie aus einer Datenquelle in Ihre neue Spalte zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Spalte" in der Berichtsansicht erstellt.

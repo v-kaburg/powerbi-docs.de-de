@@ -1,29 +1,21 @@
 ---
 title: Bewährte Entwurfsmethoden für Berichte und Visualisierungen (Whitepaper)
 description: 'Whitepaper: Bewährte Methoden für den Entwurf von Berichten in Power BI'
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813367"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297260"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
