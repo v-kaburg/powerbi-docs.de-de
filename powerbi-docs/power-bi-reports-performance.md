@@ -11,10 +11,11 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310542"
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -66,7 +67,7 @@ Im folgenden Abschnitt werden allgemeine bewährte Methoden für die Herstellung
 - Vermeiden Sie Beziehungen bei berechneten Spalten und Spalten mit eindeutigen Bezeichnern. 
 - Legen Sie versuchsweise „Referenzielle Integrität voraussetzen“ bei Beziehungen fest. In vielen Fällen kann hiermit die Abfrageleistung erheblich verbessert werden.  
 
-### <a name="general"></a>General 
+### <a name="general"></a>Allgemein 
 - Wenden Sie zuerst Filter an. 
 - Überlegen Sie, ob Sie Interaktionen zwischen Visuals deaktivieren. So wird die Abfrageauslastung bei Kreuzhervorhebung durch die Benutzer reduziert. 
 - Schränken Sie die Anzahl der Visuals und die Daten für jedes Visual ein, wie oben beschrieben. 
