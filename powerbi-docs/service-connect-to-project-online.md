@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 52bd4b5dc27ff127eadea49cb3e761d6cda4788d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249158"
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>Herstellen einer Verbindung mit Project Online mithilfe von Power BI
 Microsoft Project Online ist eine flexible Onlinelösung für das Projektportfoliomanagement (PPM) und die tägliche Arbeit. Project Online versetzt Organisationen dazu in die Lage, die ersten Schritte zu unternehmen, Investitionen in Projektportfolios zu priorisieren und den beabsichtigten Geschäftserfolg zu realisieren. Das Projekt Online-Inhaltspaket für Power BI ermöglicht Ihnen, Ihre Projektdaten mit vordefinierten Metriken wie Portfoliostatus und Projektkonformität zu erkunden.

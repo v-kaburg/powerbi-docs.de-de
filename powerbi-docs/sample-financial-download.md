@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456049"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Herunterladen der Arbeitsmappe mit dem Finanzbeispiel für Power BI
 Benötigen Sie Daten, um den Power BI-Dienst auszuprobieren? Wir haben Ihnen eine einfache Excel-Arbeitsmappe mit Beispieldaten aus dem Finanzbereich zum Download zur Verfügung gestellt.  So laden Sie die Daten herunter:
