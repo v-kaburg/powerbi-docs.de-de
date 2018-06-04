@@ -7,36 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/08/2017
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721062"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind
 Wenn Sie [in Power BI Desktop einen Bericht erstellen](desktop-report-view.md), können Sie seine Nutzung in den mobilen Apps auf Smartphones optimieren, indem Sie eine spezielle Version des Berichts für das Smartphone erstellen. Sie können den Bericht für das Smartphone anpassen, indem Sie visuelle Elemente neu anordnen, ihre Größe ändern und ggf. nicht alle visuellen Elemente in den Bericht aufnehmen, um eine optimale Benutzererfahrung zu erzielen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im Smartphonebericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.
 
-![Optimierter Bericht auf einem Smartphone](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
+![Optimierter Bericht auf einem Smartphone](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
 ## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Gestalten einer Berichtsseite für das Smartphone in Power BI Desktop
 Nachdem Sie [in Power BI Desktop einen Bericht erstellt haben](desktop-report-view.md), können Sie ihn für Smartphones optimieren.
 
 1. Wählen Sie in Power BI Desktop auf der linken Navigationsleiste **Berichtsansicht** aus.
    
-    ![Symbol für Berichtsansicht](media/desktop-create-phone-report/pbi_reportviewinpbidesigner_changeview.png)
+    ![Symbol für Berichtsansicht](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
 2. Wählen Sie auf der Registerkarte **Ansicht** die Option **Telefonlayout** aus.  
    
-    ![Symbol „Telefonlayout“](media/desktop-create-phone-report/power-bi-phone-layout-icon.png)
+    ![Symbol „Telefonlayout“](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
     Anschließend wird ein leerer Smartphonezeichenbereich angezeigt. Im Bereich „Visualisierungen“ auf der rechten Seite werden alle visuellen Elemente aufgeführt, die auf der ursprünglichen Berichtsseite vorhanden sind.
 3. Um dem Smartphonelayout ein visuelles Element hinzuzufügen, ziehen Sie es aus dem Bereich „Visualisierungen“ in den Smartphonezeichenbereich.
    
     Für Smartphoneberichte wird ein Rasterlayout verwendet. Wenn Sie visuelle Elemente in den Mobilgeräte-Zeichenbereich ziehen, werden sie an diesem Raster ausgerichtet.
    
-    ![Visual ziehen und ablegen](media/desktop-create-phone-report/02_dragging_and_droping_a_vis.gif)
+    ![Visual ziehen und ablegen](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     Sie können der Smartphoneberichtsseite einige oder alle visuellen Elemente der Masterberichtsseite hinzufügen. Jedes visuelle Element kann nur einmal hinzugefügt werden.
 4. Sie können die Größe der visuellen Elemente im Raster auf die gleiche Weise ändern wie Kacheln in Dashboards und mobilen Dashboards.
@@ -46,14 +47,14 @@ Nachdem Sie [in Power BI Desktop einen Bericht erstellt haben](desktop-report-vi
    > 
    > 
    
-   ![Größe eines Visuals ändern](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
+   ![Größe eines Visuals ändern](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Optimieren eines Visuals für eine beliebige Größe
 Sie können Visuals in einem Dashboard oder Bericht auf *dynamisch* festlegen, damit bei jeder Bildschirmgröße automatisch möglichst viele Daten und Informationen angezeigt werden. 
 
 Wenn Sie die Größe des Visuals ändert, hat die Datenansicht in Power BI die höchste Priorität. Beispielsweise wird automatisch die Auffüllung entfernt und die Legende über das Visual verschoben, damit es auch bei einer Verkleinerung relevant bleibt.
 
-![Größenänderung eines dynamischen Visuals](media/desktop-create-phone-report/power-bi-responsive-visual.gif)
+![Größenänderung eines dynamischen Visuals](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 Die Dynamik wird für jedes Visual separat festgelegt. Erfahren Sie mehr über das [Optimieren von Visuals](desktop-create-responsive-visuals.md).
 
@@ -69,7 +70,7 @@ Die Dynamik wird für jedes Visual separat festgelegt. Erfahren Sie mehr über d
   
    Wenn Sie das Visual hier entfernen, wird es nur aus dem Zeichenbereich für das Telefonlayout entfernt. Dies hat keine Auswirkungen auf das Visual und den ursprünglichen Bericht.
   
-   ![Visual entfernen](media/desktop-create-phone-report/05_removing_a_vis.gif)
+   ![Visual entfernen](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
 ## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Optimieren von Datenschnitten für Smartphoneberichte
 Datenschnitte ermöglichen das Filtern von Berichtsdaten im Zeichenbereich. Wenn Sie Datenschnitte im regulären Berichterstellungsmodus entwerfen, können Sie einige Datenschnitteinstellungen ändern, um sie für Smartphoneberichte anzupassen:
@@ -80,7 +81,7 @@ Datenschnitte ermöglichen das Filtern von Berichtsdaten im Zeichenbereich. Wenn
 
 Wenn Sie den Datenschnitt als dynamisch konfigurieren, werden beim Ändern der Größe und Form mehr oder weniger Optionen angezeigt. Er kann groß oder klein, breit oder schmal sein. Wenn Sie ihn sehr klein machen, wird er nur als Filtersymbol auf der Berichtsseite angezeigt. 
 
-![Dynamischer Power BI-Datenschnitt](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+![Dynamischer Power BI-Datenschnitt](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
 
 Weitere Informationen zum [Erstellen von dynamischen Datenschnitten](power-bi-slicer-filter-responsive.md).
 
@@ -98,7 +99,7 @@ Durch Ändern der Ausrichtung des Smartphones in das Querformat wird der Bericht
 
 Wenn Sie nur einige Seiten optimieren, wird in der Hochformatansicht eine Meldung angezeigt, die den Lesern mitteilt, dass der Bericht im Querformat verfügbar ist.
 
-![Nicht optimierte Smartphoneseite](media/desktop-create-phone-report/06-power-bi-phone-report-page-not-optimized.png)
+![Nicht optimierte Smartphoneseite](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
 Leser des Berichts können die Ausrichtung ihres Smartphones ändern, um den Bericht im Querformat anzuzeigen. Hier erfahren Sie mehr über das [Interagieren mit Power BI-Berichten, die für Smartphones optimiert sind](mobile-apps-view-phone-report.md).
 

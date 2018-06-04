@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292959"
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>Auswerten von Daten in der mobilen Power BI-App für iOS-Geräte
 Die Microsoft Power BI-App für iOS bietet eine mobile BI-Nutzung auf dem iPad, dem iPhone, der Apple Watch und dem iPod Touch. Die Apps bieten touchfähigen, mobilen Live-Zugriff auf Ihre wichtigen Unternehmensdaten, damit Sie die Power BI-Dashboards und -Berichte sowie die mobilen Reporting Services-Berichte und KPIs Ihrer Organisation von überall aus anzeigen und mit diesen interagieren können. Untersuchen Sie die Daten in Ihren Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei.

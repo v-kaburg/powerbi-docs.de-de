@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 223cd6442f8856a2e7a7cabe234e6539cd119d4a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291441"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Verwenden von berechneten Tabellen in Power BI Desktop
 Mit berechneten Tabellen können Sie dem Modell eine neue Tabelle hinzufügen. Aber anstatt Werte abzufragen und aus einer Datenquelle in die Spalten Ihrer neuen Tabelle zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Tabelle" in der Berichtsansicht oder der Datenansicht erstellt.
@@ -27,7 +28,7 @@ Genau so wie normale Tabellen können auch berechnete Tabellen Beziehungen zu an
 
 Berechnete Tabellen verwenden zum Berechnen von Ergebnissen [DAX](https://msdn.microsoft.com/library/gg413422.aspx) (Data Analysis Expressions), eine Formelsprache, die für das Arbeiten mit relationalen Daten, wie sie in Power BI Desktop verwendet werden, konzipiert ist. DAX beinhaltet eine Bibliothek aus über 200 Funktionen, Operatoren und Konstrukten, die eine enorme Flexibilität beim Erstellen von Formeln zum Berechnen von Ergebnissen für so ungefähr jede benötigte Datenanalyse verfügbar macht.
 
-## <a name="lets-look-at-an-example"></a> Betrachten wir dazu ein Beispiel.
+## <a name="lets-look-at-an-example"></a>Betrachten wir dazu ein Beispiel.
 Jan, Projektmanager bei Contoso, verfügt über eine Tabelle mit Mitarbeitern im Nordwesten und über eine Tabelle mit Mitarbeitern im Südwesten. Jan möchte die beiden Tabellen zu einer einzelnen Tabelle zusammenfügen.
 
 **Mitarbeiter im Nordwesten**

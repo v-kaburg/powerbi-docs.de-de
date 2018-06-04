@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 3246f13291b3dd46f60db9403b1b69029c65a513
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289508"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Measures in Power BI Desktop
 **Power BI Desktop** hilft Ihnen, Einblicke in Ihre Daten mit nur ein paar Mausklicks zu gewinnen. Manchmal enthalten diese Daten aber einfach nicht alles, was Sie für die Antwort auf Ihre drängendsten Fragen benötigen. Measures können Ihnen in dieser Situation weiterhelfen.
@@ -36,7 +37,7 @@ Measures berechnen ein Ergebnis mithilfe einer Ausdrucksformel. Zum Erstellen ei
 
 DAX-Formeln sind Excel-Formeln ziemlich ähnlich. DAX weist sogar viele der gleichen Funktionen auf, wie DATUM, SUMME und LINKS. Aber die DAX-Funktionen sind für relationale Daten ausgelegt, wie wir sie in Power BI Desktop verwenden.
 
-## <a name="lets-look-at-an-example"></a> Betrachten wir dazu ein Beispiel.
+## <a name="lets-look-at-an-example"></a>Betrachten wir dazu ein Beispiel.
 Lea ist Vertriebsmanagerin bei Contoso. Sie wird gebeten, Umsatzprognosen für Handelspartner für das nächste Geschäftsjahr zu erstellen. Sie entscheidet sich, Ihren Schätzungen die Umsatzbeträge des letzten Jahres zugrunde zu legen, mit einer jährlichen Steigerung von 6 Prozent, die sich aus verschiedenen Werbeaktionen ergeben, die für das nächste halbe Jahr geplant sind.
 
 Um die Schätzungen zu melden, importiert sie die Umsatzdaten des letzten Jahres mithilfe des Abfragemoduls in Power BI Desktop. Sie sucht das Feld „Umsatzbetrag“ in der Tabelle „Umsätze von Handelspartnern“. Da die von ihr importierten Daten nur die Umsätze des letzten Jahres enthalten, benennt sie das Feld „Umsatzbetrag“ in „Umsätze letztes Jahr“ um. Anschließend zieht sie „Umsätze letztes Jahr“ auf die Berichtszeichenfläche. Das Feld wird im visualisierten Diagramm als Einzelwert dargestellt, bei dem es sich um die Summe aller Umsätze von Handelspartnern aus dem letzten Jahr handelt.
