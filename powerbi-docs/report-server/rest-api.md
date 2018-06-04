@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721752"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Entwickeln mithilfe der REST-APIs für Power BI-Berichtsserver
 Power BI Report Server unterstützt REST-APIs (Representational State Transfer). Die REST-APIs sind Dienstendpunkte, die eine Reihe von HTTP-Vorgängen (Methoden) unterstützen, die Erstellungs-, Abruf-, Aktualisierungs- oder Löschzugriff auf Ressourcen in einem Berichtsserver bieten.
 
 Die REST-API bietet programmgesteuerten Zugriff auf die Objekte in einem Katalog für Power BI-Berichtsserver. Beispiele für Objekte sind Ordner, Berichte, KPIs, Datenquellen, Datasets, Aktualisierungspläne, Abonnements und vieles mehr. Mit der REST-API können Sie beispielsweise durch die Ordnerhierarchie navigieren, den Inhalt eines Ordners durchsuchen oder eine Berichtsdefinition herunterladen. Sie können auch Objekte erstellen, aktualisieren und löschen. Beispiele für das Arbeiten mit Objekten sind das Hochladen eines Berichts, das Ausführen eines Aktualisierungsplans, das Löschen eines Ordners usw.
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>Komponenten einer REST-API-Anforderung/-Antwort
 Ein REST API-Anforderungs-/Antwortpaar kann in fünf Komponenten unterteilt werden:

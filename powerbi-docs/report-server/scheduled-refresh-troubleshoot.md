@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
 ms.openlocfilehash: a90f22c262a314b50981be94121e2573f9fe525a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296363"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problembehandlung für die geplante Aktualisierung in Power BI-Berichtsserver
 In diesem Artikel werden die verfügbaren Ressourcen für die Behandlung von Problemen mit der geplanten Aktualisierung in Power BI-Berichtsserver erläutert.
@@ -50,7 +51,7 @@ Anhand der folgenden Einstellungen kann die geplante Aktualisierung konfiguriert
 
 **Einstellungen in SSMS:**
 
-| Einstellung | Beschreibung |
+| Einstellung | Description |
 | --- | --- |
 | MaxFileSizeMb |Maximale Dateigröße für hochgeladene Berichte. Die Standardeinstellung ist 1.000 MB (1 GB). Der Maximalwert ist 2.000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Legt fest, wie oft das Modell für die Entfernung aus dem Speicher überprüft wird. Die Standardeinstellung ist 15 Minuten. |

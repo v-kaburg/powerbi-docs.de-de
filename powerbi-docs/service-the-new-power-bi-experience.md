@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471592"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -127,7 +128,7 @@ Sie können die Inhalte auch nach Name oder Besitzer sortieren.
 Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](service-navigation-search-filter-sort.md).
 
 ## <a name="clean-up-resources"></a>Bereinigen von Ressourcen
-Sobald Sie diesen Schnellstart abgeschlossen haben, können Sie das Retail Analysis-Beispieldashboard, den dazugehörigen Bericht und das Dataset löschen.
+Nachdem Sie diese Schnellstartanleitung abgeschlossen haben, können Sie das Dashboard, den Bericht und das Dataset zum Beispiel für die Einzelhandelsanalyse löschen, wenn Sie möchten.
 
 1. Öffnen Sie den Power BI-Dienst (app.powerbi.com), und melden Sie sich an.    
 2. Wählen Sie im linken Navigationsbereich die Optionen **Arbeitsbereiche > Mein Arbeitsbereich** aus.  
@@ -137,7 +138,7 @@ Sobald Sie diesen Schnellstart abgeschlossen haben, können Sie das Retail Analy
     ![Dashboard löschen](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
 
 4. Wählen Sie die Registerkarte **Berichte**aus, und führen Sie die gleichen Schritte für den Retail Analysis-Bericht durch.
-1. Wählen Sie die Registerkarte **Datasets**aus, und führen Sie die gleichen Schritte für das Retail Analysis-Dataset durch.
+1. Wählen Sie die Registerkarte **Datasets**aus, und führen Sie die gleichen Schritte für das Dataset für die Einzelhandelsanalyse durch.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

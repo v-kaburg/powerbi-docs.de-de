@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34238419"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Erstellen eines für Mobiltelefone optimierten Power BI-Dashboards
 Wenn Sie Dashboards in der mobilen Power BI-App auf einem Telefon anzeigen, werden Sie bemerken, dass die Dashboardkacheln nacheinander angeordnet sind und die gleiche Größe aufweisen. Sie können im Power BI-Dienst eine benutzerdefinierte Ansicht eines jeden Dashboards erstellen, das Sie besitzen – speziell für Telefone.
