@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721453"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Benutzerdefinierte Visualisierungen in Power BI
 Beim Erstellen oder Bearbeiten eines Power BI-Berichts stehen Ihnen viele verschiedene Typen von Visuals zur Verfügung. Diese Visuals werden im Bereich **Visualisierungen** angezeigt. Wenn Sie Power BI Desktop herunterladen oder den Power BI-Dienst („app.powerbi.com“) öffnen, ist dieser Satz von Visuals vorkonfiguriert.
@@ -53,10 +54,10 @@ Was ist AppSource? Einfach ausgedrückt ist es der Ort, an dem Sie Apps, Add-Ins
 
 ### <a name="certified-visuals"></a>Zertifizierte Visuals
 
-Bei zertifizierten Power BI-Visuals handelt es sich um Marketplace-Visuals, die zusätzlichen strengen Qualitätstests unterzogen wurden. Diese werden für zusätzliche Szenarios unterstützt, z.B. für [E-Mail-Abonnements](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) und die Option [Nach PowerPoint exportieren](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint).
-Die Liste der zertifizierten benutzerdefinierten visuellen Elemente sowie eine Anleitung zum Einreichen eigener benutzerdefinierter visueller Elemente finden Sie unter [Zertifizierte benutzerdefinierte visuelle Elemente](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Bei zertifizierten Power BI-Visuals handelt es sich um Marketplace-Visuals, die zusätzlichen strengen Qualitätstests unterzogen wurden. Diese werden für zusätzliche Szenarios unterstützt, z.B. für [E-Mail-Abonnements](https://docs.microsoft.com/power-bi/service-report-subscribe) und die Option [Nach PowerPoint exportieren](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Die Liste der zertifizierten benutzerdefinierten visuellen Elemente sowie eine Anleitung zum Einreichen eigener benutzerdefinierter visueller Elemente finden Sie unter [Zertifizierte benutzerdefinierte visuelle Elemente](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu AppSource hinzufügen? Lesen Sie [Erste Schritte mit den Entwicklertools](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools), und erfahren Sie, wie [benutzerdefinierte Visuals in AppSource veröffentlicht werden](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu AppSource hinzufügen? Lesen Sie [Erste Schritte mit den Entwicklertools](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools), und erfahren Sie, wie [benutzerdefinierte Visuals in AppSource veröffentlicht werden](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Importieren eines benutzerdefinierten Visuals aus einer Datei
 

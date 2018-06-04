@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310263"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland
 Der **Power BI-Dienst** verfügt über eine Version für Kunden in der Europäischen Union/Europäischen Freihandelszone (EU/EFTA), die häufig auch als Microsoft Cloud Deutschland (MCD) bezeichnet wird. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Kunden in der EU/EFTA konzipiert. Es handelt sich hierbei um ein eigenes, von der kommerziellen Version des **Power BI-Diensts** und von den Power BI-Diensten für Kunden in Behörden abweichendes Produkt.

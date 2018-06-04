@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288197"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -153,8 +154,8 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nein |
 | Kostenstelle |costCenter |Kostenstelle |Nein |
-| Date |date |Date |Nein |
-| Tag | |Tag |Nein |
+| Datum |date |Datum |Nein |
+| Tag(en) | |Tag(en) |Nein |
 | DepartmentName |departmentName |Department Name |Nein |
 | DepartmentID |departmentId | |Ja |
 | Instanzen-ID | | |Ja |
@@ -185,7 +186,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Tags |tags |Tags |Nein |
 | TagsId | | |Ja |
 | Maßeinheit |unitOfMeasure |Maßeinheit |Nein |
-| Jahr | |Jahr |Nein |
+| Year | |Year |Nein |
 | SubscriptionId |subscriptionId |SubscriptionId |Ja |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Nein |
 

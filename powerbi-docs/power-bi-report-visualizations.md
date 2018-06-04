@@ -12,10 +12,11 @@ ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240185"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
 Visualisierungen (auch als Visuals bezeichnet) zeigen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](service-dashboard-pin-tile-from-report.md) sein. 

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
 ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295121"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Erste Schritte mit der mobilen Power BI-App für Windows 10
 Die mobile Power BI-App für Windows 10 stellt Power BI mit touchfähigem mobilem Zugriff auf Ihre aktuellen Geschäftsdaten auf Ihrem Tablet oder Smartphone bereit. Auf Ihrem [Windows-Startbildschirm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) können Sie Ihre Unternehmensdashboards überall anzeigen und damit interagieren.

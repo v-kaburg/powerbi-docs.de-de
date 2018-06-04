@@ -1,29 +1,21 @@
 ---
 title: Vorherige monatliche Updates für Power BI Desktop
 description: Featureupdates aus früheren Versionen von Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33917180"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291164"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -113,7 +105,7 @@ Wir haben uns gefreut, die Updates für März für **Power BI Desktop** veröffe
 * SAP BW DirectQuery ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * Der Azure Analysis Services-Connector ist jetzt allgemein verfügbar [[Video]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Andere
 
 * Verbesserte Fehlerberichterstellung [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Artikel]](desktop-directquery-about.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Anzeigen zuvor aufgetretener Fehler [[Video]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -173,7 +165,7 @@ Im Februar 2018 wurden folgende Updates für **Power BI Desktop** veröffentlich
 
 * Verbesserungen für DirectQuery über SAP HANA (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[Artikel]](desktop-directquery-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Andere
 
 * Leistungsverbesserungen für DirectQuery [[Video]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[Artikel]](desktop-directquery-about.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Leistungsverbesserungen beim Öffnen und Speichern [[Video]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -339,7 +331,7 @@ Im November wurden folgende Updates für **Power BI Desktop** veröffentlicht:
 -   Impala-Connector – Unterstützung für Windows-Authentifizierung [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Other
+### <a name="other"></a>Andere
 
 -   Abfragebearbeitung – Verbesserungen beim Hinzufügen von Spalten aus Beispielen [[Video]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

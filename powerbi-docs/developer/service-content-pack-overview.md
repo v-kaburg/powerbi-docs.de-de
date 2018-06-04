@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
 ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290635"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Übersicht über das Inhaltspaketprogramm für den Power BI-Dienst
 Bei einem Inhaltspaket handelt es sich um sofort einsetzbare Inhalte, mit denen Benutzer unmittelbar Einblicke in eine Quelle gewinnen können. Ein Inhaltspaket konzentriert sich in der Regel auf ein bestimmtes Geschäftsszenario und ermöglicht Einblicke in eine Rolle, eine Domäne oder einen Workflow.

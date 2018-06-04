@@ -1,22 +1,21 @@
 ---
 title: Was ist der Power BI-Berichtsserver?
 description: Sie erhalten einen Überblick über den Power BI-Berichtsserver, um zu verstehen, wie der Berichtsserver mit SQL Server Reporting Services (SSRS) und dem Rest von Power BI harmoniert.
-services: powerbi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.component: powerbi-report-server
 ms.date: 05/07/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33840095"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294569"
 ---
 # <a name="what-is-power-bi-report-server"></a>Was ist der Power BI-Berichtsserver?
 

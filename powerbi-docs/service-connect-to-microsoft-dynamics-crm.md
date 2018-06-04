@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251596"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics CRM mithilfe von Power BI
 Mit Microsoft Dynamics CRM Online für Power BI können Sie einfach auf Ihre Daten zuzugreifen und sie analysieren. Power BI verwendet den OData-Feed, um ein anschauliches Modell mit allen erforderlichen Entitäten und Measures zu erstellen, z.B. Konten, Aktivitäten, Verkaufschancen, Produkte, Leads, Benutzer usw. Nachdem Sie die App installiert haben, können Sie das Dashboard und die Berichte im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und in den mobilen Power BI-Apps anzeigen. 
