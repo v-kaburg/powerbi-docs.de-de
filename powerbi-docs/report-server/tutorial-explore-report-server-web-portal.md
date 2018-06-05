@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34445001"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Erkunden des Power BI-Berichtsserver-Webportals auf einem virtuellen Computer
@@ -92,7 +92,7 @@ Wenn der virtuelle Computer geöffnet wird, werden auf dem Desktop folgende Elem
 
 ![Virtueller Computer mit Power BI-Berichtsserver nach dem Start](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Zahl (Number)  |Beschreibung  |
+|Number  |Beschreibung  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Startet SQL Server Data Tools zum Erstellen paginierter Berichte (RDL) |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI-Beispielberichte (PBIX)  |
@@ -104,7 +104,7 @@ Doppelklicken Sie auf das Symbol **Berichtsserver-Webportal**. Der Browser öffn
 
 ![Webportal von Power BI-Berichtsserver](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Zahl (Number)  |Beschreibung  |
+|Number  |Beschreibung  |
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Im Webportal erstellte KPIs |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Power BI-Berichte (PBIX)  |

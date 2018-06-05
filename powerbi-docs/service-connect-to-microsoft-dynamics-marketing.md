@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242188"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics Marketing mithilfe von Power BI
 Mit dem Microsoft Dynamics Marketing-Inhaltspaket für Power BI können Sie ganz einfach auf Ihre Daten von Dynamics Marketing zugreifen und sie analysieren. Das Inhaltspaket verwendet zusätzlich zum OData-Feed ein anschauliches Modell mit allen erforderlichen Entitäten und Measures, z. B. Programme, Kampagnen, Marketingkontakten und Unternehmen, Leads, Leadinteraktionen und Leadbewertungen, E-Mail-Marketingtexten und -Websites, Verhaltensbeobachtungen, Budgets, Finanztransaktionen, Leistungs-KPIs und viele mehr. 
@@ -34,7 +35,7 @@ Stellen Sie die Verbindung mit dem [Dynamics Marketing-Inhaltspaket](https://app
 3. Wählen Sie **Microsoft Dynamics Marketing** \> **Abrufen** aus.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Stellen Sie die Ihrem Konto zugeordnete OData-URL bereit.  Diese hat das Format: „https://[Instanz\_name].marketing.dynamics.com/analytics“.
+4. Stellen Sie die Ihrem Konto zugeordnete OData-URL bereit.  Diese hat das Format: „https://[Instanzname].marketing.dynamics.com/analytics“.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Geben Sie nach der entsprechenden Aufforderung Ihre Anmeldeinformationen ein (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind). Geben Sie für die Authentifizierungsmethode **oAuth2** ein, und klicken Sie auf **Anmelden**:
@@ -53,7 +54,7 @@ Stellen Sie die Verbindung mit dem [Dynamics Marketing-Inhaltspaket](https://app
 
 ## <a name="system-requirements"></a>Systemanforderungen
 * Sie müssen eine gültige OData-URL für eine Dynamics Marketing-Instanz angeben (das Inhaltspaket funktioniert nicht mit einer lokalen CRM-Version).  
-* Ein Administrator muss den OData-Endpunkt in den Websiteeinstellungen aktivieren. Die Adresse des OData-Endpunkts finden Sie, indem Sie im Abschnitt **Organisationsdatendienst** zu **Start \> Einstellungen \> Websiteeinstellungen** navigieren.  Die OData-URL hat das Format: „https://[Instanz\_name].marketing.dynamics.com/analytics“.  
+* Ein Administrator muss den OData-Endpunkt in den Websiteeinstellungen aktivieren. Die Adresse des OData-Endpunkts finden Sie, indem Sie im Abschnitt **Organisationsdatendienst** zu **Start \> Einstellungen \> Websiteeinstellungen** navigieren.  Die OData-URL hat das Format: „https://[Instanzname].marketing.dynamics.com/analytics“.  
 * Das Benutzerkonto bzw. die Identität, mit dem/der Sie auf Microsoft Dynamics Marketing zugreifen, muss identisch mit dem/der sein, das/die Sie bei der Registrierung für Power BI verwendet haben. Wenn Sie sich bei Microsoft Dynamics Marketing anmelden, werden Sie automatisch mit derselben Identität angemeldet, die Sie für Power BI verwenden. Wenn Sie sich bei Microsoft Dynamics Marketing mit einem anderen Konto anmelden möchten, registrieren Sie sich mit diesem anderen Konto als Power BI-Benutzer. Wir hoffen, dieses Problem in einer der nächsten Versionen beheben zu können.   
 
 ## <a name="troubleshooting"></a>Problembehandlung
