@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296892"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799531"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplante Aktualisierung von Power BI-Berichten in Power BI-Berichtsserver
 Durch die geplante Aktualisierung für Power BI-Berichte wird sichergestellt, dass die Daten für einen Bericht auf dem neuesten Stand bleiben.
@@ -60,9 +60,6 @@ Die herkömmliche Arbeitsauslastung für einen Berichtsserver war vergleichbar m
 Weitere Informationen zum Überwachen einer Analysis Services-Instanz finden Sie unter [Überwachen einer Analysis Services-Instanz](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
 Weitere Informationen zu Arbeitsspeichereinstellungen in Analysis Services finden Sie unter [Speichereigenschaften](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
-
-### <a name="authentication-and-kerberos"></a>Authentifizierung und Kerberos
-Wenn die Datenquelle auf die Verwendung von Windows-Anmeldeinformationen festgelegt ist, muss die eingeschränkte Kerberos-Delegierung möglicherweise konfiguriert werden, damit sie ordnungsgemäß funktioniert. Weitere Informationen finden Sie unter [Konfigurieren der Windows-Authentifizierung für den Berichtsserver](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="next-steps"></a>Nächste Schritte
 Konfigurieren Sie die [geplante Aktualisierung](configure-scheduled-refresh.md) für einen Power BI-Bericht.

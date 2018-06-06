@@ -37,7 +37,7 @@ Sie können die Drittanbieterapp [Azure Speed Test](http://azurespeedtest.azurew
 **Frage:** Wo werden meine Anmeldeinformationen gespeichert?  
 **Antwort:** Die Anmeldeinformationen, die Sie für eine Datenquelle eingeben, werden verschlüsselt im Gatewayclouddienst gespeichert. Die Anmeldeinformationen werden im lokalen Gateway entschlüsselt.
 
-**Frage:** Kann ich das Gateway in einem Umkreisnetzwerk (auch bezeichnet als abgeschirmtes Subnetz, demilitarisierte Zone oder DMZ) platzieren?  
+**Frage:** Kann ich das Gateway in einem Perimeternetzwerk (auch bezeichnet als abgeschirmtes Subnetz, demilitarisierte Zone oder DMZ) platzieren?  
 **Antwort:** Das Gateway erfordert eine Verbindung mit der Datenquelle. Wenn die Datenquelle nicht im Perimeternetzwerk zugänglich ist, kann das Gateway möglicherweise keine Verbindung mit ihr herstellen. Beispielsweise ist SQL Server eventuell nicht im Perimeternetzwerk vorhanden. Und Sie können aus dem Perimeternetzwerk keine Verbindung mit dem SQL Server herstellen. Wenn Sie das Gateway im Perimeternetzwerk platzieren, kann es nicht mit SQL Server kommunizieren.
 
 **Frage:** Kann erzwungen werden, dass das Gateway über das HTTPS-Protokoll statt über TCP mit Azure Service Bus kommuniziert?  
