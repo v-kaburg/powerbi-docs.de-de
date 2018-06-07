@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721177"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -54,7 +55,7 @@ Die JSON-Datei muss die folgenden Zeilen enthalten:
 
 * **name** – Der Name des Designs. Dieses ist das einzige Pflichtfeld.
 * **dataColors** – Eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visualisierungen. Die Liste kann beliebig viele oder wenige Farben umfassen.
-* **background**, **foreground** und **tableAccent** – Werte für diese Farbeinstellungen sollten bei den Visualisierungen **Tabelle** und **Matrix** vergeben werden. Wie Sie diese Farben verwenden, hängt vom Format der Tabelle oder Matrix ab. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
+* **background**, **foreground** und **tableAccent**: Diese Werte stehen für Farben und sollten für unterschiedliche Visualtypen angewendet werden. **foreground** (Vordergrund) gilt für den Text des Textfelds, den KPI-Zieltext, den mehrzeiligen Text auf der Karte, den Text des Kartenwerts, den Legendentext des Messgeräts, den Text des vertikalen Datenschnittelements sowie für den Text der Gesamtzahl und der Werte von **table** und **matrix**. **background** (Hintergrund) gilt für die Füllung der Schaltfläche sowie den Hintergrund der Kombinationsdiagrammbezeichnung. Wie diese Farben verwendet werden, hängt ab vom Format des angewendeten Visuals. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
 
 Um der Visualisierung **Tabelle** oder **Matrix** ein Format zuzuweisen, wählen Sie die Visualisierung im Bereich **Visualisierungen** und dann den Bereich **Format** aus. Erweitern Sie dann die Option **Tabellenstil/Matrixformat**, und wählen Sie im Dropdownmenü **Stil** einen Stil aus.
 

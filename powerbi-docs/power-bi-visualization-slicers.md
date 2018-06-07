@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297352"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721499"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 Die Leser des Berichts sollen die gesamten Vertriebsmetriken ansehen können, aber auch die Leistung einzelner Bezirksleiter und unterschiedliche Zeitrahmen hervorheben können. Sie könnten separate Berichte oder vergleichende Diagramme erstellen. Alternativ könnten Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
@@ -43,6 +43,13 @@ Power BI-Slicer weisen die folgenden Einschränkungen auf:
 ## <a name="create-slicers"></a>Erstellen von Slicern
 
 Wenn Sie einen neuen Slicer erstellen möchten, können Sie das Slicersymbol und anschließend das Datenfeld für die Filterung auswählen (Sie können es auch im Bereich **Visualisierungen** in das Feld **Felder** ziehen). Alternativ können Sie das Datenfeld zur Erstellung einer Visualisierung zunächst auswählen oder ziehen und anschließend das Slicersymbol auswählen, um die Visualisierung in einen Slicer zu konvertieren. Mit unterschiedlichen Datentypen werden individuelle Slicertypen erstellt, die verschiedene Effekte und Optionen aufweisen. 
+
+Wenn Sie einen Bericht zum ersten Mal ändern, leuchtet die Schaltfläche **Auf Standardwert zurücksetzen** auf. Dies soll Sie daran erinnern, dass Sie eine Änderung an den ursprünglichen Berichtseinstellungen vorgenommen haben. Wenn Sie die Ansicht wechseln, wird diese Änderung gespeichert (beibehalten). Wenn Sie zum Bericht zurückkehren, müssen Sie diesen nicht neu unterteilen.  Wenn Sie jedoch den Bericht auf die Standardeinstellungen des Autors zurücksetzen möchten, klicken Sie auf der oberen Menüleiste auf die Schaltfläche **Auf Standardwert zurücksetzen**.
+
+![Schaltfläche „Auf Standardwert zurücksetzen“](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Wenn die Schaltfläche **Auf Standardwert zurücksetzen** deaktiviert bleibt, bedeutet dies entweder, dass der Berichtsautor das Feature für den Bericht deaktiviert hat oder dass der Bericht ein benutzerdefiniertes Visual enthält. Zeigen Sie einfach mit dem Mauszeiger auf die Schalfläche, um die QuickInfo mit einer Erklärung anzuzeigen. 
 
 **So erstellen Sie einen neuen Slicer zum Filtern von Daten nach Bezirksleiter**
 

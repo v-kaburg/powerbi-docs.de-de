@@ -24,3 +24,6 @@ Sie können erzwingen, dass das Gateway zur Kommunikation mit Azure Service Bus 
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Fehler: Fehler beim Hinzufügen des Benutzers zur Gruppe.  (-2147463168 PBIEgwService Benutzer des Leistungsprotokolls)
 Dieser Fehler wird möglicherweise angezeigt, wenn Sie versuchen, das Gateway auf einem Domänencontroller zu installieren. Das Bereitstellen auf einem Domänencontroller wird nicht unterstützt. Sie müssen das Gateway auf einem Computer bereitstellen, der kein Domänencontroller ist.
 
+### <a name="installation-fails"></a>Fehler bei der Installation
+Es können Fehler bei der Installation auftreten, wenn die Antivirensoftware auf dem Computer, auf dem die Installation stattfindet, veraltet ist. Sie können die Antivirensoftware entweder aktualisieren oder diese für den Zeitraum bis zum Abschluss der Gatewayinstallation deaktivieren und danach wieder aktivieren.
+

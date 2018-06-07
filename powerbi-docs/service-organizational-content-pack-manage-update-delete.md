@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689870"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen
 > [!NOTE]
@@ -71,7 +72,7 @@ Eine weitere Änderung, die Ersteller von Inhaltspaketen vornehmen können, ist 
 Als Ersteller des Inhaltspakets können Sie eine [Aktualisierung des Datasets planen](refresh-data.md).  Beim Erstellen und Hochladen des Inhaltspakets wird der Aktualisierungszeitplan mit den Datasets hochgeladen. Wenn Sie den Aktualisierungszeitplan ändern, müssen Sie das Inhaltspaket erneut veröffentlichen (siehe oben).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Löschen eines organisationsbezogenen Inhaltspakets aus AppSource
-Sie können ein Inhaltspaket nur dann aus AppSource löschen, wenn Sie es erstellt haben. 
+Sie können ein Inhaltspaket nur dann aus AppSource löschen, wenn Sie es erstellt haben. Wenn Sie ein Organisationsinhaltspaket in einem App-Arbeitsbereich erstellt haben und diesen Arbeitsbereich dann löschen, achten Sie darauf, dass Sie das Inhaltspaket als Erstes löschen. Wenn Sie den Arbeitsbereich löschen, ohne vorher das Inhaltspaket gelöscht zu haben, haben Sie keinen Zugriff mehr auf das Inhaltspaket und müssen sich für Hilfe an den Microsoft Support wenden. 
 
 > [!TIP]
 > Sie können [Ihre Verbindung mit einem Inhaltspaket trennen](service-organizational-content-pack-disconnect.md), das Sie nicht erstellt haben. Dadurch wird das Inhaltspaket nicht aus AppSource gelöscht.

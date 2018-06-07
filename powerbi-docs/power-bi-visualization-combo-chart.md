@@ -1,30 +1,22 @@
 ---
 title: Kombinationsdiagramm in Power BI
 description: In diesem Tutorial zu Kombinationsdiagrammen wird erläutert, wann sie verwendet werden sollten und wie sie im Power BI-Dienst und in Power BI Desktop erstellt werden.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/21/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52c571d83ab6a77825945df71d3da29fd5f96d5e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812815"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584275"
 ---
 # <a name="combo-chart-in-power-bi"></a>Kombinationsdiagramm in Power BI
 Ein Kombinationsdiagramm in Power BI ist eine einzelne Visualisierung, die ein Liniendiagramm und ein Säulendiagramm kombiniert. Die Kombination von zwei Diagrammen in einem ermöglicht einen schnelleren Vergleich von Daten.
@@ -113,6 +105,7 @@ Jetzt haben Sie folgende Möglichkeiten:
 
 * [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](service-dashboard-tiles.md)
 * [Speichern Sie den Bericht](service-report-save.md).
+* [Den Bericht zugänglicher für Menschen mit Behinderungen machen](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kreuzhervorheben und Kreuzfiltern
 

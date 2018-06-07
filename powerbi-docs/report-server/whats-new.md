@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295420"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481953"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 Lernen Sie die Neuerungen in Power BI-Berichtsserver kennen. Dieser Artikel, in dem die wichtigsten Funktionsbereiche behandelt werden, wird aktualisiert, sobald neue Elemente freigegeben werden.
@@ -32,6 +32,12 @@ Informationen zu verwandten Power BI-Neuigkeiten finden Sie hier:
 * [Neuigkeiten beim Power BI-Dienst](../service-whats-new.md)
 * [Neuigkeiten in Power BI Desktop](../desktop-latest-update.md)
 * [Neuigkeiten bei den mobilen Apps für Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>May 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Remotekonfiguration von mobilen Power BI-Apps für iOS für Berichtsserver
+
+Als IT-Administrator können Sie nun das MDM-Tool Ihrer Organisation verwenden, um den Zugriff für mobile iOS-Apps für Power BI auf Berichtsserver remote zu konfigurieren. Weitere Informationen finden Sie unter [Configure Power BI iOS mobile app access to a report server remotely (Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver)](configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="march-2018-release"></a>Release im März 2018
 
@@ -204,8 +210,8 @@ Power BI-Berichtsserver unterstützt nun die neuen Power BI-Tabellen- und Matrix
 * Bessere Zusammenarbeit in Berichten mit Kommentaren
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Benutzerhandbuch](user-handbook-overview.md)  
-[Administratorhandbuch](admin-handbook-overview.md)  
+[Administratorübersicht](get-started.md) 
+[Power BI-Berichtsserver](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)

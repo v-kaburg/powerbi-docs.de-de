@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Einheitliche Power BI-Mitteilungszentrale
                   href: service-notification-center.md
+                - name: Dashboarddesigns
+                  href: service-dashboard-themes.md
             - name: Berichte
               items:
                 - name: Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Herstellen einer Verbindung mit Daten mithilfe generischer Schnittstellen
               href: desktop-connect-using-generic-interfaces.md
+            - name: Herstellen einer Verbindung mit Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: Herstellen einer Verbindung mit einer Oracle-Datenbank
               href: desktop-connect-oracle-database.md
             - name: Ausführen von R-Skripts in Power BI Desktop
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Einstellung „Referenzielle Integrität voraussetzen“ in Power BI Desktop
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery für Oracle- und Teradata-Datenbanken
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Verwendung des SAP BW-Connectors in Power BI Desktop (Vorschau)
               href: desktop-sap-bw-connector.md
             - name: "Verwenden von OneDrive for Business-Links in Power\_BI Desktop"
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Barrierefreiheit in Power BI-Berichten
           href: desktop-accessibility.md
+        - name: Verwalten des Power BI Desktop-Anmeldeformulars
+          href: desktop-admin-sign-in-form.md
 - name: Mobile Power BI-Apps
   items:
     - name: Übersicht
@@ -1004,7 +1008,7 @@
   items:
     - name: Übersicht
       items:
-        - name: Was ist Power BI-Berichtsserver?
+        - name: Was ist der Power BI-Berichtsserver?
           href: report-server/get-started.md
         - name: Vergleichen von Power BI-Berichtsserver mit dem Dienst
           href: report-server/compare-report-server-service.md

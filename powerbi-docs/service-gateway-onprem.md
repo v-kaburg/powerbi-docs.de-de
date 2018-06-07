@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722814"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -93,6 +94,11 @@ Beim Hinzufügen einer Datenquelle für das Gateway müssen Sie für diese Daten
 
 Derzeit können Mandantenadministratoren die Gateways, die andere Benutzer installiert und konfiguriert haben, nicht über einen zentralen Ort verwalten.  Mandantenadministratoren wird empfohlen, die Benutzer der Organisation darum zu bitten, sie zu jedem installierten Gateway als Administrator hinzuzufügen. Dadurch können alle Gateways der Organisation über die Seite „Gatewayeinstellungen“ oder über [PowerShell-Befehle](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) verwaltet werden. 
 
+## <a name="enabling-outbound-azure-connections"></a>Aktivieren von ausgehenden Azure-Verbindungen 
+Das lokale Datengateway nutzt den Azure Service Bus für die Cloudverbindung und stellt gleichzeitig ausgehende Verbindungen zu seiner zugeordneten Azure-Region her. In der Standardeinstellung ist dies der Speicherort Ihres Power BI-Mandanten. Weitere Informationen finden Sie unter [Wo befindet sich mein Power BI-Mandant?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Wenn ausgehende Verbindungen von einer Firewall blockiert werden, müssen Sie die Firewall so konfigurieren, dass sie ausgehende Verbindungen vom lokalen Datengateway zu seiner zugeordneten Azure-Region zulässt. Auf der Seite zu [Microsoft Azure Datacenter-IP-Bereichen](https://www.microsoft.com/en-us/download/details.aspx?id=41653) finden Sie Details zu den IP-Adressbereichen jedes Azure-Rechenzentrums.
+> [!NOTE]
+> Die IP-Adressbereiche können sich mit der Zeit ändern, laden Sie also regelmäßig die neuesten Informationen herunter. 
 
 ## <a name="troubleshooting"></a>Problembehandlung
 Sollten beim Installieren und Konfigurieren eines Gateways Probleme auftreten, lesen Sie [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md). Wenn Sie glauben, dass ein Problem bei Ihrer Firewall aufgetreten ist, lesen Sie den Abschnitt [Firewall or Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) (Firewall oder Proxy) im Artikel zur Problembehandlung.

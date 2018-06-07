@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722952"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services-Livedaten in Power BI
 In Power BI gibt es zwei Möglichkeiten, die Verbindung mit einem SQL Server Analysis Services-Liveserver herzustellen. In **Daten abrufen** können Sie eine Verbindung mit einem SQL Server Analysis Services-Server oder aber mit einer [Power BI Desktop-Datei](service-desktop-files.md) bzw. einer [Excel-Arbeitsmappe](service-excel-workbook-files.md) herstellen, die bereits mit einem Analysis Services-Server verbunden ist. Als bewährte Methode empfiehlt Microsoft die Verwendung von Power BI Desktop aufgrund des weitreichenden Toolsets und die vorhandene Möglichkeit, eine Sicherungskopie der Power BI Desktop-Datei lokal zu speichern.
@@ -44,9 +45,12 @@ Nachdem Sie die Verbindung mit dem Modell hergestellt haben, wird es auf der Pow
 ## <a name="dashboard-tiles"></a>Dashboardkacheln
 Wenn Sie visuelle Elemente aus einem Bericht auf dem Dashboard anheften, werden die angehefteten Kacheln automatisch alle 10 Minuten aktualisiert. Wenn die Daten auf Ihrem lokalen Analysis Services-Server aktualisiert werden, werden die Kacheln nach 10 Minuten automatisch aktualisiert.
 
+## <a name="common-issues"></a>Häufige Probleme
+
+* Schemafehler „Cannot load the model“ (Das Modell kann nicht geladen werden): Dieser Fehler wird ausgegeben, wenn der Benutzer, der eine Verbindung zu SSAS herstellt, keinen Zugriff auf die SSAS-Datenbank, den Cube und das Modell hat.
+
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway](service-gateway-onprem.md)  
 [Verwalten von Analysis Services-Datenquellen](service-gateway-enterprise-manage-ssas.md)  
 [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

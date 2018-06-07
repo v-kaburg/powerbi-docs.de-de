@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584068"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anheften einer Kachel an ein Power BI-Dashboard aus Excel
 Bevor Sie eine Kachel aus der Excel-Arbeitsmappe anheften können, müssen Sie diese Arbeitsmappe mit dem Power BI-Dienst („app.powerbi.com“) verbinden. Durch Verbinden einer Arbeitsmappe wird im Wesentlichen eine verknüpfte schreibgeschützte Version der Arbeitsmappe im Power BI-Dienst bereitgestellt, und Sie können Bereiche an Dashboards anheften. Sie können auch ein gesamtes Arbeitsblatt an ein Dashboard anheften.  
@@ -65,7 +66,7 @@ Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](service-dashboar
     ![Dialogfeld „An das Dashboard angeheftet“](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Wählen Sie **Zum Dashboard wechseln** aus. Hier können Sie die angeheftete Visualisierung [umbenennen, die Größe ändern, verknüpfen und verschieben](service-dashboard-edit-tile.md). Wenn Sie die angeheftete Kachel auswählen, wird standardmäßig die Arbeitsmappe in Power BI geöffnet.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Anheften einer kompletten Tabelle oder PivotTable an ein Dashboard
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Anheften einer kompletten Tabelle oder PivotTable an ein Dashboard
 Führen Sie die oben beschriebenen Schritte aus, wählen Sie jedoch statt eines Bereichs von Zellen eine gesamte Tabelle oder PivotTable aus.
 
 Um eine Tabelle anzuheften, wählen Sie den gesamten Bereich der Tabelle, einschließlich der Kopfzeilen, aus.  Stellen Sie zum Anheften einer PivotTable sicher, dass alle sichtbaren Elemente der PivotTable enthalten sind, einschließlich möglicherweise verwendeter Filter.

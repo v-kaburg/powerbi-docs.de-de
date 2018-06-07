@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e588387245bbf57a614bb099a92a87a156654a3c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d513c68dba27bb6e37a158eaad4059b24bc8db6a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481990"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Veröffentlichen aus Power BI Desktop
 Wenn Sie eine **Power BI Desktop**-Datei für den **Power BI-Dienst** veröffentlichen, werden die Daten im Modell und alle Berichte, die Sie in der **Berichtsansicht** erstellt haben, in Ihrem Power BI-Arbeitsbereich veröffentlicht. Ein neues Dataset mit dem gleichen Namen und die jeweiligen Berichte werden im Navigationsbereich Ihres Arbeitsbereichs angezeigt.
@@ -22,17 +23,23 @@ Wenn Sie eine **Power BI Desktop**-Datei für den **Power BI-Dienst** veröffent
 Das Veröffentlichen aus **Power BI Desktop** hat die gleiche Auswirkung wie die Verwendung der Funktion **Abrufen von Daten** in Power BI, um eine Verbindung mit einer **Power BI Desktop**-Datei herzustellen und diese hochzuladen.
 
 > [!NOTE]
-> Alle von Ihnen an Power BI-Berichten vorgenommenen Änderungen, z.B. das Hinzufügen, Löschen oder Ändern von Visualisierungen in Berichten, werden nicht in der ursprünglichen **Power BI Desktop**-Datei gespeichert.
+> Alle von Ihnen an Power BI-Berichten vorgenommenen Änderungen, z.B. das Hinzufügen, Löschen oder Ändern von Visualisierungen in Berichten, werden nicht wieder in der ursprünglichen **Power BI Desktop**-Datei gespeichert.
 > 
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>So veröffentlichen Sie ein Power BI Desktop-Dataset und die zugehörigen Berichte
 1. Wählen Sie in Power BI Desktop die Optionen \>**Datei**\>**Veröffentlichen**\>**In Power BI veröffentlichen**, oder klicken Sie im Menüband auf **Veröffentlichen**.  
-   ![](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
-2. Melden Sie sich bei Power BI an.
 
-Wenn der Vorgang abgeschlossen ist, erhalten Sie einen Link zum Öffnen des Berichts auf Ihrer Power BI-Website.  
-    ![](media/desktop-upload-desktop-files/pbid_publish_success.png)
+   ![Schaltfläche „Veröffentlichen“](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
+2. Melden Sie sich bei Power BI an.
+3. Wählen Sie die Zieladresse aus.
+
+   ![Wählen Sie ein Veröffentlichungsziel aus.](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
+
+Wenn Sie fertig sind, erhalten Sie einen Link zu Ihrem Bericht. Klicken Sie auf diesen Link, um den Bericht auf Ihrer Power BI-Website zu öffnen.
+
+![Dialogfeld „Veröffentlichung erfolgreich“](media/desktop-upload-desktop-files/pbid_publish_success.png)
 
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Erneutes Veröffentlichen oder Ersetzen eines über Power BI Desktop veröffentlichten Datasets
 Wenn Sie eine **Power BI Desktop**-Datei veröffentlichen, werden das Dataset und alle in **Power BI Desktop** erstellten Berichte auf Ihre Power BI-Website hochgeladen. Wenn Sie Ihre **Power BI Desktop**-Datei erneut veröffentlichen, wird das Dataset auf der Power BI-Website durch das aktualisierte Dataset aus der **Power BI Desktop**-Datei ersetzt.

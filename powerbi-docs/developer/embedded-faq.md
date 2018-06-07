@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289738"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721016"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
 
-## <a name="general"></a>General
+## <a name="general"></a>Allgemein
 
 ### <a name="what-is-power-bi-embedded"></a>Was ist Power BI Embedded?
 
@@ -102,6 +102,9 @@ Für Power BI Embedded wird weiterhin Azure AD für die Authentifizierung des Ma
 Authentifizierung und Autorisierung der Anwendungsbenutzer werden vom ISV implementiert. Der ISV kann für seine Anwendungen eigene Authentifizierungsfunktionen implementieren.
 
 Wenn Sie bereits über einen Azure AD-Mandanten verfügen, können Sie das vorhandene Verzeichnis verwenden oder einen neuen Azure AD-Mandanten zum Schutz der Inhalte in der Embedded-Anwendung erstellen.
+
+Um ein AAD-Token abzurufen, können Sie eine der Azure Active Directory-Authentifizierungsbibliotheken verwenden. Es sind Clientbibliotheken für mehrere Plattformen verfügbar.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Worin unterscheidet sich Power BI Embedded von anderen Azure-Diensten?
 
@@ -205,6 +208,31 @@ Dies sind einige dieser Features:
 * Alle Power BI-Datenquellen werden unterstützt. In **Power BI Workspace Collection** werden dagegen nur 2 Datenquellen unterstützt. 
 * Neue Features wie Q&A, Aktualisieren, Lesezeichen, Einbetten von Dashboards und Kacheln, benutzerdefiniertes Menü usw. werden nur in der Lösung **Power BI Embedded** unterstützt.
 * Kapazitätsbasiertes Abrechnungsmodell.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Tool mit Onboardingfunktionen zur Einbettung
+
+### <a name="what-is-the-onboarding-experience-tool"></a>Was ist das Tool mit Onboardingfunktionen?
+
+Mit dem [Tool mit Onboardingfunktion](https://aka.ms/embedsetup) können Sie schnell starten und eine Beispielanwendung herunterladen, um mit dem Einbetten mit Power BI zu beginnen.
+
+### <a name="which-solution-should-i-choose"></a>Welche Lösung soll ich verwenden?
+
+* Das [Einbetten für Ihre Kunden](embedding.md#embedding-for-your-customers) bietet die Möglichkeit, Dashboards und Berichte für Benutzer einzubetten, die nicht über ein Konto für Power BI verfügen. Führen Sie die Lösung [Einbetten für Ihre Kunden](https://aka.ms/embedsetup/AppOwnsData) aus.
+* Das [Einbetten für Ihre Organisation](embedding.md#embedding-for-your-organization) ermöglicht Ihnen das Erweitern des Power BI-Diensts. Führen Sie die Lösung [Einbetten für Ihre Organisation](https://aka.ms/embedsetup/UserOwnsData) aus.
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Ich habe die Beispiel-App heruntergeladen. Welche Lösung soll ich verwenden?
+
+Wenn Sie mit **Einbetten für Ihre Kunden arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie anschließend den Ordner *PowerBI-Developer-Samples-master\App Owns Data*, und führen Sie die Datei *PowerBIEmbedded_AppOwnsData.sln* aus.
+
+Wenn Sie mit **Einbetten für Ihre Organisation arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie dann den Ordner *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app*, und führen Sie die Datei *pbi-saas-embed-report.sln* aus.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Wie kann ich meine registrierte Anwendung bearbeiten?
+
+[Hier](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) lernen Sie, wie Sie mit AAD registrierte Anwendungen bearbeiten können.
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Wie kann ich mein Power BI-Benutzerprofil bzw. meine Power BI-Benutzerdaten bearbeiten?
+
+[Hier](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) erfahren Sie, wie Sie Ihre Power BI-Daten bearbeiten.
 
 Weitere Informationen finden Sie unter [Problembehandlung bei Embedded-Anwendungen](embedded-troubleshoot.md).
 

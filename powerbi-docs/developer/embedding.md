@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561745"
 ---
 # <a name="embedding-with-power-bi"></a>Einbetten mit Power BI
 Power BI bietet APIs zum Einbetten von Dashboards und Berichten in Anwendungen. Die Power BI-APIs bieten einen einheitlichen Satz von Funktionen und Zugriff auf die neuesten Power BI-Funktionen (z.B. Dashboards, Gateways und App-Arbeitsbereiche) beim Einbetten von Inhalten.
@@ -32,11 +33,13 @@ Das Einbetten für Ihre Organisation ermöglicht Ihnen das Erweitern des Power B
 
 Informationen zum Einbetten für Ihre Organisation finden Sie in den folgenden Artikeln:
 
+* [Integrieren eines Berichts in eine App](integrate-report.md)
 * [Integrieren eines Dashboards in eine App](integrate-dashboard.md)
 * [Integrieren einer Kachel in eine App](integrate-tile.md)
-* [Integrieren eines Berichts in eine App](integrate-report.md)
 
 Self-Service-Funktionen, wie Bearbeiten, Speichern und mehr, stehen bei der Einbettung für Power BI-Benutzer über die [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) zur Verfügung.
+
+Sie können sich mit dem [Tool mit Onboardingfunktionen zur Einbettung für Ihre Organisation](https://aka.ms/embedsetup/UserOwnsData) vertraut machen, um schnell zu beginnen und eine Beispielanwendung herunterzuladen, Sie sie durch die Integration eines Berichts für Ihre Organisation führt.
 
 ## <a name="embedding-for-your-customers"></a>Einbetten für Ihre Kunden
 Das Einbetten für Ihre Kunden bietet die Möglichkeit, Dashboards und Berichte für Benutzer einzubetten, die nicht über ein Konto für Power BI verfügen. Ihre Kunden brauchen gar nichts über Power BI zu wissen. Es wird mindestens ein Power BI Pro-Konto benötigt, um eine eingebettete Anwendung zu erstellen. Das Power BI Pro-Konto fungiert als Masterkonto für Ihre Anwendung. Stellen Sie es sich als eine Art Proxykonto vor. Mit dem Power BI Pro-Konto können Sie außerdem Einbettungstoken generieren, die Zugriff auf die Dashboards und Berichte im Power BI-Dienst bieten, die von Ihrer Anwendung verwaltet werden bzw. die diese besitzt. 
@@ -50,11 +53,12 @@ Zum Einbetten von Dashboards, Berichten und Kacheln verwenden Sie die gleichen A
 > [!IMPORTANT]
 > Beim Einbetten besteht zwar eine Abhängigkeit vom Power BI-Dienst, für Ihre Kunden besteht aber keine Abhängigkeit von Power BI. Sie müssen sich nicht für Power BI registrieren, um die eingebetteten Inhalte in der Anwendung anzuzeigen.
 > 
-> 
 
 Wenn Sie bereit sind, in eine Produktionsumgebung zu wechseln, muss der Arbeitsbereich Ihrer App einer Kapazität zugeordnet werden. Power BI Embedded in Microsoft Azure bietet Kapazität, die von Ihren Anwendungen genutzt werden kann.
 
 Details zur Einbettung finden Sie unter [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embedding-content.md).
+
+Sie können sich mit dem [Tool mit Onboardingfunktionen zur Einbettung für Ihre Kunden](https://aka.ms/embedsetup/AppOwnsData) vertraut machen, um schnell zu beginnen und eine Beispielanwendung herunterzuladen, Sie sie durch die Integration eines Berichts in Ihre Anwendung führt.
 
 Wenn Sie bereits den Dienst Power BI-Arbeitsbereichssammlungen in Azure verwendet haben, finden Sie unter [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichssammlungen zu Power BI](migrate-from-powerbi-embedded.md) Informationen zum Migrieren Ihrer Inhalte.
 

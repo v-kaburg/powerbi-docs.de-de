@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721568"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problembehandlung bei Aktualisierungsszenarios
 Hier finden Sie Informationen zu verschiedenen Szenarios, auf die Sie möglicherweise stoßen, wenn Daten innerhalb des Power BI-Diensts aktualisiert werden.
@@ -56,6 +57,14 @@ Ein Dataset, das in den **Power BI-Dienst** importiert wird, darf maximal 1 GB 
 
 ## <a name="scheduled-refresh-timeout"></a>Timeout der geplanten Aktualisierung
 Das Timeout geplanter Aktualisierungen für importierte Datasets erfolgt nach zwei Stunden. Für Datasets in **Premium**-Arbeitsbereichen erhöht sich dieses Timeout auf fünf Stunden. Wenn dieses Limit auftritt, können Sie die Größe oder Komplexität des Datasets reduzieren oder das Dataset in kleinere Datasets aufteilen.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Der Zugriff auf die Ressource ist untersagt  
+Dieser Fehler kann auftreten, wenn die zwischengespeicherten Anmeldeinformationen angelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Fehler beim Aktualisieren der Daten, weil das Kennwort geändert wurde oder die Anmeldeinformationen abgelaufen sind 
+Es kann beim Aktualisieren der Daten zu einem Fehler kommen, wenn die zwischengespeicherten Anmeldeinformationen abgelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen.
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Datenaktualisierung](refresh-data.md)  

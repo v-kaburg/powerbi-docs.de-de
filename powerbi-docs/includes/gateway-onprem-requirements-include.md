@@ -13,6 +13,7 @@
 **Weitere Aspekte:**
 
 * Das Gateway kann nicht auf einem Domänencontroller installiert werden.
+* Wenn Sie die Windows-Authentifizierung verwenden möchten, installieren Sie das Gateway auf einem Computer, der Mitglied der gleichen Active Directory-Umgebung wie die Datenquelle(n) ist.
 * Sie sollten ein Gateway nicht auf einem Computer, z. B. einem Laptop, installieren, der ausgeschaltet, in den Ruhezustand versetzt oder vom Internet getrennt werden kann, da das Gateway unter diesen Umständen nicht ausgeführt werden kann. Außerdem kann die Leistung des Gateways über ein WLAN beeinträchtigt werden.
 * Analysis Services ist für die Verwendung des Gateways nicht erforderlich. Sie können das Gateway verwenden, um eine Verbindung mit einer Analysis Services-Datenquelle herzustellen.
 

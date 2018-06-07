@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722449"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Herstellen einer Verbindung mit Salesforce mithilfe von Power BI
 Mit Power BI können Sie sich problemlos mit Ihrem Salesforce.com-Konto verbinden. Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann automatisch ein Dashboard und zugehörige Berichte bereitgestellt.
@@ -74,6 +75,11 @@ Sie können dieses Dashboard anpassen, damit Ihre Daten auf die gewünschte Weis
 
 ## <a name="troubleshooting"></a>Problembehandlung
 Wenn Fehler auftreten, überprüfen Sie die oben genannten Anforderungen. Beachten Sie auch, dass es derzeit nicht möglich ist, sich bei einer benutzerdefinierten oder Sandkastendomäne anzumelden.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>Meldung: „Es konnte keine Verbindung mit dem Remoteserver hergestellt werden.“
+
+Wenn beim Versuch, eine Verbindung zu Ihrem Salesforce-Konto herzustellen, die Meldung „Die Verbindung mit dem Remoteserver kann nicht hergestellt werden.“ angezeigt wird, sehen Sie sich diese Lösung im Outsystems-Forum an: [Salesforce Connector Log In Error Message: Unable to connect to the remote server (Salesforce Connector-Anmeldefehler: Die Verbindung mit dem Remoteserver kann nicht hergestellt werden)](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&).
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erste Schritte mit Power BI](service-get-started.md)

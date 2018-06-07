@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722689"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -55,9 +56,10 @@ Einige Funktionen, die in der kommerziellen Version des **Power BI-Diensts** ver
 
 * **Einbetten in SharePoint Online**: Mit dem Power BI-Webpart können keine Inhalte in SharePoint Online eingebettet werden.
 * **Power BI US Government** ist nur als **Pro**-Lizenz verfügbar. Alle Verweise auf Power BI (Free)-Lizenzen im Administratorportal (oder als Benutzer) beziehen sich auf die Ausführung in einer kommerziellen Power BI-Dienstcloud.
-* **Überwachung:** Überwachung ist über das Office 365 Security & Compliance Center nicht verfügbar.
+* **Überwachung:** Die Überwachung ist über das Office 365 Security & Compliance Center ab dem 1. Juni 2018 nicht mehr verfügbar.
 * **Power BI-Inhalte in Cortana:** Power BI-Ergebnisse werden in den Cortana-Suchergebnissen nicht angezeigt. Hierzu zählen auch Ergebnisse für Power BI-Inhalte (Dashboards, Berichte, Apps) sowie Ergebnisse, in denen für bestimmte Schlüsselwörter für Cortana optimierte Berichtsseiten angezeigt werden.
-* **Freigabe für externe Benutzer:** Die Freigabe ist nur innerhalb eines Power BI-Mandanten zulässig. Sie können keine Freigabe für Benutzer außerhalb Ihres Power BI-Mandanten einrichten.
+* **Freigabe für externe Benutzer:** Die Freigabe ist innerhalb eines Power BI-Mandanten zulässig, und ab Juni 2018 ist die keine Freigabe auch für Benutzer außerhalb Ihres Power BI-Mandanten möglich.
+* **Nutzungsmetriken für Dashboards und Berichte**: Nutzungsmetriken sind für Berichte und Dashboards nicht verfügbar. Kunden können Überwachungsprotokolldaten verwenden, um Nutzungsinformationen für Inhalte in Ihrer Organisation abzurufen.
 
 Wenn Ihrem Konto **Power BI**-Free-Lizenzen zugewiesen sind, wird dieses Konto in einer kommerziellen Version des **Power BI**-Diensts ausgeführt und ist nicht Teil des Angebots **Power BI US Government**. Bei diesen Free-Konten können die folgenden Probleme auftreten:
 

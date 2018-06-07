@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561446"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informationen zu Filtern und Hervorhebungen in Power BI-Berichten
 ***Filter*** entfernen alles bis auf die Daten, auf die Sie sich konzentrieren möchten.  ***Hervorheben*** ist kein Filtern, da hierbei keine Daten entfernt, sondern eine Teilmenge der sichtbaren Daten hervorgehoben wird. Die nicht hervorgehobenen Daten bleiben sichtbar, sind jedoch abgeblendet.
@@ -77,7 +78,7 @@ Wählen Sie zum Filtern und Hervorheben des übrigen Teils der Seite im Berichts
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-Wenn Sie den Bericht verlassen, werden Ihre Veränderungen gespeichert. Klicken Sie auf **Auf Standardwert zurücksetzen** in der oberen Menüleiste, um die Filtereinstellung rückgängig zu machen.
+Wenn Sie den Bericht verlassen, werden Ihre Veränderungen gespeichert. Um die Filterung rückgängig zu machen und zum Standardfilter, der Segmentierung, dem Drillvorgang und der Sortierung zurückzukehren, die jeweils vom Berichtsautor festgelegt wurden, wählen Sie aus der Menüleiste oben **Auf Standardwert zurücksetzen** aus.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

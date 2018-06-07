@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293235"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721706"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Verwalten von Inhalten im Webportal 
 Das Webportal von Power BI-Berichtsserver ist ein lokaler Speicherort zum Anzeigen, Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte sowie von KPIs.
@@ -67,9 +67,7 @@ Power BI-Berichtsserver bietet eine detaillierte Kontrolle über die Elemente, d
 Erfahren Sie mehr über das [Arbeiten mit Abonnements im Webportal](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Benutzerhandbuch](user-handbook-overview.md)  
-[Paginierte Berichte](quickstart-create-paginated-report.md)  
-[Power BI-Berichte](quickstart-create-powerbi-report.md)
+[Was ist der Power BI-Berichtsserver?](get-started.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

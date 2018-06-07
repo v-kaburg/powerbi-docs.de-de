@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481898"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 Außer Power BI-Berichte im Webportal anzuzeigen kann der Power BI-Berichtsserver auch Excel-Arbeitsmappen mithilfe von [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) hosten. Der Berichtsserver wird zu einem zentralen Ort zum Veröffentlichen und Anzeigen von Microsoft BI-Self-Service-Inhalt.
@@ -167,7 +168,7 @@ Nachdem Sie die Ermittlungs-URL eingegeben und **Anwenden** ausgewählt haben, s
 * Arbeitsmappen werden schreibgeschützt angezeigt.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Administratorhandbuch](admin-handbook-overview.md)  
+[Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)

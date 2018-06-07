@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294914"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721821"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Erstellen eines paginierten Berichts für Power BI-Berichtsserver
 Wie der Name bereits vermuten lässt, können paginierte Berichte viele Seiten aufweisen. Sie verfügen über ein Layout in einem festen Format und ermöglichen eine präzise Anpassung. Bei paginierten Berichten handelt es sich um RDL-Dateien.
@@ -94,7 +94,7 @@ Wenn Ihr Bericht fertig ist, speichern Sie ihn in Power BI-Berichtsserver.
 Es gibt viele sehr hilfreiche Ressourcen für das Entwerfen von Berichten im Berichts-Generator und Berichts-Designer in SQL Server Data Tools. Die Tutorials zum Berichts-Generator sind ein guter Ausgangspunkt.
 
 * [Berichts-Generator-Tutorials](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Power BI Report Server user handbook](user-handbook-overview.md) (Benutzerhandbuch: Übersicht über Power BI-Berichtsserver) (in englischer Sprache)  
+* [Was ist der Power BI-Berichtsserver?](get-started.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

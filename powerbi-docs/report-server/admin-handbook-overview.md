@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296386"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721913"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Administratorübersicht, Power BI-Berichtsserver
 Dieser Artikel ist die Administratorübersicht für den Power BI-Berichtsserver, einen lokalen Speicherort zum Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte. In diesem Artikel werden die Planungs-, Bereitstellungs- und Verwaltungskonzepte Ihres Power BI-Berichtsservers mit Links zu weiteren Informationen eingeführt.
@@ -24,7 +24,7 @@ Dieser Artikel ist die Administratorübersicht für den Power BI-Berichtsserver,
 
 
 ## <a name="installing-and-migration"></a>Installation und Migration
-Sie müssen Power BI-Berichtsserver installieren, um damit arbeiten zu können. Wir bieten Ihnen eine Anleitung zum Erledigen dieser Aufgabe.
+Sie müssen Power BI-Berichtsserver installieren, um damit arbeiten zu können. Es sind Artikel verfügbar, die erläutern, wie diese Aufgabe behandelt wird.
 
 Sehen Sie sich vor dem Installieren oder Upgraden von bzw. Migrieren zu Power BI-Berichtsserver die [Systemanforderungen](system-requirements.md) für den Berichtsserver an.
 

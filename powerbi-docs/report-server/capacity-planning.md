@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561814"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.
@@ -49,7 +50,7 @@ Die Bereitstellung von Power BI-Berichtsserver umfasste die folgenden virtuellen
 In Anhang 1.1, „Topologie von Power BI-Berichtsserver“ und Anhang 1.2, „Konfiguration des virtuellen Power BI-Berichtsserver-Computers“ finden Sie genaue Informationen zur Konfiguration der einzelnen virtuellen Computer in der Topologie.
 
 ### <a name="tests"></a>Tests
-Die in den Auslastungstests verwendeten Tests sind in einem GitHub-Projekt mit dem Namen „Reporting Services LoadTest“ (in englischer Sprache) öffentlich verfügbar (siehe https://github.com/Microsoft/Reporting-Services-LoadTest)). Mit diesem Tool können Benutzer die Eigenschaften von SQL Server Reporting Services und Power BI-Berichtsserver im Hinblick auf Leistung, Zuverlässigkeit, Skalierbarkeit und Wiederherstellbarkeit untersuchen. Dieses Projekt besteht aus vier Gruppen von Testfällen:
+Die in den Auslastungstests verwendeten Tests sind in einem GitHub-Projekt mit dem Namen [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) (in englischer Sprache) öffentlich verfügbar. Mit diesem Tool können Benutzer die Eigenschaften von SQL Server Reporting Services und Power BI-Berichtsserver im Hinblick auf Leistung, Zuverlässigkeit, Skalierbarkeit und Wiederherstellbarkeit untersuchen. Dieses Projekt besteht aus vier Gruppen von Testfällen:
 
 * Tests, die das Rendern von Power BI-Berichten simulieren,
 * Tests, die das Rendern von mobilen Berichten simulieren,

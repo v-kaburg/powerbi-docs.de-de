@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481783"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Konfigurieren der Kerberos-Authentifizierung zur Verwendung von Power BI-Berichten
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ Sobald die zuvor beschriebene Konfiguration vorhanden ist, sollte Ihr Bericht or
 Wenngleich diese Konfiguration in den meisten Fällen funktionieren sollte, kann für die Kerberos-Authentifizierung abhängig von Ihrer Umgebung eine andere Konfiguration nötig sein. Wenn der Bericht nicht geladen wird, sollten Sie den Domänenadministrator bitten, dies zu untersuchen, oder sich an den Support wenden.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Administratorhandbuch](admin-handbook-overview.md)  
+[Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

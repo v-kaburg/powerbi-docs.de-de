@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721729"
 ---
 # <a name="install-power-bi-report-server"></a>Installieren von Power BI-Berichtsserver
 
@@ -130,7 +131,7 @@ Sie müssen den TCP-Port öffnen, den Sie für Ihre Webdienst-URL und die Webpor
 * Informationen zum Konfigurieren des Webportals, damit Sie auf einem Berichtscomputer darauf zugreifen können, um Berichte anzuzeigen und zu verwalten, finden Sie unter [Konfigurieren einer Firewall für den Berichtsserverzugriff](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) und [Konfigurieren eines Berichtsservers für die Remoteverwaltung](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Administratorhandbuch](admin-handbook-overview.md)  
+[Administratorübersicht](admin-handbook-overview.md)  
 [Ermitteln des Product Key für den Berichtsserver](find-product-key.md)  
 [Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop](install-powerbi-desktop.md)  
 [Überprüfen einer Reporting Services-Installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
