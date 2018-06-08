@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: 'Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite'
                   href: service-print.md
-                - name: Abonnieren eines Berichts oder Dashboards
-                  href: service-report-subscribe.md
-                - name: Viele Möglichkeiten zum Öffnen eines Berichts
-                  href: service-report-open.md
                 - name: Umbenennen von Inhalten in Power BI
                   href: service-rename.md
                 - name: Anzeigen von Dashboards und Berichten im Vollbildmodus (TV-Modus)
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: Berichte
               items:
+                - name: Viele Möglichkeiten zum Öffnen eines Berichts
+                  href: service-report-open.md
                 - name: Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
                   href: power-bi-report-change-sort.md
                 - name: Exportieren von Daten aus einer Visualisierung
                   href: power-bi-visualization-export-data.md
                 - name: Verwenden von Berichtsfiltern
                   href: power-bi-how-to-report-filter.md
+                - name: Abonnieren eines Berichts oder Dashboards
+                  href: service-report-subscribe.md
             - name: Veröffentlichen
               items:
                 - name: Power BI Publisher für Excel
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Arbeiten mit Power BI
           items:
-            - name: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
-              href: service-from-excel-to-stunning-report.md
-            - name: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
-              href: power-bi-tutorial-q-and-a.md
-            - name: Abrufen von Daten aus Excel-Arbeitsmappendateien
-              href: service-excel-workbook-files.md
-            - name: Erstellen eines neuen Berichts aus einem Dataset
-              href: service-report-create-new.md
-            - name: Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: Wie kann ich Dashboards und Berichte freigeben?
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Erstellen und Verteilen von Apps mit Dashboards und Berichten
-              href: service-create-distribute-apps.md
-            - name: Konfigurieren von geplanten Aktualisierungen
-              href: refresh-scheduled-refresh.md
             - name: Dashboards
               items:
                 - name: Erstellen eines Dashboards aus einem Bericht
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: Fragen an Ihre Daten stellen
               items:
+                - name: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
+                  href: power-bi-tutorial-q-and-a.md
                 - name: Verwenden von F&A mit Daten in Power BI Gateway – Unternehmensdaten (Vorschau)
                   href: service-q-and-a-direct-query.md
                 - name: Optimieren Ihrer Daten für Q&A in Power BI
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Freigeben Ihrer Arbeit
               items:
+                - name: Wie kann ich Dashboards und Berichte freigeben?
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: Erstellen und Verteilen von Apps mit Dashboards und Berichten
+                  href: service-create-distribute-apps.md
                 - name: Freigeben eines gefilterten Berichts
                   href: service-share-reports.md
                 - name: Veröffentlichen aus Power BI im Web
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: Speichern eines Berichts in Power BI
                   href: service-report-save.md
+                - name: Erstellen eines neuen Berichts aus einem Dataset
+                  href: service-report-create-new.md
+                - name: Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: In Excel analysieren
                   href: service-analyze-in-excel.md
                 - name: Ändern der Interaktion von Visualisierungen in einem Bericht
@@ -382,6 +376,10 @@
                   href: power-bi-visualizations-arcgis.md
             - name: Daten aus Dateien
               items:
+                - name: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
+                  href: service-from-excel-to-stunning-report.md
+                - name: Abrufen von Daten aus Excel-Arbeitsmappendateien
+                  href: service-excel-workbook-files.md
                 - name: Abrufen von Daten aus Power BI Desktop-Dateien
                   href: service-desktop-files.md
                 - name: Abrufen von Daten aus kommagetrennten Dateien (CSV)
@@ -406,6 +404,8 @@
                   href: service-azure-and-power-bi.md
             - name: Datenaktualisierung
               items:
+                - name: Konfigurieren von geplanten Aktualisierungen
+                  href: refresh-scheduled-refresh.md
                 - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – lokal
                   href: refresh-desktop-file-local-drive.md
                 - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – Cloud
@@ -796,7 +796,7 @@
   items:
     - name: Übersicht
       items:
-        - name: "Was sind die mobilen Power\_BI-Apps?"
+        - name: Welches sind die mobilen Apps?
           href: mobile-apps-for-mobile-devices.md
     - name: Schnellstartanleitungen
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: Konzepte
       items:
-        - name: Neuigkeiten bei den mobilen Apps für Power BI
+        - name: Neuigkeiten bei mobilen Apps
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: Erfassen von realen Power BI-Daten mit den mobilen Apps
+        - name: Erfassen von Daten aus der realen Welt mit den mobilen Apps
           href: mobile-apps-data-in-real-world-context.md
-        - name: "Offlinemodus zum Anzeigen von Daten in mobilen Power\_BI-Apps"
+        - name: Offlinemodus zum Anzeigen von Daten in mobilen Apps
           href: mobile-apps-offline-data.md
+        - name: Power BI for Mixed Reality-App (Vorschauversion)
+          href: mobile-mixed-reality-app.md
     - name: Vorgehensweise
       items:
         - name: Alle mobilen Apps
           items:
             - name: Anzeigen lokaler Berichte in mobilen Apps
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Power BI for Mixed Reality-App (Vorschauversion)
-              href: mobile-mixed-reality-app.md
             - name: Freigeben eines Dashboards in den mobilen Power BI-Apps
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Interagieren mit Kacheln in den mobilen Apps
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Android-Geräte
           items:
-            - name: Erste Schritte mit der Android-App für Power BI
+            - name: Erste Schritte mit der Android-App
               href: mobile-android-app-get-started.md
             - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: Erste Schritte mit der Power BI für iOS-App
+            - name: Erste Schritte mit der iOS-App
               href: mobile-iphone-app-get-started.md
             - name: Erste Schritte mit der iPad-App
               href: mobile-ipad-app-get-started.md
@@ -866,27 +866,27 @@
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch-App
               href: mobile-apple-watch.md
-            - name: Scannen eines Barcodes mit der Power BI-App auf dem iPhone
+            - name: Scannen eines Barcodes mit der App auf dem iPhone
               href: mobile-apps-scan-barcode-iphone.md
             - name: Power BI-Apps für iOS
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS und Android
           items:
-            - name: 'Kommentieren und Freigeben von Kacheln, Berichten oder Visuals in den mobilen Apps'
+            - name: Kommentieren und Freigeben in den mobilen Apps
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: "Power\_BI-App für Windows 10-Geräte"
           items:
-            - name: Erste Schritte mit der mobilen Power BI-App für Windows 10
+            - name: Erste Schritte mit der mobilen App für Windows 10
               href: mobile-windows-10-phone-app-get-started.md
             - name: Anheften eines Dashboards an den Startbildschirm
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Anzeigen von mobilen Reporting Services-Berichten und KPIs in der mobilen Power BI-App für Windows 10
+            - name: Anzeigen von mobilen Reporting Services-Berichten und KPIs in der App für Windows 10
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Anzeigen von Power BI in Surface Hub
               href: mobile-windows-10-app-presentation-mode.md
     - name: Ressourcen
       items:
-        - name: Unterstützte Sprachen der mobilen Power BI-Apps
+        - name: Unterstützte Sprachen der mobilen Apps
           href: mobile-apps-supported-languages.md
 - name: Power BI für Entwickler
   items:
@@ -914,8 +914,6 @@
           items:
             - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Überprüfen von benutzerdefinierten Visualisierungen auf Sicherheit und Datenschutz
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: Zertifizierung von benutzerdefinierten Visuals
               href: power-bi-custom-visuals-certified.md
             - name: Veröffentlichen von benutzerdefinierten Visuals in AppSource
@@ -983,7 +981,7 @@
     - name: Referenz
       items:
         - name: REST-APIs
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Power BI-C#-Git-Repository'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET-SDK-Download

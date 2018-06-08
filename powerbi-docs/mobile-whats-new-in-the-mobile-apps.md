@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482174"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799623"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -25,9 +25,26 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 ## <a name="may-2018"></a>May 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Remotekonfiguration von mobilen Power BI-Apps für iOS für Berichtsserver
+### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiler Drillthrough: alle mobilen Apps
+
+Sie können in den mobilen Apps einen Drillthrough von einem ausgewählten Datenpunkt zu einer anderen Berichtsseite ausführen, wenn der Autor des Berichts diese Aktion definiert hat. 
+
+### <a name="back-button-all-mobile-apps"></a>Schaltfläche „Zurück“: alle mobilen Apps
+
+Wenn Sie mit Wischbewegungen durch einen Bericht navigieren, in der Aktionsleiste eine Berichtsseite auswählen oder einen Drillthrough ausführen, kehren Sie mit der Schaltfläche „Zurück“ zu der letzten Seite zurück, die Sie sich angesehen haben. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Dashboarddesigns: alle mobilen Apps
+
+Wenn Berichtsautoren Dashboarddesigns im Power BI-Dienst anpassen, ändern sich auch Aussehen und Verhalten der Dashboards in der mobilen App. Es werden jedoch keine Hintergrundbilder angezeigt.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf einen Berichtsserver
 
 Ihr IT-Administrator kann jetzt ein MDM-Tool verwenden, um den Zugriff mobiler Power BI-Apps für iOS auf einen Berichtsserver zu konfigurieren. Weitere Informationen finden Sie unter [Configure Power BI iOS mobile app access to a report server remotely (Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver)](report-server/configure-powerbi-mobile-apps-remote.md).
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
+
+Die Power BI für Mixed Reality-App ist jetzt im Microsoft Store verfügbar. Zeigen Sie Ihre Dashboards und Berichte an, während Sie sich in der virtuellen Welt befinden, oder platzieren Sie sie bzw. zeigen Sie sie in Ihrer Umgebung an bestimmten Speicherorten an. Weitere Informationen finden Sie im Video [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Einführung von Power BI in Hololens) sowie im Artikel über die neue [Power BI für Mixed Reality-App](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>April 2018
 

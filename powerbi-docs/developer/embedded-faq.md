@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721016"
+ms.locfileid: "34754930"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -103,8 +103,7 @@ Authentifizierung und Autorisierung der Anwendungsbenutzer werden vom ISV implem
 
 Wenn Sie bereits über einen Azure AD-Mandanten verfügen, können Sie das vorhandene Verzeichnis verwenden oder einen neuen Azure AD-Mandanten zum Schutz der Inhalte in der Embedded-Anwendung erstellen.
 
-Um ein AAD-Token abzurufen, können Sie eine der Azure Active Directory-Authentifizierungsbibliotheken verwenden. Es sind Clientbibliotheken für mehrere Plattformen verfügbar.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+Um ein AAD-Token abzurufen, können Sie eine der Azure Active Directory-Authentifizierungsbibliotheken verwenden: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Es sind Clientbibliotheken für mehrere Plattformen verfügbar.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Worin unterscheidet sich Power BI Embedded von anderen Azure-Diensten?
 
