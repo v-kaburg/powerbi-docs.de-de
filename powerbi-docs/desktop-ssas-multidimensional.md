@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286150"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799577"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
@@ -98,3 +98,7 @@ Die folgenden Features von SSAS MD werden in Power BI Desktop unterstützt:
   * ImageUrls
   * Dimensionssicherheit
 
+## <a name="troubleshooting"></a>Problembehandlung 
+In der folgenden Liste sind alle bekannten Probleme beim Verbinden mit SQL Server Analysis Services (SSAS) aufgeführt. 
+
+* **Error: Couldn't load model schema** (Fehler: Modellschema konnte nicht geladen werden.): Dieser Fehler tritt normalerweise nur dann auf, wenn der Benutzer, der versucht, eine Verbindung mit Analysis Services herzustellen, keine Zugriffsberechtigungen für die Datenbank/den Cube besitzt.

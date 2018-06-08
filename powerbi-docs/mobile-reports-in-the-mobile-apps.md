@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297674"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799416"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -81,25 +81,30 @@ Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht
    ![Visual sortieren](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Um die Sortierreihenfolge umzukehren, tippen Sie erneut auf die Auslassungspunkte (**...**), und tippen Sie dann erneut auf den gleichen Feldnamen.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Durchführen eines Drilldowns auf einem iPad oder Tablet
-Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie auf einem iPad oder Tablet einen Drilldown in einem Visual ausführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](power-bi-visualization-drill-down.md). 
+## <a name="drill-down-and-up-in-a-visual"></a>Durchführen eines Drilldowns und Drillups in einem Visual
+Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie einen Drilldown in einem Visual durchführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](power-bi-visualization-drill-down.md). 
 
-> [!NOTE]
-> Derzeit können auf einem iPad oder Tablet keine Drilldowns für Karten ausgeführt werden.
-> 
-> 
+* Tippen Sie auf einen Datenpunkt in einem Visual, um die QuickInfo anzuzeigen. Wenn ein Drilldown möglich ist, können Sie am unteren Rand der QuickInfo auf Pfeile tippen. 
+  
+  ![Durchführen von Drilldown in einem visuellen Element](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Tippen Sie auf ein visuelles Element. Wenn das Element in den oberen Ecken Aufwärtspfeile und Abwärtspfeile ![Symbole für Drillup und Drilldown](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)enthält, kann ein Drilldown ausgeführt werden. Um einen Drilldown auf einen Wert durchzuführen, tippen Sie auf den Pfeil in der oberen rechten Ecke, und tippen Sie dann auf einen Wert im Visual – in diesem Fall auf die dunkelblaue Blase „FD-04“.
+* Um per Drillup zurückzugelangen, tippen Sie auf den Aufwärtspfeil in der QuickInfo.
   
-  ![Durchführen von Drilldown in einem visuellen Element](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Um per Drillup zurückzugelangen, tippen Sie auf den Aufwärtspfeil links oben.
-  
-  ![Drillup](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Drillup](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Zurückkehren zu „Mein Arbeitsbereich“
-* Tippen Sie auf den Pfeil neben dem Berichtsnamen, und tippen Sie dann auf **Mein Arbeitsbereich**.
-  
-  ![Zurückkehren](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Sie können auch einen Drilldown für alle Datenpunkte in einem Visual durchführen. Öffnen Sie es im Fokusmodus, tippen Sie auf das Symbol „Durchsuchen“, und klicken Sie dann auf „Nächste Ebene anzeigen“, oder erweitern Sie das Visual, sodass die aktuelle und die nächste Ebene angezeigt wird.
+
+   ![Drilldown für alle Datenpunkte in Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Drillthrough von einer Seite zu einer anderen
+
+Wenn Sie beim *Drillthrough* auf einen bestimmten Teil eines Visual tippen, gelangen Sie zu einer anderen Berichtsseite, die nach dem Wert gefiltert ist, auf den Sie getippt haben. Der Autor eines Berichts kann mindestens eine Drillthroughoption festlegen, durch die Sie auf eine andere Seite weitergeleitet werden. In diesem Fall können Sie entscheiden, auf welche Seite Sie einen Drillthrough durchführen möchten. In folgendem Beispiel können Sie zwischen **spent by business area** und **planning by business area** wählen, wenn Sie auf einen Wert auf dem Messgerät tippen.
+
+![Power BI Mobile: Drillthrough für einen Bericht](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Wenn Sie einen Drillthrough durchführen, gelangen Sie über die Schaltfläche „Zurück“ auf die vorherige Berichtsseite.
+
+Erfahren Sie, wie Sie [Drillthrough in Power BI Desktop verwenden](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anzeigen von und Interagieren mit Power BI-Berichten, die für das Smartphone optimiert sind](mobile-apps-view-phone-report.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722998"
+ms.locfileid: "34755068"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
@@ -149,6 +149,9 @@ In diesem Fall müssen Sie mit Ihren Domänenadministratoren zusammenarbeiten, u
 **Datengateway-Datenquellen können nicht in der Datenabrufumgebung aus dem Power BI-Dienst für Analysis Services angezeigt werden**
 
 Stellen Sie sicher, dass Ihr Konto auf der Registerkarte **Benutzer** der Datenquelle in der Gateway-Konfiguration aufgelistet ist. Wenn Sie keinen Zugriff auf das Gateway haben, wenden Sie sich an den Administrator des Gateways und bitten Sie ihn um die Überprüfung. Die in der Analysis Services-Liste aufgeführte Datenquelle ist nur für Konten in der Liste **Benutzer** sichtbar.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Error: You don't have any gateway installed or configured for the data sources in this dataset (Fehler: Für die Datenquellen in diesem Dataset wurde kein Gateway installiert oder konfiguriert.)
+Stellen Sie sicher, dass Sie mindestens eine Datenquelle zum Gateway hinzugefügt haben. Der Vorgang wird im Abschnitt „Hinzufügen einer Datenquelle“ unter [Verwalten eines Power BI-Gateways](service-gateway-manage.md#add-a-data-source) beschrieben. Wenn das Gateway nicht im Verwaltungsportal unter **Gateways verwalten** aufgeführt wird, löschen Sie den Cache Ihres Browsers, oder melden Sie sich ab und dann wieder an.
 
 ## <a name="datasets"></a>Datasets
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Fehler: Für diese Zeile ist nicht ausreichend Platz vorhanden.

@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297881"
+ms.locfileid: "34754907"
 ---
 # <a name="what-are-power-bi-gateways"></a>Was sind Power BI-Gateways?
 
 Ein Power BI-Gateway ist eine Softwareanwendung, die Sie in einem lokalen Netzwerk installieren. Es ermöglicht Zugriff auf Daten in diesem Netzwerk. Es handelt sich dabei um eine Art Torwächter, der Verbindungsanforderungen überwacht und diese nur zulässt, wenn die Benutzeranforderung bestimmte Kriterien erfüllt. So können Organisationen Datenbanken und andere Datenquellen in ihren eigenen Netzwerken behalten, diese lokalen Daten aber sicher in Power BI-Berichten und -Dashboards verwenden.
 
-Das folgende Diagramm zeigt eine grundlegende Ansicht, in der das Gateway Anforderungen aus der Cloud für drei lokale Computer verarbeitet. Dies wird weiter unten in diesem Artikel erläutert.
+Ein Gateway kann für eine oder mehrere Datenquellen verwendet werden. Das folgende Diagramm zeigt eine grundlegende Ansicht, in der das Gateway Anforderungen aus der Cloud für drei lokale Computer verarbeitet. Dies wird weiter unten in diesem Artikel erläutert.
 
 ![Übersicht über Gateways](media/service-gateway-getting-started/gateway-overview.png)
 

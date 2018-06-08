@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294684"
+ms.locfileid: "34755321"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als *Cortana-Antwortkarten*) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
@@ -46,6 +46,12 @@ Die Größe einer *Cortana-Antwortseite* in einem Bericht ist speziell für Cort
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Erstellen Sie eine oder mehrere Visualisierungen, die in Cortana als Antwort auf eine bestimmte Frage (oder eine Reihe von Fragen) angezeigt werden sollen.
+
+> [!NOTE]
+> Momentan unterstützten Cortana-Antwortseiten keine Bilder, auf denen statische Bilder zu sehen sind. Sie können Bilder in Tabellen- oder Matrixvisuals einbeziehen, die dynamisch mithilfe von Pull basierend auf einer URL in Ihren Daten übertragen werden. 
+> 
+> 
+
 4. Stellen Sie sicher, dass alle Visualisierungen auf die Seite passen. Ändern Sie optional die Anzeigeoptionen, Datenbeschriftungen, Farben und Hintergründe.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)
