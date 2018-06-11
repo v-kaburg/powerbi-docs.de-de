@@ -1,6 +1,6 @@
 - name: Verwenden von Power BI
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist Power BI?
           href: power-bi-overview.md
@@ -462,7 +462,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -794,7 +794,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Mobile Power BI-Apps
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Welches sind die mobilen Apps?
           href: mobile-apps-for-mobile-devices.md
@@ -890,7 +890,7 @@
           href: mobile-apps-supported-languages.md
 - name: Power BI für Entwickler
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Welche Möglichkeiten bietet Power BI Entwicklern?
           href: developer/what-can-you-do.md
@@ -1004,7 +1004,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Power BI-Berichtsserver
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist der Power BI-Berichtsserver?
           href: report-server/get-started.md
@@ -1106,7 +1106,7 @@
           href: report-server/capacity-planning.md
 - name: Gateways
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was sind Power BI-Gateways?
           href: service-gateway-getting-started.md
@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: Verwalten der Enterprisedatenquelle – Import/Geplante Aktualisierung
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Zusammenführen von lokalen und Clouddatenquellen
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: 'Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO)'
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Konfigurierung von Proxyeinstellungen
@@ -1152,7 +1154,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Verwaltung
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist die Power BI-Verwaltung?
           href: service-admin-administering-power-bi-in-your-organization.md
