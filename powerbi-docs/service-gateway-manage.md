@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722587"
+ms.locfileid: "34755160"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Verwalten eines Power BI-Gateways
 
-Nachdem Sie [ein Power BI-Datengateway installiert haben](service-gateway-install.md), können Sie es im Bereich **Gateways verwalten** des Power BI-Diensts, in der Gateway-App auf Ihrem lokalen Computer oder mit PowerShell-Skripts verwalten. In diesem Artikel geht es primär um den Power BI-Dienst. Wenn Sie bereits ein Gateway installiert haben, sollten Sie als Nächstes [eine Datenquelle hinzufügen](#add-a-data-source) und dann [Benutzer hinzufügen](#add-users-to-a-data-source), sodass diese auf die Datenquelle zugreifen können.
+Nach dem [Installieren eines Power BI-Datengateways](service-gateway-install.md) können Sie dieses basierend auf Ihren Anforderungen verwalten. In diesem Thema erfahren Sie, wie Sie folgende Aktionen ausführen: Hinzufügen und Entfernen von Datenquellen und Benutzern, Neustart eines Gateways sowie Migrieren, Wiederherstellen, Übernehmen und Entfernen eines Gateways. 
+
+Sie können ein Gateway im Bereich **Gateways verwalten** des Power BI-Diensts, in der Gateway-App auf Ihrem lokalen Computer oder mit PowerShell-Skripts verwalten. In diesem Artikel geht es primär um den Power BI-Dienst. 
+
+Wenn Sie bereits ein Gateway installiert haben, sollten Sie als Nächstes [eine Datenquelle hinzufügen](#add-a-data-source) und dann [Benutzer hinzufügen](#add-users-to-a-data-source), sodass diese auf die Datenquelle zugreifen können.
 
 
 ## <a name="manage-data-sources"></a>Verwalten von Datenquellen
 
-Power BI unterstützt viele lokale Datenquellen, von denen jede eigene Anforderungen aufweist. In diesem Beispiel zeigen wir Ihnen, wie Sie SQL Server als Datenquelle hinzufügen, die Schritte sind für andere Datenquellen aber die gleichen.
+Power BI unterstützt viele lokale Datenquellen, von denen jede eigene Anforderungen aufweist. Ein Gateway kann für eine oder mehrere Datenquellen verwendet werden. In diesem Beispiel zeigen wir Ihnen, wie Sie SQL Server als Datenquelle hinzufügen, die Schritte sind für andere Datenquellen aber die gleichen.
 
 
 ### <a name="add-a-data-source"></a>Hinzufügen einer Datenquelle
@@ -113,6 +117,14 @@ Wenn Administratoren im **Power BI-Dienst** das Zahnradsymbol und dann **Gateway
 
 Alle neuen Anforderungen für eine **geplante Aktualisierung** und DirectQuery-Vorgänge werden automatisch an die primäre Instanz eines Gatewayclusters weitergeleitet. Wenn die primäre Gatewayinstanz nicht online ist, wird die Anforderung an eine andere Gatewayinstanz im Cluster weitergeleitet.
 
+
+## <a name="share-a-gateway"></a>Freigeben eines Gateways
+
+Sie können ein Gateway an sich nicht *freigeben*, aber Sie können dem Gateway Administratoren und den Datenquellen des Gateways Benutzer hinzufügen. 
+
+Nachdem Sie ein Gateway installiert haben, sind Sie standardmäßig der Administrator dieses Gateways. Wie bereits erwähnt, können Sie weitere Benutzer als Administratoren hinzufügen. Diese Administratoren können Datenquellen hinzufügen sowie das Gateway konfigurieren und entfernen.
+
+Sie können den Datenquellen, die Sie in jedem Gateway erstellen, auch Benutzer zuweisen. Benutzer können diese Datenquellen dann verwenden, um Power BI-Berichte zu aktualisieren. Sie können allerdings weder die Datenquellen selbst noch die Gatewayeinstellungen ändern.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Migrieren, Wiederherstellen oder Übernehmen eines Gateways
 
