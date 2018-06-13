@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689781"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813501"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded
 Erfahren Sie, wie Sie Inhalte aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded migrieren und die Vorteile für das Einbetten in Apps nutzen.
@@ -159,7 +159,7 @@ Zusätzlich zu dem Inhalt, den Sie aus dem Power BI-Arbeitsbereich migriert habe
 
 ## <a name="rebuild-your-application"></a>Erneutes Erstellen der Anwendung
 1. Sie müssen Ihre Anwendung ändern, um die Power BI-REST-APIs und den Speicherort des Berichts in „powerbi.com“ zu verwenden.
-2. Erstellen Sie die AuthN-/AuthZ-Authentifizierung unter Verwendung des *Masterkontos* für Ihre Anwendung neu. Sie können dabei ein [Einbettungstoken](https://msdn.microsoft.com/library/mt784614.aspx) verwenden, damit dieser Benutzer im Auftrag anderer Benutzer handeln kann.
+2. Erstellen Sie die AuthN-/AuthZ-Authentifizierung unter Verwendung des *Masterkontos* für Ihre Anwendung neu. Sie können dabei ein [Einbettungstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) verwenden, damit dieser Benutzer im Auftrag anderer Benutzer handeln kann.
 3. Betten Sie Ihre Berichte auf „powerbi.com“ in Ihrer Anwendung ein.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Zuordnen der Benutzer zu einem Power BI-Benutzer

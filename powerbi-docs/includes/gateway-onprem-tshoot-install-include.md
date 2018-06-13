@@ -4,8 +4,6 @@ Viele Probleme können auftreten, wenn die Gatewayversion veraltet ist.  Es ist 
 ## <a name="common-issues"></a>Häufige Probleme
 Im Folgenden werden einige häufig auftretenden Probleme und Lösungen aufgeführt, die von Kunden in Umgebungen mit eingeschränktem Zugriff auf das Internet erfolgreich eingesetzt wurden.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Authentifizierung beim Proxyserver
 Für Ihren Proxyserver ist möglicherweise eine Authentifizierung über ein Domänenbenutzerkonto erforderlich. Standardmäßig verwendet das Gateway eine Dienst-SID für den Anmeldebenutzer im Windows-Dienst. Dieses Problem kann durch das Ändern des Anmeldebenutzers in einen Domänenbenutzer behoben werden. Weitere Informationen finden Sie unter [Ändern des Gateway-Dienstkontos in einen Domänenbenutzer](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user).
 

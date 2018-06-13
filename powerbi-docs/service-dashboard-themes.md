@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722518"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813800"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Verwenden von Dashboarddesigns im Power BI-Dienst
 Mit **Dashboarddesigns** können Sie einem Dashboard ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Dashboarddesigns** zuweisen, verwenden alle Visualisierungen des Dashboards die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
 
 ![Beispieldashboard mit Design](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Wenn Sie die Farben der Berichtsvisuals auf dem Dashboard ändern, wirkt sich das nicht auf die Visuals im Bericht aus. Wenn Sie Kacheln eines Berichts anheften, [auf die bereits ein Berichtsdesign angewendet wurde](/desktop-report-themes.md), können Sie sich entscheiden, ob Sie das aktuelle Design beibehalten oder das Dashboarddesign verwenden möchten.
+Wenn Sie die Farben der Berichtsvisuals auf dem Dashboard ändern, wirkt sich das nicht auf die Visuals im Bericht aus. Wenn Sie Kacheln eines Berichts anheften, [auf die bereits ein Berichtsdesign angewendet wurde](desktop-report-themes.md), können Sie sich entscheiden, ob Sie das aktuelle Design beibehalten oder das Dashboarddesign verwenden möchten.
 
 
 ## <a name="prerequisites"></a>Voraussetzungen
