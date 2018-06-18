@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813363"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrieren eines Berichts in eine App für Ihre Organisation
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API einen Bericht in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -27,10 +28,14 @@ Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI**-Konto. W
 > 
 > 
 
-Zum Integrieren eines Berichts in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um einen Bericht abzurufen. Dann laden Sie den Bericht mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie unter [Übersicht über Power BI-REST-API](https://msdn.microsoft.com/library/dn877544.aspx) und [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Zum Integrieren eines Berichts in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um einen Bericht abzurufen. Dann laden Sie den Bericht mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie in den Artikeln zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) und der [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Beispiel herunterladen
 Diesem Artikel liegt der im [Beispiel zum Integrieren eines Berichts in eine Web-App – integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) auf GitHub verwendete Code zugrunde. Laden Sie das Beispiel herunter, um die exemplarische Vorgehensweise nachvollziehen zu können.
+
+Sie können auch das [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup/UserOwnsData) verwenden, um schnell eine Beispielanwendung herunterzuladen und mit der Arbeit zu beginnen.
+
+Wenn Sie jedoch die Umgebung manuell einrichten möchten, können Sie weiter unten fortfahren.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Schritt 1 – Registrieren einer App in Azure AD
 Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausführen zu können. Weitere Informationen finden Sie unter [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md).
@@ -43,10 +48,10 @@ Wenn Sie das [Beispiel zum Integrieren eines Berichts in eine Web-App – integr
 In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufen, ehe Sie die Power BI-REST-API aufrufen können. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-report"></a>Schritt 3: Abrufen eines Berichts
-Zum Abrufen eines **Power BI**-Berichts verwenden Sie den Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen), um eine Liste der **Power BI**-Berichte abzurufen. Aus der Liste der Berichte können Sie eine Berichts-ID abrufen.
+Zum Abrufen eines **Power BI**-Berichts verwenden Sie den Vorgang [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Berichte abrufen), um eine Liste der **Power BI**-Berichte abzurufen. Aus der Liste der Berichte können Sie eine Berichts-ID abrufen.
 
 ### <a name="get-reports-using-an-access-token"></a>Abrufen von Berichten mithilfe eines Zugriffstokens
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) aufrufen. Der Vorgang [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen) gibt eine Liste der Berichte zurück. Anhand der Liste der Berichte können Sie einen einzelnen Bericht abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Berichts. 
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Berichte abrufen) aufrufen. Der Vorgang [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Berichte abrufen) gibt eine Liste der Berichte zurück. Anhand der Liste der Berichte können Sie einen einzelnen Bericht abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Berichts. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 
@@ -213,7 +218,7 @@ Wenn Sie das [Beispiel zum Integrieren eines Berichts in eine Web-App – integr
 ![Beispiel für eingebetteten Bericht](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Arbeiten mit Gruppen (App-Arbeitsbereiche)
-Zum Einbetten eines Berichts aus einer Gruppe (App-Arbeitsbereich) müssen Sie die Liste aller verfügbaren Berichte im Dashboard einer Gruppe mit dem folgenden REST-API-Aufruf abrufen. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Berichte abrufen). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
+Zum Einbetten eines Berichts aus einer Gruppe (App-Arbeitsbereich) müssen Sie die Liste aller verfügbaren Berichte im Dashboard einer Gruppe mit dem folgenden REST-API-Aufruf abrufen. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Berichte abrufen). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

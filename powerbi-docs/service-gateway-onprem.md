@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722814"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812811"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -47,7 +47,9 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Herunterladen und Installieren von On-premises Data Gateway
-Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
+Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter. 
+
+Beachten Sie, dass das Aktualisieren des lokalen Datengateways durch dessen Neuinstallation erreicht wird, wie in diesem Abschnitt beschrieben wird. Wenn Sie das Gateway (durch Neuinstallation) aktualisieren, werden Ihre vorhandenen Gatewayeinstellungen beibehalten.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunt
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Installieren Sie das Gateway im Modus „Persönliches Gateway“.
 > [!NOTE]
-> Der persönliche Modus funktioniert nur mit Power BI.
-> 
-> 
+> Die persönliche Version des Gateways funktioniert nur mit Power BI.
+
 
 Nach der Installation des persönlichen Gateways müssen Sie den **Konfigurations-Assistenten für Power BI Gateway – Personal** starten.
 

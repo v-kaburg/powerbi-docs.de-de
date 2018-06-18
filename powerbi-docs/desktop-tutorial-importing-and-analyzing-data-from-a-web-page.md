@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34455994"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813179"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analysieren von Webseitendaten mit Power BI Desktop
 
@@ -31,6 +31,8 @@ Wenn Sie Fußballfan sind, möchten Sie vielleicht eine Übersicht über alle Eu
 Sie können die Daten zu den Europameistern aus der Ergebnistabelle auf der Wikipedia-Seite zur UEFA-Fußball-Europameisterschaft unter http://en.wikipedia.org/wiki/UEFA_European_Football_Championship abrufen. 
 
 ![Ergebnistabelle in Wikipedia](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+Beachten Sie, dass Webverbindungen nur mithilfe der Standardauthentifizierung hergestellt werden. Websites, die eine Authentifizierung erfordern, funktionieren möglicherweise nicht ordnungsgemäß mit dem Web-Connector.
 
 So importieren Sie die Daten:
 

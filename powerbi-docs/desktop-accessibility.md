@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290750"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812926"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 **Power BI Desktop** verfügt über Funktionen, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit **Power BI Desktop**-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -66,6 +66,23 @@ Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berich
 * Stellen Sie sicher, dass in Ihren Berichten ein ausreichender Kontrast zwischen Text- und Hintergrundfarben vorhanden ist.
 * Verwenden Sie Textgrößen und -schriftarten, die leicht lesbar sind. Kleine Textgrößen oder -schriftarten, die schwierig zu lesen sind, verringern die Barrierefreiheit.
 * Schließen Sie in alle Visuals einen Titel, Achsenbezeichnungen und Datenbezeichnungen ein.
+
+## <a name="high-contrast-support-for-reports"></a>Unterstützung für hohen Berichtskontrast
+
+Wenn Sie unter Windows einen der Modi für hohen Kontrast verwenden, gelten die ausgewählten Einstellungen und die Palette auch für Berichte in **Power BI Desktop**. 
+
+![Windows-Einstellungen für hohen Kontrast](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop** erkennt automatisch, welches Design für hohen Kontrast unter Windows verwendet wird, und wendet diese Einstellungen auf Ihre Berichte an. Der Bericht ist auch nach der Veröffentlichung im Power BI-Dienst oder einem anderen Dienst in diesen kontrastreichen Farben gehalten.
+
+![Windows-Einstellungen für hohen Kontrast](media/desktop-accessibility/accessibility_05b.png)
+
+Der Power BI-Dienst versucht auch, die für Windows ausgewählten Kontrasteinstellungen zu erkennen. Wie effektiv und genau diese Erkennung ist, hängt jedoch von dem Browser ab, in dem der Power BI-Dienst verwendet wird. Wenn Sie das Design im Power BI-Dienst manuell festlegen möchten, klicken Sie auf **Ansicht > Farben mit hohem Kontrast**, und wählen Sie dann das Design aus, das Sie auf den Bericht anwenden möchten.
+
+![Festlegen eines hohen Kontrasts im Power BI-Dienst](media/desktop-accessibility/accessibility_06.png)
+
+In **Power BI Desktop** spiegeln einige Bereiche, z.B. die Felder **Visualisierungen** und **Felder**, nicht die Auswahl des Windows-Farbschemas mit hohem Kontrast wider.
+
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Es gibt einige bekannte Probleme und Einschränkungen bei den Barrierefreiheitsfeatures. Diese werden in der folgenden Liste beschrieben:

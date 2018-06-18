@@ -1,26 +1,27 @@
 ---
-title: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
-description: Hier erhalten Sie Informationen dazu, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit Reporting Services 2016 oder höher herzustellen.
+title: Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
+description: In diesem Artikel erfahren Sie, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit Reporting Services 2016 oder höher herzustellen.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852208"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
-Hier erhalten Sie Informationen dazu, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit Reporting Services 2016 oder höher herzustellen.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
+In diesem Artikel erfahren Sie, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit dem Power BI-Berichtsserver und SQL Server Reporting Services 2016 oder höher herzustellen.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-In der Vergangenheit hat die mobile Power BI-App nur die einfache Authentifizierung über HTTPS für Reporting Services unterstützt, um mobile Berichte oder KPIs anzuzeigen. Viele Organisationen erlauben diese Art der Konfiguration aus Sicherheitsgründen nicht. Mit einem Update der mobilen Power BI-App können Sie nun OAuth für die Verbindung mit Reporting Services verwenden. Windows Server 2016 enthält einige Verbesserungen der Rolle „Webanwendungsproxy“, um diese Art der Authentifizierung zu ermöglichen.
+Mit OAuth können Sie eine Verbindung zum Power BI-Berichtsserver und Reporting Services herstellen, um mobile Berichte oder KPIs anzuzeigen. Windows Server 2016 enthält einige Verbesserungen der Rolle „Webanwendungsproxy“ (WAP), um diese Art der Authentifizierung zu ermöglichen. Beachten Sie, dass diese Konfiguration die Anzeige von Power BI-Berichten in mobilen Power BI-Apps nicht unterstützt. Sie können sie jedoch in einem Browser auf einem mobilen Gerät aufrufen. Sie müssen die Windows-Authentifizierung verwenden, um Power BI-Berichte in der mobilen App anzuzeigen.
 
 ## <a name="requirements"></a>Anforderungen
 Für den WAP-Server (Web Application Proxy, Webanwendungsproxy) und ADFS-Server (Active Directory Federation Services, Active Directory-Verbunddienste) ist Windows Server 2016 erforderlich. Sie benötigen keine Windows 2016-Domänenfunktionsebene.
@@ -202,7 +203,8 @@ Nachdem Sie **Anmelden** ausgewählt haben, werden die Elemente vom Reporting Se
 Sie können die Multi-Factor Authentication aktivieren, um die Sicherheit für Ihre Umgebung zu erhöhen. Weitere Informationen finden Sie unter [Konfigurieren von AD FS 2016 und Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Problembehandlung
-**Folgender Fehler wird angezeigt: „Fehler beim Anmelden beim SSRS-Server. Überprüfen Sie die Serverkonfiguration.“**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Folgender Fehler wird angezeigt: „Fehler beim Anmelden beim SSRS-Server. Überprüfen Sie die Serverkonfiguration.“
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

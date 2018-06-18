@@ -7,18 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/07/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f88ad90ddf0cd9315a3a3830a01b038d7300c1c9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852346"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
 > [!NOTE]
-> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Es wird empfohlen, anstelle von organisationsbezogenen Inhaltspaketen oder schreibgeschützten Arbeitsbereichen Apps zu verwenden. [Weitere Informationen über Apps](service-install-use-apps.md)
+> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Da Organisationsinhaltspakete bald veraltet sind, wird stattdessen die Verwendung von Apps empfohlen. [Weitere Informationen über Apps](service-install-use-apps.md)
 > 
 > 
 

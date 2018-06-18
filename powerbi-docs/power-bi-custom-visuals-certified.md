@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297007"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813593"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
 ## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
@@ -90,6 +90,7 @@ Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zert
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Video](https://youtu.be/qJ7s_KrGiUU) |
 | [Gantt-Diagramm von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Video](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Grid by MAQ Software (Raster von MAQ Software)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [Video](https://youtu.be/VOPoDJgZfOY) |
 | [Hierarchiediagramm von Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Video](https://youtu.be/0ZGzJaq_KT4) |
 | [Histogramm](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Histogramm mit Punkten von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Video](https://youtu.be/-ILF--wExrw) |

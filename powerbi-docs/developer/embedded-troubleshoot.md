@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720809"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813156"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -108,7 +108,7 @@ Bei GenerateToken kann bei Angabe einer effektiven Identität aus verschiedenen 
 
 Um den Fehler zu ermitteln, versuchen Sie Folgendes:
 
-* Führen Sie [get dataset](https://msdn.microsoft.com/library/mt784653.aspx) aus. Hat die Eigenschaft IsEffectiveIdentityRequired den Wert „true“?
+* Führen Sie den Vorgang [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets) aus. Hat die Eigenschaft IsEffectiveIdentityRequired den Wert „true“?
 * Der Benutzername ist für jede EffectiveIdentity obligatorisch.
 * Wenn IsEffectiveIdentityRolesRequired „true“ ist, ist die Rolle erforderlich.
 * DatasetId ist für jede EffectiveIdentity obligatorisch.

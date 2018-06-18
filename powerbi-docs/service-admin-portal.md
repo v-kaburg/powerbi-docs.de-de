@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755137"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301824"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -218,10 +218,13 @@ Benutzer in der Organisation können Excel verwenden, um lokale Power BI-Dataset
 > [!NOTE]
 > Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** verwenden.
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Verwenden von ArcGIS Maps für Power BI (Vorschau)
+### <a name="use-arcgis-maps-for-power-bi"></a>Verwenden von ArcGIS Maps for Power BI
 
-Benutzer in der Organisation können ArcGIS Maps von ESRI für Power BI-Visualisierungen (Vorschau) verwenden. [Weitere Informationen](power-bi-visualization-arcgis.md)
+Benutzer in der Organisation können die Visualisierung ArcGIS Maps for Power BI von Esri verwenden. [Weitere Informationen](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>Verwenden der globalen Suche für Power BI (Vorschau)
+
+Benutzer in der Organisation können externe Suchfeatures verwenden, die auf Azure Search basieren. Benutzer können beispielsweise Cortana zum Abrufen wichtiger Informationen direkt aus Power BI-Dashboards und -Berichten verwenden. [Weitere Informationen](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Einstellungen für benutzerdefinierte Visuals
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Aktivieren benutzerdefinierter Visuals für die gesamte Organisation

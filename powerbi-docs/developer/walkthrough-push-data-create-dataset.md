@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290313"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812420"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Schritt 3: Erstellen eines Datasets in Power BI
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
 
-In **Schritt 2** von „Übertragen von Daten in ein Dataset per Push“ ([Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)) haben Sie ein Token für die Authentifizierung bei **Azure AD** abgerufen. In diesem Schritt verwenden Sie das Token zum Aufrufen des Vorgangs [Dataset erstellen](https://msdn.microsoft.com/library/mt203562.aspx).
+In **Schritt 2** von „Übertragen von Daten in ein Dataset per Push“ ([Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)) haben Sie ein Token für die Authentifizierung bei **Azure AD** abgerufen. In diesem Schritt verwenden Sie das Token zum Aufrufen des Vorgangs [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
 Um einen Aufruf einer anderen Ressource zu erstellen, verwenden Sie eine URL zum Bestimmen der Ressource und senden eine JSON-Zeichenfolge (JavaScript Object Notation), die das Dataset beschreibt, an die Power BI-Dienstressource. Eine REST-Ressource gibt den Teil des Power BI-Diensts an, mit dem Sie arbeiten möchten. Beim Übertragen von Daten per Push in das Dataset ist die Zielressource ein **Dataset**. Die URL zum Bestimmen eines Datasets ist https://api.PowerBI.com/v1.0/myorg/datasets. Wenn Sie Daten in einer Gruppe per Push übertragen, ist die URL https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Zum Authentifizieren eines Power BI-REST-Vorgangs fügen Sie das unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) abgerufene Token einem Anforderungsheader hinzu:
 
-Durch Aufrufen des Vorgangs [Dataset erstellen](https://msdn.microsoft.com/library/mt203562.aspx) wird ein neues Dataset erstellt. 
+Durch Aufrufen des Vorgangs [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) wird ein neues Dataset erstellt. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ Nachstehend finden Sie die [vollständige Codeliste](#code).
 ## <a name="next-steps"></a>Nächste Schritte
 [Abrufen eines Datasets, um einer Power BI-Tabelle Zeilen hinzuzufügen](walkthrough-push-data-get-datasets.md)  
 [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)  
-[Create Dataset (Dataset erstellen)](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [Übertragung von Daten in ein Power BI-Dashboard per Push](walkthrough-push-data.md)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
-[Referenz zur Power BI-REST-API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

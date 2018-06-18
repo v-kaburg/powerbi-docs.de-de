@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301778"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
 Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann. Office
@@ -25,7 +26,7 @@ Nachdem Sie ein benutzerdefiniertes Visual erstellt haben, empfiehlt es sich, es
 Was ist AppSource? Einfach ausgedrückt ist dies der Ort, an dem Sie SaaS-Apps und Add-Ins für Ihre Microsoft-Produkte und -Services finden. In [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) finden Millionen von Benutzern von Office 365, Dynamics 365, Cortana Intelligence und anderen Produkten Lösungen, mit denen sie die Effizienz ihrer Arbeit steigern, größere Einblicke gewinnen oder die Darstellung der Ergebnisse verbessern können.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Vorbereiten der Übermittlung Ihrer benutzerdefinierten Visualisierung
-Nachdem Sie die benutzerdefinierte Visualisierung codiert, getestet und als PBIVIZ-Datei gepackt haben, sollten Sie zudem die folgenden Elemente für die Übermittlung vorbereitet haben.
+Nachdem Sie das benutzerdefinierte Visual programmiert, getestet und als PBIVIZ-Datei gepackt haben, sollten zudem die folgenden Elemente für die Übermittlung bereitstehen:
 
 | Item | Erforderlich | Beschreibung |
 | --- | --- | --- |

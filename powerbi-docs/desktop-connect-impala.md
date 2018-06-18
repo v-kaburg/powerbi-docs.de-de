@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287691"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301755"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Herstellen einer Verbindung mit einer Impala-Datenbank in Power BI Desktop
 In Power BI Desktop können Sie eine Verbindung mit einer **Impala**-Datenbank herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden.
@@ -29,7 +29,7 @@ Geben Sie im angezeigten Fenster **Impala** den Namen des Impala-Servers in das 
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-Wenn Sie dazu aufgefordert werden, geben Sie Ihre Anmeldeinformationen ein, oder stellen Sie anonym eine Verbindung her. Der Impala-Connector unterstützt die Authentifizierung „Anonym“, „Basic“ (Benutzername + Kennwort) und „Windows“.
+Wenn Sie dazu aufgefordert werden, geben Sie Ihre Anmeldeinformationen ein, oder stellen Sie anonym eine Verbindung her. Der Impala-Connector unterstützt die Authentifizierungen „Anonym“, „Basic“ (Benutzername + Kennwort) und „Windows“.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 

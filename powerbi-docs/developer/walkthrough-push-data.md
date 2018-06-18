@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289462"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813110"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Übertragen von Daten in ein Power BI-Dataset per Push
 Mit der Power BI-API können Sie Daten per Push in ein Power BI-Dataset übertragen. Angenommen, Sie möchten einen vorhandenen Geschäftsworkflow erweitern, um wichtige Daten per Push in ein Dataset zu übertragen. In diesem Fall möchten Sie das Dataset „Sales Marketing“ mit einer Tabelle „Product“ per Push in ein Dataset übertragen.
@@ -31,14 +31,14 @@ Damit Sie Daten per Push an ein Dataset übermitteln können, benötigen Sie ein
 Im nächste Abschnitt folgt eine allgemeine Erläuterung von Power BI-API-Vorgängen, die Daten per Push übertragen.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI-API-Vorgänge zum Übertragen von Daten per Push
-Mit der Power BI-REST-API können Sie Datenquellen per Push in Power BI übertragen. Wenn eine Anwendung einem Dataset Zeilen hinzufügt, werden die Kacheln auf dem Dashboard automatisch mit den neuen Daten aktualisiert. Um Daten per Push zu übertragen, verwenden Sie die Vorgänge [Dataset erstellen](https://msdn.microsoft.com/library/mt203562.aspx) und [Zeilen hinzufügen](https://msdn.microsoft.com/library/mt203561.aspx). Zum Auffinden eines Datasets verwenden Sie den Vorgang [Datasets abrufen](https://msdn.microsoft.com/library/mt203567.aspx). Für alle diese Vorgänge können Sie eine Gruppen-ID übergeben, um mit einer Gruppe zu arbeiten. Verwenden Sie den Vorgang [Gruppen abrufen](https://msdn.microsoft.com/library/mt243842.aspx), um eine Liste mit Gruppen-IDs abzurufen.
+Mit der Power BI-REST-API können Sie Datenquellen per Push in Power BI übertragen. Wenn eine Anwendung einem Dataset Zeilen hinzufügt, werden die Kacheln auf dem Dashboard automatisch mit den neuen Daten aktualisiert. Verwenden Sie den Vorgang [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) mit dem Vorgang [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), um Daten per Push zu übertragen. Zum Auffinden eines Datasets verwenden Sie den Vorgang [Datasets abrufen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Für alle diese Vorgänge können Sie eine Gruppen-ID übergeben, um mit einer Gruppe zu arbeiten. Verwenden Sie den Vorgang [Gruppen abrufen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups), um eine Liste mit Gruppen-IDs abzurufen.
 
 Es folgen die Vorgänge, um Daten per Push in ein Dataset zu übertragen:
 
-* [Create Dataset (Dataset erstellen)](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Get Datasets (Datasets abrufen)](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Add Rows (Zeilen hinzufügen)](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Get Groups (Gruppen abrufen)](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Get Datasets (Datasets abrufen)](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Get Groups (Gruppen abrufen)](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Erstellen Sie ein Dataset in Power BI durch Übergeben einer JSON-Zeichenfolge (JavaScript Object Notation) an den Power BI-Dienst. Weitere Informationen zu JSON finden Sie unter [Einführung in JSON](http://json.org/).
 
@@ -113,10 +113,6 @@ Informationen zum Einstieg in das Übertragen von Daten per Push in ein Dataset 
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Registrieren bei Power BI](create-an-azure-active-directory-tenant.md)  
-[Create Dataset (Dataset erstellen)](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Get Datasets (Datasets abrufen)](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Add Rows (Zeilen hinzufügen)](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Get Groups (Gruppen abrufen)](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Einführung in JSON](http://json.org/)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

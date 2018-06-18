@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799577"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813340"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
@@ -75,11 +75,12 @@ Die berechneten Elemente von Benutzerhierarchien werden nicht in Power BI verf�
 ### <a name="security"></a>Sicherheit
 Mehrdimensionale Modelle unterstützen die Sicherheit auf Dimensions- und Zellenebene mithilfe von *Rollen*. Wenn Sie einen Cube mit Power BI verbinden, werden Sie authentifiziert, und es wird geprüft, ob Sie über die geeigneten Berechtigungen verfügen. Wenn für einen Benutzer *Dimensionssicherheit* festgelegt wurde, sind die entsprechenden Dimensionselemente für den Benutzer in Power BI nicht sichtbar. Wenn für einen Benutzer jedoch eine Berechtigung mit *Zellensicherheit* definiert wurde, bei der Einschränkungen für bestimmte Zellen bestehen, kann dieser Benutzer über Power BI keine Verbindung mit dem Cube herstellen.
 
-## <a name="limitations-of-ssas-multidimensional-models-in-power-bi-desktop"></a>Einschränkungen für mehrdimensionale SSAS-Modelle in Power BI Desktop
+## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Die Verwendung von **SSAS MD**unterliegt bestimmten Einschränkungen:
 
 * Auf einem Server muss SQL Server 2012 SP1 CU4 oder eine höhere Version von Analysis Services ausgeführt werden, damit der SSAS MD-Connector für Power BI Desktop ordnungsgemäß funktioniert.
 * *Aktionen* und *benannte Mengen* werden nicht für Power BI verfügbar gemacht. Dennoch können Sie eine Verbindung mit Cubes herstellen, die auch *Aktionen* oder *benannte Mengen* enthalten, und Sie können entsprechende Visualisierungen und Berichte erstellen.
+* Möglicherweise tritt ein Fehler auf, bei dem Power BI Metadaten für ein SSAS-Modell anzeigt, Sie aber keine Modelldaten abrufen können. Dieser Fall kann eintreten, wenn Sie die 32-Bit-Version des MSOLAP-Anbieters auf Ihrem System installiert haben und nicht über die 64-Bit-Version verfügen. Die Installation der 64-Bit-Version kann dieses Problem beheben.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Unterstützte Features von SSAS MD in Power BI Desktop
 Die folgenden Features von SSAS MD werden in Power BI Desktop unterstützt:

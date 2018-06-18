@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290267"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812949"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrieren eines Dashboards in eine App für Ihre Organisation
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API ein Dashboard in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -28,7 +28,7 @@ Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI**-Konto. W
 > 
 > 
 
-Zum Integrieren eines Dashboards in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um ein Dashboard abzurufen. Dann laden Sie das Dashboard mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie unter [Übersicht über Power BI-REST-API](https://msdn.microsoft.com/library/dn877544.aspx) und [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Zum Integrieren eines Dashboards in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um ein Dashboard abzurufen. Dann laden Sie das Dashboard mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie in den Artikeln zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) und der [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Beispiel herunterladen
 Diesem Artikel liegt der im [Beispiel zum Integrieren eines Dashboards in eine Web-App – integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) auf GitHub verwendete Code zugrunde. Laden Sie das Beispiel herunter, um die exemplarische Vorgehensweise nachvollziehen zu können.
@@ -44,12 +44,12 @@ Wenn Sie das [Beispiel zum Integrieren eines Dashboards](https://github.com/Micr
 In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufen, ehe Sie die Power BI-REST-API aufrufen können. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>Schritt 3: Abrufen eines Dashboards
-Zum Abrufen eines **Power BI**-Dashboards verwenden Sie den Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen), um eine Liste der **Power BI**-Dashboards abzurufen. Aus dieser Dashboardliste können Sie dann eine Dashboard-ID abrufen.
+Zum Abrufen eines **Power BI**-Dashboards verwenden Sie den Vorgang [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Dashboards abrufen), um eine Liste der **Power BI**-Dashboards abzurufen. Aus dieser Dashboardliste können Sie dann eine Dashboard-ID abrufen.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Abrufen von Dashboards mit einem Zugriffstoken
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) aufrufen. Der Vorgang [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Dashboards abrufen) gibt eine Liste von Dashboards zurück. Sie können aus dieser Liste von Dashboards dann ein einzelnes Dashboard abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Dashboards. 
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Dashboards abrufen) aufrufen. Der Vorgang [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Dashboards abrufen) gibt eine Liste von Dashboards zurück. Sie können aus dieser Liste von Dashboards dann ein einzelnes Dashboard abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen eines Dashboards. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Arbeiten mit Gruppen (App-Arbeitsbereiche)
-Zum Einbetten eines Dashboards aus einer Gruppe (App-Arbeitsbereich) muss die Liste aller verfügbaren Dashboards in einer Gruppe durch den folgenden REST-API-Aufruf abgerufen werden. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Abrufen von Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
+Zum Einbetten eines Dashboards aus einer Gruppe (App-Arbeitsbereich) muss die Liste aller verfügbaren Dashboards in einer Gruppe durch den folgenden REST-API-Aufruf abgerufen werden. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Abrufen von Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

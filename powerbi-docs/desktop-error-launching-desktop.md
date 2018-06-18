@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286542"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813455"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Beheben von Problemen beim Starten von Power BI Desktop
 In **Power BI Desktop** können Benutzer, die frühere Versionen des **lokalen Datengateways von Power BI** installiert haben und ausführen, am Starten von Power BI Desktop gehindert werden. Grund dafür sind Einschränkungen durch eine administrative Richtlinie, die das lokale Datengateway von Power BI auf Named Pipes auf dem lokalen Computer angewendet hat. 
@@ -33,6 +33,13 @@ Wenn Sie das lokale Datengateway von Power BI nicht mehr benötigen, können Sie
 Alternativ können Sie Power BI Desktop als Administrator erfolgreich starten, wodurch auch Power BI Desktop erfolgreich gestartet werden kann. Es gilt jedoch weiter die Empfehlung, die neueste Version des lokalen Datengateways von Power BI zu installieren (wie zuvor in diesem Artikel beschrieben).
 
 Beachten Sie unbedingt, dass Power BI Desktop als Mehrprozessarchitektur entwickelt wurde und einige dieser Prozesse mittels Named Pipes von Windows kommunizieren. Möglicherweise gibt es andere Prozesse, bei denen Konflikte mit diesen Named Pipes auftreten können. Die häufigste Ursache für solche Konflikte sind Sicherheitsregeln, einschließlich Situationen, in denen Antivirussoftware oder Firewalls die Pipes blockieren oder den Datenverkehr zu einem bestimmten Port umleiten könnten. Das Starten von Power BI Desktop mit Administratorrechten könnte dieses Problem lösen. Wenn das Starten mit Administratorrechten nicht möglich ist, wenden Sie sich an Ihren Administrator, um zu ermitteln, welche Sicherheitsregeln angewendet werden, die die ordnungsgemäße Kommunikation der Named Pipes verhindern, und setzen Sie Power BI Desktop und die jeweiligen Unterprozesse auf die Whitelist.
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>Beheben von Problemen bei der Verbindungsherstellung mit SQL Server
+Wenn beim Herstellen einer Verbindung zu einer SQL Server-Datenbank eine Fehlermeldung ähnlich der folgenden auftritt, können Sie das Problem häufig beheben, indem Sie **Power BI Desktop** als Administrator starten und die SQL Server-Verbindung anschließend herstellen:
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+Nach dem Administratorstart und dem Herstellen der Verbindung werden die benötigten DLLs ordnungsgemäß registriert. Danach ist es nicht mehr notwendig, Power BI Desktop als Administrator zu starten.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Hilfe bei anderen Problemen, die beim Starten von Power BI Desktop auftreten
 Wir sind bemüht, im Zusammenhang mit **Power BI Desktop** auftretende Probleme möglichst umfassend darzustellen. Wir erweitern unsere Artikel regelmäßig um Lösungen für Probleme, die viele Kunden betreffen.

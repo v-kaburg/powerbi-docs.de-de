@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287530"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812535"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Schritt 5: Hinzufügen von Zeilen zu einer Power BI-Tabelle
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
 
-In **Schritt 4** von „Übertragen von Daten per Push in ein Dataset“ ([Abrufen eines Datasets zum Hinzufügen von Zeilen zu einer Power BI-Tabelle](walkthrough-push-data-get-datasets.md)) haben Sie den Vorgang [Datasets abrufen](https://msdn.microsoft.com/library/mt203567.aspx) und „Newtonsoft.Json“ zum Abrufen einer Dataset-ID verwendet. In diesem Schritt verwenden Sie die Dataset-ID mit dem Vorgang [Zeilen hinzufügen](https://msdn.microsoft.com/library/mt203561.aspx), um einem **Power BI**-Dataset Zeilen hinzuzufügen. 
+In **Schritt 4** von „Übertragen von Daten per Push in ein Dataset“ ([Abrufen eines Datasets zum Hinzufügen von Zeilen zu einer Power BI-Tabelle](walkthrough-push-data-get-datasets.md)) haben Sie den Vorgang [Datasets abrufen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) und „Newtonsoft.Json“ zum Abrufen einer Dataset-ID verwendet. In diesem Schritt verwenden Sie die Dataset-ID mit dem Vorgang [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), um einem **Power BI-Dataset** Zeilen hinzuzufügen. 
 
-Beim Aufruf des Vorgangs [Zeilen hinzufügen](https://msdn.microsoft.com/library/mt203561.aspx) fügen Sie einem Dataset Zeilen hinzu.
+Durch Aufrufen des Vorgangs [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) fügen Sie einem Dataset Zeilen hinzu.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Nachstehend finden Sie die [vollständige Codeliste](#code).
     }
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Add Rows (Zeilen hinzufügen)](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Übertragung von Daten in ein Power BI-Dashboard per Push](walkthrough-push-data.md)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
-[Referenz zur Power BI-REST-API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

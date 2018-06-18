@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34754930"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812742"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -51,7 +51,7 @@ In bestimmten Fällen empfiehlt sich eine P-SKU für einen (in der Regel großen
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Wie viele Einbettungstokens kann ich erstellen?
 
-Da Einbettungstokens mit einer PRO-Lizenz nur für Bereitstellungen und das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Sie müssen [eine Kapazität erwerben](#technical), um Einbettungen in einer Produktionsumgebung vornehmen zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen dafür, wie viele Einbettungstokens generiert werden können. Wechseln Sie zu [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Verfügbare Features abrufen), um den Nutzungswert zu überprüfen, der die aktuelle Nutzung der Einbettung in Prozent angibt.
+Da Einbettungstokens mit einer PRO-Lizenz nur für Bereitstellungen und das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Sie müssen [eine Kapazität erwerben](#technical), um Einbettungen in einer Produktionsumgebung vornehmen zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen dafür, wie viele Einbettungstokens generiert werden können. Verwenden Sie die Vorgänge zum Abrufen [verfügbarer Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures), um den Auslastungswert zu überprüfen, der die derzeit eingebettete Auslastung in Prozent angibt.
 
 ## <a name="technical"></a>Technische Fragen
 
@@ -75,7 +75,7 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Erwerben     |Azure-Portal |Office |Office |
+|Purchase     |Azure-Portal |Office |Office |
 |Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten mit für Benutzer von Power BI FREE außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, Teams) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten mit für Benutzer von Power BI FREE außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, Teams)<br>* Freigeben von Inhalten für Benutzer von Power BI FREE über PowerBI.com  |
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |

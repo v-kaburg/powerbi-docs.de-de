@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288312"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813777"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrieren einer Kachel in eine App (Benutzer ist Besitzer der Daten)
 Hier erfahren Sie, wie Sie mithilfe von REST-API-Aufrufen zusammen mit der Power BI-JavaScript-API eine Kachel in eine Web-App integrieren bzw. einbetten, wenn das Einbetten für Ihre Organisation erfolgt.
@@ -28,7 +28,7 @@ Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI**-Konto. W
 > 
 > 
 
-Zum Integrieren einer Kachel in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um eine Kachel abzurufen. Dann laden Sie die Kachel mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie unter [Übersicht über Power BI-REST-API](https://msdn.microsoft.com/library/dn877544.aspx) und [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Zum Integrieren einer Kachel in eine Web-App verwenden Sie die **Power BI**-REST-API oder das Power BI-C#-SDK sowie ein **Zugriffstoken** für die AD-Autorisierung (Azure Active Directory), um eine Kachel abzurufen. Dann laden Sie die Kachel mithilfe desselben Zugriffstokens. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie in den Artikeln zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) und der [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Beispiel herunterladen
 Diesem Artikel liegt der im [Beispiel zum Integrieren einer Kachel in eine Web-App – integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) auf GitHub verwendete Code zugrunde. Laden Sie das Beispiel herunter, um die exemplarische Vorgehensweise nachvollziehen zu können.
@@ -44,12 +44,12 @@ Wenn Sie das [Beispiel zum Integrieren einer Kachel in eine Web-App – integrat
 In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufen, ehe Sie die Power BI-REST-API aufrufen können. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-tile"></a>Schritt 3: Abrufen einer Kachel
-Zum Abrufen einer **Power BI**-Kachel verwenden Sie den Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen), um eine Liste der **Power BI**-Kacheln für ein bestimmtes Dashboard abzurufen. Der Liste der Kacheln können Sie eine Kachel-ID und eine Einbettungs-URL entnehmen.
+Zum Abrufen einer **Power BI**-Kachel verwenden Sie den Vorgang [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Kacheln abrufen), um eine Liste der **Power BI**-Kacheln für ein bestimmtes Dashboard abzurufen. Der Liste der Kacheln können Sie eine Kachel-ID und eine Einbettungs-URL entnehmen.
 
 Zunächst muss eine Dashboard-ID abgerufen werden, ehe Sie die Kachel abrufen können. Weitere Informationen zum Abrufen eines Dashboards finden Sie unter [Integrieren eines Dashboards in eine App (Benutzer ist Besitzer der Daten)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Abrufen von Kacheln mithilfe eines Zugriffstokens
-Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) aufrufen. Der Vorgang [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen) gibt eine Liste der Kacheln zurück. Sie können eine einzelne Kachel aus der Liste der Kacheln abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen einer Kachel. 
+Mit dem **Zugriffstoken**, das Sie in [Schritt 2](#step-2-get-an-access-token-from-azure-ad) abgerufen haben, können Sie den Vorgang [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Kacheln abrufen) aufrufen. Der Vorgang [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Kacheln abrufen) gibt eine Liste der Kacheln zurück. Sie können eine einzelne Kachel aus der Liste der Kacheln abrufen. Im Folgenden finden Sie eine vollständige C#-Methode zum Abrufen einer Kachel. 
 
 Zum Ausführen des REST-API-Aufrufs müssen Sie einen *Autorisierungsheader* im Format *Träger {Zugriffstoken}* einschließen.
 
@@ -216,7 +216,7 @@ Wenn Sie das [Beispiel zum Integrieren einer Kachel in eine Web-App – integrat
 ![Eingebettete Kachel in Webanwendung](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Arbeiten mit Gruppen (App-Arbeitsbereiche)
-Zum Einbetten einer Kachel aus einer Gruppe (App-Arbeitsbereich) müssen Sie die Liste aller verfügbaren Kacheln im Dashboard einer Gruppe mit dem folgenden REST-API-Aufruf abrufen. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Kacheln abrufen). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
+Zum Einbetten einer Kachel aus einer Gruppe (App-Arbeitsbereich) müssen Sie die Liste aller verfügbaren Kacheln im Dashboard einer Gruppe mit dem folgenden REST-API-Aufruf abrufen. Weitere Informationen zu diesem REST-API-Aufruf finden Sie unter [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Kacheln abrufen). Sie benötigen Berechtigungen in der Gruppe, damit die Anforderung Ergebnisse zurückgibt.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

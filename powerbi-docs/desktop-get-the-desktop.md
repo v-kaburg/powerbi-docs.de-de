@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286633"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813317"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop erwerben
 In **Power BI Desktop** können Sie erweiterte Abfragen, Modelle und Berichte erstellen, die Daten visualisieren. Mit **Power BI Desktop** können Sie Datenmodelle entwerfen, Berichte erstellen und Ihre Arbeit durch die Veröffentlichung im Power BI-Dienst freigeben.  **Power BI Desktop** steht als kostenloser Download zur Verfügung.
@@ -98,6 +98,14 @@ Die folgende Liste zeigt die Mindestanforderungen zur Ausführung von **Power BI
 * **Bildschirm:** Mindestens 1440 x 900 oder 1600 x 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 x 768 oder 1280 x 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
 * **Windows-Anzeigeeinstellungen:** Wenn Ihre Anzeigeeinstellungen so konfiguriert sind, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder möglicherweise nicht sichtbar, die geschlossen oder bearbeitet werden müssen, damit Sie weiter in **Power BI Desktop** arbeiten können. Wenn dieses Problem auftritt, überprüfen Sie Ihre **Anzeigeeinstellungen**; wählen Sie dazu in Windows **Einstellungen > System > Anzeige** aus, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100 % zurück.
 * **CPU:** x86- oder x64-Prozessor mit 1 Gigahertz (GHz) oder schneller empfohlen.
+
+## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
+
+Bei einigen Benutzern tritt ein Fehler auf, der dem folgenden ähnelt, wenn sie eine veraltete Version von **Power BI Desktop** verwenden: 
+
+    "We weren't able to restore the saved database to the model" 
+
+In der Regel können Sie dieses Problem beheben, indem Sie Power BI Desktop auf die aktuelle Version aktualisieren.
 
 ## <a name="next-steps"></a>Nächste Schritte
 Nachdem Sie **Power BI Desktop** installiert haben, erhalten Sie in den folgenden Artikeln die nötigen Informationen für einen schnellen Einstieg:

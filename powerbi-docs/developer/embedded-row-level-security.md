@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301732"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 Mit der Sicherheit auf Zeilenebene (Row Level Security,RLS) kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
@@ -75,9 +76,9 @@ Wenn der Filter so wie hier angewendet wird, werden alle Datensätze in den Tabe
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Anwenden eines Benutzers und einer Rolle auf ein Einbettungstoken
 Nachdem Sie jetzt die Power BI Desktop-Rollen konfiguriert haben, müssen in Ihrer Anwendung einige Schritte ausgeführt werden, um die Rollen zu nutzen.
 
-Benutzer werden durch die Anwendung authentifiziert und autorisiert, und mithilfe von Einbettungstoken wird einem Benutzer Zugriff auf einen bestimmten Power BI Embedded-Bericht gewährt. Power BI Embedded verfügt über keine Informationen über die Identität des Benutzers. Damit RLS erfolgreich angewendet wird, müssen Sie im Einbettungstoken zusätzlichen Kontext in Form von Identitäten übergeben. Dies erfolgt durch die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API.
+Benutzer werden durch die Anwendung authentifiziert und autorisiert, und mithilfe von Einbettungstoken wird einem Benutzer Zugriff auf einen bestimmten Power BI Embedded-Bericht gewährt. Power BI Embedded verfügt über keine Informationen über die Identität des Benutzers. Damit RLS erfolgreich angewendet wird, müssen Sie im Einbettungstoken zusätzlichen Kontext in Form von Identitäten übergeben. Dies erfolgt durch die [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken)-API.
 
-Die [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)-API akzeptiert eine Liste von Identitäten mit Angabe der entsprechenden Datasets. Für die erfolgreiche Anwendung von RLS müssen Sie Folgendes als Teil der Identität übergeben.
+Die API akzeptiert eine Liste von Identitäten mit Angabe der entsprechenden Datasets. Für die erfolgreiche Anwendung von RLS müssen Sie Folgendes als Teil der Identität übergeben.
 
 * **username** (obligatorisch): Dies ist eine Zeichenfolge, die beim Anwenden von RLS-Regeln zum Identifizieren des Benutzers verwendet werden kann. Es kann nur ein einziger Benutzer aufgelistet werden.
 * **roles** (obligatorisch): Eine Zeichenfolge, in der die Rollen angegeben werden, die beim Anwenden von Regeln für die Sicherheit auf Zeilenebene ausgewählt werden sollen. Wenn mehrere Rollen übergeben werden, müssen sie als Zeichenfolgenarray übergeben werden.
@@ -177,7 +178,7 @@ Wenn Sie die REST-API aufrufen, können Sie in jeder Identität benutzerdefinier
 * Die Zuweisung von Benutzern zu Rollen im Power BI-Dienst wirkt sich bei Verwendung eines Einbettungstokens nicht auf RLS aus.
 * Der Power BI-Dienst wendet die RLS-Einstellung nicht auf Administratoren oder Mitglieder mit Bearbeitungsberechtigungen an, wenn Sie eine Identität mit einem Einbettungstoken bereitstellen, jedoch auf die Daten.
 * Liveverbindungen von Analysis Services werden für lokale Server unterstützt.
-* Azure Analysis Services-Liveverbindungen unterstützen Filtern nach Rolle, jedoch nicht dynamisch nach Benutzernamen.
+* Azure Analysis Services-Liveverbindungen unterstützen Filtern nach Rolle, jedoch nicht dynamisch nach Benutzernamen. Die dynamische Filterung kann mit „CustomData“ ausgeführt werden.
 * Wenn das zugrunde liegende Dataset kein RLS erfordert, darf die GenerateToken-Anforderung **keine** effektive Identität enthalten.
 * Wenn das zugrunde liegende Dataset ein Cloudmodell ist (Cachemodell oder DirectQuery), muss die effektive Identität mindestens eine Rolle enthalten. Andernfalls erfolgt keine Rollenzuweisung.
 * Mit einer Identitätenliste werden mehrere Identitätstoken für die Dashboardeinbettung aktiviert. Bei allen anderen Artefakten enthält die Liste eine einzelne Identität.
