@@ -83,7 +83,7 @@ Die andere Möglichkeit zum Registrieren Ihrer Anwendung besteht direkt im Azure
     ![](media/register-app/azuread-new-app-registration.png)
 5. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung .
    
-   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, mit der sich die Benutzer anmelden können, z.B. „http://localhost:13526“.
+   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, mit der sich die Benutzer anmelden können, z.B. http://localhost:13526.
    * Geben Sie für native Anwendungen einen Umleitungs-URI an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. „http://myapplication/redirect“.
 
 Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory finden Sie unter [Integrieren von Anwendungen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
