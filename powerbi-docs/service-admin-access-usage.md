@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722199"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Suchen nach angemeldeten Power BI-Benutzern
 Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden.
@@ -60,7 +61,7 @@ Auf dem Bildschirm „Aktivität“ können Sie **Herunterladen** auf der Symbol
 Sie können PowerShell verwenden, um die Anmeldedaten zu exportieren. Ein [Beispiel](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) ist in der Azure AD-Dokumentation verfügbar.
 
 > [!NOTE]
-> Damit das PowerShell-Beispiel funktioniert, müssen Sie die Schritte ausführen, die unter [Voraussetzungen für den Zugriff auf die Azure AD-Berichterstellungs-API](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites) aufgeführt sind.
+> Damit das PowerShell-Beispiel funktioniert, müssen Sie die Schritte ausführen, die unter [Voraussetzungen für den Zugriff auf die Azure AD-Berichterstellungs-API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites) aufgeführt sind.
 > 
 > 
 

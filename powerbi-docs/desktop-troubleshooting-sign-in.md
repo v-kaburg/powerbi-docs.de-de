@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226711"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Problembehandlung zur Anmeldung bei Power BI Desktop
 Möglicherweise treten manchmal Fehler auf, wenn Sie versuchen, sich bei **Power BI Desktop** anzumelden. Es gibt zwei Hauptgründe für Anmeldeprobleme: **Proxyauthentifizierungsfehler** und **Nicht-HTTPS-URL-Umleitungsfehler**. 

@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247640"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Entfernen der Verbindung mit einem organisationsbezogenen Power BI-Inhaltspaket
 Ein Kollege hat ein Inhaltspaket erstellt. Sie haben es in AppSource gefunden und Ihrem Power BI-Arbeitsbereich hinzugefügt. Aber jetzt benötigen Sie es nicht mehr.  Wie entfernen Sie es?

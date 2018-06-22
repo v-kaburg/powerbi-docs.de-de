@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296225"
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 Um eine ausführliche Erläuterung der Sicherheit in Power BI zu erhalten, [laden Sie das Whitepaper „Sicherheit in Power BI“ herunter](http://go.microsoft.com/fwlink/?LinkId=829185):

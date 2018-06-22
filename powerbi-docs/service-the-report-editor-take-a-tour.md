@@ -16,6 +16,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299468"
 ---
 # <a name="the-report-editortake-a-tour"></a>Berichts-Editor – Verschaffen Sie sich einen Überblick
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Bearbeiten von Berichten im Power BI-Dienst und in Power BI Desktop
