@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287668"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Verwenden des Analysebereichs in Power BI Desktop
 Mit dem Bereich **Analyse** in **Power BI Desktop** können Sie dynamische *Bezugslinien* zu Visualisierungen hinzufügen und wichtige Trends und Erkenntnisse identifizieren. Der Bereich **Analyse** befindet sich in Power BI Desktop unter **Visualisierungen**.

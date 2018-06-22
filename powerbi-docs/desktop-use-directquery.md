@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289899"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Verwenden von DirectQuery in Power BI Desktop
 Wenn Sie mit **Power BI Desktop** eine Verbindung zu Ihrer Datenquelle herstellen, ist es immer möglich, eine Kopie der Daten in **Power BI Desktop** zu importieren. Für einige Datenquellen steht ein alternativer Ansatz zur Verfügung: das Herstellen einer direkten Verbindung zur Datenquelle mit **DirectQuery**.
