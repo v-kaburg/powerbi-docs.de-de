@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34456201"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Kombinieren von Umsatzdaten aus Excel und einem OData-Feed
@@ -34,7 +34,7 @@ Importieren Sie zunächst die Produktdaten aus der Excel-Arbeitsmappe „Product
    
 2. Klicken Sie im Power BI Desktop-Menüband auf der Registerkarte **Start** auf den Dropdownpfeil neben **Daten abrufen**, und wählen Sie dann in der Dropdownliste **Am häufigsten verwendet** den Eintrag **Excel** aus. 
    
-   ![Abrufen von Daten](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   ![Daten abrufen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
    
    >[!NOTE]
    >Sie können auch das Element **Daten abrufen** selbst auswählen oder im Power BI-Dialogfeld **Erste Schritte** die Option **Daten abrufen** wählen und dann im Dialogfeld **Daten abrufen** auf **Excel** oder **Datei** > **Excel** klicken und **Verbinden** auswählen.
