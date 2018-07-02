@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721499"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964789"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 Die Leser des Berichts sollen die gesamten Vertriebsmetriken ansehen können, aber auch die Leistung einzelner Bezirksleiter und unterschiedliche Zeitrahmen hervorheben können. Sie könnten separate Berichte oder vergleichende Diagramme erstellen. Alternativ könnten Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
@@ -183,7 +183,7 @@ Die weiteren Formatierungsoptionen sind standardmäßig ausgeschaltet. Wenn sie 
 - **Rahmen**: Fügt einen 1-Pixel-Rahmen um den Slicer hinzu und legt die Farbe fest. (Dieser Slicerrahmen ist separat von den allgemeinen Einstellungen für Konturen; diese haben keinen Einfluss auf ihn.) 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Jetzt kostenlos testen](https://powerbi.com/)
+[Registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/get-started/)
 
 Haben Sie Verbesserungsvorschläge für Power BI? [Vorschlag einreichen](https://ideas.powerbi.com/forums/265200-power-bi-ideas)
 
