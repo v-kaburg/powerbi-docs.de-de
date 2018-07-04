@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584068"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599592"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anheften einer Kachel an ein Power BI-Dashboard aus Excel
 Bevor Sie eine Kachel aus der Excel-Arbeitsmappe anheften können, müssen Sie diese Arbeitsmappe mit dem Power BI-Dienst („app.powerbi.com“) verbinden. Durch Verbinden einer Arbeitsmappe wird im Wesentlichen eine verknüpfte schreibgeschützte Version der Arbeitsmappe im Power BI-Dienst bereitgestellt, und Sie können Bereiche an Dashboards anheften. Sie können auch ein gesamtes Arbeitsblatt an ein Dashboard anheften.  
@@ -60,7 +60,7 @@ Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](service-dashboar
    * Vorhandenes Dashboard: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus.
    * Neues Dashboard: Geben Sie den Namen des neuen Dashboards ein.
    
-    ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Dialogfeld „An das Dashboard anheften“](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Wählen Sie **Anheften**aus. Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass der Bereich Ihrem Dashboard als Kachel hinzugefügt wurde. 
    
     ![Dialogfeld „An das Dashboard angeheftet“](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
