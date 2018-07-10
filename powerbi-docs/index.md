@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Power BI-Dokumentation
 description: Power BI-Dokumentation
-ms.openlocfilehash: da81bbbac4b4e92cf5e22580e27087e9e0cc54e1
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "33945662"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597345"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -33,7 +33,7 @@ ms.locfileid: "33945662"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Power BI-Dienst</h3>
-                                                    <p>Der Power BI-Dienst ist der Onlinedienst, der Ihnen Dashboards, Apps und veröffentlichte Berichte bietet.</p>
+                                                    <p>Der Power BI-Dienst ist ein Onlinedienst, der Dashboards, Apps und veröffentlichte Berichte bereitstellt.</p>
                                                 </div>
                                             </div>
                                         </div>
