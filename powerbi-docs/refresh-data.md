@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253617"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599746"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 Es kann oftmals entscheidend sein, dass Sie immer die neuesten Daten erhalten, um die richtigen Entscheidungen zu treffen. Sie haben wahrscheinlich bereits die Funktion „Daten abrufen“ in Power BI verwendet, um eine Verbindung zu Daten herzustellen und diese hochzuladen sowie Berichte und ein Dashboard zu erstellen. Jetzt möchten Sie sicherstellen, dass Ihre Daten wirklich die neuesten und besten sind.
@@ -101,6 +101,7 @@ Das Aktualisieren von Daten wird für Power BI Desktop-Dateien und Excel-Arbeits
 Ihre Dateien auf OneDrive oder SharePoint Online zu behalten und über Power BI eine Verbindung dazu herzustellen bietet viel Flexibilität. Allerdings geht mit dieser Flexibilität ein erschwertes Verständnis einher. Geplante Aktualisierungen für Dateien, die in OneDrive oder SharePoint Online gespeichert sind, unterscheiden sich von der Paketerneuerung. Weitere Informationen finden Sie Abschnitt [Typen der Aktualisierung](#types-of-refresh).
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop-Datei
+
 | **Datenquelle** | **Automatische Aktualisierung** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** | **Gateway erforderlich** |
 | --- | --- | --- | --- |
 | „Daten abrufen“ (auf der Multifunktionsleiste) wird dazu verwendet, um eine Verbindung zu Daten aus einer beliebigen aufgelisteten Onlinedatenquelle herzustellen und diese abzufragen. |Nein |Ja |Keine (siehe unten) |
@@ -117,6 +118,7 @@ Ihre Dateien auf OneDrive oder SharePoint Online zu behalten und über Power BI 
 Weitere Informationen finden Sie unter [Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets auf OneDrive](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Excel-Arbeitsmappe
+
 | **Datenquelle** | **Automatische Aktualisierung** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** | **Gateway erforderlich** |
 | --- | --- | --- | --- |
 | Tabellen mit Daten in einem Arbeitsblatt, die nicht in ein Excel-Datenmodell geladen wurden. |Ja, stündlich *(nur OneDrive/SharePoint Online)* |Nur manuell *(nur OneDrive/SharePoint Online)* |Nein |
@@ -131,6 +133,7 @@ Weitere Informationen finden Sie unter [Aktualisieren eines aus einer Power BI D
 Ausführliche Informationen finden Sie unter [Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets auf OneDrive](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Datei mit kommagetrennten Werten (CSV) auf OneDrive oder SharePoint Online
+
 | **Datenquelle** | **Automatische Aktualisierung** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** | **Gateway erforderlich** |
 | --- | --- | --- | --- |
 | Einfache, kommagetrennte Werte |Ja (stündlich) |Nur manuell |Nein |
@@ -145,6 +148,7 @@ Es gibt zwei Arten von Inhaltspaketen in Power BI:
 **Inhaltspakete von Organisationen** – von Benutzern in Ihrer eigenen Organisation erstellt und gemeinsam genutzt. Nutzer von Inhaltspaketen können keinen Aktualisierungszeitplan einrichten oder eine manuelle Aktualisierung durchführen. Nur der Ersteller des Inhaltspakets kann die Aktualisierung für die Datasets darin einrichten. Die Aktualisierungseinstellungen werden mit dem Dataset geerbt.
 
 ### <a name="content-packs-from-online-services"></a>Inhaltspakete aus Onlinediensten
+
 | **Datenquelle** | **Automatische Aktualisierung** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** | **Gateway erforderlich** |
 | --- | --- | --- | --- |
 | Onlinedienste in „Daten und Dienste abrufen“ |Ja |Ja |Nein |
@@ -237,7 +241,7 @@ In diesem Fall können Sie die Daten im „SalesReport.xlsx“-Dataset manuell a
 > 
 > 
 
-Weitere Informationen finden Sie unter [Excel-Daten in Power BI](service-excel-workbook-files.md), [Power BI Gateway – Personal](personal-gateway.md), [Lokales Datengateway](service-gateway-onprem.md) und [Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets auf einem lokalen Laufwerk](refresh-excel-file-local-drive.md).
+Weitere Informationen finden Sie unter [Excel-Daten in Power BI](service-excel-workbook-files.md), [Power BI Gateway – Personal](service-gateway-personal-mode.md), [Lokales Datengateway](service-gateway-onprem.md) und [Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets auf einem lokalen Laufwerk](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Power BI Desktop-Datei mit Daten aus einem OData-Feed
 Verwenden Sie in diesem Fall „Daten abrufen“ in Power BI Desktop, um eine Verbindung mit  herstellen Erhebungsdaten aus einem OData-Feed herzustellen und diese zu importieren.  Sie erstellen mehrere Berichte in Power BI Desktop, benennen die Datei dann „WACensus“, und speichern Sie auf einer Freigabe in Ihrem Unternehmen. Veröffentlichen Sie die Datei dann im Power BI-Dienst.
@@ -270,7 +274,7 @@ Weitere Informationen zur Problembehandlung finden Sie unter [Tools zur Problemb
 ## <a name="next-steps"></a>Nächste Schritte
 [Tools zur Problembehandlung von Aktualisierungsproblemen](service-gateway-onprem-tshoot.md)  
 [Problembehandlung bei Aktualisierungsszenarios](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway – Personal](personal-gateway.md)  
+[Power BI Gateway – Personal](service-gateway-personal-mode.md)  
 [Lokales Datengateway](service-gateway-onprem.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248133"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145454"
 ---
 # <a name="configuring-scheduled-refresh"></a>Konfigurieren geplanter Aktualisierungen
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248133"
 
 Wenn Ihr Dataset das geplante Aktualisieren durch „Jetzt aktualisieren“ und „Zeitplanaktualisierung“ unterstützt, gibt es einige Anforderungen und Einstellungen, die für eine erfolgreiche Aktualisierung wichtig sind. Diese sind **Gatewayverbindung**, **Anmeldeinformationen für Datenquellen**, und **Zeitplanaktualisierung**. Sehen wir uns diese im Einzelnen genauer an.
 
-Dabei werden die Optionen beschrieben, die sowohl für [Power BI Gateway – Personal](personal-gateway.md) als auch für das [lokale Datengateway](service-gateway-onprem.md) verfügbar sind.
+Dabei werden die Optionen beschrieben, die sowohl für [Power BI Gateway – Personal](service-gateway-personal-mode.md) als auch für das [lokale Datengateway](service-gateway-onprem.md) verfügbar sind.
 
 Um in den Bildschirm für die Zeitplanaktualisierung zu gelangen, gehen sie wie folgt vor.
 
@@ -123,7 +123,7 @@ Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf e
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Aktualisieren von Daten in Power BI](refresh-data.md)  
-[Power BI Gateway – Personal](personal-gateway.md)  
+[Power BI Gateway – Personal](service-gateway-personal-mode.md)  
 [Lokales Datengateway](service-gateway-onprem.md)  
 [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  

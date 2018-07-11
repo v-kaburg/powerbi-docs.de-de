@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241134"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599045"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Herstellen einer Verbindung mit tyGraph mithilfe von Power BI
 Visualisieren und durchsuchen Sie Ihre tyGraph-Daten mithilfe des Power BI-Inhaltspakets in Power BI. Beginnen Sie, indem Sie eine Verbindung mit Ihrem tyGraph-Konto herstellen und das Dashboard, die Berichte und die Datasets laden. Die ohne Konfiguration verfügbaren Inhalte bieten Einsichten wie den MAE-Punktstand (Maß der aktiven Teilnahme, Measure of Active Engagement) und die aktivsten Mitwirkenden. Passen Sie das Paket weiter an, um die Informationen hervorzuheben, die Sie besonders interessieren.  Die Daten werden automatisch nach einem Zeitplan aktualisiert, den Sie festlegen.
@@ -42,7 +42,7 @@ Stellen Sie eine Verbindung mit [tyGraph für Power BI](https://app.powerbi.com/
    
     **Wenn Sie kein von Yammer überprüfter Administrator sind**
    
-    Für das tyGraph-Inhaltspaket ist ein tyGraph-Konto erforderlich, das von einem von Yammer überprüften Administrator erstellt wurde. Nach der Erstellung können weitere Schlüssel an Benutzer innerhalb der gleichen Organisation ausgegeben werden. Wenn Ihr überprüfter Administrator noch kein tyGraph-Konto erstellt hat, wenden Sie sich in dieser Sache an ihn. Wenn das Konto bereits erstellt wurde, können Sie mit einer E-Mail an <mailto:support@unlimitedviz.com> einen Schlüssel anfordern.
+    Für das tyGraph-Inhaltspaket ist ein tyGraph-Konto erforderlich, das von einem von Yammer überprüften Administrator erstellt wurde. Nach der Erstellung können weitere Schlüssel an Benutzer innerhalb der gleichen Organisation ausgegeben werden. Wenn Ihr überprüfter Administrator noch kein tyGraph-Konto erstellt hat, wenden Sie sich in dieser Sache an ihn. Wenn das Konto bereits erstellt wurde, können Sie mit einer E-Mail an <support@unlimitedviz.com> einen Schlüssel anfordern.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Nach erfolgreicher Authentifizierung wird der Importvorgang automatisch gestartet. Nach Abschluss des Vorgangs werden im Navigationsbereich ein neues Dashboard, ein Bericht und ein Modell angezeigt. Wählen Sie das Dashboard aus, um die importierten Daten anzuzeigen.

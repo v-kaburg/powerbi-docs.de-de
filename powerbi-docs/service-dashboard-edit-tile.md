@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248340"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598976"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Bearbeiten oder Entfernen einer Dashboardkachel
 
@@ -35,12 +35,12 @@ In diesem Artikel werden folgende Themen behandelt:
 * [Anheften einer Kachel an ein anderes Dashboard](#different)
 * [Löschen einer Kachel](#delete)
   
- > [!TIP]
- > Um die Visualisierung auf der Kachel selbst zu ändern, löschen Sie die Kachel, und fügen Sie eine neue [Dashboard-Kachel](service-dashboard-tiles.md) hinzu.
- > 
+  > [!TIP]
+  > Um die Visualisierung auf der Kachel selbst zu ändern, löschen Sie die Kachel, und fügen Sie eine neue [Dashboard-Kachel](service-dashboard-tiles.md) hinzu.
 
- ### <a name="prerequisites"></a>Voraussetzungen
- 1. Um die Schritte des Tutorials durchzuführen, öffnen Sie den Power BI-Dienst (nicht Power BI Desktop), und [laden Sie das Analysebeispiel für IT-Ausgaben herunter](sample-it-spend.md). Wenn die Erfolgsmeldung angezeigt wird, wählen Sie **Zum Dashboard wechseln** aus.
+  
+## <a name="prerequisites"></a>Voraussetzungen
+Um die Schritte des Tutorials durchzuführen, öffnen Sie den Power BI-Dienst (nicht Power BI Desktop), und [laden Sie das Analysebeispiel für IT-Ausgaben herunter](sample-it-spend.md). Wenn die Erfolgsmeldung angezeigt wird, wählen Sie **Zum Dashboard wechseln** aus.
 
 - - -
 <a name="create"></a>

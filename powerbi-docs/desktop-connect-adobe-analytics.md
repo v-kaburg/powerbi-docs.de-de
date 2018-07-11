@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34230920"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134545"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Adobe Analytics in Power BI Desktop 
 In **Power BI Desktop** können Sie eine Verbindung mit **Adobe Analytics** herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden. 
@@ -43,7 +43,7 @@ Sie können die ausgewählte Tabelle **laden**, um die gesamte Tabelle in **Powe
 ## <a name="next-steps"></a>Nächste Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
-* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
+* [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Verbinden mit Excel in Power BI Desktop](desktop-connect-excel.md)   

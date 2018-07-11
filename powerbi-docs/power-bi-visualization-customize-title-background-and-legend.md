@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a39b347a68cb5557ffff7758efbfba86884b5ce
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297099"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598999"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen
 In diesem Tutorial lernen Sie einige verschiedene Möglichkeiten zum Anpassen von Visualisierungen kennen.   Es gibt eine Vielzahl von Optionen zum Anpassen von Visualisierungen. Diese lernen Sie am besten im Formatierungsbereich kennen (wählen Sie das Farbrollersymbol aus).  Um Ihnen den Einstieg zu erleichtern, wird in diesem Artikel das Anpassen des Titels, der Legende und des Hintergrunds einer Visualisierung erläutert.  
@@ -41,26 +41,26 @@ Melden Sie sich beim Power BI-Dienst (app.powerbi.com) an, und [öffnen Sie das 
 
 1. Navigieren Sie zur Berichtsseite „Neue Läden“, und wählen Sie das Säulendiagramm „Anzahl offener Läden nach Öffnungsmonat...“.
 2. Wählen Sie im Bereich „Visualisierungen“ das Farbrollersymbol aus, um die Formatierungsoptionen anzuzeigen.  Wählen Sie **Titel** aus, um diesen Abschnitt zu erweitern.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 3. Mithilfe des Schiebereglers für „Ein“ und „Aus“ aktivieren bzw. deaktivieren Sie den **Titel**. Belassen Sie die Einstellung vorerst bei **Ein**.  
-   
+
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. Ändern Sie den **Titeltext** , indem Sie im Textfeld **Ladenanzahl nach Öffnungsmonat** eingeben.  
 5. Ändern Sie **Schriftfarbe** in Orange und **Hintergrundfarbe** in Gelb.
-   
+
    * Wählen in der Dropdownliste aus **Designfarben**, **Zuletzt verwendete Farben**, oder **Benutzerdefinierte Farbe**eine Farbe aus.
    * Wählen Sie die Dropdownliste aus, um das Farbfenster zu schließen.  
      ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
-   
+
    Durch Auswahl von **Standardwert wiederherstellen** im Fenster „Farbe“ können Sie jederzeit die Standardfarben wiederherstellen.
 6. Vergrößern Sie die Textgröße auf 12.
 7. Richten Sie dann wir den Diagrammtitel in der Mitte der Visualisierung aus. Standardmäßig wird der Titel links ausgerichtet.  
    ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
-   
+
     Nun sollte der **Titel** des Säulendiagramms etwa wie folgt aussehen:  
     ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
-   
+
     Wenn Sie die Anpassungen am Titel zurücksetzen möchten, wählen Sie **Standardwert wiederherstellen**unten im Anpassungsbereich des **Titels** aus.  
     ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
@@ -69,29 +69,30 @@ Erweitern Sie im gleichen Säulendiagramm die Hintergrundoptionen.
 
 1. Mithilfe des Schiebereglers für „Ein“ und „Aus“ aktivieren bzw. deaktivieren Sie den Hintergrund. Belassen Sie die Einstellung vorerst bei **Ein**.
 2. Ändern Sie die Hintergrundfarbe in Grau, 74 %.
-   
+
    * Wählen Sie die Dropdownliste aus, und wählen Sie aus **Designfarben**, **Zuletzt verwendete Farben** oder **Benutzerdefinierte Farbe** eine graue Farbe aus.
    * Ändern Sie die Transparenz zu 74 %.   
      ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
-   
+
    Wenn Sie sämtliche Anpassungen des Hintergrunds zurücksetzen möchten, wählen Sie **Standardwert wiederherstellen**unten im Anpassungsbereich für den **Hintergrund** .
 
 ## <a name="customize-visualization-legends"></a>Anpassen der Legenden von Visualisierungen
 1. Öffnen Sie die Berichtsseite **Übersicht** , und wählen Sie das Diagramm „Gesamtabweichung Verkäufe nach Geschäftsmonat und Regionalmanager“ aus.
 2. Wählen Sie auf der Registerkarte „Visualisierung“ das Pinsel-Symbol, um den Bereich „Formatierung“ zu öffnen.  
 3. Erweitern Sie die Optionen von **Legende** .
-   
+
       ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
 4. Mithilfe des Schiebereglers für „Ein“ und „Aus“ aktivieren bzw. deaktivieren Sie die Legende. Belassen Sie die Einstellung vorerst bei **Ein**.
 5. Verschieben Sie die Legende auf die linke Seite der Visualisierung.    
 6. Fügen Sie einen Legendentitel hinzu, indem Sie für den **Titel** die Option **Ein** auswählen und im Feld **Legendenname** den Namen **Manager**eingeben.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
-   
+
    Um die Anpassungen der Legende zurückzusetzen, wählen Sie unten im Anpassungsbereich der **Legende****Standardwert wiederherstellen** aus.
 
 <a name="list"></a>
 
 ## <a name="visualization-types-that-can-be-customized"></a>Anpassbare Visualisierungstypen
+
 | Visualisierung | Titel | Hintergrund | Legende |
 |:--- |:--- |:--- |:--- |
 | Bereich |Ja |Ja |Ja |

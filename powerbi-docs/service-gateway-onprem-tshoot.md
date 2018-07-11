@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755068"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926587"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden des **lokalen Datengateways** auftreten können.
@@ -31,10 +31,10 @@ In diesem Artikel werden einige häufige Probleme erläutert, die beim Verwenden
 Das Gateway wird als Windows-Dienst ausgeführt, Sie haben daher mehrere Möglichkeiten zum Starten und Beenden. Sie können z. B. eine Eingabeaufforderung mit erhöhten Berechtigungen auf dem Computer öffnen, auf dem das Gateway ausgeführt wird, und dann einen der folgenden Befehle eingeben:
 
 * Führen Sie diesen Befehl aus, um den Dienst zu beenden:
-  
+
     '''   net stop PBIEgwService   '''
 * Führen Sie diesen Befehl aus, um den Dienst zu starten:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Fehler: Fehler beim Erstellen des Gateways. Versuchen Sie es erneut.
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um den Fehler zu beheben.
 
 1. Deinstallieren Sie das Gateway.
 2. Löschen Sie den folgenden Ordner:
-   
+
         c:\Program Files\On-premises data gateway
 3. Installieren Sie das Gateway erneut.
 4. Wenden Sie bei Bedarf den Wiederherstellungsschlüssel an, um ein vorhandenes Gateway wiederherzustellen.
@@ -129,11 +129,11 @@ Sie können dies wie folgt überprüfen.
 
 1. Verbinden Sie sich mit dem Analysis Services-Computer in SQL Server Management Studio. Schließen Sie in den erweiterten Verbindungseigenschaften EffectiveUserName für den betreffenden Benutzer ein, und prüfen Sie, ob der Fehler erneut auftritt.
 2. Sie können das Active Directory-Tool „Dsacls“ verwenden, um zu überprüfen, ob das Attribut aufgeführt ist. Dieses Tool befindet sich normalerweise auf einem Domänencontroller. Sie müssen wissen, wie der spezifische Domänenname für das Konto lautet und ihn an das Tool weitergeben.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     Das Ergebnis wird in etwa das folgende sein:
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Sie können Folgendes tun, um dies zu bestätigen.
 
 1. Suchen Sie den effektiven Benutzernamen innerhalb der [Gatewayprotokolle](#logs).
 2. Wenn Sie den zu übergebenden Wert ermittelt haben, überprüfen Sie, ob er korrekt ist. Falls es sich um Ihren Benutzer handelt, können Sie den folgenden Befehl in einer Eingabeaufforderung ausführen, um den UPN herauszufinden. Der Benutzerprinzipalname sieht wie eine E-Mail-Adresse aus.
-   
+
         whoami /upn
 
 Sie können optional anzeigen, was Power BI von Azure Active Directory erhält.
 
-1. Wechseln Sie zu [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Wechseln Sie zu [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Wählen Sie **Sign in** (Anmelden) in der rechten oberen Ecke aus.
 3. Führen Sie die folgende Abfrage aus. Ihnen wird eine ziemlich große JSON-Antwort angezeigt.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Suchen Sie nach **userPrincipalName**.
 
@@ -206,7 +206,7 @@ Sie können die Rechenzentrumsregion, in der Sie sich befinden, wie folgt heraus
 1. Wählen Sie das **?** in der oberen rechten Ecke des Power BI-Diensts.
 2. Wählen Sie **Info** aus.
 3. Ihre Datenregion wird unter **Ihre Daten sind gespeichert in** aufgelistet.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Wenn Sie noch immer nicht weiterkommen, versuchen Sie mithilfe eines Tools wie [Fiddler](#fiddler) oder Netsh eine Netzwerkablaufverfolgung durchzuführen. Allerdings handelt es sich bei diesen Tools um fortgeschrittene Erfassungsmethoden, weswegen Sie möglicherweise Unterstützung beim Analysieren der gesammelten Daten benötigen. Sie können den [Support](https://support.microsoft.com) um Unterstützung bitten.
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Aktivitätstypen
+
 | Aktivitätstyp | Beschreibung |
 | --- | --- |
 | MGEQ |Über ADO.NET ausgeführte Abfragen. Hierzu gehören DirectQuery-Datenquellen. |
@@ -342,9 +343,9 @@ Sie können wie folgt vorgehen, um zu bestimmen, wie lange die Abfrage der Daten
 2. Suchen Sie nach einem [Aktivitätstyp](#activities), um die Abfrage zu finden. Ein Beispiel hierfür wäre MGEQ.
 3. Notieren Sie sich die zweite GUID, da dies die Anforderungs-ID ist.
 4. Suchen Sie weiter nach MGEQ, bis Sie den Eintrag „FireActivityCompletedSuccessfullyEvent“ mit der Dauer gefunden haben. Sie können überprüfen, ob der Eintrag die gleiche Anforderungs-ID aufweist. Die Dauer wird in Millisekunden angegeben.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent ist ein ausführlicher Eintrag. Dieser Eintrag wird nur protokolliert, wenn TraceVerbosity auf Ebene 5 festgelegt wurde.
    > 
@@ -423,12 +424,12 @@ Die Fehlermeldung „-10709 Verbindungsfehler“ wird angezeigt, wenn Ihre Deleg
 Beim Verwenden des Gateways für die planmäßige Aktualisierung können Sie über die Option **Verlauf aktualisieren** erkennen, welche Fehler aufgetreten sind, und nützliche Daten für eine Supportanfrage abrufen. Sie können sowohl geplante Aktualisierungen als auch Aktualisierungen nach Bedarf anzeigen. Hier ist beschrieben, wie Sie zur Option **Verlauf aktualisieren**gelangen.
 
 1. Wählen Sie im Power BI-Navigationsbereich in **Datasets** für das Dataset &gt; Menü öffnen &gt;**Aktualisierung planen** aus.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. Wählen Sie unter **Einstellungen für...** &gt;**Aktualisierung planen** die Option **Verlauf aktualisieren** aus.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Weitere Informationen zur Problembehandlung bei Aktualisierungsszenarien finden Sie im Artikel [Problembehandlung bei Aktualisierungsszenarien](refresh-troubleshooting-refresh-scenarios.md).

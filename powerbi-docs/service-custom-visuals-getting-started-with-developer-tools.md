@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296296"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600377"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
@@ -32,14 +32,14 @@ Um ein benutzerdefiniertes visuelles Element zu erstellen, müssen Sie NodeJS in
 
 1. Laden Sie [NodeJS](https://nodejs.org) herunter, und installieren Sie es. Version 4.0 oder höher ist mindestens erforderlich, es wird aber 5.0 oder höher empfohlen.
 2. Installieren Sie die Befehlszeilentools. Führen Sie den folgenden Befehl an einer Eingabeaufforderung aus.
-   
+
         npm install -g powerbi-visuals-tools
 3. Sie können bestätigen, dass die Tools installiert sind, indem Sie den folgenden Befehl ohne Parameter ausführen.
-   
+
         pbiviz
-   
+
     Die Hilfeausgabe sollte angezeigt werden.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ Um ein benutzerdefiniertes visuelles Element zu erstellen, müssen Sie NodeJS in
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ Führen Sie zum *Erstellen* eines Zertifikats den folgenden Befehl aus.
 Führen Sie zum *Installieren* des Zertifikats den folgenden Befehl aus.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > Es sollte eine Meldung angezeigt werden, die Ihnen Ihre neu generierte Passphrase zur Installation eines PFX-Zertifikats mitteilt.
 > 
@@ -112,20 +112,20 @@ Führen Sie zum *Installieren* des Zertifikats den folgenden Befehl aus.
 **Windows**
 
 1. Wählen Sie **Zertifikat installieren...** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. Wählen Sie dann **Aktueller Benutzer** und anschließend **Weiter** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Wählen Sie **Alle Zertifikate an folgendem Speicherort speichern** und dann **Durchsuchen...** aus.
 4. Wählen Sie **Vertrauenswürdige Stammzertifizierungsstellen** und dann **OK** aus. Wählen Sie **Weiter**aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Wählen Sie **Fertig stellen**aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Wählen Sie im Dialogfeld mit dem Sicherheitshinweis **Ja** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Schließen Sie alle geöffneten Browser.
 
@@ -137,13 +137,13 @@ Führen Sie zum *Installieren* des Zertifikats den folgenden Befehl aus.
 **OS X**
 
 1. Wenn das Schloss in der oberen linken Ecke verriegelt angezeigt wird, wählen sie es zum Entsperren aus. Suchen Sie nach *localhost*, und doppelklicken Sie auf das Zertifikat.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. Wählen Sie **Immer vertrauen** aus, und schließen Sie das Fenster.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Geben Sie Ihren Benutzernamen und das Kennwort ein. Wählen Sie **Einstellungen aktualisieren** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Schließen Sie alle geöffneten Browser.
 
@@ -157,15 +157,15 @@ Gehen Sie folgendermaßen vor, um eine Livevorschau Ihrer benutzerdefinierten Vi
 
 1. Navigieren Sie zu [app.powerbi.com](https://app.powerbi.com), und melden Sie sich an.
 2. Wählen Sie das **Zahnradsymbol** und anschließend **Einstellungen** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. Wählen Sie **Entwickler** und dann **Visuelles Entwicklerelement zum Testen aktivieren** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. Wählen Sie **Visuelles Entwicklerelement** im Bereich **Visualisierung** aus.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Hierfür müssen Sie `pbiviz start` im Visualisierungsordner auf dem Entwicklungscomputer ausgeführt haben. Weitere Informationen zum Erstellen Ihrer Visualisierung finden Sie unter [Erstellen einer neuen Visualisierung](#create-a-new-visual) in diesem Artikel.
    > 
@@ -196,11 +196,11 @@ Sie können Ihre Visualisierung wie folgt ausführen.
 1. Öffnen Sie eine Eingabeaufforderung.
 2. Ändern Sie das Verzeichnis in den Visualisierungsordner. Dies ist der Ordner mit der `pbiviz.json`-Datei.
 3. Führen Sie den folgenden Befehl aus.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Wenn Sie einen falschen Speicherort verwenden, wird ein ähnlicher Fehler wie in der folgenden Abbildung angezeigt.
@@ -249,7 +249,7 @@ Sie können Ihre Visualisierung wie folgt packen.
 1. Öffnen Sie eine Eingabeaufforderung.
 2. Ändern Sie das Verzeichnis in den Visualisierungsordner. Dies ist der Ordner mit der `pbiviz.json`-Datei.
 3. Führen Sie den folgenden Befehl aus.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ Hiermit wird Ihre Visualisierung auf die API-Version 1.2.0 aktualisiert. Ersetze
 Bei dem Visualisierungsprojekt handelt es sich um den Ordner, der beim Ausführen des `pbiviz new`-Befehls erstellt wird. 
 
 ### <a name="file-structure"></a>Dateistruktur
+
 | Item | Beschreibung |
 | --- | --- |
 | assets/ |Hiermit werden Elemente für die Visualisierung gespeichert (Symbol, Screenshots usw.). |

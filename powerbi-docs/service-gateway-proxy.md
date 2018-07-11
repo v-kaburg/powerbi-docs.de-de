@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799554"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599333"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurieren von Proxyeinstellungen für das lokale Datengateway
 Aufgrund Ihres Arbeitsumfelds ist es möglicherweise erforderlich, eine Internetverbindung über einen Proxy herzustellen. Dies kann eine Verbindung des lokalen Datengateways mit dem Dienst verhindern.
@@ -77,23 +77,23 @@ Wenn Sie die Proxyeinstellungen wie oben erläutert für die Verwendung von Stan
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Ändern des Dienstkontos für das lokale Datengateway
 1. Ändern Sie das Windows-Dienstkonto für den **Dienst Lokales Datengateway**.
-   
+
     Das Standardkonto für diesen Dienst lautet *NT SERVICE\PBIEgwService*. Sie sollten dieses in ein Domänenbenutzerkonto in der Active Directory-Domäne ändern. Oder verwenden Sie ein verwaltetes Dienstkonto, um das Kennwort nicht ändern zu müssen.
-   
+
     Ändern Sie das Konto in den Eigenschaften des Windows-Diensts auf der Registerkarte **Anmelden**.
 2. Starten Sie den **Dienst Lokales Datengateway** neu.
-   
+
     Geben Sie an der Administratoreingabeaufforderung die folgenden Befehle aus.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Starten Sie die **Konfiguration des lokalen Datengateways**. Sie können auf die Windows-Schaltfläche „Start“ klicken und nach *Lokales Datengateway* suchen.
 4. Melden Sie sich bei Power BI an.
 5. Stellen Sie das Gateway mit dem Wiederherstellungsschlüssel wieder her.
-   
+
     Dies ermöglicht dem neuen Dienstkonto das Entschlüsseln von gespeicherten Anmeldeinformationen für Datenquellen.
-    
+
 > [!NOTE]
 > Wenn Sie das Dienstkonto direkt in der Systemsteuerung unter der Option „Dienste“ ändern, werden die Zugriffssteuerungslisten nicht automatisch aktualisiert. Sie müssen sicherstellen, dass das neue Dienstkonto auf die Installationsdateien und -ordner zugreifen kann. Sie finden den Gatewayinstallationsordner hier: C:\Programme\On-premises Data Gateway. 
 > 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290957"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600748"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.
@@ -40,23 +40,23 @@ Power BI Desktop erstellt einen leeren Entwurfszeichenbereich für die Visualisi
 Führen Sie die folgenden Schritte aus, um ein **Flächenkartogramm** zu erstellen:
 
 1. Ziehen Sie im Bereich **Felder** ein Datenfeld mit den Regionsnamen (oder Abkürzungen) auf den Bucket **Speicherort** und ein Datenmeasurefeld in den Bucket **Farbsättigung** (eine Zuordnung wird noch nicht angezeigt).
-   
+
    > [!NOTE]
-> Informationen dazu, wie Sie schnell Kartendaten zum Testen eines **Flächenkartogramms** erhalten, finden Sie weiter unten im Abschnitt **Abrufen von Kartendaten**.
+   > Informationen dazu, wie Sie schnell Kartendaten zum Testen eines **Flächenkartogramms** erhalten, finden Sie weiter unten im Abschnitt **Abrufen von Kartendaten**.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. Erweitern Sie im Bereich **Formateinstellungen** **Form**, und wählen Sie aus der Dropdownliste **Standardkarten** aus, um Ihre Daten anzuzeigen. Nun erfolgt das Rendering, wie in folgender Abbildung dargestellt.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> Im Abschnitt **Regionsschlüssel** am Ende dieses Artikels finden Sie eine Sammlung von Tabellen, die Regionsschlüssel für Karten enthalten, die Sie zum Testen des Visuals **Flächenkartogramm** verwenden können.
+   > Im Abschnitt **Regionsschlüssel** am Ende dieses Artikels finden Sie eine Sammlung von Tabellen, die Regionsschlüssel für Karten enthalten, die Sie zum Testen des Visuals **Flächenkartogramm** verwenden können.
    > 
    > 
 3. Anschließend können Sie im Bereich **Formateinstellungen** die Einstellungen für die Kartenprojektion und den Zoom sowie die Farben der Datenpunkte ändern. Sie können auch die Zoomeinstellungen ändern. Sie können z.B. Farben ändern, Mindest- und Höchstwerte festlegen usw.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. Sie können dem Bucket **Legende** auch eine Spalte „Datenkategorie“ hinzufügen und die Kartenregionen basierend auf Kategorien klassifizieren.
 
@@ -114,6 +114,7 @@ Für dieses Vorschaurelease von **Flächenkartogramm** gibt es einige Bedingunge
 Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um **Flächenkartogramm** zu testen.
 
 ### <a name="australia-states"></a>Australia: States
+
 | id | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
@@ -126,6 +127,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
 ### <a name="austria-states"></a>Austria: States
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
@@ -139,6 +141,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brazil: States
+
 | id |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Litigated Zone 4 |
 
 ### <a name="canada-provinces"></a>Canada: Provinces
+
 | id | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>France: Regions
+
 | id | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
@@ -217,6 +222,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Aquitaine |Aquitaine |Aquitaine |
 
 ### <a name="germany-states"></a>Germany: States
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
@@ -237,6 +243,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
 ### <a name="ireland-counties"></a>Ireland: Counties
+
 | id |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Carlow |
 
 ### <a name="italy-regions"></a>Italy: Regions
+
 | id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
@@ -291,6 +299,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
 ### <a name="mexico-states"></a>Mexico: States
+
 | id | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Netherlands: Provinces
+
 | id | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
@@ -343,6 +353,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>UK: Countries
+
 | id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
@@ -351,6 +362,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | gb-eng |GB-ENG |England |
 
 ### <a name="usa-states"></a>USA: States
+
 | id | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

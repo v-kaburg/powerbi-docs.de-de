@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239128"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092205"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets in OneDrive oder SharePoint Online
 Sie können Excel-Arbeitsmappen importieren, die auf Ihrem Computer lokal oder in der Cloud (z.B. bei OneDrive for Business oder SharePoint Online) gespeichert sind. Im Folgenden behandeln wir die Vorteile des Cloudspeichers für Excel-Dateien. Weitere Informationen zum Importieren von Excel-Dateien in Power BI finden Sie unter [Abrufen von Daten aus Excel-Arbeitsmappendateien](service-excel-workbook-files.md).
@@ -45,7 +45,7 @@ In Power BI wird „Jetzt Aktualisieren“ und die „Zeitplanaktualisierung“ 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive oder OneDrive for Business. Was ist der Unterschied?
 Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business importiert werden sollen. Dies wird empfohlen, da Sie wahrscheinlich zwei unterschiedliche Konten für die Anmeldung verwenden.
 
-Das Herstellen einer Verbindung mit OneDrive for Business in Power BI erfolgt i. d. R. nahtlos, da für die Anmeldung bei Power BI häufig das gleiche Konto verwendet wird, das auch für OneDrive for Business verwendet wird. Bei einem privaten OneDrive melden Sie sich wahrscheinlich mit einem anderen [Microsoft-Konto](http://www.microsoft.com/account/default.aspx) an.
+Das Herstellen einer Verbindung mit OneDrive for Business in Power BI erfolgt i. d. R. nahtlos, da für die Anmeldung bei Power BI häufig das gleiche Konto verwendet wird, das auch für OneDrive for Business verwendet wird. Bei einem privaten OneDrive melden Sie sich wahrscheinlich mit einem anderen [Microsoft-Konto](https://account.microsoft.com) an.
 
 Wenn Sie sich mit Ihrem Microsoft-Konto anmelden, sollten Sie „Angemeldet bleiben“ auswählen. Power BI kann dadurch Aktualisierungen, die Sie in der Datei in Power BI Desktop vornehmen mit Datasets in Power BI synchronisieren.  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Liste der verfügbaren Datenquellentypen
+
 | **Datenquelle** | **Live/DirectQuery** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** |
 | --- | --- | --- | --- |
 | Analysis Services (tabellarisch) |Ja |Ja |

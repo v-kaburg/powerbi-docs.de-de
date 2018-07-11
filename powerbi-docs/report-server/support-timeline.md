@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34481047"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599156"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
 Power BI-Berichtsserver wird mehrmals pro Jahr veröffentlicht. Sicherheits- und wichtige Updates stehen bis zur allgemeinen Verfügbarkeit der nächsten Version zur Verfügung. Nach Veröffentlichung der nächsten Version erhält die vorherige Version weiterhin Sicherheitsupdates für die Restlaufzeit der zwölfmonatigen Gültigkeitsdauer der Version.
@@ -27,6 +27,7 @@ Diese Supportrichtlinie erlaubt es uns, unseren Kunden Innovationen schnell zur 
     ![Graph zur Veranschaulichung des Supportzeitraums](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>Versionsverlauf
+
 | **Version** | **Verfügbarkeitsdatum** | **Enddatum für den Support** |
 | --- | --- | --- |
 | Juni 2017 |12. Juni 2017 |12. Juni 2018 |

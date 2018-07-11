@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297260"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945133"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Im Allgemeinen reichen Balken-, Säulen- und Liniendiagramme für die meisten Zw
 Er beschreibt einen Fall, in dem Kreisdiagramme nützlich sein können: beim Vergleichen der Beziehungen von Teilen zum Ganzen. Aber auch dieser Ansatz liefert nur in seltenen Fällen deutlich bessere Ergebnisse als ein Diagramm vom Typ „Gestapeltes Balkendiagramm (100 %)“.
 
 Einen weiteren interessanten Artikel (und eine Animation) zu Kreisdiagrammen finden Sie auf der [Darkhorse Analytics-Website](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
-
-Sie können sich auch einen Artikel mit einer anderen Meinung durchlesen: [Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/) (Warum die Meinung von Edward Tufte zu Kreisdiagrammen falsch ist).
 
 #### <a name="radial-gauges--kpis"></a>Radiale Messgeräte und KPIs
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

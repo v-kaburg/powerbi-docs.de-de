@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813800"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944650"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Verwenden von Dashboarddesigns im Power BI-Dienst
 Mit **Dashboarddesigns** können Sie einem Dashboard ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Dashboarddesigns** zuweisen, verwenden alle Visualisierungen des Dashboards die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -89,7 +89,6 @@ Genauso wie bei den benutzerdefinierten und integrierten Optionen werden die Far
 
     ![Zieldesign verwenden](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Dashboarddesigns werden aktuell nicht unterstützt, wenn Sie das eingebettete Dashboard über die REST-API oder auf mobilen Geräten anzeigen. Außerdem werden Sie für externe Benutzer nicht unterstützt.    
 * Dashboarddesigns können nicht auf angeheftete Live-Berichtsseiten, iframe-Kacheln, SSRS-Kacheln oder Bilder angewendet werden.
 * Dashboarddesigns können auf mobilen Geräten angezeigt werden. Ein Dashboarddesign können Sie allerdings nur im Power BI-Dienst erstellen. 
 * Benutzerdefinierte Dashboarddesigns können nur auf angeheftete Kacheln aus Berichten angewendet werden. 

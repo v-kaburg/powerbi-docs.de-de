@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290704"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598255"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Verwenden von OneDrive for Business-Links in Power BI Desktop
 Viele Anwender speichern Excel-Arbeitsmappen auf OneDrive for Business-Laufwerken, was auch für Power BI Desktop eine gute Praxis ist. Mit **Power BI Desktop** können Sie Hyperlinks für **Excel**-Dateien verwenden, die in **OneDrive for Business** gespeichert sind, um Berichte und visuelle Elemente zu erstellen. Sie können ein **OneDrive for Business**-Gruppenkonto oder Ihr persönliches **OneDrive for Business**-Konto verwenden.
@@ -26,7 +26,7 @@ Um einen Online-Link aus **OneDrive for Business** zu erstellen, sind einige zus
 1. Navigieren Sie mit einem Browser zu dem gewünschten OneDrive for Business-Speicherort. Klicken Sie mit der rechten Maustaste auf die Datei, die Sie verwenden möchten, und wählen Sie **In Excel öffnen** aus.
    
    > [!NOTE]
-> Ihre Browseroberfläche sieht möglicherweise nicht genau so aus, wie im folgenden Bild. Es gibt viele Methoden zur Auswahl von **In Excel öffnen** für Dateien auf Ihrer **OneDrive for Business**-Browseroberfläche. Sie können hierzu jede Option nutzen, mit der Sie die Datei in Excel öffnen können.
+   > Ihre Browseroberfläche sieht möglicherweise nicht genau so aus, wie im folgenden Bild. Es gibt viele Methoden zur Auswahl von **In Excel öffnen** für Dateien auf Ihrer **OneDrive for Business**-Browseroberfläche. Sie können hierzu jede Option nutzen, mit der Sie die Datei in Excel öffnen können.
    > 
    > 
    

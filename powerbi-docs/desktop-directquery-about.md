@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290865"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600987"
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -152,7 +152,7 @@ Wenn Sie **DirectQuery** verwenden, können viele dieser Modellanreicherungen no
     
     Der Grund ist, dass ein solches Measure zu schlechten Leistungen führen könnte, gäbe es eine große Anzahl von Elementen.
 * **Berechnete Tabellen werden nicht unterstützt:** Die Möglichkeit zum Definieren einer berechneten Tabelle mithilfe eines DAX-Ausdrucks wird im DirectQuery-Modus nicht unterstützt.
-* **Filtern von Beziehungen ist auf nur eine Richtung beschränkt:** Bei Verwendung von DirectQuery ist es nicht möglich, die Kreuzfilterrichtung in einer Beziehung auf „Beide“ festzulegen. Beispielsweise würde es mit den drei Tabellen nicht möglich sein, ein visuelles Element zu erstellen, das jeden Kunden[Geschlecht] und die Anzahl der Produkte[Kategorie] zeigt, die von jedem Kunden gekauft werden. Die Verwendung des bidirektionalen Filterns ist in [diesem ausführlichen Whitepaper](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) beschrieben (darin sind Beispiele im Kontext von SQL Server Analysis Services dargestellt, jedoch gelten die grundlegenden Punkte auch gleichermaßen für Power BI).
+* **Filtern von Beziehungen ist auf nur eine Richtung beschränkt:** Bei Verwendung von DirectQuery ist es nicht möglich, die Kreuzfilterrichtung in einer Beziehung auf „Beide“ festzulegen. Beispielsweise würde es mit den drei Tabellen nicht möglich sein, ein visuelles Element zu erstellen, das jeden Kunden[Geschlecht] und die Anzahl der Produkte[Kategorie] zeigt, die von jedem Kunden gekauft werden. Die Verwendung des bidirektionalen Filterns ist in [diesem ausführlichen Whitepaper](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) beschrieben (darin sind Beispiele im Kontext von SQL Server Analysis Services dargestellt, jedoch gelten die grundlegenden Punkte auch gleichermaßen für Power BI).
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

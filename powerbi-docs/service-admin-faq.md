@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297237"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926590"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -41,14 +41,13 @@ Dieser Artikel behandelt häufig gestellte Fragen zur Power BI-Verwaltung. Einen
 * [Wie entferne ich Power BI für Benutzer, die sich bereits registriert haben?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Wie erfahre ich, wenn meinem Mandanten neue Benutzer beigetreten sind?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Gibt es weitere Punkte, auf die ich vorbereitet sein sollte?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [Ist es kostenlos? Werden für diese Lizenzen Gebühren berechnet?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Wo befindet sich mein Power BI-Mandant?](#where-is-my-power-bi-tenant-located)
 * [Was ist das Power BI-SLA (Vereinbarung zum Servicelevel)?](#what-is-the-power-bi-sla)
 
 **Sicherheit in Power BI**
 
 * [Erfüllt Power BI nationale, regionale und branchenspezifische Anforderungen an die Konformität?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Wie funktioniert die Sicherheit in Power BI?](#how-does-security-work-in-power-bi?)
+* [Wie funktioniert die Sicherheit in Power BI?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Registrieren bei Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Wie können sich Benutzer für Power BI registrieren?
@@ -232,9 +231,6 @@ Es kann häufiger zur Anfragen zur Kennwortrücksetzung kommen. Weitere Informat
 
 Sie können einen Benutzer über den Standardprozess im Office 365 Admin Center aus Ihrem Mandanten entfernen. Wenn der Benutzer jedoch weiterhin über eine aktive E-Mail-Adresse aus Ihrer Organisation verfügt, kann er erneut beitreten, es sei denn, Sie sperren den Beitritt für alle Benutzer.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>Ist es kostenlos? Werden für diese Lizenzen Gebühren berechnet?
-Die Lizenzen **Power BI (Free)** gelten für die kostenlose Version von Power BI. Wenn Sie zusätzliche Funktionen benötigen, sehen Sie sich die [Version Power BI Pro](service-premium.md) an.
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Wo befindet sich mein Power BI-Mandant?
 Informationen zum Ermitteln des Standorts Ihres Power BI-Mandanten (auch als Datenbereich bezeichnet) finden Sie unter [Wo befindet sich mein Power BI-Mandant?](service-admin-where-is-my-tenant-located.md)
 
@@ -252,7 +248,6 @@ Power BI basiert auf der Grundlage von Office 365, das wiederum auf Azure-Dienst
 [Power BI-Verwaltungsportal](service-admin-portal.md)  
 [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  
 [Self-Service-Registrierung für Power BI](service-self-service-signup-for-power-bi.md)  
-[Power BI Free in Ihrer Organisation](service-admin-service-free-in-your-organization.md)  
 [Erwerb von Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium – Beschreibung](service-premium.md)  
 [Erwerben von Power BI Premium](service-admin-premium-purchase.md)  

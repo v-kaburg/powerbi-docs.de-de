@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247045"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944972"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tipps zum Gestalten von Power BI-Dashboards
 Nachdem Sie ein Dashboard erstellt und einige Kacheln hinzugefügt haben, können Sie Ihr Dashboard ansprechend und funktionell gestalten. In der Regel bedeutet das, dass die wichtigsten Informationen hervorgehoben werden, sodass das Dashboard ordentlich und übersichtlich ist.
@@ -59,7 +59,7 @@ Die meisten Personen lesen von oben nach unten. Daher sollten die wichtigsten De
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Die richtigen Visualisierungen für die Daten verwenden und diese in ein übersichtliches Format bringen
 Vermeiden Sie zahlreiche Visualisierungen auf Kosten der Vielfalt.  Visualisierungen sollten ein Bild vermitteln und leicht zu „lesen“ und interpretieren sein.  Für einige Daten und Visualisierungen reicht eine einfache grafische Visualisierung aus. Möglicherweise erfordern andere Daten eine komplexere Visualisierung – verwenden Sie Titel und Beschriftungen sowie andere Anpassungen, um das Lesen zu erleichtern.  
 
-* [Wählen Sie die entsprechenden Datenvisualisierungen](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Seien Sie vorsichtig mit Diagrammen, die die Realität verzerren, z. B. 3D-Diagramme. Bedenken Sie, dass das Interpretieren bestimmter Kreisformen für das menschliche Gehirn schwierig ist. Kreisdiagramme, Ringdiagramme, Messgerätdiagramme und andere Arten von Kreisdiagrammen mögen nett aussehen, sind aber nicht die optimale Lösung für die Datenvisualisierung.
+* [Wählen Sie die entsprechenden Datenvisualisierungen](https://www.youtube.com/watch?v=-tdkUYrzrio). Seien Sie vorsichtig mit Diagrammen, die die Realität verzerren, z. B. 3D-Diagramme. Bedenken Sie, dass das Interpretieren bestimmter Kreisformen für das menschliche Gehirn schwierig ist. Kreisdiagramme, Ringdiagramme, Messgerätdiagramme und andere Arten von Kreisdiagrammen mögen nett aussehen, sind aber nicht die optimale Lösung für die Datenvisualisierung.
 * Achten Sie auf Einheitlichkeit bei den Diagrammskalen auf Achsen, der Reihenfolge der Diagrammdimensionen und den Farben der Dimensionswerte in Diagrammen.
 * Stellen Sie sicher, dass quantitative Daten ansprechend verschlüsselt sind. Zeigen Sie in Telefonnummern maximal drei oder vier Ziffern am Stück an. Runden Sie Maßangaben auf eine oder zwei Stellen nach dem Dezimalkomma und unterteilen Sie Tausender oder Millionen, d. h. 3,4 Millionen anstatt 3.400.000.
 * Achten Sie auf eine Trennung von Genauigkeit und Zeit. Sorgen Sie für verständliche Zeitangaben.  Zeigen Sie ein Diagramm vom letzten Monat nicht neben gefilterten Diagrammen von einem bestimmten Monat an.

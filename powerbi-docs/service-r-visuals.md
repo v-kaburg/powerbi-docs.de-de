@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299307"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599664"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Erstellen von R-Visualisierungen im Power BI-Dienst
 Der Power BI-Dienst unterstützt das Anzeigen von und das Interagieren mit Visualisierungen, die mit R-Skripts erstellt werden. Visualisierungen, die mit R-Skripts erstellt werden, sogenannte*R-Visualisierungen*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich die starke Leistung von R hinsichtlich Analysen und Visualisierung zu Nutze machen.
@@ -37,7 +37,7 @@ Sobald der Bericht in **Power BI Desktop** erstellt wurde, können Sie den Beric
 
 Beachten Sie, dass im Dienst nicht alle R-Pakete unterstützt werden. Eine Liste der derzeit im Power BI-Dienst unterstützten Pakete finden Sie am Ende dieses Artikels unter „Unterstützte Pakete“.
 
-Sie können diese [Beispieldatei für Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (PBIX-Datei), die einige R-Visualisierungen enthält, herunterladen, um zu sehen, wie dies funktioniert und um zu experimentieren.
+Sie können diese [Beispieldatei für Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (PBIX-Datei), die einige R-Visualisierungen enthält, herunterladen, um zu sehen, wie dies funktioniert und um zu experimentieren.
 
 R-Visualisierungen, die in **Power BI Desktop** erstellt und anschließend im Power BI-Dienst veröffentlicht wurden, verhalten sich größtenteils wie jede andere Visualisierung im Power BI-Dienst. Sie können mit ihnen interagieren, sie filtern, schneiden, an ein Dashboard anheften oder sie für andere freigeben. Weitere Informationen zum Freigeben von Dashboards und Visualisierungen finden Sie unter [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md). Ein Unterschied zu anderen Visualisierungen ist, dass R-Visualisierungen keine QuickInfos anzeigen und nicht dazu verwendet werden können, andere Visualisierungen zu filtern.
 

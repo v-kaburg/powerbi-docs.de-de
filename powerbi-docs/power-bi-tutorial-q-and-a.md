@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239486"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599228"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
 In der [Übersicht über Q&A](power-bi-q-and-a.md) wurde Ihnen Power BI Q&A vorgestellt, und dabei wurde zwischen *Nutzern* (für die Dashboards und Berichte freigegeben werden) und *Erstellern* (Besitzer der zugrunde liegenden Berichte und Datasets) unterschieden. Der erste Teil dieses Tutorials ist in erster Linie für Personen vorgesehen, die mit dem Power BI-Dienst Dashboards nutzen. Und der zweite Teil ist für Personen konzipiert, die mit dem Power BI-Dienst oder mit Power BI Desktop Berichte erstellen. [Q&A und Power BI Mobile](mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/qanda.md) werden in eigenen Artikeln behandelt.
@@ -90,9 +90,9 @@ Um Q&A in Berichten verwenden zu können, benötigen Sie Bearbeitungsberechtigun
 
 6. Interagieren Sie mit der neuen Visualisierung. Es spielt keine Rolle, wie Sie die Visualisierung erstellt haben – es sind immer die gleichen Interaktivitätsfunktionen, Formatierungen und Features verfügbar.
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  Wenn Sie die Visualisierung im Power BI-Dienst erstellt haben, können Sie sie sogar [an ein Dashboard anheften](service-dashboard-pin-tile-from-q-and-a.md).
+   Wenn Sie die Visualisierung im Power BI-Dienst erstellt haben, können Sie sie sogar [an ein Dashboard anheften](service-dashboard-pin-tile-from-q-and-a.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Bestimmten Sie, welche Visualisierung Q&A verwenden soll.
 Mit Q&A lassen Sie nicht nur Ihre Daten für sich selbst sprechen, Sie können sogar festlegen, wie die Antwort in Power BI angezeigt werden soll. Hängen Sie am Ende Ihrer Frage einfach den Zusatz „als <visualization type>“ an.  Beispiel: „Bestandsvolumen nach Werk als Karte anzeigen“ und „Gesamtvolumen als Karte anzeigen“.  Probieren Sie es einfach aus.

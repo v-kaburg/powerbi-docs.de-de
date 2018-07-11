@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481728"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780568"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
 Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Prozessor-, Arbeitsspeicher- und Betriebssystemanforderungen
+
 | Komponente | Anforderung |
 | --- | --- |
 | .NET Framework |4.6<br><br>Über [Microsoft .NET Framework 4.6 (Webinstaller) für Windows](http://support.microsoft.com/kb/3045560) können Sie .NET Framework manuell installieren.<br/><br/> Weitere Informationen, Empfehlungen und Anleitungen zu .NET Framework 4.6 finden Sie im [Handbuch für die Bereitstellung von .NET Framework für Entwickler](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 und Windows Server 2012 R2 erfordern die Installation von [KB2919355](http://support.microsoft.com/kb/2919355) vor der Installation von .NET Framework 4.6. |
@@ -41,8 +42,6 @@ Als Host der Berichtsserver-Datenbanken wird SQL Server verwendet. Die Instanz d
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 Zum Erstellen der Berichtsserver-Datenbank auf einem Remotecomputer müssen Sie die Verbindung für die Verwendung eines Domänenbenutzerkontos oder Dienstkontos konfigurieren, das Netzwerkzugriff hat. Wenn Sie eine Remoteinstanz von SQL Server verwenden möchten, sollten Sie sorgfältig überlegen, welche Anmeldeinformationen der Berichtsserver zum Herstellen der Verbindung mit der SQL Server-Instanz verwenden soll. Weitere Informationen finden Sie unter [Konfigurieren einer Verbindung mit der Berichtsserver-Datenbank](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

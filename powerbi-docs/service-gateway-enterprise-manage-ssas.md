@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297145"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599179"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Verwalten Ihrer Datenquelle – Analysis Services
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Datenquelle Analysis Services für die geplante Aktualisierung oder für Live-Verbindungen verwenden.
@@ -52,7 +52,7 @@ Beim Entfernen eines Gateways werden auch alle Datenquellen unter diesem Gateway
 
 1. Wählen Sie rechts oben das Zahnradsymbol ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > **Gateways verwalten**.
 2. Gateway > **Entfernen**.
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Hinzufügen einer Datenquelle
@@ -119,15 +119,13 @@ Den Bildschirm für die UPN-Zuordnung rufen Sie wie folgt auf.
 2. Erweitern Sie das Gateway, das die Analysis Services-Datenquelle enthält. Wenn Sie noch keine Analysis Services-Datenquelle erstellt haben, können Sie dies jetzt nachholen.
 3. Wählen Sie die Datenquelle und dann die Registerkarte **Benutzer** aus.
 4. Wählen Sie **Benutzernamen zuordnen** aus.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 Sie sehen dann Optionen zum Hinzufügen von Regeln und zum Testen eines gegebenen Benutzers.
 
 > [!NOTE]
-> Es kann vorkommen, dass Sie versehentlich einen Benutzer ändern. Beispiel: Wenn Sie für **Ersetzen (Ursprünglicher Name)** *@contoso.com* und für **Durch (Neuer Name)** *@contoso.local* eingeben, wird bei allen Benutzern, deren Anmeldename *@contoso.com* enthält, dieser Teil durch *@contoso.local* ersetzt. Wenn Sie für **Ersetzen (Ursprünglicher Name)** außerdem *dave@contoso.com* und für **Durch (Neuer Name)** *dave@contoso.local* eingeben, wird ein Benutzer mit dem Anmeldenamen v-dave@contoso.com als v-dave*@contoso.local* gesendet.
-> 
-> 
+> Es kann vorkommen, dass Sie versehentlich einen Benutzer ändern. Beispiel: Wenn Sie für **Ersetzen (Ursprünglicher Name)** <em>@contoso.com</em> und für **Durch (Neuer Name)** <em>@contoso.local</em> eingeben, wird bei allen Benutzern, deren Anmeldename <em>@contoso.com</em> enthält, dieser Teil durch <em>@contoso.local</em> ersetzt. Wenn Sie für **Ersetzen (Ursprünglicher Name)** außerdem <em>dave@contoso.com</em> und für **Durch (Neuer Name)** <em>dave@contoso.local</em> eingeben, wird ein Benutzer mit dem Anmeldenamen v-dave@contoso.com als v-dave<em>@contoso.local</em> gesendet.
 
 ### <a name="ad-lookup-mapping"></a>Zuordnung mit AD-Suche
 Führen Sie die Schritte in diesem Abschnitt aus, um eine lokale AD-Eigenschaftensuche durchzuführen und AAD-UPNs Active Directory-Benutzern neu zuzuordnen. Gehen wir zunächst auf die Funktionsweise ein.
@@ -147,17 +145,17 @@ Führen Sie am lokalen Datengateway mit konfigurierbarer Benutzerzuordnung Folge
 2. Suchen Sie nach dem Attribut der AD-Person (z.B. *E-Mail*), basierend auf der eingehenden UPN-Zeichenfolge („firstName.lastName@contoso.com“) aus dem **Power BI-Dienst**.
 3. Wenn die AD-Suche zu einem Fehler führt, wird versucht, den übergebenen UPN als EffectiveUser in SSAS zu verwenden.
 4. Bei erfolgreicher AD-Suche wird *UserPrincipalName* der betreffenden AD-Person abgerufen. 
-5. Das E-Mail-Attribut *UserPrincipalName* wird als *EffectiveUser* an SSAS übergeben. Beispiel: *Alias@corp.on-prem.contoso*
+5. Das E-Mail-Attribut *UserPrincipalName* wird als *EffectiveUser* an SSAS übergeben. Beispiel: <em>Alias@corp.on-prem.contoso</em>
 
 Konfigurieren des Gateways für die Durchführung der AD-Suche:
 
 1. Herunterladen und Installieren des aktuellen Gateways
 2. Im Gateway müssen Sie den **Dienst des lokalen Datengateways** so ändern, dass er mit einem Domänenkonto ausgeführt wird (und nicht mit einem lokalen Dienstkonto – andernfalls funktioniert die AD-Suche zur Laufzeit nicht ordnungsgemäß). Sie müssen den Gateway-Dienst neu starten, damit die Änderung wirksam wird.  Wechseln Sie zur Gateway-App auf dem Computer (suchen Sie nach „lokales Datengateway“). Wählen Sie hierzu **Diensteinstellungen > Dienstkonto ändern** aus. Vergewissern Sie sich, dass Sie über den Wiederherstellungsschlüssel für das Gateway verfügen, da Sie es auf demselben Computer wiederherstellen müssen (es sei denn, Sie möchten stattdessen ein neues Gateway erstellen). 
 3. Navigieren Sie als Administrator zum Installationsordner des Gateways, *C:\Programme\On-premises data gateway*, um sicherzustellen, dass Sie über Schreibberechtigungen verfügen, und bearbeiten Sie die folgende Datei:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Bearbeiten Sie die folgenden beiden Konfigurationswerte gemäß *Ihren* Active Directory-Attributkonfigurationen für Ihre AD-Benutzer. Die unten aufgeführten Konfigurationswerte sind nur Beispiele – Sie müssen die Ihrer Active Directory-Konfiguration entsprechenden Werte angeben. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. Starten Sie den Dienst **Lokales Datengateway** neu, damit die Konfigurationsänderung wirksam wird.
 

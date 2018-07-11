@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244559"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598753"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Ändern der Größe einer Berichtsseite
 Im [vorherigen Artikel und Video](power-bi-report-display-settings.md) haben Sie zwei unterschiedliche Arten zum Steuern der Seitenanzeige in Power BI-Berichten kennengelernt: **Ansicht** und **Seitengröße**. „Seitenansicht“ und „Seitengröße“ sind sowohl im Power BI-Dienst als auch in Power BI Desktop verfügbar, mit nahezu identischem Aussehen und Verhalten. Für dieses Tutorial verwenden wir jedoch den Power BI-Dienst.
@@ -31,19 +31,19 @@ Im [vorherigen Artikel und Video](power-bi-report-display-settings.md) haben Sie
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Stellen Sie sicher, dass im Zeichenbereich keine Visualisierungen ausgewählt sind. Wählen Sie **Ansicht** aus, und überprüfen Sie die Anzeigeoptionen.
 
-    * In der Leseansicht wird dies angezeigt.
+   * In der Leseansicht wird dies angezeigt.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Die Bearbeitungsansicht sieht wie folgt aus.
+   * Die Bearbeitungsansicht sieht wie folgt aus.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. So sieht die Seite mit der Einstellung **Tatsächliche Größe** aus.
+3. So sieht die Seite mit der Einstellung **Tatsächliche Größe** aus.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Allerdings hat das Dashboard jetzt zwei Bildlaufleisten.
-2. Wechseln Sie zu **An Breite anpassen**.
+4. Wechseln Sie zu **An Breite anpassen**.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

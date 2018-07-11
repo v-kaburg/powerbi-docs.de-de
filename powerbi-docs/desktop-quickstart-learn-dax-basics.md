@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291026"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600772"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -83,33 +83,33 @@ Erstellen wir eine einfache Formel. Diese Aufgabe vertieft Ihr Verständnis für
 ### <a name="task-create-a-measure-formula"></a>Aufgabe: Erstellen einer Measureformel
 Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Beispieldatei öffnen.
     
-1.  Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
+1. Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
     
-2.  Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
+2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
     
-3.  Geben Sie hinter dem Gleichheitszeichen **SUM** und danach eine öffnende Klammer ein.
+3. Geben Sie hinter dem Gleichheitszeichen **SUM** und danach eine öffnende Klammer ein.
     
-    Statt einen Spaltennamen einzugeben, um gleich zu addieren, geben wir eine weitere Funktion ein, um die zu addierenden Daten zu *filtern* .
+   Statt einen Spaltennamen einzugeben, um gleich zu addieren, geben wir eine weitere Funktion ein, um die zu addierenden Daten zu *filtern* .
     
-4.  Geben Sie zwischen den Klammern **CALCULATE** und danach eine öffnende Klammer ein.
+4. Geben Sie zwischen den Klammern **CALCULATE** und danach eine öffnende Klammer ein.
     
-    Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
+   Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
    
-5.  Geben Sie zwischen den Klammern **()** für die Funktion **CALCULATE** den Wert **Sales[SalesAmount]** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
+5. Geben Sie zwischen den Klammern **()** für die Funktion **CALCULATE** den Wert **Sales[SalesAmount]** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
     
-6.  Geben Sie ein Komma ein (**,**), um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** (Letztes Quartal) und danach eine öffnende Klammer ein.
+6. Geben Sie ein Komma ein (**,**), um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** (Letztes Quartal) und danach eine öffnende Klammer ein.
     
-    Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um unsere SUM-Ergebnisse nach dem Vorquartal zu filtern.
+   Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um unsere SUM-Ergebnisse nach dem Vorquartal zu filtern.
     
-7.  Geben Sie zwischen den Klammern **()** für die Funktion PREVIOUSQUARTER den Wert **Calendar[DateKey]** ein.
+7. Geben Sie zwischen den Klammern **()** für die Funktion PREVIOUSQUARTER den Wert **Calendar[DateKey]** ein.
     
-    Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält.
+   Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält.
     
-8.  Achten Sie darauf, dass beide an die Funktion PREVIOUSQUARTER und an die Funktion CALCULATE übergebenen Argumente mit zwei schließenden Klammern **))** geschlossen werden.
+8. Achten Sie darauf, dass beide an die Funktion PREVIOUSQUARTER und an die Funktion CALCULATE übergebenen Argumente mit zwei schließenden Klammern **))** geschlossen werden.
     
    Die Formel sollte nun wie folgt aussehen:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. Klicken Sie auf das Häkchen ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) in der Bearbeitungsleiste, oder drücken Sie die EINGABETASTE, um die Formel zu überprüfen und sie zum Modell hinzuzufügen.
 

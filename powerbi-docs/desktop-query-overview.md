@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 35171c5b1d61b9df860b72ee98d8fb63a875092d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4ee0f114e6d905f202505f71b194a5b56fd6397
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286380"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137351"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Abfrageübersicht in Power BI Desktop
 Mit **Power BI Desktop** vernetzen Sie sich mit der Welt der Daten, erstellen überzeugende und fundierte Berichte und teilen Ihre Arbeit mit anderen, die dann darauf aufbauen und so ihr Business Intelligence-Potenzial erweitern können.
@@ -137,7 +137,7 @@ Wählen Sie zum Speichern wie in der folgenden Abbildung gezeigt **Datei \> Spe
 ## <a name="next-steps"></a>Nächste Schritte
 Mit Power BI Desktop können Sie viele Aufgaben ausführen. Weitere Informationen zu den Funktionen und Möglichkeiten finden Sie in den folgenden Ressourcen:
 
-* [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
+* [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)
 * [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)

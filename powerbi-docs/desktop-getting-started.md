@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309921"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599867"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -313,7 +313,7 @@ Im **Power BI-Dienst** wird die erste Seite des Berichts angezeigt. Am unteren R
 
 Sie können an einem Bericht Änderungen im **Power BI** -Dienst vornehmen, indem Sie oben auf der Berichtszeichnungsfläche **Bericht bearbeiten** auswählen.
 
-Um den Bericht zu speichern, wählen Sie im Dienst **Datei \> Speichern unter** aus. Es gibt diverse interessante Visualisierungen, die Sie im **Power BI** -Dienst aus Ihrem Bericht erstellen und an ein *Dashboard*heften können. Informationen zu Dashboards im **Power BI**-Dienst**[ finden Sie unter „Tipps zum Entwerfen eines optimalen Dashboards“](service-dashboards-design-tips.md)**.
+Um den Bericht zu speichern, wählen Sie im Dienst **Datei \> Speichern unter** aus. Es gibt diverse interessante Visualisierungen, die Sie im **Power BI** -Dienst aus Ihrem Bericht erstellen und an ein *Dashboard*heften können. Informationen zu Dashboards im **Power BI**-Dienst<strong>[ finden Sie unter „Tipps zum Entwerfen eines optimalen Dashboards“](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

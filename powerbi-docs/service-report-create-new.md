@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246155"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599526"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Erstellen Sie einen neuen Bericht im Power BI-Dienst durch Importieren eines Datasets.
 Sie haben [Berichte in Power BI](service-reports.md) gelesen, und jetzt möchten Sie Ihren eigenen erstellen. Es gibt viele verschiedene Möglichkeiten zum Erstellen eines Berichts. In diesem Artikel wird zunächst ein sehr einfacher Bericht aus einem Excel-Dataset mithilfe des Power BI-Diensts erstellt. Nachdem Sie die Grundlagen zur Erstellung eines Berichts kennen, gelangen Sie über die **nächsten Schritte** ganz unten zu komplexeren Themen über Berichte.  
 
 > **TIPP:** Informationen zum Erstellen eines Berichts durch Kopieren eines vorhandenen Berichts finden Sie unter [Kopieren eines Berichts](power-bi-report-copy.md)
 > 
-### <a name="prerequisites"></a>Voraussetzungen
-- Power BI-Dienst (Informationen zum Erstellen von Berichten mit Power BI Desktop finden Sie unter [Berichtsansicht in Power BI Desktop](desktop-report-view.md))  
-- Dataset des Analysebeispiels für den Einzelhandel
+> ### <a name="prerequisites"></a>Voraussetzungen
+> - Power BI-Dienst (Informationen zum Erstellen von Berichten mit Power BI Desktop finden Sie unter [Berichtsansicht in Power BI Desktop](desktop-report-view.md))  
+> - Dataset des Analysebeispiels für den Einzelhandel
 
 ## <a name="import-the-dataset"></a>Importieren des Datasets
 Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem leeren Berichtszeichenbereich. Um die Vorgehensweise selbst nachzuvollziehen, [laden Sie das Excel-Dataset „Analysebeispiel für Einzelhandel“ herunter](http://go.microsoft.com/fwlink/?LinkId=529778), und speichern Sie es in OneDrive for Business (bevorzugt) oder lokal.

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721706"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598137"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Verwalten von Inhalten im Webportal 
 Das Webportal von Power BI-Berichtsserver ist ein lokaler Speicherort zum Anzeigen, Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte sowie von KPIs.
@@ -38,9 +38,9 @@ Die Webportalanwendung wird in einem Browser ausgeführt. Nach Starten des Webpo
     Diese Liste enthält [unterstützte Webbrowser und Versionen](browser-support.md).
 2. Geben Sie in die Adressleiste die URL des Webportals ein.
    
-    Standardmäßig lautet die URL *http://[Computername]/reports*.
+    Standardmäßig lautet die URL <em>http://[Computername]/reports</em>.
    
-    Der Berichtsserver kann für die Verwendung eines bestimmten Ports konfiguriert werden. Beispiele: *http://[Computername]:80/reports* oder *http://[Computername]:8080/reports*
+    Der Berichtsserver kann für die Verwendung eines bestimmten Ports konfiguriert werden. Beispiele: <em>http://[Computername]:80/reports</em> oder <em>http://[Computername]:8080/reports</em>
    
     Wie Sie sehen, werden im Webportal Elemente in den folgenden Kategorien gruppiert:
    

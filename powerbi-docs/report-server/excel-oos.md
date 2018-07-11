@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481898"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092665"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 Außer Power BI-Berichte im Webportal anzuzeigen kann der Power BI-Berichtsserver auch Excel-Arbeitsmappen mithilfe von [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) hosten. Der Berichtsserver wird zu einem zentralen Ort zum Veröffentlichen und Anzeigen von Microsoft BI-Self-Service-Inhalt.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parameter**
 
-* **–InternalURL** ist der vollqualifizierte Domänenname des Servers, auf dem Office Online Server ausgeführt wird, z.B. „http://servername.contoso.com“.
+* **–InternalURL** ist der vollqualifizierte Domänenname des Servers, auf dem Office Online Server ausgeführt wird, z.B. „`http://servername.contoso.com`“.
 * **–ExternalURL** ist der FQDN, auf den aus dem Internet zugegriffen werden kann.
 * **–CertificateName** ist der Anzeigename des Zertifikats.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parameter**
 
-* **–InternalURL** ist der Name des Servers, auf dem Office Online Server ausgeführt wird, z.B. „http://servername“.
+* **–InternalURL** ist der Name des Servers, auf dem Office Online Server ausgeführt wird, z.B. „`http://servername`“.
 * **–AllowHttp** konfiguriert die Farm für die Verwendung von HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Vergewissern Sie sich, dass die Office Online Server-Farm erfolgreich erstellt wurde

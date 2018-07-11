@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301778"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092113"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
-Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann. Office
+Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und verwendet werden kann.
 
 Nachdem Sie ein benutzerdefiniertes Visual erstellt haben, empfiehlt es sich, es in AppSource zu veröffentlichen, damit es von anderen Personen gefunden und verwendet werden kann. Zuvor sind jedoch einige vorbereitende Schritte erforderlich. Weitere Informationen zum Erstellen einer benutzerdefinierten Visualisierung finden Sie unter [Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools](../service-custom-visuals-getting-started-with-developer-tools.md).
 
@@ -36,7 +36,7 @@ Nachdem Sie das benutzerdefinierte Visual programmiert, getestet und als PBIVIZ-
 | Screenshots |Ja |Sie müssen mindestens einen Screenshot bereitstellen. Dabei kann es sich um eine PNG-, JPG-, JPEG- oder GIF-Datei handeln. Die Größe muss exakt 1366 px (Breite) x 768 px (Höhe) betragen. Die Dateigröße darf 1024 KB nicht überschreiten. *Um den Nutzen der Screenshots zu erhöhen, fügen Sie Textblasen hinzu, die den Wertbeitrag wichtiger Features, die in den einzelnen Screenshots gezeigt werden, erläutern.* |
 | Support-Downloadlink |Ja |Geben Sie eine URL an, um Kunden zu unterstützen, bei denen Probleme mit Ihrer Visualisierung auftreten. Die URL sollte „https://“ oder „http://“ enthalten. |
 | Link zum Datenschutzdokument |Ja |Geben Sie einen Link zur Datenschutzrichtlinie für Kunden an, die Ihre Visualisierung verwenden. Der Link sollte „https://“ oder „http://“ enthalten. |
-| Lizenzbedingungen |Ja |Sie müssen eine Datei mit den Lizenzbedingungen hochladen. Dabei kann es sich um eigene Lizenzbedingungen oder die Standardlizenzbedingungen im Office Store für benutzerdefinierte Power BI-Visualisierungen handeln. Wenn Sie die Standardlizenzbedingungen verwenden möchten, fügen Sie im Verkäuferdashboard im Dialogfeld zum Hochladen der Datei mit den Lizenzbedingungen die folgende URL ein: [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Lizenzbedingungen |Ja |Sie müssen eine Datei mit den Lizenzbedingungen hochladen. Dabei kann es sich um eigene Lizenzbedingungen oder die Standardlizenzbedingungen im Office Store für benutzerdefinierte Power BI-Visualisierungen handeln. Wenn Sie die Standardlizenzbedingungen verwenden möchten, fügen Sie im Verkäuferdashboard im Dialogfeld zum Hochladen der Datei mit den Lizenzbedingungen die folgende URL ein: [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Videolink |Nein |Um das Interesse der Benutzer an Ihrer benutzerdefinierten Visualisierung zu steigern, sollten sie einen Link zu einem Video über Ihre Visualisierung bereitstellen. Die URL sollte „https://“ oder „http://“ enthalten. |
 | GitHub-Repository |Nein |Es wird empfohlen, einen gültigen öffentlichen Link zu einem [GitHub](https://www.github.com)-Repository bereitzustellen, das Quellen Ihrer Visualisierung und Beispieldaten enthält, damit andere Entwickler Feedback geben und Verbesserungen des Codes vorschlagen können. |
 
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um die Übermittlung durchzuführen.
    * Videolink
    * Lizenzbedingungen
      
-       Sie müssen eine Datei mit den Lizenzbedingungen hochladen. Dabei kann es sich um eigene Lizenzbedingungen oder die Standardlizenzbedingungen im Office Store für benutzerdefinierte Power BI-Visualisierungen handeln. Wenn Sie die Standardlizenzbedingungen verwenden möchten, fügen Sie im Verkäuferdashboard im Dialogfeld zum Hochladen der Datei mit den Lizenzbedingungen die folgende URL ein: [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       Sie müssen eine Datei mit den Lizenzbedingungen hochladen. Dabei kann es sich um eigene Lizenzbedingungen oder die Standardlizenzbedingungen im Office Store für benutzerdefinierte Power BI-Visualisierungen handeln. Wenn Sie die Standardlizenzbedingungen verwenden möchten, fügen Sie im Verkäuferdashboard im Dialogfeld zum Hochladen der Datei mit den Lizenzbedingungen die folgende URL ein: [https://visuals.azureedge.net/app-store/Power BI – Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. Wählen Sie **Weiter** aus, um zur Seite **Details** zu gelangen.
 9. Wählen Sie **Sprache** aus, und wählen Sie eine Sprache aus der Liste.
    
