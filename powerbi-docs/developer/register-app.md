@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599484"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924999"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten
 Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory (Azure AD) registrieren können.
@@ -23,7 +23,6 @@ Sie registrieren Ihre Anwendung bei Azure AD, um der Anwendung den Zugriff auf d
 
 > [!IMPORTANT]
 > Um eine Power BI-App zu registrieren, benötigen Sie einen [Azure Active Directory-Mandanten und einen Organisationsbenutzer](create-an-azure-active-directory-tenant.md). Wenn Sie sich mit einem Benutzer in Ihrem Mandanten noch nicht für Power BI registriert haben, wird die Registrierung der App nicht ordnungsgemäß abgeschlossen.
-> 
 > 
 
 Die Registrierung Ihrer Anwendung kann auf zweierlei Weise erfolgen. Erstens mithilfe des [Power BI-App-Registrierungstools](https://dev.powerbi.com/apps/), zweitens direkt im Azure-Portal. Das Power BI-App-Registrierungstool ist die einfachste Option, da nur wenige Felder ausgefüllt werden müssen. Wenn Sie Änderungen an der App vornehmen möchten, verwenden Sie das Azure-Portal.
@@ -45,7 +44,7 @@ So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
    
     **Home Page URL** (URL der Startseite) steht nur zur Verfügung, wenn Sie **Server-side Web app** (Serverseitige Web-App) als Anwendungstyp ausgewählt haben.
    
-    Für die Beispiele *embedding for your customers* (Einbetten für Ihre Kunden) und *integrate-dashboard-web-app* (Integrieren eines Dashboards in eine Web-App) lautet die Umleitungs-URL `http://localhost:13526/redirect`. Für das Beispiel zu Berichten und Kacheln lautet die Umleitungs-URL `http://localhost:13526/`.
+    Für die Beispiele *embedding for your customers* (Einbetten für Ihre Kunden) und *integrate-dashboard-web-app* (Integrieren eines Dashboards in eine Web-App) lautet die **Umleitungs-URL** `http://localhost:13526/Redirect`. Für das Beispiel zu Berichten und Kacheln lautet die **Umleitungs-URL** `http://localhost:13526/`.
 6. Wählen Sie die APIs für die Anwendung aus, die Zugriff hat. Weitere Informationen zu Power BI-Zugriffsberechtigungen finden Sie unter [Power BI-Berechtigungen](power-bi-permissions.md).
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ Die andere Möglichkeit zum Registrieren Ihrer Anwendung besteht direkt im Azure
 5. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung .
    
    * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, mit der sich die Benutzer anmelden können, z.B. `http://localhost:13526`.
-   * Geben Sie für native Anwendungen einen Umleitungs-URI an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. „`http://myapplication/redirect`“.
+   * Geben Sie für native Anwendungen einen **Umleitungs-URI** an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. „`http://myapplication/Redirect`“.
 
 Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory finden Sie unter [Integrieren von Anwendungen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

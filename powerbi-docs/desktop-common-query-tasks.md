@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137489"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877329"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop
 Beim Arbeiten im Fenster **Abfrage-Editor** von Power BI Desktop haben Sie es mit einer Hand voll häufig verwendeter Aufgaben zu tun. In diesem Dokument werden diese allgemeinen Aufgaben vorgestellt. Zudem finden Sie Links zu weiteren Informationen. 
@@ -38,7 +38,7 @@ Die erste Datenverbindung ist eine Excel-Arbeitsmappe. Die andere ist eine Webre
 Mit den Schritten, die zum Verbinden mit diesen beiden Datenquellen erforderlich sind, beginnen die allgemeinen Abfrageaufgaben.
 
 ## <a name="connect-to-data"></a>Verbinden mit Daten
-Für eine Datenverbindung in Power BI Desktop wählen Sie im Menüband auf der Registerkarte **Start** die Schaltfläche **Daten abrufen** aus. Power BI Desktop zeigt ein Menü mit den am häufigsten verwendeten Datenquellen an. Um eine vollständige Liste der Datenquellen abzurufen, zu denen Power BI Desktop eine Verbindung herstellen kann, klicken Sie unten im Menü auf die Schaltfläche **Mehr...** Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Für eine Datenverbindung in Power BI Desktop wählen Sie im Menüband auf der Registerkarte **Start** die Schaltfläche **Daten abrufen** aus. Power BI Desktop zeigt ein Menü mit den am häufigsten verwendeten Datenquellen an. Um eine vollständige Liste der Datenquellen abzurufen, zu denen Power BI Desktop eine Verbindung herstellen kann, klicken Sie unten im Menü auf die Schaltfläche **Mehr...** Weitere Informationen finden Sie unter [Datenquellen in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Wählen Sie **OK** aus. Wie zuvor prüft Power BI Desktop die Arbeitsmappe und z
 
 Andere Datenverbindungen funktionieren ähnlich. Falls für eine Datenverbindung eine Authentifizierung erforderlich ist, fordert die Power BI Query Sie auf, die entsprechenden Abmeldeinformationen einzugeben.
 
-Das Verbinden mit Daten in Power BI Desktop wird Schritt für Schritt unter [Verbinden mit Daten in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data) erläutert.
+Das Verbinden mit Daten in Power BI Desktop wird Schritt für Schritt unter [Verbinden mit Daten in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data) erläutert.
 
 ## <a name="shape-and-combine-data"></a>Strukturieren und Kombinieren von Daten
-Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter **[Strukturieren und Kombinieren von Daten mit Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)** erläutert.
+Mit dem Abfrage-Editor können Sie ganz einfach Daten strukturieren und kombinieren. Dieser Abschnitt enthält einige Beispiele zum Strukturieren von Daten. Das Strukturieren und Kombinieren von Daten wird ausführlicher unter **[Strukturieren und Kombinieren von Daten mit Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** erläutert.
 
 Im vorherigen Abschnitt haben wir Verbindungen zu zwei Datasets hergestellt: eine Excel-Arbeitsmappe und eine Webressource. Nach dem Laden im Abfrage-Editor zeigt sich das folgende Bild, wobei die Abfrage von der Website ausgewählt ist (unter den aufgelisteten verfügbaren Abfragen im Bereich **Abfragen** auf der linken Seite des Abfrage-Editor-Fensters).
 

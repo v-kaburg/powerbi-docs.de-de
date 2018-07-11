@@ -11,11 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239256"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924578"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Herstellung einer Verbindung mit den verwendeten Diensten mithilfe von Power BI
 Sie können eine Verbindung mit einer Reihe von Diensten herstellen, die Sie zur Unterstützung Ihrer Geschäftstätigkeit einsetzen, z.B. Salesforce, Microsoft Dynamics und Google Analytics. Power BI verwendet für die Verbindung mit dem Dienst Ihre Anmeldeinformationen und erstellt dann eine Power BI-App mit einem Dashboard und einer Reihe von Power BI-Berichten, die Ihre Daten automatisch anzeigen und Ihnen visuelle Einblicke in Ihr Unternehmen ermöglichen. 

@@ -11,11 +11,11 @@ ms.date: 05/03/2018
 ms.author: maghan
 LocalizationGroup: Create reports
 ms.openlocfilehash: 022668737f6bcce987b2923ba7a4416f4a08460a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287070"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38875986"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI Desktop
 Die Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI Desktop führt zu Einschränkungen des Datenzugriffs für bestimmte Benutzer. Filter beschränken die Daten auf Zeilenebene. Sie können Filter für Rollen definieren.

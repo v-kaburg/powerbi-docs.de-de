@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298962"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926511"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: Herstellen einer Verbindung mit lokalen Daten in SQL Server
 
@@ -128,7 +128,7 @@ Nachdem Sie jetzt über Beispieldaten verfügen, mit denen Sie arbeiten können,
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>Hinzufügen von SQL Server als Gatewaydatenquelle
 
-In Power BI Desktop stellen Sie eine direkte Verbindung mit SQL Server her, aber der Power BI-Dienst erfordert ein Gateway, das als Brücke fungiert. Jetzt fügen Sie Ihre SQL Server-Instanz als Datenquelle für das Gateway hinzu, das Sie in einem früheren Artikel (siehe [Voraussetzungen](#prereqisites)) erstellt haben. 
+In Power BI Desktop stellen Sie eine direkte Verbindung mit SQL Server her, aber der Power BI-Dienst erfordert ein Gateway, das als Brücke fungiert. Jetzt fügen Sie Ihre SQL Server-Instanz als Datenquelle für das Gateway hinzu, das Sie in einem früheren Artikel (siehe [Voraussetzungen](#prerequisites)) erstellt haben. 
 
 1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-sql-tutorial/icon-gear.png) und dann auf **Gateways verwalten**.
 
@@ -142,15 +142,17 @@ In Power BI Desktop stellen Sie eine direkte Verbindung mit SQL Server her, aber
 
     ![Datenquelleneinstellungen eingeben](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | Option | Wert |
-    | ---    | ---   |
-    | **Datenquellenname**       | test-sql-source      |
-    | **Datenquellentyp**       | SQL Server      |
-    | **Server**       |  Der Name Ihrer SQL Server-Instanz (muss mit der Angabe in Power BI Desktop identisch sein)    |
-    | **Datenbank**       | TestGatewayDocs      |
-    | **Authentifizierungsmethode**       | Windows      |
-    | **Benutzername**        |  Das Konto zum Herstellen der Verbindung mit SQL Server, z.B. michael@contoso.com     |
-    | **Kennwort**       |  Das Kennwort für das Konto zum Herstellen der Verbindung mit SQL Server    |
+
+   |          Option           |                                               Wert                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **Datenquellenname**    |                                          test-sql-source                                           |
+   |   **Datenquellentyp**    |                                             SQL Server                                             |
+   |        **Server**         | Der Name Ihrer SQL Server-Instanz (muss mit der Angabe in Power BI Desktop identisch sein) |
+   |       **Datenbank**        |                                          TestGatewayDocs                                           |
+   | **Authentifizierungsmethode** |                                              Windows                                               |
+   |       **Benutzername**        |             Das Konto zum Herstellen der Verbindung mit SQL Server, z.B. michael@contoso.com             |
+   |       **Kennwort**        |                   Das Kennwort für das Konto zum Herstellen der Verbindung mit SQL Server                    |
+
 
 4. Wählen Sie **Hinzufügen**. Bei erfolgreicher Ausführung wird *Die Verbindung wurde hergestellt.* angezeigt.
 
