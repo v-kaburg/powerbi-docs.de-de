@@ -1,4 +1,4 @@
-Manchmal möchten Sie vielleicht einen gedruckten Bericht oder ein gedrucktes Dashboard zu einer Besprechung mitbringen, um sie mit anderen zu teilen. Mit Power BI haben Sie verschiedene Möglichkeiten, Ihre visuellen Elemente auszudrucken.
+Manchmal möchten Sie vielleicht einen gedruckten Bericht oder ein gedrucktes Dashboard zu einer Besprechung mitbringen, um sie mit anderen zu teilen. Mit Power BI haben Sie verschiedene Möglichkeiten, Ihre Visuals auszudrucken.
 
 Wählen Sie im Power BI-Dienst die drei Auslassungspunkte oben rechts aus, und wählen Sie dann **Dashboard drucken**.
 
