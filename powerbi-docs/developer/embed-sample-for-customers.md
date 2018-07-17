@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900075"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877416"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
 Mit **Power BI Embedded in Azure** können Sie mit **App Owns Data** (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. Dies ist normalerweise in einem Szenario mit einem **ISV-Entwickler** der Fall. **ISV-Entwickler** können Power BI-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer der Anwendung über eine Power BI-Lizenz verfügen oder wissen müssen, dass Power BI im Hintergrund ausgeführt wird. Dieses Tutorial veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das **Power BI** .NET SDK sowie die **Power BI**-JavaScript-API verwenden, wenn Sie **Power BI Embedded in Azure** für Ihre Kunden mit **App Owns Data** nutzen.
@@ -54,7 +54,7 @@ Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung a
     ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Neue App-Registrierung](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung . Für „App Owns Data“ müssen Sie **Nativ** als Anwendungstyp verwenden. Sie müssen auch einen **Umleitungs-URI** angeben, den **Azure AD** zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. `http://localhost:13526/redirect`.
+4. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung . Für „App Owns Data“ müssen Sie **Nativ** als Anwendungstyp verwenden. Sie müssen auch einen **Umleitungs-URI** angeben, den **Azure AD** zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. `http://localhost:13526/Redirect`.
 
     ![App erstellen](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
