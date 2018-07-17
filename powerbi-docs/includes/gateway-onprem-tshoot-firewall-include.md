@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Firewall oder Proxy
 Informationen zum Bereitstellen von Proxyinformationen für Ihr Gateway finden Sie unter [Konfigurieren von Proxyeinstellungen für Power BI Gateways](../service-gateway-proxy.md).
 
-Sie können mit dem Befehl [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) in einer PowerShell-Eingabeaufforderung testen, ob Ihre Firewall oder Ihr Proxy Verbindungen blockiert. Damit wird die Verbindung zum Azure Service Bus getestet. Es wird dadurch nur die Netzwerkverbindung getestet. Dies hat nichts mit dem Cloudserverdienst oder dem Gateway zu tun. Der Test hilft Ihnen dabei, zu bestimmen, ob Ihr Computer wirklich eine Verbindung mit dem Internet herstellen kann.
+Sie können mit dem Befehl [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) in einer PowerShell-Eingabeaufforderung testen, ob Ihre Firewall oder Ihr Proxy Verbindungen blockiert. Damit wird die Verbindung zum Azure Service Bus getestet. Es wird dadurch nur die Netzwerkverbindung getestet. Dies hat nichts mit dem Cloudserverdienst oder dem Gateway zu tun. Der Test hilft Ihnen dabei, zu bestimmen, ob Ihr Computer wirklich eine Verbindung mit dem Internet herstellen kann.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

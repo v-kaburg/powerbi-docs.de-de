@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301732"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864351"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 Mit der Sicherheit auf Zeilenebene (Row Level Security,RLS) kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
@@ -65,11 +65,11 @@ Dazu gehen Sie wie folgt vor:
 3. Geben Sie in der Tabelle **District** (Bezirk) den folgenden DAX-Ausdruck ein: **[District Manager] = USERNAME()**.
    
     ![DAX-Anweisung für RLS-Regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Um sicherzustellen, dass die Regeln angewendet werden, wählen Sie auf der Registerkarte **Modellierung** die Option **Als Rollen anzeigen** aus, und wählen Sie dann die Rolle **Manager**, die Sie gerade erstellt haben, und **Anderer Benutzer** aus. Geben Sie als Benutzer **Andrew Ma** ein.
+4. Um sicherzustellen, dass die Regeln angewendet werden, wählen Sie auf der Registerkarte **Modellierung** die Option **Als Rollen anzeigen** aus, und wählen Sie dann die Ro+lle **Manager**, die Sie gerade erstellt haben, und **Anderer Benutzer** aus. Geben Sie als Benutzer **AndrewMa** ein.
    
     ![Dialogfeld „Als Rollen anzeigen“](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    In den Berichten werden jetzt Daten für den angemeldeten Benutzer **Andrew Ma** angezeigt.
+    In den Berichten werden jetzt Daten für den angemeldeten Benutzer **AndrewMa** angezeigt.
 
 Wenn der Filter so wie hier angewendet wird, werden alle Datensätze in den Tabellen **District** (Bezirk), **Store** (Geschäft) und **Sales** (Umsätze) gefiltert. Aufgrund der Filterrichtung in den Beziehungen zwischen den Tabellen **Sales** (Umsätze) und **Time** (Zeit), **Sales** (Umsätze) und **Item** (Artikel) sowie **Item** (Artikel) und **Time** (Zeit) erfolgt keine Filterung in diesen Richtungen. Um weitere Informationen über die bidirektionale Kreuzfilterung zu erhalten, laden Sie das Whitepaper [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Bidirektionale Kreuzfilterung in SQL Server Analysis Services 2016 und Power BI Desktop, in englischer Sprache) herunter.
 

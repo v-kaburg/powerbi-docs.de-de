@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482243"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599022"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Anzeigen lokaler Berichte und KPIs eines Berichtsservers in den mobilen Power BI-Apps
 
@@ -103,6 +103,9 @@ Sie können nun KPIs und Power BI-Berichte, die auf dem Berichtsserver gespeiche
 Power BI-Berichte, mobile Reporting Services-Berichte und KPIs werden in den gleichen Ordnern wie im Reporting Services-Webportal angezeigt. 
 
 * Tippen Sie auf einen Power BI-Bericht ![Symbol für Power BI-Bericht](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Er wird im Querformat geöffnet, und Sie können in der Power BI-App mit ihm interagieren.
+
+    > [!NOTE]
+  > Die Ausführung eines Drilldowns und Drillups ist derzeit in Power BI-Berichten auf einem Power BI-Berichtsserver nicht aktiviert.
   
     ![Power BI-Bericht](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * In Power BI Desktop können die Besitzer von Berichten [einen Bericht für die mobilen Power BI-Apps optimieren](desktop-create-phone-report.md). Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für optimierten Power BI-Bericht](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
@@ -129,6 +132,6 @@ Sie können KPIs und Berichte im Webportal als Favoriten markieren und dann bequ
 3. Tippen Sie auf **Server entfernen**.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erste Schritte mit Power BI](service-get-started.md)  
+* [Was ist Power BI?](power-bi-overview.md)  
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

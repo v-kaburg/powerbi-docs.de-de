@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689712"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137582"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
 Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten. 
@@ -104,6 +104,6 @@ Es gibt eine Reihe von Möglichkeiten zum Verwalten von Warnungen: in der Dashbo
 ## <a name="next-steps"></a>Nächste Schritte
 [Erstellen eines Flows in Microsoft Flow, der eine Datenwarnung enthält](service-flow-integration.md)    
 [Festlegen von Datenwarnungen auf Ihrem mobilen Gerät](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Erste Schritte mit Power BI](service-get-started.md)    
+[Was ist Power BI?](power-bi-overview.md)    
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

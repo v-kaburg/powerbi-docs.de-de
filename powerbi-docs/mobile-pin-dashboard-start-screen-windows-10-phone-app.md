@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291556"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134844"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Anheften eines Dashboards aus der mobilen Power BI-App an den Windows 10-Startbildschirm
 Sie können Power BI-Dashboards aus der mobilen Power BI-App für Windows 10 an den Windows-Startbildschirm anheften. Sie werden zu *Live-Kacheln*. Wenn Sie auf dem Startbildschirm auf die Kachel tippen, wird das Dashboard in der mobilen Power BI-App für Windows 10 geöffnet.
@@ -34,6 +34,6 @@ Sie können Power BI-Dashboards aus der mobilen Power BI-App für Windows 10 an 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Herunterladen der mobilen Power BI-App für Windows 10](http://go.microsoft.com/fwlink/?LinkID=526478) aus dem Windows Store  
 * [Erste Schritte mit der mobilen Power BI-App für Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Erste Schritte mit Power BI](service-get-started.md)
+* [Was ist Power BI?](power-bi-overview.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

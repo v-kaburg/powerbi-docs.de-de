@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964812"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145385"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Ja, Sonderpreise für gemeinnützige Organisationen sind möglich, wenn Sie dire
 Der Power BI-Dienst [https://powerbi.com](https://powerbi.com) ist nicht als privater, interner Clouddienst verfügbar. Sie verfügen jedoch über drei andere Möglichkeiten für das lokale Anzeigen von und Arbeiten mit Daten. 
 
 ### <a name="on-premises-data-gateway"></a>Lokales Datengateway
-Mit Power BI und Power BI Desktop können Sie sichere Verbindungen mit Ihren eigenen lokalen Datenquellen herstellen. Mithilfe des [lokalen Datengateways](service-gateway-onprem.md) können Sie dynamische Verbindungen mit dem lokalen SQL Server Analysis Services-Server und anderen Datenquellen herstellen. Sie können auch die geplante Aktualisierung mit einem zentralen Gateway festlegen. Wenn kein Gateway verfügbar ist, können Sie Daten aus lokalen Datenquellen mit [Power BI-Gateway – Personal](personal-gateway.md) aktualisieren.
+Mit Power BI und Power BI Desktop können Sie sichere Verbindungen mit Ihren eigenen lokalen Datenquellen herstellen. Mithilfe des [lokalen Datengateways](service-gateway-onprem.md) können Sie dynamische Verbindungen mit dem lokalen SQL Server Analysis Services-Server und anderen Datenquellen herstellen. Sie können auch die geplante Aktualisierung mit einem zentralen Gateway festlegen. Wenn kein Gateway verfügbar ist, können Sie Daten aus lokalen Datenquellen mit [Power BI-Gateway – Personal](service-gateway-personal-mode.md) aktualisieren.
 
 ### <a name="power-bi-report-server"></a>Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung, die Sie lokal für das Erstellen, Veröffentlichen und Verwalten von Berichten bereitstellen. Diese Berichte werden anschließend auf verschiedene Weisen den gewünschten Benutzern zur Verfügung gestellt: in einem Webbrowser, auf einem Mobilgerät oder als E-Mail im Posteingang. Informieren Sie sich umfassender über den [Power BI-Berichtsserver](report-server/get-started.md).
@@ -138,6 +138,7 @@ Wie viele andere Microsoft-Dienste und Software bietet Power BI eine einfache M�
 * Wenn Sie Ihre letzte Aktion oder mehrere Aktionen **rückgängig machen** möchten, drücken Sie STRG+Z.
 
 ## <a name="next-steps"></a>Nächste Schritte
+* [Was ist Power BI?](power-bi-overview.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
 

@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Lernprogramme
       items:
-        - name: Einbetten von Inhalten für Kunden
+        - name: Einbetten von Inhalt für Ihre Kunden
           href: developer/embed-sample-for-customers.md
+        - name: Einbetten von Inhalt für Ihre Organisation
+          href: developer/embed-sample-for-your-organization.md
     - name: Konzepte
       items:
         - name: Arbeiten mit Power BI-REST-APIs
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Einbetten von Inhalten
               href: developer/embedding-content.md
-            - name: Integrieren eines Dashboards in eine App (Benutzer ist Besitzer der Daten)
-              href: developer/integrate-dashboard.md
-            - name: Integrieren einer Power BI-Kachel in eine App (Benutzer ist Besitzer der Daten)
-              href: developer/integrate-tile.md
-            - name: Integrieren eines Power BI-Berichts in eine App (Benutzer ist Besitzer der Daten)
-              href: developer/integrate-report.md
+            - name: Einbetten aus einer App
+              href: developer/embed-from-apps.md
             - name: Integrieren von Inhalten in Ihre Anwendung für Sovereign Cloud (App ist Besitzer der Daten)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Einbetten von benutzerdefinierten Layouts in einer App

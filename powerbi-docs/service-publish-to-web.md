@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254853"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092343"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -135,7 +135,8 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 5. „R“-Visualisierungen werden in „Im Web veröffentlichen“-Berichten derzeit nicht unterstützt.
 6. Exportieren von Daten aus visuellen Elementen in einen Bericht, der im Web veröffentlicht wurde
 7. ArcGIS Maps for Power BI-Visuals
-8. [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
+8. Berichte, die DAX-Measures auf Berichtebene enthalten
+9. [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Mandanteneinstellung
 

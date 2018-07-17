@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254830"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965295"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -22,17 +22,15 @@ In Power BI können Sie *Apps* erstellen, um zusammengehörige Dashboards und Be
 
 ![Power BI-Apps](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Ihre Geschäftskunden benötigen für den Betrieb ihres Unternehmens häufig mehrere Power BI-Dashboards und -Berichte. Da die Apps diese Bestandteile zusammenbringen, müssen sie sich nicht die Namen und Positionen aller dieser Dashboards merken.  
-
-Mit Power BI-Apps, die derzeit in der Vorschauphase sind, können Sie Sammlungen von Dashboards und Berichten erstellen und diese Apps in Ihrer gesamten Organisation oder für bestimmte Personen oder Gruppen veröffentlichen. Für Sie als Berichtersteller oder Administrator vereinfachen Apps das Verwalten von Berechtigungen für Sammlungen von Dashboards.
+Ihre Geschäftskunden benötigen für den Betrieb ihres Unternehmens häufig mehrere Power BI-Dashboards und -Berichte. Da die Apps diese Bestandteile zusammenbringen, müssen sie sich nicht die Namen und Positionen aller dieser Dashboards merken. Mit Power BI-Apps können Sie Sammlungen von Dashboards und Berichten erstellen und diese Apps in Ihrer gesamten Organisation oder für bestimmte Personen oder Gruppen veröffentlichen. Für Sie als Berichtersteller oder Administrator vereinfachen Apps das Verwalten von Berechtigungen für Sammlungen von Dashboards.
 
 Geschäftskunden erhalten Ihre Apps mit unterschiedlichen Methoden. Wenn der Power BI-Administrator Ihnen die entsprechende Berechtigung gewährt, können Sie sie automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Andernfalls können diese Ihre Apps über Microsoft AppSource installieren, oder Sie können ihnen einen direkten Link senden. Sie können die Inhalte problemlos finden und zu ihnen zurückkehren, da sich alles an zentraler Stelle befindet. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](service-install-use-apps.md).
 
 ### <a name="licenses-for-apps"></a>Lizenzen für Apps
-Als App-Ersteller benötigen Sie eine Power BI Pro-Lizenz. Die Benutzer Ihrer App haben zwei Optionen.
+Als App-Ersteller benötigen Sie eine Power BI Pro-Lizenz. Die Benutzer Ihrer App haben zwei Optionen, um Ihre App anzuzeigen.
 
-* Option 1: Alle Geschäftsbenutzer benötigen **Power BI Pro**-Lizenzen, um Ihre App anzeigen zu können. 
-* Option 2: Benutzer von Power BI Free in Ihrer Organisation können App-Inhalte anzeigen, wenn sich Ihre App in einer Power BI Premium-Kapazität befindet. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
+* Option 1: Einem Benutzer der App wurde eine **Power BI Pro-Lizenz** zugewiesen. 
+* Option 2: Einem Benutzer der App wurde keine **Power BI Pro-Lizenz** zugewiesen, jedoch befindet sich die App in einer Power BI Premium-Kapazität. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Apps und organisationsbezogene Inhaltspakete
 Apps sind die Weiterentwicklung von organisationsbezogenen Inhaltspaketen. Wenn Sie bereits über organisationsbezogene Inhaltspakete verfügen, können sie weiterhin neben Apps verwendet werden.

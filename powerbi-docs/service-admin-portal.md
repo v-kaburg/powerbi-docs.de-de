@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301824"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965502"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -46,7 +46,7 @@ Innerhalb des Portals gibt es sechs Registerkarten. Diese werden nachfolgend bes
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>Usage metrics
+## <a name="usage-metrics"></a>Nutzungsmetriken
 Die erste Registerkarte im Verwaltungsportal heißt **Nutzungsmetriken**. Der Bericht zu den Nutzungsmetriken erlaubt Ihnen das Überwachen der Nutzung in Power BI für Ihre Organisation. Außerdem können Sie darüber feststellen, welche Benutzer und Gruppen in Power BI für Ihre Organisation am aktivsten sind.
 
 > [!NOTE]
@@ -99,6 +99,8 @@ Weitere Informationen zu Überwachungsprotokollen finden Sie unter [Überwachen 
 ## <a name="tenant-settings"></a>Mandanteneinstellungen
 
 Die dritte Registerkarte im Verwaltungsportal ist **Mandanteneinstellungen**. Über die Mandanteneinstellungen können Sie besser steuern, welche Features in Ihrer Organisation zur Verfügung gestellt werden. Wenn Sie über vertrauliche Daten verfügen, die geschützt werden müssen, sind möglicherweise einige unserer Features für Ihre Organisation nicht sinnvoll, oder Sie können ein bestimmtes Feature nur für eine bestimmte Gruppe verfügbar machen. Sie können diese Funktion in diesem Fall in Ihrem Mandanten deaktivieren.
+
+Beispielsweise sind die benutzerspezifischen Daten standardmäßig für die Nutzungsmetriken aktiviert, und die Kontoinformationen vom Ersteller des Inhalts sind im Bericht zu den Nutzungsmetriken enthalten. Wenn Sie diese Informationen für einige oder alle Benutzer nicht miteinbeziehen möchten, deaktivieren Sie das Feature für angegebene Sicherheitsgruppen oder eine gesamte Organisation. Die Kontoinformationen werden im Bericht dann als *Unnamed* (Unbenannt) angezeigt.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Benutzer in der Organisation können mit benutzerdefinierten Visuals interagiere
 
 ## <a name="r-visuals-settings"></a>Einstellungen für R-Visualisierungen
 
-### <a name="interact-with-an-dshare-r-visuals"></a>Interagieren mit und Freigeben von R-Visualisierungen
+### <a name="interact-with-and-share-r-visuals"></a>Mit visuellen R-Elementen interagieren und diese freigeben
 
 Benutzer in der Organisation können mit visuellen Elementen, die mit R-Skripts erstellt wurden, interagieren und diese freigeben. [Weitere Informationen](service-r-visuals.md)
 

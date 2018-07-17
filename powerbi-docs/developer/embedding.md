@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561745"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944098"
 ---
 # <a name="embedding-with-power-bi"></a>Einbetten mit Power BI
 Power BI bietet APIs zum Einbetten von Dashboards und Berichten in Anwendungen. Die Power BI-APIs bieten einen einheitlichen Satz von Funktionen und Zugriff auf die neuesten Power BI-Funktionen (z.B. Dashboards, Gateways und App-Arbeitsbereiche) beim Einbetten von Inhalten.
@@ -29,7 +29,7 @@ Ein Beispiel für die Funktionsweise der Einbettung finden Sie im [JavaScript-Ei
 ## <a name="embedding-for-your-organization"></a>Einbetten für Ihre Organisation
 Das Einbetten für Ihre Organisation ermöglicht Ihnen das Erweitern des Power BI-Diensts. Dafür ist erforderlich, dass sich die Benutzer Ihrer Anwendung beim Power BI-Dienst anmelden, wenn sie ihre Inhalte anzeigen möchten. Nachdem sich ein Benutzer in Ihrer Organisation angemeldet hat, besitzt er nur Zugriff auf Dashboards und Berichte, deren Eigentümer er ist oder die für ihn im Power BI-Dienst freigegeben wurden. 
 
-*Beispiele für das Einbetten in Ihre Organisation umfassen interne Webanwendungen, das SharePoint Online-Webpart und die Microsoft Teams-Integration.*
+*Beispiele für das Einbetten in Ihre Organisation umfassen interne Webanwendungen, das SharePoint Online-Webpart und die [Microsoft Teams-Integration (Sie müssen über Administratorrechte verfügen)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Informationen zum Einbetten für Ihre Organisation finden Sie in den folgenden Artikeln:
 

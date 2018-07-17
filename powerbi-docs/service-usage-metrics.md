@@ -8,22 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755252"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599687"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
 Wenn Sie Dashboards und Berichte erstellen, können Sie mit Nutzungsmetriken nachvollziehen, wie diese sich auswirken. Wenn Sie entweder das Dashboard zu Nutzungsmetriken oder die Berichte zu Nutzungsmetriken ausführen, können Sie ermitteln, wie die Dashboards und Berichte in der gesamten Organisation verwendet werden. Was wurde von wem und zu welchem Zweck verwendet?  
 
-  > **HINWEIS:** Nutzungsmetriken verfolgen die Verwendung von Berichten nach, die in SharePoint Online eingebettet sind. Nutzungsmetriken verfolgen jedoch nicht das Einbetten von Dashboards und Berichten mit den Flows „User Owns Credentials“ (Benutzer besitzt Anmeldeinformationen) und „App Owns Credentials“ (App besitzt Anmeldeinformationen) nach. Nutzungsmetriken verfolgen auch nicht die Verwendung von Berichten nach, die über [Im Web veröffentlichen](service-publish-to-web.md) eingebettet wurden.
+> [!NOTE]
+> Nutzungsmetriken verfolgen die Verwendung von Berichten nach, die in SharePoint Online eingebettet sind. Nutzungsmetriken verfolgen jedoch nicht das Einbetten von Dashboards und Berichten mit den Flows „User Owns Credentials“ (Benutzer besitzt Anmeldeinformationen) und „App Owns Credentials“ (App besitzt Anmeldeinformationen) nach. Nutzungsmetriken verfolgen auch nicht die Verwendung von Berichten nach, die über [Im Web veröffentlichen](service-publish-to-web.md) eingebettet wurden.
 
-Diese Berichte zu Nutzungsmetriken sind schreibgeschützt. Sie können allerdings einen Bericht zu Nutzungsmetriken personalisieren, mithilfe von "Speichern unter". Dadurch wird ein völlig neues Dataset erstellt und der schreibgeschützte Bericht wird zu einem vollständigen Power BI-Bericht konvertiert, den Sie bearbeiten können. Der personalisierte Bericht enthält nicht nur Metriken für das ausgewählte Dashboard oder den ausgewählten Bericht, sondern Sie erhalten auch durch das Entfernen des Standardfilters Zugriff auf die Nutzungsmetriken für alle Dashboards oder alle Berichte im ausgewählten Arbeitsbereich.
+Diese Berichte zu Nutzungsmetriken sind schreibgeschützt. Sie können allerdings einen Bericht zu Nutzungsmetriken personalisieren, mithilfe von "Speichern unter". Dadurch wird ein völlig neues Dataset erstellt und der schreibgeschützte Bericht wird zu einem vollständigen Power BI-Bericht konvertiert, den Sie bearbeiten können. Der personalisierte Bericht enthält nicht nur Metriken für das ausgewählte Dashboard oder den ausgewählten Bericht, sondern Sie erhalten auch durch das Entfernen des Standardfilters Zugriff auf die Nutzungsmetriken für alle Dashboards oder alle Berichte im ausgewählten Arbeitsbereich. Sie können sogar die Namen der Endbenutzer sehen.
 
 ![Bericht zu Nutzungsmetriken](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
@@ -33,7 +34,7 @@ Wenn Sie wissen, wie Ihre Inhalte verwendet werden, können Sie die Relevanz ver
 Die Ausführung von Berichten zu Nutzungsmetriken ist nur im Power BI-Dienst verfügbar.  Wenn Sie jedoch einen Bericht zu Nutzungsmetriken speichern oder diesen an ein Dashboard anheften, können Sie diesen Bericht auf mobilen Geräten öffnen und damit interagieren.
 
 ### <a name="prerequisites"></a>Voraussetzungen
-- Das Feature „Nutzungsmetriken“ erfasst Informationen zu allen Benutzern (Free und Pro). Allerdings ist eine Pro-Lizenz erforderlich, um auf die Nutzungsmetrikdaten zuzugreifen.
+- Das Feature „Nutzungsmetriken“ erfasst Informationen zur Nutzung durch alle Benutzer, unabhängig davon, welche Lizenz ihnen zugewiesen ist. Allerdings ist eine Power BI Pro-Lizenz erforderlich, um auf die Nutzungsmetrikdaten zuzugreifen.
 - Nutzungsmetriken sind in Dashboards oder Berichten im ausgewählten Arbeitsbereich bereitgestellt. Um Zugriff auf die Nutzungsmetriken für ein bestimmtes Dashboard oder einen bestimmten Bericht zu erhalten, benötigen Sie Folgendes:    
     • Bearbeitungszugriff auf das Dashboard oder den Bericht   
     • Eine Pro-Lizenz
@@ -50,26 +51,24 @@ Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Be
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Öffnen des Berichts „Nutzungsmetriken“ für ein Dashboard oder einen Bericht
 1. Starten Sie im Arbeitsbereich, der das Dashboard oder den Bericht enthält.
 2. Klicken Sie entweder in der Inhaltsliste im Arbeitsbereich oder im Dashboard bzw. im Bericht selbst auf das Symbol für **Nutzungsmetriken** ![Symbol „Nutzungsmetriken“](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
-   
+
     ![Registerkarte „Dashboards“](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
-   
+
     ![Nutzungsmetriken auswählen](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. Wenn Sie erstmals so vorgehen, erstellt Power BI den Bericht zu den Nutzungsmetriken und lässt Sie wissen, wenn er bereit ist.
-   
+
     ![Metriken sind bereit](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Wählen Sie **Nutzungsmetriken anzeigen** aus, um die Ergebnisse zu öffnen.
-   
+
     Nutzungsmetriken sind eine leistungsfähige Unterstützung bei der Bereitstellung und Verwaltung von Dashboards und Berichten von Power BI. Fragen Sie sich, welche Seiten des Berichts besonders hilfreich sind und welche Sie allmählich löschen sollten? Unterteilen Sie die **Berichtsseiten**, um dies herauszufinden. Fragen Sie sich, ob ein mobiles Layout für das Dashboard erstellt werden sollte? Unterteilen Sie die **Plattformen**, um zu ermitteln, wie viele Benutzer auf Ihre Inhalte über die mobilen Apps bzw. wie viele Benutzer auf Ihre Inhalte über den Webbrowser zugreifen.
 
 5. Optional können Sie auf eine Visualisierung zeigen und das Anheftsymbol auswählen, um die Visualisierung einem Dashboard hinzuzufügen. Oder wählen Sie in der oberen Menüleiste **Live-Seite anheften** aus, um einem Dashboard die gesamte Seite hinzuzufügen. Über das Dashboard können Sie die Nutzungsmetriken leichter überwachen oder sie für andere Benutzer freigeben.
-   
-   > **HINWEIS**: Wenn Sie eine Kachel aus dem Bericht zu Nutzungsmetriken an ein Dashboard anheften, kann das Dashboard nicht zu einer App oder einem Inhaltspaket hinzugefügt werden.
-   > 
-   > 
 
-<br><br>
+    > [!NOTE]
+    > Wenn Sie eine Kachel aus dem Bericht zu Nutzungsmetriken an ein Dashboard anheften, kann das Dashboard nicht zu einer App oder einem Inhaltspaket hinzugefügt werden.
 
 ## <a name="what-metrics-are-reported"></a>Welche Metriken werden gemeldet?
+
 | Metrik | Dashboard | Report | Beschreibung |
 | --- | --- | --- | --- |
 | Datenschnitt „Verteilungsmethode“ |Ja |Ja |Wie Benutzer Zugriff auf den Inhalt erhalten haben. Es gibt drei Zugriffsmethoden: 1. Können Benutzer auf das Dashboard oder den Bericht als Mitglied eines [App-Arbeitsbereichs](service-the-new-power-bi-experience.md) zugreifen, 2. kann der Inhalt für sie [freigegeben](service-share-dashboards.md) werden, oder es kann 3. ein Inhaltspakets bzw. eine App installiert werden.  Beachten Sie, dass Aufrufe über eine App als „Inhaltspaket“ gelten. |
@@ -108,16 +107,16 @@ Wenn Sie eine Kopie mithilfe von „Speichern unter“ erstellen (personalisiere
 
 
 1. Klicken Sie im vorgefertigten Bericht „Nutzungsmetriken“ auf **Datei > Speichern unter**. Power BI konvertiert den Bericht „Nutzungsmetriken“ in einen Power BI-Bericht mit vollem Funktionsumfang. Hierbei spricht man von einem *personalisierten* Bericht zu Nutzungsmetriken. Der personalisierte Nutzungsbericht und das personalisierte Dataset werden im aktuellen Arbeitsbereich gespeichert, dessen Name **mihart* lautet.
-   
+
     ![Speichern unter](media/service-usage-metrics/power-bi-save-as.png)
 2. Öffnen Sie den Bericht in der Bearbeitungsansicht, und [interagieren Sie mit ihm wie mit anderen Power BI-Berichten](service-interact-with-a-report-in-editing-view.md). Fügen Sie z.B. neue Seiten hinzu, erstellen Sie neue Visualisierungen, fügen Sie Filter hinzu, formatieren Sie die Schriftarten und Farben usw.
-   
+
     ![Bericht in der Bearbeitungsansicht öffnen](media/service-usage-metrics/power-vi-editing-view.png)
 3. Alternativ können Sie mit dem neuen Dataset beginnen und einen Bericht von Grund auf neu erstellen.
-   
+
     ![Registerkarte „Datasets“](media/service-usage-metrics/power-bi-new-dataset.png)
 4. Der neue Bericht wird im aktuellen Arbeitsbereich („mihart“) gespeichert und auch der Inhaltsliste **Zuletzt verwendet** hinzugefügt.
-   
+
     ![Registerkarte „Berichte“](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Entfernen Sie den Filter, um ***alle*** Nutzungsmetrikdaten im Arbeitsbereich anzuzeigen.
@@ -126,26 +125,28 @@ Um die Metriken für alle Dashboards oder für alle Berichte im Arbeitsbereich a
 Wenn z.B. das Dashboard mit dem Namen „Umsätze Europa“ verwendet wurde, um diesen neuen personalisierten Bericht zu erstellen, werden nur Nutzungsdaten vom Dashboard „Umsätze Europa“ angezeigt. So können Sie den Filter entfernen und Daten aller Dashboards in diesem Arbeitsbereich aktivieren:
 
 1. Öffnen Sie den personalisierten Bericht in der Bearbeitungsansicht.
-   
+
     ![„Bericht bearbeiten“ auswählen](media/service-usage-metrics/power-bi-editing-view.png)
 2. Suchen Sie im Bereich „Filter“ den Bucket **Berichtsstufenfilter**, und entfernen Sie den Filter, indem Sie auf das „X“ klicken.
-   
+
     ![Filter entfernen](media/service-usage-metrics/power-bi-report-level-filter2.png)
-   
+
     Jetzt zeigt Ihr personalisierter Bericht Metriken für den gesamten Arbeitsbereich an.
 
 ## <a name="admin-controls-for-usage-metrics---for-power-bi-administrators"></a>Administratorsteuerelemente für die Nutzungsmetriken für Power BI-Administratoren
 Berichte zu Nutzungsmetriken sind ein Feature, das Power BI- oder Office 365-Administratoren aktivieren oder deaktivieren können. Administratoren können präzise steuern, welche Benutzer Zugang zu Nutzungsmetriken haben. In der Standardeinstellung sind diese für alle Benutzer in der Organisation auf EIN festgelegt.
 
 1. Öffnen Sie das Verwaltungsportal, indem Sie rechts oben im Power BI-Dienst auf das Zahnradsymbol klicken und **Verwaltungsportal** auswählen.
-   
+
     ![Zahnradsymbol auswählen](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. Wählen Sie im Verwaltungsportal **Mandanteneinstellungen** und dann **Nutzungsmetriken für Inhaltsersteller** aus.
-   
+
     ![Verwaltungsportal](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Aktivieren (oder deaktivieren) Sie Nutzungsmetriken, und wählen Sie **Übernehmen** aus.
-   
+
     ![Nutzungsmetriken aktiviert](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+Die benutzerspezifischen Daten sind standardmäßig für die Nutzungsmetriken aktiviert, und die Kontoinformationen vom Ersteller des Inhalts sind im Bericht zu den Nutzungsmetriken enthalten. Wenn Sie diese Informationen für einige oder alle Benutzer nicht miteinbeziehen möchten, deaktivieren Sie das Feature für angegebene Sicherheitsgruppen oder eine gesamte Organisation. Die Kontoinformationen werden im Bericht dann als *Unnamed* (Unbenannt) angezeigt.
 
 Beim Deaktivieren von Nutzungsmetriken für die gesamte Organisation können Administratoren mit der Option **Alle vorhandenen Inhalte von Nutzungsmetriken löschen** alle vorhandenen Berichte und Dashboardkacheln löschen, die mit den Berichten und Datasets der Nutzungsmetriken erstellt wurden. Durch diese Option wird jeglicher Zugriff auf Nutzungsmetriken für alle Benutzer der Organisation entfernt, die diese möglicherweise bereits nutzen. Gehen Sie mit Bedacht vor, da das Löschen vorhandener Inhalte von Nutzungsmetriken nicht rückgängig gemacht werden kann.
 

@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297421"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944305"
 ---
 # <a name="what-is-power-bi-administration"></a>Was ist die Power BI-Verwaltung?
 
@@ -73,12 +73,12 @@ In der Power BI-Verwaltung gibt es verschiedene Tools, die in der folgenden Tabe
 
 | **Tool** | **Typische Aufgaben** |
 | --- | --- |
-| Power BI-Verwaltungsportal |<ul><li>Sperren des Zugriffs auf Power BI für Benutzer<br><li>Erwerben von und Arbeiten mit der Premium-Kapazität<br><li>Sicherstellen der Dienstqualität<br><li>Verwalten der Klassifizierung von Geschäftsdaten<br><li>Durchsetzen von Richtlinien zur Veröffentlichung und Freigabe von Inhalten<br><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von benutzerdefinierten Visuals<br><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen<br><li>Beheben von Datenzugriffs- und anderen Problemen</ul>|
-| Office 365 Admin Center |<ul><li>Verwalten der Benutzerregistrierung<br><li>Erwerben und Zuweisen von Pro-Lizenzen</ul>|
-| Office 365 Security & Compliance Center |<ul><li>Überprüfen und Verwalten der Ereignisüberwachung</ul>|
-| Azure Active Directory (AAD) im Azure-Portal |<ul><li>Konfigurieren des bedingten Zugriffs auf Power BI-Ressourcen über AAD<br><li>Bereitstellen von Power BI Embedded-Kapazität</ul>|
-| PowerShell-Cmdlets |<ul><li>Verwalten von Arbeitsbereichen und anderen Power BI-Aspekten über Skripts</ul>|
-| Verwaltungs-APIs |<ul><li>Erstellen Sie benutzerdefinierte Verwaltungstools, um Power BI-Administratoren die Arbeit zu erleichtern. Power BI Desktop kann diese APIs z.B. verwenden, um Berichte basierend auf Daten zur Verwaltung zu erstellen.</ul>|
+| Power BI-Verwaltungsportal |<ul><li>Erwerben von und Arbeiten mit der Premium-Kapazität</li><li>Sicherstellen der Dienstqualität</li><li>Verwalten der Klassifizierung von Geschäftsdaten</li><li>Durchsetzen von Richtlinien zur Veröffentlichung und Freigabe von Inhalten</li><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von benutzerdefinierten Visuals</li><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen</li><li>Beheben von Datenzugriffs- und anderen Problemen</li></ul>|
+| Office 365 Admin Center |<ul><li>Verwalten der Benutzerregistrierung</li><li>Erwerben und Zuweisen von Pro-Lizenzen</li><li>Sperren des Zugriffs auf Power BI für Benutzer</li></ul>|
+| Office 365 Security & Compliance Center |<ul><li>Überprüfen und Verwalten der Ereignisüberwachung</li></ul>|
+| Azure Active Directory (AAD) im Azure-Portal |<ul><li>Konfigurieren des bedingten Zugriffs auf Power BI-Ressourcen über AAD</li><li>Bereitstellen von Power BI Embedded-Kapazität</li></ul>|
+| PowerShell-Cmdlets |<ul><li>Verwalten von Arbeitsbereichen und anderen Power BI-Aspekten über Skripts</li></ul>|
+| Verwaltungs-APIs und SDK |<ul><li>Erstellen Sie benutzerdefinierte Verwaltungstools, um Power BI-Administratoren die Arbeit zu erleichtern. Power BI Desktop kann diese APIs z.B. verwenden, um Berichte basierend auf Daten zur Verwaltung zu erstellen.</li></ul>|
 
 ## <a name="next-steps"></a>Nächste Schritte
 

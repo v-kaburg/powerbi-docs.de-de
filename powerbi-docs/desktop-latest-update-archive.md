@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813846"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601635"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -255,7 +255,7 @@ Bedeutung der Links neben den einzelnen Updates:
 * **[Video]**-Ausschnitte werden auf einer neuen Browserregisterkarte wiedergegeben, wenn das Feature erläutert wird.
 * Einige Features werden in einem **[Artikel]** ausführlich erläutert.
 * Die meisten Features werden im **[Blog]**-Beitrag zum monatlichen Update erläutert.
--   Und schließlich sind einige der Features selbsterklärend, sodass sie keinen Artikel und kein Video erfordern.
+* Und schließlich sind einige der Features selbsterklärend, sodass sie keinen Artikel und kein Video erfordern.
 
 Sie können das Video **Neueste Updates** für diesen Monat auch direkt aus diesem Artikel von Beginn an ansehen. Klicken Sie hierzu einfach im Videobild unter der Liste mit den Updates auf das Symbol **Wiedergabe**.
 
@@ -1844,15 +1844,15 @@ Dieses Update wurde um die folgenden Features erweitert:
     -   Bessere Vorschauoberfläche für mehrdimensionale Quellen (Analysis Services und SAP BusinessObjects)
     -   Option zum Anzeigen von ausgewählten Elementen
     -   Verbesserte Suchfunktionen in der Navigationsstruktur
--   Neue Transformationen
-    -   Alters- und Subtraktionsvorgänge für Datums- und Uhrzeitspalten
-    -   Aggregatspalten: Option zum Deaktivieren des Präfixes von neuen Spalten
--   Verbesserungen der Feldliste
-    -   Erweitern/Reduzieren von Tabellen
-    -   Einblenden/Ausblenden von Feldern
-    -   Optimiertes Layout (Abstände, Ränder und Schriftarten)
--   Navigation in Berichtsseiten – Keyboardunterstützung
--   Viele Programmfehlerbehebungen
+- Neue Transformationen
+  -   Alters- und Subtraktionsvorgänge für Datums- und Uhrzeitspalten
+  -   Aggregatspalten: Option zum Deaktivieren des Präfixes von neuen Spalten
+- Verbesserungen der Feldliste
+  -   Erweitern/Reduzieren von Tabellen
+  -   Einblenden/Ausblenden von Feldern
+  -   Optimiertes Layout (Abstände, Ränder und Schriftarten)
+- Navigation in Berichtsseiten – Keyboardunterstützung
+- Viele Programmfehlerbehebungen
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

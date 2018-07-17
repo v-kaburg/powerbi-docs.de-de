@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245360"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944742"
 ---
 # <a name="manage-your-data-storage"></a>Verwalten Ihres Datenspeichers
 Hier erfahren Sie, wie Sie Ihren individuellen Datenspeicher oder den Datenspeicher Ihres App-Arbeitsbereichs verwalten, um sicherzustellen, dass Sie weiterhin Berichte und Datasets veröffentlichen können.
 
 Benutzer- und App-Arbeitsbereiche weisen jeweils eigene Datenkapazitäten auf.
 
-* Free- und Pro-Benutzer verfügen über maximal 10 GB Datenspeicher.
-* Pro-Benutzer können App-Arbeitsbereiche mit jeweils maximal 10 GB Datenspeicher erstellen.
+* Alle Benutzer verfügen über maximal 10 GB Datenspeicher.
+* Benutzer mit einer Power BI Pro-Lizenz können App-Arbeitsbereiche mit jeweils maximal 10 GB Datenspeicher erstellen.
 
 Auf Mandantenebene darf der gesamte genutzte Datenspeicher für alle Pro-Benutzer und App-Arbeitsbereiche im Mandanten 10 GB pro Pro-Benutzer nicht überschreiten.
 

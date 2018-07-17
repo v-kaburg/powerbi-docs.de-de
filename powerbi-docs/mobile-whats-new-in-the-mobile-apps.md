@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799623"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864397"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,16 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
+
+## <a name="june-2018"></a>Juni 2018
+
+### <a name="full-canvas-reports"></a>Berichte auf vollständiger Canvas
+
+Die Aktionsleisten oben und unten werden jetzt kurz nach dem Laden des Berichts ausgeblendet, damit mehr von Ihrem Bericht zu sehen ist.
+
+### <a name="increased-phone-report-canvas-size"></a>Erhöhte Canvasgröße für Smartphoneberichte
+
+Die Größe der Canvas für Smartphoneberichte wurde erhöht, um mehr Platz für Visuals als zuvor zur Verfügung zu stellen.
 
 ## <a name="may-2018"></a>May 2018
 

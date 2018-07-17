@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242247"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135902"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL-Datenbank mit DirectQuery
 Erfahren Sie, wie Sie eine direkte Verbindung mit der Azure SQL-Datenbank herstellen und Berichte erstellen, in denen Livedaten verwendet werden. Sie können Ihre Daten in der Datenquelle und nicht in Power BI speichern.
@@ -31,7 +31,11 @@ Durch DirectQuery werden Abfragen zurück zur Azure SQL-Datenbank gesendet, wäh
 * Q&A steht für DirectQuery-Datasets nicht zur Verfügung.
 * Schemaänderungen werden nicht automatisch übernommen.
 
-Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzeroberfläche fortlaufend optimieren. Die Schritte zum Herstellen der Verbindung werden nachfolgend beschrieben. 
+Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzeroberfläche fortlaufend optimieren. Die Schritte zum Herstellen der Verbindung werden nachfolgend beschrieben.
+
+> [!Important]
+> Die Konnektivität mit Azure SQL-Datenbank wurde verbessert.  Verwenden Sie Power BI Desktop für optimale Ergebnisse beim Herstellen einer Verbindung mit Ihrer Azure SQL-Datenbank-Datenquelle.  Sobald Sie Ihr Modell und Ihren Bericht erstellt haben, können Sie diese im Power BI-Dienst veröffentlichen.  Der direkte Connector für Azure SQL-Datenbank im Power BI-Dienst ist mittlerweile veraltet.
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop und DirectQuery
 Zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery müssen Sie Power BI Desktop verwenden. Dieser Ansatz bietet zusätzliche Flexibilität und Funktionalität. Mit Power BI Desktop erstellte Berichte können dann im Power BI-Dienst veröffentlicht werden. [Hier](desktop-use-directquery.md) erhalten Sie weitere Informationen zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery in Power BI Desktop. 
@@ -57,6 +61,6 @@ Ihren vollqualifizierten Servernamen und den Datenbanknamen finden Sie im Azure-
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Verwenden von DirectQuery in Power BI Desktop](desktop-use-directquery.md)  
-[Erste Schritte mit Power BI](service-get-started.md)  
+[Was ist Power BI?](power-bi-overview.md)  
 [Abrufen von Daten in Power BI](service-get-data.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

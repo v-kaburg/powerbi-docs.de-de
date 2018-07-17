@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240428"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965594"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht des Power BI-Diensts
 Sie können Berichte im Power BI-Dienst und in Power BI Desktop erstellen und bearbeiten. Im Power BI-Dienst können Berichte in der **Bearbeitungsansicht** erstellt und bearbeitet werden. In Power BI Desktop können Berichte zudem in der [**Berichtsansicht**](desktop-report-view.md) erstellt und bearbeitet werden. In diesem Artikel wird die Bearbeitungsansicht im Power BI-Dienst betrachtet. 
 
-Der Power BI-Dienst verfügt über zwei verschiedene Modi für die Interaktion mit Berichten: die [Leseansicht](service-reading-view-and-editing-view.md) für *Benutzer des Berichts* und die Bearbeitungsansicht für Besitzer und Bearbeiter eines Berichts.  Es wird eine Power BI Pro-Lizenz für die Freigabe von Berichten sowie zum Bearbeiten von Berichten, die von anderen Personen erstellt wurden, benötigt. Wenn Sie ein Benutzer der kostenlosen Version von Power BI sind, können Sie zwar noch immer Berichte erstellen, jedoch können Sie die [Freigabe](service-share-reports.md) nicht verwenden.    
+Der Power BI-Dienst verfügt über zwei verschiedene Modi für die Interaktion mit Berichten: die [Leseansicht](service-reading-view-and-editing-view.md) für *Benutzer des Berichts* und die Bearbeitungsansicht für Besitzer und Bearbeiter eines Berichts.  Es wird eine Power BI Pro-Lizenz für die Freigabe von Berichten sowie zum Bearbeiten von Berichten, die von anderen Personen erstellt wurden, benötigt. Wenn Sie über keine Pro-Lizenz verfügen, können Sie trotzdem Berichte erstellen, jedoch können Sie diese [nicht freigeben](service-share-reports.md).    
 
 Die Bearbeitungsansicht für Berichte bietet Ihnen große Flexibilität beim Untersuchen und Entwerfen eines Berichts. Neben allen Funktionen der [Leseansicht](service-reading-view-and-editing-view.md) stehen viele weitere Möglichkeiten zur Verfügung. Die Bearbeitungsansicht ist nur für den Ersteller eines Berichts oder die Kollegen verfügbar, die [den Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](service-create-distribute-apps.md).
 
@@ -39,7 +39,7 @@ Sehen Sie sich die Themenliste unter der Überschrift **Berichte** im Inhaltsver
 * Duplizieren einer Berichtseite
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-Eine Power BI Pro-Lizenz ist erforderlich, wenn Sie Berichte bearbeiten möchten, die von anderen Personen erstellt wurden, und um zugleich Ihre Berichte mit anderen zu teilen.  Wenn Sie ein Benutzer der kostenlosen Version von Power BI sind, können Sie zwar noch immer Berichte erstellen, jedoch können Sie die [Freigabe](service-share-reports.md) nicht verwenden.
+Eine Power BI Pro-Lizenz ist erforderlich, wenn Sie Berichte bearbeiten möchten, die von anderen Personen erstellt wurden, und um zugleich Ihre Berichte mit anderen zu teilen.  Wenn Sie über keine Pro-Lizenz verfügen, können Sie trotzdem Berichte erstellen, jedoch können Sie diese [nicht freigeben](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Nächste Schritte

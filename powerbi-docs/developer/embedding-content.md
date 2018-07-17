@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813041"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945310"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Einbetten von Power BI-Dashboards, -Berichten und -Kacheln
 
@@ -35,6 +35,9 @@ Bevor Sie Dashboards und Berichte in Ihre Anwendung einbetten, müssen Sie siche
 
 * [Stellen Sie sicher, dass Sie über einen Azure Active Directory-Mandanten verfügen](embedding-content.md#azureadtenant)
 * [Erstellen Sie Ihr Power BI Pro-Konto](embedding-content.md#proaccount)
+* [App-Registrierung und Berechtigungen](embedding-content.md#appreg)
+* [Erstellen von App-Arbeitsbereichen](embedding-content.md#appws)
+* [Erstellen und Hochladen von Berichten](embedding-content.md#createreports)
 
 Sie können mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup) schnell eine Beispielanwendung herunterladen und mit der Arbeit beginnen.
 
@@ -67,7 +70,7 @@ Die folgenden Konten müssen in Ihrem Mandanten vorhanden sein und über eine Li
 
 #### <a name="an-organizationtenant-admin-user"></a>Ein Administrator für den Mandanten/die Organisation
 
-Es wird empfohlen, als Konto für die Anwendung nicht den globalen Administrator des Mandanten/der Organisation zu verwenden, wenn das Einbetten für Ihre Kunden erfolgt. So wird der Zugriff des Anwendungskontos innerhalb Ihres Mandanten minimiert. Der Administrator sollte nach Möglichkeit Administrator aller App-Arbeitsbereiche sein, die zum Zweck des Einbettens erstellt wurden.
+Es wird empfohlen, als Konto für die Anwendung nicht den globalen Administrator des Mandanten/der Organisation zu verwenden, wenn das Einbetten für Ihre Kunden erfolgt. So wird der Zugriff des Anwendungskontos innerhalb Ihres Mandanten minimiert. Der Administratorbenutzer muss ein Administrator aller zum Einbetten erstellten App-Arbeitsbereiche sein.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Konten für Analysten, die Inhalte erstellen
 
@@ -83,7 +86,7 @@ Beim Masterkonto handelt es sich um das Konto eines regulären Benutzers mit ein
 
 Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausführen zu können. Weitere Informationen finden Sie unter [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md).
 
-### <a name="create-app-workspaces"></a>Erstellen von App-Arbeitsbereichen
+### <a name="appws"></a>Erstellen von App-Arbeitsbereichen
 
 Wenn Sie Dashboards und Berichte für Ihre Kunden einbetten, müssen sich die Dashboards und Berichte in einem App-Arbeitsbereich befinden. Das oben genannte *Masterkonto* muss ein Administrator des App-Arbeitsbereichs sein.
 
@@ -93,13 +96,17 @@ Wenn Sie Dashboards und Berichte für Ihre Kunden einbetten, müssen sich die Da
 > Ein Benutzer, der kein Administrator ist, kann nur bis zu 250 App-Arbeitsbereiche erstellen. Sie müssen ein Mandantenadministratorkonto verwenden, um weitere App-Arbeitsbereiche zu erstellen.
 >
 
-### <a name="create-and-upload-your-reports"></a>Erstellen und Hochladen von Berichten
+### <a name="createreports"></a>Erstellen und Hochladen von Berichten
 
 Sie können Ihre Berichte und Datasets mit Power BI Desktop erstellen und diese Berichte dann in einem App-Arbeitsbereich veröffentlichen. Der Benutzer, der die Berichte veröffentlicht, muss über eine Power BI Pro-Lizenz verfügen, damit er einen App-Arbeitsbereich veröffentlichen kann.
 
 ## <a name="step-2-embed-your-content"></a>Schritt 2: Einbetten der Inhalte
 
-In Ihrer Anwendung müssen Sie sich bei Power BI authentifizieren. Wenn Sie Inhalte für Ihre Kunden einbetten, speichern Sie die Anmeldeinformationen für das *Masterkonto* in der Anwendung. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md).
+In Ihrer Anwendung müssen Sie sich bei Power BI authentifizieren. Wenn Sie Inhalte für Ihre Kunden einbetten, speichern Sie die Anmeldeinformationen für das *Masterkonto* in der Anwendung.
+
+> [!NOTE]
+> Weitere Informationen zum Authentifizieren von Benutzern beim Einbetten für Ihre Kunden finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für Ihre Power BI-App](get-azuread-access-token.md).
+>
 
 Verwenden Sie in der Anwendung nach der Authentifizierung die Power BI-REST-APIs und JavaScript-APIs, um Dashboards und Berichte in die Anwendung einzubetten. 
 
@@ -123,7 +130,7 @@ Für den Wechsel zur Produktion sind einige zusätzliche Schritte erforderlich.
 
 Wenn Sie für Ihre Organisation einbetten, müssen Sie den Benutzern lediglich mitteilen, wie sie zu der Anwendung gelangen. 
 
-Benutzer mit kostenlosen Lizenzen können Inhalte verwenden, die aus einem App-Arbeitsbereich (Gruppe) eingebettet wurden, wenn die dedizierte Kapazität den Arbeitsbereich deckt. Diese Benutzer müssen als Mitglieder des App-Arbeitsbereichs (Gruppe) aufgelistet werden. Andernfalls wird der Fehler 401 zur fehlenden Autorisierung ausgegeben. In der folgenden Tabelle sind die in Office 365 verfügbaren Power BI Premium-SKUs aufgeführt.
+Alle Benutzer können unabhängig von ihrer zugewiesenen Lizenz Inhalte verwenden, die aus einem App-Arbeitsbereich (Gruppe) eingebettet wurden, wenn die dedizierte Kapazität den Arbeitsbereich deckt. Nichtsdestotrotz müssen Sie die Benutzer, die nicht über eine Power BI Pro-Lizenz verfügen, explizit dem App-Arbeitsbereich hinzufügen. Andernfalls wird der Fehler 401 zur fehlenden Autorisierung ausgegeben. In der folgenden Tabelle sind die in Office 365 verfügbaren Power BI Premium-SKUs aufgeführt.
 
 | Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
 | --- | --- | --- | --- | --- | --- |

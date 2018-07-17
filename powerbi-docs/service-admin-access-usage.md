@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722199"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926534"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Suchen nach angemeldeten Power BI-Benutzern
 Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden.
@@ -25,9 +25,7 @@ Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI a
 Auf den Aktivitätsbericht können Sie sowohl aus dem [neuen](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) als auch aus dem [klassischen](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure AD-Portal (Azure Active Directory) zugreifen. Während im vorliegenden Video das klassische Portal als Beispiel verwendet wird, erfolgt die Beschreibung in diesem Artikel anhand des neuen Portals.
 
 > [!NOTE]
-> Dieser Aktivitätsbericht umfasst Power BI Free- und Pro-Benutzer, die Benutzer werden im Bericht jedoch nicht danach gekennzeichnet, welche Lizenz sie haben.
-> 
-> 
+> Dieser Aktivitätsbericht identifiziert nicht den Lizenztyp, über den jeder Benutzer verfügt.
 
 ## <a name="requirements"></a>Anforderungen
 Die folgenden Anforderungen müssen erfüllt sein, um den Bericht über Anmeldeaktivitäten anzeigen zu können.
@@ -70,7 +68,7 @@ Daten zu Anmeldungen sind bis zu 30 Tage lang verfügbar. Weitere Informationen 
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Berichte zu Anmeldeaktivitäten im Azure Active Directory-Portal (neues Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Anzeigen Ihrer Zugriffs- und Nutzungsberichte (klassisches Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Anzeigen Ihrer Zugriffs- und Nutzungsberichte (klassisches Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [PowerShell-Beispielskript für Anmeldungen](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Aufbewahrungsrichtlinien für Azure Active Directory-Berichte](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Verwenden von Überwachung in der Organisation](service-admin-auditing.md)  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288059"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330120"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
@@ -56,7 +56,7 @@ Konfigurieren Sie eine Berichtsseite so, wie sie im Lesezeichen angezeigt werden
 
 ![Hinzufügen eines Lesezeichens](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** erstellt ein Lesezeichen und benennt es mit einem generischen Namen. Lesezeichen können einfach *umbenannt*, *gelöscht* oder *aktualisiert* werden. Wählen Sie dazu die Auslassungspunkte neben dem Namen des Lesezeichens aus, und wählen Sie im daraufhin angezeigten Menü eine Aktion.
+**Power BI Desktop** erstellt ein Lesezeichen und benennt es mit einem generischen Namen. Lesezeichen können einfach *umbenannt*, *gelöscht* oder *aktualisiert* werden. Wählen Sie dazu die Auslassungspunkte neben dem Namen des Lesezeichens aus, und wählen Sie im daraufhin angezeigten Menü eine Aktion aus.
 
 ![Auswählen des Untermenüs für ein Lesezeichen mithilfe der Auslassungspunkte](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -104,7 +104,7 @@ Es ist wichtig zu beachten, dass Berichtsseiten weiterhin durch **Datenschnitte*
 ## <a name="bookmarks-for-shapes-and-images"></a>Lesezeichen für Formen und Bilder
 Sie können auch Formen und Bilder mit Lesezeichen verknüpfen. Wenn Sie dann auf ein Objekt klicken, wird das mit dem Objekt verknüpfte Lesezeichen angezeigt. Dies kann bei der Arbeit mit Schaltflächen besonders hilfreich sein; weitere Informationen finden Sie im Artikel [Verwenden von Schaltflächen in Power BI](desktop-buttons.md). 
 
-Wenn Sie einem Objekt ein Lesezeichen zuweisen möchten, wählen Sie das Objekt aus, und erweitern Sie dann den Abschnitt **Aktion** im Bereich **Form formatieren**, wie in der folgenden Abbildung dargestellt.
+Wenn Sie einem Objekt ein Lesezeichen zuweisen möchten, wählen Sie das Objekt aus, und erweitern Sie dann wie in der folgenden Abbildung dargestellt den Abschnitt **Aktion** im Bereich **Form formatieren**.
 
 ![Hinzufügen von Lesezeichenlink zu einem Objekt](media/desktop-bookmarks/bookmarks_10.png)
 
@@ -146,7 +146,7 @@ Beachten Sie, dass Sie zum Navigieren zwischen den Lesezeichen die graue Lesezei
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Für dieses Release von **Lesezeichen** gelten einige Einschränkungen und Überlegungen.
 
-* Die meisten benutzerdefinierten Visualisierungen sollten mit Lesezeichen gut funktionieren. Wenn bei einem Lesezeichen Probleme in Zusammenhang mit einer benutzerdefinierten Visualisierung auftreten sollten, bitten Sie den Ersteller der benutzerdefinierten Visualisierung, dafür zu sorgen, dass seine Visualisierung Lesezeichen unterstützt. 
+* Die meisten benutzerdefinierten Visualisierungen sollten mit Lesezeichen gut funktionieren. Wenn bei einem Lesezeichen Probleme in Zusammenhang mit einem benutzerdefinierten Visual auftreten sollten, bitten Sie den Ersteller des benutzerdefinierten Visuals, dafür zu sorgen, dass sein Visual Lesezeichen unterstützt. 
 * Wenn Sie einer Berichtsseite nach dem Erstellen eines Lesezeichens ein Visual hinzufügen, wird das Visual in seinem Standardstatus angezeigt. Dies bedeutet auch, dass beim Anwenden eines Datenschnitts auf einer Seite, auf der Sie zuvor Lesezeichen erstellt haben, das Verhalten des Datenschnitts seinem Standardstatus entspricht.
 * Das Verschieben von Visuals nach dem Erstellen des Lesezeichens wird im Lesezeichen wiedergegeben. 
 

@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813593"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600354"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
 ## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
@@ -39,7 +39,7 @@ Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu [Mi
 So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 
 1. Senden Sie eine E-Mail an den Power BI-Support für benutzerdefinierte visuelle Elemente (pbicvsupport@microsoft.com). Fügen Sie der E-Mail die folgende Informationen hinzu:    
-   
+
    * Titel: Zertifizierungsanforderung für visuelles Element    
    * Link zum GitHub-Repository, in dem der Quellcode des visuellen Elements gehostet wird    
    * Befolgen der Anforderungen (siehe oben)    
@@ -51,6 +51,7 @@ So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zertifiziert“ entfernen.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Liste benutzerdefinierter visueller Elemente, die zertifiziert wurden
+
 | Link zu AppSource | Link zum Video |
 | --- | --- |
 | [Aster-Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zert
 | [Designer für Infografiken](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI-Diagramm von Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [KPI Column von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Video](https://youtu.be/rU0xoOlIq1U) |
+| [KPI-Raster von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Video](https://youtu.be/dM4PvZh71V0) |
 | [KPI-Indikator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI-Ticker von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
 | [Linearmessgerät von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zert
 | [Textfilter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Text-Wrapper von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Video](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush-Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Timeline-Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline von CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Video](https://youtu.be/szNi9YgXFJc) |
 | [Tornado-Diagramm](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Handelsdiagramm von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimative Varianz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Video](https://youtu.be/pDYF8iZxERs) |

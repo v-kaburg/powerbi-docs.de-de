@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245580"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092182"
 ---
 # <a name="enable-qa-for-live-connections"></a>Aktivieren von Q&A für Liveverbindungen
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Was ist das lokale Datengateway?  Was ist eine Liveverbindung?
@@ -56,6 +56,7 @@ Während der Vorschauphase dieses Features gelten mehrere Einschränkungen:
 
 * Das Feature ist zunächst nur für tabellarische SQL Server 2016 Analysis Services-Datenquellen verfügbar. Das Feature wurde für die Zusammenarbeit mit tabellarischen Daten optimiert. Einige Funktionen stehen für mehrdimensionale Datenquellen zur Verfügung, aber die volle Q&A-Leistung wird für mehrdimensionale Datenquellen noch nicht unterstützt. Im Lauf der Zeit werden weitere vom lokalen Datengateway unterstützte Datenquellen eingeführt.
 * Zunächst steht die in SQL Server Analysis Services definierte vollständige Unterstützung der Sicherheit auf Zeilenebene nicht in der öffentlichen Vorschauversion zur Verfügung. Bei der Eingabe von Fragen in F&A können durch die „automatische Vervollständigung“ Zeichenfolgenwerte angezeigt werden, auf die der Benutzer keinen Zugriff hat. Die im Modell definierte Sicherheit auf Zeilenebene wird jedoch für Berichts- und Diagrammvisualisierungen respektiert, wobei keine zugrunde liegenden numerischen Daten angezeigt werden können. Optionen zum Steuern dieses Verhalten werden in kommenden Updates veröffentlicht.
+* Die Sicherheit auf Objektebene wird nicht unterstützt. Q&A berücksichtigt die Sicherheit auf Objektebene nicht und kann Tabellen- oder Spaltennamen für Benutzer offenlegen, die keinen Zugriff darauf haben. Sie sollten die Sicherheit auf Zeilenebene aktivieren, um sicherzustellen, dass Datenwerte angemessen gesichert sind. 
 * Liveverbindungen werden nur mit dem lokalen Datengateway unterstützt. Daher können sie nicht mit dem persönlichen Gateway verwendet werden.
 
 ## <a name="next-steps"></a>Nächste Schritte

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248675"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136799"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards im Power BI-Dienst
 
@@ -84,7 +84,7 @@ Power BI Pro ist sowohl für Freigeben eines Dashboards als auch Anzeigen eines 
 > 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Erste Schritte mit Power BI](service-get-started.md)  
+[Was ist Power BI?](power-bi-overview.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  
 [Power BI Premium – Beschreibung](service-premium.md)  
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310059"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137167"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
 Ist es Ihnen auch schon einmal beim Arbeiten mit Power BI passiert, dass Sie im entscheidenden Moment keine Antwort auf ihre Frage zu Power BI finden, weil so etwas wie die „Soforthilfe“ fehlt? 
@@ -69,6 +69,6 @@ Wenn alles andere nichts hilft, ist der letzte Tipp, das System zu beobachten. H
 Angenommen, Sie möchten wissen, ob Sie Dashboards für eine Sicherheitsgruppe freigeben können. Um diese Frage zu beantworten, öffnen Sie das Dialogfeld für die Freigabe und versuchen, eine Sicherheitsgruppe hinzuzufügen. Danach kennen Sie in jedem Fall die Antwort.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erste Schritte mit Power BI](service-get-started.md)
+* [Was ist Power BI?](power-bi-overview.md)
 * Stellen Sie Ihre Frage in der [Power BI-Community](http://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a43b5c210c0e7f2bd26eea03bdcd5d2fa975321
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 85bf9630a8c272b513f27f38b24a5d8a77075444
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297306"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599618"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop
 Dieses Tutorial richtet sich an Personen, die eine ArcGIS-Karte erstellen. Sobald der Ersteller eine ArcGIS-Karte für einen Kollegen freigegeben hat, kann dieser die Karte anzeigen und mit ihr interagieren, jedoch keine Änderungen speichern. Weitere Informationen zum Anzeigen von ArcGIS-Karten finden Sie unter [Interagieren mit ArcGIS-Karten](power-bi-visualizations-arcgis.md).
@@ -262,7 +262,7 @@ Wenn die Benutzer ArcGIS Maps für Power BI nicht mehr im Power BI-Dienst verwen
 </tr>
 <tr>
 <td>Schlüssel</td>
-<td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<td>Software\Policies\Microsoft\Power BI Desktop&lt;/td&gt;
 </tr>
 <tr>
 <td>valueName</td>

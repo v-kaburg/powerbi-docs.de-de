@@ -3,18 +3,18 @@ title: Häufig gestellte Fragen zu Power BI Embedded
 description: Durchsuchen Sie die Liste der häufig gestellten Fragen und Antworten zu Power BI Embedded.
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812742"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599948"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -76,7 +76,7 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Purchase     |Azure-Portal |Office |Office |
-|Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten mit für Benutzer von Power BI FREE außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, Teams) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten mit für Benutzer von Power BI FREE außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, Teams)<br>* Freigeben von Inhalten für Benutzer von Power BI FREE über PowerBI.com  |
+|Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten für Benutzer von Power BI Free außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Freigeben von Inhalten mit für Benutzer von Power BI FREE außerhalb von PowerBI.com und Einbetten in andere SaaS-Anwendungen (SharePoint, Teams)<br>* Freigeben von Inhalten für Benutzer von Power BI FREE über PowerBI.com  |
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
 |Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit der Einbettung von Inhalten in SharePoint Online und Microsoft Teams |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
@@ -95,6 +95,58 @@ Die Überwachung über Azure ist für die nähere Zukunft geplant. Die Azure-Res
 
 Derzeit wird zwar keine automatische Skalierung unterstützt, für alle APIs ist jedoch jederzeit eine Skalierung verfügbar.
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Weshalb führt das Erstellen/Skalieren/Fortsetzen einer Kapazität dazu, dass die Kapazität suspendiert wird?
+
+Die Bereitstellung einer Kapazität (Skalieren/Fortsetzen/Erstellen) kann fehlschlagen. Der Aufrufer eines Bereitstellungsaufrufs sollte den Bereitstellungsstatus einer Kapazität mit der API für Details prüfen: [Capacities - Get Details (Kapazitäten: Abrufen von Details)](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Warum kann ich Power BI Embedded-Kapazitäten nur in einer spezifischen Region erstellen?
+
+Sie können Power BI Embedded-Kapazitäten nur für die Region Ihres Power BI-Mandanten erstellen.
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Wie finde ich meine Power BI-Region heraus?
+
+Über das Power BI-Portal können Sie erfahren, was Ihrer Power BI-Region ist.
+
+Navigieren Sie zu https://app.powerbi.com/ > ? > Info
+
+![Info](media/embedded-faq/about-01.png)
+![Mandanten-Region](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Was unterstützt der CSP-Kanal (Community Sequential Processes)?
+
+* Sie können die Power BI Embedded-Kapazität für Ihren Mandanten mit einem CSP-Abonnement erstellen.
+* Partnerkonten können sich beim Kundenmandanten anmelden und Power BI Embedded für den Kundenmandanten erwerben und einen Kundenmandanten als Administrator der Power BI-Kapazität festlegen.
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>Weshalb erhalte ich eine Meldung, die besagt, dass mein Konto nicht unterstützt wird?
+
+Sie müssen sich in Power BI mit einem Unternehmenskonto anmelden. Eine Anmeldung bei Power BI mit einem Microsoft-Konto wird nicht unterstützt.
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Kann ich Azure-Kapazitäten mit APIs erstellen und verwalten?
+
+Ja, es gibt PowerShell-Cmdlets und ARM-APIs, mit denen Sie Power BI Embedded-Ressourcen zu erstellen und zu verwalten.
+
+* REST-APIs: https://docs.microsoft.com/rest/api/power-bi-embedded/
+* PowerShell-Cmdlets: https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Was ist die Power BI Embedded-Rolle „Dedizierte Kapazität“ in einer Power BI Embedded-Lösung?
+
+Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer dedizierten Kapazität zugewiesen werden.
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>In welchen Azure-Regionen ist Power BI Embedded verfügbar?
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager): Weitere Informationen im Manager zur Produktverfügbarkeit
+
+Verfügbare Regionen (16, die gleichen Regionen wie Power BI)
+* USA (6): USA, Osten; USA, Osten 2; USA, Norden-Mitte; USA, Süden-Mitte; USA, Westen; USA, Westen 2
+* Europa (2): Europa, Norden; Europa, Westen
+* Asien-Pazifik (2): Asien, Südosten; Asien, Osten
+* Brasilien (1): Brasilien, Süden
+* Japan (1): Japan, Osten
+* Australien (1): Australien, Südosten
+* Indien (1): Indien, Westen
+* Kanada (1): Kanada, Mitte
+* Vereinigtes Königreich (1): Vereinigtes Königreich, Süden
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Welches Authentifizierungsmodell wird für Power BI Embedded verwendet?
 
 Für Power BI Embedded wird weiterhin Azure AD für die Authentifizierung des Masterbenutzers (ein designierter Benutzer mit Power BI Pro-Lizenz) verwendet, der die Anwendung in Power BI authentifiziert.
@@ -104,6 +156,17 @@ Authentifizierung und Autorisierung der Anwendungsbenutzer werden vom ISV implem
 Wenn Sie bereits über einen Azure AD-Mandanten verfügen, können Sie das vorhandene Verzeichnis verwenden oder einen neuen Azure AD-Mandanten zum Schutz der Inhalte in der Embedded-Anwendung erstellen.
 
 Um ein AAD-Token abzurufen, können Sie eine der Azure Active Directory-Authentifizierungsbibliotheken verwenden: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Es sind Clientbibliotheken für mehrere Plattformen verfügbar.
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Meine Anwendung verwendet bereits AAD für die Benutzerauthentifizierung Wie können wir diese Identität bei der Authentifizierung in Power BI in einem Szenario einsetzen, in dem der Benutzer die Daten besitzt? 
+
+In einem herkömmlichen OAuth-Flow im Namen des Benutzers (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Die Anwendung muss so konfiguriert sein, dass sie Berechtigungen des Power BI-Diensts (für den erforderlichen Bereich) erfordert. Sobald Sie ein Benutzertoken für Ihre App haben, führen Sie einen Aufruf an AcquireTokenAsync (ADAL-API) mit dem Benutzerzugriffstoken durch und geben die Power BI-Ressourcen-URL als Ressourcen-ID an. Unten sehen Sie einen Codeausschnitt, der dies veranschaulicht:
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Worin unterscheidet sich Power BI Embedded von anderen Azure-Diensten?
 
@@ -181,8 +244,8 @@ Non-Profit-Organisationen und Bildungseinrichtungen können Azure erwerben. Für
 
 3. Wenn Sie bereits sind für den Produktionsbetrieb, erwerben Sie eine dedizierte **Power BI Embedded**-Kapazität und weisen Sie dieser Ihre Power BI-Inhalte (Arbeitsbereich) zu.
 
->[!Note]
-Sie können die **Power BI-Arbeitsbereichssammlung** weiter nutzen, während Sie parallel eine **Power BI Embedded**-Lösung für die Entwicklung verwenden. Sobald Sie bereit sind, können Sie Ihren Kunden zur neuen **Power BI Embedded**-Lösung verlagern und die **Power BI-Arbeitsbereichssammlung** außer Betrieb nehmen.
+> [!Note]
+> Sie können die **Power BI-Arbeitsbereichssammlung** weiter nutzen, während Sie parallel eine **Power BI Embedded**-Lösung für die Entwicklung verwenden. Sobald Sie bereit sind, können Sie Ihren Kunden zur neuen **Power BI Embedded**-Lösung verlagern und die **Power BI-Arbeitsbereichssammlung** außer Betrieb nehmen.
 
 Weitere Informationen dazu finden Sie unter [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).
 

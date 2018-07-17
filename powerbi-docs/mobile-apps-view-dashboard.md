@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db201098d6bd7207164b2ff08acb363563211f72
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295871"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137259"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:
@@ -195,6 +195,6 @@ Lesen Sie mehr unter [Create a phone view of a dashboard in Power BI](service-cr
 ## <a name="next-steps"></a>Nächste Schritte
 * [Herunterladen der Android-App](http://go.microsoft.com/fwlink/?LinkID=544867) aus dem Google Play Store  
 * [Erste Schritte mit der Android-App für Power BI](mobile-android-app-get-started.md)  
-* [Erste Schritte mit Power BI](service-get-started.md)
+* [Was ist Power BI?](power-bi-overview.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

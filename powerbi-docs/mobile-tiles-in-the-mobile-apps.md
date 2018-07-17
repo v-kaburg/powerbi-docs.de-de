@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297651"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598624"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -40,7 +40,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Beispielsweise werden in diesem Liniendiagramm die Werte für **This Year Sales** (Verkäufe dieses Jahr) und **Last Year Sales** in **August** (Verkäufe im letzten August) visualisiert.*  
+   <em>Beispielsweise werden in diesem Liniendiagramm die Werte für **This Year Sales</em>* (Verkäufe dieses Jahr) und **Last Year Sales** in **August** (Verkäufe im letzten August) visualisiert.*  
    
    Tippen Sie in einem Kreisdiagramm auf ein Segment des Kreises, um dessen Werte oben im Kreis anzuzeigen.  
    
@@ -107,7 +107,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *In diesem Balkendiagramm werden die Werte für den Balken **Dekor** über dem Diagramm angezeigt.*
+   <em>In diesem Balkendiagramm werden die Werte für den Balken **Decor</em>* über dem Diagramm angezeigt.*
    
    Tippen Sie auf das Symbol ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) für **Vollbild**, um die Kachel im Vollbildmodus aufzurufen (ohne Navigations- und Menüleisten).
    
@@ -126,6 +126,6 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
 4. Tippen Sie auf den Rückwärtspfeil oder die Schaltfläche „Zurück“, um die Kachel zu schließen und zum Dashboard zurückzukehren.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erste Schritte mit Power BI](service-get-started.md)
+* [Was ist Power BI?](power-bi-overview.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 
