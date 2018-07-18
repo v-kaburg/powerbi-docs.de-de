@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241725"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134637"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 Mit dem Azure-Überwachungsprotokoll-Inhaltspaket können Sie die in den Überwachungsprotokollen gespeicherten Informationen analysieren und visualisieren. Power BI ruft Ihre Daten ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -69,6 +69,6 @@ Ihre Abonnement-ID besteht aus einer langen Abfolge von Zahlen und Zeichen, ähn
 Wenn ein Fehler aufgrund der Anmeldeinformationen oder beim Versuch der Aktualisierung aufgrund ungültiger Anmeldeinformationen angezeigt wird, löschen Sie alle Instanzen der Azure-Überwachungsprotokolle, und stellen Sie die Verbindung erneut her.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Erste Schritte mit Power BI](service-get-started.md)  
+[Was ist Power BI?](power-bi-overview.md)  
 [Power BI – Grundkonzepte](service-basic-concepts.md)  
 
