@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812926"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032000"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
-**Power BI Desktop** verfügt über Funktionen, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit **Power BI Desktop**-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
+Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
 
 ![Verwenden Sie für Linien- und Flächendiagramme verschiedene Marker, um die Barrierefreiheit zu verbessern](media/desktop-accessibility/accessibility_01.png)
 
@@ -32,20 +32,25 @@ Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** kön
 
 ![Drücken Sie in Power BI Desktop die ?-Taste , um Tastenkombinationen für Barrierefreiheit anzuzeigen.](media/desktop-accessibility/accessibility_03.png)
 
-Mit den Barrierefreiheitserweiterungen können Sie einen **Power BI Desktop**-Bericht mithilfe der folgenden Techniken mit Tastatur oder Sprachausgabe nutzen:
+Mit den Erweiterungen für die Barrierefreiheit können Sie einen Power BI-Bericht mithilfe der folgenden Techniken mit Tastatur oder Sprachausgabe nutzen:
 
 Sie können den Fokus zwischen den Seitenregisterkarten von Berichten oder den Objekten auf einer bestimmten Berichtsseite mithilfe von **STRG+F6** wechseln.
 
 * Verwenden der *TAB*-Taste oder der *PFEILTASTEN* zum Bewegen des Fokus von einer Berichtsseite zur nächsten, wenn sich der Fokus auf *Seitenregisterkarten des Berichts* befindet. Der Titel der Berichtsseite und ihr aktueller Auswahlstatus werden von der Sprachausgabe vorgelesen. Um die Berichtsseite zu laden, die aktuell den Fokus hat, können die *EINGABETASTE* oder die *LEERTASTE* verwendet werden.
-* Wenn der Fokus auf einer geladenen *Berichtsseite* liegt, verwenden Sie die *TAB*-Taste, um den Fokus auf die einzelnen Objekte auf der Seite zu bewegen. Zu diesen zählen alle Textfelder, Bilder, Formen und Diagramme. Die Sprachausgabe liest den Typ des Objekts und eine Beschreibung des Objekts vor, die von dessen Autor bereitgestellt wurde. 
+* Wenn der Fokus auf einer geladenen *Berichtsseite* liegt, verwenden Sie die *TAB*-Taste, um den Fokus auf die einzelnen Objekte auf der Seite zu bewegen. Zu diesen zählen alle Textfelder, Bilder, Formen und Diagramme. Die Sprachausgabe liest den Typ des Objekts und sofern vorhanden den Titel und die Beschreibung des Objekts. 
 
-Sie können **ALT+UMSCHALT+F10** drücken, um den Fokus auf ein Visualmenü zu verschieben.
+Beim Navigieren zwischen Visuals können Sie weitere Aktionen ausführen. Sie können **ALT+UMSCHALT+F10** drücken, um den Visualheader zu fokussieren, der verschiedene Optionen enthält, dazu gehört das Sortieren, das Exportieren der Daten hinter dem Diagramm und der Fokusmodus. 
 
-Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fensters *Daten anzeigen* zu öffnen.
+Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fensters *Daten anzeigen* zu öffnen. Dadurch können Sie die im Visual verwendeten Daten in einer HTML-Tabelle untersuchen, und dabei die gleichen Tastenkombinationen verwenden, die Sie normalerweise mit der Sprachausgabe verwenden. 
 
 ![Drücken Sie in Power BI Desktop ALT+UMSCHALT+F11, um eine barrierefreie Version des Fensters „Daten anzeigen“ für ein Visual zu öffnen.](media/desktop-accessibility/accessibility_04.png)
 
-Diese zusätzlichen Barrierefreiheitsfunktionen wurden entwickelt, damit Benutzer **Power BI Desktop**-Berichte per Sprachausgabe und Tastaturnavigation umfassend verwenden können.
+> [!NOTE]
+> Das Feature „Daten anzeigen“ ist nur über diese Tastenkombination für die Sprachausgabe verfügbar. Wenn Sie das Fenster „Daten anzeigen“ über die Option im Visualheader öffnen, kann die Sprachausgabe nicht darauf zugreifen.
+> 
+> 
+
+Diese zusätzlichen Barrierefreiheitsfunktionen wurden entwickelt, damit Benutzer Power BI-Berichte per Sprachausgabe und Tastaturnavigation umfassend verwenden können.
 
 ## <a name="tips-for-creating-accessible-reports"></a>Tipps zum Erstellen barrierefreier Berichte
 Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berichten mit besserer Barrierefreiheit helfen.
@@ -58,14 +63,17 @@ Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berich
   ![Verwenden Sie für Linien- und Flächendiagramme verschiedene Marker, um die Barrierefreiheit zu verbessern](media/desktop-accessibility/accessibility_01.png)
   
   * Die Verwendung einer anderen *Markierungsform* für jede Linie macht es den Nutzern des Berichts leichter, die Linien (oder Flächen) voneinander zu unterscheiden.
-* Verwenden Sie zum Übermitteln von Informationen nicht nur Farbmarkierungen. Es ist hilfreich, Formen für Linien (Marker, wie in den vorherigen Absätzen beschrieben) zu verwenden.
+* Verwenden Sie zum Übermitteln von Informationen nicht nur Farbmarkierungen. Zusätzlich zur Verwendung von Formen in Linien- und Punktdiagrammen sollten Sie sich nicht auf die bedingte Formatierung verlassen, um Einblicke in Tabellen und Matrizen zu gewähren. 
+* Wählen Sie eine Sortierreihenfolge für jedes Visual in Ihrem Bericht mit Bedacht aus. Wenn Benutzer der Sprachausgabe zu den Daten hinter dem Diagramm navigieren, wird die gleiche Sortierreihenfolge wie beim Visual verwendet.
 * Wählen Sie im Designkatalog ein *Design* mit hohem Kontrast aus, das für Farbenblinde geeignet ist, und importieren Sie es mithilfe der [**Design**-Vorschaufunktion](desktop-report-themes.md).
 * Geben Sie zu jedem Objekt in einem Bericht *Alternativtext* an. Auf diese Weise stellen Sie sicher, dass Personen, die Ihren Bericht verwenden, verstehen, was Sie mit einem visuellen Element kommunizieren möchten, selbst wenn sie das visuelle Element, das Bild, die Form oder das Textfeld nicht sehen können. Sie können zu jedem Objekt in einem *Power BI Desktop*-Bericht **Alternativtext** angeben, indem Sie das Objekt (wie etwa ein Visual, eine Form usw.) auswählen und im Bereich **Visualisierungen** den Bereich **Format** auswählen, **Allgemein** erweitern, dann nach unten scrollen und das Textfeld **Alternativtext** ausfüllen.
   
   ![Alternativtext kann für jedes Objekt in einem Bericht im Feld „Visualisierungen > Format > Allgemein > Alternativtext“ hinzugefügt werden.](media/desktop-accessibility/accessibility_02.png)
-* Stellen Sie sicher, dass in Ihren Berichten ein ausreichender Kontrast zwischen Text- und Hintergrundfarben vorhanden ist.
+* Stellen Sie sicher, dass in Ihren Berichten ein ausreichender Kontrast zwischen Text- und Hintergrundfarben vorhanden ist. Es gibt verschiedene Tools, die Sie zum Überprüfen der Farben in Ihrem Bericht verwenden können, z.B. [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/). 
 * Verwenden Sie Textgrößen und -schriftarten, die leicht lesbar sind. Kleine Textgrößen oder -schriftarten, die schwierig zu lesen sind, verringern die Barrierefreiheit.
 * Schließen Sie in alle Visuals einen Titel, Achsenbezeichnungen und Datenbezeichnungen ein.
+* Verwenden Sie aussagekräftige Titel für alle Seiten des Berichts.
+* Vermeiden Sie, wenn möglich, die Verwendung dekorativer Formen und Bilder im Bericht, da diese in der Registerkartenreihenfolge des Berichts enthalten sind. Wenn Sie dekorative Objekte in Ihren Bericht einfügen müssen, aktualisieren Sie den alternativen Text des Objekts, um Benutzer der Sprachausgabe wissen zu lassen, dass es zur Dekoration dient.
 
 ## <a name="high-contrast-support-for-reports"></a>Unterstützung für hohen Berichtskontrast
 
@@ -87,7 +95,8 @@ In **Power BI Desktop** spiegeln einige Bereiche, z.B. die Felder **Visualisieru
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Es gibt einige bekannte Probleme und Einschränkungen bei den Barrierefreiheitsfeatures. Diese werden in der folgenden Liste beschrieben:
 
-* JAWS wird in Berichten unterstützt, die im **Power BI-Dienst** angezeigt werden, einschließlich in eingebetteten Berichten. JAWS wird auch in **Power BI Desktop** unterstützt. Sie müssen jedoch vor dem Öffnen von **Power BI Desktop**-Dateien die Sprachausgabe öffnen, damit die Sprachausgabe ordnungsgemäß erfolgt.
+* Wenn Sie die Sprachausgabe mit **Power BI Desktop** verwenden, erzielen Sie die bestmögliche Leistung, wenn Sie die Sprachausgabe Ihrer Wahl starten, bevor Sie Dateien in Power BI Desktop öffnen.
+* Wenn Sie die Sprachausgabe von Microsoft verwenden, gibt es einige Einschränkungen beim Anzeigen von Daten als HTML-Tabelle.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)](desktop-report-themes.md)
