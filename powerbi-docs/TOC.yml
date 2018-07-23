@@ -1021,7 +1021,9 @@
             - name: Was kann ich mit der Power BI-API tun?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Lernprogramme
-          items: null
+          items:
+            - name: Übertragen von Daten in ein Dataset per Push
+              href: developer/walkthrough-push-data.md
         - name: Konzepte
           items:
             - name: Automatische Beibehaltungsrichtlinie für Echtzeitdaten
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Vorgehensweise
           items:
-            - name: Übertragen von Daten in ein Dataset per Push
-              href: developer/walkthrough-push-data.md
             - name: Registrieren einer App in Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Abrufen eines Authentifizierungszugriffstokens
