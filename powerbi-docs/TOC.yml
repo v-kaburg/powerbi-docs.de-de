@@ -530,6 +530,12 @@
       items:
         - name: Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
           href: desktop-latest-update.md
+        - name: Zusammengesetzte Modelle in Power BI Desktop (Vorschau)
+          href: desktop-composite-models.md
+        - name: 'M:n-Beziehungen in Power BI Desktop (Vorschau)'
+          href: desktop-many-to-many-relationships.md
+        - name: Speichermodus in Power BI Desktop (Vorschau)
+          href: desktop-storage-mode.md
         - name: Bidirektionale Kreuzfilterung in Power BI Desktop (Vorschau)
           href: desktop-bidirectional-filtering.md
         - name: Power BI und DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Erstellen von Berichten
           items:
+            - name: Visuelle Elemente für Berichte
+              href: desktop-visual-elements-for-reports.md
             - name: Q&A in Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Analysebereich in Power BI Desktop
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Inkrementelle Aktualisierung
               href: service-premium-incremental-refresh.md
+            - name: Multi-Geo-Unterstützung (Vorschau)
+              href: service-admin-premium-multi-geo.md
             - name: Power BI Premium – Häufig gestellte Fragen
               href: service-premium-faq.md
             - name: Power BI Premium – Anmerkungen zu dieser Version
