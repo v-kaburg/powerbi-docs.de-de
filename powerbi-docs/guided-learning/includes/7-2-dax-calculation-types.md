@@ -57,7 +57,7 @@ Die erforderlichen Elemente für ein berechnetes Measure sind die gleichen wie f
 * einen neuer Measurename
 * mindestens eine Funktion oder ein Ausdruck
 
-> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

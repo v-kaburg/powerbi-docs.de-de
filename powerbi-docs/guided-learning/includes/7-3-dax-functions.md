@@ -89,7 +89,7 @@ DAX enthält die folgenden **Datumsfunktionen**:
 
 Diese Funktionen sind hilfreich zum Berechnen und Extrahieren von Informationen aus *Datumswerten*. Sie gelten nicht für Zeitintelligenz, bei der eine Datumstabelle verwendet wird.
 
-> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

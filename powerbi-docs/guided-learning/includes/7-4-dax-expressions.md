@@ -10,7 +10,7 @@ Bei Variablen kann es sich um einen beliebigen Datentyp handeln, u.a. ganze Tabe
 
 Beachten Sie, dass Power BI bei jedem Verweis auf die Variable in Ihrem DAX-Ausdruck den Wert entsprechend der Definition neu berechnen muss. Es wird daher empfohlen, Variablen in einer Funktion nicht zu wiederholen.
 
-> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

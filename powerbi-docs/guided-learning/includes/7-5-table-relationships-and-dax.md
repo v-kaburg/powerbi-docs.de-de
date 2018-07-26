@@ -15,7 +15,7 @@ Die **RELATED**-Funktion kann für *n:1-Beziehungen* verwendet werden, während 
 
 Mit relationalen Funktionen können Sie Ausdrücke mit Werten in verschiedenen Tabellen erstellen. DAX gibt mit diesen Funktionen ein Ergebnis zurück, unabhängig davon, wie weit die Beziehung verkettet ist.
 
-> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

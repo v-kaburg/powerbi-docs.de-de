@@ -34,7 +34,7 @@ Power BI und DAX schließen z.B. Werte ein, die nicht ordnungsgemäß untereinan
 
 Sie können auch ganze berechnete Tabellen mit DAX-Funktionen erstellen. Berechnete mit DAX erstellte Tabellen erfordern jeweils eine **NAME**- und eine **TABLE**-Funktion. Berechnete Tabellen können wie jede andere Tabelle verwendet werden, u.a. zum Erstellen von Beziehungen.
 
-> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Videoinhalt zur Verfügung gestellt von [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
