@@ -35,7 +35,7 @@ Stellen Sie die Verbindung mit dem [Dynamics Marketing-Inhaltspaket](https://app
 3. Wählen Sie **Microsoft Dynamics Marketing** \> **Abrufen** aus.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Stellen Sie die Ihrem Konto zugeordnete OData-URL bereit.  Diese hat das Format: „https://[Instanzname].marketing.dynamics.com/analytics“.
+4. Stellen Sie die Ihrem Konto zugeordnete OData-URL bereit.  Diese hat das Format: „https:// [Instanzname].marketing.dynamics.com/analytics“.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Geben Sie nach der entsprechenden Aufforderung Ihre Anmeldeinformationen ein (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind). Geben Sie für die Authentifizierungsmethode **oAuth2** ein, und klicken Sie auf **Anmelden**:
@@ -54,7 +54,7 @@ Stellen Sie die Verbindung mit dem [Dynamics Marketing-Inhaltspaket](https://app
 
 ## <a name="system-requirements"></a>Systemanforderungen
 * Sie müssen eine gültige OData-URL für eine Dynamics Marketing-Instanz angeben (das Inhaltspaket funktioniert nicht mit einer lokalen CRM-Version).  
-* Ein Administrator muss den OData-Endpunkt in den Websiteeinstellungen aktivieren. Die Adresse des OData-Endpunkts finden Sie, indem Sie im Abschnitt **Organisationsdatendienst** zu **Start \> Einstellungen \> Websiteeinstellungen** navigieren.  Die OData-URL hat das Format: „https://[Instanzname].marketing.dynamics.com/analytics“.  
+* Ein Administrator muss den OData-Endpunkt in den Websiteeinstellungen aktivieren. Die Adresse des OData-Endpunkts finden Sie, indem Sie im Abschnitt **Organisationsdatendienst** zu **Start \> Einstellungen \> Websiteeinstellungen** navigieren.  Die OData-URL hat das Format: „https:// [Instanzname].marketing.dynamics.com/analytics“.  
 * Das Benutzerkonto bzw. die Identität, mit dem/der Sie auf Microsoft Dynamics Marketing zugreifen, muss identisch mit dem/der sein, das/die Sie bei der Registrierung für Power BI verwendet haben. Wenn Sie sich bei Microsoft Dynamics Marketing anmelden, werden Sie automatisch mit derselben Identität angemeldet, die Sie für Power BI verwenden. Wenn Sie sich bei Microsoft Dynamics Marketing mit einem anderen Konto anmelden möchten, registrieren Sie sich mit diesem anderen Konto als Power BI-Benutzer. Wir hoffen, dieses Problem in einer der nächsten Versionen beheben zu können.   
 
 ## <a name="troubleshooting"></a>Problembehandlung
