@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298387"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256007"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tipps und Tricks zur Farbformatierung in Power BI
 Power BI bietet viele unterschiedliche Methoden zum Anpassen der Dashboards und Berichte. In diesem Artikel erhalten Sie Tipps, wie Sie Ihre Power BI-Visualisierungen ansprechender, interessanter und personalisierter gestalten können.
@@ -97,7 +97,7 @@ Achten Sie im ersten Bild darauf, wie die Balken im Diagramm den Farbverlauf in 
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Was passiert nun, wenn wir in den Feldern **Minimum** und **Maximum** numerische Werte eingeben. Diese werden unter der **minimalen** und der **maximalen** Farbauswahl angezeigt (im folgenden Bild veranschaulicht). Legen wir für **Minimum** und **Maximum** je 20.000.000 fest.
+Was passiert nun, wenn wir in den Feldern **Minimum** und **Maximum** numerische Werte eingeben. Diese werden unter der **minimalen** und der **maximalen** Farbauswahl angezeigt (im folgenden Bild veranschaulicht). Legen Sie **Minimum** auf 20.000.000 und **Maximum** auf 20.000.001 fest.
 
 Werden diese Werte festgelegt, wird der Farbverlauf nicht mehr auf die Werte im Diagramm angewendet, die unter dem **Minimum** oder über dem **Maximum** liegen. Alle Balken mit Werten oberhalb des **Maximums** werden grün, alle Balken mit Werten unterhalb des **Minimums** rot markiert.
 
