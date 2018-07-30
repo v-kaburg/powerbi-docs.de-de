@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 6a19478e561edfb4398f9a128e284d3a7e43e9b6
+ms.sourcegitcommit: efe6747614ff66b5a86af9677632c1fb535448b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924711"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39137942"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Einbetten von Power BI-Dashboards, -Berichten und -Kacheln
 
@@ -110,15 +110,13 @@ In Ihrer Anwendung müssen Sie sich bei Power BI authentifizieren. Wenn Sie Inha
 
 Verwenden Sie in der Anwendung nach der Authentifizierung die Power BI-REST-APIs und JavaScript-APIs, um Dashboards und Berichte in die Anwendung einzubetten. 
 
-Informationen zum **Einbetten für Ihre Organisation** finden Sie in den folgenden exemplarischen Vorgehensweisen:
+Informationen zum **Einbetten für Ihre Organisation** finden Sie in der folgenden exemplarischen Vorgehensweise:
 
-* [Integrieren eines Dashboards in eine App](integrate-dashboard.md)
-* [Integrieren einer Kachel in eine App](integrate-tile.md)
-* [Integrieren eines Berichts in eine App](integrate-report.md)
+* [Integrieren eines Berichts in eine App](embed-sample-for-your-organization.md)
 
 Informationen zum **Einbetten für Ihre Kunden**, typisch für ISVs, finden Sie in dem folgenden Artikel:
 
-* [Integrieren eines Dashboards, einer Kachel oder eines Berichts in die Anwendung](embed-sample-for-customers.md)
+* [Integrieren eines Berichts in die Anwendung](embed-sample-for-customers.md)
 
 Beim Einbetten für Ihre Kunden ist ein Einbettungstoken erforderlich. Weitere Informationen finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 

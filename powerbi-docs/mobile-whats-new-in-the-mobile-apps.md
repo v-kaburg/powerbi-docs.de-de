@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864397"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182723"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,19 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](service-whats-new.md)  
+
+## <a name="july-2018"></a>Juli 2018
+
+### <a name="ios-and-android-only"></a>Nur iOS und Android
+
+**Freigegebene Filter**
+
+Sie können ab sofort Berichte mit freigegebenen Filtern und Slicern empfangen.
+
+**Unterstützung für Hintergrundbilder**
+
+Wenn Sie einen Bericht auf Ihrem Mobilgerät im Querformat anzeigen, sehen Sie die gleichen Hintergrundbilder wie in Power BI im Web.
+
 
 ## <a name="june-2018"></a>Juni 2018
 

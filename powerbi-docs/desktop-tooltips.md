@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232106"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210328"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop (Vorschau)
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 
@@ -119,6 +119,7 @@ Bei einer Kreuzhervorhebung für ein Visual in einem Bericht zeigen QuickInfos f
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Für diese Vorschauversion von **QuickInfos** für Berichte gelten folgende Einschränkungen und Überlegungen:
 
+* Ab dem **Power BI Desktop**-Release von Juli 2018 werden Tabellen- und Matrixvisuals für QuickInfos unterstützt. 
 * QuickInfos für Berichte werden nicht beim Anzeigen von Berichten in mobilen Apps oder in eingebetteten Umgebungen unterstützt, einschließlich Webveröffentlichungen. 
 * QuickInfos für Berichte werden nicht für benutzerdefinierte Visuals unterstützt. 
 * Cluster werden derzeit nicht als Felder unterstützt, die in QuickInfos für Berichte angezeigt werden können. 

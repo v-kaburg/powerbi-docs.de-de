@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032000"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210282"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -47,8 +47,12 @@ Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fen
 
 > [!NOTE]
 > Das Feature „Daten anzeigen“ ist nur über diese Tastenkombination für die Sprachausgabe verfügbar. Wenn Sie das Fenster „Daten anzeigen“ über die Option im Visualheader öffnen, kann die Sprachausgabe nicht darauf zugreifen.
-> 
-> 
+
+Ab dem **Power BI Desktop**-Release von Juli 2018 verfügen Slicer auch über integrierte Barrierefreiheitsfunktionen. Wenn Sie einen Slicer auswählen, verwenden Sie zum Anpassen des Werts die STRG- und die NACH-RECHTS-TASTE, um die verschiedenen Steuerelemente im Slicer zu durchlaufen. Wenn Sie z.B. am Anfang die STRG- und die NACH-RECHTS-TASTE drücken, befindet sich der Fokus auf dem Radierer. Das Drücken der LEERTASTE entspricht dem Klicken auf die Schaltfläche „Radierer“, wodurch alle Werte im Slicer gelöscht werden. 
+
+Mithilfe der TABULATORTASTE können Sie alle Steuerelemente in einem Slicer durchlaufen. Wenn der Radierer aktiv ist, verschieben Sie den Fokus durch Drücken der TABULATORTASTE auf die Dropdown-Schaltfläche. Wenn Sie die TABULATORTASTE erneut drücken, verschieben Sie den Fokus auf den ersten Slicerwert (sofern mehrere Werte für den Slicer vorhanden sind, z.B. ein Bereich). 
+
+![Drücken Sie in Power BI Desktop die STRG- und die NACH-RECHTS-TASTE, um Elemente oder Werte in einem Slicer anzupassen. Drücken Sie die LEERTASTE, um ein Element auszuwählen und seinen Wert anzupassen.](media/desktop-accessibility/accessibility_07.png)
 
 Diese zusätzlichen Barrierefreiheitsfunktionen wurden entwickelt, damit Benutzer Power BI-Berichte per Sprachausgabe und Tastaturnavigation umfassend verwenden können.
 

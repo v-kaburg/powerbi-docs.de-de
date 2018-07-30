@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852300"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182792"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen
 > [!NOTE]
@@ -52,7 +52,7 @@ Wenn Sie eine Änderung am Dashboard, das Sie in ein Inhaltspaket eingeschlossen
 4. Nehmen Sie im Fenster **Inhaltspaket aktualisieren** alle notwendigen Änderungen vor, und wählen Sie **Update**aus. Daraufhin wird eine **Erfolgsmeldung** angezeigt.
    
    * Für Gruppenmitglieder, die das Inhaltspaket nicht angepasst haben, wird das Update automatisch angewendet.
-   * Gruppenmitglieder, die das Inhaltspaket angepasst haben, erhalten eine Benachrichtigung, dass eine neue Version verfügbar ist.  Sie können zu AppSource navigieren und das aktualisierte Inhaltspaket abrufen, ohne ihre personalisierte Version zu verlieren.  Sie verfügen jetzt über zwei Versionen: die personalisierte Version und das aktualisierte Inhaltspaket.  In der personalisierten Version sind die Kacheln aus dem ursprünglichen Inhaltspaket nicht mehr vorhanden.  Die von anderen Berichten angehefteten Kacheln werden jedoch weiterhin gerendert.    
+   * Gruppenmitglieder, die das Inhaltspaket angepasst haben, erhalten eine Benachrichtigung, dass eine neue Version verfügbar ist.  Sie können zu AppSource navigieren und das aktualisierte Inhaltspaket abrufen, ohne ihre personalisierte Version zu verlieren.  Sie verfügen jetzt über zwei Versionen: die personalisierte Version und das aktualisierte Inhaltspaket.  In der personalisierten Version sind die Kacheln aus dem ursprünglichen Inhaltspaket nicht mehr vorhanden.  Die von anderen Berichten angehefteten Kacheln werden jedoch weiterhin gerendert. Wenn der Besitzer eines Inhaltspakets das Dataset löscht, auf dem das Inhaltspaket basiert, wird der gesamte Bericht gelöscht.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Aktualisieren der Zielgruppe: Erweitern oder Einschränken des Zugriffs
 Eine weitere Änderung, die Ersteller von Inhaltspaketen vornehmen können, ist das Erweitern oder Einschränken des Zugriffs zum Inhaltspaket.  Möglicherweise haben Sie ein Inhaltspaket für eine breite Zielgruppe veröffentlicht, und Sie haben sich entschieden, den Zugriff auf eine kleinere Gruppe einzuschränken.  
