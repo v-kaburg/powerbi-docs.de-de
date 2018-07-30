@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Analysebereich in Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: Verwenden von Einblicken in Power BI Desktop
+            - name: Verwenden von Einblicken zur Erklärung von Anstiegen und Rückgängen
               href: desktop-insights.md
+            - name: Verwenden von Einblicken zum Ermitteln unterschiedlicher Verteilung in Diagrammen
+              href: desktop-insights-find-where-different.md
             - name: Lesezeichen in Power BI
               href: desktop-bookmarks.md
             - name: Verwenden von Berichtdesigns
