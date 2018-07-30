@@ -39,7 +39,7 @@ Das hier verwendete Beispiel ist die im [Tutorial zu ArcGIS Maps von ESRI](power
 <br/>
 
 ## <a name="user-consent"></a>Zustimmung des Benutzers
-Wenn eine ArcGIS-Karte zum ersten Mal von einem Kollegen für Sie freigegeben wird, wird in Power BI eine Eingabeaufforderung angezeigt. ArcGIS Maps für Power BI wird von ESRI bereitgestellt, und die Verwendung von ArcGIS Maps für Power BI unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie von Esri. Power BI-Benutzer, die Visuals von ArcGIS Maps für Power BI verwenden möchten, müssen die Informationen im Zustimmungsdialogfeld akzeptieren.
+Wenn eine ArcGIS-Karte zum ersten Mal von einem Kollegen für Sie freigegeben wird, wird in Power BI eine Eingabeaufforderung angezeigt. ArcGIS Maps für Power BI wird von ESRI bereitgestellt (www.esri.com), und die Verwendung von ArcGIS Maps für Power BI unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie von Esri. Power BI-Benutzer, die Visuals von ArcGIS Maps für Power BI verwenden möchten, müssen die Informationen im Zustimmungsdialogfeld akzeptieren.
 
 ## <a name="selection-tools"></a>Auswahltools
 ArcGIS-Karten für Power BI stellt drei Auswahlmodi bereit. Es können maximal 250 Datenpunkte gleichzeitig ausgewählt werden.

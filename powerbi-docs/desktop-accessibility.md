@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210282"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256030"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -40,6 +40,8 @@ Sie können den Fokus zwischen den Seitenregisterkarten von Berichten oder den O
 * Wenn der Fokus auf einer geladenen *Berichtsseite* liegt, verwenden Sie die *TAB*-Taste, um den Fokus auf die einzelnen Objekte auf der Seite zu bewegen. Zu diesen zählen alle Textfelder, Bilder, Formen und Diagramme. Die Sprachausgabe liest den Typ des Objekts und sofern vorhanden den Titel und die Beschreibung des Objekts. 
 
 Beim Navigieren zwischen Visuals können Sie weitere Aktionen ausführen. Sie können **ALT+UMSCHALT+F10** drücken, um den Visualheader zu fokussieren, der verschiedene Optionen enthält, dazu gehört das Sortieren, das Exportieren der Daten hinter dem Diagramm und der Fokusmodus. 
+
+![Drücken Sie in Power BI Desktop ALT+UMSCHALT+F10, um den Fokus auf den Visualheader zu verschieben.](media/desktop-accessibility/accessibility_08.png)
 
 Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fensters *Daten anzeigen* zu öffnen. Dadurch können Sie die im Visual verwendeten Daten in einer HTML-Tabelle untersuchen, und dabei die gleichen Tastenkombinationen verwenden, die Sie normalerweise mit der Sprachausgabe verwenden. 
 
