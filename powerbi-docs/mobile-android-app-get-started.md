@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ba6b8cb1ade1337a29e758a16db285dbea7c41db
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136523"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280177"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Erste Schritte mit der mobilen Power BI-App auf Android-Geräten
 Die Android-App für Microsoft Power BI bietet Ihnen die mobile BI-Umgebung für Power BI, Power BI-Berichtsserver und Reporting Services. Mit dem touchfähigen, mobilen Livezugriff auf lokale Server und die Cloud können Sie Ihre Unternehmensdashboards überall anzeigen und mit ihnen interagieren. Untersuchen Sie die Daten in Dashboards, und geben Sie diese dann über eine E-Mail oder SMS für Kollegen frei. 
@@ -86,7 +86,7 @@ Sie können die Power BI-Dashboard-Beispiele anzeigen und mit ihnen interagieren
     Standardmäßig erfolgt die Suche unter allen Dashboards und Berichten, Sie können jedoch auch nur unter Dashboards oder nur unter Berichten suchen.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Suchen von Inhalten in Dashboards in mobilen Power BI-Apps
-Ihre Dashboards und Berichte sind an unterschiedlichen Stellen in den mobilen Power BI-Apps gespeichert, abhängig davon, woher sie stammen. [Weitere Informationen zum Suchen von Inhalten in den mobilen Apps](mobile-apps-find-content-mobile-devices.md). Außerdem können Sie jederzeit nach allen Inhalten in den mobilen Power BI-Apps suchen. 
+Ihre Dashboards und Berichte sind an unterschiedlichen Stellen in den mobilen Power BI-Apps gespeichert, abhängig davon, woher sie stammen. [Weitere Informationen zum Suchen von Inhalten in den mobilen Apps](mobile-apps-quickstart-view-dashboard-report.md). Außerdem können Sie jederzeit nach allen Inhalten in den mobilen Power BI-Apps suchen. 
 
 ![Linker Navigationsbereich](media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 

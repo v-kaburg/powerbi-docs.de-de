@@ -119,8 +119,7 @@ Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unters
 | Typ des virtuellen Computers | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
 | **Active Directory-Domänencontroller** |2 Kerne |7 GB |Standard_DS2_v2 |
-| 
-  **SQL Server-Datenbank-Engine und Analysis Services** |16 Kerne |56 GB |Standard_DS5_v2 |
+| **SQL Server-Datenbank-Engine und Analysis Services** |16 Kerne |56 GB |Standard_DS5_v2 |
 | **Berichtsserver-Datenbank** |16 Kerne |56 GB |Standard_DS5_v2 |
 
 **1.2 Konfiguration des virtuellen Power BI-Berichtsserver-Computers** 

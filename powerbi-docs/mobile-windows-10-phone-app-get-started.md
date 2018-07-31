@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135787"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280062"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Erste Schritte mit der mobilen Power BI-App für Windows 10
 Die mobile Power BI-App für Windows 10 stellt Power BI mit touchfähigem mobilem Zugriff auf Ihre aktuellen Geschäftsdaten auf Ihrem Tablet oder Smartphone bereit. Auf Ihrem [Windows-Startbildschirm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) können Sie Ihre Unternehmensdashboards überall anzeigen und damit interagieren.
@@ -87,7 +87,7 @@ Sie können schnell nach Dashboards, Berichten und Apps suchen, indem Sie Text i
    ![Relevante Suchergebnisse](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Suchen von Inhalten in Dashboards in mobilen Power BI-Apps
-Ihre Dashboards und Berichte sind an unterschiedlichen Stellen in den mobilen Power BI-Apps gespeichert, abhängig davon, woher sie stammen. [Weitere Informationen zum Suchen von Inhalten in den mobilen Apps](mobile-apps-find-content-mobile-devices.md). Außerdem können Sie jederzeit nach allen Inhalten in den mobilen Power BI-Apps suchen. 
+Ihre Dashboards und Berichte sind an unterschiedlichen Stellen in den mobilen Power BI-Apps gespeichert, abhängig davon, woher sie stammen. [Weitere Informationen zum Suchen von Inhalten in den mobilen Apps](mobile-apps-quickstart-view-dashboard-report.md). Außerdem können Sie jederzeit nach allen Inhalten in den mobilen Power BI-Apps suchen. 
 
 ![Linker Navigationsbereich von Power BI](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ Hier finden Sie weitere Möglichkeiten, die die Power BI-App für Windows 10-Ger
 * Zeigen Sie [Ihre Apps](service-install-use-apps.md) an.
 * Zeigen Sie Ihre [Dashboards](mobile-apps-view-dashboard.md) an.
 * [Heften Sie Power BI-Kacheln oder ein -Dashboard](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) als Live-Kacheln an die Startseite Ihres Gerätes an.
-* [Geben Sie Kacheln frei](mobile-share-tile-windows-10-phone-app.md).
+* [Geben Sie Kacheln frei](mobile-windows-10-phone-app-get-started.md).
 * Geben Sie [Dashboards](mobile-share-dashboard-from-the-mobile-apps.md) frei.
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Mobile Reporting Services-Berichte und KPIs

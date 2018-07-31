@@ -51,7 +51,7 @@ Anhand der folgenden Einstellungen kann die geplante Aktualisierung konfiguriert
 
 **Einstellungen in SSMS:**
 
-| Einstellung | Description |
+| Einstellung | Beschreibung |
 | --- | --- |
 | MaxFileSizeMb |Maximale Dateigröße für hochgeladene Berichte. Die Standardeinstellung ist 1.000 MB (1 GB). Der Maximalwert ist 2.000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Legt fest, wie oft das Modell für die Entfernung aus dem Speicher überprüft wird. Die Standardeinstellung ist 15 Minuten. |

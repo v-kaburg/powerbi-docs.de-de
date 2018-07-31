@@ -34,7 +34,7 @@ Dies sind die Schritte, die Sie als Administrator in Microsoft Intune befolgen, 
 
 In der folgenden Tabelle sind die Paare aufgeführt.
 
-|Schlüssel  |Typ  |Description  |
+|Schlüssel  |Typ  |Beschreibung  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL </br> Muss mit http/https beginnen |
 | com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] </br> Der Benutzername, der zum Verbinden des Servers verwendet wird. </br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 

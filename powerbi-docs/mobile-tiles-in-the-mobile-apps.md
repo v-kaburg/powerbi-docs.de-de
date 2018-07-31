@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598624"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280131"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -92,7 +92,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Eine Momentaufnahme in der Kachel teilen](mobile-share-tile-windows-10-phone-app.md).
+    [Eine Momentaufnahme in der Kachel teilen](mobile-windows-10-phone-app-get-started.md).
    
     Tippen Sie auf **Bericht öffnen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png), um [den zugrunde liegenden Bericht anzuzeigen](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Tippen Sie auf das Symbol „Momentaufnahme freigeben“ ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), um [eine Kachel für andere freizugeben](mobile-share-tile-windows-10-phone-app.md).   
+   Tippen Sie auf das Symbol „Momentaufnahme freigeben“ ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png), um [eine Kachel für andere freizugeben](mobile-windows-10-phone-app-get-started.md).   
    
    Tippen Sie auf das Symbol „Bericht öffnen“ ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) zum [Anzeigen des Berichts](mobile-reports-in-the-mobile-apps.md), auf dem die Kachel basiert. 
 4. Tippen Sie auf den Rückwärtspfeil oder die Schaltfläche „Zurück“, um die Kachel zu schließen und zum Dashboard zurückzukehren.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249503"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280453"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -75,7 +75,7 @@ Sie geben eine Momentaufnahme der Kacheln, Berichte oder visuellen Elemente frei
 
 Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kacheln, Berichten und visuellen Elementen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) in den mobilen iOS- und Android-Apps.
 
-Sie können auch eine [Momentaufnahme einer Kachel](mobile-share-tile-windows-10-phone-app.md) aus der Power BI-App für Windows 10-Geräte freigeben.
+Sie können auch eine [Momentaufnahme einer Kachel](mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
 
 ## <a name="publish-to-the-web"></a>Im Web veröffentlichen
 Sie können Power BI-Berichte im Internet veröffentlichen, indem Sie interaktive Visualisierungen in Blogbeiträge, Websites, soziale Medien und andere Onlinekommunikationsmittel auf jedem Gerät einbetten. Jede Person im Internet kann Ihre Berichte aufrufen, und Sie haben keine Kontrolle darüber, wer die von Ihnen veröffentlichten Daten einsieht. Diese Personen benötigen keine Power BI-Lizenz. Die Veröffentlichung im Web ist nur für Berichte verfügbar, die Sie bearbeiten können. Sie können keine Berichte im Web veröffentlichen, wenn diese für Sie freigegeben wurden oder sich in einer App befinden. Weitere Informationen zum [Veröffentlichen im Web](service-publish-to-web.md).
