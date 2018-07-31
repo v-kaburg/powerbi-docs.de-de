@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a090a74399f607caaf193e474d60b57a4355bc9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4c41665bd1b9476816dcbb5739a36ecd6d95852b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291464"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328279"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Verwenden von Inlinehierarchiebeschriftungen in Power BI Desktop
 **Power BI Desktop** unterstützt die Verwendung von **Inlinehierarchiebeschriftungen**. Dies ist das erste von zwei Features, die die Ermittlung hierarchischer Details verbessern sollen. Das zweite Feature, das derzeit entwickelt wird, ist die Fähigkeit, geschachtelte Hierarchiebeschriftungen zu verwenden (achten Sie auf weitere Updates).   
