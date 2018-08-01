@@ -530,11 +530,11 @@
       items:
         - name: Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
           href: desktop-latest-update.md
-        - name: Zusammengesetzte Modelle in Power BI Desktop (Vorschau)
+        - name: Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)
           href: desktop-composite-models.md
         - name: 'M:n-Beziehungen in Power BI Desktop (Vorschau)'
           href: desktop-many-to-many-relationships.md
-        - name: Speichermodus in Power BI Desktop (Vorschau)
+        - name: Speichermodus in Power BI Desktop (Vorschauversion)
           href: desktop-storage-mode.md
         - name: Bidirektionale Kreuzfilterung in Power BI Desktop (Vorschau)
           href: desktop-bidirectional-filtering.md
@@ -918,14 +918,18 @@
       items:
         - name: Übersicht
           items:
-            - name: Einbetten mit Power BI
+            - name: Was ist die Einbettung mit Power BI?
               href: developer/embedding.md
+            - name: Was ist Power BI Embedded in Azure?
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Lernprogramme
           items:
             - name: Einbetten von Inhalten für Kunden
               href: developer/embed-sample-for-customers.md
             - name: Einbetten von Inhalt für Ihre Organisation
               href: developer/embed-sample-for-your-organization.md
+            - name: Integrieren von Inhalten in Ihre Anwendung für Sovereign Cloud
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Konzepte
           items:
             - name: Sicherheit auf Zeilenebene (row-level security; RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Vorgehensweise
           items:
-            - name: Einbetten von Inhalten
-              href: developer/embedding-content.md
             - name: Einbetten aus einer App
               href: developer/embed-from-apps.md
-            - name: Integrieren von Inhalten in Ihre Anwendung für Sovereign Cloud (App ist Besitzer der Daten)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Erstellen eines Azure Active Directory-Mandanten
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Registrieren einer Anwendung
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Einbetten von Q&A
               href: developer/qanda.md
-            - name: Migrieren von Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Problembehandlung bei Embedded-Anwendungen
               href: developer/embedded-troubleshoot.md
+            - name: Verwalten von Kapazitäten in Azure
+              items:
+                - name: Erstellen einer Kapazität in Azure
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Skalieren einer Kapazität in Azure
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Anhalten und Starten einer Kapazität in Azure
+                  href: developer/azure-pbie-pause-start.md
+            - name: Migrieren von Arbeitsbereichssammlungen
+              items:
+                - name: So migrieren Sie von Power BI-Arbeitsbereichssammlungen
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Migrationstool
+                  href: developer/migrate-tool.md
+                - name: Migrations-Codeausschnitte
+                  href: developer/migrate-code-snippets.md
         - name: Referenz
           items:
+            - name: APIs
+              items:
+                - name: REST-APIs der Azure-Ressourcenverwaltung
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI-REST-APIs
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET-SDK-Download
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Einbetten von benutzerdefinierten Layouts in einer App
               href: developer/embedded-custom-layout.md
-            - name: Migrations-Codeausschnitte
-              href: developer/migrate-code-snippets.md
         - name: Ressourcen
           items:
             - name: Dev Center
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Beispiele
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded-Migrationstool
-              href: developer/migrate-tool.md
             - name: Power BI-Community
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
@@ -1064,8 +1080,6 @@
           items:
             - name: REST-APIs
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: "Referenz für Power\_BI-REST-API"
-              href: developer/rest-api-reference.md
             - name: Vollständige Codeliste
               href: developer/walkthrough-push-data-complete-code.md
         - name: Ressourcen
