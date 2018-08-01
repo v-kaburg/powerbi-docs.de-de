@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34456037"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Facebook-Analysen mit Power BI Desktop
@@ -29,7 +29,7 @@ In diesem Tutorial werden Daten von der [Microsoft Power BI-Facebook-Seite](http
    
 2. Wählen Sie im Dialogfeld **Daten abrufen** aus der Gruppe **Onlinedienste** die Option **Facebook** aus, und wählen Sie dann **Verbinden**.
    
-   ![Abrufen von Daten](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Daten abrufen](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Ein Dialogfeld wird angezeigt, das Sie vor den Risiken bei Verwendung eines Drittanbieterdiensts warnt.
    
