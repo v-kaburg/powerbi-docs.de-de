@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211342"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388753"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>m:n-Beziehungen in Power BI Desktop (Vorschauversion)
 
@@ -25,7 +25,7 @@ Mit dem Feature **m:n-Beziehungen** in **Power BI Desktop** können Tabellen, in
 
 Die Funktion **m:n-Beziehungen** in **Power BI Desktop** ist Teil einer Sammlung von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery-Verbindungen oder Importe in beliebiger Kombination.
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination.
 * **m:n Beziehungen**: Mit dem Feature **Zusammengesetzte Modelle** können Sie **m:n-Beziehungen** zwischen Tabellen erstellen, wodurch die Notwendigkeit für eindeutige Werte in Tabellen und frühere Problemumgehungen wie die Einführung neuer Tabellen nur für die Erstellung von Beziehungen entfallen. 
 * **Speichermodus**: Ab sofort können Sie angeben, welche Visuals eine Abfrage an Back-End-Datenquellen erfordern, und festlegen, dass Visuals, die keine erfordern, importiert werden, auch wenn diese auf DirectQuery basieren. Hierdurch wird die Leistung verbessert und die Auslastung des Back-Ends verringert. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. 
 
@@ -110,7 +110,7 @@ Ein Visual, das *State* (aus der Tabelle *CityData*) zusammen mit der gesamten *
 
 Beachten Sie, dass hinsichtlich der Verwendung des Bundesstaats von der Tabelle *CityData* in dieser Problemumgehung nur die *State*-Werte in dieser Tabelle aufgeführt werden (daher ist TX ausgeschlossen). Im Gegensatz zu **n:1**-Beziehungen ist in den Details darüber hinaus keine leere Zeile enthalten, die solche nicht übereinstimmenden Zeilen abdeckt. Die Zeile „Total“ enthält hingegen alle *Sales*-Werte (einschließlich der von TX). Analog dazu gäbe es keine leere Zeile, die alle *Sales*-Werte abdeckt, bei denen der Wert für *State* „NULL“ lauten würde.
 
-Wenn *City* ebenfalls diesem Visual hinzugefügt worden wäre, wäre zwar die Einwohnerzahl für die jeweilige *City* bekannt, der *Sales*-Wert für *City* würde jedoch einfach den *Sales*-Wert für den entsprechenden *State* wiederholen (wie es normalerweise der Fall ist, wenn für eine Spalte eine Gruppierung vorgenommen wird, die nicht mit aggregierten Measures verknüpft ist). Dies wird in der folgenden Abbildung veranschaulicht.
+Wenn *City* ebenfalls diesem Visual hinzugefügt worden wäre, wäre zwar die Einwohnerzahl pro *City* bekannt, der *Sales*-Wert für *City* würde jedoch einfach den *Sales*-Wert für den entsprechenden *State* wiederholen (wie es normalerweise der Fall ist, wenn für eine Spalte eine Gruppierung vorgenommen wird, die nicht mit aggregierten Measures verknüpft ist). Dies wird in der folgenden Abbildung veranschaulicht.
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 

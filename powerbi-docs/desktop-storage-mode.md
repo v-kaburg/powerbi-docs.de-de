@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 15580cd43e4bb2d286310868a8e853daff04f280
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211374"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388799"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschauversion)
 
@@ -33,7 +33,7 @@ Das Festlegen des **Speichermodus** bietet viele Vorteile. Sie können für jede
 
 Die Einstellung **Speichermodus** in **Power BI Desktop** ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery-Verbindungen oder Importe in beliebiger Kombination.
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination.
 * **m:n Beziehungen**: Mit dem Feature **Zusammengesetzte Modelle** können Sie **m:n-Beziehungen** zwischen Tabellen erstellen, wodurch die Notwendigkeit für eindeutige Werte in Tabellen und frühere Problemumgehungen wie die Einführung neuer Tabellen nur für die Erstellung von Beziehungen entfallen. 
 * **Speichermodus**: Ab sofort können Sie angeben, welche Visuals eine Abfrage an Back-End-Datenquellen erfordern, und festlegen, dass Visuals, die keine erfordern, importiert werden, auch wenn diese auf DirectQuery basieren. Hierdurch wird die Leistung verbessert und die Auslastung des Back-Ends verringert. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. 
 
@@ -157,7 +157,7 @@ Die folgende Abfrage ist interessant, da sie beide Spalten kombiniert. Diese Abf
 
 Die im vorherigen Abschnitt angezeigten Abfragen zeigen, dass **Dual**-Tabellen manchmal vom Cache und manchmal nicht vom Cache ausgeführt werden. Aus diesem Grund können unterschiedliche Werte zurückgegeben werden, wenn der Cache veraltet ist. Bei der Abfrageausführung wird nicht versucht, Datenprobleme, zu maskieren, indem z.B. DirectQuery-Ergebnisse entsprechend den zwischengespeicherten Werten gefiltert werden. Sie müssen bestens mit Ihren Datenflüssen vertraut sein und den Entwurf entsprechend darauf ausrichten. Bei Bedarf können Sie auf etablierte Verfahren zum Umgang mit derartigen Fällen an der Quelle zurückgreifen.
 
-Der Speichermodus **Dual** trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die nicht die Möglichkeit zur Erfüllung geschäftlicher Anforderungen beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben werden.
+Der Speichermodus **Dual** trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die nicht die Erfüllung geschäftlicher Anforderungen beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben werden.
 
 ## <a name="data-view"></a>Datenansicht
 Ist für mindestens eine Tabelle im Dataset der **Speichermodus** auf „Import“ oder „Dual“ festgelegt, wird die Registerkarte **Datenansicht** angezeigt.
