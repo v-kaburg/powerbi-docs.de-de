@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092642"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582636"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Herstellen einer Verbindung mit Acumatica mithilfe von Power BI
 Mit dem Power BI-Acumatica-Inhaltspaket können Sie schnell Erkenntnisse aus Ihren Verkaufschancendaten gewinnen. Power BI ruft Ihre Daten ab, einschließlich Verkaufschancen, Konten und Kunden, und erstellt dann auf der Grundlage dieser Daten ein Standarddashboard und zugehörige Berichte.
@@ -37,7 +37,7 @@ Stellen Sie eine Verbindung mit dem [Acumatica- Inhaltspaket](https://app.powerb
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. Geben Sie Ihren Acumatica-OData-Endpunkt ein. Mithilfe eines OData-Endpunkts kann ein externes System Daten bei Acumatica abrufen. Ein Acumatica-OData-Endpunkt weist das folgende Format auf und sollte HTTPS verwenden:
    
-     https://[Websitedomäne]/odata/[Firmenname]
+     `https://[sitedomain]/odata/[companyname]`
    
    Der Firmenname ist nur erforderlich, wenn Sie eine Bereitstellung mit mehreren Unternehmen haben. Weitere Informationen zum Auffinden dieses Parameters in Ihrem Acumatica-Konto finden Sie unten.
    

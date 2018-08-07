@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598873"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582569"
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -24,8 +24,8 @@ Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger
 
 Je mehr Daten in einem Visual angezeigt werden müssen, umso länger dauert das Laden des Visuals. Auch wenn dieses Prinzip offensichtlich erscheint, gerät es leicht in Vergessenheit. Betrachten Sie beispielsweise ein großes Dataset. Darüber erstellen Sie einen Bericht mit einer Tabelle der Tabelle. Die Endbenutzer verwenden Datenschnitte auf der Seite, um die gewünschten Zeilen abzurufen – in der Regel sind sie nur an wenigen Dutzend Zeilen interessiert.
 
-Ein häufiger Fehler besteht darin, dass die Standardansicht der Tabelle nicht gefiltert ist und alle Zeilen zeigt, in diesem Fall über 100 Millionen. Die Daten für diese Zeilen müssen in den Arbeitsspeicher geladen und bei jeder Aktualisierung dekomprimiert werden. Dies führt zu einer starken Auslastung des Arbeitsspeichers. Die Lösung: Verringern Sie die maximale Anzahl von Elementen, die in der Tabelle angezeigt werden, mit dem Filter „Top N“. Die maximale Anzahl von Elementen kann deutlich höher sein als die Menge, die die Benutzer benötigen, z.B. 10.000. Für den Endbenutzer ändert sich nichts, die Arbeitsspeicherauslastung durch den Bericht wird jedoch erheblich gesenkt und die Leistung entsprechend verbessert. 
- 
+Ein häufiger Fehler besteht darin, dass die Standardansicht der Tabelle nicht gefiltert ist und alle Zeilen zeigt, in diesem Fall über 100 Millionen. Die Daten für diese Zeilen müssen in den Arbeitsspeicher geladen und bei jeder Aktualisierung dekomprimiert werden. Dies führt zu einer starken Auslastung des Arbeitsspeichers. Die Lösung: Verringern Sie die maximale Anzahl von Elementen, die in der Tabelle angezeigt werden, mit dem Filter „Top N“. Die maximale Anzahl von Elementen kann deutlich höher sein als die Menge, die die Benutzer benötigen, z.B. 10.000. Für den Endbenutzer ändert sich nichts, die Arbeitsspeicherauslastung durch den Bericht wird jedoch erheblich gesenkt und die Leistung entsprechend verbessert.
+
 Ein ähnlicher Ansatz wird für alle Visuals in Ihren Berichten dringend empfohlen. Fragen Sie sich, ob wirklich alle Daten in einem Visual benötigt werden. Gibt es Möglichkeiten, die Menge der angezeigten Daten im Visual durch Filter zu minimieren, ohne dass sich für den Endbenutzer viel ändert? Beachten Sie, dass insbesondere Tabellen sehr ressourcenintensiv sein können. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Einschränken von Visuals auf Berichtsseiten 
