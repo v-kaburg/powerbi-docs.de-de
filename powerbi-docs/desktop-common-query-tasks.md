@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877329"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39330211"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop
 Beim Arbeiten im Fenster **Abfrage-Editor** von Power BI Desktop haben Sie es mit einer Hand voll häufig verwendeter Aufgaben zu tun. In diesem Dokument werden diese allgemeinen Aufgaben vorgestellt. Zudem finden Sie Links zu weiteren Informationen. 
@@ -31,7 +31,7 @@ Zu den hier vorgestellten allgemeinen Abfrageaufgaben zählen folgende Aufgaben:
 
 Zum Ausführen dieser Aufgaben verwenden wir einige Datenverbindungen. Diese Daten sind für Sie zum Download verfügbar. Wenn Sie die Schritte selbst ausführen möchten, können Sie auch eine Verbindung zu diesen Daten herstellen.
 
-Die erste Datenverbindung ist eine Excel-Arbeitsmappe. Die andere ist eine Webressource (sie wird auch in anderen Inhalten der Hilfe zu Power BI Desktop verwendet), auf die über folgenden Pfad zugegriffen werden kann:
+Die erste Datenverbindung ist eine Excel-Arbeitsmappe, die Sie unter [diesem Link](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) herunterladen können. Die andere ist eine Webressource (sie wird auch in anderen Inhalten der Hilfe zu Power BI Desktop verwendet), auf die über folgenden Pfad zugegriffen werden kann:
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
