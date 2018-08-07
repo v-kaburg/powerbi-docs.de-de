@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 964d9dfcc9a22d13b071fd59533821ebf907c7e1
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244828"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328463"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Veröffentlichen in Power BI aus Excel 2016
 Mit Excel 2016 können Sie Ihre Excel-Arbeitsmappen direkt auf Ihrer [Power BI](https://powerbi.microsoft.com)-Website veröffentlichen. Dort können Sie hochgradig interaktive Berichte und Dashboards auf Grundlage der Daten in Ihrer Arbeitsmappe erstellen. Sie können Ihre Einblicke dann für andere Personen in Ihrer Organisation freigeben.
@@ -47,7 +47,7 @@ Sie haben zwei Optionen, die Arbeitsmappe in Power BI einzubinden.
 
 ![](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-Sobald sie veröffentlicht ist, wird eine Kopie (als von der lokalen Datei eigenständige Datei) in Power BI vorgehalten. Wenn Sie die Datei in Power BI aktualisieren möchten, müssen Sie die aktuelle Version erneut veröffentlichen. Sie können die Daten aktualisieren und für die Arbeitsmappe oder das Dataset in Power BI eine geplante Aktualisierung festlegen.
+Sobald sie veröffentlicht ist, wird eine Kopie (als von der lokalen Datei eigenständige Datei) in Power BI gespeichert. Wenn Sie die Datei in Power BI aktualisieren möchten, müssen Sie die aktuelle Version erneut veröffentlichen. Sie können die Daten aktualisieren und für die Arbeitsmappe oder das Dataset in Power BI eine geplante Aktualisierung festlegen.
 
 ### <a name="publishing-from-excel-standalone"></a>Veröffentlichen aus einer eigenständigen Excel-Installation
 Wenn die Arbeitsmappe noch nicht in OneDrive gespeichert ist, müssen Sie dies zuerst nachholen. Wählen Sie „In der Cloud speichern“ und dann einen Speicherort in OneDrive for Business.

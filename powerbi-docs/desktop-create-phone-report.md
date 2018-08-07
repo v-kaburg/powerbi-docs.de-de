@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721062"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280660"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Erstellen von Berichten, die für die Power BI-Smartphone-Apps optimiert sind
 Wenn Sie [in Power BI Desktop einen Bericht erstellen](desktop-report-view.md), können Sie seine Nutzung in den mobilen Apps auf Smartphones optimieren, indem Sie eine spezielle Version des Berichts für das Smartphone erstellen. Sie können den Bericht für das Smartphone anpassen, indem Sie visuelle Elemente neu anordnen, ihre Größe ändern und ggf. nicht alle visuellen Elemente in den Bericht aufnehmen, um eine optimale Benutzererfahrung zu erzielen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im Smartphonebericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.
@@ -72,7 +72,7 @@ Die Dynamik wird für jedes Visual separat festgelegt. Erfahren Sie mehr über d
   
    ![Visual entfernen](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Optimieren von Datenschnitten für Smartphoneberichte
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Optimieren von Datenschnitten für Smartphoneberichte
 Datenschnitte ermöglichen das Filtern von Berichtsdaten im Zeichenbereich. Wenn Sie Datenschnitte im regulären Berichterstellungsmodus entwerfen, können Sie einige Datenschnitteinstellungen ändern, um sie für Smartphoneberichte anzupassen:
 
 * Legen Sie fest, ob Leser des Berichts ein oder mehrere Elemente auswählen können.

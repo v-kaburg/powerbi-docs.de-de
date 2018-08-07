@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813731"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280338"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Datenansicht in Power BI Desktop
 Mit der **Datenansicht** können Sie Daten im **Power BI Desktop-Modell** überprüfen, untersuchen und verstehen. Sie unterscheidet sich von der Anzeige von Tabellen, Spalten und Daten im **Abfrage-Editor**. Mit der Datenansicht sehen Sie die Daten, *nachdem* sie in das Modell geladen wurden.
@@ -46,4 +46,5 @@ Sie können Daten in **Datenansicht** auch filtern und sortieren. In jeder Spalt
 
 Sie können einzelne Werte filtern oder erweiterte Filter auf Grundlage der Daten in der Spalte verwenden. 
 
-
+> [!NOTE]
+> Wenn ein Power BI-Modell mit einer Kultur erstellt wurde, die nicht der aktuellen Benutzeroberfläche entspricht (z. B. wurde das Modell auf Englisch (USA) erstellt und wird auf Spanisch angezeigt), wird das Suchfeld in der Benutzeroberfläche „Datenansicht“ nur für Textfelder angezeigt.

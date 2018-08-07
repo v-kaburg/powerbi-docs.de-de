@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/26/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900052"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280200"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Verwendung des SAP BW-Connectors in Power BI Desktop
 Mit Power BI Desktop können Sie auf Daten aus **SAP Business Warehouse (BW)** zugreifen.
 
-Weitere Informationen darüber, wie SAP-Kunden von der Verknüpfung von Power BI mit ihren vorhandenen SAP Business Warehouse-Systemen (BW) profitieren können, finden Sie im [Whitepaper von Power BI und SAP](https://aka.ms/powerbiandsapbw).
+Weitere Informationen darüber, wie SAP-Kunden von der Verknüpfung von Power BI mit ihren vorhandenen SAP Business Warehouse-Systemen (BW) profitieren können, finden Sie im [Whitepaper von Power BI und SAP](https://aka.ms/powerbiandsapbw). Weitere Informationen zur Verwendung von DirectQuery mit SAP BW finden Sie im Artikel [DirectQuery und SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
 Seit dem **Power BI Desktop**-Release vom Juni 2018 können Sie den SAP BW-Connector mit einer Implementierung nutzen, die die Leistung und die Funktionen erheblich verbessert. Diese aktualisierte Version des SAP BW-Connectors wurde von Microsoft entwickelt und heißt **Implementierung 2.0**. Sie können entweder Version 1 (v1) des **SAP BW-Connectors** oder die **Implementierung 2.0 des SAP-Connectors** verwenden. In den folgenden Abschnitten wird die Installation der einzelnen Versionen beschrieben. Sie können den einen oder den anderen Connector auswählen, wenn Sie über Power BI Desktop eine Verbindung zu SAP BW herstellen.
 
@@ -38,9 +38,9 @@ Es wird empfohlen, nach Möglichkeit die Implementierung 2.0 des SAP-Connectors 
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>Installation der Implementierung 2.0 des SAP-Connectors
 
-Die **Implementierung 2.0** des SAP-Connectors erfordert den SAP .NET Connector 3.0. Sie können den [SAP .NET Connector 3.0 von der SAP-Website herunterladen](https://go.microsoft.com/fwlink/?linkid=872300). Klicken Sie auf den folgenden Link:
+Die **Implementierung 2.0** des SAP-Connectors erfordert den SAP .NET Connector 3.0. Sie können den [SAP .NET Connector 3.0 von der SAP-Website herunterladen](https://support.sap.com/en/product/connectors/msnet.html). Klicken Sie auf den folgenden Link:
 
-* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+* [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)
 
 Um auf den Download zugreifen zu können, ist ein gültiger S-User erforderlich. Kunden sollten sich an das SAP Basis-Team wenden, um den SAP .NET Connector 3.0 zu erhalten. 
 
@@ -207,6 +207,7 @@ In diesem Abschnitt werden die Fehlerbehebungsszenarios (und Lösungen) für die
 Weitere Informationen zu SAP und DirectQuery finden Sie in den folgenden Ressourcen:
 
 * [DirectQuery und SAP HANA](desktop-directquery-sap-hana.md)
+* [DirectQuery und SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data Sources supported by DirectQuery (Von DirectQuery unterstützte Datenquellen)](desktop-directquery-data-sources.md)
 * [Whitepaper von Power BI und SAP BW](https://aka.ms/powerbiandsapbw)

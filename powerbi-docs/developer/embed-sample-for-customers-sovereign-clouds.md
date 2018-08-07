@@ -2,24 +2,26 @@
 title: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden für Sovereign Clouds
 description: Hier erfahren Sie, wie Sie mit den Power BI-APIs ein Dashboard, eine Kachel oder einen Bericht für Ihre Kunden in eine Web-App integrieren bzw. einbetten.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 03/28/2018
-ms.author: maghan
-ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.topic: tutorial
+ms.date: 07/26/2018
+ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813708"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255869"
 ---
-# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in eine Anwendung für Sovereign Clouds
-Hier erfahren Sie, wie Sie mithilfe des Power BI-.NET-SDK und der Power BI-JavaScript-API ein Dashboard, eine Kachel oder einen Bericht in eine Web-App integrieren oder einbetten, wenn das Einbetten für Ihre Kunden erfolgt. Dies ist in der Regel das Szenario für ISVs.
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in eine Anwendung für Sovereign Clouds
+Hier erfahren Sie, wie Sie mithilfe des Power BI-.NET-SDK und der Power BI-JavaScript-API ein Dashboard, eine Kachel oder einen Bericht in eine Web-App integrieren oder einbetten, wenn das Einbetten für Ihre Kunden erfolgt. Dies ist in der Regel ein Szenario für unabhängige Softwarehersteller (ISV).
 
-Sovereign (private) Clouds werden von Power BI ebenfalls unterstützt. Jede Sovereign Cloud hat eine eigene Zugehörigkeit. Zu den verschiedenen Sovereign Clouds gehören Folgende:
+Sovereign (private) Clouds werden von Power BI ebenfalls unterstützt.
+
+Zu den verschiedenen Sovereign Clouds gehören Folgende:
 
 * U.S. Government Community Cloud (GCC)
 
@@ -29,81 +31,83 @@ Sovereign (private) Clouds werden von Power BI ebenfalls unterstützt. Jede Sove
 
 * Power BI für Cloud Deutschland
 
+* Power BI für Cloud China
+
 ![Eingebettetes Dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie sich je nach Art der Regierung für ein [Power BI-Konto der US-Regierung](../service-govus-signup.md) oder ein [Power BI-Konto für Cloud Deutschland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) anmelden.
+Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie sich je nach Art der Sovereign Cloud für ein [Power BI-Konto einer US-Behörde](../service-govus-signup.md), ein [Power BI-Konto für Cloud Deutschland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) oder ein [Power BI-Konto für Cloud China](http://www.21vbluecloud.com/powerbi/) anmelden.
 
 > [!NOTE]
 > Möchten Sie stattdessen ein Dashboard für Ihre Organisation einbetten? Siehe [Integrieren eines Dashboards in eine App für Ihre Organisation](integrate-dashboard.md).
 >
 
-Zum Integrieren eines Dashboards in eine Web-App verwenden Sie die **Power BI**-API und ein **Zugriffstoken** für die Azure Active Directory (Azure AD)-Autorisierung, um ein Dashboard abzurufen. Anschließend laden Sie das Dashboard mit einem Einbettungstoken. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie in den Artikeln zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/), zum [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) und zur [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
+Zum Integrieren eines Dashboards in eine Web-App verwenden Sie die **Power BI**-API und ein **Zugriffstoken** für die Azure Active Directory (Azure AD)-Autorisierung, um ein Dashboard abzurufen. Anschließend laden Sie das Dashboard mit einem Einbettungstoken. Die **Power BI**-API bietet programmgesteuerten Zugriff auf bestimmte **Power BI**-Ressourcen. Weitere Informationen finden Sie in den Artikeln zur [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/), zum [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) und zur [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Beispiel herunterladen
 Diese Artikel basiert auf dem im [Beispiel zum Einbetten für Ihren Kunden](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) auf GitHub verwendeten Code. Laden Sie das Beispiel herunter, um die exemplarische Vorgehensweise nachvollziehen zu können.
 
 * Government Community Cloud (GCC):
     1. Überschreiben Sie die Cloud.config-Datei mit dem GCCCloud.config-Inhalt.
-    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Web.config-Datei.
+    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Datei „Web.config“.
     3. Fügen Sie wie folgt die GCC-Parameter der web.config-Datei hinzu.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
 * Military Contractors (DoDCON):
     1. Überschreiben Sie die Cloud.config-Datei mit dem TBCloud.config-Inhalt.
-    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Web.config-Datei.
+    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Datei „Web.config“.
     3. Fügen Sie wie folgt die DoDCON-Parameter der web.config-Datei hinzu.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
 ```
 
 * Military (DoD):
     1. Überschreiben Sie die Cloud.config-Datei mit dem PFCloud.config-Inhalt.
-    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Web.config-Datei.
+    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Datei „Web.config“.
     3. Fügen Sie wie folgt die DoDCON-Parameter der web.config-Datei hinzu.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
-
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
-
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />
 ```
 
 * Parameter der Power BI für Cloud Deutschland
     1. Überschreiben Sie die Cloud.config-Datei mit dem Inhalt von Power BI für Cloud Deutschland.
-    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Web.config-Datei.
+    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Datei „Web.config“.
     3. Fügen Sie wie folgt die Parameter von Power BI für Cloud Deutschland der web.config-Datei hinzu.
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
-
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
-
 <add key="apiUrl" value="https://api.powerbi.de/" />
-
 <add key="embedUrlBase" value="https://app.powerbi.de" />
 ```
 
+* Parameter von Power BI für Cloud China
+    1. Überschreiben Sie die Datei „Cloud.config“ mit dem Inhalt von [Power BI für Cloud Deutschland](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+    2. Aktualisieren Sie die Client-ID (native App-Client-ID), die Gruppen-ID, den Benutzer (Ihren Masterbenutzer) und das Kennwort in der Datei „Web.config“.
+    3. Fügen Sie wie folgt die Parameter von Power BI für Cloud China der Datei „Web.config“ hinzu.
+
+```xml
+<add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
+<add key="resourceUrl" value="https://analysis.chinacloudapi.cn/powerbi/api" />
+<add key="apiUrl" value="https://api.powerbi.cn/" />
+<add key="embedUrlBase" value="https://app.powerbi.cn" />
+```
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Schritt 1 – Registrieren einer App in Azure AD
-Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausführen zu können. Weitere Informationen finden Sie unter [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md). Da verschiedene Zugehörigkeiten für Sovereign Clouds vorhanden sind, gibt es unterschiedliche URLs, um Ihre Anwendung zu registrieren.
+Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausführen zu können. Weitere Informationen finden Sie unter [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md). Aufgrund verschiedener Zugehörigkeiten für Sovereign Clouds gibt es unterschiedliche URLs, um Ihre Anwendung zu registrieren.
 
 * Government Community Cloud (GCC) – https://app.powerbigov.us/apps 
 
@@ -113,11 +117,13 @@ Sie müssen Ihre Anwendung bei Azure AD registrieren, um REST-API-Aufrufe ausfü
 
 * Power BI für Cloud Deutschland – https://app.powerbi.de/apps
 
+* Power BI für Cloud China – https://app.powerbi.cn/apps
+
 Wenn Sie das [Beispiel zum Einbetten für Ihre Kunden](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) heruntergeladen haben, verwenden Sie die **Client-ID**, die Sie nach der Registrierung erhalten haben, damit das Beispiel in Azure AD authentifiziert werden kann. Ändern Sie zum Konfigurieren des Beispiels die **clientId** in der Datei *web.config*.
 
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Schritt 2: Abrufen eines Zugriffstokens aus Azure AD
-In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufen, ehe Sie die Power BI-REST-API aufrufen können. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md). Da verschiedene Zugehörigkeiten für Sovereign Clouds vorhanden sind, gibt es unterschiedliche URLs, um ein Zugriffstoken für Ihre Anwendung zu erhalten.
+In der Anwendung müssen Sie ein **Zugriffstoken** aus Azure AD abrufen, bevor Sie die Power BI-REST-API aufrufen können. Weitere Informationen finden Sie unter [Authentifizieren von Benutzern und Abrufen eines Azure AD-Zugriffstokens für die Power BI-App](get-azuread-access-token.md). Da verschiedene Zugehörigkeiten für Sovereign Clouds vorhanden sind, gibt es unterschiedliche URLs, um ein Zugriffstoken für Ihre Anwendung zu erhalten.
 
 * Government Community Cloud (GCC) – https://login.microsoftonline.com
 
@@ -127,13 +133,15 @@ In der Anwendung müssen Sie zunächst ein **Zugriffstoken** aus Azure AD abrufe
 
 * Power BI für Cloud Deutschland – https://login.microsoftonline.de
 
+* Power BI für Cloud China – https://login.microsoftonline.cn
+
 Beispiele hierfür finden Sie in den Aufgaben für die einzelnen Inhaltselemente in **Controllers\HomeController.cs**.
 
 ## <a name="step-3---get-a-content-item"></a>Schritt 3: Abrufen eines Inhaltselements
-Zum Einbetten von Power BI-Inhalten müssen Sie einige Schritte ausführen, um sicherzustellen, dass der Vorgang ordnungsgemäß ausgeführt wird. Alle diese Schritte können zwar direkt mit der REST-API ausgeführt werden. Die Beispielanwendung und die hier angeführten Beispiele stützen sich jedoch auf das .NET SDK.
+Zum Einbetten von Power BI-Inhalten müssen Sie einige Schritte ausführen, um sicherzustellen, dass der Vorgang ordnungsgemäß ausgeführt wird. Alle diese Schritte können zwar direkt mit der REST-API ausgeführt werden. Die Beispielanwendung und die hier angeführten Beispiele verwenden jedoch das .NET SDK.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Erstellen des Power BI-Clients mit dem Zugriffstoken
-Mit dem Zugriffstoken erstellen Sie das Power BI-Clientobjekt, über den Sie mit den Power BI-APIs interagieren können. Dies erfolgt durch Einschließen des AccessToken mit einem *Microsoft.Rest.TokenCredentials*-Objekt.
+Mit dem Zugriffstoken erstellen Sie das Power BI-Clientobjekt, über das Sie mit den Power BI-APIs interagieren können. Dies erfolgt durch Einschließen des AccessToken mit einem *Microsoft.Rest.TokenCredentials*-Objekt.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -142,7 +150,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It will be used to call Power BI APIs.
+// Create a Power BI Client object. This is used to call the Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -160,7 +168,7 @@ Ein Beispiel hierfür finden Sie in **Controllers\HomeController.cs** im [Beispi
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -175,7 +183,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
 
 // Get the first report in the group.
@@ -194,7 +202,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You will need to provide the GroupID where the dashboard resides.
+// You need to provide the GroupID where the dashboard resides.
 ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
 
 // Get the first report in the group.
@@ -205,7 +213,7 @@ Report report = reports.Value.FirstOrDefault();
 Es muss ein Einbettungstoken generiert werden, das aus der JavaScript-API verwendet werden kann. Das Einbettungstoken ist spezifisch für das eingebettete Element. Das heißt, dass Sie bei jedem Einbetten eines Power BI-Inhaltselements dafür ein neues Einbettungstoken erstellen müssen. Weitere Informationen hierzu, einschließlich dem erforderlichen **accessLevel**, finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
-> Da Einbettungstokens nur für das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
+> Da Einbettungstoken nur für Entwicklertests vorgesehen sind, ist die Anzahl von Einbettungstoken, die ein Power BI-Masterkonto generieren kann, begrenzt. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
 
 Ein Beispiel hierfür finden Sie in **Controllers\HomeController.cs** im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
@@ -400,7 +408,7 @@ Ein Anwendungsbeispiel hierfür ist im [Beispiel zum Einbetten für Ihre Organis
 
 * Eine Beispielanwendung können Sie auf GitHub einsehen. Die obigen Beispiele basieren auf diesem Beispiel. Weitere Informationen finden Sie im [Beispiel zum Einbetten für Ihre Organisation](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Weitere Informationen zur JavaScript-API finden Sie unter [Power BI-JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript).
-* Weitere Informationen zur Power BI für Cloud Deutschland finden Sie unter [Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland](https://docs.microsoft.com/power-bi/service-govde-faq).
+* Weitere Informationen zur Power BI für Cloud Deutschland finden Sie unter [Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland](https://docs.microsoft.com/power-bi/service-govde-faq).
 * [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI](migrate-from-powerbi-embedded.md)
 
 Einschränkungen und Überlegungen

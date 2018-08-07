@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0df9fc81c5e65f74fb7eba8b6699cb579e652b62
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250341"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280729"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Power BI Pro in Ihrer Organisation
 
@@ -29,7 +29,7 @@ Für diese Features ist eine Power BI Pro-Lizenz erforderlich.
 
 * **Anzeigen freigegebener Inhalte**: Pro-User können für sie freigegebene Dashboards und Berichte anzeigen, damit interagieren und (mit einer Erlaubnis) wiederum selbst freigeben. Allerdings kann ein Pro-Benutzer diese Dashboards oder Berichte nicht bearbeiten. Weitere Informationen finden Sie unter [Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere](service-share-dashboards.md).
 
-* **Integrieren von Inhalt in Microsoft Teams**: Sie können auf einem Microsoft Teams-Kanal (MS) eine Power BI-Registerkarte hinzufügen. MS Teams erkennt automatisch alle Berichte im Arbeitsbereich. Weitere Informationen finden Sie unter [Power BI teams up with Microsoft Teams (Power BI und Microsoft Teams)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/). 
+* **Integrieren von Inhalten in Microsoft Teams**: Sie können einem Microsoft Teams-Kanal (MS) eine Power BI-Registerkarte hinzufügen. MS Teams erkennt automatisch alle Berichte im Arbeitsbereich. Weitere Informationen finden Sie unter [Power BI teams up with Microsoft Teams (Power BI und Microsoft Teams)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/). 
 
 ## <a name="power-bi-pro-60-day-trial-for-individuals"></a>Power BI Pro als 60-Tage-Testversion für Einzelpersonen
 

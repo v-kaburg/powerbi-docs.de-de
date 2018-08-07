@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: af47af39c11315fe06eb97edd837edabf760a0b1
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945133"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280706"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -89,7 +89,7 @@ Das Layout von Berichtselementen hat eine Auswirkung auf das Verständnis und le
 Wir gehen nun näher auf die Ausrichtung ein.
 
 #### <a name="alignment"></a>Ausrichtung
-Bei der Ausrichtung geht es nicht darum, dass die einzelnen Komponenten die gleiche Größe haben müssen oder dass in jeder Zeile des Berichts die gleiche Anzahl von Komponenten vorhanden ist. Ausrichtung bedeutet lediglich, dass die Seite eine Struktur hat, die die leichte Navigation und Lesbarkeit fördert.
+Beim Ausrichten geht es nicht darum, dass die einzelnen Komponenten die gleiche Größe haben müssen oder dass in jeder Zeile des Berichts die gleiche Anzahl von Komponenten vorhanden ist. Ausrichtung bedeutet lediglich, dass die Seite eine Struktur hat, die die leichte Navigation und Lesbarkeit fördert.
 
 Unten im aktualisierten Bericht ist zu erkennen, dass die Berichtskomponenten links und rechts ausgerichtet sind und jede Berichtszeile sowohl horizontal als auch vertikal ausgerichtet ist. Unsere Datenschnitte sind links von den visuellen Elementen angeordnet, auf die sie sich auswirken.
 

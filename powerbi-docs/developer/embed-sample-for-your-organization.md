@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105267"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359729"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
 In diesem Tutorial wird veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das **Power BI .NET SDK** mit der **Power BI-JavaScript-API** verwenden, wenn Sie **Power BI** für Ihre Organisation in eine Anwendung einbetten. Mit **Power BI** können Sie mit **user owns data** (Benutzer ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Mit **user owns data** (Benutzer ist Besitzer der Daten) kann Ihre Anwendung den Power BI-Dienst erweitern.
@@ -413,11 +413,28 @@ function updateEmbedReport() {
 Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-Arbeitsbereich durch dedizierte Kapazität absichern.
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
-Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem App-Arbeitsbereich verwenden. Wenn ein Arbeitsbereich keiner dedizierten Kapazität zugewiesen wird, wird sie als gemeinsam genutzte Kapazität betrachtet. Sie können eine dedizierte Kapazität mit [Power BI Premium](../service-admin-premium-purchase.md) erstellen.
+Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem App-Arbeitsbereich verwenden. Sie können eine dedizierte Kapazität mit [Power BI Premium](../service-premium.md) erstellen.
+
+Die folgende Tabelle listet die verfügbaren Power BI Premium-SKUs in [Office 365](../service-admin-premium-purchase.md) auf.
+
+| Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End & Front-End)* | Back-End-V-Kerne | Front-End-V-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 V-Kern |0,5 V-Kerne, 10 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |150–300 |
+| EM2 |2 V-Kerne |1 V-Kern, 10 GB RAM |1 V-Kern |7,5 pro Sekunde |301–600 |
+| EM3 |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne |15 pro Sekunde |601–1.200 |
+| P1 |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde |1.201–2.400 |
+| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde |2.401–4.800 |
+| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde |4.801–9600 |
+| P4 |64 V-Kerne |32 V-Kerne, 200 GB RAM |32 V-Kerne |240 pro Sekunde |9.601–19.200
+| P5 |128 V-Kerne |64 V-Kerne, 400 GB RAM |64 V-Kerne |480 pro Sekunde |19.201–38.400
+
+*Mit **_EM-SKUs_** **können Sie** auf Inhalte mit einer KOSTENLOSEN Power BI-Lizenz zugreifen, wenn Sie versuchen, sie mit **_Microsoft Office-Apps_** einzubetten. Allerdings **können Sie nicht** mit einer KOSTENLOSEN Power BI-Lizenz auf Inhalte zugreifen, wenn Sie **_Powerbi.com_** oder **_Power BI Mobile_** verwenden.*
+
+*Mit  **_P-SKUs_** **können Sie** auf Inhalte mit einer KOSTENLOSEN Power BI-Lizenz zugreifen, wenn Sie versuchen, sie mit **_Microsoft Office-Apps_** mit **_Powerbi.com_** oder **_Power BI Mobile_** einzubetten.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Zuweisen eines App-Arbeitsbereichs zu einer dedizierten Kapazität
 
-Sobald eine dedizierte Kapazität erstellt wurde, können Sie ihr Ihren App-Arbeitsbereich zuweisen. Führen Sie die folgenden Schritte durch, um den Vorgang abzuschließen.
+Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren App-Arbeitsbereich zuweisen. Führen Sie die folgenden Schritte durch, um den Vorgang abzuschließen.
 
 1. Erweitern Sie im **Power BI-Dienst** Arbeitsbereiche, und klicken Sie auf die Auslassungspunkte neben dem Arbeitsbereich, den Sie zur Einbettung von Inhalt verwenden. Klicken Sie dann auf **Arbeitsbereich bearbeiten**.
 
@@ -431,13 +448,17 @@ Sobald eine dedizierte Kapazität erstellt wurde, können Sie ihr Ihren App-Arbe
 
     ![An Kapazität gebundener App-Arbeitsbereich](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Administratoreinstellungen
+
+Globale Administratoren oder Power BI-Dienstadministratoren können die Möglichkeit der Verwendung der REST-APIs für einen Mandanten aktivieren oder deaktivieren. Power BI-Administratoren können diese Einstellung für die gesamte Organisation oder für einzelne Sicherheitsgruppen festlegen. In der Standardeinstellung ist sie für die gesamte Organisation aktiviert. Sie können diesen Vorgang über das [Power BI-Verwaltungsportal](../service-admin-portal.md) ausführen.
+
 ## <a name="next-steps"></a>Nächste Schritte
-In diesem Tutorial haben Sie gelernt, wie Sie Power BI-Inhalte mithilfe Ihres **Power BI-Organisationskontos** in eine Anwendung einbetten. Sie können jetzt versuchen, Power BI-Inhalte mithilfe von Apps in eine Anwendung einzubetten.  Sie können auch versuchen, Power BI-Inhalte für Drittanbieterkunden einzubetten.
+In diesem Tutorial haben Sie gelernt, wie Sie Power BI-Inhalte mithilfe Ihres **Power BI-Organisationskontos** in eine Anwendung einbetten. Sie können jetzt versuchen, Power BI-Inhalte mithilfe von Apps in eine Anwendung einzubetten.  Sie können auch versuchen, Power BI-Inhalte für Ihre Kunden einzubetten.
 
 > [!div class="nextstepaction"]
 > [Embed from apps (Einbetten aus Apps)](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Einbetten für Drittanbieterkunden](embed-sample-for-customers.md)
+>[Inhalte für Ihre Kunden einbetten](embed-sample-for-customers.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
