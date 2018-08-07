@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157123"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388592"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten
 Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory (Azure AD) registrieren können.
@@ -27,7 +27,7 @@ Sie registrieren Ihre Anwendung bei Azure AD, um der Anwendung den Zugriff auf d
 Die Registrierung Ihrer Anwendung kann auf zweierlei Weise erfolgen. Erstens mithilfe des [Power BI-App-Registrierungstools](https://dev.powerbi.com/apps/), zweitens direkt im Azure-Portal. Das Power BI-App-Registrierungstool ist die einfachste Option, da nur wenige Felder ausgefüllt werden müssen. Wenn Sie Änderungen an der App vornehmen möchten, verwenden Sie das Azure-Portal.
 
 ## <a name="register-with-the-power-bi-app-registration-tool"></a>Registrieren mithilfe des Power BI-App-Registrierungs-Tools
-Sie müssen Ihre Anwendung in **Azure Active Directory** registrieren, um eine Identität für Ihre Anwendung einzurichten und Berechtigungen für Power BI-REST-Ressourcen festzulegen. Wenn Sie eine Anwendung registrieren, etwa eine Konsolenanwendung oder eine Website, erhalten Sie einen Bezeichner, mit dem sich die Anwendung gegenüber den Benutzern identifiziert, bei denen sie Berechtigungen anfordert.
+Sie müssen Ihre Anwendung in **Azure Active Directory** registrieren, um eine Identität für Ihre Anwendung einzurichten und Berechtigungen für Power BI-REST-Ressourcen festzulegen. Wenn Sie eine Anwendung registrieren, etwa eine Konsolenanwendung oder eine Website, erhalten Sie einen Bezeichner, mit dem sich die Anwendung gegenüber den Benutzern identifiziert, bei denen diese Berechtigungen anfordert.
 
 So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
 
@@ -36,7 +36,7 @@ So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
 3. Geben Sie einen **App-Namen** an.
 4. Die Auswahl des App-Typs hängt vom Typ der verwendeten Anwendung ab.
    
-   * Verwenden Sie **Native App** für Apps, die auf Clientgeräten ausgeführt werden. Sie müssen **Native App** auswählen, wenn Sie Inhalte für Ihre Kunden einbetten, unabhängig von der tatsächlich verwendeten Anwendung, auch bei Webanwendungen.
+   * Verwenden Sie **Native App** für Apps, die auf Clientgeräten ausgeführt werden. Sie müssen **Native App** auswählen, wenn Sie Inhalte für Ihre Kunden einbetten, unabhängig von der tatsächlich verwendeten Anwendung. Dies gilt sogar für Webanwendungen.
    * Verwenden Sie **Serverseitige Web-App** für Web-Apps oder Web-APIs.
 
 5. Geben Sie einen Wert für **Umleitungs-URL** und **URL der Startseite** ein. Jede gültige URL kann als **Umleitungs-URL** verwendet werden.
@@ -80,8 +80,8 @@ Die andere Möglichkeit zum Registrieren Ihrer Anwendung besteht direkt im Azure
     ![](media/register-app/azuread-new-app-registration.png)
 5. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung .
    
-   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, mit der sich die Benutzer anmelden können, z.B. `http://localhost:13526`.
-   * Geben Sie für native Anwendungen einen **Umleitungs-URI** an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. „`http://myapplication/Redirect`“.
+   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, mit der sich die Benutzer anmelden können, z. B. `http://localhost:13526`.
+   * Geben Sie für native Anwendungen einen **Umleitungs-URI** an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Vergewissern Sie sich, dass Sie einen für Ihre Anwendung spezifischen Wert eingeben, z.B. „`http://myapplication/Redirect`“.
 
 Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory finden Sie unter [Integrieren von Anwendungen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -93,7 +93,7 @@ So rufen Sie eine Client-ID ab:
 1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 2. Wählen Sie Ihren Azure AD-Mandanten aus, indem Sie Ihr Konto in der oberen rechten Ecke der Seite auswählen.
 3. Wählen Sie im Navigationsbereich auf der linken Seite **Weitere Dienste** und dann **App-Registrierungen** aus.
-4. Wählen Sie die Anwendung aus, für die Sie die Client-ID abrufen möchten.
+4. Wählen Sie die Anwendung aus, deren Client-ID Sie abrufen möchten, die Sie benötigen.
 5. Die **Anwendungs-ID** wird als GUID aufgeführt. Dies ist die Client-ID der Anwendung.
    
     ![Client-ID, die als Anwendungs-ID in der App-Registrierung aufgelistet ist](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -128,7 +128,7 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. Wählen Sie unter **Erforderliche Berechtigungen** die Option **Berechtigungen erteilen** aus.
    
-    Die Aktion **Berechtigungen erteilen** wird für das *Hauptkonto* benötigt, damit keine Zustimmung von Azure AD abgefragt wird. Wenn es sich beim Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, gewähren Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, gewähren Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen.
+    Für die Aktion **Berechtigungen erteilen** wird das *Hauptkonto* benötigt, damit keine Zustimmung von Azure AD abgefragt wird. Wenn es sich beim Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, gewähren Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, gewähren Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen.
    
     ![Gewähren von Berechtigungen im Dialogfeld „Erforderliche Berechtigungen“](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
     
      *Berechtigungen erteilen* wird für das Masterkonto benötigt, damit von Azure AD keine Zustimmung abgefragt wird. Dies ist bei einer nicht interaktiven Anmeldung nicht möglich.
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    Die **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* ist nicht allgemeingültig, sondern abhängig vom Mandanten. Dieser Wert entspricht der objectId der Anwendung „Power BI-Dienst“ im AAD-Mandanten.
+
+    Der Benutzer kann diesen Wert ganz einfach im Azure-Portal abrufen:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. Suchen Sie über das Suchfeld nach „Power BI-Dienst“.
+
 5. Erteilen Sie Azure Active Directory (AAD) App-Berechtigungen.
    
    Der Wert für **consentType** kann entweder auf **AllPrincipals** oder **Principal** festgelegt werden.
@@ -182,7 +188,7 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
     
    *Berechtigungen erteilen* wird für das Masterkonto benötigt, damit von Azure AD keine Zustimmung abgefragt wird. Dies ist bei einer nicht interaktiven Anmeldung nicht möglich.
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json
