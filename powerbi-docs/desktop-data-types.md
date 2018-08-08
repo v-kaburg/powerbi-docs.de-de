@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456026"
+ms.locfileid: "39475750"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Datentypen in Power BI Desktop
 Dieser Artikel beschreibt Datentypen, die im Power BI Desktop und von DAX (Data Analysis Expressions) unterstützt werden. 
@@ -45,6 +45,11 @@ Power BI Desktop unterstützt drei Zahlentypen:
 **Feste Dezimalzahl** – Besitzt eine feste Position für das Dezimaltrennzeichen. Rechts vom Dezimaltrennzeichen befinden sich immer vier Stellen, insgesamt sind 19 signifikante Stellen möglich.  Der größte Wert, der auf diese Weise dargestellt werden kann, ist 922.337.203.685.477,5807 (positiv oder negativ).  Der Typ Feste Dezimalzahl ist hilfreich in Fällen, in denen durch Runden Fehler entstehen könnten.  Bei der Arbeit mit vielen Zahlen, die kleine Bruchwerte umfassen, können sich diese akkumulieren und zwangsläufig eine leicht abweichende Zahl ergeben.  Da die Werte nach den vier Stellen rechts vom Dezimaltrennzeichen abgeschnitten werden, kann der Typ Feste Dezimalzahl helfen, diese Arten von Fehlern zu vermeiden.   Wenn Sie mit SQL Server vertraut sind: Dieser Datentyp entspricht dem SQL Server Dezimal (19,4), oder dem Währungsdatentyp in Power Pivot. 
 
 **Ganze Zahl** – Stellt einen 64-Bit (8-Byte)-Ganzzahlwert dar. Da es sich um eine Ganzzahl handelt, sind rechts vom Dezimaltrennzeichen keine Ziffern vorhanden. Es sind 19 Ziffern möglich, und zwar positive oder negative ganze Zahlen zwischen -9.223.372.036.854.775.808 (-2^63) und 9.223.372.036.854.775,807 (2^63-1).  Mit diesem Zahlentyp kann die größtmögliche Zahl der verschiedenen numerischen Datentypen dargestellt werden.  Wie beim Typ Feste Dezimalzahl kann auch der Typ Ganzzahl in Fällen hilfreich sein, in denen eine Rundungssteuerung erforderlich ist. 
+
+> [!NOTE]
+>  Das Power BI Desktop-Datenmodell unterstützt 64-Bit-Ganzzahlwerte; die größte Zahl, die von den Visuals jedoch aufgrund von JavaScript-Einschränkungen sicher wiedergegeben werden kann, lautet 9.007.199.254.740.991 (253–1). Wenn Sie mit Zahlen in Ihrem Datenmodell arbeiten, die höher sind, können Sie die Größe über Berechnungen verringern, bevor Sie die Zahlen einem Visual hinzufügen. 
+> 
+>
 
 ### <a name="datetime-types"></a>Datum/Uhrzeit-Typen
 Power BI Desktop unterstützt fünf Datum/Uhrzeit-Datentypen in der Abfrageansicht und drei in der Berichtsansicht und im Modell.   Sowohl Datum/Uhrzeit/Zeitzone als auch die Dauer werden beim Laden in das Modell konvertiert.

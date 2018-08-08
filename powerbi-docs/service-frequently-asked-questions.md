@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145385"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582667"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
@@ -47,8 +47,8 @@ Lediglich einen Webbrowser und eine beruflich genutzte E-Mail-Adresse. Sie könn
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Warum muss ich mich mit meiner beruflich genutzten E-Mail-Adresse anmelden?
 Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Hier finden Sie weitere Informationen zum [Power BI-Self-Service-Registrierungsprozess](service-self-service-signup-for-power-bi.md).
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Sind für Bildungs- und Verwaltungseinrichtungen sowie gemeinnützige Organisationen Sonderpreise erhältlich?
-Ja, Sonderpreise für gemeinnützige Organisationen sind möglich, wenn Sie direkt bei Microsoft einkaufen. Weitere Informationen finden Sie auf der Seite [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). Hier können Sie sich auch registrieren. Preise für Bildungs- und Verwaltungseinrichtungen werden über die Lizenzprogramme MOSP/Direct, EA und Open angeboten. Behördenpreise sind auch im Zusammenschluss erhältlich. 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Sind für Bildungs- und Verwaltungseinrichtungen sowie gemeinnützige Organisationen Sonderpreise für Power BI erhältlich?
+Ja, Sonderpreise für gemeinnützige Organisationen sind möglich, wenn Sie direkt bei Microsoft einkaufen. Weitere Informationen finden Sie auf der [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi)-Seite. Hier können Sie sich auch registrieren. Preise für Bildungs- und Verwaltungseinrichtungen werden über die Lizenzprogramme MOSP/Direct, EA und Open angeboten. Behördenpreise sind auch im Zusammenschluss erhältlich. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Ist Power BI lokal verfügbar?
 Der Power BI-Dienst [https://powerbi.com](https://powerbi.com) ist nicht als privater, interner Clouddienst verfügbar. Sie verfügen jedoch über drei andere Möglichkeiten für das lokale Anzeigen von und Arbeiten mit Daten. 
