@@ -1,4 +1,4 @@
-1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **App-Arbeitsbereich erstellen** aus.
+1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **App-Arbeitsbereich erstellen** aus. 
    
      ![App-Arbeitsbereich erstellen](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

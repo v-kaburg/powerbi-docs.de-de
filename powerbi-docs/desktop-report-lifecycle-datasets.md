@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721108"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623997"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
 Sie können eine Liveverbindung mit einem gemeinsam genutzten Dataset im Power BI-Dienst herstellen und auf Grundlage des gleichen Datasets viele verschiedene Berichte erstellen. Sie können also in Power BI Desktop ein optimal auf Ihre Anforderungen abgestimmtes Datenmodell erstellen und für den Power BI-Dienst veröffentlichen. Dadurch können Sie und andere Benutzer dann zahlreiche verschiedene Berichte (in separaten PBIX-Dateien) erstellen, die auf diesem gemeinsamen Datenmodell basieren. Das Feature heißt **Liveverbindung mit Power BI-Dienst**.
@@ -37,7 +37,7 @@ Alle sind von ihrem Bericht und von ihrem Dataset begeistert – und genau da be
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Herstellen einer Liveverbindung mit einem Dataset des Power BI-Diensts
 Nachdem Anna ihren Bericht (und das zugrunde liegende Dataset) erstellt hat, veröffentlicht sie ihn für den **Power BI-Dienst**, woraufhin er dort im Arbeitsbereich ihres Teams angezeigt wird. Damit steht er ab sofort allen Benutzern in ihrem Arbeitsbereich zur Verfügung.
 
-Weitere Informationen zu Arbeitsbereichen finden Sie unter [App-Arbeitsbereiche](service-create-distribute-apps.md#app-workspaces).
+Weitere Informationen zu Arbeitsbereichen finden Sie unter [App-Arbeitsbereiche](service-create-workspaces.md).
 
 Andere Mitglieder ihres Arbeitsbereichs können nun mithilfe des Features **Liveverbindung mit Power BI-Dienst** eine Liveverbindung mit dem von Anna freigegebenen Datenmodell herstellen eigene Berichte auf der Grundlage von *Annas ursprünglichem Dataset* erstellen.
 
