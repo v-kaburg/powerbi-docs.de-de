@@ -1,6 +1,6 @@
 - name: Verwenden von Power BI
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist Power BI?
           href: power-bi-overview.md
@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Freigeben von Dashboards und Berichten
-                  href: service-share-dashboards.md
                 - name: Erste Schritte mit Power BI – Q&A
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Verbinden mit Diensten
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Freigeben Ihrer Arbeit
               items:
-                - name: Wie kann ich Dashboards und Berichte freigeben?
+                - name: Wie sollten Zusammenarbeit und Freigabe gestaltet sein?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Erstellen und Verteilen von Apps mit Dashboards und Berichten
+                - name: Freigeben von Dashboards und Berichten
+                  href: service-share-dashboards.md
+                - name: Erstellen von App-Arbeitsbereichen
+                  href: service-create-workspaces.md
+                - name: Erstellen neuer Arbeitsbereiche (Vorschau)
+                  href: service-create-the-new-workspaces.md
+                - name: Veröffentlichen von Apps mit Dashboards und Berichten
                   href: service-create-distribute-apps.md
                 - name: Freigeben eines gefilterten Berichts
                   href: service-share-reports.md
@@ -478,7 +482,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -822,7 +826,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Mobile Power BI-Apps
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Welches sind die mobilen Apps?
           href: mobile-apps-for-mobile-devices.md
@@ -916,7 +920,7 @@
   items:
     - name: Eingebettete Analysen
       items:
-        - name: Übersicht
+        - name: Overview
           items:
             - name: Was ist die Einbettung mit Power BI?
               href: developer/embedding.md
@@ -1002,7 +1006,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: Entwickeln von benutzerdefinierten Visuals
       items:
-        - name: Übersicht
+        - name: Overview
           items:
             - name: Hinzufügen von benutzerdefinierten Visuals in Power BI
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1044,7 +1048,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Automatisierung
       items:
-        - name: Übersicht
+        - name: Overview
           items:
             - name: Was kann ich mit der Power BI-API tun?
               href: developer/overview-of-power-bi-rest-api.md
@@ -1092,7 +1096,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI-Berichtsserver
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist der Power BI-Berichtsserver?
           href: report-server/get-started.md
@@ -1194,7 +1198,7 @@
           href: report-server/capacity-planning.md
 - name: Gateways
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was sind Power BI-Gateways?
           href: service-gateway-getting-started.md
@@ -1242,7 +1246,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Verwaltung
   items:
-    - name: Übersicht
+    - name: Overview
       items:
         - name: Was ist die Power BI-Verwaltung?
           href: service-admin-administering-power-bi-in-your-organization.md
