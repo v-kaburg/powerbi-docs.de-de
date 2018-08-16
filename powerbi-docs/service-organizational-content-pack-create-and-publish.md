@@ -3,33 +3,30 @@ title: Erstellen und Veröffentlichen eines organisationsbezogenen Inhaltspakets
 description: In diesem Tutorial erstellen Sie ein Organisationsinhaltspaket, schränken den Zugriff auf eine bestimmte Gruppe ein und veröffentlichen es in der Inhaltspaketbibliothek Ihrer Organisation in Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598599"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624250"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Erstellen und Veröffentlichen eines organisationsbezogenen Power BI-Inhaltspakets (Tutorial)
-> [!NOTE]
-> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Da Organisationsinhaltspakete bald veraltet sind, wird stattdessen die Verwendung von Apps empfohlen. [Weitere Informationen über Apps](service-install-use-apps.md)
-> 
-> 
 
 In diesem Tutorial erstellen Sie ein organisationsbezogenes Inhaltspaket, gewähren einer bestimmten Gruppe Zugriff darauf und veröffentlichen es in der Inhaltspaketbibliothek Ihrer Organisation in Power BI.
 
 Das Erstellen von Inhaltspaketen unterscheidet sich vom Freigeben von Dashboards oder dem gemeinsamen Bearbeiten in einer Gruppe. Lesen Sie den Artikel [Wie kann ich Dashboards und Berichte freigeben?](service-how-to-collaborate-distribute-dashboards-reports.md), um die beste Option für Ihre Situation zu ermitteln.
 
+Zum Erstellen eines organisationsbezogenen Inhaltspakets benötigen Sie und Ihre Kollegen ein [Power BI Pro-Konto](https://powerbi.microsoft.com/pricing). 
+
 > [!NOTE]
-> Zum Erstellen eines organisationsbezogenen Inhaltspakets benötigen Sie und Ihre Kollegen ein [Power BI Pro-Konto](https://powerbi.microsoft.com/pricing).
-> 
+> Mit der Vorschauversion der neuen Arbeitsbereiche können Sie keine organisationsbezogenen Inhaltspakete erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
 > 
 
 Nehmen Sie an, Sie wären der Release-Manager bei Contoso und bereiteten sich auf einen neue Produkteinführung vor.  Sie haben ein Dashboard mit Berichten erstellt, die Sie für andere Mitarbeiter, die ebenfalls an der Verwaltung der Produkteinführung beteiligt sind, freigeben möchten. Jetzt möchten Sie das Dashboard und die Berichte packen und Ihren Kollegen zur Verfügung stellen. 

@@ -3,24 +3,23 @@ title: 'Organisationsbezogene Inhaltspakete: Verwalten und Aktualisieren'
 description: Erfahren Sie, wie Sie organisationsbezogene Inhaltspakete in Power BI verwalten, aktualisieren und löschen.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182792"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624319"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen
 > [!NOTE]
-> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Da Organisationsinhaltspakete bald veraltet sind, wird stattdessen die Verwendung von Apps empfohlen. [Weitere Informationen über Apps](service-install-use-apps.md)
-> 
+> Sie können keine organisationsbezogenen Inhaltspakete in der Vorschauversion der neuen Arbeitsbereiche erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
 > 
 
 Sie können Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets packen und als [organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md) für Ihre Kollegen freigeben. Ihre Kollegen können sie wie vorhanden nutzen oder eigene Kopien erstellen.

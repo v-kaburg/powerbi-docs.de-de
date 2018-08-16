@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359752"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616049"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
-Mit **Power BI Embedded in Azure** können Sie mit **App Owns Data** (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. Dies ist normalerweise in einem Szenario mit einem **ISV-Entwickler** der Fall. **ISV-Entwickler** können Power BI-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer der Anwendung über eine Power BI-Lizenz verfügen oder wissen müssen, dass Power BI im Hintergrund ausgeführt wird. Dieses Tutorial veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das **Power BI** .NET SDK sowie die **Power BI**-JavaScript-API verwenden, wenn Sie **Power BI Embedded in Azure** für Ihre Kunden mit **App Owns Data** nutzen.
+Mit **Power BI Embedded in Azure** können Sie mit **App Owns Data** (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. Die Verwendung von **App Owns Data** ist in der Regel ein Szenario für **ISV-Entwickler**. **ISV-Entwickler** können **Power BI**-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer der Anwendung über eine Power BI-Lizenz verfügen müssen. Dieses Tutorial veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das **Power BI** .NET SDK sowie die **Power BI**-JavaScript-API verwenden, wenn Sie **Power BI Embedded in Azure** für Ihre Kunden mit **App Owns Data** nutzen.
 
 In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 >[!div class="checklist"]
@@ -32,7 +32,7 @@ Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microso
 * Sie müssen einen eigenen [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md) eingerichtet haben.
 * [Visual Studio](https://www.visualstudio.com/) muss installiert sein (Version 2013 oder höher).
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>Einrichten der Entwicklungsumgebung für eingebettete Analysen
+## <a name="set-up-your-embedded-analytics-development-environment"></a>Einrichten der Entwicklungsumgebung für eingebettete Analysen
 
 Bevor Sie mit dem Einbetten von Dashboards, Berichten und Kacheln in Ihre Anwendung beginnen, müssen Sie sicherstellen, dass Ihre Umgebung für Einbettungsvorgänge eingerichtet ist. Im Rahmen der Einrichtung müssen Sie folgende Aktionen ausführen.
 
@@ -98,7 +98,7 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
    
     ![Gewähren von Berechtigungen im Dialogfeld „Erforderliche Berechtigungen“](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>Einrichten Ihrer Power BI-Umgebung
+## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
 ### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 Dabei wird angenommen, dass eine Klasse für **EmbedConfig** und **TileEmbedConfig** erstellt wird. Ein Beispiel hierfür ist in der Datei **Models\EmbedConfig.cs** und der Datei **Models\TileEmbedConfig.cs** verfügbar.
 
 ### <a name="load-an-item-using-javascript"></a>Laden eines Elements mit JavaScript
-Sie können mithilfe von JavaScript einen Bericht in ein div-Element auf Ihrer Webseite laden. 
+Sie können mithilfe von JavaScript einen Bericht in ein div-Element auf Ihrer Webseite laden.
+
+Ein komplettes Beispiel für die Verwendung der JavaScript-API ist im [Playground-Tool](https://microsoft.github.io/PowerBI-JavaScript/demo) verfügbar. Dies ist eine schnelle Möglichkeit, verschiedene Arten von Power BI Embedded-Beispielen auszuprobieren. Weitere Informationen zur JavaScript-API finden Sie auch auf der [Power BI-JavaScript-Wikiseite](https://github.com/Microsoft/powerbi-javascript/wiki).
 
 Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** mit Ansichten für einen Bericht verwendet.
 
@@ -316,20 +318,18 @@ Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** m
 </script>
 ```
 
-Ein komplettes Beispiel für die Verwendung der JavaScript-API ist im [Playground-Tool](https://microsoft.github.io/PowerBI-JavaScript/demo) verfügbar. Dies ist eine schnelle Möglichkeit, verschiedene Arten von Power BI Embedded-Beispielen auszuprobieren. Weitere Informationen zur JavaScript-API finden Sie auch auf der [Power BI-JavaScript-Wikiseite](https://github.com/Microsoft/powerbi-javascript/wiki).
-
 ## <a name="move-to-production"></a>In die Produktionsphase wechseln
 
 Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-Arbeitsbereich durch eine dedizierte Kapazität absichern. Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
-Wenn Sie eine dedizierte Kapazität erstellen, können Sie Ihrem Kunden eine dedizierte Ressource zuweisen. Sie können eine dedizierte Kapazität im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Weitere Informationen zum Erstellen einer Power BI Embedded-Kapazität finden Sie unter [Erstellen einer Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+Wenn Sie eine dedizierte Kapazität erstellen, können Sie Ihrem Kunden eine dedizierte Ressource zuweisen. Sie können eine dedizierte Kapazität im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Weitere Informationen zum Erstellen einer Power BI Embedded-Kapazität finden Sie unter [Erstellen einer Power BI Embedded-Kapazität im Azure-Portal](azure-pbie-create-capacity.md).
 
 Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-Kapazität am besten zu Ihren Anforderungen passt.
 
 | Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 V-Kern |1/2 Kern, 3 GB RAM |1/2 Kern | 5 pro Sekunde |1–300 |
+| A1 |1 V-Kern |1/2 Kern(e), 3 GB RAM |1/2 Kern | 5 pro Sekunde |1–300 |
 | A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | 10 pro Sekunde |301–600 |
 | A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | 15 pro Sekunde |601–1.200 |
 | A4 |8 V-Kerne |4 Kerne, 25 GB RAM |4 Kerne |30 pro Sekunde |1.201–2.400 |
@@ -362,6 +362,6 @@ Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren App-Ar
 In diesem Tutorial haben Sie gelernt, wie Sie Power BI-Inhalte für Ihre Kunden in eine Anwendung einbetten. Sie können auch versuchen, Power BI-Inhalte für Ihre Organisation einzubetten.
 
 > [!div class="nextstepaction"]
->[Einbetten für Ihre Organisation](embed-sample-for-your-organization.md)
+>[Embed for your organization (Einbetten für Ihre Organisation)](embed-sample-for-your-organization.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

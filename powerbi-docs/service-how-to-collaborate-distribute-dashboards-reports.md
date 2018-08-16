@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/09/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280453"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623951"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -26,8 +26,8 @@ In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freig
 * Zusammenarbeit mit Kollegen, um aussagekräftige Berichte und Dashboards in *App-Arbeitsbereichen* zu erstellen
 * Bündeln dieser Dashboards und Berichte in *Apps* und Veröffentlichen der Apps für eine größere Gruppe oder die gesamte Organisation
 * Freigeben von Dashboards oder Berichten für einige Personen, aus dem Dienst oder aus den mobilen Power BI-Apps
-* Veröffentlichen im Web, sodass beliebige Benutzer sie anzeigen und mit ihnen interagieren können
-* Drucken 
+- Drucken von Berichten.
+* Veröffentlichung im Web auf öffentlichen Websites, die frei zugänglich sind und von jedem verwendet werden können.
 
 Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-free-vs-pro.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
 
@@ -35,34 +35,44 @@ Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben ei
 
 *Apps im Power BI-Dienst*
 
-## <a name="collaborate-with-coworkers-to-create-an-app"></a>Zusammenarbeiten mit Kollegen, um eine App zu erstellen
-Angenommen, Sie und Ihre Teamkollegen möchten Ihre Einblicke in Power BI für Ihre Organisation veröffentlichen. Die beste Möglichkeit hierzu ist das Erstellen einer *App*. Eine App ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für Ihre Organisation bereitzustellen. 
+## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Zusammenarbeit mit Kollegen in einem App-Arbeitsbereich
 
-Zum Erstellen einer App benötigen Sie einen *App-Arbeitsbereich*, dem Ihre Teamkollegen als Mitglieder angehören. Sie können sich den App-Arbeitsbereich als einen Ort vorstellen, an dem Sie gemeinsam mit Ihren Kollegen an Power BI-Dashboards und -Berichten arbeiten können. Alle Mitglieder können Berichte in Power BI Desktop erstellen und diese im App-Arbeitsbereich veröffentlichen, und alle Mitglieder benötigen Power BI Pro-Lizenzen.
+Wenn Teams zusammenarbeiten, benötigen sie Zugriff auf die gleichen Dokumente, damit sie schnell miteinander arbeiten können. In App-Arbeitsbereichen in Power BI können Teams effektiv zusammenarbeiten, um für sie relevante Dashboards, Berichte, Datasets und Arbeitsmappen gemeinsam zu besitzen und zu verwalten. Manchmal organisieren Power BI-Benutzer Ihre Arbeitsbereiche basierend auf Organisationsstrukturen, in anderen Fällen erstellen sie sie für bestimmte Projekte. Andere Organisationen verwenden mehrere Arbeitsbereiche zum Speichern verschiedener Versionen von Berichten oder Dashboards, die sie verwenden. 
+
+App-Arbeitsbereiche bieten Rollen, die bestimmen, welche Berechtigungen Ihre Kollegen haben. Sie können diese Rollen verwenden, um zu bestimmen, wer den gesamten Arbeitsbereich verwalten oder Inhalt bereitstellen kann.
 
 ![App-Arbeitsbereiche](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-**Wenn Sie für Kollegen lediglich ein fertig gestelltes Dashboard freigeben möchten, fügen Sie diese Kollegen nicht dem App-Arbeitsbereich hinzu.** Stattdessen [erstellen Sie das Dashboard in einem App-Arbeitsbereich](service-create-distribute-apps.md) und veröffentlichen die App für die Kollegen. 
+Einige Benutzer fügen den Inhalt auf natürliche Weise unter „Mein Arbeitsbereich“ hinzu und geben diesen frei. App-Arbeitsbereiche sind für die Zusammenarbeit besser als „Mein Arbeitsbereich“, da sie den gemeinsamen Besitz von Inhalt ermöglichen. Sie und Ihr gesamtes Team können Änderungen ganz unkompliziert vornehmen oder anderen Zugriff erteilen. „Mein Arbeitsbereich“ ist am besten für einmalige oder persönliche Inhalte von einzelnen Benutzern geeignet.
 
-## <a name="publish-your-app-to-a-broad-audience"></a>Veröffentlichen der App für viele Benutzer
-Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern verteilen. Sie und Ihre Kollegen haben einen *App-Arbeitsbereich* erstellt und dann Dashboards, Berichte und Datasets im App-Arbeitsbereich erstellt und verfeinert. Jetzt wählen Sie die gewünschten Dashboards und Berichte aus und veröffentlichen sie als App – entweder für Mitglieder einer Sicherheitsgruppe oder Verteilerliste oder für die gesamte Organisation. 
+Angenommen Sie verfügen über ein fertiggestelltes Dashboard, das Sie für Ihre Kollegen freigeben müssen. Was ist die beste Möglichkeit, ihnen den Zugriff auf das Dashboard zu gewähren? Die Antwort hängt von unterschiedlichen Faktoren ab. Wenn ein bestimmter Kollege das Dashboard besitzen und auf dem neuesten Stand halten muss oder Zugriff auf alle Inhalte im App-Arbeitsbereich benötigt, kann es am besten sein, ihn dem Arbeitsbereich hinzuzufügen. Wenn Ihr Kollege anstelle des gesamten Inhalts nur das Dashboard anzeigen muss, können Sie aus mehreren Alternativen auswählen. Wenn das Dashboard Teil einer größeren Menge an Inhalt ist, die Sie an viele Kollegen verteilen müssen, ist das Veröffentlichen einer App vermutlich die beste Lösung. Wenn der Kollege jedoch nur das eine Dashboard benötigt, ist oft das Freigeben des Dashboards die beste Vorgehensweise. 
+
+Weitere Informationen zum [Erstellen von App-Arbeitsbereichen](service-create-workspaces.md).
+
+**Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md) erfahren Sie, wie sich Arbeitsbereiche in der Zukunft entwickeln. 
+
+## <a name="distribute-data-and-insights-by-creating-an-app"></a>Verteilen von Daten und Erkenntnissen durch Erstellen einer App
+
+Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern verteilen. Sie und Ihre Kollegen haben einen *App-Arbeitsbereich* erstellt und dann Dashboards, Berichte und Datasets im App-Arbeitsbereich erstellt und verfeinert. Jetzt wählen Sie die gewünschten Dashboards und Berichte aus, und veröffentlichen Sie diese als App für eine Gruppe oder Ihre gesamte Organisation. 
 
 ![Symbol „App veröffentlichen“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md#publish-your-app). 
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md). 
 
 Nachdem die Benutzer eine App installiert haben, können sie diese in ihren Browsern oder mobilen Geräten anzeigen.
 
 Damit die Benutzer Ihre App anzeigen können, müssen sie eine Power BI Pro-Lizenz haben, oder die App muss in einer Power BI-Premium-Kapazität gespeichert sein. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
+Sie können Apps auch für Benutzer außerhalb Ihrer Organisation veröffentlichen. Diese können den App-Inhalt anzeigen und damit interagieren, ihn jedoch nicht freigeben.
+
 ## <a name="share-dashboards-and-reports"></a>Freigeben von Dashboards und Berichten
-Angenommen, Sie haben ein Dashboard und einen Bericht in Ihrem eigenen Arbeitsbereich oder in einem App-Arbeitsbereich fertig gestellt, und Sie möchten einigen anderen Personen Zugriff auf das Dashboard gewähren. Dazu können Sie es *freigeben*. 
+Angenommen, Sie haben ein Dashboard und einen Bericht in Ihrem eigenen „Mein Arbeitsbereich“ oder in einem App-Arbeitsbereich fertig gestellt, und Sie möchten einigen anderen Personen Zugriff auf das Dashboard gewähren. Dazu können Sie es *freigeben*. 
 
 ![Symbol „Freigeben“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-Zum Freigeben von Inhalten müssen diese in einer [Premium-Kapazität](service-premium.md) enthalten sein, oder Sie und die Empfänger der Inhalte benötigen eine Power BI Pro-Lizenz. Wenn Sie ein Dashboard oder einen Bericht freigeben, können sie das Dashboard anzeigen und mit ihm interagieren, es aber nicht bearbeiten. Sie sehen die gleichen Daten wie im Dashboard und in den Berichten, es sei denn, auf das zugrundeliegende Dataset ist die Sicherheit auf Zeilenebene (RLS) angewendet. Die Kollegen, für die Sie Inhalte freigeben, können diese für ihre Kollegen freigeben, wenn Sie dies zulassen. 
+Zum Freigeben von Inhalten müssen diese in einem Arbeitsbereich in einer [Premium-Kapazität](service-premium.md) enthalten sein, oder Sie und die Empfänger der Inhalte benötigen eine Power BI Pro-Lizenz. Wenn Sie ein Dashboard oder einen Bericht freigeben, können Empfänger das Dashboard anzeigen und mit ihm interagieren, es aber nicht bearbeiten. Sie sehen die gleichen Daten wie im Dashboard und in den Berichten, es sei denn, auf das zugrundeliegende Dataset ist die Sicherheit auf Zeilenebene (RLS) angewendet. Die Kollegen, für die Sie Inhalte freigeben, können diese für ihre Kollegen freigeben, wenn Sie dies zulassen. 
 
-Sie können das Dashboard auch für Personen außerhalb Ihrer Organisation freigeben. Diese können das Dashboard anzeigen und auch damit interagieren, es jedoch nicht freigeben. 
+Sie können das Dashboard auch für Personen außerhalb Ihrer Organisation freigeben. Diese können das Dashboard oder den Bericht anzeigen und auch damit interagieren, es jedoch nicht freigeben. 
 
 Erfahren Sie mehr zum [Freigeben von Dashboards und Berichten](service-share-dashboards.md) im Power BI-Dienst. Sie können auch einen Filter zu einem Link hinzufügen und [eine gefilterte Ansicht Ihres Berichts freigeben](service-share-reports.md).
 
@@ -77,15 +87,19 @@ Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kachel
 
 Sie können auch eine [Momentaufnahme einer Kachel](mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
 
-## <a name="publish-to-the-web"></a>Im Web veröffentlichen
-Sie können Power BI-Berichte im Internet veröffentlichen, indem Sie interaktive Visualisierungen in Blogbeiträge, Websites, soziale Medien und andere Onlinekommunikationsmittel auf jedem Gerät einbetten. Jede Person im Internet kann Ihre Berichte aufrufen, und Sie haben keine Kontrolle darüber, wer die von Ihnen veröffentlichten Daten einsieht. Diese Personen benötigen keine Power BI-Lizenz. Die Veröffentlichung im Web ist nur für Berichte verfügbar, die Sie bearbeiten können. Sie können keine Berichte im Web veröffentlichen, wenn diese für Sie freigegeben wurden oder sich in einer App befinden. Weitere Informationen zum [Veröffentlichen im Web](service-publish-to-web.md).
-
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Ausdrucken oder als PDF (oder andere statische Datei) speichern
 Sie können ein gesamtes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Visualisierung im Power BI-Dienst drucken oder als PDF-Datei (oder in einem anderen statischen Dateiformat) speichern. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken. Weitere Informationen zum [Drucken und Speichern als statische Datei](service-print.md).
 
+## <a name="publish-to-the-web"></a>Im Web veröffentlichen
+
+> [!WARNING]
+> Verwenden Sie **Im Web veröffentlichen** nur, um Inhalt öffentlich freizugeben. Die Funktion ist nicht für die interne Freigabe geeignet.
+
+Sie können Power BI-Berichte im Internet veröffentlichen, indem Sie interaktive Visualisierungen in Blogbeiträge, Websites, soziale Medien und andere Onlinekommunikationsmittel auf jedem Gerät einbetten. Jede Person im Internet kann Ihre Berichte aufrufen, und Sie haben keine Kontrolle darüber, wer die von Ihnen veröffentlichten Daten einsieht. Diese Personen benötigen keine Power BI-Lizenz. Die Veröffentlichung im Web ist nur für Berichte verfügbar, die Sie bearbeiten können. Sie können keine Berichte im Web veröffentlichen, wenn diese für Sie freigegeben wurden oder sich in einer App befinden. Weitere Informationen zum [Veröffentlichen im Web](service-publish-to-web.md).
+
 ## <a name="next-steps"></a>Nächste Schritte
-* Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
 * [Freigeben von Dashboards für Kollegen und andere](service-share-dashboards.md)
 * [Erstellen und Veröffentlichen einer App in Power BI](service-create-distribute-apps.md)
+* Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
 

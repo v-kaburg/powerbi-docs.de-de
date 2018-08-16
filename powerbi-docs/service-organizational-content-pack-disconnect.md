@@ -3,21 +3,26 @@ title: Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket �
 description: Hier erhalten Sie Informationen zum Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket durch Löschen des Datasets in Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2389ed542a43b28296faf2eed2b69b4e83d227f5
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247640"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624158"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Entfernen der Verbindung mit einem organisationsbezogenen Power BI-Inhaltspaket
+
+> [!NOTE]
+> Sie können keine organisationsbezogenen Inhaltspakete in der Vorschauversion der neuen Arbeitsbereiche erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
+> 
+
 Ein Kollege hat ein Inhaltspaket erstellt. Sie haben es in AppSource gefunden und Ihrem Power BI-Arbeitsbereich hinzugefügt. Aber jetzt benötigen Sie es nicht mehr.  Wie entfernen Sie es?
 
 Um ein Inhaltspaket zu entfernen, entfernen Sie das Dataset.  

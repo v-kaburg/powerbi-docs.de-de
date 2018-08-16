@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299054"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624389"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen von Dashboards und Berichten](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ Nur der Dashboard- bzw. Berichtbesitzer kann die erneute Freigabe aktivieren
 
 4. Legen Sie im Dialogfeld **Zugriff entfernen** fest, ob Sie auch den Zugriff auf verwandte Inhalte entfernen möchten, z.B. auf Berichte und Datasets. Wenn Sie Elemente mit einem Warnsymbol ![Power BI-Warnsymbol](media/service-share-dashboards/power-bi-warning-icon.png) entfernen, sollten Sie auch verwandte Inhalte entfernen, da sie nicht korrekt angezeigt werden.
 
+    ![Power BI-Warnung im Dialogfeld für die Freigabe](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Freigeben eines Dashboards bzw. eines Berichts für Personen außerhalb Ihrer Organisation
 Bei einer Freigabe für Personen außerhalb Ihrer Organisation erhalten diese eine E-Mail mit einem Link zum freigegebenen Dashboard bzw. Bericht. Sie müssen sich bei Power BI anmelden, um den Inhalt anzuzeigen. Wenn sie keine Power BI Pro-Lizenz haben, können sie sich nach Klicken auf den Link für eine Lizenz registrieren.
 
@@ -145,6 +147,8 @@ In diesem Fall müssen Sie ihnen eine Berechtigung für das zugrunde liegende Da
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Ein Dashboard oder Bericht kann nicht freigegeben werden
 
 Zum Freigeben eines Dashboards oder Berichts benötigen Sie die Berechtigung zum Freigeben des zugrunde liegenden Inhalts, d.h. alle zugehörigen Berichte und Datasets. Wenn eine Meldung angezeigt wird, dass die Freigabe nicht möglich ist, bitten Sie den Autor des Berichts, Ihnen für diese Berichte und Datasets die Berechtigung zum erneuten Freigeben zu gewähren.
+
+![Nachricht „Freigabe nicht möglich“](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Nächste Schritte

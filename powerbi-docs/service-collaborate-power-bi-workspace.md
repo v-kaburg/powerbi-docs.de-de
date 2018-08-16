@@ -3,24 +3,25 @@ title: Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 description: Informieren Sie sich über die Zusammenarbeit an Power BI Desktop-Dateien in Ihrem App-Arbeitsbereich sowie über die Verwendung von Office 365-Diensten, z.B. über das Freigeben von Dateien in OneDrive for Business, Unterhaltungen in Exchange, im Kalender und in Aufgaben.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245452"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623928"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
-Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Dafür sind Arbeitsbereiche gedacht – für die Zusammenarbeit. Nachdem Sie die Zusammenarbeit mit den Kollegen an Dashboards und Berichten beendet haben, können Sie das Ergebnis als App packen und verteilen. Erfahren Sie mehr über das [Erstellen von Apps und App-App-Arbeitsbereichen in Power BI](service-create-distribute-apps.md). 
+Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
-Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+> [!NOTE]
+> Die Vorschauversion der neuen Arbeitsbereiche ändert die Beziehung zwischen Power BI-Arbeitsbereichen und Office 365-Gruppen. Office 365-Gruppen werden nicht jedes Mal automatisch erstellt, wenn Sie einen dieser neuen Arbeitsbereiche erstellen. Erfahren Sie mehr über [das Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md).
 
 App-Arbeitsbereiche sind nur in [Power BI Pro](service-free-vs-pro.md) verfügbar.
 

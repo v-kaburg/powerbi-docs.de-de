@@ -3,29 +3,30 @@ title: Installieren und Verwenden von Apps mit Dashboards und Berichten in Power
 description: In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242733"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624366"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation können Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](service-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
 
 ![Apps in Power BI](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in der App im Browser oder auf dem Mobilgerät versammelt sind.
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben. 
 
-Planen Sie das Erstellen einer App? Weitere Informationen finden Sie unter [Erstellen und Veröffentlichen von Apps in Power BI](service-create-distribute-apps.md).
+Planen Sie das Erstellen einer App? Weitere Informationen finden Sie unter [Create workspaces with your colleagues in Power BI (Gemeinsames Erstellen von Arbeitsbereichen mit Ihren Kollegen in Power BI)](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Erhalten einer neuen App
 Sie können Apps auf unterschiedliche Weise erhalten. Der Ersteller der App kann die App automatisch in Ihrem Power BI-Konto installieren lassen oder Ihnen einen direkten Link zur App senden, oder Sie können die App in AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie sie nur über einen Direktlink und nicht aus AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
@@ -41,7 +42,7 @@ Wenn Sie auf den Link in der E-Mail klicken, wird der Power BI-Dienst ([https://
 
 **Auf Ihrem iOS- oder Android-Mobilgerät** 
 
-Wenn Sie auf Ihrem Mobilgerät auf den Link in der E-Mail klicken, wird die App automatisch installiert, und die Inhaltsliste der App wird geöffnet. 
+Wenn Sie auf Ihrem Mobilgerät auf den Link in der E-Mail klicken, wird die App automatisch installiert, und die Inhaltsliste der App wird in der mobilen App geöffnet. 
 
 ![Inhaltsliste der App auf dem Mobilgerät](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ Sie können auch in Microsoft AppSource Apps suchen und installieren, auf die Si
 3. Wählen Sie **Jetzt anfordern** aus, um sie der Seite „Apps“ hinzuzufügen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagieren mit Dashboards und Berichten in der App
-Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Informieren Sie sich über das [Interagieren mit Berichten in Power BI](service-reading-view-and-editing-view.md). 
-
-Sie können vorgenommene Änderungen nicht speichern. Sie können jedoch jederzeit aus einer Tabelle oder einem sonstigen Visual in einem Bericht die [Daten in Excel exportieren](power-bi-visualization-export-data.md).
+Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Sie können die Daten aus einer Tabelle oder einem anderen Visual eines Berichts [in Excel exportieren](power-bi-visualization-export-data.md). Informieren Sie sich über das [Interagieren mit Berichten in Power BI](service-reading-view-and-editing-view.md). 
 
 ![Exportieren von Daten aus einem Power BI-Visual](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen und Veröffentlichen von Apps in Power BI](service-create-distribute-apps.md)

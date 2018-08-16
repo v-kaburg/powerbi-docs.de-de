@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032069"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415390"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -63,13 +63,16 @@ Power BI Embedded umfasst eine Reihe von APIs, mit der Entwickler eine eingebett
 
 Es folgt eine Liste mit einer Auswahl der Unterschiede.
 
-|Ausgewählt  |Power BI Embedded<br>(A-SKUs) |Power BI Premium-Kapazität<br>(EM-SKUS)  | 
-|---------|---------|---------|
-|Einbetten von Artefakten aus Power BI-App-Arbeitsbereichen     |Azure-Kapazität |Office 365-Kapazität |
-|Power BI-Lizenz erforderlich, um Berichte zu verarbeiten |Nein  |Ja |
-|Power BI-Berichte in einer Embedded-Anwendung nutzen |Ja  |Ja |
-|Power BI-Berichte in SharePoint nutzen |Nein |Ja |
-|Power BI-Berichte in Teams nutzen |Nein |Ja |
+| Ausgewählt | Power BI Embedded | Power BI Premium-Kapazität | Power BI Premium-Kapazität |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A-SKUs) | (EM-SKUs) | (P-SKUs) |
+| Artefakte aus Power BI-App-Arbeitsbereich einbetten | Azure-Kapazität | Office 365-Kapazität | Office 365-Kapazität |
+| Power BI-Berichte in einer Embedded-Anwendung nutzen | Ja | Ja | Ja |
+| Power BI-Berichte in SharePoint nutzen | Nein | Ja | Ja |
+| Power BI-Berichte in Dynamics nutzen | Nein | Ja | Ja |
+| Power BI-Berichte in Teams nutzen | Nein | Ja | Ja |
+| Mit einer kostenlosen Power BI-Lizenz auf Inhalte unter Powerbi.com und Power BI Mobile zugreifen | Nein | Nein | Ja |
+| Mit einer kostenlosen Power BI-Lizenz auf in Microsoft Office-Apps eingebettete Inhalte zugreifen | Nein | Ja | Ja |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI bietet jetzt drei SKUs für die Einbettung: A-SKUs, EM-SKUs und P-SKUs. Welche SKU ist für mein Szenario optimal?
 
@@ -83,9 +86,9 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
 
-- Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (MSA-Konten werden nicht unterstützt).
-- Sie müssen über einen Power BI-Mandanten verfügen, d.h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 
-- Sie müssen über ein Azure-Abonnement in Ihrem Organisationsverzeichnis verfügen.
+* Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (MSA-Konten werden nicht unterstützt).
+* Sie müssen über einen Power BI-Mandanten verfügen, d.h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 
+* Sie müssen über ein Azure-Abonnement in Ihrem Organisationsverzeichnis verfügen.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Wie kann ich die Kapazitätsnutzung überwachen?
 
@@ -213,6 +216,8 @@ Power BI Embedded wird nach einem feststehenden Stundensatz abgerechnet, der vom
 Alle Analytiker, die Berichte einem Power BI-Arbeitsbereich hinzufügen müssen, alle Entwickler, die REST-APIs verwenden müssen, alle Mandantenadministratoren, die den Power BI-Mandanten und die entsprechende Kapazität verwalten müssen, benötigen eine Power BI Pro-Lizenz.
 
 Da Power BI Embedded die Verwendung des Power BI-Portals zum Verwalten und Überprüfen eingebetteter Inhalte erlaubt, ist die Power BI Pro-Lizenz erforderlich, um die App auf powerbi.com zu authentifizieren und um Zugriff auf die Berichte in den richtigen Repositorys zu erhalten.
+
+Allerdings benötigt der Endbenutzer keine Pro-Lizenz, um in Ihrer eigenen Anwendung [eingebettete Berichte erstellen oder bearbeiten](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) zu können, da er kein Power BI-Benutzer sein muss.
 
 ### <a name="can-i-get-started-for-free"></a>Ist ein kostenloser Einstieg möglich?
 

@@ -2,21 +2,22 @@
 title: Einbetten mit Power BI
 description: Power BI bietet APIs zum Einbetten von Dashboards und Berichten in Anwendungen.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.author: maghan
-ms.openlocfilehash: 8f200450e5359124ffcc3447c68c6bd755c57896
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359861"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616026"
 ---
 # <a name="embedding-with-power-bi"></a>Einbetten mit Power BI
+
 Der Power BI-Dienst (SaaS) und der Power BI Embedded-Dienst in Azure (PaaS) verfügen über APIs zum Einbetten Ihrer Dashboards und Berichte. Dies bedeutet, dass Ihnen eine ganze Reihe von Funktionen und Zugriff auf die neuesten Power BI-Features – z.B. Dashboards, Gateways und App-Arbeitsbereiche – zur Verfügung stehen, wenn Sie Inhalte einbetten.
 
 Sie können mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup) schnell eine Beispielanwendung herunterladen und mit der Arbeit beginnen.
@@ -29,6 +30,7 @@ Wählen Sie die am besten für Sie geeignete Lösung aus:
 ![PBIE-Beispiel](media/what-can-you-do/what-can-you-do-02.png)
 
 ## <a name="using-apis"></a>Verwendung von APIs
+
 Beim Einbetten von Power BI-Inhalten gibt es hauptsächlich zwei Szenarien.  Das Einbetten für Benutzer in Ihrer Organisation (die Lizenzen für Power BI haben) und das Einbetten für Benutzer und Kunden, ohne dass diese über Power BI-Lizenzen verfügen müssen. Die Power BI-REST-API ermöglicht beide Szenarien.
 
 Für Kunden und Benutzer ohne Power BI-Lizenzen können Sie Dashboards und Berichte in Ihre benutzerdefinierte Anwendung einbetten und dabei für Ihre Organisation und Ihre Kunden die gleiche API verwenden. Die Kunden sehen so die Daten, die von der Anwendung verwaltet werden. Für Power BI-Benutzer in Ihrer Organisation besteht außerdem zusätzlich die Möglichkeit, *ihre Daten* direkt in Power BI oder im Kontext der eingebetteten Anwendung anzuzeigen. Sie können alle Funktionen der JavaScript- und REST-APIs für das Einbetten nutzen.
@@ -36,9 +38,10 @@ Für Kunden und Benutzer ohne Power BI-Lizenzen können Sie Dashboards und Beric
 Ein Beispiel für die Funktionsweise der Einbettung finden Sie im [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/).
 
 ## <a name="embedding-for-your-organization"></a>Einbetten für Ihre Organisation
-Das **Einbetten für Ihre Organisation** ermöglicht Ihnen das Erweitern des Power BI-Diensts. Dafür ist erforderlich, dass sich die Benutzer Ihrer Anwendung beim Power BI-Dienst anmelden, wenn sie ihre Inhalte anzeigen möchten. Nachdem sich ein Benutzer in Ihrer Organisation angemeldet hat, besitzt er nur Zugriff auf Dashboards und Berichte, deren Eigentümer er ist oder die für ihn im Power BI-Dienst freigegeben wurden.
 
-*Beispiele für das Einbetten in Ihre Organisation umfassen interne Webanwendungen, das SharePoint Online-Webpart und die [Microsoft Teams-Integration (Sie müssen über Administratorrechte verfügen)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
+Das **Einbetten für Ihre Organisation** ermöglicht Ihnen das Erweitern des Power BI-Diensts. Zum Einbetten für Ihre Organisation ist erforderlich, dass Benutzer Ihrer Anwendung sich beim Power BI-Dienst anmelden, wenn sie ihren Inhalt anzeigen möchten. Nachdem sich ein Benutzer in Ihrer Organisation angemeldet hat, besitzt er nur Zugriff auf Dashboards und Berichte, deren Eigentümer er ist oder die für ihn im Power BI-Dienst freigegeben wurden.
+
+*Beispiele für das Einbetten für Ihre Organisation umfassen interne Anwendungen wie [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams-Integration (Administratorrechte erforderlich)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) und [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
 Informationen zum Einbetten für Ihre Organisation finden Sie in den folgenden Artikeln:
 
@@ -50,35 +53,34 @@ Sie können sich mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedset
 
 ## <a name="embedding-for-your-customers"></a>Einbetten für Ihre Kunden
 
-Das **Einbetten für Ihre Kunden** bietet die Möglichkeit, Dashboards und Berichte für Benutzer einzubetten, die nicht über ein Konto für Power BI verfügen. Ihre Kunden brauchen gar nichts über Power BI zu wissen. Es wird mindestens ein Power BI Pro-Konto benötigt, um eine eingebettete Anwendung zu erstellen. Das Power BI Pro-Konto fungiert als Masterkonto für Ihre Anwendung. Stellen Sie es sich als eine Art Proxykonto vor. Mit dem Power BI Pro-Konto können Sie außerdem Einbettungstoken generieren, die Zugriff auf die Dashboards und Berichte im Power BI-Dienst bieten, die von Ihrer Anwendung verwaltet werden bzw. die diese besitzt.
+Das **Einbetten für Ihre Kunden** bietet die Möglichkeit, Dashboards und Berichte für Benutzer einzubetten, die nicht über ein Konto für Power BI verfügen. Das Einbetten für Ihre Kunden ist auch als **Power BI Embedded** bekannt.
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) bietet unabhängigen Softwareherstellern (ISV) und Entwicklern die Möglichkeit, über ein kapazitätsbasiertes, stündlich gemessenes Modell beeindruckende Visuals, Berichte und Dashboards schnell für Kunden in Anwendungen einzubetten.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) ist ein **Microsoft Azure**-Dienst, mit dem unabhängige Softwarehersteller (ISVs) und Entwickler über ein kapazitätsbasiertes stündlich gemessenes Modell Visuals, Berichte und Dashboards schnell einbetten können.
 
 ![Flussdiagramm des Einbettens für Ihre Kunden](media/embedding/powerbi-embed-flow.png)
 
 Power BI Embedded bietet Vorteile für unabhängige Softwarehersteller, Entwickler und Kunden. Beispielsweise können unabhängige Softwarehersteller mit Power BI Desktop kostenlos Visuals erstellen. Außerdem können sie eine schnellere Markteinführung erreichen, indem sie den Entwicklungsaufwand für visuelle Analysen minimieren und sich durch differenzierte Datenerfahrung von der Konkurrenz abheben. Darüber hinaus können unabhängige Softwarehersteller eine Gebühr für den mit Embedded Analytics geschaffenen Mehrwert erheben.
 
-Entwickler können sich auf den Aufbau der Kernkompetenz ihrer Anwendung konzentrieren, anstatt Zeit mit der Entwicklung von Visuals und Analysen zu verbringen. Sie können die Anforderungen von Kundenberichten und Dashboards schnell erfüllen und problemlos mit vollständig dokumentierten APIs und SDKs einbetten. Und schließlich ermöglichen unabhängige Softwarehersteller ihren Kunden durch das benutzerfreundliche Durchsuchen von Daten in ihren Anwendungen schnelle und datengesteuerte Entscheidungen zuverlässig von jedem Gerät aus und kontextbezogen zu treffen.
+Mit Power BI Embedded müssen Ihre Kunden gar nichts über Power BI wissen. Sie benötigen nur ein Power BI Pro-Konto, um eine eingebettete Anwendung zu erstellen. Das Power BI Pro-Konto fungiert als Hauptkonto für Ihre Anwendung (Sie können sich das wie ein Proxykonto vorstellen). Mit dem Power BI Pro-Konto können Sie außerdem Einbettungstoken generieren, die Zugriff auf die Dashboards und Berichte im Power BI-Dienst bieten, die von Ihrer Anwendung verwaltet werden bzw. die diese besitzt.
+
+Entwickler können sich mithilfe von Power BI Embedded auf den Aufbau der Hauptfunktion ihrer Anwendung konzentrieren, anstatt Zeit mit der Entwicklung von Visuals und Analysen zu verbringen. Sie können die Anforderungen von Kundenberichten und Dashboards schnell erfüllen und problemlos mit vollständig dokumentierten APIs und SDKs einbetten. Durch das benutzerfreundliche Durchsuchen von Daten in Apps ermöglichen unabhängige Softwarehersteller ihren Kunden schnelle und datengesteuerte Entscheidungen – von jedem Gerät aus und kontextbezogen.
 
 > [!IMPORTANT]
 > Beim Einbetten besteht zwar eine Abhängigkeit vom Power BI-Dienst, für Ihre Kunden besteht aber keine Abhängigkeit von Power BI. Sie müssen sich nicht für Power BI registrieren, um die eingebetteten Inhalte in der Anwendung anzuzeigen.
 
-Wenn Sie bereit sind, in eine Produktionsumgebung zu wechseln, muss der Arbeitsbereichs Ihrer App einer dedizierten Kapazität zugewiesen werden. Power BI Embedded in Microsoft Azure bietet dedizierte Kapazitäten, die von Ihren Anwendungen genutzt werden können.
+Wenn Sie bereit sind, in eine Produktionsumgebung zu wechseln, muss der Arbeitsbereich Ihrer App einer dedizierten Kapazität zugeordnet werden. Power BI Embedded in Microsoft Azure bietet [dedizierte Kapazitäten](azure-pbie-create-capacity.md), die von Ihren Anwendungen genutzt werden können.
 
 Details zur Einbettung finden Sie unter [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embed-sample-for-customers.md).
 
-Sie können sich mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup/AppOwnsData) vertraut machen, um Ihren Einstieg zu beschleunigen und eine Beispielanwendung herunterzuladen, die sie durch die Integration eines Berichts in Ihre Anwendung führt.
-
-Wenn Sie bereits den Dienst Power BI-Arbeitsbereichssammlungen in Azure verwendet haben, finden Sie unter [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichssammlungen zu Power BI](migrate-from-powerbi-embedded.md) Informationen zum Migrieren Ihrer Inhalte.
-
 ## <a name="next-steps"></a>Nächste Schritte
+
 Nun können Sie mit der Einbettung von Power BI-Inhalten in eine Anwendung oder Power BI-Inhalten für Ihre Kunden loslegen.
 
 > [!div class="nextstepaction"]
-> [Was ist Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
+> [Embed for your organization (Einbetten für Ihre Organisation)](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Embed for your organization (Einbetten für Ihre Organisation)](embed-sample-for-your-organization.md)
+> [Was ist Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
 >[Inhalte für Ihre Kunden einbetten](embed-sample-for-customers.md)

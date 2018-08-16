@@ -3,24 +3,23 @@ title: Einführung in organisationsbezogene Inhaltspakete in Power BI
 description: Erfahren Sie, wie Sie Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets in organisationsbezogene Inhaltspakete packen, die Sie für Ihre Kollegen freigeben können.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852346"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624296"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
 > [!NOTE]
-> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Da Organisationsinhaltspakete bald veraltet sind, wird stattdessen die Verwendung von Apps empfohlen. [Weitere Informationen über Apps](service-install-use-apps.md)
-> 
+> Sie können keine organisationsbezogenen Inhaltspakete in der Vorschauversion der neuen Arbeitsbereiche erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
 > 
 
 Verteilen Sie regelmäßig Berichte per E-Mail an Ihr Team? Probieren Sie diese Alternative aus: Packen Sie Ihre Dashboards, Berichte, Excel-Arbeitsmappen und Datasets, und veröffentlichen Sie sie für Ihr Team als *organisationsbezogenes Inhaltspaket*. Alle von Ihnen erstellten Inhaltspakete kann Ihr Team leicht in AppSource finden. Da Inhaltspakete Teil von Power BI sind, nutzen sie alle Features von Power BI, einschließlich interaktiver Untersuchung von Daten, neuer Visualisierungen, Fragen und Antworten, Integration mit anderen Datenquellen, Aktualisierung von Daten und mehr.

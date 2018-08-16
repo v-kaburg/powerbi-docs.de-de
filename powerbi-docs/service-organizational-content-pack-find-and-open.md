@@ -3,29 +3,29 @@ title: Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inh
 description: Suchen und Öffnen von Organisationsinhaltspaketen in Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280223"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624273"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
-> [!NOTE]
-> Kennen Sie schon die neuen *Apps*? Apps sind die neue Methode, um Inhalte für große Zielgruppen in Power BI verfügbar zu machen. Da Organisationsinhaltspakete bald veraltet sind, wird stattdessen die Verwendung von Apps empfohlen. [Weitere Informationen über Apps](service-install-use-apps.md)
-> 
-> 
 
 Wenn jemand ein organisationsbezogenes Inhaltspaket in Ihrer Organisation, in Verteiler- oder Sicherheitsgruppen oder in [Office 365-Gruppen](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), denen Sie angehören, veröffentlicht, wird es in AppSource angezeigt.  Durchsuchen Sie AppSource, um organisationsbezogene Inhaltspakete zu suchen und zu öffnen.
 
 Das Erstellen von Inhaltspaketen unterscheidet sich vom Freigeben von Dashboards oder dem gemeinsamen Bearbeiten in einer Gruppe. Lesen Sie den Artikel [Wie kann ich Dashboards und Berichte freigeben?](service-how-to-collaborate-distribute-dashboards-reports.md), um die beste Option für Ihre Situation zu ermitteln.
+
+> [!NOTE]
+> Mit der Vorschauversion der neuen Arbeitsbereiche können Sie keine organisationsbezogenen Inhaltspakete erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Suchen eines organisationsbezogenen Inhaltspakets
 [Power BI Pro](https://powerbi.microsoft.com/pricing)-Benutzer können AppSource aufrufen, wo für die gesamte Organisation, für Verteiler- oder Sicherheitsgruppen und für Office 365-Gruppen, deren Mitglied sie sind, freigegebene organisationsbezogene Inhaltspakete angezeigt werden.  
