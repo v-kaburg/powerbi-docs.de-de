@@ -165,7 +165,7 @@ Möchten Sie wissen, wie die Daten in einer Excel-Arbeitsmappe in Power BI-Datas
 * Jede Arbeitsmappe enthält mehrere Tabellen. Da alle diese Excel-Beispiele mindestens ein Power View-Blatt mit Visualisierungen enthalten, erhalten Sie beim Importieren der Excel-Datei in Power BI ein Dataset **und** einen Bericht.
 
    Sie müssen möglicherweise das [Power View-Add-In aktivieren](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957).
-* Wo sind nun die eigentlichen Daten? Sie befinden sich im PowerPivot-Datenmodell. Wählen Sie zum Anzeigen der Daten auf der Registerkarte **PowerPivot****Datenmodell verwalten**aus.
+* Wo sind nun die eigentlichen Daten? Sie befinden sich im PowerPivot-Datenmodell. Wählen Sie zum Anzeigen der Daten auf der Registerkarte **PowerPivot** **Datenmodell verwalten** aus.
 
     Wird die Registerkarte „PowerPivot“ nicht angezeigt? [Aktivieren Sie das Power Pivot-Add-In](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * Die Registerkarte „Info“ enthält Informationen zu obviEnce, dem Unternehmen, das das Beispiel erstellt hat.

@@ -35,7 +35,7 @@ Stellen Sie eine Verbindung mit [Zuora](https://app.powerbi.com/getdata/services
 4. Geben Sie Ihre Zuora-URL an. Diese lautet in der Regel „<https://www.zuora.com>“. Unten finden Sie Einzelheiten zum [Suchen dieser Parameter](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
-5. Wählen Sie als **Authentifizierungsmethode****Standard** aus, und geben Sie Ihren Benutzernamen und Ihr Kennwort ein (Groß- und Kleinschreibung müssen beachtet werden), und wählen Sie dann **Anmelden**aus.
+5. Wählen Sie als **Authentifizierungsmethode** **Standard** aus, und geben Sie Ihren Benutzernamen und Ihr Kennwort ein (Groß- und Kleinschreibung müssen beachtet werden), und wählen Sie dann **Anmelden**aus.
 
     ![](media/service-connect-to-zuora/creds.png)
 6. Nach der Genehmigung wird der Importvorgang automatisch gestartet. Nach Abschluss des Vorgangs werden im Navigationsbereich ein neues Dashboard, ein Bericht und ein Modell angezeigt. Wählen Sie das Dashboard aus, um die importierten Daten anzuzeigen.
