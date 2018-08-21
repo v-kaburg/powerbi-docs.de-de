@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
+title: Verwenden von Berichtdesigns in Power BI Desktop
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Farbpalette verwenden und auf den gesamten Bericht in Power BI Desktop anwenden können.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721177"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657941"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Ein **Berichtdesign** erfordert eine JSON-Datei mit einer bestimmten Struktur, d
 
 Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie mit einer JSON-Datei noch mehr Berichtsdesignelemente definieren und fast alle Elemente, die Sie im Bereich **Formatierung** manuell anpassen können, mithilfe der JSON-Datei anpassen (und standardisieren). Die Version von September 2017 (und höher) soll Ihnen eine umfassende und genaue Kontrolle über das Erscheinungsbild Ihrer Berichte ermöglichen.
 
-### <a name="enable-report-themes-in-preview"></a>Aktivieren des Berichtdesign-Vorschaufeatures
-Das neue Feature **Berichtdesigns** steht ab dem Release vom **März 2017** von **Power BI Desktop** für Testzwecke bereit. Um dieses Vorschaufeature zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie dann das Kontrollkästchen neben **Benutzerdefinierte Berichtdesigns**. Sie müssen **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
+### <a name="enable-report-themes"></a>Aktivieren von Berichtdesigns
+Ab dem **Power BI Desktop**-Release vom August 2018 sind Berichtdesigns allgemein verfügbar und müssen nicht aktiviert werden. 
+
+Bei Verwendung einer früheren Version von **Power BI Desktop** können Sie es als Vorschaufeature aktivieren, indem Sie auf **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** klicken und das Kontrollkästchen neben **Benutzerdefinierte Berichtdesigns** aktivieren. Sie müssen **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Grundsätzlich wird ein Upgrade auf das neueste Release von **Power BI Desktop** empfohlen. Dieses ist über einen Link in [Power BI Desktop abrufen](desktop-get-the-desktop.md) erhältlich. 
 
 ## <a name="how-report-themes-work"></a>Funktionsweise von Berichtdesigns
 Um einem Bericht in Power BI Desktop ein Berichtdesign zuzuweisen, klicken Sie im Menüband **Start** auf die Schaltfläche **Design wechseln**, und wählen Sie im Dropdownmenü **Design importieren** aus.
@@ -54,7 +58,7 @@ Die grundlegende JSON-Datei, die im vorigen Abschnitt ausgewählt wurde (*St Pat
 Die JSON-Datei muss die folgenden Zeilen enthalten:
 
 * **name** – Der Name des Designs. Dieses ist das einzige Pflichtfeld.
-* **dataColors** – Eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visualisierungen. Die Liste kann beliebig viele oder wenige Farben umfassen.
+* **dataColors**: eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visuals. Die Liste kann beliebig viele oder wenige Farben umfassen.
 * **background**, **foreground** und **tableAccent**: Diese Werte stehen für Farben und sollten für unterschiedliche Visualtypen angewendet werden. **foreground** (Vordergrund) gilt für den Text des Textfelds, den KPI-Zieltext, den mehrzeiligen Text auf der Karte, den Text des Kartenwerts, den Legendentext des Messgeräts, den Text des vertikalen Datenschnittelements sowie für den Text der Gesamtzahl und der Werte von **table** und **matrix**. **background** (Hintergrund) gilt für die Füllung der Schaltfläche sowie den Hintergrund der Kombinationsdiagrammbezeichnung. Wie diese Farben verwendet werden, hängt ab vom Format des angewendeten Visuals. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
 
 Um der Visualisierung **Tabelle** oder **Matrix** ein Format zuzuweisen, wählen Sie die Visualisierung im Bereich **Visualisierungen** und dann den Bereich **Format** aus. Erweitern Sie dann die Option **Tabellenstil/Matrixformat**, und wählen Sie im Dropdownmenü **Stil** einen Stil aus.
@@ -100,7 +104,7 @@ Wenn Sie die Datenpunktfarbe mithilfe des Bereichs „Designfarben“ der Farbpa
 Vielen **benutzerdefinierten visuellen Elementen** können keine Berichtdesigns zugewiesen werden.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Berichtdesigndateien zur sofortigen Verwendung
-Möchten Sie gleich mit **Berichtdesigns** arbeiten? Sehr gut! Hier finden Sie einige vorgefertigte JSON-Dateien mit Berichtdesigns, die Sie herunterladen und in einem **Power BI Desktop**-Bericht importieren können. (Die Abbildungen zeigen, wie der in diesem Artikel verwendete Bericht mit dem jeweiligen Design aussieht).
+Möchten Sie gleich mit **Berichtdesigns** arbeiten? Sehr gut! Hier finden Sie einige vorgefertigte JSON-Dateien mit Berichtdesigns, die Sie herunterladen und in einen **Power BI Desktop**-Bericht importieren können. Die Abbildungen zeigen, wie der in diesem Artikel verwendete Bericht mit dem jeweiligen Design aussieht.
 
 * Dieses [Design](https://go.microsoft.com/fwlink/?linkid=843924) haben wir in dem [Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) verwendet, mit dem wir **Berichtdesigns** angekündigt haben: [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 
@@ -141,7 +145,7 @@ Hier sind einige weitere Berichtsdesigns, die Sie ebenfalls als Ausgangspunkt ve
 Die grundlegende JSON-Datei enthält fünf erforderliche Zeilen:
 
 * **name** – Der Name des Designs. Dieses ist das einzige Pflichtfeld.
-* **dataColors** – Eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visualisierungen. Die Liste kann beliebig viele oder wenige Farben umfassen.
+* **dataColors**: eine Liste der Farben (im Hexadezimalcode) für die Daten in Power BI Desktop-Visuals. Die Liste kann beliebig viele oder wenige Farben umfassen.
 * **background**, **foreground** und **tableAccent**: Diese Werte stehen für Farben und sollten für unterschiedliche Visualtypen angewendet werden. **foreground** (Vordergrund) gilt für den Text des Textfelds, den KPI-Zieltext, den mehrzeiligen Text auf der Karte, den Text des Kartenwerts, den Legendentext des Messgeräts, den Text des vertikalen Datenschnittelements sowie für den Text der Gesamtzahl und der Werte von **table** und **matrix**. **background** (Hintergrund) gilt für die Füllung der Schaltfläche sowie den Hintergrund der Kombinationsdiagrammbezeichnung. Wie diese Farben verwendet werden, hängt ab vom Format des angewendeten Visuals. Die Visuals **Tabelle** und **Matrix** werden standardmäßig auf diese Formate angewendet.
 
 Um eine JSON-Datei in einem erweiterten Format zu erstellen, die eine detailliertere und präzisere Steuerung der Formatierung ermöglicht, müssen Sie der JSON-Datei den **visualStyles**-Abschnitt hinzufügen und die Formatierungsangaben in diesem Abschnitt schachteln. Der **visualStyles**-Abschnitt hat das folgende Format:

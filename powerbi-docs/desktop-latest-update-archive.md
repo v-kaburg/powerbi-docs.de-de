@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210374"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658148"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -34,10 +34,66 @@ Sie können das Video **Neueste Updates** auch direkt aus diesem Artikel von Beg
 
 In den folgenden Abschnitten werden die Updates von **Power BI Desktop** der vorherigen Monate beschrieben.
 
+## <a name="july-2018-update-26051693201"></a>Update Juli 2018 (2.60.5169.3201)
+
+Mit den umfassenden Updates, die im Juli veröffentlicht wurden, wurden völlig neue Features eingeführt. Dazu gehören die seit Langem geforderten Daten- und Berichterstellungsfeatures, mit denen Sie Erkenntnisse innerhalb Ihrer Visuals farbenfroh und interessant gestalten.
+
+Im Juli wurden für **Power BI Desktop** die folgenden Updates veröffentlicht:
+
+### <a name="modeling"></a>Modellierung
+
+* Zusammengesetzte Modelle (Vorschau) [[Video]](https://youtu.be/Mtig3rmIUe0?t=15s) [[Artikel]](desktop-composite-models.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* m:n-Beziehung (Vorschau) (in Zusammenhang mit zusammengesetzten Modellen) [[Video]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[Artikel]](desktop-many-to-many-relationships.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Speichermodus (Vorschau) (in Zusammenhang mit zusammengesetzten Modellen) [[Video]](https://youtu.be/Mtig3rmIUe0?t=15s) [[Artikel]](desktop-storage-mode.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>Berichterstellung
+
+* Neuer Visualheader mit mehr Flexibilität und Formatierungsoptionen [[Video]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[Artikel]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Hintergrundformatierung [[Video]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[Artikel]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Designupdate – bessere Steuerung von Visuals und Seiten [[Video]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* QuickInfos für Tabellen und Matrizen [[Video]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Deaktivieren von QuickInfos für Visuals [[Video]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Barrierefreiheit für Slicer [[Video]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Verbesserungen am Formatierungsbereich [[Video]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Unterstützung für abgestufte Linien für Linien- und Kombinationsdiagramme [[Video]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Deaktivieren von Kombinationsdiagramm-Datenbeschriftungen für einzelne Serien [[Video]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Verbesserungen an der Sortierung [[Video]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>Analyse
+
+* Erkenntnisse zu Verteilungsfaktoren [[Video]](https://youtu.be/Mtig3rmIUe0?t=37m) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>Benutzerdefinierte Visuals
+
+* Power BI-zertifizierte Kategorie [[Video]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Deaktivieren von spezifischen Organisationsvisuals [[Video]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Vier neue benutzerdefinierte Visuals [[Video]](https://youtu.be/Mtig3rmIUe0?t=44m) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>Datenkonnektivität
+
+* IBM DB2 DirectQuery-Connector (Vorschau) [[Video]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Verbesserungen am Web By Example-Connector [[Video]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[Artikel]](desktop-connect-to-web-by-example.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA – Standardwerte für Variablen im Bereich für die Variableneingabe [[Video]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[Artikel]](desktop-sap-hana.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> Sie können sich auch [alle für Power BI Desktop verfügbaren Datenquellen ansehen](desktop-data-sources.md). Die Liste wird ständig erweitert, daher sollten Sie sie in regelmäßigen Abständen konsultieren.
+
+Wünschen Sie weitere Informationen zu diesen Updates? Sehen Sie sich [diesen Blogbeitrag](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/) (in englischer Sprache) an, in dem Sie ausführliche Informationen zu den neuen Features finden (dies ist der gleiche Blogbeitrag, auf den in der obigen Liste verwiesen wird).
+
+
+Das folgende Video beschreibt und zeigt die einzelnen Updates. Sie finden das Video auch im Blogbeitrag.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Weitere Informationen finden Sie auch unter [Neuheiten bei Power BI](service-whats-new.md) und [Neuigkeiten bei den mobilen Apps für Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Update Juni 2018 (2.59.5135.101)
 
-Die Updates dieses Monats hatten es wirklich in sich – die neuen Features und Verbesserungen optimieren Ihre Berichte und ermöglichen Ihnen noch bessere Erkenntnisse.
+Die Updates im Juni hatten es wirklich in sich – die neuen Features und Verbesserungen optimieren Ihre Berichte und ermöglichen Ihnen noch bessere Erkenntnisse.
 
 Im Juni wurden die folgenden Updates für **Power BI Desktop** veröffentlicht:
 
@@ -96,7 +152,7 @@ Im Mai wurden die folgenden Updates für **Power BI Desktop** veröffentlicht:
 * Datenbeschriftungsoptionen für Trichterdiagramm [[Video]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Strichstärke auf Null festlegen [[Video]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 * Drillthrough messen [[Video]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[Artikel]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
@@ -151,7 +207,7 @@ Die folgenden Updates wurden im April für **Power BI Desktop** veröffentlicht:
 * Verbesserte Standardsortierung für Visualisierungen [[Video]](https://youtu.be/W_Nb73Od_AI?t=19m21s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
 * Numerischer Slicer – jetzt allgemein verfügbar [[Video]](https://youtu.be/W_Nb73Od_AI?t=21m13s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 * Aktualisieren Ihres linguistischen Schemas [[Video]](https://youtu.be/W_Nb73Od_AI?t=22m) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * Neue DAX-Funktion: COMBINEVALUES() [[Video]](https://youtu.be/W_Nb73Od_AI?t=23m37s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
@@ -260,7 +316,7 @@ Im Februar 2018 wurden folgende Updates für **Power BI Desktop** veröffentlich
 * Benutzerdefinierte Visuals für Organisationen (Vorschau) [[Video]](https://youtu.be/KeVB5RwMzJo?t=19m23s) [[Artikel]](power-bi-custom-visuals-organization.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 * Festlegen einer benutzerdefinierten Datentabelle [[Video]](https://youtu.be/KeVB5RwMzJo?t=16m4s) [[Artikel]](desktop-date-tables.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 * Quickmeasures sind nun allgemein verfügbar [[Video]](https://youtu.be/KeVB5RwMzJo?t=17m52s) [[Artikel]](desktop-quick-measures.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
@@ -319,7 +375,7 @@ Im Januar wurden folgende Updates für **Power BI Desktop** veröffentlicht:
 -   Top-N-Auswahl in Q&A [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
 -   Viele neue benutzerdefinierte visuelle Elemente [[Video]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 -   Korrelationskoeffizient für Quickmeasure [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
@@ -370,7 +426,7 @@ Im Dezember wurden folgende Updates für **Power BI Desktop** veröffentlicht:
 -   Kürzlich veröffentlichte benutzerdefinierte Visuals [[Video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 -   Drillfilter für andere Visuals [[Video]](https://youtu.be/ZPU8B-1BxjI?t=28m53s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
 
@@ -425,7 +481,7 @@ Im November wurden folgende Updates für **Power BI Desktop** veröffentlicht:
 -   Kürzlich veröffentlichte benutzerdefinierte Visuals [[Video]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analyse
 
 -   Formatierung auf Zellenebene mehrdimensionaler AS-Modelle für mehrzeilige Zuordnung [[Video]](https://youtu.be/sI3yRjdnJ7w?t=27m25s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 

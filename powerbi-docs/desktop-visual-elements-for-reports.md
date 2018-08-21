@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217626"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657895"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Verbesserung von Power BI-Berichten anhand von Visualelementen
 
@@ -59,6 +59,9 @@ Wenn Sie den Seitenhintergrund auf eine Transparenz von mehr als 50 % festlegen,
 ![Transparenz von über 50 % mit entsprechender Anzeige einer gepunkteter Begrenzung](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Es gilt unbedingt zu beachten, dass die gepunktete Begrenzung *nur* bei der Bearbeitung des Berichts und *nicht* Personen angezeigt wird, die Ihren veröffentlichten Bericht anzeigen, z.B. wenn dieser im **Power BI-Dienst** angezeigt wird.
+
+> [!NOTE]
+> Wenn Sie dunkle Farben für Ihre Hintergründe verwenden und die Textfarbe auf weiß oder sehr hell festlegen, sollten Sie darauf achten, dass das Feature **Exportieren in eine PDF-Datei** kein Hintergrundbild enthält, sodass alle Exporte mit weißen Schriftarten in der exportierten PDF-Datei so gut wie unsichtbar sind. Weitere Informationen zum **Exportieren in eine PDF-Datei** finden Sie unter [In PDF exportieren](desktop-export-to-pdf.md).
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Verwendung von verbesserten Visualheadern in Power BI-Berichten

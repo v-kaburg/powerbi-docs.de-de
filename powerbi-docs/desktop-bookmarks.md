@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327819"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657964"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
@@ -113,6 +113,33 @@ Nachdem Sie den Schieberegler **Aktion** auf **Ein** gestellt haben, können Sie
 Das Hinzufügen von Lesezeichen, die mit Objekten verknüpft sind, bietet Ihnen viele interessante Möglichkeiten. Sie können auf der Berichtsseite ein visuelles Inhaltsverzeichnis erstellen oder unterschiedliche Ansichten (z.B. Visualtypen) der gleichen Informationen erstellen, indem Sie einfach auf ein Objekt klicken.
 
 Im Bearbeitungsmodus können Sie bei gedrückter STRG-TASTE klicken, um dem Link zu folgen. Außerhalb des Bearbeitungsmodus brauchen Sie nur auf das Objekt klicken, um dem Link zu folgen. 
+
+## <a name="bookmark-groups"></a>Lesezeichengruppen
+
+Ab dem Release vom August 2018 von **Power BI Desktop** können Sie Lesezeichengruppen erstellen und verwenden. Eine Lesezeichengruppe ist eine von Ihnen angegebene Sammlung von Lesezeichen, die als Gruppe angezeigt und organisiert werden kann. 
+
+Halten Sie zum Erstellen einer Lesezeichengruppe die STRG-Taste gedrückt, und wählen Sie die Lesezeichen aus, die Sie verwenden möchten. Klicken Sie dann auf die Auslassungspunkte neben den ausgewählten Lesezeichen, und wählen Sie im angezeigten Menü **Gruppe** aus.
+
+![Erstellen einer Lesezeichengruppe](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop** nennt die Gruppe automatisch *Gruppe 1*. Sie können die Gruppe allerdings leicht umbenennen, indem Sie auf den Namen doppelklicken.
+
+![Umbenennen einer Lesezeichengruppe](media/desktop-bookmarks/bookmarks_16.png)
+
+Bei jeder beliebigen Lesezeichengruppe wird durch Klicken auf den Namen der Lesezeichengruppe nur die Gruppe von Lesezeichen erweitert oder zugeklappt. Der Gruppenname selbst stellt kein Lesezeichen dar. 
+
+Bei Verwendung des Features **Ansicht** für Lesezeichen gilt Folgendes:
+
+* Wenn Sie unter Lesezeichen **Ansicht** auswählen und sich das ausgewählte Lesezeichen in einer Gruppe befindet, werden in dieser Ansicht nur die Lesezeichen *in dieser Gruppe* angezeigt. 
+
+* Wenn sich das ausgewählte Lesezeichen nicht in einer Gruppe auf der obersten Ebene befindet (wie z.B. der Name einer Lesezeichengruppe), werden alle Lesezeichen, und zwar auch diejenige aller Gruppen, für den gesamten Bericht angezeigt. 
+
+Gehen Sie wie folgt vor, um die Gruppierung von Lesezeichen aufzuheben: Wählen Sie ein beliebiges Lesezeichen in einer Gruppe aus, und klicken Sie zuerst auf die Auslassungspunkte und anschließend auf **Gruppierung aufheben** im angezeigten Menü. 
+
+![Aufheben der Gruppierung einer Lesezeichengruppe](media/desktop-bookmarks/bookmarks_17.png)
+
+Beachten Sie, dass alle Lesezeichen aus der Gruppe entfernt werden (die Gruppe wird gelöscht, die Lesezeichen selbst allerdings nicht), wenn Sie für ein Lesezeichen in einer Gruppe die **Gruppierung aufheben**. Um also ein einzelnes Lesezeichen aus einer Gruppe zu entfernen, müssen Sie für jedes Mitglied dieser Gruppe die **Gruppierung aufheben**, wodurch die Gruppierung entfernt wird. Wählen Sie dann die Elemente aus, die in der neuen Gruppe enthalten sein sollen (STRG-Taste drücken und jedes Lesezeichen anklicken), und klicken erneut auf **Gruppe**. 
+
 
 ## <a name="using-spotlight"></a>Verwenden von Spotlight
 **Spotlight** ist ein weiteres Feature, das zusammen mit Lesezeichen veröffentlicht wird. Mit **Spotlight** können Sie die Aufmerksamkeit auf ein bestimmtes Diagramm lenken, z.B. bei der Präsentation der Lesezeichen im Modus **Ansicht**.
