@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582569"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256406"
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -46,10 +46,10 @@ Weitere Informationen zum Optimieren von Datenquellen für DirectQuery finden Si
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery und Liveverbindung: Grundlagen zur Leistung der zugrunde liegenden Datenquelle 
 
-Wenn die Benutzer im Fall von DirectQuery oder einer Liveverbindung einen Power BI-Bericht öffnen, sendet Power BI in Echtzeit Abfragen an die zugrunde liegende Datenquelle. Wenn die Datenquelle die Abfragedaten zurückgibt, wird der Bericht gerendert. Die Leistung des Berichts hängt also in diesen Fällen zum größten Teil von der Leistung der zugrunde liegenden Datenquelle ab. 
- 
-Daher müssen Sie die Leistung der zugrunde liegenden Datenquelle kennen. Die Abfrageleistung wird je nach Datenquelle mit unterschiedlichen Tools ermittelt. SQL Server und Azure SQL stellen z.B. den Abfragespeicher bereit, in dem ein Verlauf der Abfragen und ihrer Laufzeitstatistik erfasst wird. 
- 
+Wenn die Benutzer im Fall von DirectQuery oder einer Liveverbindung einen Power BI-Bericht öffnen, sendet Power BI in Echtzeit Abfragen an die zugrunde liegende Datenquelle. Wenn die Datenquelle die Abfragedaten zurückgibt, wird der Bericht gerendert. Die Leistung des Berichts hängt also in diesen Fällen zum größten Teil von der Leistung der zugrunde liegenden Datenquelle ab.
+
+Daher müssen Sie die Leistung der zugrunde liegenden Datenquelle kennen. Die Abfrageleistung wird je nach Datenquelle mit unterschiedlichen Tools ermittelt. SQL Server und Azure SQL stellen z.B. den Abfragespeicher bereit, in dem ein Verlauf der Abfragen und ihrer Laufzeitstatistik erfasst wird.
+
 Als Faustregel sollten Sie beim Bereitstellen von Power BI-Berichten, die basierend auf DirectQuery und Liveverbindungen erstellt werden, die gleichen Aktionen wie die Endbenutzer in Power BI Desktop ausführen. Wenn der Bericht nur sehr langsam in Power BI Desktop geladen wird, wird er mit hoher Wahrscheinlichkeit auch im Dienst für die Endbenutzer langsam geladen. 
  
 ## <a name="directquery-best-practices"></a>Bewährte Methoden für DirectQuery 
