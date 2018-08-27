@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329309"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257165"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Verwenden tabellarischer Analysis Services-Daten in Power BI Desktop
 Mit Power BI-Desktop verfügen Sie über zwei Möglichkeiten, eine Verbindung mit tabellarischen Modellen von SQL Server Analysis Services herzustellen und Daten aus diesen Modellen abzurufen: Durchsuchen mit Live-Verbindung, oder Auswählen und Importieren von Elementen in Power BI Desktop.
@@ -24,7 +24,9 @@ Sehen wir uns das einmal näher an.
 
 **Durchsuchen mit Live-Verbindung** – Bei Verwendung einer Live-Verbindung werden Elemente im tabellarischen Modell oder einer Perspektive, wie Tabellen, Spalten und Maße, in der Liste der Power BI Desktop-Felder angezeigt. Die erweiterte Visualisierung und Bericht-Tools von Power BI bieten Ihnen neue und hoch interaktive Möglichkeiten zum Untersuchen Ihres tabellarischen Modells.
 
-Bei einer Live-Verbindung werden keine Daten aus dem tabellarischen Modell in Power BI Desktop importiert. Bei jeder Interaktion mit einer Visualisierung fragt Power BI Desktop das tabellarische Modell ab und berechnet die angezeigten Ergebnisse. Es werden immer die neuesten Daten angezeigt. Beachten Sie, dass tabellarische Modelle eine hohe Sicherheit bieten. Die in Power BI-Desktop angezeigten Elemente hängen von Ihren Berechtigungen für das tabellarische Modell ab, mit dem Sie verbunden sind.
+Bei einer Live-Verbindung werden keine Daten aus dem tabellarischen Modell in Power BI Desktop importiert. Bei jeder Interaktion mit einer Visualisierung fragt Power BI Desktop das tabellarische Modell ab und berechnet die angezeigten Ergebnisse. Ihnen werden immer die aktuellsten Daten angezeigt, die entweder über den letzten Verarbeitungszeitpunkt oder über die Tabellen für direkte Abfragen im tabellarischen Modell verfügbar sind. 
+
+Beachten Sie, dass tabellarische Modelle eine hohe Sicherheit bieten. Die in Power BI-Desktop angezeigten Elemente hängen von Ihren Berechtigungen für das tabellarische Modell ab, mit dem Sie verbunden sind.
 
 Dynamische Berichte, die Sie in Power BI Desktop erstellt haben, können Sie durch die Veröffentlichung auf Ihrer Power BI-Website freigeben. Wenn Sie eine Power BI Desktop-Datei mit einer Liveverbindung mit einem tabellarischen Modell auf Ihrer Power BI-Website veröffentlichen möchten, muss ein lokales Datengateway installiert sein und von einem Administrator konfiguriert werden. Lesen Sie zu diesem Thema den Artikel [Lokales Datengateway](service-gateway-onprem.md).
 

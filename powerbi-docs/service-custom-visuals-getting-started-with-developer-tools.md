@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600377"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257212"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
@@ -178,10 +178,10 @@ Jetzt können Sie mit der Entwicklung Ihrer Visualisierung beginnen.
 Sie können ein neues Visualisierungsprojekt erstellen, indem Sie den folgenden Befehl ausführen.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-Sie können *Name des visuellen Elements* durch einen eigenen Namen ersetzen. Dies kann später durch Bearbeiten der Felder `name` und `displayName` in der generierten `pbiviz.json`-Datei geändert werden.
+Sie können *MyVisualName* durch den Namen ersetzen, den Sie dem Visual geben möchten. Dies kann später durch Bearbeiten der Felder `name` und `displayName` in der generierten `pbiviz.json`-Datei geändert werden.
 
 Mit diesem Befehl wird ein neuer Ordner in dem Verzeichnis erstellt, in dem der Befehl ausgeführt wurde. Dabei wird eine einfache Startvorlage für Ihre Visualisierung generiert. Nach Abschluss des Befehls können Sie das Verzeichnis öffnen und die neue Visualisierung in einem beliebigen Editor bearbeiten.
 

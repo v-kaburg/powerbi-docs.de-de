@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624648"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257090"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Erstellen der neuen Arbeitsbereiche (Vorschau) in Power BI
 
@@ -34,7 +34,7 @@ Wenn Sie einen der neuen Arbeitsbereiche erstellen, erstellen Sie keine zugrunde
 Sie fügen den neuen Arbeitsbereichen Benutzergruppen oder Einzelpersonen als Mitglieder, Mitwirkende oder Administratoren hinzu. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.  Eine Erläuterung der verschiedenen Rollen finden Sie im weiteren Verlauf dieses Artikels unter [Rollen in den neuen Arbeitsbereichen](#roles-in-the-new-workspaces).
 
 Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. Im Arbeitsbereich ist die Zusammenarbeit aller Beteiligten beim Erstellen von Dashboards und Berichten möglich, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten. Wenn Sie Inhalte an andere Personen in Ihrer Organisation verteilen möchten, können Sie diesen Benutzern Power BI Pro-Lizenzen zuweisen oder den Arbeitsbereich in einer Power BI Premium-Kapazität hinzufügen.
-Da dies ein Vorschaufeature ist, gibt es einige Einschränkungen, die Sie beachten sollten. Eine <section link> Erläuterung dieser aktuellen Einschränkungen finden Sie weiter unten in diesem Artikel. Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Weiter unten in diesem Artikeln finden Sie eine Erläuterung der Änderungen, die Sie als permanente Änderungen neben der Vorschauversion erwarten können.
+Da dies ein Vorschaufeature ist, gibt es einige Einschränkungen, die Sie beachten sollten. Daten <section link> Erläuterung dieser aktuellen Einschränkungen finden Sie weiter unten in diesem Artikel. Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Weiter unten in diesem Artikeln finden Sie eine Erläuterung der Änderungen, die Sie als permanente Änderungen neben der Vorschauversion erwarten können.
 
 ## <a name="roll-out-new-app-workspaces"></a>Rollout der neuen App-Arbeitsbereiche
 
@@ -129,7 +129,7 @@ Durch den Dienst werden Workflows für die Zugriffsanforderung erstellt, damit B
 
 ## <a name="distribute-an-app"></a>Verteilen einer App
 
-Wenn der Inhalt bereit ist, können Sie auswählen, welche Dashboards und Berichte Sie veröffentlichen möchten. Anschließend veröffentlichen Sie diese als *App*. Ihre Kollegen können Ihre Apps auf verschiedene Weise abrufen. Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt. Andernfalls können diese Ihre Apps über Microsoft AppSource finden und installieren, oder Sie können ihnen einen direkten Link senden. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Ausführliche Informationen finden Sie unter [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](service-create-distribute-apps.md).
+Wenn der Inhalt bereit ist, können Sie auswählen, welche Dashboards und Berichte Sie veröffentlichen möchten. Anschließend veröffentlichen Sie diese als *App*. Sie können über jeden Arbeitsbereich eine App erstellen. Ihre Kollegen können Ihre App auf verschiedene Weise abrufen. Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt. Andernfalls können diese Ihre App über Microsoft AppSource finden und installieren, oder Sie können Ihren Kollegen einen direkten Link senden. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Ausführliche Informationen finden Sie unter [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Konvertieren alter App-Arbeitsbereiche in neue App-Arbeitsbereiche
 
@@ -161,7 +161,7 @@ Einige weitere Vorschaufeatures für die neuen App-Arbeitsbereiche befinden sich
 Einige Features funktionieren in den neuen App-Arbeitsbereichen anders als in den aktuellen App-Arbeitsbereichen. Diese Unterschiede sind beabsichtigt und basieren auf Feedback, das von Kunden gesammelt wurde. Mit diesen Änderungen wird ein flexiblerer Ansatz für die Zusammenarbeit in Arbeitsbereichen geboten:
 
 - Mitglieder, die eine erneute Freigabe durchführen oder nicht durchführen können: ersetzt durch die Rolle „Mitwirkender“.
-- Schreibgeschützte Arbeitsbereiche: ersetzt durch die in Kürze verfügbare Rolle „Viewer“, die den schreibgeschützten Zugriff auf Inhalte in einem Arbeitsbereich ermöglicht.
+- Schreibgeschützte Arbeitsbereiche: Anstatt Benutzern schreibgeschützten Zugriff auf einen Arbeitsbereich zu gewähren, weisen Sie Benutzern die in Kürze verfügbare Rolle „Anzeigender Benutzer“ zu, die einen ähnlichen schreibgeschützten Zugriff auf den Inhalt eines Arbeitsbereichs umfasst.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 

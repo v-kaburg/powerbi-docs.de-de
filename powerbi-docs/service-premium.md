@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925434"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257188"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – Beschreibung
 Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation oder Ihr Team, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die breit gestreute Verteilung von Inhalten, ohne dass Sie für Benutzer mit schreibgeschütztem Zugriff Pro-Benutzer-Lizenzen erwerben müssen.
 
 Sie können Power BI Premium nutzen, indem Sie Arbeitsbereiche einer Premium-Kapazität zuordnen. *Premium-Kapazität* stellt eine für Ihre Organisation dedizierte Ressource dar. Arbeitsbereiche, die keiner Premium-Kapazität zugeordnet sind, werden in einer gemeinsam genutzten Kapazität ausgeführt.
 
-*Gemeinsam genutzte Kapazität* ist die gewohnte Erfahrung bei Power BI, bei der Ihre Workloads auf Computerressourcen ausgeführt werden, die Sie gemeinsam mit anderen Kunden nutzen. Bei der gemeinsam genutzten Kapazität werden für Einzelbenutzer stärkere Einschränkungen durchgesetzt, um für alle Benutzer eine gute Nutzungsqualität sicherzustellen.
+Mit *gemeinsam genutzten Kapazitäten* werden Ihre Workloads auf Computerressourcen ausgeführt, die gemeinsam von anderen Kunden genutzt werden. Bei der gemeinsam genutzten Kapazität werden für Einzelbenutzer stärkere Einschränkungen durchgesetzt, um für alle Benutzer eine gute Nutzungsqualität sicherzustellen.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -33,7 +33,7 @@ Für Power BI sind zwei verschiedene Arten von Kapazität verfügbar. Gemeinsam 
 
 |  | Gemeinsam genutzte Kapazität | Power BI Premium-Kapazität |
 | --- | --- | --- |
-| **Aktualisierungsrate** |8/Tag |Unbeschränkt |
+| **Aktualisierungsrate** |8/Tag |48/Tag |
 | **Isolation mit dedizierter Hardware** |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar") |
 | **Enterprise-Verteilung an** ***alle Benutzer*** | | |
 | Apps und Freigabe |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar")<sup>1</sup> |
@@ -48,10 +48,10 @@ Um mit der Verwendung einer Power BI Premium-Kapazität zu beginnen, müssen Sie
 
 Wenn ein Arbeitsbereich durch Premium-Kapazität gestützt wird, kommen Sie in den Genuss der Vorteile von Power BI Premium.
 
-* Geplante Aktualisierungen: Benutzer waren bisher beim Planen von Aktualisierungen für importierte Modelle auf 8 Aktualisierungen am Tag beschränkt. Diese Einschränkung ist für Datasets in Premium-Arbeitsbereichen aufgehoben. Dies betrifft nicht die Einstellungen für geplante Cacheaktualisierungen für DirectQuery. Diese bleiben zwischen Premium-Kapazität und gemeinsam genutzter Kapazität unverändert.
-* Isolation mithilfe von dedizierter Hardware: Es liegt in der Natur von gemeinsam genutzter Kapazität, dass die Leistung Ihrer Berichte und Dashboards durch die Ressourcenanforderungen anderer Workloads in der Kapazität beeinträchtigt werden kann, trotz unserer Sicherheitsvorkehrungen, die dies verhindern sollen. Dagegen bietet Premium durch die Isolation von nicht zugehörigen Workloads einheitlichere, verlässlichere Leistung für Ihre Workloads.
+* **Geplante Aktualisierungen:** Mit gemeinsam genutzter Kapazität werden Aktualisierungen für importierte Modelle auf acht Aktualisierungen pro Tag beschränkt. Die Anzahl der Aktualisierungen wird für Datasets in Premium-Arbeitsbereichen auf 48 pro Tag erhöht. Dies betrifft nicht die Einstellungen für geplante Cacheaktualisierungen für DirectQuery. Diese bleiben zwischen Premium-Kapazität und gemeinsam genutzter Kapazität unverändert.
+* **Isolation mithilfe von dedizierter Hardware:** Es liegt in der Natur von gemeinsam genutzter Kapazität, dass die Leistung Ihrer Berichte und Dashboards durch die Ressourcenanforderungen anderer Workloads in der Kapazität beeinträchtigt werden kann, trotz unserer Sicherheitsvorkehrungen, die dies verhindern sollen. Dagegen bietet Premium durch die Isolation von nicht zugehörigen Workloads einheitlichere, verlässlichere Leistung für Ihre Workloads.
 
-Wenn eine App durch Premium-Kapazität gestützt wird (d.h. sie wurde aus einem App-Arbeitsbereich veröffentlicht, der aktuell Premium zugeordnet ist), kann die veröffentlichte App anschließend von jedem Benutzer in Ihrer Organisation verwendet werden, unabhängig von dem Lizenzschlüssel, der dem Benutzer zugeordnet ist.
+Wenn eine App durch eine Premium-Kapazität gestützt wird (d.h. sie wurde aus einem App-Arbeitsbereich veröffentlicht, der aktuell Premium zugeordnet ist), kann die veröffentlichte App anschließend von jedem Benutzer in Ihrer Organisation verwendet werden, unabhängig von dem Lizenzschlüssel, der dem Benutzer zugeordnet ist.
 
 ### <a name="shared-capacity"></a>Gemeinsam genutzte Kapazität
 Standardmäßig wird Ihr Arbeitsbereich mit gemeinsam genutzter Kapazität betrieben. Dies schließt Ihren persönlichen *Mein Arbeitsbereich* ebenso ein wie die App-Arbeitsbereiche. Gemeinsam genutzte Kapazität ist die gewohnte Erfahrung bei Power BI, bei der Ihre Workloads auf Computerressourcen ausgeführt werden, die Sie gemeinsam mit anderen Kunden nutzen.

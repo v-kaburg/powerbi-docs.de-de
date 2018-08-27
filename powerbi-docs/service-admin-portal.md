@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965502"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256854"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -100,36 +100,37 @@ Weitere Informationen zu Überwachungsprotokollen finden Sie unter [Überwachen 
 
 Die dritte Registerkarte im Verwaltungsportal ist **Mandanteneinstellungen**. Über die Mandanteneinstellungen können Sie besser steuern, welche Features in Ihrer Organisation zur Verfügung gestellt werden. Wenn Sie über vertrauliche Daten verfügen, die geschützt werden müssen, sind möglicherweise einige unserer Features für Ihre Organisation nicht sinnvoll, oder Sie können ein bestimmtes Feature nur für eine bestimmte Gruppe verfügbar machen. Sie können diese Funktion in diesem Fall in Ihrem Mandanten deaktivieren.
 
-Beispielsweise sind die benutzerspezifischen Daten standardmäßig für die Nutzungsmetriken aktiviert, und die Kontoinformationen vom Ersteller des Inhalts sind im Bericht zu den Nutzungsmetriken enthalten. Wenn Sie diese Informationen für einige oder alle Benutzer nicht miteinbeziehen möchten, deaktivieren Sie das Feature für angegebene Sicherheitsgruppen oder eine gesamte Organisation. Die Kontoinformationen werden im Bericht dann als *Unnamed* (Unbenannt) angezeigt.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > Es dauert bis zu zehn Minuten, bis die Einstellung für alle Benutzer in Ihrem Mandanten wirksam werden.
 
-Abhängig von den von Ihnen angegebenen Einstellungen können Einstellungen drei Status aufweisen.
+Einstellungen können drei Zustände aufweisen:
 
-### <a name="disabled-for-the-entire-organization"></a>Für die gesamte Organisation deaktiviert
+* **Für die gesamte Organisation deaktiviert:** Sie können ein Feature deaktivieren und festlegen, sodass es nicht von Benutzern verwendet werden kann.
 
-Sie können ein Feature deaktivieren und festlegen, dass es nicht von Benutzern verwendet werden kann.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Für die gesamte Organisation aktiviert:** Sie können ein Feature für die gesamte Organisation aktivieren, sodass alle Benutzer Zugriff auf dieses Feature haben.
 
-### <a name="enabled-for-the-entire-organization"></a>Für die gesamte Organisation aktiviert
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-Sie können ein Feature für die gesamte Organisation aktivieren, sodass alle Benutzer Zugriff auf dieses Feature haben.
+* **Für eine Teilmenge der Organisation aktiviert:** Sie können ein Feature auch für einen Teil Ihrer Organisation aktivieren. Dies kann auf unterschiedliche Weise erfolgen. Sie können das Feature für die gesamte Organisation mit Ausnahme einer bestimmten Gruppe von Benutzern aktivieren.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Für einen Teilsatz der Organisation aktiviert
+    Sie können auch das Feature nur für eine bestimmte Gruppe von Benutzern aktivieren und außerdem für eine Gruppe von Benutzern deaktivieren. So stellen Sie sicher, dass bestimmte Benutzer keinen Zugriff auf das Feature haben, auch wenn sie Mitglied der Gruppe sind, für die der Zugriff aktiviert ist.
 
-Sie können ein Feature auch für einen Teil Ihrer Organisation aktivieren. Dies kann auf unterschiedliche Weise erfolgen. Sie können das Feature für die gesamte Organisation mit Ausnahme einer bestimmten Gruppe von Benutzern aktivieren.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+Die nächsten Abschnitte bieten einen Überblick über die verschiedenen Arten von Mandanteneinstellungen.
 
-Sie können auch das Feature nur für eine bestimmte Gruppe von Benutzern aktivieren und außerdem für eine Gruppe von Benutzern deaktivieren. So stellen Sie sicher, dass bestimmte Benutzer keinen Zugriff auf das Feature haben, auch wenn sie Mitglied der Gruppe sind, für die der Zugriff aktiviert ist.
+## <a name="workspace-settings"></a>Arbeitsbereichseinstellungen
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Erstellen von Arbeitsbereichen (Vorschau)
+Benutzer in der Organisation können App-Arbeitsbereiche erstellen, um gemeinsam an Dashboards, Berichten und anderen Inhalten zu arbeiten.
+
+Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Einstellungen für Export und Freigabe
 
@@ -193,7 +194,7 @@ Benutzer in der Organisation können Inhaltspakete in der gesamten Organisation 
 
 Benutzer in der Organisation können Vorlageninhaltspakete erstellen, die Datasets verwenden, die auf einer Datenquelle in Power BI Desktop basieren.
 
-### <a name="push-apps-to-end-users"></a>Übertragen von Apps an Endbenutzer mithilfe von Push
+### <a name="push-apps-to-end-users"></a>Apps mittels Push an Endbenutzer übertragen
 
 Ihr Mandantenadministrator kann die Fähigkeit, Apps mithilfe von Push zu übertragen, in den **Mandanteneinstellungen** aktivieren.
 
@@ -244,9 +245,9 @@ Benutzer in der Organisation können mit visuellen Elementen, die mit R-Skripts 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
 
-## <a name="audit-settings"></a>Überwachungseinstellungen
+## <a name="audit-and-usage-settings"></a>Überwachungs- und Nutzungseinstellungen
 
-### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Erstellen von Überwachungsprotokollen für interne Aktivitätsüberwachung und Konformität
+### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Überwachungsprotokolle für interne Aktivitätsüberwachung und Compliance erstellen
 
 Benutzer in der Organisation können Aktionen überwachen, die in Power BI von anderen Benutzern in der Organisation ausgeführt werden. [Weitere Informationen](service-admin-auditing.md)
 
@@ -254,6 +255,25 @@ Diese Einstellung muss aktiviert sein, damit Überwachungsprotokolleinträge auf
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
+
+### <a name="usage-metrics-for-content-creators"></a>Nutzungsmetriken für Inhaltsersteller
+Benutzer in der Organisation können Nutzungsmetriken für von ihnen erstellte Dashboards und Berichte anzeigen. [Weitere Informationen](service-usage-metrics.md).
+
+Sie können die Einstellung in **Aktiviert** ändern und anschließend angeben, wer Nutzungsmetriken sehen kann (die gesamte Organisation oder bestimmte Sicherheitsgruppen).
+
+> [!NOTE]
+> Bedenken Sie, dass es einige Zeit dauern kann, bis Änderungen an den Mandanteneinstellungen in Kraft treten.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Benutzerspezifische Daten in Nutzungsmetriken für Inhaltsersteller
+Nutzungsmetriken für Inhaltsersteller machen Anzeigenamen und E-Mail-Adressen von Benutzern verfügbar, die auf Inhalte zugreifen. [Weitere Informationen](service-usage-metrics.md).
+
+Sie können die Einstellung in **Aktiviert** ändern und anschließend angeben, wer Anzeigenamen und E-Mail-Adressen in den Nutzungsmetriken sehen kann (die gesamte Organisation oder bestimmte Sicherheitsgruppen).
+
+Die benutzerspezifischen Daten sind standardmäßig für die Nutzungsmetriken aktiviert, und die Kontoinformationen vom Ersteller des Inhalts sind im Bericht zu den Nutzungsmetriken enthalten. Wenn Sie diese Informationen für einige oder alle Benutzer nicht miteinbeziehen möchten, deaktivieren Sie das Feature für angegebene Sicherheitsgruppen oder eine gesamte Organisation. Die Kontoinformationen werden im Bericht dann als *Unnamed* (Unbenannt) angezeigt.
+
+> [!NOTE]
+> Bedenken Sie, dass es einige Zeit dauern kann, bis Änderungen an den Mandanteneinstellungen in Kraft treten.
+
 
 ## <a name="dashboard-settings"></a>Dashboardeinstellungen
 
@@ -270,9 +290,9 @@ Benutzer in der Organisation können Dashboards mit Klassifizierungen markieren,
 
 Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-Anwendungen (Software as a Service) einbetten. Ist diese Einstellung deaktiviert, ist es Benutzern nicht möglich, die REST-APIs zu verwenden, um Power BI-Inhalt in ihre Anwendungen einzubetten.
 
-## <a name="premium-settings"></a>Premium-Einstellungen
+## <a name="capacity-settings"></a>Kapazitätseinstellungen
 
-Über die Registerkarte „Premium-Einstellungen“ können Sie jede Power BI Premium-Kapazität verwalten, die für Ihre Organisation erworben wurde. Alle Benutzer in Ihrer Organisation sehen die Registerkarte „Premium-Einstellungen“, können deren Inhalt aber nur sehen, wenn sie entweder als **Kapazitätsadministrator** oder als Benutzer zugewiesen sind, der Zuweisungsberechtigungen hat. Hat ein Benutzer keine Berechtigungen, wird die folgende Meldung angezeigt.
+Über die Registerkarte „Kapazitätseinstellungen“ können Sie jede Power BI Premium-Kapazität verwalten, die für Ihre Organisation erworben wurde. Alle Benutzer in Ihrer Organisation sehen die Registerkarte „Premium-Einstellungen“, können deren Inhalt aber nur sehen, wenn sie entweder als **Kapazitätsadministrator** oder als Benutzer zugewiesen sind, der Zuweisungsberechtigungen hat. Hat ein Benutzer keine Berechtigungen, wird die folgende Meldung angezeigt.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "No access to Premium settings") (Kein Zugriff auf Premium-Einstellungen)
 

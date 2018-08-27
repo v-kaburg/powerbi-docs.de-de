@@ -2,21 +2,21 @@
 title: Einbetten mit dem Berichts-Webpart in SharePoint Online
 description: 'Jetzt in Power BI: Mit dem neuen Berichts-Webpart für SharePoint Online können Sie interaktive Power BI-Berichte einfach in SharePoint Online-Seiten einbetten.'
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032046"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256960"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -28,6 +28,7 @@ Mit der neuen Option **In SharePoint Online einbetten** ist die umfassende Siche
 
 Wenn Sie Berichte mit der Option **In SharePoint Online einbetten** verwenden möchten, sind einige Anforderungen zu erfüllen.
 
+* Sie benötigen eine Power BI Pro-Lizenz oder eine [Power BI Premium-Kapazität (EM oder P SKU)](service-premium.md#premium-capacity-nodes) mit einer Power BI-Lizenz.
 * Das Power BI-Webpart für SharePoint Online erfordert [Moderne Seiten](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Einbetten des Berichts
@@ -107,7 +108,7 @@ Das Power BI-Webpart für SharePoint Online verfügt über die folgenden Einstel
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-Wenn Ihre Power BI-Umgebung die Anmeldung per Multi-Factor Authentication erfordert, können Sie aufgefordert werden, Ihre Identität mithilfe eines Sicherheitsgeräts zu bestätigen. Dies ist der Fall, wenn Sie sich nicht bereits per Multi-Factor Authentication bei SharePoint Online angemeldet haben, Ihre Power BI-Umgebung aber ein per Sicherheitsgerät verifiziertes Konto erfordert.
+Wenn Ihre Power BI-Umgebung die Anmeldung per Multi-Factor Authentication (MFA) erfordert, können Sie aufgefordert werden, Ihre Identität mithilfe eines Sicherheitsgeräts zu bestätigen. Dies ist der Fall, wenn Sie sich nicht bereits per MFA bei SharePoint Online angemeldet haben, Ihre Power BI-Umgebung aber ein per Sicherheitsgerät verifiziertes Konto erfordert.
 
 > [!NOTE]
 > Multi-Factor Authentication wird derzeit noch nicht von Azure Active Directory 2.0 unterstützt. Benutzer erhalten dann die Meldung *Fehler*. Der Benutzer kann sich mithilfe eines Sicherheitsgeräts erneut bei SharePoint Online anmelden, um Zugriff auf den Bericht zu erhalten.
@@ -135,9 +136,9 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
   
   1. Melden Sie sich aus SharePoint ab und anschließend wieder an. Achten Sie darauf, alle Browserfenster zu schließen, bevor Sie sich erneut anmelden.
 
-  2. Wenn für Ihr Benutzerkonto die Multi-Factor Authentication (MFA) erforderlich ist, stellen Sie sicher, dass Sie sich in SharePoint mit Ihrem MFA-Gerät anmelden (Smartphone-App, Smartcard usw.).
+  2. Wenn MFA für Ihr Benutzerkonto erforderlich ist, stellen Sie sicher, dass Sie sich mit Ihrem MFA-Gerät in SharePoint anmelden (Smartphone-App, Smartcard usw.).
   
-  3. Azure B2B-Gastbenutzerkonten werden nicht unterstützt. Benutzer sehen das Power BI-Logo, das anzeigt, dass der Teil geladen wird. Der Bericht wird jedoch nicht angezeigt.
+  3. Azure B2B-Gastbenutzerkonten werden nicht unterstützt. Den Benutzern wird das Power BI-Logo angezeigt, das anzeigt, dass der Teil geladen wird, jedoch wird der Bericht nicht angezeigt.
 
 * Power BI unterstützt nicht die gleichen lokalisierte Sprachen wie SharePoint Online. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
 

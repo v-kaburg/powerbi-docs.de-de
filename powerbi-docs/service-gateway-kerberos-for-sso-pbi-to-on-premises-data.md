@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964835"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256407"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 Sie können nahtlose Verbindungen mit einmaligem Anmelden erreichen und für Power BI-Berichte und -Dashboards das Aktualisieren von lokalen Daten ermöglichen, indem Sie Ihr lokales Datengateway mit Kerberos konfigurieren. Das lokale Datengateway ermöglicht das einmalige Anmelden über DirectQuery; hiermit werden Verbindungen mit lokalen Datenquellen hergestellt.
@@ -51,9 +51,7 @@ Es folgen weitere Details zu diesen Schritten:
    - Der Benutzeridentitätswechsel und die Verbindung mit der Datenbank sind nur erfolgreich, wenn das Gatewaydienstkonto ein Domänenkonto (oder eine Dienst-SID) ist und wenn die eingeschränkte Kerberos-Delegierung für die Datenbank so konfiguriert wurde, dass Kerberos-Tickets aus dem Gatewaydienstkonto akzeptiert werden.  
    
    > [!NOTE]
-   > Wenn AAD DirSync/Connect konfiguriert ist und Benutzerkonten synchronisiert sind, muss der Gatewaydienst keine lokalen AD-Suchvorgänge zur Laufzeit ausführen, und Sie können die lokale Dienst-SID (statt eines Domänenkontos) für den Gatewaydienst verwenden.  Die in diesem Dokument beschriebenen Schritte für die Konfiguration der eingeschränkten Kerberos-Delegierung sind identisch (sie basieren lediglich auf der Dienst-SID und nicht auf dem Domänenkonto).
-   > 
-   > 
+   > Bezüglich der Dienst-SID: Wenn AAD DirSync/Connect konfiguriert ist und Benutzerkonten synchronisiert sind, muss der Gatewaydienst keine lokalen AD-Suchvorgänge zur Laufzeit ausführen, und Sie können die lokale Dienst-SID (statt eines Domänenkontos) für den Gatewaydienst verwenden. Die in diesem Artikel beschriebenen Schritte für die Konfiguration der eingeschränkten Kerberos-Delegierung sind identisch mit den Schritten dieser Konfiguration (sie werden lediglich auf das Computerobjekt des Gateways in Active Directory angewendet und nicht auf das Domänenkonto).
 
 
 > [!NOTE]

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799416"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257006"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -84,7 +84,7 @@ Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht
 ## <a name="drill-down-and-up-in-a-visual"></a>Durchführen eines Drilldowns und Drillups in einem Visual
 Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie einen Drilldown in einem Visual durchführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](power-bi-visualization-drill-down.md). 
 
-* Tippen Sie auf einen Datenpunkt in einem Visual, um die QuickInfo anzuzeigen. Wenn ein Drilldown möglich ist, können Sie am unteren Rand der QuickInfo auf Pfeile tippen. 
+* Tippen Sie auf einen bestimmten Balken oder Punkt in einem Visual, und halten Sie diesen, um die zugehörige QuickInfo anzuzeigen. Wenn ein Drilldown möglich ist, können Sie am unteren Rand der QuickInfo auf Pfeile tippen. 
   
   ![Durchführen von Drilldown in einem visuellen Element](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

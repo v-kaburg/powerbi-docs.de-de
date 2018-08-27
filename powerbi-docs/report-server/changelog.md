@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482128"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257081"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -22,6 +22,18 @@ Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält
 
 Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
 
+## <a name="august-2018"></a>August 2018
+- **Power BI-Berichtsserver**
+    - *Version 1.3.6801.38816 (Build 15.0.2.540), Veröffentlichung: 15. August 2018*
+        - Features
+            - Die Unterstützung von direkten SAP HANA SSO-Abfragen mit Kerberos ist nun für Power BI-Berichte verfügbar.
+            - Im Release enthaltene benutzerdefinierte Visual-API: Version 1.13.0
+            - Für benutzerdefinierte Visuals wird ein Fallback auf eine vorherige Version ausgeführt, die mit der aktuellen Version der Server-API (falls verfügbar) kompatibel ist.
+
+- **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - *Version: 2.61.5192.64 (August 2018), Veröffentlichung: 15. August 2018*
+        - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (August 2018) erforderlich sind         
+        
 ## <a name="march-2018"></a>März 2018
 - **Power BI-Berichtsserver**
     - *Version 1.2.6690.34729 (Build 15.0.2.402), Veröffentlichung: 27. April 2018*
