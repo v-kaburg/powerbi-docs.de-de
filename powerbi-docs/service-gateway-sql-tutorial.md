@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926511"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257037"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: Herstellen einer Verbindung mit lokalen Daten in SQL Server
 
@@ -107,7 +107,7 @@ Nachdem Sie jetzt über Beispieldaten verfügen, mit denen Sie arbeiten können,
 
     ![Gestapeltes Säulendiagramm](media/service-gateway-sql-tutorial/column-chart.png)    
 
-6. Wenn in der Berichtscanvas das Säulendiagramm ausgewählt ist, wählen Sie im Bereich **Felder** die Felder **Category** und **Sales** aus.  
+6. Wenn im Berichtszeichenbereich das Säulendiagramm ausgewählt ist, wählen Sie im Bereich **Felder** die Felder **Product** und **Sales** aus.  
 
     ![Felder auswählen](media/service-gateway-sql-tutorial/select-fields.png)
 
