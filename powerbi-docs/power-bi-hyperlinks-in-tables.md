@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310174"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799043"
 ---
 # <a name="hyperlinks-in-tables"></a>Links in Tabellen
 In diesem Thema wird erläutert, wie in Power BI Desktop Hyperlinks erstellt werden. Nach der Erstellung verwenden Sie dann entweder Desktop oder den Power BI-Dienst, um diese Hyperlinks Ihren Berichtstabellen und Matrizen hinzuzufügen. 
@@ -39,8 +39,10 @@ Das Verfahren zum Hinzufügen eines Hyperlinks hängt davon ab, ob Sie die Daten
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Wählen Sie **Web-URL**aus.
 4. Wechseln Sie zur Berichtsansicht, und erstellen Sie mit dem als Web-URL kategorisierten Feld eine Tabelle oder Matrix. Die Hyperlinks werden blau und unterstrichen angezeigt.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **HINWEIS:** Die URLs müssen mit **http://, https://** oder **www** beginnen.
+> 
+>   
 5. Wenn keine lange URL in einer Tabelle angezeigt werden soll, können Sie stattdessen ein Hyperlinksymbol ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) anzeigen lassen. Beachten Sie, dass Symbole nicht in Matrizen angezeigt werden können.
    
    * Wählen Sie das Diagramm aus, um es zu aktivieren.
