@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280131"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151950"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -28,10 +28,6 @@ Kacheln sind Livemomentaufnahmen Ihrer Daten, die an ein Dashboard angeheftet si
 Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und interagieren mit diesen. Sie können Kacheln mit allen möglichen Steuerelementen öffnen, einschließlich Kacheln, die auf Bing und R basieren.
 
 ## <a name="tiles-in-the-ios-apps"></a>Kacheln in den iOS-Apps
-> [!NOTE]
-> Sie können [Bildkacheln mit der iPhone-App erstellen](mobile-iphone-app-get-started.md) und in Ihren Dashboards speichern.
-> 
-> 
 
 1. Öffnen Sie ein [Dashboard in der mobilen App für iOS](mobile-apps-view-dashboard.md).
 2. Tippen Sie auf eine Kachel. Sie wird im Fokusmodus geöffnet, was es einfacher macht, die Kacheldaten anzuzeigen und zu durchsuchen. Im Fokusmodus haben Sie folgende Möglichkeiten:
@@ -40,7 +36,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Beispielsweise werden in diesem Liniendiagramm die Werte für **This Year Sales</em>* (Verkäufe dieses Jahr) und **Last Year Sales** in **August** (Verkäufe im letzten August) visualisiert.*  
+   *Beispielsweise werden in diesem Liniendiagramm die Werte für **This Year Sales** (Verkäufe dieses Jahr) und **Last Year Sales** in **August** (Verkäufe im letzten August) visualisiert.*  
    
    Tippen Sie in einem Kreisdiagramm auf ein Segment des Kreises, um dessen Werte oben im Kreis anzuzeigen.  
    
@@ -107,7 +103,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>In diesem Balkendiagramm werden die Werte für den Balken **Decor</em>* über dem Diagramm angezeigt.*
+   *In diesem Balkendiagramm werden die Werte für den Balken **Dekor** über dem Diagramm angezeigt.*
    
    Tippen Sie auf das Symbol ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) für **Vollbild**, um die Kachel im Vollbildmodus aufzurufen (ohne Navigations- und Menüleisten).
    
