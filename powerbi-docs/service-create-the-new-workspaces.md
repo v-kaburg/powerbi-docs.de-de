@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257090"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914517"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Erstellen der neuen Arbeitsbereiche (Vorschau) in Power BI
 
@@ -29,12 +29,13 @@ Mit den neuen Arbeitsbereichen (Vorschau) können Sie nun Folgendes durchführen
 - Einen Arbeitsbereich in Power BI erstellen, ohne eine Office 365-Gruppe zu erstellen.
 - Genauere Arbeitsbereichsrollen für flexiblere Verwaltung von Berechtigungen in einem Arbeitsbereich verwenden.
  
-Wenn Sie einen der neuen Arbeitsbereiche erstellen, erstellen Sie keine zugrunde liegende, zugehörige Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Power BI statt, nicht in Office 365. Sie können dem Arbeitsbereich immer noch eine Office 365-Gruppe hinzufügen, um den Benutzerzugriff auf Inhalte weiterhin über Office 365-Gruppen zu verwalten. Zusätzlich können Sie jedoch Sicherheitsgruppen und Verteilerlisten verwenden sowie Benutzer direkt in Power BI hinzufügen, wodurch Ihnen eine flexible Möglichkeit zum Verwalten des Arbeitsbereichszugriffs geboten wird.
+Wenn Sie einen der neuen Arbeitsbereiche erstellen, erstellen Sie keine zugrunde liegende, zugehörige Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Power BI statt, nicht in Office 365. Sie können dem Arbeitsbereich immer noch eine Office 365-Gruppe hinzufügen, um den Benutzerzugriff auf Inhalte weiterhin über Office 365-Gruppen zu verwalten. Zusätzlich können Sie jedoch Sicherheitsgruppen und Verteilerlisten verwenden sowie Benutzer direkt in Power BI hinzufügen. Damit profitieren Sie von einer flexiblen Möglichkeit für die Verwaltung des Arbeitsbereichszugriffs. Da die Arbeitsbereichsverwaltung jetzt in Power BI erfolgt, entscheiden die Power BI-Administratoren, welche Benutzer in einer Organisation Arbeitsbereiche erstellen dürfen. Weitere Informationen finden Sie im [Abschnitt zu Arbeitsbereichen im Artikel zum Power BI-Verwaltungsportal](service-admin-portal.md#workspace-settings). 
 
 Sie fügen den neuen Arbeitsbereichen Benutzergruppen oder Einzelpersonen als Mitglieder, Mitwirkende oder Administratoren hinzu. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.  Eine Erläuterung der verschiedenen Rollen finden Sie im weiteren Verlauf dieses Artikels unter [Rollen in den neuen Arbeitsbereichen](#roles-in-the-new-workspaces).
 
 Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. Im Arbeitsbereich ist die Zusammenarbeit aller Beteiligten beim Erstellen von Dashboards und Berichten möglich, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten. Wenn Sie Inhalte an andere Personen in Ihrer Organisation verteilen möchten, können Sie diesen Benutzern Power BI Pro-Lizenzen zuweisen oder den Arbeitsbereich in einer Power BI Premium-Kapazität hinzufügen.
-Da dies ein Vorschaufeature ist, gibt es einige Einschränkungen, die Sie beachten sollten. Daten <section link> Erläuterung dieser aktuellen Einschränkungen finden Sie weiter unten in diesem Artikel. Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Weiter unten in diesem Artikeln finden Sie eine Erläuterung der Änderungen, die Sie als permanente Änderungen neben der Vorschauversion erwarten können.
+
+Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Im Abschnitt [App-Arbeitsbereichsfeatures mit geänderter Funktionsweise](#app-workspace-features-that-work-differently) weiter unten in diesem Artikel finden Sie eine Erläuterung der Änderungen, die nicht nur in der Vorschauversion, sondern permanent gelten werden. Da dies ein Vorschaufeature ist, gibt es einige Einschränkungen, die Sie beachten sollten. Eine Erläuterung dieser aktuellen Einschränkungen finden Sie im Abschnitt [Bekannte Probleme](#known-issues) weiter unten in diesem Artikel. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Rollout der neuen App-Arbeitsbereiche
 

@@ -2,30 +2,30 @@
 title: Häufig gestellte Fragen zu Power BI Embedded
 description: Durchsuchen Sie die Liste der häufig gestellten Fragen und Antworten zu Power BI Embedded.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702958"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
-* Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
+* Treten weiterhin Probleme auf? Besuchen Sie die [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="general"></a>Allgemein
 
 ### <a name="what-is-power-bi-embedded"></a>Was ist Power BI Embedded?
 
-Mit Microsoft Power BI Embedded können Anwendungsentwickler ansprechende, vollständig interaktive Berichte, Dashboards und Kacheln in Anwendungen einbetten, ohne eigene Datenvisualisierungen und Steuerelemente von Grund auf erstellen zu müssen.
+Mit Microsoft Power BI Embedded (PBIE) können Anwendungsentwickler ansprechende, vollständig interaktive Berichte in Anwendungen einbetten, ohne selbst Datenvisualisierungen und Steuerelemente von Grund auf neu erstellen zu müssen.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Für wen ist Power BI Embedded gedacht?
 
@@ -70,7 +70,7 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 | Power BI-Berichte in einer Embedded-Anwendung nutzen | Ja | Ja | Ja |
 | Power BI-Berichte in SharePoint nutzen | Nein | Ja | Ja |
 | Power BI-Berichte in Dynamics nutzen | Nein | Ja | Ja |
-| Power BI-Berichte in Teams nutzen | Nein | Ja | Ja |
+| Power BI-Berichte in Teams nutzen (nur Desktop-App) | Nein | Ja | Ja |
 | Mit einer kostenlosen Power BI-Lizenz auf Inhalte unter Powerbi.com und Power BI Mobile zugreifen | Nein | Nein | Ja |
 | Mit einer kostenlosen Power BI-Lizenz auf in Microsoft Office-Apps eingebettete Inhalte zugreifen | Nein | Ja | Ja |
 
@@ -79,10 +79,10 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Purchase     |Azure-Portal |Office |Office |
-|Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in anderen SaaS-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in anderen SaaS-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/en-us/)  |
+|Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in andere MS Office-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (nur Desktop-App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in andere MS Office-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (nur Desktop-App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/en-us/)  |
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
-|Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit der Einbettung von Inhalten in SharePoint Online und Microsoft Teams |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
+|Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit der Einbettung von Inhalten in SharePoint Online und Microsoft Teams (nur Desktop-App) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
 
@@ -126,14 +126,14 @@ Sie müssen sich in Power BI mit einem Unternehmenskonto anmelden. Eine Anmeldun
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>Kann ich Azure-Kapazitäten mit APIs erstellen und verwalten?
 
-Ja, es gibt PowerShell-Cmdlets und ARM-APIs, mit denen Sie Power BI Embedded-Ressourcen zu erstellen und zu verwalten.
+Ja, es gibt PowerShell-Cmdlets und Azure Resource Manager-APIs (ARM), mit denen Sie Power BI Embedded-Ressourcen erstellen und verwalten können.
 
 * REST-APIs: https://docs.microsoft.com/rest/api/power-bi-embedded/
 * PowerShell-Cmdlets: https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Was ist die Power BI Embedded-Rolle „Dedizierte Kapazität“ in einer Power BI Embedded-Lösung?
 
-Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer dedizierten Kapazität zugewiesen werden.
+Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (der App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer dedizierten Kapazität zugewiesen werden.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>In welchen Azure-Regionen ist Power BI Embedded verfügbar?
 
@@ -162,7 +162,7 @@ Um ein AAD-Token abzurufen, können Sie eine der Azure Active Directory-Authenti
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Meine Anwendung verwendet bereits AAD für die Benutzerauthentifizierung Wie können wir diese Identität bei der Authentifizierung in Power BI in einem Szenario einsetzen, in dem der Benutzer die Daten besitzt? 
 
-In einem herkömmlichen OAuth-Flow im Namen des Benutzers (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) Die Anwendung muss so konfiguriert sein, dass sie Berechtigungen des Power BI-Diensts (für den erforderlichen Bereich) erfordert. Sobald Sie ein Benutzertoken für Ihre App haben, führen Sie einen Aufruf an AcquireTokenAsync (ADAL-API) mit dem Benutzerzugriffstoken durch und geben die Power BI-Ressourcen-URL als Ressourcen-ID an. Unten sehen Sie einen Codeausschnitt, der dies veranschaulicht:
+In einem standardmäßigen OAuth-Flow im Namen des Benutzers (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). Die Anwendung muss so konfiguriert sein, dass sie Berechtigungen des Power BI-Diensts (für die erforderlichen Bereiche) erfordert. Sobald Sie ein Benutzerzugriffstoken für Ihre App haben, führen Sie mit diesem Token einen Aufruf an ADAL API AcquireTokenAsync durch und geben die Power BI-Ressourcen-URL als Ressourcen-ID an. Unten sehen Sie einen Codeausschnitt, der dies veranschaulicht:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -273,7 +273,7 @@ In der **Power BI Embedded**-Lösung wurden neue Features und Funktionen eingef�
 
 Dies sind einige dieser Features:
 * Alle Power BI-Datenquellen werden unterstützt. In **Power BI Workspace Collection** werden dagegen nur 2 Datenquellen unterstützt. 
-* Neue Features wie Q&A, Aktualisieren, Lesezeichen, Einbetten von Dashboards und Kacheln, benutzerdefiniertes Menü usw. werden nur in der Lösung **Power BI Embedded** unterstützt.
+* Neue Features wie Q&A, Aktualisieren, Lesezeichen, Einbetten von Dashboards und Kacheln, benutzerdefinierte Menüs usw. werden nur in der Lösung **Power BI Embedded** unterstützt.
 * Kapazitätsbasiertes Abrechnungsmodell.
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Tool mit Onboardingfunktionen zur Einbettung

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703004"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ Führen Sie diese Vorgänge auf dem Server aus, auf dem Office Online Server aus
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Wenn Sie Excel Online-Funktionen verwenden möchten, die auf externe Daten zugre
 1. Laden Sie Office Online Server aus dem [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) herunter. Der Download befindet sich unter diesen Office-Produkten im VLSC-Portal. Für Entwicklungszwecke können Sie OOS unter den Downloads für MSDN-Abonnenten herunterladen.
 2. Führen Sie „Setup.exe“ aus.
 3. Aktivieren Sie auf der Seite **Microsoft-Software-Lizenzbedingungen lesen** die Option **Ich stimme den Bedingungen dieser Vereinbarung zu**, und klicken Sie dann auf **Weiter**.
-4. Wählen Sie auf der Seite **Dateispeicherort auswählen** den Ordner aus, in dem die Office Online Server-Dateien installiert werden sollen (beispielsweise *C:\Programme\Microsoft Office Web Apps*), und klicken Sie auf **Jetzt installieren**. Wenn der angegebene Ordner nicht vorhanden ist, wird er von Setup automatisch erstellt.
+4. Wählen Sie auf der Seite **Dateispeicherort auswählen** den Ordner aus, in dem die Office Online Server-Dateien installiert werden sollen (beispielsweise C:\Programme\Microsoft Office Web Apps*), und klicken Sie auf **Jetzt installieren**. Wenn der angegebene Ordner nicht vorhanden ist, wird er von Setup automatisch erstellt.
 
-    **_Es wird empfohlen, Office Online Server auf dem Systemlaufwerk zu installieren._**
+    Es wird empfohlen, Office Online Server auf dem Systemlaufwerk zu installieren.
 
 5. Wenn die Installation von Office Online Server abgeschlossen ist, wählen Sie **Schließen** aus.
 
