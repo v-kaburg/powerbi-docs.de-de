@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658010"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151904"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 
@@ -279,7 +279,7 @@ Im Folgenden finden Sie eine Liste der verfügbaren Leistungsindikatoren.
 | # von Mashup-Verbindungen mit Fehlern/s |Anzahl der Mashup-Aktionen zum Öffnen einer Verbindung pro Sekunde mit Fehlern. |
 | # von ausgeführten Mashup-Abfragen/s |Anzahl der pro Sekunde ausgeführten Mashup-Abfragen (erfolgreich oder Fehler). |
 | # von Mashup-Abfragen mit Fehlern/s |Anzahl von pro Sekunde ausgeführten Mashup-Abfragen mit Fehlern |
-| Anzahl der fehlgeschlagenen OLEDB-Abfragen/s für mehrere Resultsets |Anzahl der pro Sekunde ausgeführten und fehlgeschlagenen OLEDB-Abfragen für mehrere Resultsets. |
+| Anzahl der fehlerhaften OLEDB-Abfragen/s für mehrere Resultsets |Anzahl der pro Sekunde ausgeführten und fehlgeschlagenen OLEDB-Abfragen für mehrere Resultsets. |
 | Anzahl der ausgeführten OLEDB-Abfragen/s für mehrere Resultsets |Anzahl der pro Sekunde ausgeführten OLEDB-Abfragen für mehrere Resultsets (erfolgreich oder Fehler). |
 | # von hergestellten OLEDB-Verbindungen/s |Anzahl der pro Sekunde ausgeführten OLEDB-open connection-Aktionen (erfolgreich oder Fehler). |
 | # von OLEDB-Verbindungen mit Fehlern/s |Anzahl der OLEDB-Aktionen zum Öffnen einer Verbindung pro Sekunde mit Fehlern. |
