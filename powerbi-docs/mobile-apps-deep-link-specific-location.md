@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616003"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695131"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 Sie können einen URI (Uniform Resource Identifier) erstellen und als Link zu einer bestimmten Stelle (*Deep-Link*) in den mobilen Power BI-Apps auf allen Plattformen verwenden: iOS, Android und Windows 10.
@@ -68,7 +68,7 @@ Mit diesem URI wird ein bestimmter Bericht in der mobilen Power BI-App geöffnet
 
 Um die aus 36 Zeichen bestehende Berichtsobjekt-ID zu suchen, navigieren Sie im Power BI-Dienst (https://powerbi.com) zum betreffenden Bericht. Der hervorgehobene Abschnitt dieser URL zeigt ein Beispiel:
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>Öffnen einer bestimmten Berichtsseite
 Mit diesem URI wird eine bestimmte Berichtsseite in der mobilen Power BI-App geöffnet:
@@ -79,7 +79,7 @@ Der Name der Berichtsseite lautet „ReportSection“, gefolgt von einer Zahl. �
 
 Der hervorgehobene Abschnitt dieser URL zeigt ein Beispiel:
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>Öffnen im Vollbildmodus
 Fügen Sie den Parameter in Fettschrift hinzu, um einen bestimmten Bericht im Vollbildmodus zu öffnen:
@@ -95,7 +95,7 @@ Sie können in der Zeichenfolge auch Kontext hinzufügen. Wenn Sie Kontakt zu un
 
 Der hervorgehobene Abschnitt dieser URL zeigt ein Beispiel: 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>Nächste Schritte
 Ihr Feedback hilft uns zu entscheiden, welche Features wir künftig realisieren. Geben Sie deshalb Ihr Votum ab, welche Features Sie sich in den mobilen Power BI-Apps wünschen. 
