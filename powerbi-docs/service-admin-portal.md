@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/15/2018
+ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256854"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300113"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -23,7 +23,7 @@ Das Verwaltungsportal ermöglicht die Mandantenverwaltung von Power BI in Ihrer
 
 Die Mandantenverwaltung von Power BI für Ihr Unternehmen erfolgt über das Power BI-Verwaltungsportal. Auf das Verwaltungsportal können alle Benutzer zugreifen, die globale Administratoren in Office 365 sind oder der Power BI-Dienstadministratorrolle zugewiesen wurden. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md).
 
-Für alle Benutzer wird **Verwaltungsportal** unter dem Zahnradsymbol angezeigt. Ein Benutzer, der kein Administrator ist, sieht nur den Abschnitt **Premium-Einstellungen** und nur die Kapazitäten, für die er die Berechtigung zum Verwalten hat.
+Für alle Benutzer wird unter dem Zahnradsymbol das **Verwaltungsportal** angezeigt. Ein Benutzer ohne Administratorrechte sieht nur den Abschnitt **Premium-Einstellungen** und nur die Kapazitäten, für die er Verwaltungsberechtigungen besitzt.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Gewusst wie: Anzeigen des Verwaltungsportals
 
@@ -52,7 +52,7 @@ Die erste Registerkarte im Verwaltungsportal heißt **Nutzungsmetriken**. Der Be
 > [!NOTE]
 > Beim ersten Zugriff auf das Dashboard oder beim Anzeigen des Dashboards nach einem längeren Zeitraum wird zunächst wahrscheinlich ein Ladebildschirm angezeigt, während das Dashboard geladen wird.
 
-Nachdem das Dashboard geladen wurde, werden zwei Abschnitte von Kacheln angezeigt. Der erste Abschnitt enthält Nutzungsdaten für einzelne Benutzer, und der zweite Abschnitt enthält ähnliche Informationen für die Gruppen in Ihrer Organisation.
+Nachdem das Dashboard geladen wurde, werden zwei Abschnitte mit Kacheln angezeigt. Der erste Abschnitt enthält Nutzungsdaten für einzelne Benutzer, und der zweite Abschnitt enthält ähnliche Informationen für die Gruppen in Ihrer Organisation.
 
 Im Folgenden sehen Sie, was in den einzelnen Kacheln angezeigt wird:
 
@@ -140,7 +140,7 @@ Benutzer in der Organisation können Dashboards für Benutzer außerhalb der Org
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Hier sehen Sie die Meldung, die bei der Freigabe an einen externen Benutzer angezeigt wird.
+Hier sehen Sie die Meldung, die bei der Freigabe für einen externen Benutzer angezeigt wird.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
@@ -150,13 +150,13 @@ Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere 
 
 ![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-Die Benutzer sehen auf der Benutzeroberfläche unterschiedliche Optionen, abhängig von der Einstellung zum Veröffentlichen im Web.
+Den Benutzer werden in der Benutzeroberfläche unterschiedliche Optionen angezeigt, abhängig von der Einstellung zum Veröffentlichen im Web.
 
 |Ausgewählt |Für die gesamte Organisation aktiviert |Für die gesamte Organisation deaktiviert |Bestimmte Sicherheitsgruppen   |
 |---------|---------|---------|---------|
 |**Im Web veröffentlichen** im Menü **Datei** des Berichts.|Für alle aktiviert|Nicht für alle sichtbar|Nur für autorisierte Benutzer oder Gruppen sichtbar|
 |**Einbindungscodes verwalten** unter **Einstellungen**|Für alle aktiviert|Für alle aktiviert|Für alle aktiviert<br><br>Option * **Löschen** nur für autorisierte Benutzer oder Gruppen<br>* **Codes abrufen** für alle aktiviert|
-|**Einbindungscodes** im Verwaltungsportal|Es wird einer der folgenden Status angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert|Als Status wird **Deaktiviert** angezeigt.|Es wird einer der folgenden Status angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert<br><br>Wenn ein Benutzer gemäß den Mandanteneinstellungen nicht autorisiert ist, wird als Status **Verletzt** angezeigt.|
+|**Einbindungscodes** im Verwaltungsportal|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert|Angezeigter Status **Deaktiviert**|Es wird einer der folgenden Statuswerte angezeigt:<br>* Aktiv<br>* Nicht unterstützt<br>* Blockiert<br><br>Wenn ein Benutzer gemäß den Mandanteneinstellungen nicht autorisiert ist, wird als Status **Verletzt** angezeigt.|
 |Vorhandene veröffentlichte Berichte|Alle aktiviert|Alle deaktiviert|Berichte werden weiterhin für alle gerendert.|
 
 ### <a name="export-data"></a>Daten exportieren
@@ -166,7 +166,7 @@ Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Durch Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** sowie die Liveverbindung des Power BI-Diensts verwenden können.
+> Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** sowie die Liveverbindung des Power BI-Diensts verwenden können.
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Berichte als PowerPoint-Präsentationen exportieren
 
@@ -210,16 +210,18 @@ Weitere Informationen finden Sie unter [Push apps (Übertragen von Apps mithilfe
 ## <a name="integration-settings"></a>Integrationseinstellungen
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Stellen von Fragen zu Daten mithilfe von Cortana
+
 Benutzer in der Organisation können mithilfe von Cortana Fragen zu ihren Daten stellen.
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Verwenden von In Excel analysieren mit lokalen Datasets
+
 Benutzer in der Organisation können Excel verwenden, um lokale Power BI-Datasets anzuzeigen und mit ihnen zu interagieren. [Weitere Informationen](service-analyze-in-excel.md)
 
 > [!NOTE]
-> Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** verwenden.
+> Durch das Deaktivieren von **Daten exportieren** wird außerdem verhindert, dass Benutzer das Feature **In Excel analysieren** verwenden.
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Verwenden von ArcGIS Maps for Power BI
 
@@ -230,7 +232,9 @@ Benutzer in der Organisation können die Visualisierung ArcGIS Maps for Power BI
 Benutzer in der Organisation können externe Suchfeatures verwenden, die auf Azure Search basieren. Benutzer können beispielsweise Cortana zum Abrufen wichtiger Informationen direkt aus Power BI-Dashboards und -Berichten verwenden. [Weitere Informationen](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Einstellungen für benutzerdefinierte Visuals
+
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Aktivieren benutzerdefinierter Visuals für die gesamte Organisation
+
 Benutzer in der Organisation können mit benutzerdefinierten Visuals interagieren und diese freigeben. [Weitere Informationen](power-bi-custom-visuals.md)
 
 > [!NOTE]
@@ -288,15 +292,27 @@ Benutzer in der Organisation können Dashboards mit Klassifizierungen markieren,
 
 ### <a name="embed-content-in-apps"></a>Inhalt in Apps einbetten
 
-Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-Anwendungen (Software as a Service) einbetten. Ist diese Einstellung deaktiviert, ist es Benutzern nicht möglich, die REST-APIs zu verwenden, um Power BI-Inhalt in ihre Anwendungen einzubetten.
+Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-Anwendungen (Software as a Service) einbetten. Ist diese Einstellung deaktiviert, können Benutzer die REST-APIs nicht dazu verwenden, um Power BI-Inhalt in ihre Anwendungen einzubetten.
 
 ## <a name="capacity-settings"></a>Kapazitätseinstellungen
 
-Über die Registerkarte „Kapazitätseinstellungen“ können Sie jede Power BI Premium-Kapazität verwalten, die für Ihre Organisation erworben wurde. Alle Benutzer in Ihrer Organisation sehen die Registerkarte „Premium-Einstellungen“, können deren Inhalt aber nur sehen, wenn sie entweder als **Kapazitätsadministrator** oder als Benutzer zugewiesen sind, der Zuweisungsberechtigungen hat. Hat ein Benutzer keine Berechtigungen, wird die folgende Meldung angezeigt.
+### <a name="premium-settings"></a>Premium-Einstellungen
 
-![](media/service-admin-portal/premium-settings-no-access.png "No access to Premium settings") (Kein Zugriff auf Premium-Einstellungen)
+Über die Registerkarte „Premium-Einstellungen“ können Sie jede Power BI Premium-Kapazität (EM- oder P-SKU) verwalten, die für Ihre Organisation erworben wurde. Alle Benutzer in Ihrer Organisation sehen die Registerkarte „Premium-Einstellungen“, können deren Inhalt aber nur anzeigen, wenn sie entweder als **Kapazitätsadministrator** oder als Benutzer mit Zuweisungsberechtigungen konfiguriert sind. Hat ein Benutzer keine Berechtigungen, wird die folgende Meldung angezeigt.
+
+![Power BI Premium-Administratoreinstellungen](media/service-admin-portal/premium-settings-no-access.png "Kein Zugriff auf Premium-Einstellungen")
 
 Weitere Informationen zum Verwalten von Premium-Einstellungen finden Sie unter [Verwalten von Power BI Premium](service-admin-premium-manage.md).
+
+### <a name="power-bi-embedded-settings"></a>Power BI Embedded-Einstellungen
+
+Auf der Registerkarte „Power BI Embedded-Einstellungen“ können Sie die Power BI Embedded-Kapazitäten (A-SKU) anzeigen, die Sie für Ihren Kunden erworben haben. Da es nur möglich ist, A-SKUs von Azure zu erwerben, können Sie [verwaltete Embedded-Kapazitäten in Azure](developer/azure-pbie-create-capacity.md) über das **Azure-Portal** verwalten.
+
+![Power BI Embedded-Administratoreinstellungen](media/service-admin-portal/manage-pbie-capacities-01.png)
+
+![Details zu Power BI Embedded-Administratoreinstellungen](media/service-admin-portal/manage-pbie-capacities-02.png)
+
+Weitere Informationen zum Verwalten von Power BI Embedded-Einstellungen (A-SKU) finden Sie unter [Was ist Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md).
 
 ## <a name="embed-codes"></a>Einbindungscodes
 
@@ -306,11 +322,11 @@ Als Administrator können Sie die Einbindungscodes anzeigen, die für Ihren Mand
 
 ## <a name="organization-visuals"></a>Visuals für Organisationen
 
-Durch die Registerkarte „organization visuals“ (Visuals für Organisationen) können Sie benutzerdefinierte Visuals innerhalb Ihrer Organisation bereitstellen und verwalten. Somit können Sie proprietäre benutzerdefinierte Visuals einfach in der Organisation bereitstellen, damit Berichtsautoren diese einfach ermitteln und direkt von Power BI Desktop in ihre Berichte importieren können.
- 
+Mithilfe der Registerkarte „Organisationsvisuals“ können Sie benutzerdefinierte Visuals innerhalb Ihrer Organisation bereitstellen und verwalten. Somit können Sie proprietäre benutzerdefinierte Visuals einfach in der Organisation bereitstellen, damit Berichtsautoren diese einfach ermitteln und direkt von Power BI Desktop in ihre Berichte importieren können.
+
 Die Seite zeigt alle benutzerdefinierten Visuals an, die derzeit im Repository der Organisation bereitgestellt werden.
- 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+![Verwalten von Organisationsvisuals](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Hinzufügen eines neuen benutzerdefinierten Visuals
 
@@ -320,29 +336,41 @@ Klicken Sie auf **Benutzerdefiniertes Visual hinzufügen**, um ein neues benutze
 
 > [!WARNING]
 > Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses im Repository der Organisation bereitstellen.
-> 
 
 Füllen Sie folgende Felder aus:
- 
+
 * Auswählen einer PBIVIZ-Datei (erforderlich): Wählen Sie eine benutzerdefinierte Visualdatei für den Upload aus. Nur benutzerdefinierte Visuals mit API-Versionsangabe werden unterstützt (lesen Sie hier nach, was dies bedeutet).
+
 Bevor Sie ein benutzerdefiniertes Visual hochladen, sollten Sie dieses auf Sicherheit und Datenschutz überprüfen, um sicherzustellen, dass das Visual die Standards Ihrer Organisation erfüllt. Holen Sie weitere Informationen zur Sicherheit von benutzerdefinierten Visuals ein.
- 
+
 * Benennen Ihrer benutzerdefinierten Visuals (erforderlich): Geben Sie dem Visual einen kurzen Titel, damit die Benutzer von Power BI Desktop dessen Zweck leichter nachvollziehen können.
- 
-* Symbol (erforderlich): die Symboldatei, die in der Benutzeroberfläche von Power BI Desktop angezeigt wird
- 
+
+* Symbol (erforderlich): Die Symboldatei, die in der Benutzeroberfläche von Power BI Desktop angezeigt wird.
+
 * Beschreibung: eine kurze Beschreibung des Visuals, um den Benutzern zusätzlichen Kontext bereitzustellen
- 
-Klicken Sie auf „Anwenden“, um die Uploadanforderung zu initiieren. Wenn der Upload erfolgreich ist, wird das neue Element in der Liste angezeigt. Wenn nicht, erhalten Sie eine entsprechende Fehlermeldung.
- 
+
+Klicken Sie auf „Anwenden“, um die Uploadanforderung zu initiieren. Wenn der Upload erfolgreich ist, wird das neue Element in der Liste angezeigt. Ist der Vorgang nicht erfolgreich, erhalten Sie eine entsprechende Fehlermeldung.
+
 ### <a name="delete-a-custom-visual-from-the-list"></a>Löschen eines benutzerdefinierten Visuals aus der Liste
 
 Klicken Sie auf das Papierkorbsymbol, um das Visual dauerhaft aus dem Repository zu löschen.
-Wichtig: Der Löschvorgang ist nicht umkehrbar. Sobald das Visual gelöscht wurde, wird dessen Rendern in vorhandenen Berichten sofort beendet. Wenn Sie dasselbe Visual erneut hochladen, wird dieses nicht das vorherige ersetzen, das gelöscht wurde. Die Benutzer müssen das neue Visual erneut importieren und die Instanz ersetzen, die in deren Berichten vorhanden ist.
- 
+Wichtig: Der Löschvorgang ist nicht umkehrbar. Sobald das Visual gelöscht wurde, wird es in vorhandenen Berichten nicht mehr gerendert. Wenn Sie dasselbe Visual erneut hochladen, ersetzt dieses nicht das vorherige Visual, das gelöscht wurde. Die Benutzer können das neue Visual importieren und die Instanz ersetzen, die in ihren Berichten vorhanden ist.
+
+### <a name="disable-a-custom-visual-in-the-list"></a>Deaktivieren eines benutzerdefinierten Visuals in der Liste
+
+Um das Visual im Organisationsspeicher zu deaktivieren, wählen Sie das Zahnradsymbol aus. Deaktivieren Sie das benutzerdefinierte Visual im Abschnitt **Zugriff**.
+
+Nachdem Sie das Visual deaktiviert haben, wird es in vorhandenen Berichten nicht mehr gerendert, und es wird die nachstehende Fehlermeldung angezeigt.
+
+*Dieses benutzerdefinierte Visual ist nicht mehr verfügbar. Wenden Sie sich an Ihren Administrator, um Einzelheiten zu erfahren.*
+
+Visuals, für die ein Lesezeichen festgelegt wurde, funktionieren jedoch weiterhin.
+
+Power BI Desktop-Benutzer müssen die Anwendung nach einem Update oder einer Administratoränderung neu starten oder den Browser im Power BI-Dienst aktualisieren, um die Aktualisierungen anzuzeigen.
+
 ### <a name="how-to-update-a-visual"></a>Aktualisieren eines Visuals
 
-Wenn Sie ein Visual im Repository aktualisieren möchten, weil es eine neue Version des Visuals gibt (z.B. Fehlerkorrekturen, neue Funktionen usw.), wählen Sie das Symbol **Aktualisieren**, und laden Sie die neue Datei hoch. Stellen Sie sicher, dass die Visual-ID unverändert bleibt. Die neue Datei ersetzt die vorherige Datei für alle Berichte in der gesamten Organisation. Wenn jedoch die neue Version des Visuals irgendeine Verwendung oder Datenstruktur der vorherigen Version des Visuals beeinträchtigen könnte, ersetzen Sie die vorherige Version nicht. Stattdessen sollten Sie einen neuen Eintrag für die neue Version des Visuals erstellen. Fügen Sie beispielsweise eine neue Versionsnummer (Version X.X) zum Titel des neuen gelisteten Visuals hinzu. Auf diese Weise wird deutlich, dass es sich nur um das gleiche Visual mit einer aktualisierten Versionsnummer handelt, sodass die Funktionalität bestehender Berichte nicht beeinträchtigt wird. Stellen Sie erneut sicher, dass die Visual-ID unverändert bleibt. Wenn die Benutzer dann das Repository der Organisation das nächste Mal über Power BI Desktop verwenden, können diese die neue Version importieren. Diese wird sie dazu auffordern, die aktuelle Version zu ersetzen, die sich im Bericht befindet.
+Wenn Sie ein Visual im Repository aktualisieren möchten, weil es eine neue Version des Visuals gibt (z.B. Fehlerkorrekturen, neue Funktionen usw.), wählen Sie das Symbol **Aktualisieren**, und laden Sie die neue Datei hoch. Stellen Sie sicher, dass die Visual-ID unverändert bleibt. Die neue Datei ersetzt die vorherige Datei für alle Berichte in der gesamten Organisation. Wenn jedoch die neue Version des Visuals irgendeine Verwendung oder Datenstruktur der vorherigen Version des Visuals beeinträchtigen könnte, ersetzen Sie die vorherige Version nicht. Stattdessen sollten Sie einen neuen Eintrag für die neue Version des Visuals erstellen. Fügen Sie beispielsweise eine neue Versionsnummer (Version X.X) zum Titel des neuen gelisteten Visuals hinzu. Auf diese Weise wird deutlich, dass es sich nur um das gleiche Visual mit einer aktualisierten Versionsnummer handelt, sodass die Funktionalität bestehender Berichte nicht beeinträchtigt wird. Stellen Sie erneut sicher, dass die Visual-ID unverändert bleibt. Wenn die Benutzer das Repository der Organisation das nächste Mal über Power BI Desktop verwenden, können sie die neue Version importieren. Sie werden in diesem Fall aufgefordert, die aktuelle Version zu ersetzen, die sich im Bericht befindet.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

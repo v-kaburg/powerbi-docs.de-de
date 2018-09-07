@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924790"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250771"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 Hier erfahren Sie, wie Sie Power BI Premium- und Power BI Embedded-Kapazitäten verwalten können, um dedizierte Ressourcen für Ihre Inhalte bereitzustellen.
@@ -163,33 +163,8 @@ Sobald Sie die Änderungen speichern, wird der Arbeitsbereich mitsamt seinen Inh
 
 
 ## <a name="monitor-capacity-usage"></a>Überwachen der Kapazitätsnutzung
-Für jede Kapazität werden Nutzungsmessungen für „CPU“, „Speicherauslastung“, „Speicherüberlastung“ und „Direkte Abfrage“ angezeigt. Wir empfehlen, diese Metriken im Auge zu behalten, um sicherzustellen, dass Ihre Benutzer eine gute Leistung für Ihre Kapazität erhalten:
 
-![Nutzung in den letzten sieben Tagen](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Die Power BI Embedded-Kapazitätsauslastung wird im Azure-Portal überwacht.
-
-| Metrik | Beschreibung |
-| --- | --- |
-| CPU |Häufigkeit, mit der die CPU eine Auslastung von 80 % überschritten hat. |
-| Speicherüberlastung |Zeigt die Speicherauslastung Ihrer Back-End-Kerne. Dies ist insbesondere eine Metrik dazu, wie oft Datasets aufgrund hoher Speicherauslastung bei Verwenden mehrerer Datasets aus dem Arbeitsspeicher entfernt werden. |
-| Memory Usage |Durchschnittliche Arbeitsspeicherauslastung in Gigabytes (GB). |
-| DQ/s | Häufigkeit, mit der die Anzahl von „Direkte Abfrage“- und Liveverbindungen 80 % des Grenzwerts überschritten hat. <br> <br> * Die Gesamtzahl von Abfragen mit DirectQuery und Liveverbindungen pro Sekunde ist eingeschränkt.<br><br>* Die Grenzwerte betragen 30/s für P1, 60/s für P2 und 120/s für P3.<br><br> * Die Anzahl von Abfragen des Typs „Direkte Abfrage“ und „Liveverbindung“ werden zur Drosselung hinzu gerechnet. Wenn Sie z.B. 15 direkte Abfragen und 15 Liveverbindungen in einer Sekunde haben, ist die Begrenzung erreicht.<br/><br>* Dies gilt sowohl für lokale als auch Cloudverbindungen. |
-
-Metriken spiegeln die Auslastung in der letzten Woche wider.  Wenn Sie eine detailliertere Ansicht der Metriken wünschen, können Sie dies tun, indem Sie auf eine der Zusammenfassungskacheln klicken.  Sie gelangen zu detaillierten Diagrammen für jede der Metriken für Ihre Premium-Kapazität.  Diese Diagramme sind für die letzte Woche stündlich zusammengefasst und können Ihnen helfen zu ermitteln, wann bestimmte leistungsbezogene Ereignisse in Ihrer Premium-Kapazität aufgetreten sind.  
-
-![Ausführlicher Nutzungsdiagramm zur CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Ausführlicher Nutzungsdiagramm zur Speicherüberlastung](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Ausführlicher Nutzungsdiagramm zur Speichergröße](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Ausführlicher Nutzungsdiagramm zur Speicherüberlastung](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Sie können auch die für jede der Metriken zugrunde liegenden Daten in eine CSV-Datei exportieren.  Dieser Export liefert Ihnen im Drei-Minuten-Takt detaillierte Informationen für jeden Tag der vergangenen Woche.
+Power BI stellt eine App zum Überwachen der Kapazitätsnutzung bereit. Weitere Informationen finden Sie unter [Überwachen von Power BI Premium-Kapazitäten in Ihrer Organisation](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>So sieht Premium für Benutzer aus
 Meistens ist es nicht vonnöten, dass Benutzern überhaupt bewusst ist, dass sie sich in einer Premium-Kapazität befinden. Die Dashboards und Berichte der Benutzer funktionieren einfach wie gewohnt. Arbeitsbereiche, die sich in einer Premium-Kapazität befinden, sind durch ein Diamantsymbol optisch markiert.

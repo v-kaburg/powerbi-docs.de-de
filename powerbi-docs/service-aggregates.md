@@ -2,20 +2,20 @@
 title: Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Visualisierungen
 description: Ändern der Aggregation in einem Diagramm (Summe, Mittelwert, Maximum usw.) in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247594"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241543"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Aggregate in Power BI-Visualisierungen
 ## <a name="what-is-an-aggregate"></a>Was ist ein Aggregat?
@@ -26,7 +26,7 @@ Wenn im Power BI-Dienst und Power BI Desktop Visualisierungen erstellt werden, k
 Betrachten wir zunächst die *Datentypen*, da der Typ der Daten bestimmt, ob und wie sie aggregiert werden können.
 
 ## <a name="types-of-data"></a>Datentypen
-Die meisten Datasets enthalten mehr als einen Datentyp. Grundsätzlich sind die Daten entweder numerisch oder nicht numerisch. Numerische Daten können als Summe, Durchschnittswert, Anzahl, Mindestwert, Varianz usw. aggregiert werden. Sogar Textdaten, häufig als *Kategoriedaten* bezeichnet, können aggregiert werden. Wenn Sie Kategoriefelder aggregieren (indem Sie sie in einem rein numerischen Bucket wie **Werte** oder **QuickInfos** platzieren), ermittelt Power BI die Vorkommen oder die eindeutigen Vorkommen der einzelnen Kategorien. Für bestimmte Arten von Daten, wie Datumsangaben, gibt es eigene Aggregatsoptionen: früheste, letzte, erste und letzte. 
+Die meisten Datasets enthalten mehr als einen Datentyp. Grundsätzlich sind die Daten entweder numerisch oder nicht numerisch. Numerische Daten können als Summe, Durchschnittswert, Anzahl, Mindestwert, Varianz usw. aggregiert werden. Sogar Textdaten, häufig als *Kategoriedaten* bezeichnet, können aggregiert werden. Wenn Sie ein Kategoriefeld aggregieren (indem Sie es in einem rein numerischen Bucket wie **Werte** oder **QuickInfos** platzieren), ermittelt Power BI die Vorkommen oder die eindeutigen Vorkommen der einzelnen Kategorien. Für bestimmte Arten von Daten, wie Datumsangaben, gibt es eigene Aggregatsoptionen: früheste, letzte, erste und letzte. 
 
 Betrachten Sie folgendes Beispiel:
 - **Units Sold** und **Manufacturing Price** sind Spalten mit numerischen Daten.
@@ -129,7 +129,7 @@ A: Das ausgewählte Feld ist wahrscheinlich ein berechnetes oder erweitertes Mea
 
 F: Mein Feld **ist** numerisch. Warum stehen mir nur die Optionen **Count** und **Distinct Count** zur Verfügung?
 
-A1: Wahrscheinlich hat der Besitzer des Datasets das Feld (versehentlich oder absichtlich) *nicht* als Zahl klassifiziert. Wenn beispielsweise ein Dataset das Feld **Jahr** enthält, wurde es vom Besitzer des Datasets eventuell als Text kategorisiert, da die Wahrscheinlichkeit höher ist, dass der Inhalt des Felds **Jahr** gezählt (z. B. die Anzahl der 1974 geborenen Personen) wird, als dass sein Inhalt addiert oder sein Mittelwert berechnet wird. Als Besitzer können Sie das Dataset in Power BI Desktop öffnen und auf der Registerkarte **Modellierung** den Datentyp ändern.  
+A1: Wahrscheinlich hat der Besitzer des Datasets das Feld (versehentlich oder absichtlich) *nicht* als Zahl klassifiziert. Wenn beispielsweise ein Dataset das Feld **Jahr** enthält, wurde es vom Besitzer des Datasets eventuell als Text kategorisiert, da die Wahrscheinlichkeit höher ist, dass der Inhalt des Felds **Jahr** gezählt (z.B. die Anzahl der 1974 geborenen Personen) wird, als dass sein Inhalt addiert oder sein Mittelwert berechnet wird. Als Besitzer können Sie das Dataset in Power BI Desktop öffnen und auf der Registerkarte **Modellierung** den Datentyp ändern.  
 
 A2: Wenn das Feld mit einem Rechnersymbol gekennzeichnet ist, handelt es sich um ein *berechnetes Measure*. Jedes berechnete Measure verfügt über eine eigene hartcodierte Formel, die nur vom Besitzer eines Datasets geändert werden kann. Bei der verwendeten Berechnung kann es sich um eine einfache Aggregation wie einen Mittelwert oder eine Summe handeln, aber auch kompliziertere Aggregationen wie „prozentualer Anteil an einer übergeordneten Kategorie“ oder „laufende Summe seit Jahresbeginn“ sind möglich. Power BI bildet keine Summe und keinen Mittelwert für die Ergebnisse, sondern führt stattdessen lediglich eine Neuberechnung für die einzelnen Datenpunkte durch (unter Verwendung der hartcodierten Formel).
 
@@ -139,6 +139,10 @@ A4: Dritte Möglichkeit: Das Feld wird für eine Achse verwendet. Auf der Achse 
 
 >[!NOTE]
 >Eine Ausnahme sind Punktdiagramme, bei denen aggregierte Werte für die X- und Y-Achse *erforderlich* sind.
+
+F: Warum kann ich keine Textfelder für SSAS-Datenquellen aggregieren?
+
+A: Liveverbindungen mit SSAS MD lassen eine clientseitige Aggregation nicht zu. Dies schließt „Erste“, „Letzte“, „Mittelwert“, „Minimum“, „Maximum“ und „Summe“ ein.
 
 F: Ich habe ein Punktdiagramm und möchte *nicht*, dass mein Feld aggregiert wird.  Wie kann ich das erreichen?
 

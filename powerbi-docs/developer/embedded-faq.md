@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 935932e92e5d95ae52957bf1360db8d2232286ad
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42702958"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241520"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -70,7 +70,7 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 | Power BI-Berichte in einer Embedded-Anwendung nutzen | Ja | Ja | Ja |
 | Power BI-Berichte in SharePoint nutzen | Nein | Ja | Ja |
 | Power BI-Berichte in Dynamics nutzen | Nein | Ja | Ja |
-| Power BI-Berichte in Teams nutzen (nur Desktop-App) | Nein | Ja | Ja |
+| Power BI-Berichte in Teams nutzen (keine mobile App) | Nein | Ja | Ja |
 | Mit einer kostenlosen Power BI-Lizenz auf Inhalte unter Powerbi.com und Power BI Mobile zugreifen | Nein | Nein | Ja |
 | Mit einer kostenlosen Power BI-Lizenz auf in Microsoft Office-Apps eingebettete Inhalte zugreifen | Nein | Ja | Ja |
 
@@ -78,13 +78,13 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Purchase     |Azure-Portal |Office |Office |
-|Anwendungsfälle |* Einbetten von Inhalten in Ihre eigene Anwendung |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in andere MS Office-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (nur Desktop-App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Einbetten von Inhalten in Ihre eigene Anwendung<br>* Einbetten von Inhalten in andere MS Office-Anwendungen ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams (nur Desktop-App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/en-us/)  |
+|Purchase  |Azure-Portal |Office |Office |
+|Anwendungsfälle | Einbetten von Inhalten in Ihre eigene Anwendung | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br></br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br></br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/en-us/)  |
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
-|Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit der Einbettung von Inhalten in SharePoint Online und Microsoft Teams (nur Desktop-App) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
+|Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit zum Einbetten von Inhalten in SharePoint Online und Microsoft Teams (keine mobile App) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure? 
 
 * Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (MSA-Konten werden nicht unterstützt).
 * Sie müssen über einen Power BI-Mandanten verfügen, d.h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 
@@ -133,7 +133,7 @@ Ja, es gibt PowerShell-Cmdlets und Azure Resource Manager-APIs (ARM), mit denen 
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Was ist die Power BI Embedded-Rolle „Dedizierte Kapazität“ in einer Power BI Embedded-Lösung?
 
-Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (der App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer dedizierten Kapazität zugewiesen werden.
+Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (der App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer Power BI Embedded-Kapazität (A-SKU) zugewiesen werden.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>In welchen Azure-Regionen ist Power BI Embedded verfügbar?
 

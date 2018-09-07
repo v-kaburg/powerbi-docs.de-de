@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298180"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300136"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Inkrementelle Aktualisierung in Power BI Premium
 
@@ -43,6 +43,12 @@ Große Datasets mit potenziell Milliarden von Zeilen werden möglicherweise von 
 
 Um die inkrementelle Aktualisierung im Power BI-Dienst zu nutzen, muss die Filterung unter Verwendung von Datums- und Uhrzeitparametern von Power Query mit den reservierten Namen **RangeStart** und **RangeEnd** mit Berücksichtigung von Groß- und Kleinschreibung erfolgen.
 
+Nach Veröffentlichung werden die Parameterwerte vom BI-Dienst automatisch überschrieben. Eine Festlegung in den Dataseteinstellungen des Diensts ist nicht erforderlich.
+ 
+Es ist wichtig, dass der Filter per Push an das Quellsystem übertragen wird, wenn Abfragen für Aktualisierungsvorgänge übermittelt werden. Dies bedeutet, dass die Datenquelle die „Abfragefaltung“ unterstützen muss. In Anbetracht der unterschiedlichen Unterstützungsebenen der Abfragefaltung für jede Datenquelle sollten Sie sicherstellen, dass die Filterlogik in den Quellabfragen eingeschlossen wurde. Andernfalls werden durch jede Abfrage sämtliche Daten aus der Quelle angefordert, was dem Ziel der inkrementellen Aktualisierung widerspricht.
+ 
+Der Filter wird verwendet, um die Daten im Power BI-Dienst in Bereiche zu partitionieren. Er ist nicht darauf ausgelegt, die Aktualisierung der Spalte mit dem Filterdatum zu unterstützen. Eine Aktualisierung wird als ein Einfügevorgang und ein Löschvorgang interpretiert (nicht als Aktualisierung). Wenn der Löschvorgang im historischen Bereich und nicht im inkrementellen Bereich erfolgt, wird er nicht berücksichtigt.
+
 Wählen Sie im Power Query-Editor **Parameter verwalten** aus, um die Parameter mit Standardwerten zu definieren.
 
 ![Parameter verwalten](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Stellen Sie sicher, dass Zeilen gefiltert werden, bei denen der Spaltenwert *nac
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Wählen Sie im Power Query-Editor **Schließen und übernehmen** aus. Eine Teilmenge des Datasets sollte in Power BI Desktop vorhanden sein.
-
-> [!NOTE]
-> Nach Veröffentlichung werden die Parameterwerte vom BI-Dienst automatisch überschrieben. Sie müssen nicht in den Dataseteinstellungen festgelegt werden.
 
 ### <a name="define-the-refresh-policy"></a>Definieren der Aktualisierungsrichtlinie
 
@@ -102,9 +105,11 @@ Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da alle 5 Jahre
 
 **Die Definition dieser Bereiche reicht ggf. schon aus. In diesem Fall können Sie direkt zum folgenden Veröffentlichungsschritt übergehen. Die zusätzlichen Dropdownlisten sind für erweiterte Funktionen vorgesehen.**
 
+### <a name="advanced-policy-options"></a>Erweiterte Richtlinienoptionen
+
 #### <a name="detect-data-changes"></a>Erkennen von Datenänderungen
 
-Eine inkrementelle Aktualisierung der Daten von 10 Tagen ist naturgemäß viel effizienter als eine vollständige Aktualisierung von 5 Jahren. Aber möglicherweise geht es noch besser. Wenn Sie das Kontrollkästchen **Datenänderungen erkennen** aktivieren, können Sie eine Datum-/Uhrzeit-Spalte auswählen, um nur die Tage zu bestimmen und zu aktualisieren, an denen sich die Daten geändert haben. Dies setzt voraus, dass eine solche Spalte im Quellsystem vorhanden ist, die typischerweise zu Prüfzwecken dient. Der Maximalwert dieser Spalte wird für jeden der Zeiträume im Inkrementbereich ausgewertet. Wenn sie sich seit der letzten Aktualisierung nicht geändert hat, muss der Zeitraum nicht aktualisiert werden. Im Beispiel kann dies die Anzahl der Tage, die inkrementell aktualisiert werden, von 10 auf vielleicht 2 weiter verringern.
+Eine inkrementelle Aktualisierung der Daten von 10 Tagen ist naturgemäß viel effizienter als eine vollständige Aktualisierung von 5 Jahren. Aber möglicherweise geht es noch besser. Wenn Sie das Kontrollkästchen **Datenänderungen erkennen** aktivieren, können Sie eine Datum-/Uhrzeit-Spalte auswählen, um nur die Tage zu bestimmen und zu aktualisieren, an denen sich die Daten geändert haben. Dies setzt voraus, dass eine solche Spalte im Quellsystem vorhanden ist, die typischerweise zu Prüfzwecken dient. **Hierbei darf es sich nicht um dieselbe Spalte handeln, die zum Partitionieren der Daten mit den RangeStart/RangeEnd-Parametern verwendet wird.** Der Maximalwert dieser Spalte wird für jeden der Zeiträume im Inkrementbereich ausgewertet. Wenn sie sich seit der letzten Aktualisierung nicht geändert hat, muss der Zeitraum nicht aktualisiert werden. Im Beispiel kann dies die Anzahl der Tage, die inkrementell aktualisiert werden, von 10 auf vielleicht 2 weiter verringern.
 
 ![Änderungen erkennen](media/service-premium-incremental-refresh/detect-changes.png)
 

@@ -2,20 +2,20 @@
 title: Verwenden von Dashboarddesigns im Power BI-Dienst
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Farbpalette verwenden und auf das gesamte Dashboard im Power BI-Dienst anwenden können.
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944650"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241474"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Verwenden von Dashboarddesigns im Power BI-Dienst
 Mit **Dashboarddesigns** können Sie einem Dashboard ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Dashboarddesigns** zuweisen, verwenden alle Visualisierungen des Dashboards die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -46,7 +46,7 @@ Das Standarddesign für Power BI-Dashboards ist **Hell**. Wenn Sie die Farben an
 
 ![„Benutzerdefiniert“ im Dropdownmenü wählen](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-Erstellen Sie anhand der benutzerdefinierten Optionen Ihr eigenes Dashboarddesign. Wenn Sie ein Hintergrundbild hinzufügen möchten, wird empfohlen, dass dieses mindestens eine Auflösung von 1920×1080 aufweist.  
+Erstellen Sie anhand der benutzerdefinierten Optionen Ihr eigenes Dashboarddesign. Wenn Sie ein Hintergrundbild hinzufügen möchten, wird empfohlen, dass dieses mindestens eine Auflösung von 1920×1080 aufweist. Um ein Bild als Hintergrund zu verwenden, laden Sie das Bild auf eine öffentliche Website hoch, kopieren Sie die URL, und fügen Sie sie in das Feld **Bild-URL** ein. 
 
 ### <a name="using-json-themes"></a>Verwenden von JSON-Designs
 Alternativ können Sie ein benutzerdefiniertes Design erstellen, indem Sie eine JSON-Datei hochladen, in der die Einstellungen für alle Farben, die Sie auf Ihrem Dashboard verwenden möchten, enthalten sind. In Power BI Desktop verwenden Berichtsersteller JSON-Dateien, um [Designs für Berichte zu erstellen](desktop-report-themes.md). Die gleichen JSON-Dateien können für Dashboards hochgeladen werden, oder Sie können den [Designkatalog](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) in der Power BI-Community durchsuchen und JSON-Dateien von dort hochladen. 

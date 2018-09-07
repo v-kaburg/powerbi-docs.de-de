@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360293"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300044"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Erstellen einer Power BI Embedded-Kapazität im Azure-Portal
 
@@ -25,7 +25,7 @@ Wenn Sie kein Azure-Abonnement haben, erstellen Sie ein [kostenloses Konto](http
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
-## <a name="before-you-begin"></a>Vorbereitende Schritte
+## <a name="before-you-begin"></a>Vorbereitung
 
 Für diesen Schnellstart benötigen Sie Folgendes:
 
@@ -54,7 +54,7 @@ Für diesen Schnellstart benötigen Sie Folgendes:
     |**Abonnement**|Das Abonnement, für das Sie die Kapazität erstellen möchten.|
     |**Ressourcengruppe**|Die Ressourcengruppe, die die neue Kapazität enthält. Wählen Sie eine vorhandene Ressourcengruppe aus, oder erstellen Sie eine neue. Weitere Informationen finden Sie unter [Übersicht über Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Power BI-Kapazitätsadministrator**|Power BI-Kapazitätsadministratoren können die Kapazität im Power BI-Verwaltungsportal ansehen und anderen Benutzern Zuweisungsberechtigungen erteilen. Standardmäßig ist der Kapazitätsadministrator Ihr Konto. Der Kapazitätsadministrator muss sich in Ihrem Power BI-Mandanten befinden.|
-    |**Speicherort**|Der Speicherort, an dem Power BI für Ihren Mandanten gehostet wird. Diese Einstellung wird automatisch aufgelöst. Es ist nicht möglich, einen anderen Speicherort auszuwählen.|
+    |**Standort**|Der Standort, an dem Power BI für Ihren Mandanten gehostet wird. Der standardmäßige Standort ist Ihre Heimatregion, aber Sie können den Standort über die [Multi-Geo-Optionen](embedded-multi-geo.md) ändern.
     |**Tarif**|Wählen Sie die SKU aus (Anzahl von V-Kernen und Arbeitsspeichergröße), die Ihren Anforderungen entspricht.  Weitere Informationen finden Sie unter [Power BI Embedded – Preise](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
 6. Wählen Sie **Erstellen** aus.

@@ -2,19 +2,19 @@
 title: Problembehandlung bei Embedded-Anwendungen
 description: In diesem Artikel werden einige häufige Probleme erläutert, die beim Einbetten von Inhalten aus Power BI auftreten können.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/09/2018
-ms.author: maghan
-ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 08/31/2018
+ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877022"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241566"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -24,7 +24,7 @@ In diesem Artikel werden einige häufige Probleme erläutert, die beim Einbetten
 
 ### <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann.  Sie können den Datenaustausch zwischen den Power BI-APIs und dem Clientcomputer verfolgen. So können Sie Fehler und ähnliche Informationen anzeigen.
+[Fiddler](http://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann.  Sie können den Datenverkehr zwischen den Power BI-APIs und dem Clientcomputer verfolgen. So können Sie Fehler und ähnliche Informationen anzeigen.
 
 ![Ablaufverfolgung mit Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
 
@@ -38,7 +38,7 @@ F12 startet das Entwicklerfenster im Browser. Dies ermöglicht es, den Netzwerkd
 
 Dieser Codeausschnitt veranschaulicht, wie Sie die Fehlerdetails aus der HTTP-Ausnahme extrahieren:
 
-```
+```csharp
 public static string GetExceptionText(this HttpOperationException exc)
 {
     var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
@@ -52,14 +52,15 @@ public static string GetExceptionText(this HttpOperationException exc)
     return errorText;
 }
 ```
-Es wird empfohlen, die Anforderungs-IDs (und die Fehlerdetails für die Problembehandlung) zu protokollieren.
-Bitte geben Sie die Anforderungs-ID an, wenn Sie sich an den Microsoft-Support wenden.
+
+Es wird empfohlen, die Anforderungs-ID (und die Fehlerdetails für die Problembehandlung) zu protokollieren.
+Geben Sie die Anforderungs-ID an, wenn Sie sich an den Microsoft-Support wenden.
 
 ## <a name="app-registration"></a>App-Registrierung
 
 **Fehler bei der App-Registrierung**
 
-In Fehlermeldungen im Azure-Portal oder auf der Registrierungsseite für die Power BI-App werden nicht ausreichende Berechtigungen erwähnt. Um eine Anwendung zu registrieren, müssen Sie Administrator im Azure AD-Mandanten sein oder Anwendungsregistrierungen müssen für Benutzer ohne Administratorrechte aktiviert sein.
+In Fehlermeldungen im Azure-Portal oder auf der Registrierungsseite für die Power BI-App wird auf unzureichende Berechtigungen hingewiesen. Um eine Anwendung zu registrieren, müssen Sie als Administrator im Azure AD-Mandanten fungieren, oder die Anwendungsregistrierung muss für Nicht-Administratorbenutzer aktiviert sein.
 
 **Power BI-Dienst wird beim Registrieren einer neuen App im Azure-Portal nicht aufgeführt**
 
@@ -75,7 +76,7 @@ Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführ
 
 Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführt werden. Ein Fehler 403 kann verschiedene Ursachen haben.
 
-* Die Benutzer haben die Anzahl der Einbettungstoken überschritten, die mit einer gemeinsam genutzten Kapazität generiert werden können. Sie müssen weitere Azure-Kapazitäten erwerben und den Arbeitsbereich dieser Kapazität zuweisen, um weitere Einbettungstoken generieren zu können. Weitere Informationen finden Sie unter [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* Der Benutzer hat die Anzahl von Einbettungstoken überschritten, die mit einer gemeinsam genutzten Kapazität generiert werden können. Sie müssen weitere Azure-Kapazitäten erwerben und den Arbeitsbereich dieser Kapazität zuweisen, um weitere Einbettungstoken generieren zu können. Weitere Informationen finden Sie unter [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Das Azure AD-Auth-Token ist abgelaufen.
 * Der authentifizierte Benutzer ist kein Mitglied der Gruppe (App-Arbeitsbereich).
 * Der authentifizierte Benutzer ist kein Administrator der Gruppe (App-Arbeitsbereich).
@@ -100,9 +101,9 @@ Das Back-End der Anwendung muss das Auth-Token möglicherweise vor dem Aufrufen 
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Authentifizierung schlägt mit AADSTS70002 oder AADSTS50053 fehl
 
-**(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: You've tried to sign in too many times with an incorrect user ID or password (Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.))**
+**(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)**
 
-Wenn Sie Power BI Embedded verwenden und die direkte Authentifizierung mit Azure AD einsetzen, erhalten Sie beim Anmelden Meldungen wie die folgende: ***error:unauthorized_client,error_description:AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einer falschen Benutzer-ID oder einem falschen Kennwort anzumelden***. Das liegt daran, dass die direkte Authentifizierung am 14.6.2018 standardmäßig deaktiviert wurde.
+Wenn Sie Power BI Embedded verwenden und die direkte Authentifizierung mit Azure AD einsetzen, erhalten Sie beim Anmelden Meldungen wie die folgende: ***error:unauthorized_client,error_description:AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einer falschen Benutzer-ID oder einem falschen Kennwort anzumelden***. Dies liegt daran, dass die direkte Authentifizierung am 14.6.2018 standardmäßig deaktiviert wurde.
 
 Es gibt die Möglichkeit, dies zu reaktivieren, indem Sie eine [Azure AD-Richtlinie](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) verwenden, die für die Organisation oder einen [Dienstprinzipal](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) gelten kann.
 
@@ -153,7 +154,7 @@ Um den Fehler zu ermitteln, versuchen Sie Folgendes:
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: The grant requires admin permission (Das Gewähren erfordert Administratorberechtigung)
 
 **_Symptome:_**</br>
-Wenn ein Benutzer, der kein Administrator ist, versucht, sich zum ersten Mal bei einer Anwendung anzumelden und Einwilligung zu gewähren, erhält er den folgenden Fehler:
+Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei einer Anwendung anzumelden und seine Einwilligung zu erteilen, erhält er den folgenden Fehler:
 * ConsentTest benötigt Berechtigung zum Zugriff auf Ressourcen in Ihrer Organisation, die nur ein Administrator gewähren kann. Bitten Sie einen Administrator, der App diese Berechtigungen zu erteilen, bevor Sie sie verwenden.
 * AADSTS90094: The grant requires admin permission (Das Gewähren erfordert Administratorberechtigung)
 
@@ -167,18 +168,18 @@ Das Einwilligen des Benutzers ist für den Mandanten deaktiviert.
 **_Es gibt mehrere Lösungen:_**
 
 *Aktivieren Sie die Benutzereinwilligung für den gesamten Mandanten (alle Benutzer, alle Anwendung)*
-1. Navigieren Sie im Azure-Portal zu „Azure Active Directory > Benutzer und Gruppen > Benutzereinstellungen“.
+1. Navigieren Sie im Azure-Portal zu „Azure Active Directory“ > „Benutzer und Gruppen“ > „Benutzereinstellungen“.
 2. Aktivieren Sie die Option „Benutzer können Apps den Zugriff auf Unternehmensdaten in ihrem Namen gestatten“, und speichern Sie die Änderungen.
 
     ![Lösung ConsentTest](media/embedded-troubleshoot/consent-test-02.png)
 
-*Gewähren von Berechtigungen durch Administrator* Gewähren von Berechtigungen für die Anwendung durch einen Administrator, entweder für den gesamten Mandanten oder für einen bestimmten Benutzer.
+*Gewähren von Berechtigungen durch einen Administrator* Gewähren Sie Berechtigungen für die Anwendung durch einen Administrator, entweder für den gesamten Mandanten oder für einen bestimmten Benutzer.
 
 ## <a name="data-sources"></a>Datenquellen
 
 **ISV möchte unterschiedliche Anmeldeinformationen für die gleiche Datenquelle verwenden**
 
-Eine Datenquelle kann für einen Masterbenutzer eine einzelne Kombination von Anmeldeinformation besitzen. Wenn Sie verschiedene Anmeldeinformationen verwenden möchten, erstellen Sie zusätzliche Masterbenutzer. Anschließend weisen Sie die anderen Anmeldeinformationen im Kontext jedes einzelnen Masterbenutzer zu, und betten sie mit dem Azure AD-Token des entsprechenden Benutzers ein.
+Eine Datenquelle kann für einen Masterbenutzer eine einzelne Kombination von Anmeldeinformation besitzen. Wenn Sie verschiedene Anmeldeinformationen verwenden möchten, erstellen Sie zusätzliche Masterbenutzer. Anschließend weisen Sie die anderen Anmeldeinformationen im Kontext jedes einzelnen Masterbenutzer zu und betten sie mit dem Azure AD-Token des entsprechenden Benutzers ein.
 
 ## <a name="content-rendering"></a>Inhaltsrendering
 
@@ -193,6 +194,40 @@ Wenn der Benutzer den Bericht oder das Dashboard nicht finden kann, stellen Sie 
 **Bericht oder Dashboard reagiert langsam**
 
 Öffnen Sie die Datei in Power BI Desktop oder auf powerbi.com, und vergewissern Sie sich, dass die Leistung zufriedenstellend ist, um Probleme in Ihrer Anwendung oder mit den Einbettungs-APIs auszuschließen.
+
+## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>Problembehandlung bei Embedded-Anwendungen mit dem IError-Objekt
+
+Verwenden Sie das [**IError-Objekt**, das vom Ereignis*error* aus dem **JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) zurückgegeben wird, um Ihre Anwendung zu debuggen und die Ursache der Fehler zu ermitteln.
+
+Nach dem Abruf des IError-Objekts sollten Sie die relevante Tabelle häufiger Fehler überprüfen, die dem verwendeten Einbettungstyp entspricht. Vergleichen Sie die **IError-Eigenschaften** mit denen in der Tabelle, und ermitteln Sie die möglichen Fehlerursachen.
+
+### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Typische Fehler bei der Einbettung für Power BI-Benutzer
+
+| Meldung | Detaillierte Meldung | Fehlercode | Mögliche Ursachen |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. | 403 | Abgelaufenes Token  |
+| PowerBIEntityNotFound | Fehler beim Abrufen des Berichts. | 404 | <li> Falsche Berichts-ID <li> Bericht nicht vorhanden  |
+| Ungültige Parameter | powerbiToken-Parameter nicht angegeben. | N/V | <li> Kein Zugriffstoken angegeben <li> Keine Berichts-ID angegeben |
+| LoadReportFailed | Fehler beim Initialisieren: Cluster kann nicht aufgelöst werden. | 403 | * Falsches Zugriffstoken * Einbettungstyp stimmt nicht mit Tokentyp überein |
+| PowerBINotAuthorizedException | Fehler beim Abrufen des Berichts. | 401 | <li> Falsche Gruppen-ID <li> Nicht autorisierte Gruppe |
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
+| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Das diesem Bericht zugeordnete Modellschema konnte nicht geladen werden. Stellen Sie sicher, dass eine Verbindung mit dem Server besteht, und versuchen Sie es noch mal. | N/V | <li> Kapazität angehalten <li> Kapazität gelöscht |
+
+### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Typische Fehler bei der Einbettung für Nicht-Power BI-Benutzer (mithilfe eines Einbindungstokens)
+
+| Nachricht | Detaillierte Meldung | Fehlercode | Ursachen |
+|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------|
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. | 403 | Abgelaufenes Token  |
+| LoadReportFailed | Fehler beim Abrufen des Berichts. | 404 | <li> Falsche Berichts-ID <li> Bericht nicht vorhanden  |
+| LoadReportFailed | Fehler beim Abrufen des Berichts. | 403 | Bericht-ID stimmt nicht mit Token überein |
+| LoadReportFailed | Fehler beim Abrufen des Berichts. | 500 | Bericht-ID ist keine GUID |
+| Ungültige Parameter | powerbiToken-Parameter nicht angegeben. | N/V | <li> Kein Zugriffstoken angegeben <li> Keine Berichts-ID angegeben |
+| LoadReportFailed | Fehler beim Initialisieren: Cluster kann nicht aufgelöst werden. | 403 | Falscher Tokentyp, ungültiges Token |
+| PowerBINotAuthorizedException | Fehler beim Abrufen des Berichts. | 401 | Falsche/nicht autorisierte Gruppen-ID |
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
+| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | Das diesem Bericht zugeordnete Modellschema konnte nicht geladen werden. Stellen Sie sicher, dass eine Verbindung mit dem Server besteht, und versuchen Sie es noch mal. | N/V | <li> Kapazität angehalten <li> Kapazität gelöscht |
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>Tool mit Onboardingfunktionen zur Einbettung
 
@@ -209,7 +244,7 @@ Sie können mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup) s
 
 ### <a name="common-issues"></a>Häufige Probleme
 
-Es gibt einige häufige Probleme, die auftreten können, wenn Sie das Tool mit Onboardingfunktionen testen:
+Es gibt einige gängige Probleme, die auftreten können, wenn Sie das Tool mit Onboardingfunktionen testen:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Verwenden der Beispielanwendung „Einbetten für Ihre Kunden“
 
@@ -244,3 +279,5 @@ Wenn Sie Ihr Power BI-Benutzerprofil oder Ihre Daten bearbeiten möchten, lernen
 Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Power BI Embedded](embedded-faq.md).
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
+
+Wenn Sie weitere Unterstützung benötigen, [wenden Sie sich an den Support](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded), oder [erstellen Sie ein Supportticket über das Azure-Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest), und geben Sie die Fehlermeldungen an, die Sie erhalten.

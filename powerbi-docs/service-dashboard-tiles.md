@@ -2,20 +2,20 @@
 title: Dashboardkacheln im Power BI-Dienst
 description: Alle wichtigen Informationen über Dashboardkacheln in Power BI. Dies schließt Kacheln ein, die über SQL Server Reporting Services (SSRS) erstellt wurden.
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249066"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241589"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
 Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile-tiles-in-the-mobile-apps.md). Außerdem können Sie in Power BI Mobile [mit der iPhone-App Grafiken zu Ihrem Dashboard hinzufügen](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Wählen Sie eine Kachel aus, und [verschieben Sie sie auf dem Dashboard](service
    
    * [Das Arbeitsblatt öffnen, mit dem diese Kachel erstellt wurde ](service-reports.md) ![Symbol „Arbeitsblatt“](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Im Fokusmodus anzeigen ](service-focus-mode.md) ![Symbol „Fokus“](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Im Fokusmodus anzeigen ](service-focus-mode.md) ![Symbol „Fokus“](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Die auf der Kachel verwendeten Daten exportieren](power-bi-visualization-export-data.md) ![Symbol „Daten exportieren“](media/service-dashboard-tiles/export-icon.png)
-     * [Titel und Untertitel bearbeiten, Links hinzufügen und den Zeitpunkt der letzten Aktualisierung anzeigen](service-dashboard-edit-tile.md) ![Symbol „Bearbeiten“](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Titel und Untertitel bearbeiten, Link hinzufügen](service-dashboard-edit-tile.md) ![Symbol „Bearbeiten“](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Einblicke ausführen ](service-insights.md) ![Symbol „Einblicke“](media/service-dashboard-tiles/power-bi-insights.png)
      * [Anheften der Kachel an ein anderes Dashboard](service-pin-tile-to-another-dashboard.md)
        ![Stecknadelsymbol](media/service-dashboard-tiles/pin-icon.jpg)

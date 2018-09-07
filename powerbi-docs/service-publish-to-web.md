@@ -2,26 +2,26 @@
 title: Veröffentlichen im Web aus Power BI
 description: Mit der Power BI-Funktion „Im Web veröffentlichen“ können Sie auf einfache Weise interaktive Power BI-Visualisierungen auf beliebigen Geräten online einbetten, etwa in Blogbeiträgen, auf Websites, in E-Mails oder über soziale Medien.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092343"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380334"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
 Mit der Power BI-Funktion **Im Web veröffentlichen** können Sie auf einfache Weise interaktive Power BI-Visualisierungen auf beliebigen Geräten online einbetten, etwa in Blogbeiträgen, auf Websites, in E-Mails oder über soziale Medien.
 
-Ebenso einfach können Sie Ihre veröffentlichten visuellen Elemente bearbeiten, updaten, aktualisieren oder ihre Freigabe aufheben.
+Ebenso einfach können Sie Ihre veröffentlichten Visuals bearbeiten, updaten, aktualisieren oder ihre Freigabe aufheben.
 
 > [!WARNING]
 > Wenn Sie **Im Web veröffentlichen** verwenden, kann der Bericht oder das visuelle Element von jedermann im Internet angesehen werden. Für die Anzeige dieser Berichte wird keine Authentifizierung verwendet. Verwenden Sie „Im Web veröffentlichen“ nur für Berichte und Daten, die jedermann im Internet (nicht authentifizierte öffentliche Teilnehmer) ansehen können soll. Dies gilt auch für aggregierte Detaildaten in Ihren Berichten. Stellen Sie vor der Veröffentlichung dieses Berichts sicher, dass Sie die Daten und Visualisierungen öffentlich freigeben dürfen. Veröffentlichen Sie keine vertraulichen oder proprietären Informationen. Überprüfen Sie vor der Veröffentlichung im Zweifelsfall die Richtlinien Ihrer Organisation.
@@ -65,7 +65,7 @@ Die folgende Tabelle gibt Hilfestellung zum Ansichtsmodus und wie er sich auf di
 
 | Ansichtsmodus | Darstellung bei der Einbettung |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**An Seite anpassen** berücksichtigt die Höhe und Breite des Berichts. Wenn Sie für Ihre Seite ein „dynamisches“ Seitenverhältnis wie 16:9 oder 4:3 festlegen, wird Ihr Inhalt so skaliert, dass er in den von Ihnen bereitgestellten iFrame passt. Wenn Inhalt im iFrame eingebettet ist, kann die Verwendung von **An Seite anpassen** zu einem **Letterbox-Effekt** führen, wobei ein grauer Hintergrund in iFrame-Bereichen angezeigt wird, nachdem der Inhalt so skaliert wurde, dass er in den iFrame passt. Legen Sie die Höhe und Breite Ihres iFrames entsprechend fest, um den Letterbox-Effekt zu minimieren. |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |**An Seite anpassen** berücksichtigt die Höhe und Breite des Berichts. Wenn Sie für Ihre Seite das Seitenverhältnis auf „Dynamisch“ – z.B. 16:9 oder 4:3 – festlegen, wird Ihr Inhalt so skaliert, dass er in den von Ihnen bereitgestellten iFrame passt. Wenn Inhalt im iFrame eingebettet ist, kann die Verwendung von **An Seite anpassen** zu einem **Letterbox-Effekt** führen, wobei ein grauer Hintergrund in iFrame-Bereichen angezeigt wird, nachdem der Inhalt so skaliert wurde, dass er in den iFrame passt. Legen Sie die Höhe und Breite Ihres iFrames entsprechend fest, um den Letterbox-Effekt zu minimieren. |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |**Originalgröße** stellt sicher, dass die Größe des Berichts so beibehalten wird, wie sie auf der Berichtsseite festgelegt ist. Dies kann zur Folge haben, dass im iFrame Scrollleisten dargestellt werden. Legen Sie die iFrame-Höhe und -Breite fest, um die Scrollleisten zu vermeiden. |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |**An Breite anpassen** stellt sicher, dass die Inhalte in den horizontalen Bereich Ihres iFrames passen. Es wird trotzdem ein Rahmen angezeigt, die Inhalte werden aber so skaliert, dass der in der Horizontalen verfügbare Platz vollständig ausgenutzt wird. |
 
@@ -77,7 +77,7 @@ Der Einbindungscode, der für Sie nach der Auswahl von „Im Web veröffentliche
 
 Sie können Breite und Höhe manuell bearbeiten, um sicherzustellen, dass die Einpassung auf der Seite, auf der Sie den Code einbetten, genau Ihren Vorstellungen entspricht.
 
-Sie können versuchen, 56 Pixel zur Höhenabmessung des iFrame hinzuzufügen, um eine bessere Anpassung zu erreichen. Dadurch wird die aktuelle Größe des unteren Balkens angepasst. Wenn Ihre Berichtsseite die dynamische Größe verwendet, finden Sie in der nachstehenden Tabelle einige Größen, die Sie verwenden können, um eine Anpassung ohne Letterbox-Effekt zu erreichen.
+Sie können versuchen, 56 Pixel zur Höhenabmessung des iFrame hinzuzufügen, um eine bessere Anpassung zu erreichen. Dadurch wird die aktuelle Größe der unteren Leiste angepasst. Wenn Ihre Berichtsseite die dynamische Größe verwendet, finden Sie in der nachstehenden Tabelle einige Größen, die Sie verwenden können, um eine Anpassung ohne Letterbox-Effekt zu erreichen.
 
 | Seitenverhältnis | Größe | Dimension (Breite x Höhe) |
 | --- | --- | --- |
@@ -128,15 +128,16 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 
 **Im Web veröffentlichen** wird für die überwiegende Mehrheit der Datenquellen und Berichte im Power BI-Dienst unterstützt, die folgenden werden in „Im Web veröffentlichen“ jedoch **aktuell nicht unterstützt oder stehen nicht zur Verfügung**:
 
-1. Berichte, die die Sicherheit auf Zeilenebene verwenden
-2. Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst und Azure Analysis Services.
-3. Berichte, die für Sie direkt oder über ein Organisationsinhaltspaket freigegeben werden
-4. Berichte in einer Gruppe, in der Sie kein Bearbeitungsmitglied sind
-5. „R“-Visualisierungen werden in „Im Web veröffentlichen“-Berichten derzeit nicht unterstützt.
-6. Exportieren von Daten aus visuellen Elementen in einen Bericht, der im Web veröffentlicht wurde
-7. ArcGIS Maps for Power BI-Visuals
-8. Berichte, die DAX-Measures auf Berichtebene enthalten
-9. [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
+- Berichte, die die Sicherheit auf Zeilenebene verwenden
+- Berichte, die eine Datenquelle mit Liveverbindung verwenden, einschließlich dem lokal gehosteten tabellarischen Analysis Services-Dienst, dem mehrdimensionalen Analysis Services-Dienst und Azure Analysis Services.
+- Berichte, die für Sie direkt oder über ein Organisationsinhaltspaket freigegeben werden
+- Berichte in einer Gruppe, in der Sie kein Bearbeitungsmitglied sind
+- „R“-Visualisierungen werden in „Im Web veröffentlichen“-Berichten derzeit nicht unterstützt.
+- Exportieren von Daten aus visuellen Elementen in einen Bericht, der im Web veröffentlicht wurde
+- ArcGIS Maps for Power BI-Visuals
+- Berichte, die DAX-Measures auf Berichtebene enthalten
+- SSO-Datenabfragemodelle
+- [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Mandanteneinstellung
 
