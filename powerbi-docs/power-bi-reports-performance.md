@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256406"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343321"
 ---
 # <a name="power-bi-performance-best-practices"></a>Bewährte Methoden für die Power BI-Leistung 
 Dieser Artikel enthält Informationen zum Erstellen schneller und zuverlässiger Berichte in Power BI.  
@@ -59,7 +59,7 @@ Im folgenden Abschnitt werden allgemeine bewährte Methoden für die Herstellung
 - Berechnete Spalten und Measures sollten möglichst in der Quelle gespeichert werden. Je geringer die Entfernung zur Datenquelle ist, desto höher ist die Wahrscheinlichkeit für eine gute Leistung. 
 - Optimieren! Vollziehen Sie die Ausführungspläne für Ihre Abfragen nach, fügen Sie Indizes für häufig gefilterte Spalten hinzu usw. 
 
-### <a name="modelling-guidance"></a>Hinweise zur Modellierung 
+### <a name="modeling-guidance"></a>Leitfaden zur Modellierung 
 - Beginnen Sie in Power BI Desktop. 
 - Vermeiden Sie komplexe Abfragen im Abfrage-Editor. 
 - Verwenden Sie keine relative Datenfilterung im Abfrage-Editor.  
@@ -81,7 +81,7 @@ An Dashboards angeheftete Visuals werden vom Abfragecache verarbeitet, wenn das 
 > Wenn Sie Liveberichtskacheln an ein Dashboard anheften, werden sie nicht aus dem Abfragecache verarbeitet – stattdessen verhalten sie sich ähnlich wie Berichte, und die Abfragen erfolgen dynamisch an Back-End-Kerne. 
  
 
-Wie der Name bereits vermuten lässt, bietet das Abrufen der Daten aus dem Abfragecache eine bessere und konsistentere Leistung als das Verwenden der Datenquelle. Eine Möglichkeit zum Nutzen dieser Funktionalität besteht darin, Dashboards als erste Landing Page für die Benutzer anzuzeigen. Heften Sie häufig verwendete und stark nachgefragte Visuals an die Dashboards an. Auf diese Weise werden Dashboards eine wertvolle „erste Verteidigungslinie“ und bieten eine konsistente Leistung bei geringerer Beanspruchung der Kapazität. Die Benutzer können immer noch durch den Bericht klicken, um Details aufzurufen.  
+Wie der Name bereits vermuten lässt, bietet das Abrufen der Daten aus dem Abfragecache eine bessere und konsistentere Leistung als das Verwenden der Datenquelle. Eine Möglichkeit zum Nutzen dieser Funktionalität besteht darin, Dashboards als erste Landing Page für die Benutzer anzuzeigen. Heften Sie häufig verwendete und stark nachgefragte Visuals an die Dashboards an. Auf diese Weise werden Dashboards eine wertvolle „erste Abwehrlinie“ und bieten eine konsistente Leistung bei geringerer Beanspruchung der Kapazität. Die Benutzer können immer noch durch den Bericht klicken, um Details aufzurufen.  
  
 
 Beachten Sie, dass dieser Abfragecache bei DirectQuery und Liveverbindungen in regelmäßigen Abständen aktualisiert wird, indem die Datenquelle abgefragt wird. Standardmäßig geschieht dies stündlich, der Zeitraum kann aber in den Dataseteinstellungen konfiguriert werden. Bei jeder Aktualisierung des Abfragecaches werden Abfragen an die zugrunde liegende Datenquelle gesendet, um den Cache zu aktualisieren. Die Anzahl der generierten Abfragen ist abhängig von der Anzahl der an Dashboards angehefteten Visuals, die diese Datenquelle benötigen. Beachten Sie, dass bei Aktivieren der Sicherheit auf Zeilenebene für jeden einzelnen Sicherheitskontext Abfragen generiert werden. Wenn es z.B. zwei Rollen für die Benutzer gibt, für die jeweils verschiedene Ansichten der Daten angezeigt werden, werden bei der Aktualisierung des Abfragecaches zwei Sätze von Abfragen generiert. 
@@ -110,7 +110,7 @@ Anweisungen:
 
    Bei der Ausgabe sollte es sich um eine Liste von Anwendungen und ihre geöffneten Ports handeln. Beispiel:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
@@ -142,7 +142,7 @@ Die Netzwerklatenz kann die Leistung eines Berichts beeinträchtigen, wenn es l�
 
 Tools wie [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) bieten einen Überblick über die Netzwerklatenz zwischen dem Client und der Azure-Region. Im Allgemeinen sollten sich, um die Auswirkungen der Netzwerklatenz zu minimieren, Datenquellen, Gateways und der Power BI-Cluster in möglichst großer Nähe zueinander befinden. Wenn die Netzwerklatenz ein Problem darstellt, können Sie versuchen, Gateways und Datenquellen näher am Power BI-Cluster anzuordnen, indem Sie sie auf virtuellen Computern platzieren. 
 
-Um die Netzwerklatenz noch weiter zu verbessern, können Sie [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) verwenden. Hiermit können schnellere und zuverlässigere Netzwerkverbindungen zwischen den Clients und Azure-Rechenzentren erstellt werden. 
+Um die Netzwerklatenz noch weiter zu verbessern, können Sie [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) verwenden. Hiermit können schnellere und zuverlässigere Netzwerkverbindungen zwischen den Clients und Azure-Rechenzentren hergestellt werden. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 - [Planen einer Power BI Enterprise-Bereitstellung](https://aka.ms/pbienterprisedeploy) mit umfassenden Informationen zu großen Power BI-Bereitstellungen 
