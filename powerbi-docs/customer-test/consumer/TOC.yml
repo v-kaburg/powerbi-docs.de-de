@@ -1,0 +1,197 @@
+items:
+- name: Power BI für Verbraucher
+  href: power-bi-consumer-overview.md
+- name: Power BI-Dienst im Web
+  items:
+  - name: Overview
+    items:
+    - name: Was ist Power BI?
+      href: ../../service-basic-concepts.md
+  - name: Schnellstartanleitungen
+    items:
+    - name: Erkunden von Power BI
+      href: ../../service-the-new-power-bi-experience.md
+  - name: Konzepte
+    items:
+    - name: Neuigkeiten bei Power BI
+      href: ../../service-whats-new.md
+    - name: Self-Service-Registrierung
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: Suchen und Sortieren von Inhalten
+      href: ../../service-navigation-search-filter-sort.md
+    - name: Verwandte Inhalte
+      href: ../../service-related-content.md
+    - name: Neueste Inhalte
+      href: ../../service-recent.md
+    - name: Aktivieren von Power BI-Vorschaufeatures
+      href: ../../service-preview-features.md
+    - name: Dashboards in Power BI
+      href: ../../service-dashboards.md
+    - name: Fragen und Antworten in Power BI
+      href: ../../power-bi-q-and-a.md
+    - name: Berichte in Power BI
+      href: ../../service-reports.md
+    - name: Einführung in Cortana für Power BI
+      href: ../../service-cortana-intro.md
+    - name: Dashboardkacheln in Power BI
+      href: ../../service-dashboard-tiles.md
+    - name: Für mich freigegeben
+      href: ../../service-shared-with-me.md
+    - name: Aktualisieren von Daten in Power BI
+      href: ../../refresh-data.md
+    - name: Häufig gestellte Fragen
+      href: ../../service-frequently-asked-questions.md
+    - name: Power BI für US-Behörden
+      href: ../../service-govus-overview.md
+    - name: Power BI Free und Pro im Vergleich
+      href: ../../service-free-vs-pro.md
+    - name: 10 Tipps, um Hilfe zu erhalten
+      href: ../../service-tips-for-finding-help.md
+    - name: Informationen zu Filtern und Hervorhebungen in Power BI-Berichten
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: Vorgehensweise
+    items:
+    - name: Allgemeine Aufgaben
+      items:
+      - name: Bevorzugte Dashboards, Berichte und Apps in Power BI
+        href: ../../service-dashboard-favorite.md
+      - name: Anzeigen einer Dashboardkachel im Fokusmodus
+        href: ../../service-focus-mode.md
+      - name: Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite
+        href: ../../service-print.md
+      - name: Umbenennen von Inhalten in Power BI
+        href: ../../service-rename.md
+      - name: Anzeigen von Dashboards und Berichten im Vollbildmodus (TV-Modus)
+        href: ../../service-fullscreen-mode.md
+      - name: Entfernen von Inhalten in Power BI
+        href: ../../service-delete.md
+      - name: Registrieren einer US-Behörde
+        href: ../../service-govus-signup.md
+      - name: Datenwarnungen im Power BI-Dienst
+        href: ../../service-set-data-alerts.md
+      - name: Tipps und Tricks für Fragen mit Q&A in Power BI
+        href: ../../service-q-and-a-tips.md
+      - name: Installieren und Verwenden von Apps mit Dashboards und Berichten
+        href: ../../service-install-use-apps.md
+      - name: Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: Erste Schritte mit Power BI – Q&A
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: Dashboards
+      items:
+      - name: Ausgewählte Dashboards in Power BI
+        href: ../../service-dashboard-featured.md
+      - name: Einheitliche Power BI-Mitteilungszentrale
+        href: ../../service-notification-center.md
+      - name: Dashboarddesigns
+        href: ../../service-dashboard-themes.md
+    - name: Berichte
+      items:
+      - name: Viele Möglichkeiten zum Öffnen eines Berichts
+        href: ../../service-report-open.md
+      - name: Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
+        href: ../../power-bi-report-change-sort.md
+      - name: Exportieren von Daten aus einer Visualisierung
+        href: ../../power-bi-visualization-export-data.md
+      - name: Verwenden von Berichtsfiltern
+        href: ../../power-bi-how-to-report-filter.md
+      - name: Abonnieren eines Berichts oder Dashboards
+        href: ../../service-report-subscribe.md
+- name: Mobile Power BI-Apps
+  items:
+  - name: Overview
+    items:
+    - name: Welches sind die mobilen Apps?
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: Schnellstartanleitungen
+    items:
+    - name: Erkunden von Dashboards und Berichten
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: Lernprogramme
+    items:
+    - name: Stellen von Fragen in mobilen iOS-Apps
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: Konzepte
+    items:
+    - name: Neuigkeiten bei mobilen Apps
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: Erfassen von Daten aus der realen Welt mit den mobilen Apps
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: Offlinemodus zum Anzeigen von Daten in mobilen Apps
+      href: ../../mobile-apps-offline-data.md
+    - name: Power BI for Mixed Reality-App (Vorschauversion)
+      href: ../../mobile-mixed-reality-app.md
+  - name: Vorgehensweise
+    items:
+    - name: Alle mobilen Apps
+      items:
+      - name: Anzeigen lokaler Berichte in mobilen Apps
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Freigeben eines Dashboards in den mobilen Power BI-Apps
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Interagieren mit Kacheln in den mobilen Apps
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: Favoriten in mobilen Apps
+        href: ../../mobile-apps-favorites.md
+      - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
+        href: ../../mobile-apps-notification-center.md
+      - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: Filtern eines Berichts nach Standort in den mobilen Power BI-Apps
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
+        href: ../../mobile-apps-qr-code.md
+      - name: Dashboards für Power BI auf mobilen Geräten
+        href: ../../mobile-apps-view-dashboard.md
+      - name: Anzeigen von Berichten, die für das Smartphone optimiert sind
+        href: ../../mobile-apps-view-phone-report.md
+      - name: Berichte in mobilen Apps
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
+        href: ../../mobile-oauth-ssrs.md
+      - name: Konfigurieren mobiler Apps mit Intune
+        href: ../../service-admin-mobile-intune.md
+    - name: Android-Geräte
+      items:
+      - name: Erste Schritte mit der Android-App
+        href: ../../mobile-android-app-get-started.md
+      - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Erste Schritte mit der iOS-App
+        href: ../../mobile-iphone-app-get-started.md
+      - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
+        href: ../../mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch-App
+        href: ../../mobile-apple-watch.md
+      - name: Scannen eines Barcodes mit der App auf dem iPhone
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: iOS und Android
+      items:
+      - name: Kommentieren und Freigeben in den mobilen Apps
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Power BI-App für Windows 10-Geräte
+      items:
+      - name: Erste Schritte mit der mobilen App für Windows 10
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: Anheften eines Dashboards an den Startbildschirm
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Anzeigen von mobilen Reporting Services-Berichten und KPIs in der App für Windows 10
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Anzeigen von Power BI in Surface Hub
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: Ressourcen
+    items:
+    - name: Unterstützte Sprachen der mobilen Apps
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343573"
