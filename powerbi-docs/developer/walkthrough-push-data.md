@@ -2,26 +2,28 @@
 title: Übertragen von Daten in ein Dataset per Push
 description: Übertragen von Daten in ein Power BI-Dataset per Push
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598547"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974182"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Übertragen von Daten in ein Power BI-Dataset per Push
+
 Mit der Power BI-API können Sie Daten per Push in ein Power BI-Dataset übertragen. Angenommen, Sie möchten einen vorhandenen Geschäftsworkflow erweitern, um wichtige Daten per Push in ein Dataset zu übertragen. In diesem Fall möchten Sie das Dataset „Sales Marketing“ mit einer Tabelle „Product“ per Push in ein Dataset übertragen.
 
 Damit Sie Daten per Push an ein Dataset übermitteln können, benötigen Sie ein Azure Active Directory (Azure AD)- und ein [Power BI-Konto](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Schritte zum Übertragen von Daten per Push in ein Dataset
+
 * Schritt 1: [Registrieren einer App in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Schritt 2: [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)
 * Schritt 3: [Erstellen eines Datasets in Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Damit Sie Daten per Push an ein Dataset übermitteln können, benötigen Sie ein
 Im nächste Abschnitt folgt eine allgemeine Erläuterung von Power BI-API-Vorgängen, die Daten per Push übertragen.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI-API-Vorgänge zum Übertragen von Daten per Push
+
 Mit der Power BI-REST-API können Sie Datenquellen per Push in Power BI übertragen. Wenn eine Anwendung einem Dataset Zeilen hinzufügt, werden die Kacheln auf dem Dashboard automatisch mit den neuen Daten aktualisiert. Verwenden Sie den Vorgang [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) mit dem Vorgang [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), um Daten per Push zu übertragen. Zum Auffinden eines Datasets verwenden Sie den Vorgang [Datasets abrufen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Für alle diese Vorgänge können Sie eine Gruppen-ID übergeben, um mit einer Gruppe zu arbeiten. Verwenden Sie den Vorgang [Gruppen abrufen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups), um eine Liste mit Gruppen-IDs abzurufen.
 
 Es folgen die Vorgänge, um Daten per Push in ein Dataset zu übertragen:
@@ -108,13 +111,14 @@ Für ein Power BI-Tabellenschema können Sie die folgenden Datentypen verwenden.
 | Zeichenfolge |Derzeit sind bis zu 128.000 Zeichen zulässig. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Weitere Informationen zum Übertragen von Daten per Push in Power BI
+
 Informationen zum Einstieg in das Übertragen von Daten per Push in ein Dataset finden Sie links im Navigationsbereich unter [Schritt 1: Registrieren einer App in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
 
 [Nächster Schritt >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 [Registrieren bei Power BI](create-an-azure-active-directory-tenant.md)  
 [Einführung in JSON](http://json.org/)  
 [Übersicht über Power BI-REST-API](overview-of-power-bi-rest-api.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-
