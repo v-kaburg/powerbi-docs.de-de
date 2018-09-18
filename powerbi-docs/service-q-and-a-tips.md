@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257214"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725947"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tipps zum Stellen von Fragen mit Power BI Q&A
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Wörter und Begriffe, die von Q&A erkannt werden
@@ -24,7 +24,7 @@ Die Liste mit Schlüsselwörtern ist nicht vollständig.  Die beste Möglichkeit
 In der nachstehenden Liste wird Präsens verwendet, jedoch werden in den meisten Fällen alle Zeitformen erkannt. Beispielsweise beinhaltet „is“ auch „are“, „was“, „were“, „will be“, „have“, „has“, „had“, „will have“, „has got“, „do“, „does“, „did“.  Außerdem ist in „sort“ auch „sorted“ und „sorting“ enthalten.  Darüber hinaus erkennt Power BI Singular- und Pluralversionen eines Worts und schließt diese mit ein. Power BI erkennt z.B. „year“ und „years“.
 
 > [!NOTE]
-> Q&A steht auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](mobile-apps-ios-qna.md) zur Verfügung.
+> Q&A steht auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](consumer/mobile/mobile-apps-ios-qna.md) zur Verfügung.
 > 
 > 
 

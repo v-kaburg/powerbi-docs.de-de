@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249937"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727166"
 ---
 # <a name="power-bi-notifications"></a>Power BI-Benachrichtigungen
 Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI. Öffnen Sie sie, um Benachrichtigungen über neue Dashboards, die für Sie freigegeben wurden, Änderungen an Ihrem Gruppenbereich, Informationen zu Power BI-Veranstaltungen und -Meetings, eingerichtete Warnungen und viele weitere Benachrichtigungen anzuzeigen. Sie können [Warnungen im Power BI-Dienst festlegen](service-set-data-alerts.md) wie auch in den mobilen Power BI-Apps.
@@ -40,7 +40,7 @@ Sehen Sie sich an, wie Amanda ihre Benachrichtigungen liest, verwaltet und beant
 ### <a name="next-steps"></a>Nächste Schritte
 * [Datenwarnungen im Power BI-Dienst](service-set-data-alerts.md)
 * [Erstellen eines Flows in Microsoft Flow, der durch eine Power BI-Datenwarnung ausgelöst wird](service-flow-integration.md)
-* [Festlegen von Datenwarnungen in der iPhone-App (Power BI für iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Festlegen von Datenwarnungen in der mobilen Power BI-App für Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Festlegen von Datenwarnungen in der iPhone-App (Power BI für iOS)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Festlegen von Datenwarnungen in der mobilen Power BI-App für Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

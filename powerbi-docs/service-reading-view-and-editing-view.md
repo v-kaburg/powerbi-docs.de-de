@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251665"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726752"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
 Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht.
@@ -59,13 +59,13 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 | [Duplizieren einer Berichtseite](power-bi-report-copy-paste-page.md) | Nein  | Ja |
 | [Löschen einer Berichtseite](service-delete.md) | Nein | Ja |
 |**Arbeiten mit Berichtsvisualisierungen**|
-| [Hinzufügen von Visualisierungen zu einem Bericht](power-bi-report-add-visualizations-i.md) | Nein  | Ja |
+| [Hinzufügen von Visualisierungen zu einem Bericht](visuals/power-bi-report-add-visualizations-i.md) | Nein  | Ja |
 | [Hinzufügen von Textfeldern und Formen zu einem Bericht](power-bi-reports-add-text-and-shapes.md) | Nein  | Ja |
 | [Verwenden des Bereichs „Formatierung“ in einem Bericht](service-the-report-editor-take-a-tour.md) | Nein | Ja |
 | [Festlegen von visuellen Interaktionen](service-reports-visual-interactions.md) | Nein  | Ja |
 | [Anzeigen der zum Erstellen der Visualisierung verwendeten Daten](service-reports-show-data.md) | Nein  | Ja |
 | [Konfigurieren von Drilling](power-bi-visualization-drill-down.md) | Nein  | Ja |
-| [Ändern der verwendeten Visualisierung](power-bi-report-change-visualization-type.md) | Nein | Ja|
+| [Ändern der verwendeten Visualisierung](visuals/power-bi-report-change-visualization-type.md) | Nein | Ja|
 | [Löschen von Visualisierungen, Textfeldern oder Formen](service-delete.md)| Nein | Ja |
 
 

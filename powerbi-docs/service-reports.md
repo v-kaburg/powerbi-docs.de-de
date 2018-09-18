@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136960"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728040"
 ---
 # <a name="reports-in-power-bi"></a>Berichte in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Was ist ein Power BI-Bericht?
@@ -27,7 +27,7 @@ Dieser Bericht enthält drei Seiten (oder Registerkarten). Derzeit wird die Seit
 
 Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](service-basic-concepts.md).
 
-Berichte sind ein Feature des Power BI-Diensts und von Power BI Desktop. Die Arbeit mit Berichten ist nahezu identisch. Auf mobilen Geräten können Sie allerdings keine Berichte erstellen. Aber Sie können [Berichte anzeigen, freigeben und kommentieren](mobile-reports-in-the-mobile-apps.md).
+Berichte sind ein Feature des Power BI-Diensts und von Power BI Desktop. Die Arbeit mit Berichten ist nahezu identisch. Auf mobilen Geräten können Sie allerdings keine Berichte erstellen. Aber Sie können [Berichte anzeigen, freigeben und kommentieren](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vorteile von Berichten
 Berichte basieren auf einem einzelnen Dataset. Jede Visualisierung in einem Bericht stellt eine wertvolle Information dar. Und die Visualisierungen sind nicht statisch. Sie können Daten hinzufügen und entfernen, die Visualisierungstypen ändern sowie Filter und Slicer anwenden, wenn Sie die Daten detaillierter untersuchen, um Erkenntnisse zu gewinnen und Antworten zu finden. Ähnlich wie ein Dashboard – aber mit noch mehr Funktionen – ist ein Bericht ausgesprochen interaktiv und weitgehend anpassbar, und die Visualisierungen werden aktualisiert, wenn sich die zugrunde liegenden Daten ändern.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299468"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726637"
 ---
 # <a name="the-report-editortake-a-tour"></a>Berichts-Editor – Verschaffen Sie sich einen Überblick
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Bearbeiten von Berichten im Power BI-Dienst und in Power BI Desktop
@@ -65,7 +65,7 @@ Um ein Feld aus der Visualisierung zu entfernen, klicken Sie auf das **X** recht
 
 ![„StoreType“ aus der Legende entfernen](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Weitere Informationen finden Sie unter [Hinzufügen von Visualisierungen zu einem Power BI-Bericht](power-bi-report-add-visualizations-i.md).
+Weitere Informationen finden Sie unter [Hinzufügen von Visualisierungen zu einem Power BI-Bericht](visuals/power-bi-report-add-visualizations-i.md).
 
 ### <a name="format-your-visuals"></a>Formatieren von visuellen Elementen
 Wählen Sie das Farbrollen-Symbol aus, um den Formatierungsbereich anzuzeigen. Die verfügbare Option hängt vom ausgewählten Visualisierungstyp ab.
@@ -74,9 +74,9 @@ Wählen Sie das Farbrollen-Symbol aus, um den Formatierungsbereich anzuzeigen. D
 
 Ihnen stehen nahezu unbegrenzt viele Formatierungsmöglichkeiten zur Verfügung.  Wenn Sie mehr Informationen benötigen, untersuchen Sie den Bereich selbst weiter oder lesen Sie die folgenden Artikel:
 
-* [Anpassen von Visualisierungstitel, Hintergrund und Legende](power-bi-visualization-customize-title-background-and-legend.md)
-* [Farbformatierung](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Anpassen der Eigenschaften der X- und Y-Achse](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Anpassen von Visualisierungstitel, Hintergrund und Legende](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Farbformatierung](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Anpassen der Eigenschaften der X- und Y-Achse](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Hinzufügen von Analysen in Visualisierungen
 Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen. Die verfügbare Option hängt vom ausgewählten Visualisierungstyp ab.
@@ -126,7 +126,7 @@ Im Zeichenbereich des Berichts wird Ihre Arbeit angezeigt. Wenn Sie in den Berei
 ## <a name="next-steps"></a>Nächste Schritte:
 [Erstellen eines Berichts](service-report-create-new.md)
 
-Lesen Sie mehr zu Berichten im [Power BI-Dienst](service-reports.md), in [Power BI Desktop](desktop-report-view.md) und [Power BI Mobile](mobile-apps-view-phone-report.md).
+Lesen Sie mehr zu Berichten im [Power BI-Dienst](service-reports.md), in [Power BI Desktop](desktop-report-view.md) und [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI – Grundkonzepte](service-basic-concepts.md)
 

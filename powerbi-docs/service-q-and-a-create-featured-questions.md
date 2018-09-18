@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242385"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726315"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Erstellen von ausgewählten Fragen für Power BI Q&A
 Wenn Sie ein Dataset besitzen, können Sie dem Dataset eigene ausgewählte Fragen hinzufügen.  Power BI Q&A zeigt diese Fragen dann für Kollegen an, die das Dataset verwenden (*nutzen*).  Durch die ausgewählten Fragen erhalten Ihre Kollegen Anhaltspunkte für die Arten von Fragen, die sie zum Dataset stellen können. Welche ausgewählten Fragen Sie hinzufügen, ist Ihnen überlassen – häufig gestellte Fragen, Fragen mit interessanten Ergebnissen oder Fragen, die möglicherweise schwierig zu formulieren sind.
@@ -26,7 +26,7 @@ Sehen Sie sich an, wie ausgewählte Fragen zu Power BI Q&A hinzugefügt und dies
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Ausgewählte Fragen für Q&A stehen auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](mobile-apps-ios-qna.md) und in Power BI Desktop Q&A (Vorschau) zur Verfügung. Das Erstellen der Fragen ist allerdings nur im Power BI-Dienst („app.powerbi.com“) möglich.
+> Ausgewählte Fragen für Q&A stehen auch in der [Microsoft Power BI-App für iOS auf iPads, iPhones und iPod Touch-Geräten](consumer/mobile/mobile-apps-ios-qna.md) und in Power BI Desktop Q&A (Vorschau) zur Verfügung. Das Erstellen der Fragen ist allerdings nur im Power BI-Dienst („app.powerbi.com“) möglich.
 > 
 
 In diesem Artikel wird das [Analysebeispiel für den Einzelhandel](sample-datasets.md) verwendet.

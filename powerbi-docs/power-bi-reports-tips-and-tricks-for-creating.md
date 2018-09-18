@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254876"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726798"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop und im Power BI-Dienst
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop, im Power BI-Dienst *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen.
@@ -167,7 +167,7 @@ DAX ist die Formelsprache für Berechnungen in Power BI Desktop.  Sie ist für B
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-Dienst *und* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Lesen Sie das Whitepaper [Grundlagen des Entwurfs von Power BI-Berichten](power-bi-visualization-best-practices.md).
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lesen Sie das Whitepaper [Grundlagen des Entwurfs von Power BI-Berichten](visuals/power-bi-visualization-best-practices.md).
 Dieses Dokument enthält Informationen zu den bewährten Methoden beim Entwerfen von Berichten in Power BI. Ausgehend von der Planung werden Entwurfsgrundlagen und -verfahren beschrieben, die Sie für Ihre Berichte sowie für die Seiten und einzelnen visuellen Elemente des Berichts verwenden können. Viele dieser bewährten Methoden gelten auch für das Entwerfen von Dashboards.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Erfahren Sie mehr unter „Erstellen visuell ansprechender Berichte (und Dashboards) in Power BI“.
@@ -209,7 +209,7 @@ Vermeiden Sie zahlreiche Visualisierungen auf Kosten der Vielfalt.  Visualisieru
 * Achten Sie darauf, wie die [Diagramme sortiert werden](power-bi-report-change-sort.md).  Wenn Sie den höchsten oder niedrigsten Wert hervorheben möchten, sortieren Sie nach der Maßeinheit.  Sollen Benutzer eine bestimmte Kategorie in vielen anderen Kategorien schnell finden können, sortieren Sie nach der Achse.  
 * Kreisdiagramme sind mit weniger als acht Kategorien am übersichtlichsten. Da Sie Werte nicht nebeneinander vergleichen können, sind Werte in einem Kreisdiagramm schwieriger zu vergleichen als in Balken- und Säulendiagrammen. Kreisdiagramme eignen sich besser zum Anzeigen von Teil-Ganzes-Beziehungen als zum Vergleichen der Teile. Und Messgerätdiagramme eignen sich ideal, um den aktuellen Status im Kontext eines Ziels anzuzeigen.    
 
-Weitere Informationen zur Visualisierung finden Sie unter [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Weitere Informationen zur Visualisierung finden Sie unter [Visualisierungstypen in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Weitere Informationen zu Best Practices bei der Gestaltung von Dashboards
 Zu unseren Lieblingsbüchern (in englischer Sprache) zählen:

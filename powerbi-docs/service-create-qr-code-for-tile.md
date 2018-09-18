@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249707"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726052"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Erstellen eines QR-Codes für eine Kachel in Power BI für die Verwendung in mobilen Apps
 QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen verbinden – es ist keine Navigation oder Suche erforderlich.
 
 Im Power BI-Dienst können Sie einen QR-Code für Kacheln in allen Dashboards erstellen, selbst in Dashboards, die Sie nicht bearbeiten können. Platzieren Sie den QR-Code dann an einer eindeutigen Stelle. Fügen Sie ihn beispielsweise in eine E-Mail ein, oder drucken Sie ihn aus, und stellen Sie ihn an einem bestimmten Ort bereit. 
 
-Kollegen, mit denen Sie das Dashboard gemeinsam verwenden, können [den QR-Code für den Zugriff auf die Kachel direkt mit ihrem mobilen Gerät scannen](mobile-apps-qr-code.md). Sie können entweder den QR-Code-Scanner in der Power BI-App oder jeden anderen auf dem Gerät installierten QR-Scanner verwenden.
+Kollegen, mit denen Sie das Dashboard gemeinsam verwenden, können [den QR-Code für den Zugriff auf die Kachel direkt mit ihrem mobilen Gerät scannen](consumer/mobile/mobile-apps-qr-code.md). Sie können entweder den QR-Code-Scanner in der Power BI-App oder jeden anderen auf dem Gerät installierten QR-Scanner verwenden.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Erstellen eines QR-Codes für eine Kachel
@@ -52,8 +52,8 @@ Power BI generiert den QR-Code für den Druck als JPG-Datei.
 3. Schneiden Sie den QR-Code aus, und kleben Sie ihn an einem für die Kachel relevanten Ort auf. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Connect to Power BI data from the real world](mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
-* [Scannen eines Power BI-QR-Codes mit einem mobilen Gerät](mobile-apps-qr-code.md)
+* [Connect to Power BI data from the real world](consumer/mobile/mobile-apps-data-in-real-world-context.md) (Verbinden mit realen Power BI-Daten mit den Apps für mobile Geräte)
+* [Scannen eines Power BI-QR-Codes mit einem mobilen Gerät](consumer/mobile/mobile-apps-qr-code.md)
 * [Erstellen eines QR-Codes für einen Bericht](service-create-qr-code-for-report.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

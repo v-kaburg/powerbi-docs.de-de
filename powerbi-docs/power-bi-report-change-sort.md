@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 89891ead8eda1b8de4c7be943af2a9e9e98314c5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561791"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726085"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 In einem Power BI-Bericht können Sie die meisten Visualisierungen alphabetisch nach den Namen der Kategorien im Diagramm oder nach den numerischen Werten jeder Kategorie sortieren. In diesem Diagramm wird z. B. nach Geschäftsnamen sortiert.
@@ -49,7 +49,7 @@ In einigen Fällen können Sie möglicherweise das visuelle Element so sortieren
 * Stellen Sie in Excel sicher, dass Ihre numerischen Spalten mit „Ganze Zahl“ oder „Dezimal“ und nicht mit „Text“ markiert sind.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md).
+Weitere Informationen zu [Visualisierungen in Power BI-Berichten](visuals/power-bi-report-visualizations.md).
 
 [Power BI – Grundkonzepte](service-basic-concepts.md)
 

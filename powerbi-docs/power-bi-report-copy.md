@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247801"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725625"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Erstellen eines neuen Berichts aus einem vorhandenen Bericht (Kopieren eines Berichts)
 Möglicherweise verfügen Sie über einen Bericht, der bereits eine Verbindung zu Ihren Daten aufgebaut hat und einige Visualisierungen enthält, die Sie wiederverwenden oder ändern möchten.  Warum kopieren Sie diesen Bericht nicht einfach und nutzen ihn als Grundlage für einen neuen Bericht?  Dazu müssen Sie Folgendes tun:
@@ -37,7 +37,7 @@ Möglicherweise verfügen Sie über einen Bericht, der bereits eine Verbindung z
 5. Viel Spaß beim Aktualisieren und Bearbeiten des neuen Berichts.
 
 ## <a name="next-steps"></a>Nächste Schritte:
-[Erstellen neuer Visualisierungen](power-bi-report-add-visualizations-ii.md)
+[Erstellen neuer Visualisierungen](visuals/power-bi-report-add-visualizations-ii.md)
 
 [Löschen von Visualisierungen](service-delete.md), die Sie nicht benötigen
 

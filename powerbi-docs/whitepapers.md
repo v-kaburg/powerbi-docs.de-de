@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445116"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727189"
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -31,7 +31,7 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 | [Power BI und die Datenschutz-Grundverordnung (DSGVO)](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI kann ein wichtiger Beitrag in Richtung der Einhaltung der Datenschutz-Grundverordnung sein. Der Zweck dieses Dokuments ist es, Ihnen ein Verständnis der Datenschutz-Grundverordnung (DSGVO) zu vermitteln und wie diese mit Power BI in Zusammenhang steht. Während die Einhaltung von der DSGVO in bestimmten Situationen, die in diesem Dokument aufgeführt werden, verpflichtend ist, ist sie nicht nur etwas, das Sie erledigen müssen, sondern auch eine Möglichkeit, Ihre gesamten Datenschutz- und Privatsphärefunktionen zu verbessern.|
 | [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|In diesem Dokument wird beschrieben, wie Sie mithilfe der Integration von Azure Active Directory Business-to-Business (AAD B2B) Inhalte an Benutzer außerhalb der Organisation verteilen.|
 | [Uncover actionable insights with advanced analytics in Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) (Erlangen handlungsrelevanter Informationen durch erweiterte Analysen mit Power BI) (in englischer Sprache) |Beschreibt die erweiterten Analysefunktionen von Power BI, einschließlich Vorhersageanalysen, benutzerdefinierter Visualisierungen, R-Integration und Data Analysis Expressions. |
-| [Bewährte Entwurfsmethoden für Berichte und Visualisierungen](power-bi-visualization-best-practices.md) |Enthält bewährte Methoden für das Entwerfen von Berichten in Power BI. |
+| [Bewährte Entwurfsmethoden für Berichte und Visualisierungen](visuals/power-bi-visualization-best-practices.md) |Enthält bewährte Methoden für das Entwerfen von Berichten in Power BI. |
 | [Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop (Vorschau)](desktop-bidirectional-filtering.md) |Erläutert die bidirektionale Kreuzfilterung in Power BI Desktop. (Das Whitepaper deckt auch SQL Server Analysis Services 2016 ab, da sich beide gleich verhalten.) |
 | [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery wurde für SQL Server 2016 umgestaltet und bietet jetzt eine erheblich höhere Geschwindigkeit und Leistung. Allerdings sind die Verwendung und Implementierung von DirectQuery jetzt komplexer. |
 | [Power BI und SAP BW](https://aka.ms/powerbiandsapbw)| In diesem Dokument wird erläutert, wie SAP-Kunden von der Verknüpfung von Power BI mit ihren vorhandenen SAP Business Warehouse-Systemen (BW) profitieren können.|

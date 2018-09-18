@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257212"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726683"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools
 Mit benutzerdefinierten Visualisierungen können Sie den Bedürfnissen der Benutzer entsprechen, und sie passen zum Design Ihrer App. Erfahren Sie, wie Sie mit den Entwicklertools eine benutzerdefinierte Visualisierung für Power BI erstellen.
@@ -388,7 +388,7 @@ Führen Sie die Visualisierung mit dem Befehl `pbiviz start` im Terminal/in der 
 Weitere Informationen finden Sie unter [Ausführen der Visualisierung](#running-your-visual) und [Einrichten des Serverzertifikats](#ssl-setup).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Visualisierungen in Power BI](power-bi-report-visualizations.md)  
+[Visualisierungen in Power BI](visuals/power-bi-report-visualizations.md)  
 [Benutzerdefinierte Visualisierungen in Power BI](power-bi-custom-visuals.md)  
 [Veröffentlichen benutzerdefinierter Visualisierungen im Office Store](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

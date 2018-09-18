@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623951"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726660"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -83,9 +83,9 @@ In den mobilen Power BI-Apps für iOS- und Android-Geräte können Sie Kacheln, 
 
 Sie geben eine Momentaufnahme der Kacheln, Berichte oder visuellen Elemente frei, und diese werden für die Empfänger in dem Zustand angezeigt, in dem sie beim Versenden der E-Mail vorlagen. Die E-Mail enthält außerdem einen Link zum Dashboard oder Bericht. Wenn die Empfänger eine Power BI Pro-Lizenz haben oder wenn es sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handelt, können die Empfänger das Objekt öffnen, sofern Sie das Objekt bereits für sie freigegeben haben. Sie können Momentaufnahmen von Kacheln an beliebige Empfänger senden – nicht nur an Kollegen in der gleichen E-Mail-Domäne.
 
-Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kacheln, Berichten und visuellen Elementen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) in den mobilen iOS- und Android-Apps.
+Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kacheln, Berichten und visuellen Elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) in den mobilen iOS- und Android-Apps.
 
-Sie können auch eine [Momentaufnahme einer Kachel](mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
+Sie können auch eine [Momentaufnahme einer Kachel](consumer/mobile/mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Ausdrucken oder als PDF (oder andere statische Datei) speichern
 Sie können ein gesamtes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Visualisierung im Power BI-Dienst drucken oder als PDF-Datei (oder in einem anderen statischen Dateiformat) speichern. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken. Weitere Informationen zum [Drucken und Speichern als statische Datei](service-print.md).
