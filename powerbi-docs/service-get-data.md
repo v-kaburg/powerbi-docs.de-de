@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328486"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547451"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Datenquellen für den Power BI-Dienst
 Daten sind der Kern von Power BI. Wenn Sie Daten untersuchen, Diagramme und Dashboards erstellen oder über Q&A Fragen stellen, stammen die Daten, die all diesen Visualisierungen und Antworten zugrunde liegen, aus einem Dataset. Doch woher stammt das Dataset? Aus einer Datenquelle.
@@ -44,7 +44,7 @@ Es ist außerdem von Belang, wo Sie die Dateien speichern. OneDrive for Business
 
 In Inhaltspaketen sind bereits alle Daten und Berichte vorbereitet, die Sie benötigen. In Power BI gibt es zwei Typen von Inhaltspaketen: Inhaltspakete aus Diensten wie Google Analytics, Marketo oder Salesforce, und Inhaltspakete, die von anderen Benutzern in Ihrer Organisation erstellt und freigegeben wurden.
 
-**Dienste**: Es gibt Dutzende von Diensten mit Inhaltspaketen für Power BI, und ihre Anzahl nimmt ständig zu. Für die meisten Dienste benötigen Sie ein Konto. Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Diensten](service-connect-to-services.md).
+**Dienste**: Es gibt Dutzende von Diensten mit Inhaltspaketen für Power BI, und ihre Anzahl nimmt ständig zu. Für die meisten Dienste benötigen Sie ein Konto. Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Diensten](consumer/end-user-connect-to-services.md).
 
 **Organisationsbezogen**: Wenn Sie und andere Benutzer in Ihrer Organisation über ein Power BI Pro-Konto verfügen, können Sie Inhaltspakete erstellen, freigeben und verwenden. Weitere Informationen finden Sie unter [Organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md).
 
