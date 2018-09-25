@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dd80776690e1fd45144c99570be8aa787a2938c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561446"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544498"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informationen zu Filtern und Hervorhebungen in Power BI-Berichten
 ***Filter*** entfernen alles bis auf die Daten, auf die Sie sich konzentrieren möchten.  ***Hervorheben*** ist kein Filtern, da hierbei keine Daten entfernt, sondern eine Teilmenge der sichtbaren Daten hervorgehoben wird. Die nicht hervorgehobenen Daten bleiben sichtbar, sind jedoch abgeblendet.
@@ -24,9 +24,9 @@ Zum Zuweisen von Filtern und Hervorhebungen zu Berichten haben Sie in Power BI v
 
 * Einführung in Filter und Hervorhebungen (dieser Artikel)
 * Über das [Erstellen und Verwenden von Filtern und Hervorhebungen in der Bearbeitungsansicht von Berichten, deren Besitzer Sie sind](power-bi-report-add-filter.md). Wenn Sie über die erforderlichen Berechtigungen zum Bearbeiten des Berichts verfügen, können Sie darin Filter und Hervorhebungen erstellen, Änderungen vornehmen und diese auch wieder löschen.
-* Über das [Verwenden von Filtern und Hervorhebungen in einem Bericht, der für Sie freigegeben wurde oder den Sie in der Leseansicht aufgerufen haben](service-reading-view-and-editing-view.md). Hier bestehen Einschränkungen, Power BI bietet Ihnen jedoch in jedem Fall eine Vielzahl von Optionen für Filter und Hervorhebungen.  
-* [Eine ausführliche Tour, in der Sie die Benutzeroberfläche für die Steuerung der Filter und Hervorhebungen kennenlernen](power-bi-how-to-report-filter.md), einschließlich der verschiedensten Filtertypen (z.B. Datum und Uhrzeit, Nummern- und Textfilter) und einer Erklärung des Unterschieds zwischen Standard- und erweiterten Optionen.
-* Sobald Sie das Standardverfahren für die Verwendung von Filtern und Hervorhebungen kennen, fahren wir mit der Art und Weise fort, [wie verschiedene Visualisierungen auf einer Seite einander durch Filter und Hervorhebungen beeinflussen (und wie Sie deren Verhalten ändern können)](service-reports-visual-interactions.md).
+* Über das [Verwenden von Filtern und Hervorhebungen in einem Bericht, der für Sie freigegeben wurde oder den Sie in der Leseansicht aufgerufen haben](consumer/end-user-reading-view.md). Hier bestehen Einschränkungen, Power BI bietet Ihnen jedoch in jedem Fall eine Vielzahl von Optionen für Filter und Hervorhebungen.  
+* [Eine ausführliche Tour, in der Sie die Benutzeroberfläche für die Steuerung der Filter und Hervorhebungen kennenlernen](consumer/end-user-report-filter.md), einschließlich der verschiedensten Filtertypen (z.B. Datum und Uhrzeit, Nummern- und Textfilter) und einer Erklärung des Unterschieds zwischen Standard- und erweiterten Optionen.
+* Sobald Sie das Standardverfahren für die Verwendung von Filtern und Hervorhebungen kennen, fahren wir mit der Art und Weise fort, [wie verschiedene Visualisierungen auf einer Seite einander durch Filter und Hervorhebungen beeinflussen (und wie Sie deren Verhalten ändern können)](consumer/end-user-interactions.md).
 
 > [!TIP]
 > Wie wird in Power BI ermittelt, welche Daten wie zusammenhängen?  Es werden die Beziehungen zwischen den verschiedenen Tabellen und Feldern im zugrunde liegenden [Datenmodell](https://support.office.com/article/Create-a-Data-Model-in-Excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b?ui=en-US&rs=en-US&ad=US) herangezogen, damit Elemente auf einer Berichtsseite miteinander interagieren.
@@ -46,7 +46,7 @@ Filter und Hervorhebungen können über den Bereich **Filter** angewendet werden
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filter in der Leseansicht und Filter in der Bearbeitungsansicht
-Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht und Bearbeitungsansicht](service-reading-view-and-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
+Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht und Bearbeitungsansicht](consumer/end-user-reading-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
 
 * In der Bearbeitungsansicht können Sie Berichts-, Seiten-, Drillthrough- und Visualfilter hinzufügen. Selbst wenn Sie den Bericht in einer mobilen App öffnen und speichern, werden die Filter zusammen mit dem Bericht gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den von Ihnen hinzugefügten Filtern interagieren, aber keine neuen Filter hinzufügen.
 * In der Leseansicht können Sie mit allen Filtern interagieren, die in diesem Bericht schon vorhanden sind, und Ihre Auswahl anschließend speichern.  Allerdings können Sie keine neuen Filter hinzufügen.
@@ -62,7 +62,7 @@ Um herauszufinden, ob auch Filter auf visueller Ebene vorhanden sind, wählen Si
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-In der Leseansicht können Sie die Daten untersuchen, indem Sie die bestehenden Filter modifizieren. Selbst wenn Sie den Bericht in einer mobilen App öffnen, werden die von Ihnen vorgenommenen Veränderungen zusammen mit dem Bericht gespeichert. Informationen hierzu finden Sie unter [Reading view and Editing view in Power BI service (Leseansicht und Bearbeitungsansicht im Power BI-Dienst)](service-reading-view-and-editing-view.md).
+In der Leseansicht können Sie die Daten untersuchen, indem Sie die bestehenden Filter modifizieren. Selbst wenn Sie den Bericht in einer mobilen App öffnen, werden die von Ihnen vorgenommenen Veränderungen zusammen mit dem Bericht gespeichert. Informationen hierzu finden Sie unter [Reading view and Editing view in Power BI service (Leseansicht und Bearbeitungsansicht im Power BI-Dienst)](consumer/end-user-reading-view.md).
 
 ### <a name="the-filters-pane-in-editing-view"></a>Der Bereich „Filter“ in der Bearbeitungsansicht
 Wenn Sie über die Besitzerberechtigungen für einen Bericht verfügen und diesen in der Bearbeitungsansicht öffnen, sehen Sie, dass der Bereich **Filter** nur einer von einer Reihe an verfügbaren Bearbeitungsbereichen ist.
@@ -74,7 +74,7 @@ Wie in der Leseansicht (oben) verfügt diese Berichtsseite über sechs Filter au
 Allerdings haben Sie bei der Arbeit mit Filtern und Hervorhebungen in der Bearbeitungsansicht viel mehr Möglichkeiten. Der größte Unterschied besteht darin, dass wir neue Filter hinzufügen können. Weitere ausführliche Informationen dazu finden Sie im Artikel [Hinzufügen eines Filters zu einem Bericht](power-bi-report-add-filter.md).
 
 ## <a name="ad-hoc-filtering-and-highlighting"></a>Ad-hoc-Filter und -Hervorhebungen
-Wählen Sie zum Filtern und Hervorheben des übrigen Teils der Seite im Berichtszeichenbereich ein Feld aus. Wählen Sie in derselben Visualisierung einen leeren Bereich an, um die eben getroffene Auswahl wieder zu entfernen. Dieser Filter- und Hervorhebungstyp ermöglicht es Ihnen, den Einfluss von Daten schnell zu untersuchen. Wie Sie das Verhalten dieser Art von Kreuzfiltern und -hervorhebungen anpassen können, erfahren Sie unter [Interaktionen mit Visuals](service-reports-visual-interactions.md).
+Wählen Sie zum Filtern und Hervorheben des übrigen Teils der Seite im Berichtszeichenbereich ein Feld aus. Wählen Sie in derselben Visualisierung einen leeren Bereich an, um die eben getroffene Auswahl wieder zu entfernen. Dieser Filter- und Hervorhebungstyp ermöglicht es Ihnen, den Einfluss von Daten schnell zu untersuchen. Wie Sie das Verhalten dieser Art von Kreuzfiltern und -hervorhebungen anpassen können, erfahren Sie unter [Interaktionen mit Visuals](consumer/end-user-interactions.md).
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
@@ -83,15 +83,15 @@ Wenn Sie den Bericht verlassen, werden Ihre Veränderungen gespeichert. Um die F
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Interagieren mit Filtern und Hervorhebungen (in der Leseansicht)](service-reading-view-and-editing-view.md)
+[Interagieren mit Filtern und Hervorhebungen (in der Leseansicht)](consumer/end-user-reading-view.md)
 
 [Hinzufügen eines Filters zu einem Bericht (in der Bearbeitungsansicht)](power-bi-report-add-filter.md)
 
-[Überblick über Berichtsfilter](power-bi-how-to-report-filter.md)
+[Überblick über Berichtsfilter](consumer/end-user-report-filter.md)
 
-[Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](service-reports-visual-interactions.md)
+[Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](consumer/end-user-interactions.md)
 
-Erfahren Sie mehr über [Berichte in Power BI](service-reports.md).
+Erfahren Sie mehr über [Berichte in Power BI](consumer/end-user-reports.md).
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

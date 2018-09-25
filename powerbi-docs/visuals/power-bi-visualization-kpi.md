@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732654"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543541"
 ---
 # <a name="kpi-visuals"></a>KPI-Visualisierung
 Ein Key Performance Indicator (KPI) ist ein visueller Hinweis, mit dem der Fortschritt in Bezug auf ein messbares Ziel kommuniziert wird. Weitere Informationen über KPIs finden Sie im [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -42,7 +42,7 @@ Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Öffnen Sie den Bericht in der [Bearbeitungsansicht](../service-reading-view-and-editing-view.md), und [fügen Sie eine neue Seite hinzu](../power-bi-report-add-page.md).    
+1. Öffnen Sie den Bericht in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md), und [fügen Sie eine neue Seite hinzu](../power-bi-report-add-page.md).    
 2. Wählen Sie **Umsatz > Gesamte Einheiten in diesem Jahr**.  Dies wird der Indikator.
 3. Fügen Sie **Zeit > Monat** hinzu.  Dies dient zur Darstellung des Trends.
 4. WICHTIG: Sortieren Sie das Diagramm nach **Monat**. Nachdem Sie die Visualisierung in einen KPI konvertiert haben, ist keine Option zum Sortieren vorhanden.

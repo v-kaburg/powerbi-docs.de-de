@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252138"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545726"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Sie können praktisch alle Elemente im Power BI-Dienst umbenennen.
 In diesem Artikel wird erläutert, wie Sie Dashboards, Berichte, Berichtsseiten, Arbeitsmappen, Datasets, Apps und Arbeitsbereiche im Power BI-Dienst umbenennen.
@@ -71,7 +71,7 @@ Jeder Benutzer mit Administratorberechtigungen kann einen App-Arbeitsbereich umb
 ## <a name="rename-a-page-in-a-report"></a>Umbenennen einer Seite in einem Bericht
 Gefällt Ihnen der Namen einer Seite in Ihrem Power BI-Bericht nicht?  Ein neuer Name ist nur einen Mausklick entfernt. Seiten können in der [Bearbeitungsansicht für Berichte](service-interact-with-a-report-in-editing-view.md) umbenannt werden.
 
-1. Öffnen Sie den Bericht in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md).
+1. Öffnen Sie den Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md).
 2. Wechseln Sie zu den Registerkarten „Berichtsseite“ am unteren Rand der Power BI-Fensters.
    
     ![Bericht mit hervorgehobenen Registerkarten](media/service-rename/report-page-tabs-new.png)

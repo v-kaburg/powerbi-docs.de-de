@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735547"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544943"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Erstellen und Anzeigen von Favoriten in den mobilen Power BI-Apps
 Gilt für:
@@ -30,7 +30,7 @@ Wenn Sie einen Favoriten in mobilen Power BI-Apps speichern, werden diese im Pow
 ![Favoriten in den mobilen Power BI-Apps](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-Sie können auch [Power BI-Dashboard und -Apps als Favoriten im Power BI-Dienst speichern](../../service-dashboard-favorite.md). Sie werden dann auf der Favoritenseite in der mobilen App angezeigt.
+Sie können auch [Power BI-Dashboard und -Apps als Favoriten im Power BI-Dienst speichern](../end-user-favorite.md). Sie werden dann auf der Favoritenseite in der mobilen App angezeigt.
 
 Sie können KPIs und Berichte als Favoriten in Ihrem Power BI-Berichtsserver- oder Reporting Services-Webportal markieren und dann bequem neben den als Favoriten gespeicherten Power BI-Dashboards in einem Ordner auf Ihrem Mobilgerät anzeigen.
 
@@ -76,6 +76,6 @@ Sie können ein Dashboard oder einen Bericht in der Liste der Dashboards oder Be
 Sie können Ihre als Favoriten gespeicherten Power BI-Berichtsserver- und Reporting Services-Berichte und -KPIs in den mobilen Power BI-Apps zwar anzeigen, sie dort aber nicht als Favoriten ablegen. Sie [müssen sie im Webportal als Favoriten markieren](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Als Favoriten gespeicherte Dashboards im Power BI-Dienst](../../service-dashboard-favorite.md) 
+* [Als Favoriten gespeicherte Dashboards im Power BI-Dienst](../end-user-favorite.md) 
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

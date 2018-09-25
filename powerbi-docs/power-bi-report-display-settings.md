@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242129"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545450"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Einstellungen für die Seitenanzeige in einem Power BI-Bericht
 Wir wissen, wie wichtig es ist, dass das Layout des Berichts perfekt ist. Das ist in manchen Fällen jedoch schwierig, da Sie und Ihre Kollegen die Berichte auf Bildschirmen mit unterschiedliche Seitenverhältnissen und Größen anzeigen. 
@@ -39,7 +39,7 @@ Wählen Sie in der Berichtsansicht die Registerkarte **Ansicht** aus, um die Ein
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Die Einstellungen für die Seitenansicht stehen in der [Leseansicht und der Bearbeitungsansicht](service-reading-view-and-editing-view.md) zur Verfügung. In der Bearbeitungsansicht kann der Besitzer eines Berichts einzelnen Berichtsseiten eine Seitenansichtseinstellung zuweisen; diese Einstellungen werden mit dem Bericht gespeichert. Wenn ein Kollege den Bericht in der Leseansicht öffnet, werden ihm die Berichtsseiten mit den Einstellungen des Besitzers angezeigt.  In der Leseansicht können die Kollegen *einige* der Seitenansichtseinstellungen ändern. Die Änderungen werden aber nicht gespeichert, wenn sie den Bericht schließen.
+Die Einstellungen für die Seitenansicht stehen in der [Leseansicht und der Bearbeitungsansicht](consumer/end-user-reading-view.md) zur Verfügung. In der Bearbeitungsansicht kann der Besitzer eines Berichts einzelnen Berichtsseiten eine Seitenansichtseinstellung zuweisen; diese Einstellungen werden mit dem Bericht gespeichert. Wenn ein Kollege den Bericht in der Leseansicht öffnet, werden ihm die Berichtsseiten mit den Einstellungen des Besitzers angezeigt.  In der Leseansicht können die Kollegen *einige* der Seitenansichtseinstellungen ändern. Die Änderungen werden aber nicht gespeichert, wenn sie den Bericht schließen.
 
 ##    <a name="page-view-settings"></a>Seitenansichtseinstellungen
 Mit der ersten Gruppe von Einstellungen für die *Seitenansicht* wird die Anzeige der Berichtsseite in Relation zum Browserfenster angepasst.  Sie können zwischen folgenden Einstellungen wählen:
@@ -62,7 +62,7 @@ Die zweite Gruppe von Einstellungen für die *Seitenansicht* steuert die Positio
 ## <a name="page-size-settings"></a>Seitengrößeeinstellungen
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Die Einstellungen für die *Seitengröße* sind nur für den Besitzer eines Berichts verfügbar. Im Power BI-Dienst („app.powerbi.com“) müssen Sie hierzu den Bericht in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) öffnen können. Mit diesen Einstellungen können Sie das Seitenverhältnis und die tatsächliche Größe (in Pixel) des Zeichenbereichs festlegen.   
+Die Einstellungen für die *Seitengröße* sind nur für den Besitzer eines Berichts verfügbar. Im Power BI-Dienst („app.powerbi.com“) müssen Sie hierzu den Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md) öffnen können. Mit diesen Einstellungen können Sie das Seitenverhältnis und die tatsächliche Größe (in Pixel) des Zeichenbereichs festlegen.   
 
 * 4:3-Seitenverhältnis
 * 16:9-Seitenverhältnis (Standard)
@@ -71,11 +71,11 @@ Die Einstellungen für die *Seitengröße* sind nur für den Besitzer eines Beri
 * Benutzerdefiniert (Höhe und Breite in Pixel)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Erfahren Sie, wie Sie die Einstellungen für Seitenansicht und Seitengröße in Ihren eigenen Power BI-Berichten verwenden können](power-bi-change-report-display-settings.md).
+[Erfahren Sie, wie Sie die Einstellungen für Seitenansicht und Seitengröße in Ihren eigenen Power BI-Berichten verwenden können](consumer/end-user-report-view.md).
 
-Erfahren Sie mehr über [Berichte in Power BI](service-reports.md).
+Erfahren Sie mehr über [Berichte in Power BI](consumer/end-user-reports.md).
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

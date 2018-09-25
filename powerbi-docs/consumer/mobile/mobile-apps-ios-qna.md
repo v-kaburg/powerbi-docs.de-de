@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732751"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548109"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Virtueller Q&A-Analyst in iOS-Apps – Power BI
 
@@ -137,11 +137,11 @@ Informationen hierzu finden Sie im Abschnitt zur Spracherkennung im Artikel [Neu
 Mit gezielteren Fragen erhalten Sie und Ihre Kunden bessere Ergebnisse, wenn Sie den virtuellen Q&A-Analysten mit einem Dataset verwenden; die Qualität des Datasets selbst hat ebenfalls einen Einfluss auf die Qualität der Ergebnisse.
 
 ### <a name="how-to-ask-questions"></a>Formulieren von Fragen
-* Befolgen Sie diese [Tipps zum Stellen von Fragen mit dem virtuellen Q&A-Analysten](../../service-q-and-a-tips.md) im Power BI-Dienst und in der mobilen iOS-App.
+* Befolgen Sie diese [Tipps zum Stellen von Fragen mit dem virtuellen Q&A-Analysten](../end-user-q-and-a-tips.md) im Power BI-Dienst und in der mobilen iOS-App.
 
 ### <a name="how-to-enhance-the-dataset"></a>Verbessern von Datasets
 * Verbessern Sie ein Dataset in Power BI Desktop und im Power BI-Dienst zum [Optimieren Ihrer Daten mit Q&A und dem virtuellen Q&A-Analysten](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Q&A im Power BI-Dienst](../../power-bi-q-and-a.md)
+* [Q&A im Power BI-Dienst](../end-user-q-and-a.md)
 * Haben Sie Fragen? [Bereich für mobile Apps in der Power BI-Community](https://go.microsoft.com/fwlink/?linkid=839277)

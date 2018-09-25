@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558514"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549981"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
@@ -99,7 +99,7 @@ Sie sehen dann eine Meldung, in der Sie gebeten werden, **Starten** auszuwählen
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Power BI Pro als 60-Tage-Testversion
 Nachdem Sie sich für ein kostenloses Konto registriert haben, erhalten Sie die Möglichkeit, die Pro-Version 60 Tage lang kostenlos zu testen. Während des Testzeitraums haben Sie Zugriff auf alle Pro-Features. Power BI Pro hat alle Features der kostenlosen Version von Power BI sowie zusätzliche Features für Freigeben und Zusammenarbeit. Weitere Informationen finden Sie unter [Power BI – Preise](https://powerbi.microsoft.com/pricing). Um eine 60 Tage lang gültige kostenlose Testversion von Power BI Pro auszuprobieren, melden Sie sich bei Power BI an, und testen Sie eins dieser Features von Power BI Pro:
 
-* [Erstellen eines App-Arbeitsbereichs](service-create-distribute-apps.md)
+* [Erstellen eines App-Arbeitsbereichs](consumer/end-user-create-apps.md)
 * [Freigeben eines Dashboards](service-share-dashboards.md)
 
 Wenn Sie eins dieser Features ausprobieren, werden Sie aufgefordert, Ihren kostenlosen Testzeitraum zu beginnen. Sie können die Testversion auch starten, indem Sie auf das Zahnradsymbol klicken und **Persönlichen Speicher verwalten** auswählen. Klicken Sie anschließend rechts auf **Pro kostenlos testen**.

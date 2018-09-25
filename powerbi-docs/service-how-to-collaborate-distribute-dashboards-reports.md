@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726660"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545749"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -57,7 +57,7 @@ Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern ve
 
 ![Symbol „App veröffentlichen“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md). 
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](consumer/end-user-create-apps.md). 
 
 Nachdem die Benutzer eine App installiert haben, können sie diese in ihren Browsern oder mobilen Geräten anzeigen.
 
@@ -88,7 +88,7 @@ Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kachel
 Sie können auch eine [Momentaufnahme einer Kachel](consumer/mobile/mobile-windows-10-phone-app-get-started.md) aus der Power BI-App für Windows 10-Geräte freigeben.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Ausdrucken oder als PDF (oder andere statische Datei) speichern
-Sie können ein gesamtes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Visualisierung im Power BI-Dienst drucken oder als PDF-Datei (oder in einem anderen statischen Dateiformat) speichern. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken. Weitere Informationen zum [Drucken und Speichern als statische Datei](service-print.md).
+Sie können ein gesamtes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Visualisierung im Power BI-Dienst drucken oder als PDF-Datei (oder in einem anderen statischen Dateiformat) speichern. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken. Weitere Informationen zum [Drucken und Speichern als statische Datei](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Im Web veröffentlichen
 
@@ -99,7 +99,7 @@ Sie können Power BI-Berichte im Internet veröffentlichen, indem Sie interaktiv
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Freigeben von Dashboards für Kollegen und andere](service-share-dashboards.md)
-* [Erstellen und Veröffentlichen einer App in Power BI](service-create-distribute-apps.md)
+* [Erstellen und Veröffentlichen einer App in Power BI](consumer/end-user-create-apps.md)
 * Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
 

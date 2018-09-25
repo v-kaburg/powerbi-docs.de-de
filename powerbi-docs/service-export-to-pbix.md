@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722541"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547023"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht in den Power BI-Dienst exportieren (dieser Vorgang wird auch als *Herunterladen* bezeichnet), indem Sie den Bericht speichern und **Veröffentlichen** auswählen. Es ist auch ein Export in die andere Richtung möglich, und Sie können einen Bericht aus dem Power BI-Dienst in die Desktopversion herunterladen. Die Erweiterung für in beide Richtungen exportierte Dateien lautet *.pbix*.
@@ -27,7 +27,7 @@ Es sind einige Einschränkungen und Überlegungen zu berücksichtigen, die weite
 ## <a name="download-the-report-as-a-pbix"></a>Herunterladen des Berichts als PBIX-Datei
 Gehen Sie zum Herunterladen der PBIX-Datei folgendermaßen vor:
 
-1. Öffnen Sie im **Power BI-Dienst** den Bericht, den Sie herunterladen möchten, in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md).
+1. Öffnen Sie im **Power BI-Dienst** den Bericht, den Sie herunterladen möchten, in der [Bearbeitungsansicht](consumer/end-user-reading-view.md).
 2. Wählen Sie auf der Menüleiste **Datei > Bericht herunterladen** aus.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Sehen Sie sich das **Guy in a Cube**-Kurzvideo (in englischer Sprache) zu diesem
 
 Weitere Informationen zur Verwendung des **Power BI-Diensts** finden Sie in den folgenden Artikeln:
 
-* [Berichte in Power BI](service-reports.md)
-* [Power BI – Grundkonzepte](service-basic-concepts.md)
+* [Berichte in Power BI](consumer/end-user-reports.md)
+* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Nachdem Sie **Power BI Desktop** installiert haben, erhalten Sie in den folgenden Artikeln die nötigen Informationen für einen schnellen Einstieg:
 

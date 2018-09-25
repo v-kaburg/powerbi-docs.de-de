@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310289"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544940"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statische Inhalte in Power BI-Berichten
 Sie können den Power BI-Dienst oder Power BI Desktop verwenden, um Textfelder und Formen zu Berichten hinzuzufügen. In beiden Fällen benötigen Sie Berechtigungen zum Bearbeiten des Berichts. Wenn ein Bericht mit Ihnen im Power BI-Dienst geteilt wurde, verfügen Sie nicht über Berechtigungen zur Bearbeitung. 
@@ -65,6 +65,6 @@ Schauen Sie sich an, wie Will mit Power BI Desktop [statische Bilder zu einem Be
 ### <a name="next-steps"></a>Nächste Schritte
 [Hinzufügen eines Links zu einem Textfeld](service-add-hyperlink-to-text-box.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

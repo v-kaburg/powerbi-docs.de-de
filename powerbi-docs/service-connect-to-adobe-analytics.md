@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924533"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544622"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Adobe Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Adobe Analytics über Power BI beginnt mit dem Verbinden mit Ihrem Konto für die Adobe Analytics Marketing Cloud. Sie erhalten eine App mit einem Power BI-Dashboard und einer Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Die Daten werden automatisch einmal täglich aktualisiert. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern.
@@ -94,7 +94,7 @@ Wenn Sie nach Angabe Ihrer Anmeldeinformationen eine Fehlermeldung erhalten, der
 Wenn erst nach dem erfolgreichen Verlassen des Anmeldebildschirms ein Fehler auftritt, ist seine Ursache möglicherweise, dass das Ausführen der Berichte zu lange dauert. Ein häufiger Fehler lautet etwa wie *„Fehler beim Auslesen der Daten aus dem Adobe Analytics-Bericht. Der Bericht enthielt &quot;referrer, page&quot;. Die geschätzte Dauer betrug xx Sekunden“*. Konsultieren Sie den Abschnitt „Inhalt“, und führen Sie einen Vergleich mit der Größe Ihrer Adobe-Instanz durch. Leider gibt es derzeit keine Möglichkeit zum Umgehen dieses Timeouts. Wir ziehen allerdings Updates zur Unterstützung größerer Instanzen in Betracht. Unter https://ideas.powerbi.com können Sie dem Power BI-Team Feedback geben.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](service-install-use-apps.md)
+* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
 * [Abrufen von Daten in Power BI](service-get-data.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280729"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548302"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Power BI Pro in Ihrer Organisation
 
@@ -35,7 +35,7 @@ Für diese Features ist eine Power BI Pro-Lizenz erforderlich.
 
 Nachdem Sie sich für ein kostenloses Konto registriert haben, erhalten Sie die Möglichkeit, die Pro-Version 60 Tage lang kostenlos zu testen. Während des Testzeitraums haben Sie Zugriff auf alle Pro-Features. Power BI Pro hat alle Features der kostenlosen Version von Power BI sowie zusätzliche Features für Freigeben und Zusammenarbeit. Weitere Informationen finden Sie unter [Power BI – Preise](https://powerbi.microsoft.com/en-us/pricing/). Um eine 60 Tage lang gültige kostenlose Testversion von Power BI Pro auszuprobieren, melden Sie sich bei Power BI an, und testen Sie eins dieser Features von Power BI Pro:
 
-* [Erstellen eines Arbeitsbereichs](service-create-distribute-apps.md)
+* [Erstellen eines Arbeitsbereichs](consumer/end-user-create-apps.md)
 * [Freigeben eines Dashboards](service-share-dashboards.md)
 
 Wenn Sie eins dieser Features ausprobieren, werden Sie aufgefordert, Ihren kostenlosen Testzeitraum zu beginnen. Sie können die Testversion auch starten, indem Sie auf das Zahnradsymbol klicken und „Persönlichen Speicher verwalten“ auswählen. Klicken Sie anschließend rechts auf „Pro kostenlos testen“.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944535"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550073"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Tour
 
@@ -165,5 +165,5 @@ Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen- u
 * [Herunterladen einer ZIP-Datei aller Beispieldateien](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Herunterladen der Excel-Arbeitsmappe für dieses Power BI-Beispiel](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Abrufen von Daten (für Power BI)](service-get-data.md)    
-* [Power BI – Grundkonzepte](service-basic-concepts.md)    
+* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)    
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

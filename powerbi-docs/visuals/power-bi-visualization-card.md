@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732714"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548325"
 ---
 # <a name="card-visualizations"></a>Kartenvisualisierungen
 Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashboard oder Bericht nachverfolgen möchten, wie z.B. der Gesamtumsatz, der Marktanteil im Jahresverlauf oder die Gesamtverkaufschancen. Eine solche Visualisierung wird als *Karte* bezeichnet. Wie fast alle nativen Power BI-Visualisierungen können Karten im Berichts-Editor oder in Q&A erstellt werden.
@@ -51,13 +51,13 @@ In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. We
 ## <a name="create-a-card-from-the-qa-question-box"></a>Erstellen einer Karte aus dem Q&A-Fragefeld
 Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. Das Q&A-Fragefeld ist im Power BI-Dienst („app.powerbi.com“) in Dashboards und Berichten verfügbar. Die folgenden Schritte beschreiben das Erstellen einer Karte aus einem Dashboard im Power BI-Dienst. Wenn Sie in Power BI Desktop eine Karte mit Q&A erstellen möchten, [folgen Sie diesen Anweisungen](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) für die Q&A-Vorschau von Desktop-Berichten.
 
-1. Erstellen Sie ein [Dashboard](../service-dashboards.md) und [rufen Sie Daten ab](../service-get-data.md). Hier wird das [Beispiel zur Opportunityanalyse](../sample-opportunity-analysis.md) verwendet.
+1. Erstellen Sie ein [Dashboard](../consumer/end-user-dashboards.md) und [rufen Sie Daten ab](../service-get-data.md). Hier wird das [Beispiel zur Opportunityanalyse](../sample-opportunity-analysis.md) verwendet.
 
 1. Geben Sie oben auf Ihrem Dashboard im Fragefeld ein, was Sie über Ihre Daten wissen möchten. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIPP**: Wählen Sie in einem Bericht im Power BI-Dienst in der [Bearbeitungsansicht](../service-reading-view-and-editing-view.md) in der oberen Menüleiste **Frage stellen** aus. Suchen Sie in einem Power BI Desktop-Bericht eine freie Stelle, und doppelklicken Sie, um ein Fragefeld anzuzeigen.
+>**TIPP**: Wählen Sie in einem Bericht im Power BI-Dienst in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md) in der oberen Menüleiste **Frage stellen** aus. Suchen Sie in einem Power BI Desktop-Bericht eine freie Stelle, und doppelklicken Sie, um ein Fragefeld anzuzeigen.
 
 3. Geben Sie z. B. „Anzahl Verkaufschancen“ in das Fragefeld ein.
 
@@ -105,10 +105,10 @@ Sie haben viele Möglichkeiten, Beschriftungen, Text, Farben usw. zu ändern. De
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboardkacheln in Power BI](../service-dashboard-tiles.md)
+[Dashboardkacheln in Power BI](../consumer/end-user-tiles.md)
 
-[Dashboards in Power BI](../service-dashboards.md)
+[Dashboards in Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI – Grundkonzepte](../service-basic-concepts.md)
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

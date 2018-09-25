@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732901"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544001"
 ---
 # <a name="combo-chart-in-power-bi"></a>Kombinationsdiagramm in Power BI
 Ein Kombinationsdiagramm in Power BI ist eine einzelne Visualisierung, die ein Liniendiagramm und ein Säulendiagramm kombiniert. Die Kombination von zwei Diagrammen in einem ermöglicht einen schnelleren Vergleich von Daten.
@@ -103,13 +103,13 @@ In dieser Aufgabe vergleichen wir Bruttogewinn und Umsätze.
 
 Jetzt haben Sie folgende Möglichkeiten:
 
-* [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](../service-dashboard-tiles.md)
+* [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](../consumer/end-user-tiles.md)
 * [Speichern Sie den Bericht](../service-report-save.md).
 * [Den Bericht zugänglicher für Menschen mit Behinderungen machen](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kreuzhervorheben und Kreuzfiltern
 
-Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Verwenden Sie [Visualinteraktionen](../service-reports-visual-interactions.md), um dieses Standardverhalten zu ändern.
+Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Verwenden Sie [Visualinteraktionen](../consumer/end-user-interactions.md), um dieses Standardverhalten zu ändern.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
@@ -117,6 +117,6 @@ Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht 
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI – Grundkonzepte](../service-basic-concepts.md)
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

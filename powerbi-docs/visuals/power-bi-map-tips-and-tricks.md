@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736410"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548509"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
@@ -89,7 +89,7 @@ Beim Drilling in geografischen Hierarchien müssen Sie wissen, wie die einzelnen
 * Die zweite Option ![Drilldown mit Karten](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ähnelt einem Drilldown, mit dem Unterschied, dass Sie nicht auf die Karte klicken müssen.  Die Ansicht wird nach unten zur nächsten Ebene der Hierarchie erweitert, wobei der Kontext der aktuellen Ebene gespeichert wird. Wenn Sie z.B. gerade Länder betrachten und dieses Symbol auswählen, navigieren Sie in der Hierarchie nach unten auf die nächste Ebene, die Bundesstaaten. Für die Geocodierung sendet Power BI Daten für jeden Bundesstaat und das entsprechende Land, damit die Geocodierung in Bing Maps genauer erfolgen kann. Bei den meisten Karten verwenden Sie diese Option oder die Option „Drilldown“ ganz rechts, damit Sie so viele Informationen wie möglich an Bing senden und genaue Standortinformationen abrufen können. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Drilldown in einer Visualisierung in Power BI](../power-bi-visualization-drill-down.md)
+[Drilldown in einer Visualisierung in Power BI](../consumer/end-user-drill.md)
 
 [Power Bi-Visualisierung](power-bi-report-visualizations.md)
 

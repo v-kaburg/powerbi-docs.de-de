@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727258"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548486"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -32,24 +32,24 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Erstellen von Power BI-Berichten im Browser | Nein | Ja |  
 | Gateway erforderlich | Nein | Ja für lokale Datenquellen |  
 | Echtzeitstreaming | Nein | Ja | [Echtzeitstreaming in Power BI](../service-real-time-streaming.md)
-| Dashboards | Nein | Ja | [Dashboards im Power BI-Dienst](../service-dashboards.md) 
-| Verteilen von Berichtsgruppen mithilfe von Apps | Nein | Ja | [Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten](../service-create-distribute-apps.md) 
+| Dashboards | Nein | Ja | [Dashboards im Power BI-Dienst](../consumer/end-user-dashboards.md) 
+| Verteilen von Berichtsgruppen mithilfe von Apps | Nein | Ja | [Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten](../consumer/end-user-create-apps.md) 
 | Inhaltspakete | Nein | Ja | [Einführung in organisationsbezogene Inhaltspakete in Power BI](../service-organizational-content-pack-introduction.md) 
-| Herstellen einer Verbindung mit Diensten wie Salesforce | Nein | Ja | [Herstellung einer Verbindung mit den verwendeten Diensten](../service-connect-to-services.md) über den Power BI-Dienst
-| Q&A | Nein | Ja | [Q&A im Power BI-Dienst und in Power BI Desktop](../power-bi-q-and-a.md) 
-| Schnelle Einblicke | Nein | Ja | [Automatisches Erstellen von Einblicken in Daten mit Power BI](../service-insights.md) 
+| Herstellen einer Verbindung mit Diensten wie Salesforce | Nein | Ja | [Herstellung einer Verbindung mit den verwendeten Diensten](../consumer/end-user-connect-to-services.md) über den Power BI-Dienst
+| Q&A | Nein | Ja | [Q&A im Power BI-Dienst und in Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Schnelle Einblicke | Nein | Ja | [Automatisches Erstellen von Einblicken in Daten mit Power BI](../consumer/end-user-insights.md) 
 | In Excel analysieren | Nein | Ja | [In Excel analysieren](../service-analyze-in-excel.md) 
 | Paginierte Berichte | Ja | Nein | Paginierte Berichte sind im Power BI-Dienst nicht verfügbar, aber Sie können [paginierte Berichtelemente an Power BI-Dashboards anheften](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 | Mobile Power BI-Apps | Ja | Ja | [Übersicht über mobile Power BI-Apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ArcGIS-Karten | Nein | Ja | [ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop](../power-bi-visualization-arcgis.md)
-| E-Mail-Abonnements für Power BI-Berichte | Nein | Ja | [Abonnieren eines Berichts oder Dashboards](../service-report-subscribe.md) im Power BI-Dienst 
+| E-Mail-Abonnements für Power BI-Berichte | Nein | Ja | [Abonnieren eines Berichts oder Dashboards](../consumer/end-user-subscribe.md) im Power BI-Dienst 
 | E-Mail-Abonnements für paginierte Berichte | Ja | Nein | [E-Mail-Übermittlung in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Datenwarnungen | Nein | Ja | [Datenwarnungen](../service-set-data-alerts.md) im Power BI-Dienst
 | Sicherheit auf Zeilenebene | Nur über die Datenquelle im DirectQuery-Modus | Verfügbar im DirectQuery-Modus (Datenquelle) und im Importmodus | [Sicherheit auf Zeilenebene](../service-admin-rls.md) mit Power BI 
 | Vollbildmodus | Nein | Ja | [Vollbildmodus](../service-fullscreen-mode.md) im Power BI-Dienst 
 | Erweiterte Zusammenarbeit mit Office 365 | Nein | Ja | [Zusammenarbeiten in einem App-Arbeitsbereich ](../service-collaborate-power-bi-workspace.md) mit Office 365 
 | Visuelle R-Elemente | Nein | Ja | [Erstellen von R-Visuals](../visuals/service-r-visuals.md) im Power BI-Dienst  
-| Vorschaufeatures | Nein | Ja | [Aktivieren von Vorschaufeatures im Power BI-Dienst](../service-preview-features.md) 
+| Vorschaufeatures | Nein | Ja | [Aktivieren von Vorschaufeatures im Power BI-Dienst](../consumer/end-user-preview-features.md) 
 | Benutzerdefinierte Visuals | Ja | Ja | [Benutzerdefinierte Visualisierungen in Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Für den Berichtsserver optimierte Version, zum Download mit dem Berichtsserver verfügbar | Für Power BI-Dienst optimierte Version, verfügbar im Windows Store | [Power BI Desktop für den Berichtsserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop für den Power BI-Dienst](http://aka.ms/pbidesktopstore)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623928"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543947"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Wenn Sie eine Power BI Desktop-Datei erstellt haben und diese in Ihrem Power BI-
    
     ![Registerkarte „Berichte“](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Ab hier gehen Sie wie bei jedem anderen Bericht in Power BI vor. Sie und andere Personen in Ihrem App-Arbeitsbereich können den [Bericht ändern](service-reports.md) und Kacheln in einem Dashboard Ihrer Wahl speichern.
+    Ab hier gehen Sie wie bei jedem anderen Bericht in Power BI vor. Sie und andere Personen in Ihrem App-Arbeitsbereich können den [Bericht ändern](consumer/end-user-reports.md) und Kacheln in einem Dashboard Ihrer Wahl speichern.
 
 ## <a name="collaborate-in-office-365"></a>Zusammenarbeiten in Office 365
 Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Power BI.
@@ -77,7 +77,7 @@ Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Pow
 Wenn Sie Besitzer oder Administrator eines App-Arbeitsbereichs sind, können Sie auch Arbeitsbereichsmitglieder hinzufügen oder entfernen. Erfahren Sie mehr über das [Verwalten Ihres Power BI-App-Arbeitsbereichs](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](service-create-distribute-apps.md)
+* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](consumer/end-user-create-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 * Feedback? Besuchen Sie [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 

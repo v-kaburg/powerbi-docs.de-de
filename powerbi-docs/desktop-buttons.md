@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330487"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546744"
 ---
 # <a name="using-buttons-in-power-bi"></a>Verwenden von Schaltflächen in Power BI
 Durch das Verwenden von **Schaltflächen** in Power BI können Sie Berichte und Dashboards erstellen, die sich ähnlich wie Apps verhalten, und dadurch eine interaktive Umgebung erstellen, sodass die Benutzer auf Power BI-Elemente zeigen, klicken oder auf andere Weise mit diesen interagieren können. Sie können Schaltflächen zu Berichten in **Power BI Desktop** hinzufügen, und diese Berichte im Power BI-Dienst freigeben oder veröffentlichen, um Dashboards zu erstellen, die Benutzern ein App-ähnliches Verhalten bieten.
@@ -41,8 +41,8 @@ Mithilfe folgender Karten im Bereich **Visualisierungen** können Sie die Format
 
 * Schaltflächentext
 * Symbol
-* Gliederung
-* Ausfüllen
+* Kontur
+* Füllung
 
 Erweitern Sie eine dieser Karten, und klicken Sie auf das Dropdownmenü, das im oberen Bereich der Karte angezeigt wird, um auszuwählen, wie die Schaltfläche für jeden Zustand angezeigt werden soll. Auf der folgenden Abbildung wird veranschaulicht, wie die erweiterte Karte **Gliederung** aussieht. Dabei zeigt das ausgewählte Dropdownmenü die drei Zustände an:
 
@@ -75,6 +75,6 @@ Sie können die Schaltflächen testen, die Sie für Ihren Bericht erstellen, ind
 Weitere Informationen zu Features, die Schaltflächen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Verwenden der Drillthroughfunktion in Power BI Desktop](desktop-drillthrough.md)
-* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](service-focus-mode.md)
+* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](consumer/end-user-focus.md)
 * [Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI](desktop-bookmarks.md)
 

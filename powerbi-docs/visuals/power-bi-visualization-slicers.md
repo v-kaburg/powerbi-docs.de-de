@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732991"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565082"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 Die Leser des Berichts sollen die gesamten Vertriebsmetriken ansehen können, aber auch die Leistung einzelner Bezirksleiter und unterschiedliche Zeitrahmen hervorheben können. Sie könnten separate Berichte oder vergleichende Diagramme erstellen. Alternativ könnten Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
@@ -98,7 +98,7 @@ Mit der Option **Visual interactions** (visuelle Interaktionen) können Sie auss
 2. Wählen Sie das Symbol **Keine** über dem Diagramm **Total Sales Variance by FiscalMonth and District Manager** (Abweichung vom Gesamtumsatz nach Geschäftsmonat und Bezirksleiter) aus, um die Filterung durch den Slicer zu beenden. 
 3. Wählen Sie den Slicer für **Monat** und anschließend erneut das Symbol **Keine** über dem Diagramm **Total Sales Variance by FiscalMonth and District Manager** (Abweichung vom Gesamtumsatz nach Geschäftsmonat und Bezirksleiter) aus, um die Filterung durch den Slicer zu beenden. Wenn Sie in den Slicern Namen und Datumsbereiche ausgewählt haben, bleibt das Diagramm „Total Sales Variance by FiscalMonth and District Manager“ (Abweichung vom Gesamtumsatz nach Geschäftsmonat und Bezirksleiter) unverändert. 
 
-Weitere Informationen zur Bearbeitung von Interaktionen finden Sie unter [Interaktionen mit visuellen Elementen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+Weitere Informationen zur Bearbeitung von Interaktionen finden Sie unter [Interaktionen mit visuellen Elementen in einem Power BI-Bericht](../consumer/end-user-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Synchronisieren und Verwenden von Slicern auf anderen Seiten
 Ab dem Power BI-Update von Februar 2018 können Sie einen Slicer synchronisieren und auf einer beliebigen Seite oder allen Seiten in einem Bericht verwenden. 
@@ -193,5 +193,5 @@ Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.pow
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI – Grundkonzepte](../service-basic-concepts.md)
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
 

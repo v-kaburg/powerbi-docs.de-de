@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726867"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546255"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
 ## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
-Ein *zertifiziertes benutzerdefiniertes visuelles Element* hat verschiedene Codeanforderungen erfüllt und strenge Sicherheitstests bestanden.  Nachdem ein benutzerdefiniertes visuelles Element zertifiziert wurde, kann es [nach PowerPoint exportiert](service-publish-to-powerpoint.md) werden und wird in den empfangenen E-Mails angezeigt, wenn ein Benutzer [Berichtsseiten abonniert](service-report-subscribe.md). Dieses kann ebenfalls wie ein [benutzerdefiniertes visuelles Standardelement](power-bi-custom-visuals.md) verwendet, zum Power BI-Dienst und zu Power BI Desktop-Berichten hinzugefügt und in Power BI Mobile angezeigt und eingebettet werden.
+Ein *zertifiziertes benutzerdefiniertes visuelles Element* hat verschiedene Codeanforderungen erfüllt und strenge Sicherheitstests bestanden.  Nachdem ein benutzerdefiniertes visuelles Element zertifiziert wurde, kann es [nach PowerPoint exportiert](consumer/end-user-powerpoint.md) werden und wird in den empfangenen E-Mails angezeigt, wenn ein Benutzer [Berichtsseiten abonniert](consumer/end-user-subscribe.md). Dieses kann ebenfalls wie ein [benutzerdefiniertes visuelles Standardelement](power-bi-custom-visuals.md) verwendet, zum Power BI-Dienst und zu Power BI Desktop-Berichten hinzugefügt und in Power BI Mobile angezeigt und eingebettet werden.
 
 Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu [Microsoft AppSource](https://appsource.microsoft.com) hinzufügen? Weitere Informationen hierzu finden Sie unter [Erste Schritte mit den Entwicklertools](service-custom-visuals-getting-started-with-developer-tools.md).
 

@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944397"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545381"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
 **Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Unabhängig davon, ob es sich bei Ihren Daten um ein einfaches Excel-Arbeitsblatt oder eine Sammlung von cloudbasierten und lokalen hybriden Data Warehouses handelt, mit **Power BI** können Sie mühelos und schnell eine Verbindung mit Ihren Datenquellen herstellen, wichtige Daten visualisieren (oder ermitteln) und diese Daten für alle gewünschten Benutzer freigeben.
@@ -57,5 +57,5 @@ Mithilfe der zahlreichen sofort einsetzbaren Tools und Dienste von Power BI-Beri
 Power BI-Berichtsserver ist eine Lösung, die Sie hinter Ihrer Firewall bereitstellen. Danach stellen Sie Ihre Berichte den richtigen Benutzern auf unterschiedliche Weise zur Verfügung: in einem Webbrowser, auf einem mobilen Gerät oder per E-Mail. Power BI-Berichtsserver ist mit Power BI in der Cloud kompatibel, sodass Sie jederzeit zur Cloud wechseln können.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Melden Sie sich an, rufen Sie Daten ab, und lernen Sie den Power BI-Dienst kennen.](service-the-new-power-bi-experience.md)   
+[Melden Sie sich an, rufen Sie Daten ab, und lernen Sie den Power BI-Dienst kennen.](consumer/end-user-experience.md)   
 [Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)](service-get-started.md)

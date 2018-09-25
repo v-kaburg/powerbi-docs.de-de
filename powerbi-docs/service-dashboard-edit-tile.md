@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598976"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546094"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Bearbeiten oder Entfernen einer Dashboardkachel
 
@@ -36,7 +36,7 @@ In diesem Artikel werden folgende Themen behandelt:
 * [Löschen einer Kachel](#delete)
   
   > [!TIP]
-  > Um die Visualisierung auf der Kachel selbst zu ändern, löschen Sie die Kachel, und fügen Sie eine neue [Dashboard-Kachel](service-dashboard-tiles.md) hinzu.
+  > Um die Visualisierung auf der Kachel selbst zu ändern, löschen Sie die Kachel, und fügen Sie eine neue [Dashboard-Kachel](consumer/end-user-tiles.md) hinzu.
 
   
 ## <a name="prerequisites"></a>Voraussetzungen
@@ -142,11 +142,11 @@ Standardmäßig gelangen Sie durch Auswählen einer Kachel zu dem Bericht, in de
 
 - - -
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboardkacheln in Power BI](service-dashboard-tiles.md)
+[Dashboardkacheln in Power BI](consumer/end-user-tiles.md)
 
-[Dashboards in Power BI](service-dashboards.md)
+[Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

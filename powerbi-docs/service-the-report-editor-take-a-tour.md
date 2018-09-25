@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726637"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546071"
 ---
 # <a name="the-report-editortake-a-tour"></a>Berichts-Editor – Verschaffen Sie sich einen Überblick
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Bearbeiten von Berichten im Power BI-Dienst und in Power BI Desktop
 Der Berichts-Editor im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich. Im Video wird der Berichts-Editor in Power BI Desktop gezeigt, und in diesem Artikel wird der Berichts-Editor im Power BI-Dienst gezeigt. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Der Unterschied zwischen einem *Ersteller* und einem *Anwender* von Berichten
-Die Möglichkeit zum Erstellen und Bearbeiten eines Berichts ist auf die Besitzer (d.h. *Ersteller*) eines Berichts eingeschränkt. Wenn Sie einen Bericht *verwenden*, der für Sie freigegeben wurde, können Sie den Bericht weiterhin [nur in der Leseansicht](service-reading-view-and-editing-view.md) des Power BI-Diensts öffnen und mit ihm interagieren. In diesem Fall haben Sie jedoch keinen Zugriff auf die stabilen und umfangreichen Features, die dem Berichtsersteller zur Verfügung stehen.  
+Die Möglichkeit zum Erstellen und Bearbeiten eines Berichts ist auf die Besitzer (d.h. *Ersteller*) eines Berichts eingeschränkt. Wenn Sie einen Bericht *verwenden*, der für Sie freigegeben wurde, können Sie den Bericht weiterhin [nur in der Leseansicht](consumer/end-user-reading-view.md) des Power BI-Diensts öffnen und mit ihm interagieren. In diesem Fall haben Sie jedoch keinen Zugriff auf die stabilen und umfangreichen Features, die dem Berichtsersteller zur Verfügung stehen.  
 
-Weitere Informationen zur Leseansicht eines Berichts finden Sie unter [Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst](service-reading-view-and-editing-view.md). 
+Weitere Informationen zur Leseansicht eines Berichts finden Sie unter [Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Im Power BI-Dienst ist der *Berichts-Editor* nur in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) verfügbar. Wenn Sie einen Bericht in der Bearbeitungsansicht öffnen möchten, müssen Sie Besitzer oder Ersteller des Berichts sein.
+Im Power BI-Dienst ist der *Berichts-Editor* nur in der [Bearbeitungsansicht](consumer/end-user-reading-view.md) verfügbar. Wenn Sie einen Bericht in der Bearbeitungsansicht öffnen möchten, müssen Sie Besitzer oder Ersteller des Berichts sein.
 
 Der Power BI-Berichts-Editor besteht aus drei Abschnitten:  
 
@@ -126,9 +126,9 @@ Im Zeichenbereich des Berichts wird Ihre Arbeit angezeigt. Wenn Sie in den Berei
 ## <a name="next-steps"></a>Nächste Schritte:
 [Erstellen eines Berichts](service-report-create-new.md)
 
-Lesen Sie mehr zu Berichten im [Power BI-Dienst](service-reports.md), in [Power BI Desktop](desktop-report-view.md) und [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
+Lesen Sie mehr zu Berichten im [Power BI-Dienst](consumer/end-user-reports.md), in [Power BI Desktop](desktop-report-view.md) und [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

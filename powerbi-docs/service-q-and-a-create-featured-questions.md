@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726315"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548233"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Erstellen von ausgewählten Fragen für Power BI Q&A
 Wenn Sie ein Dataset besitzen, können Sie dem Dataset eigene ausgewählte Fragen hinzufügen.  Power BI Q&A zeigt diese Fragen dann für Kollegen an, die das Dataset verwenden (*nutzen*).  Durch die ausgewählten Fragen erhalten Ihre Kollegen Anhaltspunkte für die Arten von Fragen, die sie zum Dataset stellen können. Welche ausgewählten Fragen Sie hinzufügen, ist Ihnen überlassen – häufig gestellte Fragen, Fragen mit interessanten Ergebnissen oder Fragen, die möglicherweise schwierig zu formulieren sind.
@@ -47,8 +47,8 @@ In diesem Artikel wird das [Analysebeispiel für den Einzelhandel](sample-datase
    ![Kartenvisualisierung](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Nächste Schritte
-[Q&A in Power BI](power-bi-q-and-a.md)  
+[Q&A in Power BI](consumer/end-user-q-and-a.md)  
 [Tutorial: Einführung in Power BI Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI – Grundkonzepte](service-basic-concepts.md)  
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

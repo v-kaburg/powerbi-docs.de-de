@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330165"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550119"
 ---
 # <a name="using-directquery-in-power-bi"></a>Verwenden von DirectQuery mit Power BI
 Sie können eine Verbindung mit allen möglichen verschiedenen Datenquellen herstellen, wenn Sie  **Power BI Desktop** oder den **Power BI-Dienst** verwenden, und es gibt unterschiedliche Möglichkeiten, diese Datenverbindungen herzustellen. Sie können entweder Daten in Power BI *importieren*, was die gängigste Methode ist, Daten abzurufen. Alternativ können Sie eine Direktverbindung zu Daten im ursprünglichen Quellrepository herstellen, was als **DirectQuery** bekannt ist. Dieser Artikel beschreibt **DirectQuery** und die zugehörigen Funktionen, einschließlich der folgenden Themen:
@@ -277,7 +277,7 @@ Wenn Sie einen Bericht mithilfe einer DirectQuery-Verbindung erstellen, befolgen
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  Abfragen müssen in DirectQuery wegen des Kreuzfilterns und dem übergreifenden Hervorheben an die zugrunde liegende Quelle übermittelt werden. Die Interaktion sollte daher deaktiviert werden, wenn es ungewöhnlich lange dauert, auf die Auswahl von Benutzern zu reagieren. Diese Interaktion kann entweder für den gesamten Bericht (wie zuvor unter *Optionen zur Verringerung von Abfragen* beschrieben) oder wie [in diesem Artikel](service-reports-visual-interactions.md) beschrieben von Fall zu Fall deaktiviert werden.
+  Abfragen müssen in DirectQuery wegen des Kreuzfilterns und dem übergreifenden Hervorheben an die zugrunde liegende Quelle übermittelt werden. Die Interaktion sollte daher deaktiviert werden, wenn es ungewöhnlich lange dauert, auf die Auswahl von Benutzern zu reagieren. Diese Interaktion kann entweder für den gesamten Bericht (wie zuvor unter *Optionen zur Verringerung von Abfragen* beschrieben) oder wie [in diesem Artikel](consumer/end-user-interactions.md) beschrieben von Fall zu Fall deaktiviert werden.
 
 Beachten Sie zusätzlich zu der oben aufgeführten Liste mit Vorschlägen, dass jede der nachfolgenden Berichtsfunktionen Leistungsprobleme auslösen kann.
 

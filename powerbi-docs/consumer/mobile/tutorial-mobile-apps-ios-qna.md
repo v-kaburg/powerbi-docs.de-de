@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 8ea0ad288a12e5e08d4e52ff9c27242d5d169cab
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736420"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547123"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Tutorial Stellen von Fragen zu Ihren Daten mit dem virtuellen Q&A-Analysten in iOS-Apps – Power BI
 
@@ -132,5 +132,5 @@ Wenn Sie das Tutorial beendet haben, können Sie das Dashboard, den Bericht und 
 
 Sie haben den virtuellen Q&A-Assistenten in den mobilen Power BI-Apps für iOS getestet. Erfahren Sie mehr über Fragen und Antworten im Power BI-Dienst.
 > [!div class="nextstepaction"]
-> [Q&A im Power BI-Dienst](../../power-bi-q-and-a.md)
+> [Q&A im Power BI-Dienst](../end-user-q-and-a.md)
 

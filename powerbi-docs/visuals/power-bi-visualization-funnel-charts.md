@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736427"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548463"
 ---
 # <a name="funnel-charts"></a>Trichterdiagramme
 Mit einem Trichterdiagramm kann ein linearer Prozess mit aufeinanderfolgenden und miteinander verbundenen Phasen visuell dargestellt werden. Ein Beispiel ist etwa ein Trichterdiagramm für den Verkauf, das die von den Kunden durchlaufenen Phasen nachverfolgt: Lead \> Qualifizierter Lead \> Potenzieller Kunde \> Vertrag \> Abschluss.  Die Form des Trichterdiagramms zeigt auf einen Blick den Zustand des nachverfolgten Prozesses an.
@@ -70,7 +70,7 @@ In dieser Anleitung wird das Beispiel zur Opportunityanalyse verwendet. Wenn Sie
    * Änderungen zwischen den einzelnen Phasen in Prozent (in diesem Fall zwischen Angebots- und Lösungsphase)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Fügen Sie den Trichter als Dashboardkachel hinzu](../service-dashboard-tiles.md). 
+5. [Fügen Sie den Trichter als Dashboardkachel hinzu](../consumer/end-user-tiles.md). 
 6. [Speichern Sie den Bericht](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
@@ -81,10 +81,10 @@ Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu an
 1. Wählen Sie im Trichterdiagramm den Balken **Angebot** aus. Dadurch erfolgt eine Kreuzhervorhebung der anderen Visualisierungen auf der Seite. Mit STRG können Sie mehrere Elemente auswählen.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+2. Informationen zum Festlegen der Einstellungen für die Kreuzhervorhebung und Kreuzfilterung von visuellen Elementen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../consumer/end-user-interactions.md).
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Erstellen eines Trichterdiagramms in Q&A
-Öffnen Sie das Dashboard für das Beispiel einer Opportunityanalyse oder ein anderes Dashboard, an das eine Visualisierung aus dem Dataset des Beispiels einer Opportunityanalyse angeheftet wurde.  Wenn Sie in Q&A eine Frage eingeben, sucht Power BI in allen dem ausgewählten Dashboard zugeordneten Datasets (d. h. mit Kacheln, die dem Dashboard angeheftet sind) nach Antworten. Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](../service-basic-concepts.md).
+Öffnen Sie das Dashboard für das Beispiel einer Opportunityanalyse oder ein anderes Dashboard, an das eine Visualisierung aus dem Dataset des Beispiels einer Opportunityanalyse angeheftet wurde.  Wenn Sie in Q&A eine Frage eingeben, sucht Power BI in allen dem ausgewählten Dashboard zugeordneten Datasets (d. h. mit Kacheln, die dem Dashboard angeheftet sind) nach Antworten. Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md).
 
 1. Geben Sie im Dashboard des Beispiels einer Opportunityanalyse Ihre Frage im Q&A-Fragefeld ein.
    
@@ -97,7 +97,7 @@ Durch Markieren eines Balkens in einem Trichterdiagramm werden Kreuzfilter zu an
 
 [Anheften einer Visualisierung an ein Dashboard](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI – Grundkonzepte](../service-basic-concepts.md)
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

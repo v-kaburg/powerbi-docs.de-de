@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736210"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548072"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 Treemaps zeigen hierarchische Daten als verschachtelten Rechtecke an.  Jede Hierarchieebene wird durch ein farbiges Rechteck (auch als „Verzweigung“ bezeichnet) dargestellt, das andere Rechtecke („Blätter“) enthält.  Die Fläche jedes Rechtecks wird anhand des ermittelten quantitativen Werts zugewiesen, und die Rechtecke werden der Größe nach von oben links (am größten) nach unten rechts (am kleinsten) angeordnet.
@@ -62,7 +62,7 @@ Sie können auch ein eigenes Treemap-Diagramm erstellen. In dieser Anleitung wir
    > 
 5. Zeigen Sie auf einen **Kettenbereich** , um die QuickInfo für diesen Teil der **Kategorie**anzuzeigen.  Wenn Sie beispielsweise mit dem Mauszeiger auf **Lindseys** im Rechteck **040-Jugendliche** zeigen, wird die QuickInfo für Lindsey innerhalb der Kategorie „Jugendliche“ angezeigt.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Fügen Sie das Treemap-Diagramm als Dashboardkachel hinzu (heften Sie die Visualisierung an)](../service-dashboard-tiles.md). 
+6. [Fügen Sie das Treemap-Diagramm als Dashboardkachel hinzu (heften Sie die Visualisierung an)](../consumer/end-user-tiles.md). 
 7. [Speichern Sie den Bericht](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
@@ -76,11 +76,11 @@ Das Markieren von Kategorien oder Details in einem Treemap-Diagramm ermöglicht 
 2. Wählen Sie im Kreisdiagramm **Verkäufe im letzten Jahr nach Kette** das Segment **Fashions Direct** aus, um eine Kreuzfilterung des Treemap-Diagramms durchzuführen.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Informationen zum Steuern der Kreuzhervorhebung und Kreuzfilterung von Diagrammen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../service-reports-visual-interactions.md).
+3. Informationen zum Steuern der Kreuzhervorhebung und Kreuzfilterung von Diagrammen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Anheften einer Visualisierung an ein Dashboard](../service-dashboard-pin-tile-from-report.md)  
-[Power BI – Grundkonzepte](../service-basic-concepts.md)  
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)  
 

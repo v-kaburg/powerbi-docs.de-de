@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 668db107087420ceeabbe68325ee6c67dc69e524
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722952"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547198"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>SQL Server Analysis Services-Livedaten in Power BI
 In Power BI gibt es zwei Möglichkeiten, die Verbindung mit einem SQL Server Analysis Services-Liveserver herzustellen. In **Daten abrufen** können Sie eine Verbindung mit einem SQL Server Analysis Services-Server oder aber mit einer [Power BI Desktop-Datei](service-desktop-files.md) bzw. einer [Excel-Arbeitsmappe](service-excel-workbook-files.md) herstellen, die bereits mit einem Analysis Services-Server verbunden ist. Als bewährte Methode empfiehlt Microsoft die Verwendung von Power BI Desktop aufgrund des weitreichenden Toolsets und die vorhandene Möglichkeit, eine Sicherungskopie der Power BI Desktop-Datei lokal zu speichern.
@@ -23,7 +23,7 @@ In Power BI gibt es zwei Möglichkeiten, die Verbindung mit einem SQL Server Ana
  >[!IMPORTANT]
  >* Zum Herstellen einer Verbindung mit einem Analysis Services-Liveserver muss ein lokales Datengateway von einem Administrator installiert und konfiguriert werden. Weitere Informationen finden Sie unter [Lokales Datengateway](service-gateway-onprem.md).
  >* Wenn Sie das Gateway verwenden, bleiben Ihre Daten lokal verfügbar.  Die von Ihnen auf Basis dieser Daten erstellten Berichte werden im Power BI-Dienst gespeichert. 
- >* [Die F&A-Abfragen in natürlicher Sprache](service-q-and-a-direct-query.md) sind für Analysis Services-Liveverbindungen in der Vorschauversion verfügbar.
+ >* [Die F&A-Abfragen in natürlicher Sprache](consumer/end-user-q-and-a-direct-query.md) sind für Analysis Services-Liveverbindungen in der Vorschauversion verfügbar.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>So stellen Sie über „Daten abrufen“ eine Verbindung zu einem Modell her
 1. Klicken Sie unter **Mein Arbeitsbereich** auf **Daten abrufen**. Sie können auch zu einem Gruppenarbeitsbereich wechseln, sofern verfügbar.

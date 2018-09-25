@@ -2,7 +2,7 @@
 title: Wasserfalldiagramme in Power BI
 description: Wasserfalldiagramme in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732591"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565818"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wasserfalldiagramme in Power BI
 Wasserfalldiagramme zeigen eine laufende Summe an, während Werte hinzugefügt oder entfernt werden. Sie zeigen, wie ein anfänglicher Wert (z. B. das Nettoeinkommen) durch eine Reihe von positiven und negativen Änderungen beeinflusst wird.
@@ -74,13 +74,13 @@ Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen ei
 Das Markieren einer Säule in einem Wasserfalldiagramm ermöglicht ein Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Die Säule mit dem Gesamtwert löst jedoch keine Markierung aus und reagiert nicht auf Kreuzfiltern.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Berichte in Power BI](../service-reports.md)
+[Berichte in Power BI](../consumer/end-user-reports.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)
 
-[Power BI – Grundkonzepte](../service-basic-concepts.md)
+[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 6a930342806eb32f22efe3d2974625c54c5377bf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732824"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545772"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagieren mit ArcGIS-Karten in Power BI
 Dieses Thema ist für Personen verfasst, die ArcGIS-Karten im Power BI-Dienst, in Power BI Desktop oder in einer mobilen Power BI-App *nutzen*. Sobald ein Ersteller eine ArcGIS-Karte für Sie freigegeben hat, gibt es viele Möglichkeiten für die Interaktion mit dieser Karte.  Weitere Informationen zum Erstellen einer ArcGIS-Karte finden Sie im [Tutorial zu ArcGIS Maps von ESRI](../power-bi-visualization-arcgis.md).
@@ -55,9 +55,9 @@ ArcGIS-Karten für Power BI stellt drei Auswahlmodi bereit. Es können maximal 2
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interagieren mit einer ArcGIS-Karte
-Die für Sie verfügbaren Funktionen hängen davon ab, ob Sie der *Ersteller* (die Person, von der die Karte erstellt wurde) oder der *Nutzer* (jemand hat eine ArcGIS-Karte für Sie freigegeben) sind. Wenn Sie als Nutzer mit einer ArcGIS-Karte interagieren (auch als [Leseansicht](../service-reading-view-and-editing-view.md) bezeichnet), sind die folgenden Aktionen für Sie verfügbar.
+Die für Sie verfügbaren Funktionen hängen davon ab, ob Sie der *Ersteller* (die Person, von der die Karte erstellt wurde) oder der *Nutzer* (jemand hat eine ArcGIS-Karte für Sie freigegeben) sind. Wenn Sie als Nutzer mit einer ArcGIS-Karte interagieren (auch als [Leseansicht](../consumer/end-user-reading-view.md) bezeichnet), sind die folgenden Aktionen für Sie verfügbar.
 
-* Wie bei anderen Visualisierungstypen können Sie Elemente [an Dashboards anheften](../service-dashboard-pin-tile-from-report.md), [die zugrunde liegenden Daten anzeigen](../service-reports-show-data.md) und/oder [exportieren](../power-bi-visualization-export-data.md) sowie die Karte im [Fokusmodus](../service-focus-mode.md) und [Vollbildmodus](../service-fullscreen-mode.md) anzeigen.    
+* Wie bei anderen Visualisierungstypen können Sie Elemente [an Dashboards anheften](../service-dashboard-pin-tile-from-report.md), [die zugrunde liegenden Daten anzeigen](../consumer/end-user-show-data.md) und/oder [exportieren](../consumer/end-user-export-data.md) sowie die Karte im [Fokusmodus](../consumer/end-user-focus.md) und [Vollbildmodus](../service-fullscreen-mode.md) anzeigen.    
 * Erweitern Sie den Bereich **Filter**, um die Karte mithilfe von Filtern zu untersuchen. Wenn Sie den Bericht schließen, werden die angewendeten Filter nicht gespeichert.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Wenn die Karte über eine Referenzebene verfügt, wählen Sie Standorte aus, um Details in einer QuickInfo anzuzeigen. In diesem Beispiel wurde Adams County ausgewählt, und es werden Daten aus der Referenzebene für das mittlere Haushaltseinkommen angezeigt, die der Karte vom Ersteller hinzugefügt wurde.

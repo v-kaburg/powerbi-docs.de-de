@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 23a8875479197f1d200a9f086fcfd27d483faf40
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 723aa8e1a6817551f5e8f1c0cf096d185b1e53ae
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157412"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543774"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Vorlageninhaltspakete in Power BI in der Praxis
-In diesem Abschnitt wird ein typisches praktisches Beispiel für einen Benutzer durchlaufen, der eine Verbindung mit dem [Inhaltspaket](service-connect-to-services.md) eines unabhängigen Softwareherstellers herstellt.
+In diesem Abschnitt wird ein typisches praktisches Beispiel für einen Benutzer durchlaufen, der eine Verbindung mit dem [Inhaltspaket](consumer/end-user-connect-to-services.md) eines unabhängigen Softwareherstellers herstellt.
 
 Testen Sie die Verbindung, indem Sie eine Verbindung mit einem veröffentlichten Inhaltspaket unter https://app.powerbi.com/getdata/services herstellen (z.B. mit dem unten beschriebenen [GitHub-Inhaltspaket](https://app.powerbi.com/getdata/services/github)).
 

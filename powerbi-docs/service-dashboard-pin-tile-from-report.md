@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240208"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550050"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anheften einer Kachel an ein Power BI-Dashboard aus einem Bericht
 ## <a name="pinning-tiles-from-a-report"></a>Anheften von Kacheln aus einem Bericht
-Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](service-dashboard-tiles.md) ist, dies innerhalb eines [Power BI-Berichts](service-reports.md) zu tun. Sie können sogar viele Kacheln aus einem Bericht hinzufügen.  Jede dieser Kacheln stellt, wenn angeklickt, einen Link zurück zu diesem Bericht dar.
+Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-user-tiles.md) ist, dies innerhalb eines [Power BI-Berichts](consumer/end-user-reports.md) zu tun. Sie können sogar viele Kacheln aus einem Bericht hinzufügen.  Jede dieser Kacheln stellt, wenn angeklickt, einen Link zurück zu diesem Bericht dar.
 
 Gesamte Berichtsseiten können an ein Dashboard angeheftet werden.  Dies wird auch bezeichnet als Anheften einer *Live* -Kachel bezeichnet.  *Live* , da Sie mit der Kachel auf dem Dashboard interagieren können und da im Gegensatz zu einzelnen Visualisierungskacheln am Bericht erfolgte Änderungen mit dem Dashboard synchronisiert werden. Weitere Informationen hierzu finden Sie nachstehend.
 
@@ -58,15 +58,15 @@ Eine weitere Option ist das Anheften einer gesamten Berichtsseite an ein Dashboa
 Weitere Informationen finden Sie unter [Anheften einer gesamten Berichtsseite](service-dashboard-pin-live-tile-from-report.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboards in Power BI](service-dashboards.md)
+[Dashboards in Power BI](consumer/end-user-dashboards.md)
 
-[Dashboardkacheln in Power BI](service-dashboard-tiles.md)
+[Dashboardkacheln in Power BI](consumer/end-user-tiles.md)
 
-[Berichte in Power BI](service-reports.md)
+[Berichte in Power BI](consumer/end-user-reports.md)
 
 [Aktualisieren von Daten in Power BI](refresh-data.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

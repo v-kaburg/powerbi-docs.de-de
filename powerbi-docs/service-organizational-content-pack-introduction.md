@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624296"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547635"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
 > [!NOTE]
@@ -42,7 +42,7 @@ Durch Veröffentlichen eines organisationsbezogenen Inhaltspakets wird dieses zu
 
 * Wählen Sie zum Anzeigen von AppSource **Daten abrufen** > **Meine Organisation** > **Abrufen** aus.
 
-Erfahren Sie mehr über das [Suchen und Öffnen organisationsbezogener Inhaltspakete](service-organizational-content-pack-find-and-open.md).
+Erfahren Sie mehr über das [Suchen und Öffnen organisationsbezogener Inhaltspakete](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Lebenszyklus eines organisationsbezogenen Inhaltspakets
 Jeder Power BI Pro-Benutzer kann organisationsbezogene Inhaltspakete erstellen, veröffentlichen und auf sie zugreifen. Nur der Ersteller des Inhaltspakets kann die Arbeitsmappe und das Dataset ändern, deren Aktualisierung planen und sie löschen.
@@ -52,7 +52,7 @@ Der Lebenszyklus sieht etwa wie folgt aus:
 1. Nate erstellt in Power BI Pro ein Inhaltspaket und veröffentlicht es für die Verteilergruppe „Marketing“. Die Einstellungen für die Aktualisierung werden mit dem Dataset geerbt und können nur von Nate geändert werden.
    
    > [!NOTE]
-   > Hinweis: Wenn Nate das Inhaltspaket von einem [Power BI-App-Arbeitsbereich](service-create-distribute-apps.md) aus erstellt, dem er angehört, können andere Mitglieder dieses Power BI-Arbeitsbereichs Besitzer des Inhaltspakets werden, wenn Nate den Arbeitsbereich verlässt.
+   > Hinweis: Wenn Nate das Inhaltspaket von einem [Power BI-App-Arbeitsbereich](consumer/end-user-create-apps.md) aus erstellt, dem er angehört, können andere Mitglieder dieses Power BI-Arbeitsbereichs Besitzer des Inhaltspakets werden, wenn Nate den Arbeitsbereich verlässt.
    > 
    > 
 2. Nate sendet eine E-Mail an die Verteilergruppe, in der er Informationen über das neue Inhaltspaket mitteilt.
@@ -76,7 +76,7 @@ Alle Mitglieder der Verteilergruppe verfügen über dieselben Berechtigungen fü
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen und Veröffentlichen von organisationsbezogenen Inhaltspaketen](service-organizational-content-pack-create-and-publish.md)
-* [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md) 
-* [Power BI – Grundkonzepte](service-basic-concepts.md)
+* [Erstellen und Verteilen einer App in Power BI](consumer/end-user-create-apps.md) 
+* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

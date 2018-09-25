@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727939"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543588"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
-In der [Übersicht über Q&A](power-bi-q-and-a.md) wurde Ihnen Power BI Q&A vorgestellt, und dabei wurde zwischen *Nutzern* (für die Dashboards und Berichte freigegeben werden) und *Erstellern* (Besitzer der zugrunde liegenden Berichte und Datasets) unterschieden. Der erste Teil dieses Tutorials ist in erster Linie für Personen vorgesehen, die mit dem Power BI-Dienst Dashboards nutzen. Und der zweite Teil ist für Personen konzipiert, die mit dem Power BI-Dienst oder mit Power BI Desktop Berichte erstellen. [Q&A und Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/qanda.md) werden in eigenen Artikeln behandelt.
+In der [Übersicht über Q&A](consumer/end-user-q-and-a.md) wurde Ihnen Power BI Q&A vorgestellt, und dabei wurde zwischen *Nutzern* (für die Dashboards und Berichte freigegeben werden) und *Erstellern* (Besitzer der zugrunde liegenden Berichte und Datasets) unterschieden. Der erste Teil dieses Tutorials ist in erster Linie für Personen vorgesehen, die mit dem Power BI-Dienst Dashboards nutzen. Und der zweite Teil ist für Personen konzipiert, die mit dem Power BI-Dienst oder mit Power BI Desktop Berichte erstellen. [Q&A und Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/qanda.md) werden in eigenen Artikeln behandelt.
 
 Q&A ist interaktiv und sogar unterhaltsam. Häufig erhalten Sie durch nur eine Frage Antworten auf viele weitere, da die Visualisierungen interessante weitere Verweise enthalten. Sehen Sie sich an, wie Amanda mithilfe von Q&A Visualisierungen erstellt, diese Visuals erläutert und sie an Dashboards anheftet.
 
@@ -64,7 +64,7 @@ Verwenden Sie Q&A, um das Dataset zu untersuchen und dem Bericht sowie Dashboard
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Um Q&A in Berichten verwenden zu können, benötigen Sie Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. In der [Übersicht über Q&A](power-bi-q-and-a.md) haben wir dies als *Erstellerszenario* bezeichnet. Wenn Sie hingegen einen Bericht *nutzen*, der für Sie freigegeben wurde, ist Q&A nicht für Sie verfügbar.
+Um Q&A in Berichten verwenden zu können, benötigen Sie Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. In der [Übersicht über Q&A](consumer/end-user-q-and-a.md) haben wir dies als *Erstellerszenario* bezeichnet. Wenn Sie hingegen einen Bericht *nutzen*, der für Sie freigegeben wurde, ist Q&A nicht für Sie verfügbar.
 
 1. Öffnen Sie einen Bericht in der Bearbeitungsansicht (Power BI-Dienst) oder Berichtsansicht (Power BI Desktop), und wählen Sie auf der Menüleiste **Frage stellen** aus.
 
@@ -98,14 +98,14 @@ Um Q&A in Berichten verwenden zu können, benötigen Sie Bearbeitungsberechtigun
 Mit Q&A lassen Sie nicht nur Ihre Daten für sich selbst sprechen, Sie können sogar festlegen, wie die Antwort in Power BI angezeigt werden soll. Hängen Sie am Ende Ihrer Frage einfach den Zusatz „als <visualization type>“ an.  Beispiel: „Bestandsvolumen nach Werk als Karte anzeigen“ und „Gesamtvolumen als Karte anzeigen“.  Probieren Sie es einfach aus.
 
 ##  <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-- Wenn Sie mit einer Liveverbindung oder über ein Gateway die Verbindung mit einem Dataset hergestellt haben, muss Q&A [für dieses Dataset aktiviert](service-q-and-a-direct-query.md) sein.
+- Wenn Sie mit einer Liveverbindung oder über ein Gateway die Verbindung mit einem Dataset hergestellt haben, muss Q&A [für dieses Dataset aktiviert](consumer/end-user-q-and-a-direct-query.md) sein.
 
 - Sie haben einen Bericht geöffnet, und die Q&A-Option wird nicht angezeigt. Wenn Sie den Power BI-Dienst verwenden, stellen Sie sicher, dass der Bericht in der Bearbeitungsansicht geöffnet ist. Wenn Sie die Bearbeitungsansicht nicht öffnen können, haben Sie keine Bearbeitungsberechtigungen für den Bericht und können Q&A nicht für diesen Bericht verwenden.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Zurück zu [Q&A in Power BI](power-bi-q-and-a.md)   
+Zurück zu [Q&A in Power BI](consumer/end-user-q-and-a.md)   
 [Tutorial: Verwenden von Q&A mit dem Einzelhandelsbeispiel](power-bi-visualization-introduction-to-q-and-a.md)   
-[Tipps zum Stellen von Fragen mit Q&A](service-q-and-a-tips.md)   
+[Tipps zum Stellen von Fragen mit Q&A](consumer/end-user-q-and-a-tips.md)   
 [Vorbereiten einer Arbeitsmappe für Q&A](service-prepare-data-for-q-and-a.md)  
-[Vorbereiten eines lokalen Datasets für Q&A](service-q-and-a-direct-query.md)
+[Vorbereiten eines lokalen Datasets für Q&A](consumer/end-user-q-and-a-direct-query.md)
 [Anheften einer Kachel an das Dashboard aus Q&A](service-dashboard-pin-tile-from-q-and-a.md)

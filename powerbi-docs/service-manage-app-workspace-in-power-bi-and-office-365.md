@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624342"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547566"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Verwalten Ihres App-Arbeitsbereichs in Power BI und Office 365
-Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](service-install-use-apps.md) oder in Office 365 verwalten Sie einige Aspekte des Arbeitsbereichs in Power BI. Andere Aspekte werden in Office 365 verwaltet. 
+Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](consumer/end-user-apps.md) oder in Office 365 verwalten Sie einige Aspekte des Arbeitsbereichs in Power BI. Andere Aspekte werden in Office 365 verwaltet. 
 
 > [!NOTE]
 > Die Vorschauversion der neuen Arbeitsbereiche ändert die Beziehung zwischen Power BI-Arbeitsbereichen und Office 365-Gruppen. Office 365-Gruppen werden nicht jedes Mal automatisch erstellt, wenn Sie einen dieser neuen Arbeitsbereiche erstellen. Erfahren Sie mehr über [das Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md).
@@ -76,7 +76,7 @@ Wenn Sie Ihre App aus dem App-Arbeitsbereich verteilen, wird das Bild, das Sie h
 3. Wählen Sie **Speichern** oder **Verwerfen**.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](service-install-use-apps.md)
-* [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](service-create-distribute-apps.md)
+* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
+* [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](consumer/end-user-create-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

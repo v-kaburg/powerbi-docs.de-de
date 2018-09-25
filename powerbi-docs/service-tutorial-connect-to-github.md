@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310105"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548101"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Herstellen einer Verbindung zu einem GitHub-Beispiel mit Power BI
 In diesem Tutorial stellen Sie mit Power BI eine Verbindung mit realen Daten im GitHub-Dienst her. Anschließend erstellt Power BI automatisch Dashboards und Berichte. Sie verbinden sich mit dem öffentlichen *Repository* mit Power BI-Inhalten und sehen dort Informationen, wie z.B. die Anzahl der Mitwirkenden an öffentlichen Power BI-Inhalten. Sie erfahren, wer sich am aktivsten beteiligt und am welchen Tag der Woche es die meisten Beiträge gab. Außerdem finden Sie Antworten auf weitere Fragen. 
@@ -125,6 +125,6 @@ Nachdem Sie das Tutorial abgeschlossen haben, können Sie die GitHub-App lösche
 In diesem Tutorial haben Sie eine Verbindung mit einem öffentlichen GitHub-Repository hergestellt und Daten abgerufen, die Power BI in einem Dashboard und einem Bericht formatiert hat. Sie haben einige Fragen zu den Daten beantwortet, indem Sie das Dashboard und den Bericht untersucht haben. Jetzt können Sie mehr über das Herstellen einer Verbindung mit anderen Diensten wie Salesforce, Microsoft Dynamics und Google Analytics erfahren. 
  
 > [!div class="nextstepaction"]
-> [Herstellen einer Verbindung mit von Ihnen verwendeten Onlinediensten](./service-connect-to-services.md)
+> [Herstellen einer Verbindung mit von Ihnen verwendeten Onlinediensten](consumer/end-user-connect-to-services.md)
 
 

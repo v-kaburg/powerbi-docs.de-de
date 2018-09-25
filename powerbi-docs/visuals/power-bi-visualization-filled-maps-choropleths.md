@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736450"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549843"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Flächenkartogramme (Choroplethenkarten) in Power BI
 In einem Flächenkartogramm wird mithilfe von Schattierungen, Farben oder Mustern angezeigt, in welchem Verhältnis Werte innerhalb eines geografischen Gebiets stehen.  Diese relativen Unterschiede werden mithilfe von Schattierungen angezeigt, wobei hell eine geringe Menge/Häufigkeit und dunkel eine große Menge/Häufigkeit anzeigt.    
@@ -109,7 +109,7 @@ Wenn Sie keinen Zugriff auf die Breiten- und Längengraddaten haben, [befolgen S
 Weitere Hilfe zu Kartenvisualisierungen finden Sie unter [Tipps und Tricks für Kartenvisualisierungen](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Fügen Sie das Flächenkartogramm als Dashboardkachel hinzu (Anheften des Visuals)](../service-dashboard-tiles.md)  .  
+[Fügen Sie das Flächenkartogramm als Dashboardkachel hinzu (Anheften des Visuals)](../consumer/end-user-tiles.md)  .  
  [Hinzufügen einer Visualisierung zu einem Bericht](power-bi-report-add-visualizations-i.md)  
  [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Ändern des verwendeten Visualisierungstyps](power-bi-report-change-visualization-type.md)      

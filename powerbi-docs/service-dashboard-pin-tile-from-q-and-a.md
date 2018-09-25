@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251412"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548730"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anheften einer Kachel an ein Dashboard aus Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Anheften einer Kachel aus Q&A
 F&A ist das Power BI-Tool zur Ad-hoc-Berichterstellung. Sie möchten bestimmte Erkenntnisse gewinnen? Stellen Sie eine Frage zu den Daten und erhalten Sie eine Antwort in Form einer Visualisierung.
 
-In dieser Vorgehensweise verwenden wir den Power BI-Dienst (app.powerbi.com), um ein Dashboard zu öffnen, eine Frage in natürlicher Sprache zu stellen, damit eine Visualisierung erstellt wird, und diese Visualisierung an ein Dashboard anzuheften. Dashboards sind in Power BI Desktop nicht verfügbar. Informationen zum Verwenden von Q&A mit anderen Power BI-Tools und -Inhalten finden Sie in der [Übersicht über Power BI Q&A](power-bi-q-and-a.md). 
+In dieser Vorgehensweise verwenden wir den Power BI-Dienst (app.powerbi.com), um ein Dashboard zu öffnen, eine Frage in natürlicher Sprache zu stellen, damit eine Visualisierung erstellt wird, und diese Visualisierung an ein Dashboard anzuheften. Dashboards sind in Power BI Desktop nicht verfügbar. Informationen zum Verwenden von Q&A mit anderen Power BI-Tools und -Inhalten finden Sie in der [Übersicht über Power BI Q&A](consumer/end-user-q-and-a.md). 
 
 Um die Schritte selbst nachzuvollziehen, öffnen Sie das [Dashboard zum Analysebeispiel für Einzelhandel](sample-retail-analysis.md).
 
 
-1. Öffnen Sie ein [Dashboard](service-dashboards.md), an das mindestens eine Kachel aus einem Bericht angeheftet wurde. Wenn Sie eine Frage stellen, sucht Power BI in jedem Dataset nach der Antwort, in dem an dieses Dashboard eine Kachel angeheftet ist.  Weitere Informationen finden Sie unter [Abrufen von Daten](service-get-data.md).
+1. Öffnen Sie ein [Dashboard](consumer/end-user-dashboards.md), an das mindestens eine Kachel aus einem Bericht angeheftet wurde. Wenn Sie eine Frage stellen, sucht Power BI in jedem Dataset nach der Antwort, in dem an dieses Dashboard eine Kachel angeheftet ist.  Weitere Informationen finden Sie unter [Abrufen von Daten](service-get-data.md).
 2. Geben Sie oben auf Ihrem Dashboard im Fragefeld ein, was Sie über Ihre Daten wissen möchten.  
    ![Fragenfeld für Fragen und Antworten (F&A)](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Während Sie beispielsweise „Umsatz letztes Jahr nach Monat und Gebiet“ eingeben ...  
@@ -62,6 +62,6 @@ Um die Schritte selbst nachzuvollziehen, öffnen Sie das [Dashboard zum Analyseb
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Umbenennen, Ändern der Größe und Position, Hinzufügen eines Hyperlinks und mehr](service-dashboard-edit-tile.md)    
-[Anzeigen einer Dashboardkachel im Fokusmodus](service-focus-mode.md)     
-[Zurück zu Q&A in Power BI](power-bi-q-and-a.md)  
+[Anzeigen einer Dashboardkachel im Fokusmodus](consumer/end-user-focus.md)     
+[Zurück zu Q&A in Power BI](consumer/end-user-q-and-a.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

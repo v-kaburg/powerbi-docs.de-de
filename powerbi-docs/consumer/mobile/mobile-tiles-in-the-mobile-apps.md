@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732774"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549798"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -23,7 +23,7 @@ Gilt für:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
 
-Kacheln sind Livemomentaufnahmen Ihrer Daten, die an ein Dashboard angeheftet sind. Die Werte ändern sich mit den Daten. **Sie [fügen einem Dashboard im Power BI-Dienst Kacheln hinzu](../../service-dashboard-tiles.md).** 
+Kacheln sind Livemomentaufnahmen Ihrer Daten, die an ein Dashboard angeheftet sind. Die Werte ändern sich mit den Daten. **Sie [fügen einem Dashboard im Power BI-Dienst Kacheln hinzu](../end-user-tiles.md).** 
 
 Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und interagieren mit diesen. Sie können Kacheln mit allen möglichen Steuerelementen öffnen, einschließlich Kacheln, die auf Bing und R basieren.
 

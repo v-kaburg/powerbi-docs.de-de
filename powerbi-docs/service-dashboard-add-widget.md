@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247709"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545864"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Hinzufügen von Bildern, Text, Video und weiteren Elementen zu Ihrem Dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ So nehmen Sie Änderungen an einer Kachel vor...
 * Wenn Sie einige Inhalte von einer Website einbinden möchten, aber die Website keinen Einbindungscode zum Kopieren und Einfügen bietet, finden Sie auf „embed.ly“ Hilfe zum Generieren des Einbindungscodes.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboardkacheln](service-dashboard-tiles.md)
+[Dashboardkacheln](consumer/end-user-tiles.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
 

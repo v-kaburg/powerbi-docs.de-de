@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256960"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549889"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -85,7 +85,7 @@ Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, müssen Sie de
 > [!IMPORTANT]
 > Überprüfen Sie im Power BI-Dienst, wer den Bericht sehen kann, und stellen Sie sicher, dass nicht aufgeführte, berechtigte Benutzer Zugriff erhalten.
 
-Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, führen Sie den Benutzer als Mitglied des **App-Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** auf. Dadurch wird sichergestellt, dass die Benutzer die Inhalte der Gruppe sehen können. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
+Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, führen Sie den Benutzer als Mitglied des **App-Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** auf. Dadurch wird sichergestellt, dass die Benutzer die Inhalte der Gruppe sehen können. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](consumer/end-user-create-apps.md).
 
 Alternativ können Sie Benutzern den Zugriff auf den Bericht auf folgende Weise gewähren.
 
@@ -142,7 +142,7 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
 
 * Power BI unterstützt nicht die gleichen lokalisierte Sprachen wie SharePoint Online. Daher wird im eingebetteten Bericht möglicherweise nicht die ordnungsgemäße Lokalisierung angezeigt.
 
-* Bei Verwendung von Internet Explorer 10 können Probleme auftreten. Informieren Sie sich über die [Browserunterstützung für Power BI](service-browser-support.md) und für [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+* Bei Verwendung von Internet Explorer 10 können Probleme auftreten. Informieren Sie sich über die [Browserunterstützung für Power BI](consumer/end-user-browsers.md) und für [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
 * Das Power BI-Webpart ist für [Sovereign Clouds](https://powerbi.microsoft.com/en-us/clouds/) nicht verfügbar.
 
@@ -151,7 +151,7 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Erstellen moderner Websiteseiten durch Endbenutzer zulassen oder verhindern](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md)  
+[Erstellen und Verteilen einer App in Power BI](consumer/end-user-create-apps.md)  
 [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  
 [Power BI Premium – Beschreibung](service-premium.md)  
 

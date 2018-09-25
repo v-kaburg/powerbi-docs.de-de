@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735617"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547244"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -82,7 +82,7 @@ Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht
 * Um die Sortierreihenfolge umzukehren, tippen Sie erneut auf die Auslassungspunkte (**...**), und tippen Sie dann erneut auf den gleichen Feldnamen.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Durchführen eines Drilldowns und Drillups in einem Visual
-Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie einen Drilldown in einem Visual durchführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](../../power-bi-visualization-drill-down.md). 
+Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie einen Drilldown in einem Visual durchführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](../end-user-drill.md). 
 
 * Tippen Sie auf einen bestimmten Balken oder Punkt in einem Visual, und halten Sie diesen, um die zugehörige QuickInfo anzuzeigen. Wenn ein Drilldown möglich ist, können Sie am unteren Rand der QuickInfo auf Pfeile tippen. 
   

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a6600fe6c60d5f108b9203508448ef3f1778a7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237428"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548722"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Hinzufügen einer Seite zu einem Power BI-Bericht im Power BI-Dienst und in Power BI Desktop
 Es gibt keinen Grund, eine Berichtsseite zu überfrachten – fügen Sie einfach eine neue Seite hinzu. 
 
-Zum Hinzufügen und Duplizieren von Berichtsseiten sind Bearbeitungsberechtigungen für den Bericht erforderlich. Im Power BI-Dienst muss der Bericht hierzu in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md) geöffnet werden. 
+Zum Hinzufügen und Duplizieren von Berichtsseiten sind Bearbeitungsberechtigungen für den Bericht erforderlich. Im Power BI-Dienst muss der Bericht hierzu in der [Bearbeitungsansicht](consumer/end-user-reading-view.md) geöffnet werden. 
 
 ## <a name="add-a-new-blank-page"></a>Hinzufügen einer neuen leeren Seite
 Wählen Sie das gelbe Plussymbol aus und geben Sie dann einen neuen Namen für die Seite ein.  
@@ -35,9 +35,9 @@ Wählen Sie in der oberen Steuerleiste unter [Bearbeitungsansicht](service-inter
 Die neue Seite wird erstellt und als aktive Seite festgelegt. Um sie umzubenennen, doppelklicken Sie auf den Namen auf der Registerkarte, um sie zu markieren, und geben Sie einen neuen Namen ein.  Weitere Informationen finden Sie unter [Umbenennen im Power BI-Dienst](service-rename.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-Erfahren Sie mehr über [Berichte in Power BI](service-reports.md).
+Erfahren Sie mehr über [Berichte in Power BI](consumer/end-user-reports.md).
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561699"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545966"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht im Power BI-Dienst (in der Bearbeitungsansicht)
 > [!TIP]
@@ -26,13 +26,13 @@ Die Beispiele in diesem Artikel drehen sich um den Power BI-Dienst. Allerdings s
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Unterschiede zwischen Berichtsfiltern in der Bearbeitungsansicht und in der Leseansicht
-Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht](service-reading-view-and-editing-view.md) und [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
+Es gibt zwei Modi für die Interaktion mit Berichten: [Leseansicht](consumer/end-user-reading-view.md) und [Bearbeitungsansicht](service-interact-with-a-report-in-editing-view.md).  Es hängt vom Modus ab, in dem Sie sich befinden, welche Filterfunktionen verfügbar sind.
 
 * In der Bearbeitungsansicht können Sie Berichts-, Seiten- und visuelle Filter hinzufügen. Wenn Sie den Bericht speichern, werden die Filter ebenfalls gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den von Ihnen hinzugefügten Filtern interagieren.
 * In der Leseansicht können Sie mit allen Berichts-, Drillthrough-, Seiten- und visuellen Filtern interagieren, die im Bericht bereits vorhanden sind. Sie können jedoch keine neuen Filter hinzufügen. Jedoch werden die Änderungen, die Sie im Bereich „Filter“ vornehmen, mit dem Bericht gespeichert, auch wenn Sie den Bericht in einer mobilen App anzeigen, oder wenn Sie den Bericht verlassen und später zurückkehren.  
 
 > [!NOTE]
-> In diesem Artikel wird beschrieben, wie Sie Filter im Bericht **Bearbeitungsansicht** erstellen.  Weitere Informationen zu Filtern in der Leseansicht finden Sie unter [Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md).
+> In diesem Artikel wird beschrieben, wie Sie Filter im Bericht **Bearbeitungsansicht** erstellen.  Weitere Informationen zu Filtern in der Leseansicht finden Sie unter [Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](consumer/end-user-reading-view.md).
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filter, die im Bereich *Filter* in Power BI verfügbar sind
@@ -58,7 +58,7 @@ Hierfür gibt es zwei Methoden:
 * Suchen Sie ein Feld, das noch nicht von der Visualisierung verwendet wird, und fügen Sie dieses Feld direkt dem Bucket **Filter auf visueller Ebene** hinzu.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>Filtern Sie die Felder, die bereits in der Visualisierung enthalten sind.
-1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md).
+1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md).
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Öffnen Sie den Bereich für die Visualisierungen und Filter und den Bereich für die Felder (falls nicht bereits geöffnet).
@@ -72,7 +72,7 @@ Hierfür gibt es zwei Methoden:
    * Scrollen Sie zum Bereich **Filter auf visueller Ebene**, und wählen Sie den Pfeil aus, um das Feld zu erweitern, das Sie filtern möchten. In diesem Beispiel wird **StoreNumberName** gefiltert.
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * Legen Sie für die Filtersteuerelemente entweder **Einfach**, **Erweitert** oder **Top N** fest (siehe [Verwenden von Berichtsfiltern](power-bi-how-to-report-filter.md)). In diesem Beispiel wird die einfache Filterung ausgewählt, und neben den Zahlen 10, 11, 15 und 18 wird jeweils ein Häkchen gesetzt.
+   * Legen Sie für die Filtersteuerelemente entweder **Einfach**, **Erweitert** oder **Top N** fest (siehe [Verwenden von Berichtsfiltern](consumer/end-user-report-filter.md)). In diesem Beispiel wird die einfache Filterung ausgewählt, und neben den Zahlen 10, 11, 15 und 18 wird jeweils ein Häkchen gesetzt.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * Die Visualisierung ändert sich und spiegelt den neuen Filter wider. Wenn Sie Ihren Bericht mit dem Filter speichern, können Leser des Berichts mit dem Filter in der Leseansicht interagieren und Werte auswählen oder löschen.
@@ -91,10 +91,10 @@ Hierfür gibt es zwei Methoden:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Hinzufügen eines Filters für eine komplette Seite (Seitenansichtsfilter)
-1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md).
+1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md).
 2. Öffnen Sie den Bereich für die Visualisierungen und Filter und den Bereich für die Felder (falls nicht bereits geöffnet).
 3. Wählen Sie im Bereich „Felder“ das Feld aus, das Sie als neuen Filter auf Seitenebene hinzufügen möchten, und ziehen Sie es in den Bereich **Filter auf Seitenebene**.  
-4. Wählen Sie die Werte aus, die Sie filtern möchten, und legen Sie für die Filtersteuerelemente entweder **Einfach** oder **Erweitert** fest (siehe [Verwenden von Berichtsfiltern](power-bi-how-to-report-filter.md)).
+4. Wählen Sie die Werte aus, die Sie filtern möchten, und legen Sie für die Filtersteuerelemente entweder **Einfach** oder **Erweitert** fest (siehe [Verwenden von Berichtsfiltern](consumer/end-user-report-filter.md)).
    
    Alle Visualisierungen auf der Seite, die von diesem Filter beeinflusst werden, werden neu gezeichnet, um die Änderung zu übernehmen. 
    
@@ -130,10 +130,10 @@ Im Folgenden wird beschrieben, wie der Drillthroughfilter funktioniert.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Hinzufügen eines Filters für einen gesamten Bericht (Berichtsfilter)
-1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](service-reading-view-and-editing-view.md).
+1. Öffnen Sie Ihren Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md).
 2. Öffnen Sie den Bereich für die Visualisierungen und Filter und den Bereich für die Felder (falls nicht bereits geöffnet).
 3. Wählen Sie im Bereich „Felder“ das Feld aus, das Sie als neuen Filter auf Berichtsstufe hinzufügen möchten, und ziehen Sie es in den Bereich **Berichtsstufenfilter**.  
-4. Wählen Sie die zu filternden Werte aus (siehe [Verwenden von Berichtsfiltern](power-bi-how-to-report-filter.md)).
+4. Wählen Sie die zu filternden Werte aus (siehe [Verwenden von Berichtsfiltern](consumer/end-user-report-filter.md)).
 
     Die Visuals auf der aktiven Seite und auf allen Seiten des Berichts ändern sich, um den neuen Filter widerzuspiegeln. Wenn Sie Ihren Bericht mit dem Filter speichern, können Leser des Berichts mit dem Filter in der Leseansicht interagieren und Werte auswählen oder löschen.
 
@@ -149,13 +149,13 @@ Im Folgenden wird beschrieben, wie der Drillthroughfilter funktioniert.
 - Wenn Sie viele Änderungen an den Filtern vorgenommen haben und zu den Standardeinstellungen des Berichtsautors zurückkehren möchten, wählen Sie auf der oberen Menüleiste **Auf Standardwert zurücksetzen** aus.
 
 ## <a name="next-steps"></a>Nächste Schritte
- [Verwenden von Berichtsfiltern](power-bi-how-to-report-filter.md)
+ [Verwenden von Berichtsfiltern](consumer/end-user-report-filter.md)
 
   [Filter und Hervorhebungen in Berichten](power-bi-reports-filters-and-highlighting.md)
 
-[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](service-reading-view-and-editing-view.md)
+[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](consumer/end-user-reading-view.md)
 
-[Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](service-reports-visual-interactions.md)
+[Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](consumer/end-user-interactions.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

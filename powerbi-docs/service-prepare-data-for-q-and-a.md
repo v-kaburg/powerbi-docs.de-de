@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727465"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547874"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Optimieren Ihrer Excel-Daten für Q&A in Power BI
 Wenn Sie Datenmodelle oder Excel-Arbeitsmappen erstellen, die mit Power BI verwendet werden, lesen Sie weiter...
@@ -27,7 +27,7 @@ Q&A funktioniert mit allen hochgeladenen Excel-Dateien, die Tabellen, Bereiche o
 ### <a name="how-qa-works-with-excel"></a>Funktionsweise von Q&A mit Excel
 Q&A verfügt über eine Reihe grundlegender Funktionen zum Verstehen natürlicher Sprachen, die Sie für Ihre Daten anwenden können. Es verfügt über eine kontextabhängigen Schlüsselwortsuche für Ihre Excel-Tabelle, die Spalte und die berechneten Feldnamen. Außerdem weiß das Programm, wie Daten gefiltert, sortiert, zusammengeführt, gruppiert und angezeigt werden sollen. 
 
-In einer Excel-Tabelle mit dem Namen „Verkauf“ mit den Spalten „Produkt“, „Monat“, „Verkaufte Einheiten“, „Bruttoumsatz“ und „Gewinn“ können Sie beispielsweise Fragen zu diesen Entitäten stellen.  Sie können beispielsweise die Umsätze oder den Gesamtgewinn pro Monat anzeigen, die Produkte nach verkauften Einheiten sortieren usw. Erfahren Sie mehr über die [Arten möglicher Fragen](power-bi-q-and-a.md) und die [Visualisierungstypen, die Sie in einer Abfrage in Q&A angeben können](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+In einer Excel-Tabelle mit dem Namen „Verkauf“ mit den Spalten „Produkt“, „Monat“, „Verkaufte Einheiten“, „Bruttoumsatz“ und „Gewinn“ können Sie beispielsweise Fragen zu diesen Entitäten stellen.  Sie können beispielsweise die Umsätze oder den Gesamtgewinn pro Monat anzeigen, die Produkte nach verkauften Einheiten sortieren usw. Erfahren Sie mehr über die [Arten möglicher Fragen](consumer/end-user-q-and-a.md) und die [Visualisierungstypen, die Sie in einer Abfrage in Q&A angeben können](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Vorbereiten eines Excel-Datasets für Q&A
 Q&A stützt sich auf die Namen der Tabellen, Spalten und berechneten Felder, um datenspezifische Fragen zu beantworten. Daher sind die Bezeichnungen der Entitäten in Ihrer Arbeitsmappe von großer Bedeutung.
@@ -44,8 +44,8 @@ Hier finden Sie einige Tipps zur optimalen Nutzung von Q&A in der Arbeitsmappe.
 * Öffnen Sie das Dataset in Power BI Desktop, und erstellen Sie neue Spalten, erstellen Sie berechnete Measures, verketten Sie Felder, um eindeutige Werte zu erstellen, klassifizieren Sie Daten nach Typ (z.B. Datumsangaben, Zeichenfolgen, Geografie, Bilder, URLs), und führen Sie weitere Aktionen aus.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Zurück zu [Q&A in Power BI](power-bi-q-and-a.md)  
-[Vorbereiten lokaler Datasets für Q&A](service-q-and-a-direct-query.md)   
+Zurück zu [Q&A in Power BI](consumer/end-user-q-and-a.md)  
+[Vorbereiten lokaler Datasets für Q&A](consumer/end-user-q-and-a-direct-query.md)   
 [Q&A-Schnellstart](power-bi-visualization-introduction-to-q-and-a.md)  
 [Abrufen von Daten (für Power BI)](service-get-data.md)  
 

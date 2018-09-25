@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732954"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548808"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Schnellstart: Erkunden von Dashboards und Berichten in den mobilen Power BI-Apps
 In dieser Schnellstartanleitung erkunden Sie ein Beispieldashboard und einen Beispielbericht in den mobilen Power BI-Apps auf einem Android-Smartphone. Sie können diese Anleitung auch in anderen mobilen Apps nachvollziehen. 
@@ -153,5 +153,5 @@ Nachdem Sie diese Schnellstartanleitung abgeschlossen haben, können Sie das Das
 In dieser Schnellstartanleitung haben Sie ein Beispieldashboard und einen Beispielbericht auf Ihrem Android-Gerät erkundet. Erfahren Sie mehr über die Arbeit mit dem Power BI-Dienst. 
 
 > [!div class="nextstepaction"]
-> [Schnellstart: Navigation im Power BI-Dienst](../../service-the-new-power-bi-experience.md)
+> [Schnellstart: Navigation im Power BI-Dienst](../end-user-experience.md)
 
