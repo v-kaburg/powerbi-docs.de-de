@@ -1,21 +1,21 @@
 ---
 title: Erstellen benutzerdefinierter Power BI-Antwortseiten für Cortana
 description: Erstellen von benutzerdefinierten Antwortseiten für Cortana in Power BI
-author: yaron
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755321"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187327"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als *Cortana-Antwortkarten*) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
@@ -27,7 +27,7 @@ Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Be
 > 
 > 
 
-## <a name="before-you-begin"></a>Vorbereitende Schritte
+## <a name="before-you-begin"></a>Vorbereitung
 Insgesamt gibt es vier Dokumente, in denen Sie ausführliche Anweisungen zum Einrichten und Verwenden von Cortana für Power BI erhalten. Sofern nicht bereits geschehen, lesen Sie zuerst Artikel 1. Artikel 2 ist besonders wichtig, denn darin werden einige Schritte beschrieben, die Sie ausführen müssen, ehe Sie Cortana-Antwortseiten verwenden können.
 
 **Artikel 1**: [Hier erfahren Sie mehr über die Zusammenarbeit von Cortana und Power BI](service-cortana-intro.md)
