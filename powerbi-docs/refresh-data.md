@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329682"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417370"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 Es kann oftmals entscheidend sein, dass Sie immer die neuesten Daten erhalten, um die richtigen Entscheidungen zu treffen. Sie haben wahrscheinlich bereits die Funktion „Daten abrufen“ in Power BI verwendet, um eine Verbindung zu Daten herzustellen und diese hochzuladen sowie Berichte und ein Dashboard zu erstellen. Jetzt möchten Sie sicherstellen, dass Ihre Daten wirklich die neuesten und besten sind.
@@ -211,8 +211,6 @@ Echtzeitdashboards verwenden die REST-API von Microsoft Power BI oder Microsoft 
 | **Datenquelle** | **Automatisch** | **Benutzerdefinierte manuelle oder geplante Aktualisierung** | **Gateway erforderlich** |
 | --- | --- | --- | --- |
 | Benutzerdefinierte Apps, die mit der Power BI-Rest-API oder Microsoft Stream Analytics entwickelt wurden |Ja, Livestreaming |Nein |Nein |
-
-Weitere Informationen finden Sie unter [Erstellen eines Echtzeitdashboards in Power BI](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Konfigurieren von geplanten Aktualisierungen
 Erfahren Sie unter [Konfigurieren von geplanten Aktualisierungen](refresh-scheduled-refresh.md), wie Sie geplante Aktualisierung konfigurieren
