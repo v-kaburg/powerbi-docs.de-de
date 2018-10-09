@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732794"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271645"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 Gilt für:
@@ -23,7 +23,7 @@ Gilt für:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
 
-Mit einer [Power BI Pro-Lizenz](../../service-free-vs-pro.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../service-premium.md) handeln.
+Mit einer [Power BI Pro-Lizenz](../../service-features-license-type.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../service-premium.md) handeln.
 
 Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung mit Anmerkungen versehen und freigeben](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

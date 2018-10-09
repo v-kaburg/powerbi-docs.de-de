@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926590"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271898"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -120,7 +120,7 @@ Um die folgenden Schritte ausführen zu können, müssen Sie die neueste 64-Bit-
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Wie kann ich verhindern, dass vorhandene Benutzer mit der Nutzung von Power BI beginnen?
-Sie können als Administrator Schritte unternehmen, die verhindern, dass sich Benutzer für Power BI registrieren. Wenn Sie dies blockieren, können sich keine Benutzer registrieren. Sie werden stattdessen an den Administrator ihrer Organisation weitergeleitet. Sie müssen diesen Vorgang nicht wiederholen, wenn Sie die automatische Verteilung von Lizenzen (z. B. Office 365 Education für Studenten, Bildungseinrichtungen und Lehrpersonal) bereits deaktiviert haben. [Weitere Informationen](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+Sie können als Administrator Schritte unternehmen, die verhindern, dass sich Benutzer für Power BI registrieren. Wenn Sie dies blockieren, können sich keine Benutzer registrieren. Sie werden stattdessen an den Administrator ihrer Organisation weitergeleitet. Sie müssen diesen Vorgang nicht wiederholen, wenn Sie die automatische Verteilung von Lizenzen (z. B. Office 365 Education für Studenten, Bildungseinrichtungen und Lehrpersonal) bereits deaktiviert haben. [Weitere Informationen](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 Die entsprechende AAD-Einstellung heißt **AllowAdHocSubscriptions**. Bei den meisten Mandanten ist diese Einstellung auf „true“ festgelegt. Das bedeutet, dass sie aktiviert ist. Wenn Sie Power BI über einen Partner erworben haben, kann die Einstellung jedoch standardmäßig auf „false“ festgelegt sein, was bedeutet, dass sie deaktiviert ist.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545749"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271709"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -29,7 +29,7 @@ In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freig
 - Drucken von Berichten.
 * Veröffentlichung im Web auf öffentlichen Websites, die frei zugänglich sind und von jedem verwendet werden können.
 
-Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-free-vs-pro.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
+Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
 
 ![Apps im Power BI-Dienst](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

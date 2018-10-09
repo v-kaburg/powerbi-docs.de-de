@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565841"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798929"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -38,7 +38,7 @@ Wir rufen einige Beispieldaten ab, die wir für unseren Rundgang durch den Power
 
     ![Beispiel auswählen](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Der Power BI-Dienst importiert das Beispiel und zeigt das Dashboard an. Bei Dashboards unterscheiden sich der Power BI-Dienst und Power BI Desktop. Das Beispiel enthält auch einen Bericht und ein Dataset, auf das wir später zurückkommen werden.
+    Der Power BI-Dienst importiert das Beispiel und zeigt das Dashboard an. Dashboards unterscheiden den Power BI-Dienst von Power BI Desktop. Das Beispiel enthält auch einen Bericht und ein Dataset, auf das wir später zurückkommen werden.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 
