@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548486"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908529"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -33,7 +33,7 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Gateway erforderlich | Nein | Ja für lokale Datenquellen |  
 | Echtzeitstreaming | Nein | Ja | [Echtzeitstreaming in Power BI](../service-real-time-streaming.md)
 | Dashboards | Nein | Ja | [Dashboards im Power BI-Dienst](../consumer/end-user-dashboards.md) 
-| Verteilen von Berichtsgruppen mithilfe von Apps | Nein | Ja | [Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten](../consumer/end-user-create-apps.md) 
+| Verteilen von Berichtsgruppen mithilfe von Apps | Nein | Ja | [Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten](../service-create-distribute-apps.md) 
 | Inhaltspakete | Nein | Ja | [Einführung in organisationsbezogene Inhaltspakete in Power BI](../service-organizational-content-pack-introduction.md) 
 | Herstellen einer Verbindung mit Diensten wie Salesforce | Nein | Ja | [Herstellung einer Verbindung mit den verwendeten Diensten](../consumer/end-user-connect-to-services.md) über den Power BI-Dienst
 | Q&A | Nein | Ja | [Q&A im Power BI-Dienst und in Power BI Desktop](../consumer/end-user-q-and-a.md) 

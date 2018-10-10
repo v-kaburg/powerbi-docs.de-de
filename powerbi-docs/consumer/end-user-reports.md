@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564831"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908622"
 ---
 # <a name="reports-in-power-bi"></a>Berichte in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Was ist ein Power BI-Bericht?
@@ -67,7 +67,7 @@ Hier finden Sie die entsprechenden Anleitungen für jede dieser Rollen.
 * Beginnen Sie mit einer [Tour für den Power BI-Dienst](end-user-basic-concepts.md), um zu erfahren, wo Sie Berichte und Berichtstools finden.
 * Erfahren Sie, wie Sie [einen Bericht öffnen](end-user-report-open.md), und lernen Sie alle verfügbaren Interaktionen in der [Leseansicht](end-user-reading-view.md) kennen.
 * Machen Sie sich mit Berichten vertraut, indem Sie sich eine Tour durch eines unserer [Beispiele](../sample-tutorial-connect-to-the-samples.md) ansehen.  
-* Der Bericht wird nicht mehr benötigt? Sie können ihn [entfernen](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Um zu sehen, welches Dataset der Bericht verwendet und an welche Dashboards Kacheln aus dem Bericht angeheftet sind, [zeigen Sie verwandte Inhalte an](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Hier finden Sie die entsprechenden Anleitungen für jede dieser Rollen.
 [Was ist Power BI?](../power-bi-overview.md) 
 
 [Power BI – Grundkonzepte](end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

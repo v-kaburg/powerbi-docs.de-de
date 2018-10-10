@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546546"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908875"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 Hier erfahren Sie, wie Sie Power BI Premium- und Power BI Embedded-Kapazitäten verwalten können, um dedizierte Ressourcen für Ihre Inhalte bereitzustellen.
@@ -183,6 +183,6 @@ Wenn Sie auf **Power BI Report Server key** (Schlüssel für den Power BI-Berich
 Weitere Informationen finden Sie unter [Install Power BI Report Server (Installation vom Power BI-Berichtsserver)](report-server/install-report-server.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-Teilen veröffentlichter Apps mit Benutzern Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](consumer/end-user-create-apps.md).
+Teilen veröffentlichter Apps mit Benutzern Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

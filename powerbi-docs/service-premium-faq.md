@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c67d46e716574dd1a1d73b9c93c29a3e99f030ba
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546601"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909082"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium – Häufig gestellte Fragen
 Durchsuchen Sie die Liste der häufig gestellten Fragen und Antworten zum Power BI-Premium-Angebot.
@@ -102,7 +102,7 @@ Weitere Informationen zu Power BI-Berichtsserver finden Sie unter [Erste Schritt
 **Was sind Power BI-Apps?**  
 Wir haben Inhaltspakete zu Power BI-Apps weiterentwickelt, um zu verbessern, wie Benutzer Einblicke auf Unternehmensebene erhalten. Ab heute bieten Power BI-Apps eine vereinfachte Bereitstellung von Dashboards und Berichten an bestimmte Personen, Gruppen oder eine gesamte Organisation. Gewerbliche Benutzer können diese Apps problemlos installieren und einfach navigieren, und dabei Inhalte an einem Ort zentralisieren und automatisch aktualisieren. 
 
-Weitere Informationen zu Apps finden Sie unter [Was sind Apps in Power BI?](consumer/end-user-apps.md).
+Weitere Informationen zu Apps finden Sie unter [Was sind Apps in Power BI?](service-create-distribute-apps.md).
 
 **Nehmen Sie Änderungen an Power BI Pro, Power BI Free, Power BI Desktop (u.a.) als Teil des Power BI-Premium-Rollouts vor?**  
 Ab heute ist es auch leichter, zwischen Power BI Pro und den kostenlosen Dienst zu unterscheiden. Wir haben Feedback erhalten, dass funktionale Unterschiede zwischen den Programmen für Verwirrung bei den Benutzern gesorgt haben, obwohl der kostenlose Dienst für den persönlichen Gebrauch vorgesehen ist und Power BI Pro die Zusammenarbeit ermöglicht. In Zukunft werden wir den kostenlosen Dienst verbessern, damit dieser über die gleiche Funktionalität wie Power BI Pro verfügt, jedoch werden die gemeinsamen Nutzungs- und Zusammenarbeitsfunktionen ausschließlich für Benutzer von Power BI Pro verfügbar sein.

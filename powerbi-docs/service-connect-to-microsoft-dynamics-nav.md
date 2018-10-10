@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546715"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908898"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics NAV mithilfe von Power BI
 Mit Power BI ist der Einblick in Ihre Microsoft Dynamics NAV-Daten einfach. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt eine App mit einem Dashboard und Berichten basierend auf diesen Daten. Sie müssen Power BI Berechtigungen für die Tabellen erteilen, aus denen Daten abgerufen werden, in diesem Fall Tabellen mit Vertriebs- und Finanzdaten. Es folgen weitere Informationen zu den Anforderungen. Nachdem Sie die App installiert haben, können Sie das Dashboard und die Berichte im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und in den mobilen Power BI-Apps anzeigen. 
@@ -25,9 +25,9 @@ Mit Power BI ist der Einblick in Ihre Microsoft Dynamics NAV-Daten einfach. Powe
 ## <a name="how-to-connect"></a>Herstellen der Verbindung
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Wählen Sie **Microsoft Dynamics NAV** und dann **Abrufen** aus.  
+3. Wählen Sie **Microsoft Dynamics NAV** und dann **Abrufen** aus.  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. Wenn Sie dazu aufgefordert werden, geben Sie Ihre Microsoft Dynamics NAV-OData-URL ein. Die URL sollte mit folgendem Muster übereinstimmen:
+4. Wenn Sie dazu aufgefordert werden, geben Sie Ihre Microsoft Dynamics NAV-OData-URL ein. Die URL sollte mit folgendem Muster übereinstimmen:
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ Mit Power BI ist der Einblick in Ihre Microsoft Dynamics NAV-Daten einfach. Powe
      
      Eine einfache Möglichkeit zum Abrufen dieser URL besteht darin, in Dynamics NAV zu den Webdiensten zu wechseln, den Webdienst powerbifinance zu suchen und die OData-URL zu kopieren, jedoch „/powerbifinance“ in der URL-Zeichenfolge wegzulassen.  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. Wählen Sie **Standard** aus, und geben Sie Ihre Microsoft Dynamics NAV-Anmeldeinformationen ein.
+5. Wählen Sie **Standard** aus, und geben Sie Ihre Microsoft Dynamics NAV-Anmeldeinformationen ein.
    
     Sie benötigen Administrator-Anmeldeinformationen (oder zumindest Berechtigungen für Umsatz- und Finanzdaten) für Ihr Microsoft Dynamics NAV-Konto.  Derzeit wird nur die Standardauthentifizierung (Benutzername und Kennwort) unterstützt.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Power BI ruft Ihre Microsoft Dynamics NAV-Daten ab und erstellt für Sie ein gebrauchsfertiges Dashboard und einen Bericht.   
+6. Power BI ruft Ihre Microsoft Dynamics NAV-Daten ab und erstellt für Sie ein gebrauchsfertiges Dashboard und einen Bericht.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Anzeigen des Dashboards und der Berichte
@@ -99,7 +99,7 @@ Wenn das Fehlerdialogfeld „Entschuldigung“ angezeigt wird, nachdem Sie sich 
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
+* [Was sind Apps in Power BI?](service-create-distribute-apps.md)
 * [Abrufen von Daten in Power BI](service-get-data.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

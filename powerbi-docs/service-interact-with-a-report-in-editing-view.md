@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186651"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908305"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagieren mit einem Bericht in der Bearbeitungsansicht des Power BI-Diensts
 Sie können Berichte im Power BI-Dienst und in Power BI Desktop erstellen und bearbeiten. Im Power BI-Dienst können Berichte in der **Bearbeitungsansicht** erstellt und bearbeitet werden. In Power BI Desktop können Berichte zudem in der [**Berichtsansicht**](desktop-report-view.md) erstellt und bearbeitet werden. In diesem Artikel wird die Bearbeitungsansicht im Power BI-Dienst betrachtet. 
 
 Der Power BI-Dienst verfügt über zwei verschiedene Modi für die Interaktion mit Berichten: die [Leseansicht](consumer/end-user-reading-view.md) für *Benutzer des Berichts* und die Bearbeitungsansicht für Besitzer und Bearbeiter eines Berichts.  Es wird eine Power BI Pro-Lizenz für die Freigabe von Berichten sowie zum Bearbeiten von Berichten, die von anderen Personen erstellt wurden, benötigt. Wenn Sie über keine Pro-Lizenz verfügen, können Sie trotzdem Berichte erstellen, jedoch können Sie diese [nicht freigeben](service-share-reports.md).    
 
-Die Bearbeitungsansicht für Berichte bietet Ihnen große Flexibilität beim Untersuchen und Entwerfen eines Berichts. Neben allen Funktionen der [Leseansicht](consumer/end-user-reading-view.md) stehen viele weitere Möglichkeiten zur Verfügung. Die Bearbeitungsansicht ist nur für den Ersteller eines Berichts oder die Kollegen verfügbar, die [den Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](consumer/end-user-create-apps.md).
+Die Bearbeitungsansicht für Berichte bietet Ihnen große Flexibilität beim Untersuchen und Entwerfen eines Berichts. Neben allen Funktionen der [Leseansicht](consumer/end-user-reading-view.md) stehen viele weitere Möglichkeiten zur Verfügung. Die Bearbeitungsansicht ist nur für den Ersteller eines Berichts oder die Kollegen verfügbar, die [den Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Funktionen, die nur in der Bearbeitungsansicht verfügbar sind
 Sehen Sie sich die Themenliste unter der Überschrift **Berichte** im Inhaltsverzeichnis links an. Es ist eine lange Liste, und viele Themen behandeln Funktionen, die *nur verfügbar sind, wenn Sie Bearbeitungsberechtigungen für einen Bericht haben*.  Um Ihnen das Navigieren im Inhaltsverzeichnis zu erleichtern: Die Bearbeitungsansicht ist für Folgendes erforderlich:

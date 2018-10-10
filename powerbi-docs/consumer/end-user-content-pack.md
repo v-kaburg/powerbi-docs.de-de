@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f94fe8d82fe752d2e2d0f1290cdaa5193a75e0a9
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4648d09e6ef58d84b85690062428f0515fa7ddae
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565358"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908071"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
 
@@ -50,6 +50,6 @@ Wenn der Besitzer des Inhaltspakets dieses ändert, geschieht Folgendes:
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Einführung in organisationsbezogene Inhaltspakete](../service-organizational-content-pack-introduction.md)  
-* [Erstellen und Verteilen einer App in Power BI](end-user-create-apps.md)
+* [Erstellen und Verteilen einer App in Power BI](../service-create-distribute-apps.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

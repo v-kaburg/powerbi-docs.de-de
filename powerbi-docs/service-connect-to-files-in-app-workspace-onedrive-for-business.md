@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271875"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908695"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Herstellen einer Verbindung mit in OneDrive gespeicherten Dateien für Ihren Power BI-App-Arbeitsbereich
-Nachdem Sie einen [App-Arbeitsbereich in Power BI erstellt haben](consumer/end-user-create-apps.md), können Sie Ihre Excel-, CSV- und Power BI Desktop-Dateien in OneDrive for Business für Ihren Power BI-App-Arbeitsbereich speichern. Sie können weiterhin in OneDrive gespeicherte Dateien aktualisieren, und diese Updates werden automatisch in den auf diesen Dateien basierenden Power BI-Berichten und -Dashboards widergespiegelt. 
+Nachdem Sie einen [App-Arbeitsbereich in Power BI erstellt haben](service-create-distribute-apps.md), können Sie Ihre Excel-, CSV- und Power BI Desktop-Dateien in OneDrive for Business für Ihren Power BI-App-Arbeitsbereich speichern. Sie können weiterhin in OneDrive gespeicherte Dateien aktualisieren, und diese Updates werden automatisch in den auf diesen Dateien basierenden Power BI-Berichten und -Dashboards widergespiegelt. 
 
 > [!NOTE]
 > Die Vorschauversion der neuen Arbeitsbereiche ändert die Beziehung zwischen Power BI-Arbeitsbereichen und Office 365-Gruppen. Office 365-Gruppen werden nicht jedes Mal automatisch erstellt, wenn Sie einen dieser neuen Arbeitsbereiche erstellen. Erfahren Sie mehr über [das Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md).
@@ -79,7 +79,7 @@ Jetzt, da sich die Dateien im OneDrive for Business Ihres App-Arbeitsbereichs be
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](consumer/end-user-create-apps.md)
+* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](service-create-distribute-apps.md)
 * [Importieren von Daten aus Excel-Arbeitsmappen](service-get-data-from-files.md)
 * [Verbinden mit gesamten Excel-Arbeitsmappen](service-excel-workbook-files.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

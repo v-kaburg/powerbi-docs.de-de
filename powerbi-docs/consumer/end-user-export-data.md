@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565979"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908852"
 ---
 # <a name="export-data-from-visualizations"></a>Exportieren von Daten aus Visualisierungen
 Wenn Sie die Daten anzeigen möchten, mit denen eine Visualisierung erstellt wird, können Sie [die Daten in Power BI anzeigen](end-user-show-data.md) oder (als XLSX- bzw. CSV-Datei) in Excel exportieren.   
@@ -55,7 +55,7 @@ Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaff
 4. Wählen Sie die Auslassungszeichen in der rechten oberen Ecke der Visualisierung aus. Wählen Sie  **Daten exportieren**aus.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. Wenn Ihre Visualisierung in Power BI Online ein Aggregat aufweist (wenn Sie beispielsweise **Count** (Anzahl) in *Average* (Durchschnitt), **Summe** oder *Minimum* geändert haben), verfügen Sie über zwei Optionen: **Zusammengefasste Daten** und **Zugrunde liegende Daten**. In Power BI Desktop haben Sie nur die Option **Zusammengefasste Daten**. Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../service-aggregates.md).
+5. Wenn Ihre Visualisierung in Power BI Online ein Aggregat aufweist (wenn Sie beispielsweise **Count** (Anzahl) in *Average* (Durchschnitt), *Summe* oder *Minimum* geändert haben), verfügen Sie über zwei Optionen: **Zusammengefasste Daten** und **Zugrunde liegende Daten**. In Power BI Desktop haben Sie nur die Option **Zusammengefasste Daten**. Weitere Informationen zu Aggregaten finden Sie unter [Aggregate in Power BI](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Wählen Sie **Zusammengefasste Daten** > **Exportieren** aus, und wählen Sie das Format „.xlsx“ oder „.csv“ aus. Die Daten werden aus Power BI exportiert.  Wenn Sie Filter auf die Visualisierung angewendet haben, werden die Daten entsprechend den Filtereinstellungen exportiert. Wenn Sie **Exportieren** auswählen, werden Sie in Ihrem Browser zum Speichern aufgefordert. Öffnen Sie die Datei nach dem Speichern in Excel.

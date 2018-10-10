@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271709"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908967"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
 
@@ -57,7 +57,7 @@ Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern ve
 
 ![Symbol „App veröffentlichen“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](consumer/end-user-create-apps.md). 
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) einfach finden und installieren. Sie können geschäftlichen Benutzern einen direkten Link zu der App senden, oder die Benutzer suchen sie in AppSource. Wenn der Power BI-Administrator Ihnen die entsprechenden Berechtigungen gewährt, können Sie eine App automatisch in den Power BI-Konten Ihrer Kollegen installieren lassen. Hier finden Sie [weitere Informationen zum Veröffentlichen von Apps](service-create-distribute-apps.md). 
 
 Nachdem die Benutzer eine App installiert haben, können sie diese in ihren Browsern oder mobilen Geräten anzeigen.
 
@@ -99,7 +99,7 @@ Sie können Power BI-Berichte im Internet veröffentlichen, indem Sie interaktiv
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Freigeben von Dashboards für Kollegen und andere](service-share-dashboards.md)
-* [Erstellen und Veröffentlichen einer App in Power BI](consumer/end-user-create-apps.md)
+* [Erstellen und Veröffentlichen einer App in Power BI](service-create-distribute-apps.md)
 * Feedback? Anregungen nehmen wir auf der [Power BI-Communitywebsite](https://community.powerbi.com/) entgegen.
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
 
