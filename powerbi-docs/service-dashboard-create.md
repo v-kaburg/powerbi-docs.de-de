@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines Power BI-Dashboards aus einem Bericht
+title: Erstellen eines Dashboards für den Power BI-Dienst aus einem Bericht
 description: Erstellen eines Power BI-Dashboards aus einem Bericht
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248928"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168087"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Erstellen eines Power BI-Dashboards im Power BI-Dienst
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  
 
 Anfangs kann diese Aufgabe überwältigend erscheinen. Daher erstellen wir zunächst ein schnelles und einfaches Dashboard, indem wir Visualisierungen aus einem Bericht anheften, der bereits erstellt wurde. Wenn Sie diese Schnellstartanleitung abgeschlossen haben, werden Sie mit folgenden Themen vertraut sein: die Beziehung zwischen Dashboard und Berichten, das Öffnen der Bearbeitungsansicht im Berichts-Editor und das Navigieren zwischen einem Dashboard und einem Bericht. Verwenden Sie dann die Links im Inhaltsverzeichnis auf der linken Seite oder die **nächsten Schritte** am Ende dieses Artikels, um mit komplexeren Themen fortzufahren.

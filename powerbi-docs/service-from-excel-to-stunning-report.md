@@ -2,20 +2,20 @@
 title: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 description: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247170"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044415"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 Ihre Vorgesetzte möchte bis zum Ende des Arbeitstages von Ihnen einen Bericht über die aktuellen Verkaufszahlen in Verbindung mit den Eindrücken der letzten Kampagne angefertigt bekommen. Die neuesten Daten befinden sich jedoch in verschiedenen Systemen von Drittanbietern und in Dateien auf Ihrem Laptop. Bisher hat es Stunden gedauert, Visualisierungen zu erstellen und einen Bericht zu formatieren. Sie werden langsam unruhig.
@@ -34,7 +34,7 @@ Formatieren Sie dann die Daten als Tabelle. Wählen Sie in Excel auf der Registe
 ![Als Tabelle formatierte Daten](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Laden Sie die Excel-Datei in Power BI hoch.
-Power BI stellt Verbindungen mit vielen Datenquellen her, einschließlich Excel-Dateien auf Ihrem Computer. Melden Sie sich zunächst bei Power BI an. Wenn Sie sich noch nicht registriert haben, [können Sie dies kostenlos tun](https://powerbi.com).
+Power BI stellt Verbindungen mit vielen Datenquellen her, einschließlich Excel-Dateien auf Ihrem Computer. Melden Sie sich zunächst beim Power BI-Dienst an. Wenn Sie sich noch nicht registriert haben, [können Sie dies kostenlos tun](https://powerbi.com).
 
 Erstellen Sie ein neues Dashboard. Öffnen Sie **Mein Arbeitsbereich**, und wählen Sie das Symbol **+ Erstellen** aus.
 

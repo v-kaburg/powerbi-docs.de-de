@@ -2,21 +2,21 @@
 title: Festlegen von Datenwarnungen im Power BI-Dienst
 description: Erfahren Sie, wie Sie Warnungen festlegen, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen im Microsoft Power BI-Dienst festgelegten Grenzen überschreiten.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137582"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167926"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
 Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten. 
@@ -42,15 +42,15 @@ In diesem Beispiel wird eine Kartenkachel aus dem Beispieldashboard zur Einzelha
 1. Zunächst benötigen Sie ein Dashboard. Wählen Sie auf einer Messgerät-, KPI- oder Kartenkachel eines Dashboards die Auslassungspunkte aus.
    
    ![Kachel „Filialen insgesamt“](media/service-set-data-alerts/powerbi-card.png)
-2. Wählen Sie das Glockensymbol ![Warnungssymbol](media/service-set-data-alerts/power-bi-bell-icon.png) aus, um eine oder mehrere Warnungen für **Filialen insgesamt** hinzuzufügen.
+2. Wählen Sie das Glockensymbol ![Warnungssymbol](media/service-set-data-alerts/power-bi-bell-icon.png) oder **Warnungen verwalten** aus, um eine oder mehrere Warnungen für **Filialen insgesamt** hinzuzufügen.
    
-1. Wählen Sie zunächst **+ Warnungsregel hinzufügen** aus, stellen Sie sicher, dass der Schieberegler auf **Ein** festgelegt ist, und geben Sie der Warnung einen Titel. Durch Titel lassen sich Warnungen schnell einordnen.
+1. Wählen Sie **+ Warnungsregel hinzufügen** im Bereich **Warnungen verwalten** aus.  Stellen Sie sicher, dass der Schieberegler auf **Ein** festgelegt ist, und geben Sie der Warnung einen Titel. Durch Titel lassen sich Warnungen schnell einordnen.
    
    ![Fenster „Warnungen verwalten“](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Scrollen Sie nach unten, und geben Sie die Warnungsdetails ein.  In diesem Beispiel erstellen wir eine Warnung, die uns einmal täglich benachrichtigt, wenn die Gesamtzahl der Läden die Zahl 100 überschreitet. Warnungen werden in der Mitteilungszentrale angezeigt. Und außerdem lassen wir uns von Power BI eine E-Mail senden.
    
    ![Fenster „Warnungen verwalten“, Festlegen des Schwellenwerts](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Wählen Sie **Speichern**.
+5. Klicken Sie auf **Speichern und schließen**.
 
 ## <a name="receiving-alerts"></a>Empfangen von Warnungen
 Wenn die nachverfolgten Daten einen der von Ihnen festgelegten Schwellenwerte erreichen, erfolgen mehrere Aktionen. Power BI überprüft zunächst, ob seit dem Senden der letzten Warnung mehr als eine Stunde oder mehr als 24 Stunden (je nach der von Ihnen ausgewählten Option) verstrichen sind. Solange die Daten den Schwellenwert überschreiten, erhalten Sie eine Warnung.
@@ -104,6 +104,4 @@ Es gibt eine Reihe von Möglichkeiten zum Verwalten von Warnungen: in der Dashbo
 ## <a name="next-steps"></a>Nächste Schritte
 [Erstellen eines Flows in Microsoft Flow, der eine Datenwarnung enthält](service-flow-integration.md)    
 [Festlegen von Datenwarnungen auf Ihrem mobilen Gerät](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Was ist Power BI?](power-bi-overview.md)    
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 
