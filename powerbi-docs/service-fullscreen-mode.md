@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044323"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545795"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Vollbildmodus im Power BI-Dienst
 ## <a name="what-is-full-screen-mode"></a>Was ist der Vollbildmodus?
@@ -24,7 +24,7 @@ ms.locfileid: "44044323"
 
 Zeigen Sie Ihre Power BI-Inhalte (Dashboards, Berichtsseiten, Kacheln und Visuals) ohne störende Menüs und Navigationsleisten an.  Sie erhalten jederzeit eine aufgeräumte vollständige Ansicht Ihrer Inhalte auf einen Blick. Dies wird gelegentlich auch als TV-Modus bezeichnet. Die im Vollbildmodus verfügbaren Funktionen variieren je nach Inhalt. 
 
-Wenn Sie Power BI Mobile verwenden, ist [der Vollbildmodus für mobile Windows 10-Apps verfügbar](mobile-windows-10-app-presentation-mode.md). In Power BI Desktop ist kein Vollbildmodus für Berichte oder Visuals enthalten. Es gibt allerdings die Option „An Seite anpassen“ für die [Beziehungsansicht und Berichtsansicht](desktop-report-view.md) und den [Fokusmodus für Berichtsvisualisierungen](service-focus-mode.md).
+Wenn Sie Power BI Mobile verwenden, ist [der Vollbildmodus für mobile Windows 10-Apps verfügbar](consumer/mobile/mobile-windows-10-app-presentation-mode.md). In Power BI Desktop ist kein Vollbildmodus für Berichte oder Visuals enthalten. Es gibt allerdings die Option „An Seite anpassen“ für die [Beziehungsansicht und Berichtsansicht](desktop-report-view.md) und den [Fokusmodus für Berichtsvisualisierungen](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Einige Verwendungsmöglichkeiten des Vollbildmodus:
 * Anzeigen auf einem kleinen Bildschirm
 * Überprüfen im gesperrten Modus – Sie können den Bildschirm berühren oder mit dem Mauszeiger auf Kacheln zeigen, ohne den zugrunde liegenden Bericht oder das Dashboard zu öffnen.
 
-> **HINWEIS**: Der Vollbildmodus unterscheidet sich vom [Fokusmodus (Aufklappmodus)](service-focus-mode.md).
+> **HINWEIS**: Der Vollbildmodus unterscheidet sich vom [Fokusmodus (Aufklappmodus)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Schauen Sie sich an, wie Amanda ihr Dashboard im Vollbildmodus öffnet, darin na
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Visualisierungen und Dashboardkacheln im Vollbildmodus
-1. Um Dashboardkacheln und Berichtsvisualisierungen im Vollbildmodus anzuzeigen, müssen Sie mit der Kachel bzw. Visualisierung beginnen, die sich bereits im [Fokusmodus](service-focus-mode.md) befindet. 
+1. Um Dashboardkacheln und Berichtsvisualisierungen im Vollbildmodus anzuzeigen, müssen Sie mit der Kachel bzw. Visualisierung beginnen, die sich bereits im [Fokusmodus](consumer/end-user-focus.md) befindet. 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Wählen Sie dann das Symbol „Vollbild“ ![Symbol „Vollbild“](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  für diese Kachel oder dieses Visual aus. Die Kachel oder das Visual wird ohne Menüs oder Navigationsleisten als Vollbild angezeigt.
@@ -86,8 +86,8 @@ Schauen Sie sich an, wie Amanda ihr Dashboard im Vollbildmodus öffnet, darin na
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboards in Power BI](service-dashboards.md)  
-[Fokusmodus](service-focus-mode.md)    
+[Dashboards in Power BI](consumer/end-user-dashboards.md)  
+[Fokusmodus](consumer/end-user-focus.md)    
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
