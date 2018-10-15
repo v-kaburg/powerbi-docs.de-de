@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512955"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974205"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregationen in Power BI Desktop (Vorschauversion)
 
@@ -243,7 +243,7 @@ Im folgenden Modell werden *Month*, *Quarter*, *Semester* und *Year* in der Tabe
 
 In der folgenden Tabelle werden die Einträge angezeigt, die Sie im Dialogfeld **Manage aggregations** (Aggregationen verwalten) für die Tabelle **Sales Agg** festgelegt haben. Die GroupBy-Einträge, bei denen **Date** die Detailtabelle ist, müssen Aggregationen für Abfragen finden, die nach den Date-Attributen gruppieren. Wie auch im vorherigen Beispiel wirken sich die GroupBy-Einträge für CustomerKey und ProductSubcategoryKey nicht darauf aus, ob Aggregationen gefunden werden, da Beziehungen vorhanden sind (DISTINCTCOUNT wieder ausgenommen).
 
-![Aggregationstabelle „Sales Agg“](media/desktop-aggregations/aggregations-table_03.jpg)
+![Aggregationstabelle „Sales Agg“](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Hinweis: Dieses Modell erfordert, dass sich die **Date**-Tabelle im DirectQuery-Modus befindet, damit das Dialogfeld „Manage aggregations“ (Aggregationen verwalten) ausgefüllt werden kann. Dies liegt daran, dass die Tabelle eine Detailtabelle ist. Diese Einschränkung gilt nur für die Vorschauversion. Sie soll bei allgemeiner Verfügbarkeit nicht mehr bestehen.
 
