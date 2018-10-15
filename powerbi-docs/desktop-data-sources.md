@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657872"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512062"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
@@ -53,6 +53,7 @@ Die Kategorie **Datei** bietet die folgenden Datenverbindungen:
 * XML
 * JSON
 * Ordner
+* PDF (Beta)
 * SharePoint-Ordner
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Datei**.
@@ -79,7 +80,8 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Impala
 * BigQuery von Google
 * Snowflake
-* Exasol
+* Exasol (Beta)
+* Jethro (Beta)
 
 > [!NOTE]
 > Sie müssen einige Datenbankconnectors aktivieren, indem Sie **Datei > Optionen und Einstellungen > Optionen** und dann **Vorschaufeatures** auswählen und den Connector aktivieren. Wenn einige der oben genannten Connectors nicht angezeigt werden und Sie diese verwenden möchten, überprüfen Sie die Einstellungen von **Vorschaufeatures**. Außerdem stehen für alle als *Beta* oder *Vorschau* markierten Datenquellen nur eingeschränkter Support und weniger Funktionen zur Verfügung, und sie sollten nicht in Produktionsumgebungen verwendet werden.
@@ -93,6 +95,7 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Datenbank**.
 Die Kategorie **Power BI** bietet die folgenden Datenverbindungen:
 
 * Power BI-Datasets
+* Power BI-Dataflows (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Power BI**.
 
@@ -108,7 +111,7 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * HDInsight Interactive Query (Beta)
 * Azure KustoDB (Beta)
 
@@ -169,6 +172,7 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Hadoop-Datei (HDFS)
 * Spark
 * R-Skript
+* Python-Skript
 * ODBC
 * OLE DB
 * Leere Abfrage

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657941"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512177"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 Mit **Berichtdesigns** können Sie einem Bericht ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Berichtdesign** zuweisen, verwenden alle Visualisierungen des Berichts die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).
@@ -36,7 +36,17 @@ Bei Verwendung einer früheren Version von **Power BI Desktop** können Sie es a
 Grundsätzlich wird ein Upgrade auf das neueste Release von **Power BI Desktop** empfohlen. Dieses ist über einen Link in [Power BI Desktop abrufen](desktop-get-the-desktop.md) erhältlich. 
 
 ## <a name="how-report-themes-work"></a>Funktionsweise von Berichtdesigns
-Um einem Bericht in Power BI Desktop ein Berichtdesign zuzuweisen, klicken Sie im Menüband **Start** auf die Schaltfläche **Design wechseln**, und wählen Sie im Dropdownmenü **Design importieren** aus.
+Wenn Sie einem Power BI Desktop-Bericht ein Berichtsdesign zuweisen möchten, können Sie entweder eines der verfügbaren integrierten Designs auswählen oder ein benutzerdefiniertes importieren.
+
+Wenn Sie eines der verfügbaren integrierten Berichtsdesigns auswählen möchten, klicken Sie im Menüband **Start** auf die Schaltfläche **Design wechseln**, und wählen Sie eines der Designs aus dem Dropdownmenü aus.
+
+![Berichtsdesign auswählen](media/desktop-report-themes/report-themes_2a.png)
+
+Ihr Berichtsdesign wird auf den Bericht angewendet, und Sie sind startbereit.
+
+### <a name="importing-report-themes"></a>Importieren von Berichtsdesigns
+
+Wenn Sie ein benutzerdefiniertes Berichtsdesign in Power BI Desktop importieren möchten, klicken Sie im Menüband **Start** auf die Schaltfläche **Design wechseln**, und wählen Sie im Dropdownmenü **Design importieren** aus.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 
