@@ -2,22 +2,23 @@
 title: Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 description: In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen.
 author: maggies
+ms.author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
-ms.author: maggieMSFT
 LocalizationGroup: Share your work
-ms.openlocfilehash: ae1915254b3ef93ace7688235851541e838c9190
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: cf8ec98a45db6601e68b156d64ae6b73fd8ce2d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875053"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112082"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
+
 In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation können Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](consumer/end-user-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
 
 ![Apps in Power BI](./media/service-create-distribute-apps/power-bi-apps-left-nav.png)
@@ -29,9 +30,11 @@ In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller di
 Planen Sie das Erstellen einer App? Weitere Informationen finden Sie unter [Create workspaces with your colleagues in Power BI (Gemeinsames Erstellen von Arbeitsbereichen mit Ihren Kollegen in Power BI)](service-create-workspaces.md).
 
 ## <a name="get-a-new-app"></a>Erhalten einer neuen App
+
 Sie können Apps auf unterschiedliche Weise erhalten. Der Ersteller der App kann die App automatisch in Ihrem Power BI-Konto installieren lassen oder Ihnen einen direkten Link zur App senden, oder Sie können die App in AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie sie nur über einen Direktlink und nicht aus AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
 
 ### <a name="install-an-app-from-a-direct-link"></a>Installieren einer App über einen direkten Link
+
 Die einfachste Möglichkeit, eine neue App selbst zu installieren, ist das Empfangen eines direkten Links vom Ersteller der App. Power BI erstellt einen Link für die Installation, den Ihnen der Ersteller senden kann.
 
 **Auf Ihrem Computer** 
@@ -47,23 +50,24 @@ Wenn Sie auf Ihrem Mobilgerät auf den Link in der E-Mail klicken, wird die App 
 ![Inhaltsliste der App auf dem Mobilgerät](./media/service-create-distribute-apps/power-bi-app-index-it-spend-360.png)
 
 ### <a name="get-the-app-from-microsoft-appsource"></a>Abrufen der App von Microsoft AppSource
+
 Sie können auch in Microsoft AppSource Apps suchen und installieren, auf die Sie Zugriff haben. 
 
 1. Wählen Sie **Apps** ![„Apps“ im linken Navigationsbereich](./media/service-create-distribute-apps/power-bi-apps-bar.png) > **Apps abrufen** aus. 
-   
+
      ![Symbol „Apps abrufen“](./media/service-create-distribute-apps/power-bi-service-apps-get-apps-oppty.png)
 2. Sie können in AppSource unter **Meine Organisation** suchen, um die Ergebnisse einzugrenzen und die gewünschte App zu finden.
-   
+
      ![In AppSource unter „Meine Organisation“](./media/service-create-distribute-apps/power-bi-appsource-my-org.png)
 3. Wählen Sie **Jetzt anfordern** aus, um sie der Seite „Apps“ hinzuzufügen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagieren mit Dashboards und Berichten in der App
+
 Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Sie können die Daten aus einer Tabelle oder einem anderen Visual eines Berichts [in Excel exportieren](consumer/end-user-export-data.md). 
 
 ![Exportieren von Daten aus einem Power BI-Visual](./media/service-create-distribute-apps/power-bi-service-export-data-visual.png)
 
-
-
 ## <a name="next-steps"></a>Nächste Schritte
+
 * [Power BI-Apps für externe Dienste](consumer/end-user-connect-to-services.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
