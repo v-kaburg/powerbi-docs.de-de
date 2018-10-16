@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798929"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112151"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -125,7 +125,7 @@ Sie können die Inhalte auch nach Name oder Besitzer sortieren.
 
 ![Inhalte sortieren](./media/end-user-experience/power-bi-sort.png)
 
-Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](end-user-search-filter-sort.md).
+Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](end-user-search-sort.md).
 
 ## <a name="clean-up-resources"></a>Bereinigen von Ressourcen
 Nachdem Sie diese Schnellstartanleitung abgeschlossen haben, können Sie das Dashboard, den Bericht und das Dataset zum Beispiel für die Einzelhandelsanalyse löschen, wenn Sie möchten.
