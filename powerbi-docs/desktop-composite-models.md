@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388845"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336988"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)
 
@@ -58,7 +58,7 @@ Bei Verwendung von DirectQuery mit **zusammengesetzten Modellen** ist es möglic
 Mit **zusammengesetzten Modellen** kann beispielsweise ein Modell erstellt werden, das Umsatzdaten aus einem Data Warehouse eines Unternehmens mit Daten zu Umsatzvorgaben, die in einer abteilungsspezifischen SQL Server-Datenbank-Instanz gespeichert sind, sowie einigen aus einem Arbeitsblatt importierte Daten kombiniert. Ein Modell, bei dem Daten aus mehr als einer DirectQuery-Quelle kombiniert werden oder bei dem DirectQuery mit importierten Daten kombiniert wird, wird als *zusammengesetztes Modell* bezeichnet.
 
 > [!NOTE]
-> Zusammengesetzte Modelle sind zwar in der Vorschauversion verfügbar, können jedoch nicht als zusammengesetzte Modelle im Power BI-Dienst veröffentlicht werden. 
+> Ab dem Oktober 2018-Release von **Power BI Desktop** *können* Sie zusammengesetzte Modelle im Power BI-Dienst veröffentlichen. Bei geplanten Aktualisierungen und Aktualisierungen von Dashboardkacheln verhalten sich zusammengesetzte Modelle im Power BI-Dienst auf dieselbe Weise, wie sich Importmodelle verhalten. 
 
 Sie können wie gewohnt Beziehungen zwischen Tabellen erstellen, auch wenn diese Tabellen von verschiedenen Quellen stammen. Hierbei gilt jedoch eine Einschränkung: Beziehungen, die sich über mehrere Quellen erstrecken, müssen so definiert werden, dass sie die Kardinalität **m:n** aufweisen, unabhängig von der tatsächlichen Kardinalität. Das Verhalten solcher Beziehungen entspricht dann dem normalen Verhalten für **m:n**-Beziehungen, wie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben wird. Beachten Sie, dass im Kontext von zusammengesetzten Modellen, alle importierten Tabellen im Grunde eine einzelne Quelle darstellen, unabhängig von der tatsächlichen zugrunde liegenden Datenquelle, aus der sie eigentlich importiert wurden.   
 
@@ -164,12 +164,13 @@ Darüber hinaus hat die Verwendung von **m:n**-Beziehungen zur Folge, dass die E
 
 Bei diesem Release des Features **Zusammengesetzte Modelle** gibt es einige Einschränkungen.
 
-Die folgenden mehrdimensionalen Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
+Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-Datasets
+* Azure Analysis Services
 
 Wenn mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen hergestellt wird, können Sie weder eine Verbindung mit einer anderen DirectQuery-Quelle herstellen noch importierte Daten kombinieren.
 

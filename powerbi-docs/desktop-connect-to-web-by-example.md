@@ -1,5 +1,5 @@
 ---
-title: Extrahieren von Daten aus einer Webseite anhand von Beispielen in Power BI Desktop (Vorschau)
+title: Extrahieren von Daten aus einer Webseite anhand von Beispielen in Power BI Desktop
 description: Extrahieren von Daten aus einer Webseite durch Angeben von Beispielen für die gewünschten Daten
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290980"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336804"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Abrufen von Daten aus einer Webseite durch Angeben von Beispielen (Vorschau)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Abrufen von Daten aus einer Webseite durch Angeben von Beispielen
 
 Durch Abrufen von Daten aus einer Webseite können Benutzer Daten ganz einfach aus Webseiten extrahieren und in **Power BI Desktop** importieren. Häufig liegen Daten auf Webseiten jedoch nicht in ordentlichen Tabellen vor, die sich problemlos extrahieren lassen. Das Abrufen von Daten aus solchen Seiten kann also – auch wenn die Daten strukturiert und konsistent sind – eine ziemliche Herausforderung sein. 
 
@@ -26,13 +26,6 @@ Es gibt jedoch eine Lösung: Mit dem Feature **Daten anhand von Beispielen aus d
 ![Daten anhand von Beispielen aus dem Web abrufen](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Aktivieren des Vorschaufeatures „Daten anhand von Beispielen aus dem Web abrufen“
-
-Das Feature **Daten anhand von Beispielen aus dem Web abrufen** befindet sich in der Vorschau und muss in **Power BI Desktop** aktiviert werden. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen für **Neu aus der Webumgebung**. Sie müssen Power BI Desktop neu starten, nachdem Sie die Auswahl vorgenommen haben.
-
-![Vorschaufeature aktivieren](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Sobald das Vorschaufeature aktiviert ist, können Sie es verwenden. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Verwenden von „Daten anhand von Beispielen aus dem Web abrufen“
 

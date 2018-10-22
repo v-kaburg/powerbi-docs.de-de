@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565864"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336850"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Verwenden von Slicern in Power BI Desktop
 
@@ -65,6 +65,12 @@ Im Bereich **Slicer synchronisieren** können Sie im Abschnitt **Erweiterte Opti
 Mit dieser Funktion können Sie eine benutzerdefinierte Gruppe von Slicern erstellen, die synchron gehalten wird. Ein Standardname wird angeboten, aber Sie können auch einen anderen Namen wählen. 
 
 Der Gruppenname bietet zusätzliche Flexibilität bei Slicern. Sie können separate Gruppen erstellen, um Slicer zu synchronisieren, die dasselbe Feld verwenden, oder Slicer, die unterschiedliche Felder verwenden, derselben Gruppe zuordnen. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>Auswirkungen der Filterung auf die Auswahl in Datenschnitten
+
+Wenn Sie in einem Datenschnitt eine Auswahl vornehmen und dann einen Filter anwenden, der das ausgewählte Element normalerweise entfernen würde, verbleibt es am Ende der Liste der Elemente im Datenschnitt. Wenn der Filter entfernt wird, ist die Auswahl immer noch im Datenschnitt vorhanden. Sie werden feststellen, dass, wenn Sie das Element im Datenschnitt deaktivieren, es aus der Liste entfernt wird.
+
+![Beibehaltene Auswahl in Datenschnitten](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>Nächste Schritte

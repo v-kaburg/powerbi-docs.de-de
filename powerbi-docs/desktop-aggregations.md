@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974205"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359721"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregationen in Power BI Desktop (Vorschauversion)
 
@@ -191,9 +191,9 @@ Als Nächstes definieren wir die Aggregationszuordnungen im Dialogfeld **Manage 
 
 ![Dialogfeld „Manage Aggregations“ für die Tabelle „Driver Activity Agg“](media/desktop-aggregations/aggregations_11.jpg)
 
-In der folgenden Tabelle werden die Aggregationen der **Sales Agg**-Tabelle gezeigt.
+In der folgenden Tabelle werden die Aggregationen der **Driver Activity Agg**-Tabelle gezeigt.
 
-![Aggregationstabelle „Sales Agg“](media/desktop-aggregations/aggregations-table_02.jpg)
+![Aggregationstabelle „Driver Activity Agg“](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Gruppierte Spalten
 
@@ -229,9 +229,9 @@ In der Spalte **Detailtabelle** ist **Driver Activity** und nicht **Driver Activ
 
 ![Dialogfeld „Manage aggregations“ (Aggregationen verwalten)](media/desktop-aggregations/aggregations_14.jpg)
 
-In der folgenden Tabelle werden die Aggregationen der **Sales Agg**-Tabelle gezeigt.
+In der folgenden Tabelle werden die Aggregationen der **Driver Activity Agg2**-Tabelle gezeigt.
 
-![Aggregationstabelle „Sales Agg“](media/desktop-aggregations/aggregations-table_03.jpg)
+![Aggregationstabelle „Driver Activity Agg2“](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>Aggregationen basierend auf GroupBy-Spalten und Beziehungen
 

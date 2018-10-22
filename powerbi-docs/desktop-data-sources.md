@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512062"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336896"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
@@ -75,13 +75,15 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Teradata-Datenbank
 * SAP HANA-Datenbank
 * SAP Business Warehouse-Anwendungsserver
-* SAP Business Warehouse-Nachrichtenserver (Beta)
+* SAP Business Warehouse-Nachrichtenserver
 * Amazon Redshift
 * Impala
 * BigQuery von Google
 * Snowflake
+* Dremio (Beta)
 * Exasol (Beta)
 * Jethro (Beta)
+* Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Sie müssen einige Datenbankconnectors aktivieren, indem Sie **Datei > Optionen und Einstellungen > Optionen** und dann **Vorschaufeatures** auswählen und den Connector aktivieren. Wenn einige der oben genannten Connectors nicht angezeigt werden und Sie diese verwenden möchten, überprüfen Sie die Einstellungen von **Vorschaufeatures**. Außerdem stehen für alle als *Beta* oder *Vorschau* markierten Datenquellen nur eingeschränkter Support und weniger Funktionen zur Verfügung, und sie sollten nicht in Produktionsumgebungen verwendet werden.
@@ -112,7 +114,7 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* HDInsight Interactive Query (Beta)
+* HDInsight Interactive Query
 * Azure KustoDB (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Azure**.
@@ -124,10 +126,10 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * SharePoint-Online-Liste
 * Microsoft Exchange Online
 * Dynamics 365 (online)
-* Dynamics NAV (Beta)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central (lokal)
 * Common Data Service für Apps (Beta)
-* Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
 * Visual Studio Team Services (Beta)
 * Salesforce-Objekte
@@ -163,7 +165,7 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Onlinedienste*
 
 Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 
-* Vertica (Beta)
+* Vertica
 * Web
 * SharePoint-Liste
 * OData-Feed
@@ -175,6 +177,8 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Python-Skript
 * ODBC
 * OLE DB
+* Denado
+* Paxata (Beta)
 * Leere Abfrage
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Sonstige**.

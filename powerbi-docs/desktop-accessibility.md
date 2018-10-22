@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256030"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336873"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -61,6 +61,8 @@ Diese zusätzlichen Barrierefreiheitsfunktionen wurden entwickelt, damit Benutze
 ## <a name="tips-for-creating-accessible-reports"></a>Tipps zum Erstellen barrierefreier Berichte
 Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berichten mit besserer Barrierefreiheit helfen.
 
+### <a name="general-tips-for-accessible-reports"></a>Allgemeine Tipps zum Erstellen barrierefreier Berichte
+
 * Aktivieren Sie für **Liniendiagramm**-, **Flächendiagramm**- und **Kombinationsdiagramm**-Visuals sowie für **Punktdiagramm**- und **Blasendiagramm**-Visuals Marker, und verwenden Sie für jede Linie eine andere *Markerform*.
   
   * Um *Marker* zu aktivieren, wählen Sie im Bereich **Visualisierungen** den Abschnitt **Format** aus, erweitern Sie den Abschnitt **Formen**, scrollen Sie dann nach unten bis zum Ein-/Ausschalter **Marker**, und schalten Sie ihn *Ein*.
@@ -80,6 +82,13 @@ Die folgenden Tipps können Ihnen beim Erstellen von **Power BI Desktop**-Berich
 * Schließen Sie in alle Visuals einen Titel, Achsenbezeichnungen und Datenbezeichnungen ein.
 * Verwenden Sie aussagekräftige Titel für alle Seiten des Berichts.
 * Vermeiden Sie, wenn möglich, die Verwendung dekorativer Formen und Bilder im Bericht, da diese in der Registerkartenreihenfolge des Berichts enthalten sind. Wenn Sie dekorative Objekte in Ihren Bericht einfügen müssen, aktualisieren Sie den alternativen Text des Objekts, um Benutzer der Sprachausgabe wissen zu lassen, dass es zur Dekoration dient.
+
+### <a name="arranging-items-in-field-buckets"></a>Anordnen von Elementen in Feld-Buckets
+Ab der Oktober 2018-Version von **Power BI Desktop** kann mit der Tastatur im **Felder**-Bereich navigiert werden, und der Bereich interagiert auch mit Sprachausgaben. 
+
+Um den Prozess der Erstellung von Berichten mit Sprachausgaben zu verbessern, ist ein Kontextmenü verfügbar, um das Verschieben von Feldern innerhalb des Bereichs nach oben oder unten in der Liste **Felder** zu ermöglichen bzw. das Verschieben des Felds in andere Bereiche, wie z. B. **Legende**, **Wert** oder andere.
+
+![Mit dem Kontextmenü im Bereich „Felder“ können Sie Felder nach oben, unten oder in einen anderen Bereich verschieben.](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Unterstützung für hohen Berichtskontrast
 
