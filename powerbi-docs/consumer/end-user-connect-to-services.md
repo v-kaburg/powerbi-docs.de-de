@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908208"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435279"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Herstellung einer Verbindung mit den verwendeten Diensten mithilfe von Power BI
 
@@ -60,7 +60,7 @@ Verwenden Sie einen Dienst, den Sie für eine Power BI-App vorschlagen möchten?
 Verfügen Sie über einen Dienst, für den Sie eine App erstellen möchten? [Reichen Sie Ihren Antrag ein](https://azure.microsoft.com/marketplace/programs/certified/apply/), und wählen Sie für den Einstieg „Power BI-Inhaltspaket veröffentlichen“.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](../service-install-use-apps.md)
+* [Was sind Apps in Power BI?](end-user-apps.md)
 * [Abrufen von Daten in Power BI](../service-get-data.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

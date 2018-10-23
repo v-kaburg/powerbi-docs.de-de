@@ -2,8 +2,6 @@ Willkommen im Abschnitt **Veröffentlichen und Freigeben** im Kurs **Geführtes 
 
 Nachdem Sie nun wissen, wie Excel und Power BI nahtlos zusammenarbeiten, und alles zu den Visualisierungen erfahren haben, die Sie in Berichten und Dashboards erstellen können, möchten Sie sie wahrscheinlich mit Kollegen und Freunden teilen. Mit Power BI sind **Veröffentlichen und Freigeben** ganz einfach.
 
-In diesem Abschnitt erfahren Sie, wie einfach Sie mit Excel-Arbeitsmappen in Power BI arbeiten können, und wir zeigen, dass Power BI und Excel eine hervorragende Kombination bilden.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Freigabe und Zusammenarbeit mit Kollegen in Power BI
 *Hier erhalten Sie eine Einführung in die Tools, mit denen die Freigabe und Zusammenarbeit mit Power BI vereinfacht werden.*
 

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908645"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435362"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  
@@ -109,7 +109,7 @@ Glückwunsch, Sie haben Ihr erstes Dashboard erstellt! Da Sie jetzt über ein Da
 ## <a name="next-steps"></a>Nächste Schritte
 * [Ändern der Größe und Position von Kacheln](service-dashboard-edit-tile.md)
 * [Alle wichtigen Informationen über Dashboardkacheln](service-dashboard-tiles.md)
-* [Freigeben des Dashboards durch Erstellen einer App](service-install-use-apps.md)
+* [Freigeben des Dashboards durch Erstellen einer App](service-create-workspaces.md)
 * [Power BI – Grundkonzepte](service-basic-concepts.md)
 * [Tipps zum Gestalten überzeugender Power BI-Dashboards](service-dashboards-design-tips.md)
 

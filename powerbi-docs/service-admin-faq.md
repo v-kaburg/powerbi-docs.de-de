@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: b77d20b8c9705e4b4cd811ea8dfa3008908a4438
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271898"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641687"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -249,7 +249,7 @@ Power BI basiert auf der Grundlage von Office 365, das wiederum auf Azure-Dienst
 [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  
 [Self-Service-Registrierung für Power BI](service-self-service-signup-for-power-bi.md)  
 [Erwerb von Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
-[Power BI Premium – Beschreibung](service-premium.md)  
+[Was ist Power BI Premium?](service-premium.md)  
 [Erwerben von Power BI Premium](service-admin-premium-purchase.md)  
 [Office 365-Benutzerkontenverwaltung](https://technet.microsoft.com/library/office-365-user-account-management.aspx)  
 [Office 365-Gruppenverwaltung](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)  
