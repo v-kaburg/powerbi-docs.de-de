@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599179"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238098"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Verwalten Ihrer Datenquelle – Analysis Services
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Datenquelle Analysis Services für die geplante Aktualisierung oder für Live-Verbindungen verwenden.
@@ -150,13 +150,38 @@ Führen Sie am lokalen Datengateway mit konfigurierbarer Benutzerzuordnung Folge
 Konfigurieren des Gateways für die Durchführung der AD-Suche:
 
 1. Herunterladen und Installieren des aktuellen Gateways
+
 2. Im Gateway müssen Sie den **Dienst des lokalen Datengateways** so ändern, dass er mit einem Domänenkonto ausgeführt wird (und nicht mit einem lokalen Dienstkonto – andernfalls funktioniert die AD-Suche zur Laufzeit nicht ordnungsgemäß). Sie müssen den Gateway-Dienst neu starten, damit die Änderung wirksam wird.  Wechseln Sie zur Gateway-App auf dem Computer (suchen Sie nach „lokales Datengateway“). Wählen Sie hierzu **Diensteinstellungen > Dienstkonto ändern** aus. Vergewissern Sie sich, dass Sie über den Wiederherstellungsschlüssel für das Gateway verfügen, da Sie es auf demselben Computer wiederherstellen müssen (es sei denn, Sie möchten stattdessen ein neues Gateway erstellen). 
-3. Navigieren Sie als Administrator zum Installationsordner des Gateways, *C:\Programme\On-premises data gateway*, um sicherzustellen, dass Sie über Schreibberechtigungen verfügen, und bearbeiten Sie die folgende Datei:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. Bearbeiten Sie die folgenden beiden Konfigurationswerte gemäß *Ihren* Active Directory-Attributkonfigurationen für Ihre AD-Benutzer. Die unten aufgeführten Konfigurationswerte sind nur Beispiele – Sie müssen die Ihrer Active Directory-Konfiguration entsprechenden Werte angeben. 
+3. Navigieren Sie als Administrator zum Installationsordner des Gateways, *C:\Programme\On-premises data gateway*, um sicherzustellen, dass Sie über Schreibberechtigungen verfügen, und bearbeiten Sie die folgende Datei: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config. 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. Bearbeiten Sie die folgenden beiden Konfigurationswerte gemäß *Ihren* Active Directory-Attributkonfigurationen für Ihre AD-Benutzer. Die unten aufgeführten Konfigurationswerte sind nur Beispiele – Sie müssen die Ihrer Active Directory-Konfiguration entsprechenden Werte angeben. Da bei den folgenden Konfigurationen die Groß-/Kleinschreibung zu berücksichtigen ist, achten Sie darauf, dass sie mit den Werten in Active Directory übereinstimmen.
+
+    ![Azure Active Directory-Einstellungen](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    Wenn kein Wert für die ADServerPath-Konfiguration angegeben ist, verwendet das Gateway standardmäßig den globalen Katalog. Sie können auch mehrere Werte für ADServerPath angeben. Alle Werte müssen wie im folgenden Beispiel durch ein Semikolon getrennt werden.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    Das Gateway analysiert die Werte für ADServerPath von links nach rechts, bis eine Übereinstimmung gefunden wird. Wenn keine Übereinstimmung gefunden wird, wird der ursprüngliche UPN verwendet. Stellen Sie sicher, dass das Konto, das den Gatewaydienst (PBIEgwService) ausführt, Abfrageberechtigungen für alle AD-Server besitzt, die Sie in ADServerPath angeben.
+
+    Das Gateway unterstützt zwei Arten von ADServerPath-Konfigurationen, wie in den folgenden Beispielen.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. Starten Sie den Dienst **Lokales Datengateway** neu, damit die Konfigurationsänderung wirksam wird.
 
 ### <a name="working-with-mapping-rules"></a>Arbeiten mit Zuordnungsregeln
