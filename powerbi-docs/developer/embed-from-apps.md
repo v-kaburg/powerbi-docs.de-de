@@ -9,43 +9,43 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2817ccb25fc9aa6d3e8150c776558366dcf0ccb6
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088837"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237983"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Einbetten von Berichten oder Dashboards aus Apps
 
-In **Power BI** können Sie Apps erstellen, um zusammengehörige **Dashboards** und **Berichte** an einer Stelle zusammenzuführen und anschließend für große Personengruppen in Ihrer Organisation zu veröffentlichen. Die Verwendung dieser Apps ist ausschlaggebend, wenn alle Ihrer Benutzer Power BI verwenden, damit Sie Inhalte mithilfe von Power BI-Apps für sie freigeben können. In diesem Artikel lernen Sie einige schnelle Schritte zum Einbetten von Inhalten aus einer freigegebenen Power BI-App in eine Drittanbieteranwendung kennen.
+In Power BI können Sie Apps erstellen, um zusammengehörige Dashboards und Berichte an einem Ort zusammenfassen. Anschließend können Sie die Apps für große Personengruppen in Ihrer Organisation veröffentlichen. Die Verwendung der Apps ist dann wichtig, wenn Ihre Benutzer Power BI-Benutzer sind. Sie können dann mithilfe von Power BI-Apps Inhalte für sie freigeben. In diesem Artikel lernen Sie einige Schritte zum schnellen Einbetten von Inhalten aus einer veröffentlichten Power BI-App in eine Drittanbieteranwendung kennen.
 
-## <a name="how-to-grab-report-embed-url-for-embedding"></a>Abrufen einer URL zum Einbetten eines Berichts
+## <a name="grab-a-report-embedurl-for-embedding"></a>Abrufen einer Berichts-embedURL für die Einbettung
 
-1. Instanziieren Sie die Anwendung im Arbeitsbereich eines Benutzers („Mein Arbeitsbereich“), indem Sie sie entweder für sich selbst freigeben oder einen Benutzer durch diesen Arbeitsablauf führen.
+1. Instanziieren Sie die Anwendung in einem Benutzerarbeitsbereich, d.h. **Mein Arbeitsbereich**. Geben Sie ihn für sich selbst frei, oder leiten Sie einen anderen Benutzer an, diesen Flow zu durchlaufen.
 
 2. Öffnen Sie den gewünschten Bericht im Power BI-Dienst.
 
-3. Klicken Sie auf Datei > In SharePoint Online einbetten, und kopieren Sie die Berichteinbettungs-URL (wie im unten gezeigten Screenshot), oder rufen Sie die GetReports/GetReport-REST-API auf, und extrahieren Sie das entsprechende Feld für die Berichteinbettungs-URL aus der Antwort (beachten Sie, dass der REST-Aufruf keinen Bezeichner für den Arbeitsbereich als Teil der URL enthalten sollte, da die App im Arbeitsbereich des Benutzers instanziiert wurde).
+3. Wechseln Sie zu **Datei** > **In SharePoint Online einbetten**, und rufen Sie die Berichts-URL von dort aus ab. Die folgende Abbildung veranschaulicht dies. Alternativ rufen Sie die GetReports/GetReport-REST-API auf, und extrahieren Sie das entsprechende Berichts-embedURL-Feld aus der Antwort. Die REST-Aufruf sollte keine Arbeitsbereichs-ID als Teil der URL enthalten, da die App im Arbeitsbereich des Benutzers instanziiert wurde.
 
-4. Verwenden Sie die in Schritt 3 abgerufene Einbettungs-URL mit dem JS SDK.
+4. Verwenden Sie die in Schritt 3 abgerufene embedURL mit dem JavaScript SDK.
 
     ![Einbetten aus Apps](media/embed-from-apps/embed-from-app.png)
 
-## <a name="how-to-grab-dashboard-embed-url-for-embedding"></a>Abrufen einer URL zum Einbetten eines Dashboards
+## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Abrufen einer Dashboard-embedURL für die Einbettung
 
-1. Instanziieren Sie die Anwendung im Arbeitsbereich eines Benutzers („Mein Arbeitsbereich“), indem Sie sie entweder für sich selbst freigeben oder einen Benutzer durch diesen Arbeitsablauf führen.
+1. Instanziieren Sie die Anwendung in einem Benutzerarbeitsbereich, d.h. **Mein Arbeitsbereich**. Geben Sie ihn für sich selbst frei, oder leiten Sie einen anderen Benutzer an, diesen Flow zu durchlaufen.
 
-2. Rufen Sie die GetDashboards-REST-API auf, und extrahieren Sie das entsprechende Feld für die URL zum Einbetten des Dashboards aus der Antwort (beachten Sie, dass der REST-Aufruf keinen Bezeichner für den Arbeitsbereich als Teil der URL enthalten sollte, da die App im Arbeitsbereich des Benutzers instanziiert wurde).
+2. Alternativ rufen Sie die GetDashboards REST-API auf, und extrahieren Sie das entsprechende Dashboard-embedURL-Feld aus der Antwort. Die REST-Aufruf sollte keine Arbeitsbereichs-ID als Teil der URL enthalten, da die App im Arbeitsbereich des Benutzers instanziiert wurde.
 
-3. Verwenden Sie die in Schritt 4 abgerufene Einbettungs-URL mit dem JS SDK.
+3. Verwenden Sie die in Schritt 2 abgerufene embedURL mit dem JavaScript SDK.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Erfahren Sie auch, wie Sie für Drittanbieterkunden und Ihre Organisation aus App-Arbeitsbereiche heraus einbetten.
+Erfahren Sie, wie Sie aus App-Arbeitsbereichen für Drittanbieterkunden und Ihre Organisation einbetten:
 
 > [!div class="nextstepaction"]
->[Einbetten für Drittanbieterkunden](embed-sample-for-customers.md)
+>[Embed for third-party customers (Einbetten für Drittanbieterkunden)](embed-sample-for-customers.md)
 
 > [!div class="nextstepaction"]
 >[Embed for your organization (Einbetten für Ihre Organisation)](embed-sample-for-your-organization.md)

@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736437"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448843"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Punktdiagramme und Blasendiagramme in Power BI
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
 
 In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *Blasengröße* eine zusätzliche Datendimension darstellt.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![Beispielblasendiagramm](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-Sie können die Anzahl der Datenpunkte festlegen.  
+Sie können die Anzahl der Datenpunkte auf maximal 10.000 festlegen.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Wann sollte ein Punktdiagramm oder ein Blasendiagramm verwendet werden?
 ### <a name="scatter-charts-are-a-great-choice"></a>Punktdiagramme sind in folgenden Fällen gut geeignet:
@@ -50,7 +50,7 @@ In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten be
 
 In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](../sample-datasets.md).   
 
-1. Wählen Sie das gelbe Plussymbol zum Erstellen einer [leeren Berichtsseite](../power-bi-report-add-page.md) aus.
+1. Öffnen Sie den Bericht in der Bearbeitungsansicht, und klicken Sie auf das gelbe Plussymbol, um eine [leere Berichtsseite](../power-bi-report-add-page.md) zu erstellen.
  
 2. Wählen Sie im Bereich „Felder“ die folgenden Felder aus:
    - **Umsätze** > **Umsätze pro Quadratmeter**
@@ -83,18 +83,18 @@ Nun fügen wir eine dritte Dimension hinzu.
 
 3. Wenn Sie die Anzahl der im Blasendiagramm anzuzeigenden Datenpunkte festlegen möchten, erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Karte **Allgemein**, und passen Sie die **Datenmenge** an. Sie können die maximale Datenmenge auf eine beliebige Zahl bis 10.000 festlegen. Sobald Sie höhere Zahlen erreichen, wird empfohlen, zuerst einen Test durchzuführen, um gute Leistung sicherzustellen. 
 
-    ![Datenmenge](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Datenmenge](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht. Beachten Sie, dass Sie für eine höhere Anzahl von Datenpunkten die Ergebnisse mit verschiedenen Formfaktoren testen sollten, um eine gute Leistung zu garantieren.
 
 4. Sie können [u.a. Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund formatieren](service-getting-started-with-color-formatting-and-axis-properties.md). Zum [Verbessern der Barrierefreiheit](../desktop-accessibility.md) sollten Sie das Hinzufügen von Markierungsformen zu jeder Linie in Betracht ziehen. Die Verwendung einer anderen Markierungsform für jede Linie macht es den Benutzern des Berichts leichter, die Linien (oder Flächen) voneinander zu unterscheiden. Sie können zum Auswählen der Markierungsform die Karte **Formen** erweitern und dann eine Markierungsform auswählen.
 
-      ![Markierungsform](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Markierungsform](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    Sie können auch die Markierungsform in Raute, Dreieck oder Quadrat ändern:
 
-   ![Quadratischer Marker](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Quadratischer Marker](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
@@ -104,8 +104,7 @@ Weist Ihr Punktdiagramm nur einen Datenpunkt auf, in dem alle Werte auf der X- u
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Fügen Sie im Bereich **Details** ein Feld hinzu, sodass Power BI erkennt, wie die Werte gruppiert werden sollen. Das Feld muss für jeden Punkt, der dargestellt werden soll, eindeutig sein.  
-Beispielsweise ein einfaches Zeilennummern- oder ID-Feld:
+Fügen Sie im Bereich **Details** ein Feld hinzu, sodass Power BI erkennt, wie die Werte gruppiert werden sollen. Das Feld muss für jeden Punkt, der dargestellt werden soll (z.B. eine einfache Zeilennummer oder ein ID-Feld), eindeutig sein.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ Wenn dies mit Ihren Daten nicht möglich ist, erstellen Sie ein Feld, in dem die
 Um ein neues Feld zu erstellen, [fügen Sie mit dem Abfrage-Editor von Power BI Desktop dem Dataset eine Indexspalte hinzu](../desktop-add-custom-column.md).  Fügen Sie diese Spalte dann dem Bereich **Details** Ihrer Visualisierung hinzu.
 
 ## <a name="next-steps"></a>Nächste Schritte
+
+[High density scatter charts (Stichprobenentnahme mit hoher Dichte in Punktdiagrammen)](desktop-high-density-scatter-charts.md)
+
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/get-started/)  
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

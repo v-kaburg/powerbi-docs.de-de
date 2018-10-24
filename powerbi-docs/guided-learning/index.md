@@ -3,12 +3,15 @@ title: Microsoft Power BI – Geführtes Lernen
 description: In dieser Kursreihe können Sie sich mit den zahlreichen leistungsfähigen Funktionen von Microsoft Power BI vertraut machen.
 layout: LandingPage
 ms.service: powerbi
-ms.openlocfilehash: 8e9c26e48f50eb5b95a23f98329dbaea578e01d3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.author: davidiseminger
+ms.date: 10/01/2018
+ms.topic: hub-page
+ms.openlocfilehash: fc54476386ccd2e04c90bb3eb7f833107ca293f7
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799067"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474001"
 ---
 <div id="main" class="v2">
     <div class="container">

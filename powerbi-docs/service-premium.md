@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium – Beschreibung
+title: Was ist Microsoft Power BI Premium?
 description: Power BI Premium bietet dedizierte Kapazität für Ihre Organisation oder Ihr Team, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren, ohne Benutzerlizenzen kaufen zu müssen.
 author: mgblythe
 ms.author: mblythe
@@ -10,17 +10,20 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 0723ddb57131fed499d4ac86666b3cd6d8bcbd2d
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512131"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271806"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium – Beschreibung
-Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation oder Ihr Team, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die breit gestreute Verteilung von Inhalten, ohne dass Sie für Benutzer mit schreibgeschütztem Zugriff Pro-Benutzer-Lizenzen erwerben müssen.
+# <a name="what-is-microsoft-power-bi-premium"></a>Was ist Microsoft Power BI Premium?
 
-Sie können Power BI Premium nutzen, indem Sie Arbeitsbereiche einer *Premium-Kapazität* zuweisen. Eine Premium-Kapazität stellt eine für Ihre Organisation dedizierte Ressource dar. Arbeitsbereiche, die keiner Premium-Kapazität zugewiesen sind, werden in einer *gemeinsam genutzten Kapazität* ausgeführt. Mit gemeinsam genutzten Kapazitäten werden Ihre Workloads auf Computeressourcen ausgeführt, die gemeinsam von anderen Kunden genutzt werden. Bei der gemeinsam genutzten Kapazität werden für Einzelbenutzer stärkere Einschränkungen durchgesetzt, um für alle Benutzer eine gute Nutzungsqualität sicherzustellen.
+Microsoft Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation oder Ihr Team, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die breit gestreute Verteilung von Inhalten, ohne dass Sie für jeden einzelnen Benutzer mit schreibgeschütztem Zugriff Power BI Pro-Lizenzen erwerben müssen.
+
+Sie können Power BI Premium nutzen, indem Sie Arbeitsbereiche einer *Premium-Kapazität* zuweisen. Eine Premium-Kapazität stellt eine für Ihre Organisation dedizierte Ressource dar. Arbeitsbereiche, die keiner Premium-Kapazität zugewiesen sind, werden in einer *gemeinsam genutzten Kapazität* ausgeführt. Mit gemeinsam genutzten Kapazitäten werden Ihre Workloads auf Computeressourcen ausgeführt, die gemeinsam von anderen Kunden genutzt werden. 
+
+Bei der gemeinsam genutzten Kapazität setzt Power BI mehr Einschränkungen für einzelne Benutzer durch, um für alle Benutzer die gleiche Nutzungsqualität sicherzustellen. Ihr Arbeitsbereich befindet sich standardmäßig in einer gemeinsam genutzten Kapazität, einschließlich Ihres persönlichen *Arbeitsbereichs* und App-Arbeitsbereichen.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -28,7 +31,7 @@ Sie können Power BI Premium nutzen, indem Sie Arbeitsbereiche einer *Premium-Ka
 
 ## <a name="capacity-tiers"></a>Kapazitätsstufen
 
-Für Power BI sind zwei verschiedene Arten von Kapazität verfügbar. Gemeinsam genutzte Kapazität und Power BI Premium-Kapazität. Aus dieser Auflistung sind die Unterschiede zwischen beiden ersichtlich.
+Im folgenden finden Sie eine Zusammenfassung der Unterschiede zwischen einer gemeinsam genutzten Kapazität und der Premium-Kapazität.
 
 |  | Gemeinsam genutzte Kapazität | Power BI Premium-Kapazität |
 | --- | --- | --- |
@@ -39,23 +42,18 @@ Für Power BI sind zwei verschiedene Arten von Kapazität verfügbar. Gemeinsam 
 | Eingebettete API und Steuerelemente |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar")<sup>2</sup> |
 | **Lokale Veröffentlichung von Power BI-Berichten** |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar") |
 
-*<sup>1</sup> Weitere Informationen finden Sie im Artikel zu [User capabilities with Power BI Pro and Power BI Premium (Benutzeroptionen in Power BI Pro und Power BI Premium)](service-free-vs-pro.md).*  
+*<sup>1</sup> Weitere Informationen finden Sie unter [Features by license type (Power BI-Features nach Lizenztyp)](service-features-license-type.md).*  
 *<sup>2</sup> Zukünftige Verbesserungen, die in Power BI Premium eingeführt werden.*
 
-### <a name="premium-capacity"></a>Premium-Kapazität
+Weisen Sie einen Arbeitsbereich einer Kapazität zu, um mit der Verwendung einer Power BI Premium-Kapazität zu beginnen. Wenn ein Arbeitsbereich einer Premium-Kapazität zugewiesen ist, können Sie folgende Funktionen nutzen:
 
-Um mit der Verwendung einer Power BI Premium-Kapazität zu beginnen, müssen Sie einer Kapazität einen Arbeitsbereich zuordnen. Wenn ein Arbeitsbereich einer Premium-Kapazität zugewiesen ist, können Sie folgende Funktionen nutzen:
+* **Geplante Aktualisierungen:** Bei einer gemeinsam genutzten Kapazität werden geplante Aktualisierungen für importierte Modelldatasets auf acht Aktualisierungen pro Tag beschränkt. Für Datasets in Premium-Arbeitsbereichen können Sie bis zu 48 Aktualisierungen pro Tag planen. DirectQuery-Cacheaktualisierungen sind auch in der Premium-Kapazität noch auf acht Aktualisierungen pro Tag beschränkt.
 
-* **Geplante Aktualisierungen:** Bei einer gemeinsam genutzten Kapazität werden geplante Aktualisierungen für importierte Modelldatasets auf acht Aktualisierungen pro Tag beschränkt. Für Datasets in Premium-Arbeitsbereichen können Sie bis zu 48 Aktualisierungen pro Tag planen. Erhöhte geplante Aktualisierungen gelten nicht für Einstellungen für geplante Cacheaktualisierungen für DirectQuery, denn diese bleiben bei Premium- und gemeinsam genutzten Kapazitäten gleich.
-* **Isolation mithilfe von dedizierter Hardware:** Es liegt in der Natur von gemeinsam genutzter Kapazität, dass die Leistung Ihrer Berichte und Dashboards durch die Ressourcenanforderungen anderer Workloads in der Kapazität beeinträchtigt werden kann, trotz Sicherheitsvorkehrungen, die dies verhindern sollen. Premium-Kapazität bietet dagegen durch die Isolation von nicht zugehörigen Workloads einheitlichere, verlässlichere Leistung für Ihre Workloads.
+* **Isolation mit dedizierter Hardware:** In gemeinsam genutzten Kapazitäten können die Ressourcenanforderungen anderer Workloads die Leistung Ihrer Berichte und Dashboards beeinträchtigen. Im Gegensatz dazu bietet die Premium-Kapazität konsistentere und zuverlässigere Leistung für Ihre Workloads, indem sie von nicht zugehörigen Workloads isoliert werden.
 
 Wenn eine App durch eine Premium-Kapazität gestützt wird (d.h., sie wurde aus einem App-Arbeitsbereich veröffentlicht, der aktuell Premium zugeordnet ist), kann die veröffentlichte App anschließend von jedem Benutzer in Ihrer Organisation verwendet werden, unabhängig vom Lizenzschlüssel, der dem Benutzer zugeordnet ist.
 
 Weitere Informationen zum Zuordnen von Arbeitsbereichen zu einer Premium-Kapazität finden Sie unter [Verwalten von Power BI Premium](service-admin-premium-manage.md).
-
-### <a name="shared-capacity"></a>Gemeinsam genutzte Kapazität
-
-Standardmäßig wird Ihr Arbeitsbereich mit gemeinsam genutzter Kapazität betrieben. Dies schließt Ihren persönlichen *Mein Arbeitsbereich* ebenso ein wie die App-Arbeitsbereiche. Gemeinsam genutzte Kapazität ist die übliche Einstellung für Power BI, bei der Ihre Workloads auf Computerressourcen ausgeführt werden, die Sie gemeinsam mit anderen Kunden nutzen.
 
 <a name="premiumskus"/>
 
@@ -64,10 +62,11 @@ Standardmäßig wird Ihr Arbeitsbereich mit gemeinsam genutzter Kapazität betri
 Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitäten zur Verfügung. Weitere Informationen zu bestimmten SKU-Angeboten und Kosten finden Sie unter [Power BI-Preise](https://powerbi.microsoft.com/pricing/). Darüber hinaus ist ein [Kostenrechner](https://powerbi.microsoft.com/calculator/) verfügbar. Informationen zur Kapazitätsplanung für die eingebettete Analyse finden Sie unter [Planning a Power BI Enterprise Deployment whitepaper (Whitepaper zum Planen einer Unternehmensbereitstellung von Power BI)](https://aka.ms/pbienterprisedeploy).
 
 * P-Knoten können für eingebettete Bereitstellungen oder Dienstbereitstellungen verwendet werden.
+
 * EM-Knoten können nur für eingebettete Bereitstellungen verwendet werden. EM-Knoten haben keinen Zugriff auf Premium-Funktionen, z.B. die Freigabe von Apps für Benutzer, die keine Power BI Pro-Lizenz besitzen.
 
 >[!NOTE]
->Die Links in dieser Tabelle funktionieren nur für Benutzer, die globale Office 365-Administratorberechtigungen haben. Für alle anderen Benutzer wird der Fehler 404 angezeigt.
+>Die Links in dieser Tabelle funktionieren nur für Benutzer, die über globale Office 365-Administratorberechtigungen verfügen. Andere erhalten einen 404-Fehler.
 
 | Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)* | Back-End-V-Kerne | Front-End-V-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten | Verfügbarkeit |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -79,10 +78,11 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 | [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde |4.801–9600 |Verfügbar |
 
 * Die Front-End-V-Kerne sind für den Webdienst, die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads und allgemein für alles zuständig, das mit der Benutzererfahrung zusammenhängt.
+
 * Die Back-End-V-Kerne übernehmen den Hauptteil der Arbeit: Abfrageverarbeitung, Cacheverwaltung, Ausführen von R-Servern, Datenaktualisierung, Verarbeitung von natürlicher Sprache, Echtzeitfeeds und serverseitiges Laden von Berichten und Bildern. Zusammen mit den Back-End-V-Kernen wird auch eine bestimmte Menge Arbeitsspeicher reserviert. Die Verfügbarkeit einer ausreichend großen Arbeitsspeichermenge ist insbesondere dann wichtig, wenn große Datenmodelle oder Modelle mit einer großen Anzahl aktiver Datasets verarbeitet werden müssen.
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
-Mit Power BI Premium können Sie auch Power BI-Berichtsserver lokal in Ihrer Organisation auszuführen. Weitere Informationen finden Sie unter [Erste Schritte mit Power BI-Berichtsserver](report-server/get-started.md).
+Power BI Premium enthält auch die Funktion zum lokalen Ausführen von Power BI-Berichtsserver in Ihrem Unternehmen. Weitere Informationen finden Sie unter [Erste Schritte mit Power BI-Berichtsserver](report-server/get-started.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Power BI Premium – Häufig gestellte Fragen (FAQ)](service-premium-faq.md)  

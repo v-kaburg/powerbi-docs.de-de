@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566026"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417324"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
-Erstellen Sie in Power BI Desktop die Visualisierung **Flächenkartogramm**, um relative Vergleiche von Regionen auf einer Karte darzustellen, indem verschiedene Farben für verschiedene Regionen angewendet werden. Im Gegensatz zur Visualisierung **Karte** kann **Flächenkartogramm** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen besteht der Hauptzweck dieses Elements darin, relative Vergleiche von Regionen auf einer Karte darzustellen, indem die Regionen unterschiedlich eingefärbt werden.
+Erstellen Sie ein Visual für die **Formenzuordnung**, um Regionen auf einer Karte voneinander abzutrennen. Im Gegensatz zum Visual **Karte** kann das Visual **Formenzuordnung** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen soll es vor allem Regionen auf einer Karte in Beziehung zueinander setzen, indem diese unterschiedliche Farben erhalten.
 
-**Flächenkartogramme** basieren auf ESRI-/TopoJSON-Karten, die über die Funktion verfügen, benutzerdefinierte Karten zu verwenden, die Sie erstellen können, wie z.B. geografische Karten, Sitzordnungen, Grundrisse und andere. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
+Visuals für die **Formenzuordnung** basieren auf ESRI/TopoJSON-Karten. Diese Karten können von Ihnen erstellte benutzerdefinierte Karten verwenden. Benutzerdefinierte Karten sind beispielswiese die Folgenden: geografische Pläne, Sitz- oder Raumpläne. In diesem Vorschaurelease von **Flächenkartogramm** ist es nicht möglich, benutzerdefinierte Karten zu verwenden.
 
 ## <a name="creating-shape-maps"></a>Erstellen von Flächenkartogrammen
 Sie können das Steuerelement **Flächenkartogramm** mit den Karten testen, die mit dieser Vorschauversion geliefert werden. Alternativ können Sie eine eigene benutzerdefinierte Karte verwenden, sofern sie die im folgenden Abschnitt **Verwenden benutzerdefinierter Karten** genannten Anforderungen erfüllt.
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um ein **Flächenkartogramm** zu erstell
    > 
 
    ![](media/desktop-shape-map/shape-map_3a.png)
-2. Erweitern Sie im Bereich **Formateinstellungen** **Form**, und wählen Sie aus der Dropdownliste **Standardkarten** aus, um Ihre Daten anzuzeigen. Nun erfolgt das Rendering, wie in folgender Abbildung dargestellt.
+2. Erweitern Sie im Bereich **Formateinstellungen** **Form**, und wählen Sie aus der Dropdownliste **Standardkarten** aus, um Ihre Daten anzuzeigen. Zu diesem Zeitpunkt erfolgt das Rendering wie in folgender Abbildung dargestellt.
 
    ![](media/desktop-shape-map/shape-map_3b.png)
 
@@ -115,7 +115,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="australia-states"></a>Australia: States
 
-| id | abbr | iso | name | postal |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="austria-states"></a>Austria: States
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="brazil-states"></a>Brazil: States
 
-| id |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="canada-provinces"></a>Canada: Provinces
 
-| id | iso | name | postal |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -196,7 +196,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="france-regions"></a>France: Regions
 
-| id | name | name-en |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -223,7 +223,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="germany-states"></a>Germany: States
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -244,7 +244,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="ireland-counties"></a>Ireland: Counties
 
-| id |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="italy-regions"></a>Italy: Regions
 
-| id | iso | name | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -300,7 +300,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="mexico-states"></a>Mexico: States
 
-| id | abreviatura | iso | name | name-en | postal |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -337,7 +337,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="netherlands-provinces"></a>Netherlands: Provinces
 
-| id | iso | name | name-en |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -354,7 +354,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="uk-countries"></a>UK: Countries
 
-| id | iso | name |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -363,7 +363,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 
 ### <a name="usa-states"></a>USA: States
 
-| id | name | postal |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Nächste Schritte
+[Matrixvisuals in Power BI](desktop-matrix-visual.md)
+
+[Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

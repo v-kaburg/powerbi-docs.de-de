@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566048"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448935"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 ## <a name="power-bi-visualizations"></a>Power BI-Visualisierungen
@@ -32,10 +32,10 @@ Alle genannten Visualisierungen können zu Power BI-Berichten hinzugefügt, in F
 >[!TIP]
 >Das einfache Flächendiagramm basiert auf dem Liniendiagramm, wobei beim Flächendiagramm der Bereich zwischen Achse und Linie ausgefüllt ist.
 
-Weitere Informationen finden Sie unter [Tutorial: Einfaches Flächendiagramm](power-bi-visualization-basic-area-chart.md).
+Weitere Informationen finden Sie unter [Grundlegendes Flächendiagramm](power-bi-visualization-basic-area-chart.md).
 
 ### <a name="bar-and-column-charts"></a>Balken- und Säulendiagramme
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Karte (Kachel für groß
 >[!TIP]
 >Ein Kombinationsdiagramm vereinigt Säulendiagramm und Liniendiagramm. Wählen Sie entweder *Linien- und gestapeltes Säulendiagramm* oder *Linien- und gruppiertes Säulendiagramm* aus.
 
-Weitere Informationen finden Sie unter [Tutorial: Kombinationsdiagramme in Power BI](power-bi-visualization-combo-chart.md).
+Weitere Informationen finden Sie unter [Kombinationsdiagramme in Power BI](power-bi-visualization-combo-chart.md).
 
 ### <a name="doughnut-charts"></a>Ringdiagramme
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Tutorial: Kombinationsdiagramme in Power
 >[!TIP]
 >Ringdiagramme ähneln Kreisdiagrammen.  Sie zeigen die Beziehung von Teilen zu einem Ganzen.
 
-Weitere Informationen finden Sie unter [Lernprogramm: Ringdiagramme in Power BI](power-bi-visualization-doughnut-charts.md).
+Weitere Informationen finden Sie unter [Ringdiagramme in Power BI](power-bi-visualization-doughnut-charts.md).
 
 ### <a name="funnel-charts"></a>Trichterdiagramme
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Lernprogramm: Ringdiagramme in Power BI]
 >[!TIP]
 >Trichter unterstützen die Visualisierung von Prozessen mit Phasen, bei denen Elemente fortlaufend von einer Phase in die nächste übergehen.  Verwenden Sie einen Trichter, wenn zwischen Phasen ein fortlaufender Fluss herrscht, z.B. bei einem Vertriebsprozess, der mit Kundenkontakten beginnt und mit dem vollendeten Kauf endet.
 
-Weitere Informationen finden Sie unter [Tutorial: Trichterdiagramme in Power BI](power-bi-visualization-funnel-charts.md).
+Weitere Informationen finden Sie unter [Trichterdiagramme in Power BI](power-bi-visualization-funnel-charts.md).
 
 ### <a name="gauge-charts"></a>Messgerätdiagramme
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Tutorial: Trichterdiagramme in Power BI]
 >[!TIP]
 >Zeigt den aktuellen Status in Bezug auf ein Ziel an.
 
-Weitere Informationen finden Sie unter [Tutorial: Messgerätediagramme in Power BI](power-bi-visualization-radial-gauge-charts.md).
+Weitere Informationen finden Sie unter [Messgerätediagramme in Power BI](power-bi-visualization-radial-gauge-charts.md).
 
 ### <a name="kpis"></a>KPIs
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Tutorial: Messgerätediagramme in Power 
 >[!TIP]
 >Hiermit wird der Fortschritt bezogen auf einen messbaren Zielwert angezeigt.
 
-Weitere Informationen finden Sie unter [Lernprogramm: KPIs in Power BI](power-bi-visualization-kpi.md).
+Weitere Informationen finden Sie unter [KPIs in Power BI](power-bi-visualization-kpi.md).
 
 ### <a name="line-charts"></a>Liniendiagramme
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ Weitere Informationen finden Sie unter [Tipps und Tricks für Kartenvisualisieru
 ### <a name="maps-arcgis-maps"></a>Karten: ArcGIS-Karten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Weitere Informationen finden Sie unter [Tutorial: ArcGIS-Karten in Power BI](../power-bi-visualization-arcgis.md).
+Weitere Informationen finden Sie unter [ArcGIS Maps in Power BI](../power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ Weitere Informationen finden Sie unter [Tutorial: ArcGIS-Karten in Power BI](../
 >[!TIP]
 >Je intensiver die Farbe, desto größer der Wert.
 
-Weitere Informationen finden Sie unter [Tutorial: Gefüllte Karten in Power BI](power-bi-visualization-filled-maps-choropleths.md).
+Weitere Informationen finden Sie unter [Flächenkartogramme in Power BI](power-bi-visualization-filled-maps-choropleths.md).
+
+### <a name="maps-shape-maps"></a>Karten: Flächenkartogramme
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>Regionen werden durch Farben voneinander abgetrennt.
+
+Weitere Informationen finden Sie unter [Flächenkartogramme in Power BI](desktop-shape-map.md).
+
 
 ### <a name="matrix"></a>Matrix
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+Weitere Informationen finden Sie unter [Matrixvisuals in Power BI](desktop-shape-map.md).
 
 ### <a name="pie-charts"></a>Kreisdiagramme
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ Weitere Informationen finden Sie unter [Tutorial: Gefüllte Karten in Power BI](
 >[!TIP]
 >Zeigen Sie die Beziehungen zwischen zwei (Punktdiagramm) oder drei (Blasendiagramm) quantitativen Maßeinheiten an – Vorhandensein, Reihenfolge usw.
 
-Weitere Informationen finden Sie unter [Tutorial: Punktdiagramme in Power BI](power-bi-visualization-scatter.md).
+Weitere Informationen finden Sie unter [Punktdiagramme in Power BI](power-bi-visualization-scatter.md).
+
+### <a name="scatter-high-density"></a>Punktdiagramme mit hoher Dichte
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>Wenn es zu viele Datenpunkte für ein Visual gibt, kann dies Einfluss auf dessen Leistung haben. Daher wird ein ausgereifter Algorithmus für die Stichprobenentnahme verwendet, um die Genauigkeit der Visualisierung sicherzustellen.
+
+Weitere Informationen finden Sie unter [High Density Scatter charts in Power BI (Punktdiagramme mit hoher Dichte in Power BI)](desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Datenschnitte
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-Weitere Informationen finden Sie unter [Lernprogramm: Datenschnitte in Power BI](power-bi-visualization-slicers.md).
+Weitere Informationen finden Sie unter [Slicer in Power BI](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Eigenständige Bilder
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Widgets zu einem Dashb
 
 Weitere Informationen finden Sie unter [Arbeiten mit Tabellen in Power BI](power-bi-visualization-tables.md).
 
-### <a name="tree-maps"></a>Treemap-Diagramme
+### <a name="treemaps"></a>Treemaps
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-Weitere Informationen finden Sie unter [Tutorial: Treemaps in Power BI](power-bi-visualization-treemaps.md).
+Weitere Informationen finden Sie unter [Treemaps in Power BI](power-bi-visualization-treemaps.md).
 
 >[!TIP]
 >Dies sind Diagramme mit farbigen Rechtecken, deren Größe einen Wert darstellt.  Sie können eine hierarchische Struktur aufweisen, bei denen Rechtecke in den Hauptrechtecken geschachtelt werden.
@@ -163,7 +182,7 @@ Weitere Informationen finden Sie unter [Tutorial: Treemaps in Power BI](power-bi
 >[!TIP]
 >Wasserfalldiagramme zeigen eine laufende Summe an, während Werte hinzugefügt oder entfernt werden.
 
-Weitere Informationen finden Sie unter [Tutorial: Wasserfalldiagramme in Power BI](power-bi-visualization-waterfall-charts.md).
+Weitere Informationen finden Sie unter [Wasserfalldiagramme in Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Angeben der verwendeten Visualisierung für Q&A
 Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Fragen und Antworten in Power BI können Sie den Visualisierungstyp in der Abfrage angeben.  Beispiel:
@@ -175,10 +194,3 @@ Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Frag
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)    
 [„The right visual reference“ von sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Berichte in Power BI](../consumer/end-user-reports.md)
-
-[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548325"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874573"
 ---
 # <a name="card-visualizations"></a>Kartenvisualisierungen
 Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashboard oder Bericht nachverfolgen möchten, wie z.B. der Gesamtumsatz, der Marktanteil im Jahresverlauf oder die Gesamtverkaufschancen. Eine solche Visualisierung wird als *Karte* bezeichnet. Wie fast alle nativen Power BI-Visualisierungen können Karten im Berichts-Editor oder in Q&A erstellt werden.
 
-![Kartenvisualisierung](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![Kartenvisualisierung](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Erstellen einer Karte im Berichts-Editor
 In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](../sample-datasets.md).   
@@ -32,7 +32,7 @@ In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. We
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. Wählen Sie im Bereich „Visualisierungen“ das Kartensymbol aus.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Zeigen Sie auf die Karte, und wählen Sie das Anheftsymbol ![](media/power-bi-visualization-card/pbi_pintile.png) aus, um die Visualisierung dem Dashboard hinzuzufügen.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. We
 
    Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Visualisierung als Kachel zu Ihrem Dashboard hinzugefügt wurde.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Wählen Sie **Zum Dashboard wechseln** aus. Hier können Sie die angeheftete Visualisierung [bearbeiten und verschieben](../service-dashboard-edit-tile.md).
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Erstellen einer Karte aus dem Q&A-Fragefeld
-Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. Das Q&A-Fragefeld ist im Power BI-Dienst („app.powerbi.com“) in Dashboards und Berichten verfügbar. Die folgenden Schritte beschreiben das Erstellen einer Karte aus einem Dashboard im Power BI-Dienst. Wenn Sie in Power BI Desktop eine Karte mit Q&A erstellen möchten, [folgen Sie diesen Anweisungen](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) für die Q&A-Vorschau von Desktop-Berichten.
+Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. Das Q&A-Fragefeld ist im Power BI-Dienst in Dashboards oder Berichten und in der Desktopberichtsansicht verfügbar. Die folgenden Schritte beschreiben das Erstellen einer Karte aus einem Dashboard im Power BI-Dienst. Wenn Sie in Power BI Desktop eine Karte mit Q&A erstellen möchten, [folgen Sie diesen Anweisungen](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) für die Q&A-Vorschau von Desktop-Berichten.
 
-1. Erstellen Sie ein [Dashboard](../consumer/end-user-dashboards.md) und [rufen Sie Daten ab](../service-get-data.md). Hier wird das [Beispiel zur Opportunityanalyse](../sample-opportunity-analysis.md) verwendet.
+1. Erstellen Sie ein [Dashboard](../service-dashboards.md) und [rufen Sie Daten ab](../service-get-data.md). Hier wird das [Beispiel zur Opportunityanalyse](../sample-opportunity-analysis.md) verwendet.
 
 1. Geben Sie oben auf Ihrem Dashboard im Fragefeld ein, was Sie über Ihre Daten wissen möchten. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**TIPP**: Wählen Sie in einem Bericht im Power BI-Dienst in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md) in der oberen Menüleiste **Frage stellen** aus. Suchen Sie in einem Power BI Desktop-Bericht eine freie Stelle, und doppelklicken Sie, um ein Fragefeld anzuzeigen.
+> [!TIP]
+> Wählen Sie in einem Bericht im Power BI-Dienst in der Bearbeitungsansicht in der oberen Menüleiste **Frage stellen** aus. Suchen Sie in einem Power BI Desktop-Bericht eine freie Stelle, und doppelklicken Sie, um ein Fragefeld anzuzeigen.
 
 3. Geben Sie z. B. „Anzahl Verkaufschancen“ in das Fragefeld ein.
 
@@ -75,7 +76,7 @@ Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. D
 
    Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Visualisierung als Kachel zu Ihrem Dashboard hinzugefügt wurde.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Wählen Sie **Zum Dashboard wechseln**, um die neue Kachel anzuzeigen. Dort können Sie es u.a. [umbenennen, die Größe ändern, einen Link hinzufügen und die Kachel auf dem Dashboard verschieben](../service-dashboard-edit-tile.md).
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. D
 ## <a name="format-a-card"></a>Formatieren einer Karte
 Sie haben viele Möglichkeiten, Beschriftungen, Text, Farben usw. zu ändern. Der einfachste Weg, um dies zu lernen, ist eine Karten zu erstellen und dann den Formatierungsbereich zu erkunden. Hier sehen Sie ein paar Beispiele der verfügbaren Formatierungsoptionen. 
 
-1. Öffnen Sie den Formatierungsbereich, indem Sie das Pinselsymbol auswählen. 
+1. Öffnen Sie den Formatierungsbereich, indem Sie das Farbrollersymbol auswählen. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![Karte mit hervorgehobenem Farbrollersymbol](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Erweitern Sie **Datenbeschriftung**, und verändern Sie die Farbe, die Größe und die Schriftfamilie. Wenn Sie Tausende Filialen haben, können Sie **Anzeigeeinheiten** verwenden, um die Anzahl der Filialen in Tausenderschritten anzeigen und die Dezimalstellen ebenso zu steuern. Beispielsweise 125,8k anstatt 125.832,00.
 
 3.  Erweitern Sie die **Kategoriebeschriftung**, und ändern Sie Farbe und Größe.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![Farbe dunkelblau ausgewählt](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Erweitern Sie den **Hintergrund**, und verschieben Sie den Regler auf „On“ (Ein).  Sie können nun die Hintergrundfarbe und -transparenz ändern.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![Regler auf „ON“ (Ein) festgelegt](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Machen Sie sich weiter mit den Formatoptionen vertraut, bis Ihre Karte so aussieht, wie Sie es sich vorstellen. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Karte, nachdem die Formatierung abgeschlossen ist](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Dashboardkacheln in Power BI](../consumer/end-user-tiles.md)
+[Kombinationsdiagramm in Power BI](power-bi-visualization-combo-chart.md)
 
-[Dashboards in Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
+[Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

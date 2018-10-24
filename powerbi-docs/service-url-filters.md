@@ -1,22 +1,22 @@
 ---
 title: Hinzufügen von Power BI-Berichtsparametern mithilfe der URL
 description: Filtern Sie einen Bericht mithilfe von URL-Abfragezeichenfolgenparametern – bei Bedarf sogar für mehrere Felder.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626029"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232924"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -106,7 +106,7 @@ Power BI unterstützt außer **and** noch viele weitere Operatoren. In der folge
 |**gt**     | Größer als        |Nein | Ja | Ja  | product/price gt 20
 |**le**     |   Kleiner als oder gleich      | Nein | Ja | Ja  | product/price le 100
 |**lt**     |  Kleiner als       | Nein | Ja | Ja |  product/price lt 20
-|**in****     |  Einschließlich       | Nein | Nein |  Ja | Student/Age in (27, 29)
+|**in****     |  Einschließlich       | Ja | Ja |  Ja | Student/Age in (27, 29)
 
 
 \** Wenn Sie **in** verwenden, können die Werte auf der rechten Seite von **in** einer durch Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen wird, oder einem einzelnen Ausdruck, der eine Sammlung zurückgibt.
@@ -131,14 +131,14 @@ Warum ist diese Unterscheidung wichtig? Angenommen, Sie erstellen den Abfragezei
 
 ## <a name="special-characters-in-url-filters"></a>Sonderzeichen in URL-Filtern
 
-Für Sonderzeichen und Leerzeichen sind zusätzliche Formatierungen erforderlich. Wenn Ihre Abfrage Leerzeichen, Bindestriche oder Nicht-ASCII-Zeichen enthält, stellen Sie dieser Sonderzeichen *Escapecode* (**_x**) und den 4-stelligen **Unicode** voran. Wenn der Unicode weniger als 4 Zeichen enthält, müssen Sie diesen mit Nullen ergänzen. Hier sehen Sie einige Beispiele:
+Für Sonderzeichen und Leerzeichen sind zusätzliche Formatierungen erforderlich. Wenn Ihre Abfrage Leerzeichen, Bindestriche oder Nicht-ASCII-Zeichen enthält, stellen Sie dieser Sonderzeichen *Escapecode* voran, der mit einem Unterstrich und einem X (**_x**) beginnt, gefolgt vom 4-stelligen **Unicode** und einem weiteren Unterstrich. Wenn der Unicode weniger als 4 Zeichen enthält, müssen Sie diesen mit Nullen ergänzen. Hier sehen Sie einige Beispiele:
 
 |Bezeichner  |Unicode  | Codierung für Power BI  |
 |---------|---------|---------|
-|**Tabellenname**     | Leerzeichen: 0x20        |  Table_x0020_Name       |
-|**Column**@**Number**     |   @: 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
-|**Column+Plus**     | +:0x2B        |  Column_x002B_Plus       |
+|**Tabellenname**     | Leerzeichen ist 0x20        |  Table_x0020_Name       |
+|**Column**@**Number**     |   @ ist 0x40     |  Column_x0040_Number       |
+|**[Column]**     |  [ ist 0x0058, und ] ist 0x0050       |  _x0058_Column_x0050       |
+|**Column+Plus**     | + ist 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![Tabellenvisual, das Sonderzeichen rendert](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,7 +159,7 @@ Veröffentlichen Sie den Bericht für den Power BI-Dienst, und verwenden Sie die
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Anheften einer Kachel aus einem gefilterten Bericht
 
-Nachdem Sie den Bericht mithilfe von Abfragezeichenfolgenparametern gefiltert haben, können Sie Visualisierungen aus diesem Bericht an Ihr Dashboard anheften.  Die Kachel auf dem Dashboard zeigt die gefilterten Daten, und wenn Sie die Dashboardkachel auswählen, wird der zugrunde liegende Bericht geöffnet.  Die über die URL vorgenommene Filterung wird jedoch nicht zusammen mit dem Bericht gespeichert, und wenn Sie die Dashboardkachel auswählen, wird der Bericht ungefiltert geöffnet.  Die Daten auf der Dashboardkachel entsprechen also nicht den Daten aus der Berichtsvisualisierung.
+Nachdem Sie den Bericht mithilfe von Abfragezeichenfolgenparametern gefiltert haben, können Sie Visualisierungen aus diesem Bericht an Ihr Dashboard anheften.  Die Kachel auf dem Dashboard zeigt die gefilterten Daten, und wenn Sie die Dashboardkachel auswählen, wird der zugrunde liegende Bericht geöffnet.  Die über die URL vorgenommene Filterung wird jedoch nicht zusammen mit dem Bericht gespeichert, und wenn Sie die Dashboardkachel auswählen, wird der Bericht ungefiltert geöffnet.  Die Daten auf der Dashboardkachel entsprechen nicht den Daten aus der Berichtsvisualisierung.
 
 Das ist hilfreich, wenn Sie unterschiedliche Ergebnisse anzeigen möchten (gefilterte Ergebnisse auf dem Dashboard, ungefilterte Ergebnisse im Bericht).
 
@@ -171,6 +171,7 @@ Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beacht
 * Sie können in Power BI-Berichtsserver [Berichtsparameter übergeben](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), indem Sie sie in eine Berichts-URL einschließen. Diese URL-Parameter erhalten kein Präfix, da sie direkt an die Berichtsverarbeitungs-Engine übergeben werden.
 * Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) oder Power BI Embedded verwendet werden.   
 * Der Datentyp „long“ ist aufgrund von Beschränkungen bei JavaScript (2^53–1).
+* Berichts-URL-Filter verfügen über eine Einschränkung von zehn Ausdrücken (zehn Filter die per AND verbunden sind).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

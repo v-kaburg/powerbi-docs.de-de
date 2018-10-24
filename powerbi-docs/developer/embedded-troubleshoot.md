@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558573"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474044"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -84,18 +84,18 @@ Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführ
 
 Das Back-End der Anwendung muss das Auth-Token möglicherweise vor dem Aufrufen von GenerateToken aktualisieren.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Authentifizierung
 
@@ -229,13 +229,13 @@ Nach dem Abruf des IError-Objekts sollten Sie die relevante Tabelle häufiger Fe
 | OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Das diesem Bericht zugeordnete Modellschema konnte nicht geladen werden. Stellen Sie sicher, dass eine Verbindung mit dem Server besteht, und versuchen Sie es noch mal. | N/V | <li> Kapazität angehalten <li> Kapazität gelöscht |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Tool mit Onboardingfunktionen zur Einbettung
+## <a name="embedding-setup-tool"></a>Einbettungssetuptool
 
-Sie können mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup) schnell eine Beispielanwendung herunterladen. Anschließend können Sie Ihre Anwendung mit dem Beispiel vergleichen.
+Sie können mit dem [Einbettungssetuptool](https://aka.ms/embedsetup) schnell eine Beispielanwendung herunterladen. Anschließend können Sie Ihre Anwendung mit dem Beispiel vergleichen.
 
 ### <a name="prerequisites"></a>Voraussetzungen
 
-Überprüfen Sie, ob Sie alle Voraussetzungen erfüllen, bevor Sie das Tool mit Onboardingfunktionen verwenden. Sie benötigen ein **Power BI Pro**-Konto und ein **Microsoft Azure**-Abonnement.
+Überprüfen Sie, ob Sie alle Voraussetzungen erfüllen, bevor Sie das Einbettungssetuptool verwenden. Sie benötigen ein **Power BI Pro**-Konto und ein **Microsoft Azure**-Abonnement.
 
 * Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/en-us/pricing/), bevor Sie beginnen.
 * Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
@@ -244,7 +244,7 @@ Sie können mit dem [Tool mit Onboardingfunktionen](https://aka.ms/embedsetup) s
 
 ### <a name="common-issues"></a>Häufige Probleme
 
-Es gibt einige gängige Probleme, die auftreten können, wenn Sie das Tool mit Onboardingfunktionen testen:
+Es gibt einige gängige Probleme, die auftreten können, wenn Sie das Einbettungssetuptool testen:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Verwenden der Beispielanwendung „Einbetten für Ihre Kunden“
 
@@ -262,6 +262,10 @@ Die folgende Fehlermeldung wird angezeigt, wenn Sie die Beispiel-App ausführen:
 
 Dieser Fehler wird ausgelöst, da der einzige Wert, der nicht in die Beispielanwendung eingeführt wird, Ihr Benutzerkennwort ist. Öffnen Sie die Web.config-Datei in der Lösung, und geben Sie das Kennwort Ihres Benutzers in das Feld „pbiPassword“ ein.
 
+Wenn der Fehler AADSTS50079 angezeigt wird, muss der Benutzer die mehrstufige Authentifizierung verwenden.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Verwenden der Beispielanwendung „Einbetten für Ihre Organisation“
 
 Wenn Sie mit **Einbetten für Ihre Organisation arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie dann den Ordner *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app*, und führen Sie die Datei *pbi-saas-embed-report.sln* aus.
@@ -275,6 +279,10 @@ Das liegt daran, dass die Umleitungs-URL, die für die Webserveranwendung angege
 Wenn Sie die registrierte Anwendung bearbeiten möchten, lernen Sie, wie Sie die [mit AAD registrierte Anwendung](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bearbeiten, damit die Anwendung Zugriff auf die Web-APIs bereitstellen kann.
 
 Wenn Sie Ihr Power BI-Benutzerprofil oder Ihre Daten bearbeiten möchten, lernen Sie, wie Sie Ihre [Power BI-Daten](https://docs.microsoft.com/power-bi/service-basic-concepts) bearbeiten können.
+
+Wenn der Fehler AADSTS50079 angezeigt wird, muss der Benutzer die mehrstufige Authentifizierung verwenden.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Power BI Embedded](embedded-faq.md).
 

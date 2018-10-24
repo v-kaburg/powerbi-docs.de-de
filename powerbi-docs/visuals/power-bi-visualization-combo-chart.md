@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544001"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448958"
 ---
 # <a name="combo-chart-in-power-bi"></a>Kombinationsdiagramm in Power BI
 Ein Kombinationsdiagramm in Power BI ist eine einzelne Visualisierung, die ein Liniendiagramm und ein Säulendiagramm kombiniert. Die Kombination von zwei Diagrammen in einem ermöglicht einen schnelleren Vergleich von Daten.
@@ -55,9 +55,9 @@ In diesem Video sehen Sie, wie ein Kombinationsdiagramm anhand des Beispiels fü
     c.  Wählen Sie **Zeit** \> **Geschäftsmonat** aus, um den Wert dem Bereich **Achse** hinzuzufügen.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Wählen Sie die Auslassungspunkte (...) in der rechten oberen Ecke der Visualisierung aus, und wählen Sie **Nach Geschäftsmonat sortieren**. Möglicherweise müssen Sie die Option zweimal auswählen, um aufsteigend oder absteigend zu sortieren.
+5. Klicken Sie erst auf die Auslassungspunkte (...) in der rechten oberen Ecke der Visualisierung und dann auf **Sortieren nach > FiscalMonth**. Wenn Sie die Sortierreihenfolge ändern möchten, klicken Sie erst erneut auf die Auslassungspunkte und anschließend auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
-6. Konvertieren Sie das Säulendiagramm in ein Kombinationsdiagramm. Wenn Sie das Säulendiagramm ausgewählt haben, wählen Sie im Bereich **Visualisierungen** die Option **Linien- und gruppiertes Säulendiagramm** aus.
+6. Konvertieren Sie das Säulendiagramm in ein Kombinationsdiagramm. Es gibt zwei Kombinationsdiagramme: **Line and stacked column** (gestapeltes Säulendiagramm mit Linien) und **Line and clustered column** (gruppiertes Säulendiagramm mit Linien). Wenn Sie das Säulendiagramm ausgewählt haben, wählen Sie im Bereich **Visualisierungen** die Option **Linien- und gruppiertes Säulendiagramm** aus.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Ziehen Sie aus dem Bereich **Felder** die Option **Vertrieb** \> **Verkäufe im letzten Jahr** in den Bucket **Zeilenwerte**.
@@ -71,7 +71,8 @@ In diesem Video sehen Sie, wie ein Kombinationsdiagramm anhand des Beispiels fü
 ## <a name="create-a-combo-chart-with-two-axes"></a>Erstellen eines Kombinationsdiagramms mit zwei Achsen
 In dieser Aufgabe vergleichen wir Bruttogewinn und Umsätze.
 
-1. Erstellen Sie ein neues Liniendiagramm, das den **Bruttogewinn in Prozent im letzten Jahr** nach **Monaten** nachverfolgt.  Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im April lag bei 45 %, im Juli fiel der Wert, und im August erreichte er wieder einen Spitzenwert. Sehen wir ein ähnliches Muster bei den Umsätzen im letzten und in diesem Jahr?
+1. Erstellen Sie ein neues Liniendiagramm, das den **Bruttogewinn in Prozent im letzten Jahr** nach **Monaten** nachverfolgt. Klicken Sie auf die Auslassungspunkte, um **Aufsteigend** nach **Monat** zu sortieren.  
+Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im April lag bei 45 %, im Juli fiel der Wert, und im August erreichte er wieder einen Spitzenwert. Sehen wir ein ähnliches Muster bei den Umsätzen im letzten und in diesem Jahr?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Fügen Sie dem Liniendiagramm **Verkäufe in diesem Jahr > Wert** und **Verkäufe im letzten Jahr** hinzu. Da der **Bruttogewinn % Vorjahr** wesentlich kleiner ist als die **Umsätze**, können diese Werte nur schwer verglichen werden.      
@@ -80,7 +81,7 @@ In dieser Aufgabe vergleichen wir Bruttogewinn und Umsätze.
 3. Konvertieren Sie das Liniendiagramm zu einem Linien- und gestapelten Säulendiagramm, damit die Visualisierung besser gelesen und interpretiert werden kann.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Ziehen Sie **Bruttogewinn % Vorjahr** aus **Spaltenwerte** in **Zeilenwerte**. Power BI erstellt zwei Achsen, sodass die Datasets anders skaliert werden können. Die linke Achse gibt den Dollarbetrag der Umsätze an, die rechte Achse die Prozentzahl.
+4. Ziehen Sie **Bruttogewinn % Vorjahr** aus **Spaltenwerte** in **Zeilenwerte**. Power BI erstellt zwei Achsen, sodass die Datasets anders skaliert werden können. Die linke Achse gibt den Dollarbetrag der Umsätze an, die rechte Achse die Prozentzahl. Und hier sehen Sie die Antwort auf unsere Frage: Ja, wir sehen ein ähnliches Muster.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ In dieser Aufgabe vergleichen wir Bruttogewinn und Umsätze.
 
 Jetzt haben Sie folgende Möglichkeiten:
 
-* [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](../consumer/end-user-tiles.md)
+* [Fügen Sie das Kombinationsdiagramm als Dashboardkachel hinzu.](../service-dashboard-tiles.md)
 * [Speichern Sie den Bericht](../service-report-save.md).
-* [Den Bericht zugänglicher für Menschen mit Behinderungen machen](../desktop-accessibility.md)
+* [Barrierefreiheit in Power BI Desktop-Berichten](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Kreuzhervorheben und Kreuzfiltern
 
-Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Verwenden Sie [Visualinteraktionen](../consumer/end-user-interactions.md), um dieses Standardverhalten zu ändern.
+Das Markieren einer Spalte oder Zeile in einem Kombinationsdiagramm ermöglicht das Kreuzhervorheben und Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Verwenden Sie [Visualinteraktionen](../service-reports-visual-interactions.md), um dieses Standardverhalten zu ändern.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Übersicht über Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)
+[Ringdiagramme in Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

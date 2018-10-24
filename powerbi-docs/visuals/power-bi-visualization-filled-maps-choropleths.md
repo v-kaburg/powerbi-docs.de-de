@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7cd2266ef8d0fd161bda1f9d91a1ceb7f4217675
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549843"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448889"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Flächenkartogramme (Choroplethenkarten) in Power BI
 In einem Flächenkartogramm wird mithilfe von Schattierungen, Farben oder Mustern angezeigt, in welchem Verhältnis Werte innerhalb eines geografischen Gebiets stehen.  Diese relativen Unterschiede werden mithilfe von Schattierungen angezeigt, wobei hell eine geringe Menge/Häufigkeit und dunkel eine große Menge/Häufigkeit anzeigt.    
 
-![Karte der USA](./media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Karte der USA](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>An Bing gesendete Informationen
 Power BI arbeitet mit Bing zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird). Wenn Sie im Power BI-Dienst oder in Power BI Desktop eine Kartenvisualisierung erstellen, werden die Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** (die dazu verwendet werden, diese Visualisierung zu erstellen) an Bing gesendet.
 
 Sie oder der Administrator müssen möglicherweise die Firewall aktualisieren, um den Zugriff auf die von Bing für die Geocodierung verwendeten URLs zuzulassen.  Diese URLs lauten:
-    * https://dev.virtualearth.net/REST/V1/Locations
-    * https://platform.bing.com/geo/spatial/v1/public/Geodata
-    * https://www.bing.com/api/maps/mapcontrol
+- https://dev.virtualearth.net/REST/V1/Locations    
+- https://platform.bing.com/geo/spatial/v1/public/Geodata    
+- https://www.bing.com/api/maps/mapcontrol
 
 Weitere Informationen zu den an Bing gesendeten Daten sowie Tipps für eine erfolgreichere Geocodierung finden Sie unter [Tipps und Tricks für Power BI-Kartenvisualisierungen](power-bi-map-tips-and-tricks.md).
 
@@ -54,51 +54,76 @@ In diesem Video wird eine einfache Karte erstellt und in ein Flächenkartogramm 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
-
+### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Abrufen von Daten und Hinzufügen einer neuen leeren Seite zu dem Bericht
 1. Um ein eigenes Flächenkartogramm zu erstellen, [laden Sie das Beispiel für Vertrieb und Marketing herunter](../sample-datasets.md). Melden Sie sich zu diesem Zweck bei Power BI an, und wählen Sie **Daten abrufen \> Beispiele \> Vertrieb und Marketing\> Verbinden** aus.
-2. Wenn die Erfolgsmeldung angezeigt wird, wählen Sie **Dataset anzeigen** aus.
+2. Wenn die Erfolgsmeldung angezeigt wird, schließen Sie diese, und klicken Sie auf die Registerkarte **Berichte**. Klicken Sie auf das **Beispiel für Vertrieb und Marketing**, um den Bericht zu öffnen.
 
-   ![Erfolgsmeldung](./media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
-3. Power BI öffnet einen leeren Berichtszeichenbereich in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md).
+   ![Inhaltsliste „Berichte“](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
+3. Power BI öffnet den Bericht. Klicken Sie auf **Bericht bearbeiten**, um den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) zu öffnen.
 
-    ![Neuer Bericht](./media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
-4. Wählen Sie im Bereich „Felder“ das Feld **Geo** \> **Bundesstaat** aus.    
+4. Fügen Sie eine neue Seite hinzu, indem Sie auf das gelbe Pluszeichen am unteren Rand des Zeichenbereichs klicken.
 
-   ![Häkchen im gelben Kontrollkästchen neben „State“](./media/power-bi-visualization-filled-maps-choropleths/img002.png)
+    ![Registerkarte „Bericht“](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
+
+### <a name="create-a-filled-map"></a>Erstellen eines Flächenkartogramms
+1. Wählen Sie im Bereich „Felder“ das Feld **Geo** \> **Bundesstaat** aus.    
+
+   ![Häkchen im gelben Kontrollkästchen neben „State“](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
 5. [Wandeln Sie das Diagramm](power-bi-report-change-visualization-type.md) in ein Flächenkartogramm um. Beachten Sie, dass sich **Bundesstaat** jetzt im Bereich **Standort** befindet. Bing Maps verwendet das Feld unter **Standort**bereich, um die Karte zu erstellen.  Gültige Orte umfassen z. B. Länder, Bundesländer, Landkreise, Städte, Postleitzahlen usw. Bing Maps bietet verschiedene Formen für Orte auf der ganzen Welt. Ohne einen gültigen Wert im Bereich „Ort“ kann Power BI kein Flächenkartogramm erstellen.  
 
-   ![Vorlagen mit dem hervorgehobenen Symbol für Flächenkartogramme](./media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![Vorlagen mit dem hervorgehobenen Symbol für Flächenkartogramme](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filtern Sie die Karte, um nur die kontinentalen USA anzuzeigen.
 
    a.  Suchen Sie im unteren Teil des Visualisierungsbereichs nach **Filter** .
 
    b.  Zeigen Sie auf **Bundesland** , und klicken Sie auf das Erweiterungssymbol.  
-   ![Filter auf visueller Ebene zeigt „State(All)“ an](./media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![Filter auf visueller Ebene zeigt „State(All)“ an](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   c.  Setzen Sie ein Häkchen neben **Alle** , und entfernen Sie das Häkchen neben **AK**.
+   c.  Aktivieren Sie das Kontrollkästchen **Alle**, und deaktivieren Sie das Kontrollkästchen **AK**.
 
-   ![Dropdownliste für State, in der die Optionen „All“ und „AK“ nicht ausgewählt ist](./media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Dropdownliste für State, in der die Optionen „All“ und „AK“ nicht ausgewählt ist](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Wählen Sie **SalesFact** \> **Stimmung**, um diese Option zum Bereich **Farbsättigung** hinzuzufügen. Das Feld im Bereich **Farbsättigung** steuert die Schattierung der Karte.  
-   ![Sentiment im Feld für die Farbsättigung](./media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
-8. Das Flächenkartogramm ist grün schattiert. Hellgrün steht dabei für schlechtere und dunkelgrün für bessere (d.h. positive) Stimmungsdaten.  Wenn Sie Wyoming (WY) markieren, sehen Sie, dass dieser Bundesstaat über einen positiven Stimmungswert (74) verfügt.  
-   ![Schwarzes Dialogfeld zeigt „State“ und „Sentiment“](./media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![Sentiment im Feld für die Farbsättigung](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
+8. Das Flächenkartogramm ist grün und rot schattiert. Rot steht dabei für schlechtere und grün für bessere (d.h. positive) Stimmungsdaten.  Wenn Sie Wyoming (WY) markieren, sehen Sie, dass dieser Bundesstaat über einen positiven Stimmungswert (74) verfügt.  
+   ![Schwarzes Dialogfeld zeigt „State“ und „Sentiment“](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
 9. [Speichern Sie den Bericht](../service-report-save.md).
+##    <a name="adjust-the-color-formatting"></a>Anpassen der Farbformatierung
+Mithilfe von Power BI können Sie die Darstellung Ihres Flächenkartogramms umfassend steuern.
+1. Wählen Sie das Farbrollersymbol aus, um den Formatierungsbereich zu öffnen.
+
+    ![Formatierungsbereich](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+
+2. Klicken Sie auf **Datenfarben**, um die Farboptionen anzuzeigen.
+3. Legen Sie die Mindest- und Maximalfarben auf gelb und blau fest. Fügen Sie anschließend basierend auf Ihren Daten die Mindest- und Maximalfarben hinzu. Verschieben Sie die Steuerelemente, bis Ihnen das Ergebnis gefällt. 
+
+    ![Abweichende Farben](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Hervorheben und Kreuzfiltern
 Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen eines Filters zu einem Bericht in Power BI](../power-bi-report-add-filter.md).
 
-Das Markieren eines Orts in einem Flächenkartogramm ermöglicht ein Kreuzfiltern anderer Visualisierungen auf der Berichtsseite – und umgekehrt.
+Das Markieren eines Orts in einem Flächenkartogramm ermöglicht das Kreuzfiltern anderer Visualisierungen auf der Berichtsseite – und umgekehrt.
 
-Kopieren Sie nun das Flächenkartogramm, und fügen Sie es auf der Seite **Stimmung** des Berichts *Vertrieb und Marketing* ein.
+1. Speichern Sie zunächst den Bericht, indem Sie auf **Datei > Speichern** klicken. 
 
-1. Wählen Sie auf dem Flächenkartogramm einen Bundesstaat aus.  Dadurch werden die anderen Visualisierungen auf der Seite hervorgehoben. Wenn Sie z. B. **Texas** auswählen, wird angezeigt, dass die Stimmung einen Wert von 74 aufweist, Texas sich im „District \#23“ befindet und der Großteil des Verkaufsvolumens den Bereichen „Moderation“ und „Verbrauchsgüter“ zuzuordnen ist.   
-   ![Texas ausgewählt](./media/power-bi-visualization-filled-maps-choropleths/img008.png)
-2. Wechseln Sie im Liniendiagramm zwischen **Nein** und **Ja**. Dadurch wird das Flächenkartogramm gefiltert, und die Stimmung wird für VanArsdel sowie für die Wettbewerber von VanArsdel angezeigt.  
-   ![Video der Umschalt-Funktion](./media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+2. Kopieren Sie das Flächenkartogramm, indem Sie STRG+C drücken.
+
+3. Klicken Sie unten im Berichtsbereich auf die Registerkarte **Stimmung**, um die Seite mit dem Stimmungsbericht zu öffnen.
+
+    ![Registerkarte „Stimmung“: ausgewählt](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
+
+4. Bewegen Sie die Visualisierungen auf der Seite, und ändern Sie deren Größe, um Platz zu schaffen. Drücken Sie anschließen STRG+V, um das Flächenkartogramm aus dem vorherigen Bericht einzufügen.
+
+   ![Flächenkartogramm zur Seite „Stimmung“ hinzugefügt](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
+
+5. Wählen Sie auf dem Flächenkartogramm einen Bundesstaat aus.  Dadurch werden die anderen Visualisierungen auf der Seite hervorgehoben. Wenn Sie hier beispielsweise **Texas** auswählen, sehen Sie, dass der Stimmungswert bei 74 liegt. Texas befindet sich im Central District \#23.   
+   ![Texas ausgewählt](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+2. Wählen Sie in dem Liniendiagramm „VanArsdel - Sentiment by Month“ (VanArsdel – Stimmung nach Monat) aus. Dadurch wird das Flächenkartogramm gefiltert, sodass nur die Stimmungsdaten für VanArsdel und nicht für die Konkurrenz angezeigt werden.  
+   ![Neue Schattierung](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-Kartendaten sind unter Umständen nicht eindeutig.  Neben Paris in Frankreich gibt es auch noch ein Paris in Texas. Ihre geografischen Daten sind wahrscheinlich in separaten Spalten gespeichert – eine Spalte für den Ortsnamen, eine Spalte für den Namen des Bundeslands oder des Landkreises usw. Für Bing ist es daher nicht eindeutig, welches Paris gemeint ist. Wenn das Dataset bereits Daten für die Breiten- und Längengrade enthält, umfasst Power BI spezielle Felder, mithilfe derer die Kartendaten eindeutig zugeordnet werden können. Ziehen Sie das Feld mit den Breitengraddaten in den Bereich „Visualisierungen \> Breitengrad“.  Führen Sie für den Längengrad die gleichen Schritte aus.  
-![Bereiche für Visualisierungen und Felder](./media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+Kartendaten sind unter Umständen nicht eindeutig.  Neben Paris in Frankreich gibt es auch noch ein Paris in Texas. Ihre geografischen Daten sind wahrscheinlich in separaten Spalten gespeichert – eine Spalte für den Ortsnamen, eine Spalte für den Namen des Bundeslands oder des Landkreises usw. Für Bing ist es daher nicht eindeutig, welches Paris gemeint ist. Wenn das Dataset bereits Daten für die Breiten- und Längengrade enthält, umfasst Power BI spezielle Felder, mithilfe derer die Kartendaten eindeutig zugeordnet werden können. Ziehen Sie das Feld mit den Breitengraddaten in den Bereich „Visualisierungen \> Breitengrad“.  Führen Sie für den Längengrad die gleichen Schritte aus.    
+
+![Bereiche für Visualisierungen und Felder](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Wenn Sie zum Bearbeiten des Datasets in Power BI Desktop berechtigt sind, erfahren Sie in diesem Video, wie Sie Mehrdeutigkeiten in Karten beheben.
 
@@ -106,11 +131,10 @@ Wenn Sie zum Bearbeiten des Datasets in Power BI Desktop berechtigt sind, erfah
 
 Wenn Sie keinen Zugriff auf die Breiten- und Längengraddaten haben, [befolgen Sie diese Anleitung, um Ihr Dataset zu aktualisieren](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
-Weitere Hilfe zu Kartenvisualisierungen finden Sie unter [Tipps und Tricks für Kartenvisualisierungen](power-bi-map-tips-and-tricks.md).
+Weitere Hilfe zu Kartenvisualisierungen finden Sie unter [Tipps und Tricks für Kartenvisualisierungen](../power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Fügen Sie das Flächenkartogramm als Dashboardkachel hinzu (Anheften des Visuals)](../consumer/end-user-tiles.md)  .  
- [Hinzufügen einer Visualisierung zu einem Bericht](power-bi-report-add-visualizations-i.md)  
- [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
- [Ändern des verwendeten Visualisierungstyps](power-bi-report-change-visualization-type.md)      
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
+
+[Formenzuordnung](desktop-shape-map.md)
+
+[Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

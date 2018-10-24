@@ -1,0 +1,189 @@
+items:
+- name: Power BI für Verbraucher
+  href: power-bi-consumer-landing.md
+- name: Power BI-Dienst
+  items:
+  - name: Overview
+    items:
+    - name: Was ist ein Power BI-Kunde?
+      href: end-user-consumer.md
+    - name: Grundkonzepte und Terminologie für Power BI-Kunden
+      href: end-user-basic-concepts.md
+  - name: Schnellstartanleitungen
+    items:
+    - name: Erkunden von Power BI
+      href: end-user-experience.md
+  - name: Lernprogramme
+    items:
+    - name: Erstellen einer Dashboard-Warnung
+      href: end-user-alerts.md
+  - name: Vorgehensweise
+    items:
+    - name: Dashboards
+      items:
+      - name: Dashboards
+        href: end-user-dashboards.md
+      - name: Ausgewählte Dashboards
+        href: end-user-featured.md
+      - name: Dashboardkacheln
+        href: end-user-tiles.md
+      - name: Kommentar hinzufügen oder Unterhaltung beginnen
+        href: end-user-comment.md
+    - name: Berichte
+      items:
+      - name: Berichte
+        href: end-user-reports.md
+      - name: Bericht anzeigen
+        href: end-user-report-open.md
+      - name: Verwenden von Filtern in einem Bericht
+        href: end-user-report-filter.md
+      - name: Lernen Sie, wie Kreuzfilterung bei Berichtsvisualisierungen funktioniert
+        href: end-user-interactions.md
+    - name: Visualisierungen
+      items:
+      - name: Wofür kann ich Visualisierungen verwenden?
+        href: end-user-visualizations.md
+      - name: Drilldown in einer Visualisierung in Power BI
+        href: end-user-drill.md
+      - name: Exportieren von Daten aus einer Visualisierung
+        href: end-user-export-data.md
+    - name: Allgemeine Aufgaben
+      items:
+      - name: Verschiedene Wege, wie Sie im Fokus- und im Vollbildmodus in Inhalte zoomen können
+        href: end-user-focus.md
+      - name: Bevorzugte Dashboards, Berichte und Apps in Power BI
+        href: end-user-favorite.md
+      - name: Drucken eines Dashboards, Drucken einer Dashboardkachel, Drucken einer Berichtsseite
+        href: end-user-print.md
+      - name: Verwandte Inhalte anzeigen
+        href: end-user-related.md
+      - name: Neueste Inhalte anzeigen
+        href: end-user-recent.md
+      - name: Inhalte im Container „Für mich freigegeben“ anzeigen
+        href: end-user-shared-with-me.md
+      - name: Abonnieren eines Berichts oder Dashboards
+        href: end-user-subscribe.md
+      - name: Suchen und Sortieren von Inhalten in Power BI
+        href: end-user-search-sort.md
+      - name: Automatische Einblicke für Dashboardkacheln anzeigen
+        href: end-user-insights.md
+    - name: Daten abrufen
+      items:
+      - name: Installieren und Verwenden von Apps
+        href: end-user-apps.md
+      - name: Verbinden mit Diensten
+        href: end-user-connect-to-services.md
+      - name: Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
+        href: end-user-content-pack.md
+    - name: Fragen an Ihre Daten stellen
+      items:
+      - name: Fragen und Antworten in Power BI
+        href: end-user-q-and-a.md
+      - name: Tipps und Tricks für Fragen mit Q&A in Power BI
+        href: end-user-q-and-a-tips.md
+  - name: Ressourcen
+    items:
+    - name: Glossar und Terminologie
+      href: end-user-glossary.md
+    - name: Unterstützte Browser
+      href: end-user-browsers.md
+    - name: Von Power BI unterstützte schnelle Einblicke
+      href: end-user-insight-types.md
+- name: Mobile Power BI-Apps
+  items:
+  - name: Overview
+    items:
+    - name: Welches sind die mobilen Apps?
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: Schnellstartanleitungen
+    items:
+    - name: Erkunden von Dashboards und Berichten
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: Lernprogramme
+    items:
+    - name: Stellen von Fragen in mobilen iOS-Apps
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: Konzepte
+    items:
+    - name: Neuigkeiten bei mobilen Apps
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: Erfassen von Daten aus der realen Welt mit den mobilen Apps
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: Offlinemodus zum Anzeigen von Daten in mobilen Apps
+      href: mobile/mobile-apps-offline-data.md
+    - name: Power BI for Mixed Reality-App (Vorschauversion)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: Vorgehensweise
+    items:
+    - name: Alle mobilen Apps
+      items:
+      - name: Freigeben eines Dashboards in den mobilen Power BI-Apps
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Interagieren mit Kacheln in den mobilen Apps
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: Favoriten in mobilen Apps
+        href: mobile/mobile-apps-favorites.md
+      - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
+        href: mobile/mobile-apps-notification-center.md
+      - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: Filtern eines Berichts nach Standort in den mobilen Power BI-Apps
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: Dashboards für Power BI auf mobilen Geräten
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: Berichte in mobilen Apps
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Android-Geräte
+      items:
+      - name: Erste Schritte mit der Android-App
+        href: mobile/mobile-android-app-get-started.md
+      - name: 'Fehlerbehebung: „Das SSL-Zertifikat Ihres Unternehmens ist nicht vertrauenswürdig.“'
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: 'Fehlerbehebung: „need to update Android System Webview“ (WebView für das Android-System muss aktualisiert werden)'
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Erste Schritte mit der iOS-App
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch-App
+        href: mobile/mobile-apple-watch.md
+      - name: Scannen eines Barcodes mit der App auf dem iPhone
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS und Android
+      items:
+      - name: Anzeigen lokaler Berichte in mobilen Apps
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Anzeigen von Berichten, die für das Smartphone optimiert sind
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: Scannen eines Power BI-QR-Codes mit dem Smartphone
+        href: mobile/mobile-apps-qr-code.md
+      - name: Kommentieren und Freigeben in den mobilen Apps
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Power BI-App für Windows 10-Geräte
+      items:
+      - name: Erste Schritte mit der Windows 10-App
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: Anheften eines Dashboards an den Startbildschirm
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Anzeigen von mobilen Reporting Services-Berichten und -KPIs
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Anzeigen von Power BI in Surface Hub
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: Einmaliges Anmelden in der Windows-App
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: Ressourcen
+    items:
+    - name: Unterstützte Sprachen der mobilen Apps
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112128"

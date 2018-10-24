@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565933"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416818"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Verwenden des Matrixvisuals in Power BI Desktop
 Mit dem Feature **Matrixvisual** können Sie visuelle Matrixelemente (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten erstellen. Das neue Feature ermöglicht die Kreuzhervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
@@ -43,7 +43,7 @@ Bedenken Sie bei Summen und Teilsummen, dass diese Werte auf den zugrunde liegen
 
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Verwenden von Drilldown mit dem Matrixvisual
-Mit dem **Matrixvisual** können Sie Drilldowns jeglicher Art ausführen, die zuvor nicht verfügbar waren. Hierzu zählt die Möglichkeit des Drilldowns auf Zeilen, Spalten und sogar einzelne Abschnitte und Zellen. Befassen wir uns nun mit der Funktionsweise.
+Mit dem **Matrixvisual** können Sie viele interessante Drilldownaktionen durchführen, die zuvor nicht verfügbar waren. Hierzu zählt die Möglichkeit des Drilldowns auf Zeilen, Spalten und sogar einzelne Abschnitte und Zellen. Im Folgenden befassen Sie sich mit der Funktionsweise.
 
 ### <a name="drill-down-on-row-headers"></a>Drilldown auf Zeilenüberschriften
 Wenn Sie im Bereich **Visualisierungen** mehrere Felder zum Abschnitt **Zeilen** des Bereichs **Felder** hinzufügen, wird der Drilldown auf Zeilen in der Matrixvisualisierung aktiviert. Im Grunde erstellen Sie eine Hierarchie, durch deren Ebenen Sie sich dann per Drilldown (und Drillup) bewegen können, um die Daten der jeweiligen Ebene zu analysieren.
@@ -66,7 +66,7 @@ Statt die Symbole zu verwenden, können Sie auch mit der rechten Maustaste auf e
 
 Das Menü enthält verschiedene Optionen, die zu unterschiedlichen Ergebnissen führen:
 
-Mit **Drilldown** wird die Matrix für *diese* Zeilenebene erweitert, alle anderen Zeilenüberschriften, mit Ausnahme derjenigen, auf die der Rechtsklick ausgeführt wurde, sind *nicht betroffen*. In der folgenden Abbildung wurde auf *Computer* geklickt, und **Drilldown** wurde ausgewählt. Wie Sie sehen, werden andere Zeilen, die der höchsten Ebene angehören, nicht mehr in der Matrix angezeigt. Dieses nützliche Feature wird im Abschnitt **Kreuzhervorhebungen** genauer erläutert.
+Mit **Drilldown** wird die Matrix für *diese* Zeilenebene erweitert, alle anderen Zeilenüberschriften, mit Ausnahme derjenigen, auf die der Rechtsklick ausgeführt wurde, sind *nicht betroffen*. In der folgenden Abbildung wurde auf *Computer* geklickt, und **Drilldown** wurde ausgewählt. Wie Sie sehen, werden andere Zeilen, die der höchsten Ebene angehören, nicht mehr in der Matrix angezeigt. Dieses nützliche Feature zum Ausführen von Drilldowns wird im Abschnitt **Kreuzhervorhebungen** genauer erläutert.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,7 +74,7 @@ Um zur Ansicht der obersten Ebene zurückzukehren, klicken Sie auf das Symbol f�
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Wenn Sie links oben auf das Symbol für **Drillup** klicken, werden wieder alle Kategorien auf der obersten Ebene in der Matrix angezeigt. Wenn Sie nun erneut einen Rechtsklick ausführen und **Auf nächste Ebene erweitern** auswählen, wird Folgendes angezeigt:
+Wenn Sie links oben auf das Symbol für **Drillup** klicken, werden wieder alle Kategorien auf der obersten Ebene in der Matrix angezeigt. Wenn Sie nun erneut einen Rechtsklick ausführen und **Auf nächste Ebene erweitern** auswählen, wird das folgende Visual angezeigt.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -103,7 +103,7 @@ Alle weiteren Kontextmenüelemente für Spalten sind identisch mit denen für Ze
 ## <a name="stepped-layout-with-matrix-visuals"></a>Abgestuftes Layout mit visuellen Matrixelementen
 Beim **Matrixvisual** werden Unterkategorien in einer Hierarchie automatisch unter dem übergeordneten Element eingerückt. Dieser Einzug wird als **Abgestuftes Layout** bezeichnet.
 
-In der *ursprünglichen* Version der Matrixvisualisierung wurden Unterkategorien in einer eigenen Spalte angezeigt. Dadurch beanspruchten sie deutlich mehr Platz in der Visualisierung. Die folgende Abbildung zeigt die Tabelle im ursprünglichen **Matrix**-Visual (mit eigener Spalte für Unterkategorien).
+In der *ursprünglichen* Version der Matrixvisualisierung wurden Unterkategorien in einer eigenen Spalte angezeigt. Dadurch beanspruchten sie deutlich mehr Platz in der Visualisierung. Im folgenden Bild wird die Tabelle im ursprünglichen **Matrixvisual** dargestellt. Beachten Sie die Unterkategorien in einer separaten Spalte.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
@@ -129,7 +129,7 @@ Erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Kart
 Dasselbe Verfahren wird für die Spaltenteilergebnisse angewendet.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Kreuzhervorhebung mit visuellen Matrixelementen
-Jedes Element im **Matrixvisual** kann als Basis für Kreuzhervorhebungen dienen. Wenn Sie in einem **Matrixvisual** eine Spalte auswählen, wird sie hervorgehoben (wie bei anderen Visuals auf der Berichtsseite). Dies ist ein Standardfeature in anderen Visuals und bei der Auswahl eines Datenpunkts, das jetzt auch im **Matrixvisual** unterstützt wird.
+Jedes Element im **Matrixvisual** kann als Basis für Kreuzhervorhebungen dienen. Wenn Sie in einem **Matrixvisual** eine Spalte auswählen, wird sie hervorgehoben (wie bei anderen Visuals auf der Berichtsseite). Diese Art von Kreuzhervorhebung ist ein Standardfeature in anderen Visuals und bei der Auswahl eines Datenpunkts, das jetzt auch im **Matrixvisual** unterstützt wird.
 
 Auch wird STRG+Klicken jetzt für die Kreuzhervorhebung unterstützt. In der folgenden Abbildung sehen Sie eine Reihe von Unterkategorien, die im **Matrixvisual** ausgewählt wurden. Nicht ausgewählte Elemente sind abgeblendet (grau). Andere Visuals auf der Seite reflektieren die im **Matrixvisual** getroffene Auswahl.
 
@@ -153,10 +153,6 @@ Mit beiden Vorgehensweisen wird das gleiche Ergebnis erreicht. Nach Auswahl von 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Folgende Artikel könnten Sie ebenfalls interessieren:
+[Punkt- und Blasendiagramme in Power BI](power-bi-visualization-scatter.md)
 
-* [Verwenden von Gitternetzlinien und „Am Raster ausrichten“ in Power BI Desktop-Berichten](../desktop-gridlines-snap-to-grid.md)
-* [Datenquellen in Power BI Desktop](../desktop-data-sources.md)
-* [Datentypen in Power BI Desktop](../desktop-data-types.md)
-
- 
+[Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

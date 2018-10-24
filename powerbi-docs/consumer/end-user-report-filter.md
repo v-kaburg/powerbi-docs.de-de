@@ -1,38 +1,44 @@
 ---
-title: Übersicht über den Berichtsbereich „Filter“ in Power BI
-description: Übersicht über den Berichtsbereich „Filter“ im Power BI-Dienst und auf dem Power BI-Dashboard
+title: Übersicht über den Bereich „Filter“ in Power BI für Kunden
+description: Übersicht über den Berichtsbereich „Filter“ im Power BI-Dienst
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 09/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 19ca2c1fa04d5d2cde06d850d3d6813fa6928783
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565197"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908277"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Überblick über den Berichtsbereich „Filter“
-In diesem Artikel sehen wir uns den Bereich „Filter“ in Berichten genauer an. Sie sehen den Bereich in der [Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst](end-user-reading-view.md) sowie in der [Berichtsansicht in Power BI Desktop](../desktop-report-view.md).
+In diesem Artikel sehen wir uns den Berichtsbereich „Filter“ im Power BI-Dienst genauer an.
 
 Es gibt viele verschiedene Arten von Datenfiltern in Power BI. Lesen Sie den Artikel [Informationen zu Filtern und Hervorhebungen](../power-bi-reports-filters-and-highlighting.md).
 
-## <a name="working-with-the-report-filters-pane"></a>Arbeiten mit dem Bereich „Filter“ in Berichten
-In Power BI Desktop werden Berichte in der Berichtsansicht geöffnet. Im Power BI-Dienst können Berichte in der [Bearbeitungsansicht oder Leseansicht](end-user-reading-view.md) geöffnet werden. In der Bearbeitungs- und Berichtsansicht in Power BI Desktop können Besitzer eines Berichts [einem Bericht Filter hinzufügen](../power-bi-report-add-filter.md). Diese Filter werden mit dem Bericht gespeichert. Personen, die den Bericht in der Leseansicht anzeigen, können mit den Filtern interagieren und ihre Änderungen speichern, aber dem Bericht keine neuen Filter hinzufügen.
+![Bericht in Browsern](media/end-user-report-filter/power-bi-browser.png)
 
-Im Power BI-Dienst speichern Berichte alle von Ihnen im Bereich „Filter“ vorgenommen Veränderungen, und diese Veränderungen werden in der mobilen Version des Berichts übernommen. Klicken Sie in der oberen Menüleiste auf **Auf Standardwert zurücksetzen**, um den Bereich „Filter“ auf den Standard zurückzusetzen.     
+## <a name="working-with-the-report-filters-pane"></a>Arbeiten mit dem Bereich „Filter“ in Berichten
+Wenn ein Kollege einen Bericht mit Ihnen teilt, suchen Sie immer nach dem Bereich **Filter**. Manchmal befindet er sich zugeklappt am rechten Rand des Berichts. Klicken Sie darauf, um ihn aufzuklappen.   
+
+![Bericht im Browser](media/end-user-report-filter/power-bi-expanded.png)
+
+Der Bereich „Filter“ enthält Filter, die dem Bericht durch den Berichts-*Designer* hinzugefügt wurden. *Kunden* wie Sie können mit den Filtern interagieren und Ihre Änderungen speichern, aber dem Bericht keine neuen Filter hinzufügen.
+
+Im Power BI-Dienst speichern Berichte alle von Ihnen im Bereich „Filter“ vorgenommen Veränderungen, und diese Veränderungen werden in der mobilen Version des Berichts übernommen. Klicken Sie auf der oberen Menüleiste auf **Auf Standardwert zurücksetzen**, um den Bereich „Filter“ auf den Standard zurückzusetzen.     
 
 ## <a name="open-the-filters-pane"></a>Öffnen Sie den Bereich „Filter“.
-Wenn ein Bericht geöffnet ist, wird der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern. Wenn Sie sich in der Leseansicht des Power BI-Diensts befinden, ist auf der rechten Seite nur der Bereich „Filter“ verfügbar.
+Wenn ein Bericht geöffnet ist, wird der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.  
 
 In diesem Beispiel arbeiten wir mit einer Visualisierung mit sechs Filtern. Auch die Berichtsseite verfügt über Filter, die Sie unter der Überschrift **Seitenfilter** finden. Es ist ein [Drillthrough-Filter](../power-bi-report-add-filter.md) vorhanden, und der gesamte Bericht weist ebenfalls einen Filter auf: **Geschäftsjahr** ist 2013 oder 2014.
 
-![](media/end-user-report-filter/power-bi-filter-list.png)
+![Liste der Filter](media/end-user-report-filter/power-bi-filter-list.png)
 
 Neben einigen Filtern sehen Sie das Wort **Alle**; dies bedeutet, dass sämtliche Werte in den Filter eingeschlossen werden.  Beispiel: **Kette(Alle)** (siehe Screenshot unten) zeigt an, dass diese Berichtsseite Informationen über alle Ketten enthält.  Andererseits können wir der Angabe **Geschäftsjahr ist 2013 oder 2014** entnehmen, dass der Bericht ausschließlich Informationen aus den Geschäftsjahren 2013 und 2014 umfasst.
 
@@ -40,65 +46,38 @@ Jeder, der den Bericht aufruft, kann auch mit den Filtern interagieren.
 
 * Einzelheiten zum Filter können angezeigt werden, indem mit dem Cursor auf den Pfeil neben dem Filter gezeigt und dieser ausgewählt wird.
   
-   ![](media/end-user-report-filter/power-bi-expan-filter.png)
+   ![Zeigt ausgewählte Lindseys](media/end-user-report-filter/power-bi-expan-filter.png)
 * Sie können den Filter anpassen, indem Sie z.B. **Lindseys** in **Fashions Direct** ändern.
   
-     ![](media/end-user-report-filter/power-bi-filter-chain.png)
+     ![Zeigt ausgewählte Fashions Direct](media/end-user-report-filter/power-bi-filter-chain.png)
 
 * Setzen Sie die Filter auf ihren Ausgangszustand zurück, indem Sie auf **Auf Standardwert zurücksetzen** in der oberen Menüleiste klicken.    
-    ![](media/end-user-report-filter/power-bi-reset-to-default.png)
+    ![Auf Standardwert zurücksetzen](media/end-user-report-filter/power-bi-reset-to-default.png)
     
 * Löschen Sie den Filter, indem Sie das **x** neben dem Filternamen auswählen.
   
-  Wenn Sie einen Filter löschen, wird nur der Filter aus der Liste entfernt. Die Informationen des Berichts bleiben selbstverständlich erhalten.  Beispiel: Wenn Sie den Filter **Geschäftsjahr gleich 2013 oder 2014** löschen, bleiben die Informationen zum Geschäftsjahr intakt. Da der Filter entfernt wurde, ist der Bericht dann allerdings nicht mehr auf die Geschäftsjahre 2013 und 2014 eingeschränkt. Vielmehr werden alle Geschäftsjahre, die in den Daten enthalten sind, angezeigt.  Sobald Sie einen Filter löschen, können Sie ihn nicht mehr anpassen, da er aus der Liste entfernt wird. Daher wird empfohlen, den Filter mit dem Radierersymbol ![](media/end-user-report-filter/power-bi-eraser-icon.png) zu löschen.
+  Wenn Sie einen Filter löschen, wird nur der Filter aus der Liste entfernt. Die Informationen des Berichts bleiben selbstverständlich erhalten.  Beispiel: Wenn Sie den Filter **Geschäftsjahr gleich 2013 oder 2014** löschen, bleiben die Informationen zum Geschäftsjahr intakt. Da der Filter entfernt wurde, ist der Bericht dann allerdings nicht mehr auf die Geschäftsjahre 2013 und 2014 eingeschränkt. Vielmehr werden alle Geschäftsjahre, die in den Daten enthalten sind, angezeigt.  Sobald Sie einen Filter löschen, können Sie ihn nicht mehr anpassen, da er aus der Liste entfernt wird. Daher wird empfohlen, den Filter mit dem Radierersymbol ![Radierersymbol](media/end-user-report-filter/power-bi-eraser-icon.png) zu löschen.
   
-  ![](media/end-user-report-filter/power-bi-delete-filter.png)
+  ![x hervorgehoben](media/end-user-report-filter/power-bi-delete-filter.png)
 
-## <a name="filters-in-editing-view"></a>Filter in der Bearbeitungsansicht
-Wenn ein Bericht in Desktop oder der Bearbeitungsansicht des Power BI-Diensts geöffnet ist, wird der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs in der unteren Hälfte des **Bereichs „Visualisierung“** angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.
 
-![](media/end-user-report-filter/power-bi-all-filters.png).  
-
-Wenn auf der Canvas kein Visual ausgewählt ist, zeigt der Filterbereich nur die Filter an, die für die gesamte Berichtsseite oder den gesamten Bericht gelten, sowie etwaige Drillthroughfilter (sofern diese festgelegt wurden). Im folgenden Beispiel ist kein Visual ausgewählt, und es gibt keine Filter auf Seitenebene oder Drillthroughfilter, dafür aber einen Filter auf Berichtsebene.  
-
-![](media/end-user-report-filter/power-bi-no-visual.png)  
-
-Wenn eine Visualisierung im Zeichenbereich ausgewählt ist, werden Ihnen auch die Filter angezeigt, die nur für diese Visualisierung gelten:   
-
-![](media/end-user-report-filter/power-bi-visual-filters.png)
-
-Um die Optionen für einen bestimmten Filter anzuzeigen, wählen Sie neben dem Filternamen den Pfeil nach unten aus.  Im folgenden Beispiel sind für den Filter auf Berichtsebene die Werte 2013 und 2014 festgelegt. Dies ist ein Beispiel für **Standardfilter**.  Um die erweiterten Optionen anzuzeigen, wählen Sie **Erweiterte Filterung** aus.
-
-![](media/end-user-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Löschen eines Filters
- Wählen Sie im erweiterten oder Standardfiltermodus das Radierersymbol ![](media/end-user-report-filter/pbi_erasericon.jpg) aus, um den Filter zu löschen. 
+ Klicken Sie im erweiterten oder Standard-Filtermodus auf das Radierersymbol  ![Radierersymbol](media/end-user-report-filter/pbi_erasericon.jpg) , um den Filter zu löschen. 
 
-## <a name="add-a-filter"></a>Hinzufügen eines Filters
-* Fügen Sie in der Bearbeitungsansicht in Desktop und Power BI einem Visual, einer Seite, einem Drillthrough oder einem Bericht einen Filter hinzu. Wählen Sie dazu im Bereich „Felder“ ein Feld aus und ziehen dieses in den entsprechenden Filterbereich mit dem Text **Felder hierher ziehen**. Sobald das Feld als Filter hinzugefügt wurde, können Sie den Filter mit den Steuerelementen „Einfaches Filtern“ und „Erweiterte Filterung“ anpassen (siehe unten).
-
-* **Wenn Sie ein neues Feld auf Ebene der Visuals in den Filterbereich ziehen, wird das Feld nicht dem Visual hinzugefügt**, aber Sie können das Visual anhand dieses neuen Felds filtern. Im Beispiel unten wird der Visualisierung als neuer Filter **Kette** hinzugefügt. Wenn Sie **Kette** als Filter hinzufügen, ändert sich die Visualisierung noch nicht. Dazu müssen Sie erst „Einfaches Filtern“ oder „Erweiterte Filterung“ verwenden.
-
-    ![](media/end-user-report-filter/power-bi-visual-filter.gif)
-
-* Alle zum Erstellen einer Visualisierung verwendeten Felder sind ebenfalls als Filter verfügbar. Wählen Sie zuerst eine Visualisierung aus, um sie zu aktivieren. Alle Felder, die in der Visualisierung verwendet werden, sind in den Bereichen „Visualisierungen“ und „Filter“ unter der Überschrift **Filter auf visueller Ebene** aufgelistet.
-  
-   ![](media/end-user-report-filter/power-bi-visual-filter.png)  
-  
-   Jedes dieser Felder kann über die Steuerelemente „Einfaches Filtern“ und „Erweiterte Filterung“ angepasst werden (siehe unten).
 
 ## <a name="types-of-filters-text-field-filters"></a>Arten von Filtern: Textfeldfilter
 ### <a name="list-mode"></a>Listenmodus
 Das Aktivieren eines Kontrollkästchens aktiviert oder deaktiviert den Wert. Das Kontrollkästchen **Alle** kann verwendet werden, um den Status aller Kontrollkästchen ein- und auszuschalten. Die Kontrollkästchen stellen die verfügbaren Werte für dieses Feld dar.  Wenn Sie den Filter anpassen, wird er mit Ihrer Auswahl aktualisiert. 
 
-![](media/end-user-report-filter/pbi_restatement.png)
+![Listenmodus-Filter](media/end-user-report-filter/pbi_restatement.png)
 
 Beachten Sie, das die Anpassung jetzt „ist Amarilla oder Carretera“ angibt.
 
 ### <a name="advanced-mode"></a>Erweiterter Modus
 Wählen Sie **Erweiterte Filterung** aus, um in den erweiterten Modus zu wechseln. Verwenden Sie die Dropdownsteuerelemente und Textfelder, um die einzubeziehenden Felder zu identifizieren. Durch die Wahl zwischen **Und** und **Oder**können Sie komplexe Filterausdrücke erstellen. Wählen Sie die Schaltfläche **Filter anwenden** , wenn Sie die Werte wie gewünscht festgelegt haben.  
 
-![](media/end-user-report-filter/aboutfilters.png)
+![Erweiterter Modus](media/end-user-report-filter/aboutfilters.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>Arten von Filtern: Nummernfeldfilter
 ### <a name="list-mode"></a>Listenmodus
@@ -107,7 +86,7 @@ Bei endlichen Werten wird beim Auswählen des Feldnamens eine Liste angezeigt.  
 ### <a name="advanced-mode"></a>Erweiterter Modus
 Wenn die Werte unendlich sind oder einen Bereich darstellen, wird beim Auswählen des Feldnamens der erweiterte Filtermodus geöffnet. Verwenden Sie die Dropdownliste und Textfelder, um den Bereich von Werten anzugeben, die Sie anzeigen möchten. 
 
-![](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![Erweiterter Filter](media/end-user-report-filter/pbi_dropdown-and-text.png)
 
 Durch die Wahl zwischen **Und** und **Oder**können Sie komplexe Filterausdrücke erstellen. Wählen Sie die Schaltfläche **Filter anwenden** , wenn Sie die Werte wie gewünscht festgelegt haben.
 
@@ -118,16 +97,8 @@ Bei endlichen Werten wird beim Auswählen des Feldnamens eine Liste angezeigt.  
 ### <a name="advanced-mode"></a>Erweiterter Modus
 Wenn die Feldwerte Datum oder Uhrzeit darstellen, können Sie bei der Verwendung von Datums-/Uhrzeitfiltern eine Start- bzw. Endzeit angeben.  
 
-![](media/end-user-report-filter/pbi_date-time-filters.png)
+![Datum/Uhrzeit-Filter](media/end-user-report-filter/pbi_date-time-filters.png)
+
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Filter und Hervorhebungen in Berichten](../power-bi-reports-filters-and-highlighting.md)  
-[Interagieren mit Filtern und Hervorhebungen in der Leseansicht von Berichten](end-user-reading-view.md)  
-[Erstellen von Filtern in der Bearbeitungsansicht für Berichte](../power-bi-report-add-filter.md)  
-[Ändern der Kreuzfilterung und -hervorhebung von Berichtsvisualisierungen](end-user-interactions.md)
-
-Erfahren Sie mehr über [Berichte in Power BI](end-user-reports.md).  
-[Power BI – Grundkonzepte](end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-
+[Lernen Sie, wie und warum es zu Kreuzfilterung und -hervorhebung von Visualisierungen auf einer Berichtsseite kommt](end-user-interactions.md)

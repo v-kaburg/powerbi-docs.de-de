@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ce37c13d313a44af5f082c0db2a72dbf4d53aca5
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875010"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641917"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – Grundkonzepte des Power BI-Diensts
 
@@ -82,7 +82,7 @@ Wenn Sie [zu einem ***App Arbeitsbereich*** gehören](service-collaborate-power-
 Datasets können aktualisiert, umbenannt, untersucht und entfernt werden. Verwenden Sie ein Dataset, um einen völlig neuen Bericht zu erstellen, oder führen Sie [Schnelleinblicke](service-insights.md) aus.  Wählen Sie **Verwandte Inhalte anzeigen**, um zu erfahren, welche Berichte und Dashboards ein Dataset bereits verwenden. Wählen Sie ein Dataset aus, um es zu untersuchen. Tatsächlich öffnen Sie das Dataset im Berichts-Editor, wo Sie beginnen können, die Daten zu untersuchen und Visualisierungen zu erstellen. Fahren wir also mit dem nächsten Thema fort – Berichte.
 
 ### <a name="dig-deeper"></a>Weiterführende Themen
-* [Power BI Premium – Beschreibung](service-premium.md)
+* [Was ist Power BI Premium?](service-premium.md)
 * [Abrufen von Daten in Power BI](service-get-data.md)
 * [Beispieldatasets für Power BI](sample-datasets.md)
 

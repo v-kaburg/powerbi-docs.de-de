@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547060"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908829"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics CRM mithilfe von Power BI
 Mit Microsoft Dynamics CRM Online für Power BI können Sie einfach auf Ihre Daten zuzugreifen und sie analysieren. Power BI verwendet den OData-Feed, um ein anschauliches Modell mit allen erforderlichen Entitäten und Measures zu erstellen, z.B. Konten, Aktivitäten, Verkaufschancen, Produkte, Leads, Benutzer usw. Nachdem Sie die App installiert haben, können Sie das Dashboard und die Berichte im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und in den mobilen Power BI-Apps anzeigen. 
@@ -26,17 +26,16 @@ Für diese Verbindung ist **Microsoft Dynamics CRM Online 2016 oder höher** erf
 
 ## <a name="how-to-connect"></a>Herstellen der Verbindung
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Wählen Sie **Microsoft Dynamics CRM Sales Manager** oder **Microsoft Dynamics CRM Service Manager** aus, und klicken Sie auf **Verbinden**.
+3. Wählen Sie **Microsoft Dynamics CRM Sales Manager** oder **Microsoft Dynamics CRM Service Manager** aus, und klicken Sie auf **Verbinden**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Geben Sie die Ihrem Konto zugeordnete Dienst-URL an.  Diese hat das Format `https://company.crm.dynamics.com`, siehe weitere Informationen [unten](#FindingParams).
+4. Geben Sie die Ihrem Konto zugeordnete Dienst-URL an.  Diese hat das Format `https://company.crm.dynamics.com`, siehe weitere Informationen [unten](#FindingParams).
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Geben Sie nach der entsprechenden Aufforderung Ihre Anmeldeinformationen ein (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind). Geben Sie für die Authentifizierungsmethode **oAuth2** ein, und klicken Sie auf **Anmelden**:
+5. Geben Sie nach der entsprechenden Aufforderung Ihre Anmeldeinformationen ein (dieser Schritt kann übersprungen werden, wenn Sie bereits mit Ihrem Browser angemeldet sind). Geben Sie für die Authentifizierungsmethode **oAuth2** ein, und klicken Sie auf **Anmelden**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Nachdem die Verbindung hergestellt ist, wird ein für Vertriebsleiter oder Serviceleiter angepasstes Dashboard mit Ihren eigenen Daten angezeigt:
+6. Nachdem die Verbindung hergestellt ist, wird ein für Vertriebsleiter oder Serviceleiter angepasstes Dashboard mit Ihren eigenen Daten angezeigt:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Für diese Verbindung ist **Microsoft Dynamics CRM Online 2016 oder höher** erf
 ## <a name="whats-included"></a>Inhalt
 In den folgenden Abschnitten wird ausführlich beschrieben, was in den Personas [Sales Manager](#Sales) und [Service Manager](#Service) enthalten ist.
 
-Beachten Sie, dass Daten zusätzlich basierend auf der Sicherheitsrolle, die dem Dynamics CRM Online-Benutzer zugewiesen wurde, beschränkt sind.
+Daten sind beschränkt basierend auf der Sicherheitsrolle, die dem Dynamics CRM Online-Benutzer zugewiesen wurde.
 
 Das Dashboard und die Berichte sollen die Betriebsberichterstellung für zukünftige Daten mit Schwerpunkt auf einem Team oder einer Gruppe bereitstellen. Jede Abfrage ist begrenzt auf das Abrufen von maximal 100.000 Datensätzen von Dynamics CRM Online. Wenn diese Begrenzung aufgrund der großen Datenmenge in Ihrer Organisation überschritten wird, tritt ein Fehler bei der Bereitstellung auf, da die Datenaktualisierung über Dynamics CRM Online beendet wird. Wenn Ihr Konto zu groß ist, sollten Sie zum Erstellen einer benutzerdefinierten Lösung eine Verbindung über Power BI Desktop herstellen.
 
@@ -78,7 +77,7 @@ In der folgenden Tabelle werden die CRM-Entitäten aufgelistet, die für diesen 
 
 | CRM-Entität | Angewendete Filter |
 | --- | --- |
-| Account |Alle Konten, die über verknüpfte Verkaufschancen verfügen, die in den letzten 365 Tagen geändert wurden |
+| Konto |Alle Konten, die über verknüpfte Verkaufschancen verfügen, die in den letzten 365 Tagen geändert wurden |
 | Activity |Alle Aktivitäten, die in den letzten 90 Tagen geändert wurden <br> [modifiedon] > today - 90 days |
 | Business Unit |Alle Unternehmenseinheiten, die nicht deaktiviert wurden <br> [isdisabled] = false |
 | Lead |Alle Leads, die in den letzten 180 Tagen geändert wurden <br> [modifiedon] > today - 180 days |
@@ -154,7 +153,7 @@ Wenn Sie nicht über CRM Online 2016 oder höher verfügen, verwenden Sie Power 
 Falls ein Fehler mit dem Inhalt „Fehler bei der Datenaktualisierung, weil die Abfrage die maximale Anzahl von 100000 Datensätzen überschritten hat.“ angezeigt wird, erwägen Sie, die Verbindung direkt über Power BI Desktop herzustellen oder die CRM-Lösungsvorlage zu verwenden.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
+* [Was sind Apps in Power BI?](service-create-distribute-apps.md)
 * [Abrufen von Daten in Power BI](service-get-data.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

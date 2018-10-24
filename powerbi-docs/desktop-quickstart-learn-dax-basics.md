@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329199"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417117"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -87,23 +87,21 @@ Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Be
     
 2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
     
-3. Geben Sie hinter dem Gleichheitszeichen **SUM** und danach eine öffnende Klammer ein.
-    
-   Statt einen Spaltennamen einzugeben, um gleich zu addieren, geben wir eine weitere Funktion ein, um die zu addierenden Daten zu *filtern* .
-    
-4. Geben Sie zwischen den Klammern **CALCULATE** und danach eine öffnende Klammer ein.
-    
+3. Geben Sie nach dem Gleichheitszeichen die ersten paar Buchstaben **CAL** ein, und doppelklicken Sie dann die zu verwendende Funktion. In dieser Formel sollten Sie die **CALCULATE**-Funktion verwenden.
+
    Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
    
-5. Geben Sie zwischen den Klammern **()** für die Funktion **CALCULATE** den Wert **Sales[SalesAmount]** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
+4. Geben Sie nach der öffnenden Klammer **(** der **CALCULATE**-Funktion **SUM** gefolgt von einer weiteren öffnenden Klammer ein **(**. Nun müssen Sie ein Argument an die SUM-Funktion übergeben.
+
+5. Beginnen Sie mit der Eingabe von **Sal**, und wählen Sie dann **Sales[SalesAmount]** aus. Fügen Sie dann eine schließende Klammer **)** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
     
-6. Geben Sie ein Komma ein (**,**), um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** (Letztes Quartal) und danach eine öffnende Klammer ein.
+6. Geben Sie ein Komma (**,**) gefolgt von einem Leerzeichen ein, um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** ein. Dies ist der Filter.
     
-   Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um unsere SUM-Ergebnisse nach dem Vorquartal zu filtern.
+   Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um die SUM-Ergebnisse nach dem vorherigen Quartal zu filtern.
     
-7. Geben Sie zwischen den Klammern **()** für die Funktion PREVIOUSQUARTER den Wert **Calendar[DateKey]** ein.
+7. Geben Sie nach der öffnenden Klammer **(** für die PREVIOUSQUARTER-Funktion **Calendar[DateKey]** ein.
     
-   Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält.
+   Die Funktion PREVIOUSQUARTER hat ein Argument, eine Spalte, die einen zusammenhängenden Bereich von Datumswerten enthält. In diesem Fall ist dies die DateKey-Spalte in der Calendar-Tabelle.
     
 8. Achten Sie darauf, dass beide an die Funktion PREVIOUSQUARTER und an die Funktion CALCULATE übergebenen Argumente mit zwei schließenden Klammern **))** geschlossen werden.
     
