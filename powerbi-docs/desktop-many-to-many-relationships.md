@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388753"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973998"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>m:n-Beziehungen in Power BI Desktop (Vorschauversion)
 
@@ -158,12 +158,13 @@ Aus diesem Grund sollte dies berücksichtigt werden, um sicherzustellen, dass Be
 
 Bei diesem Release der Features **m:n-Beziehungen** und **Zusammengesetzte Modelle** gibt es einige Einschränkungen.
 
-Die folgenden mehrdimensionalen Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
+Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-Datasets
+* Azure Analysis Services
 
 Wenn mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen hergestellt wird, können Sie weder eine Verbindung mit einer anderen DirectQuery-Quelle herstellen noch importierte Daten kombinieren.
 

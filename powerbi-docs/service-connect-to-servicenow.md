@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135465"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548164"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Herstellen einer Verbindung mit ServiceNow mithilfe von Power BI für Berichte über Vorfälle
 ServiceNow bietet mehrere Produkte und Lösungen für die Optimierung Ihres Unternehmens, u. a. Unternehmens-, Betriebs- und IT-Verwaltung. Dieses Inhaltspaket umfasst mehrere Berichte und Informationen zu offenen, kürzlich gelösten und kürzlich geschlossenen Vorfällen.  
@@ -44,10 +44,10 @@ Stellen Sie eine Verbindung mit dem Power BI-Inhaltspaket für [ServiceNow-Vorf�
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="system-requirements"></a>Systemanforderungen
 Zum Herstellen der Verbindung benötigen Sie Folgendes:  
@@ -63,5 +63,5 @@ Wenn beim Laden ein Fehler mit den Anmeldeinformationen auftritt, überprüfen S
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 

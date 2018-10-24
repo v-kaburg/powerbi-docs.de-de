@@ -1,25 +1,25 @@
 ---
 title: Was ist Power BI?
 description: 'Übersicht über Power BI und das Zusammenspiel der verschiedenen Komponenten: Power BI Desktop, Power BI-Dienst, mobile Power BI-Funktionen, Berichtsserver, Power BI Embedded.'
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186936"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798906"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
 **Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Unabhängig davon, ob es sich bei Ihren Daten um ein einfaches Excel-Arbeitsblatt oder eine Sammlung von cloudbasierten und lokalen hybriden Data Warehouses handelt, mit **Power BI** können Sie mühelos und schnell eine Verbindung mit Ihren Datenquellen herstellen, wichtige Daten visualisieren (oder ermitteln) und diese Daten für alle gewünschten Benutzer freigeben.
 
-![Abbildung der Eingabequellen für Power BI](media/power-bi-overview/power-bi-input.png)
+![Abbildung der Eingabequellen für Power BI](media/power-bi-overview/power-bi-input-new.png)
 
 **Power BI** kann einfach und schnell sein – und Schnelleinblicke aus einem Excel-Arbeitsblatt oder einer lokalen Datenbank erstellen. Aber **Power BI** ist auch stabil und unternehmenstauglich und kann sofort zur umfassenden Modellierung, für Echtzeitanalysen und bei der benutzerdefinierten Entwicklung eingesetzt werden. Somit kann Power BI als persönliches Tool für Berichte und Visualisierungen genutzt werden und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
 
@@ -41,6 +41,12 @@ Möglicherweise verwenden Sie die einzelnen Komponenten von **Power BI** zu unt
 
 Vielleicht zeigen Sie den Bestands- und Herstellungsstatus in einem Echtzeitdashboard im Power BI-Dienst an und verwenden zudem **Power BI Desktop**, um Berichte mit statistischen Angaben zur Kundenbindung für Ihr Team zu erstellen. Wie Sie Power BI verwenden, kann ferner darauf beruhen, welches Feature oder welcher Dienst von Power BI jeweils das am besten geeignete Tool in einer bestimmten Situation ist. Ihnen stehen jedoch immer alle Komponenten von Power BI zur Verfügung – gerade deshalb ist diese Software so flexibel und überzeugend.
 
+Untersuchen Sie Dokumente, die sich auf ihre Rolle beziehen:
+- Power BI für [***Designer***](desktop-what-is-desktop.md)
+- Power BI für [***Verbraucher***](consumer/end-user-consumer.md)
+- Power BI für [***Entwickler***](developer/what-can-you-do.md)
+- Power BI für [***Administratoren***](service-admin-administering-power-bi-in-your-organization.md)
+
 ## <a name="the-flow-of-work-in-power-bi"></a>Arbeitsablauf in Power BI
 Ein häufiger Workflow in Power BI beginnt mit dem Herstellen einer Verbindung mit Datenquellen und dem Erstellen eines Berichts in **Power BI Desktop**. Dieser Bericht wird dann von **Desktop** im **Power BI-Dienst** veröffentlicht und freigegeben, sodass Benutzer des **Diensts** und **mobiler Funktionen** den Bericht *nutzen* (anzeigen und damit interagieren) können.
 In einigen Fällen möchten Sie Kollegen Berechtigungen ähnlich Ihren eigenen erteilen (Berechtigungen als *Ersteller*), damit diese den **Dienst** verwenden können, um Berichte zu bearbeiten, Dashboards zu erstellen und ihre Arbeit ebenfalls für die gemeinsame Nutzung freizugeben.
@@ -57,5 +63,5 @@ Mithilfe der zahlreichen sofort einsetzbaren Tools und Dienste von Power BI-Beri
 Power BI-Berichtsserver ist eine Lösung, die Sie hinter Ihrer Firewall bereitstellen. Danach stellen Sie Ihre Berichte den richtigen Benutzern auf unterschiedliche Weise zur Verfügung: in einem Webbrowser, auf einem mobilen Gerät oder per E-Mail. Power BI-Berichtsserver ist mit Power BI in der Cloud kompatibel, sodass Sie jederzeit zur Cloud wechseln können.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Melden Sie sich an, rufen Sie Daten ab, und lernen Sie den Power BI-Dienst kennen.](consumer/end-user-experience.md)   
+[Melden Sie sich an, rufen Sie Daten ab, und lernen Sie den Power BI-Dienst kennen.](service-the-new-power-bi-experience.md)   
 [Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)](service-get-started.md)

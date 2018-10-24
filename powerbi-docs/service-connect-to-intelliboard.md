@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: db6361974fdbe7956979ac106e5cad5717f99d33
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 0931dee6f9719a4a53c5ccf2c20aeb8f9170af42
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135074"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549673"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Herstellen einer Verbindung mit IntelliBoard mithilfe von Power BI
 IntelliBoard bietet vereinfachten Zugriff auf Ihre Moodle-Lernmanagementsystem-Daten über Reporting Services. Das IntelliBoard-Inhaltspaket für Power BI bietet zusätzliche Analysen, einschließlich Metriken auf Ihre Kurse, registrierter Benutzer, der Gesamtleistung und Ihrer LMS-Aktivität.
@@ -43,10 +43,10 @@ Stellen Sie eine Verbindung mit dem [IntelliBoard-Inhaltspaket](https://app.powe
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Das Inhaltspaket umfasst Daten aus den folgenden Tabellen:  
@@ -68,5 +68,5 @@ Ein IntelliBoard-Konto mit Berechtigungen für die obigen Tabellen wird benötig
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 

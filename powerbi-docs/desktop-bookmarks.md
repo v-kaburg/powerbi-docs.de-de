@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657964"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549912"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
@@ -182,5 +182,5 @@ Für dieses Release von **Lesezeichen** gelten einige Einschränkungen und Über
 Weitere Informationen zu Features, die Lesezeichen ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Verwenden der Drillthroughfunktion in Power BI Desktop](desktop-drillthrough.md)
-* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](service-focus-mode.md)
+* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](consumer/end-user-focus.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388799"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974228"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschauversion)
 
@@ -171,12 +171,13 @@ Wenn**Dual**- und **Import**-Tabellen in der Datenansicht ausgewählt sind, zeig
 
 Es gibt einige Einschränkungen für dieses Release des **Speichermodus** und deren Korrelation mit **zusammengesetzten Modellen**.
 
-Die folgenden mehrdimensionalen Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
+Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI-Datasets
+* Azure Analysis Services
 
 Wenn mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen hergestellt wird, können Sie weder eine Verbindung mit einer anderen DirectQuery-Quelle herstellen noch importierte Daten kombinieren.
 

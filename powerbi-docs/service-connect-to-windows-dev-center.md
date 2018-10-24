@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250052"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545427"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Herstellen einer Verbindung mit Windows Dev Center mithilfe von Power BI
 Mit diesem Power BI-Inhaltspaket können Sie die Analysedaten von Windows Dev Center-Apps in Power BI untersuchen und überwachen. Die Daten werden automatisch einmal täglich aktualisiert.
@@ -48,10 +48,10 @@ Stellen Sie eine Verbindung mit dem [Windows Dev Center-Inhaltspaket](https://ap
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Das Developer Center-Inhaltspaket für Power BI enthält Analysedaten für Ihre App und für IAP-Käufe (In-App-Produkte) sowie Bewertungen und Kritiken und außerdem Daten zur App-Integrität. Die Daten sind auf die letzte 3 Monate begrenzt. Der Bereich ist ein bewegliches Fenster, sodass die enthaltenen Datumsangaben bei Aktualisierung des Datasets aktualisiert werden.

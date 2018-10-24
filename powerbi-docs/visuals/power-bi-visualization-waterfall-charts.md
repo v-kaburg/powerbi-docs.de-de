@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565818"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448912"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Wasserfalldiagramme in Power BI
 Wasserfalldiagramme zeigen eine laufende Summe an, während Werte hinzugefügt oder entfernt werden. Sie zeigen, wie ein anfänglicher Wert (z. B. das Nettoeinkommen) durch eine Reihe von positiven und negativen Änderungen beeinflusst wird.
@@ -39,32 +39,32 @@ Sie erstellen ein Wasserfalldiagramm, mit dem Abweichungen beim Umsatz (geschät
 
 1. Wählen Sie die Registerkarte **Datasets** aus, und scrollen Sie zum neuen Dataset „Analysebeispiel für Einzelhandel“.  Wählen Sie das Symbol **Bericht erstellen** aus, um das Dataset in der Berichtsbearbeitungsansicht zu öffnen. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. Wählen Sie im Bereich **Felder** die Option **Verkäufe \> Gesamtabweichung Verkäufe**. Wenn sich **Gesamtabweichung Verkäufe** nicht im Bereich der **Y-Achse** befindet, ziehen Sie es dorthin.
-3. Wandeln Sie das Diagramm in ein **Wasserfalldiagramm**um. 
+    ![Hervorgehobene Registerkarte „Datasets“](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. Wählen Sie im Bereich **Felder** die Option **Verkäufe \> Gesamtabweichung Verkäufe**. 
+3. Wandeln Sie das Diagramm in ein **Wasserfalldiagramm**um. Wenn sich **Gesamtabweichung Verkäufe** nicht im Bereich der **Y-Achse** befindet, ziehen Sie es dorthin.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Visualisierungsvorlagen](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Wählen Sie **Zeit** \> **Geschäftsmonat** aus, um den Wert dem Bereich **Kategorie** hinzuzufügen. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![Wasserfalldiagramm](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Sortieren Sie das Wasserfalldiagramm chronologisch. Wählen Sie rechts oben im Diagramm die Auslassungspunkte (...) und dann **FiscalMonth** aus.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![Auswählen von Sortieren nach > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![Ergebnis der neuen aufsteigenden Sortierung](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Analysieren Sie die Informationen genauer, um zu ermitteln, was von Monat zu Monat am stärksten zu den Änderungen beiträgt. Ziehen Sie **Store** > **Gebiet** in den Bucket **Aufschlüsselung**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Zeigt Store im Bucket „Aufschlüsselung“ an](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Standardmäßig fügt Power BI die wichtigsten fünf Faktoren für die Steigerungen oder Verringerungen pro Monat hinzu. Hier sind aber nur die ersten beiden Faktoren von Interesse.  Wählen Sie im Formatierungsbereich **Aufschlüsselung** aus, und legen Sie **Maximum** auf 2 fest.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formatierung > Aufschlüsselung](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     Ein kurzer Blick zeigt, dass die Gebiete „Ohio“ und „Pennsylvania“ im Wasserfalldiagramm den größten Anteil an positiven und negativen Änderungen haben. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Dies ist ein bemerkenswertes Ergebnis. Haben Ohio und Pennsylvania so starken Einfluss, weil der Umsatz in diesen beiden Gebieten sehr viel höher als in den anderen Gebieten ist?  Das können wir nachprüfen. Erstellen Sie eine Karte, mit der der Umsatz nach Gebiet analysiert wird.  
+    ![Wasserfalldiagramm](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Dies ist ein bemerkenswertes Ergebnis. Haben Ohio und Pennsylvania so starken Einfluss, weil der Umsatz in diesen beiden Gebieten sehr viel höher als in den anderen Gebieten ist?  Das können wir nachprüfen. Erstellen Sie eine Karte, mit der der Umsatz dieses Jahres nach Umsatzwert und der des letzten Jahres nach Gebiet analysiert wird.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![Kartenausschnitt für Pennsylvania und Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     Diese Karte unterstützt unsere Theorie.  Sie zeigt, dass diese beiden Gebiete im letzten Jahr (Blasengröße) und in diesem Jahr (Blasenschattierung) die höchsten Umsätze erzielt haben.
 
@@ -74,13 +74,7 @@ Informationen zur Verwendung des Filterbereichs finden Sie unter [Hinzufügen ei
 Das Markieren einer Säule in einem Wasserfalldiagramm ermöglicht ein Kreuzfiltern anderer Visualisierungen auf der Berichtsseite und umgekehrt. Die Säule mit dem Gesamtwert löst jedoch keine Markierung aus und reagiert nicht auf Kreuzfiltern.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Berichte in Power BI](../consumer/end-user-reports.md)
+
+[Visualinteraktionen](../service-reports-visual-interactions.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)
-
-[Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

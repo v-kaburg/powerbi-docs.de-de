@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250382"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565910"
 ---
 # <a name="install-power-bi-report-server"></a>Installieren von Power BI-Berichtsserver
 
@@ -24,7 +24,7 @@ Erfahren Sie, wie Power BI-Berichtsserver installiert wird.
 
 Um Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/), und klicken Sie auf **Kostenlose Testversion herunterladen**. 
 
-## <a name="before-you-begin"></a>Vorbereitende Schritte
+## <a name="before-you-begin"></a>Vorbereitung
 Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver](system-requirements.md) lesen.
 
 ### <a name="power-bi-report-server-product-key"></a>Product Key für den Power BI-Berichtsserver

@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565553"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416864"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radialmessgerät-Diagramme in Power BI
 Ein Diagramm für ein radiales Messgerät verfügt über einen Kreisbogen und zeigt einen einzelnen Wert an, mit dem der Fortschritt bei Erreichen eines Ziels oder KPI-Werts gemessen wird.  Das Ziel bzw. der Zielwert wird durch die Linie (Nadel) dargestellt. Der Fortschritt zur Erreichung des Ziels wird durch die Schattierung dargestellt.  Der Wert, der für diesen Fortschritt steht, ist innerhalb des Bogens in Fettschrift angegeben. Alle möglichen Werte sind gleichmäßig auf den Bogen verteilt, vom kleinsten Wert (ganz links) bis zum höchsten Wert (ganz rechts).
@@ -92,7 +92,7 @@ In Schritt 2 wurde in Power BI das Feld „Wert“ verwendet, um den kleinsten
 
 ### <a name="step-5-save-your-report"></a>Schritt 5: Speichern des Berichts
 1. [Speichern Sie den Bericht](../service-report-save.md).
-2. [Fügen Sie das Messgerätdiagramm als Dashboardkachel hinzu](../consumer/end-user-tiles.md). 
+2. [Fügen Sie das Messgerätdiagramm als Dashboardkachel hinzu](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Manuelles Festlegen der Werte für Minimum, Maximum und Ziel mithilfe der Formatierungsoptionen
 1. Entfernen Sie **Maximaler Bruttoumsatz** aus dem Bereich **Maximalwert** .
@@ -110,14 +110,8 @@ In Schritt 2 wurde in Power BI das Feld „Wert“ verwendet, um den kleinsten
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Optional können Sie mit der Formatierung des Tachometerdiagramms fortfahren.
 
-## <a name="next-steps"></a>Nächste Schritte
+## <a name="next-step"></a>Nächster Schritt
+
+[Messanzeigen in Power BI](power-bi-visualization-kpi.md)
+
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Hinzufügen einer Visualisierung zu einem Bericht](power-bi-report-add-visualizations-i.md)
-
-[Anheften einer Visualisierung an ein Dashboard](../service-dashboard-pin-tile-from-report.md)
-
-[ Power BI – Grundkonzepte](../consumer/end-user-basic-concepts.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

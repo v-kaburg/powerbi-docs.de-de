@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329383"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417163"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Echtzeitstreaming in Power BI
 Mit dem Power BI-Echtzeitstreaming können Sie in Echtzeit Daten streamen und Dashboards aktualisieren. Alle visuellen Elemente und Dashboards, die in Power BI erstellt werden können, können so erstellt werden, dass Echtzeitdaten und visuelle Echtzeitelemente angezeigt und aktualisiert werden. Die Geräte und Quellen von Streamingdaten können Factorysensoren, soziale Medien, Servicenutzungsmetriken sowie alle Elemente sein, über die zeitkritische Daten erfasst oder übertragen werden können.
@@ -65,7 +65,7 @@ In der folgenden Tabelle (oder Matrix) werden die drei Typen von Datasets für d
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> In [diesem MSDN-Artikel](https://msdn.microsoft.com/library/dn950053.aspx) finden Sie Informationen zu den **Push**-Beschränkungen hinsichtlich der übertragenen Datenmenge.
+> In [diesem Artikel](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) finden Sie Informationen zu den **Push**-Beschränkungen hinsichtlich der übertragenen Datenmenge.
 > 
 > 
 
@@ -83,14 +83,12 @@ Betrachten wir nun der Reihe nach diese einzelnen Möglichkeiten.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Übertragen von Daten per Push mit den Power BI-REST-APIs
 Mit **Power BI-REST-APIs** können Daten erstellt und an **Pushdatasets** und an **Streamingdatasets** gesendet werden. Wenn Sie ein Dataset mithilfe von Power BI-REST-APIs erstellen, wird mit dem *defaultMode*-Flag angegeben, ob es sich um ein Push- oder Streamingdataset handelt. Wenn kein *defaultMode*-Flag gesetzt ist, handelt es sich bei dem Dataset standardmäßig um ein **Pushdataset**.
 
-Wenn der *defaultMode*-Wert auf *pushStreaming* festgelegt ist, ist das Dataset sowohl ein **Push**- *als auch* ein **Streamingdataset** und bietet daher die Vorteile beider Datasettypen. Im REST-API-[Artikel zu **Dataset erstellen**](https://msdn.microsoft.com/library/mt203562.aspx) wird das Erstellen eines Streamingdatasets veranschaulicht, wobei das *defaultMode*-Flag festgelegt ist.
+Wenn der *defaultMode*-Wert auf *pushStreaming* festgelegt ist, ist das Dataset sowohl ein **Push**- *als auch* ein **Streamingdataset** und bietet daher die Vorteile beider Datasettypen. 
 
 > [!NOTE]
 > Wenn beim Verwenden von Datasets das *defaultMode*-Flag auf *pushStreaming* festgelegt ist und eine Anforderung die 15-KB-Größenbeschränkung für ein **Streamingdataset** überschreitet, jedoch unter der 16-MB-Größenbeschränkung eines **push**-Datasets liegt, wird die Anforderung erfolgreich ausgeführt, und die Daten werden im Pushdataset aktualisiert. Bei allen Streamingkacheln tritt jedoch vorübergehend ein Fehler auf.
-> 
-> 
 
-Verwenden Sie nach dem Erstellen eines Datasets die REST-APIs, um die Daten per Push mithilfe der [**Add rows**-API](https://msdn.microsoft.com/library/mt203561.aspx) zu übertragen, wie [in diesem Artikel veranschaulicht](https://msdn.microsoft.com/library/mt203561.aspx).
+Verwenden Sie nach dem Erstellen eines Datasets die REST-APIs, um die Daten per Push mithilfe der [**PostRows**-API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) zu übertragen.
 
 Alle Anforderungen an REST-APIs werden mit **Azure AD OAuth** gesichert.
 
@@ -159,7 +157,7 @@ In den nächsten Abschnitten werden diese Optionen im Einzelnen erläutert.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Wenn Power BI die über diesen Datenstream gesendeten Daten speichern soll, aktivieren Sie *Verlaufsdatenanalyse*. Anschließend können Sie für den gesammelten Datenstream Berichte erstellen und Analysen ausführen. Sie können sich außerdem [über die API informieren](https://msdn.microsoft.com/library/dn877544.aspx).
+Wenn Power BI die über diesen Datenstream gesendeten Daten speichern soll, aktivieren Sie *Verlaufsdatenanalyse*. Anschließend können Sie für den gesammelten Datenstream Berichte erstellen und Analysen ausführen. Sie können sich außerdem [über die API informieren](https://docs.microsoft.com/rest/api/power-bi/).
 
 Nachdem Sie den Datenstrom erfolgreich erstellt haben, steht Ihnen ein REST-API-URL-Endpunkt zur Verfügung, den die Anwendung mithilfe von *POST*-Anfragen aufrufen kann, um die Daten an das erstellte Power BI-Dataset für **Streamingdaten** zu übertragen.
 
@@ -223,10 +221,10 @@ Wenn Sie bei Pushdatasets über einen Zeitstempel im Schema verfügen, können S
 Dies ist derzeit leider nicht möglich.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Um auf die vorherige Frage zurückzukommen: Wie kann ich für Echtzeitdatasets eine Modellierung ausführen?
-Eine Modellierung ist bei einem Streamingdataset nicht möglich, da die Daten nicht dauerhaft gespeichert werden. Bei einem Pushdataset können Sie die REST-APIs zum Aktualisieren von Datasets/Tabellen verwenden, um Measures und Beziehungen hinzuzufügen. Weitere Informationen finden Sie im [Artikel „Update Table Schema“ (Tabellenschema aktualisieren)](https://msdn.microsoft.com/library/mt203560.aspx) und im [Artikel „Dataset properties“ (Dataseteigenschaften)](https://msdn.microsoft.com/library/mt742155.aspx).
+Eine Modellierung ist bei einem Streamingdataset nicht möglich, da die Daten nicht dauerhaft gespeichert werden. Bei einem Pushdataset können Sie die REST-APIs zum Aktualisieren von Datasets/Tabellen verwenden, um Measures und Beziehungen hinzuzufügen. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Wie kann ich alle Werte in einem Pushdataset löschen? Und wie sieht es bei einem Streamingdataset aus?
-In einem Pushdataset können Sie den REST-API-Aufruf „Delete Rows“ verwenden. Sie können jedoch auch dieses praktische Tool verwenden, das einen Wrapper um die REST-APIs darstellt. Derzeit gibt es keine Möglichkeit, Daten aus einem Streamingdataset zu löschen; die Daten werden jedoch nach Ablauf einer Stunde automatisch gelöscht.
+In einem Pushdataset können Sie den REST-API-Aufruf „Delete Rows“ verwenden. Derzeit gibt es keine Möglichkeit, Daten aus einem Streamingdataset zu löschen; die Daten werden jedoch nach Ablauf einer Stunde automatisch gelöscht.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Ich habe eine Azure Stream Analytics-Ausgabe in Power BI eingerichtet, diese wird jedoch in Power BI nicht angezeigt – worin besteht das Problem?
 Versuchen Sie, das Problem anhand der folgenden Prüfliste zu beheben:
@@ -241,9 +239,6 @@ Versuchen Sie, das Problem anhand der folgenden Prüfliste zu beheben:
 ## <a name="next-steps"></a>Nächste Schritte
 Hier sind einige Links zu Themen, die beim Verwenden von Echtzeitstreaming in Power BI hilfreich sein könnten:
 
-* [Übersicht über die Power BI-REST-API mit Echtzeitdaten](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Einschränkungen für Power BI-REST-API](https://msdn.microsoft.com/library/dn950053.aspx)
-* [REST-API-Artikel für **Dataset erstellen**](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**Add Rows** Power BI-REST-API](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Übersicht über die Power BI-REST-API mit Echtzeitdaten](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

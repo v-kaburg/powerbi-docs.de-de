@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135971"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547873"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Herstellen einer Verbindung mit Alpine Metrics Sales Predictions mithilfe von Power BI
 Alpine Metrics ermöglicht dank hochmoderner Technologie die Optimierung vorhersagbarer Vertriebsprozesse in der Cloud und nach Bedarf – sowohl für kleine als auch für große Vertriebsorganisationen. Das Alpine Metrics Sales Predictions-Inhaltspaket für Power BI umfasst Metriken wie potenzielle und vorhergesagte Verkäufe und Risiken, die Ihnen einen tieferen Einblick in die Zukunft Ihrer Geschäfte bieten. 
@@ -43,10 +43,10 @@ Stellen Sie eine Verbindung mit dem [Alpine Metrics Sales Predictions-Inhaltspak
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Das Inhaltspaket umfasst Daten aus den folgenden Tabellen:  
@@ -68,5 +68,5 @@ Ein Alpine Metrics-Konto mit Berechtigungen für die obigen Tabellen wird benöt
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 

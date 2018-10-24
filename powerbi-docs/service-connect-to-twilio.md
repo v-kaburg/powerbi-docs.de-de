@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249434"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544875"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Herstellen einer Verbindung mit Twilio mithilfe von Power BI
 Mit dem Microsoft Twilio-Inhaltspaket für Power BI können Sie Ihre Daten in Power BI abrufen und ein fertig konfiguriertes [Twilio-Dashboard](https://powerbi.microsoft.com/integrations/twilio) und einen Bericht erstellen, die Erkenntnisse zu Ihren Daten bieten. Sie können Ihre benutzerdefinierten Berichte und das Dashboard auch für das von Power BI erstellte Dataset erstellen. Die Daten werden einmal täglich aktualisiert werden, damit immer die aktuellen Daten angezeigt werden.
@@ -41,10 +41,10 @@ Stellen Sie die Verbindung zum [Twilio-Inhaltspaket](https://app.powerbi.com/get
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Die Details für alle Anruf- und Nachrichtentransaktionen für die letzten 30 Tage. Sie können für diese Daten alle Arten von Analysen und Aggregationen durchführen.

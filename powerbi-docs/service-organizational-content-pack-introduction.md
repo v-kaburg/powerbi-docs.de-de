@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547635"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908157"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
 > [!NOTE]
@@ -33,7 +33,7 @@ In AppSource können Sie die Inhaltspakete durchsuchen, die für die gesamte Org
 Die Dashboards, Berichte und Excel-Arbeitsmappen sind schreibgeschützt. Sie können die Berichte und Dashboards jedoch kopieren und als Ausgangspunkt für die Erstellung einer eigenen personalisierten Version des Inhaltspakets verwenden.
 
 > [!NOTE]
-> Organisationsbezogene Inhaltspakete sind nur verfügbar, wenn Sie und Ihre Kollegen mit [Power BI Pro](service-free-vs-pro.md) arbeiten.
+> Organisationsbezogene Inhaltspakete sind nur verfügbar, wenn Sie und Ihre Kollegen mit [Power BI Pro-Lizenzen](service-features-license-type.md) arbeiten.
 > 
 > 
 
@@ -52,7 +52,7 @@ Der Lebenszyklus sieht etwa wie folgt aus:
 1. Nate erstellt in Power BI Pro ein Inhaltspaket und veröffentlicht es für die Verteilergruppe „Marketing“. Die Einstellungen für die Aktualisierung werden mit dem Dataset geerbt und können nur von Nate geändert werden.
    
    > [!NOTE]
-   > Hinweis: Wenn Nate das Inhaltspaket von einem [Power BI-App-Arbeitsbereich](consumer/end-user-create-apps.md) aus erstellt, dem er angehört, können andere Mitglieder dieses Power BI-Arbeitsbereichs Besitzer des Inhaltspakets werden, wenn Nate den Arbeitsbereich verlässt.
+   > Hinweis: Wenn Nate das Inhaltspaket von einem [Power BI-App-Arbeitsbereich](service-create-distribute-apps.md) aus erstellt, dem er angehört, können andere Mitglieder dieses Power BI-Arbeitsbereichs Besitzer des Inhaltspakets werden, wenn Nate den Arbeitsbereich verlässt.
    > 
    > 
 2. Nate sendet eine E-Mail an die Verteilergruppe, in der er Informationen über das neue Inhaltspaket mitteilt.
@@ -76,7 +76,7 @@ Alle Mitglieder der Verteilergruppe verfügen über dieselben Berechtigungen fü
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen und Veröffentlichen von organisationsbezogenen Inhaltspaketen](service-organizational-content-pack-create-and-publish.md)
-* [Erstellen und Verteilen einer App in Power BI](consumer/end-user-create-apps.md) 
+* [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md) 
 * [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

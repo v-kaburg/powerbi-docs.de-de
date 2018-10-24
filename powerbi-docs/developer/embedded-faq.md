@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558566"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506797"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -84,15 +84,19 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
 |Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit zum Einbetten von Inhalten in SharePoint Online und Microsoft Teams (keine mobile App) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure? 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Was sind die Voraussetzungen zum Erstellen einer PBIE-Kapazität in Azure?
 
 * Sie müssen sich bei Ihrem Organisationsverzeichnis anmelden (MSA-Konten werden nicht unterstützt).
 * Sie müssen über einen Power BI-Mandanten verfügen, d.h. mindestens ein Benutzer in Ihrem Verzeichnis muss bei Power BI registriert sein. 
 * Sie müssen über ein Azure-Abonnement in Ihrem Organisationsverzeichnis verfügen.
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>Wie kann ich die Kapazitätsnutzung überwachen?
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Überwachen der Kapazitätsnutzung von Power BI Embedded
 
-Die Überwachung über Azure ist für die nähere Zukunft geplant. Die Azure-Ressource Power BI Embedded wird die Überwachung von KPIs zu Systemzustand und Nutzung umfassen.
+* Verwenden Sie dazu das [Power BI Admin-Portal](../service-admin-portal.md#power-bi-embedded-settings).
+
+* Herunterladen der [Metrik-App](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI.
+
+* Mithilfe von [Azure-Diagnoseprotokollierung](azure-pbie-diag-logs.md).
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>Wird meine Kapazität automatisch an die Nutzung meiner App angepasst?
 
@@ -276,11 +280,11 @@ Dies sind einige dieser Features:
 * Neue Features wie Q&A, Aktualisieren, Lesezeichen, Einbetten von Dashboards und Kacheln, benutzerdefinierte Menüs usw. werden nur in der Lösung **Power BI Embedded** unterstützt.
 * Kapazitätsbasiertes Abrechnungsmodell.
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Tool mit Onboardingfunktionen zur Einbettung
+## <a name="embedding-setup-tool-for-embedding"></a>Einbettungssetuptool zum Einbetten
 
-### <a name="what-is-the-onboarding-experience-tool"></a>Was ist das Tool mit Onboardingfunktionen?
+### <a name="what-is-the-embedding-setup-tool"></a>Was ist das Einbettungssetuptool?
 
-Mit dem [Tool mit Onboardingfunktion](https://aka.ms/embedsetup) können Sie schnell starten und eine Beispielanwendung herunterladen, um mit dem Einbetten mit Power BI zu beginnen.
+Mit dem [Einbettungssetuptool](https://aka.ms/embedsetup) können Sie schnell einsteigen und eine Beispielanwendung herunterladen, um mit dem Einbetten mit Power BI zu beginnen.
 
 ### <a name="which-solution-should-i-choose"></a>Welche Lösung soll ich verwenden?
 

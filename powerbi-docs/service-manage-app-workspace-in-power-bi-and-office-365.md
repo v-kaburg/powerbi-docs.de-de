@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547566"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908806"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Verwalten Ihres App-Arbeitsbereichs in Power BI und Office 365
-Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](consumer/end-user-apps.md) oder in Office 365 verwalten Sie einige Aspekte des Arbeitsbereichs in Power BI. Andere Aspekte werden in Office 365 verwaltet. 
+Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](service-create-distribute-apps.md) oder in Office 365 verwalten Sie einige Aspekte des Arbeitsbereichs in Power BI. Andere Aspekte werden in Office 365 verwaltet. 
 
 > [!NOTE]
 > Die Vorschauversion der neuen Arbeitsbereiche ändert die Beziehung zwischen Power BI-Arbeitsbereichen und Office 365-Gruppen. Office 365-Gruppen werden nicht jedes Mal automatisch erstellt, wenn Sie einen dieser neuen Arbeitsbereiche erstellen. Erfahren Sie mehr über [das Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md).
@@ -36,7 +36,7 @@ Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](consume
 * Anzeigen der E-Mail-Adresse der Gruppe
 * Löschen der Gruppe
 
-Sie benötigen eine [Power BI Pro](service-free-vs-pro.md)-Lizenz, damit Sie Administrator oder Mitglied eines App-Arbeitsbereichs sein können. Ihre App-Benutzer benötigen ebenfalls eine Power BI Pro-Lizenz, es sei denn, der App-Arbeitsbereich befindet sich in einer Power BI Premium-Kapazität. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
+Sie benötigen eine [Power BI Pro](service-features-license-type.md)-Lizenz, damit Sie Administrator oder Mitglied eines App-Arbeitsbereichs sein können. Ihre App-Benutzer benötigen ebenfalls eine Power BI Pro-Lizenz, es sei denn, der App-Arbeitsbereich befindet sich in einer Power BI Premium-Kapazität. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Verwalten Ihres App-Arbeitsbereichs in Power BI
 1. Wählen Sie im Power BI-Dienst den Pfeil neben **Arbeitsbereiche** aus, wählen Sie die Auslassungspunkte (**...**) neben dem Namen Ihres Arbeitsbereichs aus, und wählen Sie **Arbeitsbereich bearbeiten** aus. 
@@ -76,7 +76,6 @@ Wenn Sie Ihre App aus dem App-Arbeitsbereich verteilen, wird das Bild, das Sie h
 3. Wählen Sie **Speichern** oder **Verwerfen**.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
-* [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](consumer/end-user-create-apps.md)
+* [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](service-create-distribute-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

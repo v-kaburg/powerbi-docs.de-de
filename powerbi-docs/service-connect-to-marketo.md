@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135258"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545682"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Herstellen einer Verbindung mit Marketo mithilfe von Power BI
 Mit dem Power BI-Inhaltspaket für Marketo erhalten Sie Einblicke in Ihr Marketo-Konto mit Daten zu Leads und ihren Aktivitäten.Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann ein Dashboard und zugehörige Berichte automatisch bereitgestellt.
@@ -48,10 +48,10 @@ Stellen Sie eine Verbindung mit dem [Marketo-Inhaltspaket](https://app.powerbi.c
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Die folgenden Daten sind über Marketo in Power BI verfügbar, wobei die Aktivität zwischen „heute“ und „vor einem Jahr“ aufgetreten ist:

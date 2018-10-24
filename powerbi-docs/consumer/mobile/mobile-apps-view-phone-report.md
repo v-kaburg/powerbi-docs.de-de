@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732801"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547796"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 
@@ -24,7 +24,7 @@ Gilt für:
 |:--- |:--- |
 | iPhones |Android-Telefone |
 
-Wenn Sie in Power BI Desktop einen Power BI-Bericht erstellen, können Sie auch eine [zum Anzeigen in der Power BI-App auf einem Smartphone optimierte Version des Berichts](../../desktop-create-phone-report.md) erstellen.
+Wenn Sie in Power BI Desktop oder im Power BI-Dienst einen Power BI-Bericht erstellen, können Sie auch eine [zum Anzeigen in der Power BI-App auf einem Smartphone optimierte Version des Berichts](../../desktop-create-phone-report.md) erstellen.
 
 Beim Öffnen eines Power BI-Berichts auf einem Smartphone erkennt Power BI, ob der Bericht für Smartphones optimiert wurde, und öffnet den optimierten Bericht automatisch im Hochformat.
 
@@ -79,7 +79,7 @@ Aufgrund der Einschränkungen durch die Bildschirmgröße können manche Aktione
     Die Option zum Zurücksetzen ist auf Berichtsebene verfügbar, wobei alle Untersuchungsschritte aus sämtlichen visuellen Elementen gelöscht werden, oder auf der Ebene des visuellen Elements. Dabei werden alle Untersuchungsschritte aus dem speziellen visuellen Element gelöscht.   
 
 ## <a name="drill-down-in-a-visual"></a>Durchführen von Drilldown in einem visuellen Element
-Wenn in einem visuellen Element Hierarchieebenen definiert sind, können Sie einen Drilldown auf die Detailinformationen im visuellen Element durchführen und dann wieder zur höheren Ebene zurückkehren. Sie können im Power BI-Dienst und in Power BI Desktop [Drilldowns in einem Visual](../../power-bi-visualization-drill-down.md) ausführen. Drilldowns sind nur bei Power BI-Berichten möglich, die auf einem Smartphone angezeigt werden und für Smartphones optimiert wurden. 
+Wenn in einem visuellen Element Hierarchieebenen definiert sind, können Sie einen Drilldown auf die Detailinformationen im visuellen Element durchführen und dann wieder zur höheren Ebene zurückkehren. Sie können im Power BI-Dienst und in Power BI Desktop [Drilldowns in einem Visual](../end-user-drill.md) ausführen. Drilldowns sind nur bei Power BI-Berichten möglich, die auf einem Smartphone angezeigt werden und für Smartphones optimiert wurden. 
 
 1. Tippen Sie in einem Bericht auf einem Smartphone auf die Auslassungspunkte (**...**) in der oberen rechten Ecke und dann auf **Auf Fokusmodus erweitern**.
    

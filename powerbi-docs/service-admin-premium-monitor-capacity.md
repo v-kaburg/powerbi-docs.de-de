@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300159"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909220"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Überwachen von Power BI Premium-Kapazitäten in Ihrer Organisation
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Überwachen von Kapazitäten in Power BI Premium und Power BI Embedded
 
-Dieser Artikel bietet einen Überblick über die Überwachung der Metriken für Ihre Power BI Premium-Kapazitäten. Die Überwachung der Kapazitätsauslastung bietet Ihnen einen fundierten Ansatz für die Verwaltung Ihrer Kapazitäten. 
+Dieser Artikel bietet einen Überblick über die Überwachung der Metriken für Ihre Power BI Premium-Kapazitäten. Die Überwachung der Kapazitätsauslastung bietet Ihnen einen fundierten Ansatz für die Verwaltung Ihrer Kapazitäten.
 
 Sie können die Kapazität mithilfe der Power BI Premium Capacity Metrics-App oder dem Verwaltungsportal überwachen. Wir empfehlen die Verwendung der App, weil diese sehr viel umfangreichere Informationen bietet, aber dieser Artikel deckt beide Optionen ab.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Installieren der Premium Capacity Metrics-App
 
 Sie können direkt zur [Premium Capacity Metrics-App](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) wechseln oder diese wie andere Apps in Power BI installieren.
-
-> [!IMPORTANT]
-> Um diese App zu installieren und zu verwenden, müssen Sie als Kapazitätsadministrator für mindestens eine Kapazität fungieren. Power BI-Administratorrechte reichen nicht aus. 
 
 1. Klicken Sie in Power BI auf **Apps**.
 
@@ -42,47 +41,66 @@ Sie können direkt zur [Premium Capacity Metrics-App](https://app.powerbi.com/gr
 
 Nachdem Sie die App installiert haben, können Sie Metriken zu den Kapazitäten in Ihrer Organisation anzeigen. Sehen wir uns einige der wichtigsten Metriken an, die zur Verfügung gestellt werden.
 
-## <a name="use-the-metrics-app"></a>Verwenden der Metriken-App 
+## <a name="use-the-metrics-app"></a>Verwenden der Metriken-App
+
 Wenn Sie die App öffnen, wird zunächst ein Dashboard mit einer Zusammenfassung aller Kapazitäten angezeigt, für die Sie über Administratorrechte verfügen.
 
-![Übersicht der Premium-Berichte](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Metrik-App-Dashboard](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filter
+Der Bericht weist drei Registerkarten auf, die in den folgenden Abschnitten ausführlicher beschrieben werden.
 
-Auf der Registerkarte **Filters applied to all pages** (Auf alle Seiten angewendete Filter) können Sie eine Kapazität, ein Dataset und/oder einen Datumsbereich innerhalb der letzten 7 Tage auswählen. Diese Filter wenden die Auswahl auf alle relevanten Seiten und Kacheln in diesem Bericht an. Wenn keine Auswahl getroffen wurde, zeigt der Bericht standardmäßig die Metriken der letzten Woche für alle Kapazitäten an, die Sie besitzen.
+* **Filters applied to all pages** (Auf alle Seiten angewendete Filter): Ermöglicht Ihnen das Filtern der anderen Seiten im Bericht nach einer bestimmten Kapazität.
+* **Datasets**: Enthält ausführliche Metriken zur Integrität der Datasets in Ihren Kapazitäten.
+* **System**: Gibt die Metriken zur Gesamtkapazität an, einschließlich Arbeitsspeicher und hoher CPU-Auslastung. 
 
-![Übersicht der Premium-Berichte](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Registerkarte „Filters applied to all pages“ (Auf alle Seiten angewendete Filter)
 
-### <a name="summary-tab"></a>Registerkarte „Summary“ (Zusammenfassung)
+Auf der Registerkarte **Filters applied to all pages** (Auf alle Seiten angewendete Filter) können Sie eine Kapazität, ein Dataset und einen Datumsbereich innerhalb der letzten 7 Tage auswählen. Filter werden dann auf alle relevanten Seiten und Kacheln im Bericht angewendet. Wenn keine Filter ausgewählt sind, zeigt der Bericht standardmäßig die Metriken der letzten Woche für alle Kapazitäten an, die Sie besitzen.
 
-Auf der Registerkarte **Summary** (Zusammenfassung) wird eine Ansicht der Kapazität basierend auf Entitäten, System und Datasets angezeigt.
+![Registerkarte „Filter“](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filter, die auf alle Seiten angewendet werden](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Registerkarte „Datasets“
 
-| **Bereich** | **Metriken** |
+Die Registerkarte **Datasets** enthält den größten Teil der Metriken in der App. Verwenden Sie die vier Schaltflächen am oberen Rand der Registerkarte, um zu unterschiedlichen Bereichen zu navigieren: **Zusammenfassung**, **Aktualisierungen**, **Abfragen** und **Datasets**.
+
+![Registerkarte „Datasets“](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Bereich „Summary“ (Zusammenfassung)
+
+![Schaltfläche „Summary“ (Zusammenfassung)](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+Der Bereich **Summary** (Zusammenfassung) zeigt eine Ansicht Ihrer Kapazitäten auf der Grundlage von Entitäten, Systemressourcen und Dataset-Workloads.
+
+| | **Metriken** |
 | --- | --- |
 | **Entities** (Entitäten) | * Die Anzahl von Kapazitäten, die Sie besitzen<br> * Die Anzahl von Datasets in Ihrer Kapazität<br> * Die Anzahl von Arbeitsbereichen in Ihrer Kapazität |
 | **System** | * Die durchschnittliche Arbeitsspeicherverwendung in GB in den letzten 7 Tagen<br> * Der höchste Arbeitsspeicherverbrauch in GB in den letzten 7 Tagen, mit Angabe der Uhrzeit des Auftretens<br> * Die Anzahl von Vorkommen, bei denen die CPU-Auslastung in den letzten 7 Tagen 80% des Schwellenwerts überschritten hat, unterteilt in 3-Minuten-Abschnitte<br> * Häufigste Zeiten, zu denen die CPU-Auslastung in den letzten 7 Tagen 80% überschritten hat, unterteilt in 1-Stunden-Abschnitte und mit Angabe der Uhrzeit des Auftretens<br> * Die Anzahl von Vorkommen, bei denen direkte Abfragen/Liveverbindungen in den letzten 7 Tagen 80% des Schwellenwerts überschritten haben, unterteilt in 3-Minuten-Abschnitte<br> * Häufigste Zeiten, zu denen direkte Abfragen/Liveverbindungen 80% überschritten haben, unterteilt in 1-Stunden-Abschnitte und mit Angabe der Uhrzeit des Auftretens |
 | **Dataset Workloads** (Datasetworkloads) | * Gesamtanzahl der Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen aufgrund von Arbeitsspeichermangel<br> * Durchschnittliche Aktualisierungsdauer in Minuten, angegeben als Zeit bis zum Abschluss des Vorgangs<br> * Durchschnittliche Wartezeit für Aktualisierungen in Minuten, angegeben als durchschnittliche Verzögerung zwischen geplanter Zeit und Start des Vorgangs<br> * Gesamtanzahl der ausgeführten Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Abfragen in den letzten 7 Tagen<br> * Durchschnittliche Abfragedauer in Minuten, angegeben als Zeit bis zum Abschluss des Vorgangs<br> * Gesamtanzahl der entfernten Modelle aufgrund von Speicherauslastung |
 |  |  |
 
-### <a name="refreshes-tab"></a>Registerkarte „Refreshes“ (Aktualisierungen)
+#### <a name="refreshes-area"></a>Bereich „Refreshes“ (Aktualisierungen)
 
-Auf der Registerkarte **Refreshes** (Aktualisierungen) werden die abgeschlossenen Aktualisierungen, Erfolgskennzahlen, die durchschnittliche/maximale Wartezeit und die durchschnittliche/maximale Dauer der Aktualisierungen in den letzten 7 Tagen angezeigt, unterteilt nach Datasets. Die zwei unteren Diagramme zeigen die Aktualisierungen und den Arbeitsspeicherverbrauch in GB im Vergleich sowie die durchschnittliche Wartezeit an, unterteilt in 1-Stunden-Abschnitte, angegeben in der Ortszeit. Die oberen Diagramme zeigen die fünf wichtigsten Datasets nach der Gesamtdauer der Aktualisierung des Datasets (Aktualisierungsdauer) und der maximalen Wartezeit bei der Aktualisierung. Mehrere Spitzen bei der Wartezeit für die Aktualisierung weisen auf eine hohe Auslastung der Kapazität hin.
+![Schaltfläche „Refreshes“ (Aktualisierungen)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Premium-Bericht zu Aktualisierungen](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+Im Bereich **Refreshes** (Aktualisierungen) werden die abgeschlossenen Aktualisierungen, Erfolgskennzahlen, die durchschnittliche/maximale Wartezeit und die durchschnittliche/maximale Dauer der Aktualisierungen in den letzten 7 Tagen angezeigt, unterteilt nach Datasets. Die zwei unteren Diagramme zeigen die Aktualisierungen und den Arbeitsspeicherverbrauch in GB im Vergleich sowie die durchschnittliche Wartezeit an, unterteilt in 1-Stunden-Abschnitte, angegeben in der Ortszeit. Die oberen Diagramme zeigen die fünf wichtigsten Datasets nach der durchschnittlichen Dauer der Aktualisierung des Datasets (Aktualisierungsdauer) und der durchschnittlichen Wartezeit bei der Aktualisierung. Mehrere Spitzen bei der Wartezeit für die Aktualisierung weisen auf eine hohe Auslastung der Kapazität hin.
 
-### <a name="datasets-tab"></a>Registerkarte „Datasets“
+#### <a name="queries-area"></a>Bereich „Queries“ (Abfragen)
 
-Die Registerkarte **Datasets** zeigt die Entfernung vollständiger Datasets aufgrund von Speicherauslastung nach Stunde an.
+![Schaltfläche „Queries“ (Abfragen)](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Premium-Bericht zu Datasets](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+Im Bereich **Queries** (Abfragen) sind die Gesamtzahl der ausgeführten Abfragen, die Gesamtzahl der wartenden Abfragen für Liveabfragen/Direktabfragen, die durchschnittliche/maximale Dauer, die durchschnittliche/maximale gemeldete Wartezeit in Millisekunden, aufgeteilt nach Datasets, Arbeitsbereich und stündlichen Buckets, für die letzten sieben Tage aufgelistet. Die Diagramme unten zeigen die Abfrageanzahl, die durchschnittliche Dauer (in Millisekunden) und die durchschnittliche Wartezeit (in Millisekunden) gegenüber der Speichernutzung in GB, aufgeteilt in einstündige Buckets und gemeldet in Ortszeit. In den beiden obersten rechten Diagramme sind die fünf obersten Datasets nach durchschnittlicher Dauer der Abfrage und nach der Wartezeit bis zum vollständigen Abschluss der Abfragen aufgelistet. Lange Ausführungsdauern und lange Wartezeiten sind ein Hinweis auf sich erschöpfende Kapazität. Es kann aber auch bedeuten, dass ein einzelnes Dataset Probleme verursacht und weitere Untersuchungen erforderlich sind.
+
+#### <a name="datasets-area"></a>Bereich „Datasets“
+
+![Schaltfläche „Datasets“](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+Der Bereich **Datasets** zeigt die Entfernung vollständiger Datasets aufgrund von Speicherauslastung nach Stunde an.
 
 ### <a name="system-tab"></a>Registerkarte „System“
 
-Auf der Registerkarte **System** werden eine hohe CPU-Auslastung (Anzahl von Überschreitungen von 80%), eine hohe Auslastung für direkte Abfragen/Liveverbindungen und der Arbeitsspeicherverbrauch angezeigt.
+Auf der Registerkarte **System** werden Zeiten hoher CPU-Auslastung (Anzahl der Überschreitungen von 80 %), eine hohe Auslastung für direkte Abfragen/Liveverbindungen und der Arbeitsspeicherverbrauch angezeigt.
 
-![Premium-Bericht zum System](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Premium-Bericht zum System](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Überwachen einer Power BI Embedded-Kapazität
 

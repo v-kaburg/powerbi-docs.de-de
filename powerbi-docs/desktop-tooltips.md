@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512154"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416795"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 
@@ -125,7 +125,7 @@ Folgende Einschränkungen und Überlegungen sollten Sie bei **QuickInfos** berü
 
 * Ab dem **Power BI Desktop**-Release von September 2018 sind QuickInfos allgemein verfügbar und werden auch von Kartenvisuals unterstützt.
 * Ab dem **Power BI Desktop**-Release von Juli 2018 werden Tabellen- und Matrixvisuals für QuickInfos unterstützt. 
-* QuickInfos für Berichte werden nicht beim Anzeigen von Berichten in mobilen Apps oder in eingebetteten Umgebungen unterstützt, einschließlich Webveröffentlichungen. 
+* QuickInfos für Berichte werden beim Anzeigen von Berichten in mobilen Apps nicht unterstützt. 
 * QuickInfos für Berichte werden nicht für benutzerdefinierte Visuals unterstützt. 
 * Cluster werden derzeit nicht als Felder unterstützt, die in QuickInfos für Berichte angezeigt werden können. 
 * Bei der Auswahl eines Felds zur Anzeige in einer QuickInfo für Berichte und beim Vergleich von Feld und Kategorie gilt, dass Visuals, die dieses Feld enthalten, die angegebene QuickInfo nur anzeigen, wenn die Zusammenfassung mit dem ausgewählten Feld übereinstimmt. 
@@ -136,5 +136,5 @@ Folgende Einschränkungen und Überlegungen sollten Sie bei **QuickInfos** berü
 Weitere Informationen zu Features, die QuickInfos für Berichte ähneln oder mit diesen interagieren, finden Sie in den folgenden Artikeln:
 
 * [Verwenden der Drillthroughfunktion in Power BI Desktop](desktop-drillthrough.md)
-* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](service-focus-mode.md)
+* [Anzeigen einer Dashboardkachel oder eines Berichtsvisuals im Fokusmodus](consumer/end-user-focus.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544622"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908576"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Adobe Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Adobe Analytics über Power BI beginnt mit dem Verbinden mit Ihrem Konto für die Adobe Analytics Marketing Cloud. Sie erhalten eine App mit einem Power BI-Dashboard und einer Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Die Daten werden automatisch einmal täglich aktualisiert. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern.
@@ -25,26 +25,26 @@ Stellen Sie eine Verbindung mit [Adobe Analytics](https://app.powerbi.com/getdat
 ## <a name="how-to-connect"></a>Herstellen der Verbindung
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Wählen Sie **Adobe Analytics** \> **Abrufen** aus.
+3. Wählen Sie **Adobe Analytics** \> **Abrufen** aus.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI stellt eine Verbindung mit einem bestimmten Adobe Analytics-Unternehmen und einer Berichtssuite-ID her (nicht mit dem Namen der Berichtssuite). Unten finden Sie Einzelheiten zum [Suchen dieser Parameter](#FindingParams).
+4. Power BI stellt eine Verbindung mit einem bestimmten Adobe Analytics-Unternehmen und einer Berichtssuite-ID her (nicht mit dem Namen der Berichtssuite). Unten finden Sie Einzelheiten zum [Suchen dieser Parameter](#FindingParams).
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. Wählen Sie als **Authentifizierungsmethode** die Option **oAuth2** \> **Anmelden** aus. Geben Sie auf die Aufforderung hin Ihre Adobe Analytics-Anmeldeinformationen ein. 
+5. Wählen Sie als **Authentifizierungsmethode** die Option **oAuth2** \> **Anmelden** aus. Geben Sie auf die Aufforderung hin Ihre Adobe Analytics-Anmeldeinformationen ein. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Klicken Sie auf **Akzeptieren** , um Power BI den Zugriff auf Ihre Adobe Analytics-Daten zu erlauben.
+6. Klicken Sie auf **Akzeptieren** , um Power BI den Zugriff auf Ihre Adobe Analytics-Daten zu erlauben.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. Nachdem Sie zugestimmt haben, startet der Importvorgang automatisch. 
+7. Nachdem Sie zugestimmt haben, startet der Importvorgang automatisch. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Anzeigen des Dashboards und der Berichte von Adobe Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics-Dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,7 +82,7 @@ Den Wert „Unternehmen“ finden Sie oben rechts in Ihrem Konto, sobald Sie ang
 
 **Berichtssuite-ID**
 
-Die Suite-ID wird beim Erstellen der Berichtssammlung erstellt. Sie können sich an Ihren Administrator wenden, um den ID-Wert zu ermitteln. Beachten Sie, dass es sich nicht um den Namen der Berichtssuite handelt.
+Die Suite-ID wird beim Erstellen der Berichtssammlung erstellt. Sie können sich an Ihren Administrator wenden, um den ID-Wert zu ermitteln. Es handelt sich nicht um den Namen der Berichtssuite.
 
 Aus der [Dokumentation](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) von Adobe:
 
@@ -91,10 +91,10 @@ Aus der [Dokumentation](https://marketing.adobe.com/resources/help/en_US/referen
 ## <a name="troubleshooting"></a>Problembehandlung
 Wenn Sie nach Angabe Ihrer Anmeldeinformationen eine Fehlermeldung erhalten, der zufolge Sie keine Berechtigungen haben, stellen Sie gemeinsam mit Ihrem Administrator sicher, dass Sie Zugang zur Adobe Analytics-API haben. Vergewissern Sie sich zudem, dass die bereitgestellte Adobe-ID mit Ihrer Marketing Cloud-Organisation (zugeordnet zu einem Adobe Analytics-Unternehmen) verknüpft ist.
 
-Wenn erst nach dem erfolgreichen Verlassen des Anmeldebildschirms ein Fehler auftritt, ist seine Ursache möglicherweise, dass das Ausführen der Berichte zu lange dauert. Ein häufiger Fehler lautet etwa wie *„Fehler beim Auslesen der Daten aus dem Adobe Analytics-Bericht. Der Bericht enthielt &quot;referrer, page&quot;. Die geschätzte Dauer betrug xx Sekunden“*. Konsultieren Sie den Abschnitt „Inhalt“, und führen Sie einen Vergleich mit der Größe Ihrer Adobe-Instanz durch. Leider gibt es derzeit keine Möglichkeit zum Umgehen dieses Timeouts. Wir ziehen allerdings Updates zur Unterstützung größerer Instanzen in Betracht. Unter https://ideas.powerbi.com können Sie dem Power BI-Team Feedback geben.
+Wenn erst nach dem erfolgreichen Verlassen des Anmeldebildschirms ein Fehler auftritt, ist seine Ursache möglicherweise, dass das Ausführen der Berichte zu lange dauert. Ein häufiger Fehler lautet etwa wie *„Fehler beim Auslesen der Daten aus dem Adobe Analytics-Bericht. Der Bericht enthielt &quot;referrer, page&quot;. Die geschätzte Dauer betrug xx Sekunden“*. Schlagen Sie im Abschnitt „Inhalt“ nach, und führen Sie einen Vergleich mit der Größe Ihrer Adobe-Instanz durch. Leider gibt es derzeit keine Möglichkeit zum Umgehen dieses Timeouts. Wir ziehen allerdings Updates zur Unterstützung größerer Instanzen in Betracht. Unter https://ideas.powerbi.com können Sie dem Power BI-Team Feedback geben.
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Was sind Apps in Power BI?](consumer/end-user-apps.md)
+* [Was sind Apps in Power BI?](service-create-distribute-apps.md)
 * [Abrufen von Daten in Power BI](service-get-data.md)
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

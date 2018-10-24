@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dbf3831264a354ec96a38751dfa7a3719c5c9f2a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb7828bf22f364ae0982d5c80a17b075bb5b143
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247939"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549579"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Herstellen einer Verbindung mit Troux für Power BI
 Mit dem Troux-Inhaltspaket können Sie Ihr Unternehmensarchitektur-Repository direkt in Power BI auf ganz neue Weise visualisieren. Das Inhaltspaket eröffnet Ihnen eine Reihe von Einsichten in Ihre Geschäftsperspektiven, die Anwendungen, die diese Perspektiven bereitstellen, und die Technologien, die diese Anwendungen unterstützen. All das in Power BI umfassend anpassbar.
@@ -44,10 +44,10 @@ Stellen Sie eine Verbindung zum [Troux-Inhaltspaket](https://app.powerbi.com/get
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="system-requirements"></a>Systemanforderungen
 Zugriff auf den Troux-OData-Feed und Troux 9.5.1 oder höher sind erforderlich.

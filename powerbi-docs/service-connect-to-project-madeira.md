@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 49902e5f7705bf17b8343aa09af6d2fcf43f7ee5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599782"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550142"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Herstellen einer Verbindung mit Project „Madeira“ mithilfe von Power BI
 Einblicke in Ihre Project „Madeira“-Daten sind jetzt problemlos mit Power BI und dem Project „Madeira“-Inhaltspaket möglich. Power BI ruft Ihre Daten, sowohl Umsatz- als auch Finanzdaten, ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -48,10 +48,10 @@ Stellen Sie eine Verbindung mit dem [Project „Madeira“ Analytics-Inhaltspake
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 <a name="Requirements"></a>
 
@@ -115,5 +115,5 @@ Möglicherweise haben Sie auch vergessen, den Unternehmensnamen anzugeben:
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549981"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909059"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power BI für Ihre persönlichen Berichts- und Visualisierungsanforderungen zu nutzen.
@@ -24,7 +24,7 @@ Erfahren Sie, wie Sie sich für Power BI registrieren, und beginnen Sie, Power B
 
 Power BI kann Ihr persönliches Tool für Berichte und Visualisierungen sein und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen.
 
-Dieser Artikel führt Sie durch die Optionen, die es für das Registrieren und erste Schritte mit dem Power BI-Dienst gibt. Informationen zu den Unterschieden zwischen Power BI Free und Pro finden Sie unter [Power BI Free und Pro im Vergleich](service-free-vs-pro.md).
+Dieser Artikel führt Sie durch die Optionen, die es für das Registrieren und erste Schritte mit dem Power BI-Dienst gibt. Weitere Informationen zu den funktionellen Unterschieden zwischen den Power BI-Lizenztypen finden Sie unter [Power BI-Features nach Lizenztyp](service-features-license-type.md).
 
 ## <a name="you-have-a-few-options"></a>Sie haben einige Optionen
 Als Einzelperson haben Sie mehrere Optionen, um sich zu registrieren und erste Schritte mit Power BI auszuführen. Sie können sich für ein kostenloses Konto registrieren, oder Sie können ein Power BI Pro-Abonnement erwerben. Wenn Sie sich für ein kostenloses Konto registrieren, haben Sie, sobald Sie den Dienst nutzen, die Option, eine kostenlose 60-Tage-Testversion von Power BI Pro zu aktivieren.
@@ -99,7 +99,7 @@ Sie sehen dann eine Meldung, in der Sie gebeten werden, **Starten** auszuwählen
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Power BI Pro als 60-Tage-Testversion
 Nachdem Sie sich für ein kostenloses Konto registriert haben, erhalten Sie die Möglichkeit, die Pro-Version 60 Tage lang kostenlos zu testen. Während des Testzeitraums haben Sie Zugriff auf alle Pro-Features. Power BI Pro hat alle Features der kostenlosen Version von Power BI sowie zusätzliche Features für Freigeben und Zusammenarbeit. Weitere Informationen finden Sie unter [Power BI – Preise](https://powerbi.microsoft.com/pricing). Um eine 60 Tage lang gültige kostenlose Testversion von Power BI Pro auszuprobieren, melden Sie sich bei Power BI an, und testen Sie eins dieser Features von Power BI Pro:
 
-* [Erstellen eines App-Arbeitsbereichs](consumer/end-user-create-apps.md)
+* [Erstellen eines App-Arbeitsbereichs](service-create-distribute-apps.md)
 * [Freigeben eines Dashboards](service-share-dashboards.md)
 
 Wenn Sie eins dieser Features ausprobieren, werden Sie aufgefordert, Ihren kostenlosen Testzeitraum zu beginnen. Sie können die Testversion auch starten, indem Sie auf das Zahnradsymbol klicken und **Persönlichen Speicher verwalten** auswählen. Klicken Sie anschließend rechts auf **Pro kostenlos testen**.
@@ -139,8 +139,7 @@ In vielen Fällen ist die Registrierung für Power BI mit dem oben beschriebenen
 |            **Self-Service-Registrierung deaktiviert** Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Ihre Registrierung konnte nicht beendet werden. Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert. Bitte wenden Sie sich an Ihre IT-Abteilung, um den Anmeldeprozess abzuschließen.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.*             |                             Der IT-Administrator Ihres Unternehmens hat die Self-Service-Registrierung für Power BI deaktiviert. <br /><br /> Wenden Sie sich an Ihren IT-Administrator, und bitten Sie ihn, die untenstehenden Anweisungen zu befolgen, damit Sie die Registrierung abschließen, vorhandene Benutzer für Power BI registrieren und Ihrem bestehenden Mandanten neue Benutzer hinzufügen können. <br/><br/> Dieses Problem kann auch auftreten, wenn Sie sich über einen Partner für Office 365 registriert haben. [Weitere Informationen](service-admin-syndication-partner.md) <br /><br /> [Power BI in Ihrer Organisation](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **Die E-Mail-Adresse ist keine Office 365-ID**. Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Wir können Sie auf „contoso.com“ nicht finden.  Verwenden Sie auf der Arbeit oder in der Schule eine andere ID? <br /><br /> Versuchen Sie, sich damit anzumelden. Wenn es nicht funktioniert, wenden Sie sich an Ihre IT-Abteilung.*                                                                                           | Ihre Organisation verwendet für die Anmeldung bei Office 365 und anderen Microsoft-Diensten andere IDs als Ihre E-Mail-Adresse.  Ihre E-Mail-Adresse ist z. B., Nancy.Smith@contoso.com aber Ihre ID ist nancys@contoso.com. <br /><br /> Nutzen Sie zum Abschließen der Registrierung die ID, die Ihrem Unternehmen für die Anmeldung bei Office 365 oder anderen Microsoft-Diensten zugewiesen wurde.  Wenn Sie diese nicht kennen, wenden Sie sich an Ihren IT-Administrator. <br /><br /> Wenn Sie sich noch immer nicht registrieren können, besteht auch die Möglichkeit, sich mit einem erweiterten Setup [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement anzumelden](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Nächste Schritte
-[Power BI Free in Ihrer Organisation](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>Nächste Schritte  
 [Erwerb von Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI-Servicevertrag für Einzelbenutzer](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium – Beschreibung](service-premium.md)  

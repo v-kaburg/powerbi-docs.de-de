@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726384"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564783"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop.
@@ -31,7 +31,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     ![Power BI Desktop aus dem Webportal herunterladen](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (optimiert für Power BI-Berichtsserver, März 2018) im Microsoft Download Center aufrufen.
+    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (optimiert für Power BI-Berichtsserver, August 2018) im Microsoft Download Center aufrufen.
 
 2. Wählen Sie im Download Center **Download** aus.
 
@@ -41,7 +41,8 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     - **PBIDesktopRS_x64.msi** (64-Bit-Version).
 
-1. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (Oktober 2017) aus.
+1. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (August 2018) aus.
+
 2. Aktivieren Sie am Ende des Installationsvorgangs **Power BI Desktop jetzt starten**.
    
     Die App wird automatisch gestartet, sodass Sie gleich loslegen können.
@@ -49,7 +50,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 ## <a name="verify-you-are-using-the-correct-version"></a>Überprüfen, ob Sie die richtige Version verwenden
 Sie können überprüfen, ob Sie die richtige Power BI Desktop-Version verwenden, indem Sie einen Blick auf den Startbildschirm oder die Titelleiste in Power BI Desktop werfen. In der Titelleiste werden Monat und Jahr des Releases angegeben.
 
-![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 Die Power BI Desktop-Version für den Power BI-Dienst gibt Monat und Jahr nicht in der Titelleiste an.
 
@@ -63,7 +64,7 @@ Sie können immer zuerst die Version von Power BI Desktop öffnen, die Sie verwe
 Zum Bearbeiten eines Power BI-Berichts in Power BI-Berichtsserver oder Erstellen eines neuen Power BI-Berichts über das Webportal wird stets die richtige Version von Power BI Desktop geöffnet.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://powerbi.com)) funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
+Power BI-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://app.powerbi.com) sowie in den mobilen Power BI-Apps funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
 
 ### <a name="in-a-browser"></a>In einem Browser
 Power BI-Berichtsserver-Berichte unterstützen alle Visualisierungen, einschließlich:
@@ -80,9 +81,9 @@ Power BI-Berichtsserver-Berichte unterstützen Folgendes nicht:
 ### <a name="in-the-power-bi-mobile-apps"></a>In den mobilen Power BI-Apps
 Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobilen Power BI-Apps](../consumer/mobile/mobile-apps-for-mobile-devices.md), einschließlich:
 
-* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die mobilen Power BI-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für Smartphone-Berichtslayout](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
+* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die mobilen Power BI-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für Smartphone-Berichtslayout](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
   
-    ![Für Telefone optimierter Bericht](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![Für Telefone optimierter Bericht](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den mobilen Power BI-Apps nicht unterstützt:
 

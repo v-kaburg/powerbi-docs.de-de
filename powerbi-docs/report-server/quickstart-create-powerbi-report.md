@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726729"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564921"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Erstellen eines Power BI-Berichts für den Power BI-Berichtsserver
 Sie können Power BI-Berichte lokal im Webportal von Power BI-Berichtsserver ebenso wie in der Cloud im Power BI-Dienst https://powerbi.com) speichern und verwalten. Sie erstellen und bearbeiten Berichte in Power BI Desktop und veröffentlichen sie im Webportal. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.
@@ -31,7 +31,7 @@ Wenn Sie bereits Power BI-Berichte in Power BI Desktop erstellt haben, ist das E
 
     ![Power BI Desktop aus dem Webportal herunterladen](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (optimiert für Power BI-Berichtsserver – März 2018) im Microsoft Download Center aufrufen.
+    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (optimiert für Power BI-Berichtsserver – August 2018) im Microsoft Download Center aufrufen.
 
 2. Wählen Sie im Download Center **Download** aus.
 
@@ -41,13 +41,13 @@ Wenn Sie bereits Power BI-Berichte in Power BI Desktop erstellt haben, ist das E
 
     - **PBIDesktopRS_x64.msi** (64-Bit-Version).
 
-4. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (März 2018) aus.
+4. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (August 2018) aus.
 
 2. Aktivieren Sie am Ende des Installationsvorgangs **Power BI Desktop jetzt starten**.
    
-    Die App wird automatisch gestartet, sodass Sie gleich loslegen können. Anhand des Texts „Power BI Desktop (März 2018)“ auf der Titelleiste erkennen Sie, dass Sie über die richtige Version verfügen.
+    Die App wird automatisch gestartet, sodass Sie gleich loslegen können. Anhand des Texts „Power BI Desktop (August 2018)“ auf der Titelleiste erkennen Sie, dass Sie über die richtige Version verfügen.
 
-    ![Power BI Desktop-Version von März 2018](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop, Version August 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Wenn Sie mit Power BI Desktop nicht vertraut sind, wird empfohlen, sich die Videos auf dem Begrüßungsbildschirm anzusehen.
    
@@ -91,36 +91,6 @@ Wenn Ihr Bericht fertig ist, speichern Sie ihn auf dem Power BI-Berichtsserver, 
 2. Jetzt können Sie ihn im Webportal anzeigen.
    
     ![Den Bericht im Webportal anzeigen](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://powerbi.com)) funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
-
-### <a name="in-a-browser"></a>In einem Browser
-Power BI-Berichtsserver-Berichte unterstützen alle Visualisierungen, einschließlich:
-
-* Benutzerdefinierte Visualisierungen
-
-Power BI-Berichtsserver-Berichte unterstützen Folgendes nicht:
-
-* Visuelle R-Elemente
-* ArcGIS-Karten
-* Brotkrümel
-* Vorschaufeatures für Power BI Desktop
-
-### <a name="in-the-power-bi-mobile-apps"></a>In den mobilen Power BI-Apps
-Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobilen Power BI-Apps](../consumer/mobile/mobile-apps-for-mobile-devices.md), einschließlich:
-
-* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die mobilen Power BI-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für Smartphone-Berichtslayout](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
-  
-    ![Für Telefone optimierter Bericht](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den mobilen Power BI-Apps nicht unterstützt:
-
-* Visuelle R-Elemente
-* ArcGIS-Karten
-* Benutzerdefinierte Visualisierungen
-* Brotkrümel
-* Geofilter oder Strichcodes
 
 ## <a name="next-steps"></a>Nächste Schritte
 ### <a name="power-bi-desktop"></a>Power BI Desktop

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543947"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908238"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -23,7 +23,7 @@ Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammena
 > [!NOTE]
 > Die Vorschauversion der neuen Arbeitsbereiche ändert die Beziehung zwischen Power BI-Arbeitsbereichen und Office 365-Gruppen. Office 365-Gruppen werden nicht jedes Mal automatisch erstellt, wenn Sie einen dieser neuen Arbeitsbereiche erstellen. Erfahren Sie mehr über [das Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md).
 
-App-Arbeitsbereiche sind nur in [Power BI Pro](service-free-vs-pro.md) verfügbar.
+App-Arbeitsbereiche stehen nur in Verbindung mit einer [Power BI Pro-Lizenz](service-features-license-type.md) zur Verfügung.
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Zusammenarbeit an Power BI Desktop-Dateien in Ihrem App-Arbeitsbereich
 Wenn Sie eine Power BI Desktop-Datei erstellt haben und diese in Ihrem Power BI-App-Arbeitsbereich veröffentlichen, können dadurch alle Mitglieder in Ihrem Arbeitsbereich daran zusammenarbeiten.
@@ -77,7 +77,7 @@ Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Pow
 Wenn Sie Besitzer oder Administrator eines App-Arbeitsbereichs sind, können Sie auch Arbeitsbereichsmitglieder hinzufügen oder entfernen. Erfahren Sie mehr über das [Verwalten Ihres Power BI-App-Arbeitsbereichs](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](consumer/end-user-create-apps.md)
+* [Erstellen von Apps und App-Arbeitsbereichen in Power BI](service-create-distribute-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 * Feedback? Besuchen Sie [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 

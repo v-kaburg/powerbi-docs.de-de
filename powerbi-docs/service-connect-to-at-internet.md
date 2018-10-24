@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136362"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549417"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Herstellen einer Verbindung mit AT Internet Bridge mithilfe von Power BI
 AT Internet ermöglicht Ihnen mithilfe seiner Analytics Suite, einer vereinheitlichten digitalen Analyseplattform, einen unmittelbaren Nutzen aus Ihren Daten zu ziehen. Das AT Internet Bridge-Inhaltspaket für Power BI enthält Daten zu Seitenaufrufen, Datenquellen, Lokalisierung und Geräten für Ihre Website.
@@ -44,10 +44,10 @@ Stellen Sie die Verbindung zum [AT Internet Bridge-Inhaltspaket](https://app.pow
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="whats-included"></a>Inhalt
 Dieses Inhaltspaket enthält Daten der letzten 45 Tage in den folgenden Tabellen:  
@@ -61,5 +61,5 @@ Dieses Inhaltspaket enthält Daten der letzten 45 Tage in den folgenden Tabelle
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)
 
-[Power BI – Grundkonzepte](service-basic-concepts.md)
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 

@@ -3,20 +3,21 @@ title: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Ihre Kunden in eine Web-App integrieren bzw. einbetten.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616049"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827431"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
+
 Mit **Power BI Embedded in Azure** können Sie mit **App Owns Data** (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. Die Verwendung von **App Owns Data** ist in der Regel ein Szenario für **ISV-Entwickler**. **ISV-Entwickler** können **Power BI**-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer der Anwendung über eine Power BI-Lizenz verfügen müssen. Dieses Tutorial veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das **Power BI** .NET SDK sowie die **Power BI**-JavaScript-API verwenden, wenn Sie **Power BI Embedded in Azure** für Ihre Kunden mit **App Owns Data** nutzen.
 
 In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
@@ -25,6 +26,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 >* Einbetten eines Power BI-Berichts in eine App
 
 ## <a name="prerequisites"></a>Voraussetzungen
+
 Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microsoft Azure**-Abonnement.
 
 * Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/en-us/pricing/), bevor Sie beginnen.
@@ -36,9 +38,10 @@ Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microso
 
 Bevor Sie mit dem Einbetten von Dashboards, Berichten und Kacheln in Ihre Anwendung beginnen, müssen Sie sicherstellen, dass Ihre Umgebung für Einbettungsvorgänge eingerichtet ist. Im Rahmen der Einrichtung müssen Sie folgende Aktionen ausführen.
 
-Sie können sich mit dem [Tool mit Onboardingfunktionen zur Einbettung](https://aka.ms/embedsetup/AppOwnsData) vertraut machen, damit Sie schnell beginnen und eine Beispielanwendung herunterladen können, die Ihnen beim Erstellen einer Umgebung und beim Einbetten eines Berichts helfen kann.
+Sie können sich mit dem [Setuptool für die Einbettung](https://aka.ms/embedsetup/AppOwnsData) vertraut machen, damit Sie schnell beginnen und eine Beispielanwendung herunterladen können. In dieser wird schrittweise erläutert, wie Sie eine Umgebung erstellen und einen Bericht einbetten können.
 
 Wenn Sie jedoch die Umgebung manuell einrichten möchten, können Sie weiter unten fortfahren.
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrieren einer Anwendung in Azure Active Directory (Azure AD)
 
 Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung auf die Power BI-REST-APIs zugreifen kann. Auf diese Weise können Sie eine Identität für Ihre Anwendung erstellen und Berechtigungen für Power BI-REST-Ressourcen angeben.
@@ -46,11 +49,11 @@ Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung a
 1. Akzeptieren Sie die [Nutzungsbedingungen für die Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
 2. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
- 
+
     ![Hauptfenster des Azure-Portals](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. Wählen Sie im Navigationsbereich auf der linken Seite **Alle Dienste**, dann **App-Registrierungen** und schließlich **Neue Anwendungsregistrierung** aus.
-   
+
     ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Neue App-Registrierung](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,15 +68,15 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
 ### <a name="use-the-azure-active-directory-portal"></a>Verwenden des Azure Active Directory-Portals
 
 1. Navigieren Sie zu [App-Registrierungen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) im Azure-Portal, und wählen Sie die App aus, die Sie für die Einbettung verwenden.
-   
+
     ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. Wählen Sie **Einstellungen** und danach unter **API-Zugriff** die Option **Erforderliche Berechtigungen** aus.
-   
+
     ![Erforderliche Berechtigungen](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Wählen Sie **Windows Azure Active Directory** aus, und stellen Sie sicher, dass **Hiermit greifen Sie als angemeldeter Benutzer auf das Verzeichnis zu** ausgewählt ist. Wählen Sie **Speichern**.
-   
+
     ![Microsoft Azure AD-Berechtigungen](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. Wählen Sie **Hinzufügen**.
@@ -89,13 +92,13 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
     ![Power BI-Dienste auswählen](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. Wählen Sie alle Berechtigungen unter **Delegierte Berechtigungen** aus. Sie müssen sie einzeln auswählen, um die Auswahl zu speichern. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
-   
+
     ![Delegierte Berechtigungen auswählen](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. Wählen Sie unter **Erforderliche Berechtigungen** die Option **Berechtigungen erteilen** aus.
-   
+
     Die Aktion **Berechtigungen erteilen** benötigt das *Hauptkonto*, damit keine Zustimmung von Azure AD abgefragt wird. Wenn es sich beim Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, müssen Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung gewähren. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, müssen Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen gewähren.
-   
+
     ![Gewähren von Berechtigungen im Dialogfeld „Erforderliche Berechtigungen“](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
@@ -170,7 +173,9 @@ Führen Sie die folgenden Schritte durch, um Ihren Inhalt in eine Beispielanwend
 
     Wählen Sie im Navigationsbereich auf der linken Seite **Alle Dienste** und dann **App-Registrierungen** aus.
 
-    **Suche nach App-Registrierung** Wählen Sie die Anwendung aus, für die Sie die ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-003.png) abrufen möchten.
+    ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    Wählen Sie die Anwendung aus, für die Sie die **clientId** abrufen möchten.
 
     ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
@@ -204,6 +209,7 @@ Führen Sie die folgenden Schritte durch, um Ihren Inhalt in eine Beispielanwend
     ![Anwendung anzeigen](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Einbetten von Inhalt in Ihre Anwendung
+
 Auch wenn die Schritte zum Einbetten des Inhalts mit den [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchgeführt werden können, werden die in diesem Artikel beschriebenen Beispielcodes mit dem **.NET SDK** erstellt.
 
 Damit Kunden Einbettungen in der Anwendung vornehmen können, müssen Sie ein **Zugriffstoken** für Ihr Hauptkonto von **Azure AD** besorgen. Es ist erforderlich, dass Sie zunächst über ein [Azure AD-Zugriffstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) für Ihre Power BI-Anwendung mit **App Owns Data** verfügen, bevor Sie Aufrufe an die [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchführen.
@@ -225,6 +231,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Abrufen des einzubettenden Inhaltselements
+
 Sie können mit dem Power BI-Clientobjekt einen Verweis auf das Element abrufen, das eingebettet werden soll.
 
 Im folgenden Codebeispiel wird veranschaulicht, wie Sie den ersten Bericht aus einem bestimmten Arbeitsbereich abrufen.
@@ -243,6 +250,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Erstellen des Einbettungstokens
+
 Es muss ein Einbettungstoken generiert werden, das aus der JavaScript-API verwendet werden kann. Das Einbettungstoken ist spezifisch für das eingebettete Element. Das heißt, dass Sie bei jedem Einbetten eines Power BI-Inhaltselements dafür ein neues Einbettungstoken erstellen müssen. Weitere Informationen hierzu, u.a. zum erforderlichen **accessLevel**, finden Sie unter [GenerateToken-API](https://msdn.microsoft.com/library/mt784614.aspx).
 
 Hier sehen Sie ein Beispiel für das Hinzufügen eines Einbettungstokens für einen Bericht zu Ihrer Anwendung.
@@ -269,6 +277,7 @@ var embedConfig = new EmbedConfig()
 Dabei wird angenommen, dass eine Klasse für **EmbedConfig** und **TileEmbedConfig** erstellt wird. Ein Beispiel hierfür ist in der Datei **Models\EmbedConfig.cs** und der Datei **Models\TileEmbedConfig.cs** verfügbar.
 
 ### <a name="load-an-item-using-javascript"></a>Laden eines Elements mit JavaScript
+
 Sie können mithilfe von JavaScript einen Bericht in ein div-Element auf Ihrer Webseite laden.
 
 Ein komplettes Beispiel für die Verwendung der JavaScript-API ist im [Playground-Tool](https://microsoft.github.io/PowerBI-JavaScript/demo) verfügbar. Dies ist eine schnelle Möglichkeit, verschiedene Arten von Power BI Embedded-Beispielen auszuprobieren. Weitere Informationen zur JavaScript-API finden Sie auch auf der [Power BI-JavaScript-Wikiseite](https://github.com/Microsoft/powerbi-javascript/wiki).
@@ -323,6 +332,7 @@ Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** m
 Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-Arbeitsbereich durch eine dedizierte Kapazität absichern. Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
+
 Wenn Sie eine dedizierte Kapazität erstellen, können Sie Ihrem Kunden eine dedizierte Ressource zuweisen. Sie können eine dedizierte Kapazität im [Microsoft Azure-Portal](https://portal.azure.com) erwerben. Weitere Informationen zum Erstellen einer Power BI Embedded-Kapazität finden Sie unter [Erstellen einer Power BI Embedded-Kapazität im Azure-Portal](azure-pbie-create-capacity.md).
 
 Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-Kapazität am besten zu Ihren Anforderungen passt.
@@ -359,6 +369,7 @@ Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren App-Ar
     ![An Kapazität gebundener App-Arbeitsbereich](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 In diesem Tutorial haben Sie gelernt, wie Sie Power BI-Inhalte für Ihre Kunden in eine Anwendung einbetten. Sie können auch versuchen, Power BI-Inhalte für Ihre Organisation einzubetten.
 
 > [!div class="nextstepaction"]

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327635"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271553"
 ---
 # <a name="analyze-in-excel"></a>In Excel analysieren
 Es gibt Situationen, in denen Sie zum Anzeigen von und Interagieren mit einem Datenset aus Power BI Excel verwenden möchten. Mit **In Excel analysieren** können Sie genau dies tun. Greifen Sie in Excel basierend auf dem in Power BI existierenden Dataset auf PivotTable-, Diagramm- und Datenschnitt-Features in Excel zu.
@@ -26,7 +26,7 @@ Es gibt diverse Anforderungen für die Verwendung von **In Excel analysieren**:
 * **In Excel analysieren** wird für Microsoft Excel 2010 SP1 und höher unterstützt.
 * Excel-PivotTables unterstützen keine Drag & Drop-Aggregation von numerischen Feldern. Ihr Dataset in Power BI *muss über vordefinierte Measures verfügen*.
 * In einigen Organisationen gelten möglicherweise Gruppenrichtlinienregeln, durch die eine Installation der erforderlichen Updates für **In Excel analysieren** für Excel verhindert wird. Wenn Sie die Updates nicht installieren können, wenden Sie sich an Ihren Administrator.
-* **In Excel analysieren** erfordert eine Pro-Lizenz. Weitere Informationen zu den funktionellen Unterschieden zwischen Free- und Pro-Lizenzen finden Sie unter [Power BI Free und Pro im Vergleich](service-free-vs-pro.md). 
+* **In Excel analysieren** erfordert eine Pro-Lizenz. Weitere Informationen zu den funktionellen Unterschieden zwischen den Lizenztypen finden Sie unter [Power BI-Features nach Lizenztyp](service-features-license-type.md). 
 
 ## <a name="how-does-it-work"></a>Funktionsweise
 Wenn Sie **In Excel analysieren** im Menü mit den Auslassungszeichen (...) auswählen, das mit einem Dataset oder Bericht in **Power BI** verknüpft ist, erstellt Power BI eine ODC-Datei und lädt diese vom Browser auf Ihrem Computer herunter.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565105"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908079"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
 Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht.
@@ -26,11 +26,12 @@ Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Beric
 
  Die Leseansicht bietet eine Möglichkeit, um den Bericht zu untersuchen und damit zu interagieren – so können Sie bedenkenlos mit dem Bericht experimentieren und sich mit den Daten vertraut machen. Die Leseansicht ist für die *Benutzer* von Berichten konzipiert, die die Berichte in Apps öffnen oder für die [Berichte freigegeben werden](../service-share-dashboards.md). Durch die Leseansicht wird sichergestellt, dass alle Benutzer eines bestimmten Berichts den gleichen Bericht und die gleichen Visualisierungen wahlweise mit den gleichen Filtern sehen.  Benutzer können zwar mit den Berichten interagieren und vorhandene Filter ändern (diese Veränderungen werden im Bericht gespeichert), allerdings keine neuen Filter hinzufügen.
 
->**HINWEIS**: Unter bestimmten Umständen sehen die Benutzer von Berichten aufgrund von Sicherheits- und Datenberechtigungen auf Zeilenebene unterschiedliche Daten.
+> [!NOTE]
+> Unter bestimmten Umständen sehen die Benutzer von Berichten aufgrund von Sicherheits- und Datenberechtigungen auf Zeilenebene unterschiedliche Daten.
 
 ## <a name="report-editing-view"></a>Bearbeitungsansicht für Berichte
 
-Die Bearbeitungsansicht ist nur für die Ersteller von Berichten und die Benutzer verfügbar, die [einen Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](end-user-create-apps.md).
+Die Bearbeitungsansicht ist nur für die Ersteller von Berichten und die Benutzer verfügbar, die [einen Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](../service-create-distribute-apps.md).
 
 Die Bearbeitungsansicht ist für die *Ersteller* von Berichten konzipiert. Hier können die Ersteller Datasets importieren und verbinden, Daten untersuchen sowie Berichte und Dashboards erstellen. In der Bearbeitungsansicht können *Ersteller* noch tiefer in die Daten eindringen, indem sie Felder hinzufügen und entfernen, den Visualisierungstyp ändern, neue Visualisierungen erstellen und Visualisierungen und Seiten zum Bericht hinzufügen und daraus entfernen. Sie können dann die erstellten Berichte für Kollegen freigeben.
 
@@ -53,11 +54,11 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 | [Anzeigen von Nutzungsmetriken](../service-usage-metrics.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
 | [Verwandte Inhalte anzeigen](end-user-related.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
 | [Speichern eines Berichts](../service-report-save.md) | Ja, aber nur mit **Speichern unter**. | Ja |
-| [Löschen eines Berichts](end-user-delete.md) | Nein  | Ja |
+| [Löschen eines Berichts](../service-delete.md) | Nein  | Ja |
 |**Berichtseiten** |
 | [Hinzufügen oder Umbenennen einer Berichtseite](../power-bi-report-add-page.md)  | Nein  | Ja  |
 | [Duplizieren einer Berichtseite](../power-bi-report-copy-paste-page.md) | Nein  | Ja |
-| [Löschen einer Berichtseite](end-user-delete.md) | Nein | Ja |
+| [Löschen einer Berichtseite](../service-delete.md) | Nein | Ja |
 |**Arbeiten mit Berichtsvisualisierungen**|
 | [Hinzufügen von Visualisierungen zu einem Bericht](../visuals/power-bi-report-add-visualizations-i.md) | Nein  | Ja |
 | [Hinzufügen von Textfeldern und Formen zu einem Bericht](../power-bi-reports-add-text-and-shapes.md) | Nein  | Ja |
@@ -66,7 +67,7 @@ In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufge
 | [Anzeigen der zum Erstellen der Visualisierung verwendeten Daten](end-user-show-data.md) | Nein  | Ja |
 | [Konfigurieren von Drilling](end-user-drill.md) | Nein  | Ja |
 | [Ändern der verwendeten Visualisierung](../visuals/power-bi-report-change-visualization-type.md) | Nein | Ja|
-| [Löschen von Visualisierungen, Textfeldern oder Formen](end-user-delete.md)| Nein | Ja |
+| [Löschen von Visualisierungen, Textfeldern oder Formen](../service-delete.md)| Nein | Ja |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Navigieren zwischen Bearbeitungs- und Leseansicht
@@ -88,7 +89,6 @@ Beachten Sie, dass nur Berichtersteller und -besitzer einen Bericht in der Bearb
 
 
 
-### <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 Es gibt viele Möglichkeiten, um mit einem Bericht in der Leseansicht zu interagieren und die Daten so zu analysieren und aufzuteilen, dass Einblicke und Antworten gewonnen werden können.  Im nächsten Thema, [Interagieren mit einem Bericht in der Leseansicht von Power BI](../service-interact-with-a-report-in-editing-view.md), werden einige davon genauer beschrieben.    
 Zurück zu [Berichte in Power BI](end-user-reports.md)    
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
