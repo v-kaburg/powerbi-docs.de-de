@@ -54,7 +54,7 @@ items:
     items:
     - name: Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
       href: desktop-latest-update.md
-    - name: Aggregationen in Power BI Desktop (Preview)
+    - name: Aggregationen in Power BI Desktop (Vorschauversion)
       href: desktop-aggregations.md
     - name: Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)
       href: desktop-composite-models.md
@@ -194,9 +194,9 @@ items:
       items:
       - name: Datenkategorisierung in Power BI Desktop
         href: desktop-data-categorization.md
-      - name: Markieren eines Barcodefelds in Power BI Desktop für mobile Power BI-Apps
+      - name: Markieren eines Barcodefelds für mobile Apps
         href: desktop-mobile-barcodes.md
-      - name: Festlegen eines geografischen Filters in Power BI Desktop für mobile Power BI-Apps
+      - name: Festlegen der geografischen Filterung für mobile Apps
         href: desktop-mobile-geofiltering.md
       - name: Berechnete Spalten in Power BI Desktop
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Measures in Power BI Desktop
         href: desktop-measures.md
+      - name: Bearbeiten von Q&A des linguistischen Schemas
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: Importieren und Anzeigen von KPIs (Vorschau)
         href: desktop-import-and-display-kpis.md
     - name: Erstellen von Berichten
@@ -346,6 +348,8 @@ items:
     items:
     - name: Datentypen in Power BI Desktop
       href: desktop-data-types.md
+    - name: Tastenkombinationen für den Formel-Editor für Power BI Desktop
+      href: desktop-formula-editor.md
     - name: Power BI Desktop – Datenschutzebenen
       href: desktop-privacy-levels.md
     - name: Connectorerweiterbarkeit in Power BI
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure und Power BI
         href: service-azure-and-power-bi.md
+      - name: Ausgehender Datenverkehr in Power BI und Azure
+        href: service-azure-egress-power-bi.md
     - name: Datenaktualisierung
       items:
       - name: Konfigurieren von geplanten Aktualisierungen
@@ -630,19 +636,19 @@ items:
       items:
       - name: Erstellen eines neuen Berichts aus einem vorhandenen Bericht
         href: power-bi-report-copy.md
-      - name: Hinzufügen einer Seite zu einem Power BI-Bericht
+      - name: Hinzufügen einer Seite zu einem Bericht
         href: power-bi-report-add-page.md
-      - name: Hinzufügen eines Filters zu einem Bericht in Power BI
+      - name: Hinzufügen eines Filters zu einem Bericht
         href: power-bi-report-add-filter.md
       - name: Speichern eines Berichts in Power BI
         href: service-report-save.md
       - name: Erstellen eines neuen Berichts aus einem Dataset
         href: service-report-create-new.md
-      - name: Interagieren mit einem Bericht in der Bearbeitungsansicht von Power BI
+      - name: Interagieren mit einem Bericht in der Bearbeitungsansicht
         href: service-interact-with-a-report-in-editing-view.md
       - name: In Excel analysieren
         href: service-analyze-in-excel.md
-      - name: Tipps und Tricks zum Erstellen von Berichten im Power BI-Dienst
+      - name: Tipps und Tricks zum Erstellen von Berichten
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: Analysebereich
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: Erstellen eines QR-Codes für einen Bericht
         href: service-create-qr-code-for-report.md
-      - name: Neuanordnen von Seiten in einem Bericht in Power BI
+      - name: Neuanordnen von Seiten in einem Bericht
         href: service-report-reorder-pages.md
-      - name: Duplizieren einer Berichtsseite in Power BI
+      - name: Duplizieren einer Berichtseite
         href: power-bi-report-copy-paste-page.md
-      - name: Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
+      - name: Exportieren eines Berichts aus dem Dienst nach Power BI Desktop (Vorschau)
         href: service-export-to-pbix.md
-      - name: Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
+      - name: Filtern eines Berichts mithilfe von Parametern in der URL
         href: service-url-filters.md
-      - name: Bewährte Methoden zum Erstellen von schnellen und zuverlässigen Berichten in Power BI
+      - name: Bewährte Methoden zum Erstellen von schnellen und zuverlässigen Berichten
         href: power-bi-reports-performance.md
-      - name: Interagieren mit ArcGIS-Karten in Power BI
+      - name: Interagieren mit ArcGIS-Karten
         href: visuals/power-bi-visualizations-arcgis.md
     - name: Fragen an Ihre Daten stellen
       items:
       - name: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
         href: power-bi-tutorial-q-and-a.md
-      - name: Optimieren Ihrer Daten für Q&A in Power BI
+      - name: Optimieren Ihrer Daten für Q&A
         href: service-prepare-data-for-q-and-a.md
       - name: Aktivieren von Cortana für Power BI
         href: service-cortana-enable.md
-      - name: Erstellen von ausgewählten Fragen für Power BI Q&A
+      - name: Erstellen von ausgewählten Fragen für Q&A
         href: service-q-and-a-create-featured-questions.md
       - name: Visualisierungstypen in Power BI
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: Arbeiten mit dem linguistischen Schema in Power BI Desktop
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: Verwenden von Q&A mit Liveverbindungen
+        href: service-q-and-a-direct-query.md
     - name: Freigeben Ihrer Arbeit
       items:
       - name: Wie sollten Zusammenarbeit und Freigabe gestaltet sein?
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: Erstellen und Teilen von Apps
         href: service-create-distribute-apps.md
-      - name: Installieren und Verwenden von Apps
-        href: service-install-use-apps.md
       - name: Erstellen von App-Arbeitsbereichen
         href: service-create-workspaces.md
       - name: Erstellen neuer Arbeitsbereiche (Vorschau)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: Zusammenführen von lokalen und Clouddatenquellen
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: Einmaliges Anmelden aktivieren (SSO)
+      items:
+      - name: 'Einmaliges Anmelden (SSO): Übersicht'
+        href: service-gateway-sso-overview.md
+      - name: 'Einmaliges Anmelden (SSO): Kerberos'
+        href: service-gateway-sso-kerberos.md
+      - name: 'Einmaliges Anmelden (SSO): SAML'
+        href: service-gateway-sso-saml.md
     - name: Konfigurierung von Proxyeinstellungen
       href: service-gateway-proxy.md
     - name: Hochverfügbarkeitscluster für lokale Datengateways
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium – Häufig gestellte Fragen
         href: service-premium-faq.md
-      - name: Power BI Premium – Anmerkungen zu dieser Version
-        href: service-premium-release-notes.md
     - name: Administratorrolle in Office 365
       href: service-admin-role.md
     - name: Häufig gestellte Fragen (FAQ)
@@ -1185,6 +1193,8 @@ items:
     - name: Power BI-Cmdlets für PowerShell
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: Referenz zur Dienst-URL
+      href: power-bi-whitelist-urls.md
   - name: Ressourcen
     items:
     - name: Ansätze für die Power BI-Governance und -Bereitstellung
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI für Office 365 wird auf Power BI umgestellt
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112243"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641986"
