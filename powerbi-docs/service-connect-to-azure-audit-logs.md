@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 903f2a345ba4d87cb217ececa459a3cca14d72fa
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134637"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548141"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 Mit dem Azure-Überwachungsprotokoll-Inhaltspaket können Sie die in den Überwachungsprotokollen gespeicherten Informationen analysieren und visualisieren. Power BI ruft Ihre Daten ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -47,10 +47,10 @@ Stellen Sie eine Verbindung mit dem [Azure-Überwachungsprotokoll-Inhaltspaket](
 
 **Was nun?**
 
-* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](power-bi-q-and-a.md).
+* Versuchen Sie, am oberen Rand des Dashboards [im Q&A-Feld eine Frage zu stellen](consumer/end-user-q-and-a.md).
 * [Ändern Sie die Kacheln](service-dashboard-edit-tile.md) im Dashboard.
-* [Wählen Sie eine Kachel aus](service-dashboard-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
-* Ihr Dataset ist auf eine tägliche Aktualisierung festgelegt. Sie können jedoch das Aktualisierungsintervall ändern oder es über **Jetzt aktualisieren** nach Bedarf aktualisieren.
+* [Wählen Sie eine Kachel aus](consumer/end-user-tiles.md), um den zugrunde liegenden Bericht zu öffnen.
+* Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="system-requirements"></a>Systemanforderungen
 Das Azure-Überwachungsprotokolle-Inhaltspaket erfordert Zugriff auf Überwachungsprotokolle im Azure-Portal. Weitere Informationen finden Sie [hier](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
@@ -70,5 +70,5 @@ Wenn ein Fehler aufgrund der Anmeldeinformationen oder beim Versuch der Aktualis
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)  
-[Power BI – Grundkonzepte](service-basic-concepts.md)  
+[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)  
 

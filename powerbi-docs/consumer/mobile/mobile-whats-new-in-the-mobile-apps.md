@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736477"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909243"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,25 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>September 2018
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>Bearbeiten von Telefonberichten im Browser (alle Geräte)
+
+Nun können Sie ein Telefonberichtslayout für einen bereits im Power BI-Dienst und nicht nur in Power BI Desktop veröffentlichten Bericht erstellen. Sie können ihn im Bearbeitungsmodus in Ihrem Browser erstellen.
+
+### <a name="dashboard-commenting-ios-and-android"></a>Dashboardkommentare (iOS und Android) 
+
+Sie können Dashboards und bestimmten Kacheln direkt Kommentare hinzufügen, damit Ihre Daten diskutiert werden, und jeder, der sich das Dashboard ansieht, Ihre Kommentare sieht. Sie können auch andere in Ihrer Organisation per Pullvorgang in die Konversation hineinholen, indem Sie sie @mentioning. Alle, die Sie @mentioned, erhalten eine Pushbenachrichtigung mit Ihrer Mitteilung auf Ihrem Mobiltelefon.
+
+Derzeit verfügbar für iOS- und Android-Geräte. Windows-Unterstützung bald verfügbar.
+
+Lesen Sie den [Power BI-Blogbeitrag über Dashboard-Kommentare](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
+
+### <a name="single-sign-on-windows"></a>Einmaliges Anmelden (Windows)
+
+Einmaliges Anmelden (SSO) ist eine der am meist gefragten Funktionen für Power BI Mobile für Windows. Sie können sich mit Ihrem primären Organisationskonto nun nicht nur bei mobilen Windows-Geräten anmelden, die in Ihre Domäne eingebunden sind, sondern auch nahtlos beim Power BI-Dienst. Erfahren Sie mehr über [SSO and the Windows mobile apps (Einmaliges Anmelden und die mobilen Windows-Apps)](mobile-windows-10-app-single-sign-on-sso.md).
+
 
 ## <a name="july-2018"></a>Juli 2018
 
@@ -177,7 +196,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom Juli 2017](https://po
 
 ### <a name="june-2107"></a>Juni 2107
 #### <a name="all-devices"></a>Alle Geräte
-**Speichern von Apps als Favoriten** Es ist bereits möglich, Dashboards als Favoriten zu speichern. Jetzt können Sie auch die [kürzlich in Power BI eingeführten Apps](../../service-install-use-apps.md) als Favoriten zu speichern. 
+**Speichern von Apps als Favoriten** Es ist bereits möglich, Dashboards als Favoriten zu speichern. Jetzt können Sie auch die [kürzlich in Power BI eingeführten Apps](../../service-create-distribute-apps.md) als Favoriten zu speichern. 
 
 ### <a name="may-2017"></a>Mai 2017
 #### <a name="all-devices"></a>Alle Geräte
@@ -498,7 +517,7 @@ Alle Verbesserungen vom Januar sind bereits in der neuen [Power BI-App für Wind
 
 **R-Kacheln und Webwidgets** Diese neuen Kacheltypen können Sie in Dashboards auf Ihrem mobilen Gerät anzeigen.
 
-**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../../service-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
+**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../end-user-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
 
 **Als Kacheln an Dashboards angeheftete Berichtsseiten** Sie können jetzt im Power BI-Dienst eine gesamte Berichtsseite an ein Dashboard anheften und dadurch Berichtsseiten in der Power BI-App auf Ihrem iPhone oder Android-Smartphone anzeigen.
 
