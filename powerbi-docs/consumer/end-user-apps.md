@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112197"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473426"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
-In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation können Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](end-user-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
+In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation erstellen und verteilen Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](end-user-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
 
-![Apps in Power BI](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Apps in Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
+Apps lassen sich einfach finden und im Power BI-Dienst ([app.powerbi.com](https:app.powerbi.com)) und auf Ihrem Mobilgerät installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben. 
 
@@ -36,7 +36,7 @@ Die einfachste Möglichkeit, eine neue App selbst zu installieren, ist das Empfa
 
 Wählen Sie den Link in der E-Mail aus, um den Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) in einem Browser zu öffnen. Bestätigen Sie, dass Sie die App installieren möchten, und die Landing Page der App wird geöffnet.
 
-![App-Startseite im Power BI-Dienst](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![App-Startseite im Power BI-Dienst](./media/end-user-apps/power-bi-get-app.png)
 
 **Auf Ihrem iOS- oder Android-Mobilgerät** 
 
@@ -56,12 +56,12 @@ Sie können auch in Microsoft AppSource Apps suchen und installieren, auf die Si
 3. Wählen Sie **Jetzt anfordern** aus, um sie der Seite „Apps“ hinzuzufügen. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagieren mit Dashboards und Berichten in der App
-Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Sie können die Daten aus einer Tabelle oder einem anderen Visual eines Berichts [in Excel exportieren](end-user-export-data.md). Informieren Sie sich über das [Interagieren mit Berichten in Power BI](end-user-reading-view.md). 
+Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Informieren Sie sich über das [Interagieren mit Berichten in Power BI](end-user-reading-view.md). 
 
 ![Exportieren von Daten aus einem Power BI-Visual](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Power BI-Apps für externe Dienste](end-user-connect-to-services.md)
+[Power BI-Apps für externe Dienste](end-user-connect-to-services.md)
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2018
+ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300136"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641779"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Inkrementelle Aktualisierung in Power BI Premium
 
 Die inkrementelle Aktualisierung bietet im Power BI Premium-Dienst für sehr große Datasets die folgenden Vorteile:
 
-- **Aktualisierungen erfolgen schneller.** Nur Daten, die geändert wurde, müssen aktualisiert werden. Aktualisieren Sie beispielsweise nur die letzten 5 Tage eines 10 Jahre alten Datasets.
+- **Aktualisierungen erfolgen schneller.** Nur Daten, die geändert wurde, müssen aktualisiert werden. Aktualisieren Sie beispielsweise nur die letzten fünf Tage eines zehn Jahre alten Datasets.
 
 - **Aktualisierungen sind zuverlässiger.** Es ist beispielsweise nicht notwendig, langanhaltende Verbindungen mit flüchtigen Quellsystemen aufrechtzuerhalten.
 
@@ -43,11 +43,11 @@ Große Datasets mit potenziell Milliarden von Zeilen werden möglicherweise von 
 
 Um die inkrementelle Aktualisierung im Power BI-Dienst zu nutzen, muss die Filterung unter Verwendung von Datums- und Uhrzeitparametern von Power Query mit den reservierten Namen **RangeStart** und **RangeEnd** mit Berücksichtigung von Groß- und Kleinschreibung erfolgen.
 
-Nach Veröffentlichung werden die Parameterwerte vom BI-Dienst automatisch überschrieben. Eine Festlegung in den Dataseteinstellungen des Diensts ist nicht erforderlich.
- 
-Es ist wichtig, dass der Filter per Push an das Quellsystem übertragen wird, wenn Abfragen für Aktualisierungsvorgänge übermittelt werden. Dies bedeutet, dass die Datenquelle die „Abfragefaltung“ unterstützen muss. In Anbetracht der unterschiedlichen Unterstützungsebenen der Abfragefaltung für jede Datenquelle sollten Sie sicherstellen, dass die Filterlogik in den Quellabfragen eingeschlossen wurde. Andernfalls werden durch jede Abfrage sämtliche Daten aus der Quelle angefordert, was dem Ziel der inkrementellen Aktualisierung widerspricht.
- 
-Der Filter wird verwendet, um die Daten im Power BI-Dienst in Bereiche zu partitionieren. Er ist nicht darauf ausgelegt, die Aktualisierung der Spalte mit dem Filterdatum zu unterstützen. Eine Aktualisierung wird als ein Einfügevorgang und ein Löschvorgang interpretiert (nicht als Aktualisierung). Wenn der Löschvorgang im historischen Bereich und nicht im inkrementellen Bereich erfolgt, wird er nicht berücksichtigt.
+Nach Veröffentlichung werden die Parameterwerte vom Power BI-Dienst automatisch überschrieben. Eine Festlegung in den Dataseteinstellungen des Diensts ist nicht erforderlich.
+
+Es ist wichtig, dass der Filter per Push an das Quellsystem übertragen wird, wenn Abfragen für Aktualisierungsvorgänge übermittelt werden. Dies bedeutet, dass die Datenquelle die „Abfragefaltung“ unterstützen muss. Die meisten Datenquellen, die SQL-Abfragen unterstützen, unterstützen auch die Abfragefaltung. Datenquellen wie Flatfiles, Blobs, Web- oder OData-Feeds unterstützen die Datenfaltung normalerweise nicht. In Anbetracht der unterschiedlichen Unterstützungsebenen der Abfragefaltung für jede Datenquelle sollten Sie sicherstellen, dass die Filterlogik in die Quellabfragen eingeschlossen wurde. Wenn der Filter vom Datenquellen-Back-End nicht unterstützt wird, kann er nicht mithilfe von Push übertragen werden. Diese Fälle werden von der Mashup-Engine ausgeglichen, die den Filter lokal anwendet. Es kann sein, dass dafür das komplette Dataset von der Datenquelle abgerufen werden muss. Dadurch kann die inkrementelle Aktualisierung verlangsamt werden, und es kann sein, dass dem Prozess im Power BI-Dienst oder im lokalen Datengateway nicht ausreichend Ressourcen zur Verfügung stehen.
+
+Der Filter wird verwendet, um die Daten im Power BI-Dienst in Bereiche zu partitionieren. Er ist nicht darauf ausgelegt, die Aktualisierung der gefilterten Datenspalte zu unterstützen. Eine Aktualisierung wird als ein Einfügevorgang und ein Löschvorgang interpretiert (nicht als Aktualisierung). Wenn der Löschvorgang im historischen Bereich und nicht im inkrementellen Bereich erfolgt, wird er nicht berücksichtigt. Das kann zu Fehlern bei der Datenaktualisierung führen, die durch Konflikte bei Partitionsschlüssel entstehen.
 
 Wählen Sie im Power Query-Editor **Parameter verwalten** aus, um die Parameter mit Standardwerten zu definieren.
 
@@ -85,21 +85,21 @@ Das Dialogfeld „Inkrementelle Aktualisierung“ wird angezeigt. Aktivieren Sie
 
 Im Text der Kopfzeile wird Folgendes erläutert:
 
--   Die inkrementelle Aktualisierung wird nur für Arbeitsbereiche mit Premium-Kapazität unterstützt. Aktualisierungsrichtlinien werden in Power BI Desktop definiert und über Aktualisierungsvorgänge im Dienst angewendet.
+- Die inkrementelle Aktualisierung wird nur für Arbeitsbereiche mit Premium-Kapazität unterstützt. Aktualisierungsrichtlinien werden in Power BI Desktop definiert und über Aktualisierungsvorgänge im Dienst angewendet.
 
--   Wenn Sie die PBIX-Datei mit einer enthaltenen inkrementellen Aktualisierungsrichtlinie aus dem Power BI-Dienst herunterladen können, wird sie nicht in Power BI Desktop geöffnet. Sie werden sie in Kürze überhaupt nicht mehr herunterladen können. Auch wenn dies in Zukunft möglicherweise unterstützt wird, denken Sie daran, dass diese Datasets so groß werden können, dass sie nicht mehr heruntergeladen und auf einem typischen Desktop-PC geöffnet werden können.
+- Wenn Sie die PBIX-Datei mit einer enthaltenen inkrementellen Aktualisierungsrichtlinie aus dem Power BI-Dienst herunterladen können, wird sie nicht in Power BI Desktop geöffnet. Sie werden sie in Kürze überhaupt nicht mehr herunterladen können. Auch wenn dies in Zukunft möglicherweise unterstützt wird, denken Sie daran, dass diese Datasets so groß werden können, dass sie nicht mehr heruntergeladen und auf einem typischen Desktop-PC geöffnet werden können.
 
 #### <a name="refresh-ranges"></a>Aktualisierungsbereiche
 
-Im folgenden Beispiel wird eine Aktualisierungsrichtlinie definiert, gemäß der Daten der letzten 5 Jahre gespeichert und Daten der letzten 10 Tage inkrementell aktualisiert werden. Wenn das Dataset täglich aktualisiert wird, werden die folgenden Schritte beim jedem Aktualisierungsvorgang durchgeführt.
+Im folgenden Beispiel werden Aktualisierungsrichtlinien zum Speichern der Daten für fünf gesamte Kalenderjahre sowie Daten des laufenden Jahres bis zum aktuellen Datum und zum inkrementellen Aktualisieren der Daten von zehn Tagen definiert. Der erste Aktualisierungsvorgang lädt Verlaufsdaten. Die folgenden Aktualisierungen sind inkrementell, und sie führen die folgenden Vorgänge aus, wenn sie täglich ausgeführt werden.
 
--   Die Daten eines neuen Tages werden hinzugefügt.
+- Die Daten eines neuen Tages werden hinzugefügt.
 
--   Daten der letzten 10 Tage bis zum aktuellen Datum werden aktualisiert.
+- Daten der letzten 10 Tage bis zum aktuellen Datum werden aktualisiert.
 
--   Kalenderjahre, die bezogen auf das aktuelle Datum älter als 5 Jahre sind, werden entfernt. Wenn das aktuelle Datum der 1. Januar 2019 ist, wird z.B. das Jahr 2013 entfernt.
+- Kalenderjahre, die bezogen auf das aktuelle Datum älter als fünf Jahre sind, werden entfernt. Wenn das aktuelle Datum der 1. Januar 2019 ist, wird z.B. das Jahr 2013 entfernt.
 
-Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da alle 5 Jahre importiert werden. Nachfolgende Aktualisierungen werden möglicherweise in einem Bruchteil der Zeit abgeschlossen.
+Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da fünf gesamte Kalenderjahre importiert werden. Nachfolgende Aktualisierungen werden möglicherweise in einem Bruchteil der Zeit abgeschlossen.
 
 ![Aktualisierungsbereiche](media/service-premium-incremental-refresh/refresh-ranges.png)
 
@@ -109,7 +109,7 @@ Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da alle 5 Jahre
 
 #### <a name="detect-data-changes"></a>Erkennen von Datenänderungen
 
-Eine inkrementelle Aktualisierung der Daten von 10 Tagen ist naturgemäß viel effizienter als eine vollständige Aktualisierung von 5 Jahren. Aber möglicherweise geht es noch besser. Wenn Sie das Kontrollkästchen **Datenänderungen erkennen** aktivieren, können Sie eine Datum-/Uhrzeit-Spalte auswählen, um nur die Tage zu bestimmen und zu aktualisieren, an denen sich die Daten geändert haben. Dies setzt voraus, dass eine solche Spalte im Quellsystem vorhanden ist, die typischerweise zu Prüfzwecken dient. **Hierbei darf es sich nicht um dieselbe Spalte handeln, die zum Partitionieren der Daten mit den RangeStart/RangeEnd-Parametern verwendet wird.** Der Maximalwert dieser Spalte wird für jeden der Zeiträume im Inkrementbereich ausgewertet. Wenn sie sich seit der letzten Aktualisierung nicht geändert hat, muss der Zeitraum nicht aktualisiert werden. Im Beispiel kann dies die Anzahl der Tage, die inkrementell aktualisiert werden, von 10 auf vielleicht 2 weiter verringern.
+Eine inkrementelle Aktualisierung der Daten von zehn Tagen ist naturgemäß viel effizienter als eine vollständige Aktualisierung von fünf Jahren. Aber möglicherweise geht es noch besser. Wenn Sie das Kontrollkästchen **Datenänderungen erkennen** aktivieren, können Sie eine Datum-/Uhrzeit-Spalte auswählen, um nur die Tage zu bestimmen und zu aktualisieren, an denen sich die Daten geändert haben. Dies setzt voraus, dass eine solche Spalte im Quellsystem vorhanden ist, die typischerweise zu Prüfzwecken dient. **Hierbei darf es sich nicht um dieselbe Spalte handeln, die zum Partitionieren der Daten mit den RangeStart/RangeEnd-Parametern verwendet wird.** Der Maximalwert dieser Spalte wird für jeden der Zeiträume im Inkrementbereich ausgewertet. Wenn sie sich seit der letzten Aktualisierung nicht geändert hat, muss der Zeitraum nicht aktualisiert werden. Im Beispiel kann dies die Anzahl der Tage, die inkrementell aktualisiert werden, von 10 auf vielleicht 2 weiter verringern.
 
 ![Änderungen erkennen](media/service-premium-incremental-refresh/detect-changes.png)
 

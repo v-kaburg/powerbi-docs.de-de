@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565404"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473702"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Ausgewählte Dashboards im Power BI-Dienst
 ## <a name="create-a-featured-dashboard"></a>Erstellen eines ausgewählten Dashboards
@@ -41,7 +41,7 @@ Sehen Sie, wie ein ausgewähltes Dashboard erstellt wird, und befolgen Sie ansch
 
 
 1. Öffnen Sie das Dashboard, das Sie als *Ausgewählt* festlegen möchten. 
-2. In der oberen Navigationsleiste wird **Set as featured** (Als ausgewählt festlegen) oder nur das entsprechende Symbol ![Symbol „ausgewählt“](./media/end-user-featured/power-bi-featured-icon.png) angezeigt. Wählen Sie eines der beiden aus.
+2. In der oberen Navigationsleiste wird **Als ausgewählt festlegen** oder nur das entsprechende Symbol ![Ausgewählt-Symbol](./media/end-user-featured/power-bi-featured-icon.png) angezeigt. Wählen Sie eines der beiden aus.
    
     ![Symbol „Als ausgewählt festlegen“](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Bestätigen Sie Ihre Auswahl.

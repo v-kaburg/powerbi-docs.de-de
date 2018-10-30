@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908369"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641204"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -87,7 +87,7 @@ Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, müssen Sie de
 
 Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, führen Sie den Benutzer als Mitglied des **App-Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** auf. Dadurch wird sichergestellt, dass die Benutzer die Inhalte der Gruppe sehen können. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
 
-Alternativ können Sie Benutzern den Zugriff auf den Bericht auf folgende Weise gewähren.
+Alternativ können Sie Benutzern den Zugriff auf den Bericht gewähren, indem Sie die folgenden Schritte ausführen.
 
 1. Heften Sie eine Kachel aus dem Bericht an ein Dashboard an.
 
@@ -108,7 +108,7 @@ Das Power BI-Webpart für SharePoint Online verfügt über die folgenden Einstel
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-Wenn Ihre Power BI-Umgebung die Anmeldung per Multi-Factor Authentication (MFA) erfordert, können Sie aufgefordert werden, Ihre Identität mithilfe eines Sicherheitsgeräts zu bestätigen. Dies ist der Fall, wenn Sie sich nicht bereits per MFA bei SharePoint Online angemeldet haben, Ihre Power BI-Umgebung aber ein per Sicherheitsgerät verifiziertes Konto erfordert.
+Wenn Ihre Power BI-Umgebung die Anmeldung mit mehrstufiger Authentifizierung (MFA) erfordert, können Sie aufgefordert werden, Ihre Identität mithilfe eines Sicherheitsgeräts zu bestätigen. Dies ist der Fall, wenn Sie sich nicht bereits per MFA bei SharePoint Online angemeldet haben, Ihre Power BI-Umgebung aber ein per Sicherheitsgerät verifiziertes Konto erfordert.
 
 > [!NOTE]
 > Multi-Factor Authentication wird derzeit noch nicht von Azure Active Directory 2.0 unterstützt. Benutzer erhalten dann die Meldung *Fehler*. Der Benutzer kann sich mithilfe eines Sicherheitsgeräts erneut bei SharePoint Online anmelden, um Zugriff auf den Bericht zu erhalten.
@@ -148,11 +148,13 @@ Wenden Sie sich an den Besitzer der SharePoint Online-Seite, um diese Probleme z
 
 * Der klassische Server von SharePoint Server wird mit diesem Webpart nicht unterstützt.
 
+* [URL-Filter](service-url-filters.md) werden mit dem SPO-Webpart nicht unterstützt.
+
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Erstellen moderner Websiteseiten durch Endbenutzer zulassen oder verhindern](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md)  
 [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  
-[Power BI Premium – Beschreibung](service-premium.md)  
+[Was ist Power BI Premium?](service-premium.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

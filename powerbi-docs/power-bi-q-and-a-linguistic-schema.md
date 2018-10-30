@@ -1,5 +1,5 @@
 ---
-title: Bearbeiten des linguistischen Schemas von Q&A und Hinzufügen von Ausdrücken
+title: Bearbeiten des linguistischen Schemas für Q&A und Hinzufügen von Ausdrücken – Power BI
 description: Erfahren Sie, wie Sie mit Power BI Desktop das von Power BI Q&A verwendete linguistische Schema bearbeiten können.
 author: willthom
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 10/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d57ab76b97ea6b810169710553597e2e8a5d55f
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945202"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435417"
 ---
-# <a name="language-modeling-and-the-linguistic-schema"></a>Sprachmodellierung und das linguistische Schema 
+# <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Bearbeiten des linguistischen Schemas für Q&A und Hinzufügen von Ausdrücken in Power BI Desktop 
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in Power BI möglich. Wenn Sie Power BI eine Frage stellen, bemüht sich das Programm, diese richtig zu beantworten. 
 
 Doch für noch bessere Q&A-Interaktionen gibt es Möglichkeiten, die Antworten zu verbessern. Eine davon ist die Bearbeitung des linguistischen Schemas. 
@@ -27,11 +27,11 @@ Alles beginnt mit Ihren Unternehmensdaten.  Je besser das Datenmodell, desto e
 ## <a name="what-is-a-linguistic-schema"></a>Was ist ein linguistisches Schema?
 Ein linguistisches Schema beschreibt Begriffe und Satzglieder, die Q&A für Objekte innerhalb eines Datasets verstehen soll, einschließlich Wortarten, Synonymen und Ausdrücken, die sich auf dieses Dataset beziehen. Beim Importieren oder Verbinden mit einem Dataset erstellt Power BI ein linguistisches Schema, das auf der Struktur des Datasets basiert. Wenn Sie Q&A eine Frage stellen, wird nach Übereinstimmungen und Beziehungen in den Daten gesucht, um die Absicht Ihrer Frage herauszufinden. Beispielsweise wird nach Nomen, Verben, Adjektiven, Ausdrücken und anderen Elementen gesucht. Außerdem wird nach Beziehungen gesucht, z.B. welche Spalten Objekte eines Verbs sind. 
 
-Sie sind wahrscheinlich mit Wortarten vertraut (falls nicht, siehe unten), aber Ausdrücke könnten hier in dieser Form ein neuer Begriff für Sie sein.  Ein Ausdruck beschreibt das, wie Sie über die Beziehungen zwischen Dingen reden (bzw. diese „ausdrücken“). Um beispielsweise die Beziehung zwischen Kunden und Produkten zu beschreiben, könnten Sie sagen: „Kunden kaufen Produkte“. Oder um die Beziehung zwischen Kunden und Alter zu beschreiben, könnten Sie sagen: „Das Lebensalter gibt an, wie alt Kunden sind“. Um die Beziehung zwischen Kunden und Telefonnummern zu beschreiben, könnten Sie einfach sagen: „Kunden haben Telefonnummern“.
+Sie sind wahrscheinlich mit Wortarten vertraut (falls nicht, siehe unten), aber Ausdrücke könnten neu für Sie sein.  Ein Ausdruck beschreibt das, wie Sie über die Beziehungen zwischen Dingen reden (bzw. diese „ausdrücken“). Um beispielsweise die Beziehung zwischen Kunden und Produkten zu beschreiben, könnten Sie sagen: „Kunden kaufen Produkte“. Oder um die Beziehung zwischen Kunden und Alter zu beschreiben, könnten Sie sagen: „Das Lebensalter gibt an, wie alt Kunden sind“. Um die Beziehung zwischen Kunden und Telefonnummern zu beschreiben, könnten Sie einfach sagen: „Kunden haben Telefonnummern“.
 
 Diese Ausdrücke gibt es in verschiedenen Formen und Ausprägungen. Einige entsprechen Beziehungen im Datenmodell direkt. Einige setzen Spalten mit Tabellen in Beziehung, in denen sie enthalten sind. Andere verknüpfen mehrere Tabellen und Spalten in komplexen Beziehungen. In allen Fällen beschreiben sie Zusammenhänge mit alltäglichen Begriffen.
 
-Linguistische Schemas werden im YAML-Format gespeichert. Dieses Format ist mit dem sehr beliebten JSON-Format verwandt, bietet aber eine flexiblere und leichter lesbare Syntax. Linguistische Schemas können bearbeitet, exportiert und in Power BI Desktop importiert werden.
+Linguistische Schemas werden im YAML-Format gespeichert. Dieses Format ist mit dem beliebten JSON-Format verwandt, bietet aber eine flexiblere und leichter lesbare Syntax. Linguistische Schemas können bearbeitet, exportiert und in Power BI Desktop importiert werden.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 - Wenn Sie den Artikel [Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache](desktop-qna-in-reports.md) noch nicht gelesen haben, sollten Sie diesen Artikel zuerst lesen. Er enthält zahlreiche Tipps zur Gestaltung und Verbesserung Ihres Datenmodells und einen wichtigen Abschnitt zum Hinzufügen von Synonymen.  
@@ -62,23 +62,23 @@ Wir empfehlen, linguistische Schemadateien mit der Erweiterung YAML mit Visual S
 
 
 ## <a name="working-with-linguistic-schemas"></a>Arbeiten mit linguistischen Schemas
-Linguistische Schemas können in Power BI Desktop in der Ansicht [Beziehung](desktop-relationship-view.md) bearbeitet, importiert und exportiert werden. Eine Möglichkeit, ein linguistisches Schema zu bearbeiten, besteht darin, [Synonyme dem Bereich **Synonyme** hinzuzufügen](desktop-qna-in-reports.md). Dabei wird die YAML-Datei nicht geöffnet.
+Linguistische Schemas können in Power BI Desktop in der Ansicht [Beziehung](desktop-relationship-view.md) bearbeitet, importiert und exportiert werden. Eine Möglichkeit, ein linguistisches Schema zu bearbeiten, besteht darin, [Synonyme dem Bereich **Synonyme** hinzuzufügen](desktop-qna-in-reports.md). Sie müssen die YAML-Datei nicht öffnen.
 
 ![Seite „Synonyme“](media/power-bi-q-and-a-linguistic-schema/power-bi-synonyms-pane.png)
 
 
- Die andere Möglichkeit, ein linguistisches Schema zu bearbeiten, besteht darin, die YAML-Datei direkt zu exportieren und zu bearbeiten.  Wenn Sie eine YAML-Datei eines linguistischen Schemas bearbeiten, kennzeichnen Sie Spalten in der Tabelle als unterschiedliche grammatische Elemente und legen Wörter fest, die ein Kollege verwenden könnte, um eine Frage zu formulieren. Sie geben beispielsweise die Spalten an, die das Subjekt und das Objekt des Verbs sind, und Sie fügen alternative Wörter hinzu, die Kollegen verwenden können, um auf Tabellen, Spalten und Maße in Ihrem Modell zu verweisen. 
+ Die andere Möglichkeit, ein linguistisches Schema zu bearbeiten, besteht darin, die YAML-Datei direkt zu exportieren und zu bearbeiten.  Wenn Sie die YAML-Datei eines linguistischen Schemas bearbeiten, kennzeichnen Sie Spalten in der Tabelle als unterschiedliche grammatikalische Elemente und legen Wörter fest, die ein Kollege verwenden könnte, um eine Frage zu formulieren. Sie können beispielsweise die Spalten angeben, die das Subjekt und das Objekt des Verbs darstellen. Sie können alternative Wörter hinzufügen, die Kollegen verwenden können, um auf Tabellen, Spalten und Measures in Ihrem Modell zu verweisen. 
 
 ![YAML-Beispieldatei eines linguistischen Schemas](media/power-bi-q-and-a-linguistic-schema/power-bi-linguistic-schema.png)
 
-Bevor Sie ein linguistisches Schema bearbeiten können, müssen Sie es in Power BI Desktop öffnen (exportieren). Wenn Sie die YAML-Datei zurück an den gleichen Speicherort speichern, gilt dies als Importieren.  Sie können stattdessen aber auch andere YAML-Dateien importieren.  Angenommen, Sie haben ein ähnliches Dataset und bereits viel Arbeit in das Hinzufügen von Wortarten, das Bestimmen von Beziehungen sowie das Erstellen von Ausdrücken und Synonymen investiert. 
+Bevor Sie ein linguistisches Schema bearbeiten können, müssen Sie es in Power BI Desktop öffnen (exportieren). Das Speichern der YAML-Datei am gleichen Speicherort wird als Importieren bezeichnet.  Sie können stattdessen aber auch andere YAML-Dateien importieren.  Angenommen, Sie haben ein ähnliches Dataset und bereits viel Arbeit in das Hinzufügen von Wortarten, das Bestimmen von Beziehungen sowie das Erstellen von Ausdrücken und Synonymen investiert. 
 
 Q&A nutzt all diese Informationen zusammen mit allen Verbesserungen, die Sie vornehmen, um eine bessere Antwort, automatische Vervollständigung und Zusammenfassung der Fragen zu liefern.
 
 
 
 ## <a name="edit-a-linguistic-schema"></a>Bearbeiten eines linguistischen Schemas
-Wenn Sie Ihr linguistisches Schema erstmals in Power BI Desktop exportieren, werden die meisten oder alle Inhalte der Datei automatisch vom Q&A-Modul generiert. Diese generierten Entitäten, Wörter (Synonyme), Beziehungen und Ausdrücke werden mit dem Tag **State: Generated** gekennzeichnet und sind in der Datei meist zu Informationszwecken enthalten, können aber ein nützlicher Ausgangspunkt für eigene Änderungen sein. 
+Wenn Sie Ihr linguistisches Schema erstmals in Power BI Desktop exportieren, werden die meisten oder alle Inhalte der Datei automatisch von der Q&A-Engine generiert. Diese generierten Entitäten, Wörter (Synonyme), Beziehungen und Ausdrücke werden mit dem Tag **State: Generated** gekennzeichnet und sind in der Datei meist zu Informationszwecken enthalten, können aber ein nützlicher Ausgangspunkt für eigene Änderungen sein. 
 
 > [!NOTE]
 > Die in diesem Tutorial enthaltene YAML-Beispieldatei enthält nicht die Tags **State:Generated** oder **State:Deleted**, da sie speziell für dieses Tutorial vorbereitet wurde. Um diese Tags zu sehen, öffnen Sie eine unbearbeitete PBIX-Datei in der Ansicht „Beziehung“ und exportieren das linguistische Schema.
@@ -86,41 +86,41 @@ Wenn Sie Ihr linguistisches Schema erstmals in Power BI Desktop exportieren, wer
 ![YAML-Datei mit Anzeige von „State:Generated“](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Wenn Sie Ihre linguistische Schemadatei wieder in Power BI Desktop importieren, wird alles, was mit **State: Generated** gekennzeichnet ist, tatsächlich ignoriert (und später neu generiert). Wenn Sie also eine Änderung an einigen generierten Inhalten vornehmen möchten, müssen Sie auch das entsprechende Tag **State: Generated** entfernen. Wenn Sie einige generierte Inhalte entfernen möchten, müssen Sie das Tag **State: Generated** in **State: Deleted** ändern, damit es nicht neu generiert wird, sobald Sie Ihre linguistische Schemadatei importieren.
+Wenn Sie Ihre linguistische Schemadatei wieder in Power BI Desktop importieren, wird alles, was mit **State: Generated** gekennzeichnet ist, ignoriert (und später neu generiert). Wenn Sie also eine Änderung an einigen generierten Inhalten vornehmen möchten, müssen Sie auch das entsprechende Tag **State: Generated** entfernen. Wenn Sie einige generierte Inhalte entfernen möchten, müssen Sie das Tag **State: Generated** in **State: Deleted** ändern, damit es nicht neu generiert wird, sobald Sie Ihre linguistische Schemadatei importieren.
 
 1. Öffnen Sie das Dataset in der Power BI Desktop-Ansicht *Beziehung*. 
 2. Wählen Sie die Registerkarte **Modellierung** aus, und klicken Sie auf **Linguistisches Schema exportieren**.
 3. Wählen Sie Visual Studio Code (oder einen anderen Editor) aus.
 4. Nehmen Sie Ihre Bearbeitungen vor, und speichern Sie die YAML-Datei.
-5. Wählen Sie in Power BI Desktop **Ansicht „Beziehung“ > Registerkarte „Modellierung“ > Linguistisches Schema > Linguistisches Schema importieren** aus.
+5. Wählen Sie in Power BI Desktop in der **Beziehungsansicht die Registerkarte „Modellierung“ aus, und klicken Sie auf „Linguistisches Schema > Linguistisches Schema importieren“**.
 6. Navigieren Sie zum Speicherort der bearbeiteten YAML-Datei, und wählen Sie sie aus. Eine Erfolgsmeldung lässt Sie wissen, dass die YAML-Datei des linguistischen Schemas erfolgreich importiert wurde.
 
     ![Erfolgsmeldung](media/power-bi-q-and-a-linguistic-schema/power-bi-success.png)
 
 ### <a name="add-phrasings-to-the-linguistic-schema"></a>Hinzufügen von Ausdrücken zum linguistischen Schema
-Ein Ausdruck beschreibt das, wie Sie über die Beziehungen zwischen Dingen reden (bzw. diese „ausdrücken“). Um beispielsweise die Beziehung zwischen Kunden und Produkten zu beschreiben, könnten Sie sagen: „Kunden kaufen Produkte“. Oder um die Beziehung zwischen Kunden und Alter zu beschreiben, könnten Sie sagen: „Das Lebensalter gibt an, wie alt Kunden sind“. Oder um die Beziehung zwischen Sportlern und Medaillen zu beschreiben, könnten Sie einfach sagen: „Sportler gewinnen Medaillen“.
+Ein Ausdruck beschreibt das, wie Sie über die Beziehungen zwischen Dingen reden (bzw. diese „ausdrücken“). Um beispielsweise die Beziehung zwischen Kunden und Produkten zu beschreiben, könnten Sie sagen: „Kunden kaufen Produkte“. Oder um die Beziehung zwischen Kunden und Alter zu beschreiben, könnten Sie sagen: „Das Lebensalter gibt an, wie alt Kunden sind“. Um die Beziehung zwischen Sportlern und Medaillen zu beschreiben, könnten Sie alternativ sagen: „Sportler gewinnen Medaillen“.
 
 Diese Ausdrücke gibt es in verschiedenen Formen und Ausprägungen. Einige entsprechen Beziehungen im semantischen Modell direkt. Einige setzen Spalten mit Tabellen in Beziehung, in denen sie enthalten sind. Andere verknüpfen mehrere Tabellen und Spalten in komplexen Beziehungen. In allen Fällen beschreiben sie Zusammenhänge mit alltäglichen Begriffen.
 
 ## <a name="where-do-phrasings-come-from"></a>Woher stammen Ausdrücke?
-Viele einfache Ausdrücke werden dem linguistischen Schema automatisch hinzugefügt, und zwar basierend auf der Struktur des Modells und einigen Vermutungen über Spaltennamen. Beispiel:
+Power BI fügt dem linguistischen Schema viele einfache Ausdrücke automatisch hinzu. Dies basiert auf der Struktur des Modells und einigen Vermutungen über Spaltennamen. Beispiel:
 - Die meisten Spalten werden durch einen einfachen Ausdruck wie „Produkte haben Beschreibungen“ mit der Tabelle in Beziehung gesetzt, die sie enthält.
 - Modellbeziehungen resultieren in Standardausdrücken für beide Richtungen der Beziehung wie „Bestellungen haben Produkte“ und „Produkte haben Bestellungen“.
 - Einige Modellbeziehungen können basierend auf ihren Spaltennamen einen komplexeren Standardausdruck wie „Bestellungen werden an Städte geliefert“ erhalten.
 
-Es gibt viele Möglichkeiten, wie Ihre Benutzer über Dinge reden, die Q&A jedoch nicht erraten kann. Hierfür können Sie Ihre eigenen Ausdrücke manuell hinzufügen.
+Ihre Benutzer werden jedoch Ausdrucksweisen verwenden, die Q&A nicht zuordnen kann. Für solche Fälle können Sie Ihre eigenen Ausdrücke manuell hinzufügen.
 
 
 ## <a name="why-should-i-add-phrasings"></a>Warum sollte ich sollte ich Ausdrücke hinzufügen?
 Der erste Grund für das Hinzufügen eines Ausdrucks ist die Definition eines neuen Begriffs. Wenn Sie z.B. „die ältesten Kunden auflisten“ möchten, müssen Sie Q&A zunächst erläutern, was Sie mit „alt“ meinen. Dazu müssen Sie einen Ausdrucks wie „Das Lebensalter gibt an, wie alt die Kunden sind“ hinzufügen.
 
-Der zweite Grund für das Hinzufügen einer Formulierung ist die Beseitigung von Unklarheiten. Mit der einfachen Stichwortsuche kommen Sie nicht weit, wenn Wörter mehr als eine Bedeutung haben. Zum Beispiel bedeutet „Flüge nach Köln“ etwas ganz anderes als „Flüge ab Köln“, aber Q&A weiß nicht, was Sie meinen, wenn Sie nicht die Ausdrücke „Flüge gehen von Abflugorten ab“ und „Flüge kommen an Ankunftsorten an“ hinzufügen. Ebenso wird die Unterscheidung zwischen „Autos, die Johann Marie verkauft hat“ und „Autos, die Johann von Maria gekauft hat“ erst verstanden, wenn Sie die Ausdrücke „Kunden kaufen Autos von Mitarbeitern“ und „Mitarbeiter verkaufen Kunden Autos“ hinzufügen.
+Der zweite Grund für das Hinzufügen einer Formulierung ist die Beseitigung von Unklarheiten. Mit der einfachen Stichwortsuche kommen Sie nicht weit, wenn Wörter mehr als eine Bedeutung haben. „Flüge nach Chicago“ bedeutet beispielsweise etwas anderes als „Flüge aus Chicago“. Q&A weiß jedoch nicht, was Sie meinen, wenn Sie nicht die Ausdrücke „Flüge gehen von Abflugorten ab“ und „Flüge kommen an Ankunftsorten an“ hinzufügen. Ebenso versteht Q&A den Unterschied zwischen „Autos, die John an Mary verkauft hat“ und „Autos, die John von Mary gekauft hat“ erst, wenn Sie die Ausdrücke „Kunden kaufen Autos von Mitarbeitern“ und „Mitarbeiter verkaufen Kunden Autos“ hinzufügen.
 
-Der letzte Grund für das Hinzufügen eines Ausdrucks ist die Verbesserung von Neuformulierungen. Anstatt dass Q&A „Die Kunden und ihre Produkte zeigen“ an Sie zurückgibt, wäre es klarer, wenn es sagen würde „Die Kunden und die Produkte, die sie gekauft haben“ oder „Die Kunden und die Produkte, die sie bewertet haben“, je nachdem, wie es die Frage verstanden hat. Das Hinzufügen benutzerdefinierter Ausdrücke ermöglicht eine deutlichere und eindeutigere Neuformulierung.
+Der letzte Grund für das Hinzufügen eines Ausdrucks ist die Verbesserung von Neuformulierungen. Q&A sollte nicht „Kunden und ihre Produkte anzeigen“ zurückgeben, sondern eine deutlichere Aussage wie „Kunden und die Produkte, die sie gekauft haben, anzeigen“ oder „Kunden und die Produkte, die sie bewertet haben, anzeigen“ – je nachdem, wie Q&A die Frage verstanden hat. Das Hinzufügen benutzerdefinierter Ausdrücke ermöglicht eine deutlichere und eindeutigere Neuformulierung.
 
 
 ## <a name="what-kinds-of-phrasings-are-there"></a>Welche Arten von Ausdrücken gibt es?
-Um die verschiedenen Typen von Ausdrücken zu verstehen, wollen wir zunächst ein paar sehr einfache Grammatikbegriffe auffrischen:
+Um die verschiedenen Arten von Ausdrücken zu verstehen, sollten Sie sich zunächst ein paar einfache Grammatikbegriffe ins Gedächtnis rufen:
 - Ein *Nomen* ist eine Person, ein Ort oder eine Sache. 
     - Beispiele: Auto, Teenager, Marty, Fluxkompensator
 - Ein *Verb* ist eine Handlung oder ein Daseinszustand. 
@@ -134,7 +134,7 @@ Um die verschiedenen Typen von Ausdrücken zu verstehen, wollen wir zunächst ei
 
 
 ## <a name="attribute-phrasings"></a>Attributausdrücke
-Attributausdrücke sind das Hauptarbeitsmittel von Q&A, das verwendet wird, wenn eine Sache als Attribut einer anderen Sache fungiert. Sie sind einfach, unkompliziert und leisten die meiste Arbeit, wenn kein feinerer, detaillierterer Ausdruck definiert wurde. Attributausdrücke werden mit dem Basisverb „haben“ („Produkte haben Kategorien“ und „Gastgeberländer haben Gastgeberstädte“) beschrieben und erlauben automatisch auch, Fragen mit den Präpositionen „von“ und „für“ („Kategorien von Produkten“, „Aufträge für Produkte“) und besitzanzeigend („Johanns Aufträge“) zu stellen. In Fragen wie diesen werden Attributausdrücke verwendet:
+Attributausdrücke sind das Hauptarbeitsmittel von Q&A, das verwendet wird, wenn eine Sache als Attribut einer anderen Sache fungiert. Sie sind einfach, unkompliziert und leisten die meiste Arbeit, wenn Sie keinen präziseren, detaillierteren Ausdruck definiert haben. Attributausdrücke werden mit dem Basisverb „haben“ („Produkte haben Kategorien“ und „Gastgeberländer haben Gastgeberstädte“) beschrieben. Sie ermöglichen ebenfalls automatisch, Fragen mit den Präpositionen „von“ und „für“ („Kategorien von Produkten“, „Aufträge für Produkte“) und Fragen zu Besitzverhältnissen („Johns Aufträge“) zu stellen. In Fragen wie diesen werden Attributausdrücke verwendet:
 - Welche Kunden haben Aufträge?
 - Gastgeberstädte nach Land aufsteigend auflisten
 - Aufträge anzeigen, die Chai enthalten
@@ -142,8 +142,8 @@ Attributausdrücke sind das Hauptarbeitsmittel von Q&A, das verwendet wird, wenn
 - Was ist die Kategorie jedes Produkts?
 - Aufträge von Robert König zählen    
 
-Die überwiegende Mehrheit der in Ihrem Modell benötigten Attributausdrücke wird automatisch basierend auf dem Tabellen-/Spalteninhalt und Modellbeziehungen generiert, sodass Sie diese in der Regel nicht selbst erstellen müssen.
-Dies ist ein Beispiel eines Attributausdrucks im linguistischen Schema:
+Power BI generiert die Mehrheit der Attributausdrücke, die in Ihrem Modell benötigt werden, auf der Eigenständigkeit von Tabellen/Spalten und auf Modellbeziehungen basierend. In der Regel müssen Sie diese nicht selbst erstellen.
+Hier finden Sie ein Beispiel eines Attributausdrucks im linguistischen Schema:
 
 ```json
 product_has_category:
@@ -153,16 +153,16 @@ product_has_category:
 ```
  
 ## <a name="name-phrasings"></a>Namensausdrücke
-Namensausdrücke sind hilfreich, wenn Ihr Datenmodell eine Tabelle enthält, die benannte Objekte wie Sportler- und Kundennamen enthält. Beispielsweise ist der Ausdruck „Produktnamen sind Namen von Produkten“ unerlässlich, um Produktnamen in Fragen verwenden zu können. Während Namensausdrücke auch „namens“ als Attribut (z.B. „Kunden namens Johann Schmitz“) ermöglichen, ist es besonders wichtig, dass in Verbindung mit anderen Ausdrücken ein Namenswert verwendet werden kann, um auf eine bestimmte Tabellenzeile zu verweisen. Bei „Kunden, die Chai gekauft haben“ kann Q&A beispielsweise erkennen, dass sich der Wert „Chai“ auf die gesamte Zeile der Produkttabelle bezieht und nicht nur auf einen Wert in der Spalte mit dem Produktnamen. In Fragen wie diesen werden Namensausdrücke verwendet:    
+Namensausdrücke sind hilfreich, wenn Ihr Datenmodell eine Tabelle enthält, die benannte Objekte wie Sportler- und Kundennamen enthält. Beispielsweise ist der Ausdruck „Produktnamen sind Namen von Produkten“ unerlässlich, um Produktnamen in Fragen verwenden zu können. Durch Namensausdrücke wird die Verwendung von „namens“ als Verb (z.B. „Kunden namens John Smith auflisten“) ermöglicht. Es ist jedoch besonders wichtig, dass in Kombination mit anderen Ausdrücken ein Namenswert verwendet werden kann, um auf eine bestimmte Tabellenzeile zu verweisen. Bei „Kunden, die Chai gekauft haben“ kann Q&A beispielsweise erkennen, dass sich der Wert „Chai“ auf die gesamte Zeile der Produkttabelle bezieht und nicht nur auf einen Wert in der Spalte mit dem Produktnamen. In Fragen wie diesen werden Namensausdrücke verwendet:    
 - Welche Mitarbeiter heißen Robert König
 - Wer heißt Ernst Handel
 - Sportarten von Fernand De Montigny
 - Anzahl der Sportler namens Marie
 - Was hat Robert König gekauft?
 
-Wenn Sie eine sinnvolle Namenskonvention für die Namensspalten im Modell gewählt haben (z.B. „Name“ oder "Produktname“ anstatt „PrdNm“), wird die Mehrzahl der in Ihrem Modell benötigten Namensausdrücke automatisch generiert, sodass Sie diese in der Regel nicht selbst erstellen müssen.
+Wenn Sie eine sinnvolle Namenskonvention für die Namensspalten im Modell gewählt haben (z.B. „Name“ oder „ProductName“ statt „PrdNm“), generiert Power BI die meisten Namensausdrücke, die für Ihr Modell benötigt werden, automatisch, sodass Sie diese in der Regel nicht selbst erstellen müssen.
 
-Dies ist ein Beispiel eines Namensausdrucks im linguistischen Schema:
+Hier finden Sie ein Beispiel eines Namensausdrucks im linguistischen Schema:
 
 ```json
 employee_has_name:
@@ -183,7 +183,7 @@ Adjektivausdrücke definieren neue Adjektive, die Objekte in Ihrem Modell beschr
 - Goldmedaillengewinner auflisten
 - Produkte mit Lieferrückstand
 
-Dies ist ein Beispiel eines einfachen Adjektivausdrucks im linguistischen Schema: product_is_discontinued:
+Hier finden Sie ein Beispiel eines einfachen Adjektivausdrucks im linguistischen Schema „product_is_discontinued“:
 
 ```json
 Binding: {Table: Products}
@@ -197,13 +197,13 @@ Binding: {Table: Products}
       Adjectives: [discontinued]
 ```
 
-*Maß-Adjektivausdrücke* definieren ein neues Adjektiv basierend auf einem numerischen Wert, der angibt, inwieweit das Adjektiv gilt, z.B. „Längen geben an, wie lang Flüsse sind“ und „Kleine Länder haben kleine Landflächen“. In Fragen wie diesen werden Maß-Adjektivausdrücke verwendet:
+*Maß-Adjektivausdrücke* definieren ein neues Adjektiv basierend auf einem numerischen Wert, der angibt, inwieweit das Adjektiv gilt, z.B. „Längen geben an, wie lang Flüsse sind“ und „Kleine Länder haben kleine Landflächen“. In Fragen wie diesen werden Maßadjektivausdrücke verwendet:
 - Lange Flüsse auflisten
 - Welche Flüsse sind am längsten?
 - Die kleinsten Länder auflisten, die Gold im Handball gewonnen haben
 - Wie lang ist der Rhein?
 
-Dies ist ein Beispiel eines Maß-Adjektivausdrucks im linguistischen Schema: river_has_length:
+Hier finden Sie ein Beispiel eines Maßadjektivausdrucks im linguistischen Schema „river_has_length“:
 
  ```json
 Binding: {Table: Rivers}
@@ -221,7 +221,7 @@ Binding: {Table: Rivers}
 - Eislaufwettbewerbe für Frauen anzeigen
 - Aktive Probleme zählen
 
-Dies ist ein Beispiel eines dynamischen Adjektivausdrucks im linguistischen Schema: product_has_color:
+Hier finden Sie ein Beispiel eines dynamischen Adjektivausdrucks im linguistischen Schema „product_has_color“:
 ```json
 Binding: {Table: Products}
   Phrasings:
@@ -232,7 +232,7 @@ Binding: {Table: Products}
 
  
 ## <a name="noun-phrasings"></a>Nomenausdrücke
-Nomenausdrücke definieren neue Nomen, die Teilmengen von Objekten in Ihrem Modell beschreiben. Sie enthalten oft eine Art modellspezifischer Messgröße oder Bedingung. Zum Beispiel können wir für unser Olympia-Modell Ausdrücke hinzufügen, um Champions von Medaillengewinnern, Ballsportarten von Wassersportarten, Mannschaften von Einzelsportlern, Alterskategorien von Athleten (Jugendliche, Erwachsene, Senioren) usw. zu unterscheiden. Für unsere Filmdatenbank können wir Nomenausdrücke für „Flops sind Filme mit einem Reingewinn < 0“ hinzufügen, damit wir Fragen wie „Flops nach Jahr zählen“ stellen können. Es gibt zwei Formen von Nomenausdrücken zur Verwendung in der jeweiligen Situation.
+Nomenausdrücke definieren neue Nomen, die Teilmengen von Objekten in Ihrem Modell beschreiben. Sie enthalten oft eine Art modellspezifischer Messgröße oder Bedingung. Zum Beispiel können wir für unser Olympia-Modell Ausdrücke hinzufügen, um Champions von Medaillengewinnern, Ballsportarten von Wassersportarten, Mannschaften von Einzelsportlern, Alterskategorien von Athleten (Jugendliche, Erwachsene, Senioren) usw. zu unterscheiden. Für unsere Filmdatenbank können wir Nomenausdrücke für „Flops sind Filme mit einem Nettogewinn < 0“ hinzufügen, damit wir Fragen wie „Flops nach Jahr zählen“ stellen können. Es gibt zwei Formen von Nomenausdrücken zur Verwendung in der jeweiligen Situation.
 
 *Einfache Nomenausdrücke* definieren ein neues Nomen basierend auf einer Bedingung, wie z.B. „Auftragnehmer sind Mitarbeiter, bei denen Vollzeit = falsch" und „Champion ist Sportler mit einer Anzahl von Medaillen > 5“. In Fragen wie diesen werden einfache Nomenausdrücke verwendet:
 
@@ -240,7 +240,7 @@ Nomenausdrücke definieren neue Nomen, die Teilmengen von Objekten in Ihrem Mode
 - Auftragnehmer in Berlin zählen
 - Wie viele Champions 2016
 
-Dies ist ein Beispiel eines einfachen Nomenausdrucks im linguistischen Schema: employee_is_contractor:
+Hier finden Sie ein Beispiel eines einfachen Nomenausdrucks im linguistischen Schema „employee_is_contractor“:
 
 ```json
 Binding: {Table: Employees}
@@ -260,7 +260,7 @@ Binding: {Table: Employees}
 - Welche Mitarbeiter sind Baristas?
 - Schiedsrichter 1992 auflisten
 
-Dies ist ein Beispiel eines dynamischen Nomenausdrucks im linguistischen Schema: employee_has_job:
+Hier finden Sie ein Beispiel eines dynamischen Nomenausdrucks im linguistischen Schema „employee_has_job“:
 
  ```json
 Binding: {Table: Employees}
@@ -278,7 +278,7 @@ Präpositionsausdrücke dienen zum Beschreiben, wie Objekte in Ihrem Modell übe
 - In welcher Stadt befindet sich Johann Müller?
 - Wie viele Bücher sind von Stephen Queen?
  
-Dies ist ein Beispiel eines Präpositionsausdrucks im linguistischen Schema: customers_are_in_cities:
+Hier finden Sie ein Beispiel eines Präpositionsausdrucks im linguistischen Schema „customers_are_in_cities“:
 
  ```json
 Binding: {Table: Customers}
@@ -307,7 +307,7 @@ Verbausdrücke können auch Präpositionsausdrücke enthalten und damit ihre Fle
 
 Einige Verbausdrücke werden automatisch erstellt, wenn erkannt wird, dass eine Spalte sowohl ein Verb als auch eine Präposition enthält.
 
-Dies ist ein Beispiel eines Verbausdrucks im linguistischen Schema: customers_buy_products_from_salespeople:
+Hier finden Sie ein Beispiel eines Verbausdrucks im linguistischen Schema „customers_buy_products_from_salespeople“:
 
 ```json
 Binding: {Table: Orders}
@@ -322,9 +322,9 @@ Binding: {Table: Orders}
 ```
 
 ## <a name="relationships-with-multiple-phrasings"></a>Beziehungen mit mehreren Ausdrücken
-Häufig kann eine einzelne Beziehung auf mehrere Arten beschrieben werden. In diesem Fall kann eine einzelne Beziehung mehr als einen Ausdruck aufweisen. Es ist durchaus üblich, dass die Beziehung zwischen einer Tabellen- und einer Spaltenentität sowohl einen Attributausdruck als auch einen anderen Ausdruck besitzt. In der Beziehung zwischen Kunde und Kundenname wünschen Sie sich beispielsweise sowohl einen Attributausdruck (z.B. „Kunden haben Namen“) als auch einen Namensausdruck (z.B. „Kundennamen sind die Namen von Kunden“), damit Sie beide Arten von Fragen stellen können.
+Häufig kann eine einzelne Beziehung auf mehrere Arten beschrieben werden. In diesem Fall kann eine einzelne Beziehung mehr als einen Ausdruck aufweisen. Es ist üblich, dass die Beziehung zwischen einer Tabellen- und einer Spaltenentität sowohl einen Attributausdruck als auch einen anderen Ausdruck besitzt. In der Beziehung zwischen Kunde und Kundenname soll beispielsweise sowohl ein Attributausdruck (z.B. „Kunden haben Namen“) als auch ein Namensausdruck (z.B. „Kundennamen sind die Namen von Kunden“) enthalten sein, damit Sie beide Arten von Fragen stellen können.
 
-Dies ist ein Beispiel einer Beziehung mit zwei Ausdrücken im linguistischen Schema: customer_has_name:
+Hier finden Sie ein Beispiel einer Beziehung mit zwei Ausdrücken im linguistischen Schema „customer_has_name“:
 
   ```json
 Binding: {Table: Customers}
@@ -338,7 +338,7 @@ Binding: {Table: Customers}
 Ein weiteres Beispiel ist das Hinzufügen des alternativen Ausdrucks „Mitarbeiter verkaufen Kunden Produkte“ zur Beziehung „Kunden kaufen Produkte von Mitarbeitern“. Beachten Sie, dass Sie keine Varianten wie "Mitarbeiter verkaufen Produkte **an Kunden**" oder "Produkte werden an Kunden **von Mitarbeitern** verkauft" hinzufügen müssen, da die Varianten "an" und "von" des Subjekts und des indirekten Objekts automatisch von Q&A hergeleitet werden.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-Wenn Sie eine Änderung an einer Datei des Typs „.lsdl.yaml“ vornehmen, die nicht dem Format des linguistischen Schemas entspricht, werden nun Validierungssymbole wie diese angezeigt, um Probleme anzuzeigen: 
+Wenn Sie eine Änderung an einer Datei des Typs „.lsdl.yaml“ vornehmen, die nicht dem Format des linguistischen Schemas entspricht, werden nun Validierungssymbole angezeigt, die auf Probleme hinweisen: 
 
 ![YAML-Datei, die Fehler enthält](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 

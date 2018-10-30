@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112151"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473863"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
-Nachdem Sie die Grundlagen von Power BI kennengelernt haben, machen Sie sich nun mit dem **Power BI-Dienst** näher vertraut. Wie bereits erwähnt, kann es sein, dass jemand in Ihrem Team die ganze Zeit in **Power BI Desktop** verbringt, um Daten zu kombinieren und Berichte für andere zu erstellen. Sie hingegen verbringen andererseits ggf. Ihre ganze Zeit im Power BI-Dienst mit dem Anzeigen von und Interagieren mit Inhalten, die von anderen erstellt wurden (Erfahrung als **Consumer**) oder dem Abrufen von Daten und dem Erstellen Ihrer eigenen Berichte und Dashboards (Erfahrung als **Ersteller**). In dieser Schnellstartanleitung importieren Sie Beispieldaten und nutzen diese, um sich mit dem Power BI-Dienst näher vertraut zu machen. 
+Nachdem Sie die Grundlagen von Power BI kennengelernt haben, machen Sie sich nun mit dem **Power BI-Dienst** näher vertraut. Wie bereits erwähnt, kann es sein, dass jemand in Ihrem Team die ganze Zeit in **Power BI Desktop** verbringt, um Daten zu kombinieren und Berichte für andere zu erstellen. Sie hingegen verbringen andererseits ggf. Ihre ganze Zeit im Power BI-Dienst und zeigen Inhalte an und interagieren mit Inhalten, die von anderen erstellt wurden (als **Benutzer**). In dieser Schnellstartanleitung importieren Sie Beispieldaten und nutzen diese, um sich mit dem Power BI-Dienst näher vertraut zu machen. 
  
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -48,9 +48,11 @@ Amanda zeigt Ihnen eine Übersicht über die Navigation des Power BI-Diensts.  B
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Anzeigen von Inhalten (Dashboards, Berichte, Arbeitsmappen, Datasets, Arbeitsbereiche, Apps)
-Betrachten wir zunächst, wie die grundlegenden Inhalte (Dashboards, Berichte, Datasets, Arbeitsmappen) organisiert sind. Inhalt wird im Kontext eines Arbeitsbereichs angezeigt. An diesem Punkt gibt es nur einen Arbeitsbereich, der **Mein Arbeitsbereich** heißt. In „Mein Arbeitsbereich“ werden alle Inhalte gespeichert, deren Besitzer Sie sind. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Sie können Inhalte von „Mein Arbeitsbereich“ für Kollegen freigeben. In „Mein Arbeitsbereich“ sind die Inhalte auf 4 Registerkarten organisiert: „Dashboards“, „Berichte“, „Arbeitsmappen“ und „Datasets“.
+Betrachten wir zunächst, wie die grundlegenden Inhalte (Dashboards, Berichte, Datasets, Arbeitsmappen) organisiert sind. Inhalt wird im Kontext eines Arbeitsbereichs angezeigt. An diesem Punkt gibt es nur einen Arbeitsbereich, der **Mein Arbeitsbereich** heißt. Normalerweise benötigen oder verwenden Benutzer keine anderen Arbeitsbereiche. In „Mein Arbeitsbereich“ werden alle Inhalte gespeichert, deren Besitzer Sie sind. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Das „Retail Analysis Sample“, das Sie gerade heruntergeladen haben, wurde unter „Mein Arbeitsbereich“ gespeichert. 
 
-![Anzeige „Mein Arbeitsbereich“](./media/end-user-experience/power-bi-my-workspace2.png)
+In „Mein Arbeitsbereich“ sind die Inhalte auf 4 Registerkarten organisiert: „Dashboards“, „Berichte“, „Arbeitsmappen“ und „Datasets“.
+
+![Anzeige „Mein Arbeitsbereich“](./media/end-user-experience/power-bi-my-workspace.png)
 
 Wählen Sie im linken Navigationsbereich einen Arbeitsbereich aus. Die Registerkarten für die entsprechenden Inhalte (Dashboards, Berichte, Arbeitsmappen und Datasets) werden dann rechts im Power BI-Zeichenbereich aufgerufen.
 
@@ -58,7 +60,7 @@ Einem neuen Benutzer wird nur ein Arbeitsbereich (**Mein Arbeitsbereich**) angez
 
 ![Kurzvideo vom Arbeitsbereich](./media/end-user-experience/nav.gif)
 
-Auf diesen Registerkarten (bzw. in diesen *Inhaltsansichten*) sehen Sie Informationen zum Inhalt sowie Aktionen, die Sie auf diesen Inhalt anwenden können.  Auf der Registerkarte „Dashboards“ können Sie beispielsweise ein Dashboard öffnen, freigeben, löschen, suchen, neue Inhalte erstellen, sortieren und vieles mehr.
+Auf diesen Registerkarten (bzw. in diesen *Inhaltsansichten*) sehen Sie Informationen zum Inhalt sowie Aktionen, die Sie auf diesen Inhalt anwenden können.  Auf der Registerkarte „Dashboards“ können Sie beispielsweise ein Dashboard öffnen, durchsuchen oder sortieren.
 
 ![Registerkarte „Dashboards“](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ Auf diesen Registerkarten (bzw. in diesen *Inhaltsansichten*) sehen Sie Informat
    
     Wir haben bisher nur ein Favoriten. Favoriten können Dashboards, Berichte oder Apps sein.  
 
-1. Sie können ein Dashboard oder einen Bericht auch über die Registerkarte **Dashboards** oder **Berichte** des Arbeitsbereichs als Favorit speichern.  Öffnen Sie die Registerkarte **Berichte**, und klicken Sie links neben dem Berichtsnamen auf das Sternsymbol.
+1. Sie können ein Dashboard oder einen Bericht auch über die Registerkarten zur Inhaltsansicht **Dashboards** oder **Berichte** als Favorit speichern.  Öffnen Sie die Registerkarte **Berichte**, und klicken Sie links neben dem Berichtsnamen auf das Sternsymbol.
    
    ![Als Favorit markieren](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Weitere Informationen finden Sie unter [Favoriten](end-user-favorite.md).
 
     Wählen Sie im Flyout Inhalt aus, um ihn zu öffnen.
 
-2. Mitunter möchten Sie keine aktuellen Inhalte öffnen, sondern Informationen anzeigen oder andere Aktionen ausführen, wie z.B. Insights ausführen bzw. Daten freigeben oder nach Excel exportieren. In solchen Fällen öffnen Sie den Bereich **Zuletzt verwendet**, indem Sie auf **Zuletzt verwendet** oder das zugehörige Symbol im linken Navigationsbereich klicken. Wenn Sie mehrere Arbeitsbereiche haben, enthält diese Liste Inhalte aus allen Ihren Arbeitsbereichen.
+2. Mitunter möchten Sie keine aktuellen Inhalte öffnen, sondern einfach Informationen anzeigen oder andere Aktionen ausführen, wie z.B. Erkenntnisse anzeigen oder nach Excel exportieren. Öffnen Sie in solchen Fällen den Bereich **Zuletzt verwendet**, indem Sie auf **Zuletzt verwendet** oder das zugehörige Symbol im linken Navigationsbereich klicken. Wenn Sie mehrere Arbeitsbereiche haben, enthält diese Liste Inhalte aus allen Ihren Arbeitsbereichen.
 
    ![Bereich „Zuletzt verwendet“](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ Die Inhaltsansicht erleichtert das Suchen, Filtern und Sortieren Ihrer Inhalte. 
 
 Da Sie nur ein Beispiel haben, ist kein Suchen und Sortieren notwendig.  Aber bei langen Listen von Dashboards, Berichten, Arbeitsmappen und Datasets ist die Such- und Sortierfunktion überaus hilfreich.
 
-![Nach einem Dashboard suchen](./media/end-user-experience/power-bi-search-sort.png)
+![Nach Bericht suchen](./media/end-user-experience/power-bi-search.png)
 
-Sie können die Inhalte auch nach Name oder Besitzer sortieren.  
+Sie können die Inhalte auch nach Name oder Besitzer sortieren. Beachten Sie den Pfeil nach oben rechts neben **Name**. Aktuell werden 83 Elemente in alphabetischer aufsteigender Reihenfolge angezeigt. Klicken Sie auf **Name**, um die Elemente in absteigender Reihenfolge anzuzeigen. Dann wird ein Pfeil nach unten angezeigt.
 
-![Inhalte sortieren](./media/end-user-experience/power-bi-sort.png)
+![Inhalte sortieren](./media/end-user-experience/power-bi-sort-new.png)
 
-Weitere Informationen finden Sie unter [Suchen und Sortieren von Inhalten in Power BI](end-user-search-sort.md).
+Nicht alle Spalten können sortiert werden. Zeigen Sie auf die Spaltenüberschriften, um herauszufinden, welche Sie sortieren können.
+
+Weitere Informationen finden Sie unter [Navigation: Suchen und Sortieren von Inhalten im Power BI-Dienst](end-user-search-sort.md).
 
 ## <a name="clean-up-resources"></a>Bereinigen von Ressourcen
 Nachdem Sie diese Schnellstartanleitung abgeschlossen haben, können Sie das Dashboard, den Bericht und das Dataset zum Beispiel für die Einzelhandelsanalyse löschen, wenn Sie möchten.
@@ -143,4 +147,4 @@ Nachdem Sie diese Schnellstartanleitung abgeschlossen haben, können Sie das Das
 ## <a name="next-steps"></a>Nächste Schritte
 
 > [!div class="nextstepaction"]
-> [Lese- und Bearbeitungsansicht im Power BI-Dienst](end-user-reading-view.md)
+> [Leseansicht im Power BI-Dienst](end-user-reading-view.md)

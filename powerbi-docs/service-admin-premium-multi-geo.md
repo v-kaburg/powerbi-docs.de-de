@@ -1,35 +1,35 @@
 ---
 title: Multi-Geo-Unterstützung für Power BI Premium (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen können.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300182"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641666"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Multi-Geo-Unterstützung für Power BI Premium (Vorschau)
 
 Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Erfüllung von regionalen, branchenspezifischen oder organisationsbezogenen Data Residency-Anforderungen unterstützt. Als Power BI Premium-Kunde können Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen. Eine geografische Region (Geografie) kann mehr als eine Region umfassen. Die USA sind z.B. eine geografische Region und „USA, Westen-Mitte“ und „USA, Süden-Mitte“ Regionen innerhalb der USA. Außerdem können Sie Inhalte für eine der folgenden geografischen Regionen bereitstellen:
 
 - USA
-- Kanada
-- Vereinigtes Königreich
-- Brasilien
+- Canada
+- United Kingdom
+- Brazil
 - Europa
 - Japan
-- Indien
+- India
 - Asien-Pazifik
-- Australien
+- Australia
 
 Multi-Geo ist nicht für Power BI Deutschland, Power BI China (betrieben von 21Vianet) oder Power BI für die US-Regierung verfügbar.
 
@@ -40,7 +40,7 @@ Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Info
 Aktivieren Sie für die Verwendung der neuen Funktionen Multi-Geo, indem Sie eine andere Region als die Standardregion aus der Dropdownliste auswählen.  Jede verfügbare Kapazität zeigt die Region an, in der sie sich zurzeit befindet, z.B. **USA, Westen-Mitte**.
 
 ![Auswählen einer Region auf der Seite „Kapazitätsumfang“ Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Nachdem Sie die Kapazität erstellt haben, verbleibt sie in dieser Region und die Inhalte aller erstellten Arbeitsbereiche werden in dieser Region gespeichert. Auf der Seite mit den Arbeitsbereichseinstellungen können Sie über die Dropdownliste Arbeitsbereiche von einer Region zu einer anderen migrieren.
 
 ![Auswählen einer verfügbaren Kapazität auf der Seite „Arbeitsbereich bearbeiten“ Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -83,7 +83,7 @@ Wenn Sie die Region für vorhandene Inhalte ändern müssen, stehen Ihnen zwei O
 
 ## <a name="move-content-out-of-multi-geo"></a>Verschieben von Inhalten aus Multi-Geo  
 
-Sie können Arbeitsbereiche aus Multi-Geo auf eine der zwei folgenden Methoden verschieben:
+Sie haben zwei Möglichkeiten, Arbeitsbereiche aus der Multi-Geo-Kapazität zu entfernen:
 
 - Löschen Sie die aktuelle Kapazität, in der sich der Arbeitsbereich befindet.  Dadurch wird der Arbeitsbereich wieder in die gemeinsam genutzte Kapazität in der ursprünglichen Region verschoben.
 - Migrieren Sie einzelne Arbeitsbereiche wieder zur Premium-Kapazität, die sich in dem Mandanten in der ursprünglichen Region befindet.
@@ -91,11 +91,8 @@ Sie können Arbeitsbereiche aus Multi-Geo auf eine der zwei folgenden Methoden v
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
 - Vergewissern Sie sich, dass Sie bei Verschiebungen zwischen Regionen alle unternehmensspezifischen und gesetzlichen Complianceanforderungen erfüllen, bevor Sie eine Datenübertragung initiieren.
-
 - Eine zwischengespeicherte Abfrage, die sich in einer weit entfernten Region befindet, verbleibt in dieser Region im Ruhezustand. Allerdings werden andere in Übertragung begriffene Daten möglicherweise zwischen mehreren geografischen Regionen hin und her verschoben.
-
 - Beim Verschieben von Daten aus einer Region in eine andere in einer Multi-Geo-Umgebung können die Quelldaten bis zu 30 Tage lang in der Region verbleiben, von der aus die Daten verschoben wurden. In diesem Zeitraum haben Benutzer keinen Zugriff auf diese. Nach Ablauf der 30 Tage werden sie aus dieser Region entfernt und gelöscht.
-
 - Multi-Geo führt in der Regel nicht zur Leistungssteigerung. Für das Laden von Berichten und Dashboards sind weiterhin Anforderungen an die ursprüngliche Region für Metadaten erforderlich.
 
 ## <a name="next-steps"></a>Nächste Schritte
