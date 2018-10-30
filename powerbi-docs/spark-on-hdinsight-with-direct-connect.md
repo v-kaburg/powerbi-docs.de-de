@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016167"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100747"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark on HDInsight mit DirectQuery
 
@@ -58,7 +58,7 @@ Benutzername und Kennwort finden Sie ebenfalls im Azure-Portal.
 
 ## <a name="limitations"></a>Einschränkungen
 
-Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzeroberfläche fortlaufend optimieren. Zusätzliche Dokumentation finden Sie unter [Verwenden von BI-Tools mit Apache Spark für Azure HDInsight](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/).
+Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzeroberfläche fortlaufend optimieren. Zusätzliche Dokumentation finden Sie unter [Verwenden von BI-Tools mit Apache Spark für Azure HDInsight](/azure/hdinsight/spark/apache-spark-use-bi-tools/).
 
 * Der Power BI-Dienst unterstützt nur eine Konfiguration, die Spark 2.0 und HDInsights 3.5 umfasst.
 * Durch jede Aktion, wie z. B. das Auswählen einer Spalte oder das Hinzufügen eines Filters, wird eine Abfrage an die Datenbank gesendet – bevor Sie sehr große Felder auswählen, sollten Sie einen geeigneten Visualisierungstyp wählen.
@@ -76,9 +76,9 @@ Sie können im Azure-Portal unter **Konfiguration** > **Cluster skalieren** auch
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Erste Schritte: Erstellen eines Apache Spark-Clusters für HDInsight (Linux) und Ausführen von interaktiven Abfragen per Spark-SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Erste Schritte: Erstellen eines Apache Spark-Clusters für HDInsight (Linux) und Ausführen von interaktiven Abfragen per Spark-SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Was ist Power BI?](power-bi-overview.md)  
 [Abrufen von Daten für Power BI](service-get-data.md)
-[Verwenden von Kerberos auf dem lokalen Gateway für SSO](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[Verwenden von Kerberos auf dem lokalen Gateway für SSO](service-gateway-sso-kerberos.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417117"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003292"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -83,9 +83,9 @@ Erstellen wir eine einfache Formel. Diese Aufgabe vertieft Ihr Verständnis für
 ### <a name="task-create-a-measure-formula"></a>Aufgabe: Erstellen einer Measureformel
 Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Beispieldatei öffnen.
     
-1. Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
+1. Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf Neues Measure.
     
-2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
+2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: Previous Quarter Sales (Umsätze des Vorquartals).
     
 3. Geben Sie nach dem Gleichheitszeichen die ersten paar Buchstaben **CAL** ein, und doppelklicken Sie dann die zu verwendende Funktion. In dieser Formel sollten Sie die **CALCULATE**-Funktion verwenden.
 
@@ -142,7 +142,7 @@ DAX enthält die folgenden Kategorien von Funktionen: [Datum und Uhrzeit](https:
 * DAX beinhaltet eine Vielzahl von Zeitintelligenzfunktionen. Mit diesen Funktionen können Sie Datumsbereiche definieren oder auswählen und dynamische Berechnungen auf ihrer Grundlage durchführen. Beispielsweise können Sie Summen über parallele Zeiträume vergleichen.
 * Excel verfügt über eine sehr beliebte Funktion, SVERWEIS. DAX-Funktionen nehmen keine Zelle oder einen Zellbereich als Verweis an, wie SVERWEIS in Excel. DAX-Funktionen nehmen eine Spalte oder eine Tabelle als Verweis an. Bedenken Sie, dass Sie in Power BI Desktop mit einem relationalen Datenmodell arbeiten. Das Nachschlagen von Werten in einer anderen Tabelle ist wirklich recht einfach, und in den meisten Fällen müssen Sie dafür gar keine Formel erstellen.
   
-  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen sehr leistungfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](https://msdn.microsoft.com/library/ee634396.aspx).
+  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen sehr leistungfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Funktionen-Kurzquiz
 1. Worauf verweist eine Funktion in jedem Fall?

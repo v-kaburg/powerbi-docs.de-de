@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296308"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101414"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Verwalten Ihrer Datenquelle – SQL Server
 Nach der Installation des lokalen Datengateways können Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Datenquelle SQL Server für die geplante Aktualisierung oder für DirectQuery verwenden.
@@ -60,7 +60,7 @@ Sie sollten dann die Angaben für die Datenquelle vervollständigen, insbesonder
 Zudem muss eine **Authentifizierungsmethode**festgelegt werden.  Dabei kann es sich um **Windows** oder **Basic**handeln.  Wählen Sie **Basic** aus, wenn SQL-Authentifizierung statt der Windows-Authentifizierung verwendet werden soll. Geben Sie dann die Anmeldeinformationen ein, die für diese Datenquelle verwendet werden sollen.
 
 > [!NOTE]
-> Alle Abfragen der Datenquelle werden mit diesen Anmeldeinformationen ausgeführt, es sei denn, für die Datenquelle ist einmaliges Anmelden (Single Sign-On, SSO) mit Kerberos-Authentifizierung konfiguriert und aktiviert. Bei Verwendung von SSO werden für Importdatasets die gespeicherten Anmeldeinformationen verwendet. Für DirectQuery-Datasets wird jedoch der aktuelle Power BI-Benutzer zum Ausführen der Abfragen mit SSO verwendet. Weitere Informationen über das Speichern von [Anmeldeinformationen](service-gateway-onprem.md#credentials) finden Sie im Hauptartikel zum lokalen Datengateway oder im Artikel [Use Kerberos for SSO (single sign-on) from Power BI to on-premises data sources](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) (Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO) von Power BI bei lokalen Datenquellen).
+> Alle Abfragen der Datenquelle werden mit diesen Anmeldeinformationen ausgeführt, es sei denn, für die Datenquelle ist einmaliges Anmelden (Single Sign-On, SSO) mit Kerberos-Authentifizierung konfiguriert und aktiviert. Bei Verwendung von SSO werden für Importdatasets die gespeicherten Anmeldeinformationen verwendet. Für DirectQuery-Datasets wird jedoch der aktuelle Power BI-Benutzer zum Ausführen der Abfragen mit SSO verwendet. Weitere Informationen über das Speichern von [Anmeldeinformationen](service-gateway-onprem.md#credentials) finden Sie im Hauptartikel zum lokalen Datengateway oder im Artikel [Use Kerberos for SSO (single sign-on) from Power BI to on-premises data sources](service-gateway-sso-kerberos.md) (Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO) von Power BI bei lokalen Datenquellen).
 > 
 > 
 
@@ -123,6 +123,6 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 * [Lokales Datengateway](service-gateway-onprem.md)  
 * [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
 * [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)
-* [Use Kerberos for SSO (single sign-on) from Power BI to on-premises data sources](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) (Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO) von Power BI bei lokalen Datenquellen, in englischer Sprache) 
+* [Use Kerberos for SSO (single sign-on) from Power BI to on-premises data sources](service-gateway-sso-kerberos.md) (Verwenden von Kerberos für einmaliges Anmelden (Single Sign-On, SSO) von Power BI bei lokalen Datenquellen, in englischer Sprache) 
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

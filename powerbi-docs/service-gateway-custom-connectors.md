@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 75e760c1ad808d05986de46cf2bc427bb078e3ce
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799044"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101276"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Verwenden von benutzerdefinierten Datenconnectors mit dem lokalen Datengateway
 
@@ -56,6 +56,6 @@ Wenn diese Option aktiviert ist, werden Ihre benutzerdefinierten Connectors als 
 * [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
 * [Lokales Datengateway (persönlicher Modus)](service-gateway-personal-mode.md)
 * [Konfigurieren von Proxyeinstellungen für das lokale Datengateway](service-gateway-proxy.md)  
-* [Use Kerberos for SSO (single sign-on) from Power BI to On-premises data sources (Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) bei Power BI für lokale Datenquellen)](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+* [Use Kerberos for SSO (single sign-on) from Power BI to On-premises data sources (Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) bei Power BI für lokale Datenquellen)](service-gateway-sso-kerberos.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
