@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4fa28e828df2765bb128ad5fb6e8eee73b6eb2a2
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bdd43c820f87bb9308478b4e2100514349644d11
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272388"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252374"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-Lizenzierung in Ihrem Unternehmen
 
@@ -121,7 +121,7 @@ Wenn der unbeschränkte Power BI Free-Lizenzblock nicht verfügbar ist und Sie e
 
 1. Jetzt können Sie [Lizenzen in Office 365 zuweisen](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
-1. Wenn Sie später mehr Lizenzen hinzufügen möchten, können Sie zu **Abonnements hinzufügen** zurückkehren und für Power BI Free **Change license quantity** (Lizenzanzahl ändern) auswählen.
+1. Wenn Sie später mehr Lizenzen hinzufügen möchten, können Sie zu **Abonnements hinzufügen** zurückkehren und für Power BI (Free) **Change license quantity** (Lizenzanzahl ändern) auswählen.
 
     ![Anzahl an Lizenzen ändern](media/service-admin-licensing-organization/change-license-quantity.png)
 

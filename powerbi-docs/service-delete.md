@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909895"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435335"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Löschen beliebiger Elemente aus dem Power BI-Dienst
 In diesem Artikel wird erläutert, wie Sie ein Dashboard, einen Bericht, eine Arbeitsmappe, ein Dataset, eine App, eine Visualisierung oder einen Arbeitsbereich im Power BI-Dienst löschen.
@@ -129,7 +129,7 @@ Wenn Sie eine App von der Seite mit der Liste der Apps löschen, wird sie nicht 
 
    ![Apps auswählen](media/service-delete/power-bi-delete-app.png)
 
-   Wenn Sie eine App versehentlich entfernen, stehen Ihnen mehrere Optionen zur Verfügung, um sie wieder zu erhalten.  Sie können den Ersteller der App bitten, sie erneut zu senden, Sie können die ursprüngliche E-Mail mit dem Link zur App suchen, Sie können in der [Mitteilungszentrale](service-notification-center.md) überprüfen, ob die Benachrichtigung für die App noch aufgeführt ist, oder Sie können [AppSource](service-install-use-apps.md) für Ihre Organisation überprüfen.
+   Wenn Sie eine App versehentlich entfernen, stehen Ihnen mehrere Optionen zur Verfügung, um sie wieder zu erhalten.  Sie können den Ersteller der App bitten, sie erneut zu senden, Sie können die ursprüngliche E-Mail mit dem Link zur App suchen, Sie können in der [Mitteilungszentrale](service-notification-center.md) überprüfen, ob die Benachrichtigung für die App noch aufgeführt ist, oder Sie können [AppSource](consumer/end-user-apps.md) für Ihre Organisation überprüfen.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 In diesem Artikel wird das Löschen der Grundkomponenten des Power BI-Diensts beschrieben. Es gibt jedoch noch weitere Komponenten in Power BI, die Sie löschen können.  

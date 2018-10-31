@@ -1,6 +1,6 @@
 ---
-title: Power BI-Dienst – Grundkonzepte
-description: Arbeitsbereiche, Dashboards, Berichte, Datasets und Arbeitsmappen im Power BI-Dienst.
+title: 'Power BI-Dienst: Grundkonzepte für Benutzer'
+description: Apps, Arbeitsbereiche, Dashboards, Berichte, Datasets und Arbeitsmappen im Power BI-Dienst.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,115 +8,129 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 6b7ada4e342f37b23200a71b4c15a933960631c5
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566140"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641747"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – Grundkonzepte des Power BI-Diensts
+# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI: Grundkonzepte für ***Benutzer*** des Power BI-Diensts
 
-In diesem Artikel wird davon ausgegangen, dass Sie sich bereits [für den Power BI-Dienst registriert](../service-self-service-signup-for-power-bi.md) und [Daten hinzugefügt](../service-get-data.md) haben.
+## <a name="power-bi-consumers-and-designers"></a>*Benutzer* und *Designer* von Power BI
+In diesem Artikel wird davon ausgegangen, dass Sie bereits den Übersichtsartikel [Was ist Power BI?](../power-bi-overview.md) gelesen haben und sich als ***Benutzer*** von Power BI sehen. Benutzer erhalten Power BI-Inhalte wie Dashboards und Berichte von Kollegen. Benutzer nutzen den Power BI-Dienst, also die Website-basierte Version von Power BI. 
 
-Wenn Sie den Power BI-Dienst öffnen, wird ein ***Dashboard*** angezeigt. Dashboards unterscheiden den Power BI-Dienst von Power BI Desktop.
+Bestimmt haben Sie schon von „Power BI Desktop“ oder einfach „Desktop“ gehört. Dies ist ein eigenständiges Tool, das die *Designer* verwenden, die Dashboards und Berichte erstellen und für Sie freigeben. Es ist wichtig zu wissen, dass es auch andere Power BI-Tools gibt. Als Benutzer arbeiten Sie aber nur mit dem Power BI-Dienst. Dieser Artikel bezieht sich nur auf den Power BI-Dienst. 
 
-![](media/end-user-basic-concepts/completenewest.png)
+## <a name="terminology-and-concepts"></a>Terminologie und Konzepte
+Dieser Artikel ist kein visueller Rundgang durch Power BI und auch kein praktisches Tutorial. Stattdessen ist es ein Übersichtsartikel, der Sie mit der Terminologie und den Konzepten von Power BI vertraut machen soll. Er soll Ihnen sozusagen den Fachjargon und das Gelände zeigen. Einen Rundgang durch den Power BI-Dienst und dessen Navigation können Sie in diesem [Schnellstart](end-user-experience.md) machen.
 
-Die wichtigsten Funktionen der Benutzeroberfläche des Power BI-Diensts:
+## <a name="open-power-bi-service-for-the-first-time"></a>Power BI-Dienst zum ersten Mal öffnen
+Die meisten Power BI-Benutzer nutzen den Power BI-Dienst, da 1) ihr Unternehmen Lizenzen kauft und 2) ein Administrator diese Lizenzen Mitarbeitern wie Ihnen zuweist. 
 
-1. Navigationsbereich (linker Navigationsbereich)
-2. Zeichenbereich (in diesem Fall Dashboard mit Kacheln)
-3. Fragenfeld für Fragen und Antworten (F&A)
-4. Symbolschaltflächen, einschließlich Hilfe und Feedback
-5. Dashboardtitel (Navigationspfad oder Breadcrumbs)
-6. Office 365-App-Startfeld
-7. Power BI-Schaltfläche „Start“
-8. Beschriftete Symbolschaltflächen
+Öffnen Sie als Erstes einen Browser, und geben Sie **app.powerbi.com** ein. Beim ersten Öffnen sieht der Power BI-Dienst etwa wie folgt aus.
 
-Dies wird später näher erläutert. Zunächst werden einige Grundkonzepte von Power BI besprochen.
+![](media/end-user-basic-concepts/power-bi-open.png)
 
-Sie können sich auch erst dieses Video ansehen und dann den Rest des Artikels lesen.  In diesem Video gibt Will einen Überblick über den Power BI-Dienst und erklärt die grundlegenden Konzepte.
+Wenn Sie Power BI verwenden, werden Sie personalisieren, was Ihnen jedes Mal beim Öffnen der Website angezeigt wird.  Manchen ist es zum Beispiel lieber, wenn sich Power BI mit der Startseite öffnet, während Andere lieber zuerst ein bevorzugtes Dashboard sehen möchten. Keine Sorge, wir erklären Ihnen, wie das geht. 
+- [Home preview (Vorschau der Startseite)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Inhalt als **ausgewählt** festlegen](end-user-featured.md) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
+![](media/end-user-basic-concepts/power-bi-first.png)
+
+Aber bevor wir fortfahren, wollen wir uns zuerst die Bausteine ansehen, aus denen der Power BI-Dienst besteht.
+
+## <a name="power-bi-content"></a>Power BI-***Inhalt***
+### <a name="introduction-to-building-blocks"></a>Einführung in die Bausteine
+Für Power BI-Benutzer gibt es 5 Bausteine: ***Visualisierungen***, ***Dashboards***, ***Berichte***, ***Apps*** und ***Datasets***. Diese werden manchmal als *Power BI*-***Inhalt*** bezeichnet. Und *Inhalt* ist in ***Arbeitsbereichen*** vorhanden. Ein typischer Workflow umfasst alle diese Bausteine: Ein Power BI-*Designer* (gelb im folgenden Diagramm) sammelt Daten aus *Datasets*, bringt sie in Power BI für die Analyse, erstellt *Berichte* voller *Visualisierungen*, die interessante Fakten und Erkenntnisse hervorheben, heftet Visualisierungen aus Berichten an ein Dashboard an und teilt die Berichte und Dashboards mit *Benutzern* wie Ihnen (schwarz im folgenden Diagramm) in Form von *Apps* oder anderen Arten von freigegebenen Inhalten. 
+
+![](media/end-user-basic-concepts/power-bi-workflow.png)
+
+Das ist das Grundlegende. 
+* ![Visualisierungssymbol](media/end-user-basic-concepts/visual.png) Eine ***Visualisierung*** (oder ein *Visual*) ist eine Art von Diagramm, das von einem Power BI-*Designer* mithilfe der Daten in *Berichten* und *Datasets* erstellt wurde. In der Regel erstellen *Designer* die Visuals in Power BI Desktop. 
+
+    Weitere Informationen finden Sie unter [Visualisierungen für Power BI-*Benutzer*](end-user-visualizations.md).
+
+* ![Datenbanksymbol](media/end-user-basic-concepts/power-bi-dataset-icon.png) Ein *Dataset* ist ein Container mit Daten. Dies kann zum Beispiel eine Excel-Datei der Weltgesundheitsorganisation, eine unternehmenseigene Kundendatenbank oder eine Salesforce-Datei sein.  
+
+* ![Dashboardsymbol](media/end-user-basic-concepts/dashboard.png) Ein *Dashboard* ist eine einzelne Anzeige mit interaktiven Visuals, Text und Grafiken. Ein Dashboard sammelt Ihre wichtigsten Metriken in einer Anzeige, um eine Geschichte zu erzählen oder eine Frage zu beantworten. Der Dashboardinhalt stammt aus einem oder mehreren Berichten und aus einem oder mehreren Datasets.
+
+    Weitere Informationen finden Sie unter [Dashboards im Power BI-*Dienst*](end-user-dashboards.md).
+
+* ![Berichtssymbol](media/end-user-basic-concepts/report.png) Ein *Bericht* besteht aus einer oder mehreren Seiten mit interaktiven visuellen Elementen, Text und Grafiken, die gemeinsam einen Bericht bilden. Ein Bericht basiert auf einem einzelnen Dataset. Berichtsseiten sind oft so organisiert, dass jede ein zentrales Interessengebiet anspricht oder eine einzelne Frage beantwortet.
+
+    Weitere Informationen finden Sie unter [Berichte in Power BI-*Benutzer*](end-user-reports.md).
+
+* ![App-Symbol](media/end-user-basic-concepts/app.png) Mit einer *App* können *Designer* zusammengehörige Dashboards und Berichte bündeln und zusammen freigeben. *Benutzer* erhalten einige Apps automatisch, können aber nach weiteren Apps suchen, die Kollegen oder die Community erstellt haben. Zum Beispiel bieten externe Dienste wie Google Analytics und Microsoft Dynamics CRM, die Sie möglicherweise bereits verwenden, Power BI-Apps an.
+
+Wenn Sie sich als neuer Benutzer zum ersten Mal in Power BI einloggen, verfügen Sie jedoch noch nicht über Dashboards, Apps oder Berichte. 
+_______________________________________________________
 
 
-## <a name="power-bi-concepts"></a>Power BI-Konzepte
-Die vier wichtigsten Grundkomponenten von Power BI sind: ***Dashboards***, ***Berichte***, ***Arbeitsmappen*** und ***Datasets***. Diese sind in ***Arbeitsbereichen*** angeordnet. Zunächst sollen Arbeitsbereiche erläutert werden, bevor die vier anderen Grundkomponenten näher betrachtet werden. 
-
-## <a name="workspaces"></a>Arbeitsbereiche
-Arbeitsbereiche sind Container für Dashboards, Berichte, Arbeitsmappen und Datasets in Power BI. Es gibt zwei Arten von Arbeitsbereichen: *Mein Arbeitsbereich* und *App-Arbeitsbereiche*. Was genau ist eine *App*? Eine Power BI-*App* ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für Ihre Organisation bereitzustellen. Apps sind interaktiv, können jedoch nicht bearbeitet werden. 
-
-- *Mein Arbeitsbereich* ist der persönliche Arbeitsbereich jedes Power BI-Kunden, in dem Sie Ihre eigenen Inhalte bearbeiten. Nur Sie haben Zugriff auf Ihren „Mein Arbeitsbereich“. Sie können Dashboards und Berichte von Ihrem Arbeitsbereich aus freigeben. Wenn Sie in Dashboards und Berichte mit anderen Personen zusammenarbeiten oder eine App erstellen möchten, sollten Sie einen App-Arbeitsbereich verwenden.      
--  *App-Arbeitsbereiche* werden für die Zusammenarbeit und die Freigabe von Inhalten für Kollegen verwendet. Darüber sind hinaus werden hier Apps für Ihre Organisation erstellt, veröffentlicht und verwaltet. Betrachten Sie sie als eine Art Bereitstellungsraum und Container für Ihre Inhalte, die eine Power BI-App bilden. Sie können Ihren App-Arbeitsbereichen Kollegen hinzufügen und gemeinsam an Dashboards, Berichten, Arbeitsmappen und Datasets arbeiten. Alle Mitglieder des App-Arbeitsbereichs benötigen Power BI Pro-Lizenzen, für App-Anwender (Kollegen, die Zugriff auf die Apps haben) sind Pro-Lizenzen jedoch nicht zwingend erforderlich.  
-
-Weitere Informationen finden Sie im Abschnitt **Freigeben Ihrer Arbeit** des Inhaltsverzeichnisses ab dem Thema [Wie kann ich Dashboards und Berichte freigeben?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-
-
-Nun zu den Grundkomponenten von Power BI. Sie können keine Dashboards oder Berichte ohne Daten erstellen (es können zwar leere Dashboards und Berichte verwendet werden, aber das erscheint wenig sinnvoll). Beginnen wir also mit **Datasets**.
 
 ## <a name="datasets"></a>Datasets
-Ein *Dataset* ist eine Sammlung von Daten, die Sie *importieren* oder mit denen Sie eine *Verbindung herstellen*. In Power BI können Sie Verbindungen mit allen Arten von Datasets herstellen, sie importieren und zentral anordnen.  
+Ein *Dataset* ist eine Sammlung von Daten, die *Designer* importieren oder zu denen sie eine Verbindung herstellen und dann damit Berichte und Dashboards erstellen. Als Benutzer werden Sie nicht direkt mit Datasets zu tun haben, aber es kann dennoch hilfreich sein zu wissen, welche Rolle sie in einem größeren Zusammenhang spielen.  
 
-Datasets sind *Arbeitsbereichen* zugeordnet, und ein einzelnes Dataset kann Teil mehrerer Arbeitsbereiche sein. Wenn Sie einen Arbeitsbereich öffnen, werden die zugeordneten Datasets auf der Registerkarte **Datasets** aufgeführt. Jedes aufgelistete Dataset stellt eine einzelne Datenquelle dar, z. B. eine Excel-Arbeitsmappe auf OneDrive oder ein lokales tabellarisches SSAS-Dataset oder ein Salesforce-Dataset. Es werden viele verschiedene Datenquellen unterstützt, zu denen beständig neue Datenquellen hinzugefügt werden. [Hier finden Sie eine Liste der Datasettypen, die mit Power BI verwendet werden können](../service-get-data.md).
+Jedes Dataset stellt eine einzelne Datenquelle dar, z.B. eine Excel-Arbeitsmappe auf OneDrive oder ein lokales tabellarisches SSAS-Dataset oder ein Salesforce-Dataset. Es werden viele verschiedene Datenquellen unterstützt.
 
-Im folgenden Beispiel ist die App „Vertrieb und Marketing“ ausgewählt, und es wurde auf die Registerkarte **Datasets** geklickt.
+Wenn ein Designer eine App für Sie freigegeben hat, können Sie sehen, welche Datasets in der App enthalten sind. 
 
-![](media/end-user-basic-concepts/power-bi-datasets.png)
+![](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **EIN** Dataset...
 
-* kann beliebig oft in einem oder mehreren verschiedenen Arbeitsbereichen verwendet werden.
-* kann in vielen verschiedenen Berichten verwendet werden.
-* Visualisierungen dieses einen Datasets können auf vielen verschiedenen Dashboards angezeigt werden.
+* kann immer wieder verwendet werden
+* kann in vielen verschiedenen Berichten verwendet werden
+* Visualisierungen dieses einen Datasets können auf vielen verschiedenen Dashboards angezeigt werden
   
-  ![](media/end-user-basic-concepts/drawing2.png)
+  ![Dataset-M:1-Beziehungen](media/end-user-basic-concepts/drawing2.png)
 
-Wählen Sie **Daten abrufen** (am unteren Rand der linken Navigationsleiste) oder wählen Sie **+ Erstellen > Datasets** (in der rechten oberen Ecke) aus, um die [Verbindung mit einem Dataset herzustellen oder es zu importieren](../service-get-data.md). Befolgen Sie die Anweisungen zum Herstellen einer Verbindung mit der jeweiligen Quelle bzw. zum Importieren, und fügen Sie das Dataset dem aktiven Arbeitsbereich hinzu. Neue Datasets werden mit einem gelben Sternchen markiert. Das zugrunde liegende Dataset wird durch Ihre Arbeit in Power BI nicht verändert.
+Weiter geht es mit dem nächsten Baustein: Visualisierungen.
+__________________________________________________________
 
-Wenn Sie [zu einem ***App Arbeitsbereich*** gehören](../service-collaborate-power-bi-workspace.md), sind Datasets, die von einem Arbeitsbereichsmitglied hinzugefügt wurden, für die anderen Arbeitsbereichsmitglieder verfügbar.
+## <a name="visualizations"></a>Visualisierungen
+Visualisierungen (auch als Visuals bezeichnet) zeigen Erkenntnisse an, die in den Daten ermittelt wurden. Visualisierungen erleichtern das Interpretieren der Erkenntnis, da Ihr Gehirn ein Bild schneller verstehen kann als beispielsweise eine Tabelle mit Zahlen.
 
-Datasets können aktualisiert, umbenannt, untersucht und entfernt werden. Verwenden Sie ein Dataset, um einen völlig neuen Bericht zu erstellen, oder führen Sie [Schnelleinblicke](end-user-insights.md) aus.  Wählen Sie **Verwandte Inhalte anzeigen**, um zu erfahren, welche Berichte und Dashboards ein Dataset bereits verwenden. Wählen Sie ein Dataset aus, um es zu untersuchen. Tatsächlich öffnen Sie das Dataset im Berichts-Editor, wo Sie beginnen können, die Daten zu untersuchen und Visualisierungen zu erstellen. Fahren wir also mit dem nächsten Thema fort – Berichte.
+Einige der Visualisierungen, die Ihnen in Power BI begegnen werden, sind Wasserfalldiagramme, Bänderdiagramme, Treemaps, Kreisdiagramme, Trichterdiagramme, Karten, Punkt- und Blasendiagramme sowie Messgerätdiagramme. Hier finden Sie eine vollständige Liste der [Visualisierungstypen in Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-### <a name="dig-deeper"></a>Weiterführende Themen
-* [Power BI Premium – Beschreibung](../service-premium.md)
-* [Abrufen von Daten in Power BI](../service-get-data.md)
-* [Beispieldatasets für Power BI](../sample-datasets.md)
 
+   ![8 Beispielvisuals](media/end-user-basic-concepts/power-bi-visuals.png)
+
+Visualisierungen werden auch von der Community zur Verfügung gestellt und heißen dann *benutzerdefinierte Visuals*. Wenn Sie einen Bericht mit einem Visual erhalten und dieses nicht erkennen, handelt es sich wahrscheinlich um ein benutzerdefiniertes Visual. Wenn Sie Hilfe beim Interpretieren des benutzerdefinierten visuellen Elements benötigen, können Sie <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->den Namen des *Designers* des Berichts oder Dashboards suchen und ihn oder sie kontaktieren.
+
+**EINE** Visualisierung in einem Bericht...
+
+* kann mit Kopieren/Einfügen immer wieder im selben Bericht verwendet werden
+* kann auf vielen verschiedenen Dashboards verwendet werden
+__________________________________________________
 ## <a name="reports"></a>Berichte
-Bei einem Power BI-Bericht handelt es sich um eine oder mehrere Seiten mit Visualisierungen (Diagramme und Grafiken wie Liniendiagramme, Kreisdiagramme, Treemaps usw.). Visualisierungen werden auch als ***visuelle Elemente*** bezeichnet. Alle Visualisierungen in einem Bericht stammen aus einem einzelnen Dataset. Berichte können in Power BI von Grund auf neu erstellt werden. Ebenso können sie mit Dashboards importiert werden, die Kollegen für Sie freigeben. Zudem können Berichte erstellt werden, wenn Sie eine Verbindung mit Datasets aus Excel, Power BI Desktop, Datenbanken, SaaS-Anwendungen und [Apps](../service-get-data.md) herstellen.  Wenn Sie z. B. eine Verbindung mit einer Excel-Arbeitsmappe herstellen, die Power View-Tabellen enthält, dann erstellt Power BI einen Bericht auf Basis dieser Tabellen. Und wenn Sie eine Verbindung mit einer SaaS-Anwendung herstellen, wird ein vorgefertigter Bericht von Power BI importiert.
+Ein Power BI-Bericht besteht aus einer oder mehreren Seiten mit Visualisierungen, Grafiken und Text. Alle Visualisierungen in einem Bericht stammen aus einem einzelnen Dataset. *Designer* geben Berichte für *Benutzer* frei, die [mit den Berichten in der *Leseansicht* interagieren](end-user-reading-view.md).
 
-Es gibt zwei Modi, um Berichte anzuzeigen und mit ihnen zu interagieren: [Leseansicht und Bearbeitungsansicht](end-user-reading-view.md).  Nur der Ersteller des Berichtes, die Mitbesitzer und die Personen, denen die entsprechende Berechtigung erteilt wurde, haben in der ***Bearbeitungsansicht*** des Berichts Zugriff auf alle Untersuchungs-, Entwurfs-, Erstellungs- und Freigabefunktionen. Die Personen, für die der Bericht freigegeben wird, können den Bericht in der ***Leseansicht*** untersuchen und mit ihm interagieren.   
-
-Wenn Sie einen Arbeitsbereich öffnen, werden die zugeordneten Berichte auf der Registerkarte **Berichte** aufgeführt. Jeder aufgeführte Bericht stellt mindestens eine Seite mit Visualisierungen dar, die auf nur einem der zugrunde liegenden Datasets basieren. Wählen Sie einen Bericht einfach aus, um ihn zu öffnen. 
-
-Wenn Sie eine App öffnen, sehen Sie ein Dashboard.  Um auf den zugrunde liegenden Bericht zuzugreifen, wählen Sie eine Dashboardkachel (siehe weiter unten) aus, die aus einem Bericht angeheftet wurde. Beachten Sie, dass nicht alle Kacheln aus Berichten angeheftet werden, möglicherweise müssen Sie also einige Kacheln durchprobieren, bis Sie den gesuchten Bericht finden. 
-
-Der Bericht wird standardmäßig in der Leseansicht geöffnet.  Wählen Sie einfach **Bericht bearbeiten** aus, um den Bericht in der Bearbeitungsansicht zu öffnen (falls Sie über die erforderlichen Berechtigungen verfügen). 
-
-Im folgenden Beispiel ist die App „Vertrieb und Marketing“ ausgewählt, und es wurde auf die Registerkarte **Berichte** geklickt.
-
-![](media/end-user-basic-concepts/power-bi-reports.png)
+![Bericht mit Registerkarten](media/end-user-basic-concepts/power-bi-report2.png)
 
 **EIN** Bericht...
 
-* ist in einem einzelnen Arbeitsbereich enthalten
-* kann mehreren Dashboards in diesem Arbeitsbereich zugeordnet werden (die von diesem Bericht angehefteten Kacheln können auf mehreren Dashboards angezeigt werden).
-* kann mithilfe der Daten aus einem Dataset erstellt werden. (Eine geringfügige Ausnahme ist, dass Power BI Desktop mehrere Datasets zu einem einzelnen Bericht zusammenfassen kann, der in Power BI importierbar ist).
+* kann mehreren Dashboards zugeordnet werden (die von diesem Bericht angehefteten Kacheln können auf mehrere Dashboards angezeigt werden).
+* wird mithilfe der Daten aus nur einem Dataset erstellt  
+* kann Teil mehrerer Apps sein
   
-  ![](media/end-user-basic-concepts/drawing3new.png)
+  ![](media/end-user-basic-concepts/drawing5.png)
 
-### <a name="dig-deeper"></a>Weiterführende Themen
-* [Berichte im Power BI-Dienst und in Power BI Desktop](end-user-reports.md)
-* [Berichte in den mobilen Power BI-Apps](mobile/mobile-reports-in-the-mobile-apps.md)
+________________________________________________
 
 ## <a name="dashboards"></a>Dashboards
-Ein *Dashboard* ist ein von Ihnen **im Power BI-Dienst** oder von einem Kollegen **im Power BI-Dienst** erstelltes Objekt, das für Sie freigegeben wurde. Es handelt sich um einen einzelnen Zeichenbereich, der keine, eine oder mehrere Kacheln und Widgets enthält. Jede aus einem Bericht oder aus [Q&A](end-user-q-and-a.md) angeheftete Kachel zeigt eine einzelne [Visualisierung](../visuals/power-bi-report-visualizations.md) an, die aus einem Dataset erstellt wurde und an das Dashboard angeheftet ist. Gesamte Berichtsseiten können ebenfalls als einzelne Kachel an ein Dashboard angeheftet werden. Es gibt viele Möglichkeiten, dem Dashboard Kacheln hinzuzufügen – zu viele, um sie in diesem Übersichtsthema zu behandeln. Weitere Informationen finden Sie unter [Dashboardkacheln in Power BI](end-user-tiles.md). 
+Ein Dashboard stellt eine angepasste Ansicht einer Teilmenge des/der zugrunde liegenden Datasets dar. *Designer* erstellen Dashboards und geben sie für *Benutzer* frei – entweder einzeln oder als Teil einer App. Ein Dashboard ist ein einzelner Zeichenbereich, der *Kacheln*, Grafiken und Text enthält. 
 
-Warum werden Dashboards erstellt?  Hier sind nur einige der Gründe:
+  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+
+Eine Kachel ist ein Rendering eines visuellen Elements, das ein *Designer* zum Beispiel aus einem Report an ein Dashboard *anheftet*.  Jede angeheftete Kachel zeigt eine [Visualisierung](end-user-visualizations.md) an, die aus einem Dataset erstellt und an dieses Dashboard angeheftet wurde. Eine Kachel kann auch eine komplette Berichtsseite, Livestreamingdaten oder ein Video enthalten. Es gibt viele Möglichkeiten, wie *Designer* Kacheln zu Dashboards hinzufügen – zu viele, um sie in diesem Übersichtsthema zu behandeln. Weitere Informationen finden Sie unter [Dashboardkacheln in Power BI](end-user-tiles.md). 
+
+Von der Benutzerseite aus können Dashboards nicht bearbeitet werden. Sie können jedoch Kommentare hinzufügen, verwandte Daten anzeigen, Dashboards als Favorit speichern, sie abonnieren und vieles mehr. 
+
+Was sind die Funktionen von Dashboards?  Hier nur einige davon:
 
 * Sie können auf einen Blick alle Informationen erkennen, die zum Treffen von Entscheidungen erforderlich sind.
 * Sie können die wichtigsten unternehmensbezogenen Informationen überwachen.
@@ -124,117 +138,37 @@ Warum werden Dashboards erstellt?  Hier sind nur einige der Gründe:
 * Sie können die Integrität eines Geschäfts, Produkts, Unternehmensbereichs oder einer Marketingkampagne usw. überwachen.
 * Sie können eine personalisierte Ansicht eines umfangreicheren Dashboards erstellen, das alle für Sie erforderlichen Metriken enthält.
 
-Wenn Sie einen Arbeitsbereich öffnen, werden die zugeordneten Dashboards auf der Registerkarte **Dashboards** aufgeführt. Wählen Sie ein Dashboard aus, um es zu öffnen. Wenn Sie eine App öffnen, sehen Sie ein Dashboard.  Jedes Dashboard stellt eine angepasste Ansicht einer Teilmenge der zugrunde liegenden Datasets dar.  Wenn Sie der Besitzer des Dashboards sind, haben Sie auch Bearbeitungszugriff auf das oder die zugrunde liegenden Datasets und Berichte.  Wenn das Dashboard für Sie freigegeben wurde, können Sie mit dem Dashboard und allen zugrunde liegenden Berichten interagieren, Sie können jedoch keine Änderungen speichern.
-
-Es gibt viele verschiedene Möglichkeiten, wie Sie oder ein Kollege [ein Dashboard freigeben](../service-share-dashboards.md) können. Power BI Pro ist für das Freigeben eines Dashboards und möglicherweise auch zum Anzeigen eines freigegebenen Dashboards erforderlich.
-
-
-> [!NOTE]
-> Kacheln und das Anheften werden unter der Überschrift „Dashboard mit Kacheln“ weiter unten ausführlicher beschrieben.
-> 
-
 **EIN** Dashboard...
 
-* ist einem einzelnen Arbeitsbereich zugeordnet.
 * kann Visualisierungen von verschiedenen Datasets anzeigen.
 * kann Visualisierungen von verschiedenen Berichten anzeigen.
 * kann Visualisierungen anzeigen, die aus anderen Tools (z.B. Excel) angeheftet wurden.
   
   ![](media/end-user-basic-concepts/drawing1.png)
 
-### <a name="dig-deeper"></a>Weiterführende Themen
-* [Erstellen eines neuen leeren Dashboards und Abrufen von Daten](../service-dashboard-create.md)
-* [Duplizieren eines Dashboards](../service-dashboard-copy.md) 
-* [Erstellen einer Telefonansicht eines Dashboards](../service-create-dashboard-mobile-phone-view.md)
+________________________________________________
 
+## <a name="apps"></a>Apps
+Diese Sammlungen von Dashboards und Berichten organisieren verwandte Inhalte in einem einzigen Paket. Power BI-*Designer* erstellen sie und geben sie für Einzelpersonen, Gruppen, eine ganze Organisation oder öffentlich frei. Als Benutzer können Sie sich darauf verlassen, dass Sie und Ihre Kollegen mit denselben Daten arbeiten – einer einzigen vertrauenswürdigen Version der Wahrheit. 
 
-## <a name="workbooks"></a>Arbeitsmappen
-Arbeitsmappen sind eine besondere Art von Dataset. Wenn Sie den Abschnitt **Datasets** weiter oben gelesen haben, wissen Sie bereits das Wichtigste über Arbeitsmappen. Vielleicht fragen Sie sich jedoch, warum Excel-Arbeitsmappen in Power BI manchmal ein **Dataset** und manchmal eine **Arbeitsmappe** sind. 
+![](media/end-user-basic-concepts/power-bi-app.png)
 
-Wenn Sie **Daten abrufen** für Excel-Dateien verwenden, können Sie zwischen den Optionen *Importieren* und *Verknüpfen* für die Datei wählen. Wenn Sie „Verknüpfen“ wählen, wird die Arbeitsmappe in Power BI genauso angezeigt wie in Excel Online. Allerdings haben Sie im Gegensatz zu Excel Online einige hervorragende Funktionen zur Hand, mit denen Sie Elemente aus Arbeitsblättern direkt an Ihre Dashboards anheften können.
+Apps lassen sich im Power BI-Dienst (https://powerbi.com) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind. 
 
-Sie können Ihre Arbeitsmappe in Power BI nicht bearbeiten. Wenn Sie aber Änderungen vornehmen müssen, können Sie auf „Bearbeiten“ klicken und die Arbeitsmappe in Excel online oder lokal bearbeiten. Alle vorgenommenen Änderungen werden in der Arbeitsmappe in OneDrive gespeichert.
+Diese App verfügt über drei verwandte Dashboards und drei verwandte Berichte, die zusammen eine App bilden.
 
-### <a name="dig-deeper"></a>Weiterführende Themen
-* [Abrufen von Daten aus Excel-Arbeitsmappendateien](../service-excel-workbook-files.md)
-* [Veröffentlichen in Power BI aus Excel](../service-publish-from-excel.md)
+![](media/end-user-basic-concepts/power-bi-app-list.png)
 
+In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben.
 
-## <a name="my-workspace"></a>Mein Arbeitsbereich
-Bis hierher wurden Arbeitsbereiche und die Grundkomponenten erläutert. Sehen wir uns jetzt die Power BI-Benutzeroberfläche an sowie die einzelnen Komponenten, aus denen die Startseite für den Power BI-Dienst besteht.
+Sie können Apps auf unterschiedliche Weise erhalten. Der Designer der App kann die App automatisch in Ihrem Power BI-Konto installieren oder Ihnen einen direkten Link zur App senden, oder Sie können die App in Microsoft AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie Apps nur über einen Direktlink und nicht aus AppSource installieren. Wenn der Designer der App diese automatisch installiert, wird sie in der Liste der Apps angezeigt.
 
-![](media/end-user-basic-concepts/completenewest.png)
+Sobald die App installiert ist, können Sie sie einfach aus der Liste der Apps auswählen und angeben, welches Dashboard oder welcher Bericht zuerst geöffnet und erkundet werden soll.   
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Navigationsbereich** (linker Navigationsbereich)
-Verwenden Sie den Navigationsbereich, um zwischen den Arbeitsbereichen und den Grundkomponenten von Power BI zu wechseln: Dashboards, Berichte, Arbeitsmappen und Datasets.  
-
-  ![](media/end-user-basic-concepts/power-bi-navigation.png)
-
-* Wählen Sie **Daten abrufen** aus, um [Datasets, Berichte und Dashboards zu Power BI hinzuzufügen](../service-get-data.md).
-* Mit dem Symbol ![](media/end-user-basic-concepts/expand-icon.png) erweitern und reduzieren Sie die Navigationsleiste.
-* Öffnen oder verwalten Sie Ihre wichtigsten Inhalte, indem Sie **Favoriten** auswählen.
-* Zum Anzeigen und Öffnen der zuletzt abgerufenen Inhalte wählen Sie **Zuletzt verwendet** aus.
-* Zum Anzeigen, Öffnen oder Löschen von Apps wählen Sie **Apps** aus.
-* Hat ein Kollege Inhalte für Sie freigegeben? Wählen Sie **Für mich freigegeben** aus, um nach den gewünschten Inhalten zu suchen und diese zu sortieren.
-* Zum Anzeigen und Öffnen Ihrer Arbeitsbereiche wählen Sie **Arbeitsbereiche** aus.
-
-Einfaches Klicken
-
-* auf ein Symbol oder eine Überschrift öffnet die Inhaltsansicht.
-* auf einen Rechtspfeil (>) öffnet ein Flyoutmenü für Arbeitsbereiche, Favoriten und zuletzt verwendete Elemente. 
-* ein Doppelpfeilsymbol () zeigt die scrollfähige Liste der Dashboards, Berichte, Arbeitsmappen und Datasets für **My Workspace** an.
-* auf ein Dataset, um es zu untersuchen
-
-### <a name="2-canvas"></a>2. **Zeichenbereich** 
-Da wir ein Dashboard geöffnet haben, werden im Zeichenbereich Visualisierungskacheln angezeigt. Wenn z.B. den Berichts-Editor geöffnet hätten, würde im Zeichnungsbereich hingegen eine Berichtsseite angezeigt. 
-
-Dashboards bestehen aus [Kacheln](end-user-tiles.md).  Kacheln werden in der Bearbeitungsansicht, Q&A und anderen Dashboards für Berichte erstellt und können aus Excel, SSRS usw. angeheftet werden. Ein besonderer Kacheltyp namens [Widget](../service-dashboard-add-widget.md) wird dem Dashboard direkt hinzugefügt. Die auf einem Dashboard angezeigten Kacheln wurden vom Ersteller/Besitzer eines Berichts eigens dort abgelegt.  Das Hinzufügen einer Kachel zu einem Dashboard wird als *anheften* bezeichnet.
-
-![Power BI-Dashboardzeichenbereich](./media/end-user-basic-concepts/canvas.png)
-
-Weitere Informationen finden Sie unter **Dashboards** (oben).
-
-### <a name="3-qa-question-box"></a>3. **Fragenfeld für Fragen und Antworten (F&A)**
-Eine Möglichkeit zum Untersuchen der Daten besteht darin, eine Frage zu stellen, um über den Bereich für Fragen und Antworten von Power BI eine Antwort in Form einer Visualisierung zu erhalten. Mit Q&A können Inhalte einem Dashboard oder einem Bericht hinzugefügt werden.
-
-Der Bereich für Fragen und Antworten sucht im Dataset bzw. in Datasets, die mit dem Dashboard verbunden sind, nach Antworten.  Bei einem verbundenen Dataset handelt es sich um ein Dataset, für das mindestens eine Kachel an dieses Dashboard angeheftet ist.
-
-![Fragenfeld für Fragen und Antworten (F&A)](./media/end-user-basic-concepts/power-bi-qna.png)
-
-Sobald Sie mit der Eingabe einer Frage beginnen, gelangen Sie zur Seite für Fragen und Antworten (F&A). Während der Eingabe unterstützt Sie der Bereich für Fragen und Antworten mithilfe von Umformulierungen, AutoAusfüllen, Vorschlägen usw. dabei, die richtige Frage zu stellen und die beste Antwort zu finden. Wenn Sie eine Visualisierung (Antwort) gefunden haben, die Ihnen gefällt, fügen Sie diese einfach zum Dashboard hinzu. Weitere Informationen finden Sie unter [Fragen und Antworten in Power BI](end-user-q-and-a.md).
-
-### <a name="4-icon-buttons"></a>4. **Symbolschaltflächen** 
-Die Symbole in der rechten oberen Ecke sind Ihre Ressourcen für Einstellungen, Benachrichtigungen, Downloads, zum Öffnen der Hilfe und zum Senden von Feedback an das Power BI-Team. Wählen Sie den doppelten Pfeil aus, um das Dashboard im **Vollbildmodus** zu öffnen.  
-
-![Symbolschaltflächen](./media/end-user-basic-concepts/power-bi-icons.png)
-
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Dashboardtitel** (Navigationspfad oder Breadcrumbs)
-Damit Sie leichter erkennen können, welcher Arbeitsbereich und welches Dashboard gerade aktiv ist, wird in Power BI automatisch ein Navigationspfad erstellt.  In diesem Beispiel sehen Sie den Arbeitsbereich („Mein Arbeitsbereich“) und den Dashboardtitel („Retail Analysis Sample“).  Wenn ein Bericht geöffnet wäre, wurde der Name des Berichts am Ende des Navigationspfads angehängt werden.  Jeder Abschnitt des Pfads ist ein aktiver Link.  
-
-Beachten Sie das Symbol „C“ nach dem Dashboardtitel. Dieses Dashboard besitzt das [Datenklassifizierungstag](../service-data-classification.md) für „Vertraulich“. Das Tag gibt die Vertraulichkeits- und Sicherheitsstufe der Daten an. Wenn Ihr Administrator die Datenklassifizierung aktiviert hat, wird für jedes Dashboard ein Standardtag festgelegt. Dashboardbesitzer sollten das Tag entsprechend der richtigen Sicherheitsstufe des Dashboards ändern.
-
-![](media/end-user-basic-concepts/power-bi-title.png)
-
-### <a name="6-office-365-app-launcher"></a>6. **Office 365-App-Startfeld**
-Über das App-Startfeld können Sie mit einem Mausklick einfach auf alle Ihre Office 365-Apps zugreifen. Hier können Sie schnell Ihre E-Mails, Dokumente, Kalender und vieles mehr starten. 
-
-![Office App-Startfeld](./media/end-user-basic-concepts/power-bi-waffle.png)
-
-### <a name="7-power-bi-home"></a>7. **Power BI-Startseite**
-Wenn Sie diese Option auswählen, wird Ihr [ausgewähltes Dashboard](end-user-featured.md) geöffnet, sofern festgelegt, andernfalls wird das zuletzt angezeigte Dashboard geöffnet.
-
-   ![](media/end-user-basic-concepts/version-new.png)
-
-### <a name="8-labeled-icon-buttons"></a>8. **Beschriftete Symbolschaltflächen**
-In diesem Bereich des Bildschirms finden Sie zusätzliche Optionen für die Interaktion mit Inhalten (in diesem Fall dem Dashboard).  Neben den beschrifteten Symbolen können Sie die Auslassungspunkte auswählen, um Optionen zum Duplizieren, Drucken und Aktualisieren des Dashboards und weitere Optionen anzuzeigen.
-
-   ![](media/end-user-basic-concepts/power-bi-labeled-icons.png)
+Hoffentlich hat Ihnen dieser Bericht einen guten Einblick in die Bausteine gegeben, aus denen der Power BI-Dienst für Benutzer besteht. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Was ist Power BI?](../power-bi-overview.md)  
-[Die neue Navigation im Power BI-Dienst](end-user-experience.md)
-[Power BI-Videos](../videos.md)  
-[Berichts-Editor – Verschaffen Sie sich einen Überblick](../service-the-report-editor-take-a-tour.md)
-
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-
+- Das [Glossar](end-user-glossary.md) überprüfen und Lesezeichen setzen    
+- [Schnellstart: Sich mit dem Power BI-Dienst vertraut machen](end-user-experience.md)
+- Die Übersicht [Power BI für Verbraucher](end-user-consumer.md) lesen    
+- Ein Video ansehen, in dem Will einen Überblick über den Power BI-Dienst gibt und die grundlegenden Konzepte erklärt <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
