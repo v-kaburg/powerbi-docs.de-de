@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336804"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952209"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Abrufen von Daten aus einer Webseite durch Angeben von Beispielen
 
@@ -51,6 +51,8 @@ Wenn Sie **Tabelle anhand von Beispielen extrahieren** auswählen, wird ein inte
 In diesem Beispiel extrahieren wir den *Namen* und den *Preis* für jedes Spiel auf der Seite. Hierzu geben wir wie in der folgenden Abbildung gezeigt für jede Spalte einige Beispiele von der Seite an. Wenn diese Beispiele eingegeben sind, kann **Power Query** (die zugrunde liegende Technologie, die die Daten von der Webseite extrahiert) mithilfe von intelligenten Algorithmen Daten extrahieren, die dem Muster der Beispieleinträge entsprechen.
 
 ![Daten anhand von Beispielen](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Hinweis: In Wertvorschläge sind nur Werte enthalten, die kleiner oder gleich 128 Zeichen lang sind.
 
 Sobald wir mit den von der Webseite extrahierten Daten zufrieden sind, klicken wir auf **OK**, um zum **Abfrage-Editor** zu wechseln. Dort können wir weitere Transformationen anwenden oder die Daten formen, indem wir diese Daten mit Daten aus anderen Quellen kombinieren.
 

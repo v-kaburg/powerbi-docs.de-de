@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827431"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435486"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
 
@@ -36,7 +36,7 @@ Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microso
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Einrichten der Entwicklungsumgebung für eingebettete Analysen
 
-Bevor Sie mit dem Einbetten von Dashboards, Berichten und Kacheln in Ihre Anwendung beginnen, müssen Sie sicherstellen, dass Ihre Umgebung für Einbettungsvorgänge eingerichtet ist. Im Rahmen der Einrichtung müssen Sie folgende Aktionen ausführen.
+Bevor Sie mit dem Einbetten von Dashboards, Berichten und Kacheln in Ihre Anwendung beginnen, müssen Sie sicherstellen, dass Ihre Umgebung Einbettungen mit Power BI zulässt.
 
 Sie können sich mit dem [Setuptool für die Einbettung](https://aka.ms/embedsetup/AppOwnsData) vertraut machen, damit Sie schnell beginnen und eine Beispielanwendung herunterladen können. In dieser wird schrittweise erläutert, wie Sie eine Umgebung erstellen und einen Bericht einbetten können.
 
@@ -44,7 +44,7 @@ Wenn Sie jedoch die Umgebung manuell einrichten möchten, können Sie weiter unt
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrieren einer Anwendung in Azure Active Directory (Azure AD)
 
-Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung auf die Power BI-REST-APIs zugreifen kann. Auf diese Weise können Sie eine Identität für Ihre Anwendung erstellen und Berechtigungen für Power BI-REST-Ressourcen angeben.
+Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung auf die Power BI-REST-APIs zugreifen kann. Durch das Registrieren Ihrer Anwendung können Sie eine Identität für Ihre Anwendung erstellen und Berechtigungen für Power BI-REST-Ressourcen angeben.
 
 1. Akzeptieren Sie die [Nutzungsbedingungen für die Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
 
@@ -52,7 +52,7 @@ Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung a
 
     ![Hauptfenster des Azure-Portals](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. Wählen Sie im Navigationsbereich auf der linken Seite **Alle Dienste**, dann **App-Registrierungen** und schließlich **Neue Anwendungsregistrierung** aus.
+3. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen** > **Neue Anwendungsregistrierung**.
 
     ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Neue App-Registrierung](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -63,7 +63,7 @@ Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung a
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Anwenden von Berechtigungen auf die Anwendung in Azure Active Directory
 
-Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche Berechtigungen für die Anwendung aktivieren. Sie müssen mit dem *Hauptkonto* angemeldet sein, das zum Einbetten verwendet wird und ein globales Administratorkonto sein muss.
+Aktivieren Sie neben den Einstellungen auf der App-Registrierungsseite zusätzliche Berechtigungen für die Anwendung. Melden Sie sich mit dem *Masterkonto* an, das Sie für die Einbettung verwenden. Das Masterkonto muss ein globales Administratorkonto sein.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Verwenden des Azure Active Directory-Portals
 
@@ -91,7 +91,7 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
 
     ![Power BI-Dienste auswählen](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Wählen Sie alle Berechtigungen unter **Delegierte Berechtigungen** aus. Sie müssen sie einzeln auswählen, um die Auswahl zu speichern. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
+7. Wählen Sie alle Berechtigungen unter **Delegierte Berechtigungen** aus. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
 
     ![Delegierte Berechtigungen auswählen](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -103,15 +103,15 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
-### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
+### <a name="create-an-app-workspace"></a>App-Arbeitsbereich erstellen
 
 Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren. Das *Hauptkonto* muss Administrator des App-Arbeitsbereichs sein.
 
-1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **App-Arbeitsbereich erstellen** aus. Hier legen Sie die Inhalte ab, auf die Ihre Anwendung zugreifen muss.
+1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **App-Arbeitsbereich erstellen** aus. Legen Sie unter „App-Arbeitsbereich erstellen“ die Inhalte ab, auf die Ihre Anwendung zugreifen muss.
 
     ![Arbeitsbereich erstellen](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Benennen Sie den Arbeitsbereich. Wenn die entsprechende **Arbeitsbereichs-ID** nicht verfügbar ist, geben Sie eine eindeutige ID ein. Diese muss der Name der App sein.
+2. Benennen Sie den Arbeitsbereich. Wenn die entsprechende **Arbeitsbereichs-ID** nicht verfügbar ist, geben Sie eine eindeutige ID ein.
 
     ![Arbeitsbereich benennen](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ Führen Sie die folgenden Schritte durch, um Ihren Inhalt in eine Beispielanwend
 
     ![App Owns Data-Anwendungsbeispiel](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Öffnen Sie die Datei „Web.config“ in der Beispielanwendung. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie fünf Felder ausfüllen: die **clientID**, die **groupId**, die **reportId**, der **pbiUsername** und das **pbiPassword**.
+2. Öffnen Sie die Datei „Web.config“ in der Beispielanwendung. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie fünf Felder ausfüllen: **applicationId**, **workspaceId**, **reportId**, **pbiUsername**und **pbiPassword**.
 
     ![Web.config-Datei](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Geben Sie für **clientId** die **Anwendungs-ID** aus **Azure** an. Die Anwendung identifiziert sich mithilfe der **clientId** bei den Benutzern, von denen Sie Berechtigungen anfordern. Um die **clientId** abzurufen, führen Sie folgende Schritte aus:
+    Geben Sie für **applicationId** die **Anwendungs-ID** aus **Azure** an. Die Anwendung identifiziert sich mithilfe der **applicationId** bei den Benutzern, von denen Sie Berechtigungen anfordern. Führen Sie die folgenden Schritte aus, um **applicationId** abzurufen:
 
     Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 
     ![Hauptfenster des Azure-Portals](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    Wählen Sie im Navigationsbereich auf der linken Seite **Alle Dienste** und dann **App-Registrierungen** aus.
+    Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen**.
 
     ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Wählen Sie die Anwendung aus, für die Sie die **clientId** abrufen möchten.
+    Wählen Sie die Anwendung aus, für die Sie **applicationId** abrufen möchten.
 
     ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Sie sollten eine **Anwendungs-ID** sehen, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **clientId** für die Anwendung.
+    Sie sollten eine **Anwendungs-ID** sehen, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **applicationId** für die Anwendung.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Geben Sie als **groupId** die **App-Arbeitsbereichs-GUID** aus Power BI an.
+    Geben Sie als **workspaceId** die **App-Arbeitsbereichs-GUID** aus Power BI an.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Geben Sie als **reportId** die **Berichts-GUID** aus Power BI an.
 
@@ -242,8 +242,8 @@ Im folgenden Codebeispiel wird veranschaulicht, wie Sie den ersten Bericht aus e
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-
 
 | Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 V-Kern |1/2 Kern(e), 3 GB RAM |1/2 Kern | 5 pro Sekunde |1–300 |
+| A1 |1 V-Kern |0,5 Kerne, 3 GB RAM |0,5 Kerne |0 5 pro Sekunde |1–300 |
 | A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | 10 pro Sekunde |301–600 |
 | A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | 15 pro Sekunde |601–1.200 |
 | A4 |8 V-Kerne |4 Kerne, 25 GB RAM |4 Kerne |30 pro Sekunde |1.201–2.400 |

@@ -1,94 +1,199 @@
 ---
-title: Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
-description: Allgemeine Übersicht über die Unterschiede zwischen der Leseansicht und der Bearbeitungsansicht bei Berichten im Power BI-Dienst
+title: Power BI-Benutzerfunktionen im Power BI-Dienst
+description: In dieser Schnellstartanleitung erfahren **Benutzer**, wie sie mit dem Power BI-Dienst arbeiten können.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 10/02/2018
+ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/17/2018
 ms.author: mihart
-LocalizationGroup: Reports
-ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908079"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396518"
 ---
-# <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Leseansicht und Bearbeitungsansicht für Berichte im Power BI-Dienst
-Im Power BI-Dienst (nicht in Power BI Desktop) stehen zwei Modi bereit, um Berichte anzuzeigen und mit ihnen zu interagieren: die Leseansicht und die Bearbeitungsansicht. Die Leseansicht ist für alle Benutzer verfügbar und ist speziell für die *Benutzer* von Daten konzipiert, während die Bearbeitungsansicht nur für *Berichtersteller* und -besitzer zur Verfügung steht.
+<!-- once the sample aps are live, change this so consumers can follow along -->
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Schnellstart: Informationen zu Funktionen für ***Benutzer*** in Power BI
+In dieser Schnellstartanleitung erfahren Sie, wie Sie mit Power BI interagieren können, um nach datengesteuerten Geschäftsinformationen zu suchen. Dieser Artikel bietet keinen detaillierten Einblick, sondern vielmehr einen groben Überblick über eine Vielzahl der verfügbaren Aktionen für **Benutzer** in Power BI.
 
-![Grafik zu Erstellern und Benutzern von Berichten](./media/end-user-reading-view/power-bi-creators-consumers.png)
+Wenn Sie noch nicht bei Power BI registriert sind, müssen Sie sich zuerst für eine [kostenlose Testversion registrieren](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-## <a name="report-reading-view"></a>Leseansicht für Berichte
+## <a name="prerequisites"></a>Voraussetzungen
+- Power BI-Dienst (app.powerbi.com) <!-- app from AppSource -->
 
- Die Leseansicht bietet eine Möglichkeit, um den Bericht zu untersuchen und damit zu interagieren – so können Sie bedenkenlos mit dem Bericht experimentieren und sich mit den Daten vertraut machen. Die Leseansicht ist für die *Benutzer* von Berichten konzipiert, die die Berichte in Apps öffnen oder für die [Berichte freigegeben werden](../service-share-dashboards.md). Durch die Leseansicht wird sichergestellt, dass alle Benutzer eines bestimmten Berichts den gleichen Bericht und die gleichen Visualisierungen wahlweise mit den gleichen Filtern sehen.  Benutzer können zwar mit den Berichten interagieren und vorhandene Filter ändern (diese Veränderungen werden im Bericht gespeichert), allerdings keine neuen Filter hinzufügen.
+## <a name="reading-view"></a>Leseansicht
+Die Leseansicht ist im Power BI-Dienst für *Benutzer* von Berichten verfügbar. Wenn ein Kollege einen Bericht mit Ihnen teilt, können Sie diesen in der Leseansicht untersuchen und mit ihm interagieren. 
 
-> [!NOTE]
-> Unter bestimmten Umständen sehen die Benutzer von Berichten aufgrund von Sicherheits- und Datenberechtigungen auf Zeilenebene unterschiedliche Daten.
+Der zweite Berichtsmodus im Power BI-Dienst ist die [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md), die für *Designer* von Berichten verfügbar ist.  
 
-## <a name="report-editing-view"></a>Bearbeitungsansicht für Berichte
+Die Leseansicht ist eine leistungsstarke und sichere Möglichkeit, Ihre Dashboards und Berichte eingehend zu untersuchen. Während Sie die mit Ihnen geteilten Dashboards und Berichte untersuchen, bleiben die zugrunde liegende Datasets intakt und unverändert. 
 
-Die Bearbeitungsansicht ist nur für die Ersteller von Berichten und die Benutzer verfügbar, die [einen Bericht als Mitglied oder Administrator eines App-Arbeitsbereichs besitzen](../service-create-distribute-apps.md).
+In der Leseansicht können Sie auf visuelle Elemente Kreuzhervorhebung und Kreuzfilterung auf einer Seite anwenden.  Heben Sie einfach einen Wert in einem Visual hervor, oder wählen Sie ihn aus, um seine Auswirkung auf die anderen Visuals sofort anzuzeigen. Verwenden Sie den Bereich „Filter“, um Filter auf einer Berichtsseite hinzuzufügen und zu ändern, und ändern Sie die Sortierung der Werte in einer Visualisierung. Dies sind nur einige der Funktionen für  *Benutzer* in Power BI.  Lesen Sie weiter, um darüber und über vieles weitere mehr zu erfahren.
 
-Die Bearbeitungsansicht ist für die *Ersteller* von Berichten konzipiert. Hier können die Ersteller Datasets importieren und verbinden, Daten untersuchen sowie Berichte und Dashboards erstellen. In der Bearbeitungsansicht können *Ersteller* noch tiefer in die Daten eindringen, indem sie Felder hinzufügen und entfernen, den Visualisierungstyp ändern, neue Visualisierungen erstellen und Visualisierungen und Seiten zum Bericht hinzufügen und daraus entfernen. Sie können dann die erstellten Berichte für Kollegen freigeben.
+ 
+### <a name="view-an-app"></a>Anzeigen einer App
+In Power BI bündeln *Apps* verwandte Dashboards und Berichte zusammen an einem Ort.
 
-## <a name="reading-view-versus-editing-view"></a>Leseansicht und Bearbeitungsansicht im Vergleich
-In diesem Diagramm werden nicht alle Berichtsfunktionen im Power BI-Dienst aufgeführt. Es enthält nur die Berichtsaufgaben, die nicht in **beiden** Ansichten (Lese- und Bearbeitungsansicht) verfügbar sind.
+1. Wählen Sie **Apps** ![„Apps“ im linken Navigationsbereich](./media/end-user-apps/power-bi-apps-bar.png) > **Apps abrufen** aus. 
+   
+     ![Symbol „Apps abrufen“](./media/end-user-reading-view/power-bi-get-app.png)
+2. Suchen Sie in AppSource unter **Meine Organisation**, um die Ergebnisse einzugrenzen und die gewünschte App zu finden.
+   
+     ![In AppSource unter „Meine Organisation“](./media/end-user-reading-view/power-bi-appsource.png)
+3. Wählen Sie **Jetzt anfordern** aus, um sie dem Container „Apps“ hinzuzufügen. 
 
+### <a name="view-a-dashboard"></a>Anzeigen eines Dashboards
+Diese App öffnet ein Dashboard. Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich bezeichnet), auf der mithilfe von Visualisierungen eine Geschichte erzählt wird. Wegen der Beschränkung auf eine Seite erkennen Sie ein gut gestaltetes Dashboard daran, dass die Geschichte auf ihre Kernaussagen verdichtet ist.
 
-|Aufgabe  | Leseansicht  | Bearbeitungsansicht |
-|-------------------------|-------|-------|
-|**Berichte, allgemein**  |
-| [Erstellen oder Bearbeiten eines Berichts](../service-report-create-new.md) | Nein  | Ja |
-| [Freigeben eines Berichts](../service-share-reports.md)| Ja | Ja, außerdem Verwalten von Berechtigungen, einschließlich Zuweisen der Berechtigung *Besitzer*. |
-| [Erstellen von permanenten Filtern auf Visualebene, Drillthrough-Filtern sowie Filtern auf Seiten- und Berichtsebene im Bereich „Filter“](../power-bi-report-add-filter.md) | Nein  | Ja |
-| [Verwenden des Bereichs „Filter“ in Berichten](end-user-report-filter.md) | Ja, mit dem Bericht können vorhandene Filter verwendet und Veränderungen gespeichert werden, neue Filter können allerdings nicht hinzugefügt werden. | Ja |
-| [Verwenden des Analysebereichs für den Bericht](../service-analytics-pane.md) | Nein | Ja |
-| [Berichtsoptionen unter **Ansicht**](../power-bi-report-display-settings.md) | Ja, bis auf einige Ausnahmen. | Ja, alle einschließlich Gitternetzlinien, Andocken und Sperren. |
-| [Erstellen einer Zeitplanaktualisierung](../refresh-data.md) | Nein  | Ja |
-| [Abonnieren eines Berichts](end-user-subscribe.md) | Ja | Nein |
-| [Q&A – Stellen von Fragen in Berichten](end-user-q-and-a.md) | Nein  | Ja |
-| [Anzeigen von Nutzungsmetriken](../service-usage-metrics.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
-| [Verwandte Inhalte anzeigen](end-user-related.md) | Ja, im Zeichenbereich des Berichts. | Ja, in der Berichtliste (Inhaltsansicht) |
-| [Speichern eines Berichts](../service-report-save.md) | Ja, aber nur mit **Speichern unter**. | Ja |
-| [Löschen eines Berichts](../service-delete.md) | Nein  | Ja |
-|**Berichtseiten** |
-| [Hinzufügen oder Umbenennen einer Berichtseite](../power-bi-report-add-page.md)  | Nein  | Ja  |
-| [Duplizieren einer Berichtseite](../power-bi-report-copy-paste-page.md) | Nein  | Ja |
-| [Löschen einer Berichtseite](../service-delete.md) | Nein | Ja |
-|**Arbeiten mit Berichtsvisualisierungen**|
-| [Hinzufügen von Visualisierungen zu einem Bericht](../visuals/power-bi-report-add-visualizations-i.md) | Nein  | Ja |
-| [Hinzufügen von Textfeldern und Formen zu einem Bericht](../power-bi-reports-add-text-and-shapes.md) | Nein  | Ja |
-| [Verwenden des Bereichs „Formatierung“ in einem Bericht](../service-the-report-editor-take-a-tour.md) | Nein | Ja |
-| [Festlegen von visuellen Interaktionen](end-user-interactions.md) | Nein  | Ja |
-| [Anzeigen der zum Erstellen der Visualisierung verwendeten Daten](end-user-show-data.md) | Nein  | Ja |
-| [Konfigurieren von Drilling](end-user-drill.md) | Nein  | Ja |
-| [Ändern der verwendeten Visualisierung](../visuals/power-bi-report-change-visualization-type.md) | Nein | Ja|
-| [Löschen von Visualisierungen, Textfeldern oder Formen](../service-delete.md)| Nein | Ja |
+![Dashboard](media/end-user-reading-view/power-bi-dashboard.png)
+
+Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet. Kacheln stammen aus Berichten und werden an ein Dashboard *angeheftet*.
+
+### <a name="subscribe-to-a-dashboard-or-report"></a>Abonnieren eines Dashboards (oder Berichts)
+Power BI muss nicht geöffnet werden, um ein Dashboard zu überwachen.  Sie können es stattdessen abonnieren, und Power BI wird Ihnen nach einem von Ihnen festgelegten Zeitplan eine Momentaufnahme dieses Dashboards per E-Mail zusenden. 
+
+![Das Symbol „Abonnieren“ auswählen](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
-## <a name="navigating-between-editing-view-and-reading-view"></a>Navigieren zwischen Bearbeitungs- und Leseansicht
-Beachten Sie, dass nur Berichtersteller und -besitzer einen Bericht in der Bearbeitungsansicht öffnen können.
+1. Klicken Sie in der oberen Menüleiste auf **Abonnieren**, oder klicken Sie auf das Briefumschlagsymbol ![Symbol „Abonnieren“](./media/end-user-subscribe/power-bi-icon-envelope.png).
+   
+   ![Symbol „Abonnieren“](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-1. Ein Bericht wird standardmäßig in der Leseansicht geöffnet. Sie können an der Option **Bericht bearbeiten** erkennen, ob Sie sich in der Leseansicht befinden. Wenn **Bericht bearbeiten** ausgegraut angezeigt wird, sind Sie nicht berechtigt, den Bericht in der Bearbeitungsansicht zu öffnen.
+3. Mithilfe des gelben Schiebereglers können Sie das Abonnement aktivieren und deaktivieren.  Fügen Sie optional E-Mail-Adressinformationen hinzu. 
 
-   ![„Bericht bearbeiten“ ist ausgegraut.](./media/end-user-reading-view/power-bi-edit-report-grey.png)
+    In den unten stehenden Screenshots sehen Sie, dass Sie beim Abonnieren eines Berichts eigentlich eine *Berichtsseite* abonnieren.  Klicken Sie auf **Weiteres Abonnement hinzufügen**, und wählen Sie die gewünschten Seiten aus, um mehrere Seiten in einem Bericht zu abonnieren. 
+      
+   ![Fenster „Abonnieren“](./media/end-user-subscribe/power-bi-emails.png)
+   
+    Durch das Aktualisieren der Berichtsseite wird nicht das Dataset aktualisiert. Nur der Besitzer des Datasets kann ein Dataset manuell aktualisieren. Um den Namen des zugrunde liegenden Datasets nachzuschlagen, wählen Sie in der oberen Menüleiste **Verwandte Inhalte anzeigen** aus.
 
-2. Wenn **Bericht bearbeiten** nicht ausgegraut ist, können Sie die Option auswählen, um den Bericht in der Bearbeitungsansicht zu öffnen.
+### <a name="view-related-content"></a>Verwandte Inhalte anzeigen
+Im Bereich **verwandte Inhalte** sehen Sie, wie Ihre Inhalte im Power BI-Dienst (Dashboards, Berichte und Datasets) miteinander verbunden sind. Der Bereich enthält nicht nur die verwandten Inhalte, sondern ermöglicht es auch, Aktionen auszuführen und komfortabel zwischen den verknüpften Inhalten zu navigieren.
 
-   ![Option „Bericht bearbeiten“](./media/end-user-reading-view/power-bi-edit-report.png)
+Wählen Sie in einem Dashboard oder Bericht in der oberen Menüleiste **Verwandte Inhalte anzeigen** aus.
 
-   Der Bericht wird dann in der Bearbeitungsansicht mit denselben [Anzeigeeinstellungen](../power-bi-report-display-settings.md) angezeigt, die Sie zuletzt in der Leseansicht verwendet haben.
+![Verwandte Inhalte](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
-2. Wählen Sie zum Zurückkehren zur Leseansicht in der oberen Navigationsleiste **Leseansicht** aus.
+### <a name="use-qa-to-ask-questions-using-natural-language"></a>Verwenden von Q&A für Fragen in natürlicher Sprache
+Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Das Q&A-Fragefeld befindet sich am oberen Rand Ihres Dashboards. Beispiel: „Zeige mir die Anzahl großer Verkaufschancen sortiert nach Vertriebsphase in einem Trichterdiagramm an.“ 
 
-    ![Option „Leseansicht“](./media/end-user-reading-view/power-bi-reading-view.png)
+![Q&A](./media/end-user-reading-view/power-bi-qna.png)
+
+### <a name="favorite-a-dashboard"></a>Hinzufügen von Dashboards als „Favoriten“
+Wenn Sie einen Inhalt als *Favorit* speichern, können Sie von der linken Navigationsleiste aus darauf zugreifen. Die linke Navigationsleiste ist in fast jedem Bereich in Power BI sichtbar. Favoriten sind üblicherweise die Dashboards, Berichtsseiten und Apps, die Sie am häufigsten besuchen.
+
+1. Beenden Sie Q&A, um zum Dashboard zurückzukehren.    
+2. Klicken Sie in der oberen rechten Ecke von Power BI auf **Favorit** oder auf das Sternsymbol ![Sternsymbol](./media/end-user-favorite/power-bi-favorite-icon.png).
+   
+   ![Symbol „Favorit“](./media/end-user-favorite/powerbi-dashboard-favorite.png)
 
 
+### <a name="open-and-view-a-report-and-report-pages"></a>Öffnen und Anzeigen von Berichten und Berichtsseiten
+Ein Bericht besteht aus einer oder mehreren Seiten mit visuellen Elementen. Power BI-Berichte werden von *Berichts-Designern* erstellt und entweder [direkt für *Kunden*](end-user-shared-with-me.md) oder als Teil einer [App](end-user-apps.md) freigegeben. 
+
+Berichte können aus einem Dashboard geöffnet werden. Die meisten Dashboardkacheln sind aus Berichten *angeheftet*. Das Auswählen einer Kachel öffnet den Bericht, mit dem diese Kachel erstellt wurde. 
+
+1. Wählen Sie in einem Dashboard eine Kachel aus. In diesem Beispiel wurde die Kachel „Revenue“ (Umsatz) in einem Säulendiagramm ausgewählt.
+
+    ![Dashboard mit ausgewählter Kachel](./media/end-user-reading-view/power-bi-dashboard2.png)
+
+2.  Der entsprechende Bericht wird geöffnet. Beachten Sie, dass wir uns auf der Seite „Revenue overview“ (Umsatzübersicht) befinden. Dies ist die Berichtseite, die das im Dashboard ausgewählte Säulendiagramm enthält.
+
+    ![Bericht in „Leseansicht“ öffnen](./media/end-user-reading-view/power-bi-report-opens.png)
+
+### <a name="adjust-the-display-dimensions"></a>Anpassen der Anzeigegröße
+Berichte werden auf vielen verschiedenen Geräten mit unterschiedlichen Bildschirmgrößen und Seitenverhältnissen angezeigt.  Die Standardanzeige entspricht unter Umständen nicht dem, was Sie auf Ihrem Gerät anzeigen möchten.  
+
+1. Um diese anzupassen, wählen Sie in der oberen Menüleiste **Ansicht** aus.
+
+    ![Menü „Ansicht“ für Bericht](media/end-user-reading-view/power-bi-fit.png)
+
+2.  Wählen Sie eine der Anzeigeoptionen aus. In diesem Beispiel haben wir **An Seite anpassen** ausgewählt.
+
+    ![„Ansicht > An Seite anpassen“ für Bericht](media/end-user-reading-view/power-bi-report-fit.png)    
+
+### <a name="use-the-report-filters-pane"></a>Verwenden des Bereichs „Filter“ in Berichten
+Wenn der Autor des Berichts einer Berichtsseite Filter hinzugefügt hat, können Sie mit diesen interagieren und Ihre Änderungen im Bericht speichern.
+
+1. Wählen Sie oben rechts das Symbol **Filter** aus.
+   
+   ![Symbol „Filter“ auswählen](media/end-user-reading-view/filters.png)  
+
+2. Wählen Sie eine Visualisierung aus, um ihn zu aktivieren. Ihnen werden alle Filter angezeigt, die auf diese Visualisierung (Filter auf visueller Ebene), auf die gesamte Berichtsseite (Filter auf Seitenebene) und auf den gesamten Bericht (Filter auf Berichtsebene) angewandt werden.
+   
+   ![Typen von Berichtsfiltern](media/end-user-reading-view/power-bi-reading-filters.png)
+
+3. Zeigen Sie auf einen Filter, und erweitern Sie ihn, indem Sie den Pfeil nach unten auswählen.
+   
+   ![Filter erweitern](media/end-user-reading-view/power-bi-expan-filter.png)
+
+4. Ändern Sie die Filter, und beobachten Sie die Auswirkungen auf die visuellen Elemente.  
+   
+     
+     ![Erweiterte Filterung](media/end-user-reading-view/power-bi-advanced-filter.png)
+
+### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>Finden Sie heraus, wie alle visuellen Elemente auf einer Seite miteinander verbunden sind.
+Kreuzhervorhebung und Kreuzfilterung bei verknüpften Visualisierungen auf einer Seite Visualisierungen auf einer Berichtsseite sind alle miteinander „verknüpft“.  Wenn Sie also einen oder mehrere Werte in einer Visualisierung auswählen, werden andere Visualisierungen, die den gleichen Wert verwenden, auf Grundlage Ihrer Auswahl geändert.
+
+![Übergreifende Hervorhebung](media/end-user-reading-view/pagefilter3b.gif)
+> 
+### <a name="display-details-on-a-visualization"></a>Details für Visualisierung anzeigen
+Zeigen Sie auf ein visuelles Element, um die Details anzuzeigen.
+
+![Zum Anzeigen von Details mit dem Mauszeiger zeigen](media/end-user-reading-view/amarillachart.png)
+
+### <a name="sort-a-visualization"></a>Visualisierung sortieren
+Visuelle Elemente auf einer Berichtsseite können mit den von Ihnen vorgenommenen Änderungen sortiert und gespeichert werden. 
+
+1. Zeigen Sie auf ein visuelles Element, um es zu aktivieren.    
+2. Klicken Sie auf die Auslassungspunkte (...), um Sortieroptionen zu öffnen.
+
+    ![Diagramm sortieren](media/end-user-reading-view/sort.gif) 
+
+###  <a name="open-the-selection-pane"></a>Öffnen des Bereichs **Auswahl**
+Sie können ganz einfach zwischen den Visualisierungen auf der Berichtsseite wechseln. 
+
+1. Wählen Sie **Ansicht > Auswahlbereich** aus, um den Auswahlbereich zu öffnen. Schalten Sie **Auswahlbereich** auf „Ein“ um.
+
+    ![Aktivieren Sie den Auswahlbereich für den Bericht.](media/end-user-reading-view/power-bi-selection-pane2.png)
+
+2. Der Auswahlbereich öffnet sich in Ihrem Berichtszeichenbereich. Wählen Sie eine Visualisierung aus der Liste aus, um ihn zu aktivieren.
+
+    ![Auswahlbereich für Bericht](media/end-user-reading-view/power-bi-selection-pane-new.png)
+
+### <a name="zoom-in-on-individual-visuals"></a>Einzelne visuelle Elemente vergrößern
+Zeigen Sie auf eine Visualisierung, und wählen Sie das Symbol für den **Fokusmodus** aus: ![](media/end-user-reading-view/pbi_popouticon.jpg). Wenn Sie eine Visualisierung im Fokusmodus anzeigen, wird diese erweitert, sodass sie den gesamten Berichtszeichenbereich ausfüllt, wie unten dargestellt.
+
+![Fokusmodus](media/end-user-reading-view/powerbi-focus-mode.png)
+
+Wählen Sie zum Anzeigen dieser Visualisierung ohne störende Menüleisten, ohne den Filterbereich und andere Chromelemente das Symbol **Vollbild**![](media/end-user-reading-view/power-bi-focus-icon.png) auf der oberen Menüleiste aus.
+
+![Vollbildmodus](media/end-user-reading-view/power-bi-full-screen.png)
+
+### <a name="show-the-data-used-to-create-a-visualization"></a>Anzeigen der zum Erstellen einer Visualisierung verwendeten Daten
+Eine Power BI-Visualisierung wird mithilfe von Daten aus zugrunde liegenden Datasets erstellt. Sie haben in Power BI die Möglichkeit, die Daten *anzuzeigen*, die der Visualisierung zugrunde liegen. Wenn Sie **Daten anzeigen** auswählen, werden die Daten in Power BI unter (oder neben) der Visualisierung angezeigt.
+
+1. Öffnen Sie im Power BI-Dienst einen Bericht, und wählen Sie ein visuelles Element aus.  
+2. Um die Daten hinter dem visuellen Element anzuzeigen, klicken Sie auf die Auslassungspunkte (...) und dann auf **Daten anzeigen**.
+   
+   ![Daten anzeigen auswählen](./media/end-user-show-data/power-bi-show-data2.png)
+
+Das war ein kurzer Überblick einiger der Aktionen, die für **Benutzer** im Power BI-Dienst verfügbar sind.  
+
+## <a name="clean-up-resources"></a>Bereinigen von Ressourcen
+- Wenn Sie mit einer App verbunden sind, wählen Sie in der linken Navigationsleiste **Apps** aus, um die Apps-Inhaltsliste zu öffnen. Zeigen Sie auf die zu löschende App, und klicken Sie auf das Papierkorbsymbol.
+
+- Wenn Sie einen Power BI-Beispielbericht importiert oder sich mit ihm verbunden haben, klicken Sie in der linken Navigationsleiste auf **Mein Arbeitsbereich**. Suchen Sie unter den Registerkarten am oberen Rand das Dashboard, den Bericht und das Dataset, und klicken Sie für alle drei jeweils auf das Papierkorbsymbol.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Es gibt viele Möglichkeiten, um mit einem Bericht in der Leseansicht zu interagieren und die Daten so zu analysieren und aufzuteilen, dass Einblicke und Antworten gewonnen werden können.  Im nächsten Thema, [Interagieren mit einem Bericht in der Leseansicht von Power BI](../service-interact-with-a-report-in-editing-view.md), werden einige davon genauer beschrieben.    
-Zurück zu [Berichte in Power BI](end-user-reports.md)    
+
+

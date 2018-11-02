@@ -10,155 +10,152 @@ ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973998"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473772"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>m:n-Beziehungen in Power BI Desktop (Vorschauversion)
 
-Mit dem Feature **m:n-Beziehungen** in **Power BI Desktop** können Tabellen, in denen die Kardinalität **m:n** verwendet wird, verknüpft und Datenmodelle, die mehrere Datenquellen enthalten, einfacher und intuitiver erstellt werden. Das Feature **m:n-Beziehungen** ist Teil der umfangreicheren Funktionen des Features **Zusammengesetzte Modelle** in **Power BI Desktop**.
+Mit dem Feature für *m:n-Beziehungen* in Power BI Desktop können Sie Tabellen verknüpfen, die die Kardinalität *m:n* verwenden. Sie können einfacher und intuitiver Datenmodelle erstellen, die zwei oder mehr Datenquellen enthalten können. Das Feature *m:n-Beziehungen* ist Teil der umfangreicheren Funktionen des Features *Zusammengesetzte Modelle* in Power BI Desktop.
 
-![Option „m:n“ im Dialogfeld „Beziehung bearbeiten“](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+![Eine m:n-Beziehung im Bereich „Beziehung bearbeiten“](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Die Funktion **m:n-Beziehungen** in **Power BI Desktop** ist Teil einer Sammlung von drei in Beziehung stehenden Features:
+Die Funktion *m:n-Beziehungen* in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination.
-* **m:n Beziehungen**: Mit dem Feature **Zusammengesetzte Modelle** können Sie **m:n-Beziehungen** zwischen Tabellen erstellen, wodurch die Notwendigkeit für eindeutige Werte in Tabellen und frühere Problemumgehungen wie die Einführung neuer Tabellen nur für die Erstellung von Beziehungen entfallen. 
-* **Speichermodus**: Ab sofort können Sie angeben, welche Visuals eine Abfrage an Back-End-Datenquellen erfordern, und festlegen, dass Visuals, die keine erfordern, importiert werden, auch wenn diese auf DirectQuery basieren. Hierdurch wird die Leistung verbessert und die Auslastung des Back-Ends verringert. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. 
+* **Zusammengesetzte Modelle:** Hierbei kann ein Bericht zwei oder mehr Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
 
-Diese Sammlung aus drei in Beziehung stehenden Features für das Feature **Zusammengesetzte Modelle** werden jeweils in separaten Artikeln beschrieben:
+* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Beziehungen* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
 
-* **Zusammengesetzte Modelle** werden im Artikel [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md) ausführlich beschrieben.
-* Im vorliegenden Artikel werden **m:n-Beziehungen** beschrieben.
-* Der **Speichermodus** wird in einem eigenen Artikel beschrieben: [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
+* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
 
-## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Aktivieren des Vorschaufeatures „m: n-Beziehungen“
+## <a name="enable-the-many-to-many-relationships-preview-feature"></a>Aktivieren des Vorschaufeatures *m: n-Beziehungen*
 
-Das Feature **m:n-Beziehungen**, das als Vorschauversion verfügbar ist, ist Teil der Funktionen des Features **Zusammengesetzte Modelle**. Dieses muss in **Power BI Desktop** aktiviert werden. Um **Zusammengesetzte Modelle** zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen **Zusammengesetzte Modelle**.
+Das Feature *m:n-Beziehungen* muss in Power BI Desktop aktiviert sein. Um zusammengesetzte Modelle zu aktivieren, klicken Sie auf **Datei** > **Optionen und Einstellungen** > **Optionen** > **Vorschaufeatures**, und aktivieren Sie anschließend das Kontrollkästchen **Zusammengesetzte Modelle**.
 
-![Aktivieren der Vorschaufeatures](media/desktop-composite-models/composite-models_02.png)
+![Der Bereich „Vorschaufeatures“](media/desktop-composite-models/composite-models_02.png)
 
-Sie müssen **Power BI Desktop** neu starten, damit das Feature aktiviert wird.
+Starten Sie Power BI Desktop neu, um das Feature zu aktivieren.
 
-![Meldung, dass zur Anwendung der Änderungen ein Neustart erforderlich ist](media/desktop-composite-models/composite-models_03.png)
+![Fenster „Das Feature erfordert einen Neustart“](media/desktop-composite-models/composite-models_03.png)
 
+## <a name="what-many-to-many-relationships-solves"></a>Verbesserung durch *m:n-Beziehungen*
 
-## <a name="what-many-to-many-relationships-solves"></a>Verbesserung durch m:n-Beziehungen
+Vor dem Feature für *m:n-Beziehungen* wurde die Beziehung zwischen zwei Tabellen in Power BI definiert. Mindestens eine der Tabellenspalten, die an der Beziehung beteiligt war, musste eindeutige Werte enthalten. Häufig hat jedoch keine Spalte eindeutige Werte enthalten. 
 
-Bevor das Feature **m:n-Beziehungen** eingeführt wurde, musste bei der Definition einer Beziehung zwischen zwei Tabellen in Power BI mindestens eine der Spalten, die in der Beziehung verwendet wurde, eindeutige Werte enthalten. In vielen Fällen enthielt jedoch keine Spalte in der Tabelle eindeutige Werte. 
+Beispielsweise enthielten zwei Tabellen eine Spalte namens *Country*, die Werte von *Country* waren jedoch in keiner der beiden Tabellen eindeutig. Solche Tabellen konnten nur über Umwege verknüpft werden. Ein möglicher Umweg besteht darin, zusätzliche Tabellen mit den erforderlichen eindeutigen Werten zum Modell hinzuzufügen. Mit dem Feature für *m:n-Beziehungen* können Sie solche Tabellen direkt verknüpfen, indem Sie eine Beziehung mit einer Kardinalität von **m:n** verwenden.  
 
-Beispielsweise enthielten zwei Tabellen eine Spalte mit *Country*, jedoch waren die Werte von *Country* in keiner der beiden Tabellen eindeutig. Um solche Tabellen zu verknüpfen, musste eine Problemumgehung angewendet werden, indem z.B. zusätzliche Tabellen in das Modell eingeführt wurden, die die erforderlichen eindeutigen Werte enthielten. Das Feature **m:n-Beziehungen** bietet eine alternative Methode, mit der diese Tabellen anhand einer Beziehung mit der Kardinalität **m:n** direkt verknüpft werden können.  
+## <a name="use-many-to-many-relationships"></a>Verwenden von *m:n-Beziehungen*.
 
-## <a name="using-many-to-many-relationships"></a>Verwendung von m:n-Beziehungen
-
-Wenn Sie eine Beziehung zwischen zwei Tabellen in Power BI definieren, müssen Sie die Kardinalität der Beziehung definieren. Die Beziehung zwischen *ProductSales* und *Produkt* (mit den Spalten *ProductSales[ProductCode]* und *Product[ProductCode]*) würde z.B. als **n:1** definiert werden, da es viele Umsätze für die einzelnen Produkte gibt und die Spalte in der Tabelle *Produkt* *(ProductCode)* eindeutig ist. Wird eine Beziehungskardinalität als **n: 1**, **1:n**, oder **1:1** definiert, führt Power BI eine Überprüfung durch, um sicherzustellen, dass die ausgewählte Kardinalität den tatsächlichen Daten entspricht.
+Wenn Sie eine Beziehung zwischen zwei Tabellen in Power BI definieren, müssen Sie die Kardinalität der Beziehung definieren. Die Beziehung zwischen *ProductSales* und *Product* mithilfe der Spalten *ProductSales[ProductCode]* und *Product[ProductCode]* würde als *n:1* definiert werden. Die Beziehung auf diese Weise wird definiert, weil es viele Verkäufe für jedes Produkt gibt und die Spalte *(ProductCode)* in der Tabelle *Product* eindeutig ist. Wenn Sie die Kardinalität einer Beziehung als *n:1*, *1:n* oder *1:1* definieren, überprüft Power BI diese Angabe, um sicherzustellen, dass die ausgewählte Kardinalität den tatsächlichen Daten entspricht.
 
 Werfen Sie beispielsweise einen Blick auf das einfache Modell in der folgenden Abbildung.
 
 ![Beziehungsansicht](media/desktop-many-to-many-relationships/many-to-many-relationships_02.png)
 
-Nehmen wir an, die Tabelle *Product* würde nur zwei Zeilen enthalten.
+Nehmen Sie nun an, dass die Tabelle *Product* wie im Folgenden dargestellt nur zwei Zeilen anzeigt:
 
-![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
+![Visual der Tabelle „Product“ mit zwei Zeilen](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
 
-Nehmen wir zudem an, die Tabelle *Sales* würde nur vier Zeilen enthalten, darunter *Sales* für ein Produkt **C**, das nicht in der Tabelle *Product* enthalten ist (aufgrund eines Fehlers in der referentiellen Integrität).
+Nehmen Sie zudem an, die Tabelle *Sales* würde nur vier Zeilen enthalten, darunter die Zeile für ein „Product C“. Aufgrund eines Fehlers mit der referentiellen Integrität ist die Zeile für „Product C“ nicht in der Tabelle *Product* enthalten.
 
-![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
+![Visual der Tabelle „Sales“ mit vier Zeilen](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
-Ein Visual, das *ProductName* und *Price* (aus der Tabelle *Product*) zusammen mit der gesamten *Qty* für jedes Produkt (aus der Tabelle *ProductSales*) anzeigt, würde wie in der folgenden Abbildung zu sehen aussehen: 
+Die Spalten *ProductName* und *Price* (aus der Tabelle *Product*) zusammen mit der gesamten *Qty* für jedes Produkt (aus der Tabelle *ProductSales*) anzeigt, wird wie im Folgenden dargestellt angezeigt werden: 
 
-![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
+![Visual, das den Produktnamen, den Preis und die Menge darstellt](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
-Wie Sie in der obigen Abbildung sehen können, ist eine Zeile im Visual mit einem leeren *ProductName* vorhanden, der den Umsätzen für das Produkt *C* zugeordnet ist. Diese leere Zeile würde Folgendes abdecken:
+Wie in der vorherigen Abbildung zu sehen ist, enthält *ProductName* eine leere Zeile, die den Verkäufen für „Product C“ zugeordnet ist. Diese leere Zeile würde Folgendes abdecken:
 
-* Zeilen in der Tabelle *ProductSales*, für die es keine entsprechende Zeile in der Tabelle *Product* gibt: Hier besteht ein Problem mit der referentiellen Integrität, wie am Produkt *C* in diesem Beispiel zu erkennen ist.
+* Alle Zeilen in der Tabelle *ProductSales*, für die keine zugehörige Zeile in der Tabelle *Product* vorhanden ist. Es besteht ein Problem mit der referentiellen Integrität, das sich in diesem Beispiel auf *Product C* auswirkt.
 
-* Zeilen in der Tabelle *ProductSales*, bei denen die Fremdschlüsselspalte „NULL“ ist. 
+* Zeilen in der Tabelle *ProductSales*, bei denen die Fremdschlüsselspalte NULL ist. 
 
-Aus diesen Gründen deckt die leere Zeile in beiden Fällen Umsätze ab, bei denen *ProductName* und *Price* unbekannt sind.
+Aus diesen Gründen deckt die leere Zeile in beiden Fällen Verkäufe ab, bei denen *ProductName* und *Price* unbekannt sind.
 
 Manchmal kann es allerdings vorkommen, dass die Tabellen durch zwei Spalten verknüpft sind, jedoch keine Spalte eindeutig ist. Betrachten Sie beispielsweise die folgenden zwei Tabellen:
 
-* Die Tabelle *Sales* enthält die Umsatzdaten nach *State*, wobei jede Zeile den Umsatzbetrag für den Typ des Umsatzes im jeweiligen Bundesstaat (z.B. Bundesstaaten wie CA, WA, CA und TX) enthält. 
+* Die Tabelle *Sales* stellt die Umsatzdaten nach *State* dar, wobei jede Zeile den Umsatzbetrag für den Typ des Umsatzes im jeweiligen Bundesstaat enthält. Zu diesen Bundesstaaten zählen z.B. Kalifornien, Washington und Texas (CA, WA, TX). 
 
-    ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
+    ![Tabelle „Sales“, die den Umsatz nach Bundesstaat darstellt](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
 
-* Die Tabelle *CityData* enthält Daten zu Städten, einschließlich der Einwohnerzahl und des Bundesstaats (z.B. Bundesstaaten wie CA, WA und New York).
+* Die Tabelle *CityData* stellt Daten zu Städten dar, einschließlich der Einwohnerzahl und des Bundesstaats (z.B. CA, WA und New York).
 
-    ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
+    ![Tabelle „Sales“, die die Stadt, den Bundesstaat und die Einwohnerzahl anzeigt](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
 
-Es gibt zwar eine Spalte für *State* in beiden Tabellen und es ist sinnvoll, den gesamten *Sales* nach *State* zusammen mit der Gesamteinwohnerzahl der einzelnen Bundesstaaten zu melden, jedoch besteht folgendes Problem: die Spalte *State* ist in keiner der Tabellen eindeutig. 
+Es gibt zwar eine Spalte für *State* in beiden Tabellen, und es ist sinnvoll, den gesamten Umsatz nach Bundesstaat und der Gesamteinwohnerzahl der einzelnen Bundesstaaten zu erfassen, jedoch besteht das Problem, dass die Spalte *State* in keiner der Tabellen eindeutig ist. 
 
-## <a name="the-prior-workaround"></a>Die vorherige Problemumgehung
+## <a name="the-previous-workaround"></a>Die bisherige Problemumgehung
 
-Bei **Power BI Desktop**-Versionen, die vor dem Release von Juli 2018 eingeführt wurden, war es nicht möglich, eine direkte Beziehung zwischen diesen Tabellen zu erstellen. Eine gängige Problemumgehung für dieses Problem bestand darin, die folgenden Schritte durchzuführen:
+In Versionen von Power BI Desktop vor dem Release im Juli 2018 konnten Benutzer keine direkte Beziehung zwischen diesen Tabellen erstellen. Eine gängige Problemumgehung bestand darin, die folgenden Schritte durchzuführen:
 
-* Eine dritte Tabelle wurde erstellt, die ausschließlich die eindeutigen *State*-IDs enthält. Hierbei konnte es sich entweder um eine berechnete Tabelle (mithilfe von DAX definiert) handeln oder um eine Tabelle, die mit einer Abfrage im **Abfrage-Editor** definiert wurde. Diese konnte eindeutige IDs enthalten, die einer der Tabellen oder der vereinigten gesamten Gruppe entnommen wurden.
+* Eine dritte Tabelle wurde erstellt, die ausschließlich die eindeutigen IDs von *State* enthält. Die Tabelle kann einer oder allen folgenden Optionen entsprechen:
+  * Eine berechnete Tabelle, die mithilfe von DAX (Data Analysis Expressions) definiert wurde
+  * Eine Tabelle, die auf einer Abfrage basiert, die im Abfrage-Editor definiert wurde, und in der die eindeutigen IDs enthalten sein können, die aus einer der Tabellen abgerufen wurden.
+  * Eine Kombination aus beidem.
 
-* Die beiden ursprünglichen Tabellen wurden mithilfe der allgemeinen **n:1*-Beziehungen mit dieser neuen Tabelle in Beziehung gesetzt.
+* Die beiden ursprünglichen Tabellen wurden mithilfe der allgemeinen *n:1*-Beziehungen mit dieser neuen Tabelle in Beziehung gesetzt.
 
-Diese Problemumgehungstabelle konnte entweder eingeblendet oder ausgeblendet sein, sodass sie nicht in der Feldliste angezeigt wurde. In letzterem Fall würden die **n: 1**-Beziehungen häufig zum Filtern in beiden Richtungen festgelegt werden, sodass das Feld *State* von beiden Tabellen verwendet werden konnte. Anschließend würde die Kreuzfilterung an die andere Tabelle verteilt werden. Diese Problemumgehungsmethode wird in der folgenden Abbildung zur **Beziehungsansicht** dargestellt.
+Sie können die Tabelle, die zur Problemumgehung dient, entweder sichtbar lassen oder ausblenden, sodass sie nicht in der Liste **Fields** angezeigt wird. Wenn Sie die Tabelle ausblenden, werden die *n:1*-Beziehungen üblicherweise darauf festgelegt, in beide Richtungen zu filtern, und Sie können das Feld *State* aus jeder Tabelle verwenden. Die nachfolgende Kreuzfilterung würde an die andere Tabelle weitergegeben werden. Dieser Ansatz wird in der folgenden Abbildung veranschaulicht:
 
 ![Beziehungsansicht](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-Ein Visual, das *State* (aus der Tabelle *CityData*) zusammen mit der gesamten *Population* und dem gesamten *Sales* anzeigt, würde dann wie folgt aussehen:
+Ein Visual, das *State* (aus der Tabelle *CityData*) zusammen mit der Gesamtwert von *Population* und *Sales* anzeigt, würde dann wie folgt aussehen:
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
-Beachten Sie, dass hinsichtlich der Verwendung des Bundesstaats von der Tabelle *CityData* in dieser Problemumgehung nur die *State*-Werte in dieser Tabelle aufgeführt werden (daher ist TX ausgeschlossen). Im Gegensatz zu **n:1**-Beziehungen ist in den Details darüber hinaus keine leere Zeile enthalten, die solche nicht übereinstimmenden Zeilen abdeckt. Die Zeile „Total“ enthält hingegen alle *Sales*-Werte (einschließlich der von TX). Analog dazu gäbe es keine leere Zeile, die alle *Sales*-Werte abdeckt, bei denen der Wert für *State* „NULL“ lauten würde.
+> [!NOTE]
+> Da der Bundesstaats aus der Tabelle *CityData* in dieser Problemumgehung verwendet wird, werden nur die State-Werte in dieser Tabelle aufgeführt (daher ist TX ausgeschlossen). Im Gegensatz zu *n:1*-Beziehungen ist in den Details darüber hinaus keine leere Zeile enthalten, die solche nicht übereinstimmenden Zeilen abdeckt. Die Zeile „Total“ enthält hingegen alle *Sales*-Werte (einschließlich der von TX). Analog dazu gäbe es keine leere Zeile, die alle *Sales*-Werte abdeckt, bei denen der Wert für *State* NULL lautet.
 
-Wenn *City* ebenfalls diesem Visual hinzugefügt worden wäre, wäre zwar die Einwohnerzahl pro *City* bekannt, der *Sales*-Wert für *City* würde jedoch einfach den *Sales*-Wert für den entsprechenden *State* wiederholen (wie es normalerweise der Fall ist, wenn für eine Spalte eine Gruppierung vorgenommen wird, die nicht mit aggregierten Measures verknüpft ist). Dies wird in der folgenden Abbildung veranschaulicht.
+Wenn Sie außerdem *City* zu diesem Visual hinzufügen, obwohl die Einwohnerzahl für jede *City*-Spalte bekannt ist, wiederholt die *Sales*-Spalte für *City* nur den *Sales*-Wert für die entsprechende *State*-Spalte. Dies ist normalerweise der Fall, wenn die Gruppierung in einer Spalte nicht mit einem aggregierten Measure verknüpft ist. Dies wird in folgender Abbildung veranschaulicht:
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
-Wenn die neue Tabelle *Sales* als Vereinigung aller *State*-Werte in dieser Problemumgehung definiert und in der Feldliste sichtbar gemacht worden wäre, würden dieses Visual, das *State* anzeigt (in der neuen Tabelle), sowie der Gesamtwert von *Population* und der Gesamtwert von *Sales* dann wie folgt aussehen:
+Wenn wir die neue Tabelle *Sales* als Kombination aller *State*-Spalten in dieser Problemumgehung definieren und diese in der Liste **Fields** sichtbar machen, würde das gleiche Visual *State* (in der neuen Tabelle) und den Gesamtwert von *Population* und *Sales* darstellen. Dies wird in folgender Abbildung veranschaulicht:
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-In diesem Fall und wie anhand des Visuals gezeigt würden *TX* (mit *Sales*, jedoch unbekannter Einwohnerzahl) und *New York* (mit bekannter Einwohnerzahl, jedoch ohne *Sales*) eingeschlossen werden. 
+Sie sehen, dass *TX* (mit Daten für *Sales*, aber mit unbekannten Daten für *Population*) und *New York* (mit bekannten Daten für *Population*, aber ohne Daten für *Sales*) enthalten wäre. Diese Umgehung ist nicht ideal und führt zu vielen Problemen. Mit der Erstellung von m:n-Beziehungen werden die daraus resultierenden Probleme wie im folgenden Abschnitt beschrieben behoben.
 
-Wie Sie sehen können, war diese Problemumgehung nicht optimal und führt zu vielen Problemen. Mit der Erstellung der **m:n-Beziehung** werden diese Probleme gelöst, wie im folgenden Abschnitt beschrieben wird.
+## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Verwendung von *m:n-Beziehungen* anstelle der Problemumgehung
 
-## <a name="using-many-to-many-relationships-instead-of-the-workaround"></a>Verwendung von m:n-Beziehungen anstelle der Problemumgehung
-
-In **Power BI Desktop**-Versionen, die ab Juli 2018 veröffentlicht wurden, können Sie die im vorherigen Abschnitt beschriebenen Tabellen direkt in Beziehung setzen, ohne auf diese Problemumgehungen zurückgreifen zu müssen. Ab sofort kann die Kardinalität einer Beziehung auf **m:n** festgelegt werden, wodurch angegeben wird, dass keine der Tabellen eindeutige Werte enthält. Bei solchen Beziehungen können Sie nach wie vor steuern, welche Tabelle die jeweils andere Tabelle filtert, oder die bidirektionale Filterung festlegen, bei der beide Tabellen sich gegenseitig filtern.  
+Seit der Power BI Desktop-Version vom Juli 2018 können Sie Tabellen direkt miteinander verknüpfen, ohne auf ähnliche Problemumgehungen zurückgreifen zu müssen. Die Kardinalität für Beziehungen kann nun auf *m:n* festgelegt werden. Diese Einstellung gibt an, dass keine der Tabellen eindeutige Werte enthält. Bei solchen Beziehungen können Sie nach wie vor steuern, welche Tabelle die jeweils andere Tabelle filtert, oder die bidirektionale Filterung anwenden, bei der beide Tabellen sich gegenseitig filtern.  
 
 > [!NOTE]
-> Das Feature zur Erstellung von **m:n**-Beziehungen ist in der Vorschauversion verfügbar, es können jedoch keine Modelle mit **m:n**-Beziehungen für den Power BI-Dienst veröffentlicht werden. 
+> Das Feature für *m:n-Beziehungen* befindet sich in der Vorschauversion. Während der Vorschauphase können Sie keine Modelle im Power BI-Dienst veröffentlichen, bei denen *m:n-Beziehungen* verwendet werden. 
 
-In **Power BI Desktop** wird die Kardinalität standardmäßig auf **m:n** festgelegt, wenn festgestellt wird, dass keine der Tabellen eindeutige Werte für die Spalten in der Beziehung enthält. In solchen Fällen wird eine Warnung angezeigt, um zu bestätigen, dass diese Beziehungseinstellung Ihr beabsichtigtes Verhalten widerspiegelt und keine unbeabsichtigte Auswirkung eines Datenproblems darstellt. 
+In Power BI Desktop wird die Kardinalität standardmäßig auf *m:n* festgelegt, wenn festgestellt wird, dass keine der Tabellen eindeutige Werte für die Spalten in der Beziehung enthält. In solchen Fällen wird eine Warnung angezeigt, um zu bestätigen, dass diese Beziehungseinstellung Ihren Absichten entspricht und keine unbeabsichtigte Auswirkung eines Datenproblems darstellt. 
 
-Beispielsweise wird bei der Erstellung einer direkten Beziehung zwischen *CityData* und *Sales*, bei dem Filter von *CityData* zu *Sales* übergehen sollten, wird das Dialogfeld zur Beziehung angezeigt. Dies wird in der folgenden Abbildung dargestellt.
+Wenn Sie z.B. eine direkte Beziehung zwischen *CityData* und *Sales* erstellen, wobei die Filter von *CityData* zu *Sales* übergehen sollen, zeigt Power BI Desktop das Fenster **Beziehung bearbeiten** wie in der folgenden Abbildung dargestellt an:
 
-![Dialogfeld „Beziehung bearbeiten“](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
+![Das Fenster „Beziehung bearbeiten“](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Die resultierende **Beziehungsansicht** würde dann die direkte **m:n**-Beziehung zwischen den beiden Tabellen enthalten. Die Darstellung in der Liste **Felder** und das anschließende Verhalten bei der Erstellung von Visuals stimmt mit der im vorherigen Abschnitt beschriebenen Problemumgehung überein, bei der die zusätzliche Tabelle (mit den darin enthaltenen unterschiedlichen *State*-Werten) nicht sichtbar gemacht wurde. Ein Visual, das z.B. *State* zusammen mit der Gesamteinwohnerzahl und des Gesamtumsatzes anzeigt, wie im vorherigen Abschnitt zur Problemumgehung beschrieben wurde, würde wie folgt aussehen:
+Die resultierende **Beziehungsansicht** würde dann die direkte m:n-Beziehung zwischen den beiden Tabellen darstellen. Die Darstellung der Tabelle in der Liste **Fields** und deren Verhalten, wenn die Visuals erstellt wurden, ähneln den Ergebnissen, die durch die Problemumgehung erzielt wurden. In der Problemumgehung wurde die zusätzliche Tabelle, die die unterschiedlichen Daten für *State* darstellt, nicht sichtbar gemacht. Wie im vorherigen Abschnitt beschrieben, würde ein Visual, das die Daten für *State*, *Population* und *Sales* anzeigt, folgendermaßen aussehen:
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Zwischen **m:n**-Beziehungen und den geläufigeren **n:1**-Beziehungen besteht der folgende wesentliche Unterschied:
+Zwischen *m:n*-Beziehungen und den geläufigeren *n:1*-Beziehungen bestehen folgende wesentliche Unterschiede:
 
-* Die angezeigten Werte enthalten keine leere Zeile, die nicht übereinstimmende Zeilen in der anderen Tabelle oder Zeilen abdeckt, bei denen die in der Beziehung verwendete Spalte in der anderen Tabelle „NULL“ ist.
-* Die *RELATED()*-Funktion kann nicht verwendet werden (da mehr als eine Zeile verknüpft sein könnte).
-* Mit der *ALL()*-Funktion in einer Tabelle werden keine Filter entfernt, die auf andere Tabellen angewendet wurden, die wiederum durch eine **m:n**-Beziehung verknüpft wurden. Beispielsweise würde ein wie folgt definiertes Measure im vorherigen Beispiel nicht Filter für Spalten zur zugehörigen Tabelle *CityData* entfernen:
+* Die angezeigten Werte enthalten keine leere Zeile, die nicht übereinstimmende Zeilen in der anderen Tabelle abdeckt. Die Werte decken ebenfalls nicht die Zeilen ab, bei denen die Spalte, die in der anderen Tabelle in der Beziehung verwendet wurde, den Wert NULL aufweist.
+* Die Funktion `RELATED()` kann nicht verwendet werden, da mehr als eine Zeile verknüpft sein könnte.
+* Mit der Funktion `ALL()` werden in einer Tabelle keine Filter entfernt, die auf andere verknüpfte Tabellen angewendet wurden, mit denen eine m:n-Beziehung besteht. Im vorherigen Beispiel würde ein Measure, das wie im folgenden Skript dargestellt definiert wurde, keine Filter aus Spalten in der verknüpften Tabelle *CityData* entfernen:
 
     ![Beispiel für ein Skript](media/desktop-many-to-many-relationships/many-to-many-relationships_13.png)
 
-    Dementsprechend würde ein Visual, das *State*, *Sales* und *Sales Total* anzeigt, wie folgt aussehen:
+    Ein Visual, das die Daten für *State*, *Sales* und *Sales Total* anzeigt, würde wie folgt aussehen:
 
     ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_14.png)
 
-Aus diesem Grund sollte dies berücksichtigt werden, um sicherzustellen, dass Berechnungen mit *ALL(\<Table>)* (z.B. *% der Gesamtsumme*), die gewünschten Ergebnisse zurückgeben. 
+Beachten Sie diese Unterschiede, und stellen Sie sicher, dass die Berechnungen, die `ALL(\<Table>)` verwenden (z.B. *Prozentsatz der Gesamtsumme*), die gewünschten Ergebnisse zurückgeben. 
 
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
-Bei diesem Release der Features **m:n-Beziehungen** und **Zusammengesetzte Modelle** gibt es einige Einschränkungen.
+Bei diesem Release für *m:n-Beziehungen* und zusammengesetzte Modelle gibt es einige Einschränkungen.
 
-Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit **zusammengesetzten Modellen** verwendet werden:
+Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit zusammengesetzten Modellen verwendet werden:
 
 * SAP HANA
 * SAP Business Warehouse
@@ -166,19 +163,14 @@ Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit **zusam
 * Power BI-Datasets
 * Azure Analysis Services
 
-Wenn mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen hergestellt wird, können Sie weder eine Verbindung mit einer anderen DirectQuery-Quelle herstellen noch importierte Daten kombinieren.
+Wenn Sie mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen herstellen, können Sie keine Verbindung mit einer anderen DirectQuery-Quelle herstellen oder diese mit importierten Daten kombinieren.
 
-Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach wie vor für die Verwendung des Features **m:n-Beziehungen**. Viele dieser Einschränkungen gelten jetzt abhängig vom **Speichermodus** der Tabelle für eine einzelne Tabelle. Beispielsweise kann eine berechnete Spalte in einer importierten Tabelle auf andere Tabellen verweisen, wohingegen eine berechnete Spalte in einer DirectQuery-Tabelle nach wie vor nur auf Spalten in derselben Tabelle verweisen kann. Es gelten weitere Einschränkungen für das Modell als Ganzes, wenn eine der Tabellen im Modell DirectQuery enthält. Die Features **QuickInsights** und **Q&A** sind nicht für Modelle verfügbar, wenn eine der Tabellen den **Speichermodus** „DirectQuery“ aufweist. 
+Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach wie vor, wenn Sie *m:n-Beziehungen* verwenden. Viele dieser Einschränkungen gelten jetzt abhängig vom Speichermodus der Tabelle für eine einzelne Tabelle. Beispielsweise kann eine berechnete Spalte in einer importierten Tabelle auf andere Tabellen verweisen, wohingegen eine berechnete Spalte in einer DirectQuery-Tabelle nach wie vor nur auf Spalten in derselben Tabelle verweisen kann. Es gelten weitere Einschränkungen für das Modell als Ganzes, wenn eine der Tabellen den Modus „DirectQuery“ aufweist. Die Features „QuickInsights“ und „Q&A“ sind nicht für Modelle verfügbar, wenn eine der Tabellen den Speichermodus „DirectQuery“ aufweist. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Die folgenden Artikeln enthalten weitere Informationen über zusammengesetzte Modelle sowie Details zu DirectQuery.
-
+Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
 * [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
 * [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
-
-Artikel zu DirectQuery:
-
-* [Verwendung von DirectQuery in Power BI](desktop-directquery-about.md)
-* [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
-
+* [Verwenden von DirectQuery in Power BI Desktop](desktop-directquery-about.md)
+* [Von DirectQuery in Power BI Desktop unterstützte Datenquellen](desktop-directquery-data-sources.md)

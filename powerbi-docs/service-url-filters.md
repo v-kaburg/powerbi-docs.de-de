@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232924"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396955"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -169,7 +169,8 @@ Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beacht
 
 * Wenn Sie den *in*-Operator verwenden, müssen die Werte auf der rechten Seite von *in* einer mit Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen ist.    
 * Sie können in Power BI-Berichtsserver [Berichtsparameter übergeben](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), indem Sie sie in eine Berichts-URL einschließen. Diese URL-Parameter erhalten kein Präfix, da sie direkt an die Berichtsverarbeitungs-Engine übergeben werden.
-* Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) oder Power BI Embedded verwendet werden.   
+* Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) verwendet werden.
+* Beim [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) werden keine URL-Filter unterstützt.
 * Der Datentyp „long“ ist aufgrund von Beschränkungen bei JavaScript (2^53–1).
 * Berichts-URL-Filter verfügen über eine Einschränkung von zehn Ausdrücken (zehn Filter die per AND verbunden sind).
 

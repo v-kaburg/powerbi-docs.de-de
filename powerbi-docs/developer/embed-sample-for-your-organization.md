@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827454"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396863"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
 
@@ -72,7 +72,7 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
 
 1. Navigieren Sie im Azure-Portal zu [App-Registrierungen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade), und wählen Sie die App aus, die Sie für die Einbettung verwenden.
 
-    ![Auswählen einer App](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
 2. Wählen Sie **Einstellungen**aus. Wählen Sie anschließend unter **API-Zugriff** die Option **Erforderliche Berechtigungen** aus.
 
@@ -100,7 +100,7 @@ Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
-### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
+### <a name="create-an-app-workspace"></a>App-Arbeitsbereich erstellen
 
 Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren:
 
@@ -158,13 +158,13 @@ Führen Sie die folgenden Schritte aus, um Ihren Inhalt in eine Beispielanwendun
 
     ![User Owns Data-Anwendungsbeispiel](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Öffnen Sie in der Beispielanwendung die Datei **Cloud.config**. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie einige Felder auffüllen: **ClientID** und **ClientSecret**.
+2. Öffnen Sie in der Beispielanwendung die Datei **Cloud.config**. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie einige Felder auffüllen: **ApplicationID** and **ApplicationSecret**.
 
     ![Datei „Cloud.config“](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Geben Sie für **ClientID** die **Anwendungs-ID** aus Azure an. Die Anwendung identifiziert sich mithilfe der **ClientID** bei den Benutzern, von denen Sie Berechtigungen anfordern.
+    Geben Sie für **ApplicationID** die **Anwendungs-ID** aus Azure an. Die Anwendung identifiziert sich mithilfe der **ApplicationID** bei den Benutzern, von denen Sie Berechtigungen anfordern.
 
-    Führen Sie die folgenden Schritte aus, um die **ClientID** abzurufen:
+    Führen Sie die folgenden Schritte aus, um die **ApplicationID** abzurufen:
 
     1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 
@@ -174,17 +174,17 @@ Führen Sie die folgenden Schritte aus, um Ihren Inhalt in eine Beispielanwendun
 
         ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Wählen Sie die Anwendung aus, die die **ClientID** verwenden muss.
+    1. Wählen Sie die Anwendung aus, die **ApplicationID** verwenden muss.
 
-        ![Auswählen einer App](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+        ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Ihnen müsste eine **Anwendungs-ID** angezeigt werden, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **ClientID** für die Anwendung.
+    1. Ihnen müsste eine **Anwendungs-ID** angezeigt werden, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **ApplicationID** für die Anwendung.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Geben Sie für **ClientSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.
+    1. Geben Sie für **ApplicationSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.
 
-    1. Führen Sie die folgenden Schritte aus, um **ClientSecret** abzurufen:
+    1. Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
 
         1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 
@@ -194,7 +194,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Inhalt in eine Beispielanwendun
 
             ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Wählen Sie die Anwendung aus, die **ClientSecret** verwenden muss.
+        1. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
 
             ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

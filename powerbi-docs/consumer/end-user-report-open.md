@@ -1,23 +1,23 @@
 ---
-title: Anzeigen eines Berichts im Power BI-Dienst
-description: Öffnen Sie einen Power BI-Bericht in der Leseansicht.
+title: Anzeigen eines Berichts im Power BI-Dienst für Kunden
+description: In diesem Artikel wird das Öffnen und Anzeigen eines Berichts für Power BI-Kunden und Endbenutzer veranschaulicht.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112013"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396932"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Anzeigen eines Berichts im Power BI-Dienst (app.powerbi.com)
-Ein Bericht besteht aus einer oder mehreren Seiten mit visuellen Elementen. Berichte werden von Power BI-*Designern* erstellt und [direkt mit Ihnen geteilt](end-user-shared-with-me.md) oder als Teil einer [App](end-user-apps.md). 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Anzeigen eines Berichts im Power BI-Dienst für *Kunden*
+Ein Bericht besteht aus einer oder mehreren Seiten mit visuellen Elementen. Power BI-Berichte werden von *Berichts-Designern* erstellt und entweder [direkt für *Kunden*](end-user-shared-with-me.md) oder als Teil einer [App](end-user-apps.md) freigegeben. 
 
 Es gibt viele verschiedene Möglichkeiten zum Öffnen eines Berichts, und wir zeigen Ihnen zwei davon: Öffnen über die Startseite und Öffnen aus einem Dashboard. 
 
@@ -42,7 +42,7 @@ Power BI-*Designer* können einen Bericht direkt mit Ihnen teilen, indem sie in 
    
    ![Abschnitt „Für mich freigegeben“ der Startseite](./media/end-user-report-open/power-bi-shared.png)
 
-4. Wählen Sie einfach eine der Berichtskarten aus, um den Bericht zu öffnen.
+4. Wählen Sie einfach eine der *Berichtskarten* aus, um den Bericht zu öffnen.
 
    ![Berichtseite](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Wenn Sie von Kollegen oder aus AppSource Apps erhalten haben, sind diese Apps ü
 
    ![Startseite](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Wählen Sie eine der Apps aus, um sie zu öffnen. Abhängig von den Optionen, die vom App-*Designer* festgelegt wurden, öffnet die App entweder ein Dashboard oder einen Bericht. Wenn durch das Auswählen der App:
+8. Wählen Sie eine der Apps aus, um sie zu öffnen. Abhängig von den Optionen, die vom *Designer* der App festgelegt wurden, öffnet die App entweder ein Dashboard, einen Bericht oder eine App-Inhaltsliste. Wenn durch das Auswählen der App:
     - der Bericht geöffnet wird, sind Sie startklar.
     - ein Dashboard geöffnet wird, siehe [Öffnen eines Berichts aus einem Dashboard](#Open-a-report-from-a-dashboard).
-
+    - die App-Inhaltsliste geöffnet wird, wählen Sie unter **Berichte** einen Bericht aus, um diesen zu öffnen.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Öffnen eines Berichts aus einem Dashboard
@@ -83,15 +83,15 @@ Berichte können aus einem Dashboard geöffnet werden. Die meisten Dashboardkach
     ![Bericht in „Leseansicht“ öffnen](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Nicht alle Kacheln führen zu einem Bericht. Wenn Sie eine Kachel auswählen, die [mit Q&A erstellt wurde](../service-dashboard-pin-tile-from-q-and-a.md), wird der Q&A-Bildschirm geöffnet. Wenn Sie eine Kachel auswählen, die [mit dem Widget **Kachel hinzufügen**](../service-dashboard-add-widget.md) in einem Dashboard erstellt wurde, wird der Assistent **Kachel bearbeiten** geöffnet.  
+> Nicht alle Kacheln führen zu einem Bericht. Wenn Sie eine Kachel auswählen, die [mit Q&A erstellt wurde](end-user-q-and-a.md), wird der Q&A-Bildschirm geöffnet. Wenn Sie eine Kachel auswählen, die [mit dem Widget **Kachel hinzufügen**](../service-dashboard-add-widget.md) erstellt wurde, kann dies verschiedene Folgen haben.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Weitere Möglichkeiten zum Öffnen eines Berichts
 Wie Sie mit der Navigation im Power BI-Dienst besser vertraut sind, werden Sie feststellen, welche Arbeitsabläufe für Sie am besten geeignet sind. Weitere Möglichkeiten zum Zugriff auf Berichte:
 - Über den linken Navigationsbereich mit **Favoriten** und **Zuletzt verwendet**    
 - Mit [Verwandte Inhalte anzeigen](end-user-related.md)    
-- Über eine E-Mail, wenn jemand [einen Bericht für Sie freigibt](../service-share-reports.md) oder Sie [eine Benachrichtigung](../service-set-data-alerts.md) festgelegt haben.    
-- Über Ihre [Mitteilungszentrale]    (end-user-notification-center.md)    
+- Über eine E-Mail, wenn jemand [einen Bericht für Sie freigibt](../service-share-reports.md) oder Sie [eine Benachrichtigung](end-user-alerts.md) festgelegt haben.    
+- Über die [Mitteilungszentrale](end-user-notification-center.md)    
 - usw.
 
 ## <a name="next-steps"></a>Nächste Schritte
