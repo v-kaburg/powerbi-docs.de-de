@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: overview
-ms.date: 05/01/2018
+ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fcc7563ef1c1196a7e00e107bb1dadd6b10075d3
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944305"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252466"
 ---
 # <a name="what-is-power-bi-administration"></a>Was ist die Power BI-Verwaltung?
 
@@ -30,7 +30,6 @@ Power BI ist für Self-Service-Business Intelligence (BI) konzipiert, und der Ad
 - Erhöhen der Akzeptanz und Rendite einer Power BI-Bereitstellung
 
 Die Aufgabe besteht darin, Geschäftsbenutzern ein produktives Arbeiten zu ermöglichen, für Sicherheit zu sorgen und die Einhaltung von Gesetzen und Bestimmungen sicherzustellen. Administratoren sind ggf. auch für Support zuständig und helfen Benutzern in vielen Fällen dabei, die richtige Entscheidung zu treffen.
-
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Administratorrollen in Zusammenhang mit Power BI
 
@@ -50,7 +49,6 @@ Power BI-Dienstadministratoren haben Zugriff auf das Power BI-Verwaltungsportal,
 
 Die Rolle eines Power BI-Dienstadministrators gewährt nicht die Berechtigung, Benutzern Lizenzen zuzuweisen oder Überwachungsprotokolle in Office 365 anzuzeigen. Daher kann Power BI derzeit nicht von Benutzern verwaltet werden, die nur Mitglieder der Power BI-Dienstadministratorrolle sind.
 
-
 ## <a name="administrative-tasks"></a>Verwaltungsaufgaben
 
 Administratoren können verschiedene Aufgaben ausführen, um den Power BI-Mandanten ihrer Organisation zu unterstützen. Diese Aufgaben sind in der folgenden Tabelle aufgelistet.
@@ -65,7 +63,6 @@ Administratoren können verschiedene Aufgaben ausführen, um den Power BI-Mandan
 | Verwalten von Power BI-Ressourcen |<ul><li>Verwalten von Arbeitsbereichen<br><li>Veröffentlichen von benutzerdefinierten Visuals<br><li>Überprüfen von Code zum Einbetten von Power BI in anderen Anwendungen|
 | Bereitstellen von Hilfe und Support für Mandantenbenutzer |<ul><li>Beheben von Datenzugriffs- und anderen Problemen</ul>|
 | Weitere Aufgaben |<ul><li>Bereitstellen von Power BI Desktop z.B. mit dem System Center Configuration Manager<br><li>Verwalten der Bereitstellung von mobilen Power BI-Apps mit Intune<br><li>Verwalten von Datenschutz und -sicherheit, z.B. der Quelldatensicherheit</ul>|
-
 
 ## <a name="administrative-tools"></a>Verwaltungstools
 
@@ -82,11 +79,12 @@ In der Power BI-Verwaltung gibt es verschiedene Tools, die in der folgenden Tabe
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-In diesem Artikel haben Sie einige kurze Einblicke in den Arbeit eines Power BI-Administrators sowie die zugehörigen Rollen, Aufgaben und Tools erhalten. Um Ihre Kenntnisse zu vertiefen, empfehlen wir die beiden folgenden Themen.
+In diesem Artikel haben Sie einige kurze Einblicke in den Arbeit eines Power BI-Administrators sowie die zugehörigen Rollen, Aufgaben und Tools erhalten. Um Ihre Kenntnisse zu vertiefen, empfehlen wir die folgenden Artikel.
 
 [Verwenden des Power BI-Verwaltungsportals](service-admin-portal.md)
+
+[Verwenden von PowerShell-Cmdlets](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
 
 [Häufig gestellte Fragen zur Power BI-Verwaltung](service-admin-faq.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

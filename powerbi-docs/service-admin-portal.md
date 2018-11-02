@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396909"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252489"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
-Das Verwaltungsportal ermöglicht die Mandantenverwaltung von Power BI in Ihrer Organisation. Es enthält Elemente wie z. B. Nutzungsmetriken und Zugriff auf das Office 365 Admin Center und die Einstellungen.
+Mit dem Verwaltungsportal können Sie einen Power BI-*Mandanten* für Ihre Organisation verwalten. Das Portal stellt Elemente wie z.B. Nutzungsmetriken, Zugriff auf das Office 365 Admin Center und Einstellungen bereit.
 
-Die Mandantenverwaltung von Power BI für Ihr Unternehmen erfolgt über das Power BI-Verwaltungsportal. Auf das Verwaltungsportal können alle Benutzer zugreifen, die globale Administratoren in Office 365 sind oder der Power BI-Dienstadministratorrolle zugewiesen wurden. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md).
-
-Für alle Benutzer wird unter dem Zahnradsymbol das **Verwaltungsportal** angezeigt. Ein Benutzer ohne Administratorrechte sieht nur den Abschnitt **Premium-Einstellungen** und nur die Kapazitäten, für die er Verwaltungsberechtigungen besitzt.
+Auf das vollständige Verwaltungsportal können alle Benutzer zugreifen, die globale Administratoren in Office 365 sind oder der Power BI-Dienstadministratorrolle zugewiesen wurden. Wenn Sie keiner dieser Rollen angehören, können Sie im Portal nur die **Kapazitätseinstellungen** anzeigen. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Gewusst wie: Anzeigen des Verwaltungsportals
 
 Ihr Konto muss in Office 365 oder Azure Active Directory als **Globaler Administrator** markiert oder der Power BI-Dienstadministratorrolle zugewiesen sein, damit Sie Zugriff auf das Power BI-Verwaltungsportal erhalten. Weitere Informationen zur Power BI-Dienstadministratorrolle finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md). Führen Sie zum Zugreifen auf das Power BI-Verwaltungsportal die folgenden Schritte aus.
 
 1. Wählen Sie das Zahnradsymbol für die Einstellungen oben rechts im Power BI-Dienst aus.
-2. Wählen Sie **Verwaltungsportal** aus.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. Wählen Sie **Verwaltungsportal** aus.
 
-Innerhalb des Portals gibt es sechs Registerkarten. Diese werden nachfolgend beschrieben.
+    ![Einstellungen im Verwaltungsportal](media/service-admin-portal/powerbi-admin-settings.png)
+
+Das Portal umfasst sieben Registerkarten. In den verbleibenden Abschnitten dieses Artikels erhalten Sie Informationen zu jeder dieser Registerkarten.
+
+![Navigation im Verwaltungsportal](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [Nutzungsmetriken](#usage-metrics)
 * [Benutzer](#users)
@@ -42,95 +43,91 @@ Innerhalb des Portals gibt es sechs Registerkarten. Diese werden nachfolgend bes
 * [Mandanteneinstellungen](#tenant-settings)
 * [Premium-Einstellungen](#premium-settings)
 * [Einbindungscodes](#embed-codes)
-* [Visuals für Organisationen](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [Visuals für Organisationen](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Nutzungsmetriken
-Die erste Registerkarte im Verwaltungsportal heißt **Nutzungsmetriken**. Der Bericht zu den Nutzungsmetriken erlaubt Ihnen das Überwachen der Nutzung in Power BI für Ihre Organisation. Außerdem können Sie darüber feststellen, welche Benutzer und Gruppen in Power BI für Ihre Organisation am aktivsten sind.
+
+Mithilfe der **Nutzungsmetriken** können Sie die Power BI-Nutzung für Ihre Organisation überwachen. Außerdem können Sie darüber feststellen, welche Benutzer und Gruppen in Power BI für Ihre Organisation am aktivsten sind.
 
 > [!NOTE]
 > Beim ersten Zugriff auf das Dashboard oder beim Anzeigen des Dashboards nach einem längeren Zeitraum wird zunächst wahrscheinlich ein Ladebildschirm angezeigt, während das Dashboard geladen wird.
 
-Nachdem das Dashboard geladen wurde, werden zwei Abschnitte mit Kacheln angezeigt. Der erste Abschnitt enthält Nutzungsdaten für einzelne Benutzer, und der zweite Abschnitt enthält ähnliche Informationen für die Gruppen in Ihrer Organisation.
+Nachdem das Dashboard geladen wurde, werden zwei Abschnitte mit Kacheln angezeigt. Der erste Abschnitt umfasst Nutzungsdaten für einzelne Benutzer, der zweite Abschnitt enthält ähnliche Informationen für die Gruppen in Ihrer Organisation.
 
 Im Folgenden sehen Sie, was in den einzelnen Kacheln angezeigt wird:
 
 * Anzahl der verschiedenen Dashboards, Berichte und Datasets im Arbeitsbereich eines Benutzers
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![Anzahl der verschiedenen Dashboards, Berichte, Datasets](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Das am häufigsten verwendete Dashboard nach Anzahl von Benutzern, die darauf zugreifen können. Wenn Sie z. B. ein Dashboard für drei Benutzer freigegeben haben und dieses auch einem Inhaltspaket hinzugefügt haben, mit dem zwei andere Benutzer verbunden sind, beträgt die Anzahl 6 (1 + 3 + 2).
+* Das am häufigsten verwendete Dashboard nach Anzahl von Benutzern, die darauf zugreifen können. Wenn Sie z.B. ein Dashboard für drei Benutzer freigegeben und dieses auch einem Inhaltspaket hinzugefügt haben, mit dem zwei weitere Benutzer verbunden sind, beträgt die Anzahl 6 (1 + 3 + 2).
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![Am häufigsten verwendete Dashboards](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * Der beliebteste Inhalt, mit dem Benutzer Verbindungen herstellen. Dies kann alles sein, worauf Benutzer durch den Vorgang zum Abrufen von Daten zugreifen können, z. B. SaaS-Pakete, organisationsbezogene Inhaltspakete, Dateien oder Datenbanken.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![Am häufigsten verwendete Pakete](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * Eine Ansicht der aktivsten Benutzer basierend auf der Anzahl von Dashboards. Dies können von den Benutzern selbst erstellte Dashboards sein, aber auch Dashboards, die für sie freigegeben wurden.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![Aktivste Benutzer – Dashboards](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * Eine Ansicht der aktivsten Benutzer basierend auf der Anzahl von Berichten
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![Aktivste Benutzer – Berichte](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-Der zweite Abschnitt zeigt dieselben Informationen basierend auf Gruppen an. So können Sie sehen, welche Gruppen in Ihrer Organisation besonders aktiv sind und welche Art von Informationen sie verwenden.
+Der zweite Abschnitt zeigt dieselben Informationen basierend auf Gruppen an. So können Sie sehen, welche Gruppen in Ihrer Organisation besonders aktiv sind und welche Art von Inhalten sie verwenden.
 
-Mit diesen Informationen erhalten Sie wichtige Einblicke in die Verwendung von Power BI in Ihrer Organisation. Außerdem können Sie sehr schnell ermitteln, welche Benutzer und Gruppen in Ihrer Organisation besonders aktiv sind.
+Anhand dieser Informationen gewinnen Sie wichtige Erkenntnisse zur Verwendung von Power BI in Ihrer Organisation. Außerdem können Sie ermitteln, welche Benutzer und Gruppen in Ihrer Organisation besonders aktiv sind.
 
 ## <a name="users"></a>Benutzer
 
-Die zweite Registerkarte im Verwaltungsportal ist **Benutzer verwalten**. Die Benutzerverwaltung für Power BI erfolgt im Office 365 Admin Center. Über diesen Bereich erreichen Sie sehr schnell die Bereiche zum Verwalten von Benutzern, Administratoren und Gruppen in Office 365.
+Sie verwalten Power BI-Benutzer, -Gruppen und -Administratoren im Office 365 Admin Center. Die Registerkarte **Benutzer** umfasst einen Link zum Admin Center für Ihren Mandanten.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-Wenn Sie auf **Zum O365 Admin Center wechseln** klicken, gelangen Sie direkt zur Startseite von Office 365 Admin Center, auf der Sie die Benutzer Ihres Mandanten verwalten können.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![O365 Admin Center aufrufen](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Überwachungsprotokolle
 
-Die dritte Registerkarte im Verwaltungsportal ist **Überwachungsprotokolle**. Die Protokolle sind im Office 365 Security & Compliance Center gespeichert. Über diesen Abschnitt können Sie schnell auf diesen Bereich in Office 365 zugreifen.
-
-Weitere Informationen zu Überwachungsprotokollen finden Sie unter [Überwachen von Power BI in Ihrer Organisation](service-admin-auditing.md).
+Sie verwalten Power BI-Überwachungsprotokolle im Office 365 Security & Compliance Center. Die Registerkarte **Überwachungsprotokolle** umfasst einen Link zum Security & Compliance Center für Ihren Mandanten. [Weitere Informationen](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>Mandanteneinstellungen
 
-Die dritte Registerkarte im Verwaltungsportal ist **Mandanteneinstellungen**. Über die Mandanteneinstellungen können Sie besser steuern, welche Features in Ihrer Organisation zur Verfügung gestellt werden. Wenn Sie über vertrauliche Daten verfügen, die geschützt werden müssen, sind möglicherweise einige unserer Features für Ihre Organisation nicht sinnvoll, oder Sie können ein bestimmtes Feature nur für eine bestimmte Gruppe verfügbar machen. Sie können diese Funktion in diesem Fall in Ihrem Mandanten deaktivieren.
+Die Registerkarte **Mandanteneinstellungen** ermöglicht eine fein abgestufte Steuerung der Features, die für Ihre Organisation zur Verfügung stehen. Wenn Sie über vertrauliche Daten verfügen, die besonders geschützt werden müssen, sind einige der Features möglicherweise nicht für Ihre Organisation geeignet bzw. bestimmte Funktionen sollten nur für eine bestimme Gruppe bereitgestellt werden.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+Die folgende Abbildung zeigt die ersten beiden Abschnitte der Registerkarte **Mandanteneinstellungen**.
+
+![Mandanteneinstellungen](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Es dauert bis zu zehn Minuten, bis die Einstellung für alle Benutzer in Ihrem Mandanten wirksam werden.
+> Es kann bis zu zehn Minuten dauern, bis eine Einstellungsänderung für alle Benutzer in Ihrem Mandanten wirksam wird.
 
 Einstellungen können drei Zustände aufweisen:
 
-* **Für die gesamte Organisation deaktiviert:** Sie können ein Feature deaktivieren und festlegen, sodass es nicht von Benutzern verwendet werden kann.
+* **Für die gesamte Organisation deaktiviert**: Niemand in Ihrer Organisation kann dieses Feature verwenden.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![Einstellung für alle deaktiviert](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Für die gesamte Organisation aktiviert:** Sie können ein Feature für die gesamte Organisation aktivieren, sodass alle Benutzer Zugriff auf dieses Feature haben.
+* **Für die gesamte Organisation aktiviert**: Jeder in Ihrer Organisation kann dieses Feature verwenden.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![Einstellung für alle aktiviert](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Für eine Teilmenge der Organisation aktiviert:** Sie können ein Feature auch für einen Teil Ihrer Organisation aktivieren. Dies kann auf unterschiedliche Weise erfolgen. Sie können das Feature für die gesamte Organisation mit Ausnahme einer bestimmten Gruppe von Benutzern aktivieren.
+* **Für einen Teilsatz der Organisation aktiviert**: Bestimmte Benutzer oder Gruppen in Ihrer Organisation können dieses Feature verwenden.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    Sie können das Feature für die gesamte Organisation mit Ausnahme einer bestimmten Gruppe von Benutzern aktivieren.
 
-    Sie können auch das Feature nur für eine bestimmte Gruppe von Benutzern aktivieren und außerdem für eine Gruppe von Benutzern deaktivieren. So stellen Sie sicher, dass bestimmte Benutzer keinen Zugriff auf das Feature haben, auch wenn sie Mitglied der Gruppe sind, für die der Zugriff aktiviert ist.
+    ![Einstellung für eine Teilmenge aktiviert](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    Sie können das Feature auch für eine bestimmte Gruppe von Benutzern aktivieren und gleichzeitig für eine Gruppe von Benutzern deaktivieren. So stellen Sie sicher, dass bestimmte Benutzer auch dann keinen Zugriff auf das Feature erhalten, wenn sie Mitglied der Gruppe sind, für die der Zugriff aktiviert ist.
+
+    ![Einstellung mit Ausnahme aktivieren](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Die nächsten Abschnitte bieten einen Überblick über die verschiedenen Arten von Mandanteneinstellungen.
 
 ## <a name="workspace-settings"></a>Arbeitsbereichseinstellungen
 
 ### <a name="create-workspaces-preview"></a>Erstellen von Arbeitsbereichen (Vorschau)
-Benutzer in der Organisation können App-Arbeitsbereiche erstellen, um gemeinsam an Dashboards, Berichten und anderen Inhalten zu arbeiten.
 
-Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
+Benutzer in der Organisation können App-Arbeitsbereiche erstellen, um gemeinsam an Dashboards, Berichten und anderen Inhalten zu arbeiten. [Weitere Informationen](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>Einstellungen für Export und Freigabe
 
@@ -138,19 +135,21 @@ Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche](ser
 
 Benutzer in der Organisation können Dashboards für Benutzer außerhalb der Organisation freigeben.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Einstellung für externe Benutzer](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Hier sehen Sie die Meldung, die bei der Freigabe für einen externen Benutzer angezeigt wird.
+Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen externen Benutzer angezeigt wird.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Im Web veröffentlichen
 
 Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+Die folgende Abbildung zeigt das Menü **Datei** für einen Bericht an, wenn die Einstellung **Im Web veröffentlichen** aktiviert ist.
 
-Den Benutzer werden in der Benutzeroberfläche unterschiedliche Optionen angezeigt, abhängig von der Einstellung zum Veröffentlichen im Web.
+![Einstellung „Im Web veröffentlichen“](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+Den Benutzer werden basierend auf der Einstellung **Im Web veröffentlichen** unterschiedliche Optionen in der Benutzeroberfläche angezeigt.
 
 |Ausgewählt |Für die gesamte Organisation aktiviert |Für die gesamte Organisation deaktiviert |Bestimmte Sicherheitsgruppen   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Den Benutzer werden in der Benutzeroberfläche unterschiedliche Optionen angezei
 
 Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung exportieren. [Weitere Informationen](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+Die folgende Abbildung zeigt die Option zum Exportieren von Daten aus einer Kachel.
+
+![Exportieren von Daten aus einer Kachel](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** sowie die Liveverbindung des Power BI-Diensts verwenden können.
@@ -172,9 +173,11 @@ Benutzer in der Organisation können Daten aus einer Kachel oder Visualisierung 
 
 Benutzer in der Organisation können Power BI-Berichte als PowerPoint-Dateien exportieren. [Weitere Informationen](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+Die folgenden Abbildung zeigen das Menü **Datei** für einen Bericht, wenn die Einstellung **Berichte aus PowerPoint-Präsentationen exportieren** aktiviert ist.
 
-### <a name="print-dashboards-and-reports"></a>Drucken von Dashboards und Berichten
+![Berichte als PowerPoint-Präsentationen exportieren](media/service-admin-portal/powerbi-admin-powerpoint.png)
+
+### <a name="print-dashboards-and-reports"></a>Dashboards und Berichte drucken
 
 Benutzer in der Organisation können Dashboards und Berichte drucken. [Weitere Informationen](consumer/end-user-print.md)
 

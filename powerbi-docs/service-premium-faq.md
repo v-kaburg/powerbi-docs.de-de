@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: fa68657d10de961a6c3a6c3491b0c17fb6d84051
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: da529c860037afe0d83f42209bda86d49222b83f
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641319"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252443"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium – Häufig gestellte Fragen
 
@@ -49,7 +49,7 @@ Power BI Premium ist eine kapazitätsbasierte Lizenz, während Power BI Pro eine
 Ja. Power BI Pro ist erforderlich, um Berichte zu veröffentlichen, Dashboards freizugeben, mit Kollegen in Arbeitsbereichen zusammenzuarbeiten und andere damit verbundene Aktivitäten auszuüben. Power BI Pro ist nicht erforderlich, um Inhalt in einer Premium-Kapazität nutzen zu können.
 
 **Können Sie veranschaulichen, wie Power BI Pro und Power BI Premium arbeiten, um eine Organisation mit moderner BI abzudecken?**  
-Die folgenden Beispiele veranschaulichen, wie Kunden mit einer Kombination aus Power BI Pro und Power BI Premium verwenden ihre BI-Anforderungen erfüllen können.
+Die folgenden Beispiele veranschaulichen, wie Kunden durch eine Kombination aus Power BI Pro und Power BI Premium ihre BI-Anforderungen erfüllen können.
 
 | Szenario 1 | Szenario 2 | Szenario 3 | Szenario 4 |
 | --- | --- | --- | --- |
