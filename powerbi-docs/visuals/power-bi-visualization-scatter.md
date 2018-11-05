@@ -1,6 +1,6 @@
 ---
-title: Punktdiagramme in Power BI
-description: Punktdiagramme in Power BI
+title: Punkt-, Blasen- und Punktplotdiagramme in Power BI
+description: Punktdiagramme, Punktplotdiagramme und Blasendiagramme in Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448843"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003177"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Punktdiagramme und Blasendiagramme in Power BI
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Punktdiagramme, Punktplotdiagramme und Blasendiagramme in Power BI
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
 
-In einem Blasendiagramm werden die Datenpunkte durch Blasen ersetzt, wobei die *Blasengröße* eine zusätzliche Datendimension darstellt.
+In einem Blasendiagramm werden Datenpunkte durch Blasen ersetzen, hierbei repräsentiert die *Größe* der Blase eine zusätzliche Dimension der Daten.
 
 ![Beispielblasendiagramm](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Ein Punktplotdiagramm ähnelt einem Blasen- und einem Punktdiagramm mit der Ausnahme, dass numerische oder Kategoriedaten entlang der X-Achse dargestellt werden können. 
+
+![Beispielblasendiagramm](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 Sie können die Anzahl der Datenpunkte auf maximal 10.000 festlegen.  
 
@@ -41,6 +45,9 @@ Sie können die Anzahl der Datenpunkte auf maximal 10.000 festlegen.
 * Wenn Ihre Daten drei Datenreihen aufweisen, die jeweils einen Satz von Werten enthalten.
 * Zum Präsentieren von Finanzdaten.  Unterschiedliche Blasengrößen sind nützlich zum optischen Hervorheben bestimmter Werte.
 * Für die Verwendung mit Quadranten.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>Im folgenden Fall sind Punktplotdiagramme eine hervorragende Alternative zu einem Punkt- oder Blasendiagrammen:
+* Sie möchten Kategoriedaten entlang der X-Achse einschließen
 
 ## <a name="create-a-scatter-chart"></a>Erstellen eines Punktdiagramms
 In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten beschriebenen Schritten können Sie dann selbst ein solches Diagramm erstellen.
@@ -63,11 +70,11 @@ In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. We
 
 3. Führen Sie eine Konvertierung in ein Punktdiagramm durch. Wählen Sie im Bereich „Visualisierungen“ das Symbol für das Punktdiagramm aus.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. Ziehen Sie **Region** von **Details** auf **Legende**. Es wird ein Punktdiagramm angezeigt, in dem die **Abweichungen des Gesamtumsatzes in Prozent** auf der Y-Achse und der **Umsatz pro Quadratmeter** auf der X-Achse dargestellt werden. Die Farben der Datenpunkte stellen die Regionen dar:
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Nun fügen wir eine dritte Dimension hinzu.
 
@@ -75,18 +82,17 @@ Nun fügen wir eine dritte Dimension hinzu.
 
 1. Ziehen Sie aus dem Bereich **Felder** die Option **Umsätze** > **Umsätze dieses Jahr** > **Wert** in den Bereich **Größe**. Die Datenpunkte werden zu Werten erweitert, die proportional zu den Umsatzwerten sind.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![Punkte werden zu Blasen](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. Zeigen Sie auf eine Blase. Die Größe der Blase gibt den Wert von **Umsätze dieses Jahr**an.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![Anzeige von QuickInfos](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. Wenn Sie die Anzahl der im Blasendiagramm anzuzeigenden Datenpunkte festlegen möchten, erweitern Sie im Abschnitt **Format** des Bereichs **Visualisierungen** die Karte **Allgemein**, und passen Sie die **Datenmenge** an. Sie können die maximale Datenmenge auf eine beliebige Zahl bis 10.000 festlegen. Sobald Sie höhere Zahlen erreichen, wird empfohlen, zuerst einen Test durchzuführen, um gute Leistung sicherzustellen. 
 
     ![Datenmenge](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht. Beachten Sie, dass Sie für eine höhere Anzahl von Datenpunkten die Ergebnisse mit verschiedenen Formfaktoren testen sollten, um eine gute Leistung zu garantieren.
+   Durch eine größere Anzahl von Datenpunkten kann sich die Ladezeit verlängern. Daher sollten Sie, wenn Sie Berichte veröffentlichen, deren Datenmenge im oberen Bereich liegt, die Berichte im Web und auf mobilen Plattformen testen, um sicherzustellen, dass die Leistung den Erwartungen der Benutzer entspricht. 
 
 4. Sie können [u.a. Visualisierungsfarben, Bezeichnungen, Titel, Hintergrund formatieren](service-getting-started-with-color-formatting-and-axis-properties.md). Zum [Verbessern der Barrierefreiheit](../desktop-accessibility.md) sollten Sie das Hinzufügen von Markierungsformen zu jeder Linie in Betracht ziehen. Die Verwendung einer anderen Markierungsform für jede Linie macht es den Benutzern des Berichts leichter, die Linien (oder Flächen) voneinander zu unterscheiden. Sie können zum Auswählen der Markierungsform die Karte **Formen** erweitern und dann eine Markierungsform auswählen.
 
@@ -95,6 +101,13 @@ Nun fügen wir eine dritte Dimension hinzu.
    Sie können auch die Markierungsform in Raute, Dreieck oder Quadrat ändern:
 
    ![Quadratischer Marker](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>Erstellen eines Punktplotdiagramms
+Um ein Punktplotdiagramm zu erstellen, ersetzen Sie das numerische Feld für die X-Achse durch ein Kategoriefeld.
+
+Entfernen Sie im Bereich **X-Achse** das Feld **Verkäufe pro qm**, und ersetzen Sie es durch **Distrikt > DM**.
+   
+![Neues Punktplotdiagramm](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
@@ -116,7 +129,7 @@ Um ein neues Feld zu erstellen, [fügen Sie mit dem Abfrage-Editor von Power BI 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[High density scatter charts (Stichprobenentnahme mit hoher Dichte in Punktdiagrammen)](desktop-high-density-scatter-charts.md)
+[Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen](desktop-high-density-scatter-charts.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 

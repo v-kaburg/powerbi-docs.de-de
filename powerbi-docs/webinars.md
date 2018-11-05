@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473955"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952232"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
 Registrieren Sie sich für unsere nächsten Livewebinare, oder sehen Sie sich unsere aufgezeichneten Sitzungen an.
 
 ## <a name="upcoming-webinars"></a>Kommende Webinare
+
+**Power BI: Analytics Done Right** (Power BI: Analysen richtig aufbereitet)
+<br>von Gohul Shanmugalingam
+<br>*8. November 2018, 13:00 Uhr bis 14:00 Uhr EST*
+
+An alle Analyse- und Excel-Visionäre: Lernen Sie, wie Sie ansprechende Berichte für Benutzer erstellen, wie Sie interessante, leicht verständliche Erkenntnisse teilen und wie Sie Silos komplexer Daten sicher aufbrechen, um sie zugänglich zu machen.
+
+Wir sprechen über neue Produktinnovationen und unsere Vision für moderne Enterprise BI und Self-Service-BI, damit Ihr Unternehmen eine datengesteuerte Kultur aufbauen kann.
+
+[Registrieren Sie sich, um am 8. November bei der Übertragung dabei zu sein.](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Strengthen Your Data Modeling Skills with Power BI** (Stärken Ihrer Datenmodellierungsfähigkeiten mit Power BI)
+<br>von Kasper de Jonge
+<br>*20. November 2018, 11:00 Uhr bis 12:00 Uhr PST*
+
+Melden Sie sich für dieses Webinar an, um Ihre Fähigkeiten im Bereich Power BI-Modellierung auf die nächste Stufe zu heben. Erfahren Sie mehr über die Power BI-In-Memory-Analyse-Engine, über Strategien zum Erstellen und Verwalten von Datenbeziehungen und darüber, wie Sie den Data Analysis Expressions (DAX)-Filterkontext verwenden können. Erfahren Sie, wie Sie jede Modellierungsaufgabe mit Power BI oder Azure Analysis Services meistern können.
+
+[Registrieren Sie sich, um am 20. November bei der Übertragung dabei zu sein.](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Bevorstehende Webinare der Power BI-Community](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

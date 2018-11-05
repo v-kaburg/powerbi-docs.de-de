@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546951"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003223"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Herstellen einer Verbindung mit Zuora mithilfe von Power BI
 Mit Zuora für Power BI können Sie wichtige Umsatzerlös-, Abrechnungs- und Abonnementdaten visuell darstellen. Verwenden Sie die standardmäßigen Dashboards und Berichte, um Nutzungstrends zu analysieren, Abrechnungen und Zahlungen nachzuverfolgen und wiederkehrende Umsatzerlöse zu überwachen, oder passen Sie sie an Ihre eigenen Anforderungen an Dashboards und Berichte an.
@@ -32,7 +32,7 @@ Stellen Sie eine Verbindung mit [Zuora](https://app.powerbi.com/getdata/services
 3. Wählen Sie **Zuora** \> **Abrufen** aus.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Geben Sie Ihre Zuora-URL an. Diese lautet in der Regel „<https://www.zuora.com>“. Unten finden Sie Einzelheiten zum [Suchen dieser Parameter](#FindingParams).
+4. Geben Sie Ihre Zuora-URL an. Die URL lautet in der Regel <https://www.zuora.com>. Unten finden Sie Einzelheiten zum [Ermitteln dieser Parameter](#FindingParams).
 
    ![](media/service-connect-to-zuora/params.png)
 5. Wählen Sie als **Authentifizierungsmethode** **Standard** aus, und geben Sie Ihren Benutzernamen und Ihr Kennwort ein (Groß- und Kleinschreibung müssen beachtet werden), und wählen Sie dann **Anmelden**aus.
@@ -91,15 +91,14 @@ Zugriff auf die Zuora-API ist erforderlich.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Suchen von Parametern
+## <a name="finding-parameters"></a>Ermitteln von Parametern
 Geben Sie die URL an, mit der Sie sich in der Regel anmelden, um auf Ihre Zuora-Daten zugreifen. Die gültigen Optionen sind:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * Die Ihrer Dienstinstanz entsprechende URL  
 
 ## <a name="troubleshooting"></a>Problembehandlung
-Das Zuora-Inhaltspaket berücksichtigt viele unterschiedliche Aspekte Ihres Zuora-Kontos. Wenn Sie bestimmte Features nicht verwenden, sind die dazugehörigen Kacheln/Berichte ggf. leer. Wenn Sie Probleme beim Laden haben, wenden Sie sich an den Power BI-Support.
+Das Zuora-Inhaltspaket berücksichtigt viele unterschiedliche Aspekte Ihres Zuora-Kontos. Wenn Sie bestimmte Features nicht verwenden, sind die zugehörigen Kacheln/Berichte ggf. leer. Wenden Sie sich bei Problemen beim Laden an den Power BI-Support.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erste Schritte mit Power BI](service-get-started.md)

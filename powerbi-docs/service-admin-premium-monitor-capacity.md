@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909220"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003200"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Überwachen von Kapazitäten in Power BI Premium und Power BI Embedded
 
@@ -61,13 +61,11 @@ Auf der Registerkarte **Filters applied to all pages** (Auf alle Seiten angewend
 
 ### <a name="datasets-tab"></a>Registerkarte „Datasets“
 
-Die Registerkarte **Datasets** enthält den größten Teil der Metriken in der App. Verwenden Sie die vier Schaltflächen am oberen Rand der Registerkarte, um zu unterschiedlichen Bereichen zu navigieren: **Zusammenfassung**, **Aktualisierungen**, **Abfragen** und **Datasets**.
+Die Registerkarte **Datasets** enthält den größten Teil der Metriken in der App. Verwenden Sie die Schaltflächen am oberen Rand der Registerkarte, um zu unterschiedlichen Bereichen zu navigieren: **Summary** (Zusammenfassung), **Refreshes** (Aktualisierungen), **Query Durations** (Abfragedauer), **Query Waits** (Abfragewartezeit) und **Datasets**.
 
 ![Registerkarte „Datasets“](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Bereich „Summary“ (Zusammenfassung)
-
-![Schaltfläche „Summary“ (Zusammenfassung)](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 Der Bereich **Summary** (Zusammenfassung) zeigt eine Ansicht Ihrer Kapazitäten auf der Grundlage von Entitäten, Systemressourcen und Dataset-Workloads.
 
@@ -80,19 +78,27 @@ Der Bereich **Summary** (Zusammenfassung) zeigt eine Ansicht Ihrer Kapazitäten 
 
 #### <a name="refreshes-area"></a>Bereich „Refreshes“ (Aktualisierungen)
 
-![Schaltfläche „Refreshes“ (Aktualisierungen)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 Im Bereich **Refreshes** (Aktualisierungen) werden die abgeschlossenen Aktualisierungen, Erfolgskennzahlen, die durchschnittliche/maximale Wartezeit und die durchschnittliche/maximale Dauer der Aktualisierungen in den letzten 7 Tagen angezeigt, unterteilt nach Datasets. Die zwei unteren Diagramme zeigen die Aktualisierungen und den Arbeitsspeicherverbrauch in GB im Vergleich sowie die durchschnittliche Wartezeit an, unterteilt in 1-Stunden-Abschnitte, angegeben in der Ortszeit. Die oberen Diagramme zeigen die fünf wichtigsten Datasets nach der durchschnittlichen Dauer der Aktualisierung des Datasets (Aktualisierungsdauer) und der durchschnittlichen Wartezeit bei der Aktualisierung. Mehrere Spitzen bei der Wartezeit für die Aktualisierung weisen auf eine hohe Auslastung der Kapazität hin.
 
-#### <a name="queries-area"></a>Bereich „Queries“ (Abfragen)
+#### <a name="query-durations-area"></a>Bereich „Query Durations“ (Abfragedauer) 
 
-![Schaltfläche „Queries“ (Abfragen)](media/service-admin-premium-monitor-capacity/queries-button.png)
+Im Bereich **Query Durations** (Abfragedauer) wird die Gesamtzahl ausgeführter Abfragen sowie die durchschnittliche/maximale Abfragedauer in Millisekunden angegeben. Diese Daten sind nach Datasets, Arbeitsbereich und Stunden für die letzten 7 Tage unterteilt. Das untere Diagramm zeigt die Abfrageanzahl und die durchschnittliche Dauer (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB an, unterteilt in 1-Stunden-Abschnitte und angegeben in der Ortszeit.
 
-Im Bereich **Queries** (Abfragen) sind die Gesamtzahl der ausgeführten Abfragen, die Gesamtzahl der wartenden Abfragen für Liveabfragen/Direktabfragen, die durchschnittliche/maximale Dauer, die durchschnittliche/maximale gemeldete Wartezeit in Millisekunden, aufgeteilt nach Datasets, Arbeitsbereich und stündlichen Buckets, für die letzten sieben Tage aufgelistet. Die Diagramme unten zeigen die Abfrageanzahl, die durchschnittliche Dauer (in Millisekunden) und die durchschnittliche Wartezeit (in Millisekunden) gegenüber der Speichernutzung in GB, aufgeteilt in einstündige Buckets und gemeldet in Ortszeit. In den beiden obersten rechten Diagramme sind die fünf obersten Datasets nach durchschnittlicher Dauer der Abfrage und nach der Wartezeit bis zum vollständigen Abschluss der Abfragen aufgelistet. Lange Ausführungsdauern und lange Wartezeiten sind ein Hinweis auf sich erschöpfende Kapazität. Es kann aber auch bedeuten, dass ein einzelnes Dataset Probleme verursacht und weitere Untersuchungen erforderlich sind.
+Das obere rechte Diagramm zeigt ein Histogramm der Abfragedauerverteilung. Das Histogramm ist nach der gemeldeten Dauer in Millisekunden in die folgenden Kategorien unterteilt: <= 30 ms, 30–100 ms, 100–300 ms, 300 ms bis 1 s, 1–3 s, 3–10 s, 10–30 s und > 30 s.
+
+Das Diagramm unten rechts listet die fünf wichtigsten Datasets nach der durchschnittlichen Dauer zum Abschließen der Abfragen auf.
+
+Eine lange Ausführungsdauer und lange Wartezeiten weisen darauf hin, dass die Kapazität zur Neige geht. Es kann aber auch bedeuten, dass ein einzelnes Dataset Probleme verursacht und weitere Untersuchungen erforderlich sind.
+
+#### <a name="query-waits-area"></a>Bereich „Query Waits“ (Abfragewartezeit)
+
+Im Bereich **Query Waits** (Abfragewartezeit) wird die Gesamtzahl ausgeführter Abfragen, die Gesamtzahl von Abfragewartevorgängen für Liveabfragen/Direktabfragen und die durchschnittliche/maximale Wartezeit in Millisekunden aufgeführt. Diese Daten sind nach Datasets, Arbeitsbereich und Stunden für die letzten 7 Tage unterteilt. Das untere Diagramm zeigt die Anzahl von Abfragewartevorgängen und die durchschnittliche Wartezeit (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB an, unterteilt in 1-Stunden-Abschnitte und angegeben in der Ortszeit.
+
+Das obere rechte Diagramm zeigt die ein Verteilungshistogramm zur Abfragewartezeit an. Das Histogramm ist nach der gemeldeten Dauer in Millisekunden in die folgenden Kategorien unterteilt: <= 50 ms, 50–100 ms, 100–200 ms, 200–400 ms, 400 ms bis 1 s, 1–5 s und > 5 s.
+
+Das Diagramm unten rechts zeigt die fünf wichtigsten Datasets mit der durchschnittlichen Wartezeit bis zum Start der Abfragen an.
 
 #### <a name="datasets-area"></a>Bereich „Datasets“
-
-![Schaltfläche „Datasets“](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 Der Bereich **Datasets** zeigt die Entfernung vollständiger Datasets aufgrund von Speicherauslastung nach Stunde an.
 
