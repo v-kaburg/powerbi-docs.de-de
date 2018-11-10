@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549912"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909569"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Verwenden von Lesezeichen zum Teilen von Erkenntnissen und zum Erstellen von Präsentationen in Power BI 
 Mit den **Lesezeichen** in Power BI können Sie die derzeit konfigurierte Ansicht einer Berichtsseite erfassen, einschließlich der Filterung und des Status von Visuals, und später zur Ansicht in diesem Status zurückkehren, indem Sie einfach das gespeicherte Lesezeichen auswählen. 
@@ -44,13 +44,12 @@ Wenn Sie ein Lesezeichen erstellen, werden die folgenden Elemente mit dem Leseze
 
 * Die aktuelle Seite
 * Filter
-* Datenschnitte
+* Slicer, einschließlich Slicertyp (z.B. Dropdown oder Liste) und Slicerstatus
+* Status der Auswahl des Visuals (z.B. Filter mit übergreifender Hervorhebung)
 * Sortierreihenfolge
 * Drilldownposition
 * Sichtbarkeit (eines Objekts, im Bereich **Auswahl** festgelegt)
 * Der Fokus- oder **Spotlightmodus** jedes angezeigten Objekts
-
-Lesezeichen speichern derzeit keine übergreifenden Hervorhebungen. 
 
 Konfigurieren Sie eine Berichtsseite so, wie sie im Lesezeichen angezeigt werden soll. Sobald die Berichtsseite und die Visuals wie gewünscht angeordnet sind, wählen Sie im Bereich **Lesezeichen** die Option **Hinzufügen** aus, um ein Lesezeichen hinzufügen. 
 

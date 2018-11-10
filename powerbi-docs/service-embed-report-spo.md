@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100770"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973325"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -82,14 +82,34 @@ Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, müssen Sie de
 > [!IMPORTANT]
 > Überprüfen Sie im Power BI-Dienst, wer den Bericht sehen kann, und stellen Sie sicher, dass nicht aufgeführte, berechtigte Benutzer Zugriff erhalten.
 
-Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, führen Sie den Benutzer als Mitglied des **App-Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** auf. Dadurch wird sichergestellt, dass die Benutzer die Inhalte der Gruppe sehen können. Weitere Informationen finden Sie unter [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md).
+Es gibt zwei Möglichkeiten, den Zugriff auf den Bericht im Power BI-Dienst zu regeln. Wenn Sie die SharePoint Online-Teamwebsite auf Grundlage einer Office 365-Gruppe erstellen, führen Sie den Benutzer als Mitglied des **App-Arbeitsbereichs im Power BI-Dienst** und der **SharePoint-Seite** auf. Weitere Informationen finden Sie unter [Verwalten eines App-Arbeitsbereichs](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-Alternativ können Sie einen Bericht auch direkt mit Benutzern teilen, indem Sie ihn in eine App einbetten. Zum Einbetten des Berichts muss die App vorinstalliert sein. Sie können die vorinstallierte App mit der Funktion **App automatisch installieren** einrichten.
+Alternativ können Sie einen Bericht auch direkt mit Benutzern teilen, indem Sie ihn in eine App einbetten. Die folgenden Schritte zeigen, wie Sie einen Bericht in eine App einbetten.  
+
+1. Der Ersteller der App ist ein Pro-Benutzer.
+
+2. Der Ersteller verfasst einen Bericht in einem App-Arbeitsbereich. *Zur Freigabe für **Power BI Free-Benutzer** muss der App-Arbeitsbereich als **Premium-Arbeitsbereich** eingerichtet sein.*
+
+3. Der Ersteller veröffentlicht die App und installiert sie dann. *Der Ersteller muss sicherstellen, dass die App installiert ist, um auf die Berichts-URL zuzugreifen, die zum Einbetten in SharePoint Online verwendet wird.*
+
+4. Nun müssen auch alle Endbenutzer die App installieren. Sie können jedoch die App so einrichten, dass sie für Endbenutzer vorinstalliert wird. Aktivieren Sie dazu im [Power BI-Verwaltungsportal](service-admin-portal.md) die Funktion **Hiermit wird die App automatisch installiert**.
 
    ![App automatisch installieren](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **Der Benutzer benötigt Zugriff sowohl auf die SharePoint-Seite als auch auf den Bericht, um den Bericht auf der SharePoint-Seite anzuzeigen.**
+5. Der Ersteller öffnet die App und ruft den Bericht auf.
+
+6. Der Ersteller kopiert die einzubettende Berichts-URL aus dem von der App installierten Bericht. *Verwenden Sie nicht die ursprüngliche Berichts-URL aus dem App-Arbeitsbereich.*
+
+7. Erstellen Sie in SharePoint Online eine neue Teamwebsite.
+
+8. Fügen Sie die in Schritt 6 kopierte Berichts-URL dem Power BI-Webpart hinzu.
+
+9. Fügen Sie alle Endbenutzer und/oder Gruppen hinzu, die die Daten auf der SharePoint Online-Seite und in der von Ihnen erstellten Power BI-App verwenden werden.
+
+    > [!NOTE]
+    > **Benutzer bzw. Gruppen benötigen Zugriff sowohl auf die SharePoint Online-Seite als auch auf den Bericht in der Power BI-App, um den Bericht auf der SharePoint-Seite anzuzeigen.**
+
+10. Jetzt kann der Endbenutzer die Teamseite in SharePoint Online aufrufen und die Berichte auf der Seite anzeigen.
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 

@@ -10,68 +10,70 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4989e981c3f39a637b3bb4927c427be0005c7776
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725855"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027435"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Verwenden der Drillthroughfunktion in Power BI Desktop
-Mithilfe des **Drillthroughs** können Sie in **Power BI Desktop** in Ihrem Bericht eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z.B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Wenn eine solche fokussierte Berichtsseite vorhanden ist, können Benutzer mit der rechten Maustaste auf einen Datenpunkt in anderen Berichtsseiten klicken und einen Drillthrough zu der fokussierten Seite ausführen, um Details zu erhalten, die entsprechend diesem Kontext gefiltert sind.
+Mit einem **Drillthrough** können Sie in **Power BI Desktop** in Ihrem Bericht eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z.B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Benutzer können mit der rechten Maustaste auf einen Datenpunkt in anderen Berichtsseiten klicken. Dann können sie einen Drillthrough für die fokussierte Seite ausführen, um Details abzurufen, die in diesem Kontext gefiltert werden.
 
 ![Verwenden der Drillthroughfunktion](media/desktop-drillthrough/drillthrough_01.png)
 
 ## <a name="using-drillthrough"></a>Verwenden der Drillthroughfunktion
-1. Erstellen Sie zum Verwenden der **Drillthroughfunktion** eine Berichtsseite mit Visuals, die für den Entitätstyp angezeigt werden sollen, für die Sie den Drillthrough bereitstellen. 
+1. Um die **Drillthroughfunktion** zu verwenden, erstellen Sie eine Berichtsseite, die die Visuals enthält, die Sie für den Entitätstyp benötigen, für den Sie den Drillthrough bereitstellen möchten. 
 
-    Wenn Sie z.B. Drillthrough für Hersteller bereitstellen möchten, können Sie eine Drillthroughseite mit Visuals erstellen, die den Gesamtumsatz, die Summe der versandten Einheiten, den Umsatz nach Kategorie, den Umsatz nach Region usw. anzeigen. Wenn Sie dann einen Drillthrough auf diese Seite ausführen, werden die spezifischen Visuals für den Hersteller angezeigt, den Sie ausgewählt haben.
+    Angenommen, Sie wollen die Drillthroughfunktion für Hersteller anwenden. Dann können Sie eine Drillthroughseite mit Visuals erstellen, die den Gesamtumsatz, die Summe der versandten Einheiten, den Umsatz nach Kategorie, den Umsatz nach Region usw. anzeigen. Das heißt, wenn Sie einen Drillthrough für diese Seite ausführen, gelten die Visuals spezifisch für den ausgewählten Hersteller.
 
-2. Ziehen Sie dann auf dieser Drillthroughseite im Abschnitt **Felder** des Bereichs **Visualisierungen** das Feld, für das Sie einen Drillthrough ausführen möchten, in den Bereich **Drillthroughfilter**.
+2. Ziehen Sie dann auf der Drillthroughseite im Bereich **Visualisierungen** im Abschnitt **Felder** das Feld, für das Sie die Drillthroughfunktion aktivieren möchten, in den Bereich **Drillthroughfilter**.
 
     ![Bereich „Drillthrough“](media/desktop-drillthrough/drillthrough_02.png)
 
-    Wenn Sie dem Bereich **Drillthroughfilter** ein Feld hinzufügen, wird in **Power BI Desktop** automatisch ein *Zurück*-Schaltflächenvisual erstellt. Dieses Visual wird eine Schaltfläche in veröffentlichten Berichten, mit der Benutzer, die Ihren Bericht im **Power BI-Dienst** verwenden, einfach zu der Berichtsseite zurückkehren können, die Sie zuvor geöffnet hatten (die Seite, auf der sie die Drillthroughfunktion ausgewählt haben).
+    Wenn Sie dem Bereich **Drillthroughfilter** ein Feld hinzufügen, wird in **Power BI Desktop** automatisch ein *Zurück*-Schaltflächenvisual erstellt. Das Visual wird zur Schaltfläche in veröffentlichten Berichten. Benutzer, die Ihren Bericht im **Power BI-Dienst** nutzen, kehren mithilfe dieser Schaltfläche zu der Berichtsseite zurück, die sie dorthin weitergeleitet hat.
 
-    ![Drillthroughbild](media/desktop-drillthrough/drillthrough_03.png)
+    ![Bild „Drillthrough“](media/desktop-drillthrough/drillthrough_03.png)
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Verwenden eines eigenen Bildes für die Schaltfläche „Zurück“    
- Da die Schaltfläche „Zurück“ ein Bild ist, können Sie das Bild dieses Visuals durch jedes gewünschte Bild ersetzen, und es erfüllt weiterhin seine Funktion, Benutzer des Berichts zurück zur ursprünglichen Seite zurückzuleiten.
+ Da die Schaltfläche „Zurück“ ein Bild ist, können Sie das Bild dieses Visuals durch ein beliebiges Bild ersetzen. Das Visual wird weiterhin als Schaltfläche „Zurück“ fungieren, sodass die Berichtsleser zur vorherigen Seite zurückkehren können. Mithilfe der folgenden Anleitung können Sie ein eigenes Bild für die Schaltfläche „Zurück“ verwenden:
 
-1. Klicken Sie auf der Registerkarte **Home** (Start) auf **Image** (Bilder). Suchen Sie anschließend Ihr Bild, und platzieren Sie es auf der Seite „Drillthrough“.
-2. Wählen Sie das neue Bild auf der Seite „Drillthrough“ aus. Ziehen Sie anschließend im Abschnitt „Bild formatieren“ den Schieberegler **Link** auf die Position „Aus“, und legen Sie als **Typ** den Wert **Back** (Zurück) fest. Jetzt funktioniert das Bild als Schaltfläche „Zurück“.
+1. Wählen Sie auf der Registerkarte **Start** die Option **Bild** aus. Suchen Sie dann Ihr Bild, und platzieren Sie es auf der Drillthroughseite.
+
+2. Wählen Sie Ihr neues Bild auf der Drillthroughseite aus. Legen Sie in Abschnitt **Bild formatieren** den Schieberegler **Link** auf **Ein** und dann **Typ** auf **Zurück** fest. Jetzt funktioniert das Bild als Schaltfläche „Zurück“.
 
     ![Verwenden eines Bilds für „Zurück“](media/desktop-drillthrough/drillthrough_05.png)
 
-    Wenn die **Drillthroughseite** fertiggestellt ist und Benutzer mit der rechten Maustaste auf einen Datenpunkt im Bericht klicken, in dem das Feld verwendet wird, das Sie dem Bereich **Drillthroughfilter** hinzugefügt haben, wird ein Kontextmenü angezeigt, das den Drillthrough auf dieser Seite unterstützt.
+    
+     Jetzt können Benutzer mit der rechten Maustaste auf einen Datenpunkt in Ihrem Bericht klicken, um ein Kontextmenü aufzurufen, das die Drillthroughfunktion für diese Seite unterstützt. 
 
     ![Menü für Drillthrough](media/desktop-drillthrough/drillthrough_04.png)
 
-    Wenn Leser des Berichts einen Drillthrough ausführen, wird die Seite gefiltert, sodass sie Informationen über den Datenpunkt anzeigt, auf den mit der rechten Maustaste geklickt wurde. Wenn sie z.B. mit der rechten Maustaste auf einen Datenpunkt über Contoso (ein Hersteller) geklickt und die Drillthroughfunktion ausgewählt haben, wird die daraufhin angezeigte Drillthroughseite nach Contoso gefiltert.
+    Wenn Berichtsleser einen Drillthrough ausführen, wird die Seite gefiltert, um Informationen zum Datenpunkt anzuzeigen, auf den mit der rechten Maustaste geklickt wurde. Angenommen, sie klicken mit der rechten Maustaste auf einen Datenpunkt für Contoso (Hersteller) und wählen die Drillthroughfunktion aus. Die Drillthroughseite, auf die sie wechseln, wird nach Contoso gefiltert.
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Übergeben aller Filter an Drillthrough
 
-Ab der Version Mai 2018 von **Power BI Desktop** können Sie alle angewendeten Filter an das Drillthroughfenster übergeben. Angenommen, Sie haben nur eine bestimmte Produktkategorie ausgewählt, die Visuals nach dieser Kategorie gefiltert und wählen dann Drillthrough. Es interessiert Sie vielleicht, wie dieser Drillthrough mit all diesen angewendeten Filtern aussieht.
+Ab der Version Mai 2018 von **Power BI Desktop** können Sie alle angewendeten Filter an das Drillthroughfenster übergeben. Angenommen, Sie können nur eine bestimmte Produktkategorie und die dafür gefilterten Visuals auswählen und führen dann einen Drillthrough aus. Es interessiert Sie vielleicht, wie dieser Drillthrough mit all diesen angewendeten Filtern aussieht.
 
-Um alle angewendeten Filter beizubehalten, legen Sie im Fenster **Visualisierungen** im Abschnitt **Drillthrough** den Schalter **Alle Filter beibehalten** auf **Ein** fest. 
+Um alle angewendeten Filter beizubehalten, legen Sie im Bereich **Visualisierungen** im Abschnitt **Drillthrough** den Umschalter **Alle Filter beibehalten** auf **Ein** fest. 
 
 ![Alle Filter beibehalten](media/desktop-drillthrough/drillthrough_06.png)
 
-In Versionen von **Power BI Desktop** vor Mai 2018 entspricht das Verhalten der Festlegung dieses Schalters auf **Aus**.
+In **Power BI Desktop**-Versionen, die vor Mai 2018 veröffentlicht wurden, entspricht das Verhalten der Festlegung dieses Umschalters auf **Aus**.
 
-Beim anschließenden Drillthrough auf ein Visual können Sie sehen, welche Filter angewendet wurden, weil auf das Quellvisual temporäre Filter angewendet wurden. Im Drillthroughfenster werden diese vorübergehenden Filter kursiv dargestellt. 
+Beim anschließenden Drillthrough für ein Visual können Sie sehen, welche Filter angewendet wurden, weil auf das Quellvisual temporäre Filter angewendet wurden. Im Drillthroughfenster werden diese vorübergehenden Filter kursiv dargestellt. 
 
 ![Vorübergehende Filter in Kursivschrift](media/desktop-drillthrough/drillthrough_07.png)
 
-Beachten Sie, dass Sie dies mit QuickInfo-Seiten erreichen könnten, aber das wäre eine seltsame Erfahrung (da das QuickInfo scheinbar nicht richtig funktioniert). Daher ist es nicht empfehlenswert, mit QuickInfos zu arbeiten.
+Dafür können Sie auch die QuickInfoseiten verwenden, doch da die QuickInfo nicht ordnungsgemäß zu funktioniert scheint, ist das Vorgehen nicht benutzerfreundlich. Deswegen wird nicht empfohlen, mit QuickInfos zu arbeiten.
 
 ## <a name="add-a-measure-to-drillthrough"></a>Hinzufügen eines Measures zu einem Drillthrough
 
-Sie können alle Filter an das Drillthroughfenster übergeben und zusätzlich ein Measure (oder eine zusammengefasste numerische Spalte) dem Drillthroughbereich hinzufügen. Ziehen Sie einfach das Drillthroughfeld auf die Karte „Drillthrough“, um es anzuwenden. 
+Sie können alle Filter an das Drillthroughfenster übergeben und zusätzlich ein Measure oder eine zusammengefasste numerische Spalte dem Drillthroughbereich hinzufügen. Ziehen Sie das Drillthroughfeld auf die Drillthroughkarte, um es anzuwenden. 
 
 ![Hinzufügen eines Measures zu einem Drillthrough](media/desktop-drillthrough/drillthrough_08.png)
 
-Wenn Sie ein Measure (oder eine zusammengefasste numerische Spalte) hinzufügen, können Sie Details auf der Seite anzeigen, wenn das Feld im Bereich *Wert* eines Visuals verwendet wird.
+Wenn Sie ein Measure oder eine zusammengefasste numerische Spalte hinzufügen, können Sie einen Drillthrough für die Seite ausführen, wenn das Feld im Bereich *Wert* eines Visuals verwendet wird.
 
 Das ist bereits alles, was Sie über das Verwenden der **Drillthroughfunktion** in Berichten wissen müssen. Sie bietet eine hervorragende Möglichkeit, eine erweiterte Ansicht der Entitätsinformationen zu erhalten, die Sie für den Drillthroughfilter auswählen.
 

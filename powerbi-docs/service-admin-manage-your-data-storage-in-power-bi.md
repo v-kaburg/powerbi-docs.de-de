@@ -1,21 +1,21 @@
 ---
 title: Verwalten Ihres Datenspeichers
 description: Hier erfahren Sie, wie Sie Ihren individuellen Datenspeicher oder den Datenspeicher Ihres App-Arbeitsbereichs verwalten, um sicherzustellen, dass Sie weiterhin Berichte und Datasets veröffentlichen können.
-author: mgblythe
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944742"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736870"
 ---
 # <a name="manage-your-data-storage"></a>Verwalten Ihres Datenspeichers
 Hier erfahren Sie, wie Sie Ihren individuellen Datenspeicher oder den Datenspeicher Ihres App-Arbeitsbereichs verwalten, um sicherzustellen, dass Sie weiterhin Berichte und Datasets veröffentlichen können.
@@ -25,7 +25,7 @@ Benutzer- und App-Arbeitsbereiche weisen jeweils eigene Datenkapazitäten auf.
 * Alle Benutzer verfügen über maximal 10 GB Datenspeicher.
 * Benutzer mit einer Power BI Pro-Lizenz können App-Arbeitsbereiche mit jeweils maximal 10 GB Datenspeicher erstellen.
 
-Auf Mandantenebene darf der gesamte genutzte Datenspeicher für alle Pro-Benutzer und App-Arbeitsbereiche im Mandanten 10 GB pro Pro-Benutzer nicht überschreiten.
+Auf Mandantenebene darf der gesamte genutzte Datenspeicher für alle Pro-Benutzer und App-Arbeitsbereiche im Mandanten 10 GB je Pro-Benutzer nicht überschreiten.
 
 Informieren Sie sich über weitere Funktionen des [Power BI-Preismodells](https://powerbi.microsoft.com/pricing).
 

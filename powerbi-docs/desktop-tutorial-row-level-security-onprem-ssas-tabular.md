@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456132"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101575"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
 In diesem Tutorial wird gezeigt, wie die **Sicherheit auf Zeilenebene** in Ihrem **tabellarischen Modell von Analysis Services** implementiert und wie sie in einem Power BI-Bericht verwendet wird. Die Schritte in diesem Tutorial sind darauf ausgerichtet, dass Sie sie leicht nachvollziehen und anhand eine Beispiel-Datasets die notwendigen Schritte erlernen können.
@@ -72,6 +72,9 @@ In vielen veröffentlichten Artikeln wird beschrieben, wie die dynamische Sicher
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     In dieser Formel gibt die **LOOKUPVALUE**-Funktion alle Werte für die Spalte **DimUserSecurity[SalesTerritoryID]** zurück, wobei **DimUserSecurity[UserName]** dem Namen des gegenwärtig eingeloggten Windowsbenutzers und **DimUserSecurity[SalesTerritoryID]** **DimSalesTerritory[SalesTerritoryKey]** entspricht.
    
+    > [!IMPORTANT]
+    > Beachten Sie, dass die DAX-Funktion [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) nicht unterstützt wird, wenn Sie Sicherheit auf Zeilenebene verwenden.
+
    Der Satz von SalesTerritoryKey, der von **LOOKUPVALUE** zurückgegeben wird, wird verwendet, um die Zeilen, die in **DimSalesTerritory** angezeigt werden, zu beschränken. Es werden nur Zeilen angezeigt. in denen sich **SalesTerritoryKey** für die Zeile im Satz von IDs befindet, die von der **LOOKUPVALUE**-Funktion zurückgegeben werden.
 8. Geben Sie für die Tabelle **DimUserSecurity** in der **DAX Filter**-Spalte die folgende Formel ein:
    

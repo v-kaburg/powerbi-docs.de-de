@@ -10,45 +10,48 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 781e9f6813fee63b7c5d83a2e7e60e1ed1eeedc0
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1b512a3e6ef3ead8d93e1b554fbab3aaed8a2a5a
+ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39326991"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51027389"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Herstellen einer Verbindung mit einer Impala-Datenbank in Power BI Desktop
 In Power BI Desktop können Sie eine Verbindung mit einer **Impala**-Datenbank herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden.
 
 ## <a name="connect-to-an-impala-database"></a>Herstellen einer Verbindung mit einer Impala-Datenbank
-Wählen Sie in Power BI Desktop im Menüband **Start** die Option **Daten abrufen** aus, um eine Verbindung mit einer **Impala**-Datenbank herzustellen. Wählen Sie in den Kategorien auf der linken Seite **Datenbank** aus. Anschließend wird **Impala** angezeigt.
+So stellen Sie eine Verbindung zu einer **Impala**-Datenbank her 
 
-![](media/desktop-connect-impala/connect_impala_2.png)
+1. Wählen Sie in Power BI Desktop im Menüband **Start** die Option **Daten abrufen** aus. 
 
-Geben Sie im angezeigten Fenster **Impala** den Namen des Impala-Servers in das Feld ein, oder fügen Sie ihn ein, und klicken Sie auf **OK**. Sie können Daten entweder direkt in Power BI **importieren** oder **DirectQuery** verwenden. Weitere Informationen finden Sie unter [Verwendung von DirectQuery](desktop-use-directquery.md).
+2. Wählen Sie in den Kategorien auf der linken Seite **Datenbank** aus. Daraufhin wird **Impala** angezeigt.
 
-![](media/desktop-connect-impala/connect_impala_3a.png)
+    ![Daten abrufen](media/desktop-connect-impala/connect_impala_2.png)
 
-Wenn Sie dazu aufgefordert werden, geben Sie Ihre Anmeldeinformationen ein, oder stellen Sie anonym eine Verbindung her. Der Impala-Connector unterstützt die Authentifizierungen „Anonym“, „Basic“ (Benutzername + Kennwort) und „Windows“.
+3. Geben oder fügen Sie in das angezeigte Fenster **Impala** den Namen des Impala-Servers ein. Wählen Sie dann **OK** aus. Sie können Daten direkt in Power BI **Importieren** oder **DirectQuery** verwenden. Weitere Informationen finden Sie unter [Verwendung von DirectQuery](desktop-use-directquery.md).
 
-![](media/desktop-connect-impala/connect_impala_4.png)
+    ![Impala-Fenster](media/desktop-connect-impala/connect_impala_3a.png)
 
-> [!NOTE]
-> Wenn Sie Ihren Benutzernamen und Ihr Kennwort für einen bestimmten **Impala**-Server eingefügt haben, werden von Power BI Desktop für anschließende Verbindungen die gleichen Anmeldeinformationen verwendet. Sie können diese Anmeldeinformationen unter **Datei > Optionen und Einstellungen > Datenquelleneinstellungen** ändern.
-> 
-> 
+4. Wenn Sie dazu aufgefordert werden, geben Sie Ihre Anmeldeinformationen ein, oder stellen Sie anonym eine Verbindung her. Der Impala-Connector unterstützt die anonyme, Standard- (Benutzername + Kennwort) und Windows-Authentifizierung.
 
-Nachdem die Verbindung erfolgreich hergestellt wurde, wird das Fenster **Navigator** mit den auf dem Server verfügbaren Daten angezeigt. Aus diesen können Sie ein oder mehrere Elemente auswählen, die importiert und in **Power BI Desktop** verwendet werden sollen.
+    ![Impala-Connector](media/desktop-connect-impala/connect_impala_4.png)
 
-![](media/desktop-connect-impala/connect_impala_5.png)
+    > [!NOTE]
+    > Wenn Sie Ihren Benutzernamen und Ihr Kennwort für einen bestimmten **Impala**-Server einfügen, verwendet Power BI Desktop für darauffolgende Verbindungen die gleichen Anmeldeinformationen. Sie können diese Anmeldeinformationen unter **Datei > Optionen und Einstellungen > Datenquelleneinstellungen** ändern.
+
+
+5. Nach dem Verbinden wird das Fenster **Navigator** angezeigt, in dem Sie die Daten sehen, die auf dem Server verfügbar sind. Wählen Sie aus diesen Daten die Elemente aus, die Sie in **Power BI Desktop** importieren und verwenden möchten.
+
+    ![Navigator-Fenster](media/desktop-connect-impala/connect_impala_5.png)
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
-Beim **Impala**-Connector sind einige Einschränkungen und Überlegungen zu beachten:
+Beachten Sie Folgendes für den **Impala**-Connector:
 
 * Der Impala-Connector wird auf dem lokalen Datengateway mit einem der drei unterstützten Authentifizierungsmechanismen unterstützt.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
+Es gibt viele verschiedene Datenquellen, mit denen Sie über Power BI Desktop eine Verbindung herstellen können. Weitere Informationen zu Datenquellen finden Sie in den folgenden Ressourcen:
 
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336873"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223373"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -34,6 +34,8 @@ Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** kön
 
 Mit den Erweiterungen für die Barrierefreiheit können Sie einen Power BI-Bericht mithilfe der folgenden Techniken mit Tastatur oder Sprachausgabe nutzen:
 
+Wenn Sie einen Bericht anzeigen, sollte der Überprüfungsmodus deaktiviert sein.
+
 Sie können den Fokus zwischen den Seitenregisterkarten von Berichten oder den Objekten auf einer bestimmten Berichtsseite mithilfe von **STRG+F6** wechseln.
 
 * Verwenden der *TAB*-Taste oder der *PFEILTASTEN* zum Bewegen des Fokus von einer Berichtsseite zur nächsten, wenn sich der Fokus auf *Seitenregisterkarten des Berichts* befindet. Der Titel der Berichtsseite und ihr aktueller Auswahlstatus werden von der Sprachausgabe vorgelesen. Um die Berichtsseite zu laden, die aktuell den Fokus hat, können die *EINGABETASTE* oder die *LEERTASTE* verwendet werden.
@@ -48,7 +50,7 @@ Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fen
 ![Drücken Sie in Power BI Desktop ALT+UMSCHALT+F11, um eine barrierefreie Version des Fensters „Daten anzeigen“ für ein Visual zu öffnen.](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> Das Feature „Daten anzeigen“ ist nur über diese Tastenkombination für die Sprachausgabe verfügbar. Wenn Sie das Fenster „Daten anzeigen“ über die Option im Visualheader öffnen, kann die Sprachausgabe nicht darauf zugreifen.
+> Das Feature „Daten anzeigen“ ist nur über diese Tastenkombination für die Sprachausgabe verfügbar. Wenn Sie das Fenster „Daten anzeigen“ über die Option im Visualheader öffnen, kann die Sprachausgabe nicht darauf zugreifen. Aktivieren Sie den Überprüfungsmodus, wenn Sie „Daten anzeigen“ verwenden, um von allen heißen Schlüsseln zu profitieren, die von Ihrer Bildschirmsprachausgabe bereitgestellt werden.
 
 Ab dem **Power BI Desktop**-Release von Juli 2018 verfügen Slicer auch über integrierte Barrierefreiheitsfunktionen. Wenn Sie einen Slicer auswählen, verwenden Sie zum Anpassen des Werts die STRG- und die NACH-RECHTS-TASTE, um die verschiedenen Steuerelemente im Slicer zu durchlaufen. Wenn Sie z.B. am Anfang die STRG- und die NACH-RECHTS-TASTE drücken, befindet sich der Fokus auf dem Radierer. Das Drücken der LEERTASTE entspricht dem Klicken auf die Schaltfläche „Radierer“, wodurch alle Werte im Slicer gelöscht werden. 
 
@@ -112,6 +114,55 @@ Es gibt einige bekannte Probleme und Einschränkungen bei den Barrierefreiheitsf
 
 * Wenn Sie die Sprachausgabe mit **Power BI Desktop** verwenden, erzielen Sie die bestmögliche Leistung, wenn Sie die Sprachausgabe Ihrer Wahl starten, bevor Sie Dateien in Power BI Desktop öffnen.
 * Wenn Sie die Sprachausgabe von Microsoft verwenden, gibt es einige Einschränkungen beim Anzeigen von Daten als HTML-Tabelle.
+
+## <a name="keyboard-shortcuts"></a>Tastenkombinationen
+### <a name="frequently-used-shortcuts"></a>Häufig verwendete Tastenkombinationen
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Fokus zwischen Abschnitten verschieben  | STRG+F6 |
+| Fokus im Abschnitt nach vorne verschieben | TAB         |
+| Fokus im Abschnitt nach hinten verschieben | UMSCHALT+TAB |
+
+### <a name="on-visual"></a>Auf Visual
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Fokus auf Visualmenü verschieben | ALT+UMSCHALT+F10 |
+| Daten anzeigen | ALT+UMSCHALT+F11  |
+
+### <a name="pane-navigation"></a>Navigationsbereich
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Kontextmenü öffnen | <ul><li>Windows-Tastatur: Taste mit dem Windows-Logo+F10  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastaturen: UMSCHALT+F10</li></ul> |
+
+### <a name="slicer"></a>Slicer
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Interagieren mit einem Slicer | STRG+NACH-RECHTS-TASTE |
+
+### <a name="selection-pane"></a>Auswahlbereich
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Auswahlbereich aktivieren | F6 |
+| Ein Objekt auf die nächsthöhere Ebene verschieben | STRG+UMSCHALT+F |
+| Ein Objekt auf die nächste tiefere Ebene verschieben | STRG+UMSCHALT+B |
+| Ein Objekt ausblenden/einblenden (umschalten) | STRG+UMSCHALT+S |
+
+### <a name="dax-editor"></a>DAX-Editor
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Zeile nach oben/unten verschieben | ALT+NACH-OBEN-TASTE bzw. ALT+NACH-UNTEN-TASTE |
+| Zeile nach oben/unten kopieren | UMSCHALT+ALT+NACH-OBEN-TASTE bzw. UMSCHALT+ALT+NACH-UNTEN-TASTE |
+| Linie darunter einfügen | STRG+EINGABETASTE |
+| Linie darüber einfügen | STRG+UMSCHALT+EINGABETASTE |
+| Zu zugehöriger Klammer springen | STRG+UMSCHALT+\ |
+| Einzug vergrößern/Zeile ausrücken | STRG+] bzw. STRG+[ |
+| Cursor einfügen | ALT+Klick |
+| Aktuellen Zeile auswählen | STRG+I |
+| Alle Vorkommen der aktuellen Auswahl auswählen | STRG+UMSCHALT+L |
+| Alle Vorkommen des aktuellen Worts auswählen | STRG+F2 |
+
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Verwenden von Berichtdesigns in Power BI Desktop (Vorschau)](desktop-report-themes.md)

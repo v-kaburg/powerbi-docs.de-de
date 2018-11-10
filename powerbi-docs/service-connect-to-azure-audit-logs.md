@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548141"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101207"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 Mit dem Azure-Überwachungsprotokoll-Inhaltspaket können Sie die in den Überwachungsprotokollen gespeicherten Informationen analysieren und visualisieren. Power BI ruft Ihre Daten ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -53,7 +53,7 @@ Stellen Sie eine Verbindung mit dem [Azure-Überwachungsprotokoll-Inhaltspaket](
 * Zwar ist Ihr Dataset auf tägliche Aktualisierung festgelegt, jedoch können Sie das Aktualisierungsintervall ändern oder über **Jetzt aktualisieren** nach Bedarf aktualisieren.
 
 ## <a name="system-requirements"></a>Systemanforderungen
-Das Azure-Überwachungsprotokolle-Inhaltspaket erfordert Zugriff auf Überwachungsprotokolle im Azure-Portal. Weitere Informationen finden Sie [hier](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
+Das Azure-Überwachungsprotokoll-Inhaltspaket erfordert Zugriff auf Überwachungsprotokolle im Azure-Portal. Weitere Informationen finden Sie [hier](/azure/azure-resource-manager/resource-group-audit/).
 
 <a name="FindingParams"></a>
 
@@ -63,10 +63,10 @@ Es gibt zwei einfache Möglichkeiten, Ihre Abonnement-ID zu suchen.
 1. Über https://portal.azure.com -&gt; Durchsuchen &gt; Abonnements &gt; Abonnement-ID
 2. Über https://manage.windowsazure.com -&gt; Einstellungen &gt; Abonnement-ID
 
-Ihre Abonnement-ID besteht aus einer langen Abfolge von Zahlen und Zeichen, ähnlich wie in dem Beispiel in Schritt 4 oben. 
+Ihre Abonnement-ID besteht aus einer langen Abfolge von Zahlen und Zeichen, ähnlich wie im obigen Beispiel in Schritt \#4. 
 
 ## <a name="troubleshooting"></a>Problembehandlung
-Wenn ein Fehler aufgrund der Anmeldeinformationen oder beim Versuch der Aktualisierung aufgrund ungültiger Anmeldeinformationen angezeigt wird, löschen Sie alle Instanzen der Azure-Überwachungsprotokolle, und stellen Sie die Verbindung erneut her.
+Wenn ein Fehler aufgrund der Anmeldeinformationen oder beim Aktualisieren aufgrund ungültiger Anmeldeinformationen angezeigt wird, löschen Sie alle Instanzen des Azure-Überwachungsprotokoll-Inhaltspakets, und stellen Sie die Verbindung erneut her.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)  

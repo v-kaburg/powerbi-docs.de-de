@@ -4,18 +4,18 @@ description: Sie erhalten einen Überblick über den Power BI-Berichtsserver, um
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294569"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101392"
 ---
 # <a name="what-is-power-bi-report-server"></a>Was ist der Power BI-Berichtsserver?
 
@@ -28,6 +28,9 @@ Zwischen dem Power BI-Berichtsserver sowie SQL Server Reporting Services und Pow
 
 ## <a name="licensing-power-bi-report-server"></a>Lizenzieren des Power BI-Berichtsservers
 Der Power BI-Berichtsserver ist über zwei verschiedene Lizenzen verfügbar: [Power BI Premium](../service-premium.md) und [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) mit Software Assurance. Mit einer Power BI Premium-Lizenz können Sie eine hybride, gemischte Cloud/Lokal-Bereitstellung erstellen.  
+
+> [!NOTE]
+> Für Power BI Premium ist der Power BI-Berichtsserver nur mit P SKUs enthalten. Er ist nicht mit EM SKUs verfügbar.
 
 ## <a name="web-portal"></a>Webportal
 Der Einstiegspunkt für den Power BI-Berichtsserver ist ein sicheres Webportal, das Sie in allen modernen Browsern anzeigen können. Hier können Sie auf alle Ihre Berichte und KPIs zugreifen. Der Inhalt des Webportals ist in einer herkömmlichen Ordnerhierarchie angeordnet. In Ihren Ordnern ist der Inhalt nach Typ gruppiert: Power BI-Berichte, mobile Berichte, paginierte Berichte, KPIs sowie Excel-Arbeitsmappen plus freigegebene Datasets und freigegebene Datenquellen, die als Bausteine für Ihre Berichte dienen. Sie können Favoriten markieren, um sie in einem einzelnen Ordner anzuzeigen. Und auch KPIs können Sie direkt im Webportal erstellen. 
@@ -66,7 +69,7 @@ Weitere [Entwicklerdokumentation für Berichtsserver](https://docs.microsoft.com
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-[Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721913"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100609"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Administratorübersicht, Power BI-Berichtsserver
-Dieser Artikel ist die Administratorübersicht für den Power BI-Berichtsserver, einen lokalen Speicherort zum Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte. In diesem Artikel werden die Planungs-, Bereitstellungs- und Verwaltungskonzepte Ihres Power BI-Berichtsservers mit Links zu weiteren Informationen eingeführt.
+Dieser Artikel ist die Administratorübersicht für den Power BI-Berichtsserver, einen lokalen Speicherort zum Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte. Dieser Artikel stellt die Planungs-, Bereitstellungs- und Verwaltungskonzepte Ihres Power BI-Berichtsservers vor und enthält Links zu weiteren Informationen.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
@@ -44,13 +44,13 @@ Zum Konfigurieren Ihres Berichtsservers stehen Ihnen viele Optionen zur Verfügu
 Der Großteil der Konfigurationsaufgaben erfolgt im Berichtsserver-Konfigurations-Manager. In der Dokumentation zum [Konfigurations-Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) finden Sie weitere Einzelheiten.
 
 ## <a name="security"></a>Sicherheit
-Sicherheit und Schutz sind für jede Organisation wichtig. In der Dokumentation zur [Sicherheit](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) erfahren Sie mehr zu Authentifizierung, Autorisierung, Rollen und Berechtigungen.
+Sicherheit und Schutz sind für jede Organisation wichtig. In der Dokumentation zum Thema [Sicherheit](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) erfahren Sie mehr über Authentifizierung, Autorisierung, Rollen und Berechtigungen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Ermitteln des Product Key für den Berichtsserver](find-product-key.md)  
 [Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop](install-powerbi-desktop.md)  
-[Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

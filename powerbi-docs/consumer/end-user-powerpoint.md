@@ -1,5 +1,5 @@
 ---
-title: Exportieren von Berichten aus Power BI nach PowerPoint (Preview)
+title: Exportieren von Berichten aus Power BI nach PowerPoint
 description: Erfahren Sie, wie Sie einen Power BI-Bericht nach PowerPoint exportieren.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565335"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736939"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportieren von Berichten aus Power BI nach PowerPoint (Preview)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportieren von Berichten aus Power BI nach PowerPoint
 Mit Power BI können Sie Berichte jetzt in **Microsoft PowerPoint** veröffentlichen und darauf basierend einfach eine Foliengruppe erstellen. Beim **Export nach PowerPoint** geschieht Folgendes:
 
 * Jede Seite im Power BI-Bericht entspricht einer einzelnen Folie in PowerPoint.
@@ -77,9 +77,9 @@ Einige Aspekte und Einschränkungen sind bei der Arbeit mit der Funktion **Expor
 * **R-Visuals** werden derzeit nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
 * **Benutzerdefinierte Visuals**, die **zertifiziert** wurden, werden unterstützt. Weitere Informationen zu zertifizierten benutzerdefinierten Visuals sowie zum Zertifizieren von benutzerdefinierten Visuals finden Sie unter [Wie wird ein benutzerdefiniertes Visual zertifiziert?](../power-bi-custom-visuals-certified.md). Nicht zertifizierte Visuals werden nicht unterstützt, und diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
 * **Zertifizierte benutzerdefinierte Visualisierungen** werden unterstützt. Eine zertifizierte benutzerdefinierte Visualisierung wurde zur Verwendung mit Power BI genehmigt, erfüllt bestimmte Codeanforderungen und hat strenge Sicherheitstest bestanden. Über diesen Link erhalten Sie [weitere Informationen über **zertifizierte benutzerdefinierte Visualisierungen**](../power-bi-custom-visuals-certified.md).
-* Berichte mit mehr als 15 Berichtsseiten können derzeit nicht exportiert werden.
+* Berichte mit mehr als 30 Berichtsseiten können derzeit nicht exportiert werden.
 * Der Exportvorgang des Berichts nach PowerPoint kann einige Minuten dauern. Zu den Faktoren, die die benötigte Zeit beeinflussen, zählen die Struktur des Berichts sowie die jeweils aktuelle Auslastung des Power BI-Diensts.
-* Wenn das Menüelement **Export nach PowerPoint (Vorschau)** im Power BI-Dienst nicht verfügbar ist, hat der Administrator Ihres Mandanten diese Funktion wahrscheinlich deaktiviert. Wenden Sie sich an den Administrator Ihres Mandanten, um Einzelheiten zu erfahren.
+* Wenn das Menüelement **Nach PowerPoint exportieren** im Power BI-Dienst nicht verfügbar ist, hat der Administrator Ihres Mandanten diese Funktion wahrscheinlich deaktiviert. Wenden Sie sich an den Administrator Ihres Mandanten, um Einzelheiten zu erfahren.
 * Hintergrundbilder werden an der Begrenzung des Diagramms abgeschnitten. Es wird empfohlen, Hintergrundbilder vor dem Export nach PowerPoint zu entfernen.
 * **Sitzungsinterne Interaktivität** wie Hervorheben und Filtern, Drilldown usw. wird beim Export nach PowerPoint derzeit nicht unterstützt. Die exportierte PowerPoint-Datei enthält die ursprünglichen Visualisierungen, wie sie im Bericht gespeichert wurden.
 * Seiten werden in PowerPoint immer mit dem Standardseitenverhältnis von 9:16 erstellt, unabhängig von den ursprünglichen Seitengrößen oder -abmessungen im Power BI-Bericht.

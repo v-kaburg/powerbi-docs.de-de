@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: 183b1e51f933fc8dc439e5f8b0f434e8366e9794
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42703004"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101437"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 
@@ -186,7 +186,7 @@ Nachdem Sie die Ermittlungs-URL eingegeben und **Anwenden** ausgewählt haben, s
 
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-[Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

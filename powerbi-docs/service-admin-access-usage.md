@@ -7,72 +7,66 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926534"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909500"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Suchen nach angemeldeten Power BI-Benutzern
-Wenn Sie Mandantenadministrator sind und sehen möchten, wer sich bei Power BI angemeldet hat, können Sie dazu die Azure Active Directory-Zugriffs- und -Verwendungsberichte verwenden.
+
+Wenn Sie Mandantenadministrator sind können Sie mithilfe der [Zugriffs- und Verwendungsberichte von Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins) sehen, wer sich bei Power BI angemeldet hat.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Auf den Aktivitätsbericht können Sie sowohl aus dem [neuen](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) als auch aus dem [klassischen](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure AD-Portal (Azure Active Directory) zugreifen. Während im vorliegenden Video das klassische Portal als Beispiel verwendet wird, erfolgt die Beschreibung in diesem Artikel anhand des neuen Portals.
-
 > [!NOTE]
-> Dieser Aktivitätsbericht identifiziert nicht den Lizenztyp, über den jeder Benutzer verfügt.
+> Der Aktivitätsbericht enthält zwar nützliche Informationen, identifiziert jedoch nicht den Lizenztyp von Benutzern. Verwenden Sie das Office 365 Admin Center, um Lizenzen anzuzeigen.
 
 ## <a name="requirements"></a>Anforderungen
-Die folgenden Anforderungen müssen erfüllt sein, um den Bericht über Anmeldeaktivitäten anzeigen zu können.
 
-* Benutzer, die die Rolle „Globaler Administrator“, „Sicherheitsadministrator“ oder „Benutzer mit Leseberechtigung für Sicherheitsfunktionen“ haben, können auf die Daten zugreifen.
-* Jeder Benutzer (Nicht-Administrator) kann auf seine eigenen Anmeldungen zugreifen.
-* Für Ihren Mandanten ist eine ihm zugeordnete Azure AD Premium-Lizenz erforderlich, um den gesamten Bericht über Anmeldeaktivitäten anzeigen zu können.
+Alle Benutzer – auch Nichtadministratoren – können einen Bericht mit den eigenen Anmeldeaktivitäten sehen. Allerdings müssen die folgenden Anforderungen erfüllt sein, um einen Bericht für alle Benutzer anzuzeigen:
 
-## <a name="using-the-azure-portal-to-view-sign-ins"></a>Verwenden des Azure-Portals, um Anmeldungen anzuzeigen
-Sie können das Azure AD-Portal verwenden, um Anmeldeaktivitäten anzuzeigen.
+* Ihr Mandant verfügt über eine Azure AD Premium-Lizenz.
 
-1. Navigieren Sie zum **Azure-Portal**, und wählen Sie **Azure Active Directory** aus.
-2. Wählen Sie unter **Aktivität** die Option **Anmeldungen** aus.
+* Sie verfügen über eine der folgenden Rollen: „Globaler Administrator“, „Sicherheitsadministrator“ oder „Benutzer mit Leseberechtigung für Sicherheitsfunktionen“.
+
+## <a name="use-the-azure-portal-to-view-sign-ins"></a>Anzeigen von Anmeldungen mit dem Azure-Portal
+
+So können Sie Anmeldeaktivitäten anzeigen
+
+1. Wählen Sie im **Azure-Portal** **Azure Active Directory** aus.
+
+1. Wählen Sie unter **Überwachung** **Anmeldungen** aus.
    
-    ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
-3. Filtern Sie die Anwendung entweder nach **Microsoft Power BI** oder nach **Power BI Gateway**, und wählen Sie **Übernehmen** aus.
+    ![Azure AD-Anmeldungen](media/service-admin-access-usage/azure-portal-sign-ins.png)
+
+1. Filtern Sie die Anwendung entweder nach **Microsoft Power BI** oder nach **Power BI Gateway**, und wählen Sie **Übernehmen** aus.
+
+    **Microsoft Power BI** filtert nach Anmeldeaktivitäten in Bezug auf den Dienst, wohingegen **Power BI Gateway** nach Anmeldeaktivitäten für das spezifische lokale Datengateway filtert.
    
-    **Microsoft Power BI** kann für Anmeldeaktivitäten verwendet werden, die sich auf den Dienst beziehen, während **Power BI Gateway** für bestimmte Anmeldungen für das lokale Datengateway verwendet werden kann.
-   
-    ![](media/service-admin-access-usage/sign-in-filter.png)
+    ![Filtern von Anmeldungen](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Exportieren der Daten
-Sie haben zwei Optionen zum Exportieren der Anmeldedaten. Sie können dazu entweder eine CSV-Datei herunterladen oder PowerShell verwenden.
 
-### <a name="download-csv"></a>Herunterladen einer CSV-Datei
-Auf dem Bildschirm „Aktivität“ können Sie **Herunterladen** auf der Symbolleiste auswählen. Dadurch wird eine CSV-Datei für die derzeit gefilterten Daten heruntergeladen.
+Sie haben zwei Möglichkeiten zum Exportieren der Anmeldedaten: Laden Sie eine CSV-Datei herunter, oder verwenden Sie PowerShell. Wählen Sie oben im Anmeldebericht eine der folgenden Optionen aus:
 
-![](media/service-admin-access-usage/download-sign-in-data-csv.png)
+* **Download** zum Herunterladen einer CSV-Datei für die aktuell gefilterten Daten
 
-### <a name="powershell"></a>PowerShell
-Sie können PowerShell verwenden, um die Anmeldedaten zu exportieren. Ein [Beispiel](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) ist in der Azure AD-Dokumentation verfügbar.
+* **Skript** zum Herunterladen eines PowerShell-Skripts für die aktuell gefilterten Daten Sie können den Filter im Skript bei Bedarf aktualisieren.
 
-> [!NOTE]
-> Damit das PowerShell-Beispiel funktioniert, müssen Sie die Schritte ausführen, die unter [Voraussetzungen für den Zugriff auf die Azure AD-Berichterstellungs-API](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites) aufgeführt sind.
-> 
-> 
+![Herunterladen der CSV-Datei oder des Skripts](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 ## <a name="data-retention"></a>Datenaufbewahrung
-Daten zu Anmeldungen sind bis zu 30 Tage lang verfügbar. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien für Azure Active Directory-Berichte](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention).
+
+Daten zu Anmeldungen sind bis zu 30 Tage verfügbar. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien für Azure Active Directory-Berichte](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Berichte zu Anmeldeaktivitäten im Azure Active Directory-Portal (neues Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Anzeigen Ihrer Zugriffs- und Nutzungsberichte (klassisches Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
-[PowerShell-Beispielskript für Anmeldungen](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
-[Aufbewahrungsrichtlinien für Azure Active Directory-Berichte](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
-[Verwenden von Überwachung in der Organisation](service-admin-auditing.md)  
-[Aktivierung der erweiterten Pro-Testversion](service-extended-pro-trial.md)
+
+[Verwenden von Überwachung in der Organisation](service-admin-auditing.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
 

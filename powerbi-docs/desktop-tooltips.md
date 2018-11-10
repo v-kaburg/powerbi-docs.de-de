@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416795"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223316"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 

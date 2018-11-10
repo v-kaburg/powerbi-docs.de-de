@@ -2,6 +2,7 @@
 title: Zertifizierte benutzerdefinierte Power BI-Visualisierungen
 description: Anforderungen und Vorgehensweise für das Einreichen eines benutzerdefinierten Visuals zur Zertifizierung sowie eine Liste bereits zertifizierter benutzerdefinierter Visuals.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252397"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223442"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
+
 ## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
+
 Ein *zertifiziertes benutzerdefiniertes visuelles Element* hat verschiedene Codeanforderungen erfüllt und strenge Sicherheitstests bestanden.  Nachdem ein benutzerdefiniertes visuelles Element zertifiziert wurde, kann es [nach PowerPoint exportiert](consumer/end-user-powerpoint.md) werden und wird in den empfangenen E-Mails angezeigt, wenn ein Benutzer [Berichtsseiten abonniert](consumer/end-user-subscribe.md). Dieses kann ebenfalls wie ein [benutzerdefiniertes visuelles Standardelement](power-bi-custom-visuals.md) verwendet, zum Power BI-Dienst und zu Power BI Desktop-Berichten hinzugefügt und in Power BI Mobile angezeigt und eingebettet werden.
 
-Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu [Microsoft AppSource](https://appsource.microsoft.com) hinzufügen? Weitere Informationen hierzu finden Sie unter [Erste Schritte mit den Entwicklertools](service-custom-visuals-getting-started-with-developer-tools.md).
-
+Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu [Microsoft AppSource](https://appsource.microsoft.com) hinzufügen? Weitere Informationen finden Sie unter [Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md).
 
 ## <a name="certification-requirements"></a>Zertifizierungsanforderungen
-* Von Microsoft AppSource genehmigt    
-* Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben    
-* Coderepository steht zur Überprüfung bereit (z.B. als auf GitHub für uns verfügbarer Code des visuellen Elements)    
-* Ausschließliche Verwendung öffentlich überprüfbarer OSS-Komponenten    
-* Kein Zugriff auf externe Dienste oder Ressourcen    
+
+* Von Microsoft AppSource genehmigt
+* Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben
+* Coderepository steht zur Überprüfung bereit (z.B. als auf GitHub für uns verfügbarer Code des visuellen Elements)
+* Ausschließliche Verwendung öffentlich überprüfbarer OSS-Komponenten
+* Kein Zugriff auf externe Dienste oder Ressourcen
 
 > **TIPP**: Es wird empfohlen, dass Sie EsLint mit dem standardmäßigen Sicherheitsregelsatz verwenden, um Ihren Code vor der Einreichung zu überprüfen.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Vorgang zum Einreichen eines benutzerdefinierten visuellen Elements zur Zertifizierung
+
 So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 
 1. Senden Sie eine E-Mail an den Power BI-Support für benutzerdefinierte visuelle Elemente (pbicvsupport@microsoft.com). Fügen Sie der E-Mail die folgende Informationen hinzu:    
 
-   * Titel: Zertifizierungsanforderung für visuelles Element    
-   * Link zum GitHub-Repository, in dem der Quellcode des visuellen Elements gehostet wird    
-   * Befolgen der Anforderungen (siehe oben)    
-   * Bestehen der Code- und Sicherheitsüberprüfung    
+   * Titel: Zertifizierungsanforderung für visuelles Element
+   * Link zum GitHub-Repository, in dem der Quellcode des visuellen Elements gehostet wird
+   * Befolgen der Anforderungen (siehe oben)
+   * Bestehen der Code- und Sicherheitsüberprüfung
 
 2. Das Microsoft-Team für benutzerdefinierte visuelle Elemente benachrichtigt Sie, sobald Ihr benutzerdefiniertes visuelles Element zertifiziert und der Liste „Zertifiziert“ (siehe unten) hinzugefügt wurde oder mit einem Bericht zu den zu behebenden Problemen abgelehnt wurde. Es ist Aufgabe des Entwicklers, eine offene Kommunikation mit Microsoft zu pflegen und seine zertifizierten visuellen Elemente bei Bedarf zu aktualisieren.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Entfernen benutzerdefinierter zertifizierter visueller Power BI-Elemente
+
 Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zertifiziert“ entfernen.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Liste benutzerdefinierter visueller Elemente, die zertifiziert wurden
@@ -142,10 +144,11 @@ Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zert
 | [Wortwolke](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Video](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Erste Schritte mit den Power BI-Entwicklertools für benutzerdefinierte visuelle Elemente (Vorschau)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[Wiedergabeliste benutzerdefinierter visueller Elemente von Microsoft auf YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Visualisierungen in Power BI](visuals/power-bi-report-visualizations.md)  
-[Benutzerdefinierte Visualisierungen in Power BI](power-bi-custom-visuals.md)  
-[Veröffentlichen von benutzerdefinierten Visuals in Microsoft AppSource](developer/office-store.md)  
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
+* [Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md)
+* [Wiedergabeliste benutzerdefinierter visueller Elemente von Microsoft auf YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Visualisierungen in Power BI](visuals/power-bi-report-visualizations.md)  
+* [Benutzerdefinierte Visualisierungen in Power BI](power-bi-custom-visuals.md)  
+* [Veröffentlichen von benutzerdefinierten Visuals in Microsoft AppSource](developer/office-store.md)  
+
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Overview
+  - name: Übersicht
     items:
     - name: Was ist Power BI Desktop?
       href: desktop-what-is-desktop.md
@@ -106,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Anpassen von Visualisierungstitel, Hintergrund und Legende
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Problembehandlung für benutzerdefinierte Visuals
+      href: power-bi-custom-visuals-troubleshoot.md
     - name: Verbinden mit Daten
       items:
       - name: Datenquellen in Power BI Desktop
@@ -370,7 +372,7 @@ items:
       href: desktop-admin-sign-in-form.md
 - name: Power BI-Dienst
   items:
-  - name: Overview
+  - name: Übersicht
     items:
     - name: Was ist Power BI?
       href: power-bi-overview.md
@@ -426,8 +428,6 @@ items:
       items:
       - name: Umbenennen von Inhalten in Power BI
         href: service-rename.md
-      - name: Anzeigen von Dashboards und Berichten im Vollbildmodus (TV-Modus)
-        href: service-fullscreen-mode.md
       - name: Schnelle Einblicke in Power BI
         href: service-insights.md
       - name: Registrieren einer US-Behörde
@@ -764,6 +764,24 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket nach einem Aktualisierungsfehler
         href: service-refresh-xero-credentials.md
+    - name: Self-Service-Datenvorbereitung
+      items:
+      - name: Self-Service-Datenvorbereitung mit Dataflows (Vorschau)
+        href: service-dataflows-overview.md
+      - name: Erstellen und Verwenden von Dataflows
+        href: service-dataflows-create-use.md
+      - name: Berechnete Entitäten mit Power BI Premium
+        href: service-dataflows-computed-entities-premium.md
+      - name: Verwenden von Dataflows mit lokalen Datenquellen
+        href: service-dataflows-on-premises-gateways.md
+      - name: Verknüpfen von Entitäten zwischen Dataflows (Vorschau)
+        href: service-dataflows-linked-entities.md
+      - name: Verwenden der inkrementellen Aktualisierung mit Dataflows (Vorschau)
+        href: service-dataflows-incremental-refresh.md
+      - name: Entwicklerressourcen für Dataflows
+        href: service-dataflows-developer-resources.md
+      - name: Herstellen einer Verbindung mit Dataflows in Power BI Desktop
+        href: desktop-connect-dataflows.md
   - name: Ressourcen
     items:
     - name: Videos
@@ -774,13 +792,43 @@ items:
       href: supported-languages-countries-regions.md
     - name: Whitepaper
       href: whitepapers.md
+- name: Paginierte Berichte in Power BI
+  items:
+  - name: Übersicht
+    items:
+    - name: Was sind paginierte Berichte? (Vorschau)
+      href: paginated-reports-report-builder-power-bi.md
+  - name: Lernprogramme
+    items:
+    - name: Erstellen und Hochladen eines paginierten Berichts
+      href: paginated-reports-quickstart-aw.md
+  - name: Konzepte
+    items:
+    - name: Übersicht über die Berichtsentwurfsansicht
+      href: paginated-reports-report-design-view.md
+    - name: Häufig gestellte Fragen zu paginierten Berichten
+      href: paginated-reports-faq.md
+  - name: Vorgehensweise
+    items:
+    - name: Erstellen einer eingebetteten Datenquelle
+      href: paginated-reports-embedded-data-source.md
+    - name: Erstellen eines eingebetteten Datasets
+      href: paginated-reports-create-embedded-dataset.md
+    - name: Erstellen von Parametern
+      href: paginated-reports-parameters.md
+    - name: Veröffentlichen eines paginierten Berichts
+      href: paginated-reports-save-to-power-bi-service.md
+    - name: Anzeigen eines paginierten Berichts
+      href: paginated-reports-view-power-bi-service.md
+    - name: Interagieren mit Parametern
+      href: paginated-reports-view-parameters.md
 - name: Power BI für Entwickler
   items:
   - name: Welche Möglichkeiten bietet Power BI Entwicklern?
     href: developer/what-can-you-do.md
   - name: Eingebettete Analysen
     items:
-    - name: Overview
+    - name: Übersicht
       items:
       - name: Was ist die Einbettung mit Power BI?
         href: developer/embedding.md
@@ -872,7 +920,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: Entwickeln von benutzerdefinierten Visuals
     items:
-    - name: Overview
+    - name: Übersicht
       items:
       - name: Hinzufügen von benutzerdefinierten Visuals in Power BI
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -908,15 +956,13 @@ items:
       items:
       - name: Dev Center
         href: https://powerbi.microsoft.com/developers/
-      - name: Erstellen benutzerdefinierter Visualisierungen mit den Entwicklertools
-        href: service-custom-visuals-getting-started-with-developer-tools.md
       - name: Beispiele
         href: https://microsoft.github.io/PowerBI-visuals/samples/
       - name: Git-Repository für benutzerdefinierte Visuals
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: Automatisierung
     items:
-    - name: Overview
+    - name: Übersicht
       items:
       - name: Was kann ich mit der Power BI-API tun?
         href: developer/overview-of-power-bi-rest-api.md
@@ -966,7 +1012,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI-Berichtsserver
   items:
-  - name: Overview
+  - name: Übersicht
     items:
     - name: Was ist der Power BI-Berichtsserver?
       href: report-server/get-started.md
@@ -1068,7 +1114,7 @@ items:
       href: report-server/capacity-planning.md
 - name: Gateways
   items:
-  - name: Overview
+  - name: Übersicht
     items:
     - name: Was sind Power BI-Gateways?
       href: service-gateway-getting-started.md
@@ -1124,7 +1170,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: Verwaltung
   items:
-  - name: Overview
+  - name: Übersicht
     items:
     - name: Was ist die Power BI-Verwaltung?
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1203,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: fffb456fe7ad9648b27a1106e9a4cb6401b5f56b
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909707"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508058"

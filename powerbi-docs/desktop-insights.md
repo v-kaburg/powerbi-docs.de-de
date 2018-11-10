@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280292"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909615"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Verwenden von Einblicken in Power BI Desktop zur Erklärung von Anstiegen und Rückgängen in Visuals (Vorschau)
 
@@ -25,7 +25,7 @@ Betrachten Sie zum Beispiel das folgende Visual, das *Umsatzbetrag* pro *Jahr* u
 
 ![Visual mit Anstiegen und Rückgängen](media/desktop-insights/insights_01a.png)
 
-Sie können sich in **Power BI Desktop** Rückgänge und Anstiege in Diagrammen erläutern lassen, Verteilungsfaktoren in Diagrammen anzeigen und schnell automatische aussagekräftige Analysen Ihrer Daten erhalten. Klicken Sie einfach mit der rechten Maustaste auf einen Datenpunkt, und wählen Sie **Analysieren > Rückgang erläutern** (oder „Anstieg erläutern“, wenn der vorherige Balken niedriger war) oder **Analysieren > Unterschiede in dieser Verteilung ermitteln** aus. Daraufhin bietet Ihnen ein benutzerfreundliches Fenster die entsprechenden Erkenntnisse.
+Sie können sich in **Power BI Desktop** Rückgänge und Anstiege in Diagrammen erläutern lassen, Verteilungsfaktoren in Diagrammen anzeigen und schnell automatische aussagekräftige Analysen Ihrer Daten erhalten. Klicken Sie einfach mit der rechten Maustaste auf einen Datenpunkt, und wählen Sie **Analysieren > Erläutern Sie den Rückgang** (oder „Erläutern Sie den Anstieg“, wenn der vorherige Balken niedriger war) oder **Analysieren > Ermitteln Sie die Unterschiede in dieser Verteilung** aus. Daraufhin bietet Ihnen ein benutzerfreundliches Fenster die entsprechenden Erkenntnisse.
 
 ![Angezeigte Einblicke in einem Visual](media/desktop-insights/insights_01.png)
 
@@ -36,7 +36,7 @@ Die Einblicke sind kontextabhängig und basieren auf dem unmittelbar vorherigen 
 
 
 ## <a name="using-insights"></a>Verwenden von Einblicken
-Um mit der Funktion „Einblicke“ Anstiege und Rückgänge zu erklären, klicken Sie einfach mit der rechten Maustaste auf einen Datenpunkt in einem Balken- oder Liniendiagramm, und wählen Sie **Analysieren > Anstieg erläutern** (oder *Rückgang erläutern*) aus, da alle Einblicke auf der Änderung des vorherigen Datenpunkts basieren.
+Um mithilfe von Einblicken Anstiege und Rückgänge in Diagrammen zu erklären, klicken Sie einfach mit der rechten Maustaste auf einen Datenpunkt in einem Balken- oder Liniendiagramm, und wählen Sie **Analysieren > Anstieg erläutern** (oder *Rückgang erläutern*) aus, da alle Einblicke auf der Änderung des vorherigen Datenpunkts basieren.
 
 ![Menü „Einblicke anzeigen“](media/desktop-insights/insights_02.png)
 
@@ -64,7 +64,7 @@ Der Algorithmus gibt also nicht nur die Werte zurück, die den Großteil der Än
 
 Vereinfacht ausgedrückt, berücksichtigt der Algorithmus alle anderen Modellspalten, berechnet die Aufteilung pro Spalte für die Zeiträume *vorher* und *nachher* und bestimmt, wie sehr sich diese Aufteilung geändert hat. Daraufhin werden die Spalten mit der größten Veränderung zurückgegeben. Zum Beispiel wurde *Kategorie* im obigen Beispiel gewählt, da der Anteil von *TV und Video* um 7 % von 33 % auf 26 % gefallen ist, während der Anteil von *Haushaltsgeräte* von 0 % auf über 6 % anstieg. 
 
-Für jede zurückgegebene Spalte können vier Visuals angezeigt werden. Drei davon sollen die Veränderung des Anteils zwischen den beiden Zeiträumen verdeutlichen, z. B. um den Anstieg vom *2. Quartal* zum *3. Quartal* zu erklären.
+Für jede zurückgegebene Spalte können vier Visuals angezeigt werden. Drei dieser Visuals sollen die Veränderung des Anteils zwischen den beiden Zeiträumen verdeutlichen. Beispiel: Erläuterung des Anstiegs von *Quartal 2* zu *Quartal 3*.
 
 ### <a name="the-scatter-plot"></a>Punktdiagramm
 
@@ -113,7 +113,6 @@ In der folgenden Liste sind die Szenarien aufgeführt, die derzeit für **Anstie
 * TopN-Filter
 * Filter einschließen/ausschließen
 * Kennzahlenfilter
-* Nicht additive Measures und Aggregate
 * Nicht numerische Measures
 * Verwendung von „Wert anzeigen als“
 * Gefilterte Measures – diese Berechnungen mit einem bestimmten Filter auf Visualebene (z. B. *Gesamtumsatz Frankreich*) werden für einige Visuals verwendet, die von der Funktion Einblicke erstellt wurden

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen von Power BI-Berichtsparametern mithilfe der URL
+title: Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 description: Filtern Sie einen Bericht mithilfe von URL-Abfragezeichenfolgenparametern – bei Bedarf sogar für mehrere Felder.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,24 +9,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396955"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973371"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
-Wenn Sie im Power BI-Dienst einen Bericht öffnen, hat jeder Seite des Berichts eine eigene eindeutige URL. Zum Filtern der jeweiligen Berichtsseite können Sie den Filterbereich des Berichtszeichenbereichs verwenden.  Sie können aber auch die URL mit Abfragezeichenfolgenparametern versehen, um den Bericht vorab zu filtern. Das ist beispielsweise hilfreich, wenn Sie Kollegen einen bereits vorgefilterten Bericht zeigen möchten. Hierzu können Sie etwa der Standard-URL für den Bericht die gewünschten Filterparameter hinzufügen und dann die gesamte neue URL per E-Mail versenden.
+Wenn Sie im Power BI-Dienst einen Bericht öffnen, hat jeder Seite des Berichts eine eigene eindeutige URL. Zum Filtern der jeweiligen Berichtsseite können Sie den Filterbereich des Berichtszeichenbereichs verwenden.  Sie können aber auch die URL mit Abfragezeichenfolgenparametern versehen, um den Bericht vorab zu filtern. Das ist beispielsweise hilfreich, wenn Sie Kollegen einen bereits vorgefilterten Bericht zeigen möchten. Zum Filtern können Sie etwa der Standard-URL des Berichts die gewünschten Filterparameter hinzufügen und dann die gesamte neue URL per E-Mail versenden.
 
 ![Power BI-Bericht im Dienst](media/service-url-filters/power-bi-report2.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Verwendungsmöglichkeiten für Abfragezeichenfolgenparameter
 
-Angenommen, Sie arbeiten in Power BI Desktop und möchten einen Bericht erstellen, der Links zu anderen Power BI-Berichten enthält, aber nur manche der enthaltenen Informationen sollen in den anderen Berichten angezeigt werden. Filtern Sie zunächst die Berichte mithilfe von Abfragezeichenfolgenparametern, und speichern Sie die URLs. Erstellen Sie anschließend eine Tabelle mit diesen neuen Berichts-URLs in Power BI Desktop.  Veröffentlichen Sie den Bericht anschließend, und geben Sie ihn frei.
+Angenommen, Sie arbeiten mit Power BI Desktop. Sie möchten einen Bericht erstellen, der Links zu anderen Power BI-Berichten enthält, aber nur einige der enthaltenen Informationen sollen in den anderen Berichten angezeigt werden. Filtern Sie zunächst die Berichte mithilfe von Abfragezeichenfolgenparametern, und speichern Sie die URLs. Erstellen Sie anschließend eine Tabelle mit diesen neuen Berichts-URLs in Power BI Desktop.  Veröffentlichen Sie den Bericht anschließend, und geben Sie ihn frei.
 
 Auch beim Erstellen einer erweiterten Power BI-Lösung können Abfragezeichenfolgenparameter verwendet werden.  Mithilfe von DAX wird ein Bericht erstellt, der eine gefilterte Berichts-URL dynamisch basierend auf der Auswahl des Kunden im aktuellen Bericht generiert. Wenn Kunden auf die URL klicken, werden ihnen nur die gewünschten Informationen angezeigt. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tabelle***/***Feld*** eq '***Wert***'
 
 ### <a name="field-types"></a>Feldtypen
 
-Feldtypen können eine Zahl, ein datetime-Wert oder eine Zeichenfolge sein und müssen dem Typ entsprechen, der im Dataset festgelegt ist.  Das Festlegen einer Tabellenspalte auf „Zeichenfolge“ funktioniert beispielsweise nicht, wenn Sie nach einem datetime-Wert oder einem numerischen Wert in einer Datasetspalte suchen, die auf „Datum“ festgelegt ist (z.B. Table/StringColumn eq 1).
+Feldtypen können eine Zahl, ein datetime-Wert oder eine Zeichenfolge sein und müssen dem Typ entsprechen, der im Dataset festgelegt ist.  Das Festlegen einer Tabellenspalte auf „Zeichenfolge“ funktioniert beispielsweise nicht, wenn Sie nach einem Datums-/Uhrzeitwert oder einem numerischen Wert in einer Datasetspalte suchen, die auf „Datum“ festgelegt ist (z.B. Table/StringColumn eq 1).
 
 * **Zeichenfolgen** müssen mit einfachen Anführungszeichen umschlossen werden ('Managername').
 * Für **Zahlen** ist keine besondere Formatierung erforderlich.
@@ -125,13 +125,13 @@ Ein Filter für Power BI-URLs kann Zahlen in den folgenden Formaten enthalten:
 
 ### <a name="date-data-types"></a>Date-Datentypen
 
-Power BI unterstützt OData V3 and V4 für **Date**- und **DateTimeOffset**-Datentypen.  Datumsangaben werden im EDM-Format (2019-02-12T00:00:00) dargestellt. Wenn Sie also ein Datum im Format JJJJ-MM-DD angeben, interpretiert Power BI dieses als JJJJ-MM-DDT00:00:00.
+Power BI unterstützt OData V3 and V4 für **Date**- und **DateTimeOffset**-Datentypen.  Datumsangaben werden im EDM-Format (2019-02-12T00:00:00:00) dargestellt. Das heißt, wenn Sie ein Datum im Format YYYYY-MM-DD angeben, interpretiert Power BI es als YYYY-MM-DDT00:00:00.
 
-Warum ist diese Unterscheidung wichtig? Angenommen, Sie erstellen den Abfragezeichenfolgenparameter **Table/Date gt 2018-08-03**.  Ist der 3. August 2018 im Ergebnis enthalten oder wird mit dem 4. August 2018 begonnen? Da Power BI Ihre Abfrage in **Table/Date gt 2018-08-03T00:00:00** übersetzt, enthält Ihr Ergebnis alle Datumsangaben, die einen Uhrzeitteil enthalten, der größer als 0 ist, da diese dann größer als **2018-08-03T00:00:00** wären.
+Warum ist diese Unterscheidung wichtig? Angenommen, Sie erstellen den Abfragezeichenfolgenparameter **Table/Date gt 2018-08-03**.  Ist der 3. August 2018 in den Ergebnissen enthalten oder wird mit dem 4. August 2018 begonnen? Da Power BI Ihre Abfrage in **Table/Date gt 2018-08-03T00:00:00** übersetzt, enthält Ihr Ergebnis alle Datumsangaben, die einen Uhrzeitteil enthalten, der größer als 0 ist, da diese dann größer als **2018-08-03T00:00:00** wären.
 
 ## <a name="special-characters-in-url-filters"></a>Sonderzeichen in URL-Filtern
 
-Für Sonderzeichen und Leerzeichen sind zusätzliche Formatierungen erforderlich. Wenn Ihre Abfrage Leerzeichen, Bindestriche oder Nicht-ASCII-Zeichen enthält, stellen Sie dieser Sonderzeichen *Escapecode* voran, der mit einem Unterstrich und einem X (**_x**) beginnt, gefolgt vom 4-stelligen **Unicode** und einem weiteren Unterstrich. Wenn der Unicode weniger als 4 Zeichen enthält, müssen Sie diesen mit Nullen ergänzen. Hier sehen Sie einige Beispiele:
+Für Sonderzeichen und Leerzeichen sind zusätzliche Formatierungen erforderlich. Wenn Ihre Abfrage Leerzeichen, Bindestriche oder Nicht-ASCII-Zeichen enthält, stellen Sie diesen Sonderzeichen eine *Escapesequenz* voran, die mit einem Unterstrich und einem X (**_x**) beginnt, gefolgt vom 4-stelligen **Unicode** und einem weiteren Unterstrich. Wenn der Unicode weniger als vier Zeichen enthält, müssen Sie diesen mit Nullen ergänzen. Hier sehen Sie einige Beispiele:
 
 |Bezeichner  |Unicode  | Codierung für Power BI  |
 |---------|---------|---------|
@@ -159,18 +159,18 @@ Veröffentlichen Sie den Bericht für den Power BI-Dienst, und verwenden Sie die
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Anheften einer Kachel aus einem gefilterten Bericht
 
-Nachdem Sie den Bericht mithilfe von Abfragezeichenfolgenparametern gefiltert haben, können Sie Visualisierungen aus diesem Bericht an Ihr Dashboard anheften.  Die Kachel auf dem Dashboard zeigt die gefilterten Daten, und wenn Sie die Dashboardkachel auswählen, wird der zugrunde liegende Bericht geöffnet.  Die über die URL vorgenommene Filterung wird jedoch nicht zusammen mit dem Bericht gespeichert, und wenn Sie die Dashboardkachel auswählen, wird der Bericht ungefiltert geöffnet.  Die Daten auf der Dashboardkachel entsprechen nicht den Daten aus der Berichtsvisualisierung.
+Nachdem Sie den Bericht mithilfe von Abfragezeichenfolgenparametern gefiltert haben, können Sie Visualisierungen aus diesem Bericht an Ihr Dashboard anheften.  Die Kachel auf dem Dashboard zeigt die gefilterten Daten, und wenn Sie die Dashboardkachel auswählen, wird der zugrunde liegende Bericht geöffnet.  Die Filterung, die Sie mit der URL ausgeführt haben, wird jedoch nicht mit dem Bericht gespeichert. Wenn Sie die Dashboardkachel auswählen, wird der Bericht im ungefilterten Zustand geöffnet.  Das heißt, die Daten auf der Dashboardkachel entsprechen nicht den Daten aus der Berichtsvisualisierung.
 
-Das ist hilfreich, wenn Sie unterschiedliche Ergebnisse anzeigen möchten (gefilterte Ergebnisse auf dem Dashboard, ungefilterte Ergebnisse im Bericht).
+Diese Abweichung ist nützlich, wenn Sie unterschiedliche Ergebnisse anzeigen möchten (gefilterte Ergebnisse im Dashboard, ungefilterte Ergebnisse im Bericht).
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 
 Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beachtet werden.
 
 * Wenn Sie den *in*-Operator verwenden, müssen die Werte auf der rechten Seite von *in* einer mit Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen ist.    
-* Sie können in Power BI-Berichtsserver [Berichtsparameter übergeben](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), indem Sie sie in eine Berichts-URL einschließen. Diese URL-Parameter erhalten kein Präfix, da sie direkt an die Berichtsverarbeitungs-Engine übergeben werden.
+* Sie können in Power BI-Berichtsserver [Berichtsparameter übergeben](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), indem Sie sie in eine Berichts-URL einschließen. Diese URL-Parameter haben kein Präfix, da sie direkt an die Berichtsverarbeitungs-Engine übergeben werden.
 * Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) verwendet werden.
-* Beim [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) werden keine URL-Filter unterstützt.
+* Das [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) unterstützt keine URL-Filter.
 * Der Datentyp „long“ ist aufgrund von Beschränkungen bei JavaScript (2^53–1).
 * Berichts-URL-Filter verfügen über eine Einschränkung von zehn Ausdrücken (zehn Filter die per AND verbunden sind).
 

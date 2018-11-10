@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973584"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223166"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Welche Möglichkeiten bietet die Power BI-API für Entwickler?
 
@@ -29,10 +29,10 @@ Einige der Möglichkeiten, die die Power BI-APIs bieten:
 | Einbetten von Dashboards, Berichten und Kacheln für Power BI-Benutzer und Nicht-Power BI-Benutzer (Daten sind Eigentum der App) |[Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embedding-content.md) |
 | Erweitern eines vorhandenen Geschäftsworkflows, um wichtige Daten per Push in ein Power BI-Dashboard zu übertragen. |[Übertragen von Daten in ein Dashboard per Push](walkthrough-push-data.md) |
 | Authentifizieren bei Power BI. |[Authentifizieren bei Power BI](get-azuread-access-token.md) |
-| Erstellen einer benutzerdefinierten Visualisierung. |[Erstellen benutzerdefinierter Visualisierungen mithilfe von Entwicklertools](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Erstellen einer benutzerdefinierten Visualisierung. |[Entwickeln eines benutzerdefinierten Visuals für Power BI](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
-> Die APIs von Power BI verweisen weiterhin auf Arbeitsbereiche als Gruppen. Alle Verweise auf Gruppen bedeuten, dass Sie mit App-Arbeitsbereichen arbeiten.
+> Die APIs von Power BI verweisen weiterhin in Gruppen auf Arbeitsbereiche. Alle Verweise auf Gruppen bedeuten, dass Sie mit App-Arbeitsbereichen arbeiten.
 
 ## <a name="power-bi-developer-samples"></a>Power BI-Beispiele für Entwickler
 
@@ -72,7 +72,7 @@ Sie können die Power BI-API zum Übertragen von Daten per Push zu einem Dataset
 ## <a name="next-steps"></a>Nächste Schritte
 
 [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md)  
-[Erste Schritte mit den Power BI-Entwicklertools ](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Entwickeln eines benutzerdefinierten Visuals für Power BI](custom-visual-develop-tutorial.md)  
 [Referenz zur Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

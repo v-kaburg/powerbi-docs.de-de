@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
-ms.openlocfilehash: 34f34fd0a83367e306f8d84b4f9ebdf3cf30af93
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396771"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223051"
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -36,7 +36,7 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 | [Power BI und SAP BW](https://aka.ms/powerbiandsapbw)| In diesem Dokument wird erläutert, wie SAP-Kunden von der Verknüpfung von Power BI mit ihren vorhandenen SAP Business Warehouse-Systemen (BW) profitieren können.| Februar 2018 |
 | [Ansätze für die Power BI-Governance und -Bereitstellung](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | Dieses Dokument stellt Konzepte, Optionen und Vorschläge für die Governance innerhalb der Power BI-Umgebung bereit. | März 2016 |
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Sichern des tabellarischen BI-Semantikmodells) (in englischer Sprache) |In diesem Dokument wird das Sicherheitsmodell für die tabellarische BI-Semantik und Power BI vorgestellt. Sie erfahren, wie Sie Rollen erstellen, dynamische Sicherheit implementieren, Einstellungen für Identitätswechsel konfigurieren, Rollen verwalten und eine für den Sicherheitskontext Ihres Netzwerks geeignete Methode zum Herstellen einer Verbindung mit Modellen auswählen. | April 2016 |
-| [Power BI und die Datenschutz-Grundverordnung (DSGVO)](https://aka.ms/power-bi-gdpr-whitepaper)| Dieser Link leitet Sie zu einer Liste mit Whitepapers im Service Trust Portal weiter. U.a. finden Sie dort ein Whitepaper zu DSGVO von Microsoft Power BI. | April 2018 |
+| [Power BI und die Datenschutz-Grundverordnung (DSGVO)](https://aka.ms/power-bi-gdpr-whitepaper)| Dieser Link leitet Sie zu einer Liste mit Whitepapers im Service Trust Portal weiter. U.a. finden Sie dort ein Whitepaper zur DSGVO von Microsoft Power BI. | April 2018 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 

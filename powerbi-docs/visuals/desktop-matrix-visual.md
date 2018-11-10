@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416818"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101368"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Verwenden des Matrixvisuals in Power BI Desktop
-Mit dem Feature **Matrixvisual** können Sie visuelle Matrixelemente (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten erstellen. Das neue Feature ermöglicht die Kreuzhervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
+Mit dem Visualfeature **Matrix** können Sie Matrixvisuals (auch als *Tabellen* bezeichnet) in **Power BI Desktop**-Berichten und Berichten des **Power BI-Diensts** erstellen. Das neue Feature ermöglicht die übergreifende Hervorhebung von Elementen innerhalb der Matrix mit anderen Visuals. Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Die Auswahl einzelner und mehrerer Zellen kann kopiert und in andere Anwendungen eingefügt werden. Um den für Layouts verfügbaren Platz besser auszunutzen, unterstützt das Matrixvisual ein abgestuftes Layout.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 Die Matrix bietet viele Features, die in den folgenden Abschnitten dieses Artikels erläutert werden.
 
-> [!NOTE]
-> Ab dem **Power BI Desktop**-Release vom Juli 2017 übernehmen die neuen Matrix- und Tabellenvisuals die Formatierung (einschließlich der Farben) des angewendeten **Berichtsdesigns**. Diese entsprechen möglicherweise nicht den erwarteten Farben für das Matrixvisual, die Sie in der Konfiguration für Ihr **Berichtsdesign** ändern können. Weitere Informationen zu Designs finden Sie unter [**Verwenden von Berichtsdesigns in Power BI Desktop**](../desktop-report-themes.md).
-> 
-> 
+## <a name="report-themes"></a>Report themes
+Sowohl Matrix- als auch Tabellenvisuals spiegeln die Stile (einschließlich Farben) des angewandten **Berichtsdesigns** wider. Diese entsprechen möglicherweise nicht den erwarteten Farben für das Matrixvisual, die Sie in der Konfiguration für Ihr **Berichtsdesign** ändern können. Weitere Informationen zu Designs finden Sie unter [**Verwenden von Berichtsdesigns in Power BI Desktop**](../desktop-report-themes.md).
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Erläuterung der Berechnung von Summen mit Power BI
 
@@ -134,6 +132,20 @@ Jedes Element im **Matrixvisual** kann als Basis für Kreuzhervorhebungen dienen
 Auch wird STRG+Klicken jetzt für die Kreuzhervorhebung unterstützt. In der folgenden Abbildung sehen Sie eine Reihe von Unterkategorien, die im **Matrixvisual** ausgewählt wurden. Nicht ausgewählte Elemente sind abgeblendet (grau). Andere Visuals auf der Seite reflektieren die im **Matrixvisual** getroffene Auswahl.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Kopieren von Werten aus Power BI zum Verwenden in anderen Anwendungen
+
+Womöglich enthält Ihre Matrix oder Tabelle Inhalte, die Sie in anderen Anwendungen wie Dynamics CRM oder Excel oder sogar in anderen Power BI-Berichten verwenden möchten. Sie können in Power BI mit der rechten Maustaste auf eine einzelne Zelle oder eine Zellenauswahl klicken, um sie in die Zwischenablage zu kopieren und in die andere Anwendung einzufügen.
+
+![Kopieroptionen](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* Um den Wert einer einzelnen Zelle zu kopieren, wählen Sie die Zelle aus, klicken Sie mit der rechten Maustaste, und wählen Sie **Wert kopieren** aus. Der unformatierte Zellenwert befindet sich in der Zwischenablage und lässt sich nun in eine andere Anwendung einfügen.
+
+    ![Kopieroptionen](media/desktop-matrix-visual/power-bi-copy.png)
+
+* Um mehrere Zellen zu kopieren, markieren Sie einen Zellbereich, oder verwenden Sie die STRG-TASTE, um eine oder mehrere Zellen auszuwählen. Die Kopie enthält die Spalten- und Zeilenüberschriften.
+
+    ![Einfügen in Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Schattierung und Schriftfarben für Matrixvisuals
 Mit dem **Matrixvisual** können Sie **Bedingte Formatierung** (Farben und Schattierung) auf den Hintergrund von Zellen in der Matrix und bedingte Formatierung auf den Text und die Werte selbst anwenden.

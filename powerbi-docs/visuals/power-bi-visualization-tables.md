@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448820"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101460"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-Berichten und -Dashboards
 Eine Tabelle ist ein Raster, das zusammengehörende Daten in einer logischen Folge von Zeilen und Spalten enthält. Zudem können auch Kopfzeilen und eine Zeile für Summen enthalten sein. Tabellen empfehlen sich insbesondere für quantitative Vergleiche, bei denen Sie viele Werte einer einzigen Kategorie betrachten. In dieser Tabelle werden beispielsweise fünf verschiedene Measures für **Kategorie** angezeigt.
 
 ![](media/power-bi-visualization-tables/table.png)
+
+Erstellen Sie Tabellen in Berichten und heben Sie Elemente in der Tabelle mit anderen Visuals auf der gleichen Berichtsseite übergreifend hervor.  Darüber hinaus können Sie Zeilen, Spalten und sogar einzelne Zellen für die Kreuzhervorhebung auswählen. Die Auswahl einzelner und mehrerer Zellen kann kopiert und in andere Anwendungen eingefügt werden.
 
 ## <a name="when-to-use-a-table"></a>Verwenden von Tabellen
 Tabellen sind für folgende Zwecke gut geeignet:
@@ -108,9 +110,24 @@ Mit der bedingten Formatierung für Tabellen können Sie benutzerdefinierte Hint
 6. Wenn Sie eine bedingte Formatierung aus einer Visualisierung entfernen möchten, klicken Sie einfach mit der rechten Maustaste erneut auf das Feld, und wählen Sie **Bedingte Formatierung entfernen** aus.
 
 > [!TIP]
-> Die bedingte Formatierung ist auch über den Formatierungsbereich verfügbar (Farbrollensymbol). Wählen Sie den zu formatierenden Wert aus, und legen Sie dann **Farbskalen** oder **Datenbalken** auf „Ein“ fest, um die Standardeinstellungen zu übernehmen. Wählen Sie **Erweiterte Steuerelemente** aus, um die Einstellungen anzupassen.
+> Die bedingte Formatierung ist auch über den Formatierungsbereich verfügbar (Farbrollensymbol). Wählen Sie den zu formatierenden Wert aus, und legen Sie dann **Farbskalen** oder **Datenbalken** auf **Ein** fest, um die Standardeinstellungen zu übernehmen. Wenn Sie die Einstellungen anpassen möchten, wählen Sie **Erweiterte Steuerelemente** aus.
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Kopieren von Werten aus Power BI-Tabellen zum Verwenden in anderen Anwendungen
+
+Womöglich enthält Ihre Matrix oder Tabelle Inhalte, die Sie in anderen Anwendungen wie Dynamics CRM oder Excel oder sogar in anderen Power BI-Berichten verwenden möchten. Sie können in Power BI mit der rechten Maustaste auf eine einzelne Zelle oder eine Zellenauswahl klicken, um sie in die Zwischenablage zu kopieren und in die andere Anwendung einzufügen.
+
+
+* Um den Wert einer einzelnen Zelle zu kopieren, wählen Sie die Zelle aus, klicken Sie mit der rechten Maustaste, und wählen Sie **Wert kopieren** aus. Der unformatierte Zellenwert befindet sich in der Zwischenablage und lässt sich nun in eine andere Anwendung einfügen.
+
+    ![Kopieroptionen](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* Um mehrere Zellen zu kopieren, markieren Sie einen Zellbereich, oder verwenden Sie die STRG-TASTE, um eine oder mehrere Zellen auszuwählen. Die Kopie enthält die Spalten- und Zeilenüberschriften.
+
+    ![Kopieroptionen](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    Die Kopie enthält die Spalten- und Zeilenüberschriften.
+
+    ![Einfügen in Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Anpassen der Spaltenbreite in einer Tabelle
 Gelegentlich wird in Power BI eine Spaltenüberschrift in einem Bericht oder in einem Dashboard abgeschnitten. Zeigen Sie zum Anzeigen des gesamten Spaltennamens mit dem Mauszeiger auf den Bereich rechts neben der Überschrift, um die Doppelpfeile einzublenden, wählen Sie sie aus, und ziehen Sie sie.

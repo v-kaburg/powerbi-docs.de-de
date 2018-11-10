@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bdd43c820f87bb9308478b4e2100514349644d11
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 11ad100bce2e13d5622676f43573dee411a93221
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252374"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973302"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-Lizenzierung in Ihrem Unternehmen
 
@@ -150,6 +150,9 @@ Die AAD-Einstellung, die die Registrierung steuert, heißt **AllowAdHocSubscript
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
     ```
+
+> [!NOTE]
+> Das Flag AllowAdHocSubscriptions wird verwendet, um verschiedene Benutzeroptionen in Ihrer Organisation zu steuern, einschließlich der Möglichkeit, dass Benutzer sich beim Azure Rights Management Service registrieren können. Das Ändern dieses Flags wirkt sich auf all diese Optionen aus.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726936"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101253"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
@@ -328,7 +328,7 @@ Power BI-Berichtsserver unterstützt nun die neuen Power BI-Tabellen- und Matrix
 [Administratorübersicht](get-started.md) 
 [Power BI-Berichtsserver](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-[Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
