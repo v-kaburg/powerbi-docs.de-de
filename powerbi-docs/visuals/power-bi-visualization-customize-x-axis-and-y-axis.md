@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545943"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265907"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Anpassen der Eigenschaften der X- und Y-Achse
 In diesem Tutorial lernen Sie verschiedene Möglichkeiten zum Anpassen der X- und Y-Achse in Ihren visuellen Elementen kennen. Nicht alle visuellen Elemente verfügen über Achsen oder können angepasst werden. Bei Kreisdiagrammen gibt es z. B. keine Achsen. Darüber hinaus variieren die Anpassungsoptionen für die verschiedenen visuellen Elemente, sodass nicht alle Optionen in einem einzigen Artikel abgedeckt werden können. Betrachten wir daher die gängigsten Achsenanpassungen, damit Sie sich mit der Registerkarte für die visuelle Formatierung im Berichtszeichenbereich von Power BI vertraut machen können.  
@@ -86,30 +86,33 @@ Zunächst erstellen Sie ein Kombinationsdiagramm, das die Auswirkungen der Laden
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im April lag bei 45 %, im Juli fiel der Wert, und im August erreichte er wieder einen Spitzenwert. Sehen wir ein ähnliches Muster bei den Umsätzen im letzten und in diesem Jahr?
-> 2. Fügen Sie dem Liniendiagramm **Verkäufe in diesem Jahr > Wert** und **Verkäufe im letzten Jahr** hinzu. Da der **Bruttogewinn % Vorjahr** (die blaue Linie entlang der Gitternetzlinie für 0 %) wesentlich kleiner ist als die **Umsätze**, können diese Werte nur schwer verglichen werden. Und die Prozentwerte in den Bezeichnungen auf der Y-Achse sind viel zu groß.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im April lag bei 45 %, im Juli fiel der Wert, und im August erreichte er wieder einen Spitzenwert. Sehen wir ein ähnliches Muster bei den Umsätzen im letzten und in diesem Jahr?
+     
+3. Fügen Sie dem Liniendiagramm **Verkäufe in diesem Jahr > Wert** und **Verkäufe im letzten Jahr** hinzu. Da der **Bruttogewinn % Vorjahr** (die blaue Linie entlang der Gitternetzlinie für 0 %) wesentlich kleiner ist als die **Umsätze**, können diese Werte nur schwer verglichen werden. Und die Prozentwerte in den Bezeichnungen auf der Y-Achse sind viel zu groß.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Konvertieren Sie das Liniendiagramm zu einem Linien- und gestapelten Säulendiagramm, damit die Visualisierung besser gelesen und interpretiert werden kann.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. Ziehen Sie **Bruttogewinn % Vorjahr** aus **Spaltenwerte** in **Zeilenwerte**. Wir verfügen jetzt über das gestapelte Säulendiagramm, das wir oben erstellt haben, ***und*** ein Liniendiagramm.  (Optional können Sie die Schriftfarbe und -größe der Achsen formatieren, indem Sie anwenden, was Sie weiter oben gelernt haben.)
    
-
    Power BI erstellt zwei Achsen, sodass die Datasets anders skaliert werden können. Die linke Achse gibt den Dollarbetrag an, die rechte Achse die Prozentzahl.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>Formatieren der sekundären Y-Achse
-1. Wählen Sie im Bereich **Visualisierungen** das Farbrollersymbol aus, um die Formatierungsoptionen anzuzeigen.
-2. Erweitern Sie die Optionen für die Y-Achse, indem Sie den Pfeil nach unten auswählen.
-3. Scrollen Sie in der Liste zu den Optionen für **Sekundäre anzeigen**. Legen Sie **Sekundäre anzeigen** von **Aus** auf **Ein** fest.
+1. Wählen Sie im Bereich **Visualisierungen** das Farbrollersymbol aus, um die Formatierungsoptionen anzuzeigen.    
+2. Erweitern Sie die Optionen für die Y-Achse, indem Sie den Pfeil nach unten auswählen.    
+3. Scrollen Sie in der Liste zu den Optionen für **Sekundäre anzeigen**. Legen Sie **Sekundäre anzeigen** von **Aus** auf **Ein** fest.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (Optional) Passen Sie die beiden Achsen an. Wenn Sie die **Position** für die Spaltenachse oder Zeilenachse wechseln, werden die Seiten der beiden Achsen vertauscht.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Bei einer so komplexen Visualisierung ist es hilfreich, wenn den Achsen Titel hi
 1. Legen Sie **Titel** für **Y-Achse (Spalte)** und **Y-Achse (Linie)** auf **Ein** fest.
 2. Wählen Sie für **Stil** die Option **Nur Titel anzeigen**.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. Das Kombinationsdiagramm zeigt nun zwei Achsen mit Titeln an.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473923"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507594"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard für Benutzer des Power BI-Diensts
 
@@ -26,7 +26,7 @@ Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich
 Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet. Kacheln stammen aus Berichten und werden an ein Dashboard *angeheftet*. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](end-user-basic-concepts.md).
 
 > [!NOTE]
-> Dashboards sind ein Feature des Power BI-Diensts. In Power BI Desktop sind sie nicht verfügbar. Obwohl Dashboards nicht mit Mobilgeräten erstellt werden können, lassen sie sich dort [anzeigen und freigeben](/mobile/mobile-apps-view-dashboard.md).
+> Dashboards sind ein Feature des Power BI-Diensts. In Power BI Desktop sind sie nicht verfügbar. Obwohl Dashboards nicht mit Mobilgeräten erstellt werden können, lassen sie sich dort [anzeigen und freigeben](mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 

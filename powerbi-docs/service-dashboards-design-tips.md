@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544961"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507851"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tipps zum Gestalten von Power BI-Dashboards
 Nachdem Sie ein Dashboard erstellt und einige Kacheln hinzugefügt haben, können Sie Ihr Dashboard ansprechend und funktionell gestalten. In der Regel bedeutet das, dass die wichtigsten Informationen hervorgehoben werden, sodass das Dashboard ordentlich und übersichtlich ist.
@@ -43,7 +43,7 @@ Dashboards sind dafür vorgesehen, auf einen Blick wichtige Informationen anzuze
 Ist das Dashboard unübersichtlich?  Entfernen Sie alles bis auf die wesentlichen Informationen, die leicht gelesen und interpretiert werden können.
 
 ## <a name="make-use-of-full-screen-mode"></a>Nutzen des Vollbildmodus
-Zeigen Sie das Dashboard im [Vollbildmodus](service-fullscreen-mode.md) ohne störende Elemente an.
+Zeigen Sie das Dashboard im [Vollbildmodus](consumer/end-user-focus.md) ohne störende Elemente an.
 
 ## <a name="make-the-most-important-information-biggest"></a>Die wichtigsten Informationen in der größten Schrift anzeigen
 Wenn die Texte und Visualisierungen auf Ihrem Dashboard alle gleich groß sind, haben die Leser Schwierigkeiten, sich auf das Wesentliche zu konzentrieren. So sind z. B. Kartenvisualisierungen eine gute Möglichkeit, wichtige Informationen anschaulich zu präsentieren:  

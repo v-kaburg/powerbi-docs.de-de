@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799181"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508012"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -46,7 +46,7 @@ Dieses Glossar ist eine Communityinitiative.  Fehlt hier ein Begriff? Bitten Sie
 
 **Zuweisen** [Power BI Premium] Verb für das Verschieben eines Arbeitsbereichs in dedizierte Kapazität hinein oder aus dieser heraus. Verwenden Sie für das Verschieben eines Arbeitsbereichs in die dedizierte Kapazität nicht den Begriff „höher stufen“, da dies den Eindruck erweckt, dedizierte Kapazität habe einen höheren Rang als gemeinsam genutzte Kapazität.  
 
-## <a name="b"></a>B
+## <a name="b"></a>F
 
 **BI, Business Intelligence**
 
@@ -138,7 +138,7 @@ In Dokumentation kann „Power BI-Umgebung (Mandant)“ verwendet werden; hier k
 ## <a name="h"></a>H
 **Visuelle Elemente mit hoher Dichte** Visuelle Elemente mit mehr Datenpunkten als Power BI darstellen kann. Power BI nimmt Stichproblem der Daten, um die Form und Ausreißer darzustellen.
 
-## <a name="i"></a>I
+## <a name="i"></a>K
 
 **Erkenntnisse** Die automatische Datenanalyse, die durch das Ausführen unserer Algorithmen für maschinelles Lernen erfolgt.
 
@@ -317,4 +317,4 @@ Power BI-Dashboards enthalten Berichtskacheln.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-- [Power BI – Grundkonzepte für Power BI-Endverbraucher](/consumers/end-user-basic-concepts.md)
+[Power BI – Grundkonzepte für Power BI-Endverbraucher](end-user-basic-concepts.md)

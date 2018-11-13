@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558445"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297134"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -47,9 +47,9 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Herunterladen und Installieren von On-premises Data Gateway
 
-Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter. 
+Klicken Sie im Menü „Downloads“ auf **Datengateway**, um das Gateway herunterzuladen. Laden Sie [On-premises data gateway](http://go.microsoft.com/fwlink/?LinkID=820925) herunter.
 
-Beachten Sie, dass das Aktualisieren des lokalen Datengateways durch dessen Neuinstallation erreicht wird, wie in diesem Abschnitt beschrieben wird. Wenn Sie das Gateway (durch Neuinstallation) aktualisieren, werden Ihre vorhandenen Gatewayeinstellungen beibehalten.
+Beachten Sie, dass Sie das lokale Datengateway aktualisieren, indem Sie das Gateway erneut installieren, wie in diesem Abschnitt beschrieben. Wenn Sie eine neuere Version des Gateways installieren, bleiben Ihre bestehenden Einstellungen erhalten. Wenn Sie die gleiche Version installieren, gilt das als komplette Neuinstallation. Das heißt, Ihre Einstellungen werden nicht übernommen.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -118,7 +118,7 @@ Wenn Sie der Meinung sind, dass Proxyprobleme mit dem Gateway vorliegen, finden 
 [Verwalten der Datenquelle – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Verwalten der Datenquelle – Import/Geplante Aktualisierung](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Ausführliche Informationen zum lokalen Datengateway](service-gateway-onprem-indepth.md)  
-[Lokales Datengateway (persönlicher Modus) – die neue Version des persönlichen Gateways](service-gateway-personal-mode.md)
+[Lokales Datengateway (persönlicher Modus) – die neue Version des persönlichen Gateways](service-gateway-personal-mode.md)  
 [Konfigurieren von Proxyeinstellungen für das lokale Datengateway](service-gateway-proxy.md)  
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

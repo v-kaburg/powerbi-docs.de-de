@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564990"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507667"
 ---
 # <a name="printing-from-power-bi-service"></a>Drucken im Power BI-Dienst
 Drucken Sie vom Power BI-Dienst aus ein ganzes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Berichtsvisualisierung. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken.
@@ -47,7 +47,7 @@ Sehen Sie sich an, wie Amanda aus ihrem Dashboard und Bericht druckt. Befolgen S
 1. [Öffnen Sie die Kachel im Fokusmodus](end-user-focus.md), indem Sie zuerst auf die Auslassungspunkte und anschließend auf das Fokussymbol ![Fokussymbol](./media/end-user-print/power-bi-focus-icon.png) klicken.
    
     ![Das Menü mit Auslassungspunkten (...)](./media/end-user-print/menu-options.png)
-2. Öffnen Sie die Kachel im [Vollbildmodus](../service-fullscreen-mode.md), indem Sie in der oberen Navigationsleiste auf das Vollbildsymbol ![Vollbildsymbol](./media/end-user-print/power-bi-full-screen-icon.png) klicken.
+2. Öffnen Sie die Kachel im [Vollbildmodus](end-user-focus.md), indem Sie in der oberen Navigationsleiste auf das Vollbildsymbol ![Vollbildsymbol](./media/end-user-print/power-bi-full-screen-icon.png) klicken.
 3. Zeigen Sie auf die Kachel, um das Menü „Optionen“ anzuzeigen.
    
     ![Menü „Vollbildoptionen“](./media/end-user-print/menu-options-new.png)
