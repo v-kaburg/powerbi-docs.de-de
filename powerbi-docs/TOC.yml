@@ -54,13 +54,15 @@ items:
     items:
     - name: Welche Neuheiten enthält das aktuellste Update für Power BI Desktop?
       href: desktop-latest-update.md
-    - name: Aggregationen in Power BI Desktop (Vorschauversion)
+    - name: Modellierungsansicht in Power BI Desktop (Vorschau)
+      href: desktop-modeling-view.md
+    - name: Aggregationen in Power BI Desktop (Vorschau)
       href: desktop-aggregations.md
-    - name: Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)
+    - name: Zusammengesetzte Modelle in Power BI Desktop
       href: desktop-composite-models.md
-    - name: M:n-Beziehungen in Power BI Desktop (Vorschau)
+    - name: m:n-Beziehungen in Power BI Desktop (Vorschau)
       href: desktop-many-to-many-relationships.md
-    - name: Speichermodus in Power BI Desktop (Vorschauversion)
+    - name: Speichermodus in Power BI Desktop (Vorschau)
       href: desktop-storage-mode.md
     - name: Bidirektionale Kreuzfilterung in Power BI Desktop (Vorschau)
       href: desktop-bidirectional-filtering.md
@@ -232,6 +234,8 @@ items:
         href: desktop-bookmarks.md
       - name: Verwenden von Berichtdesigns
         href: desktop-report-themes.md
+      - name: Testen der neuen Filteroberfläche
+        href: power-bi-report-filter-preview.md
       - name: Verwenden von Schnellmeasures
         href: desktop-quick-measures.md
       - name: Verwenden eines Was-wäre-wenn-Parameters
@@ -768,17 +772,17 @@ items:
       items:
       - name: Self-Service-Datenvorbereitung mit Dataflows (Vorschau)
         href: service-dataflows-overview.md
-      - name: Erstellen und Verwenden von Dataflows
+      - name: Erstellen und Verwenden von Dataflows (Vorschau)
         href: service-dataflows-create-use.md
-      - name: Berechnete Entitäten mit Power BI Premium
+      - name: Berechnete Entitäten mit Power BI Premium (Vorschau)
         href: service-dataflows-computed-entities-premium.md
-      - name: Verwenden von Dataflows mit lokalen Datenquellen
+      - name: Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)
         href: service-dataflows-on-premises-gateways.md
       - name: Verknüpfen von Entitäten zwischen Dataflows (Vorschau)
         href: service-dataflows-linked-entities.md
       - name: Verwenden der inkrementellen Aktualisierung mit Dataflows (Vorschau)
         href: service-dataflows-incremental-refresh.md
-      - name: Entwicklerressourcen für Dataflows
+      - name: Entwicklerressourcen für Dataflows (Vorschau)
         href: service-dataflows-developer-resources.md
       - name: Herstellen einer Verbindung mit Dataflows in Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -1249,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508058"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619660"
