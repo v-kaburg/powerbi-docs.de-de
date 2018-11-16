@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223051"
+ms.locfileid: "51266091"
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
@@ -22,13 +22,14 @@ Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befas
 
 | Whitepaper | Beschreibung | Date |
 | --- | --- | --- |
+| [Power BI und Dataflows](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Dieses Whitepaper beschreibt die technischen Details von Dataflows sowie die Funktionalitäten und Ansätze von Dataflowfeatures. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschreibt Power BI Premium, sowohl im Zustand beim Start als auch bei der weiteren Entwicklung. | Oktober 2017 |
 | [Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment)| In diesem Dokument finden Sie Anleitungen und Best Practices für die Planung und Bereitstellung von Premium-Kapazität bei klar definierten Workloads.| November 2017 |
 | [Plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) |Dieses Whitepaper bietet eine Anleitung für einen App-Entwickler/ISV, um die am besten geeignete Kapazität für sein Unternehmen zu bestimmen. | Oktober 2017 |
 | [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) |Dies ist ein technisches Whitepaper, in dem Überlegungen zu einer gut funktionierenden und sicheren Power BI-Bereitstellung für eine Organisation umrissen werden. | Juli 2018 |
 | [Leitfaden zur Kapazitätsplanung für den Power BI-Berichtsserver](report-server/capacity-planning.md) |Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. | März 2018 |
 | [Sicherheit in Power BI](service-admin-power-bi-security.md) |Bietet eine ausführliche Erläuterung der Sicherheit in Power BI. | Juli 2018 |
-| [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|In diesem Dokument wird beschrieben, wie Sie mithilfe der Integration von Azure Active Directory Business-to-Business (AAD B2B) Inhalte an Benutzer außerhalb der Organisation verteilen.| März 2018 |
+| [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|In diesem Dokument wird beschrieben, wie Sie mithilfe der Integration von Azure Active Directory-Business-to-Business (AAD B2B) Inhalte an Benutzer außerhalb der Organisation verteilen.| März 2018 |
 | [Uncover actionable insights with advanced analytics in Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) (Erlangen handlungsrelevanter Informationen durch erweiterte Analysen mit Power BI) (in englischer Sprache) |Beschreibt die erweiterten Analysefunktionen von Power BI, einschließlich Vorhersageanalysen, benutzerdefinierter Visualisierungen, R-Integration und Data Analysis Expressions. | Februar 2017 |
 | [Bewährte Entwurfsmethoden für Berichte und Visualisierungen](visuals/power-bi-visualization-best-practices.md) |Enthält bewährte Methoden für das Entwerfen von Berichten in Power BI. | Juni 2018 |
 | [Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop (Vorschau)](desktop-bidirectional-filtering.md) |Erläutert die bidirektionale Kreuzfilterung in Power BI Desktop. (Das Whitepaper deckt auch SQL Server Analysis Services 2016 ab, da sich beide gleich verhalten.) | Juli 2018 |

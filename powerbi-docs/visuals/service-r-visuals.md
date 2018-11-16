@@ -1,5 +1,5 @@
 ---
-title: Erstellen von erweiterten Analysen und Visualisierungen mithilfe von R-Skripts in Power BI
+title: Erstellen von erweiterten Analysen und Visualisierungen mithilfe von R-Skripts
 description: Verwenden von R-Skripts in Power BI zum Erstellen erweiterter Analysen und erweiterter Visualisierungen
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566347"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297111"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Erstellen von R-Visualisierungen im Power BI-Dienst
 Der Power BI-Dienst unterstützt das Anzeigen von und das Interagieren mit Visualisierungen, die mit R-Skripts erstellt werden. Visualisierungen, die mit R-Skripts erstellt werden, sogenannte*R-Visualisierungen*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich die starke Leistung von R hinsichtlich Analysen und Visualisierung zu Nutze machen.
 
 > [!NOTE]
-> Die [Programmiersprache R](https://www.r-project.org/) gehört zu den von Statistikern, Datenanalysten und Business Analysten am häufigsten verwendeten Programmiersprachen. Die Sprache R verfügt über eine Open-Source-Community, die über 7.000 Add-On-Pakete sowie häufig verwendete [R-Benutzergruppen](http://msdsug.microsoft.com/) zur Verfügung stellt. Die im Power BI-Dienst bereitgestellte Version von R ist *Revolution R Open 3.2.2.*
+> Die [Programmiersprache R](https://www.r-project.org/) gehört zu den von Statistikern, Datenanalysten und Business Analysten am häufigsten verwendeten Programmiersprachen. Die Sprache R verfügt über eine Open-Source-Community, die über 7.000 Add-On-Pakete sowie häufig verwendete R-Benutzergruppen zur Verfügung stellt. Die im Power BI-Dienst bereitgestellte Version von R ist *Revolution R Open 3.2.2.*
 > 
 > 
 

@@ -1,23 +1,23 @@
 ---
 title: Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
-description: Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver.
+description: In diesem Artikel werden die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver aufgeführt.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780568"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507904"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver
-Hier finden Sie die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver.
+In diesem Artikel werden die Mindestanforderungen an die Hardware und Software zum Installieren und Ausführen von Power BI-Berichtsserver aufgeführt.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Prozessor-, Arbeitsspeicher- und Betriebssystemanforderungen
 
@@ -43,18 +43,19 @@ Als Host der Berichtsserver-Datenbanken wird SQL Server verwendet. Die Instanz d
 * SQL Server 2014
 * SQL Server 2012
 
-Zum Erstellen der Berichtsserver-Datenbank auf einem Remotecomputer müssen Sie die Verbindung für die Verwendung eines Domänenbenutzerkontos oder Dienstkontos konfigurieren, das Netzwerkzugriff hat. Wenn Sie eine Remoteinstanz von SQL Server verwenden möchten, sollten Sie sorgfältig überlegen, welche Anmeldeinformationen der Berichtsserver zum Herstellen der Verbindung mit der SQL Server-Instanz verwenden soll. Weitere Informationen finden Sie unter [Konfigurieren einer Verbindung mit der Berichtsserver-Datenbank](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
+Wenn Sie die Berichtsserver-Datenbank auf einem Remotecomputer erstellen, müssen Sie die Verbindung für die Verwendung eines Domänenbenutzerkontos oder Dienstkontos mit Netzwerkzugriff konfigurieren. Wenn Sie eine Remoteinstanz von SQL Server verwenden möchten, sollten Sie sorgfältig überlegen, welche Anmeldeinformationen der Berichtsserver zum Herstellen der Verbindung mit der SQL Server-Instanz verwenden soll. Weitere Informationen finden Sie unter [Konfigurieren einer Verbindung mit der Berichtsserver-Datenbank](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Überlegungen
 Power BI-Berichtsserver installiert Standardwerte zum Konfigurieren der Haupteinstellungen, die für die Inbetriebnahme eines Berichtsservers erforderlich sind. Es gelten die folgenden Anforderungen:
 
 * Eine SQL Server-Datenbank-Engine muss nach dem Setup und vor der Konfiguration der Datenbank für den Berichtsserver verfügbar sein. Die Instanz der Datenbank-Engine hostet die Berichtsserver-Datenbank, die der Konfigurations-Manager für Reporting Services erstellt. Die Datenbank-Engine ist für das eigentliche Setup nicht erforderlich.
+- Unter [Von den SQL Server-Editionen unterstützte Reporting Services-Features](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) werden Unterschiede zwischen den Editionen von SQL Server beschrieben.
 * Das Benutzerkonto zum Ausführen von Setup muss Mitglied der lokalen Gruppe „Administratoren“ sein.
-* Das Benutzerkonto für den Konfigurations-Manager für Reporting Services benötigen die Berechtigung für den Zugriff auf und das Erstellen von Datenbanken in der Instanz der Datenbank-Engine, die die Berichtsserver-Datenbanken hostet.
+* Das Benutzerkonto für den Konfigurations-Manager für Reporting Services benötigt die Berechtigung für den Zugriff auf und das Erstellen von Datenbanken in der Instanz der Datenbank-Engine, die die Berichtsserver-Datenbanken hostet.
 * Setup muss die Standardwerte verwenden können, um die URLs zu reservieren, die Zugriff auf den Berichtsserver und das Webportal gewähren. Zu diesen Werten gehören Port 80, ein Platzhalter und Namen der virtuellen Verzeichnisse im Format **ReportServer** und **Reports**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Schreibgeschützter Domänencontroller (RODC)
- Wenngleich der Berichtsserver in einer Umgebung mit einem schreibgeschützten Domänencontroller (RODC) installiert werden kann, benötigt Reporting Services Zugriff auf einen Domänencontroller mit Lese-/Schreibzugriff, um ordnungsgemäß zu funktionieren. Wenn Reporting Services nur auf einen RODC zugreifen kann, können beim Versuch, den Dienst zu verwalten, Fehler auftreten.
+ Sie können den Berichtsserver in einer Umgebung installieren, die über einen schreibgeschützten Domänencontroller (RODC) verfügt. Reporting Services benötigt jedoch Zugriff auf einen Domänencontroller mit Lese-/Schreibzugriff, um ordnungsgemäß zu funktionieren. Wenn Reporting Services nur auf einen RODC zugreifen kann, können beim Versuch, den Dienst zu verwalten, Fehler auftreten.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI-Berichte und Analysis Services-Liveverbindungen
 Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanzen verwenden. Ihr Server mit Analysis Services benötigt die richtige Version und Edition, um ordnungsgemäß zu funktionieren.
@@ -69,7 +70,7 @@ Sie können eine Liveverbindung für tabellarische oder mehrdimensionale Instanz
 [Was ist der Power BI-Berichtsserver?](get-started.md)  
 [Administratorübersicht](admin-handbook-overview.md)  
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-[Installieren des Berichts-Generators](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

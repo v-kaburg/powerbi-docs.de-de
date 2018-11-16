@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298203"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273331"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokales Datengateway (persönlicher Modus)
 Sie können lokale Datenquellen verwenden und Power BI-Berichte und Dashboards erstellen, indem Sie ein Gateway verwenden. Ein **Gateway** ist eine Software, die den Zugriff auf Daten erleichtert, die in einem privaten, lokalen Netzwerk gespeichert sind. Dann können Sie diese Daten in Onlinediensten wie z.B. **Power BI-Dienst** nutzen. Das **lokale Datengateway (persönlicher Modus)** ist ein kürzlich veröffentlichtes Update für das Power BI-Gateway, das es Benutzern ermöglicht, ein Gateway auf ihrem eigenen Computer zu installieren und auf lokale Daten zuzugreifen.
@@ -132,7 +132,7 @@ Unterstützung für Spark ist für die zweite Hälfte des Kalenderjahres 2017 ge
   * **Antwort**: Wenn Sie Ihre Berichte mit dem aktuellen Gateway aktualisieren, werden Ihre Aktualisierungen nicht mehr vorgenommen. Die einzige Möglichkeit zum Einrichten eines neuen Aktualisierungszeitplan wird durch das Installieren und Konfigurieren des neuen Gateways gegeben sein.
 * Ich verwende R-Skript. Wird dies unterstützt?
   
-  * **Antwort**: Wir werden bald eine Unterstützung für R-Skripts hinzufügen.
+  * **Antwort**: R-Skripts werden für den persönlichen Modus unterstützt.
 * Warum sehe ich die Nachricht, dass ich mein Gateway aktualisieren soll, nicht im **Power BI-Dienst**?
   
   * **Antwort**: Wahrscheinlich, weil Sie ein oder mehrere Datasets haben, die eine Datenquelle enthalten, die derzeit nicht unterstützt wird.

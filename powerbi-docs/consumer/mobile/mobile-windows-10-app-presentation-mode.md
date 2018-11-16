@@ -1,5 +1,5 @@
 ---
-title: Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI I
+title: Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
 description: Erfahren Sie, wie Sie Power BI-Berichte auf dem Surface Hub sowie Power BI-Dashboards, -Berichte und -Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen können.
 author: maggiesMSFT
 manager: kfile
@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 363bcae5a1bcc70d90cdb71f8a1ac2e2372b93e2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732771"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507931"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Anzeigen von Berichten im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
 Sie können Berichte auf dem Surface Hub im Präsentationsmodus sowie Dashboards, Berichte und Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen. 
@@ -27,7 +27,7 @@ Im Vollbildmodus in der mobilen Power BI-App werden alle Bedienelemente mit Ausn
 
 Wenn Sie einen Bericht auf dem Surface Hub im Präsentationsmodus anzeigen, können Sie in verschiedenen Farben direkt auf der Seite zeichnen und zwischen den Berichtsseiten navigieren.
 
-Sie können auch [Dashboards und Berichte über den Power BI-Dienst im Vollbildmodus anzeigen](../../service-fullscreen-mode.md), wenn diese im Web verfügbar sind.
+Sie können auch [Dashboards und Berichte über den Power BI-Dienst im Vollbildmodus anzeigen](../end-user-focus.md), wenn diese im Web verfügbar sind.
 
 > [!NOTE]
 > Der Präsentationsmodus unterscheidet sich vom [Fokusmodus für Kacheln](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ Der Präsentationsmodus ist auf dem Surface Hub standardmäßig aktiviert. Sollt
 7. Um den Vollbildmodus zu beenden, wischen Sie von oben nach unten, und tippen Sie auf die gegeneinander gerichteten Pfeile ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
 
 ## <a name="next-steps"></a>Nächste Schritte
-* [Anzeigen von Dashboards und Berichten im Vollbildmodus über den Power BI-Dienst](../../service-fullscreen-mode.md)
+* [Anzeigen von Dashboards und Berichten im Vollbildmodus über den Power BI-Dienst](../end-user-focus.md)
 * Haben Sie Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
 

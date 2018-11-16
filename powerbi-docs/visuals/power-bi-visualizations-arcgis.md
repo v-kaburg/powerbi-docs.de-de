@@ -4,19 +4,18 @@ description: Verwenden einer ArcGIS-Karte in der Leseansicht als Power BI-Berich
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003269"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266022"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagieren mit ArcGIS-Karten in Power BI
 Dieses Thema ist für Personen verfasst, die ArcGIS-Karten im Power BI-Dienst, in Power BI Desktop oder in einer mobilen Power BI-App *nutzen*. Sobald ein Ersteller eine ArcGIS-Karte für Sie freigegeben hat, gibt es viele Möglichkeiten für die Interaktion mit dieser Karte.  Weitere Informationen zum Erstellen einer ArcGIS-Karte finden Sie im [Tutorial zu ArcGIS Maps von ESRI](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ Dieses Thema ist für Personen verfasst, die ArcGIS-Karten im Power BI-Dienst, i
 Die Kombination von ArcGIS Maps und Power BI bietet völlig neue Möglichkeiten der Kartendarstellung, die über die Darstellung von Punkten auf einer Karte weit hinausgeht. Die verfügbaren Optionen für Basiskarten, Standorttypen, Designs, Symbolstile und Referenzebenen ermöglichen das Erstellen von beeindruckenden, aussagekräftigen Kartenvisualisierungen. Die Kombination von autoritativen Datenebenen (z.B. Volkszählungsdaten) auf einer Karte mit räumlicher Analyse vermittelt ein tieferes Verständnis der Daten in der Visualisierung.
 
 > [!TIP]
-> GIS steht für „Geographic Information Science“.
+> GIS steht für „Geoinformationssysteme“.
 > 
 
 Das hier verwendete Beispiel ist die im [Tutorial zu ArcGIS Maps von ESRI](../power-bi-visualization-arcgis.md) erstellte ArcGIS-Karte. In dieser wird der Vorjahresumsatz nach Ort ausgewertet. Es wird eine Basiskarte verwendet, die Größe wird durch Blasensymbole dargestellt, und für das mittlere Haushaltseinkommen wird eine Referenzebene verwendet. Die Karte enthält 3 Stecknadeln und einen Fahrzeitradius (in Violett).

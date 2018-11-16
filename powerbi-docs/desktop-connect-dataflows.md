@@ -1,5 +1,5 @@
 ---
-title: Herstellen einer Verbindung zu Daten, die von Power BI-Dataflows in Power BI Desktop (Vorschauversion) erstellt wurden
+title: Verbinden mit Daten, die von Power BI-Dataflows in Power BI Desktop (Beta) erstellt wurden
 description: Einfaches Verbinden mit und Verwenden von Dataflows in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,58 +7,46 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3964b96f8f282772f6d511c9c412e0caabd1d00
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512913"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265930"
 ---
-# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-preview"></a>Herstellen einer Verbindung zu Daten, die von Power BI-Dataflows in Power BI Desktop (Vorschauversion) erstellt wurden
+# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Verbinden mit Daten, die von Power BI-Dataflows in Power BI Desktop (Beta) erstellt wurden
 In **Power BI Desktop** können Sie eine Verbindung mit Daten herstellen, die von **Power BI-Dataflows** wie alle anderen Datenquellen in Power BI Desktop erstellt wurden.
 
 ![Verbinden mit Dataflows](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-Mit dem Connector **Power BI-Dataflows (Vorschauversion)** können Sie eine Verbindung zu Entitäten herstellen, die von Dataflows im Power BI-Dienst erstellt wurden. Da sich Dataflows in der Vorschauphase befinden, müssen Sie einige Schritte ausführen, um den Dataflows-Connector auf Ihrem System verfügbar zu machen. 
-
-
-## <a name="download-and-enable-the-power-bi-dataflows-connector-preview"></a>Herunterladen und Aktivieren des Power BI-Dataflows-Connectors (Vorschauversion)
-
-Sie müssen eine Kopie des **Power BI-Dataflows**-Connectors herunterladen und diese dann an einen bestimmten Speicherort auf Ihrem Computer kopieren. In einem zukünftigen monatlichen Update für Power BI Desktop ist der Connector automatisch in der Liste von Datenconnectors enthalten. Dann sind die genannten Schritte nicht mehr vonnöten.
-
-Sie können den **Power BI-Dataflows-Connector** hier herunterladen: [Power BI-Dataflows-Connector](https://visuals.azureedge.net/cds-analytics/PublicPreview/CDSA.mez)
-
-Mit den folgenden Schritten können Sie den **Power BI-Dataflows**-Connector (Vorschauversion) auf Ihrem Computer verfügbar machen.
-
-1. Laden Sie eine Kopie der MEZ-Datei (Datenconnectordatei) herunter. Kunden der privaten Vorschau erhalten die Downloadinformationen für die MEZ-Datei direkt von Microsoft.
-
-2. Legen Sie die heruntergeladene Datenconnectordatei im folgenden Ordner auf Ihrem Computer ab: **Dokumente > Power BI Desktop > Ordner „Benutzerdefinierte Connectors“**.
-
-3. Wechseln Sie in Power BI Desktop zu **Datei > Optionen und Einstellungen > Optionen**, und wählen Sie dann im linken Bereich **Vorschaufeatures** aus.
-
-    ![Aktivieren der benutzerdefinierten Connectors](media/desktop-connect-dataflows/connect-dataflows_02.png)
-
-4. Aktivieren Sie das Feld **Benutzerdefinierte Datenconnectors**, falls es nicht schon aktiviert ist. 
-
-5. Starten Sie **Power BI Desktop** neu, damit der Connector angezeigt wird.
-
-## <a name="use-the-power-bi-dataflows-connector-preview"></a>Verwenden des Power BI-Dataflows-Connectors (Vorschauversion)
-Sobald **Power BI Desktop** neu gestartet wurde, wird der Connector als verfügbare Datenquelle angezeigt. Klicken Sie wie in der folgenden Abbildung gezeigt auf **Daten abrufen > Onlinedienste > Power BI-Dataflows (Beta)**, um eine Verbinden mit dem Datenpool herzustellen.
-
-![Verbinden mit Dataflows](media/desktop-connect-dataflows/connect-dataflows_01.png)
+Mit dem Connector **Power BI-Dataflows (Beta)** können Sie eine Verbindung mit Entitäten herstellen, die von Dataflows im Power BI-Dienst erstellt wurden. 
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
-Damit Sie diese Vorschauversion des **Power BI-Dataflows-Connectors** verwenden können, müssen Sie die neueste Version von **Power BI Desktop** ausführen. Sie können [Power BI Desktop jederzeit herunterladen](desktop-get-the-desktop.md) und auf Ihrem Computer installieren, um sicherzustellen, dass Sie über die neueste Version verfügen.  
+Um diese Betaversion vom **Power BI-Dataflowconnector** zu verwenden, müssen Sie die neueste Version von **Power BI Desktop** ausführen. Sie können [Power BI Desktop jederzeit herunterladen](desktop-get-the-desktop.md) und auf Ihrem Computer installieren, um sicherzustellen, dass Sie über die neueste Version verfügen.  
 
-Hinweis: Wenn der Power BI-Dataflows-Connector in einem zukünftigen monatlichen Update für **Power BI Desktop** erscheint, *müssen* Sie die heruntergeladene MEZ-Datei aus dem Ordner unter **Dokumente > Power BI Desktop > Benutzerdefinierte Connectors** löschen, um Konflikte zu vermeiden. 
+> [!NOTE]
+> Die vorherige Version des Power BI-Dataflowconnectors erforderte, dass Sie eine MEZ-Datei herunterladen und in einem Ordner speichern. Aktuelle Versionen von **Power BI Desktop** enthalten den Power BI Dataflowconnector, sodass die Datei nicht mehr benötigt wird und keine Konflikte mit der enthaltenen Connecorversion verursachen kann. Wenn Sie die MEZ-Datei manuell in den Ordner verschieben, *müssen* Sie die heruntergeladene MEZ-Datei im Ordner **Dokumente > Power BI Desktop > Benutzerdefinierte Connectors** löschen, um Konflikte zu vermeiden. 
+
+## <a name="desktop-performance"></a>Power BI Desktop-Leistung
+**Power BI Desktop** wird lokal auf dem Computer ausgeführt, auf dem die App installiert wurde. Die Leistung der Dataflowerfassung wird von einer Vielzahl von Faktoren bestimmt. Zu diesen Faktoren gehören unter anderem die Datengröße, die CPU und der RAM Ihres Computers, die Netzwerkbandbreite sowie die Entfernung zum Rechenzentrum.
+
+Sie können die Leistung der Datenerfassung für Dataflows verbessern. Wenn z.B. die erfasste Datengröße zu groß ist, um von **Power BI Desktop** auf Ihrem Computer verwaltet zu werden, können Sie verknüpfte und berechnete Entitäten in Dataflows zum Aggregieren der Daten (in Dataflows) verwenden und nur vorbereitete, aggregierte Daten erfassen. Dadurch erfolgt die Verarbeitung großer Datenmengen online in Dataflows, anstatt lokal in Ihrer ausgeführten **Power BI Desktop**-Instanz. Mit diesem Ansatz kann Power BI Desktop kleinere Datenmengen erfassen und die Arbeit mit Dataflows schnell und reaktionsschnell gestalten.
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-Mit Power BI-Datenverbindungen können Sie viele interessante Aktionen durchführen. In den Artikeln zu **Power BI Desktop** erhalten Sie weitere nützliche Informationen:
+Power BI-Dataflows bieten Ihnen viele interessante Möglichkeiten. Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Self-Service-Datenaufbereitung mit Dataflows](service-dataflows-overview.md)
+* [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
+* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
+* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+
+Es gibt außerdem nützliche Artikel über **Power BI Desktop**:
 
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)

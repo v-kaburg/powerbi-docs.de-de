@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101644"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580538"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 
@@ -103,17 +103,14 @@ Führen Sie die folgenden Schritte aus, um den Fehler zu beheben:
 3. Installieren Sie das Gateway erneut.
 4. Wenden Sie bei Bedarf den Wiederherstellungsschlüssel an, um ein vorhandenes Gateway wiederherzustellen.
 
-### <a name="support-for-tls-1112"></a>Unterstützung für TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Unterstützung für TLS 1.2
 
-Ab dem Update von August 2017 verwendet das lokale Datengateway für die Kommunikation mit dem **Power BI-Dienst** standardmäßig Transport Layer Security (TLS) 1.1 bzw. 1.2. Frühere Versionen des lokalen Datengateways verwenden standardmäßig TLS 1.0. Sie müssen für Ihre Installationen des lokalen Datengateways ein Upgrade auf das Release vom August 2017 oder auf ein neueres Release durchführen, damit das Gateway weiterhin funktionsfähig ist.
+Standardmäßig verwendet das lokale Datengateway Transport Layer Security (TLS) 1.2 für die Kommunikation mit dem Power BI-Dienst. Um sicherzustellen, dass für sämtlichen Datenverkehr im Gateway TLS 1.2 verwendet wird, müssen Sie auf dem Computer, auf dem der Gatewaydienst ausgeführt wird, möglicherweise die folgenden Registrierungsschlüssel hinzufügen oder ändern:
 
->[!NOTE]
->Am 1. November 2017 endete die Unterstützung für TLS 1.0.
-
-Es ist zu beachten, dass bis zum 1. November 2017 TLS 1.0 durch das lokale Datengateway immer noch unterstützt und als Fallbackmechanismus verwendet wird. Um sicherzustellen, dass für sämtlichen Datenverkehr im Gateway TLS 1.1 oder 1.2 verwendet wird (und um die Verwendung von TLS 1.0 im Gateway zu verhindern), müssen Sie auf dem Computer, auf dem der Gatewaydienst ausgeführt wird, die folgenden Registrierungsschlüssel hinzufügen oder ändern:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Durch Hinzufügen bzw. Ändern dieser Registrierungsschlüssel wird die Änderung auf alle .NET-Anwendungen angewendet. Weitere Informationen zu den Registrierungsänderungen mit Auswirkungen auf TLS für andere Anwendungen finden Sie unter [TLS-Registrierungseinstellungen (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

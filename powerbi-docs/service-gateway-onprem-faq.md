@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299629"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273308"
 ---
 # <a name="on-premises-data-gateway-faq"></a>On-premises data gateway – Häufig gestellte Fragen
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299629"
 
 **Frage:** Kann das Gateway mit ExpressRoute verwendet werden?  
 **Antwort:** Ja. Weitere Informationen zu ExpressRoute und Power BI finden Sie unter [Power BI und ExpressRoute](service-admin-power-bi-expressroute.md).
+
+**Frage:** Ich verwende R-Skripts. Wird dies unterstützt?
+**Antwort**: R-Skripts werden nur für den persönlichen Modus unterstützt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Lokales Datengateway](service-gateway-onprem.md)  

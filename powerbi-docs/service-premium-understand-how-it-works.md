@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641739"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266068"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource
 
@@ -26,6 +26,7 @@ In diesem Artikel wird beschrieben, wie Power BI Premium Ressourcen verwaltet. A
 
 * Die Datasets, die in den Arbeitsspeicher geladen sind
 * Die Datasetaktualisierung (geplant und bedarfsgesteuert)
+* Von der Kapazität unterstützte Workloads
 * Berichtsabfragen
 
 Wenn eine Anforderung an ein veröffentlichtes Dataset in Ihrer Kapazität ausgegeben wird, wird das Dataset aus dem permanenten Speicher in den Arbeitsspeicher geladen (dies wird auch als Ladevorgang bezeichnet). Wenn das Dataset im Arbeitsspeicher geladen bleibt, erleichtert dies die schnelle Reaktion auf zukünftige Abfragen dieses Datasets. Abgesehen von dem Speicherplatz, der benötigt wird, um das Dataset im Arbeitsspeicher geladen zu halten, verbrauchen Berichtsabfragen und Datasetaktualisierungen zusätzlichen Arbeitsspeicher.
@@ -51,6 +52,10 @@ Datasets können nach einem Zeitplan oder bei Bedarf durch Benutzer aktualisiert
 Wenn der erforderliche Arbeitsspeicher trotz Entfernung nicht verfügbar ist, wird die Aktualisierung zur Wiederholung in die Warteschlange gestellt. Der Dienst unternimmt bis zum erfolgreichen Abschluss oder zum Beginn einer neuen Aktualisierung neue Versuche.
 
 Wenn eine interaktive Abfrage an ein Dataset in der Kapazität gerichtet wird und aufgrund einer laufenden Aktualisierung nicht genügend Arbeitsspeicher verfügbar ist, gilt diese Anforderung als nicht erfolgreich und muss vom Benutzer wiederholt werden.
+
+### <a name="workloads"></a>Arbeitsauslastungen
+
+Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Nun werden zwei weitere Workloads in der Vorschau unterstützt: **Paginierte Berichte** und **Dataflows**. Wenn diese aktiviert sind, können sie die Speicherauslastung in Ihrer Kapazität beeinträchtigen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>CPU-Ressourcenverwaltung in Premium-Kapazität
 

@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Kerberos am lokalen Gateway für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
+title: Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) bei lokalen Datenquellen
 description: Konfigurieren des Gateways mit Kerberos für SSO von Power BI bei lokalen Datenquellen
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101621"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508035"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 
@@ -27,8 +27,10 @@ Folgende Datenquellen werden derzeit unterstützt:
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 Außerdem wird SAP HANA mit [Security Assertion Markup Language (SAML)](service-gateway-sso-saml.md) unterstützt.
 
@@ -158,7 +160,7 @@ Schließlich muss dem Gatewaydienstkonto auf dem Computer, auf dem der Gatewaydi
 
 1. Wählen Sie in der Liste der Richtlinien unter **Zuweisen von Benutzerrechten** den Eintrag **Als Teil des Betriebssystems fungieren (SeTcbPrivilege)** aus. Vergewissern Sie sich, dass das Gatewaydienstkonto auch in der Liste der Konten aufgeführt wird.
 
-18. Starten Sie den Dienstprozess **Lokales Datengateway** neu.
+1. Starten Sie den Dienstprozess **Lokales Datengateway** neu.
 
 Wenn Sie SAP HANA verwenden, wird empfohlen, diese zusätzlichen Schritte durchzuführen, um die Leistung geringfügig zu verbessern.
 
@@ -200,9 +202,11 @@ An früherer Stelle in diesem Artikel wurde das Umstellen des Gateways von einem
 
 Da Sie nun wissen, wie Kerberos mit einem Gateway funktioniert, können Sie SSO für SAP Business Warehouse (SAP BW) konfigurieren. Bei den folgenden Schritten wird vorausgesetzt, dass Sie auf die [eingeschränkte Kerberos-Delegierung](#preparing-for-kerberos-constrained-delegation) vorbereitet sind, die zuvor im Artikel beschrieben wurde.
 
-### <a name="install-sap-bw-components"></a>Installieren von SAP BW-Komponenten
+Dieser Leitfaden wurde so umfassend wie möglich gestaltet. Wenn Sie bereits einige dieser Schritte durchgeführt haben, können Sie sie überspringen: Beispielsweise haben Sie bereits einen Service-Benutzer für Ihren BW-Server erstellt und ihm einen SPN zugeordnet, oder Sie haben die Bibliothek „gsskrb5“ bereits installiert.
 
-Wenn Sie SAP gsskrb5 und gx64krb5 noch nicht auf Ihren Clientcomputern und Ihrem SAP BW-Anwendungsserver eingerichtet haben, befolgen Sie die Anweisungen in diesem Abschnitt. Wenn Sie dieses Setup bereits durchgeführt haben (Sie haben einen Service-Benutzer für Ihren BW-Server erstellt und diesem einen SPN zugeordnet), können Sie diesen Abschnitt teilweise überspringen.
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Einrichten von gsskrb5 auf Clientcomputern und dem BW-Server
+
+gsskrb5 muss sowohl vom Client als auch vom Server genutzt werden, damit eine SSO-Verbindung über das Gateway hergestellt werden kann. Die Common Crypto-Bibliothek (sapcrypto) wird derzeit nicht unterstützt.
 
 1. Laden Sie gsskrb5/gx64krb5 von [SAP Note 2115486](https://launchpad.support.sap.com/) (S-User erforderlich) herunter. Versichern Sie sich, dass Sie mindestens Version 1.0.11.x von „gsskrb5.dll“ und „gx64krb5.dll“ besitzen.
 
@@ -212,15 +216,15 @@ Wenn Sie SAP gsskrb5 und gx64krb5 noch nicht auf Ihren Clientcomputern und Ihrem
 
 1. Legen Sie auf den Client- und Servercomputern die Umgebungsvariablen „SNC\_LIB“ und „SNC\_LIB\_64“ darauf fest, auf die Speicherorte von „gsskrb5.dll“ bzw. „gx64krb5.dll“ zu verweisen.
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>Abschließen der Gatewaykonfiguration für SAP BW
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>Erstellen eines BW-Service-Benutzers und Aktivieren der SNC-Kommunikation mit gsskrb5 auf dem BW-Server
 
 Neben der bereits durchgeführten Gatewaykonfiguration gibt es einige zusätzliche Schritte, die für SAP BW spezifisch sind. Im Abschnitt [**Configure delegation settings on the gateway service account (Konfigurieren von Delegierungseinstellungen für das Gatewaydienstkonto)**](#configure-delegation-settings-on-the-gateway-service-account) der Dokumentation wird davon ausgegangen, dass Sie bereits SPNs für die zugrunde liegenden Datenquellen konfiguriert haben. So führen Sie diese Konfiguration für SAP BW durch:
 
-1. Erstellen Sie auf einem Active Directory-Domänencontroller einen Service-Benutzer (zuerst nur einen einfachen Active Directory-Benutzer) für den SAP BW-Anwendungsserver in Ihrer Active Directory-Umgebung. Weisen Sie diesem anschließend einen SPN zu.
+1. Erstellen Sie auf einem Active Directory-Domänencontrollerserver einen Service-Benutzer (zuerst nur einen einfachen Active Directory-Benutzer) für den SAP BW-Anwendungsserver in Ihrer Active Directory-Umgebung. Weisen Sie diesem anschließend einen SPN zu.
 
-    Der zugewiesene SPN **muss** mit „SAP/“ beginnen. Den Rest des Namens können Sie frei wählen. Sie können beispielsweise den Benutzernamen des Service-Benutzers des SAP BW-Servers verwenden. Wenn Sie beispielsweise „BWServiceUser@\<DOMAIN\>“ als Service-Benutzer erstellt haben, können Sie den SPN „SAP/BWServiceUser“ verwenden. Sie können die SPN-Zuordnung beispielsweise mit dem Befehl „setspn“ festlegen. Wenn Sie beispielsweise den SPN für den gerade erstellten Service-Benutzer festlegen möchten, können Sie folgenden Befehl über ein Befehlsfenster auf einem Domänencontrollercomputer ausführen: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`.
+    SAP empfiehlt, den SPN mit „SAP/“ zu beginnen, aber auch die Verwendung anderer Präfixe wie z.B. „HTTP/“ sollte möglich sein. Den Rest des Namens können Sie frei wählen. Sie können beispielsweise den Benutzernamen des Service-Benutzers des SAP BW-Servers verwenden. Wenn Sie beispielsweise „BWServiceUser@\<DOMAIN\>“ als Service-Benutzer erstellt haben, können Sie den SPN „SAP/BWServiceUser“ verwenden. Sie können die SPN-Zuordnung beispielsweise mit dem Befehl „setspn“ festlegen. Wenn Sie beispielsweise den SPN für den gerade erstellten Service-Benutzer festlegen möchten, können Sie folgenden Befehl über ein Befehlsfenster auf einem Domänencontrollercomputer ausführen: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`. Weitere Informationen finden Sie in der SAP BW-Dokumentation.
 
-1. Gewähren Sie dem Service-Benutzer Zugriff auf die Instanz Ihres SAP BW-Anwendungsservers:
+1. Erteilen Sie dem Service-Benutzer Zugriff auf Ihren SAP BW-Anwendungsserver:
 
     1. Fügen Sie auf dem SAP BW-Servercomputer den Service-Benutzer zur lokalen Administratorgruppe für Ihren SAP BW-Server hinzu, indem Sie das Programm „Computerverwaltung“ öffnen und auf die lokale Administratorgruppe für Ihren Server doppelklicken.
 
@@ -238,7 +242,7 @@ Neben der bereits durchgeführten Gatewaykonfiguration gibt es einige zusätzlic
 
 1. Melden Sie sich bei Ihrem Server über SAP GUI/Logon an, und legen Sie folgende Profilparameter mithilfe der Transaktion RZ10 fest:
 
-    1. Legen Sie den Profilparameter „snc/identity/as“ auf „p:\<SAP BW-Service-Benutzer\>“ fest, z.B. p:BWServiceUser@MYDOMAIN.COM. Beachten Sie die Zeichenfolge „p:“, die dem UPN des Service-Benutzers vorangestellt ist.
+    1. Legen Sie den Profilparameter „snc/identity/as“ auf „p:\<SAP BW-Service-Benutzer\>“ fest, z.B. p:BWServiceUser@MYDOMAIN.COM. Beachten Sie das „p:“, das dem UPN des Service-Benutzers vorangestellt ist. Das Präfix lautet nicht „p:CN=“, wie bei Verwendung der Common Crypto-Bibliothek als SNC-Bibliothek.
 
     1. Legen Sie den Profilparameter „snc/gssapi\_lib“ auf \<Pfad zu gsskrb5.dll/gx64krb5.dll auf dem Servercomputer\> (die verwendete Bibliothek hängt von der Bitanzahl des Betriebssystems ab) fest. Achten Sie darauf, die Bibliothek an einem Ort zu speichern, auf den der SAP BW-Anwendungsserver zugreifen kann.
 
@@ -259,7 +263,7 @@ Neben der bereits durchgeführten Gatewaykonfiguration gibt es einige zusätzlic
 
 1. Wenn Sie diese Profilparameter festgelegt haben, öffnen Sie die SAP Management Console auf dem Servercomputer, und starten Sie die SAP BW-Instanz neu. Wenn der Server nicht startet, überprüfen Sie erneut, dass Sie die Profilparameter korrekt festgelegt haben. Weitere Informationen zu den Einstellungen für die Profilparameter finden Sie in der [SAP-Dokumentation](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm). Im Verlauf der Dokumentation finden Sie ebenfalls einen Abschnitt mit Problembehebungen, falls Probleme auftreten.
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>Zuordnen von Azure AD-Benutzern zu SAP BW-Benutzern
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>Zuordnen eines BW-Benutzers zu einem Active Directory-Benutzer
 
 Ordnen Sie einen Active Directory-Benutzer dem Benutzer eines SAP BW-Anwendungsservers zu, und testen Sie die SSO-Verbindung in SAP GUI/Logon.
 
@@ -275,7 +279,7 @@ Ordnen Sie einen Active Directory-Benutzer dem Benutzer eines SAP BW-Anwendungss
 
 1. Klicken Sie auf das Diskettensymbol in der Symbolleiste, um die Einstellung zu speichern.
 
-### <a name="verify-sign-in-using-sso"></a>Überprüfen der Anmeldung mit SSO
+### <a name="test-sign-in-using-sso"></a>Testen der Anmeldung mit SSO
 
 Überprüfen Sie, dass Sie sich über SAP GUI/Logon mit SSO als der Active Directory-Benutzer anmelden können, für den Sie den SSO-Zugriff gerade aktiviert haben.
 
@@ -287,11 +291,11 @@ Ordnen Sie einen Active Directory-Benutzer dem Benutzer eines SAP BW-Anwendungss
 
 1. Geben Sie die entsprechenden Details (einschließlich Anwendungsserver, Instanznummer und System-ID) auf der nächsten Seite ein, und klicken Sie dann auf **Finish** (Fertig stellen).
 
-1. Klicken Sie mit der rechten Maustaste auf die neue Verbindung, und wählen Sie **Properties** (Eigenschaften) aus. Wählen Sie die Registerkarte **Network** (Netzwerk) aus. Geben Sie im Fenster **SNC Name** (SNC-Name) den Wert „p:\<UPN des SAP BW-Service-Benutzers\>“ (z.B. p:BWServiceUser@MYDOMAIN.COM) ein.
+1. Klicken Sie mit der rechten Maustaste auf die neue Verbindung, und wählen Sie **Properties** (Eigenschaften) aus. Wählen Sie die Registerkarte **Network** (Netzwerk) aus. Geben Sie im Fenster **SNC Name** (SNC-Name) den Wert „p:\<UPN des SAP BW-Service-Benutzers\>“ (z.B. p:BWServiceUser@MYDOMAIN.COM) ein, und klicken Sie dann auf **OK**.
 
     ![Eigenschaften des Systemeintrags](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. Wählen Sie **OK**aus. Doppelklicken Sie nun auf die Verbindung, die Sie gerade erstellt haben, um eine SSO-Verbindung mit dem Dienst aufzubauen. Wenn die Verbindung erfolgreich ist, fahren Sie mit dem nächsten Schritt fort. Gehen Sie die vorherigen Schritt in dieser Dokumentation andernfalls erneut durch, um sicherzustellen, dass diese ordnungsgemäß durchgeführt wurden. Alternativ können Sie den untenstehenden Abschnitt zur Problembehandlung lesen. Beachten Sie, dass Sie keine Verbindung zum SAP BW-Server mit SSO im Gatewaykontext herstellen können, wenn die Verbindung in diesem Kontext fehlschlägt.
+1. Doppelklicken Sie auf die Verbindung, die Sie gerade erstellt haben, um eine SSO-Verbindung mit dem BW-Server aufzubauen. Wenn die Verbindung erfolgreich ist, fahren Sie mit dem nächsten Schritt fort. Gehen Sie die vorherigen Schritt in dieser Dokumentation andernfalls erneut durch, um sicherzustellen, dass diese ordnungsgemäß durchgeführt wurden. Alternativ können Sie den untenstehenden Abschnitt zur Problembehandlung lesen. Beachten Sie, dass Sie keine Verbindung zum SAP BW-Server mit SSO im Gatewaykontext herstellen können, wenn die Verbindung in diesem Kontext fehlschlägt.
 
 ### <a name="troubleshoot-installation-and-connections"></a>Behandeln von Installations- und Verbindungsproblemen
 
@@ -309,15 +313,33 @@ Befolgen Sie diese Schritte, wenn Probleme mit der Installation von gsskrb5 oder
 
 1. „(SNC error) the specified module could not be found“ ((SNC-Fehler) Das angegebene Modul wurde nicht gefunden.): Dieser Fehler wird üblicherweise dadurch verursacht, dass sich gsskrb5.dll/gx64krb5.dll an einem Speicherort befindet, der für den Zugriff erweiterte Berechtigungen (Administratorrechte) erfordert.
 
-### <a name="add-registry-entries"></a>Hinzufügen von Registrierungseinträgen
+### <a name="add-registry-entries-to-the-gateway-machine"></a>Hinzufügen von Registrierungseinträgen zum Gatewaycomputer
 
-Fügen Sie erforderliche Registrierungseinträge zur Registrierung des Computers hinzu, auf dem das Gateway installiert ist. Legen Sie anschließend die erforderlichen Konfigurationsparameter für das Gateway fest.
+Fügen Sie erforderliche Registrierungseinträge zur Registrierung des Computers hinzu, auf dem das Gateway installiert ist.
 
 1. Führen Sie folgende Befehle in einem Befehlsfenster aus:
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>Festlegen von Konfigurationsparametern auf dem Gatewaycomputer
+
+Es gibt zwei Optionen zum Festlegen von Konfigurationsparametern, je nachdem, ob Azure AD DirSync so konfiguriert ist, dass Benutzer sich als Azure AD-Benutzer beim Power BI-Dienst anmelden können.
+
+Wenn Azure AD DirSync konfiguriert ist, gehen Sie wie folgt vor.
+
+1. Öffnen Sie die Hauptdatei für die Gatewaykonfiguration, *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll*. Standardmäßig ist diese Datei unter *C:\Programme\Lokales Datengateway* gespeichert.
+
+1. Stellen Sie sicher, dass die Eigenschaft **FullDomainResolutionEnabled** auf TRUE und **SapHanaSsoRemoveDomainEnabled** auf FALSE festgelegt ist.
+
+1. Speichern Sie die Konfigurationsdatei.
+
+1. Starten Sie den Gatewaydienst über die Registerkarte „Dienste“ des Task-Managers neu (Rechtsklick > Neu starten).
+
+    ![Gateway neu starten](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+Wenn Sie Azure AD DirSync nicht konfiguriert haben, führen Sie diese Schritte für **jeden Power BI-Dienstbenutzer aus, den Sie einem Azure AD-Benutzer zuordnen möchten**. Durch diese Schritte wird ein Power BI-Dienstbenutzer manuell mit einem Active Directory-Benutzer mit der Berechtigung zur Anmeldung bei BW verknüpft.
 
 1. Öffnen Sie die Hauptdatei für die Gatewaykonfiguration, „Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll“. Standardmäßig befindet sich diese Datei unter C:\Programme\Lokales Datengateway.
 
@@ -327,19 +349,21 @@ Fügen Sie erforderliche Registrierungseinträge zur Registrierung des Computers
 
     ![Gateway neu starten](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>Festlegen von Azure AD-Eigenschaften
+1. Legen Sie die Eigenschaft „msDS-cloudExtensionAttribute1“ des Active Directory-Benutzers, den Sie einem SAP BW-Benutzer zugeordnet haben, auf den Power BI-Dienstbenutzer fest, für den Sie Kerberos-SSO aktivieren möchten. Sie können die Eigenschaft „msDS-cloudExtensionAttribute1“ beispielsweise über das MMC-Snap-In „Active Directory-Benutzer und -Computer“ festlegen. Es können jedoch auch andere Methoden verwendet werden.
 
-Legen Sie die Eigenschaft „msDS-cloudExtensionAttribute1“ des Active Directory-Benutzers, den Sie einem SAP BW-Benutzer () zugeordnet haben, auf den Power BI-Dienstbenutzer fest, für den Sie Kerberos-SSO aktivieren möchten. Sie können die Eigenschaft „msDS-cloudExtensionAttribute1“ beispielsweise über das MMC-Snap-In „Active Directory-Benutzer und -Computer“ festlegen. Es können jedoch auch andere Methoden verwendet werden.
+    1. Melden Sie sich bei einem Domänencontrollercomputer als Administrator an.
 
-1. Melden Sie sich bei einem Domänencontrollercomputer als Administrator an.
+    1. Öffnen Sie den Ordner **Users** (Benutzer) im Fenster des Snap-Ins, und doppelklicken Sie auf den Active Directory-Benutzer, den Sie einem SAP BW-Benutzer zugeordnet haben.
 
-1. Öffnen Sie den Ordner **Users** (Benutzer) im Fenster des Snap-Ins, und doppelklicken Sie auf den Active Directory-Benutzer, den Sie einem SAP BW-Benutzer zugeordnet haben.
+    1. Wählen Sie die Registerkarte **Attribute Editor** (Attribut-Editor) aus.
 
-1. Wählen Sie die Registerkarte **Attribute Editor** (Attribut-Editor) aus. Wenn diese Registerkarte nicht angezeigt wird, suchen Sie nach Anweisungen, wie Sie diese aktivieren, oder verwenden Sie eine andere Methode, um die Eigenschaft „msDS-cloudExtensionAttribute1“ festzulegen. Wählen Sie eines der Attribute aus, und drücken Sie die Taste „M“, um zu den Active Directory-Eigenschaften zu navigieren, die mit „m“ beginnen. Suchen Sie die Eigenschaft „msDS-cloudExtensionAttribute1“, und doppelklicken Sie darauf. Legen Sie den Wert auf den Benutzernamen fest, den Sie für die Anmeldung beim Power BI-Dienst verwenden. Wählen Sie **OK**aus.
+        Wenn diese Registerkarte nicht angezeigt wird, suchen Sie nach Anweisungen, wie Sie diese aktivieren, oder verwenden Sie eine andere Methode, um die Eigenschaft „msDS-cloudExtensionAttribute1“ festzulegen. Wählen Sie eines der Attribute aus, und drücken Sie die Taste „M“, um zu den Active Directory-Eigenschaften zu navigieren, die mit „m“ beginnen. Suchen Sie die Eigenschaft „msDS-cloudExtensionAttribute1“, und doppelklicken Sie darauf. Legen Sie den Wert auf den Benutzernamen fest, den Sie für die Anmeldung beim Power BI-Dienst verwenden. Verwenden Sie dazu das Format „YourUser@YourDomain“.
 
-    ![Attribut bearbeiten](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. Wählen Sie **OK**aus.
 
-1. Klicken Sie auf **Übernehmen**. Stellen Sie sicher, dass der richtige Wert in der Spalte „Value“ (Wert) festgelegt wurde.
+        ![Attribut bearbeiten](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. Klicken Sie auf **Übernehmen**. Stellen Sie sicher, dass der richtige Wert in der Spalte „Value“ (Wert) festgelegt wurde.
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Hinzufügen einer neuen Datenquelle eines SAP BW-Anwendungsservers zu Power BI
 
@@ -347,17 +371,19 @@ Fügen Sie die SAP BW-Datenquelle zu Ihrem Gateway hinzu: Befolgen Sie die weite
 
 1. Geben Sie im Konfigurationsfenster der Datenquelle genau wie bei der Anmeldung beim SAP BW-Server über Power BI Desktop den **Hostnamen**, die **Systemnummer** und die **Client-ID** des Anwendungsservers ein. Wählen Sie **Windows** als **Authentifizierungsmethode** aus.
 
-1. Geben Sie im Feld **Name des SNC-Partners** den Wert ein, der im Profilparameter „snc/identity/as“ des Servers gespeichert ist. *Fügen Sie dabei „SAP/“ zwischen „p:“ und dem Rest der Identität hinzu.* Wenn die SNC-Identität des Servers beispielsweise p:BWServiceUser@MYDOMAIN.COM entspricht, sollten Sie p:SAP/BWServiceUser@MYDOMAIN.COM im Eingabefeld „Name des SNC-Partners“ eingeben.
+1. Geben Sie im Feld **Name des SNC-Partners** Folgendes ein: p:\<SPN, den Sie Ihrem BW-Service-Benutzer zugeordnet haben\>. Wenn der SPN z.B. „SAP/BWServiceUser@MYDOMAIN.COM“ lautet, geben Sie „p:SAP/BWServiceUser@MYDOMAIN.COM“ im Feld **Name des SNC-Partners** ein.
 
 1. Legen Sie „SNC\_LIB“ oder „SNC\_LIB\_64“ als SNC-Bibliothek fest.
 
 1. Als **Benutzername** und **Kennwort** sollten der Benutzername und das Kennwort eines Active Directory-Benutzers mit der Berechtigung, sich über SSO beim SAP BW-Server anzumelden (also ein Active Directory-Benutzer, der einem SAP BW-Benutzer über die Transaktion SU01 zugeordnet wurde), verwendet werden. Diese Anmeldeinformationen werden nur verwendet, wenn das Kontrollkästchen **SSO über Kerberos für DirectQuery-Abfragen verwenden** *nicht* aktiviert ist.
 
-1. Überprüfen Sie das Kontrollkästchen **SSO über Kerberos für DirectQuery-Abfragen verwenden**, und klicken Sie auf **Übernehmen**. Wenn die Testverbindung nicht erfolgreich ist, überprüfen Sie, dass das Setup und die Konfigurationsschritte ordnungsgemäß durchgeführt wurden.
+1. Aktivieren Sie das Kontrollkästchen **SSO über Kerberos für DirectQuery-Abfragen verwenden**, und klicken Sie auf **Anwenden**. Wenn die Testverbindung nicht erfolgreich ist, überprüfen Sie, dass das Setup und die Konfigurationsschritte ordnungsgemäß durchgeführt wurden.
+
+    Das Gateway verwendet immer die eingegebenen Anmeldeinformationen, um eine Testverbindung mit dem Server herzustellen und geplante Aktualisierungen importbasierter Berichte durchzuführen. Das Gateway versucht nur, eine SSO-Verbindung herzustellen, wenn **SSO über Kerberos für DirectQuery-Abfragen verwenden** ausgewählt ist und der Benutzer auf einen Bericht oder ein Dataset auf DirectQuery-Basis zugreift.
 
 ### <a name="test-your-setup"></a>Testen des Setups
 
-Veröffentlichen Sie einen DirectQuery-Bericht über Power BI Desktop im Power BI-Dienst, um Ihr Setup zu testen. Stellen Sie sicher, dass Sie beim Power BI-Dienst als der Benutzer angemeldet sind, auf den Sie die Eigenschaft „msDS-cloudExtensionAttribute1“ festgelegt haben. Wenn das Setup erfolgreich abgeschlossen wurde, sollten Sie einen Bericht erstellen können, der auf dem veröffentlichten Dataset im Power BI-Dienst basiert, und Daten über die Visuals in den Bericht ziehen können.
+Veröffentlichen Sie einen DirectQuery-Bericht über Power BI Desktop im Power BI-Dienst, um Ihr Setup zu testen. Stellen Sie sicher, dass Sie beim Power BI-Dienst als Azure AD-Benutzer oder ein Benutzer angemeldet sind, den Sie der Eigenschaft „msDS-cloudExtensionAttribute1“ eines Azure AD-Benutzers zugeordnet haben. Wenn das Setup erfolgreich abgeschlossen wurde, sollten Sie basierend auf dem veröffentlichten Dataset im Power BI-Dienst einen Bericht erstellen und Daten über Visuals im Bericht per Pull übertragen können.
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>Behandlung von Konnektivitätsproblemen des Gateways
 

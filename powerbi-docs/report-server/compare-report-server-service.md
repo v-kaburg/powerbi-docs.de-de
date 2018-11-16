@@ -4,22 +4,24 @@ description: In diesem Artikel werden die Features des Power BI-Berichtsservers 
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908529"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507690"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
 Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten, aber auch einige wesentliche Unterschiede auf. In der folgenden Tabelle werden diese Ähnlichkeiten und Unterschiede erläutert.
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Features des Power BI-Berichtsservers und des Power BI-Diensts
 
 | Features | Power BI-Berichtsserver | Power BI-Dienst | Hinweise
 |---------|---------|---------|---------|
@@ -39,14 +41,14 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Q&A | Nein | Ja | [Q&A im Power BI-Dienst und in Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Schnelle Einblicke | Nein | Ja | [Automatisches Erstellen von Einblicken in Daten mit Power BI](../consumer/end-user-insights.md) 
 | In Excel analysieren | Nein | Ja | [In Excel analysieren](../service-analyze-in-excel.md) 
-| Paginierte Berichte | Ja | Nein | Paginierte Berichte sind im Power BI-Dienst nicht verfügbar, aber Sie können [paginierte Berichtelemente an Power BI-Dashboards anheften](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
+| Paginierte Berichte | Ja | Ja | [Paginierte Berichte sind in der Vorschauversion im Power BI-Dienst verfügbar](../paginated-reports-report-builder-power-bi.md)
 | Mobile Power BI-Apps | Ja | Ja | [Übersicht über mobile Power BI-Apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ArcGIS-Karten | Nein | Ja | [ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop](../power-bi-visualization-arcgis.md)
 | E-Mail-Abonnements für Power BI-Berichte | Nein | Ja | [Abonnieren eines Berichts oder Dashboards](../consumer/end-user-subscribe.md) im Power BI-Dienst 
 | E-Mail-Abonnements für paginierte Berichte | Ja | Nein | [E-Mail-Übermittlung in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Datenwarnungen | Nein | Ja | [Datenwarnungen](../service-set-data-alerts.md) im Power BI-Dienst
 | Sicherheit auf Zeilenebene | Nur über die Datenquelle im DirectQuery-Modus | Verfügbar im DirectQuery-Modus (Datenquelle) und im Importmodus | [Sicherheit auf Zeilenebene](../service-admin-rls.md) mit Power BI 
-| Vollbildmodus | Nein | Ja | [Vollbildmodus](../service-fullscreen-mode.md) im Power BI-Dienst 
+| Vollbildmodus | Nein | Ja | [Vollbildmodus](../consumer/end-user-focus.md) im Power BI-Dienst 
 | Erweiterte Zusammenarbeit mit Office 365 | Nein | Ja | [Zusammenarbeiten in einem App-Arbeitsbereich ](../service-collaborate-power-bi-workspace.md) mit Office 365 
 | Visuelle R-Elemente | Nein | Ja | [Erstellen von R-Visuals](../visuals/service-r-visuals.md) im Power BI-Dienst  
 | Vorschaufeatures | Nein | Ja | [Aktivieren von Vorschaufeatures im Power BI-Dienst](../consumer/end-user-preview-features.md) 

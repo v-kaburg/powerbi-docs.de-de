@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909243"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297226"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,26 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>Oktober 2018
+
+### <a name="paginated-report-preview-all-devices"></a>Paginierte Berichte – Vorschau (alle Geräte)
+
+Paginierte Berichte sind jetzt im Power BI-Dienst verfügbar. Benutzer mit Zugriff auf paginierte Berichte im Power BI-Dienst können auch über ihre mobile App auf diese Berichte zugreifen. 
+
+Lesen Sie den Power BI-[Blogbeitrag zu paginierten Berichten auf Mobilgeräten](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+
+### <a name="shared-credentials-ios"></a>Gemeinsam genutzte Anmeldeinformationen (iOS)
+
+Die Anmeldung bei Power BI in Ihrer mobilen App ist so einfach wie noch nie. Durch gemeinsam genutzte Anmeldeinformationen haben wir den Anmeldeprozess vereinfacht. Hierbei können Sie andere Office 365-App-Anmeldeinformationen auf dem Gerät verwenden, um sich beim Power BI-Dienst zu authentifizieren.
+
+### <a name="in-app-urls-ios"></a>In-App-URLs (iOS) 
+
+Links in Berichten, die auf andere Power BI-Artefakte zeigen, werden jetzt direkt in der App geöffnet. So können Sie benutzerdefinierte Navigationsflows erstellen, indem Sie z.B. einen Link von einem Bericht zu einem Dashboard einrichten.
+
+### <a name="ios12-and-watchos-5-support"></a>Unterstützung für iOS12 und watchOS 5 
+
+Wir haben die Power BI-App für iOS so aktualisiert, dass sie problemlos mit dem neuen Betriebssystem auf mobilen Geräten und der Watch funktioniert.
 
 ## <a name="september-2018"></a>September 2018
 
@@ -41,10 +61,11 @@ Lesen Sie den [Power BI-Blogbeitrag über Dashboard-Kommentare](https://powerbi.
 
 Einmaliges Anmelden (SSO) ist eine der am meist gefragten Funktionen für Power BI Mobile für Windows. Sie können sich mit Ihrem primären Organisationskonto nun nicht nur bei mobilen Windows-Geräten anmelden, die in Ihre Domäne eingebunden sind, sondern auch nahtlos beim Power BI-Dienst. Erfahren Sie mehr über [SSO and the Windows mobile apps (Einmaliges Anmelden und die mobilen Windows-Apps)](mobile-windows-10-app-single-sign-on-sso.md).
 
+## <a name="previous-months"></a>Vorherige Monate
 
-## <a name="july-2018"></a>Juli 2018
+### <a name="july-2018"></a>Juli 2018
 
-### <a name="ios-and-android-only"></a>Nur iOS und Android
+#### <a name="ios-and-android-only"></a>Nur iOS und Android
 
 **Freigegebene Filter**
 
@@ -55,127 +76,125 @@ Sie können ab sofort Berichte mit freigegebenen Filtern und Slicern empfangen.
 Wenn Sie einen Bericht auf Ihrem Mobilgerät im Querformat anzeigen, sehen Sie die gleichen Hintergrundbilder wie in Power BI im Web.
 
 
-## <a name="june-2018"></a>Juni 2018
+### <a name="june-2018"></a>Juni 2018
 
-### <a name="full-canvas-reports"></a>Berichte auf vollständiger Canvas
+#### <a name="full-canvas-reports"></a>Berichte auf vollständiger Canvas
 
 Die Aktionsleisten oben und unten werden jetzt kurz nach dem Laden des Berichts ausgeblendet, damit mehr von Ihrem Bericht zu sehen ist.
 
-### <a name="increased-phone-report-canvas-size"></a>Erhöhte Canvasgröße für Smartphoneberichte
+#### <a name="increased-phone-report-canvas-size"></a>Erhöhte Canvasgröße für Smartphoneberichte
 
 Die Größe der Canvas für Smartphoneberichte wurde erhöht, um mehr Platz für Visuals als zuvor zur Verfügung zu stellen.
 
-## <a name="may-2018"></a>May 2018
+### <a name="may-2018"></a>May 2018
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiler Drillthrough: alle mobilen Apps
+#### <a name="mobile-drill-through-all-mobile-apps"></a>Mobiler Drillthrough: alle mobilen Apps
 
 Sie können in den mobilen Apps einen Drillthrough von einem ausgewählten Datenpunkt zu einer anderen Berichtsseite ausführen, wenn der Autor des Berichts diese Aktion definiert hat. 
 
-### <a name="back-button-all-mobile-apps"></a>Schaltfläche „Zurück“: alle mobilen Apps
+#### <a name="back-button-all-mobile-apps"></a>Schaltfläche „Zurück“: alle mobilen Apps
 
 Wenn Sie mit Wischbewegungen durch einen Bericht navigieren, in der Aktionsleiste eine Berichtsseite auswählen oder einen Drillthrough ausführen, kehren Sie mit der Schaltfläche „Zurück“ zu der letzten Seite zurück, die Sie sich angesehen haben. 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>Dashboarddesigns: alle mobilen Apps
+#### <a name="dashboard-themes-all-mobile-apps"></a>Dashboarddesigns: alle mobilen Apps
 
 Wenn Berichtsautoren Dashboarddesigns im Power BI-Dienst anpassen, ändern sich auch Aussehen und Verhalten der Dashboards in der mobilen App. Es werden jedoch keine Hintergrundbilder angezeigt.
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf einen Berichtsserver
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf einen Berichtsserver
 
 Ihr IT-Administrator kann jetzt ein MDM-Tool verwenden, um den Zugriff mobiler Power BI-Apps für iOS auf einen Berichtsserver zu konfigurieren. Weitere Informationen finden Sie unter [Configure Power BI iOS mobile app access to a report server remotely (Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver)](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
 
 Die Power BI für Mixed Reality-App ist jetzt im Microsoft Store verfügbar. Zeigen Sie Ihre Dashboards und Berichte an, während Sie sich in der virtuellen Welt befinden, oder platzieren Sie sie bzw. zeigen Sie sie in Ihrer Umgebung an bestimmten Speicherorten an. Weitere Informationen finden Sie im Video [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Einführung von Power BI in Hololens) sowie im Artikel über die neue [Power BI für Mixed Reality-App](mobile-mixed-reality-app.md).
 
 
-## <a name="april-2018"></a>April 2018
+### <a name="april-2018"></a>April 2018
 
-### <a name="mobile-drill-down-and-drill-up"></a>Ausführen mobiler Drilldown- und Drillupvorgänge
+#### <a name="mobile-drill-down-and-drill-up"></a>Ausführen mobiler Drilldown- und Drillupvorgänge
 
 Sie können nun einen Drilldown- und Drillupvorgang ausführen, um detaillierte Informationen zu Berichtsvisuals auf Ihrem mobilen Gerät zu erhalten. Um auf dieses Feature zuzugreifen, tippen Sie auf das QuickInfo-Menü auf einem Berichtsvisual, und halten Sie es zum Öffnen gedrückt. Tippen Sie anschließend auf die Drillschaltfläche, um Ihre Daten ausführlich zu durchsuchen. Weitere Informationen zum [Drillup und Drilldown in mobilen Apps](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
-### <a name="persistent-filters"></a>Permanente Filter
+#### <a name="persistent-filters"></a>Permanente Filter
 
 Wir haben vor Kurzem die Berichtsfilter und Berichtsdatenschnitte aktualisiert. Sie können nun automatisch von der Webversion von Power BI in der mobilen Power BI-App gespeichert werden. Jetzt werden Filter und Datenschnitte, die Sie in der mobilen App festlegen, automatisch in der Webversion von Power BI gespeichert.
 
 
-## <a name="march-2018"></a>März 2018
+### <a name="march-2018"></a>März 2018
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality-App (Vorschauversion)
 
 Um Daten letztendlich dorthin zu bringen, wo Sie sich befinden, haben wir die Power BI for Mixed Reality-App entwickelt. Zeigen Sie Ihre Dashboards und Berichte an, während Sie sich in der virtuellen Welt befinden, oder platzieren Sie sie bzw. zeigen Sie sie in Ihrer Umgebung an bestimmten Speicherorten an. Weitere Informationen finden Sie unter [Power BI for Mixed Reality-App](mobile-mixed-reality-app.md).
 
-### <a name="share-reports-and-dashboards-externally"></a>Externes Freigeben von Berichten und Dashboards
+#### <a name="share-reports-and-dashboards-externally"></a>Externes Freigeben von Berichten und Dashboards
 
 Geben Sie Dashboards und Berichte direkt aus der App für Benutzer außerhalb Ihrer Organisation frei. Die externe Freigabe ist sowohl für Organisations- als auch für Social Media-Konten aktiviert. 
 
-### <a name="persistent-filters"></a>Permanente Filter
+#### <a name="persistent-filters"></a>Permanente Filter
 
 Wenn Sie Filter und Slicer in der Webversion von Power BI einstellen, werden Ihre Filtereinstellungen auch in Ihrer mobilen App gespeichert, sodass Sie dort weitermachen können, wo Sie aufgehört haben.
 
-### <a name="refresh-reports-on-the-ipad"></a>Aktualisieren von Berichten auf dem iPad
+#### <a name="refresh-reports-on-the-ipad"></a>Aktualisieren von Berichten auf dem iPad
 
 Power BI-Berichte verfügen jetzt über eine Schaltfläche zum Aktualisieren in der iPad-App.
 
-## <a name="february-2018"></a>Februar 2018
+### <a name="february-2018"></a>Februar 2018
 
-### <a name="share-reports"></a>Freigeben von Berichten
+#### <a name="share-reports"></a>Freigeben von Berichten
 
 Sie können jetzt Berichte direkt über mobile Apps freigeben. Weitere Informationen erhalten Sie unter [Freigeben eines Dashboards in den mobilen Power BI-Apps](mobile-share-dashboard-from-the-mobile-apps.md).
 
-### <a name="improved-tooltips"></a>Verbesserte QuickInfos
+#### <a name="improved-tooltips"></a>Verbesserte QuickInfos
 
 Wenn Sie mit den Fingern tippen und ein visuelles Berichtselement festhalten, um auf QuickInfos zuzugreifen, können Sie nun Ihren Finger über das Visual ziehen, um weitere Informationen über jeden Datenpunkt aufzuklappen.
 
-## <a name="january-2018"></a>Januar 2018
+### <a name="january-2018"></a>Januar 2018
 
-### <a name="report-favorites"></a>Speichern von Berichten als Favorit
+#### <a name="report-favorites"></a>Speichern von Berichten als Favorit
 
 Speichern Sie Berichte als Favoriten, sodass diese auf der Seite **Favoriten** angezeigt werden. Weitere Informationen zu [Favoriten in den mobilen Power BI-Apps](mobile-apps-favorites.md).
 
-### <a name="view-shared-reports"></a>Anzeigen von freigegebenen Berichten
+#### <a name="view-shared-reports"></a>Anzeigen von freigegebenen Berichten
 
 Wenn jemand einen Bericht für Sie freigibt, wird dieser nun mit den Dashboards zusammen auf der Seite **Für mich freigegeben** aufgeführt.
 
-### <a name="improved-hyperlink-support"></a>Verbesserte Unterstützung für Hyperlinks
+#### <a name="improved-hyperlink-support"></a>Verbesserte Unterstützung für Hyperlinks
 
 Sie können nun in benutzerdefinierten Visuals auf Links tippen, um diese in Ihrem mobilen Browser zu öffnen.
 
-### <a name="intune-integration-android"></a>Intune-Integration (Android)
+#### <a name="intune-integration-android"></a>Intune-Integration (Android)
 
 Unterstützung für den bedingten Zugriff mithilfe der Verwaltung mobiler Geräte von Intune.
 
-## <a name="december-2017"></a>Dezember 2017
+### <a name="december-2017"></a>Dezember 2017
 
-### <a name="improved-security-management"></a>Verbesserte Sicherheitsverwaltung 
+#### <a name="improved-security-management"></a>Verbesserte Sicherheitsverwaltung 
 
 Wir haben Unterstützung für den bedingten Zugriff und die mobile Geräteverwaltung (MDM) für Android-Geräte in Microsoft Intune hinzugefügt, um die Daten Ihres Unternehmens besser zu schützen. Für iOS ist diese bereits verfügbar.
 
-### <a name="improved-permission-management"></a>Verbesserte Berechtigungsverwaltung
+#### <a name="improved-permission-management"></a>Verbesserte Berechtigungsverwaltung
 
 Wir haben einige Änderungen vorgenommen, die eine präzisere Verwaltung von Benutzerberechtigungen für Datasets, Dashboards und Berichte ermöglichen.
 
-### <a name="auto-installed-apps"></a>Automatisch installierte Apps
+#### <a name="auto-installed-apps"></a>Automatisch installierte Apps
 
 Einige der Apps in Power BI müssen Sie nicht installieren. Ersteller von Power BI-Apps in Ihrer Organisation können *Apps* erstellen, die eine Sammlung von Dashboards und Berichten enthalten. Diese App können sie dann veröffentlichen und festlegen, dass sie automatisch im Power BI-Dienst und den mobilen Power BI-Apps installiert wird. Wenn für eine App festgelegt wurde, dass sie installiert wird, wird sie automatisch im Menü **Apps** angezeigt:
 
 ![Apps in der mobilen Power BI-App](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>November 2017
-### <a name="iphone-x-optimization"></a>iPhone X-Optimierung
+### <a name="november-2017"></a>November 2017
+#### <a name="iphone-x-optimization"></a>iPhone X-Optimierung
 
 Das App-Layout wurde für das iPhone X optimiert, sodass Sie Ihre Daten problemlos auf jedem Gerät untersuchen können.
 
-## <a name="october-2017"></a>Oktober 2017
-### <a name="filters-for-phone-reports-in-android"></a>Filter für Smartphoneberichte in Android
+### <a name="october-2017"></a>Oktober 2017
+#### <a name="filters-for-phone-reports-in-android"></a>Filter für Smartphoneberichte in Android
 
 Wenn Sie in Power BI Desktop einen Bericht mit für das Smartphone optimierten Seiten erstellen und der Bericht Filter enthält, können Sie diese Filter jetzt im Smartphonebericht auf Ihrem Android-Gerät anwenden. Erfahren Sie mehr über Filter für Power BI-Berichte auf Android-Geräten.
 
-### <a name="show-data-in-reports"></a>Daten in Berichten anzeigen
+#### <a name="show-data-in-reports"></a>Daten in Berichten anzeigen
 
 Sie können jetzt bei Visuals in Ihren Berichten zu einer Tabellenansicht wechseln, um die Zahlen zu den Daten anzuzeigen. Um auf dieses Feature zuzugreifen, tippen Sie im Bericht im Menü „...“ für das Visual auf „Daten anzeigen“ oder auf das neue Symbol im erweiterten Aktionsmenü für das Visual.
-
-## <a name="previous-months"></a>Vorherige Monate
 
 ### <a name="september-2017"></a>September 2017
 #### <a name="filters-for-phone-reports-in-iphones"></a>Filter für Smartphoneberichte auf iPhones

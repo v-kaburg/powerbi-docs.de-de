@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641641"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265999"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 
@@ -53,6 +53,44 @@ Wenn Sie Power BI Premium- oder Power BI Embedded-SKUs erwerben, erhält Ihr Man
 Meistens ist es gar nicht vonnöten, dass die Benutzer selbst wissen, dass sie sich in einer Premium-Kapazität befinden. Die Dashboards und Berichte der Benutzer funktionieren einfach wie gewohnt. Arbeitsbereiche, die sich in einer Premium-Kapazität befinden, sind durch ein Diamantsymbol optisch markiert.
 
 ![Raute, die angibt, dass der Arbeitsbereich zu einer Premium-Kapazität gehört](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>Konfigurieren von Workloads
+
+Stellen Sie sich eine Workload in Power BI als einen der vielen Dienste vor, die Sie Benutzern zur Verfügung stellen können. Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist.
+
+Nun werden zwei weitere Workloads in der Vorschau unterstützt: **Paginierte Berichte** und **Dataflows**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen.
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Aktivieren von Workloads im Power BI-Verwaltungsportal
+
+Gehen Sie folgendermaßen vor, um Workloads zu aktivieren.
+
+1. Wählen Sie unter **Kapazitätseinstellungen** eine Kapazität aus.
+
+1. Erweitern Sie unter **Weitere Optionen** **Workloads**.
+
+1. Aktivieren Sie mindestens eine Workload, und legen Sie einen Wert für **Maximaler Arbeitsspeicher** fest.
+
+    ![Konfigurieren von Workloads im Verwaltungsportal](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. Klicken Sie auf **Übernehmen**.
+
+### <a name="default-memory-settings"></a>Standardeinstellungen für den Arbeitsspeicher
+
+Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeicher, basierend auf den verschiedenen verfügbaren [Kapazitätsknoten](service-premium.md#premium-capacity-nodes). Der Arbeitsspeicher wird Dataflows dynamisch zugeordnet, ist paginierten Berichten jedoch statisch zugeordnet. Weitere Informationen finden Sie im nächsten Abschnitt [Überlegungen zu paginierten Berichten](#considerations-for-paginated-reports).
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Paginierte Berichte | N/V | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
+| Dataflows | 15 % Standard, mindestens 8 %  | 15 % Standard, mindestens 4 %  | 15 % Standard, mindestens 2 % | 15 % Standard, mindestens 1 %  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>Überlegungen zu paginierten Berichten
+
+Wenn Sie die Workload für paginierte Berichte verwenden, beachten Sie die folgenden Aspekte.
+
+* **Speicherbelegung in paginierten Berichten**: Mit paginierten Berichten können Sie Ihren eigenen Code beim Rendern eines Berichts auszuführen (z.B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
+
+* **Paginierte Berichte sind nicht verfügbar**: Es kann selten vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
 
 ## <a name="monitor-capacity-usage"></a>Überwachen der Kapazitätsnutzung
 

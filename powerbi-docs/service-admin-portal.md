@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973256"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266114"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -143,7 +143,7 @@ Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen extern
 
 ![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Webveröffentlichung
+### <a name="publish-to-web"></a>Im Web veröffentlichen
 
 Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md)
 
@@ -296,6 +296,15 @@ Benutzer in der Organisation können auf Arbeitsbereiche zugreifen, um Daten zu 
 ### <a name="import-data-into-power-bi"></a>Importieren von Daten in Power BI
 
 Benutzer in der Organisation können Daten in den Dienst importieren, z.B. durch Veröffentlichen von Berichten aus Power BI Desktop, durch Hochladen von Power BI-Berichtdateien und durch Verknüpfen von Daten direkt aus dem Dienst. [Weitere Informationen](desktop-upload-desktop-files.md)
+
+## <a name="dataflow-settings-preview"></a>Datafloweinstellungen (Vorschau)
+
+### <a name="create-and-use-dataflows-preview"></a>Erstellen und Verwenden von Dataflows (Vorschau)
+
+Benutzer in der Organisation können Dataflows erstellen und verwenden. [Weitere Informationen](service-dataflows-overview.md)
+
+> [!NOTE]
+> Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
 
 ## <a name="capacity-settings"></a>Kapazitätseinstellungen
 
