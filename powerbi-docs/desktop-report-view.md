@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327727"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619770"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Berichtsansicht in Power BI Desktop
 Wenn Sie bereits mit Power BI gearbeitet haben, wissen Sie, wie einfach Berichte erstellt werden können, die dynamische Perspektiven und Einblicke in Ihre Daten bereitstellen. Power BI verfügt in Power BI Desktop zudem über weitere komplexe Funktionen. Mit Power BI Desktop können Sie komplexe Abfragen erstellen, Daten aus mehreren Quellen kombinieren, Beziehungen zwischen Tabellen erstellen usw.
@@ -27,35 +27,46 @@ Der Unterschied besteht darin, dass Sie in Power BI Desktop mit Ihren Abfragen 
 ## <a name="lets-take-a-look"></a>Schauen wir uns das mal an!
 Wenn Sie zum ersten Mal Daten in Power BI Desktop laden, wird die **Berichtsansicht** mit einem leeren Zeichenbereich angezeigt.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
 Sie können zwischen der **Berichtsansicht**, der **Datenansicht** und der **Beziehungsansicht** wechseln, indem Sie auf die Symbole auf der linken Navigationsleiste klicken:
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
+![Symbol für Berichtsansicht](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
 Nachdem Sie einige Daten hinzugefügt haben, können Sie Felder zu einer neuen Visualisierung im Zeichenbereich hinzufügen.
 
-![](media/desktop-report-view/pbid_reportview_addvis.gif)
+![Hinzufügen eines Visuals durch Ziehen aus dem Bereich „Felder“](media/desktop-report-view/pbid_reportview_addvis.gif)
 
 Wenn Sie den Typ der Visualisierung ändern möchten, können Sie ihn auf dem Menüband über die Gruppe **Visualisierung** auswählen, oder Sie klicken mit der rechten Maustaste und wählen einen anderen Typ über das Symbol **Visualisierungstyp ändern** aus.
 
-![](media/desktop-report-view/pbid_reportview_changevis.gif)
+![Ändern eines Visuals durch Auswahl eines neuen Visuals](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > Experimentieren Sie mit den verschiedenen Visualisierungstypen, um einen Eindruck zu erhalten. Es ist wichtig, dass die Visualisierungen die in Ihren Daten enthaltenen Informationen verständlich zum Ausdruck bringen.
-> 
-> 
 
 Ein Bericht verfügt zu Beginn über mindestens eine leere Seite. Die Seiten werden im Navigationsbereich direkt links neben dem Zeichenbereich angezeigt. Sie können einer Seite beliebige Arten von Visualisierungen hinzufügen, aber es ist wichtig, dies nicht zu übertreiben. Zu viele Visualisierungen auf einer Seite wirken überladen und unübersichtlich, sodass entsprechende Informationen schwer zu finden sind. Sie können Ihrem Bericht neue Seiten hinzufügen. Klicken Sie im Menüband einfach auf **Neue Seite**.
 
-![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
+![Symbol für neue Seite](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
 Klicken Sie auf das **X** auf der Registerkarte der Seite am unteren Rand der Berichtsansicht, um eine Seite zu löschen.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
+![Hinzufügen einer Seite zu einem Bericht](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
 > Berichte und Visualisierungen können nicht an ein Dashboard aus Power BI Desktop angeheftet werden. Dazu müssen Sie eine [Veröffentlichung aus Power BI Desktop](desktop-upload-desktop-files.md) auf Ihre Power BI-Website durchführen.
+
+## <a name="copy-and-paste-between-reports"></a>Kopieren und Einfügen zwischen Berichten
+
+Sie können ein Visual in einem Power BI Desktop-Bericht auf einfache Weise kopieren und in einen anderen Bericht einfügen. Kopieren Sie hierzu einfach das Berichtvisual mit der Tastenkombination **STRG+C**, und fügen Sie es dann mit **STRG+V** in den anderen Power BI Desktop-Bericht ein. Sie können in einem Arbeitsschritt jeweils nur ein Visual auswählen, oder Sie wählen alle Visuals auf einer Seite zum Kopieren aus und fügen die Visuals anschließend in den Power BI Desktop-Zielbericht ein. 
+
+Die Möglichkeit zum Kopieren und Einfügen ist nützlich für Benutzer, die häufig mehrere Berichte erstellen und aktualisieren müssen. Bei Kopiervorgängen zwischen Dateien werden alle explizit im Formatierungsbereich festgelegten Einstellungen und Formatierungen für das Ziel übernommen. Visuelle Elemente hingegen, die auf einem Design oder den Standardeinstellungen basieren, werden automatisch an das Thema des Zielberichts angepasst. Wenn Sie also über ein Visual verfügen, dass in Formatierung und Aussehen genau Ihren Anforderungen entspricht, können Sie dieses Visual einfach kopieren und in neue Berichte einfügen. Die gesamte Formatierungsarbeit bleibt erhalten.
+
+![Fehler beim Kopieren/Einfügen eines Visuals: kein Datenfeld](media/desktop-report-view/report-view_05.png)
+
+Wenn sich die Felder in Ihrem Modell unterscheiden, wird ein Fehler zum Visual angezeigt, und Sie werden in einer Warnung darüber informiert, welche Felder nicht vorhanden sind. Der Fehler ähnelt der Meldung, die beim Löschen eines Felds im Modell für ein Visual angezeigt wird. Um den Fehler zu beheben, ersetzen Sie einfach die fehlerhaften Felder durch Felder aus dem Modell des Berichts, in den Sie das Visual eingefügt haben. Wenn Sie ein benutzerdefiniertes Visual verwenden, müssen Sie auch dieses benutzerdefinierte Visual in den Zielbericht importieren.
+
+
+
 
 ## <a name="hide-report-pages"></a>Ausblenden von Berichtsseiten
 
@@ -63,13 +74,13 @@ Wenn Sie einen Bericht erstellen, können Sie Seiten aus diesem verbergen. Dies 
 
 Das Ausblenden einer Berichtsseite ist einfach. Klicken Sie einfach mit der rechten Maustaste auf die Registerkarte „Berichtsseite“, und klicken Sie im angezeigten Menü auf **Ausblenden**.
 
-![](media/desktop-report-view/report-view_05.png)
+![Option zum Ausblenden der Seite](media/desktop-report-view/report-view_05.png)
 
 Sie sollten Folgendes bedenken, wenn Sie eine Berichtsseite ausblenden:
 
 * Eine ausgeblendete Berichtsansicht wird in **Power BI Desktop** weiterhin angezeigt. Der Titel der Seite ist allerdings abgeblendet. In der folgenden Abbildung ist Seite 4 ausgeblendet.
 
-    ![](media/desktop-report-view/report-view_06.png)
+    ![Ausgeblendete Seite wird abgeblendet dargestellt](media/desktop-report-view/report-view_06.png)
 
 * Eine ausgeblendete Berichtsseite wird Ihnen *nicht* angezeigt, wenn Sie den Bericht im **Power BI-Dienst** anzeigen.
 

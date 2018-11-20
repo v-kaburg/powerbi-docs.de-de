@@ -61,14 +61,14 @@ In ähnlichen Situationen in der Zukunft können Sie den *Windows-Dienst Gateway
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Unterstützung für TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Unterstützung für TLS 1.2
 
-Das lokale Datengateway verwendet für die Kommunikation mit dem **Power BI-Dienst** standardmäßig Transport Layer Security (TLS) 1.1 bzw. 1.2. Frühere Versionen des lokalen Datengateways verwenden standardmäßig TLS 1.0. Am 15. März 2018 endet die Unterstützung für TLS 1.0 und damit auch die Option des Gateways, mit dem **Power BI-Dienst** über TLS 1.0 zu interagieren. Sie müssen für Ihre Installationen des lokalen Datengateways ein Upgrade durchführen, damit das Gateway funktionsfähig bleibt.
+Standardmäßig verwendet das lokale Datengateway Transport Layer Security (TLS) 1.2 für die Kommunikation mit dem Power BI-Dienst. Um sicherzustellen, dass für sämtlichen Datenverkehr im Gateway TLS 1.2 verwendet wird, müssen Sie auf dem Computer, auf dem der Gatewaydienst ausgeführt wird, möglicherweise die folgenden Registrierungsschlüssel hinzufügen oder ändern:
 
-Beachten Sie, dass das lokale Datengateway TLS 1.0 bis zum 1. November unterstützt und als Fallbackmechanismus verwendet. Um sicherzustellen, dass für sämtlichen Datenverkehr im Gateway TLS 1.1 oder 1.2 verwendet wird (und um die Verwendung von TLS 1.0 im Gateway zu verhindern), müssen Sie auf dem Computer, auf dem der Gatewaydienst ausgeführt wird, die folgenden Registrierungsschlüssel hinzufügen oder ändern:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Durch Hinzufügen bzw. Ändern dieser Registrierungsschlüssel wird die Änderung auf alle .NET-Anwendungen angewendet. Weitere Informationen zu den Registrierungsänderungen mit Auswirkungen auf TLS für andere Anwendungen finden Sie unter [TLS-Registrierungseinstellungen (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

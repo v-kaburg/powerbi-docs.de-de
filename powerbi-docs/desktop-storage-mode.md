@@ -1,5 +1,5 @@
 ---
-title: Verwendung des Speichermodus in Power BI Desktop (Vorschauversion)
+title: Verwendung des Speichermodus in Power BI Desktop (Vorschau)
 description: Mit dem Speichermodus können Sie steuern, ob Daten für Berichte in Power BI Desktop im In-Memory-Cache zwischengespeichert werden sollen.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359744"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619492"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschauversion)
+# <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschau)
 
 In Power BI Desktop können Sie den *Speichermodus* von Tabellen festlegen. Mit dem *Speichermodus* können Sie steuern, ob Power BI Desktop Tabellendaten im Arbeitsspeicher für Berichte zwischenspeichert. 
 
@@ -37,21 +37,11 @@ Das Festlegen des Speichermodus bietet viele Vorteile. Sie können den Speicherm
 
 Die Einstellung „Speichermodus“ in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle:** Hierbei kann ein Bericht zwei oder mehr Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
+* **Zusammengesetzte Modelle:** Hierbei kann ein Bericht zwei oder mehr Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md).
 
-* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
+* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md).
 
 * **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Im vorliegenden Artikel wird der Speichermodus ausführlich erläutert.
-
-## <a name="enable-the-storage-mode-preview-feature"></a>Aktivieren des Vorschaufeatures „Speichermodus“
-
-Das Feature „Speichermodus“ ist in der Vorschauversion verfügbar und muss in Power BI Desktop aktiviert werden. Um den Speichermodus zu aktivieren, klicken Sie auf **Datei** > **Optionen und Einstellungen** > **Optionen** > **Vorschaufeatures**, und aktivieren Sie anschließend das Kontrollkästchen **Zusammengesetzte Modelle**. 
-
-![Der Bereich „Vorschaufeatures“](media/desktop-composite-models/composite-models_02.png)
-
-Starten Sie Power BI Desktop neu, um das Feature zu aktivieren.
-
-![Fenster „Das Feature erfordert einen Neustart“](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="use-the-storage-mode-property"></a>Verwenden der Speichermoduseigenschaft
 
@@ -75,19 +65,7 @@ Das Ändern einer Tabelle in **Import** kann *nicht rückgängig gemacht werden*
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Einschränkungen für DirectQuery- und Dual-Tabellen
 
-Für Dual-Tabellen gelten dieselben Einschränkungen wie für DirectQuery-Tabellen. Zu diesen Einschränkungen zählen beschränkte M-Transformationen und eingeschränkte DAX-Funktionen in berechneten Spalten. Weitere Informationen finden Sie unter [Auswirkungen der Verwendung von DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Beziehungsregeln für Tabellen mit anderen Speichermodi
-
-Beziehungen müssen die Regeln erfüllen, die auf dem Speichermodus der verknüpften Tabellen basieren. Dieser Abschnitt enthält Beispiele für gültige Kombinationen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
-
-Für ein Dataset mit einer einzelnen Datenquelle gelten die folgenden *1: n*-Beziehungskombinationen:
-
-| Tabelle auf der *n*-Seite | Tabelle auf der *1*-Seite |
-| ------------- |----------------------| 
-| Dual          | Dual                 | 
-| Importieren        | Import oder Dual       | 
-| DirectQuery   | DirectQuery oder Dual  | 
+Für Dual-Tabellen gelten dieselben funktionellen Einschränkungen wie für DirectQuery-Tabellen. Zu diesen Einschränkungen zählen beschränkte M-Transformationen und eingeschränkte DAX-Funktionen in berechneten Spalten. Weitere Informationen finden Sie unter [Auswirkungen der Verwendung von DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
 
 ## <a name="propagation-of-dual"></a>Weitergabe von Dual
 Sehen Sie sich das folgende einfache Modell an, bei dem alle Tabellen von einer einzelnen Quelle stammen, die Import und DirectQuery unterstützt.
@@ -98,14 +76,11 @@ Nehmen wir an, dass es sich bei allen Tabellen in diesem Modell um DirectQuery-T
 
 ![Warnungsfenster des Speichermodus](media/desktop-storage-mode/storage-mode_05.png)
 
-Die Dimensionstabellen (*Customer*, *Date* und *Geography*) müssen auf **Dual** festgelegt werden, damit die zuvor beschriebenen Beziehungsregeln erfüllt werden. Anstatt diese Tabellen im Voraus auf **Dual** festzulegen, können Sie dies in einem einzigen Vorgang erledigen.
+Die Dimensionstabellen (*Customer*, *Geography* und *Date*) können auf **Dual** festgelegt werden, um die Anzahl schwacher Beziehungen im Dataset zu verringern und die Leistung zu verbessern. Schwache Beziehungen enthalten normalerweise mindestens eine DirectQuery-Tabelle, bei der die Joinlogik nicht per Push an die Quellsysteme übertragen werden kann. Die Tatsache, dass **Dual**-Tabellen entweder als DirectQuery oder Import fungieren können, hilft dies zu vermeiden.
 
 Die Weitergabelogik ist dafür konzipiert, Modelle mit vielen Tabellen zu unterstützen. Angenommen, Sie haben ein Modell mit 50 Tabellen, und nur bestimmte (transaktionale) Faktentabellen müssen zwischengespeichert werden. Die Logik in Power BI Desktop berechnet die minimale Gruppe von Dimensionstabellen, die auf **Dual** festgelegt werden müssen. Diese Aufgabe müssen Sie also nicht selbst erledigen.
 
 Die Weitergabelogik durchläuft nur eine Seite der **1:n**-Beziehungen.
-
-* Eine Änderung der Tabelle *Customer* in **Import** (statt in *SurveyResponse*) ist aufgrund ihrer Beziehungen zu den DirectQuery-Tabellen *Sales* und *SurveyResponse* nicht zulässig.
-* Eine Änderung der Tabelle *Customer* in **Dual** (statt in *SurveyResponse*) ist dagegen zulässig. Die Weitergabelogik legt die Tabelle *Geography* ebenfalls auf **Dual** fest.
 
 ## <a name="storage-mode-usage-example"></a>Beispiel für die Verwendung des Speichermodus
 Lassen Sie uns mit dem Beispiel aus dem vorherigen Abschnitt fortfahren, und stellen Sie sich vor, die folgenden Eigenschafteneinstellungen für den Speichermodus würden angewendet werden:
@@ -152,13 +127,13 @@ Die folgende Abfrage ist interessant, da sie beide Spalten kombiniert. Diese Abf
 ![Skript für die Speichermodusdiagnose](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Dieses Verhalten unterscheidet sich von [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
+> Dieses Verhalten unterscheidet sich von [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Bedeutung der Synchronisierung von Caches
 
 Die im vorherigen Abschnitt angezeigten Abfragen verdeutlichen, dass **Dual**-Tabellen manchmal vom Cache ausgeführt werden und manchmal nicht. Wenn der Cache veraltet ist, können deshalb unterschiedliche Werte zurückgegeben werden. Bei der Abfrageausführung wird nicht versucht, Datenprobleme, zu maskieren, indem z.B. DirectQuery-Ergebnisse entsprechend den zwischengespeicherten Werten gefiltert werden. Sie müssen bestens mit Ihren Datenflüssen vertraut sein und den Entwurf entsprechend darauf ausrichten. Bei Bedarf können Sie auf etablierte Verfahren zum Umgang mit derartigen Fällen an der Quelle zurückgreifen.
 
-Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben werden.
+Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md) beschrieben werden.
 
 ## <a name="data-view"></a>Datenansicht
 Ist für mindestens eine Tabelle im Dataset der Speichermodus auf **Import** oder **Dual** festgelegt, wird die Registerkarte **Datenansicht** angezeigt.
@@ -187,8 +162,7 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
+* [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
 * [Verwenden von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
-

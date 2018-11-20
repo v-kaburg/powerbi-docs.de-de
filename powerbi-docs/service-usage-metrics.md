@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545029"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619837"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
 
@@ -69,7 +69,7 @@ Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Be
     > [!NOTE]
     > Wenn Sie eine Kachel aus dem Bericht zu Nutzungsmetriken an ein Dashboard anheften, kann das Dashboard nicht zu einer App oder einem Inhaltspaket hinzugefügt werden.
 
-## <a name="what-metrics-are-reported"></a>Welche Metriken werden gemeldet?
+## <a name="which-metrics-are-reported"></a>Welche Metriken werden gemeldet?
 
 | Metrik | Dashboard | Report | Beschreibung |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Beim Deaktivieren von Nutzungsmetriken für die gesamte Organisation können Adm
 Power BI ist in separaten nationalen Clouds verfügbar. Diese Clouds entsprechen hinsichtlich Sicherheit, Datenschutz, Konformität und Transparenz dem Niveau der weltweiten Power BI-Version und verwenden darüber hinaus ein einmaliges Modell für regionale Regelungen zu Servicebereitstellung, Speicherort der Daten, Zugriff und Kontrolle. Aufgrund dieses einzigartigen Modells für regionale Regelungen sind Nutzungsmetriken nicht in nationalen Clouds verfügbar. Weitere Informationen finden Sie in den [Informationen zu den nationalen Clouds](https://powerbi.microsoft.com/en-us/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
+
+Es ist wichtig zu verstehen, dass beim Vergleich von Nutzungsmetriken und Überwachungsprotokollen Unterschiede auftreten können, und man sollte die Ursachen hierfür kennen. *Überwachungsprotokolle* werden mithilfe von Daten aus dem Power BI-Dienst gesammelt, und *Nutzungsmetriken* werden auf dem Client erfasst. Deshalb stimmen die aggregierten Zahlen der Aktivitäten in Überwachungsprotokollen nicht immer mit den Nutzungsmetriken überein. Dies hat folgende Gründe:
+
+* Die Zahlen in Nutzungsmetriken können aufgrund von inkonsistenten Netzwerkverbindungen, Anzeigenblockern oder anderen Problemen, die das Senden von Ereignissen vom Client stören können, zu niedrig sein.
+* Bestimmte Ansichtstypen sind in den Nutzungsmetriken nicht enthalten, wie zuvor in diesem Artikel beschrieben.
+* In den Nutzungsmetriken kann es vorkommen, dass zu viele Aktivitäten gezählt werden – z.B., wenn der Client eine Aktualisierung durchführt, ohne dass eine Anforderung an den Power BI-Dienst zurückgesendet werden muss.
+
+
+Neben dem Verständnis der möglichen Unterschiede zwischen Nutzungsmetriken und Überwachungsprotokollen können die folgenden Fragen und Antworten zu Nutzungsmetriken für Benutzer und Administratoren hilfreich sein:
 
 F: Ich kann keine Nutzungsmetriken für ein Dashboard oder einen Bericht ausführen. A: Sie können nur Nutzungsmetriken für Inhalte anzeigen, deren Besitzer Sie sind oder für die Sie über Bearbeitungsberechtigungen verfügen.
 

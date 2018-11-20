@@ -1,0 +1,77 @@
+---
+title: Verwenden der Modellierungsansicht in Power BI Desktop (Vorschau)
+description: Verwenden der Modellierungsansicht zur Anzeige komplexer Datasets in einem visuellen Format in Power BI Desktop
+author: davidiseminger
+manager: kfile
+ms.reviewer: ''
+ms.service: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 11/13/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: 67a04f1ae1bd5858aa4413c77a6d98ac5a04d32f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51620106"
+---
+# <a name="modeling-view-in-power-bi-desktop-preview"></a>Modellierungsansicht in Power BI Desktop (Vorschau)
+
+Die **Modellierungsansicht** in **Power BI Desktop** erlaubt es Ihnen, komplexe Datasets mit vielen Tabellen anzuzeigen und mit diesen zu arbeiten. Die Modellierungsansicht ermöglicht Folgendes:
+
+
+## <a name="enabling-the-modeling-view-preview-feature"></a>Aktivieren des Vorschaufeatures „Modellierungsansicht“
+
+Die Modellierungsansicht befindet sich in der Vorschau und muss in **Power BI Desktop** aktiviert werden. Um die Modellierungsansicht zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** und aktivieren dann das Kontrollkästchen **Modellierungsansicht** wie im folgenden Screenshot gezeigt wird.
+
+![Aktivieren des Vorschaufeatures „Modellierungsansicht“ in Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
+
+Sie werden aufgefordert, **Power BI Desktop** neu zu starten, damit das Vorschaufeature aktiviert wird. 
+
+![Neustart von Power BI Desktop zum Aktivieren der Vorschaufeatures](media/desktop-modeling-view/modeling-view_01b.png)
+
+## <a name="using-modeling-view"></a>Verwenden der Modellierungsansicht
+
+Um auf die Modellierungsansicht zuzugreifen, wählen Sie das Symbol „Modellierungsansicht“ aus, das im linken Bereich von **Power BI Desktop** angezeigt wird, siehe nachstehende Abbildung.
+
+![Symbol „Modellierungsansicht“ in Power BI Desktop](media/desktop-modeling-view/modeling-view_02.png)
+
+## <a name="creating-separate-diagrams"></a>Erstellen separater Diagramme
+
+Mit der Modellierungsansicht können Sie Diagramme Ihres Modells erstellen, die nur eine Teilmenge der Tabellen in Ihrem Modell umfassen. So erhalten Sie einen klareren Überblick über die Tabellen, mit denen Sie arbeiten möchten, und es kann die Arbeit mit komplexen Datasets erleichtern. Um ein neues Diagramm zu erstellen, das nur einen Teil der Tabellen enthält, klicken Sie auf das **+**-Zeichen neben der Registerkarte **Alle Tabellen** im unteren Bereich des Power BI Desktop-Fensters.
+
+![Erstellen eines neuen Diagramms durch Klicken auf das +-Zeichen im Registerkartenabschnitt](media/desktop-modeling-view/modeling-view_03.png)
+
+Sie können anschließend eine Tabelle aus der Liste **Felder** auf die Diagrammoberfläche ziehen. Klicken Sie mit der rechten Maustaste auf die Tabelle, und wählen Sie anschließend im angezeigten Menü die Option **Verknüpfte Tabellen hinzufügen** aus.
+
+![Rechtsklick auf eine Tabelle und Auswahl von „Verknüpfte Tabellen hinzufügen“](media/desktop-modeling-view/modeling-view_04.png)
+
+Hierdurch werden alle mit der ursprünglichen Tabelle verknüpften Tabellen im neuen Diagramm angezeigt. Die folgende Abbildung zeigt, wie verknüpfte Tabellen angezeigt werden, nachdem die Menüoption **Verknüpfte Tabellen hinzufügen** ausgewählt wurde.
+
+![Anzeige verknüpfter Tabellen](media/desktop-modeling-view/modeling-view_05.png)
+
+## <a name="setting-common-properties"></a>Festlegen allgemeiner Eigenschaften
+
+Sie können in der Modellierungsansicht einem Arbeitsschritt mehrere Objekte auswählen, indem Sie die **STRG**-Taste gedrückt halten und auf mehrere Tabellen klicken. Wenn Sie mehrere Tabellen auswählen, werden diese in der Modellierungsansicht hervorgehoben dargestellt. Nach der Auswahl mehrerer Tabellen werden Änderungen, die im Bereich **Eigenschaften** durchgeführt werden, auf alle ausgewählten Tabellen angewendet.
+
+Sie können beispielsweise den [Speichermodus](desktop-storage-mode.md) für mehrere Tabellen in Ihrer Diagrammansicht ändern, indem Sie die **STRG**-Taste gedrückt halten, mehrere Tabellen auswählen und dann die Einstellung für den Speichermodus im Bereich **Eigenschaften** ändern.
+
+![Auswahl mehrerer Tabellen durch Halten der STRG-Taste und anschließende Festlegung allgemeiner Eigenschaften für alle ausgewählten Tabellen](media/desktop-modeling-view/modeling-view_06.png)
+
+
+## <a name="next-steps"></a>Nächste Schritte
+
+Die folgenden Artikeln enthalten weitere Informationen über Datenmodelle sowie Details zu DirectQuery.
+
+* [Aggregationen in Power BI Desktop (Vorschau)](desktop-aggregations.md)
+* [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md)
+* [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
+
+
+Artikel zu DirectQuery:
+
+* [Verwendung von DirectQuery in Power BI](desktop-directquery-about.md)
+* [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)

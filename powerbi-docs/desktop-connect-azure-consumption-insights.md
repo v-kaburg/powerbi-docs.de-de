@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329912"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619607"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -49,9 +49,20 @@ Geben Sie anschließend Ihren *Zugriffsschlüssel* an, um die Verbindung herzust
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Sobald Sie Ihren *Zugriffsschlüssel* angegeben und **Verbinden** ausgewählt haben, wird das Fenster **Navigator** mit vier verfügbaren Tabellen angezeigt: *Summaries*, *UsageDetails*, *PriceSheets* und *Marketplace*. Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorschau anzuzeigen. Sie können eine oder mehrere Tabellen auswählen, indem Sie das Kontrollkästchen neben dem Tabellennamen aktivieren, und dann **Laden** wählen.
+Sobald Sie Ihren *Zugriffsschlüssel* angegeben und **Verbinden** ausgewählt haben, wird ein **Navigator**-Fenster geöffnet, in dem die 9 für Sie verfügbaren Tabellen angezeigt werden: 
+* **Budgets**: Diese Tabelle enthält Budgetdetails zur Anzeige der tatsächlichen Kosten oder der Nutzung im Vergleich zu vorhandenen Budgetzielen an. 
+* **MarketPlace**: Hier werden die nutzungsbasierten Azure Marketplace-Gebühren angezeigt.
+* **PriceSheets**: Diese Tabelle zeigt die geltenden Preise nach Verbrauchseinheit für eine Registrierung an.
+* **RICharges**: Hier werden die Gebühren für Ihre reservierten Instanzen in den letzten 24 Monaten angezeigt.
+* **RIRecommendations_Single**: Diese Tabelle zeigt basierend auf Ihren Nutzungstrends für ein einzelnes Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RIRecommendations_Shared**: Diese Tabelle zeigt basierend auf Ihren Nutzungstrends für all Ihre Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RIUsage**: Hier werden ausführliche Informationen zum Verbrauch für Ihre vorhandenen reservierten Instanzen in den letzten Monaten angezeigt.
+* **Summaries**: Diese Tabelle bietet eine monatliche übergreifende Übersicht für Salden, neue Käufe, Azure Marketplace-Dienstgebühren, Anpassungen und Überschreitungsgebühren.
+* **UsageDetails**: Diese Tabelle zeigt eine Aufschlüsselung der verbrauchten Mengen und der geschätzten Kosten für eine Registrierung.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorschau anzuzeigen. Sie können eine oder mehrere Tabellen auswählen, indem Sie das Kontrollkästchen neben dem Tabellennamen aktivieren, und dann **Laden** wählen.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Die Tabellen *Summaries* und *PriceSheets* sind nur für den API-Schlüssel auf Registrierungsebene verfügbar. Standardmäßig sind die Daten für die Tabellen *UsageDetails* und *PriceSheets* die Daten des aktuellen Monats. Die Tabellen *Summaries* und *Marketplace* sind nicht auf den aktuellen Monat beschränkt.
@@ -154,21 +165,21 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nein |
 | Kostenstelle |costCenter |Kostenstelle |Nein |
-| Datum |date |Datum |Nein |
-| Day | |Day |Nein |
+| Date |Datum |Date |Nein |
+| Tag | |Tag |Nein |
 | DepartmentName |departmentName |Department Name |Nein |
 | DepartmentID |departmentId | |Ja |
 | Instanzen-ID | | |Ja |
 | InstanceId |instanceId |Instanzen-ID |Nein |
-| Standort | | |Ja |
+| Location | | |Ja |
 | Kategorie für Messung |meterCategory |Kategorie für Messung |Nein |
 | Messungs-ID | | |Ja |
 | Meter Name |meterName |Meter Name |Nein |
 | Messbereich |meterRegion |Messbereich |Nein |
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
-| Month | |Month |Nein |
-| Product |product |Product |Nein |
+| Monat | |Monat |Nein |
+| Produkt |product |Produkt |Nein |
 | ProductId |productId | |Ja |
 | Resource Group |resourceGroup |Resource Group |Nein |
 | Ressourcenspeicherort |resourceLocation |Ressourcenspeicherort |Nein |
@@ -186,7 +197,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Tags |tags |Tags |Nein |
 | TagsId | | |Ja |
 | Maßeinheit |unitOfMeasure |Maßeinheit |Nein |
-| Year | |Year |Nein |
+| Jahr | |Jahr |Nein |
 | SubscriptionId |subscriptionId |SubscriptionId |Ja |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Nein |
 

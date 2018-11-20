@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223373"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619630"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
 
 ![Verwenden Sie für Linien- und Flächendiagramme verschiedene Marker, um die Barrierefreiheit zu verbessern](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Diese Barrierefreiheitsfunktionen stehen im **Power BI Desktop**-Release von Juni 2017 und späteren Releases zur Verfügung. Weitere Barrierefreiheitsfunktionen sind für kommende Releases geplant.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Nutzen eines Power BI Desktop-Berichts mit Tastatur oder Sprachausgabe
 Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie die **?**-Taste drücken, um ein Fenster anzuzeigen, in dem die in **Power BI Desktop** verfügbaren Tastenkombinationen für Barrierefreiheit beschrieben werden.
@@ -116,12 +111,26 @@ Es gibt einige bekannte Probleme und Einschränkungen bei den Barrierefreiheitsf
 * Wenn Sie die Sprachausgabe von Microsoft verwenden, gibt es einige Einschränkungen beim Anzeigen von Daten als HTML-Tabelle.
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
+Tastenkombinationen sind hilfreich, um sich in Power BI-Berichten mithilfe einer Tastatur zu bewegen. Die folgende Tabelle beschreibt die Tastenkombinationen, die in einem Power BI-Bericht zur Verfügung stehen. Zusätzlich zur Verwendung dieser Tastenkombinationen in Power BI Desktop funktionieren diese Tastenkombinationen auch in diesen Benutzeroberflächenelementen:
+
+* Dialogfeld „Q&A-Explorer“
+* Dialogfeld „Erste Schritte“
+* Dateimenü und Info-Dialogfeld
+* Warnungsleiste
+* Dialogfeld zur Dateiwiederherstellung
+* Dialogfeld für Stirnrunzeln
+
+Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, deshalb bieten die oben aufgeführten Benutzeroberflächenelemente darüber hinaus auch eine Sprachausgabe und Einstellungen für einen hohen Kontrast.
+
+
 ### <a name="frequently-used-shortcuts"></a>Häufig verwendete Tastenkombinationen
 | Zweck           | Tastenkombination                |
 | :------------------- | :------------------- |
 | Fokus zwischen Abschnitten verschieben  | STRG+F6 |
 | Fokus im Abschnitt nach vorne verschieben | TAB         |
 | Fokus im Abschnitt nach hinten verschieben | UMSCHALT+TAB |
+| Objekt auswählen oder Auswahl aufheben | EINGABETASTE oder LEERTASTE |
+| Mehrere Objekte auswählen | STRG+LEERTASTE |
 
 ### <a name="on-visual"></a>Auf Visual
 | Zweck           | Tastenkombination                |

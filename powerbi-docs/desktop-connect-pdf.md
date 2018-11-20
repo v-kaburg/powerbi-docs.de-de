@@ -1,5 +1,5 @@
 ---
-title: Verbinden mit einer PDF-Datei in Power BI Desktop (Vorschauversion)
+title: Verbinden mit einer PDF-Datei in Power BI Desktop (Vorschau)
 description: Einfaches Verbinden mit und Verwenden von Daten aus PDF-Dateien in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512927"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619674"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Verbinden mit einer PDF-Datei in Power BI Desktop (Vorschauversion)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Verbinden mit einer PDF-Datei in Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie eine Verbindung mit einer **PDF-Datei** herstellen und die enthaltenen Daten wie alle anderen Datenquellen in Power BI Desktop verwenden.
 
 ![Verbinden mit Daten in PDF-Dateien](media/desktop-connect-pdf/connect-pdf_04.png)
@@ -25,7 +25,7 @@ In Power BI Desktop können Sie eine Verbindung mit einer **PDF-Datei** herstell
 In den folgenden Abschnitten wird beschrieben, wie Sie eine Verbindung mit einer **PDF-Datei** herstellen, Daten auswählen und diese Daten an **Power BI Desktop** übergeben.
 
 ## <a name="enable-the-pdf-connector"></a>Aktivieren des PDF-Connectors
-Der PDF-Connector befindet sich in der Vorschauversion für **Power BI Desktop** und muss aktiviert werden. Wenn Sie den Connector aktivieren möchten, klicken Sie auf **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures**, und aktivieren Sie dann das Kontrollkästchen neben **Daten aus PDF-Dateien abrufen**. 
+Der PDF-Connector befindet sich in der Vorschau für **Power BI Desktop** und muss aktiviert werden. Wenn Sie den Connector aktivieren möchten, klicken Sie auf **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures**, und aktivieren Sie dann das Kontrollkästchen neben **Daten aus PDF-Dateien abrufen**. 
 
 ![Aktivieren des PDF-Connectors unter „Optionen > Vorschaufeatures“](media/desktop-connect-pdf/connect-pdf_01.png)
 
@@ -45,6 +45,10 @@ Sie werden aufgefordert, den Speicherort der PDF-Datei anzugeben, die Sie verwen
 ![Verbinden mit Daten in PDF-Dateien](media/desktop-connect-pdf/connect-pdf_04.png)
 
 Wenn Sie das Kontrollkästchen neben den in der PDF-Datei ermittelten Elementen aktivieren, werden sie im rechten Bereich angezeigt. Wenn Sie bereit zum Importieren sind, klicken Sie auf die Schaltfläche **Laden**, um die Daten in **Power BI Desktop** zu importieren.
+
+Ab der November 2018-Version von **Power BI Desktop** können Sie die **Startseite** und die **Endseite** als optionale Parameter für Ihre PDF-Verbindung angeben. Darüber hinaus können Sie diese Parameter unter Verwendung des folgenden Formats in der Formelsprache „M“ angeben:
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>Nächste Schritte

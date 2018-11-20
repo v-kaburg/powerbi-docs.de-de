@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336896"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619814"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
@@ -30,8 +30,6 @@ Wenn Sie die Option **Mehr...** im Menü **Am häufigsten verwendet** auswählen
 
 > [!NOTE]
 > Das Power BI-Team erweitert laufend die Datenquellen, die für **Power BI Desktop** und den **Power BI-Dienst** verfügbar sind. Daher finden Sie häufig Vorabversionen von noch nicht in der Endversion vorliegenden Datenquellen, die als *Beta* oder *Vorschau* gekennzeichnet sind. Für alle als *Beta* oder *Vorschau* markierten Datenquellen stehen nur eingeschränkter Support und weniger Funktionen zur Verfügung, und sie sollten nicht in Produktionsumgebungen verwendet werden.
-> 
-> 
 
 ## <a name="data-sources"></a>Datenquellen
 Datentypen werden in die folgenden Kategorien unterteilt:
@@ -78,17 +76,16 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * SAP Business Warehouse-Nachrichtenserver
 * Amazon Redshift
 * Impala
-* BigQuery von Google
+* Google BigQuery
 * Snowflake
+* BI-Connector
+* Exasol
 * Dremio (Beta)
-* Exasol (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Sie müssen einige Datenbankconnectors aktivieren, indem Sie **Datei > Optionen und Einstellungen > Optionen** und dann **Vorschaufeatures** auswählen und den Connector aktivieren. Wenn einige der oben genannten Connectors nicht angezeigt werden und Sie diese verwenden möchten, überprüfen Sie die Einstellungen von **Vorschaufeatures**. Außerdem stehen für alle als *Beta* oder *Vorschau* markierten Datenquellen nur eingeschränkter Support und weniger Funktionen zur Verfügung, und sie sollten nicht in Produktionsumgebungen verwendet werden.
-> 
-> 
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Datenbank**.
 
@@ -111,11 +108,11 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 * Azure-BLOB-Speicher
 * Azure-Tabellenspeicher
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure KustoDB (Beta)
+* Azure Data Explorer (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Azure**.
 
@@ -131,7 +128,8 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Dynamics 365 Business Central (lokal)
 * Common Data Service für Apps (Beta)
 * Microsoft Azure Consumption Insights (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Salesforce-Objekte
 * Salesforce-Berichte
 * Google Analytics
@@ -187,8 +185,6 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Sonstige**.
 
 > [!NOTE]
 > Zurzeit ist es nicht möglich, eine Verbindung mit benutzerdefinierten Datenquellen herzustellen, die mit Azure Active Directory gesichert wurden.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Herstellen der Verbindung mit einer Datenquelle
 Wenn Sie die Verbindung mit einer Datenquelle herstellen möchten, wählen Sie die Datenquelle im Fenster **Daten abrufen** und dann **Verbinden**aus. In der folgenden Abbildung ist **Web** aus der Datenverbindungskategorie **Sonstige** ausgewählt.

@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Aggregationen in Power BI Desktop (Vorschauversion)
+title: Verwenden von Aggregationen in Power BI Desktop (Vorschau)
 description: Durchführen interaktiver Analysen von Big Data in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359721"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619722"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregationen in Power BI Desktop (Vorschauversion)
+# <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregationen in Power BI Desktop (Vorschau)
 
 Durch **Aggregationen** können Sie interaktive Analysen von Big Data in Power BI wie nie zuvor durchführen. **Aggregationen** können die Kosten zum Nutzen großer Datasets zur Entscheidungsfindung drastisch senken.
 
@@ -25,12 +25,12 @@ Durch **Aggregationen** können Sie interaktive Analysen von Big Data in Power B
 
 Die Vorteile von **Aggregationen** sind die folgenden:
 
-* **Abfrageleistung bei großen Datasets:** Bei der Interaktion der Benutzer mit Visuals in Power BI-Berichten werden DAX-Abfragen an das Dataset gesendet. Durch das Zwischenspeichern von Daten auf der aggregierten Ebene werden Abfragen beschleunigt, da nur ein Bruchteil der Ressourcen verwendet wird, die auf Detailebene erforderlich sind. Nutzen Sie Big Data wie noch nie zuvor.
+* **Abfrageleistung bei Big Data:** Bei der Interaktion der Benutzer mit Visuals in Power BI-Berichten werden DAX-Abfragen an das Dataset gesendet. Durch das Zwischenspeichern von Daten auf der aggregierten Ebene werden Abfragen beschleunigt, da nur ein Bruchteil der Ressourcen verwendet wird, die auf Detailebene erforderlich sind. Nutzen Sie Big Data wie noch nie zuvor.
 * **Optimierte Datenaktualisierung:** Durch das Zwischenspeichern von Daten auf aggregierter Ebene wird die Cachegröße gesenkt und die Aktualisierungsdauer verkürzt. So können Sie Ihren Benutzern Daten noch schneller zur Verfügung stellen.
 * **Ausgeglichene Architekturen:** Der In-Memory-Cache von Power BI verarbeitet aggregierte Abfragen effektiv. Schränken Sie Abfragen, die direkt an die Datenquelle gesendet wurden, im DirectQuery-Modus ein, um die Parallelitätsgrenzwerte nicht zu unter- oder überschreiten. Abfragen, die durchkommen, sind zumeist gefilterte Abfragen auf Transaktionsebene, die von Data Warehouse- und Big Data-Systemen normalerweise gut verarbeitet werden können.
 
 ### <a name="table-level-storage"></a>Speicher auf Tabellenebene
-Der Speicher auf Tabellenebene wird normalerweise mit dem Aggregationsfeature verwendet. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
+Der Speicher auf Tabellenebene wird normalerweise mit dem Aggregationsfeature verwendet. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Datenquellentypen
 Aggregationen werden mit Datenquellen verwendet, die dimensionale Modelle darstellen, wie z.B. Data Warehouses und Data Marts, sowie mit Hadoop-basierten Datenquellen. In diesem Artikel werden typische Unterschiede bei der Modellierung in Power BI für jeden Datenquellentyp beschrieben.
@@ -39,7 +39,7 @@ Alle Power BI-Import- und DirectQuery-Quellen (mit einer Dimension) funktioniere
 
 ## <a name="enabling-the-aggregations-preview-feature"></a>Aktivieren der Previewfunktion für Aggregationen
 
-Das Feature **Aggregationen** befindet sich in der Vorschauphase und muss in **Power BI Desktop** aktiviert werden. Um **Aggregationen** zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, wählen Sie die **zusammengesetzten Modelle**, und aktivieren Sie anschließend das Kontrollkästchen **Manage aggregations** (Aggregationen verwalten). 
+Das Feature **Aggregationen** befindet sich in der Vorschauphase und muss in **Power BI Desktop** aktiviert werden. Um **Aggregationen** zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus, wählen Sie die **zusammengesetzten Modelle**, und aktivieren Sie anschließend das Kontrollkästchen **Aggregationen verwalten**. 
 
 ![Aktivieren der Vorschaufeatures](media/desktop-aggregations/aggregations_01.jpg)
 
@@ -57,10 +57,10 @@ Sehen Sie sich das folgende Modell an, das sich auf eine einzelne Datenquelle be
 
 Stattdessen erstellen wir die Tabelle **Sales Agg** als Aggregationstabelle. Die Granularität ist höher als bei **Sales**. Deshalb enthält sie deutlich weniger Zeilen. Die Zeilenanzahl sollte mit der Summe von **SalesAmount** übereinstimmen (gruppiert nach **CustomerKey**, **DateKey** und **ProductSubcategoryKey**). Statt Milliarden sind jetzt nur noch Millionen Zeilen enthalten, was deutlich leichter verwaltet werden kann.
 
-Gehen wir davon aus, dass die folgenden Dimensionstabellen am häufigsten für Abfragen mit hohem Unternehmenswert verwendet werden. Dabei handelt es sich um Tabellen, die **Sales Agg** mit *1:n*-Beziehungen (oder *n:1*-Beziehungen) filtern können. Andere Beziehungstypen wie *n:n* oder *Mehrere Quellen* werden für Aggregationen nicht berücksichtigt.
+Gehen wir davon aus, dass die folgenden Dimensionstabellen am häufigsten für Abfragen mit hohem Unternehmenswert verwendet werden. Dabei handelt es sich um Tabellen, die **Sales Agg** mit *1:n*-Beziehungen (oder *n:1*-Beziehungen) filtern können.
 
 * Geography
-* Customer
+* Kunde
 * Date
 * Product Subcategory
 * Product Category
@@ -77,7 +77,7 @@ Bleiben wir bei unserem Beispiel. Wir haben den Speichermodus von **Sales Agg** 
 
 ![Festlegen des Speichermodus](media/desktop-aggregations/aggregations_04.jpg)
 
-Wenn wir den Modus festgelegt haben, wird ein Dialogfeld angezeigt, das uns darüber informiert, dass der Speichermodus der verwandten Dimensionstabellen auf **Dual** festgelegt wird. 
+Anschließend wird ein Dialogfeld angezeigt, das uns darüber informiert, dass der Speichermodus der verwandten Dimensionstabellen auf **Dual** festgelegt werden kann. 
 
 ![Dialogfeld „Speichermodus“](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,16 +88,32 @@ Wenn der Speichermodus der verwandten Dimensionstabellen auf **Dual** festgelegt
 
 Weitere Informationen zum Speichermodus **Dual** finden Sie im Artikel zum [Speichermodus in Power BI Desktop](desktop-storage-mode.md).
 
-> Hinweis: Die Tabelle **Sales Agg** ist ausgeblendet. Aggregationstabellen sollten für Benutzer des Datasets ausgeblendet sein. Benutzer und Abfragen verwenden die Detailtabelle, nicht die Aggregationstabelle. Sie müssen nicht wissen, dass es die Aggregationstabelle gibt.
+### <a name="strong-vs-weak-relationships"></a>Starke und schwache Beziehungen im Vergleich
+Auf Beziehungen basierende Aggregationstreffer erfordern starke Beziehungen.
 
-### <a name="manage-aggregations-dialog"></a>Dialogfeld „Manage aggregations“ (Aggregationen verwalten)
-Als Nächstes definieren wir die Aggregationen. Klicken Sie mit der rechten Maustaste auf die Tabelle **Sales Agg**, um das Kontextmenü zu öffnen, und wählen Sie **Manage aggregations** (Aggregationen verwalten).
+Starke Beziehungen umfassen die folgenden Kombinationen, bei denen beide Tabellen aus einer *einzelnen Quelle* stammen.
 
-![Auswahl: „Manage aggregations“ (Aggregationen verwalten) im Kontextmenü](media/desktop-aggregations/aggregations_06.jpg)
+| Tabelle auf der n-Seite | Tabelle auf der *1*-Seite |
+| ------------- |----------------------| 
+| Dual          | Dual                 | 
+| Import        | Import oder Dual       | 
+| DirectQuery   | DirectQuery oder Dual  | 
 
-Das Dialogfeld **Manage aggregations** (Aggregationen verwalten) wird angezeigt. Für jede Spalte in der Tabelle **Sales Agg** wird eine Zeile angezeigt, in der Sie das Aggregationsverhalten festlegen können. Abfragen an das Power BI-Dataset, das auf die Tabelle **Sales** verweist, werden intern an die Tabelle **Sales Agg** weitergeleitet. Consumer des Datasets müssen nicht wissen, dass die Tabelle **Sales Agg** existiert.
+Der einzige Fall, bei der eine *quellenübergreifende* Beziehung als stark eingestuft wird, ist der, wenn beide Tabellen den Speichermodus „Import“ aufweisen. m:n-Beziehungen werden immer als schwach eingestuft.
 
-![Dialogfeld „Manage aggregations“ (Aggregationen verwalten)](media/desktop-aggregations/aggregations_07.jpg)
+Informationen zu *quellenübergreifenden* Aggregationstreffern, die nicht von Beziehungen abhängen, finden Sie weiter unten im Abschnitt zu Aggregationen basierend auf gruppierten Spalten.
+
+### <a name="aggregation-table-is-hidden"></a>Aggregationstabelle ist ausgeblendet
+Die Tabelle **Sales Agg** ist ausgeblendet. Aggregationstabellen sollten für Benutzer des Datasets immer ausgeblendet werden. Benutzer und Abfragen verwenden die Detailtabelle, nicht die Aggregationstabelle. Sie müssen nicht wissen, dass es die Aggregationstabelle gibt.
+
+### <a name="manage-aggregations-dialog"></a>Dialogfeld „Aggregationen verwalten“
+Als Nächstes definieren wir die Aggregationen. Klicken Sie mit der rechten Maustaste auf die Tabelle **Sales Agg**, um das Kontextmenü zu öffnen, und wählen Sie **Aggregationen verwalten** aus.
+
+![Menüauswahl „Aggregationen verwalten“](media/desktop-aggregations/aggregations_06.jpg)
+
+Das Dialogfeld **Aggregationen verwalten** wird angezeigt. Für jede Spalte in der Tabelle **Sales Agg** wird eine Zeile angezeigt, in der Sie das Aggregationsverhalten festlegen können. Abfragen an das Power BI-Dataset, das auf die Tabelle **Sales** verweist, werden intern an die Tabelle **Sales Agg** weitergeleitet. Consumer des Datasets müssen nicht wissen, dass die Tabelle **Sales Agg** existiert.
+
+![Dialogfeld „Aggregationen verwalten“](media/desktop-aggregations/aggregations_07.jpg)
 
 In der folgenden Tabelle werden die Aggregationen der **Sales Agg**-Tabelle gezeigt.
 
@@ -105,7 +121,7 @@ In der folgenden Tabelle werden die Aggregationen der **Sales Agg**-Tabelle geze
 
 #### <a name="summarization-function"></a>Zusammenfassungsfunktion
 
-Sie können in der Dropdownliste „Summarization“ (Zusammenfassung) die folgenden Werte auswählen:
+Sie können in der Dropdownliste „Zusammenfassung“ die folgenden Werte auswählen:
 * Anzahl
 * GroupBy
 * Max
@@ -155,11 +171,11 @@ Die folgende Abfrage findet die Aggregation, weil Spalten in der *Date*-Tabelle 
 
 ![Beispielabfrage](media/desktop-aggregations/aggregations-code_02.jpg)
 
-Die folgende Abfrage findet die Aggregation nicht. Obwohl Sie die Summe von **SalesAmount** angefordert haben, wird ein „Gruppieren nach“-Vorgang für eine Spalte in der **Product**-Tabelle ausgeführt. Das entspricht nicht der Granularität, die zum Finden der Aggregation erforderlich ist. Wenn Sie sich die Beziehungen im Modell ansehen, werden Sie feststellen, dass eine Produktunterkategorie mehrere **Product**-Zeilen aufweisen kann. Die Abfrage könnte nicht feststellen, für welches Produkt die Aggregation durchgeführt werden soll. In diesem Fall kehrt die Abfrage zu DirectQuery zurück und übermittelt eine SQL-Abfrage an die Datenquelle.
+Die folgende Abfrage führt nicht zu einem Aggregationstreffer. Obwohl Sie die Summe von **SalesAmount** angefordert haben, wird ein „Gruppieren nach“-Vorgang für eine Spalte in der **Product**-Tabelle ausgeführt. Das entspricht nicht der Granularität, die zum Finden der Aggregation erforderlich ist. Wenn Sie sich die Beziehungen im Modell ansehen, werden Sie feststellen, dass eine Produktunterkategorie mehrere **Product**-Zeilen aufweisen kann. Die Abfrage könnte nicht feststellen, für welches Produkt die Aggregation durchgeführt werden soll. In diesem Fall kehrt die Abfrage zu DirectQuery zurück und übermittelt eine SQL-Abfrage an die Datenquelle.
 
 ![Beispielabfrage](media/desktop-aggregations/aggregations-code_03.jpg)
 
-Aggregationen können nicht nur für einfache Berechnungen eingesetzt werden (wie z.B. das Berechnen einer Summe). Sie können auch bei komplexen Berechnungen nützlich sein. Eine komplexe Berechnung wird in mehrere Unterabfragen aufgeteilt: SUM, MIN, MAX und COUNT. Jede Unterabfrage wird ausgewertet, um zu bestimmen, ob die Aggregation gefunden werden kann. Dies gilt aufgrund von Optimierung des Abfrageplans nicht immer. Das folgende Beispiel findet die Aggregation:
+Aggregationen können nicht nur für einfache Berechnungen eingesetzt werden (wie z.B. das Berechnen einer Summe). Sie können auch bei komplexen Berechnungen nützlich sein. Eine komplexe Berechnung wird in mehrere Unterabfragen aufgeteilt: SUM, MIN, MAX und COUNT. Jede Unterabfrage wird ausgewertet, um zu bestimmen, ob die Aggregation gefunden werden kann. Dies gilt aufgrund einer Optimierung des Abfrageplans nicht immer. Das folgende Beispiel findet die Aggregation:
 
 ![Beispielabfrage](media/desktop-aggregations/aggregations-code_04.jpg)
 
@@ -187,7 +203,7 @@ Fügen Sie eine Aggregationstabelle hinzu, die nach den meisten Attributen grupp
 
 ![Tabelle „Driver Activity Agg“](media/desktop-aggregations/aggregations_10.jpg)
 
-Als Nächstes definieren wir die Aggregationszuordnungen im Dialogfeld **Manage aggregations** (Aggregationen verwalten). Für jede Spalte in der Tabelle **Driver Activity Agg** wird eine Zeile angezeigt, in der Sie das Aggregationsverhalten festlegen können.
+Als Nächstes definieren wir die Aggregationszuordnungen im Dialogfeld **Aggregationen verwalten**. Für jede Spalte in der Tabelle **Driver Activity Agg** wird eine Zeile angezeigt, in der Sie das Aggregationsverhalten festlegen können.
 
 ![Dialogfeld „Manage Aggregations“ für die Tabelle „Driver Activity Agg“](media/desktop-aggregations/aggregations_11.jpg)
 
@@ -223,11 +239,11 @@ Der Speicherbedarf dieses Modells ist relativ gering, obwohl es ein großes Data
 
 ![Tabellen für Modelle mit wenig Speicherbedarf, die ein großes Dataset verfügbar machen](media/desktop-aggregations/aggregations_13.jpg)
 
-Das Dialogfeld **Manage aggregations** (Aggregationen verwalten) für **Driver Activity Agg2** enthält das Feld *Precedence* (Rangfolge) mit einem Wert von 10. Dieser ist höher als der Wert für **Driver Activity Add**, was bedeutet, dass „Driver Activity Agg2“ von Abfragen mit Aggregationen als erstes berücksichtigt wird. Unterabfragen, deren Granularität es nicht ermöglicht, dass sie von **Driver Activity Agg2** beantwortet werden könnten, berücksichtigen stattdessen **Driver Activity Agg**. Detailabfragen, die von keiner der Aggregationstabellen beantwortet werden können, werden an **Driver Activity** weitergeleitet.
+Das Dialogfeld **Aggregationen verwalten** für **Driver Activity Agg2** enthält das Feld *Precedence* (Rangfolge) mit einem Wert von 10. Dieser ist höher als der Wert für **Driver Activity Add**, was bedeutet, dass „Driver Activity Agg2“ von Abfragen mit Aggregationen als erstes berücksichtigt wird. Unterabfragen, deren Granularität es nicht ermöglicht, dass sie von **Driver Activity Agg2** beantwortet werden könnten, berücksichtigen stattdessen **Driver Activity Agg**. Detailabfragen, die von keiner der Aggregationstabellen beantwortet werden können, werden an **Driver Activity** weitergeleitet.
 
 In der Spalte **Detailtabelle** ist **Driver Activity** und nicht **Driver Activity Agg** angegeben, weil verkettete Aggregationen nicht zulässig sind (weitere Informationen unter [Überprüfungen](#validations) weiter oben in diesem Artikel).
 
-![Dialogfeld „Manage aggregations“ (Aggregationen verwalten)](media/desktop-aggregations/aggregations_14.jpg)
+![Dialogfeld „Aggregationen verwalten“](media/desktop-aggregations/aggregations_14.jpg)
 
 In der folgenden Tabelle werden die Aggregationen der **Driver Activity Agg2**-Tabelle gezeigt.
 
@@ -241,11 +257,11 @@ Im folgenden Modell werden *Month*, *Quarter*, *Semester* und *Year* in der Tabe
 
 ![Kombinieren von Aggregationsmethoden](media/desktop-aggregations/aggregations_15.jpg)
 
-In der folgenden Tabelle werden die Einträge angezeigt, die Sie im Dialogfeld **Manage aggregations** (Aggregationen verwalten) für die Tabelle **Sales Agg** festgelegt haben. Die GroupBy-Einträge, bei denen **Date** die Detailtabelle ist, müssen Aggregationen für Abfragen finden, die nach den Date-Attributen gruppieren. Wie auch im vorherigen Beispiel wirken sich die GroupBy-Einträge für CustomerKey und ProductSubcategoryKey nicht darauf aus, ob Aggregationen gefunden werden, da Beziehungen vorhanden sind (DISTINCTCOUNT wieder ausgenommen).
+In der folgenden Tabelle werden die Einträge angezeigt, die Sie im Dialogfeld **Aggregationen verwalten** für die Tabelle **Sales Agg** festgelegt haben. Die GroupBy-Einträge, bei denen **Date** die Detailtabelle ist, müssen Aggregationen für Abfragen finden, die nach den Date-Attributen gruppieren. Wie auch im vorherigen Beispiel wirken sich die GroupBy-Einträge für CustomerKey und ProductSubcategoryKey nicht darauf aus, ob Aggregationen gefunden werden, da Beziehungen vorhanden sind (DISTINCTCOUNT wieder ausgenommen).
 
 ![Aggregationstabelle „Sales Agg“](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Hinweis: Dieses Modell erfordert, dass sich die **Date**-Tabelle im DirectQuery-Modus befindet, damit das Dialogfeld „Manage aggregations“ (Aggregationen verwalten) ausgefüllt werden kann. Dies liegt daran, dass die Tabelle eine Detailtabelle ist. Diese Einschränkung gilt nur für die Vorschauversion. Sie soll bei allgemeiner Verfügbarkeit nicht mehr bestehen.
+> Hinweis: Dieses Modell erfordert, dass sich die **Date**-Tabelle im DirectQuery-Modus befindet, damit das Dialogfeld „Aggregationen verwalten“ ausgefüllt werden kann. Dies liegt daran, dass die Tabelle eine Detailtabelle ist. Diese Einschränkung gilt nur für die Vorschauversion. Sie soll bei allgemeiner Verfügbarkeit nicht mehr bestehen.
 
 ### <a name="query-examples"></a>Beispielabfragen
 
@@ -253,7 +269,7 @@ Die folgende Abfrage findet die Aggregation, weil CalendarMonth von der Aggregat
 
 ![Beispielabfrage](media/desktop-aggregations/aggregations-code_09.jpg)
 
-Die folgende Abfrage findet die Aggregation nicht, weil die Spalte CalendarDay nicht von der Aggregationstabelle abgedeckt wird.
+Die folgende Abfrage findet die Aggregation nicht, weil die Spalte „CalendarDay“ nicht von der Aggregationstabelle abgedeckt wird.
 
 ![Beispielabfrage](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -269,12 +285,11 @@ Die folgende Zeitintelligenzabfrage findet die Aggregation nicht, weil die Funkt
 
 Die folgenden Artikeln enthalten weitere Informationen über zusammengesetzte Modelle sowie Details zu DirectQuery.
 
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
-* [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
+* [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
+* [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md)
 
 Artikel zu DirectQuery:
 
 * [Verwendung von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
-
