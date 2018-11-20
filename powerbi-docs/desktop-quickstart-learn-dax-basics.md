@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003292"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679453"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -142,7 +142,7 @@ DAX enthält die folgenden Kategorien von Funktionen: [Datum und Uhrzeit](https:
 * DAX beinhaltet eine Vielzahl von Zeitintelligenzfunktionen. Mit diesen Funktionen können Sie Datumsbereiche definieren oder auswählen und dynamische Berechnungen auf ihrer Grundlage durchführen. Beispielsweise können Sie Summen über parallele Zeiträume vergleichen.
 * Excel verfügt über eine sehr beliebte Funktion, SVERWEIS. DAX-Funktionen nehmen keine Zelle oder einen Zellbereich als Verweis an, wie SVERWEIS in Excel. DAX-Funktionen nehmen eine Spalte oder eine Tabelle als Verweis an. Bedenken Sie, dass Sie in Power BI Desktop mit einem relationalen Datenmodell arbeiten. Das Nachschlagen von Werten in einer anderen Tabelle ist wirklich recht einfach, und in den meisten Fällen müssen Sie dafür gar keine Formel erstellen.
   
-  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen sehr leistungfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
+  Wie Sie sehen können, können Funktionen in DAX Ihnen beim Erstellen sehr leistungfähiger Formeln helfen. Wir haben wirklich gerade eben nur die Grundlagen von Funktionen berührt. Mit wachsenden DAX-Fertigkeiten erstellen Sie Formeln, die viele verschiedene Funktionen verwenden. Eine der besten Quellen für Details zu jeder der DAX-Funktionen ist die [DAX-Funktionsreferenz](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Funktionen-Kurzquiz
 1. Worauf verweist eine Funktion in jedem Fall?

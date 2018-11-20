@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329429"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679353"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI
 Sie können jede Excel-Arbeitsmappe, die kleiner als 1 GB ist, in Power BI hochladen. Eine Excel-Arbeitsmappe kann aus zwei Teilen bestehen: einem Datenmodell und dem Rest des Berichts – den Arbeitsblatt-Kerninhalten. Wenn der Bericht die folgenden Größenanforderungen erfüllt, können Sie ihn auf **OneDrive for Business** speichern, von Power BI aus eine Verbindung damit herstellen und ihn in Excel Online anzeigen:
@@ -28,7 +28,7 @@ Hier sind einige Faktoren aufgeführt, die bewirken können, dass die Arbeitsbla
 
 * Bilder
 * Schattierte Zellen. [Entfernen Sie ein Format für die Zellenschattierung](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* Farbige Arbeitsblätter. [Entfernen Sie einen Hintergrund](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* Farbige Arbeitsblätter. [Entfernen Sie einen Hintergrund](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * Textfelder
 * ClipArt
 
@@ -55,7 +55,7 @@ Beachten Sie diese Tipps, wenn Sie Daten in Excel importieren:
 * **Auf der Registerkarte „Excel-Daten“**: Achten Sie darauf, dass die Option **Tabelle** im Feld **Daten importieren** nicht aktiviert ist.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer
-Wenn die Arbeitsmappe ein Datenmodell enthält, können Sie den Workbook Size Optimizer ausführen, um die Größe Ihrer Arbeitsmappe zu verringern. [Workbook Size Optimizer herunterladen](https://www.microsoft.com/en-us/download/details.aspx?id=38793).
+Wenn die Arbeitsmappe ein Datenmodell enthält, können Sie den Workbook Size Optimizer ausführen, um die Größe Ihrer Arbeitsmappe zu verringern. [Workbook Size Optimizer herunterladen](https://www.microsoft.com/download/details.aspx?id=38793).
 
 ## <a name="related-info"></a>Verwandte Informationen
 [Erstellen eines speichereffizienten Datenmodells](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

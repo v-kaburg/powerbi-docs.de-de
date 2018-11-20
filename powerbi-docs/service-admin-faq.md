@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ec687e4751c6003fe558f2088825eae0bf4be11
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973394"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157078"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -38,7 +38,7 @@ Dieser Artikel behandelt häufig gestellte Fragen zur Power BI-Verwaltung. Einen
 
 * [Wie ändert sich dadurch die Art und Weise, in der ich die Identitäten für Benutzer in meiner Organisation heute verwalte?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Wie verwalte ich Power BI?](#how-do-we-manage-power-bi)
-* [Was ist der Prozess zum Verwalten eines Mandanten, der von Microsoft für meine Benutzer erstellt wurde?](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
+* [Was ist der Prozess zum Verwalten eines Mandanten, der von Microsoft für meine Benutzer erstellt wurde?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Wenn ich mehrere Domänen habe, kann ich den Office 365-Mandanten steuern, dem Benutzer hinzugefügt werden?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Wie entferne ich Power BI für Benutzer, die sich bereits registriert haben?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Wie erfahre ich, wenn meinem Mandanten neue Benutzer beigetreten sind?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -144,7 +144,7 @@ Verwenden Sie das folgende PowerShell-Skript, um Ad-hoc-Abonnements zu deaktivie
     ```
 
 > [!NOTE]
-> Das Flag AllowAdHocSubscriptions wird verwendet, um verschiedene Benutzeroptionen in Ihrer Organisation zu steuern, einschließlich der Möglichkeit, dass Benutzer sich beim Azure Rights Management Service registrieren können. Das Ändern dieses Flags wirkt sich auf alle Benutzeroptionen aus.
+> Das Flag AllowAdHocSubscriptions wird verwendet, um verschiedene Benutzeroptionen in Ihrer Organisation zu steuern, einschließlich der Möglichkeit, dass Benutzer sich beim Azure Rights Management Service registrieren können. Das Ändern dieses Flags wirkt sich auf all diese Optionen aus.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Wie kann ich meinen vorhandenen Benutzern erlauben, sich für Power BI zu registrieren?
 
@@ -241,7 +241,7 @@ Informationen zur Power BI-SLA (Vereinbarung zum Servicelevel) finden Sie auf de
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Erfüllt Power BI nationale, regionale und branchenspezifische Anforderungen an die Konformität?
 
-Weitere Informationen zur Power BI-Konformität finden Sie im [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).
+Weitere Informationen zur Power BI-Konformität finden Sie im [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx).
 
 ### <a name="how-does-security-work-in-power-bi"></a>Wie funktioniert die Sicherheit in Power BI?
 

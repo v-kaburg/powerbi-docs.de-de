@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561814"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679290"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver
 Power BI-Berichtsserver ist eine Lösung für Self-Service-BI und Enterprise-Berichterstellung, die Kunden lokal hinter der Firewall bereitstellen können. Sie kombiniert die interaktiven Berichte von Power BI Desktop mit der lokalen Serverplattform von SQL Server Reporting Services. Aufgrund der starken und zunehmenden Verwendung von Analysen und Berichten in Unternehmen kann die Budgetplanung für die Hardwareinfrastruktur und die erforderlichen Softwarelizenzen für die Skalierung auf eine hohe Benutzeranzahl eine Herausforderung sein. Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. Die Berichte, Abfragen und Verwendungsmuster in einem Unternehmen weisen große Unterschiede auf. Jedoch lassen sich die in diesem Dokument vorgestellten Ergebnisse zusammen mit den tatsächlich verwendeten Tests und einer ausführlichen Beschreibung ihrer Ausführung immer als Orientierungshilfe bei der anfänglichen Planung der Bereitstellung von Power BI-Berichtsserver nutzen.
@@ -114,7 +114,7 @@ Die in diesem Dokument beschriebenen Ergebnisse wurden aus dem Ausführen eines 
 ### <a name="1-topology"></a>1 Topologie
 **1.1 Topologie von Power BI-Berichtsserver**
 
-Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unterschiedlichen Konfigurationen zu konzentrieren, war die VM-Konfiguration für jeden Typ von Computer (mit Ausnahme des Computers, auf dem der Power BI-Berichtsserver gehostet wird) die gleiche. Jeder Computer wurde als virtueller Computer der zweiten Generation (Dv2-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu jeder VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Typ des virtuellen Computers | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Um sich ausschließlich auf das Verhalten von Power BI-Berichtsserver bei unters
 
 **1.2 Konfiguration des virtuellen Power BI-Berichtsserver-Computers** 
 
-Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Für den virtuellen Computer, der Power BI-Berichtsserver hostet, wurden unterschiedliche Konfigurationen von Prozessor und Arbeitsspeicher verwendet. Im Gegensatz zu anderen virtuellen Computern wurde dieser Computer als virtueller Computer der dritten Generation (Dv3-Serie) mit Storage Premium-Datenträgern bereitgestellt. Ausführliche Informationen zu dieser VM-Größe finden Sie im Abschnitt „Allgemein“ auf der Seite https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Virtueller Computer | Prozessor | Arbeitsspeicher | Azure VM-Größe |
 | --- | --- | --- | --- |

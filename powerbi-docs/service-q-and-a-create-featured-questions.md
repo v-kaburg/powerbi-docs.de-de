@@ -1,7 +1,7 @@
 ---
 title: Erstellen von ausgewählten Fragen für Power BI Q&A
 description: Dokumentation zum Erstellen von ausgewählten Fragen für Power BI Q&A
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548233"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716939"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Erstellen von ausgewählten Fragen für Power BI Q&A
 Wenn Sie ein Dataset besitzen, können Sie dem Dataset eigene ausgewählte Fragen hinzufügen.  Power BI Q&A zeigt diese Fragen dann für Kollegen an, die das Dataset verwenden (*nutzen*).  Durch die ausgewählten Fragen erhalten Ihre Kollegen Anhaltspunkte für die Arten von Fragen, die sie zum Dataset stellen können. Welche ausgewählten Fragen Sie hinzufügen, ist Ihnen überlassen – häufig gestellte Fragen, Fragen mit interessanten Ergebnissen oder Fragen, die möglicherweise schwierig zu formulieren sind.

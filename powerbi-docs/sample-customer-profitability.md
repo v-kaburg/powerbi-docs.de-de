@@ -1,26 +1,26 @@
 ---
 title: 'Beispiel zur Kundenrentabilität für Power BI: Tour'
 description: 'Beispiel zur Kundenrentabilität für Power BI: Tour'
-author: amandacofsky
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fb06b83ca2fe949751337347c91b3947e115286d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944719"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717974"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Beispiel zur Kundenrentabilität für Power BI: Tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Tour durch das Beispiel zur Kundenrentabilität
-Das Inhaltspaket „Beispiel zur Kundenrentabilität“ enthält ein Dashboard, einen Bericht und ein Dataset für ein Unternehmen, das Marketingmaterial herstellt. Dieses Dashboard wurde von einer Finanzdirektorin (CFO) erstellt, um die Metriken für ihre fünf Business Unit Manager (Führungskräfte), Produkte, Kunden und den Bruttogewinn verfolgen zu können. Sie sieht auf einen Blick, welche Faktoren sich auf die Rentabilität auswirken.
+Das Inhaltspaket „Beispiel zur Kundenrentabilität“ enthält ein Dashboard, einen Bericht und ein Dataset für ein Unternehmen, das Marketingmaterial herstellt. Dieses Dashboard wurde von einer Finanzdirektorin (CFO) erstellt, um die Metriken für ihre fünf Business Unit Manager (Führungskräfte), Produkte, Kunden und den Bruttogewinn verfolgen zu können. Auf einen Blick kann ermittelt werden, welche Faktoren die Rentabilität beeinflussen.
 
 ![Power BI-Dashboard](media/sample-customer-profitability/power-bi-dash.png)
 

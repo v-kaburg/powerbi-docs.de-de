@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507713"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679108"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Suchen von und Herstellen einer Verbindung mit organisationsbezogenen Inhaltspaketen
 
@@ -38,7 +38,7 @@ Das Erstellen von Inhaltspaketen unterscheidet sich vom Freigeben von Dashboards
 ## <a name="connect-to-an-organizational-content-pack"></a>Herstellen einer Verbindung mit einem organisationsbezogenen Inhaltspaket
 * Wählen Sie **Jetzt abrufen** aus, um eine Verbindung mit dem Inhaltspaket herzustellen und es Ihrem aktiven Arbeitsbereich hinzuzufügen. Neue Dashboards, Berichte, Excel-Arbeitsmappen und Datasets werden mit einem gelben Sternchen markiert.
 
-Wenn das Inhaltspaket eine Excel-Arbeitsmappe enthält, wird möglicherweise eine Warnung angezeigt, dass Sie nicht über die Berechtigungen zum Anzeigen der Excel-Arbeitsmappe verfügen. Bitten Sie in diesem Fall den Besitzer des Inhaltspakets, [die Arbeitsmappe für Sie in OneDrive for Business freizugeben](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Wenn das Inhaltspaket eine Excel-Arbeitsmappe enthält, wird möglicherweise eine Warnung angezeigt, dass Sie nicht über die Berechtigungen zum Anzeigen der Excel-Arbeitsmappe verfügen. Bitten Sie in diesem Fall den Besitzer des Inhaltspakets, [die Arbeitsmappe für Sie in OneDrive for Business freizugeben](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 Das Inhaltspaket ist gesperrt. Sie können [Ihre eigene Kopie des Dashboards und der Berichte speichern](../service-organizational-content-pack-copy-refresh-access.md). 
 

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548762"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679085"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Freigeben eines Power BI-Dashboards, das mit einer Excel-Datei in OneDrive verknüpft ist
 In Power BI können Sie sich [mit Excel-Arbeitsmappen auf OneDrive for Business verbinden](service-excel-workbook-files.md) und Kacheln an ein Dashboard aus der jeweiligen Arbeitsmappe anheften. Wenn Sie dieses Dashboard freigeben oder ein Inhaltspaket erstellen, das dieses Dashboard enthält:
 
 * Ihre Kollegen können die Kacheln anzeigen, ohne über Berechtigungen für die Arbeitsmappe an sich zu verfügen. Sie können also ein Inhaltspaket erstellen und müssen sich darüber im Klaren sein, dass Ihre Kollegen die Kacheln aus der OneDrive-Excel-Arbeitsmappe in OneDrive sehen können.
-* Durch Klicken auf die Kachel wird die Arbeitsmappe in Power BI geöffnet. Die Arbeitsmappe wird nur geöffnet, wenn Ihr Kollege mindestens über [Leseberechtigungen](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) für die Arbeitsmappe auf OneDrive for Business verfügt.
+* Durch Klicken auf die Kachel wird die Arbeitsmappe in Power BI geöffnet. Die Arbeitsmappe wird nur geöffnet, wenn Ihr Kollege mindestens über [Leseberechtigungen](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) für die Arbeitsmappe auf OneDrive for Business verfügt.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Freigeben eines Dashboards, das Arbeitsmappenkacheln enthält
 Weitere Informationen zum Freigeben eines Dashboards mit Links auf eine Excel-Arbeitsmappe auf OneDrive for Business finden Sie unter [Freigeben eines Dashboards](service-share-dashboards.md). Der Unterschied besteht darin, dass Sie die Möglichkeit zum Ändern der Berechtigungen für die verknüpfte Excel-Arbeitsmappe vor dem Freigeben haben.
@@ -30,7 +30,7 @@ Weitere Informationen zum Freigeben eines Dashboards mit Links auf eine Excel-Ar
 
 1. Geben Sie die E-Mail-Adressen für Ihre Kollegen ein.
 2. Wählen Sie zum Aktivieren der Anzeige der Excel-Arbeitsmappe aus Power BI für Ihre Kollegen **Zu OneDrive for Business wechseln, um Arbeitsmappenberechtigungen festzulegen**aus.
-3. [Ändern Sie die Berechtigungen](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
+3. [Ändern Sie die Berechtigungen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
 4. Wählen Sie **Freigeben**aus.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Wenn Sie ein [Inhaltspaket veröffentlichen](service-organizational-content-pack
    
     ![Excel-Arbeitsmappe in einem Inhaltspaket](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Wählen Sie **Zu OneDrive for Business wechseln, um Arbeitsmappenberechtigungen festzulegen**aus.
-4. [Ändern Sie die Berechtigungen](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
+4. [Ändern Sie die Berechtigungen](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) auf OneDrive nach Bedarf.
 5. Wählen Sie **Veröffentlichen**aus.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Freigeben eines Dashboards in einem Power BI-Arbeitsbereich

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04e95ade5d7c7d0e2b9a6d9690873437e2ec1b6d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 47bcfabddfeb5bfec828c7b14fef4798350939da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329728"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51678993"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Beheben von Problemen beim Importieren von Access- und XLS-Dateien in Power BI Desktop
 In **Power BI Desktop** verwenden sowohl **Access-Datenbanken** als auch frühe Versionen von **Excel-Arbeitsmappen** (XLS-Dateien vom Typ Excel 97 bis 2003) das *Access-Datenbankmodul*. Es gibt drei häufige Situationen, die dazu führen können, dass die Access-Datenbank-Engine nicht ordnungsgemäß funktioniert:
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>Situation 1: Es ist keine Access-Datenbank-Engine installiert
-Wenn die Power BI Desktop-Fehlermeldung angibt, dass das Access-Datenbankmodul nicht installiert ist, müssen Sie die Version des Access-Datenbankmoduls (entweder 32-Bit oder 64-Bit) installieren, die Ihrer Version von Power BI Desktop entspricht. Sie können das Access-Datenbankmodul von der [Downloadseite](http://www.microsoft.com/en-us/download/details.aspx?id=13255) aus installieren.
+Wenn die Power BI Desktop-Fehlermeldung angibt, dass das Access-Datenbankmodul nicht installiert ist, müssen Sie die Version des Access-Datenbankmoduls (entweder 32-Bit oder 64-Bit) installieren, die Ihrer Version von Power BI Desktop entspricht. Sie können das Access-Datenbankmodul von der [Downloadseite](http://www.microsoft.com/download/details.aspx?id=13255) aus installieren.
 
 >[!NOTE]
 >Wenn sich die Bitversion des installierten Access-Datenbank-Engine von der Bitversion Ihrer Microsoft Office-Installation unterscheidet, können Office-Anwendungen die Access-Datenbank-Engine nicht verwenden.
@@ -41,7 +41,7 @@ Diese Situation tritt häufig auf, wenn es sich bei der installierten Version vo
    >Wenn Sie mit der 32-Bit-Version von Power BI Desktop sehr große Datenmodelle erstellen, können Probleme auftreten, weil nicht genügend Arbeitsspeicher vorhanden ist.
 2. Ändern Sie die Microsoft Office-Version, sodass diese mit der Bitversion Ihrer Power BI Desktop-Installation übereinstimmt. Um die Bitversion von Microsoft Office zu ändern, deinstallieren Sie Microsoft Office, und installieren Sie anschließend die Office-Version, die Ihrer Power BI Desktop-Installation entspricht.
 3. Wenn der Fehler beim Öffnen einer XLS-Datei (einer Excel 97 bis 2003-Arbeitsmappe) auftritt, können Sie die Verwendung des Access-Datenbankmoduls vermeiden, indem Sie die XLS-Datei in Excel öffnen und als XLSX-Datei speichern.
-4. Wenn die vorherigen drei Lösungen nicht möglich sind, können Sie beide Versionen der Access-Datenbank-Engine installieren. Dies wird jedoch *nicht* als Problemumgehung empfohlen. Das Installieren beider Versionen löst dieses Problem für Power Query für Excel und Power BI Desktop, führt jedoch zu Fehlern und Problemen bei Anwendungen, die automatisch (standardmäßig) die zuerst installierte Bitversion der Access-Datenbank-Engine verwenden. Um beide Bitversionen der Access-Datenbank-Engine zu installieren, [laden Sie beide Versionen herunter](http://www.microsoft.com/en-us/download/details.aspx?id=13255), und führen Sie beide mithilfe des Schalters */passive* aus. Beispiel:
+4. Wenn die vorherigen drei Lösungen nicht möglich sind, können Sie beide Versionen der Access-Datenbank-Engine installieren. Dies wird jedoch *nicht* als Problemumgehung empfohlen. Das Installieren beider Versionen löst dieses Problem für Power Query für Excel und Power BI Desktop, führt jedoch zu Fehlern und Problemen bei Anwendungen, die automatisch (standardmäßig) die zuerst installierte Bitversion der Access-Datenbank-Engine verwenden. Um beide Bitversionen der Access-Datenbank-Engine zu installieren, [laden Sie beide Versionen herunter](http://www.microsoft.com/download/details.aspx?id=13255), und führen Sie beide mithilfe des Schalters */passive* aus. Beispiel:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
    
@@ -50,7 +50,7 @@ Diese Situation tritt häufig auf, wenn es sich bei der installierten Version vo
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situation 3: Probleme mit Access- oder XLS-Dateien bei einem Office 365-Abonnement
 Wenn Sie ein Office 365-Abonnement wie **Office 2013** oder **Office 2016** verwenden, wird der Anbieter der Access-Datenbank-Engine an einem virtuellen Registrierungsstandort registriert, auf den *ausschließlich* Office-Prozesse zugreifen können. Da es kein Office-Prozess ist, kann das Mashup-Modul (führt Power BI Desktop sowie Excel-Versionen aus, die nicht Teil von Office 365 sind) den Anbieter des Access-Datenbankmoduls nicht verwenden.
 
-Um das Problem zu lösen, können Sie die Redistributable des Access-Datenbankmoduls, die der Bit-Version Ihrer Power BI Desktop-Installation entspricht, [herunterladen und installieren](http://www.microsoft.com/en-us/download/details.aspx?id=13255) (zu Bit-Versionen siehe die Abschnitte oben).
+Um das Problem zu lösen, können Sie die Redistributable des Access-Datenbankmoduls, die der Bit-Version Ihrer Power BI Desktop-Installation entspricht, [herunterladen und installieren](http://www.microsoft.com/download/details.aspx?id=13255) (zu Bit-Versionen siehe die Abschnitte oben).
 
 ### <a name="other-situations-that-cause-import-issues"></a>Weitere für den Import problematische Situationen
 Wir sind bemüht, im Zusammenhang mit Access- und XLS-Dateien auftretende Probleme möglichst umfassend darzustellen. Wenn ein Problem auftritt, das in diesem Artikel nicht behandelt wird, können Sie sich mit entsprechenden Fragen gerne an den [Power BI-Support](https://powerbi.microsoft.com/support/) wenden. Wir erweitern unsere Artikel regelmäßig um Lösungen für Probleme, die viele Kunden betreffen.

@@ -1,21 +1,21 @@
 ---
 title: Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 description: Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545897"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717123"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-user-tiles.md) ist das Kopieren aus einem anderen Dashboard. Jede dieser Kacheln stellt (sobald angeklickt) einen Link zurück zum Ort der Erstellung da – entweder im F&A oder einem Bericht. 

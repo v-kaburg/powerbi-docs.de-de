@@ -1,21 +1,21 @@
 ---
 title: 'Beispiel für Vertrieb und Marketing für Power BI: Tour'
 description: 'Beispiel für Vertrieb und Marketing für Power BI: Tour'
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5e69f9416f1de84cd4e2268964620b6a114d4016
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944489"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717583"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Beispiel für Vertrieb und Marketing für Power BI: Tour
 
@@ -24,7 +24,7 @@ Das **Vertriebs- und Marketingbeispiel** enthält ein Dashboard und einen Berich
 
 VanArsdel hat viel Konkurrenz, aber ist Marktführer seiner Branche. Der CMO möchte den Marktanteil erhöhen und Wachstumschancen aufzeigen. Doch aus irgendeinem Grund geht der Marktanteil von VanArsdel zurück, insbesondere im Juni wurden größere Einbußen verzeichnet.
 
-Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Bei den Daten handelt es sich um echte Daten von obviEnce (www.obvience.com) in anonymisierter Form.
+Dieses Beispiel ist Teil einer Reihe, die Ihnen die Verwendung von Power BI anhand geschäftsbezogener Daten, Berichte und Dashboards veranschaulicht. Dabei handelt es sich um echte Daten von obviEnce (www.obvience.com), die anonymisiert wurden.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 

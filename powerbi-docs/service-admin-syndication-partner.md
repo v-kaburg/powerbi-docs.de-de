@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909316"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157400"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI kann einem Office 365-Partnerabonnement nicht hinzugefügt werden
 
@@ -23,7 +23,7 @@ Office 365 ermöglicht es Unternehmen, Office 365 in ihre eigenen Lösungen inte
 
 Wenn Sie sich für den Erwerb von Power BI in Kombination mit Ihrem Office 365-Abonnement interessieren, empfehlen wir Ihnen, sich zu diesem Zweck mit Ihrem Partner in Verbindung zu setzen. Wenn Ihr Partner Power BI derzeit nicht anbietet, stehen Ihnen verschiedene Wege offen.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Zusammenarbeit mit dem Partner zum Erwerben von Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Zusammenarbeit mit dem Partner zum Erwerben von Power BI
 
 Wenn Sie ein Abonnement für Power BI Pro oder Power BI Premium erwerben möchten, setzen Sie sich mit Ihrem Partner in Verbindung, und besprechen Sie mit ihm, welche Optionen sich Ihnen bieten:
 
@@ -31,7 +31,7 @@ Wenn Sie ein Abonnement für Power BI Pro oder Power BI Premium erwerben möchte
 
 * Der Partner kann Sie auf ein Modell umstellen, bei dem Sie Power BI direkt bei Microsoft oder einem anderen Partner erwerben können, der Power BI anbietet.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Erwerben bei Microsoft oder über einen anderen Kanal
+## <a name="purchase-from-microsoft-or-another-channel"></a>Erwerben bei Microsoft oder über einen anderen Kanal
 
 Je nach Art der Beziehung zu Ihrem Partner können Sie Power BI möglicherweise direkt bei Microsoft oder einem anderen Partner erwerben. Im Office 365-Portal können Sie überprüfen, ob Sie Power BI-Abonnements hinzufügen können (erfordert die Mitgliedschaft in den Rollen „Globaler Administrator“ oder „Abrechnungsadministrator“).
 

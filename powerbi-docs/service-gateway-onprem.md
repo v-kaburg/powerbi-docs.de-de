@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297134"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679016"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -100,7 +100,7 @@ Derzeit können Mandantenadministratoren die Gateways, die andere Benutzer insta
 ## <a name="enabling-outbound-azure-connections"></a>Aktivieren von ausgehenden Azure-Verbindungen
 
 Das lokale Datengateway nutzt den Azure Service Bus für die Cloudverbindung und stellt gleichzeitig ausgehende Verbindungen zu seiner zugeordneten Azure-Region her. In der Standardeinstellung ist dies der Speicherort Ihres Power BI-Mandanten. Weitere Informationen finden Sie unter [Wo befindet sich mein Power BI-Mandant?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Wenn ausgehende Verbindungen von einer Firewall blockiert werden, müssen Sie die Firewall so konfigurieren, dass sie ausgehende Verbindungen vom lokalen Datengateway zu seiner zugeordneten Azure-Region zulässt. Auf der Seite zu [Microsoft Azure Datacenter-IP-Bereichen](https://www.microsoft.com/en-us/download/details.aspx?id=41653) finden Sie Details zu den IP-Adressbereichen jedes Azure-Rechenzentrums.
+Wenn ausgehende Verbindungen von einer Firewall blockiert werden, müssen Sie die Firewall so konfigurieren, dass sie ausgehende Verbindungen vom lokalen Datengateway zu seiner zugeordneten Azure-Region zulässt. Auf der Seite zu [Microsoft Azure Datacenter-IP-Bereichen](https://www.microsoft.com/download/details.aspx?id=41653) finden Sie Details zu den IP-Adressbereichen jedes Azure-Rechenzentrums.
 > [!NOTE]
 > Die IP-Adressbereiche können sich mit der Zeit ändern, laden Sie also regelmäßig die neuesten Informationen herunter. 
 
