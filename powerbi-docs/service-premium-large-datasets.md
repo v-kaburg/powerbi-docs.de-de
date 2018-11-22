@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641250"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679377"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Unterstützung für große Datasets in Power BI Premium
 
-Power BI Premium unterstützt Uploads von Power BI Desktop-Dateien (.pbix) mit einer Größe von bis zu 10 GB. Sobald der Upload abgeschlossen ist, kann ein Dataset auf bis zu 12 GB aktualisiert werden. Wenn Sie ein großes Dataset verwenden möchten, veröffentlichen Sie es in einem Arbeitsbereich, dem Premium-Kapazität zugewiesen wurde. In diesem Artikel werden Überlegungen und bewährte Methoden für die Arbeit mit großen Datasets beschrieben.
+Power BI Premium unterstützt Uploads von Power BI Desktop-Dateien (.pbix) mit einer Größe von bis zu 10 GB. Sobald der Upload abgeschlossen ist, kann ein Dataset auf bis zu 12 GB aktualisiert werden. Wenn Sie ein großes Dataset verwenden möchten, veröffentlichen Sie es in einem Arbeitsbereich, dem Premium-Kapazität zugewiesen wurde.
+ 
+## <a name="best-practices"></a>Bewährte Methoden
 
-**Große Modelle können sehr ressourcenintensiv** für die Kapazität sein. Für Modelle mit mehr als 1 GB wird mindestens eine P1 SKU empfohlen. In der folgenden Tabelle werden die empfohlenen SKUs für verschiedene PBIX-Größen aufgeführt:
+In diesem Abschnitt werden bewährte Methoden zum Arbeiten mit großen Datasets beschrieben.
+
+**Große Modelle können sehr ressourcenintensiv** für die Kapazität sein. Für Modelle mit mehr als 1 GB wird mindestens eine P1 SKU empfohlen. Sie können zwar große Modelle in Arbeitsbereichen veröffentlichen, die von A-SKUs (bis A3) gesichert werden, aber Sie können diese Modelle nicht aktualisieren.
+
+In der folgenden Tabelle werden die empfohlenen SKUs für verschiedene PBIX-Größen aufgeführt:
 
    |SKU  |PBIX-Größe   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4, P5    | bis zu 10 GB |
+   |P3, P4, P5    | bis zu 10 GB   |
+
+Die A4-SKU für Power BI Embedded entspricht der P1-SKU, A5 entspricht P2 und A6 entspricht P3. Beachten Sie, dass beim Veröffentlichen von großen Modellen in A- und EM-SKUs möglicherweise Fehler zurückgegeben werden, die sich nicht auf den Fehler zur Begrenzung der Modellgröße in der gemeinsam genutzten Kapazität beziehen. Aktualisierungsfehler bei großen Modellen in A- und EM-SKUs verweisen häufig auf Timeouts. Wir arbeiten derzeit an Verbesserungen der Fehlermeldungen für diese Szenarios.
 
 **In PBIX-Dateien werden Daten stark komprimiert gespeichert**. Die Daten werden in den meisten Fällen beim Laden in den Speicher mehrmals größer, ebenso wie anschließend bei jeder Datenaktualisierung.
 

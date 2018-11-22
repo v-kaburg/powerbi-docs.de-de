@@ -1,5 +1,5 @@
 ---
-title: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver
+title: Konfigurieren des Remotezugriffs von mobilen iOS-Apps auf Berichtsserver
 description: Erfahren Sie, wie Sie Ihre mobilen iOS-Apps remote für Ihren Berichtsserver konfigurieren.
 author: maggiesMSFT
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722176"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157423"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver
 
-In diesem Artikel erfahren Sie, wie Sie das MDM-Tool Ihrer Organisation verwenden, um den Zugriff für mobile Power BI-App für iOS auf Berichtsserver zu konfigurieren. Für die Einrichtung erstellen IT-Administratoren eine Richtlinie für die App-Konfiguration mit den erforderlichen Informationen, die per Push an die App weitergeleitet werden sollen. 
+In diesem Artikel erfahren Sie, wie Sie das MDM-Tool Ihrer Organisation verwenden, um den Zugriff für mobile Power BI-App für iOS auf Berichtsserver zu konfigurieren. IT-Administratoren erstellen für die Konfiguration eine Richtlinie für die App-Konfiguration mit den erforderlichen Informationen, die per Push an die App weitergeleitet werden sollen. 
 
- Anschließend können Benutzer der mobilen iOS-App für Power BI einfacher eine Verbindung mit dem Berichtsserver ihrer Organisation herstellen, da die Berichtsserververbindung bereits konfiguriert ist. 
-
+ Wenn die Berichtsserververbindung bereits konfiguriert ist, können Benutzer der mobilen iOS-App für Power BI einfacher eine Verbindung mit dem Berichtsserver ihrer Organisation herstellen. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Erstellen der Richtlinie für die App-Konfiguration im MDM-Tool 
 
-Dies sind die Schritte, die Sie als Administrator in Microsoft Intune befolgen, um die Richtlinie für die App-Konfiguration zu erstellen. Die Schritte und Erfahrungen beim Erstellen der Richtlinie für die App-Konfiguration unterscheiden sich womöglich in anderen MDM-Tools. 
+Sie als Administrator müssen in Microsoft Intune die folgenden Schritte ausführen, um die Richtlinie für die App-Konfiguration zu erstellen. Die Schritte und Erfahrungen beim Erstellen der Richtlinie für die App-Konfiguration unterscheiden sich womöglich in anderen MDM-Tools. 
 
 1. Verbinden Sie Ihr MDM-Tool. 
 2. Erstellen Sie einen Namen und eine neue Richtlinie für die App-Konfiguration. 
@@ -39,7 +38,7 @@ In der folgenden Tabelle sind die Paare aufgeführt.
 | com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL </br> Muss mit http/https beginnen |
 | com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] </br> Der Benutzername, der zum Verbinden des Servers verwendet wird. </br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional] </br> Der Standardwert ist „Berichtsserver“. </br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolesch | Der Standardwert ist TRUE </br> Wenn der Standardwert auf TRUE festgelegt ist, wird jede Berichtsserverdefinition, die sich bereits auf dem mobilen Gerät befindet, außer Kraft gesetzt (vorhandene Server, die bereits konfiguriert sind, werden gelöscht). </br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. </br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. </br> Wenn die gleiche Server-URL bereits in der mobilen App konfiguriert ist, behält die App diese Konfiguration bei und fordert den Benutzer nicht auf, sich neu für denselben Server zu authentifizieren. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolesch | Der Standardwert ist TRUE </br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. </br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. </br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. </br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
 
 Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über Intune.
 
@@ -47,7 +46,7 @@ Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über I
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Endbenutzer, die eine Verbindung mit einem Berichtsserver herstellen
 
-Nachdem Sie die Richtlinie für die App-Konfiguration veröffentlicht haben, verfügen Benutzer und Geräte, die der Verteilungsliste angehören, die für diese Richtline definiert wurde, über die folgende Benutzeroberfläche, wenn die mobile Power BI-App für iOS gestartet wird. 
+ Angenommen, Sie veröffentlichen die Richtlinie für die App-Konfiguration für eine Verteilerliste. Wenn dann Benutzer und Geräte, die in dieser Liste aufgeführt sind, die mobile iOS-App starten, geschieht Folgendes. 
 
 1. Den Benutzern wird eine Meldung angezeigt, die besagt, dass ihre mobile App mit einem Berichtsserver konfiguriert ist. Der Benutzer tippt dann auf **Anmelden**.
 

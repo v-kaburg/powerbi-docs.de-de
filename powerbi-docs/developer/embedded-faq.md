@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736962"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679430"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -119,10 +119,10 @@ Navigieren Sie zu https://app.powerbi.com/ > ? > Info
 ![Info](media/embedded-faq/about-01.png)
 ![Mandanten-Region](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>Was unterstützt der CSP-Kanal (Community Sequential Processes)?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>Wofür kann ich den Cloud Solution Provider-Kanal (CSO) nutzen?
 
 * Sie können die Power BI Embedded-Kapazität für Ihren Mandanten mit einem CSP-Abonnement erstellen.
-* Partnerkonten können sich beim Kundenmandanten anmelden und Power BI Embedded für den Kundenmandanten erwerben und einen Kundenmandanten als Administrator der Power BI-Kapazität festlegen.
+* Partnerkonten können sich beim Kundenmandanten anmelden, Power BI Embedded für diesen erwerben und einen Kundenmandanten als Administrator der Power BI-Kapazität festlegen.
 
 ### <a name="why-do-i-get-an-unsupported-account-message"></a>Weshalb erhalte ich eine Meldung, die besagt, dass mein Konto nicht unterstützt wird?
 

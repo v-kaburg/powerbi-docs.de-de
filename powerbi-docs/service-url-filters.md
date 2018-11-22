@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973371"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850589"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -47,7 +47,7 @@ Feldtypen können eine Zahl, ein datetime-Wert oder eine Zeichenfolge sein und m
 
 * **Zeichenfolgen** müssen mit einfachen Anführungszeichen umschlossen werden ('Managername').
 * Für **Zahlen** ist keine besondere Formatierung erforderlich.
-* **Datums- und Uhrzeitangaben** müssen mit einfachen Anführungszeichen umschlossen werden. Außerdem muss **DateTime** vorangestellt werden.
+* **Datums- und Zeitangaben** müssen in einfachen Anführungszeichen stehen. In OData V3 muss ihnen das Word „datetime“ vorangestellt sein. In OData V4 ist dies nicht notwendig.
 
 Auf all das gehen wir im weiteren Verlauf dieses Artikels noch näher ein.  
 
@@ -100,7 +100,7 @@ Power BI unterstützt außer **and** noch viele weitere Operatoren. In der folge
 |Operator  | Definition | Zeichenfolge  | Zahl | Date |  Beispiel|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | und |  Ja      | Ja |  Ja|  product/price le 200 and price gt 3.5 |
-|**eq**     | Ist gleich |  Ja      | Ja   |  Ja       | Address/City eq 'Redmond' |
+|**eq**     | equals |  Ja      | Ja   |  Ja       | Address/City eq 'Redmond' |
 |**ne**     | Ungleich |   Ja      | Ja  | Ja        |  Address/City ne 'London' |
 |**ge**     |  Größer als oder gleich       | Nein | Ja |Ja |  product/price ge 10
 |**gt**     | Größer als        |Nein | Ja | Ja  | product/price gt 20
@@ -167,7 +167,7 @@ Diese Abweichung ist nützlich, wenn Sie unterschiedliche Ergebnisse anzeigen m�
 
 Im Zusammenhang mit Abfragezeichenfolgenparametern müssen ein paar Dinge beachtet werden.
 
-* Wenn Sie den *in*-Operator verwenden, müssen die Werte auf der rechten Seite von *in* einer mit Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen ist.    
+* Wenn Sie den *in*-Operator verwenden, müssen die Werte auf der rechten Seite von *in* einer durch Trennzeichen getrennten Liste entsprechen, die in Klammern eingeschlossen ist.    
 * Sie können in Power BI-Berichtsserver [Berichtsparameter übergeben](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md), indem Sie sie in eine Berichts-URL einschließen. Diese URL-Parameter haben kein Präfix, da sie direkt an die Berichtsverarbeitungs-Engine übergeben werden.
 * Das Filtern mittels Abfragezeichenfolge kann nicht für [Im Web veröffentlichen](service-publish-to-web.md) verwendet werden.
 * Das [Einbetten mit dem Berichts-Webpart in SharePoint Online](service-embed-report-spo.md) unterstützt keine URL-Filter.

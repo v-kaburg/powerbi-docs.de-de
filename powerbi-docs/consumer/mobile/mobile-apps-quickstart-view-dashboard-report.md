@@ -1,5 +1,5 @@
 ---
-title: 'Schnellstart: Erkunden von Dashboards und Berichten in den mobilen Power BI-Apps'
+title: 'Schnellstart: Erkunden von Dashboards und Berichten in mobilen Apps'
 description: In dieser Schnellstartanleitung erkunden Sie ein Beispieldashboard und einen Beispielbericht in den mobilen Power BI-Apps.
 author: maggiesMSFT
 manager: kfile
@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548808"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157262"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Schnellstart: Erkunden von Dashboards und Berichten in den mobilen Power BI-Apps
 In dieser Schnellstartanleitung erkunden Sie ein Beispieldashboard und einen Beispielbericht in den mobilen Power BI-Apps auf einem Android-Smartphone. Sie können diese Anleitung auch in anderen mobilen Apps nachvollziehen. 
@@ -62,7 +62,7 @@ Der erste Schritt in dieser Schnellstartanleitung ist das Herunterladen des Beis
 
 4. Wählen Sie das **Beispiel für die Einzelhandelsanalyse** aus.
  
-    ![Retail Analysis Sample](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Analysebeispiel für Einzelhandel](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Wählen Sie **Verbinden** aus.  
   

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen eines Filters zu einem Power BI-Bericht
+title: Hinzufügen eines Filters zu einem Bericht in der Bearbeitungsansicht
 description: Hinzufügen eines Seiten-, Visualisierungs- oder Berichtsfilters zu einem Bericht in Power BI
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611150"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157377"
 ---
-# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht im Power BI-Dienst (in der Bearbeitungsansicht)
+# <a name="add-a-filter-to-a-report-in-editing-view"></a>Hinzufügen eines Filters zu einem Bericht in der Bearbeitungsansicht
 
 Dieser Artikel erläutert, wie Sie einem Bericht in Power BI einen Seiten-, Visualisierungs-, Berichts- oder Drillthroughfilter hinzufügen. Die Beispiele in diesem Artikel stammen aus dem Power BI-Dienst. Die dargestellten Schritte sind fast identisch mit denen in Power BI Desktop.
 

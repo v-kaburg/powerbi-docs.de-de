@@ -1,5 +1,5 @@
 ---
-title: Analysebereich im Power BI-Dienst
+title: Erstellen dynamischer Bezugslinien für Visuals in Power BI Desktop
 description: Erstellen dynamischer Bezugslinien für Visualisierungen im Power BI-Dienst
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244513"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717698"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Analysebereich im Power BI-Dienst
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Erstellen dynamischer Bezugslinien für Visuals im Power BI-Dienst
+
 Mit dem Bereich **Analyse** im **Power BI-Dienst** können Sie Visualisierungen dynamische *Bezugslinien* hinzufügen und wichtige Trends und Erkenntnisse identifizieren.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ Mit dem Bereich **Analyse** im **Power BI-Dienst** können Sie Visualisierungen 
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Verwendung des Bereichs „Analyse“
+## <a name="use-the-analytics-pane"></a>Verwenden des Bereichs „Analyse“
 Mithilfe des Bereichs **Analyse** können Sie die folgenden Arten von dynamischen Bezugslinien erstellen (wobei nicht alle Linien für alle Visualisierungstypen verfügbar sind):
 
 * Bezugslinie für X-Achse

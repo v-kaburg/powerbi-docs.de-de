@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266206"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688394"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Überwachen von Kapazitäten in Power BI Premium und Power BI Embedded
 
 Dieser Artikel bietet einen Überblick über die Überwachung der Metriken für Ihre Power BI Premium-Kapazitäten. Die Überwachung der Kapazitätsauslastung bietet Ihnen einen fundierten Ansatz für die Verwaltung Ihrer Kapazitäten.
 
-Sie können die Kapazität mithilfe der Power BI Premium Capacity Metrics-App oder dem Verwaltungsportal überwachen. Wir empfehlen die Verwendung der App, weil diese sehr viel umfangreichere Informationen bietet, aber dieser Artikel deckt beide Optionen ab. **Die aktuelle App-Version ist 1.8 (veröffentlicht am 7. November 2018).**
+Sie können die Kapazität mithilfe der Power BI Premium Capacity Metrics-App oder dem Verwaltungsportal überwachen. Wir empfehlen die Verwendung der App, weil diese sehr viel umfangreichere Informationen bietet, aber dieser Artikel deckt beide Optionen ab.
+
+**Die aktuelle App-Version ist 1.9 (am 14. November 2018 veröffentlicht).**
+
+.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ Der Bereich **Summary** (Zusammenfassung) zeigt eine Ansicht Ihrer Kapazitäten 
 | --- | --- |
 | **Entities** (Entitäten) | * Die Anzahl von Kapazitäten, die Sie besitzen<br> * Die Anzahl von Datasets in Ihrer Kapazität<br> * Die Anzahl von Arbeitsbereichen in Ihrer Kapazität |
 | **System** | * Die durchschnittliche Arbeitsspeicherverwendung in GB in den letzten 7 Tagen<br> * Der höchste Arbeitsspeicherverbrauch in GB in den letzten 7 Tagen, mit Angabe der Uhrzeit des Auftretens<br> * Die Anzahl von Vorkommen, bei denen die CPU-Auslastung in den letzten 7 Tagen 80% des Schwellenwerts überschritten hat, unterteilt in 3-Minuten-Abschnitte<br> * Häufigste Zeiten, zu denen die CPU-Auslastung in den letzten 7 Tagen 80% überschritten hat, unterteilt in 1-Stunden-Abschnitte und mit Angabe der Uhrzeit des Auftretens<br> * Die Anzahl von Vorkommen, bei denen direkte Abfragen/Liveverbindungen in den letzten 7 Tagen 80% des Schwellenwerts überschritten haben, unterteilt in 3-Minuten-Abschnitte<br> * Häufigste Zeiten, zu denen direkte Abfragen/Liveverbindungen 80% überschritten haben, unterteilt in 1-Stunden-Abschnitte und mit Angabe der Uhrzeit des Auftretens |
-| **Dataset Workloads** (Datasetworkloads) | * Gesamtanzahl der Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen aufgrund von Arbeitsspeichermangel<br> * Die durchschnittliche Aktualisierungsdauer ist die Zeit bis zum Abschluss des Vorgangs in Minuten<br> * Die durchschnittliche Wartezeit für Aktualisierungen ist die durchschnittliche Verzögerung zwischen geplanter Zeit und Start des Vorgangs in Minuten<br> * Gesamtanzahl der ausgeführten Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Abfragen in den letzten 7 Tagen<br> * Die durchschnittliche Abfragedauer ist die Zeit bis zum Abschluss des Vorgangs in Minuten<br> * Gesamtanzahl der entfernten Modelle aufgrund von Speicherauslastung |
+| **Dataset Workloads** (Datasetworkloads) | * Gesamtanzahl der Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Aktualisierungen aufgrund von Arbeitsspeichermangel<br> * Die durchschnittliche Aktualisierungsdauer ist die Zeit bis zum Abschluss des Vorgangs in Minuten<br> * Die durchschnittliche Wartezeit für Aktualisierungen ist die durchschnittliche Verzögerung zwischen geplanter Zeit und Start des Vorgangs in Minuten<br> * Gesamtanzahl der ausgeführten Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der erfolgreichen Abfragen in den letzten 7 Tagen<br> * Gesamtanzahl der fehlerhaften Abfragen in den letzten 7 Tagen<br> * Die durchschnittliche Abfragedauer ist die Zeit bis zum Abschluss des Vorgangs in Minuten<br> * Gesamtanzahl der entfernten Modelle aufgrund von Speicherauslastung<br> * Durchschnittsgröße von Datasets <br> * Anzahl der durchschnittlich im Arbeitsspeicher geladenen Datasets |
 |  |  |
 
 #### <a name="refreshes-area"></a>Bereich „Refreshes“ (Aktualisierungen)
@@ -136,6 +140,8 @@ Der Bereich **Datasets** enthält die folgenden Metriken.
 | --- | --- |
 | **Anzahl von entfernten Datasets** | * Gesamt: Gesamtzahl von *entfernten* Datasets für jede Kapazität. Wenn eine Kapazität Arbeitsspeicherauslastung unterliegt, entfernt der Knoten mindestens ein Dataset aus dem Arbeitsspeicher. Datasets, die inaktiv sind (ohne derzeit ausgeführten Abfrage- oder Aktualisierungsvorgang), werden zuerst entfernt. Anschließend orientiert sich die Entfernungsreihenfolge an den „am seltensten verwendeten“ Datasets.|
 | **Stündlich entfernte Datasets und Arbeitsspeicherverbrauch** | * Entfernte Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Stunden, Angabe in Ortszeit |
+| **Anzahl der stündlich geladenen Datasets** | * Anzahl der in den Arbeitsspeicher geladenen Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Zeitfenster, Angabe in Ortszeit |
+| **Datengrößen**  | * Maximale Größe: die maximale Größe des Dataset in MB für den angezeigten Zeitraum |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Registerkarte „Paginierte Berichte“

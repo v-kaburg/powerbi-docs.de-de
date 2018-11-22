@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Stellen von Fragen mit dem virtuellen Q&A-Analysten in iOS-Apps – Power BI'
+title: 'Tutorial: Stellen von Fragen mit dem virtuellen Q&A-Analyst in iOS-Apps'
 description: In diesem Tutorial verwenden Sie den virtuellen Q&A-Analysten in der mobilen Power BI-App auf Ihrem iOS-Gerät, um in Ihren eigenen Worten Fragen zu Beispieldaten stellen.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547123"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157147"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Tutorial Stellen von Fragen zu Ihren Daten mit dem virtuellen Q&A-Analysten in iOS-Apps – Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Stellen von Fragen zu Ihren Daten mit dem virtuellen Q&A-Analysten in iOS-Apps für Power BI
 
 Am schnellsten nähern Sie sich Ihren Daten, wenn Sie Fragen in eigenen Worten stellen können. In diesem Tutorial verwenden Sie den virtuellen Q&A-Analysten in der mobilen Microsoft Power BI-App auf Ihrem iPad, iPhone und iPod Touch, um Fragen zu Ihren Beispieldaten zu stellen und wichtige Einblicke anzuzeigen. 
 
@@ -72,7 +72,7 @@ Der erste Schritt im Tutorial ist das Herunterladen der Beispiele zur Opportunit
 
 4. Wählen Sie das **Beispiel für die Opportunityanalyse** aus.
  
-    ![Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Analysebeispiel für Verkaufschancen](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Wählen Sie **Verbinden** aus.  
   

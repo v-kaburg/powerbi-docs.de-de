@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271507"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51678970"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Freigeben eines gefilterten Power BI-Berichts für Ihre Kollegen
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen Ihrer Berichte](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -49,7 +49,7 @@ Wie gehen Sie vor, wenn Sie eine gefilterte Version eines Berichts freigeben mö
    
    app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. [Geben Sie den Bericht frei](service-share-dashboards.md), aber deaktivieren Sie das Kontrollkästchen **E-Mail-Benachrichtigungen an Empfänger senden**. 
+3. [Teilen Sie den Bericht](service-share-dashboards.md), aber deaktivieren Sie das Kontrollkästchen **Send email notification to recipients** (E-Mail-Benachrichtigungen an Empfänger senden). 
 
     ![Dialogfeld „Bericht freigeben“](media/service-share-reports/power-bi-share-report-dialog.png)
 
