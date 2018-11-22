@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641666"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268295"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Multi-Geo-Unterstützung für Power BI Premium (Vorschau)
 
@@ -94,6 +94,7 @@ Sie haben zwei Möglichkeiten, Arbeitsbereiche aus der Multi-Geo-Kapazität zu e
 - Eine zwischengespeicherte Abfrage, die sich in einer weit entfernten Region befindet, verbleibt in dieser Region im Ruhezustand. Allerdings werden andere in Übertragung begriffene Daten möglicherweise zwischen mehreren geografischen Regionen hin und her verschoben.
 - Beim Verschieben von Daten aus einer Region in eine andere in einer Multi-Geo-Umgebung können die Quelldaten bis zu 30 Tage lang in der Region verbleiben, von der aus die Daten verschoben wurden. In diesem Zeitraum haben Benutzer keinen Zugriff auf diese. Nach Ablauf der 30 Tage werden sie aus dieser Region entfernt und gelöscht.
 - Multi-Geo führt in der Regel nicht zur Leistungssteigerung. Für das Laden von Berichten und Dashboards sind weiterhin Anforderungen an die ursprüngliche Region für Metadaten erforderlich.
+- Das [Dataflows](service-dataflows-overview.md)-Feature (Vorschauversion) wird aktuell für Multi-Geo nicht unterstützt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

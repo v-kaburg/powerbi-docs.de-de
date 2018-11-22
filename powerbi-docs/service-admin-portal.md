@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266114"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268364"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
 
@@ -301,7 +301,7 @@ Benutzer in der Organisation können Daten in den Dienst importieren, z.B. durch
 
 ### <a name="create-and-use-dataflows-preview"></a>Erstellen und Verwenden von Dataflows (Vorschau)
 
-Benutzer in der Organisation können Dataflows erstellen und verwenden. [Weitere Informationen](service-dataflows-overview.md)
+Benutzer in der Organisation können Dataflows erstellen und verwenden. Weitere Informationen zu Dataflows finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md). Informationen zum Aktivieren von Dataflows in einer Premium-Kapazität finden Sie im Abschnitt „Konfigurieren von Workloads“ unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-manage.md#configure-workloads).
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
