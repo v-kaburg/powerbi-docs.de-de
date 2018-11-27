@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850382"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289103"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Registrieren für Power BI mit einer neuen Office 365-Testversion
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Dieser Artikel beschreibt eine alternative Methode für die Registrierung für Power BI: eine Office 365-Testversion. Wenn Sie Probleme damit haben, sich mit Ihrer geschäftlichen E-Mail-Adresse für Power BI zu registrieren, stellen Sie zunächst sicher, dass [die E-Mail-Adresse mit Power BI verwendet werden kann](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi). Wenn dies nicht der Fall ist, versuchen Sie sich zunächst für eine Office 365-Testversion und danach für Power BI zu registrieren. Sie können Power BI auch dann weiter verwenden, wenn die Office 365-Testversion abgelaufen ist.
+Dieser Artikel beschreibt eine alternative Methode für die Registrierung für Power BI: eine Office 365-Testversion. Wenn Sie Probleme damit haben, sich mit Ihrer geschäftlichen E-Mail-Adresse für Power BI zu registrieren, stellen Sie zunächst sicher, dass [die E-Mail-Adresse mit Power BI verwendet werden kann](service-self-service-signup-for-power-bi.md#supported-email-addresses). Wenn dies nicht der Fall ist, versuchen Sie sich zunächst für eine Office 365-Testversion und danach für Power BI zu registrieren. Sie können Power BI auch dann weiter verwenden, wenn die Office 365-Testversion abgelaufen ist.
 
 1. Registrieren Sie sich auf der [Office 365-Website](https://go.microsoft.com/fwlink/p/?LinkID=403802) für eine Testversion von Office 365.
 

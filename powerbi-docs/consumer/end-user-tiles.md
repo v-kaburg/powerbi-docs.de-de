@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396472"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331894"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
-Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile/mobile-tiles-in-the-mobile-apps.md). Außerdem können Sie in Power BI Mobile [mit der iPhone-App Grafiken zu Ihrem Dashboard hinzufügen](mobile/mobile-iphone-app-get-started.md).
+Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile/mobile-tiles-in-the-mobile-apps.md). 
 
 ## <a name="dashboard-tiles"></a>Dashboardkacheln
 ![Power BI-Dashboard](./media/end-user-tiles/power-bi-dashboard.png)
