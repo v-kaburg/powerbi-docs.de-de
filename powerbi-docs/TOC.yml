@@ -390,42 +390,54 @@ items:
     items:
     - name: Neuigkeiten bei Power BI
       href: service-whats-new.md
-    - name: Grundkonzepte
+    - name: Grundlegende Konzepte für Designer
       href: service-basic-concepts.md
-    - name: Self-Service-Registrierung
-      href: service-self-service-signup-for-power-bi.md
-    - name: Einführung in Cortana für Power BI
-      href: service-cortana-intro.md
-    - name: Aktualisieren von Daten in Power BI
-      href: refresh-data.md
-    - name: Power BI für US-Behörden
-      href: service-govus-overview.md
-    - name: Funktionen nach Lizenztyp
-      href: service-features-license-type.md
     - name: 10 Tipps, um Hilfe zu erhalten
       href: service-tips-for-finding-help.md
-    - name: Informationen zu Filtern und Hervorhebungen in Power BI-Berichten
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: Abrufen von Daten aus Dateien
-      href: service-get-data-from-files.md
-    - name: Berichts-Editor – Verschaffen Sie sich einen Überblick
-      href: service-the-report-editor-take-a-tour.md
-    - name: Visualisierungen in Power BI
-      href: visuals/power-bi-report-visualizations.md
-    - name: Datenquellen für Power BI
-      href: service-get-data.md
-    - name: Aktivierung der erweiterten Pro-Testversion
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow und Power BI
-      href: service-flow-integration.md
-    - name: Häufig gestellte Fragen zu Power BI für Kunden von Cloud Deutschland
-      href: service-govde-faq.md
-    - name: Power BI – Erste Schritte mit Drittanbieter-Apps
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Power BI
-      href: service-aggregates.md
-    - name: Einstellungen für die Seitenanzeige in einem Power BI-Bericht
-      href: power-bi-report-display-settings.md
+    - name: Lizenzierung
+      items:
+      - name: Self-Service-Registrierung
+        href: service-self-service-signup-for-power-bi.md
+      - name: Funktionen nach Lizenztyp
+        href: service-features-license-type.md
+      - name: Aktivierung der erweiterten Pro-Testversion
+        href: service-extended-pro-trial.md
+      - name: Power BI für US-Behörden
+        href: service-govus-overview.md
+      - name: Häufig gestellte Fragen für Kunden von Cloud Deutschland
+        href: service-govde-faq.md
+    - name: Daten
+      items:
+      - name: Datenquellen für Power BI
+        href: service-get-data.md
+      - name: Abrufen von Daten aus Dateien
+        href: service-get-data-from-files.md
+      - name: Aggregate (Summe, Durchschnitt, Maximalwert usw.)
+        href: service-aggregates.md
+      - name: Aktualisieren von Daten in Power BI
+        href: refresh-data.md
+      - name: Azure und Power BI
+        href: service-azure-and-power-bi.md
+      - name: Ausgehender Datenverkehr in Power BI und Azure
+        href: service-azure-egress-power-bi.md
+    - name: Berichtsentwurf
+      items:
+      - name: Berichts-Editor – Verschaffen Sie sich einen Überblick
+        href: service-the-report-editor-take-a-tour.md
+      - name: Visualisierungen in Power BI
+        href: visuals/power-bi-report-visualizations.md
+      - name: Informationen zu Filtern und Hervorhebungen in Berichten
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Einstellungen für die Seitenanzeige in einem Power BI-Bericht
+        href: power-bi-report-display-settings.md
+      - name: Einführung in Cortana für Power BI
+        href: service-cortana-intro.md
+    - name: Sonstige
+      items:
+      - name: Microsoft Flow und Power BI
+        href: service-flow-integration.md
+      - name: Erste Schritte mit Drittanbieter-Apps
+        href: service-power-bi-get-started-third-party-apps.md
   - name: Vorgehensweise
     items:
     - name: Allgemeine Aufgaben
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: Daten aus Dateien
       items:
-      - name: Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
+      - name: Von Excel zu aufschlussreichen Berichten
         href: service-from-excel-to-stunning-report.md
       - name: Abrufen von Daten aus Excel-Arbeitsmappendateien
         href: service-excel-workbook-files.md
       - name: Abrufen von Daten aus Power BI Desktop-Dateien
         href: service-desktop-files.md
-      - name: Parametereinstellungen für Datasets
+      - name: Bearbeiten von Parametern
         href: service-parameters.md
       - name: Abrufen von Daten aus kommagetrennten Dateien (CSV)
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: Veröffentlichen in Power BI aus Excel 2016
         href: service-publish-from-excel.md
-      - name: Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI
+      - name: Reduzieren der Größe einer Excel-Arbeitsmappe
         href: reduce-the-size-of-an-excel-workbook.md
     - name: Daten aus Datenbanken
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: SQL Server Analysis Services-Livedaten in Power BI
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure und Power BI
-        href: service-azure-and-power-bi.md
-      - name: Ausgehender Datenverkehr in Power BI und Azure
-        href: service-azure-egress-power-bi.md
     - name: Datenaktualisierung
       items:
       - name: Konfigurieren von geplanten Aktualisierungen
         href: refresh-scheduled-refresh.md
-      - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – lokal
+      - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets (lokal)
         href: refresh-desktop-file-local-drive.md
-      - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets – Cloud
+      - name: Aktualisieren eines aus einer Power BI Desktop-Datei erstellten Datasets (Cloud)
         href: refresh-desktop-file-onedrive.md
-      - name: Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets – lokal
+      - name: Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets (lokal)
         href: refresh-excel-file-local-drive.md
-      - name: Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets – Cloud
+      - name: Aktualisieren eines aus einer Excel-Arbeitsmappe erstellten Datasets (Cloud)
         href: refresh-excel-file-onedrive.md
-      - name: Aktualisieren eines Datasets, das aus einer Datei mit kommagetrennten Werten (CSV) auf OneDrive erstellt wurde
+      - name: Aktualisieren eines aus einer CSV-Datei erstellten Datasets in OneDrive
         href: refresh-csv-file-onedrive.md
       - name: Problembehandlung bei Aktualisierungsszenarios
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: Erstellen der Kopie eines Dashboards
         href: service-dashboard-copy.md
-      - name: Anheften einer Kachel an ein Power BI-Dashboard aus einem Bericht
+      - name: Anheften einer Kachel an ein Dashboard aus einem Bericht
         href: service-dashboard-pin-tile-from-report.md
       - name: Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
         href: service-pin-tile-to-another-dashboard.md
-      - name: Anheften einer Kachel an ein Power BI-Dashboard aus Excel
+      - name: Anheften einer Kachel an ein Dashboard aus Excel
         href: service-dashboard-pin-tile-from-excel.md
-      - name: Anheften einer Kachel an ein Power BI-Dashboard aus dem Fragefeld für Fragen und Antworten (F&A)
+      - name: Anheften einer Kachel an ein Dashboard aus Q&A
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Anheften einer gesamten Berichtsseite an ein Power BI-Dashboard
+      - name: Anheften einer gesamten Berichtsseite an ein Dashboard
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Nutzungsmetriken für Dashboards
         href: service-usage-metrics.md
-      - name: Hinzufügen eines Bilds, Textfelds, Videos oder Webcodes zu Ihrem Dashboard
+      - name: Hinzufügen eines Bilds, Textfelds, Videos oder von Code zu einem Dashboard
         href: service-dashboard-add-widget.md
-      - name: Bearbeiten einer Kachel – Größe ändern, verschieben, umbenennen, anheften, löschen, Link hinzufügen
+      - name: Bearbeiten einer Kachel
         href: service-dashboard-edit-tile.md
-      - name: Tipps zum Gestalten von Power BI-Dashboards
+      - name: Tipps zum Gestalten überzeugender Power BI-Dashboards
         href: service-dashboards-design-tips.md
-      - name: Optimieren von Daten für schnelle Einblicke in Power BI
+      - name: Optimieren von Daten für Quick Insights
         href: service-insights-optimize.md
       - name: Erstellen einer Telefonansicht eines Dashboards
         href: service-create-dashboard-mobile-phone-view.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: Verwalten Ihrer Gruppe in Power BI und Office 365
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe auf OneDrive for Business verknüpft ist
+      - name: Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe in OneDrive verknüpft ist
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: Inhaltspakete
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Konzepte
       items:
+      - name: Richtlinien für Power BI-Visuals
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Using-Funktionen
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: Zuordnungen der Datenansicht
@@ -992,7 +1002,7 @@ items:
         href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Abrufen eines Authentifizierungszugriffstokens
         href: developer/walkthrough-push-data-get-token.md
-      - name: Erstellen eines Datasets
+      - name: Dataset erstellen
         href: developer/walkthrough-push-data-create-dataset.md
       - name: Abrufen eines Datasets zum Hinzufügen von Zeilen
         href: developer/walkthrough-push-data-get-datasets.md
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289287"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331848"

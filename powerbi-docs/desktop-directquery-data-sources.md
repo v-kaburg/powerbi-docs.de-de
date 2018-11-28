@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223396"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452543"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Von DirectQuery in Power BI unterstützte Datenquellen
 **Power BI Desktop** und der **Power BI-Dienst** verfügen über viele Datenquellen, mit denen Sie Verbindungen herstellen und auf deren Daten Sie zugreifen können. Dieser Artikel beschreibt, welche Datenquellen für Power BI die als **DirectQuery** bezeichnete Verbindungsmethode unterstützen. Weitere Informationen zu DirectQuery finden Sie unter [**DirectQuery in Power BI**](desktop-directquery-about.md).
@@ -62,12 +62,12 @@ Die folgende Tabelle gibt an, ob für das Herstellen von Verbindungen mit der an
 | Amazon Redshift |Nein |
 | Impala (Version 2.x) |Ja |
 | Snowflake |Ja |
-| Spark (Beta) (Version 0.9 und höher) |Im **Power BI-Dienst** noch nicht unterstützt |
+| Spark (Beta) (Version 0.9 und höher) |Ja |
 | Azure HDInsight Spark (Beta) |Nein |
 | IBM Netezza |Ja |
 | SAP Business Warehouse-Anwendungsserver |Ja |
 | SAP Business Warehouse-Nachrichtenserver |Im **Power BI-Dienst** noch nicht unterstützt |
-| BigQuery von Google |Nein |
+| Google BigQuery |Nein |
 
 
 ## <a name="next-steps"></a>Nächste Schritte

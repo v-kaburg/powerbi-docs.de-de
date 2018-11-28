@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 52f5d7e8bbf6f22f930ad7b4703587ea3af3dc94
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717514"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452612"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Datenwarnungen im Power BI-Dienst
 Legen Sie Warnungen fest, um Benachrichtigungen zu erhalten, wenn die Daten in den Dashboards die von Ihnen festgelegten Grenzen überschreiten. 
@@ -65,7 +65,7 @@ Anschließend sendet Power BI eine Warnung an Ihre Mitteilungszentrale und optio
    ![Benachrichtigungssymbol in Power BI](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. Öffnen Sie die Mitteilungszentrale, um die Warnungsdetails anzuzeigen.
    
-    ![Warnung lesen](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![Warnung lesen](media/service-set-data-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Warnungen erfolgen nur für Daten, die aktualisiert werden. Wenn Daten aktualisiert werden, überprüft Power BI, ob eine Warnung für diese Daten festgelegt ist. Wenn die Daten einen Warnungsschwellenwert erreicht haben, wird eine Warnung ausgelöst.
