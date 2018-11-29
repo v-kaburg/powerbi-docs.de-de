@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223258"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289172"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Hinzufügen von Formatierungsoptionen zu einem benutzerdefinierten Power BI-Visual
 
@@ -32,7 +32,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
     Daraufhin wird diese Meldung angezeigt: *Für diese Darstellung stehen keine Formatierungsoptionen zur Verfügung.*
 
-    ![Pinsel zum Formatieren](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Pinsel zum Formatieren](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. Öffnen Sie in **Visual Studio Code** die Datei *capabilities.json*.
 
@@ -41,7 +41,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
     ```json
     "objects": {},
     ```
-    ![Hinzufügen von „objects“](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Hinzufügen von „objects“](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Speichern Sie die Datei **capabilities.json**.
 
@@ -50,13 +50,13 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
     > [!Note]
     > Wenn die Formatierungsoptionen nicht geändert werden, wählen Sie **Benutzerdefiniertes Visual erneut laden** aus.
 
-    ![Anzeigen der Formatierungsoptionen](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Anzeigen der Formatierungsoptionen](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Legen Sie die Option **Titel** auf *Aus* fest. Das Visual zeigt den Measurenamen nicht mehr links oben an.
 
-    ![Kacheloption ist deaktiviert](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Kacheloption ist deaktiviert](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Kachel ohne Namen](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Kachel ohne Namen](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Hinzufügen von benutzerdefinierten Formatierungsoptionen
 
@@ -64,7 +64,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
 
 1. Beenden Sie das benutzerdefinierte Visual in PowerShell.
 
-2. Fügen Sie in Visual Studio Code in der Datei **capabilities.json** das folgende JSON-Fragment in das Objekt **objects** ein.
+2. Fügen Sie in Visual Studio Code in der Datei **capabilities.json** das folgende JSON-Fragment in das Objekt mit der Bezeichnung **objects** ein.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
                  }
              }
          }
-     }
+     },
     ```
 
     Das JSON-Fragment beschreibt eine Gruppe namens „circle“ (Kreis), die aus zwei Optionen besteht: „circleColor“ und „circleThickness“.
 
-   ![Code für „circleThickness“](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Code für „circleThickness“](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Speichern Sie die Datei **capabilities.json**.
 
@@ -112,7 +112,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     }
     ```
 
-    ![Modulklassen](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Modulklassen](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Dieses Modul definiert die beiden Klassen. Die Klasse **CircleSettings** definiert zwei Eigenschaften mit Namen, die mit den in der Datei **capabilities.json** (**circleColor** und **circleThickness**) definierten Objekten übereinstimmen, und legt außerdem die Standardwerte fest. Die Klasse **VisualSettings** erbt die Klasse **DataViewObjectParser** und fügt eine Eigenschaft namens **circle** hinzu, die dem in der Datei *capabilities.json* definierten Objekt entspricht, und gibt eine Instanz von **CircleSettings** zurück.
 
@@ -127,7 +127,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     ```
     Diese Eigenschaft speichert einen Verweis auf das Objekt **VisualSettings**, das die Einstellungen des Visuals beschreibt.
 
-    ![Hinzufügen der „Visual“-Klasse](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Hinzufügen der „Visual“-Klasse](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. Fügen Sie in der Klasse **Visual** die folgende Methode vor der Methode **update** hinzu. Mit dieser Methode werden die Formatierungsoptionen aufgefüllt.
 
@@ -140,7 +140,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     ```
     Mit dieser Methode werden die Formatierungsoptionen aufgefüllt.
 
-    ![Objekt „VisualSettings“](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Objekt „VisualSettings“](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. Fügen Sie in der Methode **update** nach der Deklaration der Variablen **radius** den folgenden Code hinzu.
 
@@ -150,7 +150,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     ```
     Dieser Code ruft die Formatierungsoptionen ab. Er passt jeden Wert an, der an die **circleThickness**-Eigenschaft übergeben wird, und wandelt ihn in „0“ um, wenn er negativ ist, bzw. in „10“, wenn er größer als 10 ist.
 
-    ![Variable „radius“](media/custom-visual-develop-tutorial/radius.png)
+    ![Variable „radius“](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. Ändern Sie für das **Kreiselement** den an das **Füllformat** übergebenen Wert in den folgenden Ausdruck.
 
@@ -158,7 +158,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     this.visualSettings.circle.circleColor
     ```
 
-    ![Auffüllen des Kreiselements](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Auffüllen des Kreiselements](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. Ändern Sie für das **Kreiselement** den an die **Strichstärke** übergebenen Wert in den folgenden Ausdruck.
 
@@ -166,7 +166,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Strichstärke des Kreises](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Strichstärke des Kreises](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Speichern Sie die „visual.ts“-Datei.
 
@@ -180,7 +180,7 @@ Sie können benutzerdefinierte Eigenschaften hinzufügen, um die Farbe des Kreis
 
 16. Erweitern Sie in den Optionen für die **Visualformatierung** die Option **Kreis**.
 
-    ![Kreisformat](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Kreisformat](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Ändern Sie die Optionen **Farbe** und **Stärke**.
 
@@ -198,7 +198,7 @@ Geben Sie Eigenschaftswerte für das benutzerdefinierte Visual ein, aktualisiere
 
     Wenn Sie im Bereich **Visualisierungen** mit der Maus auf das Symbol zeigen, erscheint der Anzeigename.
 
-    ![Anzeigename des Visuals](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Anzeigename des Visuals](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. Geben Sie für die Eigenschaft **description** den folgenden Text ein.
 
@@ -216,7 +216,7 @@ Geben Sie Eigenschaftswerte für das benutzerdefinierte Visual ein, aktualisiere
 
 10. Überprüfen Sie das Symbol.
 
-    ![Bild des Visuals](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Bild des Visuals](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. Überprüfen Sie in Visual Studio Code, ob alle Dateien gespeichert sind.
 
@@ -226,7 +226,7 @@ Geben Sie Eigenschaftswerte für das benutzerdefinierte Visual ein, aktualisiere
     pbiviz package
     ```
 
-    ![Ordner „dist“](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Ordner „dist“](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Nun wird das Paket in den Projektordner **dist** ausgegeben. Das Paket erfüllt alle Voraussetzungen, damit das benutzerdefinierte Visual in den Power BI-Dienst oder in einen Power BI Desktop-Bericht importiert werden kann. Sie haben das benutzerdefinierte Visual verpackt, und nun kann es verwendet werden.
 
@@ -238,7 +238,7 @@ Jetzt können Sie den Power BI Desktop-Bericht öffnen und das benutzerdefiniert
 
 2. Wählen Sie im Bereich **_Visualisierungen_** die **Auslassungspunkte** und dann **Aus Datei importieren** aus.
 
-    ![Hinzufügen eines benutzerdefinierten Visuals zu Power BI Desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Hinzufügen eines benutzerdefinierten Visuals zu Power BI Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. Wählen Sie im **Importfenster** **Importieren** aus.
 
@@ -250,7 +250,7 @@ Jetzt können Sie den Power BI Desktop-Bericht öffnen und das benutzerdefiniert
 
 7. Überprüfen Sie, ob das Visual dem Bereich **_Visualisierungen_** hinzugefügt wurde.
 
-    ![Anzeige im Bereich „Visualisierungen“ in Power BI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Anzeige im Bereich „Visualisierungen“ in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Zeigen Sie mit der Maus auf das Symbol **Circle Card**. Dabei wir eine QuickInfo angezeigt.
 

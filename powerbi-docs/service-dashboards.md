@@ -1,54 +1,48 @@
 ---
-title: Dashboards im Power BI-Dienst
-description: Dashboards sind ein zentrales Feature des Power BI-Diensts.
+title: Einführung in Dashboards für Power BI-Designer
+description: Dashboards sind ein zentrales Feature des Power BI-Diensts. Sie bestehen aus einer einzelnen Seite (häufig als Canvas bezeichnet), auf der mithilfe von Visualisierungen Informationen veranschaulicht werden.
 author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473726"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331940"
 ---
-# <a name="dashboards-in-the-power-bi-service"></a>Dashboards im Power BI-Dienst
+# <a name="intro-to-dashboards-for-power-bi-designers"></a>Einführung in Dashboards für Power BI-Designer
 
-Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich bezeichnet), auf der mithilfe von Visualisierungen eine Geschichte erzählt wird. Wegen der Beschränkung auf eine Seite erkennen Sie ein gut gestaltetes Dashboard daran, dass die Geschichte auf ihre Kernaussagen verdichtet ist.
+Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Canvas bezeichnet), auf der mithilfe von Visualisierungen Informationen veranschaulicht werden. Wegen der Beschränkung auf eine Seite erkennen Sie ein gut gestaltetes Dashboard daran, dass die Informationsdarstellung auf ihre wichtigsten Punkte verdichtet ist. Leser können verwandte Berichte anzeigen, um Details zu erfahren.
 
 ![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-Dashboards sind ein Feature des Power BI-Diensts. In Power BI Desktop sind sie nicht verfügbar. Obwohl Dashboards nicht mit Mobilgeräten erstellt werden können, lassen sie sich dort [anzeigen und freigeben](mobile-apps-view-dashboard.md).
+Dashboards sind ein Feature des Power BI-Diensts. Sie sind in Power BI Desktop nicht verfügbar. Auf mobilen Geräten können Sie keine Dashboards erstellen, aber Sie können sie [anzeigen und freigeben](mobile-apps-view-dashboard.md).
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Ersteller und Anwender von Dashboards
-Erstellen Sie Dashboards für den eigenen Gebrauch, oder geben Sie sie später für Ihre Mitarbeiter frei? Weitere Informationen finden Sie unter **Dashboards für Ersteller**. Sie erhalten Dashboards von anderen? Dann möchten Sie vielleicht wissen, wie Dashboards funktionieren und wie Sie mit ihnen interagieren. Dieser Artikel ist für Sie!
+## <a name="dashboard-basics"></a>Dashboard-Grundlagen 
 
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Wenn Sie Dashboards erhalten und verwenden
-
-Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet. Kacheln stammen aus Berichten von *Erstellern* von Dashboards und werden an ein Dashboard *angeheftet*. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](service-basic-concepts.md).
+Die Visualisierungen auf dem Dashboard heißen *Kacheln*. Kacheln werden aus Berichten an ein Dashboard *angeheftet*. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](service-basic-concepts.md).
 
 > [!IMPORTANT]
-> [Power BI Pro](service-free-vs-pro.md) ist zum Anzeigen eines freigegebenen Dashboards erforderlich.
+> Sie benötigen eine [Power BI Pro](service-free-vs-pro.md)-Lizenz, um Dashboards zu erstellen.
 
-Die Visualisierungen eines Dashboards stammen aus Berichten. Jeder Bericht basiert auf einem Dataset. Sie können sich ein Dashboard als Fenster zu den zugrunde liegenden Berichten und Datasets vorstellen. Wenn Sie eine Visualisierung auswählen, gelangen Sie zu dem Bericht (und damit dem Dataset), mit dem sie erstellt wurde.
+Die Visualisierungen eines Dashboards stammen aus Berichten. Jeder Bericht basiert auf einem Dataset. Sie können sich ein Dashboard als Fenster zu den zugrunde liegenden Berichten und Datasets vorstellen. Wenn Sie eine Visualisierung auswählen, gelangen Sie zu dem Bericht (und damit dem Dataset), auf dem sie basiert.
 
 ![Diagramm, dass die Beziehungen zwischen Dashboards, Berichten und Datasets anzeigt](media/service-dashboards/power-bi-diagram.png)
 
-
-
 ## <a name="advantages-of-dashboards"></a>Vorteile von Dashboards
-Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen, entscheidenden Fragen nachgehen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Ein Dashboard fasst lokale und cloudbasierte Daten zusammen und bietet eine konsolidierte Ansicht – unabhängig vom Speicherort der Daten.
+Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Ein Dashboard fasst lokale und Clouddaten zusammen und bietet eine konsolidierte Ansicht – unabhängig vom Speicherort der Daten.
 
-Ein Dashboard sieht nicht nur gut aus, es ist ausgesprochen interaktiv und immer aktuell, wenn sich die zugrunde liegenden Daten ändern.
+Ein Dashboard ist nicht nur schön anzusehen. Es ist ausgesprochen interaktiv, und die Kacheln aktualisieren sich automatisch, wenn sich die zugrunde liegenden Daten ändern.
 
 ## <a name="dashboards-versus-reports"></a>Vergleich: Dashboards und Berichte
-Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden [Berichte](service-reports.md) gerne mit Dashboards verwechselt. Es gibt aber einige wichtige Unterschiede für Power BI-Verbraucher.
+[Berichte](service-reports.md) und Dashboards sehen ähnlich aus, da sie beide Canvases sind, die mit Visualisierungen gefüllt sind. Es gibt aber wichtige Unterschiede.
 
 | **Eigenschaften** | **Dashboards** | **Berichte** |
 | --- | --- | --- |
@@ -58,7 +52,7 @@ Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden [Berichte]
 | Abonnieren |Dashboards können abonniert werden. |Berichtsseiten können abonniert werden. |
 | Filter |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Empfohlen |Ein Dashboard kann als „ausgewähltes“ Dashboard festgelegt werden. |Ein ausgewählter Bericht kann nicht erstellt werden. |
-| Favorit | Dashboards können als *Favoriten* festgelegt werden. | Berichte können als *Favoriten* festgelegt werden.
+| Zu Favoriten hinzufügen | Dashboards können als *Favoriten* festgelegt werden. | Berichte können als *Favoriten* festgelegt werden.
 | Benachrichtigungen festlegen |Unter bestimmten Umständen für Dashboardkacheln verfügbar |Über Berichte nicht verfügbar |
 | Abfragen in natürlicher Sprache |Über das Dashboard verfügbar |Über Berichte nicht verfügbar |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Exportieren von Daten, aber Tabellen und Felder im Dashboard nicht sichtbar |Ja. Tabellen, Felder und Werte des Datasets sichtbar |
@@ -66,6 +60,6 @@ Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden [Berichte]
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](sample-tutorial-connect-to-the-samples.md) ansehen.
-* Informieren Sie sich über [Dashboardkacheln](service-dashboard-tiles.md), und erfahren Sie, wie Sie damit interagieren.
+* Wichtige Informationen über [Dashboardkacheln](service-dashboard-tiles.md)
 * Sie möchten eine bestimmte Dashboardkachel im Auge behalten und eine E-Mail erhalten, wenn ein bestimmter Grenzwert erreicht wird? [Erstellen Sie Datenwarnungen auf Kacheln](service-set-data-alerts.md).
-* Stellen Sie Fragen zu Dashboards. Mit [Power BI Q&A](power-bi-tutorial-q-and-a.md) können Sie Fragen zu Ihren Daten stellen und erhalten eine Antwort in Form einer Visualisierung.
+* Mit [Power BI Q&A](power-bi-tutorial-q-and-a.md) können Sie Fragen zu Ihren Daten stellen und erhalten eine Antwort in Form einer Visualisierung.

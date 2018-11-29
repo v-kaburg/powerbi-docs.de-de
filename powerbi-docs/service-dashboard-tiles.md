@@ -1,29 +1,29 @@
 ---
-title: Dashboardkacheln im Power BI-Dienst
-description: Alle wichtigen Informationen über Dashboardkacheln in Power BI. Dies schließt Kacheln ein, die über SQL Server Reporting Services (SSRS) erstellt wurden.
+title: Einführung in Dashboardkacheln für Power BI-Designer
+description: Alle wichtigen Informationen über Dashboardkacheln in Power BI. Dies schließt Kacheln ein, die anhand von SSRS-Berichten (SQL Server Reporting Services) erstellt wurden.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717399"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331963"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
-Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile-tiles-in-the-mobile-apps.md). Außerdem können Sie in Power BI Mobile [mit der iPhone-App Grafiken zu Ihrem Dashboard hinzufügen](mobile-iphone-app-get-started.md).
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Einführung in Dashboardkacheln für Power BI-Designer
 
-## <a name="dashboard-tiles"></a>Dashboardkacheln
+Eine Kachel ist eine Momentaufnahme Ihrer Daten, die an das Dashboard geheftet ist. Eine Kachel kann u.a. aus einem Bericht, einem Dataset, einem Dashboard, dem Q&A-Feld, Excel-Berichten und SSRS-Berichten (SQL Server Reporting Services) erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.
+
 ![Power BI-Dashboard](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Eine Kachel ist eine Momentaufnahme Ihrer Daten, die an das Dashboard geheftet ist. Eine Kachel kann aus einem Bericht, einem Dataset, einem Dashboard, aus dem Q&A-Feld, aus Excel, aus SSRS (SQL Server Reporting Services) und noch mehr erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.
+Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Auf mobilen Geräten können Sie keine Dashboards erstellen, aber Sie können sie [anzeigen und freigeben](mobile-apps-view-dashboard.md).
 
 Über das Anheften hinaus können mithilfe der Option [Kachel hinzufügen](service-dashboard-add-widget.md) eigenständige Kacheln direkt auf dem Dashboard erstellt werden. Eigenständige Kacheln können Textfelder, Bilder, Videos, Streamingdaten und Webinhalte enthalten.
 
@@ -43,7 +43,7 @@ Es gibt viele verschiedene Möglichkeiten, eine Kachel zu Ihrem Dashboard hinzuz
 * [einer Excel-Arbeitsmappe auf OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher für Excel](publisher-for-excel.md)
 * [Schnelle Einblicke](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Eigenständige Kacheln für Bilder, Textfelder, Videos, Streamingdaten und Webinhalte können mit [Kachel hinzufügen](service-dashboard-add-widget.md) direkt auf dem Dashboard erstellt werden.
 
@@ -78,7 +78,7 @@ Wählen Sie eine Kachel aus, und [verschieben Sie sie auf dem Dashboard](service
 3. Wählen Sie zum Schließen des Aktionsmenüs eine leere Fläche im Zeichenbereich aus.
 
 ### <a name="select-click-a-tile"></a>Auswählen einer Kachel
-Wenn Sie eine Kachel auswählen, hängt das anschließenden Vorgehen davon ab, wie die Kachel erstellt wurde und ob sie über einen [benutzerdefinierten Link](service-dashboard-edit-tile.md) verfügt. Wenn sie einen benutzerdefinierten Link aufweist, bringt Sie das Auswählen der Kachel zum Ziel dieses Links. Andernfalls gelangen Sie nach Auswählen der Kachel zu dem Bericht, der Excel Online-Arbeitsmappe, dem lokalen SSRS-Bericht oder der Q&A-Frage, der/die zum Erstellen der Kachel verwendet wurde.
+Wenn Sie eine Kachel auswählen, hängt das, was anschließend geschieht, davon ab, wie die Kachel erstellt wurde. Wenn sie einen [benutzerdefinierten Link](service-dashboard-edit-tile.md) aufweist, werden Sie an das Ziel des Links weitergeleitet, wenn Sie auf die Kachel klicken. Andernfalls gelangen Sie nach Auswählen der Kachel zu dem Bericht, der Excel Online-Arbeitsmappe, dem lokalen Reporting Services-Bericht oder der Q&A-Frage, die zum Erstellen der Kachel verwendet wurden.
 
 > [!NOTE]
 > Eine Ausnahme sind Videokacheln, die direkt auf dem Dashboard mit **Kachel hinzufügen** erstellt wurden. Bei Auswählen einer Videokachel (die auf diese Weise erstellt wurde) wird das Video direkt auf dem Dashboard wiedergegeben.   
@@ -86,12 +86,13 @@ Wenn Sie eine Kachel auswählen, hängt das anschließenden Vorgehen davon ab, w
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+
 * Wenn der Bericht, der zum Erstellen der Visualisierung verwendet wurde, nicht gespeichert wurde, löst das Auswählen der Kachel keine Aktion aus.
-* Wenn die Kachel anhand einer Arbeitsmappe in Excel Online erstellt wurde und Sie nicht mindestens Leseberechtigungen für diese Arbeitsmappe haben, wird durch Auswählen der Kachel die Arbeitsmappe nicht in Excel Online geöffnet.
-* Wenn für Kacheln, die mit **Kacheln hinzufügen** direkt auf dem Dashboard erstellt wurden, ein benutzerdefinierter Link festgelegt wurde, wird die betreffende URL durch Auswählen des Titels, des Untertitels oder der Kachel geöffnet.  Standardmäßig erfolgt bei Auswahl einer dieser Kacheln direkt auf dem Dashboard für ein Bild, einen Webcode oder ein Textfeld keine Aktion.
-* Wenn Sie über keine Berechtigungen zum Bericht in SSRS verfügen, führt die Auswahl einer über SSRS erstellten Kachel zur Anzeige einer Fehlerseite. Auf dieser werden Sie darauf hingewiesen, dass Sie keinen Zugriff haben (rsAccessDenied).
-* Wenn Sie keinen Zugriff auf das Netzwerk mit SSRS haben, führt die Auswahl einer über SSRS erstellten Kachel zur Anzeige einer Fehlerseite. Auf dieser werden Sie darauf hingewiesen, dass der Server nicht gefunden wurde (HTTP 404). Ihr Gerät muss Netzwerkzugriff auf den Berichtsserver besitzen, um den Bericht anzeigen zu können.
-* Wenn sich die ursprüngliche Visualisierung ändert, die zum Erstellen der Kachel verwendet wurde, ändert sich die Kachel nicht.  Wenn Sie beispielsweise ein Liniendiagramm aus einem Bericht angeheftet haben und dann das Liniendiagramm in ein Balkendiagramm ändern, wird auf der Dashboardkachel weiterhin ein Liniendiagramm angezeigt. Die Daten werden aktualisiert, der Visualisierungstyp hingegen nicht.
+* Wenn die Kachel über eine Arbeitsmappe in Excel Online erstellt wurde, benötigen Sie mindestens Leseberechtigungen für die Arbeitsmappe. Andernfalls können Sie durch Auswählen der Kachel die Arbeitsmappe in Excel Online nicht öffnen.
+* Angenommen, Sie erstellen eine Kachel mit **Kachel hinzufügen** direkt auf dem Dashboard und legen einen benutzerdefinierten Hyperlink für diese fest. Wenn dies der Fall ist, wird die jeweilige URL geöffnet, wenn Sie den Titel, den Untertitel oder die Kachel auswählen. Standardmäßig erfolgt ansonsten bei Auswahl einer Kachel, die direkt auf dem Dashboard für ein Bild, einen Webcode oder ein Textfeld erstellt wurde, keine weitere Aktion.
+* Wenn Sie über keine Berechtigungen für den Bericht in Reporting Services verfügen, wird eine Seite angezeigt, die Sie darauf hinweist, dass Sie keine Zugriffsberechtigung haben, wenn Sie auf eine Kachel klicken, die über einen Reporting Services-Bericht erstellt wurde (rsAccessDenied).
+* Wenn Sie keinen Zugriff auf das Netzwerk mit dem Reporting Services-Server haben, wird eine Seite angezeigt, die Sie darauf hinweist, dass der Server nicht gefunden wurde, wenn Sie auf eine Kachel klicken, die über einen Reporting Services-Bericht erstellt wurde (HTTP 404). Ihr Gerät muss Netzwerkzugriff auf den Berichtsserver besitzen, um den Bericht anzeigen zu können.
+* Wenn sich die ursprüngliche Visualisierung ändert, die zum Erstellen der Kachel verwendet wurde, ändert sich die Kachel nicht.  Wenn Sie beispielsweise ein Liniendiagramm aus einem Bericht anheften und dann das Liniendiagramm in ein Balkendiagramm ändern, wird auf der Dashboardkachel weiterhin ein Liniendiagramm angezeigt. Die Daten werden aktualisiert, der Visualisierungstyp hingegen nicht.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erstellen einer Karte (Kachel für große Zahlen) für das Dashboard](power-bi-visualization-card.md)

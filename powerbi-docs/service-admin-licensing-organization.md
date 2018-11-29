@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679315"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331986"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-Lizenzierung in Ihrem Unternehmen
 
 Im Power BI-Dienst verfügen Benutzer über definierte Möglichkeiten, die auf zwei Arten von Lizenzen basieren:
 
-* Kostenlose Lizenzierung **pro Benutzer** -  *und Power BI Pro-Lizenzierung*. Eine kostenlose Lizenz ermöglicht den Zugriff auf einige der Features des Power BI-Diensts. Eine Pro-Lizenz ermöglicht den Zugriff auf alle Inhalte und Funktionen im Power BI-Dienst, z.B. zur Freigabe von Inhalten und zur Zusammenarbeit mit anderen Benutzern mit Pro-Lizenz. Nur Pro-Benutzer können Inhalte in App-Arbeitsbereichen veröffentlichen und nutzen, Dashboards freigeben sowie Dashboards und Berichte abonnieren. Weitere Informationen finden Sie unter [Power BI service features by license type (Funktionen des Power BI-Diensts nach Lizenztyp)](service-features-license-type.md).
+* Power BI Pro-Lizenzierung **pro Benutzer** -  *und kostenlose Lizenzierung*. Eine Power BI Pro-Lizenz ermöglicht den Zugriff auf alle Inhalte und Funktionen im Power BI-Dienst, z.B. zur Freigabe von Inhalten und zur Zusammenarbeit mit anderen Benutzern mit Pro-Lizenz. Nur Pro-Benutzer können Inhalte in App-Arbeitsbereichen veröffentlichen und nutzen, Dashboards freigeben sowie Dashboards und Berichte abonnieren. Eine kostenlose Lizenz ermöglicht den Zugriff auf einige der Features des Power BI-Diensts. Weitere Informationen finden Sie unter [Power BI service features by license type (Funktionen des Power BI-Diensts nach Lizenztyp)](service-features-license-type.md).
 
-* **Kapazitätsbasierte** - *Power BI Premium-Lizenzierung*. Premium bietet dedizierte Kapazitäten, um konsistentere Leistung und Unterstützung größerer Datenvolumen in Power BI bereitzustellen. Mit Premium können Einzelbenutzer Inhalte von Power BI Pro-Benutzern weiträumig verteilen,und für anzeigende Benutzer sind keine Pro-Lizenzen erforderlich. Weitere Informationen finden Sie unter [What is Power BI Premium? (Was ist Power BI Premium?)](service-premium.md).
+* **Kapazitätsbasierte** - *Power BI Premium-Lizenzierung*. Premium bietet dedizierte Kapazitäten, um konsistentere Leistung und Unterstützung größerer Datenvolumen in Power BI bereitzustellen. Mit Premium können Einzelbenutzer Inhalte von Power BI Pro-Benutzern weiträumig verteilen, und für Benutzer, die die Inhalte nur anzeigen, sind keine Pro-Lizenzen erforderlich. Weitere Informationen finden Sie unter [What is Power BI Premium? (Was ist Power BI Premium?)](service-premium.md).
 
 Dieser Artikel konzentriert sich auf die Lizenzierung pro Benutzer aus Administratorsicht.
 
@@ -73,17 +73,11 @@ Jetzt können Sie [Lizenzen in Office 365 zuweisen](https://support.office.com/a
 
 ## <a name="manage-power-bi-free-licenses"></a>Verwalten von kostenlosen Power BI-Lizenzen
 
-Die Benutzer in Ihrer Organisation können auf zwei verschiedene Arten auf kostenlose Power BI-Lizenzen zugreifen. Die Benutzer können sich individuell für Power BI registrieren, oder Sie können den Benutzern im Verwaltungsportal von Office 365 eine Power BI-Lizenz zuweisen.
+Die Benutzer in Ihrer Organisation können auf zwei verschiedene Arten auf kostenlose Power BI-Lizenzen zugreifen:
 
-Wenn Sie eine individuelle Registrierung erlauben, ersparen Sie den Organisationsadministratoren Arbeit, weil sich die an Power BI interessierten Benutzer selbstständig und kostenlos bei Power BI registrieren können.
+* Sie können ihnen im Office 365-Administratorportal eine Power BI-Lizenz zuweisen.
 
-Allerdings gibt Ihnen das Deaktivieren der Registrierung für Einzelbenutzer mehr Kontrolle und stellt eine hervorragende Option dar, wenn Sie die Dienstnutzung überwachen müssen.
-
-### <a name="power-bi-free-for-individuals"></a>Power BI Free für Einzelpersonen
-
-Standardmäßig können sich Einzelpersonen in Ihrer Organisation für eine Power BI-Free-Lizenz registrieren. Weitere Informationen finden Sie unter [Signing up for Power BI as an individual](service-self-service-signup-for-power-bi.md) (Registrieren für Power BI als Einzelperson).
-
-Informationen zum Sperren der individuellen Registrierung finden Sie unter [Aktivieren oder Deaktivieren der individuellen Benutzerregistrierung in Azure Active Directory](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory) weiter unten in diesem Artikel.
+* Wenn sich ein Benutzer [für eine Power BI Pro-Testversion registriert](service-self-service-signup-for-power-bi.md) und diese Testversion abläuft, wird ihm eine kostenlose Lizenz zugewiesen.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Anfordern und Zuweisen von kostenlosen Lizenzen
 

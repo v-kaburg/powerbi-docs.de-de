@@ -1,5 +1,5 @@
 ---
-title: Anzeigen und Bearbeiten von Datasetparametereinstellungen im Power BI-Dienst
+title: Bearbeiten von Parametereinstellungen im Power BI-Dienst
 description: Abfrageparameter werden in Power BI Desktop erstellt, können jedoch im Power BI-Dienst geprüft und aktualisiert werden.
 author: mihart
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 11/21/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac271e8013bce5824931153351a651644a716a2f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965157"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331871"
 ---
-# <a name="what-is-a-query-parameter"></a>Was ist ein Abfrageparameter?
+# <a name="edit-parameter-settings-in-the-power-bi-service"></a>Bearbeiten von Parametereinstellungen im Power BI-Dienst
 Abfrageparameter werden in Power BI Desktop von Berichtserstellern hinzugefügt. Mit Parametern können sie Teile von Berichten von mindestens einem *Parameterwert* abhängig machen. Ein Berichtsersteller kann z.B. einen Parameter erstellen, der die Daten auf ein Land bzw. eine Region einschränkt, oder einen Parameter, der das akzeptierte Format von Feldern (z.B. für Datumsangaben, Uhrzeitangaben und Text) definiert.
 
 ![Registerkarte „Start“ mit der Option „Parameter verwalten“ in Power BI Desktop](media/service-parameters/power-bi-manage-parameters.png)
 
-
 ## <a name="review-and-edit-parameters-in-power-bi-service"></a>Überprüfen und Bearbeiten von Parametern im Power BI-Dienst
 
-Wenn die Parameter in Power BI Desktop definiert wurden, wenn dieser [Bericht im Power BI-Dienst veröffentlicht wird](desktop-upload-desktop-files.md), werden gleichzeitig auch die Parametereinstellungen und -optionen übertragen. Einige Parametereinstellungen können im Power BI-Dienst geprüft und bearbeitet werden. Dies gilt nicht für Parameter, die die verfügbaren Daten einschränken, sondern nur für diejenigen, die akzeptierte Werte definieren und beschreiben.
+Berichtsersteller definieren Parameter in Power BI Desktop. Wenn sie diesen Bericht dann [im Power BI-Dienst veröffentlichen](desktop-upload-desktop-files.md), werden die Parametereinstellungen und -auswahl übernommen. Einige Parametereinstellungen können im Power BI-Dienst geprüft und bearbeitet werden. Dies gilt nicht für Parameter, die die verfügbaren Daten einschränken, sondern nur für diejenigen, die akzeptierte Werte definieren und beschreiben.
 
 1. Klicken Sie im Power BI-Dienst auf das Zahnradsymbol ![Zahnradsymbol](media/service-parameters/power-bi-cog.png), um die **Einstellungen** zu öffnen.
 

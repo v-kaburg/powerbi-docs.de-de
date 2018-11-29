@@ -1,56 +1,73 @@
 ---
-title: Zertifizierte benutzerdefinierte Power BI-Visualisierungen
+title: Zertifizierte benutzerdefinierte Power BI-Visuals
 description: Anforderungen und Vorgehensweise für das Einreichen eines benutzerdefinierten Visuals zur Zertifizierung sowie eine Liste bereits zertifizierter benutzerdefinierter Visuals.
-author: mihart
-ms.author: mihart
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223442"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289264"
 ---
-# <a name="getting-a-custom-visual-certified"></a>Wie wird ein benutzerdefiniertes visuelles Element *zertifiziert*?
+# <a name="certified-custom-visuals"></a>Zertifizierte benutzerdefinierte Visuals
 
-## <a name="what-is-meant-by-certified"></a>Was bedeutet *zertifiziert*?
+## <a name="what-are-certified-custom-visuals"></a>Was sind **_zertifizierte_** benutzerdefinierte Visuals?
 
-Ein *zertifiziertes benutzerdefiniertes visuelles Element* hat verschiedene Codeanforderungen erfüllt und strenge Sicherheitstests bestanden.  Nachdem ein benutzerdefiniertes visuelles Element zertifiziert wurde, kann es [nach PowerPoint exportiert](consumer/end-user-powerpoint.md) werden und wird in den empfangenen E-Mails angezeigt, wenn ein Benutzer [Berichtsseiten abonniert](consumer/end-user-subscribe.md). Dieses kann ebenfalls wie ein [benutzerdefiniertes visuelles Standardelement](power-bi-custom-visuals.md) verwendet, zum Power BI-Dienst und zu Power BI Desktop-Berichten hinzugefügt und in Power BI Mobile angezeigt und eingebettet werden.
+Zertifizierte benutzerdefinierte Visuals sind Visuals im **Marketplace**, die bestimmte **angegebene** Codeanforderungen erfüllen, die vom **Microsoft Power BI-Team** getestet und genehmigt wurden. Sobald ein benutzerdefiniertes Visual zertifiziert wurde, bietet es mehr Funktionen. Beispielsweise können Sie [PowerPoint exportieren](consumer/end-user-powerpoint.md) und das Visual in E-Mails anzeigen, die Sie erhalten, wenn ein Benutzer [Berichtsseiten abonniert](consumer/end-user-subscribe.md).
 
-Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu [Microsoft AppSource](https://appsource.microsoft.com) hinzufügen? Weitere Informationen finden Sie unter [Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md).
+**Zertifizierte benutzerdefinierte Visuals** werden wie [benutzerdefinierte Standardvisuals](power-bi-custom-visuals.md) verwendet. Zertifizierte benutzerdefinierte Visuals können dem **Power BI-Dienst** oder einem **Power BI Desktop-Bericht** hinzugefügt werden und mit der **mobilen Power BI-Version** sowie **Power BI Embedded** angezeigt werden.
 
-## <a name="certification-requirements"></a>Zertifizierungsanforderungen
+Die durchgeführten Tests wurden entworfen, um zu überprüfen, ob das Visual nicht auf externe Dienste oder Ressourcen zugreift. **Microsoft** ist *nicht* der Autor benutzerdefinierter Drittanbietervisuals, und Kunden wird empfohlen, direkt mit dem Autor Kontakt aufzunehmen, um die Funktionalität eines solchen Visuals zu überprüfen.
 
-* Von Microsoft AppSource genehmigt
-* Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben
-* Coderepository steht zur Überprüfung bereit (z.B. als auf GitHub für uns verfügbarer Code des visuellen Elements)
-* Ausschließliche Verwendung öffentlich überprüfbarer OSS-Komponenten
-* Kein Zugriff auf externe Dienste oder Ressourcen
+Dieser Zertifizierungsprozess ist ein optionaler Prozess, und es obliegt den Entwicklern zu entscheiden, ob ihr Visual im Marketplace zertifiziert werden soll.  
 
-> **TIPP**: Es wird empfohlen, dass Sie EsLint mit dem standardmäßigen Sicherheitsregelsatz verwenden, um Ihren Code vor der Einreichung zu überprüfen.
+Bei **nicht zertifizierten benutzerdefinierten Visuals** handelt es sich nicht zwangsläufig um unsichere Visuals. Einige Visuals sind nicht zertifiziert, da sie mindestens einem Punkt der [Zertifizierungsanforderungen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) nicht entsprechen. Beispiele hierfür sind die Herstellung einer Verbindung zu einem externen Dienst wie Kartenvisuals oder Visuals, die kommerzielle Bibliotheken verwenden.
+
+Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu  **[Microsoft AppSource](https://appsource.microsoft.com)** hinzufügen? Weitere Informationen finden Sie unter  **[Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md)**.
+
+## <a name="removal-of-power-bi-certified-custom-visuals"></a>Entfernen benutzerdefinierter zertifizierter visueller Power BI-Elemente
+
+Microsoft kann nach eigenem Ermessen ein Visual aus der Liste [zertifizierter Visuals](#list-of-custom-visuals-that-have-been-certified) entfernen.
+
+## <a name="getting-a-custom-visualcertified"></a>Abrufen eines zertifizierten benutzerdefinierten Visuals
+
+### <a name="certification-requirements"></a>Zertifizierungsanforderungen
+
+Stellen Sie sicher, dass Ihr benutzerdefiniertes Visual folgenden Anforderungen entspricht, damit es [zertifiziert](#certified-custom-visuals) werden kann:  
+
+* Es muss von Microsoft AppSource genehmigt sein. Ihr benutzerdefiniertes Visual sollte sich in unserem [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) befinden.
+* Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben.
+* Das Coderepository muss dem Power BI-Team zur Überprüfung zur Verfügung stehen (z.B. Quellcode – JavaScriptS oder TypeScript – in einem uns verfügbaren Format in GitHub, das vom Menschen lesbar ist).
+
+    >[!Note]
+    > Sie müssen Ihren Code nicht öffentlich in GitHub freigeben.
+
+* Ihr Visual darf nur öffentlich überprüfbare OSS-Komponenten besitzen (öffentliche JS-Bibliotheken oder TypeScript. Der Quellcode ist für die Überprüfung verfügbar und besitzt keine bekannten Sicherheitsrisiken). Wir können überprüfen, ob ein benutzerdefiniertes Visual eine kommerzielle Komponente verwendet.
+
+* Das Visual greift nicht auf externe Dienste oder Ressourcen zu. Unter anderem gehen keine HTTP/S- oder WebSocket-Anforderungen von Power BI oder anderen Diensten aus. 
+
+> [!TIP]
+> Es wird empfohlen, dass Sie EsLint mit dem standardmäßigen verwendeten Sicherheitsregelsatz nutzen, um Ihren Code vor der Einreichung zu überprüfen.
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Vorgang zum Einreichen eines benutzerdefinierten visuellen Elements zur Zertifizierung
 
 So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 
-1. Senden Sie eine E-Mail an den Power BI-Support für benutzerdefinierte visuelle Elemente (pbicvsupport@microsoft.com). Fügen Sie der E-Mail die folgende Informationen hinzu:    
+1. Senden Sie eine E-Mail an den Power BI-Support für benutzerdefinierte Visuals (pbicvsupport@microsoft.com). Fügen Sie der E-Mail die folgende Informationen hinzu:
+    * Titel: Zertifizierungsanforderung für visuelles Element
+    * Link zum GitHub-Repository, in dem der vom Menschen lesbare Quellcode gehostet wird
+    * [Befolgen der Anforderungen](#certification-requirements)
+    * Übergeben des Codereviews
 
-   * Titel: Zertifizierungsanforderung für visuelles Element
-   * Link zum GitHub-Repository, in dem der Quellcode des visuellen Elements gehostet wird
-   * Befolgen der Anforderungen (siehe oben)
-   * Bestehen der Code- und Sicherheitsüberprüfung
-
-2. Das Microsoft-Team für benutzerdefinierte visuelle Elemente benachrichtigt Sie, sobald Ihr benutzerdefiniertes visuelles Element zertifiziert und der Liste „Zertifiziert“ (siehe unten) hinzugefügt wurde oder mit einem Bericht zu den zu behebenden Problemen abgelehnt wurde. Es ist Aufgabe des Entwicklers, eine offene Kommunikation mit Microsoft zu pflegen und seine zertifizierten visuellen Elemente bei Bedarf zu aktualisieren.
-
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Entfernen benutzerdefinierter zertifizierter visueller Power BI-Elemente
-
-Microsoft kann nach eigenem Ermessen ein visuelles Element aus der Liste „Zertifiziert“ entfernen.  
+2. Das Microsoft-Team für benutzerdefinierte Visuals benachrichtigt Sie, sobald Ihr benutzerdefiniertes visuelles Element zertifiziert und der [Liste der zertifizierten Visuals](#list-of-custom-visuals-that-have-been-certified) hinzugefügt wurde oder mit einem Bericht zu den zu behebenden Problemen abgelehnt wurde. Es ist Aufgabe des Entwicklers, eine offene Kommunikation mit Microsoft zu pflegen und seine zertifizierten Visuals bei Bedarf zu aktualisieren.
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Liste benutzerdefinierter visueller Elemente, die zertifiziert wurden
 
