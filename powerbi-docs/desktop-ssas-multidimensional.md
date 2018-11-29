@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813340"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452796"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt die Beziehungen zwischen mehrdimensionalen Objek
 | --- | --- |
 | Cube |Modell |
 | Cubedimension |Tabelle |
-| Dimensionsattribute (Schlüssel), Name |Spalten |
+| Dimensionsattribute (Schlüssel), Name |auswählen |
 | Measuregruppe |Tabelle |
 | Measure |Measure |
 | Measures ohne zugeordnete Measuregruppe |Innerhalb einer Tabelle mit dem Namen *Measures* |
@@ -81,6 +81,7 @@ Die Verwendung von **SSAS MD**unterliegt bestimmten Einschränkungen:
 * Auf einem Server muss SQL Server 2012 SP1 CU4 oder eine höhere Version von Analysis Services ausgeführt werden, damit der SSAS MD-Connector für Power BI Desktop ordnungsgemäß funktioniert.
 * *Aktionen* und *benannte Mengen* werden nicht für Power BI verfügbar gemacht. Dennoch können Sie eine Verbindung mit Cubes herstellen, die auch *Aktionen* oder *benannte Mengen* enthalten, und Sie können entsprechende Visualisierungen und Berichte erstellen.
 * Möglicherweise tritt ein Fehler auf, bei dem Power BI Metadaten für ein SSAS-Modell anzeigt, Sie aber keine Modelldaten abrufen können. Dieser Fall kann eintreten, wenn Sie die 32-Bit-Version des MSOLAP-Anbieters auf Ihrem System installiert haben und nicht über die 64-Bit-Version verfügen. Die Installation der 64-Bit-Version kann dieses Problem beheben.
+* Sie können keine Measures auf Berichtsebene erstellen, wenn Sie einen Bericht erstellen, der über eine Liveverbindung mit einem mehrdimensionalen SSAS-Modell verbunden ist. Es stehen nur die im MD-Modell definierten Measures zur Verfügung.
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Unterstützte Features von SSAS MD in Power BI Desktop
 Die folgenden Features von SSAS MD werden in Power BI Desktop unterstützt:

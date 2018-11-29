@@ -3,18 +3,18 @@ title: Einbetten von Berichten oder Dashboards aus Apps
 description: Erfahren Sie, wie Sie einen Bericht oder ein Dashboard aus einer Power BI-App anstatt aus einem App-Arbeitsbereich integrieren bzw. einbetten.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237983"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452520"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Einbetten von Berichten oder Dashboards aus Apps
 
@@ -26,11 +26,11 @@ In Power BI können Sie Apps erstellen, um zusammengehörige Dashboards und Beri
 
 2. Öffnen Sie den gewünschten Bericht im Power BI-Dienst.
 
-3. Wechseln Sie zu **Datei** > **In SharePoint Online einbetten**, und rufen Sie die Berichts-URL von dort aus ab. Die folgende Abbildung veranschaulicht dies. Alternativ rufen Sie die GetReports/GetReport-REST-API auf, und extrahieren Sie das entsprechende Berichts-embedURL-Feld aus der Antwort. Die REST-Aufruf sollte keine Arbeitsbereichs-ID als Teil der URL enthalten, da die App im Arbeitsbereich des Benutzers instanziiert wurde.
-
-4. Verwenden Sie die in Schritt 3 abgerufene embedURL mit dem JavaScript SDK.
+3. Wechseln Sie zu **Datei** > **In SharePoint Online einbetten**, und rufen Sie die embedURL für den Bericht ab. Im nachstehenden Screenshot wird ein embedURL-Beispiel gezeigt. Alternativ können Sie die GetReports/GetReport-REST-API aufrufen und das entsprechende embedURL-Berichtfeld aus der Antwort extrahieren. Die REST-Aufruf sollte keine Arbeitsbereichs-ID als Teil der URL enthalten, da die App im Arbeitsbereich des Benutzers instanziiert wurde.
 
     ![Einbetten aus Apps](media/embed-from-apps/embed-from-app.png)
+
+4. Verwenden Sie die in Schritt 3 abgerufene embedURL mit dem JavaScript SDK.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Abrufen einer Dashboard-embedURL für die Einbettung
 

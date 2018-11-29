@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 91cf4e2115b2eaae3178b2fb25e487e0501e3a6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268123"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452822"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst
 
@@ -58,7 +58,7 @@ Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts
   
 4.  Wählen Sie auf der Seite **Dataset auswählen** die Optionen **Dataset erstellen** > **Weiter** aus.  
 
-    ![Erstellen eines Datasets](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
+    ![Dataset erstellen](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
 5.  Klicken Sie auf der Seite **Verbindung mit einer Datenquelle auswählen** auf **Neu**. 
 
@@ -107,8 +107,8 @@ Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts
 10. Erweitern Sie auf der Seite **Abfrage entwerfen** „SalesLT“ und „Tabellen“, und wählen Sie dann diese Tabellen aus:
 
     - Adresse
-    - Kunde
-    - Produkt
+    - Customer
+    - Product
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
@@ -137,7 +137,7 @@ Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts
 
     - OrderQty
     - UnitPrice
-    - LineTotal
+    - Zwischensumme
 
     Der Berichts-Generator hat die Felder automatisch in den Summenfeldern **Werte** erstellt.
 
@@ -167,7 +167,7 @@ Lassen Sie uns einen Moment die Ergebnisse des Assistenten betrachten.
 
     - CompanyName
     - Verkaufsaufträge
-    - Product Name
+    - Produktname
 
     Die Matrix enthält keine Spaltengruppen.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717951"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452727"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Bearbeiten des linguistischen Schemas für Q&A und Hinzufügen von Ausdrücken in Power BI Desktop 
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in Power BI möglich. Wenn Sie Power BI eine Frage stellen, bemüht sich das Programm, diese richtig zu beantworten. 
@@ -197,7 +197,7 @@ Binding: {Table: Products}
       Adjectives: [discontinued]
 ```
 
-*Maß-Adjektivausdrücke* definieren ein neues Adjektiv basierend auf einem numerischen Wert, der angibt, inwieweit das Adjektiv gilt, z.B. „Längen geben an, wie lang Flüsse sind“ und „Kleine Länder haben kleine Landflächen“. In Fragen wie diesen werden Maßadjektivausdrücke verwendet:
+*Maß-Adjektivausdrücke* definieren ein neues Adjektiv basierend auf einem numerischen Wert, der angibt, inwieweit das Adjektiv gilt, z.B. „Längen geben an, wie lang Flüsse sind“ und „Kleine Länder haben kleine Landflächen“. In Fragen wie diesen werden Maß-Adjektivausdrücke verwendet:
 - Lange Flüsse auflisten
 - Welche Flüsse sind am längsten?
 - Die kleinsten Länder auflisten, die Gold im Handball gewonnen haben

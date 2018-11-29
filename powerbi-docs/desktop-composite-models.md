@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619699"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452773"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Verwenden zusammengesetzter Modelle in Power BI Desktop
 
@@ -27,9 +27,9 @@ Die Funktion „Zusammengesetzte Modelle“ in Power BI Desktop besteht aus drei
 
 * **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. In diesem Artikel werden die zusammengesetzten Modelle ausführlich erläutert.
 
-* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Modelle* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen ausschließlich zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md).
+* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Modelle* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen ausschließlich zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
 
-* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md).
+* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
 
 
 ## <a name="use-composite-models"></a>Verwenden von zusammengesetzten Modelle
@@ -55,7 +55,7 @@ Ein Modell, bei dem Daten aus mehr als einer DirectQuery-Quelle kombiniert werde
 > [!NOTE]
 > Ab dem Oktober 2018-Release von Power BI Desktop *können* Sie zusammengesetzte Modelle im Power BI-Dienst veröffentlichen. Bei geplanten Aktualisierungen und Aktualisierungen von Dashboardkacheln verhalten sich zusammengesetzte Modelle im Power BI-Dienst auf dieselbe Weise wie Importmodelle. 
 
-Sie können wie gewohnt Beziehungen zwischen Tabellen erstellen, auch wenn diese Tabellen von verschiedenen Quellen stammen. Hierbei gilt jedoch eine Einschränkung: Beziehungen, die sich über mehrere Quellen erstrecken, müssen so definiert werden, dass sie die Kardinalität *m:n* aufweisen, unabhängig von der tatsächlichen Kardinalität. Das Verhalten solcher Beziehungen entspricht dann dem normalen Verhalten für *m:n*-Beziehungen, wie unter [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md) beschrieben wird. 
+Sie können wie gewohnt Beziehungen zwischen Tabellen erstellen, auch wenn diese Tabellen von verschiedenen Quellen stammen. Hierbei gilt jedoch eine Einschränkung: Beziehungen, die sich über mehrere Quellen erstrecken, müssen so definiert werden, dass sie die Kardinalität *m:n* aufweisen, unabhängig von der tatsächlichen Kardinalität. Das Verhalten solcher Beziehungen entspricht dann dem normalen Verhalten für *m:n*-Beziehungen, wie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben wird. 
 
 > [!NOTE]
 > Im Kontext von zusammengesetzten Modellen stellen alle importierten Tabellen im Grunde eine einzelne Quelle dar, unabhängig von der tatsächlichen zugrunde liegenden Datenquelle, aus der sie importiert wurden.   
@@ -126,7 +126,7 @@ Der Speichermodus ist auch in der QuickInfo für die einzelnen Tabellen einsehba
 
 Bei Power BI Desktop-Dateien (*PBIX*-Format), die zum Teil Tabellen vom DirectQuery und importierte Tabellen enthalten, wird in der Statusleiste der Speichermodus mit dem Status **Gemischt** angezeigt. Durch Klicken auf diese Bezeichnung in der Statusleiste können Sie einfach zwischen allen zu importierenden Tabellen wechseln.
 
-Weitere Informationen zum Speichermodus finden Sie unter [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md).  
+Weitere Informationen zum Speichermodus finden Sie unter [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).  
 
 ## <a name="calculated-tables"></a>Berechnete Tabellen
 
@@ -146,7 +146,7 @@ Aus diesem Grund werden die in der Tabelle gespeicherten Informationen nun in ei
 
 * Die Verschlüsselungseinstellungen für jede Quelle müssen berücksichtigt werden. Vermeiden Sie es, Informationen aus einer Quelle über eine verschlüsselte Verbindung abzurufen und diese dann versehentlich in eine Abfrage einzuschließen, die über eine nicht verschlüsselte Verbindung an eine andere Quelle gesendet wird. 
 
-Damit Sie bestätigen können, dass Sie die Folgen für die Sicherheit verstanden haben, wird in Power BI Desktop eine Warnmeldung angezeigt, wenn Sie ein zusammengesetztes Modell erstellen.  
+Um zu bestätigen, dass Sie die Auswirkungen auf die Sicherheit verstanden haben, wird in Power BI Desktop eine Warnmeldung angezeigt, wenn Sie ein zusammengesetztes Modell erstellen.  
 
 Aus ähnlichen Gründen müssen Sicherheitsvorkehrungen getroffen werden, wenn eine Power BI Desktop-Datei geöffnet wird, die nicht von einer vertrauenswürdigen Quelle gesendet wurde. Sollte die Datei zusammengesetzte Modelle enthalten, werden Informationen, die eine Person mithilfe der Anmeldeinformationen des Benutzers, der die Datei öffnet, aus einer Quelle abruft, als Teil einer Abfrage an eine andere Datenquelle gesendet. Die Informationen können vom böswilligen Autor der Power BI Desktop-Datei angezeigt werden. Deshalb wird in Power BI Desktop eine Warnung angezeigt, wenn Sie das erste Mal eine Power BI Desktop-Datei öffnen, die mehrere Quellen enthält. Diese Warnung ist mit der Warnung vergleichbar, die beim Öffnen einer Datei mit nativen SQL-Abfragen angezeigt wird.  
 
@@ -187,8 +187,8 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
-* [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
+* [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
 * [Verwenden von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
 
