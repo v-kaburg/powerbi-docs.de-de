@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 44a629ca93eedc7baf5accd45c7b3fdd0ac00406
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 6c890b830ca38e15bb6cc0efe36c93488ed951b4
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952278"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670829"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>R-Pakete im Power BI-Dienst
 Sie können zum Erstellen visueller Elemente im Power BI-Dienst die leistungsstarke [Programmiersprache R](https://www.r-project.org/) verwenden. Viele R-Pakete werden im Power BI-Dienst unterstützt (die Anzahl der unterstützten Pakete nimmt ständig zu), und einige Pakete werden nicht unterstützt.
@@ -190,7 +190,7 @@ In der folgenden Tabelle werden die Pakete aufgeführt, die im Power BI-Dienst *
 |data.table| zoo| grid|
 |data.tree| 0.7.0| https://cran.r-project.org/web/packages/data.tree/index.html |
 |Datasets| 3.4.1| NA|
-|date| 1.2-37| https://cran.r-project.org/web/packages/date/index.html |
+|Datum| 1.2-37| https://cran.r-project.org/web/packages/date/index.html |
 |DBI|0.7| https://cran.r-project.org/web/packages/DBI/index.html |
 |dbscan| 1.1-1| https://cran.r-project.org/web/packages/dbscan/index.html |
 |dclone| 2.1-2| https://cran.r-project.org/web/packages/dclone/index.html |

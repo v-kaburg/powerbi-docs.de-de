@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34456037"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578495"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Facebook-Analysen mit Power BI Desktop
 
@@ -117,7 +117,7 @@ Nach dem Anwenden der bisherigen Datentransformationen sollte der Abschnitt „A
 
 Wenn Sie mit den Daten zufrieden sind, wählen Sie in der Registerkarte „Start“ des Menübands **Schließen und übernehmen** > **Schließen und übernehmen**, um sie in Power BI Desktop zu importieren. 
    
-   ![Schließen und übernehmen](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   ![Schließen und anwenden](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
    Es wird ein Dialogfeld angezeigt, in dem Sie den Status des Ladevorgangs der Daten in das Datenmodell von Power BI Desktop verfolgen können. 
    

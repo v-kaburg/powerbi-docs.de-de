@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850405"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578426"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI
-Die Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI kann zum Einschränken des Datenzugriffs für bestimmte Benutzer verwendet werden. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren. Beachten Sie, dass Mitglieder eines Arbeitsbereichs im Power BI-Dienst über Zugriff auf die Datasets im Arbeitsbereich verfügen. RLS schränkt den Zugriff auf diese Daten nicht ein. 
+
+Die Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI kann zum Einschränken des Datenzugriffs für bestimmte Benutzer verwendet werden. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren. Beachten Sie, dass Mitglieder eines Arbeitsbereichs im Power BI-Dienst über Zugriff auf die Datasets im Arbeitsbereich verfügen. RLS schränkt den Zugriff auf diese Daten nicht ein.
 
 Sie können RLS für Datenmodelle konfigurieren, die mithilfe von Power BI Desktop in Power BI importiert wurden. Sie können auch RLS für Datasets konfigurieren, die DirectQuery verwenden, z. B. SQL Server. Bisher konnte RLS nur in lokalen Analysis Services-Modellen außerhalb von Power BI implementiert werden. Für Liveverbindungen von Analysis Services konfigurieren Sie RLS auf dem lokalen Modell. Die Sicherheitsoption wird nicht für Liveverbindungsdatasets angezeigt.
 
@@ -34,6 +35,7 @@ Weitere Informationen finden Sie unter [Bidirektionale Kreuzfilterung mithilfe v
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>Verwalten der Sicherheitseinstellungen Ihres Modells
+
 Zum Verwalten der Sicherheitseinstellungen Ihres Datenmodells sollten Sie wie folgt vorgehen:
 
 1. Wählen Sie die **Ellipse (...)** für ein Dataset aus.
@@ -46,7 +48,9 @@ Dadurch gelangen Sie zur RLS-Seite, wo Sie Mitglieder zu einer Rolle hinzufügen
 Sie können Rollen nur in Power BI Desktop erstellen oder ändern.
 
 ## <a name="working-with-members"></a>Arbeiten mit Mitgliedern
+
 ### <a name="add-members"></a>Hinzufügen von Mitgliedern
+
 Sie können der Rolle ein Mitglied hinzufügen, indem Sie die E-Mail-Adresse oder den Namen des Benutzers, der Sicherheitsgruppe oder der Verteilerliste eingeben, den bzw. die Sie hinzufügen möchten. Dieses Mitglied muss sich in Ihrer Organisation befinden. Sie können keine in Power BI erstellten Gruppen hinzufügen.
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Anhand der Zahl in Klammern neben dem Rollennamen oder neben „Mitglieder“ k�
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Entfernen von Mitgliedern
+
 Sie können Mitglieder entfernen, indem Sie das „X“ neben ihrem Namen auswählen. 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Überprüfen der Rolle im Power BI-Dienst
+
 Sie können überprüfen, ob die von Ihnen definierte Rolle ordnungsgemäß funktioniert, indem Sie sie testen. 
 
 1. Wählen Sie das **Auslassungszeichen (...)** neben der Rolle aus.
@@ -83,12 +89,11 @@ Um zur normalen Ansicht zurückzukehren, wählen Sie **Zurück zur Sicherheit au
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Verwenden von RLS mit App-Arbeitsbereichen in Power BI
+
 Wenn Sie Ihren Power BI Desktop-Bericht in einem App-Arbeitsbereich im Power BI-Dienst veröffentlichen, werden die Rollen auf Mitglieder mit Lesezugriff angewendet. Sie müssen in den Einstellungen angeben, dass Mitglieder die Power BI-Inhalte nur im App-Arbeitsbereich anzeigen können.
 
 > [!WARNING]
 > Wenn Sie den App-Arbeitsbereich so konfiguriert haben, dass deren Mitglieder über Bearbeitungsberechtigungen verfügen, werden die RLS-Rollen nicht auf diese angewendet. Benutzer können dann alle Daten einsehen.
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Wenn Sie Ihren Power BI Desktop-Bericht in einem App-Arbeitsbereich im Power BI-
 [Sicherheit auf Zeilenebene (Row-Level Security; RLS) mit Power BI Desktop](desktop-rls.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

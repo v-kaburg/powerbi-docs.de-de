@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4989e981c3f39a637b3bb4927c427be0005c7776
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: ddf0ab52aae38a28f30de94904c6d966d0fd24a8
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027435"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669794"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Verwenden der Drillthroughfunktion in Power BI Desktop
 Mit einem **Drillthrough** können Sie in **Power BI Desktop** in Ihrem Bericht eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z.B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Benutzer können mit der rechten Maustaste auf einen Datenpunkt in anderen Berichtsseiten klicken. Dann können sie einen Drillthrough für die fokussierte Seite ausführen, um Details abzurufen, die in diesem Kontext gefiltert werden.
