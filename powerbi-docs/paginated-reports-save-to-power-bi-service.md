@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen eines paginierten Berichts im Power BI-Dienst | Microsoft-Dokumentation
+title: Veröffentlichen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 description: In diesem Tutorial lernen Sie, einen paginierten Bericht durch Hochgeladen von Ihrem lokalen Computer im Power BI-Dienst zu veröffentlichen.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267978"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900265"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Veröffentlichen eines paginierten Berichts im Power BI-Dienst
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Veröffentlichen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 
 In diesem Artikel erfahren Sie, wie Sie einen paginierten Bericht durch Hochgeladen von Ihrem lokalen Computer im Power BI-Dienst veröffentlichen. Sie können paginierte Berichte in Ihren Arbeitsbereich oder einen anderen Arbeitsbereich hochladen, sofern sich der Arbeitsbereich in einer Premium-Kapazität befindet. Suchen Sie nach dem Diamantsymbol ![Diamantsymbol in Power BI Premium-Kapazität](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) neben dem Namen des Arbeitsbereichs. 
 
@@ -89,5 +89,5 @@ Derzeit unterstützen Gateways keine mehrwertigen Parameter.
 ## <a name="next-steps"></a>Nächste Schritte
 
 - [Anzeigen eines paginierten Berichts im Power BI-Dienst](paginated-reports-view-power-bi-service.md)
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
+- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)?](paginated-reports-report-builder-power-bi.md)
 

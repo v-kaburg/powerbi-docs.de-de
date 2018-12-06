@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines eingebetteten Datasets für einen paginierten Power BI-Bericht | Microsoft-Dokumentation
+title: Erstellen eines eingebetteten Datasets für einen paginierten Power BI-Bericht (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie ein eingebettetes Dataset basierend auf einer einbetten Datenquelle für einen paginierten Bericht im Power BI-Dienst erstellen.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267961"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900426"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Erstellen eines eingebetteten Datasets für einen paginierten Bericht im Power BI-Dienst
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Erstellen eines eingebetteten Datasets für einen paginierten Bericht im Power BI-Dienst (Vorschau)
 In diesem Artikel erfahren Sie, wie Sie ein eingebettetes Dataset basierend auf einer einbetten Datenquelle für einen paginierten Bericht im Power BI-Dienst erstellen. Eingebettete Datasets sind in einem einzigen, paginierten Bericht enthalten, zur Verwendung in diesem Bericht. Derzeit sind für paginierte Berichte, die im Power BI-Dienst veröffentlicht werden, eingebettete Datasets und eingebettete Datenquellen erforderlich. Sie erstellen die eingebettete Datenquelle und das eingebettete Dataset im Berichts-Generator beim Generieren Ihres Berichts. 
 
 Bevor Sie das Dataset erstellen können, müssen Sie eine Datenquelle erstellen. Die genaue Vorgehensweise im Power BI-Dienst finden Sie unter [Eingebettete Datenquellen für paginierte Berichte](paginated-reports-embedded-data-source.md).
@@ -55,7 +55,7 @@ Bevor Sie das Dataset erstellen können, müssen Sie eine Datenquelle erstellen.
  
 ## <a name="next-steps"></a>Nächste Schritte 
 
-- [Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)  
+- [Was sind paginierte Berichte in Power BI Premium (Vorschau)](paginated-reports-report-builder-power-bi.md)  
 - [Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst](paginated-reports-quickstart-aw.md)
 - [Veröffentlichen eines paginierten Berichts im Power BI-Dienst](paginated-reports-save-to-power-bi-service.md)
 

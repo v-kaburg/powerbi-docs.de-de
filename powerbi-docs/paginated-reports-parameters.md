@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Parametern für paginierte Berichte im Power BI-Dienst | Microsoft-Dokumentation
+title: Erstellen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie Parameter für paginierte Berichte im Power BI-Dienst erstellen.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267203"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900288"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Erstellen von Parametern für paginierte Berichte im Power BI-Dienst
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Erstellen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 
 In diesem Artikel erfahren Sie, wie Sie Parameter für paginierte Berichte im Power BI-Dienst erstellen.  Mit Berichtsparametern können Sie Berichtsdaten auswählen und die Berichtsdarstellung anpassen. Sie haben die Möglichkeit, einen Standardwert und eine Liste der verfügbaren Werte anzugeben, auf deren Grundlage Ihre Berichtsleser die Auswahl ändern.  
 

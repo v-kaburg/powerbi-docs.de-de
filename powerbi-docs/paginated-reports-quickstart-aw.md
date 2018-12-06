@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst | Microsoft-Dokumentation'
+title: 'Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst (Vorschau)'
 description: In diesem Tutorial stellen Sie eine Verbindung mit einer Beispielinstanz von Azure SQL-Datenbank her. Anschließend erstellen Sie mithilfe eines Assistenten im Berichts-Generator einen paginierten Bericht. Dann laden Sie den paginierten Bericht in einen Arbeitsbereich in einer Premium-Kapazität im Power BI-Dienst hoch.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452822"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900610"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst (Vorschau)
 
 In diesem Tutorial stellen Sie eine Verbindung mit einer Beispielinstanz von Azure SQL-Datenbank her. Anschließend erstellen Sie mithilfe eines Assistenten im Berichts-Generator einen paginierten Bericht mit einer Tabelle, die sich auf mehrere Seiten erstreckt. Dann laden Sie den paginierten Bericht in einen Arbeitsbereich in einer Premium-Kapazität im Power BI-Dienst hoch. Paginierte Berichte im Power BI-Dienst befinden sich derzeit in der Vorschauphase.
 
@@ -108,7 +108,7 @@ Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts
 
     - Adresse
     - Customer
-    - Product
+    - Produkt
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader

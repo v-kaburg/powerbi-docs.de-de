@@ -1,5 +1,5 @@
 ---
-title: Tour durch die Berichtsentwurfsansicht für paginierte Berichte – Power BI | Microsoft-Dokumentation
+title: Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 description: Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Erstellung paginierter Berichte, die Sie im Power BI-Dienst veröffentlichen können.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: de3919903a3df4fdc5b0e167069b3035204761ff
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268194"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900449"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Tour durch die Berichtsentwurfsansicht für paginierte Berichte
+# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 
 Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Erstellung paginierter Berichte, die Sie im Power BI-Dienst veröffentlichen können. Die Entwurfsfläche befindet sich im Zentrum des Berichts-Generators, und das Menüband und die Bereiche sind rundherum angeordnet. Auf der Entwurfsfläche können Sie Berichtselemente hinzufügen und organisieren. Dieser Artikel erläutert die Bereiche zum Hinzufügen, Auswählen und Anordnen von Berichtsressourcen sowie zum Ändern der Eigenschaften von Berichtselementen.  
 
@@ -109,7 +109,7 @@ Die Statusleiste für den aktuellen Bericht zeigt den Namen des Servers, mit dem
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md) 
+[Was sind paginierte Berichte in Power BI Premium (Vorschau)?](paginated-reports-report-builder-power-bi.md) 
 
   
   

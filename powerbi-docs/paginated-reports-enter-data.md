@@ -1,5 +1,5 @@
 ---
-title: Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator
+title: Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie im Berichts-Generator Daten direkt in paginierte Berichte eingeben können.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289988"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900403"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator: Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator (Vorschau): Power BI
 
 In diesem Artikel erhalten Sie Informationen zu einem Feature in der neuen Version des Berichts-Generators in SQL Server 2016, das es Ihnen ermöglicht, Daten direkt als eingebettetes Dataset in einen RDL-Bericht einzugeben.  Dieses Feature ist Power BI Desktop ähnlich. Sie können die Daten direkt in das Dataset in Ihrem Bericht eingeben oder sie aus einem anderen Programm wie Microsoft Excel einfügen. Wenn Sie durch die Eingabe von Daten ein Dataset erstellen, können Sie dieses genauso wie jedes andere von Ihnen erstellte eingebettete Dataset verwenden. Außerdem können Sie mehre Tabellen hinzufügen und diese als Filter verwenden. Dieses Feature eignet sich besonders für kleine, statische Datasets, die Sie möglicherweise in Ihrem Bericht verwenden müssen (z. B. Berichtsparameter).
  

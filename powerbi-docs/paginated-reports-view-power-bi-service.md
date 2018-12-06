@@ -1,5 +1,5 @@
 ---
-title: Anzeigen eines paginierten Berichts im Power BI-Dienst | Microsoft-Dokumentation
+title: Anzeigen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 description: In diesem Tutorial erhalten Sie Informationen zur Anzeige paginierter Berichte im Power BI-Dienst.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267202"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900311"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Anzeigen eines paginierten Berichts im Power BI-Dienst
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Anzeigen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 
 In diesem Artikel erhalten Sie Informationen zur Anzeige eines paginierten Berichts im Power BI-Dienst. Paginierte Berichte sind Berichte, die im Berichts-Generator erstellt und in einen beliebigen Arbeitsbereich in einer Premium-Kapazität hochgeladen werden. Achten Sie auf das Diamantsymbol ![Diamantsymbol in Power BI Premium-Kapazität](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) neben dem Namen des Arbeitsbereichs. 
 
@@ -55,4 +55,4 @@ Sie können paginierte Berichte auch in eine Reihe von Formaten exportieren:
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Was sind paginierte Berichte in Power BI Premium? (Vorschau)](paginated-reports-report-builder-power-bi.md)
+[Was sind paginierte Berichte in Power BI Premium (Vorschau)?](paginated-reports-report-builder-power-bi.md)

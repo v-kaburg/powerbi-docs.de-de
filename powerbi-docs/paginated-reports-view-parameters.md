@@ -1,5 +1,5 @@
 ---
-title: Anzeigen von Parametern für paginierte Berichte im Power BI-Dienst | Microsoft-Dokumentation
+title: Anzeigen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie mit Parametern für paginierte Berichte im Power BI-Dienst arbeiten.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d144030db1d35e103a476af8e96fa4b2b8b1dfaa
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267979"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900150"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Anzeigen von Parametern für paginierte Berichte im Power BI-Dienst
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Anzeigen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 
 In diesem Artikel erfahren Sie, wie Sie mit Parametern für paginierte Berichte im Power BI-Dienst arbeiten.  Mit Berichtsparametern können Sie Berichtsdaten filtern. Parameter stellen eine Liste der verfügbaren Werte zur Verfügung, und Sie können mindestens einen Wert auswählen. Manchmal verfügen Parameter über einen Standardwert, und manchmal müssen Sie einen Wert auswählen, bevor Sie den Bericht anzeigen können.  
 
