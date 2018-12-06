@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 9b508964062146ff140bcb85b0b8b42e9bf4f68f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003177"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830123"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Punktdiagramme, Punktplotdiagramme und Blasendiagramme in Power BI
 Ein Punktdiagramm weist immer zwei Wertachsen auf, sodass ein Satz von numerischen Daten entlang einer horizontalen Achse und ein anderer Satz von numerischen Werten entlang einer vertikalen Achse angezeigt werden. Das Diagramm zeigt Schnittpunkte von x- und y-Zahlenwerten an, wobei diese Werte in jeweils einem einzelnen Punkt kombiniert werden. Diese Datenpunkte können in Abhängigkeit von den Daten gleichmäßig oder ungleichmäßig auf der horizontalen Achse verteilt sein.
@@ -57,7 +57,7 @@ In diesem Video sehen Sie, wie Will ein Punktdiagramm erstellt. Mit den unten be
 
 In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](../sample-datasets.md).   
 
-1. Öffnen Sie den Bericht in der Bearbeitungsansicht, und klicken Sie auf das gelbe Plussymbol, um eine [leere Berichtsseite](../power-bi-report-add-page.md) zu erstellen.
+1. Öffnen Sie den Bericht in der Bearbeitungsansicht, und klicken Sie auf das gelbe Plussymbol, um eine leere Berichtsseite zu erstellen.
  
 2. Wählen Sie im Bereich „Felder“ die folgenden Felder aus:
    - **Umsätze** > **Umsätze pro Quadratmeter**
@@ -129,7 +129,7 @@ Um ein neues Feld zu erstellen, [fügen Sie mit dem Abfrage-Editor von Power BI 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Stichprobenentnahme mit hoher Dichte in Power BI-Punktdiagrammen](desktop-high-density-scatter-charts.md)
+[High density scatter charts (Stichprobenentnahme mit hoher Dichte in Punktdiagrammen)](desktop-high-density-scatter-charts.md)
 
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 

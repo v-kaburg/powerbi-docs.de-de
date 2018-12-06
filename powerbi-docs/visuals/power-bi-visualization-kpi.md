@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417232"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829640"
 ---
 # <a name="kpi-visuals"></a>KPI-Visualisierung
 Ein Key Performance Indicator (KPI) ist ein visueller Hinweis, mit dem der Fortschritt in Bezug auf ein messbares Ziel kommuniziert wird. Weitere Informationen über KPIs finden Sie im [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -46,7 +46,7 @@ Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Öffnen Sie den Bericht in der Berichtsansicht und [klicken Sie auf die gelbe Registerkarte, um eine neue Seite hinzuzufügen](../power-bi-report-add-page.md).    
+1. Öffnen Sie den Bericht in der Berichtsansicht und klicken Sie auf die gelbe Registerkarte, um eine neue Seite hinzuzufügen.    
 2. Klicken Sie im Bereich „Felder“ auf **Verkäufe > Total Units This Year** (Gesamtanzahl der Verkäufe in diesem Jahr).  Dies wird der Indikator.
 3. Fügen Sie **Zeit > FiscalMonth** hinzu.  Dies dient zur Darstellung des Trends.
 4. WICHTIG: Sortieren Sie das Diagramm nach **FiscalMonth**. Nachdem Sie die Visualisierung in einen KPI konvertiert haben, ist keine Option zum Sortieren vorhanden.

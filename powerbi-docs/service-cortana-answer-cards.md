@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187327"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829893"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als *Cortana-Antwortkarten*) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
@@ -41,7 +41,7 @@ Insgesamt gibt es vier Dokumente, in denen Sie ausführliche Anweisungen zum Ein
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>Erstellen einer Cortana-Antwortseite, die speziell für Cortana entworfen wurde
 Die Größe einer *Cortana-Antwortseite* in einem Bericht ist speziell für Cortana angepasst, sodass Cortana sie als Antwort auf eine Frage auf dem Bildschirm anzeigen kann. So erstellen Sie eine Antwortseite für Cortana:
 
-1. Es wird empfohlen, mit einer [leeren Berichtseite](power-bi-report-add-page.md) zu beginnen.
+1. Es wird empfohlen, mit einer leeren Berichtseite zu beginnen.
 2. Klicken Sie im Bereich **Visualisierungen** erst auf das Farbrollersymbol und dann auf **Seitengröße** > **Typ** > **Cortana**.
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

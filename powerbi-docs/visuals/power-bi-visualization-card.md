@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874573"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829939"
 ---
 # <a name="card-visualizations"></a>Kartenvisualisierungen
 Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashboard oder Bericht nachverfolgen möchten, wie z.B. der Gesamtumsatz, der Marktanteil im Jahresverlauf oder die Gesamtverkaufschancen. Eine solche Visualisierung wird als *Karte* bezeichnet. Wie fast alle nativen Power BI-Visualisierungen können Karten im Berichts-Editor oder in Q&A erstellt werden.
@@ -25,7 +25,7 @@ Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashbo
 ## <a name="create-a-card-using-the-report-editor"></a>Erstellen einer Karte im Berichts-Editor
 In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Wenn Sie diese Schritte selbst ausführen möchten, [laden Sie das Beispiel für den Power BI-Dienst („app.powerbi.com“) oder Power BI Desktop herunter](../sample-datasets.md).   
 
-1. Beginnen Sie mit einer [leeren Berichtsseite](../power-bi-report-add-page.md), und wählen Sie das Feld **Store** \> **Open store count** aus. Wenn Sie den Power BI-Dienst verwenden, müssen Sie den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) öffnen.
+1. Beginnen Sie mit einer leeren Berichtsseite, und wählen Sie das Feld **Store** \> **Anzahl offener Stores** aus. Wenn Sie den Power BI-Dienst verwenden, müssen Sie den Bericht in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) öffnen.
 
     Power BI erstellt ein Säulendiagramm mit dieser einen Zahl.
 

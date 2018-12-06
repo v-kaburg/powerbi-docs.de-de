@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545266"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829801"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Teil 1 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
 Dieser Artikel enthält eine kurze Einführung in das Erstellen einer Visualisierung in einem Bericht mit dem Power BI-Dienst oder Power BI Desktop.  Für komplexere Inhalte sehen Sie sich bitte [Teil 2](power-bi-report-add-visualizations-ii.md) an. Sehen Sie, wie Amanda verschiedene Methoden zum Erstellen, Bearbeiten und Formatieren von Visuals im Berichtszeichenbereich demonstriert. Versuchen Sie es dann selbst, indem Sie das [Beispiel für Vertrieb und Marketing](../sample-datasets.md) verwenden, um einen eigenen Bericht zu erstellen.
@@ -29,7 +29,7 @@ Dieser Artikel enthält eine kurze Einführung in das Erstellen einer Visualisie
 2. Wenn der Felderbereich nicht sichtbar ist, wählen Sie das Pfeilsymbol, um ihn zu öffnen. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [Fügen Sie dem Bericht eine leere Seite hinzu](../power-bi-report-add-page.md).
+3. Fügen Sie dem Bericht eine leere Seite hinzu.
 
 ## <a name="add-visualizations-to-the-report"></a>Hinzufügen von Visualisierungen zum Bericht
 1. Erstellen Sie eine Visualisierung durch Auswahl eines Felds aus dem Bereich **Felder** .  

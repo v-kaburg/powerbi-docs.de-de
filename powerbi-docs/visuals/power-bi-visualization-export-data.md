@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396808"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830100"
 ---
 # <a name="export-data-from-visualizations"></a>Exportieren von Daten aus Visualisierungen
 Wenn Sie die Daten anzeigen möchten, mit denen eine Visualisierung erstellt wird, können Sie die Daten in Power BI anzeigen oder (als XLSX- bzw. CSV-Datei) in Excel exportieren. Für das Exportieren von Daten sind eine Pro- oder Premium-Lizenz und Bearbeitungsberechtigungen für das Dataset und den Bericht erforderlich. 
@@ -38,7 +38,7 @@ Sehen Sie zu, wie Will Daten aus einer der Visualisierungen in seinem Bericht ex
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>Aus einer Visualisierung in einem Bericht
-Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaffung](../sample-procurement.md) in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md). [Fügen Sie eine neue leere Berichtsseite hinzu](../power-bi-report-add-page.md). Befolgen Sie anschließend die untenstehenden Schritte, um eine Aggregation und einen Filter auf Visualisierungsebene hinzuzufügen.
+Um dies nachzuvollziehen, öffnen Sie den [Bericht Analysebeispiel für Beschaffung](../sample-procurement.md) in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md). Fügen Sie eine neue leere Berichtsseite hinzu. Befolgen Sie anschließend die untenstehenden Schritte, um eine Aggregation und einen Filter auf Visualisierungsebene hinzuzufügen.
 
 1. Erstellen Sie ein Säulendiagramm.  Wählen Sie im Bereich „Felder“ **Location > City** (Ort > Stadt) und **Invoice > Discount Percent** (Rechnung > Rabatt in Prozent) aus.  Sie müssen den **Rabatt in Prozent** möglicherweise in den Wertebereich verschieben. 
 

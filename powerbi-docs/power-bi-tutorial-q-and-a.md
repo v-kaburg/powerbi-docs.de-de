@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397001"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830008"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
 In der [Übersicht über Q&A](consumer/end-user-q-and-a.md) wurde Ihnen Power BI Q&A vorgestellt, und dabei wurde zwischen *Nutzern* (für die Dashboards und Berichte freigegeben werden) und *Erstellern* (Besitzer der zugrunde liegenden Berichte und Datasets) unterschieden. Der erste Teil dieses Tutorials ist in erster Linie für Personen vorgesehen, die mit dem Power BI-Dienst Dashboards nutzen. Und der zweite Teil ist für Personen konzipiert, die mit dem Power BI-Dienst oder mit Power BI Desktop Berichte erstellen. [Q&A und Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) sowie [Q&A mit Power BI Embedded](developer/qanda.md) werden in eigenen Artikeln behandelt.
@@ -74,7 +74,7 @@ Um Q&A in Berichten verwenden zu können, benötigen Sie Bearbeitungsberechtigun
     **Power BI-Dienst**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. Das Q&A-Fragefeld wird im Zeichenbereich des Berichts angezeigt. Im folgenden Beispiel wird das Fragefeld auf einer anderen Visualisierung angezeigt. Dies ist in Ordnung, jedoch ist es möglicherweise besser, [dem Bericht eine leere Seite hinzuzufügen](power-bi-report-add-page.md), bevor Sie eine Frage stellen.
+2. Das Q&A-Fragefeld wird im Zeichenbereich des Berichts angezeigt. Im folgenden Beispiel wird das Fragefeld auf einer anderen Visualisierung angezeigt. Dies ist in Ordnung, jedoch ist es möglicherweise besser, dem Bericht eine leere Seite hinzuzufügen, bevor Sie eine Frage stellen.
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 

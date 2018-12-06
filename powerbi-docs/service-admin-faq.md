@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157078"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830307"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -174,11 +174,15 @@ Damit Sie Zugriff auf das Power BI-Verwaltungsportal erhalten, muss Ihr Konto in
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Was ist der Prozess zum Verwalten eines Mandanten, der von Microsoft für meine Benutzer erstellt wurde?
 
-Wenn ein Mandant von Microsoft erstellt wurde, können Sie diesen mit den folgenden Schritten übernehmen und verwalten:
+Wenn sich ein Self-Service-Benutzer für einen Clouddienst mit Azure AD registriert, wird er basierend auf seiner E-Mail-Domäne zu einem nicht verwalteten Azure AD-Verzeichnis hinzugefügt. Sie können den erstellten Mandanten über einen Prozess mit der Bezeichnung *Administratorübernahme* beanspruchen und verwalten. Die Art der Übernahme hängt davon ab, ob es einen bestehenden verwalteten Mandanten gibt, der mit Ihrer Domäne verbunden ist:
 
-1. Treten Sie dem Mandanten bei, indem Sie sich für Power BI registrieren und dabei eine E-Mail-Adressdomäne verwenden, die der zu verwaltenden Mandantendomäne entspricht. Wenn Microsoft z.B. den Mandanten „contoso.com“ erstellt, treten Sie dem Mandanten mit einer E-Mail-Adresse bei, die auf @contoso.com endet.
+* Verwenden Sie eine *interne Übernahme*, um einen neuen verwalteten Mandanten für die Domäne zu erstellen.
 
-1. Sie übernehmen die Administratorsteuerung durch Bestätigung des Domänenbesitzes: Sobald Sie sich im Mandanten befinden, können Sie sich selbst zur Rolle *Globaler Administrator* heraufstufen, indem Sie den Domänenbesitz bestätigen. Führen Sie dazu die Schritte in der [Office 365-Dokumentation](/office365/admin/misc/become-the-admin) aus.
+* Verwenden Sie eine *externe Übernahme*, um die Domäne zu einem vorhandenen verwalteten Mandanten zu verschieben.
+
+Weitere Informationen finden Sie unter [Übernehmen eines nicht verwalteten Verzeichnisses als Administrator in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+
+Beim Ausführen einer externen Übernahme werden Power BI-Inhalten, die vor der Übernahme erstellt wurden, in einen [archivierten Arbeitsbereich in Power BI](service-admin-power-bi-archived-workspace.md) verschoben. Sie müssen alle Inhalte, die Sie im neuen Mandanten verwenden möchten, manuell migrieren.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Wenn ich mehrere Domänen habe, kann ich den Office 365-Mandanten steuern, dem Benutzer hinzugefügt werden?
 

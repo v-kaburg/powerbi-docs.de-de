@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732651"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830215"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Teil 2 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
 In [Teil 1](power-bi-report-add-visualizations-ii.md) haben Sie eine einfache Visualisierung erstellt, indem Sie Kontrollkästchen neben Feldnamen aktiviert haben.  In Teil 2 lernen Sie, wie Sie Drag &amp; Drop verwenden und die Funktionen der Bereiche **Felder** und **Visualisierungen** nutzen, um Visualisierungen zu erstellen und zu ändern.
@@ -32,7 +32,7 @@ In diesem Tutorial verwenden wir unser Dataset mit Einzelhandelsdaten und erstel
 1. Öffnen Sie die .PBIX-Datei mit dem Analysebeispiel für den Einzelhandel in Power BI Desktop. 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [Fügen Sie eine neue Seite hinzu](../power-bi-report-add-page.md), indem Sie das gelbe Pluszeichen am unteren Rand des Zeichenbereichs auswählen.
+2. Fügen Sie eine neue Seite hinzu, indem Sie das gelbe Pluszeichen am unteren Rand des Zeichenbereichs auswählen.
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Fügen Sie eine Visualisierung hinzu, mit der der Umsatz dieses Jahres mit dem Umsatz des Vorjahrs verglichen wird.
 1. Wählen Sie in der Tabelle **Verkäufe** zunächst **Verkäufe in diesem Jahr** > **Wert** und dann **Verkäufe im letzten Jahr** aus. Power BI erstellt ein Säulendiagramm.  Dies sieht interessant aus, und Sie möchten noch mehr erfahren. Wie hoch sind die Verkäufe pro Monat?  
