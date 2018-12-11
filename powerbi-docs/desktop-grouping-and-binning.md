@@ -4,25 +4,26 @@ description: Erfahren Sie, wie in Power BI Desktop Elemente gruppiert und diskre
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670691"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025240"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Verwenden von Gruppierung und Diskretisierung in Power BI Desktop
 Beim Erstellen von Visuals in **Power BI Desktop** werden die Daten basierend auf Werten in den zugrunde liegenden Daten in Blöcken (oder Gruppen) aggregiert. Häufig ist dies ausreichend, in manchen Situationen ist es jedoch sinnvoll, die Darstellung der Blöcke zu verfeinern. Beispielsweise möchten Sie eventuell drei Kategorien von Produkten in einer größeren Kategorie (einer *Gruppe*) anordnen. Alternativ sollen Umsatzzahlen in Diskretisierungen der Größe 1.000.000 Dollar statt des gleichmäßig verteilten Betrags von 923.983 Dollar unterteilt werden.
 
 Sie können in Power BI Desktop Datenpunkte **gruppieren**, um Daten und Trends in den Visuals deutlicher anzeigen, analysieren und untersuchen zu können. Sie können zudem die **Größe der Diskretisierung** definieren (häufig als *Diskretisieren* bezeichnet), um Werte in Gruppen gleicher Größe zu unterteilen, die es ihnen erleichtern, Daten auf aussagekräftige Weise zu visualisieren.
 
-### <a name="using-grouping"></a>Verwenden von Gruppierung
+## <a name="using-grouping"></a>Verwenden von Gruppierung
 Wählen Sie zum Verwenden von Gruppierung mindestens zwei Elemente in einem Visual aus. Verwenden Sie zum Auswählen mehrerer Elemente STRG+Klick. Klicken Sie dann mit der rechten Maustaste auf eines der per Mehrfachauswahl ausgewählten Elemente, und wählen Sie im angezeigten Menü **Gruppe** aus.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ Sie können einen nicht gruppierten Wert zu einer bestehenden Gruppe hinzufügen
 
 > [!NOTE]
 > Sie können im Bereich **Felder** Gruppen für jedes Feld erstellen, ohne mehrere Elemente in einem Visual auswählen zu müssen. Klicken Sie einfach mit der rechten Maustaste auf das Feld, und wählen Sie im angezeigten Menü **Neue Gruppe** aus.
-> 
-> 
 
-### <a name="using-binning"></a>Verwenden von Diskretisierung
+## <a name="using-binning"></a>Verwenden von Diskretisierung
 Sie können die Größe der Diskretisierung für numerische Felder und Zeitfelder in **Power BI Desktop** festlegen. Mit Diskretisierung können Sie die richtige Größe der in **Power BI Desktop** angezeigten Daten festlegen.
 
 Um eine Größe der Diskretisierung anzuwenden, klicken Sie mit der rechten Maustaste auf ein **Feld**, und wählen Sie **Neue Gruppen** aus.

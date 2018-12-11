@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547589"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979488"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:
@@ -31,7 +31,7 @@ Dashboards sind Portale für den Lebenszyklus und die Prozesse des Unternehmens.
 Wenn Sie Dashboards und Berichte auf Ihrem mobilen Gerät anzeigen möchten, müssen Sie diese in einem Webbrowser erstellen oder dort eine Verbindung mit diesen herstellen. 
 
 1. Rufen Sie den Power BI-Dienst auf ([https://www.powerbi.com](https://www.powerbi.com)), und [registrieren Sie sich für ein Konto](../../service-self-service-signup-for-power-bi.md).
-2. [Erstellen Sie Ihre eigenen Power BI-Dashboards und Berichte](../../service-get-started.md), oder stellen Sie eine Verbindung mit vorhandenen [Power BI-Apps](../end-user-connect-to-services.md) her, um eine Vielzahl von Diensten zu nutzen, z.B. [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) und [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Erstellen Sie Ihre eigenen Power BI-Dashboards und Berichte](../../service-get-started.md), oder stellen Sie eine Verbindung mit vorhandenen [Power BI-Apps](../../service-connect-to-services.md) her, um eine Vielzahl von Diensten zu nutzen, z.B. [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) und [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
 
 Hier sehen Sie ein Power BI-Dashboard im Power BI-Dienst:
 

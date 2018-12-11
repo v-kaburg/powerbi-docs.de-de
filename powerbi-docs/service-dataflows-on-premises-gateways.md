@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31cf660a969e1779625c205c6834ceaca92325d1
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 82cc459bcfd33d2aa576529899b7f893b0854c37
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267997"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180298"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources-preview"></a>Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)
 
@@ -79,7 +79,7 @@ Es gibt einige bekannte Einschränkungen zur Verwendung von Enterprise-Gateways 
 Dieser Artikel enthält Informationen zur Verwendung einer lokalen Datenquelle für Dataflows und zur Verwendung und Konfiguration von Gateways, um auf diese Daten zuzugreifen. Die folgenden Artikel können ebenfalls hilfreich sein:
 
 * [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
-* [Erstellen und Verwenden von Dataflows in Power BI (Vorschau)](service-dataflows-create-use.md)
+* [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
 

@@ -4,18 +4,19 @@ description: Einfaches Verbinden mit und Verwenden von Webseitendaten in Power B
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a0d7eeccede8f6402256eb8655657ca12dde075b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578380"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026567"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Verbinden mit einer Webseite in Power BI Desktop
 Sie können eine Verbindung mit einer Webseite herstellen und deren Daten in Power BI Desktop importieren, um sie in Ihren Visuals und Datenmodellen zu verwenden.
@@ -44,7 +45,7 @@ Von dort aus können Sie diese Felder auf den Berichtszeichenbereich ziehen und 
 
 Sehen Sie sich das Handbuch [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) an, um einen detaillierteren Einblick in das Verbinden mit einer Webseite zu erhalten.
 
-### <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)

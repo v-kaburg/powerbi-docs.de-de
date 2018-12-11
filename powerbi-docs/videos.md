@@ -4,17 +4,18 @@ description: Power BI-Videos und Link zum YouTube-Kanal.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: 89eb19fb89193e2859a79d20156d89bf012b7fda
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 6d50bde03a3b2aa7583f39336d874cd8e9075388
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578035"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026085"
 ---
 # <a name="power-bi-videos"></a>Power BI-Videos
 Wir betreiben einen YouTube-Kanal für Power BI! Sie können [unseren Kanal](https://www.youtube.com/user/mspowerbi/videos) besuchen. Wenn Sie noch keine Kenntnisse zu Power BI haben, empfiehlt sich für den Einstieg die [Wiedergabeliste zum Thema Analysieren und Visualisieren von Daten mit Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).

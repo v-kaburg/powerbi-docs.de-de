@@ -4,18 +4,19 @@ description: Verwenden von Gitternetzlinien, der Option „Am Raster ausrichten�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a798cbb5012933bb01264aa3db9fa9e06b1f334a
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 37416ab15a638ccd8c8e7b1066ffc01f1ba6c944
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669311"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025891"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Verwenden von Gitternetzlinien und „Am Raster ausrichten“ in Power BI Desktop-Berichten
 Der Berichtszeichenbereich in **Power BI Desktop** enthält Gitternetzlinien, mit denen Sie Visuals genau auf eine Berichtsseite ausrichten können, sowie die Funktion „Am Raster ausrichten“ verwenden können, sodass Berichte aufgeräumt, organisiert und konsistent aussehen.
@@ -24,24 +25,22 @@ In **Power BI Desktop** können Sie außerdem die Z-Reihenfolge (in den Vordergr
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
-### <a name="enabling-gridlines-and-snap-to-grid"></a>Aktivieren von Gitternetzlinien und die Funktion „Am Raster ausrichten“
+## <a name="enabling-gridlines-and-snap-to-grid"></a>Aktivieren von Gitternetzlinien und die Funktion „Am Raster ausrichten“
 Um Gitternetzlinien und die Option „Am Raster ausrichten“ zu aktivieren, wählen Sie das Menüband **Ansicht** aus, und aktiveren Sie dann die Kontrollkästchen für **Gitternetzlinien anzeigen** und **Objekte am Raster ausrichten**. Sie können eines oder beide Optionen aktivieren, da die Funktionen nicht abhängig voneinander sind.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
 > [!NOTE]
 > Wenn **Gitternetzlinien anzeigen** und **Objekte am Raster ausrichten** deaktiviert sind, stellen Sie eine Verbindung mit einer beliebigen Datenquelle her, um diese Funktionen zu aktivieren.
-> 
-> 
 
-### <a name="using-gridlines"></a>Verwenden von Gitternetzlinien
+## <a name="using-gridlines"></a>Verwenden von Gitternetzlinien
 Bei Gitternetzlinien handelt es sich um sichtbare Hinweise, mit den Sie Ihre Visuals ausrichten können. Wenn Sie die Ausrichtung mehrerer Visuals überprüfen möchten, können Sie Gitternetzlinien verwenden, um die Ausrichtung anhand der Rahmen zu beurteilen.
 
 Sie können STRG+Klick verwenden, um mehrere Visuals gleichzeitig auszuwählen. Dann werden deren Rahmen angezeigt, sodass Sie die Ausrichtung der Visuals überprüfen können.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
-#### <a name="using-gridlines-inside-visuals"></a>Verwenden von Gitternetzlinien in Visuals
+### <a name="using-gridlines-inside-visuals"></a>Verwenden von Gitternetzlinien in Visuals
 In Power BI enthalten Visuals auch Gitternetzlinien, die sichtbare Unterstützung zum Vergleichen von Datenpunkten und Werten bieten. Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie die Gitternetzlinien in Visuals mit der Karte **X-Achse** oder **Y-Achse** (je nach Typ des Visuals) im Abschnitt **Format** des Bereichs **Visualisierungen** verwalten. Sie können die folgenden Elemente von Gitternetzlinien in einem Visual verwalten:
 
 * Aktivieren oder Deaktivieren von Gitternetzlinien
@@ -53,14 +52,14 @@ In Berichten, in denen dunkle Hintergründe für Visuals verwendet werden, kann 
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
-### <a name="using-snap-to-grid"></a>Verwenden von „Am Raster ausrichten“
+## <a name="using-snap-to-grid"></a>Verwenden von „Am Raster ausrichten“
 Wenn Sie die Funktion **Objekte am Raster ausrichten** aktivieren, werden alle Visualisierungen auf der Zeichenfläche in **Power BI Desktop** automatisch an der nächsten Gitternetzachse ausgerichtet, wenn diese bewegt (oder in der Größe angepasst) werden. So können Sie leicht sicherstellen, dass mehrere Visualisierungen an derselben Stelle der Seite horizontal oder vertikal ausgerichtet sind.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
 Und das ist schon alles, was Sie über **Gitternetzlinien** und die Funktion **Am Raster ausrichten** wissen müssen, damit Sie Visuals in Berichten sauber ausrichten können.
 
-### <a name="using-z-order-align-and-distribute"></a>Verwenden der Z-Reihenfolge, Ausrichten und Verteilen
+## <a name="using-z-order-align-and-distribute"></a>Verwenden der Z-Reihenfolge, Ausrichten und Verteilen
 Sie können in Berichten die Reihenfolge von Visuals auf der Vordergrund-Hintergrund-Achse ändern (die *Z-Reihenfolge* von Elementen). Mithilfe dieses Features können sich Visuals in beliebiger Weise überlappen. Passen Sie anschließend die Vordergrund-Hintergrund-Reihenfolge für jedes Visual an. Legen Sie die Reihenfolge Ihrer Visuals mithilfe der Schaltflächen **Nach vorne** und **Nach hinten** fest, die im Abschnitt **Anordnen** des Menübands **Formatieren** zu finden ist. Das Menüband **Formatieren** wird angezeigt, sobald Sie mindestens ein Visual auf der Seite anklicken.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
