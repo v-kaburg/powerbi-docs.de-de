@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331986"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900472"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-Lizenzierung in Ihrem Unternehmen
 
-Im Power BI-Dienst verfügen Benutzer über definierte Möglichkeiten, die auf zwei Arten von Lizenzen basieren:
-
-* Power BI Pro-Lizenzierung **pro Benutzer** -  *und kostenlose Lizenzierung*. Eine Power BI Pro-Lizenz ermöglicht den Zugriff auf alle Inhalte und Funktionen im Power BI-Dienst, z.B. zur Freigabe von Inhalten und zur Zusammenarbeit mit anderen Benutzern mit Pro-Lizenz. Nur Pro-Benutzer können Inhalte in App-Arbeitsbereichen veröffentlichen und nutzen, Dashboards freigeben sowie Dashboards und Berichte abonnieren. Eine kostenlose Lizenz ermöglicht den Zugriff auf einige der Features des Power BI-Diensts. Weitere Informationen finden Sie unter [Power BI service features by license type (Funktionen des Power BI-Diensts nach Lizenztyp)](service-features-license-type.md).
-
-* **Kapazitätsbasierte** - *Power BI Premium-Lizenzierung*. Premium bietet dedizierte Kapazitäten, um konsistentere Leistung und Unterstützung größerer Datenvolumen in Power BI bereitzustellen. Mit Premium können Einzelbenutzer Inhalte von Power BI Pro-Benutzern weiträumig verteilen, und für Benutzer, die die Inhalte nur anzeigen, sind keine Pro-Lizenzen erforderlich. Weitere Informationen finden Sie unter [What is Power BI Premium? (Was ist Power BI Premium?)](service-premium.md).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Dieser Artikel konzentriert sich auf die Lizenzierung pro Benutzer aus Administratorsicht.
 

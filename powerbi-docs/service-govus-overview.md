@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2e3ad8528108e63a5573a3df502f90fee6d4c55
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670162"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900104"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -37,7 +37,7 @@ Die folgenden Funktionen stehen Kunden von **Power BI US Government** zur Verfü
 * [Importieren von Daten](service-get-data.md) und Berichten aus Excel-, CSV- und Power BI Desktop-Dateien
 * Datenverwaltungsgateway
 * Verschlüsselung sämtlicher Daten in SQL Azure und Blob Storage für Power BI
-* Herstellen einer Dienstverbindung mit [Inhaltspaketen](consumer/end-user-connect-to-services.md)
+* Herstellen einer Dienstverbindung mit [Inhaltspaketen](service-connect-to-services.md)
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Konnektivität zwischen Azure Government Cloud-Diensten und öffentlichen Azure Cloud Services 
 

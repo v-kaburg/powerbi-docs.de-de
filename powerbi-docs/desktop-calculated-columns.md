@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 0c7f4953f03acf84b6a76c11536b92426d4dbf13
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: d875a5cd3ded8769ab3734601bd81cf0f17d7cea
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327773"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578265"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Verwenden von berechneten Spalten in Power BI Desktop
 Mit berechneten Spalten können Sie einer bereits in Ihrem Modell vorhandenen Tabelle neue Daten hinzufügen. Aber statt Werte abzufragen und sie aus einer Datenquelle in Ihre neue Spalte zu laden, erstellen Sie eine DAX-Formel, die die Werte der Spalte definiert. In Power BI Desktop werden berechnete Spalten mithilfe der Funktion "Neue Spalte" in der Berichtsansicht erstellt.
@@ -30,7 +30,7 @@ Berechnete Spalten verwenden zum Berechnen von Ergebnissen [DAX](https://msdn.mi
 
 DAX-Formeln sind ähnlich wie Excel-Formeln. Tatsächlich verwendet DAX viele der gleichen Formeln wie Excel. DAX-Funktionen sind jedoch für die Überarbeitung von interaktiv segmentierten oder in einem Bericht gefilterten Daten, wie in Power BI-Desktop, konzipiert. Anders als in Excel, wo Sie für jede Zeile in einer Tabelle eine andere Formel verwenden können, berechnet eine für eine neue Spalte erstellte DAX-Formel ein Ergebnis für jede Zeile in der Tabelle. Spaltenwerte werden bei Bedarf neu berechnet, etwa wenn die zugrundeliegenden Daten aktualisiert werden und sich Werte geändert haben.
 
-## <a name="lets-look-at-an-example"></a>Betrachten wir dazu ein Beispiel.
+## <a name="lets-look-at-an-example"></a> Betrachten wir dazu ein Beispiel.
 Tyge ist Versandleiter bei Contoso. Er möchte einen Bericht erstellen, aus dem die Anzahl der Lieferungen in verschiedene Städte hervorgeht. Er verfügt über eine Tabelle „Geography“ mit separaten Feldern für Stadt und Bundesstaat. Allerdings möchte Tyge in seinem Bericht Stadt und Bundesstaat als einen einzelnen Wert in der gleichen Zeile anzeigen. Zurzeit weist Tyges Tabelle „Geography“ das gewünschte Feld nicht auf.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)

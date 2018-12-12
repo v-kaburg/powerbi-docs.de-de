@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c08fc09a74b6515e9dad98c010a7f09e5c75e8b
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329889"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670924"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -138,15 +138,15 @@ Beachten Sie, dass die vorgenommenen Änderungen in den **Abfrageeinstellungen**
 
 Wir müssen aber noch ein paar Änderungen vornehmen, um die gewünschte Abfrage zu erhalten.
 
-* *Entfernen der ersten Spalte* – Diese Spalte ist nicht erforderlich. Sie enthält nur überflüssige Zeilen mit dem Text „Check out how your state ranks for retirement“, ein Artefakt aufgrund der Tatsache, dass es sich um eine webbasierte Tabelle handelt.
+*  *Entfernen der ersten Spalte* – Diese Spalte ist nicht erforderlich. Sie enthält nur überflüssige Zeilen mit dem Text „Check out how your state ranks for retirement“, ein Artefakt aufgrund der Tatsache, dass es sich um eine webbasierte Tabelle handelt.
 
 <!-- -->
 
-* *Beheben einiger Fehler* – Auf der Webseite gibt es eine Spalte mit Text und Zahlen (bei einigen Bundesstaaten sind die Zahlen mit dem Text „(tie)“ versehen). Das funktioniert zwar auf der Website, nicht aber bei unserer Datenanalyse. Dieses Problem ist (in diesem Fall) leicht zu beheben und verdeutlicht einige interessante Funktionen und Möglichkeiten des **Abfrage-Editors** und der **angewendeten Schritte**.
+*  *Beheben einiger Fehler* – Auf der Webseite gibt es eine Spalte mit Text und Zahlen (bei einigen Bundesstaaten sind die Zahlen mit dem Text „(tie)“ versehen). Das funktioniert zwar auf der Website, nicht aber bei unserer Datenanalyse. Dieses Problem ist (in diesem Fall) leicht zu beheben und verdeutlicht einige interessante Funktionen und Möglichkeiten des **Abfrage-Editors** und der **angewendeten Schritte**.
 
 <!-- -->
 
-* *Ändern des Tabellennamens* – **Table 0** ist kein sinnvoller Deskriptor, er kann aber sehr einfach geändert werden.
+*  *Ändern des Tabellennamens* – **Table 0** ist kein sinnvoller Deskriptor, er kann aber sehr einfach geändert werden.
 
 Jeder dieser Schritte wird unter **[Strukturieren und Kombinieren von Daten in Power BI Desktop](desktop-shape-and-combine-data.md)** veranschaulicht. Wahlweise können Sie diese Seite aufrufen oder mit diesem Dokument fortfahren, um zu erfahren, was als Nächstes passiert. Im nächsten Abschnitt wird der Vorgang fortgesetzt, nachdem die obigen Änderungen angewendet wurden.
 
