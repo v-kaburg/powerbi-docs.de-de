@@ -1,21 +1,22 @@
 ---
-title: Übersicht über Q&A im Power BI-Dienst und in Power BI Desktop
+title: Übersicht über Q&A im Power BI-Dienst
 description: Thema mit der Dokumentationsübersicht für Power BI Q&A zum Stellen von Fragen in natürlicher Sprache.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396357"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279576"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Q&A für Power BI-**Verbraucher**
 ## <a name="what-is-qa"></a>Was ist Q&A?
@@ -46,7 +47,7 @@ Machen Sie sich zunächst mit dem Inhalt vertraut. Sehen Sie sich die Visualisie
 
 ![Q&A-Anzeige](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* Wenn die Achsenbeschriftungen und -werte der Visualisierungen Begriffe wie „Umsätze“, „Konto“, „Monat“ und „Chancen“ enthalten, können Sie ganz einfach Fragen wie „Welches *Konto* hat die besten *Chancen* “ oder „*Umsätze* nach Monat als Balkendiagramm anzeigen“ eingeben.
+* Wenn die Achsenbeschriftungen und -werte der Visualisierungen Begriffe wie „Umsätze“, „Konto“, „Monat“ und „Chancen“ enthalten, können Sie ganz einfach Fragen stellen wie z.B.: „Welches *Konto* hat die besten *Chancen*, oder *Umsätze* nach Monat als Balkendiagramm anzeigen“.
 
 * Wenn Sie über Website-Leistungsdaten in Google Analytics verfügen, können Sie mit Q&A in Erfahrung bringen, wie viel Zeit auf einer Website verbracht wird, wie häufig einzelne Seiten aufgerufen werden und wie die Benutzerbindung aussieht. Wenn Sie demografische Daten benötigen, können Sie auch Alter und Haushaltseinkommen nach Ort erfragen.
 
@@ -63,18 +64,18 @@ Q&A wählt die beste Visualisierung basierend auf den angezeigten Daten aus. Man
 Sie können Q&A auch mitteilen, welche Visualisierung verwendet werden soll, indem Sie Ihrer Frage diese Information hinzufügen. Bedenken Sie jedoch, dass Q&A Daten nicht immer im angeforderten Visualisierungstyp anzeigen kann. Q&A fordert Sie mit einer Liste umsetzbarer Visualisierungstypen zur Eingabe auf.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-**Frage:** Ich finde Q&A auf diesem Dashboard nicht.    
-**Antwort 1:** Wenn Sie kein Fragefeld finden können, überprüfen Sie zunächst Ihre Einstellungen. Klicken Sie hierzu auf das Zahnradsymbol in der oberen rechten Ecke der Power BI-Symbolleiste.   
+**Frage**: Ich finde Q&A auf diesem Dashboard nicht.    
+**Antwort 1**: Wenn Sie kein Fragefeld finden können, überprüfen Sie zunächst Ihre Einstellungen. Klicken Sie hierzu auf das Zahnradsymbol in der oberen rechten Ecke der Power BI-Symbolleiste.   
 ![Zahnradsymbol](media/end-user-q-and-a/power-bi-settings.png)
 
 Klicken Sie dann auf **Einstellungen** > **Dashboards**. Stellen Sie sicher, dass die Option **Show the Q&A search box on this dashboard** (Q&A-Suchfeld auf diesem Dashboard anzeigen) aktiviert ist.
 ![Q&A-Einstellungen für das Dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**Antwort 2:** In einigen Fällen hat der *Designer* des Dashboards oder Ihr Administrator die Q&A-Funktion deaktiviert. Wenden Sie sich an die zuständige Person, um festzustellen, ob sie wieder aktiviert werden kann.   
+**Antwort 2**: In einigen Fällen hat der *Designer* des Dashboards oder Ihr Administrator die Q&A-Funktion deaktiviert. Wenden Sie sich an die zuständige Person, um festzustellen, ob sie wieder aktiviert werden kann.   
 
-**Frage:** Ich erhalte nicht die Ergebnisse, die ich sehen möchte, wenn ich eine Frage eingebe.    
-**Antwort:** Wenden Sie sich an den *Designer* des Dashboards. Es gibt viele Dinge, die der Designer tun kann, um die Q&A-Ergebnisse zu verbessern. Beispielsweise kann der Designer Spalten im Dataset umbenennen, um Begriffe zu verwenden, die einfacher zu verstehen sind (z.B. `CustomerFirstName` anstelle von `CustFN`). Da der Designer das Dataset sehr gut kennt, kann er sich hilfreiche Fragen ausdenken und dem Q&A-Canvas hinzufügen.
+**Frage**: Ich erhalte nicht die Ergebnisse, die ich sehen möchte, wenn ich eine Frage eingebe.    
+**Antwort**: Wenden Sie sich an den *Designer* des Dashboards. Es gibt viele Dinge, die der Designer tun kann, um die Q&A-Ergebnisse zu verbessern. Beispielsweise kann der Designer Spalten im Dataset umbenennen, um Begriffe zu verwenden, die einfacher zu verstehen sind (z.B. `CustomerFirstName` anstelle von `CustFN`). Da der Designer das Dataset sehr gut kennt, kann er sich hilfreiche Fragen ausdenken und dem Q&A-Canvas hinzufügen.
 
 ![Ausgewählte Frage umrandet](media/end-user-q-and-a/power-bi-featured-q.png)
 

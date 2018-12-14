@@ -1,22 +1,23 @@
 ---
-title: Drillmodus in einer Visualisierung in Power BI
+title: Drilldown und Drillup in einer Visualisierung
 description: Dieses Dokument veranschaulicht, wie Sie im Microsoft Power BI-Dienst und in Power BI Desktop einen Drilldown in eine Visualisierung durchführen können.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679484"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280984"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Drillmodus in einer Visualisierung in Power BI
 
@@ -26,10 +27,10 @@ Wenn eine Visualisierung eine Hierarchie aufweist, können Sie einen Drilldown a
 Sie können Hierarchien Berichten hinzufügen, deren Eigentümer Sie sind, jedoch nicht Berichten, die für Sie freigegeben wurden.
 Sie sind nicht sicher, welche Power BI-Visualisierungen eine Hierarchie enthalten?  Zeigen Sie mit dem Mauszeiger auf eine Visualisierung. Wenn diese Drilldown-Steuerelemente in den oberen Ecken sichtbar sind, weist die Visualisierung eine Hierarchie auf.
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![Drilldown eine Ebene](./media/end-user-drill/power-bi-drill-icon4.png)![Drilldown ein- und ausschalten](./media/end-user-drill/power-bi-drill-icon2.png)![Symbol für Drilldown in allen Feldern gleichzeitig](./media/end-user-drill/power-bi-drill-icon3.png)
+![Symbol für Drillup](./media/end-user-drill/power-bi-drill-icon5.png) ![Symbol für Erweitern nach unten](./media/end-user-drill/power-bi-drill-icon6.png)  
 
-Datumsangaben stellen einen eindeutigen Hierarchietyp dar. Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die Jahr, Quartal, Monat und Tag enthält. Weitere Informationen finden Sie unter [Visuelle Hierarchien und Drilldownverhalten](../guided-learning/visualizations.yml?tutorial-step=18), oder sehen Sie sich das Video unten an.
+Datumsangaben sind ein eindeutiger Hierarchietyp. Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die Jahr, Quartal, Monat und Tag enthält. Weitere Informationen finden Sie unter [Visuelle Hierarchien und Drilldown](../guided-learning/visualizations.yml?tutorial-step=18), oder sehen Sie sich das Video unten an.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -42,9 +43,9 @@ Datumsangaben stellen einen eindeutigen Hierarchietyp dar. Wenn Sie einer Visual
 
 1. Ein Drillvorgang erfordert im Power BI-Dienst und in Power BI Desktop eine Visualisierung mit einer Hierarchie. 
    
-2. [Öffnen Sie hierfür das Retail Analysis Sample](../sample-datasets.md), und erstellen Sie eine Treemap, in der **Total Units This Year** (Werte) nach **Territory**, **City**, **PostalCode** und **Name** (Gruppe) betrachtet werden.  Die Visualisierung weist eine Hierarchie aus Gebiet, Stadt, Postleitzahl und Ortsname auf. Jedes Gebiet umfasst eine oder mehrere Städte, jede Stadt weist eine oder mehrere Postleitzahlen auf usw. In der Standardeinstellung werden in der Visualisierung nur die Gebietsdaten angezeigt, da *Territory* (Gebiet) in der Liste als erster Eintrag aufgeführt wird.
+2. [Öffnen Sie hierfür das Retail Analysis Sample](../sample-datasets.md), und erstellen Sie eine Treemap, in der **Total Units This Year** (Werte) nach **Territory**, **City**, **PostalCode** und **Name** (Gruppe) betrachtet werden.  Die Treemap weist eine Hierarchie aus Gebiet, Stadt, Postleitzahl und Ortsname auf. Jedes Gebiet umfasst eine oder mehrere Städte, jede Stadt weist eine oder mehrere Postleitzahlen auf usw. In der Standardeinstellung werden in der Visualisierung nur die Gebietsdaten angezeigt, da *Territory* (Gebiet) in der Liste als erster Eintrag aufgeführt wird.
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   ![„Territory“ auswählen](media/end-user-drill/power-bi-hierarcy-list.png)
 
 2. Der Zusammenhang zwischen den verschiedenen Drillsymbolen kann schwer zu verstehen sein. Filtern Sie deshalb die Treemap, sodass nur zwei der kleineren Gebiete angezeigt werden: **KY** und **TN**. Wählen Sie die Treemap aus, und erweitern Sie unter **Filter auf visueller Ebene** **Territory**, und wählen Sie **KY** und **TN** aus.
 
@@ -67,7 +68,7 @@ Es stehen mehrere Optionen zur Verfügung, um auf die Features „Drilldown“, 
 
 - Klicken Sie in der Power BI-Menüleiste auf **Durchsuchen**.
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![Auswahl von „Durchsuchen“ zeigt Drilldownsymbole und Optionen an](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>Drillvorgänge
 ### <a name="drill-down"></a>Drilldown
@@ -87,7 +88,7 @@ Außerdem können Sie Drilldown- und Erweiterungsvorgänge entweder für ein Fel
 
 1. Beginnen Sie auf der höchsten Ebene der Treemap, auf der Daten für KY und TN angezeigt werden. Erhöhen Sie die Breite Ihrer Treemap, indem Sie auf einen Ziehpunkt klicken und diesen nach rechts ziehen. 
 
-    ![Treemap mit zwei Staaten](./media/end-user-drill/power-bi-drill-down.png) .
+    ![Treemap mit zwei Zuständen](./media/end-user-drill/power-bi-drill-down.png) .
 
 2. Um für ***alle Felder gleichzeitig*** einen Drilldown durchzuführen, wählen Sie den doppelten Pfeil in der linken oberen Ecke der Visualisierung aus ![Symbol für zweifachen Drilldown](./media/end-user-drill/power-bi-drill-icon3.png). Ihre Treemap zeigt nun Stadtdaten für Kentucky und Tennessee an. 
 
@@ -97,30 +98,30 @@ Außerdem können Sie Drilldown- und Erweiterungsvorgänge entweder für ein Fel
 
     ![Symbol für zwei Drillvorgänge](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. Um einen Drilldown bei der Sicherung durchzuführen, wählen Sie den Pfeil nach oben ![](./media/end-user-drill/power-bi-drill-icon5.png) in der oberen linken Ecke der Visualisierung aus.
+3. Um einen Drilldown bei der Sicherung durchzuführen, wählen Sie den Pfeil nach oben in der oberen linken Ecke der Visualisierung aus ![Symbol für Drillup eine Ebene](./media/end-user-drill/power-bi-drill-icon5.png).
 
 
-## <a name="drill-down-one-field-at-a-time"></a>Drilldown für ein Feld
+## <a name="drill-down-one-field-at-a-time"></a>Drilldown für jeweils ein Feld
 Bei dieser Methode wird das Drilldownsymbol in der rechten oberen Ecke der Visualisierung verwendet. 
 
-1. Klicken Sie auf das Drilldownsymbol, um dieses zu aktivieren ![aktivierter Drilldown](./media/end-user-drill/power-bi-drill-icon2.png). Jetzt können Sie einen ***Drilldown für ein Feld*** durchführen. 
+1. Wählen Sie das Drilldownsymbol aus, um es zu aktivieren ![aktivierter Drilldown](./media/end-user-drill/power-bi-drill-icon2.png). Jetzt können Sie einen ***Drilldown für ein Feld*** durchführen. 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![Pfeil zeigt auf „Drilldown ein/aus“-Symbol](media/end-user-drill/power-bi-drill-icon-new.png)
 
    Wenn Drilldown nicht aktiviert ist, wird beim Auswählen eines visuellen Elements (z.B. eines Balkens, einer Blase oder eines Blatts) kein Drilldown durchgeführt. Stattdessen werden die anderen Diagramme auf der Berichtseite kreuzgefiltert.
 
 2. Klicken Sie auf das *Blatt* für **TN**. Jetzt werden in Ihrer Treemap alle Städte in Tennessee angezeigt, in denen es ein Geschäft gibt. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Treemap zeigt nur Daten für Tennesee an](media/end-user-drill/power-bi-drill-down-one1.png)
 
 2. Jetzt können Sie entweder weiter einen Drilldown für Tennessee durchführen, oder Sie können einen Drilldown für eine bestimmte Stadt in Tennessee durchführen, oder Sie können die Hierarchie erweitern (weitere Informationen dazu im Abschnitt zum **gleichzeitigen Erweitern aller Felder** weiter unten). Führen Sie weiter einen Drilldown für ein Feld durch.  Klicken Sie auf **Knoxville, TN**. Ihre Treemap zeigt jetzt die Postleitzahl Ihres Geschäfts in Knoxville an. 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![Treemap zeigt 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
     Beachten Sie, dass sich der Titel ändert, wenn Sie einen Drilldown und anschließend einen Drillup ausführen.  
 
 ## <a name="expand-all-and-expand-one-field-at-a-time"></a>Erweitern von einem Feld und von allen Feldern
-Eine Treemap, die nur die Postleitzahl anzeigt, ist nicht besonders nützlich.  Erweitern Sie also auf die nächste Ebene in der Hierarchie.  
+Eine Treemap, die nur die Postleitzahl anzeigt, ist nicht nützlich.  Erweitern Sie also auf die nächste Ebene in der Hierarchie.  
 
 1. Wählen Sie in der aktuellen Treemap das *Symbol für die nächste Ebene* ![Auf nächste Ebene erweitern](./media/end-user-drill/power-bi-drill-icon6.png). Ihre Treemap zeigt nun die folgenden zwei Ebenen Ihrer Hierarchie: die Postleitzahl und den Namen des Geschäfts. 
 
@@ -128,14 +129,14 @@ Eine Treemap, die nur die Postleitzahl anzeigt, ist nicht besonders nützlich.  
 
 2. Klicken Sie auf den Drillup-Pfeil, bis Sie die zweite Ebene **Total units this year by territory and city** erreichen, um alle vier Datenebenen für Tennessee anzuzeigen. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Treemap zeigt alle Daten für Tennesee an](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
-3. Achten Sie darauf, dass Drilldown immer noch aktiviert ist ![Aktivierter Drilldown](./media/end-user-drill/power-bi-drill-icon2.png), und klicken Sie auf das *Symbol für die nächste Ebene* ![Auf nächste Ebene erweitern](./media/end-user-drill/power-bi-drill-icon6.png). Jetzt zeigt Ihre Treemap zusätzliche Informationen an. Es wird nicht nur die Stadt und der Staat angezeigt, sondern auch die Postleitzahl. 
+3. Achten Sie darauf, dass Drilldown immer noch aktiviert ist ![Aktivierter Drilldown](./media/end-user-drill/power-bi-drill-icon2.png), und klicken Sie auf das *Symbol für die nächste Ebene* ![Auf nächste Ebene erweitern](./media/end-user-drill/power-bi-drill-icon6.png). Jetzt zeigt Ihre Treemap zusätzliche Informationen an. Es werden nicht nur die Stadt und der Staat angezeigt, sondern auch die Postleitzahl. 
 
     ![Symbol für zwei Drillvorgänge](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Klicken Sie erneut auf das Symbol *Auf nächste Ebene erweitern*, um alle vier Hierarchieebenen der Informationen zu Tennessee auf Ihrer Treemap anzuzeigen. Zeigen Sie auf ein Blatt, um noch mehr Informationen anzuzeigen.
+4. Wählen Sie das Symbol *Auf nächste Ebene erweitern* erneut aus, um alle vier Hierarchieebenen der Informationen zu Tennessee auf Ihrer Treemap anzuzeigen. Zeigen Sie auf ein Blatt, um noch mehr Informationen anzuzeigen.
 
    ![Treemap mit Daten von Tennessee](./media/end-user-drill/power-bi-expand-all.png)
 
@@ -179,11 +180,11 @@ Befolgen Sie in diesem Beispiel das [Analysebeispiel für den Einzelhandel](../s
 
 Obwohl das Datenfeld „Achse“ **Monat** ist, erstellt es noch immer die Kategorie **Jahr** unter **Achse**. Der Grund dafür ist, dass Power BI die vollständige DateTime-Struktur für alle gelesenen Werte bereitstellt. Auf der obersten Hierarchieebene werden Daten für das Jahr angezeigt.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![Einzelner Balken zeigt Daten nach Jahr gruppiert an](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
 Mit dem Drilldownmodus können Sie auf die Säule im Diagramm klicken und diese eine Ebene in der Hierarchie heruntersetzen. Es werden drei Säulen für die verfügbaren Daten der Quartale angezeigt. Wählen Sie aus den Symbolen links oben die Option **Expand all down one level of the hierarchy** (Alles eine Hierarchieebene nach unten erweitern) aus. Wiederholen Sie diesen Schritt, um zur niedrigsten Ebene der Hierarchie zu gelangen, die die Ergebnisse für jeden Monat zeigt.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![Balkendiagramm zeigt Balken pro Monat an](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle werden die Ergebnisse von **Daten anzeigen** mit einem Drilldown von einem Monat oder allen Monaten in einem Bericht angezeigt. 
 
@@ -192,8 +193,8 @@ Beachten Sie, dass die Daten für Quartals- und Jahresberichte übereinstimmen. 
 
 |Modus „Erweitern“|Jahr|Quartal|Monat|Tag|
 | ---|:---:|:---:|:---:|---|
-|Einfach|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Alle|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Einfach|![einzelnes Jahr](./media/end-user-drill/power-bi-hierarchical-year.png)|![einzelnes Quartal](media/end-user-drill/power-bi-hierarchical-quarter.png)|![einzelner Monat](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![einzelner Tag](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|Alle|![alle Jahre](./media/end-user-drill/power-bi-hierarchical-year.png)|![alle Quartale](media/end-user-drill/power-bi-hierarchical-quarter.png)|![alle Monate](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![alle Tage](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Hierarchische Kategoriedaten
@@ -201,26 +202,26 @@ Daten, die aus Sammlungen und Untersammlungen generiert wurden, sind hierarchisc
 
 Nehmen Sie hierzu wieder das [Analysebeispiel für Einzelhandel](../sample-datasets.md) her. Erstellen Sie eine Ansicht eines gestapelten Säulendiagramms, das so aussieht: **Gesamte Einheiten in diesem Jahr** (Werte) nach **Gebiet**, **Stadt**, **Postleitzahl** und **Name** (Gruppe).  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![Balkendiagramm zeigt „Gesamte Einheiten in diesem Jahr“ nach Gebiet an](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
-Wählen Sie mit aktivierten Drilldownmodus aus den Symbolen links oben dreimal die Option **Expand all down one level of the hierarchy** (Alles eine Hierarchieebene nach unten erweitern) aus.
+Wählen Sie mit aktivierten Drilldownmodus aus den Symbolen links oben dreimal die Option **Alles eine Hierarchieebene nach unten erweitern** aus.
 Sie sollten sich auf der untersten Ebene der Hierarchie befinden, auf der die Ergebnisse für Gebiet, Stadt und Postleitzahl angezeigt werden.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![Balkendiagramm zeigt unterste Ebene der Hierarchie an, meiste Details](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
-Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle werden die Ergebnisse von **Daten anzeigen** in einem Bericht angezeigt, der einen Drilldown für ein einzelnes Gebiet oder alle Gebiete durchführt. Wenn Sie einen Drilldown ausführen, können Sie sehen, wie ein einzelner Bericht genauer wird und dass der Bericht „alle Gebiete“ über mehr Daten verfügt.
+Abgesehen von der Visualisierung können wir die Hierarchie sehen, die in den für jeden Bericht gerenderten Daten übernommen wird. Die folgende Tabelle zeigt die Ergebnisse von **Daten anzeigen** in einem Bericht an, der einen Drilldown für ein einzelnes Gebiet oder alle Gebiete durchführt. Wenn Sie einen Drilldown ausführen, können Sie sehen, wie ein einzelner Bericht genauer wird und dass der Bericht „alle Gebiete“ über mehr Daten verfügt.
 
 
-| Modus „Erweitern“|Territory|City|PLZ|Name|
+| Modus „Erweitern“|Gebiet|City|PLZ|Name|
 | ---|:---:|:---:|:---:|---|
-|Einfach|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Alle|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Einfach|![einzelnes Gebiet](./media/end-user-drill/power-bi-hierarchical-territory.png)|![einzelne Stadt](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![einzelne Postleitzahl](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![einzelner Name](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Alle|![alle Gebiete](./media/end-user-drill/power-bi-hierarchical-territory.png)|![alle Städte](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![alle Postleitzahlen](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![alle Namen](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 * Wenn Sie einer Visualisierung ein Datumsfeld hinzufügen, wird dadurch keine Hierarchie erstellt. Möglicherweise wird das Feld „Datum“ nicht tatsächlich als Datum gespeichert. Wenn Sie Eigentümer des Datasets sind, öffnen Sie es in der *Datensicht* in Power BI Desktop, wählen Sie die Spalte mit dem Datum aus, und ändern Sie auf der Registerkarte „Modellierung“ den **Datentyp** in **Datum** oder **Datum/Uhrzeit**. Wenn der Bericht für Sie freigegeben wurde, wenden Sie sich an den Eigentümer, um die Änderung anzufordern.  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![Datenansicht auswählen, Anzeige des Datentyps in der oberen rechten Ecke](media/end-user-drill/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](../visuals/power-bi-report-visualizations.md)

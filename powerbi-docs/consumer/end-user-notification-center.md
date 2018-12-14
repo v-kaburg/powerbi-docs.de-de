@@ -1,24 +1,25 @@
 ---
-title: Power BI-Mitteilungszentrale
+title: Anzeigen von Nachrichten in der Mitteilungszentrale
 description: Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565726"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280050"
 ---
-# <a name="power-bi-notifications"></a>Power BI-Benachrichtigungen
+# <a name="view-power-bi-notifications"></a>Anzeigen von Power BI-Benachrichtigungen
 Die Mitteilungszentrale ist ein fortlaufender Feed von Informationen zu Ihrer Nutzung von Power BI. Öffnen Sie sie, um Benachrichtigungen über neue Dashboards, die für Sie freigegeben wurden, Änderungen an Ihrem Gruppenbereich, Informationen zu Power BI-Veranstaltungen und -Meetings, eingerichtete Warnungen und viele weitere Benachrichtigungen anzuzeigen. Sie können [Warnungen im Power BI-Dienst festlegen](../service-set-data-alerts.md) wie auch in den mobilen Power BI-Apps.
 
 Sehen Sie sich an, wie Amanda ihre Benachrichtigungen liest, verwaltet und beantwortet. Befolgen Sie anschließend die Anleitung unter dem Video, um es selbst auszuprobieren.

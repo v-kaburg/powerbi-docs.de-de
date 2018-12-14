@@ -1,21 +1,22 @@
 ---
-title: Hinzufügen eines Berichtsfilters
+title: Hinzufügen eines Filters zu einem Bericht
 description: Hinzufügen eines Filters für einen Bericht im Power BI-Dienst für Kunden
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473805"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280763"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Überblick über den Berichtsbereich „Filter“
 In diesem Artikel sehen wir uns den Berichtsbereich „Filter“ im Power BI-Dienst genauer an.
@@ -29,14 +30,14 @@ Wenn ein Kollege einen Bericht mit Ihnen teilt, suchen Sie immer nach dem Bereic
 
 ![Bericht im Browser](media/end-user-report-filter/power-bi-expanded.png)
 
-Der Bereich „Filter“ enthält Filter, die dem Bericht durch den Berichts-*Designer* hinzugefügt wurden. *Kunden* wie Sie können mit den Filtern interagieren und Ihre Änderungen speichern, aber dem Bericht keine neuen Filter hinzufügen. Auf dem obigen Screenshot hat der Designer beispielsweise zwei Filter auf Seitenebene hinzugefügt: Segment und Year. Sie können mit diesen Filtern interagieren und sie ändern, Sie können jedoch keinen dritten Filter auf Seitenebene hinzufügen.
+Der Bereich „Filter“ enthält Filter, die dem Bericht durch den Berichts-*Designer* hinzugefügt wurden. *Kunden* wie Sie können mit den Filtern interagieren und Ihre Änderungen speichern, aber dem Bericht keine neuen Filter hinzufügen. Auf dem obigen Screenshot hat der Designer beispielsweise zwei Filter auf Seitenebene hinzugefügt: „Segment“ und „Year“. Sie können mit diesen Filtern interagieren und sie ändern, Sie können jedoch keinen dritten Filter auf Seitenebene hinzufügen.
 
 Im Power BI-Dienst speichern Berichte alle von Ihnen im Bereich „Filter“ vorgenommen Veränderungen, und diese Veränderungen werden in der mobilen Version des Berichts übernommen. Klicken Sie auf der oberen Menüleiste auf **Auf Standardwert zurücksetzen**, um den Bereich „Filter“ auf den Standard zurückzusetzen.     
 
 ## <a name="open-the-filters-pane"></a>Öffnen Sie den Bereich „Filter“.
 Wenn ein Bericht geöffnet ist, wird der Bereich „Filter“ auf der rechten Seite des Berichtszeichenbereichs angezeigt. Wenn der Bereich nicht angezeigt wird, können Sie ihn mit dem Pfeil in der oberen rechten Ecke erweitern.  
 
-In diesem Beispiel arbeiten wir mit einer Visualisierung mit sechs Filtern. Auch die Berichtsseite verfügt über Filter, die Sie unter der Überschrift **Seitenfilter** finden. Es ist ein [Drillthrough-Filter](../power-bi-report-add-filter.md) vorhanden, und der gesamte Bericht weist ebenfalls einen Filter auf: **Geschäftsjahr** ist 2013 oder 2014.
+In diesem Beispiel arbeiten wir mit einer Visualisierung mit sechs Filtern. Auch die Berichtsseite verfügt über Filter, die Sie unter der Überschrift **Seitenfilter** finden. Es ist ein [Drillthrough-Filter](../power-bi-report-add-filter.md) vorhanden, und der gesamte Bericht weist ebenfalls einen Filter auf:  **Geschäftsjahr** ist 2013 oder 2014.
 
 ![Liste der Filter](media/end-user-report-filter/power-bi-filter-list.png)
 

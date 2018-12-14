@@ -3,20 +3,21 @@ title: Favoriten im Power BI-Dienst (Dashboards, Berichte, Apps)
 description: Dokumentation zum Festlegen von Dashboards, Berichten und Apps als Favoriten im Power BI-Dienst
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452497"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280186"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Bevorzugte Dashboards, Berichte und Apps im Power BI-Dienst
 Wenn Sie einen Inhalt als *Favorit* speichern, können Sie von jedem Arbeitsbereich aus darauf zugreifen.  Favoriten sind üblicherweise die am häufigsten aufgerufenen Inhalte.
@@ -71,7 +72,7 @@ Sie verwenden einen Bericht nicht mehr so oft wie früher?  Sie können es aus d
    ![Bildschirm „Favoriten“](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Klicken Sie auf den gelben Stern neben dem Inhalt, um diesen als Favorit zu löschen.
 
-> **HINWEIS:** Sie können ebenfalls ein Dashboard, einen Bericht oder eine App als Favorit löschen. Öffnen Sie einfach den jeweiligen Inhalt, und klicken Sie auf das gelbe Symbol.   
+> **HINWEIS**: Sie können ebenfalls ein Dashboard, einen Bericht oder eine App als Favorit löschen. Öffnen Sie einfach den jeweiligen Inhalt, und klicken Sie auf das gelbe Symbol.   
 > 
 > 
 

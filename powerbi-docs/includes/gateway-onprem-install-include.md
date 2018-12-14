@@ -8,8 +8,8 @@ Das Gateway lässt sich auf Ihrem Computer ausführen und installieren. Es wird 
 
 Die erste Entscheidung, die Sie in Power BI treffen müssen, ist der Modus des Gateways.
 
-* **On-premises data gateway:** Mehrere Benutzer können ein Gateway in diesem Modus freigeben und wiederverwenden. Dieses Gateway kann von Power BI, PowerApps, Flow oder Logic Apps verwendet werden. Es bietet Power BI Unterstützung für die Zeitplanaktualisierung und DirectQuery.
-* **Personal:**: Dieser Modus steht ausschließlich für Power BI zur Verfügung und kann als einzelnes Element ohne Administratorkonfiguration verwendet werden. Dies kann nur für die bedarfsgesteuerte Aktualisierung und Zeitplanaktualisierung verwendet werden. Hierdurch wird die Installation des persönlichen Gateways gestartet.
+* **Lokales Datengateway:** Mehrere Benutzer können ein Gateway in diesem Modus freigeben und wiederverwenden. Dieses Gateway kann von Power BI, PowerApps, Flow oder Logic Apps verwendet werden. Es bietet Power BI Unterstützung für die Zeitplanaktualisierung und DirectQuery.
+* **Persönlich:** Dieser Modus steht ausschließlich für Power BI zur Verfügung und kann als einzelnes Element ohne Administratorkonfiguration verwendet werden. Dies kann nur für die bedarfsgesteuerte Aktualisierung und Zeitplanaktualisierung verwendet werden. Hierdurch wird die Installation des persönlichen Gateways gestartet.
 
 Beim Installieren beider Modi des Gateways sind einige Punkte zu beachten:
 

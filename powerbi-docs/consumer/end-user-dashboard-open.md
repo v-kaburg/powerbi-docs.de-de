@@ -1,21 +1,22 @@
 ---
-title: Anzeigen eines Power BI-Dashboards?
-description: Dashboards sind ein zentrales Feature des Power BI-Diensts.
+title: Anzeigen eines Power BI-Dashboards
+description: Dashboards sind ein wichtiges Feature des Power BI-Diensts, erfahren Sie, wie Sie sie öffnen und ein Dashboard anzuzeigen.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396679"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279751"
 ---
 # <a name="view-a-dashboard"></a>Anzeigen eines Dashboards
 Power BI-Benutzer verbringen viel Zeit damit, Dashboards anzuzeigen. Dashboards sind darauf ausgelegt, spezifische Informationen aus den zugrunde liegenden Berichten und Datasets hervorzuheben. Und Power BI-Benutzer verwenden diese Informationen zum Nachverfolgen, Überwachen, Beantworten von Fragen, zu Testzwecken und mehr – um datenbasierte Geschäftsentscheidungen zu treffen.

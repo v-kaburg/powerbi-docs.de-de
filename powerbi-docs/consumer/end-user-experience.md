@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473863"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280809"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Schnellstart: Sich mit dem Power BI-Dienst vertraut machen
 
@@ -40,7 +41,7 @@ Wir rufen einige Beispieldaten ab, die wir für unseren Rundgang durch den Power
 
     Der Power BI-Dienst importiert das Beispiel und zeigt das Dashboard an. Dashboards unterscheiden den Power BI-Dienst von Power BI Desktop. Das Beispiel enthält auch einen Bericht und ein Dataset, auf das wir später zurückkommen werden.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![Dashboard wird angezeigt](media/end-user-experience/power-bi-dashboard.png)
 
 Amanda zeigt Ihnen eine Übersicht über die Navigation des Power BI-Diensts.  Befolgen Sie dann die detaillierten Anweisungen unter dem Video, um es selbst ausprobieren.
 
@@ -50,7 +51,7 @@ Amanda zeigt Ihnen eine Übersicht über die Navigation des Power BI-Diensts.  B
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Anzeigen von Inhalten (Dashboards, Berichte, Arbeitsmappen, Datasets, Arbeitsbereiche, Apps)
 Betrachten wir zunächst, wie die grundlegenden Inhalte (Dashboards, Berichte, Datasets, Arbeitsmappen) organisiert sind. Inhalt wird im Kontext eines Arbeitsbereichs angezeigt. An diesem Punkt gibt es nur einen Arbeitsbereich, der **Mein Arbeitsbereich** heißt. Normalerweise benötigen oder verwenden Benutzer keine anderen Arbeitsbereiche. In „Mein Arbeitsbereich“ werden alle Inhalte gespeichert, deren Besitzer Sie sind. Betrachten Sie ihn als persönlichen Sandkasten oder Arbeitsbereich für eigene Inhalte. Das „Retail Analysis Sample“, das Sie gerade heruntergeladen haben, wurde unter „Mein Arbeitsbereich“ gespeichert. 
 
-In „Mein Arbeitsbereich“ sind die Inhalte auf 4 Registerkarten organisiert: „Dashboards“, „Berichte“, „Arbeitsmappen“ und „Datasets“.
+In „Mein Arbeitsbereich“ sind Ihre Inhalte auf 4 Registerkarten organisiert: Dashboards, Berichte, Arbeitsmappen und Datasets sind leer.
 
 ![Anzeige „Mein Arbeitsbereich“](./media/end-user-experience/power-bi-my-workspace.png)
 

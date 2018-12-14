@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331940"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280579"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Einführung in Dashboards für Power BI-Designer
 
@@ -48,15 +48,15 @@ Ein Dashboard ist nicht nur schön anzusehen. Es ist ausgesprochen interaktiv, u
 | --- | --- | --- |
 | Pages |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
-| In Power BI Desktop verfügbar |Nein |Ja, ***Ersteller*** können Berichte in Power BI Desktop erstellen und anzeigen. |
+| In Power BI Desktop verfügbar |Nein | Berichte können in Power BI Desktop erstellt und angezeigt werden |
 | Abonnieren |Dashboards können abonniert werden. |Berichtsseiten können abonniert werden. |
 | Filter |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Empfohlen |Ein Dashboard kann als „ausgewähltes“ Dashboard festgelegt werden. |Ein ausgewählter Bericht kann nicht erstellt werden. |
-| Zu Favoriten hinzufügen | Dashboards können als *Favoriten* festgelegt werden. | Berichte können als *Favoriten* festgelegt werden.
+| Favorit | Dashboards können als *Favoriten* festgelegt werden. | Berichte können als *Favoriten* festgelegt werden.
 | Benachrichtigungen festlegen |Unter bestimmten Umständen für Dashboardkacheln verfügbar |Über Berichte nicht verfügbar |
-| Abfragen in natürlicher Sprache |Über das Dashboard verfügbar |Über Berichte nicht verfügbar |
+| Abfragen in natürlicher Sprache (Q&A) |In Dashboards verfügbar | In Berichten verfügbar |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Exportieren von Daten, aber Tabellen und Felder im Dashboard nicht sichtbar |Ja. Tabellen, Felder und Werte des Datasets sichtbar |
-| Anpassung |Nein |In der Leseansicht können Berichte u.a. veröffentlicht, eingebettet, gefiltert, exportiert, als PBIX heruntergeladen und in Excel analysiert werden. Außerdem können Sie verwandte Inhalte anzeigen und QR-Codes generieren.  |
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Machen Sie sich mit Dashboards vertraut, indem Sie sich eine Tour durch eines unserer [Beispiel-Dashboards](sample-tutorial-connect-to-the-samples.md) ansehen.

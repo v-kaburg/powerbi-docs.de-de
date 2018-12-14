@@ -1,22 +1,23 @@
 ---
-title: 'Fokusmodus und Vollbildmodus: Vorgehensweise zum Vergrößern, um weitere Details anzuzeigen.'
+title: 'Fokusmodus und Vollbildmodus: Vorgehensweise zum Vergrößern, um weitere Details anzuzeigen'
 description: Dokumentation zur Anzeige eines Power BI-Dashboards, einer Dashboardkachel, eines Berichts oder einer Berichtsvisualisierung im Fokusmodus oder im Vollbildmodus
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507959"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279958"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Anzeigen von Inhalten im Detail: Fokusmodus und Vollbildmodus
 
@@ -83,7 +84,7 @@ Menü für Berichtsseiten
     Verwenden Sie in Berichten im Vollbildmodus diese Pfeile, um zwischen den Seiten im Bericht zu wechseln.    
   * Um den Vollbildmodus zu beenden, klicken Sie auf das Symbol **Vollbildmodus beenden**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![Symbol „Vollbildmodus beenden“](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Arbeiten im Fokusmodus
 Es gibt zwei Möglichkeiten, den Fokusmodus zu öffnen: eine für Dashboardkacheln und eine andere für Berichtsvisualisierungen.

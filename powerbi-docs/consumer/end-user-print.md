@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507667"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280740"
 ---
 # <a name="printing-from-power-bi-service"></a>Drucken im Power BI-Dienst
 Drucken Sie vom Power BI-Dienst aus ein ganzes Dashboard, eine Dashboardkachel, eine Berichtsseite oder eine Berichtsvisualisierung. Berichte können nur seitenweise gedruckt werden. Es ist nicht möglich, den ganzen Bericht auf einmal zu drucken.
@@ -85,7 +86,7 @@ Berichte können seitenweise gedruckt werden.
 * A: Diese Option wird nur angezeigt, wenn Sie bereits den PDF-Treiber in Ihrem Browser konfiguriert haben.    
 * F: Wenn ich **Drucken** auswähle, wird etwas anderes als hier angezeigt.    
 * A: Der Druckbildschirm variiert je nach Browser und Softwareversion.
-* F: Meine Ausdruck ist nicht richtig skaliert.  Das Dashboard passt nicht auf die Seite. Weitere Fragen zur Skalierung und Ausrichtung.    
+* F: Mein Ausdruck ist nicht richtig skaliert.  Das Dashboard passt nicht auf die Seite. Weitere Fragen zur Skalierung und Ausrichtung.    
 * A: Wir können nicht garantieren, dass das gedruckte Exemplar genau mit der Anzeige im Power BI-Dienst übereinstimmt. Funktionen wie die Skalierung, Ränder, visuelle Details, die Ausrichtung und die Größe werden nicht von Power BI gesteuert. Hilfe bei derartigen Problemen erhalten Sie in der Dokumentation Ihres Browsers.      
 
 ## <a name="next-steps"></a>Nächste Schritte
