@@ -8,14 +8,14 @@ ms.component: powerbi-service
 ms.topic: landing-page
 ms.date: 11/19/2018
 ms.author: maggies
-layout: landingpage
+layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 70ea5374c3249e0abe38aeaaf8bb6253e50d8a08
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 4e585c573e9df1e0189eebb67914b2fa168b9b45
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157331"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111504"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI für Berichts-Designer
 
@@ -47,7 +47,7 @@ Sind Sie eher ein Verbraucher in Power BI? Willkommen! [Power BI für Verbrauche
                                                                                       <h3>Power BI-Lizenzierung</h3> 
                                                                                       <p></p>
                                                                                             <a href="service-admin-licensing-organization.md">Power BI licensing in your organization (Power BI-Lizenzierung in Ihrem Unternehmen)</a><br/> 
-                                                                                            <a href="service-premium.md">Power BI Premium – Beschreibung</a> 
+                                                                                            <a href="service-premium.md">Was ist Microsoft Power BI Premium ?</a> 
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -61,7 +61,7 @@ Sind Sie eher ein Verbraucher in Power BI? Willkommen! [Power BI für Verbrauche
                                                                                       <h3>Verbinden mit Daten</h3> 
                                                                                       <p></p>
                                                                                             <a href="desktop-quickstart-connect-to-data.md">Herstellen einer Verbindung mit Daten in Power BI Desktop</a><br/> 
-                                                                                            <a href="service-dataflows-overview.md">Dataflows: Self-Service-Datenaufbereitung</a><br/> 
+                                                                                            <a href="service-dataflows-overview.md">Dataflows: Self-Service-Datenaufbereitung in Power BI</a><br/> 
                                                                                             <a href="service-gateway-install.md">Gateways für lokale Daten</a>
                                                                         </div> 
                                                           </div> 
