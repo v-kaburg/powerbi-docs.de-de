@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641747"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280533"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI: Grundkonzepte für ***Benutzer*** des Power BI-Diensts
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Grundkonzepte für ***Benutzer*** des Power BI-Diensts
 
 ## <a name="power-bi-consumers-and-designers"></a>*Benutzer* und *Designer* von Power BI
 In diesem Artikel wird davon ausgegangen, dass Sie bereits den Übersichtsartikel [Was ist Power BI?](../power-bi-overview.md) gelesen haben und sich als ***Benutzer*** von Power BI sehen. Benutzer erhalten Power BI-Inhalte wie Dashboards und Berichte von Kollegen. Benutzer nutzen den Power BI-Dienst, also die Website-basierte Version von Power BI. 
@@ -33,21 +34,21 @@ Die meisten Power BI-Benutzer nutzen den Power BI-Dienst, da 1) ihr Unternehmen 
 
 Öffnen Sie als Erstes einen Browser, und geben Sie **app.powerbi.com** ein. Beim ersten Öffnen sieht der Power BI-Dienst etwa wie folgt aus.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Willkommensbildschirm für Power BI-Dienst](media/end-user-basic-concepts/power-bi-open.png)
 
 Wenn Sie Power BI verwenden, werden Sie personalisieren, was Ihnen jedes Mal beim Öffnen der Website angezeigt wird.  Manchen ist es zum Beispiel lieber, wenn sich Power BI mit der Startseite öffnet, während Andere lieber zuerst ein bevorzugtes Dashboard sehen möchten. Keine Sorge, wir erklären Ihnen, wie das geht. 
 - [Home preview (Vorschau der Startseite)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [Inhalt als **ausgewählt** festlegen](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![Zeigt Startseitenansicht und Dashboardansicht](media/end-user-basic-concepts/power-bi-first.png)
 
 Aber bevor wir fortfahren, wollen wir uns zuerst die Bausteine ansehen, aus denen der Power BI-Dienst besteht.
 
 ## <a name="power-bi-content"></a>Power BI-***Inhalt***
 ### <a name="introduction-to-building-blocks"></a>Einführung in die Bausteine
-Für Power BI-Benutzer gibt es 5 Bausteine: ***Visualisierungen***, ***Dashboards***, ***Berichte***, ***Apps*** und ***Datasets***. Diese werden manchmal als *Power BI*-***Inhalt*** bezeichnet. Und *Inhalt* ist in ***Arbeitsbereichen*** vorhanden. Ein typischer Workflow umfasst alle diese Bausteine: Ein Power BI-*Designer* (gelb im folgenden Diagramm) sammelt Daten aus *Datasets*, bringt sie in Power BI für die Analyse, erstellt *Berichte* voller *Visualisierungen*, die interessante Fakten und Erkenntnisse hervorheben, heftet Visualisierungen aus Berichten an ein Dashboard an und teilt die Berichte und Dashboards mit *Benutzern* wie Ihnen (schwarz im folgenden Diagramm) in Form von *Apps* oder anderen Arten von freigegebenen Inhalten. 
+Für Power BI-Benutzer gibt es 5 Bausteine: ***Visualisierungen***, ***Dashboards***, ***Berichte***, ***Apps*** und ***Datasets***. Diese werden manchmal als *Power BI*-***Inhalt*** bezeichnet. Und *Inhalt* ist in ***Arbeitsbereichen*** vorhanden. Ein typischer Workflow umfasst alle diese Bausteine:  Ein Power BI-*Designer* (gelb im folgenden Diagramm) sammelt Daten aus *Datasets*, bringt sie für die Analyse in Power BI, erstellt *Berichte* voller *Visualisierungen*, die interessante Fakten und Erkenntnisse hervorheben, heftet Visualisierungen aus Berichten an ein Dashboard an und teilt die Berichte und Dashboards mit *Benutzern* wie Ihnen (schwarz im folgenden Diagramm) in Form von *Apps* oder anderen Arten von freigegebenen Inhalten. 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![Grundlegendes Flussdiagramm](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Das ist das Grundlegende. 
 * ![Visualisierungssymbol](media/end-user-basic-concepts/visual.png) Eine ***Visualisierung*** (oder ein *Visual*) ist eine Art von Diagramm, das von einem Power BI-*Designer* mithilfe der Daten in *Berichten* und *Datasets* erstellt wurde. In der Regel erstellen *Designer* die Visuals in Power BI Desktop. 
@@ -78,7 +79,7 @@ Jedes Dataset stellt eine einzelne Datenquelle dar, z.B. eine Excel-Arbeitsmappe
 
 Wenn ein Designer eine App für Sie freigegeben hat, können Sie sehen, welche Datasets in der App enthalten sind. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Ausgewählte Apps und Pfeil, der auf den Abschnitt „Datasets“ der Canvas zeigt](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **EIN** Dataset...
 
@@ -117,14 +118,14 @@ Ein Power BI-Bericht besteht aus einer oder mehreren Seiten mit Visualisierungen
 * wird mithilfe der Daten aus nur einem Dataset erstellt  
 * kann Teil mehrerer Apps sein
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![Beziehungszeichnung für einen Bericht](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Dashboards
 Ein Dashboard stellt eine angepasste Ansicht einer Teilmenge des/der zugrunde liegenden Datasets dar. *Designer* erstellen Dashboards und geben sie für *Benutzer* frei – entweder einzeln oder als Teil einer App. Ein Dashboard ist ein einzelner Zeichenbereich, der *Kacheln*, Grafiken und Text enthält. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![Beispieldashboard](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 Eine Kachel ist ein Rendering eines visuellen Elements, das ein *Designer* zum Beispiel aus einem Report an ein Dashboard *anheftet*.  Jede angeheftete Kachel zeigt eine [Visualisierung](end-user-visualizations.md) an, die aus einem Dataset erstellt und an dieses Dashboard angeheftet wurde. Eine Kachel kann auch eine komplette Berichtsseite, Livestreamingdaten oder ein Video enthalten. Es gibt viele Möglichkeiten, wie *Designer* Kacheln zu Dashboards hinzufügen – zu viele, um sie in diesem Übersichtsthema zu behandeln. Weitere Informationen finden Sie unter [Dashboardkacheln in Power BI](end-user-tiles.md). 
 
@@ -144,20 +145,20 @@ Was sind die Funktionen von Dashboards?  Hier nur einige davon:
 * kann Visualisierungen von verschiedenen Berichten anzeigen.
 * kann Visualisierungen anzeigen, die aus anderen Tools (z.B. Excel) angeheftet wurden.
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![Beziehungszeichnung für ein Dashboard](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>Apps
 Diese Sammlungen von Dashboards und Berichten organisieren verwandte Inhalte in einem einzigen Paket. Power BI-*Designer* erstellen sie und geben sie für Einzelpersonen, Gruppen, eine ganze Organisation oder öffentlich frei. Als Benutzer können Sie sich darauf verlassen, dass Sie und Ihre Kollegen mit denselben Daten arbeiten – einer einzigen vertrauenswürdigen Version der Wahrheit. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![Im linken Navigationsbereich ausgewählte Apps](media/end-user-basic-concepts/power-bi-app.png)
 
 Apps lassen sich im Power BI-Dienst (https://powerbi.com) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind. 
 
 Diese App verfügt über drei verwandte Dashboards und drei verwandte Berichte, die zusammen eine App bilden.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![Verwandte Inhalte für die ausgewählte App](media/end-user-basic-concepts/power-bi-app-list.png)
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben.
 
