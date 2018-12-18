@@ -1,5 +1,5 @@
 ---
-title: Verwalten eines Gateways für Power BI
+title: Verwalten eines lokalen Power BI-Gateways
 description: Erfahren Sie, wie Sie ein Gateway verwalten, damit Sie in Power BI eine Verbindung mit lokalen Daten herstellen können.
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755160"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026383"
 ---
-# <a name="manage-a-power-bi-gateway"></a>Verwalten eines Power BI-Gateways
+# <a name="manage-a-power-bi-on-premises-gateway"></a>Verwalten eines lokalen Power BI-Gateways
 
 Nach dem [Installieren eines Power BI-Datengateways](service-gateway-install.md) können Sie dieses basierend auf Ihren Anforderungen verwalten. In diesem Thema erfahren Sie, wie Sie folgende Aktionen ausführen: Hinzufügen und Entfernen von Datenquellen und Benutzern, Neustart eines Gateways sowie Migrieren, Wiederherstellen, Übernehmen und Entfernen eines Gateways. 
 

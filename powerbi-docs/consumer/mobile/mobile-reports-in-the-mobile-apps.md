@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547244"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180988"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -105,6 +105,16 @@ Wenn Sie beim *Drillthrough* auf einen bestimmten Teil eines Visual tippen, gela
 Wenn Sie einen Drillthrough durchführen, gelangen Sie über die Schaltfläche „Zurück“ auf die vorherige Berichtsseite.
 
 Erfahren Sie, wie Sie [Drillthrough in Power BI Desktop verwenden](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Anzeigen von Daten und Kopieren von Werten
+
+Sie können die zugrunde liegenden Daten einer Visualisierung anzeigen, indem Sie in einem Smartphonebericht auf die Auslassungspunkte (**...**) für die Menüoptionen tippen und dann **Daten anzeigen** auswählen.
+
+![Menüoption „Daten anzeigen“ in Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Durch langes Tippen auf eine Zelle in der angezeigten Tabelle wird das native Auswahl- und Kopiermenü geöffnet, das Sie zum Kopieren der Daten aus der Tabelle (oder der gesamten Tabelle) verwenden können.
+
+![Power BI Mobile: Drillthrough für einen Bericht](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anzeigen von und Interagieren mit Power BI-Berichten, die für das Smartphone optimiert sind](mobile-apps-view-phone-report.md)

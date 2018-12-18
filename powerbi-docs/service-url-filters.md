@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850589"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180804"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -97,7 +97,7 @@ Um nach weiteren Feldern zu filtern, fügen Sie ein **and** und ein weiteres Fel
 
 Power BI unterstützt außer **and** noch viele weitere Operatoren. In der folgenden Tabelle werden diese Operatoren zusammen mit dem Inhaltstyp, den sie unterstützen, aufgeführt:
 
-|Operator  | Definition | Zeichenfolge  | Zahl | Date |  Beispiel|
+|Operator  | Definition | Zeichenfolge  | Zahl | Datum |  Beispiel|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | und |  Ja      | Ja |  Ja|  product/price le 200 and price gt 3.5 |
 |**eq**     | equals |  Ja      | Ja   |  Ja       | Address/City eq 'Redmond' |
@@ -145,17 +145,17 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![Tabellenvisual, das Sonderzeichen rend
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Tabellenvisual, das Sonderzeichen rendert](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>Verwenden von DAX, um nach mehreren Werten zu filtern
+## <a name="use-dax-to-filter-on-multiple-values"></a>Verwenden von DAX, um nach mehreren Werten zu filtern
 
 Eine andere Möglichkeit, nach mehreren Feldern zu filtern, besteht darin, eine berechnete Spalte zu erstellen, in der zwei Felder zu einem einzelnen Wert verkettet werden. Anschließend können Sie nach diesem Wert filtern.
 
-Angenommen, wir verfügen über zwei Felder: „Territory“ und „Chain“. In diesem Szenario können Sie in Power BI Desktop [eine neue berechnete Spalte](desktop-tutorial-create-calculated-columns.md) (Feld) namens „TerritoryChain“ erstellen. Beachten Sie, dass der **Feldname** keine Leerzeichen enthalten darf. Die DAX-Formel für diese Spalte sieht wie folgt aus:
+Angenommen, es gibt zwei Felder: „Territory“ und „Chain“. In diesem Szenario können Sie in Power BI Desktop [eine neue berechnete Spalte](desktop-tutorial-create-calculated-columns.md) (Feld) namens „TerritoryChain“ erstellen. Beachten Sie, dass der **Feldname** keine Leerzeichen enthalten darf. Die DAX-Formel für diese Spalte sieht wie folgt aus:
 
 TerritoryChain = [Territory] & " - " & [Chain]
 
 Veröffentlichen Sie den Bericht für den Power BI-Dienst, und verwenden Sie die URL-Abfragezeichenfolge, um die Daten so zu filtern, dass nur Lindseys-Filialen in NC angezeigt werden.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Anheften einer Kachel aus einem gefilterten Bericht
 

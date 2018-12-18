@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611358"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026245"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Die neue Filteroberfläche in Power BI-Berichten (Vorschau)
 
-In diesem Artikel wird die neue Filteroberfläche vorgestellt: Die Filter in Power BI erhalten eine neue Funktionalität und ein neues Design. Wenn Sie in Power BI Desktop oder im Power BI-Dienst Berichte entwerfen, können Sie den Filterbereich in Bezug auf Aussehen und Verhalten an den gesamten Bericht anpassen. In der neuen Benutzeroberfläche fungiert der alte Filterbereich als Bereich für die Filterbearbeitung, die Berichtnutzer sehen nur den neuen Filterbereich. 
+In diesem Artikel wird die neue Filteroberfläche beschrieben: Filter in Power BI erhalten eine neue Funktionalität und ein neues Design. Wenn Sie in Power BI Desktop oder im Power BI-Dienst Berichte entwerfen, können Sie den Filterbereich in Bezug auf Aussehen und Verhalten an den gesamten Bericht anpassen. In der neuen Benutzeroberfläche fungiert der alte Filterbereich als Bereich für die Filterbearbeitung, die Berichtnutzer sehen nur den neuen Filterbereich. 
  
 ![Standardansicht (keine zusätzlichen Anpassungen angewendet)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachde
 
     ![Formatierungssymbol auswählen](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Erweitern Sie den **Filterbereich**, um die Farbe für Hintergrund, Schriftart und Symbol und den linken Rahmen festzulegen, um die Berichtseite zu vervollständigen.
+1. Erweitern Sie den **Filterbereich**, um die Farbe für den Hintergrund, das Symbol und den linken Rahmen festzulegen und die Berichtseite zu vervollständigen.
 
     ![Filterbereich erweitern](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

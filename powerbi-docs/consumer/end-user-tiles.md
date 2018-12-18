@@ -4,26 +4,25 @@ description: Alle wichtigen Informationen über Dashboardkacheln in Power BI fü
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: c8c39e2fbc4aeca4aeb9cc5f906cca8bb063a2e6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331894"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280096"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
-Dashboards und Dashboardkacheln sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboardkacheln nicht in Power BI Mobile erstellt oder angeheftet werden können, lassen sie sich dort [anzeigen und freigeben](mobile/mobile-tiles-in-the-mobile-apps.md). 
+Eine Kachel ist eine Momentaufnahme Ihrer Daten, die von einem *Designer* an das Dashboard geheftet wurde. Eine Kachel kann aus einem Bericht, einem Dataset, einem Dashboard, dem Q&A-Fragefeld, Excel, SSRS (SQL Server Reporting Services) und noch mehr erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.
 
-## <a name="dashboard-tiles"></a>Dashboardkacheln
 ![Power BI-Dashboard](./media/end-user-tiles/power-bi-dashboard.png)
 
-Eine Kachel ist eine Momentaufnahme Ihrer Daten, die von einem *Designer* an das Dashboard geheftet wurde. Eine Kachel kann aus einem Bericht, einem Dataset, einem Dashboard, dem Q&A-Fragefeld, Excel, SSRS (SQL Server Reporting Services) und noch mehr erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.
 
 Neben den Kacheln, die an das Dashboard geheftet werden, können *Designer* eigenständige Kacheln mit **Kachel hinzufügen** direkt zum Dashboard hinzufügen. Eigenständige Kacheln können Textfelder, Bilder, Videos, Streamingdaten und Webinhalte enthalten.
 
@@ -32,7 +31,6 @@ Benötigen Sie Hilfe, um die Grundkomponenten zu verstehen, aus denen Power BI b
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interagieren mit Kacheln in einem Dashboard
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Zeigen Sie auf eine Kachel, um Aussehen und Verhalten zu ändern.
 1. Zeigen Sie auf die Kachel, um die Auslassungspunkte anzuzeigen.
    
     ![Kachel „Auslassungspunkte“](./media/end-user-tiles/ellipses_new.png)
@@ -68,7 +66,7 @@ Benötigen Sie Hilfe, um die Grundkomponenten zu verstehen, aus denen Power BI b
 Wenn Sie eine Kachel auswählen, hängt das anschließenden Vorgehen davon ab, wie die Kachel erstellt wurde und ob sie über einen [benutzerdefinierten Link](../service-dashboard-edit-tile.md) verfügt. Wenn sie einen benutzerdefinierten Link aufweist, bringt Sie das Auswählen der Kachel zum Ziel dieses Links. Andernfalls gelangen Sie nach Auswählen der Kachel zu dem Bericht, der Excel Online-Arbeitsmappe, dem lokalen SSRS-Bericht oder der Q&A-Frage, der/die zum Erstellen der Kachel verwendet wurde.
 
 > [!NOTE]
-> Eine Ausnahme sind Videokacheln, die direkt auf dem Dashboard mit **Kachel hinzufügen** erstellt wurden. Bei Auswählen einer Videokachel (die auf diese Weise erstellt wurde) wird das Video direkt auf dem Dashboard wiedergegeben.   
+> Eine Ausnahme sind Videokacheln, die mit **Kachel hinzufügen** direkt auf dem Dashboard erstellt wurden. Bei Auswählen einer Videokachel (die auf diese Weise erstellt wurde) wird das Video direkt auf dem Dashboard wiedergegeben.   
 > 
 > 
 

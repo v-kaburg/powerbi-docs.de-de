@@ -1,23 +1,25 @@
 ---
-title: Einbetten von Power BI-Inhalt in eine Anwendung für Kunden mit Government und Sovereign Clouds
-description: Hier erfahren Sie, wie Sie mit den Power BI-APIs ein Dashboard, eine Kachel oder einen Bericht für Ihre Kunden in eine Web-App integrieren bzw. einbetten.
+title: Embedded Analytics für das Einbetten von Power BI-Inhalten in eine Anwendung für Government und Sovereign Clouds
+description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Kunden in eine Anwendung integrieren bzw. einbetten. In diesem Artikel erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003154"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180620"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in eine Anwendung für Sovereign Clouds
 
-Hier erfahren Sie, wie Sie bei der Integration von Daten für Ihre Kunden mit dem Power BI .NET SDK und der Power BI-JavaScript-API ein Dashboard, eine Kachel oder einen Bericht in Ihre Webanwendungen einbetten.
+Erfahren Sie, wie Sie analytische Inhalte in Ihre Geschäftsprozessanwendungen für die Sovereign Cloud einbetten. Sie können das Power BI .NET SDK mit der Power BI-JavaScript-API verwenden, um einen Bericht, ein Dashboard oder eine Kachel in eine Webanwendung einzubetten.
 
 Sovereign (private) Clouds werden von Power BI ebenfalls unterstützt.
 
@@ -118,7 +120,7 @@ Diesem Artikel liegt der im [Beispiel zu Daten im App-Besitz](https://github.com
 <add key="embedUrlBase" value="https://app.powerbi.cn" />
 ```
 
-## <a name="step-1---register-an-app-in-azure-ad"></a>Schritt 1: Registrieren einer App in Azure AD
+## <a name="step-1---register-an-app-in-azure-ad"></a>Schritt 1 – Registrieren einer App in Azure AD
 
 Registrieren Sie Ihre Anwendung bei Azure AD, um REST-API-Aufrufe ausführen zu können. Weitere Informationen finden Sie unter [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md). Aufgrund verschiedener Zugehörigkeiten für Sovereign Clouds gibt es unterschiedliche URLs, um Ihre Anwendung zu registrieren.
 
@@ -132,7 +134,7 @@ Registrieren Sie Ihre Anwendung bei Azure AD, um REST-API-Aufrufe ausführen zu 
 
 * Power BI für Cloud China – https://app.powerbi.cn/apps
 
-Wenn Sie das [Beispiel zum Einbetten für Ihre Kunden](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) heruntergeladen haben, verwenden Sie die **applicationId**, die Sie nach der Registrierung erhalten haben, damit das Beispiel in Azure AD authentifiziert werden kann. Ändern Sie zum Konfigurieren des Beispiels die **applicationId** in der Datei *web.config*.
+Wenn Sie das [Beispiel zum Einbetten für Ihre Kunden](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) heruntergeladen haben, verwenden Sie die erhaltene **applicationId**, damit das Beispiel in Azure AD authentifiziert werden kann. Ändern Sie zum Konfigurieren des Beispiels die **applicationId** in der Datei *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Schritt 2: Abrufen eines Zugriffstokens aus Azure AD
 
@@ -227,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Erstellen des Einbettungstokens
 
-Sie können mithilfe der JavaScript-API ein Einbettungstoken generieren. Das Einbettungstoken ist spezifisch für das eingebettete Element. Bei jedem Einbetten eines Power BI-Inhaltselements müssen Sie ein neues Einbettungstoken erstellen. Weitere Informationen hierzu, einschließlich dem erforderlichen **accessLevel**, finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Sie können mithilfe der JavaScript-API ein Einbettungstoken generieren. Das Einbettungstoken ist spezifisch für das Element, das Sie einbetten. Bei jedem Einbetten eines Power BI-Inhaltselements müssen Sie ein neues Einbettungstoken erstellen. Weitere Informationen hierzu, einschließlich dem erforderlichen **accessLevel**, finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Da Einbettungstoken nur für Entwicklertests vorgesehen sind, ist die Anzahl von Einbettungstoken, die ein Power BI-Masterkonto generieren kann, begrenzt. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268014"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180643"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Verknüpfen von Entitäten zwischen Dataflows in Power BI (Vorschau)
 
@@ -32,6 +32,12 @@ Verknüpfte Entitäten sind **schreibgeschützt**. Wenn Sie Transformationen fü
 Für verknüpfte Entitäten ist zur Aktualisierung ein [Power BI Premium](service-premium.md)-Abonnement erforderlich. Verknüpfte Entitäten sind in jedem Dataflow in einem Arbeitsbereich verfügbar, der in der Power BI Premium-Kapazität gehostet wird. Es gibt keine Einschränkungen hinsichtlich des Quelldataflows.
 
 Verknüpfte Entitäten werden nur in neuen Power BI-Arbeitsbereichen ordnungsgemäß ausgeführt. Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche (Vorschau) in Power BI](service-create-the-new-workspaces.md). Alle verknüpften Dataflows müssen sich in neuen Arbeitsbereichen befinden, damit sie ordnungsgemäß ausgeführt werden können.
+
+> [!NOTE]
+> Entitäten unterscheiden sich je nachdem, ob es sich dabei um Standardentitäten oder berechnete Entitäten handelt. Standardentitäten (oft einfach als Entitäten bezeichnet) fragen eine externe Datenquelle ab wie z.B. eine SQL-Datenbank. Berechnete Entitäten erfordern Premium-Kapazität auf Power BI und führen ihre Transformationen mit Daten durch, die sich bereits im Power BI-Speicher befinden. 
+>
+>Wenn sich Ihr Dataflow nicht in einem Arbeitsbereich mit Premium-Kapazität befindet, können Sie dennoch auf eine einzelne Abfrage verweisen oder zwei oder mehr Abfragen kombinieren, solange die Transformationen nicht als Transformationen innerhalb des Speichers definiert werden. Solche Verweise werden als Standardentitäten betrachtet. Deaktivieren Sie dazu die Option **Laden aktivieren** für die Abfragen, auf die verwiesen wird, um zu verhindern, dass die Daten materialisiert und im Speicher erfasst werden. Dann können Sie auf diese Abfragen mit **Laden aktivieren = FALSE** verweisen und **Laden aktivieren** nur für die resultierenden Abfragen, die Sie materialisieren möchten, auf **Ein** festlegen.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Verknüpfen von Entitäten zwischen Dataflows
 

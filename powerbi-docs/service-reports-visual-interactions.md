@@ -1,24 +1,25 @@
 ---
 title: Ändern der Interaktion von Visualisierungen in einem Bericht
 description: Dokumentation zum Festlegen der visuellen Interaktionen in Berichten von Power BI Desktop und Power BI-Diensten.
-author: maggiesMSFT
-manager: kfile
+author: mihart
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/24/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de18466b2ce98c0ba1e4b5e6e9ad2eb501f18a49
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 769e724e06362fad2742909550a5dbf4f3dfddd4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717213"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180781"
 ---
-# <a name="visualization-interactions-in-a-power-bi-report"></a>Interaktionen mit Visualisierungen in einem Power BI-Bericht
+# <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Ändern der Interaktion von Visualisierungen in einem Power BI-Bericht
 Wenn Sie über die Berechtigungen zum Bearbeiten eines Berichts verfügen, können Sie **visuelle Interaktionen** verwenden, um zu ändern, wie sich Visualisierungen auf einer Berichtsseite aufeinander auswirken. 
 
 Standardmäßig können Visualisierungen auf einer Berichtsseite für die Kreuzfilterung und -hervorhebung der anderen Visualisierungen auf der Seite verwendet werden.

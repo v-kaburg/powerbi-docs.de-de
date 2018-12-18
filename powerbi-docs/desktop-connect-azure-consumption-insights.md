@@ -1,21 +1,22 @@
 ---
-title: Herstellen einer Verbindung mit Azure Consumption Insights-Daten in Power BI Desktop (Beta)
+title: Verbinden mit Azure Consumption Insights-Daten (Beta)
 description: Einfaches Herstellen einer Verbindung mit Azure und Erhalten von Einblicken in Verbrauch und Verwendung mithilfe von Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619607"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026782"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -50,15 +51,15 @@ Geben Sie anschließend Ihren *Zugriffsschlüssel* an, um die Verbindung herzust
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Sobald Sie Ihren *Zugriffsschlüssel* angegeben und **Verbinden** ausgewählt haben, wird ein **Navigator**-Fenster geöffnet, in dem die 9 für Sie verfügbaren Tabellen angezeigt werden: 
-* **Budgets**: Diese Tabelle enthält Budgetdetails zur Anzeige der tatsächlichen Kosten oder der Nutzung im Vergleich zu vorhandenen Budgetzielen an. 
-* **MarketPlace**: Hier werden die nutzungsbasierten Azure Marketplace-Gebühren angezeigt.
-* **PriceSheets**: Diese Tabelle zeigt die geltenden Preise nach Verbrauchseinheit für eine Registrierung an.
-* **RICharges**: Hier werden die Gebühren für Ihre reservierten Instanzen in den letzten 24 Monaten angezeigt.
-* **RIRecommendations_Single**: Diese Tabelle zeigt basierend auf Ihren Nutzungstrends für ein einzelnes Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
-* **RIRecommendations_Shared**: Diese Tabelle zeigt basierend auf Ihren Nutzungstrends für all Ihre Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
-* **RIUsage**: Hier werden ausführliche Informationen zum Verbrauch für Ihre vorhandenen reservierten Instanzen in den letzten Monaten angezeigt.
-* **Summaries**: Diese Tabelle bietet eine monatliche übergreifende Übersicht für Salden, neue Käufe, Azure Marketplace-Dienstgebühren, Anpassungen und Überschreitungsgebühren.
-* **UsageDetails**: Diese Tabelle zeigt eine Aufschlüsselung der verbrauchten Mengen und der geschätzten Kosten für eine Registrierung.
+* **Budgets:** Enthält Budgetdetails zur Anzeige der tatsächlichen Kosten oder Nutzung im Vergleich zu vorhandenen Budgetzielen. 
+* **MarketPlace:** Hier werden die nutzungsbasierten Azure Marketplace-Gebühren angezeigt.
+* **PriceSheets:** Zeigt die geltenden Preise nach Verbrauchseinheit für eine Registrierung an.
+* **RICharges:** Hier werden die Gebühren für Ihre reservierten Instanzen in den letzten 24 Monaten angezeigt.
+* **RIRecommendations_Single:** Zeigt basierend auf Ihren Nutzungstrends für ein einzelnes Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RIRecommendations_Shared:** Zeigt basierend auf Ihren Nutzungstrends für alle Ihre Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RIUsage:** Hier werden ausführliche Informationen zum Verbrauch für Ihre vorhandenen reservierten Instanzen im letzten Monat angezeigt.
+* **Summaries:** Bietet eine monatliche Übersicht über Salden, neue Käufe, Azure Marketplace-Dienstgebühren, Anpassungen und Überschreitungsgebühren.
+* **UsageDetails:** Zeigt eine Aufschlüsselung der verbrauchten Mengen und der geschätzten Kosten für eine Registrierung an.
 
 Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorschau anzuzeigen. Sie können eine oder mehrere Tabellen auswählen, indem Sie das Kontrollkästchen neben dem Tabellennamen aktivieren, und dann **Laden** wählen.
 
@@ -111,7 +112,7 @@ In den folgenden Schritten wird der Wechsel zu dem neueren **Azure Consumption I
 ### <a name="step-1-connect-to-azure-using-the-new-connector"></a>Schritt 1: Mithilfe des neuen Connectors eine Verbindung mit Azure herstellen
 Der erste Schritt ist das Herstellen einer Verbindung mithilfe des **Azure Consumption Insights**- Connectors, der weiter oben in diesem Artikel ausführlich beschrieben wurde. Wählen Sie in diesem Schritt im Menüband **Start** von **Power BI Desktop** die Option **Daten abrufen > Leere Abfrage** aus.
 
-### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Schritt 2: Im erweiterten Editor eine Abfrage erstellen
+### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Schritt 2: Im Erweiterten Editor eine Abfrage erstellen
 Wählen Sie im **Abfrage-Editor** im Abschnitt **Abfrage** des Menübands **Start** die Option **Erweiterter Editor** aus. Geben Sie im daraufhin angezeigten Fenster **Erweiterter Editor** die folgende Abfrage ein:
 
     let    
@@ -127,7 +128,7 @@ Sie müssen selbstverständlich den Wert von *enrollmentNumber* durch Ihre eigen
 
 Sobald Sie im Fenster **Erweiterter Editor** auf **Fertig** geklickt haben, wird die Vorschau aktualisiert, und in der Tabelle werden Daten aus dem angegebenen Monatsbereich angezeigt. Wählen Sie **Schließen und übernehmen** aus, und kehren Sie zum Abfrage-Editor zurück.
 
-### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Schritt 3: Measures und benutzerdefinierten Spalten in den neuen Bericht verschieben
+### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Schritt 3: Measures und benutzerdefinierte Spalten in den neuen Bericht verschieben
 Anschließend müssen Sie alle benutzerdefinierten Spalten oder Measures, die Sie erstellt haben, in die neue Detailtabelle verschieben. Gehen Sie wie folgt vor.
 
 1. Öffnen Sie Editor (oder einen anderen Text-Editor).
@@ -165,20 +166,20 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | ConsumedServiceId |consumedServiceId | |Ja |
 | Cost |cost |ExtendedCost |Nein |
 | Kostenstelle |costCenter |Kostenstelle |Nein |
-| Date |Datum |Date |Nein |
+| Datum |Datum |Datum |Nein |
 | Tag | |Tag |Nein |
 | DepartmentName |departmentName |Department Name |Nein |
 | DepartmentID |departmentId | |Ja |
 | Instanzen-ID | | |Ja |
 | InstanceId |instanceId |Instanzen-ID |Nein |
-| Location | | |Ja |
+| Standort | | |Ja |
 | Kategorie für Messung |meterCategory |Kategorie für Messung |Nein |
 | Messungs-ID | | |Ja |
 | Meter Name |meterName |Meter Name |Nein |
 | Messbereich |meterRegion |Messbereich |Nein |
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
-| Monat | |Monat |Nein |
+| Month | |Month |Nein |
 | Produkt |product |Produkt |Nein |
 | ProductId |productId | |Ja |
 | Resource Group |resourceGroup |Resource Group |Nein |

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578426"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025118"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicherheit auf Zeilenebene (row-level security; RLS) mit Power BI
 
@@ -41,7 +42,7 @@ Zum Verwalten der Sicherheitseinstellungen Ihres Datenmodells sollten Sie wie fo
 1. Wählen Sie die **Ellipse (...)** für ein Dataset aus.
 2. Wählen Sie **Sicherheit** aus.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Sicherheitsfilter in beide Richtungen anwenden](media/service-admin-rls/rls-security.png)
 
 Dadurch gelangen Sie zur RLS-Seite, wo Sie Mitglieder zu einer Rolle hinzufügen können, die Sie in Power BI Desktop erstellt haben. Die Sicherheit ist nur für die Besitzer des Datasets verfügbar. Wenn das Dataset zu einer Gruppe gehört, können nur Administratoren der Gruppe die Sicherheitsoption sehen. 
 
@@ -53,17 +54,17 @@ Sie können Rollen nur in Power BI Desktop erstellen oder ändern.
 
 Sie können der Rolle ein Mitglied hinzufügen, indem Sie die E-Mail-Adresse oder den Namen des Benutzers, der Sicherheitsgruppe oder der Verteilerliste eingeben, den bzw. die Sie hinzufügen möchten. Dieses Mitglied muss sich in Ihrer Organisation befinden. Sie können keine in Power BI erstellten Gruppen hinzufügen.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Hinzufügen eines Mitglieds](media/service-admin-rls/rls-add-member.png)
 
 Anhand der Zahl in Klammern neben dem Rollennamen oder neben „Mitglieder“ können Sie zudem sehen, wie viele Mitglieder Teil der Rolle sind.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Mitglieder in der Rolle](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Entfernen von Mitgliedern
 
 Sie können Mitglieder entfernen, indem Sie das „X“ neben ihrem Namen auswählen. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Entfernen eines Mitglieds](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Überprüfen der Rolle im Power BI-Dienst
 
@@ -72,15 +73,15 @@ Sie können überprüfen, ob die von Ihnen definierte Rolle ordnungsgemäß funk
 1. Wählen Sie das **Auslassungszeichen (...)** neben der Rolle aus.
 2. Wählen Sie **Daten als Rolle testen** aus.
 
-![](media/service-admin-rls/rls-test-role.png)
+![Als Rolle testen](media/service-admin-rls/rls-test-role.png)
 
 Es werden dann die für diese Rolle verfügbaren Berichte angezeigt. Dashboards werden in dieser Ansicht nicht angezeigt. Auf der blauen Leiste oben sehen Sie, was angewendet wird.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Anzeige als <Rolle>](media/service-admin-rls/rls-test-role2.png)
 
 Sie können andere Rollen oder eine Kombination von Rollen testen, indem Sie **Now viewing as** (Jetzt anzeigen als) auswählen.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Testen von anderen Rollen](media/service-admin-rls/rls-test-role3.png)
 
 Sie können auch Daten als eine bestimmte Person anzeigen oder eine Kombination der verfügbaren Rollen auswählen, um deren ordnungsgemäße Funktion zu überprüfen. 
 
@@ -95,7 +96,7 @@ Wenn Sie Ihren Power BI Desktop-Bericht in einem App-Arbeitsbereich im Power BI-
 > [!WARNING]
 > Wenn Sie den App-Arbeitsbereich so konfiguriert haben, dass deren Mitglieder über Bearbeitungsberechtigungen verfügen, werden die RLS-Rollen nicht auf diese angewendet. Benutzer können dann alle Daten einsehen.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Gruppeneinstellungen](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

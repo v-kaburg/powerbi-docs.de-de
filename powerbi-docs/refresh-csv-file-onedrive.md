@@ -1,21 +1,22 @@
 ---
-title: Aktualisieren eines Datasets, das aus einer Datei mit kommagetrennten Werten (CSV) auf OneDrive erstellt wurde
+title: Aktualisieren eines aus einer CSV-Datei erstellten Datasets in OneDrive
 description: Aktualisieren eines Datasets, das aus einer Datei mit kommagetrennten Werten (CSV) auf OneDrive erstellt wurde
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670347"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025532"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Aktualisieren eines aus einer CSV-Datei erstellten Datasets auf OneDrive oder SharePoint Online
 ## <a name="what-are-the-advantages"></a>Was sind die Vorteile?
@@ -29,7 +30,7 @@ Viele Organisationen führen Prozesse aus, die Datenbanken automatisch auf Daten
 Dateien mit kommagetrennten Werten sind einfache Textdateien, daher werden keine Verbindungen mit externen Datenquellen und Berichten unterstützt. Sie können keine Zeitplanaktualisierung für ein Dataset planen, das aus einer kommagetrennten Datei erstellt wurde. Wenn sich die Datei in OneDrive oder SharePoint Online befindet, synchronisiert Power BI jedoch Änderungen an der Datei automatisch mit dem Dataset etwa einmal in der Stunde.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive oder OneDrive for Business. Was ist der Unterschied?
-Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business verbunden werden sollen. Dies wird empfohlen, da Sie wahrscheinlich zwei unterschiedliche Konten für die Anmeldung verwenden.
+Wenn Sie sowohl über ein privates OneDrive als auch OneDrive for Business verfügen, empfiehlt es sich, dass Sie alle Dateien beibehalten, die in Power BI in OneDrive for Business verbunden werden sollen. Erfahren Sie, warum: Sie verwenden wahrscheinlich zwei unterschiedliche Konten für die Anmeldung.
 
 Das Herstellen einer Verbindung mit OneDrive for Business in Power BI erfolgt i. d. R. nahtlos, da für die Anmeldung bei Power BI häufig das gleiche Konto verwendet wird, das auch für OneDrive for Business verwendet wird. Bei einem privaten OneDrive melden Sie sich wahrscheinlich mit einem anderen [Microsoft-Konto](https://account.microsoft.com) an.
 

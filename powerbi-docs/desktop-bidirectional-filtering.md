@@ -4,18 +4,19 @@ description: Aktivieren der Kreuzfilterung mithilfe von DirectQuery in Power BI 
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58fbef3f8622121100ce77ae69d6c17cbeb46510
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 89ee11efab495d55457e265e654972aac941d50c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578311"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025325"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop
 
@@ -23,11 +24,12 @@ Beim Filtern von Tabellen zum Erstellen der entsprechenden Anzeige von Daten ste
 
 Mit der bidirektionalen Kreuzfilterung haben Berichtersteller (und Datenmodellierer) nun eine bessere Kontrolle darüber, wie bei der Arbeit mit verknüpften Tabellen Filter angewendet werden, indem es Filtern ermöglicht wird, auf *beide* Seiten einer Tabellenbeziehung angewendet zu werden. Dies wird erreicht, indem der Filterkontext auf eine zweite verknüpfte Tabelle auf der anderen Seite einer Tabellenbeziehung verteilt wird.
 
+## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>Detailliertes Whitepaper für die bidirektionale Kreuzfilterung
 Es ist ein [detailliertes Whitepaper](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) verfügbar, das die bidirektionale Kreuzfilterung in Power BI Desktop erklärt (das Whitepaper deckt auch SQL Server Analysis Services 2016 ab, da beide sich gleich verhalten).
 
 * Herunterladen des Whitepapers [Bidirectional cross-filtering for Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Bidirektionale Kreuzfilterung für Power BI Desktop)
 
-### <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Aktivieren der bidirektionalen Kreuzfilterung für DirectQuery
+## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Aktivieren der bidirektionalen Kreuzfilterung für DirectQuery
 
 Folgendes muss ausgewählt sein, um die Kreuzfilterung im Dialogfeld **Beziehung bearbeiten** für eine Beziehung zu aktivieren:
 

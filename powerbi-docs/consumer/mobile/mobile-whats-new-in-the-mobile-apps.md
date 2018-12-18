@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297226"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979543"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -100,7 +100,7 @@ Wenn Sie mit Wischbewegungen durch einen Bericht navigieren, in der Aktionsleist
 
 Wenn Berichtsautoren Dashboarddesigns im Power BI-Dienst anpassen, ändern sich auch Aussehen und Verhalten der Dashboards in der mobilen App. Es werden jedoch keine Hintergrundbilder angezeigt.
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf einen Berichtsserver
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver
 
 Ihr IT-Administrator kann jetzt ein MDM-Tool verwenden, um den Zugriff mobiler Power BI-Apps für iOS auf einen Berichtsserver zu konfigurieren. Weitere Informationen finden Sie unter [Configure Power BI iOS mobile app access to a report server remotely (Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver)](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
@@ -221,7 +221,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom Juli 2017](https://po
 #### <a name="all-devices"></a>Alle Geräte
 **Neues Menü: Für mich freigegeben** Sie können im Menü der mobilen App „Für mich freigegeben“ aufrufen, um alle Inhalte anzuzeigen, die für Sie freigegeben wurden.
 
-**Neues Menü: Apps** Eine App ist eine Sammlung von Dashboards und Berichten, die von Ihrer Organisation entwickelt wurden, um durch die Bereitstellung wichtiger Metriken datengesteuerte Entscheidungen zu beschleunigen und zu vereinfachen.
+**Neues Menü: Apps** Eine App ist eine Sammlung von Dashboards und Berichten, die von Ihrer Organisation entwickelt wurde, um durch die Bereitstellung wichtiger Metriken datengesteuerte Entscheidungen zu beschleunigen und zu vereinfachen.
 
 [Weitere Informationen zur Anordnung von Power BI-Inhalten](mobile-apps-quickstart-view-dashboard-report.md).
 
@@ -300,7 +300,7 @@ Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Janua
 #### <a name="android"></a>Android
 **SSRS-Authentifizierung unter Verwendung der Active Directory-Verbunddienste (ADFS) – Vorschau** Ab jetzt können Sie sich bei lokalen Servern für SQL Server Reporting Services über mobile Geräte mit einem Organisationskonto anmelden. Weitere Informationen finden Sie unter [OAuth verwenden, um Verbindungen mit SSRS-Servern herzustellen](mobile-oauth-ssrs.md).
 
-**Neu und verbessert: Anmerkung und Freigabe – schnelle Einblicke** Alle Funktionen zum Freigeben und Erstellen von Anmerkungen sind jetzt für Android-Geräte verfügbar. Über das verbesserte Menü können Sie jetzt schneller und einfacher Anmerkungen erstellen und Einblicke freigeben, und Sie können Berichte mit Anmerkungen direkt in der Power BI-App freigeben.
+**Neu und verbessert: Anmerkung und Freigabe – schnelle Erkenntnisse** Alle Funktionen zum Freigeben und Erstellen von Anmerkungen sind jetzt für Android-Geräte verfügbar. Über das verbesserte Menü können Sie jetzt schneller und einfacher Anmerkungen erstellen und Einblicke freigeben, und Sie können Berichte mit Anmerkungen direkt in der Power BI-App freigeben.
 
 ### <a name="december-2016"></a>Dezember 2016
 Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Dezember 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
@@ -346,7 +346,7 @@ Lesen Sie die [Power BI-Featurezusammenfassung für mobile Apps vom November 201
 * Machen Sie sich mit den [mobilen Reporting Services-Berichten und -KPIs auf Ihrem Android-Tablet](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) vertraut.
 
 #### <a name="android-devices"></a>Android-Geräte
-**Vorschau: Mobile Anwendungsverwaltung von Intune** Power BI-Unterstützung für Microsoft Intune Mobile Application Manager (MAM) steht jetzt als Vorschaufeature für Power BI Pro-Benutzer auf Android-Geräten zur Verfügung. 
+**Vorschauversion: Mobile Anwendungsverwaltung von Intune** Power BI-Unterstützung für Microsoft Intune Mobile Application Manager (MAM) steht jetzt als Vorschaufeature für Power BI Pro-Benutzer auf Android-Geräten zur Verfügung. 
 
 **Favoriten** Kennzeichnen Sie Ihre bevorzugten Dashboards auf Ihrem Android-Gerät, und betrachten Sie alle Ihre [bevorzugten Power BI-Dashboards und mobilen Reporting Services-Berichte und -KPIs](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) an einem zentralen Ort. 
 
@@ -458,9 +458,9 @@ Die Mitteilungszentrale in der mobilen Power BI-App zeigt neue Daten oder Dashbo
 ### <a name="may-2016"></a>Mai 2016
 #### <a name="ios-devices-and-android-phones"></a>iOS-Geräte und Android-Telefone
 * **QR-Codes** sind jetzt auch **für Berichte** verfügbar. Scannen Sie den Code mit Ihrer Power BI-App, um direkt zu einem zugehörigen Bericht zu wechseln, ohne dass Navigation oder Suchen erforderlich sind.
-* **Verbesserte Datenverwaltung** für SQL Server 2016 Reporting Services: kürzere Ladezeiten und reduzierte Datennutzung auf Ihrem Gerät.
-* **Mobile Berichte mit SQL Server 2016-Design**: Lassen Sie sich Designs für mobile Berichte auf Ihrem Gerät anzeigen.
-* **Geofilter**: Filtern Sie Berichte nach Ihrem aktuellen Standort.
+* **Verbesserte Datenverwaltung** für SQL Server 2016 Reporting Services: Verringerte Ladezeiten und verringerter Datenverbrauch auf Ihrem Gerät.
+* **Mobilgeräteberichte mit SQL Server 2016-Design:** Zeigen Sie Designs für Mobilgeräteberichte auf Ihrem Gerät an.
+* **Geofilter:** Filtern Sie Berichte nach Ihrem aktuellen Standort.
 
 ### <a name="april-2016"></a>April 2016
 Weitere Details finden Sie im [April-Blogeintrag zu mobilen Power BI-Apps](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/).
@@ -523,7 +523,7 @@ Zeigen Sie Dashboards [auf Windows 10 Smartphones im Querformat an](mobile-apps-
 
 Zeigen Sie [Berichte auf Ihrem Windows 10 Smartphone an](mobile-reports-in-the-mobile-apps.md).
 
-Schnellere [Einblicke auf mobilen Windows 10 Dashboards](mobile-tiles-in-the-mobile-apps.md): Teilen Sie aus Ihrem Dashboard Momentaufnahmen von Kacheln, oder öffnen Sie dort direkt Ihre Berichte.
+Schnellere [Erkenntnisse zu Ihren Windows 10 Mobile-Dashboards](mobile-tiles-in-the-mobile-apps.md): Geben Sie eine Kachelmomentaufnahme frei, oder öffnen Sie einen Bericht direkt aus dem Dashboard.
 
 ### <a name="january-2016"></a>Januar 2016
 Alle Verbesserungen vom Januar sind bereits in der neuen [Power BI-App für Windows 10 Smartphones](mobile-windows-10-phone-app-get-started.md) enthalten, die im Dezember 2015 veröffentlicht wurde. Nun werden sie auch in die anderen Power BI-Apps für mobile Geräte eingeführt. Lesen Sie den Blogbeitrag zu diesen Verbesserungen.
@@ -536,7 +536,7 @@ Alle Verbesserungen vom Januar sind bereits in der neuen [Power BI-App für Wind
 
 **R-Kacheln und Webwidgets** Diese neuen Kacheltypen können Sie in Dashboards auf Ihrem mobilen Gerät anzeigen.
 
-**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../end-user-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
+**Bing-Dashboards** Im Power BI-Dienst können Sie jetzt [Dashboards mit Bing-Suchergebnissen erstellen](../../service-connect-to-services.md) und auf Ihrem Mobilgerät anzeigen.
 
 **Als Kacheln an Dashboards angeheftete Berichtsseiten** Sie können jetzt im Power BI-Dienst eine gesamte Berichtsseite an ein Dashboard anheften und dadurch Berichtsseiten in der Power BI-App auf Ihrem iPhone oder Android-Smartphone anzeigen.
 
@@ -599,22 +599,22 @@ Lesen Sie den [Blogbeitrag zu Power BI Mobile vpn Mitte Oktober](http://blogs.ms
 ### <a name="september-2015"></a>September 2015
 Verbesserungen an den mobilen Power BI-Apps – Android, iOS (iPhone und iPad) und Windows. Lesen Sie den [Blogbeitrag zu Power BI Mobile von Mitte September](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
-#### <a name="android"></a>Android
-* Unterstützung für Gruppenarbeitsbereiche: Zusammenarbeit mit Kollegen in Gruppenarbeitsbereichen. 
-* Unterstützung für nicht authentifizierte Benutzer: Bei einigen Szenarios, bei denen sich Benutzer nicht in der App anmelden können, haben wir eine schnelle und bequeme Möglichkeit entwickelt, sich an den Support zu wenden und Feedback zu senden.
+#### <a name="android"></a>Android-
+* Unterstützung für Gruppenarbeitsbereiche: Arbeiten Sie mit Kollegen in Gruppenarbeitsbereichen zusammen. 
+* Unterstützung für nicht authentifizierte Benutzer:  Für die wenigen Szenarios, bei denen sich Benutzer nicht in der App anmelden können, haben wir eine schnelle und bequeme Möglichkeit entwickelt, sich an den Support zu wenden und Feedback zu senden.
 * Verbesserte Benutzerfunktionalität beim Zugriff auf Dashboards mithilfe der rollenbasierten Sicherheit.          
 * Verbesserte Datenformatierung von Diagrammen und Ausrichtung aller Dashboardkacheln. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone und iPad)
 * Neue und verbesserte Navigation: Die neue Schubladennavigation maximiert die Bildschirmfläche und verbessert die Navigation in der gesamten App. 
-* Gruppenarbeitsbereiche: Zusammenarbeit mit Kollegen in Gruppenarbeitsbereichen. 
+* Gruppenarbeitsbereiche: Arbeiten Sie mit Kollegen in Gruppenarbeitsbereichen zusammen. 
 * Upgrade des Authentifizierungsprozesses: Neuerungen an der Qualität, Leistung und Funktionalität sorgen für einen verbesserten Authentifizierungsprozess bei der App, einschließlich der Unterstützung für SSO (Single Sign-On). 
 * Verbesserte Datendarstellung in Kacheln mit Liniendiagrammen, um die X-Achse besser zu verdichten.
 * Verbesserte Benutzerfunktionalität bei Verwendung der rollenbasierten Sicherheit.
 * Touch-optimierte Verbesserungen für Matrixdiagrammkacheln: Sie können nun problemlos durch die Matrixdaten scrollen und alle darin enthaltenen Daten einfach und intuitiv anzeigen.
 * Verbesserte Datenformatierung von Diagrammen und Ausrichtung von Dashboardkacheln. 
-* Entfernen des iOS 7-Supports: Um die höchstmögliche Sicherheit für Power BI beizubehalten, unterstützen wir nicht mehr länger Geräte mit iOS 7. iOS 8 und höher ist erforderlich. 
-* Senden von Feedback und Bewertungen in der App wurde hinzugefügt: Neue In-App-Funktion zum Senden von Feedback und Hinterlassen von Bewertungen, damit wir den Einfluss der Community auf unsere Roadmap erhöhen und Probleme einfach und direkt aus der App sammeln können.
+* Entfernung des iOS 7-Supports: Um die höchstmöglichen Sicherheitsstandards für Power BI beizubehalten, unterstützen wir Geräte mit iOS 7 nicht mehr. iOS 8 und höher ist erforderlich. 
+* Senden von Feedback und Bewertungen in der App wurde hinzugefügt: Eine In-App-Funktion zum Senden von Feedback und Hinterlassen von Bewertungen wurde hinzugefügt, damit wir den Einfluss der Community auf unsere Roadmap erhöhen und Probleme einfach und direkt aus der App sammeln können.
 
 #### <a name="windows"></a>Windows
 * Verbessertes Kartenkachelrendering im Fokusmodus, um die Bildschirmfläche zu maximieren.

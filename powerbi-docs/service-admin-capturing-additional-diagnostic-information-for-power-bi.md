@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a8ec433a6ebb620593648cdb222df0f60b2f21e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239220"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025164"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Erfassen von zusätzlichen Diagnoseinformationen
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Erfassen von zusätzlichen Diagnoseinformationen für Power BI
@@ -26,17 +27,17 @@ Diese Anweisungen bieten zwei mögliche Optionen für die manuelle Erfassung von
 2. Öffnen Sie die Edge-Entwicklertools, indem Sie F12 drücken.
 3. Daraufhin wird das Fenster „Entwicklungstools“ aufgerufen: 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Entwicklertools](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 4. Wechseln Sie zur Registerkarte „Netzwerk“. Es wird der Datenverkehr aufgelistet, der bereits erfasst wurde. 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Registerkarte „Netzwerk“ in Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 5. Sie können ihn Fenster durchsuchen und jedes Problem, das auftritt, reproduzieren. Sie können das Fenster „Entwicklertools“ während der Sitzung beliebig oft durch Drücken von F12 ausblenden und anzeigen.
 6. Um die Aufzeichnung zu beenden, können Sie das rote Quadrat auf der Registerkarte „Netzwerk“ des Entwicklertoolbereichs auswählen.
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Aufzeichnung beenden](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 7. Klicken Sie auf das Diskettensymbol, um die Aufzeichnung **nach HAR zu exportieren**.
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Datei exportieren](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 8. Geben Sie einen Dateinamen ein, und speichern Sie die HAR-Datei.
    
     Die HAR-Datei enthält alle Informationen über Netzwerkanforderungen zwischen dem Browserfenster und Power BI.  Dazu gehören die Aktivitäts-IDs für jede Anforderung, der genaue Zeitstempel für jede Anforderung sowie alle an den Client zurückgegebenen Fehlerinformationen.  Diese Ablaufverfolgung enthält außerdem die Daten, die zum Füllen der auf dem Bildschirm angezeigten visuellen Objekte verwendet werden.

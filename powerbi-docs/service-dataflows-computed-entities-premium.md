@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268087"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180666"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Verwenden berechneter Entitäten in Power BI Premium (Vorschau)
 
@@ -77,21 +77,26 @@ Das war‘s auch schon. Die Transformation erfolgt basierend auf den Daten im Da
 
 Beachten Sie, dass beim Entfernen des Arbeitsbereichs aus der Power BI Premium-Kapazität der zugehörige Dataflow nicht mehr aktualisiert wird. 
 
+Wenn Sie mit Dataflows arbeiten, die insbesondere im Azure Data Lake Storage Gen2-Konto einer Organisation erstellt wurden, funktionieren Entitäten und berechnete Entitäten nur ordnungsgemäß, wenn sich diese im selben Speicherkonto befinden. Weitere Informationen finden Sie unter [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+
+Zusätzlich sind verknüpfte Entitäten nicht für Dataflows verfügbar, die aus CDM-Ordnern erstellt wurden. Weitere Informationen finden Sie unter [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Dieser Artikel beschreibt berechnete Entitäten und Dataflows, die im Power BI-Dienst zur Verfügung stehen. Diese Artikel können ebenfalls hilfreich sein:
 
-
-* [Self-Service-Datenaufbereitung mit Dataflows](service-dataflows-overview.md)
+* [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Configure workspace dataflow settings (Preview) (Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion))](service-dataflows-configure-workspace-storage-settings.md)
+* [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md)
+* [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie in den folgenden Artikeln:
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
-* [Common Data Model – Übersicht](https://docs.microsoft.com/powerapps/common-data-model/overview)
+Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+* [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

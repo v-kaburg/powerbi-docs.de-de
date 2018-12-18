@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268364"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026705"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI-Verwaltungsportal
+# <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
 Mit dem Verwaltungsportal können Sie einen Power BI-*Mandanten* für Ihre Organisation verwalten. Das Portal stellt Elemente wie z.B. Nutzungsmetriken, Zugriff auf das Office 365 Admin Center und Einstellungen bereit.
 
@@ -105,15 +106,15 @@ Die folgende Abbildung zeigt die ersten beiden Abschnitte der Registerkarte **Ma
 
 Einstellungen können drei Zustände aufweisen:
 
-* **Für die gesamte Organisation deaktiviert**: Niemand in Ihrer Organisation kann dieses Feature verwenden.
+* **Für die gesamte Organisation deaktiviert:** Keine Person in Ihrer Organisation kann dieses Feature verwenden.
 
     ![Einstellung für alle deaktiviert](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Für die gesamte Organisation aktiviert**: Jeder in Ihrer Organisation kann dieses Feature verwenden.
+* **Für die gesamte Organisation aktiviert:** Jede Person in Ihrer Organisation kann dieses Feature verwenden.
 
     ![Einstellung für alle aktiviert](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Für einen Teilsatz der Organisation aktiviert**: Bestimmte Benutzer oder Gruppen in Ihrer Organisation können dieses Feature verwenden.
+* **Für eine Teilmenge der Organisation aktiviert:** Eine bestimmte Teilmenge der Benutzer oder Gruppen in Ihrer Organisation kann dieses Feature verwenden.
 
     Sie können das Feature für die gesamte Organisation mit Ausnahme einer bestimmten Gruppe von Benutzern aktivieren.
 
@@ -205,7 +206,7 @@ Die folgende Abbildung zeigt die Option **Meine gesamte Organisation** beim Erst
 
 Benutzer in der Organisation können Vorlageninhaltspakete erstellen, die in Power BI Desktop erstellte Datasets verwenden. [Weitere Informationen](template-content-pack-authoring.md)
 
-### <a name="push-apps-to-end-users"></a>Apps mittels Push an Endbenutzer übertragen
+### <a name="push-apps-to-end-users"></a>Apps mithilfe von Push an Endbenutzer übertragen
 
 Benutzer können Apps direkt und ohne Installation aus AppSource für Endbenutzer freigeben. [Weitere Informationen](service-create-distribute-apps.md)
 
@@ -225,7 +226,7 @@ Benutzer in der Organisation können Excel verwenden, um lokale Power BI-Dataset
 > [!NOTE]
 > Durch das Deaktivieren von **Daten exportieren** wird außerdem verhindert, dass Benutzer das Feature **In Excel analysieren** verwenden.
 
-### <a name="use-arcgis-maps-for-power-bi"></a>Verwenden von ArcGIS Maps for Power BI
+### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI verwenden
 
 Benutzer in der Organisation können die Visualisierung ArcGIS Maps for Power BI von Esri verwenden. [Weitere Informationen](power-bi-visualization-arcgis.md)
 
@@ -355,7 +356,7 @@ Um der Liste ein neues benutzerdefiniertes Visual hinzufügen, führen Sie die f
 
     * **Benutzerdefiniertes Visual benennen** (erforderlich): Geben Sie dem Visual einen kurzen Titel, damit die Benutzer von Power BI Desktop den Zweck leichter nachvollziehen können.
 
-    * **Symbol**: Die Symboldatei, die in der Benutzeroberfläche von Power BI Desktop angezeigt wird.
+    * **Symbol:** Die Symboldatei, die auf der Benutzeroberfläche von Power BI Desktop angezeigt wird.
 
     * **Beschreibung**: Eine kurze Beschreibung des Visuals, um den Benutzern zusätzlichen Kontext bereitzustellen
 

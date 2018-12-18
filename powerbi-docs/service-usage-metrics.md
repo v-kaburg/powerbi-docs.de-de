@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830330"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111540"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
 
@@ -167,24 +167,24 @@ Es ist wichtig zu verstehen, dass beim Vergleich von Nutzungsmetriken und Überw
 
 * Die Zahlen in Nutzungsmetriken können aufgrund von inkonsistenten Netzwerkverbindungen, Anzeigenblockern oder anderen Problemen, die das Senden von Ereignissen vom Client stören können, zu niedrig sein.
 * Bestimmte Ansichtstypen sind in den Nutzungsmetriken nicht enthalten, wie zuvor in diesem Artikel beschrieben.
-* In den Nutzungsmetriken kann es vorkommen, dass zu viele Aktivitäten gezählt werden – z.B., wenn der Client eine Aktualisierung durchführt, ohne dass eine Anforderung an den Power BI-Dienst zurückgesendet werden muss.
+* In den Nutzungsmetriken kann es vorkommen, dass zu viele Aktivitäten gezählt werden, z.B. wenn der Client eine Aktualisierung durchführt, ohne dass eine Anforderung an den Power BI-Dienst zurückgesendet werden muss.
 
 
 Neben dem Verständnis der möglichen Unterschiede zwischen Nutzungsmetriken und Überwachungsprotokollen können die folgenden Fragen und Antworten zu Nutzungsmetriken für Benutzer und Administratoren hilfreich sein:
 
-F: Ich kann keine Nutzungsmetriken für ein Dashboard oder einen Bericht ausführen. A: Sie können nur Nutzungsmetriken für Inhalte anzeigen, deren Besitzer Sie sind oder für die Sie über Bearbeitungsberechtigungen verfügen.
+F:    Ich kann keine Nutzungsmetriken auf einem Dashboard oder Bericht ausführen. A:    Sie können nur Nutzungsmetriken für Inhalte sehen, die Sie besitzen oder für die Sie über eine Berechtigung zum Bearbeiten verfügen.
 
-F: Zeichnen Nutzungsmetriken Ansichten aus eingebetteten Dashboards und Berichten auf?
-A: Nutzungsmetriken unterstützen derzeit nicht das Aufzeichnen der Nutzung eingebetteter Dashboards und Berichte, einschließlich des Ablaufs [Im Web veröffentlichen](service-publish-to-web.md).          In diesen Fällen wird empfohlen, zum Nachverfolgen der Nutzung für die Host-App oder das Hostportal Webanalyseplattformen zu verwenden.
+F:    Zeichnen Nutzungsmetriken Ansichten aus eingebetteten Dashboards und Berichten auf?
+A:    Nutzungsmetriken unterstützen derzeit nicht das Aufzeichnen der Nutzung eingebetteter Dashboards und Berichte, einschließlich des Flows [Im Web veröffentlichen](service-publish-to-web.md).          In diesen Fällen wird empfohlen, zum Nachverfolgen der Nutzung für die Host-App oder das Hostportal Webanalyseplattformen zu verwenden.
 
-F: Ich kann für keine Inhalte Nutzungsmetriken erfassen.
-A1: Administratoren können diese Funktion für ihre Organisation deaktivieren.  Wenden Sie sich an Ihren Administrator, um festzustellen, ob dies der Fall ist.
-A2: Nutzungsmetriken sind eine Funktion von Power BI Pro.
+F:    Ich kann für keine Inhalte Nutzungsmetriken erfassen.
+A1:    Administratoren können diese Funktion für ihre Organisation deaktivieren.  Wenden Sie sich an Ihren Administrator, um festzustellen, ob dies der Fall ist.
+A2:    Nutzungsmetriken sind eine Funktion von Power BI Pro.
 
-F: Die Daten scheinen nicht aktuell zu sein. Beispielsweise werden Verteilungsmethoden nicht angezeigt, Berichtsseiten fehlen usw. A: Bis zur Aktualisierung der Daten kann es bis zu 24 Stunden dauern.
+F:    Die Daten scheinen nicht aktuell zu sein. Beispielsweise werden Verteilungsmethoden nicht angezeigt, Berichtsseiten fehlen usw. A:    Die Aktualisierung der Daten kann bis zu 24 Stunden dauern.
 
-F: Es gibt vier Berichte im Arbeitsbereich, aber der Bericht zu den Nutzungsmetriken zeigt nur drei an.
-A: Der Bericht zu den Nutzungsmetriken enthält nur die Berichte (oder Dashboards), auf die in den vergangenen 90 Tagen zugegriffen wurde.  Wenn Ihnen ein Bericht (oder ein Dashboard) nicht angezeigt wird, wurde es wahrscheinlich seit mehr als 90 Tagen nicht verwendet.
+F:    Es gibt vier Berichte im Arbeitsbereich, aber der Bericht zu den Nutzungsmetriken zeigt nur drei an.
+A:    Der Bericht zu den Nutzungsmetriken enthält nur die Berichte (oder Dashboards), auf die in den vergangenen 90 Tagen zugegriffen wurde.  Wenn Ihnen ein Bericht (oder ein Dashboard) nicht angezeigt wird, wurde es wahrscheinlich seit mehr als 90 Tagen nicht verwendet.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

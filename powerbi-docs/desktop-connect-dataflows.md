@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 6d602b19141c6277fe7ec6a7627749f57f6e25a6
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51265930"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180712"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Verbinden mit Daten, die von Power BI-Dataflows in Power BI Desktop (Beta) erstellt wurden
 In **Power BI Desktop** können Sie eine Verbindung mit Daten herstellen, die von **Power BI-Dataflows** wie alle anderen Datenquellen in Power BI Desktop erstellt wurden.
@@ -36,6 +36,20 @@ Um diese Betaversion vom **Power BI-Dataflowconnector** zu verwenden, müssen Si
 
 Sie können die Leistung der Datenerfassung für Dataflows verbessern. Wenn z.B. die erfasste Datengröße zu groß ist, um von **Power BI Desktop** auf Ihrem Computer verwaltet zu werden, können Sie verknüpfte und berechnete Entitäten in Dataflows zum Aggregieren der Daten (in Dataflows) verwenden und nur vorbereitete, aggregierte Daten erfassen. Dadurch erfolgt die Verarbeitung großer Datenmengen online in Dataflows, anstatt lokal in Ihrer ausgeführten **Power BI Desktop**-Instanz. Mit diesem Ansatz kann Power BI Desktop kleinere Datenmengen erfassen und die Arbeit mit Dataflows schnell und reaktionsschnell gestalten.
 
+## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
+
+Die meisten Dataflows befinden sich im Mandanten des Power BI-Diensts. Benutzer von **Power BI Desktop** können jedoch nur auf Dataflows zugreifen, die in einem Azure Data Lake Storage Gen2-Konto gespeichert sind, wenn sie der Besitzer des jeweiligen Dataflows oder explizit für den CDM-Ordner des jeweiligen Dataflows autorisiert sind. Sehen Sie sich das folgende Beispiel an:
+
+1.  Anna erstellt einen neuen App-Arbeitsbereich und konfiguriert ihn so, dass Dataflows im Data Lake Ihrer Organisation gespeichert werden.
+2.  Ben ist ebenfalls Mitglied des Arbeitsbereichs, den Anna erstellt hat, und möchte Power BI Desktop und den Dataflowconnector verwenden, um Daten aus Annas Dataflow zu erhalten.
+3.  Da Ben im Data Lake-Konto nicht als autorisierter Benutzer des CDM-Ordners des Dataflows hinzugefügt wurde, erhält er eine Fehlermeldung.
+
+    ![Fehlermeldung beim Versuch, Dataflow zu nutzen](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+
+Ben müssen Leseberechtigungen für den CDM-Ordner und die darin enthaltenen Dateien gewährt werden, um dieses Problem zu beheben. Weitere Informationen zum Gewähren des Zugriffs auf den CDM-Ordner finden Sie in [diesem Artikel](https://go.microsoft.com/fwlink/?linkid=2029121).
+
+
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 Power BI-Dataflows bieten Ihnen viele interessante Möglichkeiten. Weitere Informationen finden Sie in den folgenden Artikeln:
@@ -45,6 +59,13 @@ Power BI-Dataflows bieten Ihnen viele interessante Möglichkeiten. Weitere Infor
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+
+Weitere Informationen zur Integration in Azure Data Lake Storage Gen2 finden Sie in den folgenden Artikeln:
+
+* [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
+* [Configure workspace dataflow settings (Preview) (Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion))](service-dataflows-configure-workspace-storage-settings.md)
+* [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md)
+* [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Es gibt außerdem nützliche Artikel über **Power BI Desktop**:
 

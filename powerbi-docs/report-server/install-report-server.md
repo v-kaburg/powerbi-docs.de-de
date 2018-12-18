@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565910"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180942"
 ---
 # <a name="install-power-bi-report-server"></a>Installieren von Power BI-Berichtsserver
 
@@ -26,6 +26,10 @@ Um Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichters
 
 ## <a name="before-you-begin"></a>Vorbereitung
 Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver](system-requirements.md) lesen.
+
+ > [!IMPORTANT]
+ > Während Sie den Power BI-Berichtsserver in einer Umgebung mit schreibgeschütztem Domänencontroller (RODC) installieren können, benötigt der Power BI-Berichtsserver Zugang zu einem Domänencontroller mit Lese-/Schreibzugriff, um wie vorgesehen zu funktionieren. Wenn der Power BI-Berichtsserver nur Zugang zu einem RODC hat, treten beim Verwalten des Diensts möglicherweise Fehlermeldungen auf.
+
 
 ### <a name="power-bi-report-server-product-key"></a>Product Key für den Power BI-Berichtsserver
 

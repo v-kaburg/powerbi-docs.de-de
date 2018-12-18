@@ -1,37 +1,36 @@
 ---
-title: Verwenden der Power BI-Beispiele
-description: Verwenden der Power BI-Beispiele
+title: Herstellen einer Verbindung mit Beispielen im Power BI-Dienst
+description: Erfahren Sie, wie Sie Beispiele im Power BI-Dienst installieren und durchsuchen.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718020"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180965"
 ---
-# <a name="the-power-bi-samples"></a>Die Power BI-Beispiele
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Herstellen einer Verbindung mit Beispielen im Power BI-Dienst
 
-Es wird empfohlen, mit dem Artikel [Beispieldatasets für Power BI](sample-datasets.md) zu beginnen. In diesem Artikel erfahren Sie alles über die Beispiele: wie Sie sie erhalten, wo Sie sie speichern und wie Sie sie verwenden, sowie einige der Geschichten, die jedes Beispiel erzählen kann. Kehren Sie dann zu diesem Tutorial zurück, nachdem Sie die Grundlagen verstanden haben.   
+Dieses Tutorial beschreibt Folgendes: 
+- Importieren eines Beispielinhaltspakets, Hinzufügen des Pakets zum Power BI-Dienst und Öffnen der Inhalte. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. 
+- Öffnen einer PBIX-Beispieldatei in Power BI Desktop.
 
-### <a name="prerequisites"></a>Voraussetzungen
+Wenn Sie zuerst weitere Hintergrundinformationen erhalten möchten, empfehlen wir, mit dem Artikel [Welche Beispieldaten sind für die Verwendung mit Power BI verfügbar?](sample-datasets.md) zu beginnen. In diesem Artikel erfahren Sie alles über die Beispiele: wie Sie sie erhalten, wo Sie sie speichern und wie Sie sie verwenden, sowie einige der Geschichten, die jedes Beispiel erzählen kann. Kehren Sie dann zu diesem Tutorial zurück, nachdem Sie die Grundlagen verstanden haben.   
+
+## <a name="prerequisites"></a>Voraussetzungen
 Die Beispiele sind für den Power BI-Dienst und für Power BI Desktop verfügbar. Wir verwenden das Analysebeispiel für den Einzelhandel.
 
 Das in diesem Tutorial verwendete Beispielinhaltspaket zur *Einzelhandelsanalyse* besteht aus einem Dashboard, einem Bericht und einem Dataset.
 Um sich mit diesem speziellen Inhaltspaket und seinem Szenario vertraut zu machen, sollten Sie zunächst [eine Tour durch das Analysebeispiel für Einzelhandel unternehmen](sample-retail-analysis.md).
-
-## <a name="about-this-tutorial"></a>Über dieses Tutorial
-Dieses Tutorial beschreibt Folgendes: 
-- Importieren eines Beispielinhaltspakets, Hinzufügen des Pakets zum Power BI-Dienst und Öffnen der Inhalte. Ein *Inhaltspaket* ist ein Beispieltyp, in dem das Dataset mit einem Dashboard und einem Bericht gebündelt ist. 
--  Öffnen einer PBIX-Beispieldatei in Power BI Desktop.
-
 
 ## <a name="samples-and-power-bi-service"></a>Beispiele und Power BI-Dienst
 

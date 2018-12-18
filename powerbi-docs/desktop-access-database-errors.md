@@ -4,29 +4,30 @@ description: Beheben von Problemen beim Importieren von Access-Datenbanken und X
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76423f26203da23658b621d7d01565c04ca21709
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: a1a350a8348dce5ba2553873077a0dfb102a187c
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578173"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53024727"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Beheben von Problemen beim Importieren von Access- und XLS-Dateien in Power BI Desktop
 In **Power BI Desktop** verwenden sowohl **Access-Datenbanken** als auch frühe Versionen von **Excel-Arbeitsmappen** (XLS-Dateien vom Typ Excel 97 bis 2003) das *Access-Datenbankmodul*. Es gibt drei häufige Situationen, die dazu führen können, dass die Access-Datenbank-Engine nicht ordnungsgemäß funktioniert:
 
-### <a name="situation-1-no-access-database-engine-installed"></a>Situation 1: Es ist keine Access-Datenbank-Engine installiert
+## <a name="situation-1-no-access-database-engine-installed"></a>Situation 1: Es ist keine Access-Datenbank-Engine installiert
 Wenn die Power BI Desktop-Fehlermeldung angibt, dass das Access-Datenbankmodul nicht installiert ist, müssen Sie die Version des Access-Datenbankmoduls (entweder 32-Bit oder 64-Bit) installieren, die Ihrer Version von Power BI Desktop entspricht. Sie können das Access-Datenbankmodul von der [Downloadseite](http://www.microsoft.com/download/details.aspx?id=13255) aus installieren.
 
 >[!NOTE]
 >Wenn sich die Bitversion des installierten Access-Datenbank-Engine von der Bitversion Ihrer Microsoft Office-Installation unterscheidet, können Office-Anwendungen die Access-Datenbank-Engine nicht verwenden.
 
-### <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Situation 2: Die Bitversion der Access-Datenbank-Engine (32-Bit oder 64-Bit) unterscheidet sich von Ihrer Power BI Desktop-Bitversion
+## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>Situation 2: Die Bitversion der Access-Datenbank-Engine (32 Bit oder 64 Bit) unterscheidet sich von Ihrer Power BI Desktop-Bitversion
 Diese Situation tritt häufig auf, wenn es sich bei der installierten Version von Microsoft Office um eine 32-Bit-Version und bei Power BI Desktop um eine 64-Bit-Version handelt. Das gleiche Problem kann auch im umgekehrten Fall auftreten, sodass nicht übereinstimmende Bit-Versionen in jedem Fall problematisch sind. (Wenn Sie ein Office 365-Abonnement verwenden, kann ein anderes Problem auftreten. Unter **Situation 3** finden Sie die entsprechende Lösung.) Der Fehler durch nicht übereinstimmende Bit-Versionen kann mithilfe jeder dieser Lösungen behoben werden:
 
 1. Ändern Sie die Power BI Desktop-Version, sodass diese mit der Bitversion Ihrer Microsoft Office-Installation übereinstimmt. Um die Bitversion von Power BI Desktop zu ändern, deinstallieren Sie Power BI Desktop, und installieren Sie anschließend die Version von Power BI Desktop, die Ihrer Office-Installation entspricht. Zum Auswählen einer Version von Power BI Desktop wählen Sie auf der Downloadseite für Power BI Desktop **Erweiterte Downloadoptionen**aus.
@@ -47,11 +48,11 @@ Diese Situation tritt häufig auf, wenn es sich bei der installierten Version vo
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situation 3: Probleme mit Access- oder XLS-Dateien bei einem Office 365-Abonnement
+## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situation 3: Probleme mit Access- oder XLS-Dateien bei einem Office 365-Abonnement
 Wenn Sie ein Office 365-Abonnement wie **Office 2013** oder **Office 2016** verwenden, wird der Anbieter der Access-Datenbank-Engine an einem virtuellen Registrierungsstandort registriert, auf den *ausschließlich* Office-Prozesse zugreifen können. Da es kein Office-Prozess ist, kann das Mashup-Modul (führt Power BI Desktop sowie Excel-Versionen aus, die nicht Teil von Office 365 sind) den Anbieter des Access-Datenbankmoduls nicht verwenden.
 
 Um das Problem zu lösen, können Sie die Redistributable des Access-Datenbankmoduls, die der Bit-Version Ihrer Power BI Desktop-Installation entspricht, [herunterladen und installieren](http://www.microsoft.com/download/details.aspx?id=13255) (zu Bit-Versionen siehe die Abschnitte oben).
 
-### <a name="other-situations-that-cause-import-issues"></a>Weitere für den Import problematische Situationen
+## <a name="other-situations-that-cause-import-issues"></a>Weitere für den Import problematische Situationen
 Wir sind bemüht, im Zusammenhang mit Access- und XLS-Dateien auftretende Probleme möglichst umfassend darzustellen. Wenn ein Problem auftritt, das in diesem Artikel nicht behandelt wird, können Sie sich mit entsprechenden Fragen gerne an den [Power BI-Support](https://powerbi.microsoft.com/support/) wenden. Wir erweitern unsere Artikel regelmäßig um Lösungen für Probleme, die viele Kunden betreffen.
 

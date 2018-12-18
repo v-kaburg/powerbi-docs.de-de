@@ -1,31 +1,32 @@
 ---
-title: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
-description: Erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Ihre Organisation in eine Web-App integrieren bzw. einbetten.
+title: Embedded Analytics für das Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
+description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Organisation in eine Anwendung integrieren bzw. einbetten. Hier erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396863"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180758"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
 
-Dieses Tutorial veranschaulicht die Vorgehensweise beim Integrieren eines Berichts in eine Anwendung. Verwenden Sie das Power BI .NET SDK zusammen mit der Power BI-JavaScript-API, um Power BI für Ihre Organisation in eine Anwendung einzubetten. In Power BI können Sie mit **user owns data** (Benutzer ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in Ihre Anwendung einbetten. Mit **user owns data** (Benutzer ist Besitzer der Daten) kann Ihre Anwendung den Power BI-Dienst erweitern.
+In **Power BI** können Sie mit User Owns Data (Benutzer ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Mit **User Owns Data** (Benutzer ist Besitzer der Daten) kann Ihre Anwendung den Power BI-Dienst erweitern, um Embedded Analytics zu nutzen. Dieses Tutorial veranschaulicht die Vorgehensweise beim Integrieren eines Berichts in eine Anwendung. Verwenden Sie das Power BI .NET SDK mit der Power BI-JavaScript-API, um Power BI für Ihre Organisation in eine Anwendung einzubetten.
 
-![Einbetten eines Power BI-Berichts](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+![Power BI Embed Report](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 In diesem Tutorial lernen Sie Folgendes:
->[!div class="checklist"]
->* Registrieren einer Anwendung in Azure
->* Einbetten eines Power BI-Berichts in eine App
+> [!div class="checklist"]
+> * Registrieren einer Anwendung in Azure
+> * Einbetten eines Power BI-Berichts in eine App
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -40,9 +41,9 @@ Sie benötigen zunächst ein Power BI Pro-Konto und ein Microsoft Azure-Abonneme
 
 Stellen Sie vor dem Einbetten von Berichten, Dashboards oder Kacheln in Ihre Anwendung sicher, dass Ihre Umgebung für Einbettungsvorgänge eingerichtet ist. Führen Sie im Rahmen der Einrichtung eine der folgenden Aktionen aus:
 
-- Sie können sich mit dem [Setuptool für die Einbettung](https://aka.ms/embedsetup/UserOwnsData) vertraut machen, damit Sie schnell beginnen und eine Beispielanwendung herunterladen können. In dieser wird Ihnen ausführlich erläutert, wie Sie eine Umgebung erstellen und einen Bericht einbetten können.
+* Sie können sich mit dem [Setuptool für die Einbettung](https://aka.ms/embedsetup/UserOwnsData) vertraut machen, damit Sie schnell beginnen und eine Beispielanwendung herunterladen können. In dieser wird Ihnen ausführlich erläutert, wie Sie eine Umgebung erstellen und einen Bericht einbetten können.
 
-- Führen Sie die Schritte in den folgenden Abschnitten aus, um die Umgebung manuell einzurichten.
+* Führen Sie die Schritte in den folgenden Abschnitten aus, um die Umgebung manuell einzurichten.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Registrieren einer Anwendung in Azure Active Directory
 
@@ -60,13 +61,13 @@ Registrieren Sie Ihre Anwendung in Azure Active Directory, damit die Anwendung a
 
     ![Neue App-Registrierung](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung . Verwenden Sie bei **user owns data** (Benutzer ist Besitzer der Daten) für den **Anwendungstyp** die Option **Web-App/API**. Sie müssen auch eine **Anmelde-URL** angeben, die von Azure AD zur Rückgabe von Tokenantworten verwendet wird. Geben Sie einen für Ihre Anwendung spezifischen Wert ein. Ein Beispiel hierfür ist `http://localhost:13526/`.
+4. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung . Verwenden Sie bei **user owns data** (Benutzer ist Besitzer der Daten) für den **Anwendungstyp** die Option **Web-App/API**. Geben Sie eine **Anmelde-URL** an, die von Azure AD zur Rückgabe von Tokenantworten verwendet wird. Geben Sie einen für Ihre Anwendung spezifischen Wert ein. Ein Beispiel hierfür ist `http://localhost:13526/`.
 
     ![Erstellen einer App](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Anwenden von Berechtigungen auf die Anwendung in Azure Active Directory
 
-Sie müssen neben den Einstellungen auf der App-Registrierungsseite zusätzliche Berechtigungen für die Anwendung aktivieren. Melden Sie sich zum Aktivieren von Berechtigungen mit einem globalen Administratorkonto an.
+Aktivieren Sie neben den Einstellungen auf der App-Registrierungsseite zusätzliche Berechtigungen für Ihre Anwendung. Melden Sie sich zum Aktivieren von Berechtigungen mit einem globalen Administratorkonto an.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Verwenden des Azure Active Directory-Portals
 
@@ -158,7 +159,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Inhalt in eine Beispielanwendun
 
     ![User Owns Data-Anwendungsbeispiel](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Öffnen Sie in der Beispielanwendung die Datei **Cloud.config**. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie einige Felder auffüllen: **ApplicationID** and **ApplicationSecret**.
+2. Öffnen Sie in der Beispielanwendung die Datei **Cloud.config**. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie einige Felder auffüllen: **ApplicationID** und **ApplicationSecret**.
 
     ![Datei „Cloud.config“](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -168,69 +169,69 @@ Führen Sie die folgenden Schritte aus, um Ihren Inhalt in eine Beispielanwendun
 
     1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 
-        ![Dashboard im Azure-Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Dashboard im Azure-Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. Wählen Sie im Navigationsbereich auf der linken Seite die Option **Alle Dienste** und anschließend **App-Registrierungen** aus.
+    2. Wählen Sie im Navigationsbereich auf der linken Seite die Option **Alle Dienste** und anschließend **App-Registrierungen** aus.
 
-        ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Wählen Sie die Anwendung aus, die **ApplicationID** verwenden muss.
+    3. Wählen Sie die Anwendung aus, die **ApplicationID** verwenden muss.
 
-        ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Ihnen müsste eine **Anwendungs-ID** angezeigt werden, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **ApplicationID** für die Anwendung.
+    4. Ihnen müsste eine **Anwendungs-ID** angezeigt werden, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **ApplicationID** für die Anwendung.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Geben Sie für **ApplicationSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.
+    Geben Sie für **ApplicationSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.
 
-    1. Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
+    Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
 
-        1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
+    1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
 
-            ![Azure-Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure-Portal](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. Wählen Sie im Navigationsbereich auf der linken Seite die Option **Alle Dienste** und anschließend **App-Registrierungen** aus.
+    2. Wählen Sie im Navigationsbereich auf der linken Seite die Option **Alle Dienste** und anschließend **App-Registrierungen** aus.
 
-            ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
+    3. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
 
-            ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. Wählen Sie **Einstellungen**aus.
+    4. Wählen Sie **Einstellungen**aus.
 
-            ![„Einstellungen“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![„Einstellungen“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. Klicken Sie auf **Schlüssel**.
+    5. Klicken Sie auf **Schlüssel**.
 
-            ![„Schlüssel“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![„Schlüssel“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. Geben Sie in das Feld **Beschreibung** einen Namen ein, und wählen Sie eine Dauer aus. Klicken Sie anschließend auf **Speichern**, um den **Wert** für Ihre Anwendung abzurufen. Wenn Sie den Bereich **Schlüssel** nach dem Speichern des Schlüsselwerts schließen, wird das Wertfeld nur als ausgeblendet angezeigt. An diesem Punkt können Sie den Schlüsselwert nicht abrufen. Wenn Sie den Schlüsselwert verlieren, müssen Sie im Azure-Portal einen neuen erstellen.
+    6. Geben Sie in das Feld **Beschreibung** einen Namen ein, und wählen Sie eine Dauer aus. Klicken Sie anschließend auf **Speichern**, um den **Wert** für Ihre Anwendung abzurufen. Wenn Sie den Bereich **Schlüssel** nach dem Speichern des Schlüsselwerts schließen, wird das Wertfeld nur als ausgeblendet angezeigt. An diesem Punkt können Sie den Schlüsselwert nicht abrufen. Wenn Sie den Schlüsselwert verlieren, müssen Sie im Azure-Portal einen neuen erstellen.
 
-        ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. Geben Sie als **groupId** die App-Arbeitsbereichs-GUID aus Power BI ein.
+    7. Geben Sie als **groupId** die App-Arbeitsbereichs-GUID aus Power BI ein.
 
-        ![groupId eingeben](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![groupId eingeben](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. Geben Sie als **groupId** die Berichts-GUID aus Power BI ein.
+    8. Geben Sie als **groupId** die Berichts-GUID aus Power BI ein.
 
-        ![reportId eingeben](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![reportId eingeben](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Führen Sie die Anwendung aus:
 
-    1. Wählen Sie zunächst in **Visual Studio** die Option **Ausführen** aus.
+    Wählen Sie in **Visual Studio** die Option **Ausführen** aus.
 
-        ![Ausführen der Anwendung](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![Ausführen der Anwendung](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. Klicken Sie dann auf **Bericht abrufen**.
+    Klicken Sie dann auf **Bericht abrufen**.
 
-        ![Inhalt auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![Inhalt auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. Jetzt können Sie den Bericht in der Beispielanwendung anzeigen.
+    Jetzt können Sie den Bericht in der Beispielanwendung anzeigen.
 
-        ![Bericht in der Anwendung anzeigen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Bericht in der Anwendung anzeigen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Einbetten von Inhalt in Ihre Anwendung
 

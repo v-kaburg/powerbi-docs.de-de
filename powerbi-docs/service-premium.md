@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717629"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025440"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Was ist Microsoft Power BI Premium?
 
@@ -31,7 +32,7 @@ Auf der folgenden Abbildung wird die Beziehung zwischen Premium-Kapazitäten und
 
 ![Illustration von Power BI Premium](media/service-premium/premium-chart.png)
 
-| Area | Beschreibung |
+| Fläche | Beschreibung |
 | --- | --- |
 | **(1)** Elemente innerhalb einer Premium-Kapazität | <ul><li>Für das Zugreifen auf App-Arbeitsbereiche (als Mitglied oder Administrator) und das Veröffentlichen von Apps ist eine Power BI Pro-Lizenz erforderlich.<li>Das Freigeben einer App erfordert eine Pro-Lizenz, das Nutzen einer App jedoch nicht.<li>Alle Dashboardempfänger können unabhängig der ihnen zugewiesenen Lizenz Datenwarnungen festlegen.<li>REST-APIs zum Einbetten verwenden ein Dienstkonto mit einer Pro-Lizenz anstelle eines Benutzerkontos.</ul> |
 | **(2)** Mein Arbeitsplatz in einer gemeinsam genutzten Kapazität | <ul><li>Sowohl die Freigabe und die Nutzung einer App erfordern eine Pro-Lizenz.</ul> |
@@ -45,11 +46,11 @@ In der folgenden Tabelle finden Sie eine Zusammenfassung der Unterschiede zwisch
 |  | Gemeinsam genutzte Kapazität | Power BI Premium-Kapazität |
 | --- | --- | --- |
 | **Aktualisierungsrate** |8/Tag |48/Tag |
-| **Isolation mit dedizierter Hardware** |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar") |
+| **Isolation mit dedizierter Hardware** |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
 | **Enterprise-Verteilung an** _**alle Benutzer**_ | | |
-| Apps und Freigabe |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar")<sup>1</sup> |
-| Eingebettete API und Steuerelemente |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar")<sup>2</sup> |
-| **Lokale Veröffentlichung von Power BI-Berichten** |![](media/service-premium/not-available.png "Nicht verfügbar") |![](media/service-premium/available.png "Verfügbar") |
+| Apps und Freigabe |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
+| Eingebettete API und Steuerelemente |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png)<sup>2</sup> |
+| **Lokale Veröffentlichung von Power BI-Berichten** |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> Weitere Informationen finden Sie unter [Features by license type (Power BI-Features nach Lizenztyp)](service-features-license-type.md).*  
@@ -88,7 +89,7 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 Stellen Sie sich eine Workload in Power BI als einen der vielen Dienste vor, die Sie Benutzern zur Verfügung stellen können. Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist.
 
-Nun werden zwei weitere Workloads in der Vorschau unterstützt: **Paginierte Berichte** und **Dataflows**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
+Nun werden zwei weitere Workloads in der Vorschauversion unterstützt: **Paginierte Berichte** und **Dataflows**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
 
 ### <a name="default-memory-settings"></a>Standardeinstellungen für den Arbeitsspeicher
 
@@ -113,9 +114,9 @@ Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeich
 
 Wenn Sie die Workload für paginierte Berichte verwenden, beachten Sie die folgenden Aspekte.
 
-* **Speicherbelegung in paginierten Berichten**: Mit paginierten Berichten können Sie Ihren eigenen Code beim Rendern eines Berichts auszuführen (z.B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
+* **Speicherbelegung in paginierten Berichten:** Mit paginierten Berichten können Sie Ihren eigenen Code beim Rendern eines Berichts ausführen (z. B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
 
-* **Paginierte Berichte sind nicht verfügbar**: Es kann selten vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
+* **Paginierte Berichte sind nicht verfügbar:** In seltenen Fällen kann es vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
 

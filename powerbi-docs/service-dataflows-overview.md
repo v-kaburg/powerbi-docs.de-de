@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267996"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180827"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Self-Service-Datenaufbereitung in Power BI (Vorschau)
 
@@ -68,6 +68,7 @@ Power BI lässt sich so konfigurieren, dass Dataflowdaten im Azure Data Lake Sto
 
 Power BI kann auch mit Ordnern mit schematisierten Daten im Common Data Model-Format verknüpft werden, die im Azure Data Lake Storage-Konto Ihrer Organisation gespeichert sind. Diese Ordner können von Diensten wie den Azure-Datendiensten erstellt werden. Wenn Analysten eine Verbindung mit diesen Ordnern herstellen, können sie in Power BI nahtlos mit diesen Daten arbeiten. 
 
+Weitere Informationen zu Azure Data Lake Storage Gen2 und zur Integration von Dataflows, z. B. wie Dataflows erstellt werden, die im Azure Data Lake-Repository Ihrer Organisation gespeichert sind, finden Sie im Artikel [Dataflows and Azure Data Lake integration (Preview) (Dataflows und Azure Data Lake-Integration (Vorschauversion))](service-dataflows-azure-data-lake-integration.md).
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Dataflowfeatures in Power BI Premium
 
@@ -105,9 +106,6 @@ Durch das Speichern von Geschäftsdaten im standardisierten **Common Data Model*
 * Vorstellen von Dataflows für Entwickler
 
 
-
-
-
 ## <a name="next-steps"></a>Nächste Schritte
 
 Dieser Artikel bietet einen Überblick über die Self-Service-Datenaufbereitung für Big Data in Power BI und die vielfältigen Verwendungsoptionen. Die folgenden Artikel gehen näher auf gängige Anwendungsszenarien für Dataflows ein. 
@@ -116,11 +114,12 @@ Dieser Artikel bietet einen Überblick über die Self-Service-Datenaufbereitung 
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 
 Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie in den folgenden Artikeln:
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)
 * [Konfigurieren geplanter Aktualisierungen](refresh-scheduled-refresh.md)
 
-Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
-* [Common Data Model – Übersicht](https://docs.microsoft.com/powerapps/common-data-model/overview)
+Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
+* [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
 

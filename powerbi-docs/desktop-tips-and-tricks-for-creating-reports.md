@@ -1,20 +1,21 @@
 ---
 title: Tipps und Tricks zum Erstellen von Berichten in Power BI
-description: Tipps und Tricks zum Erstellen von Berichten in Power BI und Power BI Desktop
+description: Bewährte Methoden zum Erstellen von Berichten im Power BI-Dienst und in Power BI Desktop
 author: davidi
 manager: kfile
 ms.reviewer: willthom
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c68c29449873e22c7e338279e80f049d522ba347
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830284"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026358"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -27,7 +28,7 @@ Weitere Informationen finden Sie im [Power Query-Ressourcencenter](https://suppo
 Sie können sich auch die [Formelreferenz](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) ansehen.
 
 ## <a name="data-types-in-query-editor"></a>Datentypen im Abfrage-Editor
-Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, erfolgt eine Datentyperkennung nach bester Vermutung.  Bei Verwendung von Formeln kann es vorkommen, dass Datentypeinstellungen für Spalten nicht beibehalten werden. Sie sollten die Datentypen der Spalten auf Richtigkeit prüfen, nachdem Sie einen der folgenden Vorgänge ausgeführt haben: erstmaliges Laden von Daten auf die Registerkarte für Abfragen, Festlegen der ersten Zeile als Überschrift, Hinzufügen einer Spalte, Gruppieren nach, Zusammenführen, Anfügen. Dies gilt auch, bevor Sie bestätigen, dass die Daten erstmalig geladen werden sollen.
+Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, erfolgt eine Datentyperkennung nach bester Vermutung.  Bei Verwendung von Formeln kann es vorkommen, dass Datentypeinstellungen für Spalten nicht beibehalten werden. Sie sollten die Datentypen der Spalten auf Richtigkeit prüfen, nachdem Sie einen der folgenden Vorgänge ausgeführt haben:  Erstmaliges Laden von Daten auf die Registerkarte für Abfragen, Festlegen der ersten Zeile als Überschrift, Hinzufügen einer Spalte, Gruppieren nach, Zusammenführen, Anfügen. Dies gilt auch, bevor Sie bestätigen, dass die Daten erstmalig geladen werden sollen.
 
 Ein zu beachtender wichtiger Punkt: Kursivformatierung im Datenraster bedeutet nicht, dass der Datentyp richtig festgelegt ist, sondern bedeutet nur, dass die Daten nicht als Text angesehen werden.
 

@@ -1,6 +1,6 @@
 ---
-title: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden.'
-description: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden.'
+title: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden'
+description: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -9,24 +9,25 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ea5312178d33986ebc3f4b9e8610012c87d54216
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242362"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026029"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden.
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden
 
 >[!NOTE]
 >Dieser Artikel gilt für Excel 2007 und höher.
 
 Beim Importieren einer Excel-Arbeitsmappe in Power BI wird möglicherweise die folgende Fehlermeldung angezeigt:
 
-*Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden Die Daten werden möglicherweise nicht ordnungsgemäß formatiert. Sie müssen die Arbeitsmappe in Excel bearbeiten und dann erneut importieren.*
+*Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden. Die Daten werden möglicherweise nicht ordnungsgemäß formatiert. Sie müssen die Arbeitsmappe in Excel bearbeiten und dann erneut importieren.*
 
-![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Daten in Arbeitsmappe nicht gefunden](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>Schnelle Lösung
 1. Bearbeiten Sie die Arbeitsmappe in Excel.
@@ -46,28 +47,28 @@ Wenn Sie eine Excel-Arbeitsmappe importieren, sucht Power BI nach diesen Tabelle
     >[!NOTE]
     >Die hier verwendeten Abbildungen zeigen Excel 2013. Wenn Sie eine andere Version verwenden, sind die Schritte identisch, die Abbildungen können jedoch leicht abweichen.
     
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Arbeitsmappe öffnen](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
 2. Wählen Sie den Zellenbereich aus, der Ihre Daten enthält. Die erste Zeile sollte die Spaltenüberschriften (Spaltennamen) enthalten:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Auswählen des Zellbereichs](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
 3. Klicken Sie auf dem Menüband auf der Registerkarte **EINFÜGEN** auf **Tabelle**. (Als Tastenkombination können Sie auch **STRG+T**drücken.)
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Tabelle einfügen](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
 4. Das folgende Dialogfeld wird angezeigt. Stellen Sie sicher, dass **Meine Tabelle hat Überschriften** aktiviert ist, und klicken Sie dann auf **OK**:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Tabelle erstellen](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. Jetzt werden die Daten als Tabelle formatiert:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Als Tabelle formatierte Daten](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
 6. Speichern Sie die Arbeitsmappe.
 7. Kehren Sie zu Power BI zurück. Wählen Sie unten im linken Navigationsbereich „Daten abrufen“ aus.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Daten abrufen](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
 8. Wählen Sie im Feld **Dateien** die Option **Abrufen**aus.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Dateien abrufen](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. Importieren Sie die Excel-Arbeitsmappe erneut. Dieses Mal sollte der Importvorgang die Tabelle finden und erfolgreich ausgeführt werden.
    
     Wenn der Importvorgang weiterhin fehlschlägt, teilen Sie es uns mit, indem Sie im Hilfemenü auf **Community** klicken:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Link „Community“](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)

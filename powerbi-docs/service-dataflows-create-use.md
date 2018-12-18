@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268105"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180574"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Erstellen und Verwenden von Dataflows in Power BI (Vorschau)
 
@@ -143,6 +143,10 @@ Sie können auch die **Suchleiste** oben im Fensters verwenden, um schnell nach 
 
 Wenn Sie die Entität und dann die Schaltfläche **Laden** auswählen, werden die Entitäten in **Power BI Desktop** im Bereich **Felder** angezeigt und verhalten sich wie **Tabellen** in anderen Datasets.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Verwenden von in Azure Data Lake Storage Gen2 gespeicherten Dataflows
+
+Einige Organisationen sollten ihren eigenen Speicher zum Erstellen und Verwalten von Dataflows verwenden. Sie können Dataflows in Azure Data Lake Storage Gen2 integrieren, wenn Sie die Anforderungen erfüllen und Berechtigungen ordnungsgemäß verwalten. Die Dokumentation für alle Anforderungen für diesen Ansatz finden Sie ab dem Übersichtdokument [Dataflows und Azure Data Lake-Integration (Vorschauversion)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Behandeln von Problemen bei Datenverbindungen
 
@@ -160,8 +164,9 @@ Dieser Artikel beschreibt, wie Sie Ihren eigenen **Dataflow** und in **Power BI 
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 
-Weitere Informationen zum Common Data Model finden Sie im Übersichtsartikel:
+Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
 * [Common Data Model – Übersicht](https://docs.microsoft.com/powerapps/common-data-model/overview)
 * [Auf GitHub](https://github.com/Microsoft/CDM) erfahren Sie mehr über das Common Data Model-Schema und Entitäten.
 

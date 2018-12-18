@@ -1,21 +1,22 @@
 ---
-title: Erfahren Sie, welche R-Pakete zum Verwenden und Erstellen von R-Skripts in Power BI unterstützt werden.
+title: Erfahren Sie, welche R-Pakete unterstützt werden.
 description: In Power BI unterstützte und nicht unterstützte R-Pakete
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c890b830ca38e15bb6cc0efe36c93488ed951b4
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670829"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026866"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>R-Pakete im Power BI-Dienst
 Sie können zum Erstellen visueller Elemente im Power BI-Dienst die leistungsstarke [Programmiersprache R](https://www.r-project.org/) verwenden. Viele R-Pakete werden im Power BI-Dienst unterstützt (die Anzahl der unterstützten Pakete nimmt ständig zu), und einige Pakete werden nicht unterstützt.

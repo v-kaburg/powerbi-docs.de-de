@@ -1,21 +1,21 @@
 ---
 title: Verwenden von Q&A in Power BI Desktop
 description: Mit Q&A können Sie jetzt in Power BI Desktop Abfragen in natürlicher Sprache verwenden.
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670760"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026728"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in **Power BI Desktop** möglich.
@@ -25,9 +25,6 @@ Damit Q&A die Vielzahl von Fragen, die vom Programm beantwortet werden können, 
 > [!NOTE]
 > Q&A ist nur verfügbar, wenn Sie mit einem Modell arbeiten, das **importierte** Daten enthält. Liveverbindungen mit SSAS- und DirectQuery-Modellen werden nicht unterstützt.
 >
->
-
-> [!NOTE]
 > Q&A erfordert das folgende C-Runtime-Update, wenn Sie eine Windows-Version vor Windows 10 verwenden. Sie können wichtige Updates über Windows Update installieren oder die erforderliche Komponente über das Microsoft-Update KB2999226 manuell installieren. https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Wenn in Ihrem Modell Beziehungen zwischen Tabellen fehlen, können weder Power B
 
 ## <a name="rename-tables-and-columns"></a>Umbenennen von Tabellen und Spalten
 
-Die Auswahl von Tabellen und Spalten ist sehr wichtig für Q&A. Wenn Sie z.B. eine Tabelle *CustomerSummary* mit einer Liste Ihrer Kunden haben, müssten Sie Fragen wie „List the customer summaries in Chicago“ und nicht „List the customers in Chicago“ stellen. 
+Die Auswahl von Tabellen und Spalten ist wichtig für Q&A. Angenommen, Sie besitzen z. B. eine Tabelle namens *CustomerSummary*, die eine Liste Ihrer Kunden enthält. Sie müssten Abfragen wie „Die Kundenzusammenfassungen in Chicago auflisten“ durchführen und nicht „Die Kunden in Chicago auflisten“. 
 
 Q&A kann einfache Wortanalysen durchführen und Pluralformen erkennen, es wird aber davon ausgegangen, dass die Tabellen- und Spaltennamen den Inhalt genau bezeichnen.
 
-Betrachten Sie ein anderes Beispiel. Angenommen, Sie verfügen über eine Tabelle mit dem Namen *Headcount* mit Vor- und Nachnamen und Mitarbeiternummern sowie eine andere Tabelle mit dem Namen *Employees*, die Mitarbeiternummern, Auftragszahlen und Datumsangaben zum Beginn enthält. Dies ist für Personen nachvollziehbar, die mit dem Modell vertraut sind. Bei der Frage „count the employees“ wird allerdings die Anzahl der Zeilen in der Tabelle „Employees“ zurückgegeben, und dies ist vermutlich nicht das gewünschte Ergebnis, da es sich hierbei um die Anzahl aller Aufträge der einzelnen Mitarbeiter handelt. Es wäre deutlich sinnvoller, diese Tabellen umzubenennen, um ihren Inhalt eindeutig zu definieren.
+Betrachten Sie ein anderes Beispiel. Angenommen, Sie verfügen über eine Tabelle namens *Headcount* (Mitarbeiterzahl), die die Vor- und Nachnamen sowie die Mitarbeiternummern enthält. Sie besitzen eine andere Tabelle namens *Employees* (Mitarbeiter), die die Mitarbeiternummern, Stellennummer und das jeweilige Anfangsdatum enthält. Personen, die mit diesem Modell vertraut sind, verstehen diese Struktur möglicherweise. Andere Personen, die die Abfrage „Mitarbeiter zählen“ durchführen, erhalten eine Anzahl der Zeilen aus der Tabelle „Mitarbeiter“. Dieses Ergebnis ist wahrscheinlich nicht das, was sie ursprünglich im Sinn hatten, da dieses Ergebnis die Anzahl jeder Stelle ist, die jeder Mitarbeiter einmal hatte. Es wäre sinnvoller, diese Tabellen umzubenennen, um ihren Inhalt eindeutig zu definieren.
 
 **Überarbeitung erforderlich**
 
@@ -77,7 +74,7 @@ Power BI aggregiert standardmäßig numerische Spalten aggressiv, sodass bei Fra
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Auswählen einer Datenkategorie für Datums- und Geografiespalten
 
-Die **Datenkategorie** bietet über den Datentyp hinaus zusätzliche semantische Informationen zum Inhalt einer Spalte. Beispielsweise kann eine Spalte mit ganzen Zahlen als Postleitzahl gekennzeichnet werden, eine Zeichenfolgenspalte kann als Ort, Land, Region definiert werden usw. Diese Informationen werden von Q&A auf zwei Weisen genutzt: Zur Auswahl von Visualisierungen und bei mehrdeutigen Begriffen.
+Die **Datenkategorie** bietet über den Datentyp hinaus zusätzliche semantische Informationen zum Inhalt einer Spalte. Beispielsweise kann eine Spalte mit ganzen Zahlen als Postleitzahl gekennzeichnet werden, eine Zeichenfolgenspalte kann als Ort, Land, Region definiert werden usw. Diese Informationen werden von Q&A auf zweierlei Art und Weise verwendet: Zur Auswahl der Visualisierung und für die Sprachtendenzen.
 
 Erstens verwendet Q&A die Informationen unter **Datenkategorie**, um das zu verwendende Visual auszuwählen. Es wird beispielsweise erkannt, dass Spalten mit Datums- oder Zeitangaben als **Datenkategorie** normalerweise eine gute Option für die horizontale Achse eines Liniendiagramms oder der Wiedergabeachse in einem Blasendiagramm sind. Ergebnisse mit Spalten, die geografische **Datenkategorien** aufweisen, werden hingegen als gut geeignet für eine Karte erkannt.
 
@@ -90,19 +87,19 @@ Zweitens schätzt Q&A, wie Benutzer wahrscheinlich über Datums- und Geografiesp
 
 Mit der Eigenschaft **Nach Spalte sortieren** kann festgelegt werden, dass beim Sortieren nach einer Spalte automatisch stattdessen nach einer anderen Spalte sortiert wird. Bei „sort customers by shirt size“ soll vermutlich die Spalte mit der Kleidergröße nach den entsprechenden Größen (XS, S, M, L, XL) und nicht alphabetisch (L, M, S, XL, XS) sortiert werden.
 
-![Geeignete Sortierspalte für Q&A auswählen](media/desktop-qna-in-reports/desktop-qna_08.png)
+![Entsprechendes Auswählen von „Nach Spalte sortieren“ für Q&A](media/desktop-qna-in-reports/desktop-qna_08.png)
 
 ## <a name="normalize-your-model"></a>Normalisieren des Modells
 
-Sie müssen nicht befürchten, dass Sie das gesamte Modell neu strukturieren müssen. Es gibt jedoch bestimmte Strukturen, die einfach so komplex sind, dass sie für Q&A nicht gut geeignet sind. Wenn Sie eine einfache Normalisierung der Struktur Ihres Modells durchführen, wird die Aussagekraft von Power BI-Berichten sowie die Genauigkeit der Q&A-Ergebnisse deutlich gesteigert.
+Sie müssen nicht befürchten, dass Sie das gesamte Modell neu strukturieren müssen. Bestimmte Strukturen sind allerdings so kompliziert, dass sie von Q&A nicht richtig behandelt werden können. Wenn Sie eine einfache Normalisierung der Struktur Ihres Modells durchführen, wird die Aussagekraft von Power BI-Berichten sowie die Genauigkeit der Q&A-Ergebnisse deutlich gesteigert.
 
-Halten Sie sich dabei an folgende allgemeine Regel: Jedes eindeutige „Ding“, über das der Benutzer spricht, sollte von genau einem Modellobjekt (Tabelle oder Spalte) dargestellt werden. Wenn die Benutzer also z.B. über Kunden sprechen, sollte es ein Objekt *Kunde* geben. Und wenn die Benutzer über Umsätze sprechen, sollte es ein Objekt *Umsatz* geben. Klingt einfach, oder? Abhängig von der Form der Daten, mit denen Sie beginnen, kann es das auch sein. Im **Abfrage-Editor** sind umfangreiche Funktionen für die Datenstrukturierung verfügbar. Viele der unkomplizierteren Transformationen sind aber auch einfach mit Berechnungen im Power BI-Modell möglich.
+Befolgen Sie diese allgemeine Regel: Jedes eindeutige „Ding“, über das der Benutzer spricht, sollte von genau einem Modellobjekt (Tabelle oder Spalte) dargestellt werden. Wenn die Benutzer also z.B. über Kunden sprechen, sollte es ein Objekt *Kunde* geben. Und wenn die Benutzer über Umsätze sprechen, sollte es ein Objekt *Umsatz* geben. Klingt einfach, oder? Abhängig von der Form der Daten, mit denen Sie beginnen, kann es das auch sein. Im **Abfrage-Editor** sind umfangreiche Funktionen für die Datenstrukturierung verfügbar. Viele der unkomplizierteren Transformationen sind aber auch einfach mit Berechnungen im Power BI-Modell möglich.
 
 Die folgenden Abschnitte enthalten einige allgemeine Transformationen, die Sie möglicherweise durchführen müssen.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Erstellen von neuen Tabellen für mehrspaltige Entitäten
 
-Wenn Sie mehrere Spalten haben, die als eine Einheit innerhalb einer größeren Tabelle fungieren können, sollten diese Spalten in eine eigene Tabelle abgeteilt werden. Angenommen, die Tabelle *Companies* enthält die Spalten „Contact Name“, „Contact Title“ und „Contact Phone“. Bei einem optimalen Entwurf würden Sie mit einer separate Tabelle *Contacts* arbeiten, die Name, Titel und Telefonnummer enthält und die Sie dann mit der Tabelle *Companies* verknüpfen. Dies erleichtert es erheblich, Fragen zu Kontakten unabhängig von Fragen zu den entsprechenden Unternehmen zu stellen. Außerdem wird die Flexibilität der Anzeige gesteigert.
+Wenn Sie mehrere Spalten haben, die als eine Einheit innerhalb einer größeren Tabelle fungieren können, sollten diese Spalten in eine eigene Tabelle abgeteilt werden. Nehmen wir beispielsweise an, dass Sie die Spalten „Contact Name“, „Contact Title“ und „Contact Phone“ innerhalb Ihrer *Firmen*-Tabelle besitzen. Das Design kann verbessert werden, indem eine separate *Kontakttabelle* (Contacts) den Namen, den Titel und die Telefonnummer sowie eine Verknüpfung zurück zur *Firmentabelle* (Company) enthält. Dies erleichtert es, Fragen zu Kontakten unabhängig von Fragen zu den entsprechenden Unternehmen zu stellen. Außerdem wird die Flexibilität der Anzeige gesteigert.
 
 **Überarbeitung erforderlich**
 
@@ -128,9 +125,9 @@ Betrachten Sie beispielsweise die Tabelle *CustomerDemographics* mit Spalten fü
 
 ### <a name="union-to-eliminate-partitioning"></a>Vereinen zum Eliminieren von Partitionierungen
 
-Wenn Sie Ihre Daten auf mehrere Tabellen aufgeteilt oder Werte in mehreren Spalten pivotiert haben, können verschiedene Vorgänge für die Benutzer nur schwer oder gar nicht ausgeführt werden. Betrachten Sie zunächst eine typische Tabellenpartitionierung: eine Tabelle *Sales2000-2010* und eine Tabelle *Sales2011-2020*. Wenn alle wichtigen Berichte auf ein bestimmtes Jahrzehnt beschränkt sind, können Sie diese Partitionierung für Power BI-Berichte vermutlich beibehalten. Durch die Flexibilität von Q&A erwarten die Benutzer jedoch Antworten auf Fragen wie „total sales by year“. Damit dies möglich ist, müssen Sie die Daten in einer Power BI-Modelltabelle vereinen.
+Wenn Sie Ihre Daten auf mehrere Tabellen aufgeteilt oder Werte in mehreren Spalten pivotiert haben, können verschiedene Vorgänge für die Benutzer nur schwer oder gar nicht ausgeführt werden. Betrachten Sie zunächst eine typische Tabellenpartitionierung: eine Tabelle *Sales2000-2010* und eine Tabelle *Sales2011-2020*. Wenn alle wichtigen Berichte auf ein bestimmtes Jahrzehnt beschränkt sind, können Sie diese Partitionierung für Power BI-Berichte vermutlich beibehalten. Durch die Flexibilität von Q&A erwarten die Benutzer jedoch Antworten auf Fragen wie „total sales by year“. Damit diese Abfrage funktioniert, müssen Sie die Daten in einer einzigen Power BI-Modelltabelle vereinen.
 
-Betrachten Sie entsprechend eine pivotierte Wertspalte: die Tabelle *BookTour* mit den Spalten „Author“, „Book“, „City1“, „City2“ und „City3“. Mit einer solchen Struktur können selbst einfache Fragen wie „count books by city“ nicht richtig interpretiert werden. Damit dies funktioniert, sollten Sie eine separate Tabelle *BookTourCities* erstellen, in der die Werte für die Städte in einer Spalte vereint werden.
+Betrachten Sie entsprechend eine pivotierte Wertspalte: die Tabelle *BookTour* mit den Spalten „Author“, „Book“, „City1“, „City2“ und „City3“. Mit einer solchen Struktur können selbst einfache Fragen wie „count books by city“ nicht richtig interpretiert werden. Damit diese Abfrage funktioniert, erstellen Sie eine separate *BookTourCities*-Tabelle, in der die Werte für die Städte in einer Spalte vereint werden.
 
 **Überarbeitung erforderlich**
 
@@ -142,7 +139,7 @@ Betrachten Sie entsprechend eine pivotierte Wertspalte: die Tabelle *BookTour* m
 
 ### <a name="split-formatted-columns"></a>Teilen von formatierten Spalten
 
-Wenn die Quelle, aus der Sie Ihre Daten importieren, formatierte Spalten enthält, greifen Power BI-Berichte (und Q&A) nicht auf die Spalte zu, um den Inhalt zu analysieren. Wenn Sie also z.B. eine Spalte **Full Address** haben, die Adresse, Stadt und Land enthält, sollten Sie diese in Spalten für Adresse, Stadt und Land unterteilen, damit die Benutzer diese einzeln abfragen können.
+Wenn die Quelle, aus der Sie Ihre Daten importieren, formatierte Spalten enthält, greifen Power BI-Berichte (und Q&A) nicht auf die Spalte zu, um den Inhalt zu analysieren. Wenn Sie also z. B. eine Spalte **Full Address** (vollständige Adresse) haben, die Adresse, Stadt und Land enthält, sollten Sie diese in Spalten für Adresse, Stadt und Land unterteilen, damit die Benutzer diese einzeln abfragen können.
 
 **Überarbeitung erforderlich**
 
@@ -169,7 +166,7 @@ Eine ähnliche Situation: Wenn die Quelle, aus der Sie Ihre Daten importieren, S
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Denormalisieren zum Entfernen inaktiver Beziehungen
 
-Die einzige Ausnahme zur Regel „Normalisierung ist besser“ gilt, wenn es mehr als einem Pfad gibt, um von einer Tabelle zu einer anderen zu gelangen. Angenommen, Sie haben eine Tabelle *Flights* mit den Spalten „SourceCityID“ und „DestinationCityID“, die jeweils mit der Tabelle *Cities* verknüpft sind. In diesem Fall muss eine der Beziehungen als inaktiv markiert werden. Da Q&A nur aktive Beziehungen verwenden kann, können Sie dann abhängig von der ausgewählten Beziehung keine Fragen zum Abflug- oder Zielort stellen. Wenn Sie stattdessen die Spalten mit den Städtenamen in die Tabelle *Flights* denormalisieren, können Sie Fragen stellen wie „list the flights for tomorrow with a source city of Seattle and a destination city of San Francisco“.
+Die einzige Ausnahme zur Regel „Normalisierung ist besser“ gilt, wenn es mehr als einem Pfad gibt, um von einer Tabelle zu einer anderen zu gelangen. Angenommen, Sie haben eine Tabelle *Flights* mit den Spalten „SourceCityID“ und „DestinationCityID“, die jeweils mit der Tabelle *Cities* verknüpft sind. In diesem Fall muss eine der Beziehungen als inaktiv markiert werden. Da Q&A nur aktive Beziehungen verwenden kann, können Sie dann abhängig von der ausgewählten Beziehung keine Fragen zum Abflug- oder Zielort stellen. Wenn Sie stattdessen die Spalten mit den Städtenamen in die Tabelle *Flights* denormalisieren, können Sie Abfragen wie „Alle Flüge für morgen mit dem Abflugort Seattle und dem Zielort San Francisco auflisten“ ausführen.
 
 **Überarbeitung erforderlich**
 
@@ -183,7 +180,7 @@ Die einzige Ausnahme zur Regel „Normalisierung ist besser“ gilt, wenn es meh
 
 Dieser Schritt bezieht sich speziell auf Q&A (und nicht auf Power BI-Berichte im Allgemeinen). Benutzer nutzen häufig verschiedene Begriffe, um auf etwas zu verweisen, z.B. Gesamtumsatz, Nettoumsatz, Gesamtnettoumsatz. Mit dem Power BI-Modell können diese Synonyme zu Tabellen und Spalten im Modell hinzugefügt werden. 
 
-Dies kann ein sehr wichtiger Schritt sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen zuerst einfallen, und wählen nicht aus einer vordefinierten Liste von Spalten. Je mehr sinnvolle Synonyme Sie hinzufügen können, umso besser ist die Benutzererfahrung mit Ihrem Bericht. Klicken Sie zum Hinzufügen von Synonymen wie in der folgenden Abbildung dargestellt in der Ansicht **Beziehungen** im Menüband auf die Schaltfläche „Synonyme“.
+Dieser Schritt kann von Bedeutung sein. Selbst bei unkomplizierten Tabellen- und Spaltennamen stellen die Benutzer von Q&A Fragen mit den Wörtern, die ihnen zuerst einfallen, und wählen nicht aus einer vordefinierten Liste von Spalten. Je mehr sinnvolle Synonyme Sie hinzufügen können, umso besser ist die Benutzererfahrung mit Ihrem Bericht. Klicken Sie zum Hinzufügen von Synonymen wie in der folgenden Abbildung dargestellt in der Ansicht **Beziehungen** im Menüband auf die Schaltfläche „Synonyme“.
 
 ![Hinzufügen von Synonymen für Q&A](media/desktop-qna-in-reports/desktop-qna_21.png)
 

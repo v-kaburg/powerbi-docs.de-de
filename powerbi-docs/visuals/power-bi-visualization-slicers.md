@@ -1,22 +1,22 @@
 ---
 title: 'Lernprogramm: Slicer in Power BI'
 description: Slicer in Power BI
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448981"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979649"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 Die Leser des Berichts sollen die gesamten Vertriebsmetriken ansehen können, aber auch die Leistung einzelner Bezirksleiter und unterschiedliche Zeitrahmen hervorheben können. Sie könnten separate Berichte oder vergleichende Diagramme erstellen. Alternativ könnten Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
@@ -177,10 +177,10 @@ Der **Header** ist standardmäßig eingeschaltet (**On**). Darin wird im oberen 
 
 ### <a name="other-formatting-options"></a>Weitere Formatierungsoptionen
 Die weiteren Formatierungsoptionen sind standardmäßig ausgeschaltet. Wenn sie eingeschaltet (**On**) sind: 
-- **Titel**: Fügt im oberen Bereich des Slicers einen Titel hinzu und formatiert diesen (zusätzlich zu und unabhängig vom Header). 
-- **Hintergrund**: Fügt eine Hintergrundfarbe zum gesamten Slicer hinzu und legt die Transparenz fest.
-- **Seitenverhältnis**: Behält bei einer Größenänderung die Form des Slicers bei.
-- **Rahmen**: Fügt einen 1-Pixel-Rahmen um den Slicer hinzu und legt die Farbe fest. (Dieser Slicerrahmen ist separat von den allgemeinen Einstellungen für Konturen; diese haben keinen Einfluss auf ihn.) 
+- **Titel:** Fügt im oberen Bereich des Slicers einen Titel hinzu und formatiert diesen (zusätzlich zu und unabhängig vom Header). 
+- **Hintergrund:** Fügt eine Hintergrundfarbe zum gesamten Slicer hinzu und legt die Transparenz fest.
+- **Seitenverhältnis fixieren:** Behält bei einer Größenänderung die Form des Slicers bei.
+- **Rahmen:** Fügt einen 1-Pixel-Rahmen um den Slicer hinzu und legt die Farbe fest. (Dieser Slicerrahmen ist separat von den allgemeinen Einstellungen für Konturen; diese haben keinen Einfluss auf ihn.) 
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungstypen in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
