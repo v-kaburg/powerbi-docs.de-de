@@ -2,17 +2,18 @@
 title: Glossar für Power BI-Endverbraucher
 description: In Power BI werden viele neue Begriffe und neue Verwendungsarten für bekannte Begriffe eingeführt. Verwenden Sie unser Glossar, um sich mit der Power BI-Terminologie vertraut zu machen.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026344"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280786"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -42,7 +43,7 @@ Dieses Glossar ist eine Communityinitiative.  Fehlt hier ein Begriff? Bitten Sie
 
 **AppSource** Ein zentralisiertes Onlinerepository, das Sie durchsuchen und in dem Sie Dashboards, Berichte, Datasets und Apps zum Herunterladen finden können.
 
-**ArcGIS Maps for Power BI** ArcGIS ist eine Mapping- und Analyseplattform des Unternehmens ESRI. Der Name des Visuals, das in der Power BI-Visuals-Bibliothek enthalten ist, heißt ArcGIS Maps for Power BI.
+**ArcGIS für Power BI** ArcGIS ist eine Mapping- und Analyseplattform des Unternehmens ESRI. Der Name des visuellen Elements, das in der Power BI-Bibliothek visueller Elemente enthaltenen ist, ist ArcGIS für Power BI.
 
 **Zuweisen** [Power BI Premium] Verb für das Verschieben eines Arbeitsbereichs in dedizierte Kapazität hinein oder aus dieser heraus. Verwenden Sie für das Verschieben eines Arbeitsbereichs in die dedizierte Kapazität nicht den Begriff „höher stufen“, da dies den Eindruck erweckt, dedizierte Kapazität habe einen höheren Rang als gemeinsam genutzte Kapazität.  
 
