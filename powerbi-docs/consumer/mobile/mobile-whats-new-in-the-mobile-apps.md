@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979543"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280924"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,36 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>November 2018
+
+### <a name="modern-visual-header"></a>Moderne Visualheader 
+
+Berichte mit dem neuen modernen Visualheader reservieren keinen Platz für Header mehr, wodurch weniger Leerraum vorhanden ist und mehr Raum für Ihre Visualisierungen bleibt.
+
+### <a name="enhance-presentation-mode-windows"></a>Verbesserter Präsentationsmodus (Windows)
+
+Der Präsentationsmodus für Surface Hub- und Windows 10-Geräte wurde verbessert.  Nutzen Sie die verbesserten Surface Hub-Besprechungsraumfunktionen mit optimierten Tools für die Präsentation und Zusammenarbeit und einer Fokusansicht, die für große Bildschirme optimiert ist, damit Sie sich voll und ganz auf Ihre Daten konzentrieren können. Im Präsentationsmodus können Sie auch Bereiche einfärben und hervorheben, um Ihre Daten anschaulich zu präsentieren und sich darüber mit anderen auszutauschen. [Hier](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) erfahren Sie mehr zum Präsentationsmodus.
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Hochformat für Berichte auf Tablets (iOS und Android)
+
+Ab sofort wird (sofern vorhanden) das Telefonberichtlayout verwendet, um Berichte auf Ihrem Tablet im Hochformat anzuzeigen. Unter [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/) erfahren Sie mehr zum Verwenden des Telefonlayouts im Power BI-Dienst oder in Power BI Desktop.
+
+### <a name="supporting-report-query-string"></a>Unterstützung für Abfragezeichenfolgen in Berichten 
+
+Wenn Sie einen Berichtslink öffnen, der eine Abfragezeichenfolge enthält, wird dieser jetzt in der mobilen App geöffnet und anhand der definierten Bedingungen in der Abfragezeichenfolge gefiltert. Unter [Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) erfahren Sie mehr.  
+
+### <a name="shared-credentials-now-in-android"></a>Freigegebene Anmeldeinformationen (jetzt für Android)
+
+Die Anmeldung bei Power BI in Ihrer mobilen App ist so einfach wie noch nie. Durch gemeinsam genutzte Anmeldeinformationen haben wir den Anmeldeprozess vereinfacht. Hierbei können Sie andere Office 365-App-Anmeldeinformationen auf dem Gerät verwenden, um sich beim Power BI-Dienst zu authentifizieren.
+
+### <a name="in-app-urls-now-in-android"></a>URLs innerhalb von Apps (jetzt für Android) 
+
+Links in Berichten, die auf andere Power BI-Artefakte zeigen, werden jetzt direkt in der App geöffnet. So können Sie benutzerdefinierte Navigationsflows erstellen, indem Sie z.B. einen Link von einem Bericht zu einem Dashboard einrichten.
+
+### <a name="show-data-and-copy-values"></a>Anzeigen von Daten und Kopieren von Werten
+
+Das Aktionsmenü eines Berichtsvisuals (...) enthält nun eine Option zum Anzeigen der zugrunde liegenden Daten im Tabellenformat. Wenn die Tabelle geöffnet wurde und Sie sich darin befinden, können Sie Werte aus der Tabelle auswählen und kopieren, indem Sie lange tippen (vorausgesetzt es gibt keine Intune-Richtlinie, die das Kopieren einschränkt).
 
 ## <a name="october-2018"></a>Oktober 2018
 

@@ -1,33 +1,34 @@
 ---
-title: Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
+title: Ändern der Sortierung eines Diagramms in einem Bericht
 description: Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979335"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280004"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 In einem Power BI-Bericht können Sie die meisten Visualisierungen alphabetisch nach den Namen der Kategorien im Diagramm oder nach den numerischen Werten jeder Kategorie sortieren. In diesem Diagramm wird z.B. nach der Kategorie **Geschäftsname** sortiert.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![Balkendiagramm mit alphabetischer Sortierung an der X-Achse](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 Sie können ganz einfach statt nach einer Kategorie (Geschäftsname) nach einem Wert (Umsatz pro Quadratfuß) sortieren.
 
 1. Wählen Sie die Auslassungspunkte (...) und dann **Sortieren nach > Sales Per Sq Ft** (Umsatz pro Quadratfuß) aus.
 2. Wählen Sie bei Bedarf erneut die Auslassungspunkte und dann **Absteigend sortieren** aus.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![Video: Auswählen von „Sortieren nach“ und dann „Aufsteigend sortieren“, „Absteigend sortieren“](media/end-user-change-sort/sort.gif)
 
    **HINWEIS**: Nicht alle Visuals können sortiert werden.  Beispielsweise können die folgenden Visuals nicht sortiert werden: Treemaps, Karten, Flächenkartogramme, Punktdiagramme, Tachometerdiagramme, Kartendiagramme, mehrzeilige Kartendiagramme, Wasserfalldiagramme.
 

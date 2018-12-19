@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026245"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280625"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Die neue Filteroberfläche in Power BI-Berichten (Vorschau)
 
@@ -34,11 +34,11 @@ Beim Berichtentwurf bieten Ihnen die neuen Filter folgende Möglichkeiten:
 
 ## <a name="turn-on-the-new-filter-experience"></a>Aktivieren der neuen Filteroberfläche 
 
-Sie aktivieren die neue Benutzeroberfläche in Power BI Desktop. Anschließend können Sie die Filter dort oder im Power BI-Dienst ändern (https://app.powerbi.com). Die neue Filteroberfläche befindet sich in der Vorschau, deshalb muss sie zunächst in Power BI Desktop aktiviert werden. 
+Sie aktivieren die neue Benutzeroberfläche in Power BI Desktop. Anschließend können Sie die Filter dort oder im Power BI-Dienst ändern (https://app.powerbi.com). Die neue Filteroberfläche befindet sich in der Vorschau, deshalb muss sie zunächst in Power BI Desktop aktiviert werden. Wenn Sie beginnen, indem Sie einen Bericht im Power BI-Dienst erstellen, darf dieser keine neuen Filter aufweisen.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>Aktivieren der neuen Filter für alle neuen Berichte
 
-1. Wählen Sie **Datei** > **Optionen und Einstellungen** > **Optionen** > **Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen **Neue Filteroberfläche**. 
+1. Wählen Sie in Power BI Desktop**Datei** > **Optionen und Einstellungen** > **Optionen** > **Vorschaufeatures** aus, und aktivieren Sie anschließend das Kontrollkästchen **Neue Filteroberfläche**. 
 2. Starten Sie Power BI Desktop neu, um die neue Filteroberfläche in allen neuen Berichten anzuzeigen.
 
 Nachdem Sie Power BI Desktop neu gestartet haben, wird die neue Filteroberfläche standardmäßig für alle neu erstellten Berichte aktiviert.  
@@ -47,7 +47,7 @@ Nachdem Sie Power BI Desktop neu gestartet haben, wird die neue Filteroberfläch
 
 Sie können die Filter auch für vorhandene Berichte aktivieren.
 
-1. Wählen Sie in einem vorhandenen Bericht **Datei** > **Optionen und Einstellungen** > **Optionen** aus.
+1. Wählen Sie in Power BI Desktop in einem vorhandenen Bericht **Datei** > **Optionen und Einstellungen** > **Optionen** aus.
 2. Wählen Sie unter **Berichteinstellungen** die Option **Aktualisierten Filterbereich aktivieren und Filter im Visualheader für diesen Bericht anzeigen** aus.
 
 ## <a name="build-the-new-filter-pane"></a>Erstellen des neuen Filterbereichs
