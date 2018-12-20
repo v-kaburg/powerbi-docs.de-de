@@ -111,7 +111,7 @@ Wenn Sie Detaildatasets aus mehreren Quellen laden, verhindern Probleme wie Null
 
 Betrachten wir dazu ein Beispiel: 
 
-Sie laden Datasets mit aktiven Kundenupportanfragen und ein anderes Dataset mit Arbeitsaufgaben, die folgende Schemas haben:
+Sie laden Datasets mit aktiven Kundenupportanfragen und ein anderes Dataset mit Arbeitselementen, die folgende Schemas aufweisen:
 
 > Kundenereignisse: {EreignisID, Kundenname, Problemname, ErfasstDatum, Status} Arbeitsaufgaben: {ArbeitsaufgabeID, EreignisID, ArbeitsaufgabeName, ErfasstDatum, Status, Kundenname} 
 > 
@@ -127,7 +127,7 @@ Wenn Sie Detaildatasets aus mehreren Quellen laden, verhindern häufig doppelte 
 
 Betrachten wir dazu ein Beispiel: 
 
-Sie laden Datasets mit aktiven Kundenupportanfragen und ein anderes Dataset mit Arbeitsaufgaben, die folgende Schemas haben:
+Sie laden Datasets mit aktiven Kundenupportanfragen und ein anderes Dataset mit Arbeitselementen, die folgende Schemas aufweisen:
 
 > Kundenereignisse: {EreignisID, Kundenname, Problemname, ErfasstDatum, Status} Arbeitsaufgaben: {ArbeitsaufgabeID, EreignisID, ArbeitsaufgabeName, ErfasstDatum, Status, Kundenname} 
 > 
