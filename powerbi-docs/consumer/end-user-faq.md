@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280671"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748534"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
@@ -29,6 +29,10 @@ Der Power BI-Dienst ist ein cloudbasierter Business Analytics-Dienst, der jedem 
 Power BI Pro ist eine Einzellizenz, die Zugriff auf alle Inhalte und Funktionen im Power BI-Dienst ermöglicht, z.B. zur Freigabe von Inhalten und zur Zusammenarbeit mit anderen Benutzern mit Pro-Lizenz. Nur Pro-Benutzer können Inhalte in App-Arbeitsbereichen veröffentlichen und nutzen, Dashboards freigeben sowie Dashboards und Berichte abonnieren. 
 
 Premium bietet dedizierte Kapazitäten, um konsistentere Leistung und Unterstützung größerer Datenvolumen in Power BI bereitzustellen. Mit Premium können individuelle Benutzer Inhalte von Power BI Pro-Benutzern weiträumig verteilen, ohne Benutzerlizenzen für Empfänger zu erfordern, die den Inhalt anzeigen.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Was geschieht, wenn meine Power BI Pro-Lizenz abläuft?
+Nach dem Ablauf einer Power BI Pro-Lizenz gibt es eine 30-tägige Karenzzeit.
+Für Power BI Pro gilt der gleiche Abonnementslebenszyklus wie für Office 365. Weitere Informationen finden Sie unter [Was geschieht mit meinen Daten und dem Zugriff darauf, wenn mein Office 365 Business-Abonnement endet?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wie gehe ich vor, wenn ich Fragen zu Power BI Premium haben?
 Fragen, die sich auf Power BI Premium beziehen, finden Sie unter [Power BI Premium – Häufig gestellte Fragen](../service-premium-faq.md).

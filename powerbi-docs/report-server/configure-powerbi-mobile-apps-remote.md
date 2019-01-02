@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
 ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268318"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451373"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver
 
@@ -33,12 +33,12 @@ Sie als Administrator müssen in Microsoft Intune die folgenden Schritte ausfüh
 
 In der folgenden Tabelle sind die Paare aufgeführt.
 
-|Schlüssel  |Typ (Type)  |Beschreibung  |
+|Schlüssel  |Typ  |Beschreibung  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | String | Berichtsserver-URL </br> Muss mit http/https beginnen |
-| com.microsoft.powerbi.mobile.ServerUsername | String | [Optional] </br> Der Benutzername, der zum Verbinden des Servers verwendet wird. </br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | String | [Optional] </br> Der Standardwert ist „Berichtsserver“. </br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolesch | Der Standardwert ist TRUE </br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. </br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. </br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. </br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
+| com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL </br> Muss mit http/https beginnen |
+| com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] </br> Der Benutzername, der zum Verbinden des Servers verwendet wird. </br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional] </br> Der Standardwert ist „Berichtsserver“. </br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolescher Wert | Der Standardwert ist TRUE </br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. </br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. </br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. </br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
 
 Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über Intune.
 

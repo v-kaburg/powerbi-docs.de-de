@@ -1,6 +1,6 @@
 ---
 title: Embedded Analytics für das Einbetten von Power BI-Inhalten in Ihre Anwendung für Ihre Kunden
-description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Kunden in eine Anwendung integrieren bzw. einbetten. Hier erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
+description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Kunden in eine Anwendung integrieren bzw. einbetten. In diesem Artikel erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180873"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301871"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
 
@@ -338,14 +338,14 @@ Wenn Sie eine dedizierte Kapazität erstellen, können Sie Ihrem Kunden eine ded
 
 Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-Kapazität am besten zu Ihren Anforderungen passt.
 
-| Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
+| Kapazitätsknoten | Gesamtzahl der Kerne<br/>*(Back-End + Front-End)* | Back-End-Kerne | Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 V-Kern |0,5 Kerne, 3 GB RAM |0,5 Kerne |0 5 pro Sekunde |1–300 |
-| A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | 10 pro Sekunde |301–600 |
-| A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | 15 pro Sekunde |601–1.200 |
-| A4 |8 V-Kerne |4 Kerne, 25 GB RAM |4 Kerne |30 pro Sekunde |1.201–2.400 |
-| A5 |16 V-Kerne |8 Kerne, 50 GB RAM |8 Kerne |60 pro Sekunde |2.401–4.800 |
-| A6 |32 V-Kerne |16 Kerne, 100 GB RAM |16 Kerne |120 pro Sekunde |4.801–9600 |
+| A1 |1 V-Kern |0,5 Kerne, 3 GB RAM |0,5 Kerne |0 5 pro Sekunde |
+| A2 |2 V-Kerne |1 Kern, 5 GB RAM |1 Kern | 10 pro Sekunde |
+| A3 |4 V-Kerne |2 Kerne, 10 GB RAM |2 Kerne | 15 pro Sekunde |
+| A4 |8 V-Kerne |4 Kerne, 25 GB RAM |4 Kerne |30 pro Sekunde |
+| A5 |16 V-Kerne |8 Kerne, 50 GB RAM |8 Kerne |60 pro Sekunde |
+| A6 |32 V-Kerne |16 Kerne, 100 GB RAM |16 Kerne |120 pro Sekunde |
 
 **_Mit A-SKUs können Sie mit einer KOSTENLOSEN Power BI-Lizenz nicht auf Power BI-Inhalte zugreifen._**
 

@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180758"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301848"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
 
@@ -429,17 +429,16 @@ Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen V
 
 In der folgenden Tabelle werden die verfügbaren Power BI Premium-SKUs in [Microsoft Office 365](../service-admin-premium-purchase.md) aufgelistet:
 
-| Kapazitätsknoten | Gesamtanzahl virtueller Kerne<br/>(Back-End + Front-End) | virtuelle Back-End-Kerne | virtuelle Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Höchstzahl an Seitenladevorgängen zu Spitzenzeiten |
+| Kapazitätsknoten | Gesamtanzahl virtueller Kerne<br/>(Back-End + Front-End) | virtuelle Back-End-Kerne | virtuelle Front-End-Kerne | Grenzwerte für DirectQuery/Liveverbindung |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 virtueller Kern |0,5 virtuelle Kerne, 10 GB RAM |0,5 virtuelle Kerne |3,75 pro Sekunde |150–300 |
-| EM2 |2 virtuelle Kerne |1 virtueller Kern, 10 GB RAM |1 virtueller Kern |7,5 pro Sekunde |301–600 |
-| EM3 |4 virtuelle Kerne |2 virtuelle Kerne, 10 GB RAM |2 virtuelle Kerne |15 pro Sekunde |601–1.200 |
-| P1 |8 virtuelle Kerne |4 virtuelle Kerne, 25 GB RAM |4 virtuelle Kerne |30 pro Sekunde |1.201–2.400 |
-| P2 |16 virtuelle Kerne |8 virtuelle Kerne, 50 GB RAM |8 virtuelle Kerne |60 pro Sekunde |2.401–4.800 |
-| P3 |32 virtuelle Kerne |16 virtuelle Kerne, 100 GB RAM |16 virtuelle Kerne |120 pro Sekunde |4.801 – 9.600 |
-| P4 |64 virtuelle Kerne |32 virtuelle Kerne, 200 GB RAM |32 virtuelle Kerne |240 pro Sekunde |9.601 – 19.200 |
-| P5 |128 virtuelle Kerne |64 virtuelle Kerne, 400 GB RAM |64 virtuelle Kerne |480 pro Sekunde |19.201 – 38.400 |
-
+| EM1 |1 virtueller Kern |0,5 virtuelle Kerne, 10 GB RAM |0,5 virtuelle Kerne |3,75 pro Sekunde |
+| EM2 |2 virtuelle Kerne |1 virtueller Kern, 10 GB RAM |1 virtueller Kern |7,5 pro Sekunde |
+| EM3 |4 virtuelle Kerne |2 virtuelle Kerne, 10 GB RAM |2 virtuelle Kerne |15 pro Sekunde |
+| P1 |8 virtuelle Kerne |4 virtuelle Kerne, 25 GB RAM |4 virtuelle Kerne |30 pro Sekunde |
+| P2 |16 virtuelle Kerne |8 virtuelle Kerne, 50 GB RAM |8 virtuelle Kerne |60 pro Sekunde |
+| P3 |32 virtuelle Kerne |16 virtuelle Kerne, 100 GB RAM |16 virtuelle Kerne |120 pro Sekunde |
+| P4 |64 virtuelle Kerne |32 virtuelle Kerne, 200 GB RAM |32 virtuelle Kerne |240 pro Sekunde |
+| P5 |128 virtuelle Kerne |64 virtuelle Kerne, 400 GB RAM |64 virtuelle Kerne |480 pro Sekunde |
 > [!NOTE]
 > - Wenn Sie versuchen, Inhalte in Microsoft Office-Apps einzubetten, können Sie mithilfe von EM-SKUs mit einer kostenlosen Power BI-Lizenz auf diese Inhalte zugreifen. Wenn Sie Powerbi.com oder Power BI Mobile verwenden, können Sie jedoch nicht mit einer kostenlosen Power BI-Lizenz auf Inhalte zugreifen.
 > - Wenn Sie versuchen, Inhalte mit Powerbi.com oder Power BI Mobile in Microsoft Office-Apps einzubetten, können Sie mit einer kostenlosen Power BI-Lizenz auf diese Inhalte zugreifen.

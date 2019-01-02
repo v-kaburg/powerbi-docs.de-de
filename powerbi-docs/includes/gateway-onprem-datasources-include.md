@@ -6,7 +6,7 @@
 | Analysis Services (mehrdimensional) |Ja |Ja |
 | Datei |Nein |Ja |
 | Ordner |Nein |Ja |
-| IBM DB2 |Nein |Ja |
+| IBM DB2 |Ja |Ja |
 | IBM Informix-Datenbank |Nein |Ja |
 | IBM Netezza |Ja |Ja |
 | Impala |Ja |Ja |
