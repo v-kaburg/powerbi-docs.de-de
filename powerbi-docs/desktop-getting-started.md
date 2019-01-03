@@ -138,15 +138,15 @@ Beachten Sie, dass die vorgenommenen Änderungen in den **Abfrageeinstellungen**
 
 Wir müssen aber noch ein paar Änderungen vornehmen, um die gewünschte Abfrage zu erhalten.
 
-*  *Entfernen der ersten Spalte* – Diese Spalte ist nicht erforderlich. Sie enthält nur überflüssige Zeilen mit dem Text „Check out how your state ranks for retirement“, ein Artefakt aufgrund der Tatsache, dass es sich um eine webbasierte Tabelle handelt.
+* *Entfernen der ersten Spalte* – Diese Spalte ist nicht erforderlich. Sie enthält nur überflüssige Zeilen mit dem Text „Check out how your state ranks for retirement“, ein Artefakt aufgrund der Tatsache, dass es sich um eine webbasierte Tabelle handelt.
 
 <!-- -->
 
-*  *Beheben einiger Fehler* – Auf der Webseite gibt es eine Spalte mit Text und Zahlen (bei einigen Bundesstaaten sind die Zahlen mit dem Text „(tie)“ versehen). Das funktioniert zwar auf der Website, nicht aber bei unserer Datenanalyse. Dieses Problem ist (in diesem Fall) leicht zu beheben und verdeutlicht einige interessante Funktionen und Möglichkeiten des **Abfrage-Editors** und der **angewendeten Schritte**.
+* *Beheben einiger Fehler* – Auf der Webseite gibt es eine Spalte mit Text und Zahlen (bei einigen Bundesstaaten sind die Zahlen mit dem Text „(tie)“ versehen). Das funktioniert zwar auf der Website, nicht aber bei unserer Datenanalyse. Dieses Problem ist (in diesem Fall) leicht zu beheben und verdeutlicht einige interessante Funktionen und Möglichkeiten des **Abfrage-Editors** und der **angewendeten Schritte**.
 
 <!-- -->
 
-*  *Ändern des Tabellennamens* – **Table 0** ist kein sinnvoller Deskriptor, er kann aber sehr einfach geändert werden.
+* *Ändern des Tabellennamens* – **Table 0** ist kein sinnvoller Deskriptor, er kann aber sehr einfach geändert werden.
 
 Jeder dieser Schritte wird unter **[Strukturieren und Kombinieren von Daten in Power BI Desktop](desktop-shape-and-combine-data.md)** veranschaulicht. Wahlweise können Sie diese Seite aufrufen oder mit diesem Dokument fortfahren, um zu erfahren, was als Nächstes passiert. Im nächsten Abschnitt wird der Vorgang fortgesetzt, nachdem die obigen Änderungen angewendet wurden.
 
