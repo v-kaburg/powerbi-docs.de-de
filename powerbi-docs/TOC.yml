@@ -252,6 +252,8 @@ items:
         href: desktop-r-powered-custom-visuals.md
       - name: Verwenden von Gitternetzlinien und der Ausrichtung am Raster
         href: desktop-gridlines-snap-to-grid.md
+      - name: Einstellungen für die Seitenanzeige in einem Power BI-Bericht
+        href: power-bi-report-display-settings.md
       - name: Hinzufügen einer Spalte aus einem Beispiel
         href: desktop-add-column-from-example.md
       - name: Hinzufügen einer benutzerdefinierten Spalte
@@ -282,12 +284,16 @@ items:
         href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Visualisierungen
       items:
+      - name: Visualisierungen in Power BI
+        href: visuals/power-bi-report-visualizations.md
       - name: Bewährte Methoden für Visualisierungen
         href: visuals/power-bi-visualization-best-practices.md
       - name: Ändern des Visualisierungstyps in einem Bericht
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Datenpunktgrenzwerte nach Visualtyp
         href: visuals/power-bi-data-points.md
+      - name: Anzeigen der zum Erstellen des Visuals verwendeten Daten
+        href: visuals/service-reports-show-data.md
       - name: Erste Schritte mit Farbeinstellungen und Achseneigenschaften
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Tipps und Tricks zur Farbformatierung
@@ -386,6 +392,8 @@ items:
     items:
     - name: Was ist Power BI?
       href: power-bi-overview.md
+    - name: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
+      href: service-service-vs-desktop.md
   - name: Lernprogramme
     items:
     - name: Erste Schritte mit Power BI
@@ -396,164 +404,56 @@ items:
     items:
     - name: Neuigkeiten bei Power BI
       href: service-whats-new.md
-    - name: Grundlegende Konzepte für Designer
-      href: service-basic-concepts.md
-    - name: 10 Tipps, um Hilfe zu erhalten
-      href: service-tips-for-finding-help.md
+    - name: Grundkonzepte
+      items:
+      - name: Grundlegende Konzepte für Designer
+        href: service-basic-concepts.md
+      - name: Daten in Power BI
+        href: service-get-data.md
+      - name: Einführung in den Berichts-Editor
+        href: service-the-report-editor-take-a-tour.md
+      - name: Organisieren Ihrer Arbeit
+        href: service-new-workspaces.md
+    - name: Workflows in Power BI
+      items:
+      - name: Freigeben Ihrer Arbeit
+        href: service-how-to-collaborate-distribute-dashboards-reports.md
+      - name: Sicherstellen der Aktualität von Daten
+        href: refresh-data.md
+      - name: Überwachen der Nutzung
+        href: service-usage-metrics.md
     - name: Lizenzierung
       items:
       - name: Self-Service-Registrierung
         href: service-self-service-signup-for-power-bi.md
+      - name: Lizenzierung in Ihrer Organisation
+        href: service-admin-licensing-organization.md
       - name: Funktionen nach Lizenztyp
         href: service-features-license-type.md
-      - name: Aktivierung der erweiterten Pro-Testversion
-        href: service-extended-pro-trial.md
-      - name: Power BI für US-Behörden
-        href: service-govus-overview.md
-      - name: Häufig gestellte Fragen für Kunden von Cloud Deutschland
-        href: service-govde-faq.md
-    - name: eingeben
+    - name: Weitere Konzepte
       items:
-      - name: Datenquellen für Power BI
-        href: service-get-data.md
-      - name: Abrufen von Daten aus Dateien
-        href: service-get-data-from-files.md
-      - name: Aggregate (Summe, Durchschnitt, Maximalwert usw.)
-        href: service-aggregates.md
-      - name: Aktualisieren von Daten in Power BI
-        href: refresh-data.md
-      - name: Azure und Power BI
-        href: service-azure-and-power-bi.md
-      - name: Ausgehender Datenverkehr in Power BI und Azure
-        href: service-azure-egress-power-bi.md
-    - name: Berichtsentwurf
-      items:
-      - name: Berichts-Editor – Verschaffen Sie sich einen Überblick
-        href: service-the-report-editor-take-a-tour.md
-      - name: Visualisierungen in Power BI
-        href: visuals/power-bi-report-visualizations.md
-      - name: Informationen zu Filtern und Hervorhebungen in Berichten
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Einstellungen für die Seitenanzeige in einem Power BI-Bericht
-        href: power-bi-report-display-settings.md
-      - name: Einführung in Cortana für Power BI
-        href: service-cortana-intro.md
-    - name: Sonstige
-      items:
-      - name: Microsoft Flow und Power BI
-        href: service-flow-integration.md
-      - name: Erste Schritte mit Drittanbieter-Apps
-        href: service-power-bi-get-started-third-party-apps.md
+      - name: 10 Tipps, um Hilfe zu erhalten
+        href: service-tips-for-finding-help.md
+      - name: Sonderfälle bei der Lizenzierung
+        items:
+        - name: Aktivierung der erweiterten Pro-Testversion
+          href: service-extended-pro-trial.md
+        - name: Power BI für US-Behörden
+          href: service-govus-overview.md
+        - name: Häufig gestellte Fragen für Kunden von Cloud Deutschland
+          href: service-govde-faq.md
+      - name: Sonstige
+        items:
+        - name: Microsoft Flow und Power BI
+          href: service-flow-integration.md
+        - name: Erste Schritte mit Drittanbieter-Apps
+          href: service-power-bi-get-started-third-party-apps.md
   - name: Vorgehensweise
     items:
-    - name: Verbinden mit Diensten
+    - name: Abrufen von Daten aus Dateien
       items:
-      - name: Verbinden mit Diensten
-        href: service-connect-to-services.md
-      - name: Acumatica
-        href: service-connect-to-acumatica.md
-      - name: Adobe Analytics
-        href: service-connect-to-adobe-analytics.md
-      - name: Alpine Metrics Sales Predictions
-        href: service-connect-to-alpine-metrics.md
-      - name: appFigures
-        href: service-connect-to-appfigures.md
-      - name: Application Insights
-        href: service-connect-to-application-insights.md
-      - name: AT Internet Bridge
-        href: service-connect-to-at-internet.md
-      - name: Azure-Überwachungsprotokolle
-        href: service-connect-to-azure-audit-logs.md
-      - name: Azure Mobile Engagement
-        href: service-connect-to-azure-mobile.md
-      - name: Microsoft Azure Consumption Insights
-        href: service-connect-to-azure-consumption-insights.md
-      - name: Azure Search
-        href: service-connect-to-azure-search.md
-      - name: Circuit ID
-        href: service-connect-to-circuit-id.md
-      - name: ClickDimensions
-        href: service-connect-to-clickdimensions.md
-      - name: comScore Digital Analytix
-        href: service-connect-to-connect-to.md
-      - name: GitHub
-        href: service-connect-to-github.md
-      - name: Google Analytics
-        href: service-connect-to-google-analytics.md
-      - name: Insightly
-        href: service-connect-to-insightly.md
-      - name: IntelliBoard
-        href: service-connect-to-intelliboard.md
-      - name: Lithium
-        href: service-connect-to-lithium.md
-      - name: MailChimp
-        href: service-connect-to-mailchimp.md
-      - name: Mandrill
-        href: service-connect-to-mandrill.md
-      - name: Marketo
-        href: service-connect-to-marketo.md
-      - name: Microsoft Azure Enterprise
-        href: service-connect-to-azure-enterprise.md
-      - name: Microsoft Dynamics AX
-        href: service-connect-to-microsoft-dynamics-ax.md
-      - name: Microsoft Dynamics CRM
-        href: service-connect-to-microsoft-dynamics-crm.md
-      - name: Microsoft Dynamics NAV
-        href: service-connect-to-microsoft-dynamics-nav.md
-      - name: Office365Mon
-        href: service-connect-to-office365mon.md
-      - name: Planview Enterprise
-        href: service-connect-to-planview.md
-      - name: Prevedere
-        href: service-connect-to-prevedere.md
-      - name: Project Online
-        href: service-connect-to-project-online.md
-      - name: Projectplace
-        href: service-connect-to-projectplace.md
-      - name: QuickBooks Online
-        href: service-connect-to-quickbooks-online.md
-      - name: Salesforce
-        href: service-connect-to-salesforce.md
-      - name: SendGrid
-        href: service-connect-to-sendgrid.md
-      - name: ServiceNow Incidents
-        href: service-connect-to-servicenow.md
-      - name: Smartsheet
-        href: service-connect-to-smartsheet.md
-      - name: SparkPost
-        href: service-connect-to-sparkpost.md
-      - name: SQL-Datenbanküberwachung
-        href: service-connect-to-azure-sql-database-auditing.md
-      - name: SQL Sentry
-        href: service-connect-to-sql-sentry.md
-      - name: Stripe
-        href: service-connect-to-stripe.md
-      - name: SweetIQ
-        href: service-connect-to-sweetiq.md
-      - name: Troux
-        href: service-connect-to-troux.md
-      - name: Twilio
-        href: service-connect-to-twilio.md
-      - name: tyGraph
-        href: service-connect-to-tygraph.md
-      - name: UserVoice
-        href: service-connect-to-uservoice.md
-      - name: VMob
-        href: service-connect-to-vmob.md
-      - name: Webtrends
-        href: service-connect-to-webtrends.md
-      - name: Windows Dev Center
-        href: service-connect-to-windows-dev-center.md
-      - name: Xero
-        href: service-connect-to-xero.md
-      - name: Zendesk
-        href: service-connect-to-zendesk.md
-      - name: Ziosk
-        href: service-connect-to-ziosk.md
-      - name: Zuora
-        href: service-connect-to-zuora.md
-    - name: Daten aus Dateien
-      items:
+      - name: Abrufen von Daten aus Dateien
+        href: service-get-data-from-files.md
       - name: Von Excel zu aufschlussreichen Berichten
         href: service-from-excel-to-stunning-report.md
       - name: Abrufen von Daten aus Excel-Arbeitsmappendateien
@@ -566,12 +466,16 @@ items:
         href: service-comma-separated-value-files.md
       - name: Echtzeitstreaming in Power BI
         href: service-real-time-streaming.md
-      - name: Veröffentlichen in Power BI aus Excel 2016
+      - name: Veröffentlichen in Power BI aus Excel
         href: service-publish-from-excel.md
       - name: Reduzieren der Größe einer Excel-Arbeitsmappe
         href: reduce-the-size-of-an-excel-workbook.md
-    - name: Daten aus Datenbanken
+    - name: Abrufen von Daten aus Datenbanken
       items:
+      - name: Azure und Power BI
+        href: service-azure-and-power-bi.md
+      - name: Ausgehender Datenverkehr in Power BI und Azure
+        href: service-azure-egress-power-bi.md
       - name: Azure SQL Data Warehouse mit DirectQuery
         href: service-azure-sql-data-warehouse-with-direct-connect.md
       - name: Azure SQL-Datenbank mit DirectQuery
@@ -580,7 +484,7 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: SQL Server Analysis Services-Livedaten in Power BI
         href: sql-server-analysis-services-tabular-data.md
-    - name: Datenaktualisierung
+    - name: Daten aktualisieren
       items:
       - name: Konfigurieren von geplanten Aktualisierungen
         href: refresh-scheduled-refresh.md
@@ -618,8 +522,6 @@ items:
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Datenwarnungen im Power BI-Dienst
         href: service-set-data-alerts.md
-      - name: Nutzungsmetriken für Dashboards
-        href: service-usage-metrics.md
       - name: Hinzufügen eines Bilds, Textfelds, Videos oder von Code zu einem Dashboard
         href: service-dashboard-add-widget.md
       - name: Bearbeiten einer Kachel
@@ -640,6 +542,8 @@ items:
       items:
       - name: Erstellen eines Berichts aus einem Dataset
         href: service-report-create-new.md
+      - name: Informationen zu Filtern und Hervorhebungen in Berichten
+        href: power-bi-reports-filters-and-highlighting.md
       - name: Hinzufügen eines Filters zu einem Bericht
         href: power-bi-report-add-filter.md
       - name: Speichern eines Berichts in Power BI
@@ -650,6 +554,8 @@ items:
         href: service-analyze-in-excel.md
       - name: Tipps und Tricks zum Erstellen von Berichten
         href: power-bi-reports-tips-and-tricks-for-creating.md
+      - name: Arbeiten mit Aggregaten im Dienst
+        href: service-aggregates.md
       - name: Nutzungsmetriken für Berichte
         href: service-usage-metrics.md
       - name: Erstellen eines QR-Codes für einen Bericht
@@ -664,7 +570,7 @@ items:
       items:
       - name: Erste Schritte mit Power BI – Q&A
         href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Verwenden von Q&A zum Erstellen von Visualisierungen und Berichten
+      - name: Verwenden von Q&A zum Erstellen von Visuals und Berichten
         href: power-bi-tutorial-q-and-a.md
       - name: Optimieren Ihrer Daten für Q&A
         href: service-prepare-data-for-q-and-a.md
@@ -674,18 +580,16 @@ items:
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Verwenden von Q&A mit Liveverbindungen
         href: service-q-and-a-direct-query.md
+      - name: Einführung in Cortana für Power BI
+        href: service-cortana-intro.md
       - name: Aktivieren von Cortana für Power BI
         href: service-cortana-enable.md
       - name: Schnelle Einblicke in Power BI
         href: service-insights.md
       - name: Optimieren von Daten für Quick Insights
         href: service-insights-optimize.md
-    - name: Freigeben Ihrer Arbeit
+    - name: Zusammenarbeit in Power BI
       items:
-      - name: Wie sollten Zusammenarbeit und Freigabe gestaltet sein?
-        href: service-how-to-collaborate-distribute-dashboards-reports.md
-      - name: Freigeben von Dashboards und Berichten
-        href: service-share-dashboards.md
       - name: Erstellen und Teilen von Apps
         href: service-create-distribute-apps.md
       - name: Erstellen von App-Arbeitsbereichen
@@ -694,22 +598,24 @@ items:
         href: service-create-the-new-workspaces.md
       - name: Verwalten von Datenspeicher in Arbeitsbereichen
         href: service-admin-manage-your-data-storage-in-power-bi.md
-      - name: Freigeben eines gefilterten Berichts
-        href: service-share-reports.md
-      - name: Veröffentlichen aus Power BI im Web
-        href: service-publish-to-web.md
-      - name: Einbetten eines Berichts in SharePoint Online
-        href: service-embed-report-spo.md
       - name: Herstellen einer Verbindung mit Dateien im Gruppenbereich auf OneDrive
         href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
       - name: Zusammenarbeit in Ihrem Gruppenarbeitsbereich
         href: service-collaborate-power-bi-workspace.md
       - name: Verwalten Ihrer Gruppe in Power BI und Office 365
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
+    - name: Veröffentlichen und Teilen Ihrer Arbeit
+      items:
+      - name: Freigeben von Dashboards und Berichten
+        href: service-share-dashboards.md
+      - name: Freigeben eines gefilterten Berichts
+        href: service-share-reports.md
+      - name: Veröffentlichen aus Power BI im Web
+        href: service-publish-to-web.md
+      - name: Einbetten eines Berichts in SharePoint Online
+        href: service-embed-report-spo.md
       - name: Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe in OneDrive verknüpft ist
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: Veröffentlichen
-      items:
       - name: Power BI Publisher für Excel
         href: publisher-for-excel.md
     - name: Problembehandlung
@@ -750,6 +656,8 @@ items:
         href: service-dataflows-create-use.md
       - name: Berechnete Entitäten mit Power BI Premium (Vorschau)
         href: service-dataflows-computed-entities-premium.md
+      - name: Verbinden von Datenquellen und Dataflows (Vorschauversion)
+        href: service-dataflows-data-sources.md
       - name: Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)
         href: service-dataflows-on-premises-gateways.md
       - name: Verknüpfen von Entitäten zwischen Dataflows (Vorschau)
@@ -800,7 +708,113 @@ items:
         href: service-govus-signup.md
       - name: Löschen beliebiger Elemente aus Power BI
         href: service-delete.md
-      - name: Inhaltspakete
+      - name: Verbinden mit Diensten
+        items:
+        - name: Verbinden mit Diensten
+          href: service-connect-to-services.md
+        - name: Acumatica
+          href: service-connect-to-acumatica.md
+        - name: Adobe Analytics
+          href: service-connect-to-adobe-analytics.md
+        - name: Alpine Metrics Sales Predictions
+          href: service-connect-to-alpine-metrics.md
+        - name: appFigures
+          href: service-connect-to-appfigures.md
+        - name: Application Insights
+          href: service-connect-to-application-insights.md
+        - name: AT Internet Bridge
+          href: service-connect-to-at-internet.md
+        - name: Azure-Überwachungsprotokolle
+          href: service-connect-to-azure-audit-logs.md
+        - name: Azure Mobile Engagement
+          href: service-connect-to-azure-mobile.md
+        - name: Microsoft Azure Consumption Insights
+          href: service-connect-to-azure-consumption-insights.md
+        - name: Azure Search
+          href: service-connect-to-azure-search.md
+        - name: Circuit ID
+          href: service-connect-to-circuit-id.md
+        - name: ClickDimensions
+          href: service-connect-to-clickdimensions.md
+        - name: comScore Digital Analytix
+          href: service-connect-to-connect-to.md
+        - name: GitHub
+          href: service-connect-to-github.md
+        - name: Google Analytics
+          href: service-connect-to-google-analytics.md
+        - name: Insightly
+          href: service-connect-to-insightly.md
+        - name: IntelliBoard
+          href: service-connect-to-intelliboard.md
+        - name: Lithium
+          href: service-connect-to-lithium.md
+        - name: MailChimp
+          href: service-connect-to-mailchimp.md
+        - name: Mandrill
+          href: service-connect-to-mandrill.md
+        - name: Marketo
+          href: service-connect-to-marketo.md
+        - name: Microsoft Azure Enterprise
+          href: service-connect-to-azure-enterprise.md
+        - name: Microsoft Dynamics AX
+          href: service-connect-to-microsoft-dynamics-ax.md
+        - name: Microsoft Dynamics CRM
+          href: service-connect-to-microsoft-dynamics-crm.md
+        - name: Microsoft Dynamics NAV
+          href: service-connect-to-microsoft-dynamics-nav.md
+        - name: Office365Mon
+          href: service-connect-to-office365mon.md
+        - name: Planview Enterprise
+          href: service-connect-to-planview.md
+        - name: Prevedere
+          href: service-connect-to-prevedere.md
+        - name: Project Online
+          href: service-connect-to-project-online.md
+        - name: Projectplace
+          href: service-connect-to-projectplace.md
+        - name: QuickBooks Online
+          href: service-connect-to-quickbooks-online.md
+        - name: Salesforce
+          href: service-connect-to-salesforce.md
+        - name: SendGrid
+          href: service-connect-to-sendgrid.md
+        - name: ServiceNow Incidents
+          href: service-connect-to-servicenow.md
+        - name: Smartsheet
+          href: service-connect-to-smartsheet.md
+        - name: SparkPost
+          href: service-connect-to-sparkpost.md
+        - name: SQL-Datenbanküberwachung
+          href: service-connect-to-azure-sql-database-auditing.md
+        - name: SQL Sentry
+          href: service-connect-to-sql-sentry.md
+        - name: Stripe
+          href: service-connect-to-stripe.md
+        - name: SweetIQ
+          href: service-connect-to-sweetiq.md
+        - name: Troux
+          href: service-connect-to-troux.md
+        - name: Twilio
+          href: service-connect-to-twilio.md
+        - name: tyGraph
+          href: service-connect-to-tygraph.md
+        - name: UserVoice
+          href: service-connect-to-uservoice.md
+        - name: VMob
+          href: service-connect-to-vmob.md
+        - name: Webtrends
+          href: service-connect-to-webtrends.md
+        - name: Windows Dev Center
+          href: service-connect-to-windows-dev-center.md
+        - name: Xero
+          href: service-connect-to-xero.md
+        - name: Zendesk
+          href: service-connect-to-zendesk.md
+        - name: Ziosk
+          href: service-connect-to-ziosk.md
+        - name: Zuora
+          href: service-connect-to-zuora.md
+      - name: Organisationsbezogene Inhaltspakete
         items:
         - name: Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen
           href: service-organizational-content-pack-manage-update-delete.md
@@ -812,16 +826,16 @@ items:
           href: service-organizational-content-pack-create-and-publish.md
         - name: Entfernen der Verbindung mit einem organisationsbezogenen Inhaltspaket
           href: service-organizational-content-pack-disconnect.md
-        - name: Zertifizierung
-          items:
-          - name: Zertifizierungsprogramm für Inhaltspakete
-            href: service-content-pack-overview.md
-          - name: Erstellen von Vorlageninhaltspaketen
-            href: template-content-pack-authoring.md
-          - name: Testen von Vorlageninhaltspaketen
-            href: template-content-pack-testing.md
-          - name: Vorlageninhaltspakete in der Praxis
-            href: template-content-pack-experience.md
+      - name: Zertifizierung von Inhaltspaketen
+        items:
+        - name: Zertifizierungsprogramm für Inhaltspakete
+          href: service-content-pack-overview.md
+        - name: Erstellen von Vorlageninhaltspaketen
+          href: template-content-pack-authoring.md
+        - name: Testen von Vorlageninhaltspaketen
+          href: template-content-pack-testing.md
+        - name: Vorlageninhaltspakete in der Praxis
+          href: template-content-pack-experience.md
   - name: Ressourcen
     items:
     - name: Videos
@@ -946,6 +960,8 @@ items:
       items:
       - name: Richtlinien für Power BI-Visuals
         href: developer/office-store-in-app-purchase-visual-guidelines.md
+      - name: Häufig gestellte Fragen zu benutzerdefinierten Visuals
+        href: power-bi-custom-visuals-faq.md
       - name: Using-Funktionen
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: Zuordnungen der Datenansicht
@@ -962,6 +978,8 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: Veröffentlichen von benutzerdefinierten Visuals in AppSource
         href: developer/office-store.md
+      - name: Problembehandlung für benutzerdefinierte Visuals
+        href: power-bi-custom-visuals-troubleshoot.md
     - name: Referenz
       items:
       - name: APIs
@@ -1218,8 +1236,6 @@ items:
       href: service-admin-faq.md
   - name: Vorgehensweise
     items:
-    - name: Power BI-Verwaltungsportal
-      href: service-admin-portal.md
     - name: Lizenzierung und Registrierung
       items:
       - name: Lizenzierung für Ihre Organisation
@@ -1265,9 +1281,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 8d672463e0f7ce1fb9f9a2fc938ae73cdd492a42
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: 8c0c1c309fc1225e3f5f8535bdb8578294c6ba3f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329807"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983897"
