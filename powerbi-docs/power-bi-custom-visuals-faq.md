@@ -8,14 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: c17f9b9841335420db67abb62c92603bf804f275
-ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
+ms.openlocfilehash: 66ab9dee3bd200cf3c81fc2add41af29726a91db
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53553902"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54055878"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Häufig gestellte Fragen zu benutzerdefinierten Visuals in Power BI
 
@@ -37,7 +38,7 @@ Nein, die Registerkarte „MEINE ORGANIZATION“ aus Power BI Desktop und -Diens
   
 ### <a name="if-the-administrator-disables-custom-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-custom-visuals"></a>Wenn der Administrator benutzerdefinierte Visuals über das Administratorportal deaktiviert (Mandanteneinstellungen), haben Benutzer dann noch Zugriff auf die benutzerdefinierten Visuals?
 
-Ja, wenn der Administrator die benutzerdefinierten Visuals im Administratorportal deaktiviert, hat dies keine Auswirkungen auf den Store der Organisation. Einige Organisationen deaktivieren benutzerdefinierte Visuals und aktivieren nur handverlesene Visuals, die vom Power BI-Administrator importiert und in den Store der Organisation hochgeladen wurden. Das Deaktivieren der benutzerdefinierten Visuals über das Administratorportal wird in Power BI Desktop nicht erzwungen. Desktop-Benutzer können weiterhin benutzerdefinierte Visuals vom öffentlichen Marketplace in ihren Berichten hinzufügen und verwenden. Diese öffentlichen benutzerdefinierten Visuals beenden jedoch das Rendering nach der Veröffentlichung im Power BI-Dienst und geben einen entsprechenden Fehler aus. Wenn Sie den Power BI-Dienst verwenden, können Sie keine benutzerdefinierten Visuals vom öffentlichen Marketplace importieren. Es können nur Visuals aus dem Store der Organisation importiert werden, da die Einstellung für benutzerdefinierte Visuals im Administrationsportal im Power BI-Dienst erzwungen wird.
+Ja, wenn der Administrator die benutzerdefinierten Visuals im Administratorportal deaktiviert, hat dies keine Auswirkungen auf den Speicher der Organisation. Einige Organisationen deaktivieren benutzerdefinierte Visuals und aktivieren nur handverlesene Visuals, die vom Power BI-Administrator importiert und in den Speicher der Organisation hochgeladen wurden. Das Deaktivieren der benutzerdefinierten Visuals über das Administratorportal wird in Power BI Desktop nicht erzwungen. Desktop-Benutzer können weiterhin benutzerdefinierte Visuals vom öffentlichen Marketplace in ihren Berichten hinzufügen und verwenden. Diese öffentlichen benutzerdefinierten Visuals beenden jedoch das Rendering nach der Veröffentlichung im Power BI-Dienst und geben einen entsprechenden Fehler aus. Wenn Sie den Power BI-Dienst verwenden, können Sie keine benutzerdefinierten Visuals vom öffentlichen Marketplace importieren. Es können nur Visuals aus dem Speicher der Organisation importiert werden, da die Einstellung für benutzerdefinierte Visuals im Administrationsportal im Power BI-Dienst erzwungen wird.
 
 ### <a name="why-does-the-organizational-store-and-organizational-custom-visuals-make-a-great-enterprise-solution"></a>Warum sind der Store der Organisation und die benutzerdefinierten Visuals in Kombination eine großartige Unternehmenslösung?
 
