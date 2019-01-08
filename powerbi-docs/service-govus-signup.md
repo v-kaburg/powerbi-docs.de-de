@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670224"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056062"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrieren einer US-Behörde für den Power BI-Dienst
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -102,7 +102,7 @@ Wenn Sie in Ihrem Mandanten sowohl Free- als auch Pro-Lizenzen für US-Behörden
 
 Bei Verwendung einer Kombination von Free- und Pro-Lizenzen in einem Mandanten für US-Behörden und Durchlaufen des Prozesses für die *Aufnahme in die Whitelist*, kann Folgendes erwartet werden:
 
-**Vor dem *Aufnehmen in die Whitelist***:
+**Vor dem _Aufnehmen in die Whitelist_**:
 
 * Benutzer mit Free-Lizenzen verwenden die kommerzielle Cloud.
 * Pro US Government-Lizenzen werden im Portal aufgeführt, und der Administrator kann sie Benutzern zuweisen. Pro US Government-Benutzer verlieren keine Daten aus ihren Free-Lizenzen, nachdem der Administrator eine US Government Pro-Lizenz zugewiesen hat. Die zugewiesenen Benutzer haben Zugriff auf Power BI Pro-Features für US Government-Kunden, aber die folgenden aufgeführten Funktionslücken bleiben bestehen, bis der Mandant erfolgreich in die *Whitelist aufgenommen* wurde:
@@ -112,7 +112,7 @@ Bei Verwendung einer Kombination von Free- und Pro-Lizenzen in einem Mandanten f
   * Manueller Upload von PBIX-Dateien aus dem kommerziellen Power BI-Dienst erforderlich
   * Mobile Power BI-Apps nicht verfügbar
 
-**Nach dem *Aufnehmen in die Whitelist***:
+**Nach dem _Aufnehmen in die Whitelist_**:
 
 * Die Ausführung für Free-Benutzer im kommerziellen Power BI-Dienst ist weiterhin möglich, die ordnungsgemäße Authentifizierung wird jedoch eingestellt.
 * Pro-Benutzer in der US Government-Cloud können den Dienst **Power BI für Angehörige von US-Behörden** wie erwartet ausführen.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908829"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008808"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics CRM mithilfe von Power BI
 Mit Microsoft Dynamics CRM Online für Power BI können Sie einfach auf Ihre Daten zuzugreifen und sie analysieren. Power BI verwendet den OData-Feed, um ein anschauliches Modell mit allen erforderlichen Entitäten und Measures zu erstellen, z.B. Konten, Aktivitäten, Verkaufschancen, Produkte, Leads, Benutzer usw. Nachdem Sie die App installiert haben, können Sie das Dashboard und die Berichte im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und in den mobilen Power BI-Apps anzeigen. 
@@ -78,7 +78,7 @@ In der folgenden Tabelle werden die CRM-Entitäten aufgelistet, die für diesen 
 | CRM-Entität | Angewendete Filter |
 | --- | --- |
 | Konto |Alle Konten, die über verknüpfte Verkaufschancen verfügen, die in den letzten 365 Tagen geändert wurden |
-| Activity |Alle Aktivitäten, die in den letzten 90 Tagen geändert wurden <br> [modifiedon] > today - 90 days |
+| Aktivität |Alle Aktivitäten, die in den letzten 90 Tagen geändert wurden <br> [modifiedon] > today - 90 days |
 | Business Unit |Alle Unternehmenseinheiten, die nicht deaktiviert wurden <br> [isdisabled] = false |
 | Lead |Alle Leads, die in den letzten 180 Tagen geändert wurden <br> [modifiedon] > today - 180 days |
 | Opportunity |Alle Verkaufschancen, die in den letzten 365 Tagen geändert wurden <br> [modifiedon] > today - 365 days |

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908576"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008693"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Adobe Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Adobe Analytics über Power BI beginnt mit dem Verbinden mit Ihrem Konto für die Adobe Analytics Marketing Cloud. Sie erhalten eine App mit einem Power BI-Dashboard und einer Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Die Daten werden automatisch einmal täglich aktualisiert. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern.

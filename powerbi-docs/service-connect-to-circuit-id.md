@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549705"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008730"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Herstellen einer Verbindung mit Circuit ID mithilfe von Power BI
 Das Analysieren Ihrer Kommunikationsdaten aus Circuit ID ist mit Power BI ganz einfach. Power BI ruft Ihre Daten ab und erstellt auf Basis dieser Daten ein Standarddashboard und zugehörige Berichte. Nachdem eine Verbindung besteht, können Sie Ihre Daten untersuchen und das Dashboard gemäß Ihren Anforderungen anpassen. Die Daten werden täglich automatisch aktualisiert.
