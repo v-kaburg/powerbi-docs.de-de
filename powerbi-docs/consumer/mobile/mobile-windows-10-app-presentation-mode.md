@@ -1,31 +1,29 @@
 ---
 title: Anzeigen im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
 description: Erfahren Sie, wie Sie Power BI-Berichte auf dem Surface Hub sowie Power BI-Dashboards, -Berichte und -Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen können.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507931"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301756"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Anzeigen von Berichten im Präsentationsmodus auf dem Surface Hub und unter Windows 10 – Power BI
-Sie können Berichte auf dem Surface Hub im Präsentationsmodus sowie Dashboards, Berichte und Kacheln auf Windows 10-Geräten im Vollbildmodus anzeigen. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Anzeigen von Berichten und Dashboards im Präsentationsmodus auf dem Surface Hub und Windows 10-Geräten
+Sie können den Präsentationsmodus zum Anzeigen von Berichten und Dashboards auf Windows 10-Geräten und dem Surface Hub im Vollbildmodus verwenden. 
 
 ![Bericht im Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-Power BI-Präsentationsmodus und -Vollbildmodus eignen sich für Besprechungen und Konferenzen, für dedizierte Projektoren im Büro oder einfach für die maximale Raumausnutzung auf kleinen Bildschirmen. 
+Der Power BI-Präsentationsmodus eignet sich für Besprechungen und Konferenzen, für einen dedizierten Projektor im Büro oder einfach für die maximale Raumausnutzung auf kleinen Bildschirmen. 
 
-Im Vollbildmodus in der mobilen Power BI-App werden alle Bedienelemente mit Ausnahme der Registerkarten für Seiten und des Filterbereichs in Berichten ausgeblendet.
-
-Wenn Sie einen Bericht auf dem Surface Hub im Präsentationsmodus anzeigen, können Sie in verschiedenen Farben direkt auf der Seite zeichnen und zwischen den Berichtsseiten navigieren.
+Im Präsentationsmodus der mobilen Power BI-App für Windows 10 werden alle „Zierleisten“, wie etwa die Navigations- und die Menüleiste, entfernt, um Ihnen und den Mitgliedern Ihres Teams die Konzentration auf die Daten in Ihrem Bericht zu erleichtern. Im Präsentationsmodus steht Ihnen eine Symbolleiste mit Aktionen zur Verfügung, die Ihnen die Interaktion und gemeinsame Arbeit mit den Daten ermöglicht.
 
 Sie können auch [Dashboards und Berichte über den Power BI-Dienst im Vollbildmodus anzeigen](../end-user-focus.md), wenn diese im Web verfügbar sind.
 
@@ -34,44 +32,24 @@ Sie können auch [Dashboards und Berichte über den Power BI-Dienst im Vollbildm
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>Anzeigen von Dashboards, Berichten und Kacheln im Vollbildmodus
-1. Tippen Sie in der mobilen Power BI-App auf einem Dashboard, in einem Bericht oder auf einer Kachel auf das Symbol **Vollbild** ![Vollbildsymbol](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png), um in den Vollbildmodus zu wechseln.
-2. Im Präsentationsmodus können Sie einen Bericht filtern oder weitere Dashboards und Berichte suchen.
-   
-    Erweitern Sie den Bereich „Filter“, um diese festzulegen oder zu entfernen.
-   
-    ![Bereich „Filter“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     Tippen Sie auf das Suchsymbol ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) , um nach anderen Dashboards zu suchen.
-   
-    ![Suchergebnisse](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. Tippen Sie zum Beenden des Vollbildmodus auf das Symbol mit den gegeneinander gerichteten Pfeilen ![Beenden des Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) auf der Symbolleiste, oder wischen Sie von oben nach unten, und tippen Sie auf die gegeneinander gerichteten Pfeile ![Beenden des Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>Verwenden des Präsentationsmodus
+Tippen Sie in der mobilen Power BI-App auf das Symbol **Vollbild**, um in den Vollbildmodus zu wechseln.
+![Vollbildsymbol](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) Die Zierleisten der App verschwinden, und am unteren Bildschirmrand oder an den Seiten rechts und links (abhängig von der Größe Ihres Bildschirms) wird eine Symbolleiste angezeigt.
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Aktivieren des Präsentationsmodus auf dem Surface Hub
-Der Präsentationsmodus ist auf dem Surface Hub standardmäßig aktiviert. Sollte er deaktiviert sein, können Sie ihn wieder aktivieren.
+![Bericht im Vollbildmodus mit seitlichen Symbolleisten](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. Tippen Sie auf das Symbol „Einstellungen“ ![Symbol „Einstellungen“](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) am unteren Rand der linken Navigationsleiste.
-2. Tippen Sie auf **Optionen**, und stellen Sie den Schieberegler **Microsoft Surface Hub-Präsentationsmodus aktivieren** auf **Ein**.
-   
-    ![Aktivieren des Präsentationsmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+Auf der Symbolleiste können Sie die folgenden Aktionen ausführen:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Anzeigen von Berichten auf dem Surface Hub und Erstellen von Zeichnungen
-1. Tippen Sie in einem Bericht auf das Symbol **Vollbild** ![Vollbildsymbol](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png), um den Surface Hub-Präsentationsmodus aufzurufen.
-   
-    Eine reduzierbare Aktionsleiste wird auf beiden Seiten des Bildschirms angezeigt. 
-   
-   * Um diese zu öffnen, wischen Sie nach innen oder tippen Sie auf den Ziehpunkt.
-   * Um sie zu schließen, wischen Sie nach außen oder tippen Sie oben auf das X.
-2. Auf Geräten mit Stiftunterstützung können Sie damit sofort beginnen. 
-3. Um die Freihandfarbe zu ändern, tippen Sie mit dem Stift auf die linke oder rechte Aktionsleiste.
-   
-    ![Surface Hub-Freihandeingabe](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. Tippen Sie auf den Radierer oder auf den Pfeil zum Rückgängigmachen, um die Freihandeingaben ganz oder teilweise zu entfernen.
-5. Tippen Sie auf den Kreispfeil, um den Berichtsinhalt zu aktualisieren.
-6. Tippen Sie auf die Seitwärtspfeile, um zu anderen Seiten im Bericht zu gelangen.
-   
-    ![Seitwärtspfeile zu anderen Seiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. Um den Vollbildmodus zu beenden, wischen Sie von oben nach unten, und tippen Sie auf die gegeneinander gerichteten Pfeile ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+1. Tippen Sie auf das Symbol "Zurück", ![Symbol „Zurück“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) um zur vorherigen Seite zurück zu gelangen. Durch langes Tippen auf das Symbol werden die Brotkrümelfenster eingeblendet, mit denen Sie zum enthaltenden Ordner Ihres Berichts oder Dashboards navigieren können.
+2. Mit dem Symbol „Freihand“ ![Symbol „Freihand“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) können Sie eine Farbe für Zeichnungen und Anmerkungen mit dem Surface-Stift auf Ihrer Berichtsseite auswählen. 
+3. Verwenden Sie das Symbol „Seiten“, ![Paginierungssymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) um die aktuell präsentierte Berichtsseite zu ersetzen.
+4. Tippen Sie auf das Suchsymbol, ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) um nach weiteren Artefakten in Power BI zu suchen.
+5. Tippen Sie zum Beenden des Präsentationsmodus auf das Symbol mit den gegeneinander gerichteten Pfeilen ![Beenden des Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) auf der Symbolleiste.
+
+Sie können die Symbolleiste lösen und sie an eine beliebige Position auf dem Bildschirm ziehen. Dies ist auf großen Bildschirmen nützlich, wenn Sie sich auf einen bestimmten Bereich in Ihrem Bericht konzentrieren, aber die Tools zugleich zu Ihrer Verfügung haben möchten. Platzieren Sie einfach Ihren Finger auf der Symbolleiste, und wischen Sie mit ihr in den Zeichenbereich des Berichts.
+
+![Bericht im Präsentationsmodus und nicht angedockte Symbolleisten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anzeigen von Dashboards und Berichten im Vollbildmodus über den Power BI-Dienst](../end-user-focus.md)

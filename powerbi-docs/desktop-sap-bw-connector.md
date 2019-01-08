@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452865"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451442"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Verwendung des SAP BW-Connectors in Power BI Desktop
 Mit Power BI Desktop können Sie auf Daten aus **SAP Business Warehouse (BW)** zugreifen.
@@ -66,7 +66,7 @@ Geben Sie Werte für *Server*, *Systemnummer* und *Client-ID* ein, um eine Verbi
 
 ![SAP: Serververbindungseinstellungen](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-Sie können auch zwei zusätzliche **Erweiterte Optionen** angeben: Sprachcode und eine benutzerdefinierte MDX-Anweisung, die für den angegebenen Server ausgeführt wird.
+Ferner können Sie zwei zusätzliche **erweiterte Optionen** angeben: Sprachcode und eine benutzerdefinierte MDX-Anweisung zur Ausführung auf dem angegebenen Server.
 
 ![Zusätzliche Verbindungsinformationen](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,9 +78,9 @@ Wenn Sie ein oder mehrere Elemente aus dem Server auswählen, wird abhängig von
 
 Das Fenster **Navigator** bietet auch einige **Anzeigeoptionen**, mit denen Sie die folgenden Schritte ausführen können:
 
-* **Anzeige *Nur ausgewählte Elemente* im Vergleich zu *Alle Elemente* (Standardansicht):** Diese Option dient der Überprüfung des endgültigen Satzes von ausgewählten Elementen. Um eine alternative Möglichkeit der Darstellung dieser Auswahl anzuzeigen, wählen Sie die *Spaltennamen* im Bereich *Vorschau* aus.
+* **Anzeigen von *Nur ausgewählte Elemente* im Vergleich zu *Alle Elemente* (Standardansicht):** Diese Option ist zum Überprüfen des endgültigen Satzes ausgewählter Elemente nützlich. Um eine alternative Möglichkeit der Darstellung dieser Auswahl anzuzeigen, wählen Sie die *Spaltennamen* im Bereich *Vorschau* aus.
 * **Datenvorschau aktivieren (Standardverhalten):** Sie können auch steuern, ob die Datenvorschau in diesem Dialogfeld angezeigt werden soll. Das Deaktivieren der Datenvorschau verringert die Serveraufrufe, da keine Daten für die Vorschau mehr angefordert werden.
-* **Technischer Name:** SAP BW unterstützt das Konzept von *technischen Namen* für Objekte innerhalb eines Cubes. Durch technische Namen kann ein Cube-Besitzer *benutzerfreundliche* Namen für Cubeobjekte verfügbar machen, statt nur die *physischen Namen* für diese Objekte im Cube.
+* **Technische Namen:** SAP BW unterstützt das Konzept von *technischen Namen* für Objekte innerhalb eines Cubes. Durch technische Namen kann ein Cube-Besitzer *benutzerfreundliche* Namen für Cubeobjekte verfügbar machen, statt nur die *physischen Namen* für diese Objekte im Cube.
 
 ![Das Navigator-Fenster](media/desktop-sap-bw-connector/sap_bw_6.png)
 

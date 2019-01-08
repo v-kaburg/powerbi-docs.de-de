@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223316"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329784"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
 Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die beim Zeigen mit der Maus auf Visuals angezeigt werden. Die QuickInfos basieren auf Berichtsseiten, die Sie in **Power BI Desktop** erstellen können. Da Sie die Berichtsseite für eine QuickInfo selbst erstellen, können benutzerdefinierte QuickInfos Visuals, Bilder und jede andere Auflistung von Elementen enthalten, die Sie auf der Berichtsseite erstellen. 
@@ -25,17 +25,6 @@ Sie können visuell aufbereitete **QuickInfos für Berichte** erstellen, die bei
 Sie können beliebig viele QuickInfo-Seiten erstellen. Jede QuickInfo-Seite kann einem Feld oder mehreren Feldern in Ihrem Bericht zugeordnet werden. Wenn Sie nun auf ein Visual zeigen, das das ausgewählte Feld enthält, wird die QuickInfo angezeigt, die Sie auf der QuickInfo-Seite erstellt haben, und dies gefiltert nach Datenpunkten, auf die mit der Maus gezeigt wird. 
 
 QuickInfos für Berichte bieten Ihnen viele interessante Möglichkeiten. Erfahren Sie im folgenden Abschnitt, wie Sie QuickInfos erstellen und konfigurieren.
-
-### <a name="enable-the-tooltips-preview"></a>Aktivieren der Vorschau für QuickInfos 
-Ab dem **Power BI Desktop**-Release von September 2018 sind QuickInfos allgemein verfügbar und müssen nicht aktiviert werden. 
-
-Bei Verwendung einer früheren Version von **Power BI Desktop** können Sie es als Vorschaufeature aktivieren, indem Sie in Power BI Desktop auf **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** klicken und das Kontrollkästchen neben **QuickInfos zur Berichtsseite** aktivieren. 
-
-![Aktivieren des QuickInfo-Vorschaufeatures für Berichte](media/desktop-tooltips/desktop-tooltips_01.png)
-
-Zum Aktivieren der QuickInfo-Vorschauversion für Berichte müssen Sie **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
-
-Grundsätzlich wird ein Upgrade auf das neueste Release von **Power BI Desktop** empfohlen. Dieses ist über einen Link in [Power BI Desktop abrufen](desktop-get-the-desktop.md) erhältlich. 
 
 ## <a name="create-a-report-tooltip-page"></a>Erstellen einer QuickInfo-Berichtsseite
 Klicken Sie zunächst auf die **+**-Schaltfläche am unteren Rand des **Power BI Desktop**-Zeichenbereichs im Bereich der Seiten-Registerkarten, um eine neue Berichtsseite zu erstellen. Die Schaltfläche befindet sich neben der letzten Seite des Berichts. 
@@ -123,8 +112,7 @@ Bei einer Kreuzhervorhebung für ein Visual in einem Bericht zeigen QuickInfos f
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Folgende Einschränkungen und Überlegungen sollten Sie bei **QuickInfos** berücksichtigen:
 
-* Ab dem **Power BI Desktop**-Release von September 2018 sind QuickInfos allgemein verfügbar und werden auch von Kartenvisuals unterstützt.
-* Ab dem **Power BI Desktop**-Release von Juli 2018 werden Tabellen- und Matrixvisuals für QuickInfos unterstützt. 
+* Ab der Version von **Power BI Desktop** vom Dezember 2018 unterstützen Schaltflächenvisuals auch QuickInfos.
 * QuickInfos für Berichte werden beim Anzeigen von Berichten in mobilen Apps nicht unterstützt. 
 * QuickInfos für Berichte werden nicht für benutzerdefinierte Visuals unterstützt. 
 * Cluster werden derzeit nicht als Felder unterstützt, die in QuickInfos für Berichte angezeigt werden können. 

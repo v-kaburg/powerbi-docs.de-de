@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.date: 12/12/2018
+ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46474044"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329715"
 ---
-# <a name="troubleshooting-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
+# <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
 In diesem Artikel werden einige häufige Probleme erläutert, die beim Einbetten von Inhalten aus Power BI auftreten können.
 
-## <a name="tools-for-troubleshooting"></a>Tools zur Problembehandlung
+## <a name="tools-to-troubleshoot"></a>Tools zur Problembehandlung
 
 ### <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
 
@@ -34,7 +34,7 @@ F12 startet das Entwicklerfenster im Browser. Dies ermöglicht es, den Netzwerkd
 
 ![Debuggen im Browser mit F12](media/embedded-troubleshoot/browser-f12.png)
 
-### <a name="extracting-error-details-from-power-bi-response"></a>Extrahieren von Fehlerdetails aus einer Power BI-Antwort
+### <a name="extract-error-details-from-power-bi-response"></a>Extrahieren von Fehlerdetails aus einer Power BI-Antwort
 
 Dieser Codeausschnitt veranschaulicht, wie Sie die Fehlerdetails aus der HTTP-Ausnahme extrahieren:
 
@@ -58,25 +58,25 @@ Geben Sie die Anforderungs-ID an, wenn Sie sich an den Microsoft-Support wenden.
 
 ## <a name="app-registration"></a>App-Registrierung
 
-**Fehler bei der App-Registrierung**
+### <a name="app-registration-failure"></a>Fehler bei der App-Registrierung
 
 In Fehlermeldungen im Azure-Portal oder auf der Registrierungsseite für die Power BI-App wird auf unzureichende Berechtigungen hingewiesen. Um eine Anwendung zu registrieren, müssen Sie als Administrator im Azure AD-Mandanten fungieren, oder die Anwendungsregistrierung muss für Nicht-Administratorbenutzer aktiviert sein.
 
-**Power BI-Dienst wird beim Registrieren einer neuen App im Azure-Portal nicht aufgeführt**
+### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>Power BI-Dienst wird beim Registrieren einer neuen App im Azure-Portal nicht aufgeführt
 
 Mindestens ein Benutzer muss bei Power BI registriert sein. Wenn der **Power BI-Dienst** nicht in der API-Liste aufgeführt wird, ist kein Benutzer für Power BI registriert.
 
 ## <a name="rest-api"></a>REST-API
 
-**API-Aufruf gibt 401 zurück**
+### <a name="api-call-returning-401"></a>API-Aufruf gibt 401 zurück
 
 Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführt werden. Möglicherweise fehlt der erforderliche Berechtigungsbereich für die registrierte Anwendung in Azure AD. Stellen Sie sicher, dass der erforderliche Bereich innerhalb der App-Registrierung für Azure AD im Azure-Portal vorhanden ist.
 
-**API-Aufruf gibt 403 zurück**
+### <a name="api-call-returning-403"></a>API-Aufruf gibt 403 zurück
 
 Zur genaueren Prüfung muss möglicherweise eine Fiddler-Überwachung ausgeführt werden. Ein Fehler 403 kann verschiedene Ursachen haben.
 
-* Der Benutzer hat die Anzahl von Einbettungstoken überschritten, die mit einer gemeinsam genutzten Kapazität generiert werden können. Sie müssen weitere Azure-Kapazitäten erwerben und den Arbeitsbereich dieser Kapazität zuweisen, um weitere Einbettungstoken generieren zu können. Weitere Informationen finden Sie unter [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* Der Benutzer hat die Anzahl von Einbettungstoken überschritten, die mit einer gemeinsam genutzten Kapazität generiert werden können. Erwerben Sie weitere Azure-Kapazitäten, und weisen Sie den Arbeitsbereich dieser Kapazität zu, um weitere Einbettungstoken generieren zu können. Weitere Informationen finden Sie unter [Einrichten von Power BI Embedded-Kapazität im Azure-Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Das Azure AD-Auth-Token ist abgelaufen.
 * Der authentifizierte Benutzer ist kein Mitglied der Gruppe (App-Arbeitsbereich).
 * Der authentifizierte Benutzer ist kein Administrator der Gruppe (App-Arbeitsbereich).
@@ -101,19 +101,19 @@ Das Back-End der Anwendung muss das Auth-Token möglicherweise vor dem Aufrufen 
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Authentifizierung schlägt mit AADSTS70002 oder AADSTS50053 fehl
 
-**(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)**
+**_(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)_**
 
-Wenn Sie Power BI Embedded verwenden und die direkte Authentifizierung mit Azure AD einsetzen, erhalten Sie beim Anmelden Meldungen wie die folgende: ***error:unauthorized_client,error_description:AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einer falschen Benutzer-ID oder einem falschen Kennwort anzumelden***. Dies liegt daran, dass die direkte Authentifizierung am 14.6.2018 standardmäßig deaktiviert wurde.
+Wenn Sie Power BI Embedded verwenden und die direkte Authentifizierung mit Azure AD einsetzen, erhalten Sie beim Anmelden Meldungen wie die folgende: ***error:unauthorized_client,error_description:AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einer falschen Benutzer-ID oder einem falschen Kennwort anzumelden***. Dies liegt daran, dass die direkte Authentifizierung seit dem 14 Juni 2018 nicht mehr verwendet wird.
 
-Es gibt die Möglichkeit, dies zu reaktivieren, indem Sie eine [Azure AD-Richtlinie](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) verwenden, die für die Organisation oder einen [Dienstprinzipal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object) gelten kann.
+Es gibt die Möglichkeit, dies zu reaktivieren, indem Sie eine [Azure AD-Richtlinie](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) verwenden, die für die Organisation oder einen [Dienstprinzipal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object) gilt.
 
-Es empfiehlt sich, die Aktivierung nur pro App vorzunehmen.
+Es empfiehlt sich, die Aktivierung der Richtlinie nur je App vorzunehmen.
 
 Zum Erstellen dieser Richtlinie benötigen Sie einen **globalen Administrator** für das Verzeichnis, in dem Sie die Richtlinie erstellen und zuweisen möchten. Hier sehen Sie ein Beispielskript zum Erstellen der Richtlinie und zum Zuweisen dieser Richtlinie zum SP der Anwendung:
 
 1. Installieren Sie die [Vorschauversion des Azure AD-PowerShell-Moduls](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
-2. Führen Sie die folgenden PowerShell-Befehle Zeile für Zeile aus. Achten Sie dabei darauf, dass die Variable $sp nicht mehr als eine Anwendung als Ergebnis hat.
+2. Führen Sie die folgenden PowerShell-Befehle Zeile für Zeile aus. (Achten Sie dabei darauf, dass die Variable $sp nicht mehr als eine Anwendung als Ergebnis hat.)
 
 ```powershell
 Connect-AzureAD
@@ -133,17 +133,17 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 Warten Sie nach der Zuweisung der Richtlinie zwischen 15 und 20 Sekunden, bis die Zuweisung weitergegeben wurde, bevor Sie sie testen.
 
-**Fehler beim Generieren des Tokens bei der Bereitstellung der effektiven Identität**
+### <a name="generate-token-fails-when-providing-effective-identity"></a>Fehler beim Generieren des Tokens bei der Bereitstellung der effektiven Identität
 
 Bei GenerateToken kann bei Angabe einer effektiven Identität aus verschiedenen Gründen ein Fehler auftreten.
 
-* Das Dataset unterstützt keine effektiven Identitäten.
-* Der Benutzername wurde nicht angegeben.
-* Die Rolle wurde nicht angegeben.
-* DatasetId wurde nicht angegeben.
+* Das Dataset unterstützt keine effektive Identität.
+* Es wurde kein Benutzername angegeben.
+* Es wurde keine Rolle angegeben.
+* Die DatasetID wurde nicht angegeben.
 * Der Benutzer verfügt nicht über die richtigen Berechtigungen.
 
-Um den Fehler zu ermitteln, versuchen Sie Folgendes:
+Um den Fehler zu ermitteln, führen Sie die Schritte unten aus.
 
 * Führen Sie den Vorgang [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets) aus. Hat die Eigenschaft IsEffectiveIdentityRequired den Wert „true“?
 * Der Benutzername ist für jede EffectiveIdentity obligatorisch.
@@ -151,12 +151,13 @@ Um den Fehler zu ermitteln, versuchen Sie Folgendes:
 * DatasetId ist für jede EffectiveIdentity obligatorisch.
 * Bei Analysis Services muss der Masterbenutzer auch Gatewayadministrator sein.
 
-### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: The grant requires admin permission (Das Gewähren erfordert Administratorberechtigung)
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Die Erteilung erfordert eine Administratorberechtigung.
 
 **_Symptome:_**</br>
-Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei einer Anwendung anzumelden und seine Einwilligung zu erteilen, erhält er den folgenden Fehler:
-* ConsentTest benötigt Berechtigung zum Zugriff auf Ressourcen in Ihrer Organisation, die nur ein Administrator gewähren kann. Bitten Sie einen Administrator, der App diese Berechtigungen zu erteilen, bevor Sie sie verwenden.
-* AADSTS90094: The grant requires admin permission (Das Gewähren erfordert Administratorberechtigung)
+Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei einer Anwendung anzumelden und seine Einwilligung zu erteilen, erhält er einen der folgenden Fehler:
+
+* ConsentTest benötigt Berechtigung zum Zugriff auf Ressourcen in Ihrer Organisation, die nur ein Administrator gewähren kann. Bitten Sie einen Administrator, Berechtigungen für diese App zu erteilen, bevor Sie sie verwenden.
+* AADSTS90094: Die Zustimmung erfordert eine Administratorberechtigung.
 
     ![ConsentTest](media/embedded-troubleshoot/consent-test-01.png)
 
@@ -168,34 +169,21 @@ Das Einwilligen des Benutzers ist für den Mandanten deaktiviert.
 **_Es gibt mehrere Lösungen:_**
 
 *Aktivieren Sie die Benutzereinwilligung für den gesamten Mandanten (alle Benutzer, alle Anwendung)*
+
 1. Navigieren Sie im Azure-Portal zu „Azure Active Directory“ > „Benutzer und Gruppen“ > „Benutzereinstellungen“.
 2. Aktivieren Sie die Option „Benutzer können Apps den Zugriff auf Unternehmensdaten in ihrem Namen gestatten“, und speichern Sie die Änderungen.
 
     ![Lösung ConsentTest](media/embedded-troubleshoot/consent-test-02.png)
 
-*Gewähren von Berechtigungen durch einen Administrator* Gewähren Sie Berechtigungen für die Anwendung durch einen Administrator, entweder für den gesamten Mandanten oder für einen bestimmten Benutzer.
+*Erteilen Sie Berechtigungen* für die Anwendung durch einen Administrator, entweder für den gesamten Mandanten oder für einen bestimmten Benutzer.
 
 ## <a name="data-sources"></a>Datenquellen
 
-**ISV möchte unterschiedliche Anmeldeinformationen für die gleiche Datenquelle verwenden**
+### <a name="isv-wants-to-have-different-credentials-for-the-same-data-source"></a>ISV möchte unterschiedliche Anmeldeinformationen für die gleiche Datenquelle verwenden
 
 Eine Datenquelle kann für einen Masterbenutzer eine einzelne Kombination von Anmeldeinformation besitzen. Wenn Sie verschiedene Anmeldeinformationen verwenden möchten, erstellen Sie zusätzliche Masterbenutzer. Anschließend weisen Sie die anderen Anmeldeinformationen im Kontext jedes einzelnen Masterbenutzer zu und betten sie mit dem Azure AD-Token des entsprechenden Benutzers ein.
 
-## <a name="content-rendering"></a>Inhaltsrendering
-
-**Fehler oder Timeout beim Rendering oder Verarbeiten eingebetteter Inhalte**
-
-Stellen Sie sicher, dass das Einbettungs-Token nicht abgelaufen ist. Überprüfen Sie den Ablauf des Einbettungs-Tokens, und aktualisieren Sie dieses. Weitere Informationen finden Sie unter [Aktualisieren von Token mit dem JavaScript-SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
-
-**Bericht oder Dashboard wird nicht geladen**
-
-Wenn der Benutzer den Bericht oder das Dashboard nicht finden kann, stellen Sie sicher, dass der Bericht oder das Dashboard auf powerbi.com ordnungsgemäß geladen wird. Der Bericht bzw. das Dashboard funktioniert in Ihrer Anwendung nicht, wenn es auf powerbi.com nicht geladen werden kann.
-
-**Bericht oder Dashboard reagiert langsam**
-
-Öffnen Sie die Datei in Power BI Desktop oder auf powerbi.com, und vergewissern Sie sich, dass die Leistung zufriedenstellend ist, um Probleme in Ihrer Anwendung oder mit den Einbettungs-APIs auszuschließen.
-
-## <a name="troubleshooting-your-embedded-application-with-the-ierror-object"></a>Problembehandlung bei Embedded-Anwendungen mit dem IError-Objekt
+## <a name="troubleshoot-your-embedded-application-with-the-ierror-object"></a>Problembehandlung bei Embedded-Anwendungen mit dem IError-Objekt
 
 Verwenden Sie das [**IError-Objekt**, das vom Ereignis*error* aus dem **JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts) zurückgegeben wird, um Ihre Anwendung zu debuggen und die Ursache der Fehler zu ermitteln.
 
@@ -210,8 +198,8 @@ Nach dem Abruf des IError-Objekts sollten Sie die relevante Tabelle häufiger Fe
 | Ungültige Parameter | powerbiToken-Parameter nicht angegeben. | N/V | <li> Kein Zugriffstoken angegeben <li> Keine Berichts-ID angegeben |
 | LoadReportFailed | Fehler beim Initialisieren: Cluster kann nicht aufgelöst werden. | 403 | * Falsches Zugriffstoken * Einbettungstyp stimmt nicht mit Tokentyp überein |
 | PowerBINotAuthorizedException | Fehler beim Abrufen des Berichts. | 401 | <li> Falsche Gruppen-ID <li> Nicht autorisierte Gruppe |
-| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
-| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtsvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
+| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtsvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Das diesem Bericht zugeordnete Modellschema konnte nicht geladen werden. Stellen Sie sicher, dass eine Verbindung mit dem Server besteht, und versuchen Sie es noch mal. | N/V | <li> Kapazität angehalten <li> Kapazität gelöscht |
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>Typische Fehler bei der Einbettung für Nicht-Power BI-Benutzer (mithilfe eines Einbindungstokens)
@@ -225,11 +213,25 @@ Nach dem Abruf des IError-Objekts sollten Sie die relevante Tabelle häufiger Fe
 | Ungültige Parameter | powerbiToken-Parameter nicht angegeben. | N/V | <li> Kein Zugriffstoken angegeben <li> Keine Berichts-ID angegeben |
 | LoadReportFailed | Fehler beim Initialisieren: Cluster kann nicht aufgelöst werden. | 403 | Falscher Tokentyp, ungültiges Token |
 | PowerBINotAuthorizedException | Fehler beim Abrufen des Berichts. | 401 | Falsche/nicht autorisierte Gruppen-ID |
-| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
-| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
+| TokenExpired | Das Zugriffstoken ist abgelaufen. Wiederholen Sie die Übermittlung mit einem neuen Zugriffstoken. Ein Berichtsvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Abgelaufenes Token für Abfragedaten |
+| OpenConnectionError | Das Visual kann nicht angezeigt werden. Ein Berichtsvisual mit dem folgenden Titel konnte nicht gerendert werden: <visual title> | N/V | Kapazität angehalten oder gelöscht, während ein Bericht mit Bezug zur Kapazität in einer Sitzung geöffnet war |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Das diesem Bericht zugeordnete Modellschema konnte nicht geladen werden. Stellen Sie sicher, dass eine Verbindung mit dem Server besteht, und versuchen Sie es noch mal. | N/V | <li> Kapazität angehalten <li> Kapazität gelöscht |
 
-## <a name="embedding-setup-tool"></a>Einbettungssetuptool
+## <a name="content-rendering"></a>Inhaltsrendering
+
+### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>Fehler oder Timeout beim Rendern oder Verarbeiten eingebetteter Inhalte
+
+Stellen Sie sicher, dass das Einbettungs-Token nicht abgelaufen ist. Überprüfen Sie den Ablauf des Einbettungs-Tokens, und aktualisieren Sie dieses. Weitere Informationen finden Sie unter [Aktualisieren von Token mit dem JavaScript-SDK](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
+
+### <a name="report-or-dashboard-doesnt-load"></a>Bericht oder Dashboard wird nicht geladen
+
+Wenn der Benutzer den Bericht oder das Dashboard nicht finden kann, stellen Sie sicher, dass der Bericht oder das Dashboard auf powerbi.com ordnungsgemäß geladen wird. Der Bericht bzw. das Dashboard funktioniert in Ihrer Anwendung nicht, wenn es auf powerbi.com nicht geladen werden kann.
+
+### <a name="report-or-dashboard-is-performing-slowly"></a>Bericht oder Dashboard reagiert langsam
+
+Öffnen Sie die Datei in Power BI Desktop oder auf powerbi.com, und vergewissern Sie sich, dass die Leistung zufriedenstellend ist, um Probleme in Ihrer Anwendung oder mit den Einbettungs-APIs auszuschließen.
+
+## <a name="embed-setup-tool"></a>Einbettungssetuptool
 
 Sie können mit dem [Einbettungssetuptool](https://aka.ms/embedsetup) schnell eine Beispielanwendung herunterladen. Anschließend können Sie Ihre Anwendung mit dem Beispiel vergleichen.
 
@@ -248,13 +250,13 @@ Es gibt einige gängige Probleme, die auftreten können, wenn Sie das Einbettung
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Verwenden der Beispielanwendung „Einbetten für Ihre Kunden“
 
-Wenn Sie mit **Einbetten für Ihre Kunden arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie anschließend den Ordner *PowerBI-Developer-Samples-master\App Owns Data*, und führen Sie die Datei *PowerBIEmbedded_AppOwnsData.sln* aus.
+Wenn Sie mit dem Szenario **Einbetten für Ihre Kunden arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie anschließend den Ordner *PowerBI-Developer-Samples-master\App Owns Data*, und führen Sie die Datei *PowerBIEmbedded_AppOwnsData.sln* aus.
 
 Wenn Sie **Berechtigungen erteilen** (der Schritt „Berechtigung erteilen“) ausführen, wird folgender Fehler ausgegeben:
 
-    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
 
-Sie beheben das Problem, indem Sie das Popupfenster schließen, ein paar Sekunden warten, und es dann nochmal versuchen. Möglicherweise müssen Sie diese Aktion ein paar Mal durchführen. Der Fehler durch das Zeitintervall verursacht, das vom Registrierungsprozess der Anwendung bis zur Verfügbarkeit für externe APIs eingestellt ist.
+Sie beheben das Problem, indem Sie das Popupfenster schließen, ein paar Sekunden warten, und es dann nochmal versuchen. Möglicherweise müssen Sie diese Aktion ein paar Mal durchführen. Der Fehler wird durch das Zeitintervall verursacht, das vom Registrierungsprozess der Anwendung bis zur Verfügbarkeit für externe APIs eingestellt ist.
 
 Die folgende Fehlermeldung wird angezeigt, wenn Sie die Beispiel-App ausführen:
 
@@ -262,27 +264,27 @@ Die folgende Fehlermeldung wird angezeigt, wenn Sie die Beispiel-App ausführen:
 
 Dieser Fehler wird ausgelöst, da der einzige Wert, der nicht in die Beispielanwendung eingeführt wird, Ihr Benutzerkennwort ist. Öffnen Sie die Web.config-Datei in der Lösung, und geben Sie das Kennwort Ihres Benutzers in das Feld „pbiPassword“ ein.
 
-Wenn der Fehler AADSTS50079 angezeigt wird, muss der Benutzer die mehrstufige Authentifizierung verwenden.
+Wenn Sie den Fehler AADSTS50079 erhalten: Der Benutzer muss mehrstufige Authentifizierung verwenden.
 
-    Need to use an AAD account that does not have MFA enabled.
+    Need to use an AAD account that doesn't have MFA enabled.
 
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Verwenden der Beispielanwendung „Einbetten für Ihre Organisation“
 
-Wenn Sie mit **Einbetten für Ihre Organisation arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie dann den Ordner *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app*, und führen Sie die Datei *pbi-saas-embed-report.sln* aus.
+Wenn Sie mit dem Szenario **Einbetten für Ihre Organisation arbeiten**, speichern und entzippen Sie die Datei *PowerBI-Developer-Samples.zip*. Öffnen Sie dann den Ordner *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app*, und führen Sie die Datei *pbi-saas-embed-report.sln* aus.
 
 Wenn Sie die Beispiel-App **Einbetten für Ihre Organisation** ausführen, wird folgender Fehler ausgegeben:
 
-    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Das liegt daran, dass die Umleitungs-URL, die für die Webserveranwendung angegeben ist, sich von der URL des Beispiels unterscheidet. Wenn Sie die Beispielanwendung registrieren möchten, verwenden Sie `http://localhost:13526/` als Umleitungs-URL.
+Dieser Fehler entsteht, weil die Umleitungs-URL, die für die Webserveranwendung angegeben ist, sich von der URL des Beispiels unterscheidet. Wenn Sie die Beispielanwendung registrieren möchten, verwenden Sie `http://localhost:13526/` als Umleitungs-URL.
 
 Wenn Sie die registrierte Anwendung bearbeiten möchten, lernen Sie, wie Sie die [mit AAD registrierte Anwendung](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bearbeiten, damit die Anwendung Zugriff auf die Web-APIs bereitstellen kann.
 
 Wenn Sie Ihr Power BI-Benutzerprofil oder Ihre Daten bearbeiten möchten, lernen Sie, wie Sie Ihre [Power BI-Daten](https://docs.microsoft.com/power-bi/service-basic-concepts) bearbeiten können.
 
-Wenn der Fehler AADSTS50079 angezeigt wird, muss der Benutzer die mehrstufige Authentifizierung verwenden.
+Wenn Sie den Fehler AADSTS50079 erhalten: Der Benutzer muss mehrstufige Authentifizierung verwenden.
 
-    Need to use an AAD account that does not have MFA enabled.
+    Need to use an AAD account that doesn't have MFA enabled.
 
 Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Power BI Embedded](embedded-faq.md).
 

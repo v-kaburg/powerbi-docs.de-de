@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200647"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649043"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)
 
@@ -76,7 +76,7 @@ Wählen Sie im Fenster **Add role assignment** (Rollenzuweisung hinzufügen) die
 
 Bevor Ihr Speicherkonto Power BI hinzugefügt werden kann, müssen Sie ein Dateisystem mit dem Namen *powerbi* erstellen. Es gibt viele Möglichkeiten für das Erstellen eines solchen Dateisystems, beispielsweise mithilfe von Azure Databricks, HDInsight, AZCopy oder dem Azure Storage-Explorer. In diesem Abschnitt sehen Sie einen einfachen Weg zum Erstellen eines Dateisystems mithilfe des Azure Storage-Explorers.
 
-Hierzu ist es erforderlich, den Azure Storage-Explorer zu installieren. Erfahren Sie unter [Azure Storage-Explorer](https://azure.microsoft.com/features/storage-explorer/), wie Sie den Azure Storage-Explorer unter Windows, Mac oder Linux installieren.
+Für diesen Schritt müssen Sie Azure Storage Explorer, Version 1.6.1 oder höher, installieren. Erfahren Sie unter [Azure Storage-Explorer](https://azure.microsoft.com/features/storage-explorer/), wie Sie den Azure Storage-Explorer unter Windows, Mac oder Linux installieren.
 
 1. Wenn Sie den Azure Storage-Explorer erfolgreich installiert haben, wird beim ersten Start das Fenster „Microsoft Azure Storage-Explorer – Verbinden“ angezeigt. Während der Storage-Explorer mehrere Möglichkeiten zum Verbinden mit Speicherkonten bietet, wird derzeit nur eine für die erforderliche Einrichtung unterstützt. 
 
@@ -108,11 +108,11 @@ Führen Sie die folgenden Schritte aus, um Anwendungen in Ihrem Mandanten zu fin
 
     ![AAD-Unternehmensanwendungen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Geben Sie in der Suchleiste *Power* ein, und eine Auflistung von Objekt-IDs für Power BI und Power Query-Anwendungen wird angezeigt.
+4. Geben Sie in der Suchleiste *Power* ein, und eine Auflistung von Objekt-IDs für Power BI und Power Query-Anwendungen wird angezeigt. Sie benötigen alle drei Werte in den nachfolgenden Schritten.  
 
     ![Suchen nach Power-Anwendungen](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Wählen Sie die Objekt-ID für den Power BI-Dienst aus Ihren Suchergebnissen aus, und kopieren Sie die ID. Beachten Sie, dass Sie diesen Wert in den nachfolgenden Schritten noch einfügen müssen.
+5. Wählen Sie in den Ergebnissen Ihrer Suche die Objekt-IDs für den Power BI-Dienst sowie auch für Power BI Premium aus, und kopieren Sie sie. Halten Sie sich für das Einfügen dieser Werte in den nachfolgenden Schritten bereit.
 
 7. Navigieren Sie als nächstes mithilfe des **Azure Storage-Explorers** zum *powerbi*-Dateisystem, das Sie im vorherigen Abschnitt erstellt haben. Führen Sie die Anweisungen im Abschnitt [Managing access (Verwalten des Zugriffs)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) des Artikels [Set file and directory level permissions using Azure Storage explorer (Festlegen von Datei- und Verzeichnisebenenberechtigungen mithilfe des Azure Storage-Explorers)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) aus.
 
@@ -120,7 +120,7 @@ Führen Sie die folgenden Schritte aus, um Anwendungen in Ihrem Mandanten zu fin
 
    ![Weisen Sie für beide alle drei zu.](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Weisen Sie für die in Schritt fünf gesammelte Objekt-ID von Power Query Online Ihrem *powerbi*-Dateisystem Zugriff für **Write** (Schreiben) und **Execute** (Ausführen) sowie Standard-ACLs zu.
+9. Weisen Sie für die in Schritt vier gesammelte Objekt-ID von Power Query Online Ihrem *powerbi*-Dateisystem Zugriff für **Write** (Schreiben) und **Execute** (Ausführen) sowie Standard-ACLs zu.
 
    ![Weisen Sie dann „Write“ (Schreiben) und „Execute“ (Ausführen) zu.](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
@@ -197,7 +197,7 @@ Dieser Artikel sollte Ihnen als Leitfaden für das Verbinden von Azure Data Lake
 
 Weitere Informationen zu Dataflows, CDM und Azure Data Lake Storage Gen2 finden Sie in den folgenden Artikeln:
 
-* [Dataflows and Azure Data Lake integration (Preview) (Dataflows und Azure Data Lake-Integration (Vorschauversion))](service-dataflows-azure-data-lake-integration.md)
+* [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 * [Configure workspace dataflow settings (Preview) (Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion))](service-dataflows-configure-workspace-storage-settings.md)
 * [Add a CDM folder to Power BI as a dataflow (Preview) (Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion))](service-dataflows-add-cdm-folder.md)
 
