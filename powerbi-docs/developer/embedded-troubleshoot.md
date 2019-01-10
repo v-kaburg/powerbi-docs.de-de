@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329715"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008440"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -291,3 +291,7 @@ Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Power BI Emb
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
 Wenn Sie weitere Unterstützung benötigen, [wenden Sie sich an den Support](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded), oder [erstellen Sie ein Supportticket über das Azure-Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest), und geben Sie die Fehlermeldungen an, die Sie erhalten.
+
+## <a name="performance"></a>Leistung
+
+[Leistung von Power BI Embedded](embedded-performance-best-practices.md)

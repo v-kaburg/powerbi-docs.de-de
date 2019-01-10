@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451419"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983690"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Gemeinsames Erstellen von Arbeitsbereichen mit Ihren Kollegen in Power BI
 
-Sie können in Power BI *Arbeitsbereiche* erstellen. Diese stellen einen hervorragenden Ort für die Zusammenarbeit mit Kollegen dar, um Sammlungen von Dashboards und Berichten zu erstellen und zu verbessern. Anschließend bündeln Sie diese in *Apps*, die Sie an die gesamte Organisation oder an bestimmte Personen oder Gruppen verteilen können. 
+Sie können in Power BI *Arbeitsbereiche* erstellen. Diese stellen einen hervorragenden Ort für die Zusammenarbeit mit Kollegen dar, um Sammlungen von Dashboards und Berichten zu erstellen und zu verbessern. Anschließend bündeln Sie diese Sammlungen in *Apps*, die Sie an die gesamte Organisation oder an bestimmte Personen oder Gruppen verteilen können. 
 
 ![Power BI-Apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-Wenn Sie einen Arbeitsbereich erstellen, erstellen Sie eine zugrunde liegende, zugehörige Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Office 365 statt. Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. In dem Arbeitsbereich können Sie alle beim Erstellen von Dashboards, Berichten und anderen Artikeln zusammenarbeiten, die Sie für eine größere Zielgruppe veröffentlichen möchten. Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. 
+Wenn Sie einen Arbeitsbereich erstellen, erstellen Sie eine zugrunde liegende, zugehörige Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Office 365 statt. Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. Im Arbeitsbereich können Sie alle beim Erstellen von Dashboards, Berichten und anderen Artikeln zusammenarbeiten, die Sie für eine größere Zielgruppe veröffentlichen möchten. Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. 
 
-**Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md) erfahren Sie, wie sich Arbeitsbereiche in der Zukunft entwickeln. 
+**Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Organize work in the new workspaces (preview) (Strukturiertes Arbeiten in den neuen Arbeitsbereichen (Vorschauversion))](service-new-workspaces.md) finden Sie weitere Informationen zu den neuen Arbeitsbereichen. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Apps und App-Arbeitsbereiche
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -73,7 +73,7 @@ Nachdem Sie einen App-Arbeitsbereich erstellt haben, ist es Zeit, diesem Inhalte
 
 Apps werden für alle Drittanbieterdienste bereitgestellt, die Power BI unterstützt, was Ihnen erleichtert, Daten von den Diensten abzurufen, die Sie verwenden, z.B. Microsoft Dynamics CRM, Salesforce oder Google Analytics. Sie können organisationsbezogene Apps veröffentlichen, um Ihren Benutzern die Daten bereitzustellen, die sie benötigen.
 
-In den aktuellen Arbeitsbereichen können Sie auch mithilfe organisationsbezogener Inhaltspakete und mithilfe von Inhaltspaketen von Drittanbietern Verbindungen herstellen, z.B. Microsoft Dynamics CRM, Salesforce oder Google Analytics. Erwägen Sie, Ihre organisationsbezogenen Inhaltspakete in Apps zu migrieren.
+In den aktuellen Arbeitsbereichen können Sie auch mithilfe organisationsbezogener Inhaltspakete und mithilfe von Inhaltspaketen von Drittanbietern Verbindungen herstellen, z. B. Microsoft Dynamics CRM, Salesforce oder Google Analytics. Erwägen Sie, Ihre organisationsbezogenen Inhaltspakete in Apps zu migrieren.
 
 ## <a name="distribute-an-app"></a>Verteilen einer App
 
@@ -84,12 +84,12 @@ Wenn der Inhalt bereit ist, können Sie auswählen, welche Dashboards und Berich
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Wie unterscheiden sich Apps von organisationsbezogenen Inhaltspaketen?
 Apps sind die Weiterentwicklung von organisationsbezogenen Inhaltspaketen. Wenn Sie bereits über organisationsbezogene Inhaltspakete verfügen, können sie weiterhin neben Apps verwendet werden. Apps und Inhaltspakete unterscheiden sich deutlich. 
 
-* Nachdem Geschäftskunden ein Inhaltspaket installiert haben, verliert es seine Gruppenidentität. Es ist dann lediglich eine Liste von Dashboards und Berichten zwischen anderen Dashboards und Berichten. Hingegen bleibt die Gruppierung und Identität von Apps auch nach der Installation erhalten. Dies erleichtert Geschäftskunden die Navigation zu ihnen im zeitlichen Verlauf.
+* Nachdem Geschäftskunden ein Inhaltspaket installiert haben, verliert es seine Gruppenidentität. Es ist dann lediglich eine Liste von Dashboards und Berichten zwischen anderen Dashboards und Berichten. Hingegen bleibt die Gruppierung und Identität von Apps auch nach der Installation erhalten. Durch diese Gruppierung können Geschäftskunden nun zu späteren Zeitpunkten immer wieder unkompliziert dorthin navigieren.
 * Sie können in jedem Arbeitsbereich mehrere Inhaltspakete erstellen, eine App weist jedoch eine 1:1-Beziehung zu ihrem Arbeitsbereich auf. 
 * Wir planen, im Verlauf der Zeit die Unterstützung organisationsbezogener Inhaltspakete einzustellen, daher wird empfohlen, von nun an Apps zu erstellen.  
-* Die Veröffentlichung der Vorschauversion stellt den Beginn des Wegs zum Ende der Unterstützung organisationsbezogener Inhaltspakete dar. Sie können diese nicht in der Vorschauversion für Arbeitsbereiche nutzen oder erstellen.
+* Die Veröffentlichung der Vorschauversion stellt den Beginn des Endes der Unterstützung organisationsbezogener Inhaltspakete dar. Sie können diese nicht in der Vorschauversion für Arbeitsbereiche nutzen oder erstellen.
 
-Einen Vergleich der aktuellen und neuen App-Arbeitsbereiche finden Sie unter [How are the new app workspaces different from existing app workspaces? (Unterschiede zwischen den neuen und den alten App-Arbeitsbereichen)](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces). 
+Einen Vergleich der beiden Arbeitsbereiche finden Sie unter [How are the new app workspaces different from existing app workspaces? (Unterschiede zwischen den neuen und den alten App-Arbeitsbereichen)](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces). 
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Installieren und Verwenden von Apps in Power BI](service-create-distribute-apps.md)

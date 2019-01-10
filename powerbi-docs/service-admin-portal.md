@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735567"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072288"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -329,9 +329,9 @@ Als Administrator können Sie die Einbindungscodes anzeigen, die für Ihren Mand
 
 ![Einbindungscodes innerhalb des Power BI-Verwaltungsportals](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Visuals für Organisationen
+## <a name="organizational-visuals"></a>Visuals für Organisationen
 
-Auf der Registerkarte **Organisationsvisuals** können Sie benutzerdefinierte Visuals in Ihrer Organisation bereitstellen und verwalten. Mit Organisationsvisuals können Sie ganz einfach proprietäre Visuals in Ihrer Organisation bereitstellen. Berichtsautoren können diese Visuals dann erkunden und in ihre Berichte in Power BI Desktop importieren. [Weitere Informationen](power-bi-custom-visuals-organization.md)
+Auf der Registerkarte **Visuals für Organisationen** können Sie benutzerdefinierte Visuals in Ihrer Organisation bereitstellen und verwalten. Mit Organisationsvisuals können Sie ganz einfach proprietäre Visuals in Ihrer Organisation bereitstellen. Berichtsautoren können diese Visuals dann erkunden und in ihre Berichte in Power BI Desktop importieren. [Weitere Informationen](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses im Repository der Organisation bereitstellen.

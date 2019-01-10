@@ -1,6 +1,6 @@
 ---
-title: Nutzungsmetriken für Dashboards und Berichte
-description: Anzeigen, Speichern und Verwenden von Nutzungsmetriken für Power BI-Dashboards und -Berichte. Messen und vergrößern Sie Ihre Auswirkung mit Nutzungsmetriken für Inhaltsersteller.
+title: Überwachen von Nutzungsmetriken für Dashboards und Berichte
+description: Anzeigen, Speichern und Verwenden von Nutzungsmetriken für Power BI-Dashboards und -Berichte.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -9,21 +9,21 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7aad6b0e3dd38c795d886d1aba26a82a8529c01
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: 435f7ec433e45202ef2b5ddbd9a9ffb996f84129
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649369"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983782"
 ---
-# <a name="usage-metrics-for-dashboards-and-reports"></a>Nutzungsmetriken für Dashboards und Berichte
+# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Überwachen von Nutzungsmetriken für Power BI-Dashboards und Berichte
 
 Wenn Sie Dashboards und Berichte erstellen, können Sie mit Nutzungsmetriken nachvollziehen, wie diese sich auswirken. Wenn Sie entweder das Dashboard zu Nutzungsmetriken oder die Berichte zu Nutzungsmetriken ausführen, können Sie ermitteln, wie die Dashboards und Berichte in der gesamten Organisation verwendet werden. Was wurde von wem und zu welchem Zweck verwendet?  
 
 > [!NOTE]
-> Nutzungsmetriken verfolgen die Verwendung von Berichten nach, die in SharePoint Online eingebettet sind. Nutzungsmetriken verfolgen jedoch nicht das Einbetten von Dashboards und Berichten mit den Flows „User Owns Credentials“ (Benutzer besitzt Anmeldeinformationen) und „App Owns Credentials“ (App besitzt Anmeldeinformationen) nach. Nutzungsmetriken verfolgen auch nicht die Verwendung von Berichten nach, die über [Im Web veröffentlichen](service-publish-to-web.md) eingebettet wurden.
+> Nutzungsmetriken verzeichnen die Verwendung von Berichten, die in SharePoint Online eingebettet sind. Nutzungsmetriken verzeichnen jedoch nicht das Einbetten von Dashboards und Berichten mit den Flows „User Owns Credentials“ (Benutzer besitzt Anmeldeinformationen) und „App Owns Credentials“ (App besitzt Anmeldeinformationen). Zudem verzeichnen Nutzungsmetriken nicht die Verwendung von Berichten, die über [Im Web veröffentlichen](service-publish-to-web.md) eingebettet wurden.
 
 Diese Berichte zu Nutzungsmetriken sind schreibgeschützt. Sie können allerdings einen Bericht zu Nutzungsmetriken personalisieren, mithilfe von "Speichern unter". Dadurch wird ein völlig neues Dataset erstellt und der schreibgeschützte Bericht wird zu einem vollständigen Power BI-Bericht konvertiert, den Sie bearbeiten können. Der personalisierte Bericht enthält nicht nur Metriken für das ausgewählte Dashboard oder den ausgewählten Bericht, sondern Sie erhalten auch durch das Entfernen des Standardfilters Zugriff auf die Nutzungsmetriken für alle Dashboards oder alle Berichte im ausgewählten Arbeitsbereich. Sie können sogar die Namen der Endbenutzer sehen.
 
@@ -62,7 +62,7 @@ Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Be
     ![Metriken sind bereit](media/service-usage-metrics/power-bi-usage-metrics-ready.png)
 4. Wählen Sie **Nutzungsmetriken anzeigen** aus, um die Ergebnisse zu öffnen.
 
-    Nutzungsmetriken sind eine leistungsfähige Unterstützung bei der Bereitstellung und Verwaltung von Dashboards und Berichten von Power BI. Fragen Sie sich, welche Seiten des Berichts besonders hilfreich sind und welche Sie allmählich löschen sollten? Unterteilen Sie die **Berichtsseiten**, um dies herauszufinden. Fragen Sie sich, ob ein mobiles Layout für das Dashboard erstellt werden sollte? Unterteilen Sie die **Plattformen**, um zu ermitteln, wie viele Benutzer auf Ihre Inhalte über die mobilen Apps bzw. wie viele Benutzer auf Ihre Inhalte über den Webbrowser zugreifen.
+    Nutzungsmetriken sind ein leistungsfähiges Werkzeug bei der Bereitstellung und Verwaltung von Dashboards und Berichten von Power BI. Fragen Sie sich, welche Seiten des Berichts besonders hilfreich sind und welche Sie allmählich löschen sollten? Unterteilen Sie die **Berichtsseiten**, um dies herauszufinden. Fragen Sie sich, ob ein mobiles Layout für das Dashboard erstellt werden sollte? Unterteilen Sie die **Plattformen**, um zu ermitteln, wie viele Benutzer auf Ihre Inhalte über die mobilen Apps bzw. wie viele Benutzer auf Ihre Inhalte über den Webbrowser zugreifen.
 
 5. Optional können Sie auf eine Visualisierung zeigen und das Anheftsymbol auswählen, um die Visualisierung einem Dashboard hinzuzufügen. Oder wählen Sie in der oberen Menüleiste **Live-Seite anheften** aus, um einem Dashboard die gesamte Seite hinzuzufügen. Über das Dashboard können Sie die Nutzungsmetriken leichter überwachen oder sie für andere Benutzer freigeben.
 
@@ -105,7 +105,7 @@ Das zugrunde liegende Dataset enthält sogar die Nutzungsdetails für alle Dashb
 
 ### <a name="what-is-created-when-using-save-as"></a>Was wird erstellt, wenn Sie „Speichern unter“ klicken?
 
-Wenn Power BI den vollständigen Bericht erstellt, erstellt es auch ein neues Dataset, das sich **aus allen Dashboards oder allen Berichten, die im aktuellen Arbeitsbereich enthalten sind, zusammensetzt**, auf die innerhalb der letzten 90 Tagen zugegriffen wurde. Angenommen Sie haben einen Arbeitsbereich mit dem Namen „Umsätze“, der drei Dashboards und zwei Berichte enthält, und Sie erstellen einen Bericht zu Nutzungsmetriken auf dem Dashboard „Nordost“. Und anschließend klicken Sie auf **Speichern unter**, um ihn zu personalisieren und zu einem vollständigen Bericht zu konvertieren. Das Dataset für diesen neuen Bericht enthält die Nutzungsmetrik *nicht nur für dieses eine Dashboard mit dem Namen „Nordost“*, sondern auch für alle drei Dashboards im Arbeitsbereich „Umsätze“. Der Bericht zeigt standardmäßig Daten für das Dashboard „Nordost“, und Sie müssen einen [Filter entfernen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (Einzelklick), damit die Daten für alle drei Dashboards angezeigt werden.
+Wenn Power BI den vollständigen Bericht erstellt, erstellt es auch ein neues Dataset, das sich **aus allen Dashboards oder allen Berichten, die im aktuellen Arbeitsbereich enthalten sind, zusammensetzt**, auf die innerhalb der letzten 90 Tagen zugegriffen wurde. Angenommen Sie haben einen Arbeitsbereich mit dem Namen „Umsätze“, der drei Dashboards und zwei Berichte enthält, und Sie erstellen einen Bericht zu Nutzungsmetriken auf dem Dashboard „Nordost“. Und anschließend klicken Sie auf **Speichern unter**, um ihn zu personalisieren und zu einem vollständigen Bericht zu konvertieren. Das Dataset für diesen neuen Bericht enthält die Nutzungsmetrik *nicht nur für dieses eine Dashboard mit dem Namen „Nordost“*, sondern auch für alle drei Dashboards im Arbeitsbereich „Umsätze“. Der Bericht zeigt standardmäßig Daten für das Dashboard „Northeast“, und Sie müssen einen [Filter entfernen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (Einzelklick), damit die Daten für alle drei Dashboards angezeigt werden.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Erstellen Sie eine Kopie des Nutzungsberichts mithilfe von „Speichern unter“
 
@@ -128,7 +128,7 @@ Wenn Sie eine Kopie mithilfe von „Speichern unter“ erstellen (personalisiere
 
 Um die Metriken für alle Dashboards oder für alle Berichte im Arbeitsbereich angezeigt zu bekommen, müssen Sie einen Filter entfernen. Der personalisierte Bericht wird standardmäßig gefiltert, um nur Metriken für das Dashboard oder den Bericht anzuzeigen, das/der verwendet wurde, um ihn zu erstellen.
 
-Wenn z.B. das Dashboard mit dem Namen „Umsätze Europa“ verwendet wurde, um diesen neuen personalisierten Bericht zu erstellen, werden nur Nutzungsdaten vom Dashboard „Umsätze Europa“ angezeigt. So können Sie den Filter entfernen und Daten aller Dashboards in diesem Arbeitsbereich aktivieren:
+Wenn z.B. das Dashboard mit dem Namen „European sales“ verwendet wurde, um diesen neuen personalisierten Bericht zu erstellen, werden nur Nutzungsdaten vom Dashboard „European sales“ angezeigt. So können Sie den Filter entfernen und Daten aller Dashboards in diesem Arbeitsbereich aktivieren:
 
 1. Öffnen Sie den personalisierten Bericht in der Bearbeitungsansicht.
 
@@ -169,22 +169,31 @@ Es ist wichtig zu verstehen, dass beim Vergleich von Nutzungsmetriken und Überw
 * Bestimmte Ansichtstypen sind in den Nutzungsmetriken nicht enthalten, wie zuvor in diesem Artikel beschrieben.
 * In den Nutzungsmetriken kann es vorkommen, dass zu viele Aktivitäten gezählt werden, z.B. wenn der Client eine Aktualisierung durchführt, ohne dass eine Anforderung an den Power BI-Dienst zurückgesendet werden muss.
 
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 Neben dem Verständnis der möglichen Unterschiede zwischen Nutzungsmetriken und Überwachungsprotokollen können die folgenden Fragen und Antworten zu Nutzungsmetriken für Benutzer und Administratoren hilfreich sein:
 
-F:    Ich kann keine Nutzungsmetriken auf einem Dashboard oder Bericht ausführen. A:    Sie können nur Nutzungsmetriken für Inhalte sehen, die Sie besitzen oder für die Sie über eine Berechtigung zum Bearbeiten verfügen.
+**F:**    Warum kann ich keine Nutzungsmetriken auf einem Dashboard oder Bericht ausführen?
 
-F:    Zeichnen Nutzungsmetriken Ansichten aus eingebetteten Dashboards und Berichten auf?
-A:    Nutzungsmetriken unterstützen derzeit nicht das Aufzeichnen der Nutzung eingebetteter Dashboards und Berichte, einschließlich des Flows [Im Web veröffentlichen](service-publish-to-web.md).          In diesen Fällen wird empfohlen, zum Nachverfolgen der Nutzung für die Host-App oder das Hostportal Webanalyseplattformen zu verwenden.
+**A:**    Sie können nur Nutzungsmetriken für Inhalte sehen, die Sie besitzen oder für die Sie über eine Berechtigung zum Bearbeiten verfügen.
 
-F:    Ich kann für keine Inhalte Nutzungsmetriken erfassen.
-A1:    Administratoren können diese Funktion für ihre Organisation deaktivieren.  Wenden Sie sich an Ihren Administrator, um festzustellen, ob dies der Fall ist.
-A2:    Nutzungsmetriken sind eine Funktion von Power BI Pro.
+**F:**    Verzeichnen Nutzungsmetriken Ansichten aus eingebetteten Dashboards und Berichten?
 
-F:    Die Daten scheinen nicht aktuell zu sein. Beispielsweise werden Verteilungsmethoden nicht angezeigt, Berichtsseiten fehlen usw. A:    Die Aktualisierung der Daten kann bis zu 24 Stunden dauern.
+**A:**    Nutzungsmetriken unterstützen derzeit nicht das Aufzeichnen der Nutzung eingebetteter Dashboards und Berichte, einschließlich des Flows [Im Web veröffentlichen](service-publish-to-web.md).          In diesen Fällen wird empfohlen, zum Nachverfolgen der Nutzung für die Host-App oder das Hostportal Webanalyseplattformen zu verwenden.
 
-F:    Es gibt vier Berichte im Arbeitsbereich, aber der Bericht zu den Nutzungsmetriken zeigt nur drei an.
-A:    Der Bericht zu den Nutzungsmetriken enthält nur die Berichte (oder Dashboards), auf die in den vergangenen 90 Tagen zugegriffen wurde.  Wenn Ihnen ein Bericht (oder ein Dashboard) nicht angezeigt wird, wurde es wahrscheinlich seit mehr als 90 Tagen nicht verwendet.
+**F:**    Ich kann für keine Inhalte Nutzungsmetriken erfassen.
+
+**A1:**    Administratoren können diese Funktion für ihre Organisation deaktivieren.  Wenden Sie sich an Ihren Administrator, um festzustellen, ob dies der Fall ist.
+
+**A2:**    Nutzungsmetriken sind eine Funktion von Power BI Pro.
+
+**F:**    Die Daten scheinen nicht aktuell zu sein. Beispielsweise werden Verteilungsmethoden nicht angezeigt, Berichtsseiten fehlen usw.
+
+**A:**    Die Aktualisierung der Daten kann bis zu 24 Stunden dauern.
+
+**F:**    Es gibt vier Berichte im Arbeitsbereich. Warum zeigt der Bericht zu den Nutzungsmetriken nur drei davon an?
+
+**A:**    Der Bericht zu den Nutzungsmetriken enthält nur die Berichte (oder Dashboards), auf die in den vergangenen 90 Tagen zugegriffen wurde.  Wenn Ihnen ein Bericht (oder ein Dashboard) nicht angezeigt wird, wurde es wahrscheinlich seit mehr als 90 Tagen nicht verwendet.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
