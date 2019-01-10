@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332157"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072173"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlinien für Power BI-Visuals mit zusätzlichen Käufen
 
@@ -25,7 +26,7 @@ Bis vor Kurzem wurden im **Marketplace (AppSource)** nur kostenlose Power BI-Vis
 
 ## <a name="whats-changing-in-the-submission-process"></a>Was ändert sich am Übermittlungsprozess?
 
-Entwickler laden ihre Visuals, die In-App-Käufe enthalten, genau wie kostenlose Visuals über das Seller-Dashboard in AppSource hoch. Damit deutlich ist, dass das übermittelte Visual In-App-Käufe enthält, sollten Entwickler im Seller-Dashboard den Verweis „Visual with in-app purchase.“ (Visual mit In-App-Käufen) hinzufügen. Entwickler müssen außerdem einen Lizenzschlüssel oder ein Token angeben, damit das entsprechende Team die In-App-Käufe überprüfen kann. Sobald das Visual überprüft und genehmigt wurde, wird in AppSource für das Visual der Hinweis „Möglicherweise sind zusätzliche Käufe erforderlich.“ in den Preisoptionen angezeigt.
+Entwickler laden ihre Visuals, die In-App-Käufe enthalten, genau wie kostenlose Visuals über das Seller-Dashboard in AppSource hoch. Damit deutlich ist, dass das übermittelte Visual In-App-Käufe enthält, sollten Entwickler im Seller-Dashboard den Hinweis „Visual with in-app purchase.“ (Visual mit In-App-Käufen) hinzufügen. Entwickler müssen außerdem einen Lizenzschlüssel oder ein Token angeben, damit das entsprechende Team die In-App-Käufe überprüfen kann. Sobald das Visual überprüft und genehmigt wurde, wird in AppSource für das Visual der Hinweis „Möglicherweise sind zusätzliche Käufe erforderlich.“ in den Preisoptionen angezeigt.
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Was ist ein Power BI-Visual mit In-App-Käufen?
 
@@ -59,6 +60,10 @@ Verwenden Sie die Startseite, um den Benutzern zu verdeutlichen, wie sie Visuals
 ### <a name="license-key-and-token"></a>Lizenzschlüssel und Token
 
 Fügen Sie Felder für Lizenzschlüssel oder Token im oberen Teil des Formatierungsbereichs hinzu, sodass diese vom Benutzer leicht gefunden werden.
+
+## <a name="faq"></a>HÄUFIG GESTELLTE FRAGEN
+
+Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestellten Fragen zu Visuals mit zusätzlichen Käufen](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

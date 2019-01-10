@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056039"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072242"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Benutzerdefinierte Visualisierungen in Power BI
 
-Beim Erstellen oder Bearbeiten eines Power BI-Berichts stehen Ihnen viele verschiedene Typen von Visuals zur Verfügung. Diese Visuals werden im Bereich **Visualisierungen** angezeigt. Wenn Sie Power BI Desktop herunterladen oder den Power BI-Dienst („app.powerbi.com“) öffnen, ist dieser Satz von Visuals vorkonfiguriert.
+Beim Erstellen oder Bearbeiten eines Power BI-Berichts stehen Ihnen viele verschiedene Typen von Visuals zur Verfügung. Diese Visuals werden im Bereich **Visualisierungen** angezeigt. Wenn Sie [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) herunterladen oder den [Power BI-Dienst](https://app.powerbi.com) öffnen, ist dieser Satz von Visuals vorkonfiguriert.
 
 ![Visualisierungen](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -41,7 +40,7 @@ Bei benutzerdefinierten Visuals handelt es sich um Pakete, die Code zum Rendern 
 > [!WARNING]
 > Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses in Ihren Bericht importieren.
 
-## <a name="organization-visuals"></a>Visuals für Organisationen
+## <a name="organizational-visuals"></a>Visuals für Organisationen
 
 Power BI-Administratoren können benutzerdefinierte Visuals für ihre Organisation bereitstellen, sodass Berichtsautoren die benutzerdefinierten Visuals, deren Verwendung innerhalb der Organisation vom Administrator genehmigt wurde, einfacher ermitteln und verwenden können. Dadurch kann der Administrator steuern, welche benutzerdefinierten Visuals für die Organisation bereitgestellt werden sollen. Zudem können die Visuals auf diese Weise einfach verwaltet werden (z.B. Aktualisieren der Version, Aktivieren/Deaktivieren). Für den Berichtsautor stellt dies einen einfachen Weg dar, um Visuals zu ermitteln, die nur für die Organisation verfügbar sind. Außerdem wird ein nahtloser Support bereitgestellt, um diese Visuals zu aktualisieren.
 
@@ -74,7 +73,7 @@ Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu App
 
     ![benutzerdefiniertes Visual importiert](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Importieren von Visuals für Organisationen
+### <a name="import-organizational-visuals"></a>Importieren von Visuals für Organisationen
 
 1. Wählen Sie am unteren Rand des Bereichs „Visualisierungen“ die Auslassungspunkte aus.
 
@@ -132,7 +131,7 @@ Sie haben zwei Möglichkeiten zum Herunterladen und Importieren benutzerdefinier
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Herunterladen und Importieren benutzerdefinierter Visuals von Microsoft AppSource
 
-1. Wählen Sie in [Microsoft AppSource](https://appsource.microsoft.com) die Registerkarte für **Apps** aus. 
+1. Wählen Sie in [Microsoft AppSource](https://appsource.microsoft.com) die Registerkarte für **Apps** aus.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Informationen zur Problembehandlung finden Sie auf der Seite [Troubleshoot Power
 ## <a name="faq"></a>HÄUFIG GESTELLTE FRAGEN
 
 Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestellten Fragen zu benutzerdefinierten Power BI-Visuals](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+## <a name="next-steps"></a>Nächste Schritte
+
+* [Visualisierungen in Power BI](visuals/power-bi-report-visualizations.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).

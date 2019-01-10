@@ -1,5 +1,5 @@
 ---
-title: Verwenden von benutzerdefinierten Visuals für Organisationen in Power BI
+title: Benutzerdefinierte Visuals für Organisationen in Power BI
 description: Verwenden, Verwalten und Erstellen von benutzerdefinierten Visuals für Organisationen in Power BI
 author: markingmyname
 ms.author: maghan
@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2018
+ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 6622625f27f62d9d8ffc35ecfddf4550f2a7e16e
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223097"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072150"
 ---
-# <a name="use-organizational-custom-visuals-in-power-bi"></a>Verwenden von benutzerdefinierten Visuals für Organisationen in Power BI
+# <a name="organizational-custom-visuals-in-power-bi"></a>Benutzerdefinierte Visuals für Organisationen in Power BI
 
-Sie können benutzerdefinierte Visuals in Power BI verwenden, um ein einzigartiges Visual zu erstellen, das auf Sie oder die Einblicke in Daten, die Sie übermitteln möchten, angepasst ist. Diese benutzerdefinierten Visuals werden häufig von Entwicklern erstellt. Der Grund dafür ist oft, dass die Visuals, die in Power BI enthalten sind, deren Anforderungen nicht erfüllen. 
+Sie können benutzerdefinierte Visuals in Power BI verwenden, um einen einzigartigen Typ von Visual zu erstellen, der auf Ihre Zwecke zugeschnitten ist. Benutzerdefinierte Visuals werden von Entwicklern erstellt. Der Grund dafür ist oft, dass die Visuals, die in Power BI enthalten sind, deren Anforderungen nicht ganz erfüllen.
 
 In einigen Organisationen sind benutzerdefinierte Visuals sogar noch wichtiger, da sie notwendig sein können, um bestimmte Daten oder Einsichten zu übermitteln, die für die Organisation einzigartig sind. Sie können ebenfalls spezielle Anforderungen für Daten enthalten oder private Geschäftsmethoden hervorheben. Solche Organisationen müssen benutzerdefinierte Visuals entwickeln, diese innerhalb der Organisation freigeben und sicherstellen, dass sie ordnungsgemäß verwaltet werden. Durch benutzerdefinierte Power BI-Visuals können Organisationen dies erreichen.
 
@@ -29,11 +29,11 @@ Die folgende Abbildung stellt den Prozess dar, den benutzerdefinierte Visuals f�
 
 Visuals für Organisationen werden vom Power BI-Administrator über das Verwaltungsportal bereitgestellt und verwaltet. Nach der Bereitstellung im Repository der Organisation können die Benutzer in der Organisation diese benutzerdefinierten Visuals für Organisationen einfach ermitteln und direkt über Power BI Desktop in ihre Berichte importieren.
 
-Weitere Informationen zur Verwendung von benutzerdefinierten Visuals für Organisationen in den von Ihnen erstellten Berichten finden Sie im Artikel [Power BI-Verwaltungsportal](power-bi-custom-visuals.md).
+Weitere Informationen zur Verwendung von benutzerdefinierten Visuals für Organisationen in den von Ihnen erstellten Berichten finden Sie im folgenden Artikel: [Weitere Informationen zum Importieren von Visuals für Organisationen in Berichten](power-bi-custom-visuals.md).
 
 ## <a name="administer-organizational-custom-visuals"></a>Verwalten von benutzerdefinierten Visuals für Organisationen
 
-Weitere Informationen zum Verwalten und Bereitstellen von benutzerdefinierten Visuals für Organisationen innerhalb Ihrer Organisation finden Sie im Artikel [Power BI-Verwaltungsportal](https://go.microsoft.com/fwlink/?linkid=866790).
+Weitere Informationen über die Verwaltung und Bereitstellung benutzerdefinierter Visuals für Organisationen in Ihrer Organisation finden Sie im folgenden Artikel: [Weitere Informationen zu Bereitstellung und Verwaltung von benutzerdefinierten Visuals für Organisationen](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
 > Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle eines benutzerdefinierten Visuals vertrauen können, bevor Sie dieses für das Repository der Organisation bereitstellen.

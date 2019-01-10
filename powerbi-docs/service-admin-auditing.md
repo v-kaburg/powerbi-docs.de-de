@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026820"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072357"
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
 
 Es kann wichtig sein zu wissen, wer welche Aktion für welches Element im Power BI-Mandanten ausführt. Dies kann Ihrer Organisation bei der Einhaltung von Anforderungen helfen, was beispielsweise die Einhaltung gesetzlicher Bestimmungen und die Dokumentverwaltung betrifft. Verwenden Sie Power BI-Überwachung, um von Benutzern ausgeführte Aktionen wie „Bericht anzeigen“ und „Dashboard anzeigen“ zu überwachen. Sie können die Überwachung nicht dazu verwenden, Berechtigungen zu überwachen.
 
-Sie arbeiten mit der Überwachung im Office 365 Security & Compliance Center oder verwenden PowerShell. Beide Optionen werden in diesem Artikel beschrieben. Sie können die Überwachungsdaten nach Datumsbereich, Benutzer, Dashboard, Bericht, Dataset und Aktivitätstyp filtern. Sie können die Aktivitäten auch als CSV-Datei (durch Trennzeichen getrennte Datei) herunterladen, um die Analyse offline durchzuführen.
+Sie arbeiten mit der Überwachung im Office 365 Security & Compliance Center oder verwenden PowerShell. Die Überwachung baut auf in Exchange Online enthaltener Funktionalität auf, die zur Unterstützung von Power BI automatisch bereitgestellt wird.
+
+Sie können die Überwachungsdaten nach Datumsbereich, Benutzer, Dashboard, Bericht, Dataset und Aktivitätstyp filtern. Sie können die Aktivitäten auch als CSV-Datei (durch Trennzeichen getrennte Datei) herunterladen, um die Analyse offline durchzuführen.
 
 ## <a name="requirements"></a>Anforderungen
 
 Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokolle zugreifen zu können:
 
-- Für den Zugriff auf den Überwachungsbereich des Office 365 Security & Compliance Center benötigen Sie eine Exchange Online-Lizenz (in Office 365 Enterprise E3- und E5-Abonnements enthalten).
+* Sie müssen entweder globaler Administrator sein, oder Ihnen muss in Exchange Online die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zugewiesen sein, damit Sie auf das Überwachungsprotokoll zugreifen können. Standardmäßig sind diese Rollen den Rollengruppen „Compliance Management“ und „Organisationsmanagement“ auf der Seite **Berechtigungen** im Exchange Admin Center.
 
-- Sie müssen globaler Administrator sein oder die Exchange-Administratorrolle besitzen, die den Zugriff auf das Überwachungsprotokoll ermöglicht. Exchange-Administratorrollen werden über das Exchange Admin Center gesteuert. Weitere Informationen finden Sie unter [Berechtigungen in Exchange Online](/exchange/permissions-exo/permissions-exo/).
+    Um Nicht-Administratorkonten Zugriff auf die Überwachungsprotokolle zu geben, müssen Sie den Benutzer als Mitglied einer dieser Rollengruppen hinzufügen. Alternativ können Sie eine benutzerdefinierte Rollengruppe im Exchange Admin Center erstellen, dieser Gruppe die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zuweisen und dann der neuen Rollengruppe das Nicht-Administratorkonto zuweisen. Weitere Informationen finden Sie unter [Verwalten von Rollengruppen in Exchange Online](/Exchange/permissions-exo/role-groups).
 
-- Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum [Office 365 Security & Compliance Center](https://sip.protection.office.com/#/unifiedauditlog) abrufen.
+    Wenn Sie vom Office 365 Admin Center aus nicht auf das Exchange Admin Center zugreifen können, navigieren Sie zu https://outlook.office365.com/ecp, und melden Sie sich mit Ihren Anmeldeinformationen an.
 
-- Um die Power BI-Überwachungsprotokolle in Ihrem Mandanten anzuzeigen, ist mindestens eine Exchange-Postfachlizenz im Mandanten erforderlich.
+* Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum [Office 365 Security & Compliance Center](https://sip.protection.office.com/#/unifiedauditlog) verwenden.
 
 ## <a name="accessing-your-audit-logs"></a>Zugriff auf Überwachungsprotokolle
 
@@ -51,8 +53,6 @@ Die Power BI-Überwachungsprotokolle sind direkt über das [Office 365 Security 
 1. Wählen Sie **Zum O365 Admin Center wechseln** aus.
 
    ![O365 Admin Center aufrufen](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-Damit Nicht-Administratorkonten auf das Überwachungsprotokoll zugreifen können, müssen Sie Berechtigungen im Exchange Online Admin Center zuweisen. Sie können z. B. einen Benutzer einer vorhandenen Rollengruppe wie „Organisationsverwaltung“ zuweisen oder eine neue Rollengruppe mit der Rolle „Überwachungsprotokolle“ erstellen. Weitere Informationen finden Sie unter [Berechtigungen in Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 ## <a name="search-only-power-bi-activities"></a>Nur nach Power BI-Aktivitäten suchen
 
@@ -119,9 +119,7 @@ Um das Power BI-Überwachungsprotokoll in eine CSV-Datei zu exportieren, gehen S
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Verwenden von PowerShell zum Suchen nach Überwachungsprotokollen
 
-Sie können auch mit PowerShell basierend auf Ihrer Anmeldung auf die Überwachungsprotokolle zugreifen. Das folgende Beispiel zeigt, wie Sie den Befehl [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) verwenden, um Power BI-Überwachungsprotokolleinträge abzurufen.
-
-Damit der Befehl [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/) verwendet werden kann, muss Ihrem Konto eine Exchange Online-Lizenz zugewiesen sein, und Sie benötigen Zugriff auf das Überwachungsprotokoll für Ihren Mandanten. Weitere Informationen zum Verbinden mit Exchange Online finden Sie unter [Herstellen einer Verbindung mit Exchange Online mithilfe der Remote-PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
+Sie können auch mit PowerShell basierend auf Ihrer Anmeldung auf die Überwachungsprotokolle zugreifen. Das folgende Beispiel zeigt, wie Sie eine Verbindung mit Exchange Online PowerShell herstellen und dann den Befehl [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) verwenden, um Power BI-Überwachungsprotokolleinträge abzurufen. Um das Skript auszuführen, müssen Ihnen die entsprechenden Berechtigungen zugeordnet sein, wie im Abschnitt [Anforderungen](#requirements) beschrieben.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-Ein weiteres Beispiel für die Verwendung von PowerShell mit Überwachungsprotokollen finden Sie unter [Verwenden des Power BI-Überwachungsprotokolls und von PowerShell zum Zuweisen von Power BI Pro-Lizenzen](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
+Weitere Informationen zum Verbinden mit Exchange Online finden Sie unter [Herstellen einer Verbindung mit Exchange Online mithilfe der Remote-PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Ein weiteres Beispiel für die Verwendung von PowerShell mit Überwachungsprotokollen finden Sie unter [Verwenden des Power BI-Überwachungsprotokolls und von PowerShell zum Zuweisen von Power BI Pro-Lizenzen](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
 
 ## <a name="activities-audited-by-power-bi"></a>Von Power BI überwachte Aktivitäten
 

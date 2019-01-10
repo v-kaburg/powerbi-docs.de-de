@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180827"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072219"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Self-Service-Datenaufbereitung in Power BI (Vorschau)
 
@@ -92,7 +92,7 @@ Die folgende Tabelle beschreibt Dataflowfeatures und ihre Kapazitäten beim Verw
 |Verknüpfte Dataflowentitäten| |        +|
 |Standardisiertes Schema/integrierte Common Data Model-Unterstützung|  +|  +|
 
-
+Weitere Informationen über das Aktivieren von Datenfluss-Workloads in Premium-Kapazität finden Sie im Artikel [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads) für Power BI Premium.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Zusammenfassung: Self-Service-Datenaufbereitung für Big Data in Power BI
 Wie bereits in diesem Artikel erwähnt, gibt es mehrere Szenarien und Beispiele, wie Sie mit **Dataflows** Ihre Geschäftsdaten besser kontrollieren und daraus schneller Informationen gewinnen können. Mit einem Standarddatenmodell (Schema), das durch das Common Data Model definiert ist, können Dataflows Ihre wertvollen Geschäftsdaten importieren und in kürzester Zeit zum Modellieren und Erstellen von BI-Informationen bereitstellen. All das dauerte bislang Monate, wenn nicht gar länger. 
