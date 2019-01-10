@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558537"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136620"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Veröffentlichen im Web aus Power BI
 
@@ -26,6 +26,9 @@ Ebenso einfach können Sie Ihre veröffentlichten Visuals bearbeiten, updaten, a
 > [!WARNING]
 > Wenn Sie **Im Web veröffentlichen** verwenden, kann der Bericht oder das visuelle Element von jedermann im Internet angesehen werden. Für die Anzeige dieser Berichte wird keine Authentifizierung verwendet. Verwenden Sie „Im Web veröffentlichen“ nur für Berichte und Daten, die jedermann im Internet (nicht authentifizierte öffentliche Teilnehmer) ansehen können soll. Dies gilt auch für aggregierte Detaildaten in Ihren Berichten. Stellen Sie vor der Veröffentlichung dieses Berichts sicher, dass Sie die Daten und Visualisierungen öffentlich freigeben dürfen. Veröffentlichen Sie keine vertraulichen oder proprietären Informationen. Überprüfen Sie vor der Veröffentlichung im Zweifelsfall die Richtlinien Ihrer Organisation.
 
+>[!Note]
+>Um Ihre Inhalte sicher in ein internes Portal oder eine interne Website einzubetten, verwenden Sie die Optionen [Einbetten](service-embed-secure.md) oder [In SharePoint Online einbetten](service-embed-report-spo.md). Dadurch wird sichergestellt, dass alle Berechtigungen und die Datensicherheit erzwungen werden, wenn die Benutzer Ihre internen Daten abrufen.
+
 ## <a name="how-to-use-publish-to-web"></a>Verwenden von „Im Web veröffentlichen“
 
 **Im Web veröffentlichen** steht für Berichte in Ihrem persönlichen Arbeitsbereich oder Ihrem Gruppenarbeitsbereich zur Verfügung, die Sie bearbeiten können.  Sie können „Im Web veröffentlichen“ weder für Berichte verwenden, die für Sie freigegeben wurden, noch für Berichte, die zum Sichern der Daten auf die Sicherheit auf Zeilenebene vertrauen. Eine vollständige Liste der Fälle, in denen „Im Web veröffentlichen“ nicht unterstützt wird, finden Sie weiter unten im Abschnitt **Einschränkungen**. Lesen Sie die **Warnung** weiter oben in diesem Artikel, bevor Sie „Im Web veröffentlichen“ verwenden.
@@ -34,46 +37,45 @@ Das folgende *kurze Video*zeigt, wie dieses Feature funktioniert. Führen Sie an
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 In den folgenden Schritten wird die Verwendung von **Im Web veröffentlichen**beschrieben.
 
 1. Wählen Sie in einem Bericht in Ihrem Arbeitsbereich, den Sie bearbeiten können, **Datei > Im Web veröffentlichen** aus.
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. Überprüfen Sie den Inhalt des Dialogfelds, und wählen Sie dann **Einbindungscode erstellen** aus, wie im folgenden Dialogfeld dargestellt.
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. Lesen Sie die Warnung, die im folgenden Dialogfeld angezeigt wird, und bestätigen Sie, dass die Einbettung der Daten in eine öffentlich zugängliche Website unbedenklich ist. Wenn das der Fall ist, wählen Sie **Veröffentlichen**aus.
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. Es wird ein Dialogfeld angezeigt, das einen Link bereitstellt, der per E-Mail gesendet, in Code (wie etwa einen iFrame) eingebettet oder direkt in eine Webseite oder einen Blog eingefügt werden kann.
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. Wenn Sie zuvor einen Einbindungscode für den Bericht erstellt haben, wird der Einbindungscode schnell angezeigt. Für jeden Bericht kann nur ein Einbindungscode erstellt werden.
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>Tipps und Tricks für Ansichtsmodi
 
 Wenn Sie Inhalte in einen Blogbeitrag einbetten, müssen Sie sie in der Regel in eine bestimmte Bildschirmgröße einpassen.  Sie können Höhe und Breite im iFrame-Tag nach Bedarf anpassen, müssen dabei möglicherweise aber auch sicherstellen, dass Ihr Bericht in den angegebenen Bereich des iFrames passt, sodass Sie beim Bearbeiten des Berichts auch einen geeigneten Ansichtsmodus festlegen müssen.
 
-Die folgende Tabelle gibt Hilfestellung zum Ansichtsmodus und wie er sich auf die Darstellung bei der Einbettung auswirkt. 
+Die folgende Tabelle gibt Hilfestellung zum Ansichtsmodus und wie er sich auf die Darstellung bei der Einbettung auswirkt.
 
 | Ansichtsmodus | Darstellung bei der Einbettung |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**An Seite anpassen** berücksichtigt die Höhe und Breite des Berichts. Wenn Sie für Ihre Seite das Seitenverhältnis auf „Dynamisch“ – z.B. 16:9 oder 4:3 – festlegen, wird Ihr Inhalt so skaliert, dass er in den von Ihnen bereitgestellten iFrame passt. Wenn Inhalt im iFrame eingebettet ist, kann die Verwendung von **An Seite anpassen** zu einem **Letterbox-Effekt** führen, wobei ein grauer Hintergrund in iFrame-Bereichen angezeigt wird, nachdem der Inhalt so skaliert wurde, dass er in den iFrame passt. Legen Sie die Höhe und Breite Ihres iFrames entsprechend fest, um den Letterbox-Effekt zu minimieren. |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |**Originalgröße** stellt sicher, dass die Größe des Berichts so beibehalten wird, wie sie auf der Berichtsseite festgelegt ist. Dies kann zur Folge haben, dass im iFrame Scrollleisten dargestellt werden. Legen Sie die iFrame-Höhe und -Breite fest, um die Scrollleisten zu vermeiden. |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**An Breite anpassen** stellt sicher, dass die Inhalte in den horizontalen Bereich Ihres iFrames passen. Es wird trotzdem ein Rahmen angezeigt, die Inhalte werden aber so skaliert, dass der in der Horizontalen verfügbare Platz vollständig ausgenutzt wird. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**An Seite anpassen** berücksichtigt die Höhe und Breite des Berichts. Wenn Sie für Ihre Seite das Seitenverhältnis auf „Dynamisch“ – z.B. 16:9 oder 4:3 – festlegen, wird Ihr Inhalt so skaliert, dass er in den von Ihnen bereitgestellten iFrame passt. Wenn Inhalt im iFrame eingebettet ist, kann die Verwendung von **An Seite anpassen** zu einem **Letterbox-Effekt** führen, wobei ein grauer Hintergrund in iFrame-Bereichen angezeigt wird, nachdem der Inhalt so skaliert wurde, dass er in den iFrame passt. Legen Sie die Höhe und Breite Ihres iFrames entsprechend fest, um den Letterbox-Effekt zu minimieren. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Originalgröße** stellt sicher, dass die Größe des Berichts so beibehalten wird, wie sie auf der Berichtsseite festgelegt ist. Dies kann zur Folge haben, dass im iFrame Scrollleisten dargestellt werden. Legen Sie die iFrame-Höhe und -Breite fest, um die Scrollleisten zu vermeiden. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**An Breite anpassen** stellt sicher, dass die Inhalte in den horizontalen Bereich Ihres iFrames passen. Es wird trotzdem ein Rahmen angezeigt, die Inhalte werden aber so skaliert, dass der in der Horizontalen verfügbare Platz vollständig ausgenutzt wird. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Tipps und Tricks für die iFrame-Höhe und -Breite
 
 Der Einbindungscode, der für Sie nach der Auswahl von „Im Web veröffentlichen“ bereitgestellt wird, sieht etwa so aus:
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
 Sie können Breite und Höhe manuell bearbeiten, um sicherzustellen, dass die Einpassung auf der Seite, auf der Sie den Code einbetten, genau Ihren Vorstellungen entspricht.
 
@@ -93,20 +95,20 @@ Sie können versuchen, 56 Pixel zur Höhenabmessung des iFrame hinzuzufügen, um
 Nachdem Sie mithilfe von **Im Web veröffentlichen** einen Einbindungscode erstellt haben, können Sie die erstellten Codes im Menü **Einstellungen** des Power BI-Diensts verwalten. Das Verwalten von Einbindungscodes schließt auch die Möglichkeit ein, das visuelle Zielelement oder den Zielbericht für einen Code zu entfernen (wodurch der Einbindungscode unbrauchbar wird) oder den Einbindungscode erneut abzurufen.
 
 1. Um Ihre Einbindungscodes für **Im Web veröffentlichen** zu verwalten, öffnen Sie über das Zahnrad das Menü **Einstellungen** , und wählen Sie **Einbindungscodes verwalten**aus.
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. Die Liste der von Ihnen erstellten Einbindungscodes wird angezeigt, wie in der folgenden Abbildung dargestellt.
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. Für jeden **Im Web veröffentlichen** -Einbindungscode in der Liste können Sie den Einbindungscode abrufen oder löschen, wodurch alle Verknüpfungen mit dem betreffenden Bericht oder visuellen Element nicht mehr funktionieren.
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. Wenn Sie **Löschen** auswählen, werden Sie gefragt, ob Sie sicher sind, dass Sie den Einbindungscode löschen möchten.
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Updates an Berichten und Datenaktualisierung
 
@@ -120,7 +122,7 @@ Weitere Informationen finden Sie im Abschnitt **Funktionsweise** weiter unten in
 
 Datenaktualisierungen werden in Ihrem eingebetteten Bericht oder in Ihrer Virtualisierung automatisch wiedergegeben. Es kann ungefähr eine Stunde dauern, bis aktualisierte Daten über Einbindungscodes widergespiegelt werden. Sie können die automatische Aktualisierung deaktivieren, indem Sie im Zeitplan für das vom Bericht verwendete Dataset **nicht aktualisieren** auswählen.  
 
-## <a name="custom-visuals"></a>Benutzerdefinierte Visualisierungen
+## <a name="custom-visuals"></a>Benutzerdefinierte Visuals
 
 Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unterstützt. Wenn Sie „Im Web veröffentlichen“ verwenden, brauchen Benutzer, mit denen Sie Ihr veröffentlichtes visuelles Element teilen, benutzerdefinierte Visualisierungen nicht zu aktivieren, um den Bericht anzuzeigen.
 
@@ -138,6 +140,7 @@ Benutzerdefinierte visuelle Elemente werden von **Im Web veröffentlichen**unter
 - Berichte, die DAX-Measures auf Berichtebene enthalten
 - SSO-Datenabfragemodelle
 - [Sichern vertraulicher oder proprietärer Informationen](#publish-to-web-from-power-bi)
+- Die Funktion zur automatischen Authentifizierung, die von der Option **Einbetten** unterstützt wird, kann nicht mit der Power BI-JavaScript-API verwendet werden. Verwenden Sie zum Einbetten mit der Power BI-JavaScript-API die Methode [Benutzer ist Besitzer der Daten](developer/embed-sample-for-your-organization.md). Weitere Informationen zu [Benutzer ist Besitzer der Daten](developer/embed-sample-for-your-organization.md)
 
 ## <a name="tenant-setting"></a>Mandanteneinstellung
 
@@ -167,7 +170,7 @@ Um ein Problem im Zusammenhang mit den auf einer Website oder in einem Blog eing
 
 Um ein Problem zu melden, wählen Sie das **Flaggensymbol** in der unteren Leiste des angezeigten „Im Web veröffentlichen“-Berichts aus.
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>Lizenzierung und Preise
 
@@ -178,5 +181,11 @@ Sie müssen ein Microsoft Power BI-Benutzer sein, um **Im Web veröffentlichen**
 Wenn Sie mithilfe von **Im Web veröffentlichen**einen Einbindungscode erstellen, wird der Bericht für Benutzer im Internet sichtbar gemacht. Er ist öffentlich verfügbar, daher können Sie davon ausgehen, dass Leser den Bericht in Zukunft einfach über soziale Medien teilen. Wenn Benutzer den Bericht anzeigen, entweder indem sie die direkte öffentliche URL öffnen oder den Bericht auf einer Webseite oder in einem Blog eingebettet anzeigen, speichert Power BI die Berichtsdefinition und die Ergebnisse der zum Anzeigen des Berichts erforderlichen Abfragen zwischen. Dieser Ansatz stellt sicher, dass der Bericht ohne Beeinträchtigung der Leistung von Tausenden von Benutzern zugleich angezeigt werden kann.
 
 Der Cache hat einen langen Lebenszyklus. Wenn Sie die Berichtsdefinition updaten (etwa, indem Sie den Ansichtsmodus ändern) oder die Berichtsdaten aktualisieren, kann es daher ungefähr eine Stunde dauern, ehe die Änderungen in der von Ihren Benutzern angezeigten Version des Berichts angezeigt werden. Es wird daher empfohlen, dass Sie Ihre Arbeit rechtzeitig vorab bereitstellen und den Einbindungscode für **Im Web veröffentlichen** erst erstellen, wenn Sie mit den Einstellungen zufrieden sind.
+
+## <a name="next-steps"></a>Nächste Schritte
+
+- [SharePoint Online-Berichts-Webpart](service-embed-report-spo.md) 
+
+- [Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website](service-embed-secure.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

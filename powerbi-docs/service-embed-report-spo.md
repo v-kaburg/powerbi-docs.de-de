@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973325"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136597"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -75,7 +75,7 @@ Um den Bericht in SharePoint Online einzubetten, müssen Sie zuerst die URL des 
 
     ![SP-Bericht geladen](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Zugriff gewähren auf Berichte
+## <a name="grant-access-to-reports"></a>Gewähren des Zugriffs auf Berichte
 
 Nachdem Sie einen Bericht in SharePoint Online eingebettet haben, müssen Sie den Benutzern die Berechtigung geben, den Bericht anzuzeigen. Die Berechtigungen zum Anzeigen des Berichts werden im Power BI-Dienst festgelegt.
 
@@ -152,7 +152,7 @@ Benutzer, die einen Bericht in SharePoint anzeigen, benötigen entweder eine **P
 
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
-* Fehlermeldung: "An error occurred, please try logging out and back in and then revisiting this page. Correlation Id: undefined, http response status: 400, server error code 10001, message: Missing refresh token" (Es ist ein Fehler aufgetreten, melden Sie sich ab und wieder an, und öffnen Sie diese Seite dann erneut. Korrelations-ID: nicht definiert, HTTP-Antwortstatus: 400, Serverfehlercode 10001, Meldung: Fehlendes Aktualisierungstoken)
+* Fehler: „Es ist ein Fehler aufgetreten, melden Sie sich ab und wieder an und öffnen Sie diese Seite dann erneut. Korrelations-ID: nicht definiert, HTTP-Antwortstatus: 400, Serverfehlercode 10001, Meldung: Fehlendes Aktualisierungstoken“
   
   Wenn Sie diesen Fehler erhalten, versuchen Sie einen der folgenden Schritte zur Fehlerbehebung.
   
@@ -174,9 +174,10 @@ Benutzer, die einen Bericht in SharePoint anzeigen, benötigen entweder eine **P
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Erstellen moderner Websiteseiten durch Endbenutzer zulassen oder verhindern](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md)  
-[Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  
-[Was ist Power BI Premium?](service-premium.md)  
+* [Erstellen moderner Websiteseiten durch Endbenutzer zulassen oder verhindern](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Erstellen und Verteilen einer App in Power BI](service-create-distribute-apps.md)  
+* [Freigeben eines Dashboards für Kollegen und andere](service-share-dashboards.md)  
+* [Was ist Power BI Premium?](service-premium.md)
+* [Einbetten eines Berichts in ein sicheres Portal oder eine sichere Website](service-embed-secure.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
