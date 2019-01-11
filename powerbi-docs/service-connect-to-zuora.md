@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003223"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008601"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Herstellen einer Verbindung mit Zuora mithilfe von Power BI
 Mit Zuora für Power BI können Sie wichtige Umsatzerlös-, Abrechnungs- und Abonnementdaten visuell darstellen. Verwenden Sie die standardmäßigen Dashboards und Berichte, um Nutzungstrends zu analysieren, Abrechnungen und Zahlungen nachzuverfolgen und wiederkehrende Umsatzerlöse zu überwachen, oder passen Sie sie an Ihre eigenen Anforderungen an Dashboards und Berichte an.
@@ -67,31 +67,31 @@ Es enthält auch diese berechneten Measures:
 
 | Measure | Beschreibung | Pseudo-Berechnung |
 | --- | --- | --- |
-| Account: Payments |Gesamtsumme der Zahlungsbeträge in einem bestimmten Zeitraum, basierend auf dem tatsächlichen Zahlungszeitpunkt. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND Payment.EffectiveDate >= TimePeriod.StartDate |
-| Account: Refunds |Gesamtsumme der Erstattungsbeträge in einem bestimmten Zeitraum, basierend auf dem Erstattungsdatum. Die Gesamtsumme wird als eine negative Zahl zurückgegeben. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
-| Account: Net Payments |Kontozahlungen plus Kontoerstattungen in einem bestimmten Zeitraum. |Account.Payments + Account.Refunds |
-| Account: Active Accounts |Die Summe der Konten, die in einem bestimmten Zeitraum aktiv waren. Abonnements müssen vor (oder an) dem Startdatum des Zeitraums gestartet sein. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
-| Account: Average Recurring Revenue |Brutto-MRR pro aktivem Konto in einem bestimmten Zeitraum. |Gross MRR / Account.ActiveAccounts |
-| Account: Cancelled Subscriptions |Die Summe der Konten, die in einem bestimmten Zeitraum ein Abonnement gekündigt haben. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
-| Account: Payment Errors |Gesamtwert der Zahlungsfehler. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
-| Revenue Schedule Item: Recognized Revenue |Gesamtsumme der Umsatzrealisierungen in einem Abrechnungszeitraum. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Subscription: New Subscriptions |Die Summe der neuen Abonnements in einem bestimmten Zeitraum. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
-| Invoice: Invoice Items |Gesamtsumme der Rechnungspostenbeträge in einem bestimmten Zeitraum. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Taxation Items |Gesamtsumme der auf einen Rechnungsposten angefallenen Steuern in einem bestimmten Zeitraum. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Invoice Item Adjustments |Gesamtsumme der Änderungen, die in einem bestimmten Zeitraum an einem Rechnungsposten vorgenommen wurden. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Invoice Adjustments |Gesamtsumme der Änderungen, die in einem bestimmten Zeitraum an einer Rechnung vorgenommen wurden. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Net Billings |Summe der Rechnungsposten, Steuer auf Rechnungsposten, Änderungen an Rechnungsposten und Änderungen an Rechnungen in einem bestimmten Zeitraum. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
-| Invoice: Invoice Aging Balance |Summe der gebuchten Rechnungssaldos. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
-| Invoice: Gross Billings |Summe der Rechnungspostenbeträge für gebuchte Rechnungen in einem bestimmten Zeitraum. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Total Adjustments |Summe der verarbeiteten Änderungen an Rechnungen und Rechnungsposten, die den gebuchten Rechnungen zugeordnet sind. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND invoiceItemAdjustment.Status = "Processed" |
-| Rate Plan Charge: Gross MRR |Summe der monatlich wiederkehrenden Umsätze von Abonnements in einem bestimmten Zeitraum. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
+| Konto: Zahlungen |Gesamtsumme der Zahlungsbeträge in einem bestimmten Zeitraum, basierend auf dem tatsächlichen Zahlungszeitpunkt. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND Payment.EffectiveDate >= TimePeriod.StartDate |
+| Konto: Refunds |Gesamtsumme der Erstattungsbeträge in einem bestimmten Zeitraum, basierend auf dem Erstattungsdatum. Die Gesamtsumme wird als eine negative Zahl zurückgegeben. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Konto: Nettozahlungen |Kontozahlungen plus Kontoerstattungen in einem bestimmten Zeitraum. |Account.Payments + Account.Refunds |
+| Konto: Aktive Konten |Die Summe der Konten, die in einem bestimmten Zeitraum aktiv waren. Abonnements müssen vor (oder an) dem Startdatum des Zeitraums gestartet sein. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
+| Konto: Durchschnittliche wiederkehrende Umsätze |Brutto-MRR pro aktivem Konto in einem bestimmten Zeitraum. |Gross MRR / Account.ActiveAccounts |
+| Konto: Gekündigte Abonnements |Die Summe der Konten, die in einem bestimmten Zeitraum ein Abonnement gekündigt haben. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
+| Konto: Zahlungsfehler |Gesamtwert der Zahlungsfehler. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
+| Element für Umsatzzeitplan: Umsatzrealisierungen |Gesamtsumme der Umsatzrealisierungen in einem Abrechnungszeitraum. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
+| Abonnement: Neue Abonnements |Die Summe der neuen Abonnements in einem bestimmten Zeitraum. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Rechnung: Invoice Items |Gesamtsumme der Rechnungspostenbeträge in einem bestimmten Zeitraum. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Rechnung: Taxation Items |Gesamtsumme der auf einen Rechnungsposten angefallenen Steuern in einem bestimmten Zeitraum. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Rechnung: Invoice Item Adjustments |Gesamtsumme der Änderungen, die in einem bestimmten Zeitraum an einem Rechnungsposten vorgenommen wurden. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Rechnung: Invoice Adjustments |Gesamtsumme der Änderungen, die in einem bestimmten Zeitraum an einer Rechnung vorgenommen wurden. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Rechnung: Net Billings |Summe der Rechnungsposten, Steuer auf Rechnungsposten, Änderungen an Rechnungsposten und Änderungen an Rechnungen in einem bestimmten Zeitraum. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
+| Rechnung: Überfälliger Rechnungssaldo |Summe der gebuchten Rechnungssaldos. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
+| Rechnung: Bruttoabrechnungen |Summe der Rechnungspostenbeträge für gebuchte Rechnungen in einem bestimmten Zeitraum. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Rechnung: Summe der Änderungen |Summe der verarbeiteten Änderungen an Rechnungen und Rechnungsposten, die den gebuchten Rechnungen zugeordnet sind. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND invoiceItemAdjustment.Status = "Processed" |
+| Gebühr für Tarifplan: Brutto-MRR |Summe der monatlich wiederkehrenden Umsätze von Abonnements in einem bestimmten Zeitraum. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
 
 ## <a name="system-requirements"></a>Systemanforderungen
 Zugriff auf die Zuora-API ist erforderlich.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Ermitteln von Parametern
+## <a name="finding-parameters"></a>Suchen von Parametern
 Geben Sie die URL an, mit der Sie sich in der Regel anmelden, um auf Ihre Zuora-Daten zugreifen. Die gültigen Optionen sind:  
 
 * https://www.zuora.com  

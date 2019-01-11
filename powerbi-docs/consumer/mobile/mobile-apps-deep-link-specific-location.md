@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 63b9129c56b064f224eef0720e5f585c86d80a93
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735560"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983575"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Erstellen eines Links zu einer bestimmten Stelle in den mobilen Power BI-Apps
 Sie können einen URI (Uniform Resource Identifier) erstellen und als Link zu einer bestimmten Stelle (*Deep-Link*) in den mobilen Power BI-Apps auf allen Plattformen verwenden: iOS, Android und Windows 10.
@@ -69,6 +69,12 @@ Mit diesem URI wird ein bestimmter Bericht in der mobilen Power BI-App geöffnet
 Um die aus 36 Zeichen bestehende Berichtsobjekt-ID zu suchen, navigieren Sie im Power BI-Dienst (https://powerbi.com) zum betreffenden Bericht. Der hervorgehobene Abschnitt dieser URL zeigt ein Beispiel:
 
 `https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+
+Wenn sich der Bericht in einer anderen Gruppe als „Mein Arbeitsbereich“ befindet, fügen Sie `&GroupObjectId=<36-character-group-id>` vor oder nach der Berichts-ID hinzu. Beispiel: 
+
+mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+
+Beachten Sie das kaufmännische Und-Zeichen (&) zwischen den beiden IDs.
 
 ## <a name="open-to-a-specific-report-page"></a>Öffnen einer bestimmten Berichtsseite
 Mit diesem URI wird eine bestimmte Berichtsseite in der mobilen Power BI-App geöffnet:

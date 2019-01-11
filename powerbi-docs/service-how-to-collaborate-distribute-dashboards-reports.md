@@ -1,5 +1,5 @@
 ---
-title: Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
+title: Freigeben Ihrer Arbeit
 description: In Power BI können Sie Dashboards, Berichte und Kacheln und Apps auf verschiedene Weisen freigeben und für die Zusammenarbeit verwenden. Jede dieser Möglichkeiten hat ihre Vorteile.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908967"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983529"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Wie kann ich in Power BI mit anderen Personen zusammenarbeiten und Elemente freigeben?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Freigeben Ihrer Arbeit in Power BI
 
-Sie haben Dashboards und Berichte erstellt. Zusätzlich kann es sein, dass Sie gemeinsam mit Ihren Kollegen an diesen Dashboards und Berichten arbeiten. Dann möchten Sie, dass andere Benutzer Zugriff auf die Dashboards und Berichte haben. Was ist die beste Möglichkeit, um sie zu verteilen?
+Sie haben Dashboards und Berichte erstellt. Zusätzlich kann es der Fall sein, dass Sie gemeinsam mit Ihren Kollegen an diesen Dashboards und Berichten gearbeitet haben. Nun möchten Sie, dass andere Benutzer Zugriff auf die Dashboards und Berichte haben. Was ist die beste Möglichkeit, um sie zu verteilen?
 
 In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freigabe in Power BI verglichen: 
 
-* Zusammenarbeit mit Kollegen, um aussagekräftige Berichte und Dashboards in *App-Arbeitsbereichen* zu erstellen
+* Zusammenarbeit mit Kollegen, um aussagekräftige Berichte und Dashboards in *Arbeitsbereichen* zu erstellen
 * Bündeln dieser Dashboards und Berichte in *Apps* und Veröffentlichen der Apps für eine größere Gruppe oder die gesamte Organisation
 * Freigeben von Dashboards oder Berichten für einige Personen, aus dem Dienst oder aus den mobilen Power BI-Apps
 - Drucken von Berichten.
@@ -35,25 +35,25 @@ Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben ei
 
 *Apps im Power BI-Dienst*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Zusammenarbeit mit Kollegen in einem App-Arbeitsbereich
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Zusammenarbeit mit Kollegen in einem Arbeitsbereich
 
-Wenn Teams zusammenarbeiten, benötigen sie Zugriff auf die gleichen Dokumente, damit sie schnell miteinander arbeiten können. In App-Arbeitsbereichen in Power BI können Teams effektiv zusammenarbeiten, um für sie relevante Dashboards, Berichte, Datasets und Arbeitsmappen gemeinsam zu besitzen und zu verwalten. Manchmal organisieren Power BI-Benutzer Ihre Arbeitsbereiche basierend auf Organisationsstrukturen, in anderen Fällen erstellen sie sie für bestimmte Projekte. Andere Organisationen verwenden mehrere Arbeitsbereiche zum Speichern verschiedener Versionen von Berichten oder Dashboards, die sie verwenden. 
+Wenn Teams zusammenarbeiten, benötigen sie Zugriff auf die gleichen Dokumente, damit sie schnell miteinander arbeiten können. In Arbeitsbereichen in Power BI können Teams effektiv zusammenarbeiten, um relevante Dashboards, Berichte, Datasets und Arbeitsmappen gemeinsam zu besitzen und zu verwalten. Manchmal organisieren Power BI-Benutzer Ihre Arbeitsbereiche basierend auf Organisationsstrukturen, in anderen Fällen erstellen sie sie für bestimmte Projekte. Andere Organisationen verwenden mehrere Arbeitsbereiche zum Speichern verschiedener Versionen von Berichten oder Dashboards, die sie verwenden. 
 
-App-Arbeitsbereiche bieten Rollen, die bestimmen, welche Berechtigungen Ihre Kollegen haben. Sie können diese Rollen verwenden, um zu bestimmen, wer den gesamten Arbeitsbereich verwalten oder Inhalt bereitstellen kann.
+Arbeitsbereiche enthalten Rollen, die bestimmen, welche Berechtigungen Ihre Kollegen haben. Sie können diese Rollen verwenden, um zu bestimmen, wer den gesamten Arbeitsbereich verwalten oder Inhalt bereitstellen kann.
 
-![App-Arbeitsbereiche](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Arbeitsbereiche](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Einige Benutzer fügen den Inhalt auf natürliche Weise unter „Mein Arbeitsbereich“ hinzu und geben diesen frei. App-Arbeitsbereiche sind für die Zusammenarbeit besser als „Mein Arbeitsbereich“, da sie den gemeinsamen Besitz von Inhalt ermöglichen. Sie und Ihr gesamtes Team können Änderungen ganz unkompliziert vornehmen oder anderen Zugriff erteilen. „Mein Arbeitsbereich“ ist am besten für einmalige oder persönliche Inhalte von einzelnen Benutzern geeignet.
+Einige Benutzer fügen den Inhalt auf natürliche Weise unter „Mein Arbeitsbereich“ hinzu und geben diesen frei. Arbeitsbereiche sind für die Zusammenarbeit besser als „Mein Arbeitsbereich“, da sie den gemeinsamen Besitz von Inhalt ermöglichen. Sie und Ihr gesamtes Team können Änderungen ganz unkompliziert vornehmen oder anderen Zugriff erteilen. „Mein Arbeitsbereich“ ist am besten für einmalige oder persönliche Inhalte von einzelnen Benutzern geeignet.
 
-Angenommen Sie verfügen über ein fertiggestelltes Dashboard, das Sie für Ihre Kollegen freigeben müssen. Was ist die beste Möglichkeit, ihnen den Zugriff auf das Dashboard zu gewähren? Die Antwort hängt von unterschiedlichen Faktoren ab. Wenn ein bestimmter Kollege das Dashboard besitzen und auf dem neuesten Stand halten muss oder Zugriff auf alle Inhalte im App-Arbeitsbereich benötigt, kann es am besten sein, ihn dem Arbeitsbereich hinzuzufügen. Wenn Ihr Kollege anstelle des gesamten Inhalts nur das Dashboard anzeigen muss, können Sie aus mehreren Alternativen auswählen. Wenn das Dashboard Teil einer größeren Menge an Inhalt ist, die Sie an viele Kollegen verteilen müssen, ist das Veröffentlichen einer App vermutlich die beste Lösung. Wenn der Kollege jedoch nur das eine Dashboard benötigt, ist oft das Freigeben des Dashboards die beste Vorgehensweise. 
+Angenommen Sie verfügen über ein fertiggestelltes Dashboard, das Sie für Ihre Kollegen freigeben müssen. Was ist die beste Möglichkeit, ihnen den Zugriff auf das Dashboard zu gewähren? Die Antwort hängt von unterschiedlichen Faktoren ab. Wenn ein bestimmter Kollege das Dashboard besitzen und auf dem neuesten Stand halten muss oder Zugriff auf alle Inhalte im Arbeitsbereich benötigt, bietet es sich an, ihn dem Arbeitsbereich hinzuzufügen. Wenn Ihr Kollege anstelle des gesamten Inhalts nur das Dashboard anzeigen muss, können Sie aus mehreren Alternativen auswählen. Wenn das Dashboard Teil einer größeren Menge an Inhalt ist, die Sie an viele Kollegen verteilen müssen, ist das Veröffentlichen einer App vermutlich die beste Lösung. Wenn der Kollege jedoch nur das eine Dashboard benötigt, ist oft das Freigeben des Dashboards die beste Vorgehensweise. 
 
-Weitere Informationen zum [Erstellen von App-Arbeitsbereichen](service-create-workspaces.md).
+Weitere Informationen zum [Erstellen von Arbeitsbereichen](service-create-workspaces.md).
 
 **Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md) erfahren Sie, wie sich Arbeitsbereiche in der Zukunft entwickeln. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Verteilen von Daten und Erkenntnissen durch Erstellen einer App
 
-Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern verteilen. Sie und Ihre Kollegen haben einen *App-Arbeitsbereich* erstellt und dann Dashboards, Berichte und Datasets im App-Arbeitsbereich erstellt und verfeinert. Jetzt wählen Sie die gewünschten Dashboards und Berichte aus, und veröffentlichen Sie diese als App für eine Gruppe oder Ihre gesamte Organisation. 
+Angenommen, Sie möchten Ihr Dashboard an eine größere Gruppe von Benutzern verteilen. Sie und Ihre Kollegen haben einen *Arbeitsbereich* erstellt und anschließend Dashboards, Berichte und Datasets im Arbeitsbereich erstellt und verfeinert. Jetzt wählen Sie die gewünschten Dashboards und Berichte aus, und veröffentlichen Sie diese als App für eine Gruppe oder Ihre gesamte Organisation. 
 
 ![Symbol „App veröffentlichen“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Damit die Benutzer Ihre App anzeigen können, müssen sie eine Power BI Pro-Lize
 Sie können Apps auch für Benutzer außerhalb Ihrer Organisation veröffentlichen. Diese können den App-Inhalt anzeigen und damit interagieren, ihn jedoch nicht freigeben.
 
 ## <a name="share-dashboards-and-reports"></a>Freigeben von Dashboards und Berichten
-Angenommen, Sie haben ein Dashboard und einen Bericht in Ihrem eigenen „Mein Arbeitsbereich“ oder in einem App-Arbeitsbereich fertig gestellt, und Sie möchten einigen anderen Personen Zugriff auf das Dashboard gewähren. Dazu können Sie es *freigeben*. 
+Angenommen, Sie haben ein Dashboard und einen Bericht in Ihrem eigenen „Mein Arbeitsbereich“ oder in einem Arbeitsbereich fertig gestellt, und Sie möchten einigen anderen Personen Zugriff auf das Dashboard gewähren. Dazu können Sie es *freigeben*. 
 
 ![Symbol „Freigeben“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

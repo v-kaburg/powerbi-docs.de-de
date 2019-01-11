@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546752"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008854"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Herstellen einer Verbindung mit Xero mithilfe von Power BI
 Xero ist eine einfach zu verwendende Online-Buchhaltungssoftware, die speziell auf kleine Unternehmen zugeschnitten ist. Erstellen Sie mit diesem Power BI-Inhaltspaket ansprechende Visualisierungen basierend auf Ihren Xero-Finanzdaten. Ihr Standarddashboard umfasst viele Metriken für kleine Unternehmen, wie z.B. cash position, revenue vs. expenses, profit loss trend, debtor days und return on investment.
@@ -81,7 +81,7 @@ Das Dataset enthält außerdem die folgenden Tabellen, mit denen Sie Ihre Berich
 * Xero Accounts
 
 ## <a name="system-requirements"></a>Systemanforderungen
-Die folgenden Rollen sind für den Zugriff auf das Xero-Inhaltspaket erforderlich: „Standard + Reports“ oder „Advisor“.
+Die folgenden Rollen sind für den Zugriff auf das Xero-Inhaltspaket erforderlich: „Standard + Berichte“ oder „Advisor“.
 
 <a name="FindingParams"></a>
 
@@ -89,7 +89,7 @@ Die folgenden Rollen sind für den Zugriff auf das Xero-Inhaltspaket erforderlic
 Geben Sie einen Namen für Ihre Organisation an, um sie in Power BI zu verfolgen. Dadurch können Sie eine Verbindung mit mehreren verschiedenen Organisationen herstellen. Beachten Sie, dass Sie nicht mehrmals eine Verbindung mit derselben Organisation herstellen können, da dies Auswirkungen auf die geplante Aktualisierung hat.   
 
 ## <a name="troubleshooting"></a>Problembehandlung
-* Xero-Benutzer benötigen die folgenden Rollen für den Zugriff auf das Xero-Inhaltspaket für Power BI: „Standard + Berichte“ oder „Ratgeber“. Das Inhaltspaket beruht auf den benutzerbasierten Berechtigungen für den Zugriff auf Berichtsdaten über Power BI.  
+* Xero-Benutzer benötigen die folgenden Rollen für den Zugriff auf das Xero-Inhaltspaket für Power BI: „Standard + Berichte“ oder „Advisor“: „Standard + Berichte“ oder „Advisor“. Das Inhaltspaket beruht auf den benutzerbasierten Berechtigungen für den Zugriff auf Berichtsdaten über Power BI.  
 * Wenn der Ladevorgang längere Zeit in Anspruch nimmt und dann eine Fehlermeldung angezeigt wird, halten Sie fest, wie lange es gedauert hat, bis der Fehler angezeigt wurde. Beachten Sie, dass das durch Xero bereitgestellte Zugriffstoken nur für 30 Minuten gilt. Wenn ein Konto also mehr Daten enthält, als in dieser Zeit geladen werden können, tritt ein Fehler auf. Wir arbeiten derzeit daran, dies zu verbessern.
 * Während des Ladens befinden sich die Kacheln auf dem Dashboard in einem generischen Ladezustand. Dies ändert sich erst nach erfolgreichem Abschluss des Ladevorgangs. Wenn Sie über den Abschluss des Ladevorgangs benachrichtigt werden, aber die Kacheln sich noch immer im Ladezustand befinden, aktualisieren Sie die Dashboardkacheln mit dem „...“ in der oberen rechten Ecke des Dashboards.
 * Wenn Ihr Inhaltspaket nicht aktualisiert wird, überprüfen Sie, ob Sie mit derselben Organisation in Power BI mehr als einmal eine Verbindung hergestellt haben. Xero lässt nur eine einzige aktive Verbindung mit einer Organisation zu. Wenn Sie mit derselben Organisation mehr als einmal eine Verbindung herstellen, wird eine Fehlermeldung angezeigt, die angibt, dass Ihre Anmeldeinformationen ungültig sind.  

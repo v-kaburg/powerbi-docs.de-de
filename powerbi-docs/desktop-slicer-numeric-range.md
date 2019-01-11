@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669840"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983621"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Verwenden der Funktion „Datenschnitt für numerischen Bereich“ in Power BI Desktop
 Mit dem Feature **Datenschnitt für numerischen Bereich** können Sie numerischen Spalten eine Reihe an Filtern zuweisen. Sie können numerische Daten filtern, die **zwischen** Zahlen liegen oder deren Wert **kleiner als oder gleich** oder **größer als oder gleich** eine Zahl ist. Diese Filtermethode ist unkompliziert, aber leistungsstark.
@@ -54,6 +54,14 @@ Wenn Sie **Größer als oder gleich** auswählen, verschwindet der rechte Ziehpu
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ausrichten an ganzen Zahlen mit dem Datenschnitt für numerische Bereiche
 
 Ein Datenschnitt für den numerischen Bereich richtet sich an ganzen Zahlen aus, wenn der Datentyp des zugrunde liegenden Felds **Ganze Zahl** ist. Dadurch kann der Slicer ordnungsgemäß an ganzen Zahlen ausgerichtet werden. In Feldern vom Typ **Dezimalzahl** können Sie Bruchzahlen eingeben oder diese darin auswählen. Die im Textfeld angewendete Formatierung entspricht der im Feld festgelegten Formatierung, auch wenn Sie genauere Zahlen eingeben oder auswählen können.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Anzeigen der Formatierung mit dem Datenschnitt für den Datumsbereich
+
+Bei Verwendung eines Datenschnitts zum Anzeigen oder Festlegen eines Datumsbereich, wird das Format des Datums basierend auf dem Gebietsschema des Browsers oder Betriebssystems des Benutzers immer im Format **Kurzes Datum** angezeigt. Dies ist das Anzeigeformat, und zwar unabhängig von der Einstellungen des Datentyps für die zugrunde liegenden Daten oder das zugrunde liegende Modell. 
+
+Sie könnten beispielsweise für den zugrunde liegenden Datentyp über das Format „Langes Datum“ verfügen (wie z. B. *dddd, MMMM d, yyyy*, bei dem ein Datum in anderen Visuals oder unter anderen Bedingungen wie folgt formatiert würde: *Mittwoch, 14. März 2001*), im Datenschnitt für den Datumsbereich würde dieses Datum jedoch wie folgt dargestellt: *03/14/2001*.
+
+Durch das Anzeigen des Formats **Kurzes Datum** im Datenschnitt wird sichergestellt, dass die Länge der Zeichenfolge innerhalb des Datenschnitts konsistent und kompakt bleibt. 
 
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen

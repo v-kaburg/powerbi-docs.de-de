@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565657"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983368"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tipps und Tricks zur Farbformatierung in Power BI
 Power BI bietet viele unterschiedliche Methoden zum Anpassen der Dashboards und Berichte. In diesem Artikel erhalten Sie Tipps, wie Sie Ihre Power BI-Visualisierungen ansprechender, interessanter und personalisierter gestalten können.
@@ -29,38 +29,35 @@ Nachfolgend finden Sie einige Tipps. Haben Sie weitere tolle Tipps? Sehr gut! We
 * Abweichende Farbskalen verwenden
 * Änderungen in Power BI rückgängig machen
 
-Um Änderungen vorzunehmen, müssen Sie einen Bericht bearbeiten: Wählen Sie Ihren **Bericht** unter **Mein Arbeitsbereich** aus, und wählen Sie dann oben im Menübereich wie im folgenden Bild gezeigt **Bericht bearbeiten** aus.
+Um Änderungen vorzunehmen, müssen Sie einen Bericht bearbeiten: Wählen Sie Ihren **Bericht** unter **Mein Arbeitsbereich** aus, und wählen Sie dann oben im Menübereich wie im folgenden Bild gezeigt **Bericht bearbeiten** aus. Im Folgenden wird das **Beispiel für Personalwesen** verwendet.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![Berichtszeichenbereich mit hervorgehobener Option „Edit report“ (Bericht bearbeiten)](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 Wenn das Fenster **Visualisierungen** auf der rechten Seite des Bereichs **Bericht** angezeigt wird, können Sie ihn anpassen.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![Bericht mit angezeigtem Formatierungsbereich](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Farbe eines einzelnen Datenpunkts ändern
-Unter Umständen möchten Sie einen bestimmten Datenpunkt markieren. Möglicherweise handelt es sich dabei um die Verkaufszahlen für ein neu eingeführtes Produkt oder bessere Qualitätsergebnisse nach der Einführung eines neuen Programms. Mit Power BI können Sie einen bestimmten Datenpunkt hervorheben, indem Sie seine Farbe ändern.
+Unter Umständen möchten Sie einen bestimmten Datenpunkt markieren. Möglicherweise handelt es sich dabei um die Verkaufszahlen für ein neu eingeführtes Produkt oder bessere Qualitätsergebnisse nach der Einführung eines neuen Programms. Mit Power BI können Sie (für die meisten Visualtypen) einen bestimmten Datenpunkt hervorheben, indem Sie seine Farbe ändern.
 
-In der folgenden Visualisierung werden Länder nach den Lebenshaltungskosten sortiert. 
+In der folgenden Visualisierung werden mithilfe von Standardfarben Verkaufsmargen nach Mitarbeiter angezeigt. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![area chart](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-Nehmen wir an, Sie möchten mit Farben die Positionierung von Washington in dieser Liste verdeutlichen. Gehen Sie wie folgt vor:
+Die Fläche für Annelie ist schwer zu erkennen. Verwenden wir also eine Farbe, durch die die Fläche mehr hervorsticht. Gehen Sie wie folgt vor:
 
 Erweitern Sie den Abschnitt **Datenpunktfarben** . Folgendes wird angezeigt:
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![Abschnitt „Datenfarben“ unter „Formatierung“](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-Schieben Sie den Regler für **Alles anzeigen** auf **Ein**. Die Farben für jedes Datenelement in der Visualisierung werden angezeigt. Wenn Sie auf die Datenpunkte zeigen, wird der Bildlauf aktiviert, sodass Sie alle Datenpunkte ändern können.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+In diesem Fall wählen wir keine dunkle, sondern eine helle Farbe aus, die keine Ähnlichkeit mit der Farbe für Valery hat. Klicken Sie im Farbfeld von Annelie auf den Pfeil nach unten, wählen Sie **Benutzerdefinierte Farbe** aus, und wählen Sie anschließend einen hellen Blauton aus.
 
-Ändern wir also die Farbe für **Washington** zu grün. Wir scrollen zu **Washington** herunter und wählen den nach unten zeigenden Pfeil in der Farbpalette aus. Das Farbauswahlfenster wird angezeigt.
+![Farbauswahl](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Nachdem Sie die Auswahl getroffen haben, kann die Fläche für Annelie viel einfacher von den Flächen der anderen Mitarbeiter unterschieden werden. 
 
-Sobald wir unsere Auswahl getroffen haben, hebt sich der Datenpunkt **Washington** in einem ansprechenden Grün hervor.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![Flächendiagramm, die Fläche von Annelie ist jetzt hellblau](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 Auch wenn Sie Visualisierungstypen ändern und später zurückkehren, speichert Power BI Ihre Auswahl und markiert **Washington** in Grün.
 

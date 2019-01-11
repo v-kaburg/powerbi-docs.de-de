@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548256"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008578"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Herstellen einer Verbindung mit Salesforce mithilfe von Power BI
 Mit Power BI können Sie sich problemlos mit Ihrem Salesforce.com-Konto verbinden. Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann automatisch ein Dashboard und zugehörige Berichte bereitgestellt.
@@ -80,7 +80,7 @@ Wenn Fehler auftreten, überprüfen Sie die oben genannten Anforderungen. Beacht
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>Meldung: „Es konnte keine Verbindung mit dem Remoteserver hergestellt werden.“
 
-Wenn beim Versuch, eine Verbindung zu Ihrem Salesforce-Konto herzustellen, die Meldung „Die Verbindung mit dem Remoteserver kann nicht hergestellt werden.“ angezeigt wird, sehen Sie sich diese Lösung im Outsystems-Forum an: [Salesforce Connector Log In Error Message: Unable to connect to the remote server (Salesforce Connector-Anmeldefehler: Die Verbindung mit dem Remoteserver kann nicht hergestellt werden)](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&).
+Wenn beim Versuch, eine Verbindung zu Ihrem Salesforce-Konto herzustellen, die Meldung „Die Verbindung mit dem Remoteserver kann nicht hergestellt werden.“ angezeigt wird, sehen Sie sich diese Lösung im Outsystems-Forum an: [Nachricht bzgl. eines Salesforce Connector-Anmeldefehlers: Die Verbindung mit dem Remoteserver kann nicht hergestellt werden](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
 
 
 ## <a name="next-steps"></a>Nächste Schritte

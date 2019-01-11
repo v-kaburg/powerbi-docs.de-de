@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830146"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056177"
 ---
 # <a name="certified-custom-visuals"></a>Zertifizierte benutzerdefinierte Visuals
 
@@ -62,7 +63,7 @@ Stellen Sie sicher, dass Ihr benutzerdefiniertes Visual folgenden Anforderungen 
 So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 
 1. Senden Sie eine E-Mail an den Power BI-Support für benutzerdefinierte Visuals (pbicvsupport@microsoft.com). Fügen Sie der E-Mail die folgende Informationen hinzu:
-    * Titel: Zertifizierungsanforderung für visuelles Element
+    * Titel: Zertifizierungsanforderung für Visual
     * Link zum GitHub-Repository, in dem der vom Menschen lesbare Quellcode gehostet wird
     * [Befolgen der Anforderungen](#certification-requirements)
     * Übergeben des Codereviews
@@ -73,6 +74,7 @@ So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 
 | Link zu AppSource | Link zum Video |
 | --- | --- |
+| [3AG Systems – Column Chart With Relative Variance (3AG Systems: Säulendiagramm mit relativer Varianz)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [Aster-Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft-Kalender](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Schleifendiagramm von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |

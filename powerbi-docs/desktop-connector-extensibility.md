@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257217"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983414"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Connectorerweiterbarkeit in Power BI
 
@@ -42,7 +42,7 @@ Unter **Datenerweiterungen** können Sie zwischen zwei Sicherheitsstufen wählen
 * (Empfohlen) Nur zertifizierte Erweiterungen laden
 * (Nicht empfohlen) Alle Erweiterungen ohne Überprüfung oder Warnung laden
 
-Wenn Sie **benutzerdefinierte Connectors** oder von Ihnen bzw. von einem Drittanbieter entwickelte und verteilte Connectors verwenden möchten, müssen Sie folgende Option auswählen: **„(Not Recommended) Allow any extension to load without warning“** ((Nicht empfohlen) Alle Erweiterungen ohne Überprüfung oder Warnung laden). Diese Sicherheitseinstellung wird nur empfohlen, wenn Sie **benutzerdefinierte Connectors** ausführen möchten.
+Wenn Sie **benutzerdefinierte Connectors** oder von Ihnen bzw. von einem Drittanbieter entwickelte und verteilte Connectors verwenden möchten, müssen Sie folgende Option auswählen: **„(Not Recommended) Allow any extension to load without warning“** ((Nicht empfohlen) Alle Erweiterungen ohne Überprüfung oder Warnung laden). Von dieser Sicherheitseinstellung wird abgeraten, sofern Sie Ihren benutzerdefinierten Connectors nicht hundertprozentig vertrauen, da darin enthaltener Code Anmeldeinformationen behandeln (und über HTTP senden) und Datenschutzebenen ignorieren kann.
 
 Wenn Sie benutzerdefinierte Connectors in Ihrem System verwenden, wird bei der Sicherheitseinstellung **„(Empfohlen)“** ein Fehler angezeigt, der die Connectors beschreibt, die aus Sicherheitsgründen nicht geladen werden können.
 

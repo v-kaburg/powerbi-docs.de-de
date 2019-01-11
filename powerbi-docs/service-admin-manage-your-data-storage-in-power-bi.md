@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180459"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983552"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Verwalten des Datenspeichers in Power BI-Arbeitsbereichen
 
@@ -24,14 +24,15 @@ Hier erfahren Sie, wie Sie den Datenspeicher in Ihrem individuellen Arbeitsberei
 
 Benutzer- und App-Arbeitsbereiche weisen jeweils eigene Datenkapazitäten auf:
 
-* Alle Benutzer verfügen über maximal 10 GB Datenspeicher.
-* Benutzer mit einer Power BI Pro-Lizenz können App-Arbeitsbereiche mit jeweils maximal 10 GB Datenspeicher erstellen.
+* Alle Benutzer verfügen über maximal 10 GB Datenspeicher.
+* Benutzer mit einer Power BI Pro-Lizenz können App-Arbeitsbereiche mit jeweils maximal 10 GB Datenspeicher erstellen.
+* In einer Premium-Kapazität wird ein App-Arbeitsbereich nicht auf den Speicher eines Power BI Pro-Benutzers angerechnet.
 
 Auf Mandantenebene darf der gesamte genutzte Datenspeicher für alle Pro-Benutzer und App-Arbeitsbereiche im Mandanten 10 GB pro Pro-Benutzer nicht überschreiten.
 
 Informieren Sie sich über weitere Funktionen des [Power BI-Preismodells](https://powerbi.microsoft.com/pricing).
 
-Ihr Datenspeicher umfasst die eigenen Datasets und Excel-Berichte sowie diejenigen, die andere Benutzer für Sie freigegeben haben. Datasets sind alle Datenquellen, die Sie hochgeladen oder mit denen Sie eine Verbindung hergestellt haben, einschließlich verwendeter Power BI-Desktopdateien und Excel-Arbeitsmappen. Folgende Elemente sind ebenfalls in der Datenkapazität enthalten:
+Ihr Datenspeicher umfasst die eigenen Datasets und Excel-Berichte sowie die Elemente, die andere Benutzer für Sie freigegeben haben. Datasets sind alle Datenquellen, die Sie hochgeladen haben oder mit denen eine Verbindung hergestellt wurde. Zu diesen Datenquellen zählen die Dateien in Power BI Desktop und die von Ihnen verwendeten Excel-Arbeitsmappen. Folgende Elemente sind ebenfalls in der Datenkapazität enthalten:
 
 * Excel-Bereiche, die an Dashboards angeheftet sind.
 * Lokale Reporting Services-Visualisierungen, die an Power BI-Dashboards angeheftet sind.
@@ -41,7 +42,8 @@ Die Größe des freigegebenen Dashboards hängt von den angehefteten Elementen a
 
 <a name="manage"/>
 
-## <a name="manage-items-owned-by-you"></a>Verwalten von Elementen, deren Besitzer Sie sind
+## <a name="manage-items-you-own"></a>Verwalten Ihrer eigenen Elemente
+
 Prüfen Sie den in Ihrem Power BI-Konto genutzten Datenspeicher, und verwalten Sie das Konto.
 
 1. Um den eigenen Speicher zu verwalten, wechseln Sie im linken Navigationsbereich zu **Mein Arbeitsbereich**.
@@ -55,9 +57,9 @@ Prüfen Sie den in Ihrem Power BI-Konto genutzten Datenspeicher, und verwalten S
    
     Die Datasets und Berichte werden auf zwei Registerkarten unterteilt:
    
-    **In meinem Besitz:** Dies sind Berichte und Datasets, die Sie in Ihr Power BI-Konto hochgeladen haben, darunter Datasets wie Salesforce und Dynamics CRM.  
+    **In meinem Besitz:** Sie haben diese Berichte und Datasets in Ihr Power BI-Konto hochgeladen, darunter Dienstdatasets wie Salesforce und Dynamics CRM.  
     **Im Besitz anderer Benutzer:** Andere Benutzer haben diese Berichte und Datasets für Sie freigegeben.
-3. Wählen Sie das Papierkorbsymbol aus, um ein Dataset oder einen Bericht zu löschen ![Papierkorbsymbol](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Wählen Sie das Papierkorbsymbol aus, um ein Dataset oder einen Bericht zu löschen ![Papierkorbsymbol](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Bedenken Sie, dass Sie oder andere Benutzer über Berichte und Dashboards verfügen können, die auf einem Dataset basieren. Wenn Sie das Dataset löschen, funktionieren diese Berichte und Dashboards nicht mehr.
 
@@ -73,7 +75,7 @@ Bedenken Sie, dass Sie oder andere Benutzer über Berichte und Dashboards verfü
    
     Die Datasets und Berichte werden auf zwei Registerkarten unterteilt:
    
-    **In unserem Besitz:** Dies sind Berichte und Datasets, die Sie oder ein anderer Benutzer in das Power BI-Konto der Gruppe hochgeladen haben, darunter Datasets wie Salesforce und Dynamics CRM.
+    **In unserem Besitz:** Sie oder ein anderer Benutzer haben diese Berichte und Datasets in das Power BI-Konto der Gruppe hochgeladen, darunter Dienstdatasets wie Salesforce und Dynamics CRM.
     **Im Besitz anderer Benutzer:** Andere Benutzer haben diese Berichte und Datasets für Ihre Gruppe freigegeben.
 3. Wählen Sie das Papierkorbsymbol aus, um ein Dataset oder einen Bericht zu löschen ![Papierkorbsymbol](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
@@ -87,18 +89,18 @@ Bedenken Sie, dass Sie oder andere Benutzer in der Gruppe über Berichte und Das
 ## <a name="dataset-limits"></a>Dataset-Beschränkungen
 Es besteht eine Beschränkung von 1 GB pro Dataset, das in Power BI importiert wird. Wenn Sie sich für die Excel-Benutzeroberfläche entschieden haben, anstatt die Daten zu importieren, beträgt die Obergrenze für das Dataset 250 MB.
 
-## <a name="what-happens-when-you-hit-a-limit"></a>Was geschieht, wenn der Grenzwert der Beschränkung erreicht wird?
+## <a name="what-happens-when-you-reach-a-limit"></a>Was geschieht, wenn Sie einen Grenzwert erreichen?
 Wenn Sie den Grenzwert der Datenkapazität erreichen, werden entsprechende Hinweise des Diensts angezeigt. 
 
-Wenn Sie das Zahnradsymbol ![Zahnradsymbol](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)auswählen, sehen Sie einen roten Balken, der angibt, dass Sie den Grenzwert der Datenkapazität überschritten haben.
+Wenn Sie das Zahnradsymbol ![Zahnradsymbol](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)auswählen, sehen Sie einen roten Balken, der angibt, dass Sie Ihren Grenzwert der Datenkapazität überschritten haben.
 
-![Speicherbegrenzung erreicht]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Speicherlimit wurde erreicht](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-Ein solcher Hinweis wird auch in **Persönlichen Speicher verwalten**angezeigt.
+Dieser Grenzwert wird auch unter **Persönlichen Speicher verwalten** angezeigt.
 
  ![Verwalten des persönlichen Speichers, Speicherbegrenzung erreicht](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- Wenn Sie versuchen, einen Vorgang durchzuführen, bei dem ein Grenzwert erreicht wird, sehen Sie eine entsprechende Meldung. Sie können Ihren Speicher [verwalten](#manage), um den Betrag der gespeicherten Daten zu verringern und den Grenzwert zu unterschreiten.
+ Wenn Sie versuchen, eine Aktion auszuführen, bei der einer der Grenzwerte erreicht wird, wird Ihnen eine entsprechende Meldung angezeigt. Sie können Ihren Speicher [verwalten](#manage), um die Speichermenge zu verringern und den Grenzwert zu unterschreiten.
 
  ![Ihr Speicherlimit wurde überschritten](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 

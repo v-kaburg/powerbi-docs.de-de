@@ -1,24 +1,24 @@
 ---
-title: Aggregate (Summe, Durchschnitt, Maximalwert usw.) in Visualisierungen
-description: Ändern der Aggregation in einem Diagramm (Summe, Mittelwert, Maximum usw.) in Power BI
+title: Arbeiten mit Aggregaten (Summe, Mittelwert usw.) im Power BI-Dienst
+description: Erfahren Sie, wie Sie die Aggregation in einem Diagramm (Summe, Mittelwert, Maximum usw.) im Power BI-Dienst ändern können.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026475"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983713"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Aggregate in Power BI-Visualisierungen
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Arbeiten mit Aggregaten (Summe, Mittelwert usw.) im Power BI-Dienst
 ## <a name="what-is-an-aggregate"></a>Was ist ein Aggregat?
 Unter Umständen möchten Sie Werte in Ihren Daten mathematisch miteinander kombinieren. Dabei kann es sich um die mathematische Operation zum Ermitteln von Summe, Mittelwert, Maximum, Anzahl usw. handeln. Das Kombinieren von Werten in Daten wird als *aggregieren* bezeichnet. Das Ergebnis dieser mathematischen Operation ist ein *Aggregat*. 
 
@@ -70,16 +70,16 @@ Angenommen, Sie haben ein Diagramm, in dem die verkauften Einheiten für verschi
 
 Hier sind einige der Optionen aufgeführt, die möglicherweise zum Aggregieren eines Felds zur Verfügung stehen:
 
-* **Nicht zusammenfassen**. Ist diese Option ausgewählt, wird jeder Wert in diesem Feld separat behandelt und nicht zusammengefasst. Die Option wird häufig verwendet, wenn Sie eine Spalte mit numerischen IDs besitzen, die nicht addiert werden sollen.
+* **Nicht zusammenfassen**. Ist diese Option ausgewählt, wird jeder Wert in diesem Feld separat behandelt und nicht zusammengefasst. Verwenden Sie diese Option, wenn Sie eine Spalte mit numerischen IDs besitzen, die nicht addiert werden sollen.
 * **Summe**. Mit dieser Option werden alle Werte in diesem Feld addiert.
 * **Mittelwert**. Ermittelt den arithmetischen Mittelwert der Werte.
 * **Minimum**. Zeigt den kleinsten Wert.
 * **Maximum**. Zeigt den größten Wert.
-* **Anzahl (ohne Leerstellen)**. Mit dieser Option wird die Anzahl der Werte im Feld gezählt, die nicht leer sind.
-* **Anzahl (diskret)**. Mit dieser Option wird die Anzahl der verschiedenen Werte im Feld gezählt.
+* **Anzahl (ohne Leerstellen)**. Mit dieser Option wird die Anzahl der Werte in diesem Feld gezählt, die nicht leer sind.
+* **Anzahl (diskret)**. Mit dieser Option wird die Anzahl der verschiedenen Werte in diesem Feld gezählt.
 * **Standardabweichung**.
 * **Varianz.**
-* **Median**.  Zeigt den Medianwert (mittlerer Wert) an. Dies ist der Wert, der die gleiche Anzahl von Werten über und unter sich hat.  Wenn 2 Mediane vorhanden sind, erstellt Power BI einen Durchschnittswert.
+* **Median**.  Zeigt den Medianwert (mittlerer Wert) an. Dieser Wert hat die gleiche Anzahl von Werten über und unter sich.  Wenn 2 Mediane vorhanden sind, erstellt Power BI einen Durchschnittswert.
 
 Die Daten:
 
@@ -109,7 +109,7 @@ führen zu folgenden Ergebnissen:
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Erstellen eines Aggregats mit einem Kategoriefeld (Text)
 Sie können auch nicht numerische Felder aggregieren. Wenn beispielsweise ein Feld mit Produktnamen vorhanden ist, können Sie es als Wert hinzufügen und dafür **Anzahl**, **Diskrete Anzahl**, **Erste** oder **Letzter** festlegen. 
 
-1. In diesem Beispiel wurde das Feld **Product** in das Feld „Werte“ gezogen. Das Feld „Werte“ wird normalerweise für numerische Felder verwendet. Power BI erkennt, dass es sich um ein Textfeld handelt, legt das Aggregat auf **Nicht zusammenfassen** fest und zeigt eine einspaltige Tabelle an.
+1. In diesem Beispiel wurde das Feld **Product** in das Feld „Werte“ gezogen. Das Feld „Werte“ wird normalerweise für numerische Felder verwendet. Power BI erkennt, dass es sich bei diesem Feld um ein Textfeld handelt, legt das Aggregat auf **Nicht zusammenfassen** fest und zeigt eine einspaltige Tabelle an.
    
    ![Feld „Produkt“ im Feld „Werte“](media/service-aggregates/power-bi-aggregate-value.png)
 2. Wenn Sie die Aggregation von der Standardeinstellung **Nicht zusammenfassen** in **Anzahl (eindeutig)** ändern, zählt Power BI die Anzahl der verschiedenen Produkte. In diesem Fall sind dies 4.
@@ -141,9 +141,9 @@ A4:  Dritte Möglichkeit: Das Feld wird für eine Achse verwendet. Auf der Achse
 >[!NOTE]
 >Eine Ausnahme sind Punktdiagramme, bei denen aggregierte Werte für die X- und Y-Achse *erforderlich* sind.
 
-F:  Warum kann ich keine Textfelder für SSAS-Datenquellen aggregieren?
+F:  Warum kann ich keine Textfelder für SSAS-Datenquellen (SSAS = SQL Server Analysis Services) aggregieren?
 
-A:  Liveverbindungen mit SSAS MD lassen eine clientseitige Aggregation nicht zu. Dies schließt „Erste“, „Letzte“, „Mittelwert“, „Minimum“, „Maximum“ und „Summe“ ein.
+A:  Liveverbindungen mit mehrdimensionalen SSAS-Modellen lassen keine clientseitigen Aggregationen zu. Zu diesen zählen „first“, „last“, „avg“, „min“, „max“ und „sum“.
 
 F:  Ich habe ein Punktdiagramm und möchte *nicht*, dass mein Feld aggregiert wird.  Wie kann ich das erreichen?
 

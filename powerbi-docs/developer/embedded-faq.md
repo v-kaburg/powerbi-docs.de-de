@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578794"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008417"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -104,7 +104,7 @@ Derzeit wird zwar keine automatische Skalierung unterstützt, für alle APIs ist
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Weshalb führt das Erstellen/Skalieren/Fortsetzen einer Kapazität dazu, dass die Kapazität suspendiert wird?
 
-Die Bereitstellung einer Kapazität (Skalieren/Fortsetzen/Erstellen) kann fehlschlagen. Der Aufrufer eines Bereitstellungsaufrufs sollte den Bereitstellungsstatus einer Kapazität mit der API für Details prüfen: [Capacities - Get Details (Kapazitäten: Abrufen von Details)](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Die Bereitstellung einer Kapazität (Skalieren/Fortsetzen/Erstellen) kann fehlschlagen. Der Aufrufer eines Bereitstellungsaufrufs sollte den Bereitstellungsstatus einer Kapazität mit der API für Details prüfen: [Kapazitäten: Abrufen von Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Warum kann ich Power BI Embedded-Kapazitäten nur in einer spezifischen Region erstellen?
 
@@ -321,3 +321,7 @@ Wenn Sie mit dem Szenario **Einbetten für Ihre Organisation arbeiten**, speiche
 Weitere Informationen finden Sie unter [Problembehandlung bei Embedded-Anwendungen](embedded-troubleshoot.md).
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Welche bewährten Methoden zur Verbesserung der Leistung gibt es?
+
+[Leistung von Power BI Embedded](embedded-performance-best-practices.md)

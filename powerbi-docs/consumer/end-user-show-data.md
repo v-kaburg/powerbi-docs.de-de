@@ -8,24 +8,24 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4a3acd0d95b400a15348b896f150b74f01f5ce03
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: c420309a6254e4a52235baaa29665f45c89905be
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279384"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983391"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Anzeigen der Daten, die zum Erstellen der Visualisierung verwendet wurden
-## <a name="show-data"></a>Daten anzeigen
+## <a name="show-data-in-reading-view"></a>Anzeigen von Daten in der Leseansicht
 Eine Power BI-Visualisierung wird mithilfe von Daten aus zugrunde liegenden Datasets erstellt. Sie haben in Power BI die Möglichkeit, die Daten *anzuzeigen*, die der Visualisierung zugrunde liegen. Wenn Sie **Daten anzeigen** auswählen, werden die Daten in Power BI unter (oder neben) der Visualisierung angezeigt.
 
 
-## <a name="using-show-data-in-power-bi-service"></a>Verwenden von *Daten anzeigen* im Power BI-Dienst
-1. Öffnen Sie im Power BI-Dienst einen Bericht, und wählen Sie ein visuelles Element aus.  
-2. Klicken Sie zum Anzeigen der für das Visual verwendeten Daten auf die Auslassungspunkte (...) und dann auf **Daten anzeigen**.
+## <a name="using-show-data-in-power-bi-service-reading-view"></a>Verwenden von *Daten anzeigen* in der Leseansicht des Power BI-Diensts
+1. Öffnen Sie im Power BI-Dienst einen Bericht (in der Leseansicht), und wählen Sie ein Visual aus.  
+2. Um die Daten hinter dem visuellen Element anzuzeigen, klicken Sie auf die Auslassungspunkte (...) und dann auf **Daten anzeigen**.
    
    ![„Daten anzeigen“ auswählen](./media/end-user-show-data/power-bi-show-data2.png)
 3. Standardmäßig werden die Daten unter der Visualisierung angezeigt.
@@ -36,6 +36,6 @@ Eine Power BI-Visualisierung wird mithilfe von Daten aus zugrunde liegenden Data
    
    ![Horizontale Anzeige des Visuals und der Daten](./media/end-user-show-data/power-bi-explore-show-data2-new.png)
 
-### <a name="next-steps"></a>Nächste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](../visuals/power-bi-report-visualizations.md)    
 [Power BI-Berichte](end-user-reports.md)    

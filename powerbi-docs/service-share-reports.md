@@ -1,6 +1,6 @@
 ---
-title: Filtern und Freigeben von Power BI-Berichten für Kollegen
-description: Erfahren Sie, wie Sie gefilterte Power BI-Berichte für Kollegen in Ihrer Organisation freigeben.
+title: Freigeben eines gefilterten Power BI-Berichts für Ihre Kollegen
+description: Erfahren Sie, wie Sie einen Power BI-Bericht für Kollegen in Ihrer Organisation filtern und freigeben.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,25 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: d5e05775d310af37b2c96c6e9e255de25fe5effe
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51678970"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983437"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Freigeben eines gefilterten Power BI-Berichts für Ihre Kollegen
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen Ihrer Berichte](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Zum Freigeben benötigen Sie und die Empfänger eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Vorschläge? Das Power BI-Team ist immer an Ihrem Feedback interessiert. Besuchen Sie daher die [Power BI-Community-Website](https://community.powerbi.com/).
+Zum Freigeben benötigen Sie und die Empfänger eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. 
 
-Sie können einen Bericht für Kollegen in derselben E-Mail-Domäne wie Sie von den meisten Stellen im Power BI-Dienst aus freigeben: Ihre „Favoriten“, „Zuletzt verwendet“, „Für mich freigegeben“ (wenn der Besitzer es erlaubt), „Mein Arbeitsbereich“ oder andere Arbeitsbereiche. Wenn Sie einen Bericht freigeben, können diejenigen, für die Sie ihn freigeben, ihn anzeigen und damit interagieren, aber ihn nicht bearbeiten. Sie sehen die gleichen Daten wie Sie im Bericht, es sei denn, die [Sicherheit auf Zeilenebene (Row-Level Security, RLS)](service-admin-rls.md) ist aktiviert. 
+Sie können einen Bericht für Kollegen in derselben E-Mail-Domäne wie Sie von den meisten Stellen im Power BI-Dienst aus freigeben: Ihre „Favoriten“, „Zuletzt verwendet“, „Für mich freigegeben“ (wenn der Besitzer es erlaubt), „Mein Arbeitsbereich“ oder andere Arbeitsbereiche. Wenn Sie einen Bericht freigeben, können diejenigen Mitarbeiter, für die Sie ihn freigeben, diesen anzeigen und damit interagieren. Sie können ihn jedoch nicht bearbeiten. Sie sehen die gleichen Daten wie Sie im Bericht, es sei denn, die [Sicherheit auf Zeilenebene (Row-Level Security, RLS)](service-admin-rls.md) ist aktiviert. 
+
+Wie gehen Sie vor, wenn Sie eine gefilterte Version eines Berichts freigeben möchten? Dabei handelt es sich möglicherweise um einen Bericht, der nur Daten für einen bestimmten Ort, einen bestimmten Vertriebsmitarbeiter oder ein bestimmtes Jahr enthält. Versuchen Sie, eine benutzerdefinierte URL zu erstellen. Der Bericht wird gefiltert, wenn Empfänger ihn erstmalig öffnen. Sie können den Filter entfernen, indem Sie die URL ändern.
 
 ## <a name="filter-and-share-a-report"></a>Filtern und Freigeben eines Berichts
-Wie gehen Sie vor, wenn Sie eine gefilterte Version eines Berichts freigeben möchten? Dabei handelt es sich möglicherweise um einen Bericht, der nur Daten für einen bestimmten Ort, einen bestimmten Vertriebsmitarbeiter oder ein bestimmtes Jahr enthält. Sie erstellen zu diesem Zweck eine benutzerdefinierte URL.
 
 1. Öffnen Sie den Bericht in der [Bearbeitungsansicht](consumer/end-user-reading-view.md), wenden Sie den Filter an, und speichern Sie den Bericht.
    
@@ -37,7 +38,7 @@ Wie gehen Sie vor, wenn Sie eine gefilterte Version eines Berichts freigeben mö
    
    ?filter=*Tabellenname*/*Feldname* eq *Wert*
    
-    Das Feld muss vom Typ **string** sein, und weder der *Tabellenname* noch der *Feldname* darf Leerzeichen enthalten.
+    Das Feld muss vom Typ **Zeichenfolge** sein. Die Werte *TableName* oder *FieldName* dürfen keine Leerzeichen enthalten.
    
    In diesem Beispiel lautet der Name der Tabelle **Store**, das Feld hat den Namen **Territory**, und der Wert, nach dem gefiltert werden soll, lautet **NC**:
    
