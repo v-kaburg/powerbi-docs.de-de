@@ -56,13 +56,13 @@ items:
       href: desktop-latest-update.md
     - name: Modellierungsansicht in Power BI Desktop (Vorschau)
       href: desktop-modeling-view.md
-    - name: Aggregationen in Power BI Desktop (Vorschau)
+    - name: Aggregationen in Power BI Desktop (Vorschauversion)
       href: desktop-aggregations.md
     - name: Zusammengesetzte Modelle in Power BI Desktop
       href: desktop-composite-models.md
-    - name: m:n-Beziehungen in Power BI Desktop (Vorschau)
+    - name: m:n-Beziehungen in Power BI Desktop (Vorschauversion)
       href: desktop-many-to-many-relationships.md
-    - name: Speichermodus in Power BI Desktop (Vorschau)
+    - name: Speichermodus in Power BI Desktop (Vorschauversion)
       href: desktop-storage-mode.md
     - name: Bidirektionale Kreuzfilterung in Power BI Desktop (Vorschau)
       href: desktop-bidirectional-filtering.md
@@ -554,7 +554,7 @@ items:
         href: service-usage-metrics.md
       - name: Erstellen eines QR-Codes für einen Bericht
         href: service-create-qr-code-for-report.md
-      - name: Exportieren eines Power BI-Berichts nach Power BI Desktop (Vorschau)
+      - name: Exportieren eines Power BI-Berichts nach Power BI Desktop (Vorschauversion)
         href: service-export-to-pbix.md
       - name: Filtern eines Berichts mithilfe von Parametern in der URL
         href: service-url-filters.md
@@ -584,12 +584,12 @@ items:
         href: service-insights-optimize.md
     - name: Zusammenarbeit in Power BI
       items:
-      - name: Erstellen und Teilen von Apps
-        href: service-create-distribute-apps.md
       - name: Erstellen von App-Arbeitsbereichen
         href: service-create-workspaces.md
       - name: Erstellen neuer Arbeitsbereiche (Vorschau)
         href: service-create-the-new-workspaces.md
+      - name: Erstellen und Teilen von Apps
+        href: service-create-distribute-apps.md
       - name: Verwalten von Datenspeicher in Arbeitsbereichen
         href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Herstellen einer Verbindung mit Dateien im Gruppenbereich auf OneDrive
@@ -652,7 +652,7 @@ items:
         href: service-dataflows-create-use.md
       - name: Berechnete Entitäten mit Power BI Premium (Vorschau)
         href: service-dataflows-computed-entities-premium.md
-      - name: Verbinden von Datenquellen und Dataflows (Vorschau)
+      - name: Verbinden von Datenquellen und Dataflows (Vorschauversion)
         href: service-dataflows-data-sources.md
       - name: Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)
         href: service-dataflows-on-premises-gateways.md
@@ -676,25 +676,25 @@ items:
       items:
       - name: Was sind paginierte Berichte? (Vorschau)
         href: paginated-reports-report-builder-power-bi.md
-      - name: Häufig gestellte Fragen zu paginierten Berichten (Vorschau)
+      - name: Häufig gestellte Fragen zu paginierten Berichten (Vorschauversion)
         href: paginated-reports-faq.md
-      - name: Erstellen und Hochladen eines paginierten Berichts (Vorschau)
+      - name: Erstellen und Hochladen eines paginierten Berichts (Vorschauversion)
         href: paginated-reports-quickstart-aw.md
-      - name: Übersicht über die Berichtsentwurfsansicht (Vorschau)
+      - name: Übersicht über die Berichtsentwurfsansicht (Vorschauversion)
         href: paginated-reports-report-design-view.md
-      - name: Eingeben von Daten direkt in einem paginierten Bericht (Vorschau)
+      - name: Eingeben von Daten direkt in einem paginierten Bericht (Vorschauversion)
         href: paginated-reports-enter-data.md
-      - name: Erstellen einer eingebetteten Datenquelle (Vorschau)
+      - name: Erstellen einer eingebetteten Datenquelle (Vorschauversion)
         href: paginated-reports-embedded-data-source.md
-      - name: Erstellen eines eingebetteten Datasets (Vorschau)
+      - name: Erstellen eines eingebetteten Datasets (Vorschauversion)
         href: paginated-reports-create-embedded-dataset.md
-      - name: Erstellen von Parametern (Vorschau)
+      - name: Erstellen von Parametern (Vorschauversion)
         href: paginated-reports-parameters.md
-      - name: Veröffentlichen eines paginierten Berichts (Vorschau)
+      - name: Veröffentlichen eines paginierten Berichts (Vorschauversion)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: Anzeigen eines paginierten Berichts (Vorschau)
+      - name: Anzeigen eines paginierten Berichts (Vorschauversion)
         href: paginated-reports-view-power-bi-service.md
-      - name: Interagieren mit Parametern (Vorschau)
+      - name: Interagieren mit Parametern (Vorschauversion)
         href: paginated-reports-view-parameters.md
     - name: Weitere Aufgaben
       items:
@@ -750,8 +750,6 @@ items:
           href: service-connect-to-mandrill.md
         - name: Marketo
           href: service-connect-to-marketo.md
-        - name: Microsoft Azure Enterprise
-          href: service-connect-to-azure-enterprise.md
         - name: Microsoft Dynamics AX
           href: service-connect-to-microsoft-dynamics-ax.md
         - name: Microsoft Dynamics CRM
@@ -1190,6 +1188,8 @@ items:
         href: service-gateway-sso-overview.md
       - name: 'Einmaliges Anmelden (SSO): Kerberos'
         href: service-gateway-sso-kerberos.md
+      - name: 'Einmaliges Anmelden (SSO): Kerberos (ressourcenbasiert)'
+        href: service-gateway-sso-kerberos-resource.md
       - name: 'Einmaliges Anmelden (SSO): SAML'
         href: service-gateway-sso-saml.md
     - name: Konfigurierung von Proxyeinstellungen
@@ -1287,9 +1287,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ba984e4e4f948f0cc2772dbe632c450bd77eb6b2
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
+ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136574"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54211365"
