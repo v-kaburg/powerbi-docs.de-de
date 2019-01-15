@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026498"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295763"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 dediziert-Kunden – bekannte Probleme
 Power BI wird jetzt für dedizierte Office 365-Kunden unterstützt.  Wenn Sie dedizierter O365-Kunde sind, können Sie sich mit einem Konto aus diesem Mandanten anmelden und Power BI verwenden. Es gibt derzeit zwei bekannte Probleme.

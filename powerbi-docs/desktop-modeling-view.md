@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67a04f1ae1bd5858aa4413c77a6d98ac5a04d32f
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 84e2bc663a4e3912608279c7315bc494b3c9844a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51620106"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296522"
 ---
 # <a name="modeling-view-in-power-bi-desktop-preview"></a>Modellierungsansicht in Power BI Desktop (Vorschau)
 
@@ -66,9 +66,9 @@ Sie können beispielsweise den [Speichermodus](desktop-storage-mode.md) für meh
 Die folgenden Artikeln enthalten weitere Informationen über Datenmodelle sowie Details zu DirectQuery.
 
 * [Aggregationen in Power BI Desktop (Vorschau)](desktop-aggregations.md)
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md)
-* [Speichermodus in Power BI Desktop (Vorschau)](desktop-storage-mode.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
+* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
+* [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
 
 
 Artikel zu DirectQuery:

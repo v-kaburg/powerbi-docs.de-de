@@ -5,28 +5,28 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266091"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295804"
 ---
 # <a name="whitepapers-for-power-bi"></a>Whitepaper für Power BI
 
 Anhand von Whitepapers können Sie sich ausführlicher mit Power BI-Themen befassen. Hier finden Sie eine Liste mit verfügbaren Whitepapers für Power BI.
 
-| Whitepaper | Beschreibung | Date |
+| Whitepaper | Beschreibung | Datum |
 | --- | --- | --- |
 | [Power BI und Dataflows](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Dieses Whitepaper beschreibt die technischen Details von Dataflows sowie die Funktionalitäten und Ansätze von Dataflowfeatures. | November 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Beschreibt Power BI Premium, sowohl im Zustand beim Start als auch bei der weiteren Entwicklung. | Oktober 2017 |
 | [Power BI Premium-Planung und -Bereitstellung](https://aka.ms/Premium-Capacity-Planning-Deployment)| In diesem Dokument finden Sie Anleitungen und Best Practices für die Planung und Bereitstellung von Premium-Kapazität bei klar definierten Workloads.| November 2017 |
 | [Plan capacity for embedded analytics with Power BI Premium](https://aka.ms/pbiewhitepaper) |Dieses Whitepaper bietet eine Anleitung für einen App-Entwickler/ISV, um die am besten geeignete Kapazität für sein Unternehmen zu bestimmen. | Oktober 2017 |
-| [Planning a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) |Dies ist ein technisches Whitepaper, in dem Überlegungen zu einer gut funktionierenden und sicheren Power BI-Bereitstellung für eine Organisation umrissen werden. | Juli 2018 |
+| [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861) |Dies ist ein technisches Whitepaper, in dem Überlegungen zu einer gut funktionierenden und sicheren Power BI-Bereitstellung für eine Organisation umrissen werden. | Juli 2018 |
 | [Leitfaden zur Kapazitätsplanung für den Power BI-Berichtsserver](report-server/capacity-planning.md) |Dieses Dokument bietet einen Leitfaden zur Kapazitätsplanung für Power BI-Berichtsserver anhand der Ergebnisse zahlreicher Auslastungstests mit verschiedenen Arbeitsauslastungen eines Berichtsservers. | März 2018 |
 | [Sicherheit in Power BI](service-admin-power-bi-security.md) |Bietet eine ausführliche Erläuterung der Sicherheit in Power BI. | Juli 2018 |
 | [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|In diesem Dokument wird beschrieben, wie Sie mithilfe der Integration von Azure Active Directory-Business-to-Business (AAD B2B) Inhalte an Benutzer außerhalb der Organisation verteilen.| März 2018 |
