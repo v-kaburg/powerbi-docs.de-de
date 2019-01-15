@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280901"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275316"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind
 Sie können die Benutzeroberfläche zum Anzeigen Ihrer Berichte in den mobilen Apps auf einem Smartphone oder Tablet verbessern. Erstellen Sie ein Hochformatlayout eines Berichts speziell für Smartphones und Tablets. In Power BI Desktop und im Power BI-Dienst passen Sie den Bericht an, indem Sie visuelle Elemente in einem Hochformatlayout neu anordnen und ihre Größe ändern, um die Benutzerfreundlichkeit zu optimieren. Sie müssen nicht alle davon einbeziehen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im optimierten Bericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.

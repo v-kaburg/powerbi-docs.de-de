@@ -5,16 +5,16 @@ author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
-ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
+ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53301756"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274833"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Anzeigen von Berichten und Dashboards im Präsentationsmodus auf dem Surface Hub und Windows 10-Geräten
 Sie können den Präsentationsmodus zum Anzeigen von Berichten und Dashboards auf Windows 10-Geräten und dem Surface Hub im Vollbildmodus verwenden. 
@@ -43,7 +43,7 @@ Auf der Symbolleiste können Sie die folgenden Aktionen ausführen:
 1. Tippen Sie auf das Symbol "Zurück", ![Symbol „Zurück“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) um zur vorherigen Seite zurück zu gelangen. Durch langes Tippen auf das Symbol werden die Brotkrümelfenster eingeblendet, mit denen Sie zum enthaltenden Ordner Ihres Berichts oder Dashboards navigieren können.
 2. Mit dem Symbol „Freihand“ ![Symbol „Freihand“](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) können Sie eine Farbe für Zeichnungen und Anmerkungen mit dem Surface-Stift auf Ihrer Berichtsseite auswählen. 
 3. Verwenden Sie das Symbol „Seiten“, ![Paginierungssymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) um die aktuell präsentierte Berichtsseite zu ersetzen.
-4. Tippen Sie auf das Suchsymbol, ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) um nach weiteren Artefakten in Power BI zu suchen.
+4. Tippen Sie auf das Suchsymbol ![Suchsymbol](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) um nach weiteren Artefakten in Power BI zu suchen.
 5. Tippen Sie zum Beenden des Präsentationsmodus auf das Symbol mit den gegeneinander gerichteten Pfeilen ![Beenden des Vollbildmodus](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) auf der Symbolleiste.
 
 Sie können die Symbolleiste lösen und sie an eine beliebige Position auf dem Bildschirm ziehen. Dies ist auf großen Bildschirmen nützlich, wenn Sie sich auf einen bestimmten Bereich in Ihrem Bericht konzentrieren, aber die Tools zugleich zu Ihrer Verfügung haben möchten. Platzieren Sie einfach Ihren Finger auf der Symbolleiste, und wischen Sie mit ihr in den Zeichenbereich des Berichts.
