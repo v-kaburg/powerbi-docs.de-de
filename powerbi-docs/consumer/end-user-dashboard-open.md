@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279751"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288702"
 ---
 # <a name="view-a-dashboard"></a>Anzeigen eines Dashboards
 Power BI-Benutzer verbringen viel Zeit damit, Dashboards anzuzeigen. Dashboards sind darauf ausgelegt, spezifische Informationen aus den zugrunde liegenden Berichten und Datasets hervorzuheben. Und Power BI-Benutzer verwenden diese Informationen zum Nachverfolgen, Überwachen, Beantworten von Fragen, zu Testzwecken und mehr – um datenbasierte Geschäftsentscheidungen zu treffen.

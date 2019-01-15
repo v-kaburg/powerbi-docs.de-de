@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e330c54969b0dd866c4b80afd71a765976f658d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 3505bbf2a549ef3d211f12ec050759ef44835053
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669679"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296752"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Veröffentlichen in Power BI aus Excel 2016
 Mit Excel 2016 können Sie Ihre Excel-Arbeitsmappen direkt auf Ihrer [Power BI](https://powerbi.microsoft.com)-Website veröffentlichen. Dort können Sie hochgradig interaktive Berichte und Dashboards auf Grundlage der Daten in Ihrer Arbeitsmappe erstellen. Sie können Ihre Einblicke dann für andere Personen in Ihrer Organisation freigeben.

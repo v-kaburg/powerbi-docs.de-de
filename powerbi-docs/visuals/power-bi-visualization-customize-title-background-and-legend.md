@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546002"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289599"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen
 In diesem Tutorial lernen Sie einige verschiedene Möglichkeiten zum Anpassen von Visualisierungen kennen.   Es gibt eine Vielzahl von Optionen zum Anpassen von Visualisierungen. Diese lernen Sie am besten im Formatierungsbereich kennen (wählen Sie das Farbrollersymbol aus).  Um Ihnen den Einstieg zu erleichtern, wird in diesem Artikel das Anpassen des Titels, der Legende und des Hintergrunds einer Visualisierung erläutert.  
@@ -29,7 +29,7 @@ Sehen Sie sich an, wie Amanda Visualisierungen in ihrem Bericht anpasst (Schnell
 
 ### <a name="prerequisites"></a>Voraussetzungen
 - Power BI-Dienst oder Power BI Desktop
-- Retail Analysis sample
+- Analysebeispiel für den Einzelhandel
 
 ## <a name="customize-visualization-titles-in-reports"></a>Anpassen der Visualisierungstitel in Berichten
 Melden Sie sich beim Power BI-Dienst (app.powerbi.com) an, und [öffnen Sie das Analysebeispiel für den Einzelhandel](../sample-datasets.md) in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md).

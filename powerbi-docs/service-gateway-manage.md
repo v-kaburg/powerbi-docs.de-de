@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026383"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276995"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Verwalten eines lokalen Power BI-Gateways
 
@@ -34,7 +34,7 @@ Power BI unterstützt viele lokale Datenquellen, von denen jede eigene Anforderu
 
 ### <a name="add-a-data-source"></a>Hinzufügen einer Datenquelle
 
-1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) und dann auf **Gateways verwalten**.
+1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) >  und dann auf **Gateways verwalten**.
 
     ![Gateways verwalten](media/service-gateway-manage/manage-gateways.png)
 
@@ -81,7 +81,7 @@ Sie können Benutzern und Sicherheitsgruppen auch Verwaltungszugriff auf das Gat
 
 ### <a name="add-users-to-a-data-source"></a>Hinzufügen von Benutzern zu einer Datenquelle
 
-1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) und dann auf **Gateways verwalten**.
+1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) >  und dann auf **Gateways verwalten**.
 
 2. Wählen Sie die Datenquelle aus, der Sie Benutzer hinzufügen möchten.
 
@@ -157,7 +157,7 @@ Das Gateway wird als Windows-Dienst ausgeführt. Wie bei jedem Windows-Dienst gi
 
 Sie können ein Gateway entfernen, wenn Sie es nicht mehr verwenden. Beachten Sie jedoch, dass durch das Entfernen eines Gateways alle darin enthaltenen Datenquellen gelöscht werden. Dadurch verlieren auch alle Dashboards und Berichte, die auf diesen Datenquellen beruhen, ihre Funktionsfähigkeit.
 
-1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) und dann auf **Gateways verwalten**.
+1. Klicken Sie in der oberen rechten Ecke des Power BI-Diensts auf das Zahnradsymbol ![Zahnradsymbol für Einstellungen](media/service-gateway-manage/icon-gear.png) >  und dann auf **Gateways verwalten**.
 
 2. Wählen Sie das Gateway aus, und klicken Sie auf **Entfernen**
    

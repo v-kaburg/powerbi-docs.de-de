@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 37eaa9e26a6386379dd165e15cffab3e42dc9546
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268140"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293708"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Verwenden der inkrementellen Aktualisierung mit Power BI-Dataflows (Vorschau)
 
@@ -155,7 +155,7 @@ In diesem Artikel wird die inkrementelle Aktualisierung für Dataflows beschrieb
 
 
 * [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
-* [Erstellen und Verwenden von Dataflows in Power BI (Vorschau)](service-dataflows-create-use.md)
+* [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
 

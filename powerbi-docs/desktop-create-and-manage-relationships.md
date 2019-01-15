@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 017a1b9b326842c5bcc483f77e0be1fa884c0270
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578196"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292046"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Erstellen und Verwalten von Beziehungen in Power BI Desktop
 Wenn Sie mehrere Tabellen importieren, werden Sie mit großer Wahrscheinlichkeit einige Analysen mit Daten aus allen diesen Tabellen durchführen. Beziehungen zwischen diesen Tabellen sind erforderlich, um die Ergebnisse genau zu berechnen und die richtigen Informationen in Ihren Berichten anzuzeigen. Mit Power BI Desktop können diese Beziehungen ganz leicht erstellt werden. Tatsächlich müssen Sie in den meisten Fällen keine weiteren Schritte unternehmen, da die AutoErmittlungsfunktion dies für Sie übernimmt. In einigen Fällen müssen Sie die Beziehungen jedoch möglicherweise selbst erstellen oder Änderungen an einer Beziehung vornehmen. In beiden Fällen ist es wichtig zu verstehen, wie Beziehungen in Power BI funktionieren und wie sie erstellt und bearbeitet werden.
@@ -222,7 +222,7 @@ Aber angenommen, Sie wissen, dass die Daten bei der nächsten Aktualisierung ge�
 | Blau |A |80000 |6/1/2013 |
 | Rot |B |90000 |6/1/2013 |
 
-In dieser neuen kombinierten Tabelle weist die Spalte „Projekt“ sich wiederholende Werte auf.  Die beiden ursprünglichen Tabellen weisen nach der Aktualisierung der Tabelle keine 1:1-Beziehung auf. Da in diesem Fall bekannt ist, dass zukünftige Updates dazu führen, dass die Spalte „Projekt“ Duplikate enthält, wird für die Kardinalität eine n:1-Beziehung festgelegt, wobei n „ProjectBudget“ entspricht und 1 „CompanyProjectPriority“.
+In dieser neuen kombinierten Tabelle weist die Spalte „Projekt“ sich wiederholende Werte auf.  Die beiden ursprünglichen Tabellen weisen nach der Aktualisierung der Tabelle keine 1:1-Beziehung auf. Da in diesem Fall bekannt ist, dass zukünftige Updates dazu führen, dass die Spalte „Projekt“ Duplikate enthält, wird für die Kardinalität eine n\*:1-Beziehung festgelegt, wobei n „ProjectBudget“ entspricht und 1 „CompanyProjectPriority“.
 
 ## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>Anpassen der Kreuzfilterrichtung für einen komplexen Satz von Tabellen und Beziehungen
 Für die meisten Beziehungen wird die Kreuzfilterrichtung auf „Beide“ festgelegt.  Es gibt jedoch einige eher unübliche Umstände, unter denen Sie möglicherweise nicht die Standardoption festlegen, z. B. beim Importieren eines Modells, das mit einer älteren Version von Power Pivot erstellt wurde, in dem für jede Beziehung die Richtung „Einfach“ festgelegt ist. 
