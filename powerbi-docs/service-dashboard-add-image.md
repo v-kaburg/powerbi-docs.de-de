@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bcc2bacc120b1bcb07233d9892ef01fd5d99fcd3
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 8fc00df58620afe56e863fe42f899e0116ab36f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717744"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286333"
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Hinzufügen eines Bilds zu einem Power BI-Dashboard
 Wenn Sie ein eigenständiges Bild einem Dashboard hinzufügen möchten, stehen Ihnen verschiedene Methoden zur Verfügung: Sie können ein Bild aus einem Bericht an ein Dashboard anheften, oder Sie können das Bild über den Befehl **Kachel hinzufügen** direkt dem Dashboard hinzufügen.  Weitere Informationen finden Sie in diesen Artikeln:

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388638"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290401"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded-Migrationstool
 Dieses Migrationstool kann verwendet werden, um Ihre Berichte aus dem Power BI Embedded Azure-Dienst (PaaS) in den Power BI-Dienst (SaaS) zu kopieren.
@@ -153,7 +153,7 @@ Bei einem erfolgreichen Download sehen Sie den Status *Fertig* und dies spiegelt
 
 Nachdem der Download abgeschlossen ist, klicken Sie auf die Registerkarte **Gruppen erstellen**.
 
-## <a name="step-3-create-groups"></a>Schritt 3: Erstellen von Gruppen
+## <a name="step-3-create-groups"></a>Schritt 3: Gruppen erstellen
 Nachdem Sie die verfügbaren Berichte heruntergeladen haben, können Sie zur Registerkarte **Gruppen erstellen** wechseln. Auf dieser Registerkarte werden die App-Arbeitsbereiche innerhalb des Power BI-Diensts anhand des Migrationsplans erstellt, den Sie erstellt haben. Der App-Arbeitsbereich wird mit dem Namen erstellt, den Sie auf der Registerkarte **Hochladen** innerhalb von **Analysieren und Planen Sie die Migration** bereitgestellt.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)

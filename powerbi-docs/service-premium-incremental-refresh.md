@@ -5,17 +5,17 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 97ac445401554bf384bc1b61574534383fa2020f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641779"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292267"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Inkrementelle Aktualisierung in Power BI Premium
 
@@ -107,7 +107,7 @@ Die erste Aktualisierung im Power BI-Dienst kann länger dauern, da fünf gesamt
 
 ### <a name="advanced-policy-options"></a>Erweiterte Richtlinienoptionen
 
-#### <a name="detect-data-changes"></a>Erkennen von Datenänderungen
+#### <a name="detect-data-changes"></a>Datenänderungen erkennen
 
 Eine inkrementelle Aktualisierung der Daten von zehn Tagen ist naturgemäß viel effizienter als eine vollständige Aktualisierung von fünf Jahren. Aber möglicherweise geht es noch besser. Wenn Sie das Kontrollkästchen **Datenänderungen erkennen** aktivieren, können Sie eine Datum-/Uhrzeit-Spalte auswählen, um nur die Tage zu bestimmen und zu aktualisieren, an denen sich die Daten geändert haben. Dies setzt voraus, dass eine solche Spalte im Quellsystem vorhanden ist, die typischerweise zu Prüfzwecken dient. **Hierbei darf es sich nicht um dieselbe Spalte handeln, die zum Partitionieren der Daten mit den RangeStart/RangeEnd-Parametern verwendet wird.** Der Maximalwert dieser Spalte wird für jeden der Zeiträume im Inkrementbereich ausgewertet. Wenn sie sich seit der letzten Aktualisierung nicht geändert hat, muss der Zeitraum nicht aktualisiert werden. Im Beispiel kann dies die Anzahl der Tage, die inkrementell aktualisiert werden, von 10 auf vielleicht 2 weiter verringern.
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb55bda914d31a8bdc1c90f695e523a935a6d495
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: d65355210d2824d0bdf5df1da6a5a3e826392e18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46474153"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279134"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Herstellen einer Verbindung mit einer Google BigQuery-Datenbank in Power BI Desktop
 In Power BI Desktop können Sie eine Verbindung mit einer **BigQuery**-Datenbank herstellen und die zugrunde liegenden Daten wie alle anderen Datenquellen in Power BI Desktop verwenden.

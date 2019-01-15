@@ -4,17 +4,17 @@ description: Lernen Sie Verwaltung und Optimierung des Power BI Premium-Kapazit�
 ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: efb0f1dfd340c0defcba8a67e0e46051d0d9be25
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266068"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293843"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource
 
@@ -53,9 +53,9 @@ Wenn der erforderliche Arbeitsspeicher trotz Entfernung nicht verfügbar ist, wi
 
 Wenn eine interaktive Abfrage an ein Dataset in der Kapazität gerichtet wird und aufgrund einer laufenden Aktualisierung nicht genügend Arbeitsspeicher verfügbar ist, gilt diese Anforderung als nicht erfolgreich und muss vom Benutzer wiederholt werden.
 
-### <a name="workloads"></a>Arbeitsauslastungen
+### <a name="workloads"></a>Workloads
 
-Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Nun werden zwei weitere Workloads in der Vorschau unterstützt: **Paginierte Berichte** und **Dataflows**. Wenn diese aktiviert sind, können sie die Speicherauslastung in Ihrer Kapazität beeinträchtigen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
+Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Nun werden zwei weitere Workloads in der Vorschauversion unterstützt: **Paginierte Berichte** und **Dataflows**. Wenn diese aktiviert sind, können sie die Speicherauslastung in Ihrer Kapazität beeinträchtigen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>CPU-Ressourcenverwaltung in Premium-Kapazität
 

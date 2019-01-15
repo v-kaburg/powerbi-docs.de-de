@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b396b55304e468143fe28fb5ed46ed290bfb3812
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: e71844110eb3452cbcb3b224bbca9db57475367e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909523"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282170"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Wo befindet sich mein Power BI-Mandant?
 
@@ -31,9 +31,9 @@ Um die Region zu suchen, in der sich Ihr Mandant befindet, führen Sie die folge
 
 1. Betrachten Sie den Wert neben **Ihre Daten sind gespeichert in**. Dies ist die Region, in der sich Ihr Mandant befindet.
 
-    ![Datenregion](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
+    ![Datenbereich](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
-## <a name="how-the-data-region-is-selected"></a>Auswahl der Datenregion
+## <a name="how-the-data-region-is-selected"></a>So wird der Datenbereich ausgewählt
 
 Die Datenregion basiert auf dem Land, das Sie beim Erstellen des Mandanten auswählen. Dies gilt für die Registrierung für Office 365 sowie für Power BI, da diese Informationen gemeinsam verwendet werden. Wenn es sich um einen neuen Mandanten handelt, wählen Sie beim Registrieren das entsprechende Land aus der Liste aus.
 

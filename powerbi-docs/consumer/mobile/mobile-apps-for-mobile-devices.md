@@ -1,21 +1,21 @@
 ---
 title: Was sind die mobilen Power BI-Apps?
 description: Bleiben Sie mit den mobilen Power BI-Apps mit Ihren Daten, ob lokal oder in der Cloud, verbunden. Zeigen Sie Power BI-Dashboards und -Berichte auf Ihrem mobilen Gerät.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: overview
 ms.date: 04/26/2018
-ms.author: maggies
+ms.author: mshenhav
 ms.custom: ''
-ms.openlocfilehash: 55303a6431d8f19e16715995f440ef3211f0be8c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1e30efc917b7c064bc93e06a09df3d099cd6e7e2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736440"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278421"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Was sind die mobilen Power BI-Apps?
 Power BI bietet eine Reihe von mobilen Apps für iOS-, Android- und Windows 10-Mobilgeräte. In den mobilen Apps stellen Sie eine Verbindung mit Ihren in der Cloud und lokal gespeicherten Daten her und interagieren mit den Daten. 

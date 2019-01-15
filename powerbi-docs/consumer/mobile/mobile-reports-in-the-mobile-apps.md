@@ -1,20 +1,20 @@
 ---
 title: Durchsuchen von Berichten in den mobilen Power BI-Apps
 description: Hier erfahren Sie, wie Sie in den mobilen Power BI-Apps auf Ihrem Telefon oder Tablet Berichte anzeigen und mit diesen interagieren. Erstellen Sie Berichte im Power BI-Dienst oder in Power BI Desktop, und verwenden Sie sie anschließend in den mobilen Apps.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180988"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281572"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -90,7 +90,7 @@ Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, kön
 
 * Um per Drillup zurückzugelangen, tippen Sie auf den Aufwärtspfeil in der QuickInfo.
   
-  ![Drillup](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
+  ![Drillup ausführen](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
 * Sie können auch einen Drilldown für alle Datenpunkte in einem Visual durchführen. Öffnen Sie es im Fokusmodus, tippen Sie auf das Symbol „Durchsuchen“, und klicken Sie dann auf „Nächste Ebene anzeigen“, oder erweitern Sie das Visual, sodass die aktuelle und die nächste Ebene angezeigt wird.
 

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310450"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291756"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Datenquellen für Power BI-Berichte in Power BI-Berichtsserver
 Power BI-Berichte können Verbindungen mit einer Reihe von Datenquellen herstellen. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar. Daten können importiert werden, oder Daten können direkt mit DirectQuery oder über eine Liveverbindung mit SQL Server Analysis Services abgefragt werden.
@@ -39,11 +39,11 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Access-Datenbank |Ja |Ja |Nein |
 | Active Directory |Ja |Ja |Nein |
 | Amazon Redshift |Ja |Nein |Nein |
-| Azure-BLOB-Speicher |Ja |Ja |Nein |
+| Azure Blob Storage |Ja |Ja |Nein |
 | Azure Data Lake Store |Ja |Nein |Nein |
 | Azure HDInsight (HDFS) |Ja |Nein |Nein |
 | Azure HDInsight (Spark) |Ja |Ja |Nein |
-| Azure-Tabellenspeicher |Ja |Ja |Nein |
+| Azure Table Storage |Ja |Ja |Nein |
 | Dynamics 365 (online) |Ja |Nein |Nein |
 | Facebook |Ja |Nein |Nein |
 | Ordner |Ja |Ja |Nein |
@@ -81,7 +81,7 @@ Andere Datenquellen können funktionieren, selbst wenn sie nicht in der Liste de
 | Azure HDInsight Spark (Beta) |Ja |Nein |Nein |
 | Common Data Service (Beta) |Ja |Nein |Nein |
 | comScore Digital Analytix (Beta) |Ja |Nein |Nein |
-| Dynamics 365 für Customer Insights (Beta) |Ja |Nein |Nein |
+| Dynamics 365 for Customer Insights (Beta) |Ja |Nein |Nein |
 | Dynamics 365 for Financials (Beta) |Ja |Nein |Nein |
 | GitHub (Beta) |Ja |Nein |Nein |
 | BigQuery von Google (Beta) |Ja |Nein |Nein |
@@ -126,11 +126,11 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | Azure SQL Data Warehouse |Nein |Nein |Ja |Nein |
 | Active Directory |Nein |Nein |Ja |Ja |
 | Amazon Redshift |Nein |Nein |Nein |Nein |
-| Azure-BLOB-Speicher |Ja |Ja |Nein |Nein |
+| Azure Blob Storage |Ja |Ja |Nein |Nein |
 | Azure Data Lake Store |Nein |Nein |Nein |Nein |
 | Azure HDInsight (HDFS) |Nein |Nein |Nein |Nein |
 | Azure HDInsight (Spark) |Ja |Ja |Nein |Nein |
-| Azure-Tabellenspeicher |Nein |Ja |Nein |Nein |
+| Azure Table Storage |Nein |Ja |Nein |Nein |
 | Dynamics 365 (online) |Nein |Nein |Nein |Nein |
 | Facebook |Nein |Nein |Nein |Nein |
 | Ordner |Nein |Nein |Nein |Ja |
@@ -164,7 +164,7 @@ Microsoft Power BI-Berichtsserver unterstützt keine auf OAuth basierende Authen
 | Azure HDInsight Spark (Beta) |Nein |Nein |Nein |Nein |
 | Common Data Service (Beta) |Nein |Nein |Nein |Nein |
 | comScore Digital Analytix (Beta) |Nein |Nein |Nein |Nein |
-| Dynamics 365 für Customer Insights (Beta) |Nein |Nein |Nein |Nein |
+| Dynamics 365 for Customer Insights (Beta) |Nein |Nein |Nein |Nein |
 | Dynamics 365 for Financials (Beta) |Nein |Nein |Nein |Nein |
 | GitHub (Beta) |Nein |Nein |Nein |Nein |
 | BigQuery von Google (Beta) |Nein |Nein |Nein |Nein |

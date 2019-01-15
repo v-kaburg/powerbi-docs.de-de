@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 516f468702b9731347d3ceacf3ee77ab8ac7f5aa
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181550"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291945"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
 
@@ -115,22 +115,22 @@ Benutzer von **Power BI Desktop** haben nur Zugriff auf Dataflows, die in einem 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-In diesem Artikel haben Sie eine Anleitung dafür erhalten, wie Sie den Speicher eines Arbeitsbereichs für Dataflows konfigurieren können. Weitere Informationen erhalten Sie in den folgenden Artikeln:
+In diesem Artikel haben Sie eine Anleitung dafür erhalten, wie Sie den Speicher eines Arbeitsbereichs für Dataflows konfigurieren können. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-Weitere Informationen zu Dataflows, CDM und Azure Data Lake Storage Gen2 erhalten Sie in den folgenden Artikeln:
+Weitere Informationen zu Dataflows, CDM und Azure Data Lake Storage Gen2 finden Sie in den folgenden Artikeln:
 
 * [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 * [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md)
 * [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
-Allgemeine Informationen zu Dataflows erhalten Sie in den folgenden Artikeln:
+Allgemeine Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
 * [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
 * [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
 
-Weitere Informationen zu Azure Storage erhalten Sie in den folgenden Artikeln:
+Weitere Informationen zu Azure Storage finden Sie in den folgenden Artikeln:
 
 * [Azure Storage-Sicherheitsleitfaden](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 * [Erste Schritte mit GitHub-Beispielen aus Azure Data Services](https://aka.ms/cdmadstutorial)
@@ -138,7 +138,7 @@ Weitere Informationen zu Azure Storage erhalten Sie in den folgenden Artikeln:
 Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:
 
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-Ordner](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [CDM folders (CDM-Ordner)](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [The metadata file (model.json) for the Common Data Model (Die Metadatendatei (model.json) des CDM)](https://go.microsoft.com/fwlink/?linkid=2045521)
 
 Natürlich können Sie auch jederzeit [Fragen in der Power BI-Community stellen](http://community.powerbi.com/).
