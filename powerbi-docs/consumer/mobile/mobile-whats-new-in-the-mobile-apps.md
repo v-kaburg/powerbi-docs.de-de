@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 3aa4ea96e9bea4e52de05b49fa0c958a6c2a6943
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286862"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324041"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,12 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="december-2018"></a>Dezember 2018
+
+### <a name="filter-is-now-available-for-landscape-reports"></a>Ab sofort verfügbar: Filter für Berichte im Querformat 
+
+Der Filterbereich steht jetzt (zusätzlich zum Telefonbericht) auch für Berichte im Querformat zur Verfügung.
 
 ## <a name="november-2018"></a>November 2018
 

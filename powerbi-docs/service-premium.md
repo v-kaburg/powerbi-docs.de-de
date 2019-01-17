@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281963"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324018"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Was ist Microsoft Power BI Premium?
 
-Microsoft Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die weite Verteilung von Inhalten, ohne dass Sie für jeden einzelnen Benutzer des Inhalts Power BI Pro-Lizenzen erwerben müssen. Weitere Informationen zum Erwerb finden Sie unter [How to purchase Power BI Premium (Erwerben von Power BI Premium)](service-admin-premium-purchase.md).
+Microsoft Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die weite Verteilung von Inhalten, ohne dass Sie für jeden einzelnen Benutzer des Inhalts Power BI Pro-Lizenzen erwerben müssen. Weitere Informationen zum Erwerb finden Sie unter [How to purchase Power BI Premium (Erwerben von Power BI Premium)](service-admin-premium-purchase.md).   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,24 +41,21 @@ Auf der folgenden Abbildung wird die Beziehung zwischen Premium-Kapazitäten und
 
 Bei der gemeinsam genutzten Kapazität setzt Power BI mehr Einschränkungen für einzelne Benutzer durch, um für alle Benutzer die gleiche Nutzungsqualität sicherzustellen. Ihr Arbeitsbereich befindet sich standardmäßig in einer gemeinsam genutzten Kapazität, einschließlich Ihres persönlichen *Arbeitsbereichs* und App-Arbeitsbereichen.
 
-In der folgenden Tabelle finden Sie eine Zusammenfassung der Unterschiede zwischen einer gemeinsam genutzten Kapazität und der Premium-Kapazität.
+In der folgenden Tabelle finden Sie eine Zusammenfassung der Unterschiede zwischen einer gemeinsam genutzten Kapazität und der Premium-Kapazität:
 
 |  | Gemeinsam genutzte Kapazität | Power BI Premium-Kapazität |
 | --- | --- | --- |
 | **Aktualisierungsrate** |8/Tag |48/Tag |
-| **Isolation mit dedizierter Hardware** |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
-| **Enterprise-Verteilung an** _**alle Benutzer**_ | | |
-| Apps und Freigabe |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
-| Eingebettete API und Steuerelemente |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png)<sup>2</sup> |
-| **Lokale Veröffentlichung von Power BI-Berichten** |![Nicht verfügbar](media/service-premium/not-available.png) |![Verfügbar](media/service-premium/available.png) |
+| Isolation mit dedizierter Hardware |![Nicht verfügbar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| Unternehmensverteilung an *alle Benutzer* | | |
+| Apps und Freigabe |![Nicht verfügbar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| Eingebettete API und Steuerelemente |![Nicht verfügbar](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| Lokale Veröffentlichung von Power BI-Berichten |![Nicht verfügbar](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> Weitere Informationen finden Sie unter [Features by license type (Power BI-Features nach Lizenztyp)](service-features-license-type.md).*  
-*<sup>2</sup> Zukünftige Verbesserungen, die in Power BI Premium eingeführt werden.*
+<a name="fnt1">1</a> Zukünftige Verbesserungen, die in Power BI Premium eingeführt werden.
 
-Weitere Informationen zum Zuordnen von Arbeitsbereichen zu einer Premium-Kapazität finden Sie unter [Verwalten von Power BI Premium](service-admin-premium-manage.md).
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Knoten für Premium-Kapazität
 
@@ -68,22 +65,19 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 * EM-Knoten können nur für eingebettete Bereitstellungen verwendet werden. EM-Knoten haben keinen Zugriff auf Premium-Funktionen, z.B. die Freigabe von Apps für Benutzer, die keine Power BI Pro-Lizenz besitzen.
 
->[!NOTE]
->Die Links in dieser Tabelle funktionieren nur für Benutzer, die über die Rolle „Globaler Office 365-Administrator“ verfügen. Andere erhalten einen 404-Fehler.
-
-| Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)* | Back-End-V-Kerne | Front-End-V-Kerne | Grenzwerte für DirectQuery/Liveverbindung | Verfügbarkeit |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (monatlich)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |Verfügbar |
-| [EM2 (monatlich)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |Verfügbar |
-| [EM3 (monatlich)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | |Verfügbar |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde |Verfügbar (auch [monatlich](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde |Verfügbar |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde |Verfügbar |
+| Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)*  | Back-End-V-Kerne <sup>[1](#fn1)</sup> | Front-End-V-Kerne <sup>[2](#fn2)</sup> | Grenzwerte für DirectQuery/Liveverbindung | Maximale Anzahl gleichzeitiger Aktualisierungen |  Verfügbarkeit
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1 (monatlich) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |  1 | Verfügbar |
+| EM2 (monatlich) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |  2 | Verfügbar |
+| EM3 (monatlich) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | | 3 |  Verfügbar |
+| P1 |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde | 6 | Verfügbar (auch monatlich) |
+| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde | 12 | Verfügbar |
+| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde | 24 | Verfügbar |
 | | | | | | | |
 
-* Die Front-End-V-Kerne sind für den Webdienst, die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads und allgemein für alles zuständig, das mit der Benutzererfahrung zusammenhängt.
+<a name="fn1">1</a>: Front-End-V-Kerne sind für den Webdienst verantwortlich. Hierzu gehören beispielsweise die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads sowie allgemein alle Aufgaben in Bezug auf die Benutzeroberfläche. 
 
-* Die Back-End-V-Kerne übernehmen den Hauptteil der Arbeit: Abfrageverarbeitung, Cacheverwaltung, Ausführen von R-Servern, Datenaktualisierung, Verarbeitung von natürlicher Sprache, Echtzeitfeeds und serverseitiges Laden von Berichten und Bildern. Zusammen mit den Back-End-V-Kernen wird auch eine bestimmte Menge Arbeitsspeicher reserviert. Die Verfügbarkeit einer ausreichend großen Arbeitsspeichermenge ist insbesondere dann wichtig, wenn große Datenmodelle oder Modelle mit einer großen Anzahl aktiver Datasets verarbeitet werden müssen.
+<a name="fn2">2</a>: Back-End-V-Kerne übernehmen den Hauptteil der Arbeit: Abfrageverarbeitung, Cacheverwaltung, Ausführen von R-Servern, Datenaktualisierung, Verarbeitung von natürlicher Sprache, Echtzeitfeeds und serverseitiges Laden von Berichten und Bildern. Zusammen mit den Back-End-V-Kernen wird auch eine bestimmte Menge Arbeitsspeicher reserviert. Die Verfügbarkeit einer ausreichend großen Arbeitsspeichermenge ist insbesondere dann wichtig, wenn große Datenmodelle oder Modelle mit einer großen Anzahl aktiver Datasets verarbeitet werden müssen.
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-Kapazität
 
@@ -112,11 +106,9 @@ Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeich
 
 ### <a name="considerations-for-paginated-reports"></a>Überlegungen zu paginierten Berichten
 
-Wenn Sie die Workload für paginierte Berichte verwenden, beachten Sie die folgenden Aspekte.
+Beachten Sie bei Verwendung der Workload für paginierte Berichte Folgendes: Mit paginierten Berichten können Sie beim Rendern eines Berichts Ihren eigenen Code ausführen (z.B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
 
-* **Speicherbelegung in paginierten Berichten:** Mit paginierten Berichten können Sie Ihren eigenen Code beim Rendern eines Berichts ausführen (z. B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
-
-* **Paginierte Berichte sind nicht verfügbar:** In seltenen Fällen kann es vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
+In seltenen Fällen kann es vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
 
@@ -126,9 +118,8 @@ Power BI Premium enthält auch die Funktion zum lokalen Ausführen von Power BI-
 
 [Power BI Premium – Häufig gestellte Fragen](service-premium-faq.md)
 [Erwerben von Power BI Premium](service-admin-premium-purchase.md)
-[Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-manage.md)
+[Verwalten von Power BI Premium](service-admin-premium-manage.md)
 [Whitepaper zu Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Whitepaper zum Planen einer Unternehmensbereitstellung mit Power BI](https://aka.ms/pbienterprisedeploy)
-[Was ist die Power BI-Verwaltung?](service-admin-administering-power-bi-in-your-organization.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
