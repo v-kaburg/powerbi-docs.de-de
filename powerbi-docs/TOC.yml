@@ -10,7 +10,7 @@ items:
     - name: Verbinden mit Daten
       href: desktop-quickstart-connect-to-data.md
     expanded: true
-  - name: Lernprogramme
+  - name: Tutorials
     items:
     - name: Strukturieren und Kombinieren mehrerer Datenquellen
       href: desktop-shape-and-combine-data.md
@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: Anpassen von QuickInfos
         href: desktop-custom-tooltips.md
+      - name: Textfelder und Formen in Berichten
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: Hinzufügen eines Links zu einem Textfeld
+        href: service-add-hyperlink-to-text-box.md
+      - name: Links in Tabellen
+        href: power-bi-hyperlinks-in-tables.md
       - name: Bedingte Tabellenformatierung
         href: desktop-conditional-table-formatting.md
       - name: Sortieren nach Spalten in Power BI Desktop
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: Verschieben, Ändern der Größe und Aufklappen einer Visualisierung in einem Bericht
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Links in Tabellen
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Hinzufügen eines Links zu einem Textfeld in einem Bericht
-        href: service-add-hyperlink-to-text-box.md
       - name: Ändern der Interaktion von Visualisierungen in einem Bericht
         href: service-reports-visual-interactions.md
       - name: Histogramme
         href: visuals/service-histograms.md
       - name: Tipps und Tricks für Power BI-Kartenvisualisierungen
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Textfelder in Power BI-Berichten
-        href: power-bi-reports-add-text-and-shapes.md
       - name: Anpassen der Eigenschaften der X- und Y-Achse
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: ArcGIS Maps in Power BI
@@ -392,7 +392,7 @@ items:
       href: power-bi-overview.md
     - name: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
       href: service-service-vs-desktop.md
-  - name: Lernprogramme
+  - name: Tutorials
     items:
     - name: Erste Schritte mit Power BI
       href: service-get-started.md
@@ -856,7 +856,7 @@ items:
         href: developer/embedding.md
       - name: Was ist Power BI Embedded in Azure?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Lernprogramme
+    - name: Tutorials
       items:
       - name: Einbetten von Inhalten für Kunden
         href: developer/embed-sample-for-customers.md
@@ -952,7 +952,7 @@ items:
       items:
       - name: Benutzerdefinierte Visualisierungen in Power BI
         href: power-bi-custom-visuals.md
-    - name: Lernprogramme
+    - name: Tutorials
       items:
       - name: Entwickeln eines benutzerdefinierten Visuals für Power BI
         href: developer/custom-visual-develop-tutorial.md
@@ -1006,7 +1006,7 @@ items:
       items:
       - name: Was kann ich mit der Power BI-API tun?
         href: developer/overview-of-power-bi-rest-api.md
-    - name: Lernprogramme
+    - name: Tutorials
       items:
       - name: Übertragen von Daten in ein Dataset per Push
         href: developer/walkthrough-push-data.md
@@ -1058,7 +1058,7 @@ items:
       href: report-server/get-started.md
     - name: Vergleichen von Power BI-Berichtsserver mit dem Dienst
       href: report-server/compare-report-server-service.md
-  - name: Lernprogramme
+  - name: Tutorials
     items:
     - name: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer
       href: report-server/tutorial-explore-report-server-web-portal.md
@@ -1160,7 +1160,7 @@ items:
     items:
     - name: Was sind Power BI-Gateways?
       href: service-gateway-getting-started.md
-  - name: Lernprogramme
+  - name: Tutorials
     items:
     - name: Herstellen einer Verbindung mit SQL Server-Daten
       href: service-gateway-sql-tutorial.md
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239288"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406728"
