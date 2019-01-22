@@ -1,23 +1,23 @@
 ---
-title: 'Analysebeispiel für Einzelhandel für Power BI: Tour'
-description: 'Analysebeispiel für Einzelhandel für Power BI: Tour'
+title: 'Analysebeispiel für Einzelhandel für Power BI: Übersicht'
+description: 'Analysebeispiel für Einzelhandel für Power BI: Übersicht'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717675"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291462"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Tour
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Einzelhandel für Power BI: Übersicht
 
 Dieses Branchenbeispieldashboard und der zugrunde liegende Bericht analysieren Umsatzdaten des Einzelhandels von Artikeln, die in verschiedenen Läden und Bezirken verkauft wurden. Die Metriken vergleichen die Leistung dieses Jahres mit der des letzten Jahres in den folgenden Bereichen: Umsatz, Einheiten, Bruttogewinn und Varianz sowie Analyse neuer Läden. Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://www.obvience.com)) in anonymisierter Form.
 
@@ -39,11 +39,11 @@ Dieses Branchenbeispieldashboard und der zugrunde liegende Bericht analysieren U
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wählen Sie das **Analysebeispiel für Einzelhandel** aus, und wählen Sie dann **Verbinden**.  
   
-   ![Analysebeispiel für Einzelhandel](media/sample-retail-analysis/retail16.png)
+   ![Retail Analysis Sample](media/sample-retail-analysis/retail16.png)
    
 5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
    
-   ![Analysebeispiel für Einzelhandel](media/sample-retail-analysis/retail17.png)
+   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Abrufen der PBIX-Datei für dieses Beispiel
 
@@ -86,7 +86,7 @@ Alternativ können Sie [nur das Dataset (Excel-Arbeitsmappe) für dieses Beispie
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Überprüfen einer Kachel, die über Fragen und Antworten in Power BI erstellt wurde
 Gehen wir mehr ins Detail.
 
-1. Fügen Sie „this year sales **by district**“ zur Frage hinzu. Beobachten Sie das Ergebnis: Die Antwort wird automatisch in ein Balkendiagramm gesetzt, und es werden andere Formulierungen vorgeschlagen.
+1. Fügen Sie „this year sales **by district**“ zur Frage hinzu. Beobachten Sie das Ergebnis: Die Antwort wird automatisch in ein Balkendiagramm gesetzt, und es werden andere Formulierungen vorgeschlagen:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Ändern Sie jetzt die Frage in „this year sales **by zip and chain**“.

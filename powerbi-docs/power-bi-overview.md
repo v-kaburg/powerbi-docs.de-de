@@ -4,17 +4,17 @@ description: 'Übersicht über Power BI und das Zusammenspiel der verschiedenen 
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619584"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293065"
 ---
 # <a name="what-is-power-bi"></a>Was ist Power BI?
 **Power BI** ist eine Sammlung von Softwarediensten, Apps und Connectors, die zusammenwirken, um Ihre nicht verbundenen Datenquellen in kohärente, visuell überzeugende und interaktive Einblicke umzuwandeln. Unabhängig davon, ob es sich bei Ihren Daten um ein einfaches Excel-Arbeitsblatt oder eine Sammlung von cloudbasierten und lokalen hybriden Data Warehouses handelt, mit **Power BI** können Sie mühelos und schnell eine Verbindung mit Ihren Datenquellen herstellen, wichtige Daten visualisieren (oder ermitteln) und diese Daten für alle gewünschten Benutzer freigeben.
@@ -64,4 +64,4 @@ Power BI-Berichtsserver ist eine Lösung, die Sie hinter Ihrer Firewall bereitst
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Melden Sie sich an, rufen Sie Daten ab, und lernen Sie den Power BI-Dienst kennen.](service-the-new-power-bi-experience.md)   
-[Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)](service-get-started.md)
+[Tutorial: Erste Schritte mit dem Power BI-Dienst](service-get-started.md)

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 40da2a9a53cfb7a0e497f85f87bca6a133046720
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 8668e477a2778bfdeec8260a31ca63af9d4124a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578702"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287690"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt die Beziehungen zwischen mehrdimensionalen Objek
 | --- | --- |
 | Cube |Modell |
 | Cubedimension |Tabelle |
-| Dimensionsattribute (Schlüssel), Name |entfernen |
+| Dimensionsattribute (Schlüssel), Name |Spalten |
 | Measuregruppe |Tabelle |
 | Measure |Measure |
 | Measures ohne zugeordnete Measuregruppe |Innerhalb einer Tabelle mit dem Namen *Measures* |
@@ -103,4 +103,4 @@ Die folgenden Features von SSAS MD werden in Power BI Desktop unterstützt:
 ## <a name="troubleshooting"></a>Problembehandlung 
 In der folgenden Liste sind alle bekannten Probleme beim Verbinden mit SQL Server Analysis Services (SSAS) aufgeführt. 
 
-* **Error: Couldn't load model schema** (Fehler: Modellschema konnte nicht geladen werden.): Dieser Fehler tritt normalerweise nur dann auf, wenn der Benutzer, der versucht, eine Verbindung mit Analysis Services herzustellen, keine Zugriffsberechtigungen für die Datenbank/den Cube besitzt.
+* **Fehler: Das Modellschema konnte nicht geladen werden**: Dieser Fehler tritt normalerweise nur dann auf, wenn der Benutzer, der versucht, eine Verbindung mit Analysis Services herzustellen, keine Zugriffsberechtigungen für die Datenbank/den Cube besitzt.

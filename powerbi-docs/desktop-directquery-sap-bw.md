@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670737"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278076"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery und SAP Business Warehouse (BW)
 Sie können sich mit **SAP Business Warehouse (BW)**-Datenquellen direkt über **DirectQuery** verbinden. Da SAP BW multidimensional ist bzw. OLAP einsetzt, gibt es viele wesentliche Unterschiede zwischen DirectQuery via SAP BW und über relationalen Datenquellen wie SQL Server. Die Unterschiede werden im Folgenden dargestellt:
@@ -32,19 +32,19 @@ Weiterhin ist es *essentiell*, dass Ihnen bewusst ist, dass SAP BW viele Funktio
 ## <a name="additional-modeling-restrictions"></a>Zusätzliche Modellierungseinschränkungen
 Dies sind die wesentlichen zusätzlichen Modellierungseinschränkungen beim Herstellen einer Verbindung mit SAP BW mithilfe von DirectQuery in Power BI:
 
-* **Keine Unterstützung für berechnete Spalten**: Das Erstellen von berechneten Spalten ist deaktiviert. Dies bedeutet zudem, dass Gruppierung und Clustering, mit denen berechnete Spalten erstellt werden, nicht zur Verfügung stehen.
-* **Zusätzliche Einschränkungen von Measures**: Es gibt zusätzliche Einschränkungen von DAX-Ausdrücken, die in Measures verwendet werden können, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
-* **Keine Unterstützung für das Definieren von Beziehungen**: Beziehungen sind in der externen SAP-Quelle verankert, und es können keine zusätzlichen Beziehungen im Modell definiert werden.
-* **Keine Datenansicht**: Die **Datenansicht** zeigt in der Tabelle normalerweise Daten auf Detailebene an. Aufgrund der Beschaffenheit von OLAP-Quellen wie SAP BW ist diese Ansicht in SAP BW nicht verfügbar.
-* **Details von Spalten und Measures sind unveränderlich**: Die in der Feldliste anzeigte Listen von Spalten und Measures sind in der zugrunde liegenden Quelle festgelegt und können nicht verändert werden. Es ist z.B. nicht möglich, eine Spalte oder deren Datentyp zu löschen (Sie können sie allerdings umbenennen).
-* **Zusätzliche Einschränkungen in DAX**: Es gibt zusätzliche Einschränkungen für DAX, die in Measuredefinitionen verwendet wird, damit die Einschränkungen in der Quelle übernommen werden. Es ist z.B. nicht möglich, eine Aggregatfunktion über eine Tabelle zu verwenden.
+* **Keine Unterstützung für berechnete Spalten:** Das Erstellen berechneter Spalten ist deaktiviert. Dies bedeutet zudem, dass Gruppierung und Clustering, mit denen berechnete Spalten erstellt werden, nicht zur Verfügung stehen.
+* **Zusätzliche Einschränkungen für Measures:** Es gibt zusätzliche Einschränkungen von DAX-Ausdrücken, die in Measures verwendet werden können, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Keine Unterstützung für das Definieren von Beziehungen:** Beziehungen sind in der externen SAP-Quelle verankert, und es können keine zusätzlichen Beziehungen im Modell definiert werden.
+* **Keine Datenansicht:** Die **Datenansicht** zeigt in der Tabelle normalerweise Daten auf Detailebene an. Aufgrund der Beschaffenheit von OLAP-Quellen wie SAP BW ist diese Ansicht in SAP BW nicht verfügbar.
+* **Details von Spalten und Measures sind unveränderlich:** Die in der Feldliste anzeigte Listen von Spalten und Measures sind in der zugrunde liegenden Quelle festgelegt und können nicht verändert werden. Es ist z.B. nicht möglich, eine Spalte oder deren Datentyp zu löschen (Sie können sie allerdings umbenennen).
+* **Zusätzliche Einschränkungen in DAX:** Es gibt zusätzliche Einschränkungen für die DAX-Bibliothek, die in Measuredefinitionen verwendet werden kann, damit die Einschränkungen in der Quelle übernommen werden. Es ist z.B. nicht möglich, eine Aggregatfunktion über eine Tabelle zu verwenden.
 
 ## <a name="additional-visualization-restrictions"></a>Zusätzliche Visualisierungseinschränkungen
 Dies sind die wesentlichen zusätzliche Visualisierungsseinschränkungen beim Verbinden mit SAP BW mit DirectQuery in Power BI:
 
 * **Keine Spaltenaggregation:** Es ist nicht möglich, die Aggregation einer Spalte für ein Visual zu ändern. Die Einstellung lautet immer *Nicht zusammenfassen*.
-* **Das Filtern von Measures ist deaktiviert**: Das Filtern von Measures ist deaktiviert, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
-* **Auswählen und Einschließen/Ausschließen von mehreren Elementen**: Die Möglichkeit zum Auswählen von mehreren Datenpunkten in einem visuellen Element ist deaktiviert, wenn die Punkte für Werte stehen, die aus mehr als einer Spalte stammen. Wenn Sie z.B ein Balkendiagramm mit den Verkaufszahlen pro Land haben, wobei sich die Kategorie in der Legende befindet, ist es nicht möglich, die Punkte für „USA, Fahrräder“ und „Frankreich, Kleidung“ auszuwählen. Ebenso ist es nicht möglich, den Punkt für „USA, Fahrräder“ auszuwählen und diesen aus dem visuellen Element auszuschließen. Beide Einschränkungen sind vorgegeben, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Das Filtern von Measures ist deaktiviert:** Das Filtern von Measures ist deaktiviert, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
+* **Auswählen und Einschließen/Ausschließen von mehreren Elementen:** Die Möglichkeit zum Auswählen von mehreren Datenpunkten in einem visuellen Element ist deaktiviert, wenn die Punkte für Werte stehen, die aus mehr als einer Spalte stammen. Wenn Sie z.B ein Balkendiagramm mit den Verkaufszahlen pro Land haben, wobei sich die Kategorie in der Legende befindet, ist es nicht möglich, die Punkte für „USA, Fahrräder“ und „Frankreich, Kleidung“ auszuwählen. Ebenso ist es nicht möglich, den Punkt für „USA, Fahrräder“ auszuwählen und diesen aus dem visuellen Element auszuschließen. Beide Einschränkungen sind vorgegeben, damit die von SAP BW bereitgestellte Unterstützung übernommen wird.
 
 ## <a name="support-for-sap-bw-features"></a>Unterstützung für Funktionen von SAP BW
 In der folgenden Tabelle werden alle Funktionen von SAP BW aufgelistet, die nicht vollständig unterstützt werden oder die sich mit Power BI anders verhalten.   

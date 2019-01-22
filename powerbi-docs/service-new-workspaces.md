@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984418"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279001"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Organisieren der neuen Arbeitsbereiche (Vorschauversion) in Power BI
 
@@ -43,7 +43,7 @@ Während der Vorschauphase können alte und neue Arbeitsbereiche parallel zueina
 
 ## <a name="roles-in-the-new-workspaces"></a>Rollen in den neuen Arbeitsbereichen
 
-Sie fügen den neuen Arbeitsbereichen Benutzergruppen oder Einzelpersonen als Mitglieder, Mitwirkende oder Administratoren hinzu. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.  Eine Erläuterung der verschiedenen Rollen finden Sie im weiteren Verlauf dieses Artikels unter [Rollen in den neuen Arbeitsbereichen](#roles-in-the-new-workspaces).
+Sie fügen den neuen Arbeitsbereichen Benutzergruppen oder Einzelpersonen als Mitglieder, Mitwirkende oder Administratoren hinzu. Allen Mitgliedern einer Benutzergruppe wird die von Ihnen festgelegte Rolle zugewiesen. Wenn eine Person in mehreren Benutzergruppen Mitglied ist, erhält sie die höchsten zugewiesenen Berechtigungen.
 
 Alle Benutzer, die Sie einem Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. Im Arbeitsbereich ist die Zusammenarbeit aller Beteiligten beim Erstellen von Dashboards und Berichten möglich, die Sie für eine größere Zielgruppe oder sogar die gesamte Organisation veröffentlichen möchten. Wenn Sie Inhalte an andere Personen in Ihrer Organisation verteilen möchten, können Sie diesen Benutzern Power BI Pro-Lizenzen zuweisen oder den Arbeitsbereich in einer Power BI Premium-Kapazität hinzufügen.
 
@@ -83,9 +83,7 @@ Während der Vorschauphase können Sie ihre alten Arbeitsbereiche nicht automati
 
 Wenn die neuen Arbeitsbereiche in die allgemeine Verfügbarkeit übergehen, können Sie die alten Arbeitsbereiche automatisch migrieren. Nach Eintritt der allgemeinen Verfügbarkeit müssen Sie sie migrieren.
 
-## <a name="power-bi-apps-faq"></a>Power BI-Apps – Häufig gestellte Fragen
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Inwiefern unterscheiden sich die neuen Arbeitsbereiche von den aktuellen Arbeitsbereichen?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Inwiefern unterscheiden sich die neuen Arbeitsbereiche von den aktuellen Arbeitsbereichen?
 
 Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Im Folgenden werden die Änderungen aufgeführt, die zusammen mit der Vorschauversion voraussichtlich dauerhaft Bestand haben werden. 
 
@@ -94,6 +92,13 @@ Mit den neuen Arbeitsbereichen werden einige Features neu gestaltet. Im Folgende
 - Sie können ein organisationsbezogenes Inhaltspaket über einen aktuellen Arbeitsbereich erstellen. Über den neuen Arbeitsbereich können Sie diese nicht erstellen.
 - Über einen aktuellen Arbeitsbereich können Sie ein organisationsbezogenes Inhaltspaket nutzen. Über den neuen Arbeitsbereich können Sie dieses nicht nutzen.
 - Während der Vorschauphase sind einige Features der neuen Arbeitsbereiche noch nicht aktiviert. Weitere Einzelheiten finden Sie im nächsten Abschnitt, [Geplante Features für die neuen Arbeitsbereiche](service-new-workspaces.md#planned-new-workspace-preview-features).
+
+## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
+
+Zu beachtende Einschränkungen:
+
+- Arbeitsbereiche können maximal 1.000 Datasets oder 1.000 Berichte pro Dataset enthalten. 
+- Eine Person mit einer Power BI Pro-Lizenz kann in maximal 250 Arbeitsbereichen Mitglied sein.
 
 ## <a name="planned-new-workspace-preview-features"></a>Geplante Vorschaufeatures für die neuen Arbeitsbereiche
 

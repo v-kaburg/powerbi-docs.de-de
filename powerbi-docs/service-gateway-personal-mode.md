@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273331"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295745"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokales Datengateway (persönlicher Modus)
 Sie können lokale Datenquellen verwenden und Power BI-Berichte und Dashboards erstellen, indem Sie ein Gateway verwenden. Ein **Gateway** ist eine Software, die den Zugriff auf Daten erleichtert, die in einem privaten, lokalen Netzwerk gespeichert sind. Dann können Sie diese Daten in Onlinediensten wie z.B. **Power BI-Dienst** nutzen. Das **lokale Datengateway (persönlicher Modus)** ist ein kürzlich veröffentlichtes Update für das Power BI-Gateway, das es Benutzern ermöglicht, ein Gateway auf ihrem eigenen Computer zu installieren und auf lokale Daten zuzugreifen.
@@ -117,16 +117,16 @@ Unterstützung für Spark ist für die zweite Hälfte des Kalenderjahres 2017 ge
   * **Antwort**: Ja, mit der neuen Version können beide gleichzeitig ausgeführt werden.
 * Kann ich das **lokale Datengateway (persönlicher Modus)** als einen Dienst ausführen?
   
-  * **Antwort:** Nein. Das **lokale Datengateway (persönlicher Modus)** kann nur als Anwendung ausgeführt werden. Wenn Sie das Gateway als Dienst bzw. im Administratormodus ausführen müssen, müssen Sie das [**lokale Datengateway**](service-gateway-onprem.md) berücksichtigen (vormals bekannt als das Enterprisegateway).
+  * **Antwort**: Nein. Das **lokale Datengateway (persönlicher Modus)** kann nur als Anwendung ausgeführt werden. Wenn Sie das Gateway als Dienst bzw. im Administratormodus ausführen müssen, müssen Sie das [**lokale Datengateway**](service-gateway-onprem.md) berücksichtigen (vormals bekannt als das Enterprisegateway).
 * Wie oft das **lokale Datengateway (persönlicher Modus)** aktualisiert?
   
-  * **Antwort**: Wir möchten das Personal Gateway monatlich aktualisieren.
+  * **Antwort**: Wir möchten das persönliche Gateway monatlich aktualisieren.
 * Warum werde ich aufgefordert, Anmeldeinformationen zu aktualisieren?
   
-  * **Antwort**: Vielen Situationen können eine Anfrage zum Eingeben von Anmeldeinformationen auslösen. Meistens passiert dies, wenn Sie das **lokale Datengateway (persönlicher Modus)** erneut auf einem anderen Computer als Ihr **Power BI – Personal**-Gateway installiert haben. Es kann auch ein Problem in der Datenquelle vorliegen und Power BI konnte keine Testverbindung herstellen, oder ein Timeout oder ein Systemfehler ist aufgetreten. Sie können Ihre Anmeldeinformationen im **Power BI-Dienst** aktualisieren, indem Sie auf das **Zahnradsymbol** klicken und **Einstellungen** und dann **Datasets** auswählen, und das betreffende Dataset suchen und auf *Anmeldeinformationen aktualisieren* klicken.
+  * **Antwort**: Viele Situationen können eine Aufforderung zur Eingabe von Anmeldeinformationen auslösen. Meistens passiert dies, wenn Sie das **lokale Datengateway (persönlicher Modus)** erneut auf einem anderen Computer als Ihr **Power BI – Personal**-Gateway installiert haben. Es kann auch ein Problem in der Datenquelle vorliegen und Power BI konnte keine Testverbindung herstellen, oder ein Timeout oder ein Systemfehler ist aufgetreten. Sie können Ihre Anmeldeinformationen im **Power BI-Dienst** aktualisieren, indem Sie auf das **Zahnradsymbol** klicken und **Einstellungen** und dann **Datasets** auswählen, und das betreffende Dataset suchen und auf *Anmeldeinformationen aktualisieren* klicken.
 * Wie lang wird mein vorheriges Personal Gateway während des Upgrades offline geschaltet?
   
-  * **Antwort**: Die Aktualisierung des Personal Gateways auf die neue Version sollte nur einige Minuten dauern. 
+  * **Antwort**: Die Aktualisierung des persönlichen Gateways auf die neue Version sollte nur einige Minuten dauern. 
 * Was geschieht, wenn ich nicht bis zum 31. Juli 2017 zum neuen Personal Gateway migriere?
   
   * **Antwort**: Wenn Sie Ihre Berichte mit dem aktuellen Gateway aktualisieren, werden Ihre Aktualisierungen nicht mehr vorgenommen. Die einzige Möglichkeit zum Einrichten eines neuen Aktualisierungszeitplan wird durch das Installieren und Konfigurieren des neuen Gateways gegeben sein.
@@ -135,7 +135,7 @@ Unterstützung für Spark ist für die zweite Hälfte des Kalenderjahres 2017 ge
   * **Antwort**: R-Skripts werden für den persönlichen Modus unterstützt.
 * Warum sehe ich die Nachricht, dass ich mein Gateway aktualisieren soll, nicht im **Power BI-Dienst**?
   
-  * **Antwort**: Wahrscheinlich, weil Sie ein oder mehrere Datasets haben, die eine Datenquelle enthalten, die derzeit nicht unterstützt wird.
+  * **Antwort**: Wahrscheinlich, weil Sie mindestens ein Dataset mit einer Datenquelle verwenden, die derzeit noch nicht unterstützt wird.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Konfigurieren von Proxyeinstellungen für Power BI-Gateways](service-gateway-proxy.md)  

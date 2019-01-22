@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670199"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285620"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Abrufen von Daten aus Excel-Arbeitsmappendateien
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -119,7 +119,7 @@ Das Feature **In Power BI veröffentlichen** in Excel 2016 ist mit dem Power BI-
 ## <a name="troubleshooting"></a>Problembehandlung
 Ist die Arbeitsmappendatei zu groß? Lesen Sie den Artikel [Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI](reduce-the-size-of-an-excel-workbook.md).
 
-Wenn Sie derzeit auf „Importieren“ klicken, importiert Power BI lediglich die Daten, die Teil einer benannten Tabelle oder eines benannten Datenmodells sind. Wenn die Arbeitsmappe keine benannten Tabellen, Power View-Visualisierungen oder Excel-Datenmodelle enthält, kann daher die Fehlermeldung **„Es konnten keine Daten in Ihrer Excel-Arbeitsmappe gefunden werden“** angezeigt werden. [Dieser Artikel](service-admin-troubleshoot-excel-workbook-data.md) erläutert, wie Sie die Arbeitsmappe korrigieren und erneut importieren.
+Wenn Sie derzeit auf „Importieren“ klicken, importiert Power BI lediglich die Daten, die Teil einer benannten Tabelle oder eines benannten Datenmodells sind. Wenn eine Arbeitsmappe keine benannten Tabellen, Power View-Blätter oder Excel-Datenmodelle enthält, wird daher möglicherweise folgender Fehler angezeigt: **Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden**. [Dieser Artikel](service-admin-troubleshoot-excel-workbook-data.md) erläutert, wie Sie die Arbeitsmappe korrigieren und erneut importieren.
 
 ## <a name="next-steps"></a>Nächste Schritte
 **Werten Sie Ihre Daten aus** – Sobald Sie Ihre Daten und Berichte aus Ihrer Datei in Power BI geladen haben, können Sie sie auswerten. Klicken Sie einfach mit der rechten Maustaste auf das neue Dataset, und klicken Sie dann auf „Durchsuchen“. Wenn Sie sich in Schritt 4 dazu entscheiden, eine Arbeitsmappendatei in OneDrive zu verknüpfen, wird Ihre Arbeitsmappe unter „Berichte“ angezeigt. Wenn Sie darauf klicken, wird es in Power BI genauso geöffnet, wie es in Excel Online geöffnet werden würde.

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417324"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290887"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie ein Visual für die **Formenzuordnung**, um Regionen auf einer Karte voneinander abzutrennen. Im Gegensatz zum Visual **Karte** kann das Visual **Formenzuordnung** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen soll es vor allem Regionen auf einer Karte in Beziehung zueinander setzen, indem diese unterschiedliche Farben erhalten.
@@ -113,7 +113,7 @@ Für dieses Vorschaurelease von **Flächenkartogramm** gibt es einige Bedingunge
 ## <a name="region-keys"></a>Regionsschlüssel
 Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um **Flächenkartogramm** zu testen.
 
-### <a name="australia-states"></a>Australia: States
+### <a name="australia-states"></a>Australien: Bundesstaaten
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Austria: States
+### <a name="austria-states"></a>Österreich: Bundesländer
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brazil: States
+### <a name="brazil-states"></a>Brasilien: Bundesstaaten
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Canada: Provinces
+### <a name="canada-provinces"></a>Kanada: Provinzen
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>France: Regions
+### <a name="france-regions"></a>Frankreich: Regionen
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -221,7 +221,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Auvergne |Auvergne |Auvergne |
 | Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>Germany: States
+### <a name="germany-states"></a>Deutschland: Bundesländer
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>Ireland: Counties
+### <a name="ireland-counties"></a>Irland: Grafschaften
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italy: Regions
+### <a name="italy-regions"></a>Italien: Regionen
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Mexico: States
+### <a name="mexico-states"></a>Mexiko: Staaten
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Netherlands: Provinces
+### <a name="netherlands-provinces"></a>Niederlande: Provinzen
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>UK: Countries
+### <a name="uk-countries"></a>Vereinigtes Königreich: Länder
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ Verwenden Sie die folgenden **Regionsschlüssel** in diesem Vorschaurelease, um 
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>USA: States
+### <a name="usa-states"></a>USA: Staaten
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

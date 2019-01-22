@@ -1,20 +1,20 @@
 ---
 title: Auswerten von Power BI-Daten in der mobilen App auf Ihrer Apple Watch
 description: Power BI Apple Watch-App
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: bb5257b801ddb8ff2269a102e4f6c299b1291df4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44735527"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278904"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Auswerten von Daten in der mobilen Power BI-App auf Ihrer Apple Watch
 Mit der Power BI Apple Watch-App können Sie KPIs und Kartenkacheln aus Ihrem Power BI-Dashboards direkt auf Ihrer Apple Watch anzeigen. Mit KPIs und Kartenkacheln haben Sie die Performance auch auf dem kleinen Bildschirm perfekt im Blick. Sie können ein Dashboard auf Ihrem iPhone oder auf der Watch selbst aktualisieren.
@@ -32,7 +32,7 @@ Die Power BI Apple Watch-App besteht aus zwei Teilen.
 * Der **Index-Bildschirm** ermöglicht einen schnellen Überblick über alle Kacheln für Karten und KPIs aus dem synchronisierten Dashboard.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* Die **Kachel im Fokus**: Klicken Sie auf eine Kachel auf dem Index-Bildschirm für ein ausführliches Bild einer bestimmten Kachel.
+* Die **Kachel im Fokus**: Klicken Sie auf eine Kachel auf dem Indexbildschirm für ein ausführliches Bild einer bestimmten Kachel.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 

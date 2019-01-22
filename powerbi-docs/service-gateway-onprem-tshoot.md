@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580538"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296568"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 
@@ -60,7 +60,7 @@ Die Gateway-Dienstprotokolle werden in drei Buckets kategorisiert: Information, 
 
 Diese Datei liegt in der Standardeinstellung unter *\Programme\Lokales Datengateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Ändern Sie die erste Zahl (20 in diesem Beispiel), um die Anzahl der Protokolldateien zu konfigurieren, die beibehalten werden sollen: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Fehler: „Failed to create a gateway. Try again.“ (Fehler beim Erstellen eines Gateways. Versuchen Sie es erneut.)
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Fehler: Fehler beim Erstellen eines Gateways. Versuchen Sie es erneut.
 
 Alle Details sind verfügbar, aber der Aufruf des Power BI-Diensts gab eine Fehlermeldung zurück. Die Fehlermeldung und eine Aktivitäts-ID werden angezeigt. Dies kann aus unterschiedlichen Gründen eintreten. Die unten genannten Protokolle lassen sich zusammenstellen und prüfen, um weitere Details zu erhalten.
 
@@ -117,7 +117,7 @@ Standardmäßig verwendet das lokale Datengateway Transport Layer Security (TLS)
 
 ## <a name="data-sources"></a>Datenquellen
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fehler: Es konnte keine Verbindung hergestellt werden. Details: „Ungültige Anmeldeinformationen für die Verbindung.“
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fehler: Verbindung nicht möglich. Details: „Ungültige Anmeldeinformationen für die Verbindung.“
 
 In **Details anzeigen** wird die von der Datenquelle empfangene Fehlermeldung angezeigt. Für SQL Server sollte etwa Folgendes angezeigt werden:
 
@@ -125,7 +125,7 @@ In **Details anzeigen** wird die von der Datenquelle empfangene Fehlermeldung an
 
 Achten Sie darauf, dass Benutzername und Kennwort richtig sind. Überprüfen Sie auch, ob anhand dieser Anmeldeinformationen eine Verbindung mit der Datenquelle hergestellt werden kann. Achten Sie auch darauf, dass das verwendete Konto der ausgewählten **Authentifizierungsmethode**entspricht.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Fehler: Es konnte keine Verbindung hergestellt werden. Details: „Es konnte keine Verbindung mit der Datenbank hergestellt werden.“
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Fehler: Verbindung nicht möglich. Details: „Es kann keine Verbindung mit der Datenbank hergestellt werden.“
 
 Wir konnten die Verbindung mit dem Server, jedoch nicht mit der angeforderten Datenbank herstellen. Überprüfen Sie den Namen der Datenbank sowie die erforderliche Berechtigung des Benutzers für den Zugriff auf die Datenbank.
 
@@ -133,7 +133,7 @@ In **Details anzeigen** wird die von der Datenquelle empfangene Fehlermeldung an
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fehler: Es konnte keine Verbindung hergestellt werden. Details: „Unbekannter Fehler in Datengateway“
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fehler: Verbindung nicht möglich. Details: „Unbekannter Fehler in Datengateway.“
 
 Dieser Fehler kann aus verschiedenen Gründen auftreten. Achten Sie darauf, dass Sie von dem Computer, auf dem das Gateway ausgeführt wird, eine Verbindung mit der Datenquelle herstellen können. Es könnte auch an einem nicht erreichbaren DHCP-Server liegen.
 
@@ -141,7 +141,7 @@ In **Details anzeigen** wird der Fehlercode **DM_GWPipeline_UnknownError** angez
 
 Sie können auch in den Ereignisprotokollen nach weiteren Details suchen: „Ereignisprotokolle“ > **Anwendungs- und Dienstprotokolle** > **Dienst Lokales Datengateway**.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Fehler: Fehler beim Herstellen einer Verbindung mit<server>. Details: „Das Datengateway wurde erreicht, aber das Gateway kann nicht auf die lokale Datenquelle zugreifen.“
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Fehler: Fehler beim Herstellen einer Verbindung mit <server>. Details: „Das Datengateway wurde erreicht, aber das Gateway kann nicht auf die lokale Datenquelle zugreifen.“
 
 Wir konnten keine Verbindung mit der angegebenen Datenquelle herstellen. Überprüfen Sie die für diese Datenquelle angegebenen Informationen.
 
@@ -182,7 +182,7 @@ In diesem Fall müssen Sie mit Ihren Domänenadministratoren zusammenarbeiten, u
 
 Stellen Sie sicher, dass Ihr Konto auf der Registerkarte **Benutzer** der Datenquelle in der Gateway-Konfiguration aufgelistet ist. Wenn Sie keinen Zugriff auf das Gateway haben, wenden Sie sich an den Administrator des Gateways, und bitten Sie ihn um die Überprüfung. Die in der Analysis Services-Liste aufgeführte Datenquelle ist nur für Konten in der Liste **Benutzer** sichtbar.
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Error: You don't have any gateway installed or configured for the data sources in this dataset (Fehler: Für die Datenquellen in diesem Dataset wurde kein Gateway installiert oder konfiguriert.)
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Fehler: Für die Datenquellen in diesem Dataset wurde kein Gateway installiert oder konfiguriert.
 
 Stellen Sie sicher, dass Sie mindestens eine Datenquelle zum Gateway hinzugefügt haben. Der Vorgang wird im Abschnitt „Hinzufügen einer Datenquelle“ unter [Verwalten eines Power BI-Gateways](service-gateway-manage.md#add-a-data-source) beschrieben. Wenn das Gateway nicht im Verwaltungsportal unter **Gateways verwalten** aufgeführt wird, löschen Sie den Cache Ihres Browsers, oder melden Sie sich ab und dann wieder an.
 
@@ -192,7 +192,7 @@ Stellen Sie sicher, dass Sie mindestens eine Datenquelle zum Gateway hinzugefüg
 
 Dieser Fehler tritt auf, wenn eine einzelne Zeile größer als 4 MB ist. Finden Sie in diesem Fall heraus, um welche Zeile in der Datenquelle es sich handelt, und versuchen Sie, die Zeile herauszufiltern oder deren Größe zu verringern.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Fehler: „The server name provided doesn't match the server name on the SQL Server SSL Certificate“ (Der angegebene Servername stimmt nicht mit dem Servernamen auf dem SQL Server-SSL-Zertifikat überein).
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Fehler: Der angegebene Servername stimmt nicht mit dem Servernamen auf dem SQL Server-SSL-Zertifikat überein.
 
 Dieser Fehler kann auftreten, wenn der allgemeine Name des Zertifikats für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers gilt, Sie jedoch nur den NetBIOS-Namen des Servers angegeben haben. Dies verursacht eine Nichtübereinstimmung für das Zertifikat. Um dieses Problem zu beheben, muss in der Gatewaydatenquelle und in der PBIX-Datei der FQDN des Servers als Servername verwendet werden.
 
@@ -204,7 +204,7 @@ Dies kann durch unterschiedliche Szenarien verursacht werden.
 2. Ihr Konto ist nicht auf der Registerkarte **Benutzer** der Datenquelle in der Gatewaykonfiguration aufgelistet. Sie müssen den Administrator des Gateways bitten, Ihr Konto dieser Liste hinzuzufügen.
 3. Die Power BI Desktop-Datei verfügt über mehrere Datenquellen, und nicht alle dieser Datenquellen sind für das Gateway konfiguriert. Jede Datenquelle muss für das Gateway definiert sein, damit das Gateway in der geplanten Aktualisierung angezeigt wird.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Fehler: „The received uncompressed data on the gateway client has exceeded the limit“ (Für die empfangenen unkomprimierten Daten auf dem Gatewayclient wurde das Limit überschritten).
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Fehler: Für die empfangenen unkomprimierten Daten auf dem Gatewayclient wurde das Limit überschritten.
 
 Das Limit beträgt genau 10 GB unkomprimierte Daten pro Tabelle. Wenn dieses Problem auftritt, haben Sie geeignete Möglichkeiten, es einzuschränken und zu vermeiden. Insbesondere hilft es, die Verwendung konstanter und langer Zeichenfolgenwerte zu reduzieren und stattdessen einen normalisierten Schlüssel zu verwenden oder die Spalte zu entfernen (sofern sie nicht verwendet wird).
 
@@ -459,7 +459,7 @@ Folgen Sie diesen Schritten zur Lösung des Problems:
 1. Richten Sie einen SPN für das lokale Gateway ein.
 2. Richten Sie eine eingeschränkte Delegierung in Ihrem Active Directory (AD) ein.
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Windows-Identität für Benutzer userid konnte nicht erstellt werden
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Fehler beim Erstellen einer Windows-Identität für den Benutzer „userid“.
 
 Die Ausnahme „FailedToImpersonateUserException“ tritt auf, wenn Sie im Auftrag eines Benutzers nicht die Identität wechseln können. Dies kann auch passieren, wenn das Konto, zu dessen Identität Sie wechseln möchten, von einer anderen Domäne als derjenigen stammt, auf der sich die Gatewaydienstdomäne befindet (dies ist eine Einschränkung).
 

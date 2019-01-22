@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679267"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280077"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Abrufen von Daten aus einer Webseite durch Angeben von Beispielen
 
@@ -52,7 +52,7 @@ In diesem Beispiel extrahieren wir den *Namen* und den *Preis* für jedes Spiel 
 
 ![Daten anhand von Beispielen](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> Hinweis: In Wertvorschläge sind nur Werte enthalten, die kleiner oder gleich 128 Zeichen lang sind.
+> Hinweis: In Wertvorschläge sind nur Werte enthalten, die höchstens 128 Zeichen umfassen.
 
 Sobald wir mit den von der Webseite extrahierten Daten zufrieden sind, klicken wir auf **OK**, um zum **Abfrage-Editor** zu wechseln. Dort können wir weitere Transformationen anwenden oder die Daten formen, indem wir diese Daten mit Daten aus anderen Quellen kombinieren.
 

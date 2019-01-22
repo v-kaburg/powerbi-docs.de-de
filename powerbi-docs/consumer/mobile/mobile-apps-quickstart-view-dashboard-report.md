@@ -1,29 +1,29 @@
 ---
 title: 'Schnellstart: Erkunden von Dashboards und Berichten in mobilen Apps'
 description: In dieser Schnellstartanleitung erkunden Sie ein Beispieldashboard und einen Beispielbericht in den mobilen Power BI-Apps.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157262"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279111"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Schnellstart: Erkunden von Dashboards und Berichten in den mobilen Power BI-Apps
 In dieser Schnellstartanleitung erkunden Sie ein Beispieldashboard und einen Beispielbericht in den mobilen Power BI-Apps auf einem Android-Smartphone. Sie können diese Anleitung auch in anderen mobilen Apps nachvollziehen. 
 
 Gilt für:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10-Geräte](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android-](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10-Geräte](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone | iPad | Android | Windows 10 |
+| iPhone | iPad | Android- | Windows 10 |
 
 Dashboards sind Portale für den Lebenszyklus und die Prozesse des Unternehmens. Ein Dashboard stellt eine Übersicht dar, eine zentrale Stelle, um den aktuellen Status des Unternehmens zu überwachen. Ein Bericht ist eine interaktive Ansicht Ihrer Daten, und mit den darin enthaltenen Visuals werden verschiedene Ergebnisse und Erkenntnisse zu diesen Daten dargestellt. 
 
@@ -62,7 +62,7 @@ Der erste Schritt in dieser Schnellstartanleitung ist das Herunterladen des Beis
 
 4. Wählen Sie das **Beispiel für die Einzelhandelsanalyse** aus.
  
-    ![Analysebeispiel für Einzelhandel](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Retail Analysis Sample](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Wählen Sie **Verbinden** aus.  
   

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670898"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285667"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Strukturieren und Kombinieren von Daten in Power BI Desktop
 
@@ -81,7 +81,7 @@ Um die Spalte **Lebenshaltungskosten** zu entfernen, wählen Sie zuerst die Spal
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Beachten Sie, dass die Werte _Neuer Rang_ nicht geändert wurden. Dies liegt an der Reihenfolge der Schritte. Der Abfrage-Editor zeichnet die Schritte zwar nacheinander, aber unabhängig voneinander auf. Daher können Sie unter **Angewendete Schritte** die Schritte in der Reihenfolge nach oben oder unten verschieben. Klicken Sie einfach mit der rechten Maustaste auf einen Schritt, und der Abfrage-Editor stellt ein Kontextmenü mit folgenden Optionen bereit: **Umbenennen**, **Löschen**, **Bis zum** **Ende löschen** (entfernt den aktuellen und alle nachfolgenden Schritte) **Nach oben** oder **Nach unten**. Fahren Sie fort, und verschieben Sie den letzten Schritt _Entfernte Spalten_ an die Stelle direkt über den Schritt _Hinzugefügte benutzerdefinierte Spalte_.
+Beachten Sie, dass die Werte _Neuer Rang_ nicht geändert wurden. Dies liegt an der Reihenfolge der Schritte. Der Abfrage-Editor zeichnet die Schritte zwar nacheinander, aber unabhängig voneinander auf. Daher können Sie unter **Angewendete Schritte** die Schritte in der Reihenfolge nach oben oder unten verschieben. Klicken Sie einfach mit der rechten Maustaste auf einen beliebigen Schritt, und der Abfrage-Editor stellt ein Kontextmenü mit folgenden Optionen bereit: **Umbenennen**, **Löschen**, **Bis zum Ende** **löschen** (entfernt den aktuellen Schritt und auch alle nachfolgenden Schritte), **Nach oben** und **Nach unten**. Fahren Sie fort, und verschieben Sie den letzten Schritt _Entfernte Spalten_ an die Stelle direkt über den Schritt _Hinzugefügte benutzerdefinierte Spalte_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Das Fenster **Erste Zeilen entfernen** wird angezeigt, in dem Sie angeben könne
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Entfernen Sie ein paar überflüssige Spalten. Wir benötigen nur die Zuordnung der Bundesstaaten zu den offiziellen zweistelligen Länderkürzeln. Daher können wir die folgenden Spalten entfernen: **Column1**, **Column3**, **Column4** sowie **Column6** bis **Column11**. Wählen Sie zuerst **Column1** aus, und wählen Sie dann mit gedrückter **STRG**-TASTE die übrigen zu entfernenden Spalten aus (mit STRG können Sie mehrere nicht angrenzende Spalten auswählen). Wählen Sie im Menüband auf der Registerkarte „Start“ die Optionen **Spalten entfernen \> Spalten entfernen** aus.
+* Entfernen Sie ein paar überflüssige Spalten. Wir brauchen nur die Zuordnung der Bundesstaaten zu den offiziellen zweistelligen Länderkürzeln. Daher können wir die folgenden Spalten entfernen: **Column1**, **Column3**, **Column4** und dann **Column6** bis **Column11**. Wählen Sie zuerst **Column1** aus, und wählen Sie dann mit gedrückter **STRG**-TASTE die übrigen zu entfernenden Spalten aus (mit STRG können Sie mehrere nicht angrenzende Spalten auswählen). Wählen Sie im Menüband auf der Registerkarte „Start“ die Optionen **Spalten entfernen \> Spalten entfernen** aus.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

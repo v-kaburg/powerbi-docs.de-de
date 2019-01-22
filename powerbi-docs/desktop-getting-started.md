@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670924"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291646"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Erste Schritte mit Power BI Desktop
 Willkommen beim Handbuch **Erste Schritte mit Power BI Desktop**. Dieser kurze Überblick über Power BI Desktop soll Sie mit der Funktionsweise vertraut machen und die Möglichkeiten aufzeigen, die Ihnen in Power BI Desktop zur Verfügung stehen. Dadurch sind Sie rasch in der Lage, neben ansprechenden Berichten auch robuste Datenmodelle zu erstellen, die Ihr Business Intelligence-Potenzial erweitern. 
@@ -69,7 +69,7 @@ Direkt vom Bildschirm **Willkommen** aus können Sie (mithilfe der Verknüpfunge
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop weist drei Ansichten auf: Die Ansicht **Bericht** , die Ansicht **Daten** und die Ansicht **Beziehungen** . Power BI Desktop enthält außerdem den **Abfrage-Editor**, der in einem separaten Fenster geöffnet wird. Im **Abfrage-Editor**können Sie Abfragen erstellen und Daten transformieren, anschließend das weiter eingeschränkte Datenmodell in Power BI Desktop laden und Berichte erstellen.
+Power BI Desktop weist drei Ansichten auf: Die Ansicht **Bericht**, die Ansicht **Daten** und die Ansicht **Beziehungen**. Power BI Desktop enthält außerdem den **Abfrage-Editor**, der in einem separaten Fenster geöffnet wird. Im **Abfrage-Editor**können Sie Abfragen erstellen und Daten transformieren, anschließend das weiter eingeschränkte Datenmodell in Power BI Desktop laden und Berichte erstellen.
 
 Auf dem folgenden Bildschirm sind die Symbole der drei Ansichten auf der linken Seite von Power BI Desktop zu sehen: **Bericht**, **Daten**und **Beziehungen**, von oben nach unten. Die aktuelle Ansicht wird durch die gelbe Leiste am linken Rand angezeigt. In diesem Fall wird aktuell die Ansicht **Bericht** angezeigt. Sie können die Ansicht wechseln, indem Sie eines dieser drei Symbole auswählen.
 

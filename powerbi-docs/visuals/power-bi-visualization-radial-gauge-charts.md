@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416864"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282561"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radialmessgerät-Diagramme in Power BI
 Ein Diagramm für ein radiales Messgerät verfügt über einen Kreisbogen und zeigt einen einzelnen Wert an, mit dem der Fortschritt bei Erreichen eines Ziels oder KPI-Werts gemessen wird.  Das Ziel bzw. der Zielwert wird durch die Linie (Nadel) dargestellt. Der Fortschritt zur Erreichung des Ziels wird durch die Schattierung dargestellt.  Der Wert, der für diesen Fortschritt steht, ist innerhalb des Bogens in Fettschrift angegeben. Alle möglichen Werte sind gleichmäßig auf den Bogen verteilt, vom kleinsten Wert (ganz links) bis zum höchsten Wert (ganz rechts).
@@ -53,7 +53,7 @@ Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messg
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Schritt 2: Erstellen eines Tachometerdiagramms zum Nachverfolgen des Bruttoumsatzes
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Schritt 2: Erstellen eines Messgeräts zum Nachverfolgen des Bruttoumsatzes
 1. Wählen Sie im Bereich **Felder** die Option **Bruttoumsatz**.
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
@@ -66,7 +66,7 @@ Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messg
    
    ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
 
-### <a name="step-3-set-a-target-value"></a>Schritt 3: Festlegen eines Zielwerts
+### <a name="step-3-set-a-target-value"></a>Schritt 3: Festlegen eines Zielwerts
 1. Ziehen Sie **COGS** in den Bereich **Zielwert** .
 2. Ändern Sie die Aggregation in **Mittelwert**.
    Power BI fügt eine Nadel hinzu, um den Zielwert von **145.480 US-Dollar**anzugeben. Sie sehen also, dass wir unser Ziel übererfüllt haben.
@@ -78,7 +78,7 @@ Oder schauen Sie Will beim Erstellen von Einzelmetrik-Visualisierungen wie Messg
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>Schritt 4: Festlegen eines Maximalwerts
+### <a name="step-4-set-a-maximum-value"></a>Schritt 4: Festlegen eines Maximalwerts
 In Schritt 2 wurde in Power BI das Feld „Wert“ verwendet, um den kleinsten Wert (Start) und den höchsten Wert (Ende) automatisch festzulegen.  Was geschieht, wenn Sie einen eigenen Maximalwert festlegen möchten?  Angenommen, Sie möchten nicht die Verdopplung des aktuellen Werts als möglichen Maximalwert verwenden, sondern Sie möchten ihn auf den höchsten Bruttoumsatzwert in Ihrem Dataset festlegen. 
 
 1. Ziehen Sie **Bruttoumsatz** aus der Liste **Felder** in den Bereich **Maximalwert** .
@@ -90,7 +90,7 @@ In Schritt 2 wurde in Power BI das Feld „Wert“ verwendet, um den kleinsten
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>Schritt 5: Speichern des Berichts
+### <a name="step-5-save-your-report"></a>Schritt 5: Bericht speichern
 1. [Speichern Sie den Bericht](../service-report-save.md).
 2. [Fügen Sie das Messgerätdiagramm als Dashboardkachel hinzu](../service-dashboard-pin-tile-from-report.md). 
 

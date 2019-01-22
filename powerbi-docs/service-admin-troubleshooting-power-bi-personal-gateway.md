@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145408"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284516"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problembehandlung für Power BI Gateway – Personal
 Im Folgenden werden einige häufige Fehler erläutert, die beim Verwenden von Power BI Gateway – Personal möglicherweise auftreten.
@@ -53,7 +53,7 @@ Dieser Fehler kann z.B. in den Einstellungen für \<dataset\> auftreten, wenn Si
 
 **Fehler: Die für das Dataset bereitgestellten Anmeldeinformationen sind ungültig. Aktualisieren Sie die Anmeldeinformationen mithilfe einer Aktualisierung oder im Dialogfeld „Datenquelleneinstellungen“, um fortzufahren.**
 
-**Lösung:** Wenn Sie eine Nachricht bezüglich Anmeldeinformationen erhalten, könnte Folgendes zutreffen:
+**Lösung**: Wenn Sie eine Nachricht bezüglich Anmeldeinformationen erhalten, könnte Folgendes zutreffen:
 
 * Achten Sie darauf, dass die für die Anmeldung bei Datenquellen verwendeten Benutzernamen und Kennwörter aktuell sind. Navigieren Sie in Power BI zu den Aktualisierungseinstellungen für das Dataset. Klicken Sie in „Datenquellen verwalten“ auf „Anmeldeinformationen bearbeiten“, um die Anmeldeinformationen für die Datenquelle zu aktualisieren.
 * Mashups zwischen einer Cloud-Quelle und einer lokalen Quelle in einer einzelnen Abfrage werden im persönlichen Gateway nicht aktualisiert, wenn eine der Quellen OAuth als Authentifizierungsmethode verwendet. Ein Beispiel hierfür ist ein Mashup zwischen CRM Online und einem lokalen SQL Server. Dies funktioniert nicht, da CRM Online OAuth erfordert.
@@ -69,11 +69,11 @@ Dieser Fehler kann z.B. in den Einstellungen für \<dataset\> auftreten, wenn Si
 
 **Fehler: [Daten können nicht verbunden werden] &lt;Abfragteteil&gt;/&lt;…&gt;/&lt;…&gt; greift auf Datenquellen mit Sicherheitsstufen zu, die nicht gemeinsam verwendet werden können. Erstellen Sie diese Datenkombination neu.**
 
-**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
+**Lösung**: Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
 
 **Fehler: Datenquellenfehler: Der Wert „\[Tabelle\]“ kann nicht in den Typ „Tabelle“ konvertiert werden.**
 
-**Lösung:** Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
+**Lösung**: Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
 
 **Fehler: Für diese Zeile ist nicht ausreichend Platz vorhanden.**
 

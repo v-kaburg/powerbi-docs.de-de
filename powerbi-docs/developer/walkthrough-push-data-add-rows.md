@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475658"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275293"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Schritt 5: Hinzufügen von Zeilen zu einer Power BI-Tabelle
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
@@ -33,7 +33,7 @@ Nachstehend wird das Hinzufügen von Zeilen zu einem Dataset mithilfe der Power 
 > 
 > 
 
-1. Fügen Sie im Konsolenanwendungsprojekt, das Sie in „Schritt 2: Exemplarische Vorgehensweise zum Übertragen von Daten per Push“ unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) erstellt haben, den folgenden Code hinzu.
+1. Fügen Sie im Konsolenanwendungsprojekt, das Sie in „Schritt 2: Exemplarische Vorgehensweise zum Übertragen von Daten per Push“ unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) erstellt haben, den unten aufgeführten Code hinzu.
 2. Führen Sie die Konsolen-App aus, und melden Sie sich bei Ihrem Power BI-Konto an. Daraufhin sollte im Konsolenfenster **Zeilen hinzugefügt** angezeigt werden. Sie können sich auch bei Power BI anmelden, um die Zeilen anzuzeigen, die dem Dataset hinzugefügt wurden.
 
 **Beispiel für das Übertragen von Daten in ein Dataset per Push**

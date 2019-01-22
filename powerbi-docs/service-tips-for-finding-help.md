@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137167"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285367"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 Tipps, um Hilfe bei Ihren Fragen zu Power BI zu erhalten
 Ist es Ihnen auch schon einmal beim Arbeiten mit Power BI passiert, dass Sie im entscheidenden Moment keine Antwort auf ihre Frage zu Power BI finden, weil so etwas wie die „Soforthilfe“ fehlt? 
@@ -30,7 +30,7 @@ Experten, die Antworten zu Power BI benötigen, greifen oft auf die Suche zurüc
 Das Power BI-Team aktualisiert und verbessert die Power BI-Dokumentation und Schulungen ständig. Dort finden Sie hilfreiche Inhalte, u.a. Aufzeichnungen von Webinaren, Whitepapers, geführtes Lernen und Links zu Blogbeiträgen zu den neuesten Funktionen.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3. Power BI-Blog mit aktuellen Nachrichten
-Das Power BI-Team erläutert alle neuen Funktionen ausführlich in regelmäßigen [Beiträgen im Power BI-Blog](https://powerbi.microsoft.com/blog/). Von Power BI Desktop bis hin zu den mobilen Power BI-Apps – hier erfahren Sie, welche Neuigkeiten es gibt. Machen Sie es sich zur Gewohnheit, hier öfters vorbeizuschauen: Nehmen Sie sich jede Woche ein paar Minuten Zeit, um die Blogs zu überfliegen. Wer weiß, wann Sie von etwas profitieren werden, was Sie dort vor Monaten gelesen haben.
+Das Power BI-Team erläutert alle neuen Funktionen ausführlich in regelmäßigen [Beiträgen im Power BI-Blog](https://powerbi.microsoft.com/blog/). Von Power BI Desktop bis hin zu den mobilen Power BI-Apps – hier erfahren Sie, welche Neuigkeiten es gibt. Machen Sie es sich zur Gewohnheit, regelmäßig hierher zurückzukehren und sich über Neuerungen zu informieren: Nehmen Sie sich jede Woche einige Minuten Zeit, um die Blogs zu überfliegen. Wer weiß, wann Sie von etwas profitieren werden, was Sie dort vor Monaten gelesen haben.
 
 ## <a name="4-try-twitter"></a>4. Twitter
 Viele Power BI-Kunden und -Experten sind auf Twitter. Stellen Sie Ihre Frage in einem Tweet. Fügen Sie die Hashtags #powerbi und #powerbihelp hinzu, damit die entsprechenden Experten auf Ihren Tweet aufmerksam werden.

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900610"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296461"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst (Vorschau)
 
@@ -74,7 +74,7 @@ Im Folgenden werden die Voraussetzungen zum Hochladen Ihres paginierten Berichts
 
     ![Datenquelleneigenschaften – Erstellen](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **In Azure**: Kehren Sie zum Azure-Portal zurück, und klicken Sie auf **SQL-Datenbanken**.
+9. **In Azure:** Kehren Sie zum Azure-Portal zurück, und klicken Sie auf **SQL-Datenbanken**.
 
 1. Wählen Sie die Azure SQL-Datenbank-Instanz aus, die Sie im „Schnellstart: Erstellen einer Beispielinstanz von Azure SQL-Datenbank im Azure-Portal“ im Abschnitt **Voraussetzungen** dieses Artikels erstellt haben.
 

@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298341"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275914"
 ---
 # <a name="manage-your-data-source---oracle"></a>Verwalten der Datenquelle – Oracle
 Nach der Installation des lokalen Datengateways müssen Datenquellen hinzugefügt werden, die mit dem Gateway verwendet werden können. Dieser Artikel befasst sich mit dem Umgang mit Gateways und Datenquellen. Sie können die Oracle-Datenquelle für die geplante Aktualisierung oder für DirectQuery verwenden.
@@ -158,7 +158,7 @@ Wenn Sie auf der Registerkarte **Benutzer** der im Gateway konfigurierten Datenq
 In Oracle kann eine Reihe an Fehlern angezeigt werden, wenn die Namenssyntax entweder fehlerhaft ist oder die Konfiguration nicht ordnungsgemäß ausgeführt wurde.
 
 * ORA-12154: TNS: could not resolve the connect identifier specified (Der angegebene Verbindungsbezeichner konnte nicht aufgelöst werden)  
-* ORA-12514: TNS listener does not currently know of service requested in connect descriptor (TNS-Listener kann den in der Verbindungsbeschreibung abgefragten Dienst momentan nicht finden)  
+* ORA-12514: TNS listener does not currently know of service requested in connect descriptor (TNS-Listener kann den in der Verbindungsbeschreibung angeforderten Dienst momentan nicht finden)  
 * ORA-12541: TNS: no listener (kein Listener)  
 * ORA-12170: TNS:Connect timeout occurred (Verbindungstimeout)  
 * ORA-12504: TNS listener was not given the SERVICE_NAME in CONNECT_DATA (SERVICE_NAME in CONNECT_DATA wurde nicht an den TNS-Listener übergeben)  

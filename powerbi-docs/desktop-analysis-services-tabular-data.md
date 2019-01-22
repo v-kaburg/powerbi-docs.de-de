@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578288"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280245"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Verwenden tabellarischer Analysis Services-Daten in Power BI Desktop
-Mit Power BI-Desktop verfügen Sie über zwei Möglichkeiten, eine Verbindung mit tabellarischen Modellen von SQL Server Analysis Services herzustellen und Daten aus diesen Modellen abzurufen: Durchsuchen mit Live-Verbindung, oder Auswählen und Importieren von Elementen in Power BI Desktop.
+Mit Power BI Desktop verfügen Sie über zwei Möglichkeiten, eine Verbindung mit tabellarischen Modellen von SQL Server Analysis Services herzustellen und Daten aus diesen Modellen abzurufen: Durchsuchen mit Live-Verbindung oder Auswählen und Importieren von Elementen in Power BI Desktop.
 
 Sehen wir uns das einmal näher an.
 
@@ -60,13 +60,13 @@ Wenn Sie „Elemente auswählen“ und „Daten abrufen“ auswählen, importier
 
 **Frage:** Was ist der Unterschied zwischen einer Live-Verbindung mit einem tabellarischen Modell im Power BI-Dienst gegenüber einer Live-Verbindung in Power BI Desktop?
 
-**Antwort:** Bei einer Liveverbindung mit einem tabellarischen Modell Ihrer Website im Power BI-Dienst mit einer lokal in Ihrem Unternehmen vorhandenen Analysis Services-Datenbank ist ein lokales Datengateway erforderlich, um eine sichere Kommunikation zwischen diesen sicherzustellen. Bei einer Live-Verbindung mit einem tabellarischen Modell in Power BI Desktop benötigen Sie kein Gateway, da sowohl Power BI Desktop als auch der Analysis Services-Server, mit denen Sie die Verbindung herstellen, in Ihrer Organisation lokal ausgeführt werden. Wenn Sie jedoch Ihre Power BI Desktop-Datei auf Ihrer Power BI-Website veröffentlichen, ist ein Gateway erforderlich.
+**Antwort:** Bei einer Live-Verbindung mit einem tabellarischen Modell Ihrer Website im Power BI-Dienst mit einer lokal in Ihrem Unternehmen vorhandenen Analysis Services-Datenbank ist ein lokales Datengateway erforderlich, um eine sichere Kommunikation zwischen diesen sicherzustellen. Bei einer Live-Verbindung mit einem tabellarischen Modell in Power BI Desktop benötigen Sie kein Gateway, da sowohl Power BI Desktop als auch der Analysis Services-Server, mit denen Sie die Verbindung herstellen, in Ihrer Organisation lokal ausgeführt werden. Wenn Sie jedoch Ihre Power BI Desktop-Datei auf Ihrer Power BI-Website veröffentlichen, ist ein Gateway erforderlich.
 
 **Frage:** Kann ich, wenn ich eine Live-Verbindung hergestellt habe, auch eine Verbindung zu einer anderen Datenquelle in derselben Power BI Desktop-Datei herstellen?
 
 **Antwort:** Nein. Sie können keine Livedaten untersuchen und auch keine Verbindung mit einem anderen Datenquellentyp in derselben Datei herstellen. Wenn Sie bereits Daten importiert oder eine Verbindung mit einer anderen Datenquelle in einer Power BI Desktop-Datei hergestellt haben, müssen Sie für eine Live-Untersuchung eine neue Datei erstellen.
 
-**Frage:** Kann ich, wenn ich eine Live-Verbindung erstellt habe, das Modell oder die Abfrage in Power BI-Desktop bearbeiten?
+**Frage:** Kann ich, wenn ich eine Live-Verbindung erstellt habe, das Modell oder die Abfrage in Power BI Desktop bearbeiten?
 
 **Antwort:** Sie können in Power BI Desktop Measures auf Berichtsebene erstellen, aber alle anderen Abfrage- und Modellierungsfeatures sind beim Untersuchen von Livedaten deaktiviert.
 
@@ -92,5 +92,5 @@ Nachdem Sie eine Power BI Desktop-Datei mit einer Live-Verbindung erstellt haben
 ## <a name="troubleshooting"></a>Problembehandlung 
 In der folgenden Liste sind alle bekannten Probleme beim Verbinden mit SQL Server Analysis Services (SSAS) und Azure Analysis Services aufgeführt. 
 
-* **Error: Couldn't load model schema** (Fehler: Modellschema konnte nicht geladen werden.): Dieser Fehler tritt normalerweise nur dann auf, wenn der Benutzer, der versucht, eine Verbindung mit Analysis Services herzustellen, keine Zugriffsberechtigungen für die Datenbank/das Modell besitzt.
+* **Fehler: Das Modellschema konnte nicht geladen werden**: Dieser Fehler tritt normalerweise nur dann auf, wenn der Benutzer, der versucht, eine Verbindung mit Analysis Services herzustellen, keine Zugriffsberechtigungen für die Datenbank/das Modell besitzt.
 

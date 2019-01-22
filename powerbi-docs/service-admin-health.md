@@ -5,21 +5,21 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 101c49a67cabc41251fc6be5c84a26b54a3de46d
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: afb579c3163fac5da8b3a14f2f2b974d64213098
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973187"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296427"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Nachverfolgen des Power BI-Dienststatus in Office 365
 
-Das Office 365 Admin Center bietet Power BI-Administratoren wichtige Tools, z.B. zur Ermittlung und Anzeige von Informationen zu aktuellen und vergangenen Dienststatus. Um auf diese Informationen zuzugreifen, müssen Sie einer der folgenden Rollen angehören: Power BI-Dienstadministrator oder globaler Office 365-Administrator. Weitere Informationen zu Rollen finden Sie unter [Administratorrollen in Zusammenhang mit Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
+Das Office 365 Admin Center bietet Power BI-Administratoren wichtige Tools, z.B. zur Ermittlung und Anzeige von Informationen zu aktuellen und vergangenen Dienststatus. Um auf diese Informationen zuzugreifen, müssen Sie eine der folgenden Rollen besitzen: „Power BI-Dienstadministrator“ oder „Globaler Office 365-Administrator“. Weitere Informationen zu Rollen finden Sie unter [Administratorrollen in Zusammenhang mit Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
 1. Melden Sie sich beim [Office 365 Admin Center](https://portal.office.com/adminportal) an.
 

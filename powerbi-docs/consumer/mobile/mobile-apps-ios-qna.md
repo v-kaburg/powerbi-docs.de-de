@@ -1,20 +1,20 @@
 ---
 title: Virtueller Q&A-Analyst in iOS-Apps – Power BI
 description: Mit dem virtuellen Q&A-Analysten können Sie in der mobilen Power BI-App auf Ihrem iOS-Gerät in Ihren eigenen Worten Fragen zu den Beispieldaten stellen.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548109"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278698"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Virtueller Q&A-Analyst in iOS-Apps – Power BI
 

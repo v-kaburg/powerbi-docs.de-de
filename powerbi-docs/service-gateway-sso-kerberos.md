@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508035"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295257"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 
-Verwenden Sie die [eingeschränkte Kerberos-Delegierung](https://technet.microsoft.com/library/jj553400.aspx), um eine nahtlose Konnektivität für das einmalige Anmelden zu ermöglichen. Durch das Aktivieren von SSO für Power BI-Berichte und -Dashboards können Daten aus lokalen Datenquellen einfacher aktualisiert werden.
+Verwenden Sie die [eingeschränkte Kerberos-Delegierung](/windows-server/security/kerberos/kerberos-constrained-delegation-overview), um eine nahtlose Konnektivität für das einmalige Anmelden zu ermöglichen. Durch das Aktivieren von SSO für Power BI-Berichte und -Dashboards können Daten aus lokalen Datenquellen einfacher aktualisiert werden.
 
 ## <a name="supported-data-sources"></a>Unterstützte Datenquellen
 
@@ -111,8 +111,8 @@ In diesem Abschnitt wird davon ausgegangen, dass Sie bereits SPNs für die zugru
 
 In den folgenden Schritten wird davon ausgegangen, dass Sie eine lokale Umgebung mit zwei Computern besitzen: einem Gatewaycomputer und einem Datenbankserver, der SQL Server ausführt. Für dieses Beispiel wird ebenfalls von folgenden Einstellungen und Namen ausgegangen:
 
-* Gatewaycomputername: **PBIEgwTestGW**
-* Gatewaydienstkonto: **PBIEgwTest\GatewaySvc** (Kontoanzeigename: Gateway Connector)
+* Name des Gatewaycomputers: **PBIEgwTestGW**
+* Gatewaydienstkonto: **PBIEgwTest\GatewaySvc** (Kontoanzeigename: Gatewayconnector)
 * Computername der SQL Server-Datenquelle: **PBIEgwTestSQL**
 * Dienstkonto der SQL Server-Datenquelle: **PBIEgwTest\SQLService**
 
@@ -164,7 +164,7 @@ Schließlich muss dem Gatewaydienstkonto auf dem Computer, auf dem der Gatewaydi
 
 Wenn Sie SAP HANA verwenden, wird empfohlen, diese zusätzlichen Schritte durchzuführen, um die Leistung geringfügig zu verbessern.
 
-1. Suchen Sie im Installationsverzeichnis des Gateways folgende Konfigurationsdatei, und öffnen Sie diese: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
+1. Im Gatewayinstallationsverzeichnis suchen und öffnen Sie diese Konfigurationsdatei: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
 1. Suchen Sie die Eigenschaft *FullDomainResolutionEnabled*, und ändern Sie ihren Wert in *True*.
 
@@ -367,7 +367,7 @@ Wenn Sie Azure AD DirSync nicht konfiguriert haben, führen Sie diese Schritte f
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Hinzufügen einer neuen Datenquelle eines SAP BW-Anwendungsservers zu Power BI
 
-Fügen Sie die SAP BW-Datenquelle zu Ihrem Gateway hinzu: Befolgen Sie die weiter oben in diesem Artikel angeführten Anweisungen zum [Ausführen eines Berichts](#running-a-power-bi-report).
+Fügen Sie die SAP BW-Datenquelle Ihrem Gateway hinzu: Befolgen Sie die weiter oben in diesem Artikel angeführten Anweisungen zum [Ausführen eines Berichts](#running-a-power-bi-report).
 
 1. Geben Sie im Konfigurationsfenster der Datenquelle genau wie bei der Anmeldung beim SAP BW-Server über Power BI Desktop den **Hostnamen**, die **Systemnummer** und die **Client-ID** des Anwendungsservers ein. Wählen Sie **Windows** als **Authentifizierungsmethode** aus.
 

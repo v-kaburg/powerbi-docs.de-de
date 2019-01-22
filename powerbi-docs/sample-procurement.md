@@ -1,23 +1,23 @@
 ---
-title: 'Beispiel zur Beschaffungsanalyse: Tour'
-description: 'Analysebeispiel für Beschaffung für Power BI: Tour'
+title: 'Beispiel für Beschaffungsanalysen: Übersicht'
+description: 'Analysebeispiel für Beschaffung für Power BI: Übersicht'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717146"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287346"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Tour
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Übersicht
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Übersicht über das Analysebeispiel für Beschaffung
 Dieses branchenspezifische Beispiel-Dashboard und der zugrunde liegende Bericht analysieren die Ausgaben eines Fertigungsunternehmens nach Kategorie und Standort. In diesem Beispiel untersuchen wir die folgenden Bereiche:
@@ -71,8 +71,8 @@ Zuerst sehen wir uns Trends bei den Ausgaben nach Kategorie und Standort an.
 
 Beachten Sie die folgenden Punkte:
 
-* Im Liniendiagramm **Gesamtrechnung nach Monat und Kategorie** : Die Ausgaben sind für die Kategorie **Direkt** relativ konstant, **Logistik** weist eine Spitze im Dezember auf, und **Sonstige** weist eine Spitze im Februar auf.
-* In der Karte **Gesamtrechnung nach Land/Region** : Die meisten Ausgaben fallen in den USA an.
+* Im Liniendiagramm **Gesamtrechnung nach Monat und Kategorie**: Die Ausgaben sind für die Kategorie **Direkt** relativ konstant, **Logistik** weist eine Spitze im Dezember auf, und **Sonstige** weist eine Spitze im Februar auf.
+* In der Karte **Gesamtrechnung nach Land/Region**: Die meisten Ausgaben fallen in den USA an.
 * Im Säulendiagramm **Gesamtrechnung nach Unterkategorie**: **Hardware** und **Indirekte Waren und Dienstleistungen** sind die Kategorien mit den höchsten Ausgaben.
 * Im Balkendiagramm „Gesamtrechnung nach Ebene“: Der meiste Geschäftsverkehr wird mit Lieferanten der Ebene 1 (Top 10) abgewickelt. Dies ist für eine bessere Verwaltung der Lieferantenbeziehungen hilfreich.
 
@@ -139,5 +139,5 @@ Wählen Sie in der oberen linken Ecke **Bericht bearbeiten** aus, und führen Si
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie speichern, können Sie immer wieder zu **Daten abrufen** zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
-## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
+## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen einer Verbindung mit den Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards und -Berichte Ihnen Einblicke in Beschaffungsdaten geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).

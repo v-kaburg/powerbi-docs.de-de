@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900562"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289760"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -36,7 +36,7 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Echtzeitstreaming | Nein | Ja | [Echtzeitstreaming in Power BI](../service-real-time-streaming.md)
 | Dashboards | Nein | Ja | [Dashboards im Power BI-Dienst](../consumer/end-user-dashboards.md) 
 | Verteilen von Berichtsgruppen mithilfe von Apps | Nein | Ja | [Erstellen und Veröffentlichen von Apps mit Dashboards und Berichten](../service-create-distribute-apps.md) 
-| Inhaltspakete | Nein | Ja | [Einführung in organisationsbezogene Inhaltspakete in Power BI](../service-organizational-content-pack-introduction.md) 
+| Inhaltspakete | Nein | Ja | [Organisationsinhaltspakete: Einführung](../service-organizational-content-pack-introduction.md) 
 | Herstellen einer Verbindung mit Diensten wie Salesforce | Ja | Ja | [Herstellen eine Verbindung mit den verwendeten Diensten](../service-connect-to-services.md) mithilfe von Inhaltspaketen im Power BI-Dienst. Verwenden Sie im Power BI-Berichtsserver Certified Connectors, um eine Verbindung mit Diensten herzustellen. Weitere Informationen finden Sie unter [Datenquellen für Power BI-Berichte in Power BI-Berichtsserver](data-sources.md).
 | Q&A | Nein | Ja | [Q&A im Power BI-Dienst und in Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Schnelle Einblicke | Nein | Ja | [Automatisches Erstellen von Einblicken in Daten mit Power BI](../consumer/end-user-insights.md) 

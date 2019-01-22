@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296018"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279847"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Leitfaden zum Bereitstellen eines Datengateways für Power BI
 
@@ -40,7 +40,7 @@ Wenn alle Benutzer gleichzeitig auf einen angegebenen Bericht zugreifen, sollten
 Es existiert eine Einschränkung in **Power BI**, die nur *ein* Gateway pro *Bericht* zulässt. Also auch wenn ein Bericht auf mehreren Datenquellen basiert, müssen all diese Datenquellen ein einzelnes Gateway durchlaufen. Wenn jedoch ein Dashboard auf *mehreren* Berichten basiert, können Sie ein dediziertes Gateway für jeden beitragenden Bericht verwenden, um die Gatewaylast zwischen den Berichten zu verteilen, die zu diesem einzelnen Dashboard beitragen.
 
 ### <a name="connection-type"></a>Verbindungstyp
-**Power BI** bietet zwei Arten von Verbindungen, **DirectQuery** und **Import**. Nicht alle Datenquellen unterstützen beide Verbindungstypen, und viele verschiedene Gründe tragen möglicherweise dazu bei, dass jeweils ein Typ bevorzugt wird, z.B. Sicherheitsanforderungen, Leistung, Datenlimits und Datenmodellgrößen. Weitere Informationen zum Verbindungstyp und unterstützten Datenquellen finden Sie in der *Liste der verfügbaren Datenquellentypen* im Artikel [Lokales Datengateway](service-gateway-onprem.md).
+**Power BI** bietet zwei Arten von Verbindungen: **DirectQuery** und **Import**. Nicht alle Datenquellen unterstützen beide Verbindungstypen, und viele verschiedene Gründe tragen möglicherweise dazu bei, dass jeweils ein Typ bevorzugt wird, z.B. Sicherheitsanforderungen, Leistung, Datenlimits und Datenmodellgrößen. Weitere Informationen zum Verbindungstyp und unterstützten Datenquellen finden Sie in der *Liste der verfügbaren Datenquellentypen* im Artikel [Lokales Datengateway](service-gateway-onprem.md).
 
 Je nachdem, welcher Verbindungstyp verwendet wird, kann die Netzwerkgateway-Verwendung variieren. Sie sollten beispielsweise versuchen, wenn möglich **DirectQuery**-Datenquellen von **ScheduledRefresh**-Datenquellen zu trennen (vorausgesetzt, sie befinden sich in unterschiedlichen Berichten und können getrennt werden). Dadurch wird verhindert, dass sich im Gateway tausende DirectQuery-Anforderungen in der Warteschlange befinden, wenn gleichzeitig die morgendlich geplante Aktualisierung eines großen Datenmodells stattfindet,das für das Hauptdashboard des Unternehmens verwendet wird. Berücksichtigen Sie deshalb Folgendes:
 

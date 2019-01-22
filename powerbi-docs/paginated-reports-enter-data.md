@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900403"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295587"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator (Vorschau): Power BI
 
@@ -28,7 +28,7 @@ In diesem Artikel erhalten Sie Informationen zu einem Feature in der neuen Versi
 
 ## <a name="get-started"></a>Erste Schritte
 
-Wenn Sie den Berichts-Generator heruntergeladen und installiert haben, ändert sich der Workflow zum Hinzufügen einer eingebetteten Datenquelle und eines eingebetteten Datensets in Ihren Bericht nicht. In der folgenden Prozedur wird unter **Datenquelle** die neue Option **Daten eingeben** angezeigt.  Die müssen diese Datenquelle einmal pro Bericht einrichten. Anschließend können Sie mehrere Tabellen mit eingegebenen Daten als separate Datasets erstellen, die alle dieselbe Datenquelle verwenden.
+Wenn Sie den Berichts-Generator heruntergeladen und installiert haben, ändert sich der Workflow zum Hinzufügen einer eingebetteten Datenquelle und eines eingebetteten Datensets in Ihren Bericht nicht. In der folgenden Prozedur wird unter **Datenquellen** eine neue Option angezeigt: **Daten eingeben**.  Die müssen diese Datenquelle einmal pro Bericht einrichten. Anschließend können Sie mehrere Tabellen mit eingegebenen Daten als separate Datasets erstellen, die alle dieselbe Datenquelle verwenden.
 
 1. Klicken Sie im Bereich **Berichtsdaten** auf **Neu** > **Dataset**.
 

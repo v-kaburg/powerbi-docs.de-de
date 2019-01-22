@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900104"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292053"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -81,7 +81,7 @@ Anhand der folgenden Fragen (und Antworten) finden Sie schnell die benötigten I
 
 **Antwort:** Sie müssen sicherstellen, dass Ihr Abonnement aktiviert wurde, damit Sie eine Verbindung mit dem Inhaltspaket herstellen können.
 
-**Frage:** Ich möchte **Power BI** für meine US-Behörde verwenden. Wie beginne ich?
+**Frage:** Ich möchte **Power BI** für meine US-Behörde verwenden. Was sind die ersten Schritte?
 
 **Antwort:** Die Registrierungsschritte (auch als *Onboarding* bezeichnet) unterscheiden sich je nach vorhandener Lizenz und Abonnement. Im Artikel zur [Registrierung bei Power BI US Government](service-govus-signup.md) finden Sie weitere Informationen.
 
@@ -95,7 +95,7 @@ Anhand der folgenden Fragen (und Antworten) finden Sie schnell die benötigten I
 
 **Frage:** Mein Konto wird in mehreren Sovereign Clouds bereitgestellt. Wie wähle ich in **Power BI Desktop** aus, mit welcher Cloud eine Verbindung hergestellt werden soll?
 
-**Antwort:** Ab dem **Power BI Desktop**-Release im Juli 2018 können Sie auswählen, welche Cloud Sie verwenden möchten, wenn Sie sich bei **Power BI Desktop** anmelden.
+**Antwort:** Seit dem **Power BI Desktop**-Release im Juli 2018 können Sie auswählen, welche Cloud Sie verwenden möchten, wenn Sie sich bei **Power BI Desktop** anmelden.
 
 
 ## <a name="next-steps"></a>Nächste Schritte

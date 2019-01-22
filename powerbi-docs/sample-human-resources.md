@@ -1,23 +1,23 @@
 ---
-title: 'Beispiel für Personalwesen: Tour'
-description: 'Beispiel für Personalwesen für Power BI: Tour'
+title: 'Beispiel für das Personalwesen: Übersicht'
+description: 'Beispiel für Personalwesen für Power BI: Übersicht'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717870"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293938"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Beispiel für Personalwesen für Power BI: Tour
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Beispiel für Personalwesen für Power BI: Übersicht
 
 ## <a name="overview-of-the-human-resources-sample"></a>Übersicht über das Beispiel für das Personalwesen
 Die Personalabteilung verwendet dasselbe Berichtsmodell für unterschiedliche Unternehmen, auch wenn diese sich nach Branche oder Größe unterscheiden. In diesem Beispiel werfen wir einen Blick auf neu eingestellte Mitarbeiter, aktive Mitarbeiter und Mitarbeiter, die das Unternehmen verlassen haben. Es wird versucht, Trends bei der Personalgewinnungsstrategie zu ermitteln. Hauptsächlich sollen folgende Erkenntnisse gewonnen werden:
@@ -141,5 +141,5 @@ Das [Q&A-Fragefeld](power-bi-tutorial-q-and-a.md) ist der Ort, an dem Sie eine n
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie speichern, können Sie immer wieder zu **Daten abrufen** zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
-## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
+## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen einer Verbindung mit den Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Power BI-Dashboards, das Fragen und Antworten-Modul und Berichte Ihnen Einblicke in Personaldaten geben können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).  

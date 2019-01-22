@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670852"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285114"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problembehandlung bei Aktualisierungsszenarios
 Hier finden Sie Informationen zu verschiedenen Szenarios, auf die Sie möglicherweise stoßen, wenn Daten innerhalb des Power BI-Diensts aktualisiert werden.
@@ -37,7 +37,7 @@ Warten Sie ca. 10 bis 15 Minuten, bis die Aktualisierung auf den Dashboardkachel
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>„GatewayNotReachable“ beim Festlegen von Anmeldeinformationen
 Beim Festlegen der Anmeldeinformationen für eine Datenquelle könnte der Fehler „GatewayNotReachable“ auftreten. Dies könnte das Ergebnis eines veralteten Gateways sein.  Installieren Sie das neueste Gateway und versuchen Sie es erneut.
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Verarbeitungsfehler: Der folgende Systemfehler trat auf: Typ stimmt nicht überein.
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Verarbeitungsfehler: Der folgende Systemfehler ist aufgetreten: Typenkonflikt
 Hierbei könnte es sich um ein Problem mit dem Skript "M" in Ihrer Power BI-Desktopdatei oder einer Excel-Arbeitsmappe handeln.  Er könnte auch durch eine veraltete Desktopversion von Power BI verursacht werden.
 
 ## <a name="tile-refresh-errors"></a>Fehler bei der Kachelaktualisierung

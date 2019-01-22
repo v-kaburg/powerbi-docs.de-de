@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544940"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295533"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Statische Inhalte in Power BI-Berichten
 Sie können den Power BI-Dienst oder Power BI Desktop verwenden, um Textfelder und Formen zu Berichten hinzuzufügen. In beiden Fällen benötigen Sie Berechtigungen zum Bearbeiten des Berichts. Wenn ein Bericht mit Ihnen im Power BI-Dienst geteilt wurde, verfügen Sie nicht über Berechtigungen zur Bearbeitung. 
@@ -58,7 +58,7 @@ Schauen Sie sich an, wie Will mit Power BI Desktop [statische Bilder zu einem Be
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
 3. Um die Form zu positionieren, wählen Sie den grauen Bereich oben aus und ziehen diesen mit dem Mauszeiger. Um die Größe der Form zu ändern, wählen und ziehen Sie einen der Konturziehpunkte. Wie beim Textfeld können Sie auch die genaue Größe oder Position für eine Form festlegen.
 
-> **HINWEIS**: Formen können nicht an ein Dashboard angeheftet werden. Eine Ausnahme bilden die visuellen Elemente beim [Anheften einer Liveseite](service-dashboard-pin-live-tile-from-report.md). 
+> **HINWEIS**: Formen können nicht an ein Dashboard angeheftet werden. Eine Ausnahme bilden die Visuals beim [Anheften einer Live-Seite](service-dashboard-pin-live-tile-from-report.md). 
 > 
 > 
 

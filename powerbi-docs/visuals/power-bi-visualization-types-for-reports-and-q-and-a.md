@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900529"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296798"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 ## <a name="power-bi-visualizations"></a>Power BI-Visualisierungen
@@ -96,7 +96,7 @@ Weitere Informationen finden Sie unter [KPIs in Power BI](power-bi-visualization
 >[!TIP]
 >Diese heben die allgemeine Form einer ganzen Wertereihe hervor, in der Regel im Zeitverlauf.
 
-### <a name="maps-basic-maps"></a>Karten: Einfache Karten
+### <a name="maps-basic-maps"></a>Karten: einfache Karten
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Tipps und Tricks für Kartenvisualisieru
 
 Weitere Informationen finden Sie unter [ArcGIS Maps in Power BI](../power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten
+### <a name="maps-filled-maps-choropleth"></a>Karten: gefüllte Karten (Choropleth)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]

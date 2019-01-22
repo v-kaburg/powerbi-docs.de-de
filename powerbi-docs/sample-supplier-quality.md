@@ -1,23 +1,23 @@
 ---
-title: 'Analysebeispiel für Lieferantenqualität für Power BI: Tour'
-description: 'Analysebeispiel für Lieferantenqualität für Power BI: Tour'
+title: 'Analysebeispiel für Lieferantenqualität für Power BI: Übersicht'
+description: 'Analysebeispiel für Lieferantenqualität für Power BI: Übersicht'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717652"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292980"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Lieferantenqualität für Power BI: Tour
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Lieferantenqualität für Power BI: Übersicht
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Eine kurze Übersicht über das Analysebeispiel für Lieferantenqualität
 Dieses branchenspezifische Beispieldashboard und der zugrunde liegende Bericht legen den Schwerpunkt auf eine der typischen Herausforderungen einer Lieferkette – die Lieferantenqualitätsanalyse.
@@ -46,7 +46,7 @@ Hierbei handelt es sich um echte Daten von obviEnce ([www.obvience.com](http://w
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Wählen Sie das **Analysebeispiel für Lieferantenqualität** aus, und wählen Sie dann **Verbinden**.  
   
-   ![Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier16.png)
+   ![Analysebeispiel für Lieferantenqualität](media/sample-supplier-quality/supplier16.png)
    
 5. Das Inhaltspaket wird in Power BI importiert, und dem aktuellen Arbeitsbereich werden ein neues Dashboard, ein neuer Bericht und ein neues Dataset hinzugefügt. Die neuen Inhalte sind mit einem gelben Sternchen markiert. 
    
@@ -167,5 +167,5 @@ Sehen wir uns ein weiteres Dashboard-Kachel zur Gesamtzahl der Mängel an.
 
 Dies ist eine Umgebung, in der Sie sicher experimentieren können. Sie können sich immer noch entscheiden, Ihre Änderungen nicht zu speichern. Wenn Sie sie speichern, können Sie immer wieder zu **Daten abrufen** zurückkehren, um ein neues Exemplar dieses Beispiels herunterzuladen.
 
-## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen der Verbindung mit Ihren Daten
+## <a name="next-steps-connect-to-your-data"></a>Nächste Schritte: Herstellen einer Verbindung mit den Daten
 Wir hoffen, diese Tour hat Ihnen gezeigt, wie Sie mit Power BI-Dashboards, Q&A und Berichten Einblicke in Daten zur Lieferantenqualität erhalten können. Es ist jetzt an Ihnen – stellen Sie Verbindungen mit Ihren eigenen Daten her. Mit Power BI können Sie Verbindungen zu einer Vielzahl von Datenquellen herstellen. Weitere Informationen zum [Einstieg in Power BI](service-get-started.md).

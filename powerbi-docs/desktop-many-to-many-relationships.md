@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473772"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291071"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>m:n-Beziehungen in Power BI Desktop (Vorschauversion)
 
@@ -25,11 +25,11 @@ Mit dem Feature für *m:n-Beziehungen* in Power BI Desktop können Sie Tabellen 
 
 Die Funktion *m:n-Beziehungen* in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle:** Hierbei kann ein Bericht zwei oder mehr Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
 
-* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Beziehungen* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
+* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
 
-* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
+* **Speichermodus**: Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
 
 ## <a name="enable-the-many-to-many-relationships-preview-feature"></a>Aktivieren des Vorschaufeatures *m: n-Beziehungen*
 

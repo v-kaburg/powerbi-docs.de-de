@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294259"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  
@@ -25,13 +25,13 @@ Anfangs kann diese Aufgabe überwältigend erscheinen. Daher erstellen wir zunä
 ## <a name="who-can-create-a-dashboard"></a>Wer kann ein Dashboard erstellen?
 Das Erstellen eines Dashboards ist eine Funktion für **Ersteller** und erfordert Berechtigungen für die Bearbeitung des Berichts. Bearbeitungsberechtigungen sind für Berichtsersteller verfügbar sowie für diejenigen Kollegen, denen der Ersteller Zugriff gewährt. Ein Beispiel: David erstellt einen Bericht im Arbeitsbereich „ABC“ und fügt Sie als Mitglied zu diesem Arbeitsbereich hinzu. Dann verfügen sowohl Sie als auch David über Bearbeitungsberechtigungen. Wenn andererseits ein Bericht direkt für Sie oder im Rahmen einer [Power BI-App](service-create-distribute-apps.md) freigegeben wurde, Sie den Bericht also nur **nutzen**, können Sie keine Kacheln an ein Dashboard anheften.
 
-> **HINWEIS**: Dashboards sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboards nicht mit Power BI Mobile erstellt werden können, lassen sie sich dort [anzeigen und freigeben](consumer/mobile/mobile-apps-view-dashboard.md).
+> **HINWEIS**: Dashboards sind ein Feature des Power BI-Diensts und nicht von Power BI Desktop. Obwohl Dashboards nicht mit Power BI Mobile erstellt werden können, lassen sie sich dort [anzeigen und freigeben](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Erstellen eines Dashboards durch Anheften von Visuals und Bildern aus einem Bericht
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Erstellen eines Dashboards durch Anheften von Visualisierungen und Bildern aus einem Bericht
 Amanda zeigt Ihnen, wie Sie ein neues Dashboard erstellen, indem Sie Visualisierungen aus einem Bericht anheften. Befolgen Sie dann die Schritte unterhalb des Videos, um das Procedere anhand des Beispiels für die Beschaffungsanalyse selbst auszuprobieren.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ Wir werden eines der Beispiel-Power BI-Datasets importieren, um damit unser neue
 1. Wählen Sie in diesem Arbeitsbereich die Registerkarte **Berichte** aus. Der neu importierte Bericht wird mit einem gelben Sternchen gekennzeichnet. Wählen Sie den Namen des Berichts aus, um ihn zu öffnen.
 
     ![Registerkarte „Berichte“](media/service-dashboard-create/power-bi-reports.png)
-2. Der Bericht wird in der Leseansicht geöffnet. Beachten Sie die zwei Registerkarten am unteren Rand: „Discount Analysis“ und „Spend Overview“. Jede Registerkarte stellt eine Seite des Berichts dar.
+2. Der Bericht wird in der Leseansicht geöffnet. Beachten Sie, dass er am unteren Rand zwei Registerkarten aufweist: „Rabattanalyse“ und „Übersicht über die Ausgaben“. Jede Registerkarte stellt eine Seite des Berichts dar.
     Wählen Sie **Bericht bearbeiten** aus, um den Bericht in der Bearbeitungsansicht zu öffnen.
 
     ![Bericht in der Leseansicht](media/service-dashboard-create/power-bi-reading-view.png)

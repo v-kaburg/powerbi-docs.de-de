@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289126"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284417"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Erstellen eines paginierten Berichts für Power BI-Berichtsserver
 Wie der Name bereits vermuten lässt, können paginierte Berichte viele Seiten aufweisen. Sie verfügen über ein Layout in einem festen Format und ermöglichen eine präzise Anpassung. Bei paginierten Berichten handelt es sich um RDL-Dateien.
@@ -63,7 +63,7 @@ Auf der ersten Seite des Diagramm-Assistenten, **Dataset auswählen**, können S
     ![Diagramm-Assistent: Diagrammtyp](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. Ordnen Sie die Felder durch Ziehen zu den Feldern **Kategorien**, **Reihe** und **Werte** an.
    
-    ![Diagramm-Assistent: Felder anordnen](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![Diagramm-Assistent: Anordnen von Feldern](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Wählen Sie **Weiter** > **Fertig stellen** aus.
 
 ## <a name="step-3-design-your-report"></a>Schritt 3: Entwerfen des Berichts

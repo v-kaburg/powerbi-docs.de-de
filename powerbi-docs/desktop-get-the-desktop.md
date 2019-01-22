@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909592"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281917"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop erwerben
 In **Power BI Desktop** können Sie erweiterte Abfragen, Modelle und Berichte erstellen, die Daten visualisieren. Mit **Power BI Desktop** können Sie Datenmodelle entwerfen, Berichte erstellen und Ihre Arbeit durch die Veröffentlichung im Power BI-Dienst freigeben.  **Power BI Desktop** steht als kostenloser Download zur Verfügung.
@@ -95,8 +95,8 @@ Die folgende Liste zeigt die Mindestanforderungen zur Ausführung von **Power BI
 * .NET 4.5
 * Internet Explorer 9 oder höher
 * **Arbeitsspeicher (RAM):** Mindestens 1 GB freier Arbeitsspeicher, 1,5 GB oder mehr empfohlen.
-* **Bildschirm:** Mindestens 1440 x 900 oder 1600 x 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 x 768 oder 1280 x 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
-* **Windows-Anzeigeeinstellungen:** Wenn Ihre Anzeigeeinstellungen so konfiguriert sind, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder möglicherweise nicht sichtbar, die geschlossen oder bearbeitet werden müssen, damit Sie weiter in **Power BI Desktop** arbeiten können. Wenn dieses Problem auftritt, überprüfen Sie Ihre **Anzeigeeinstellungen**; wählen Sie dazu in Windows **Einstellungen > System > Anzeige** aus, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100 % zurück.
+* **Bildschirm:** Mindestens 1440 × 900 oder 1600 × 900 (16:9) empfohlen. Geringere Auflösungen, z. B. 1024 x 768 oder 1280 x 800, werden nicht empfohlen, da zum Anzeigen bestimmter Steuerelemente (z. B. das Schließen des Startbildschirms) eine höhere Auflösung erforderlich ist.
+* **Windows-Anzeigeeinstellungen:** Wenn Ihre Anzeigeeinstellungen so konfiguriert sind, dass die Größe von Text, Apps und anderen Elementen auf mehr als 100 % geändert wird, sind einige Dialogfelder möglicherweise nicht sichtbar, die zum Fortsetzen der Arbeit in **Power BI Desktop** geschlossen oder bearbeitet werden müssen. Wenn dieses Problem auftritt, überprüfen Sie Ihre **Anzeigeeinstellungen**; wählen Sie dazu in Windows **Einstellungen > System > Anzeige** aus, und setzen Sie die Anzeigeeinstellungen mithilfe des Schiebereglers auf 100 % zurück.
 * **CPU:** x86- oder x64-Prozessor mit 1 Gigahertz (GHz) oder schneller empfohlen.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
@@ -115,7 +115,7 @@ In der Regel können Sie dieses Problem beheben, indem Sie Power BI Desktop auf 
 Es empfiehlt sich, ein Update auf die neueste Version von Power BI Desktop auszuführen, um von neuen Features, Verbesserungen bei Leistung und Stabilität sowie weiteren Vorteilen zu profitieren. In einigen Organisationen ist es aber möglicherweise nicht erwünscht, dass Benutzer bei jeder neuen Version ein Update ausführen. Sie können Benachrichtigungen deaktivieren, indem Sie mithilfe der folgenden Schritte die Registrierung ändern:
 
 1. Navigieren Sie im Registrierungs-Editor zu *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*.
-2. Erstellen Sie dort einen neuen Eintrag mit den folgenden Einstellungen: *REG_DWORD : DisableUpdateNotification*.
+2. Erstellen Sie dort einen neuen Eintrag mit den folgenden Einstellungen: *REG_DWORD: DisableUpdateNotification*
 3. Legen Sie den Wert dieses neuen Eintrags auf **1** fest.
 
 Sie müssen den Computer neu starten, damit die Änderung wirksam wird.

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072219"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287630"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Self-Service-Datenaufbereitung in Power BI (Vorschau)
 
@@ -92,7 +92,7 @@ Die folgende Tabelle beschreibt Dataflowfeatures und ihre Kapazitäten beim Verw
 |Verknüpfte Dataflowentitäten| |        +|
 |Standardisiertes Schema/integrierte Common Data Model-Unterstützung|  +|  +|
 
-Weitere Informationen über das Aktivieren von Datenfluss-Workloads in Premium-Kapazität finden Sie im Artikel [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads) für Power BI Premium.
+Weitere Informationen über das Aktivieren von Datenfluss-Workloads in Premium-Kapazität finden Sie im Artikel [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads) für Power BI Premium. Dataflowworkloads sind in Multi-Geo-Kapazitäten zurzeit nicht verfügbar.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Zusammenfassung: Self-Service-Datenaufbereitung für Big Data in Power BI
 Wie bereits in diesem Artikel erwähnt, gibt es mehrere Szenarien und Beispiele, wie Sie mit **Dataflows** Ihre Geschäftsdaten besser kontrollieren und daraus schneller Informationen gewinnen können. Mit einem Standarddatenmodell (Schema), das durch das Common Data Model definiert ist, können Dataflows Ihre wertvollen Geschäftsdaten importieren und in kürzester Zeit zum Modellieren und Erstellen von BI-Informationen bereitstellen. All das dauerte bislang Monate, wenn nicht gar länger. 

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548601"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296721"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -95,19 +95,19 @@ Unten im aktualisierten Bericht ist zu erkennen, dass die Berichtskomponenten li
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Abbildung 2:    Wenig ansprechender Bericht mit Verbesserungen aufgrund der Bearbeitung des Layouts**
+**Abbildung 2:    Unser Beispiel für einen wenig ansprechenden Bericht mit Layoutverbesserungen**
 
 Power BI enthält Tools, die Sie beim Ausrichten der visuellen Elemente unterstützen. Wenn Sie in Power BI Desktop mehrere visuelle Elemente markiert haben, können Sie im Menüband auf der Registerkarte **Visuelle Elemente** die Optionen unter **Ausrichten oder verteilen** verwenden, um die Position von visuellen Elementen anzugleichen.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Abbildung 3:    Ausrichten von visuellen Elementen in Power BI Desktop**
+**Abbildung 3:    Ausrichten von Visuals in Power BI Desktop**
 
 In Power BI Online und Power BI Desktop können Sie auch die Größe und Position von visuellen Elementen präzise steuern, indem Sie im Formatierungsbereich für alle Elemente die Registerkarte **Allgemein** verwenden:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Abbildung 4:    Festlegen der genauen Position für ein visuelles Element**
+**Abbildung 4:    Festlegen der genauen Position für Ihr Visual**
 
 Auf der Berichtsseite in unserem Beispiel (Abbildung 2) sind die beiden Karten und der große Rahmen nach der **X-Position** bei 200 ausgerichtet.
 
@@ -121,11 +121,11 @@ Hier ist eine Berichtsseite dargestellt, für die einmal das Format 4:3 und dann
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Abbildung 5a: Bericht mit einem Seitenverhältnis von 4:3**
+**Abbildung 5a:    Bericht mit einem Seitenverhältnis von 4:3**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Abbildung 5b: Bericht mit einem Seitenverhältnis von 16:9**
+**Abbildung 5b:    Bericht mit einem Seitenverhältnis von 16:9**
 
 Soll Ihr Bericht im Format 4:3, 16:9 oder einem anderen Format angezeigt werden? Auf kleinen oder großen Bildschirmen? Oder für alle möglichen Bildschirmformate und -größen?  Berücksichtigen Sie dies beim Entwerfen.
 
@@ -146,7 +146,7 @@ Hier sieht unser Beispiel schon besser aus. Wir haben die Unübersichtlichkeit b
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Abbildung 7:    Beseitigung der Unübersichtlichkeit des wenig ansprechenden Berichts**
+**Abbildung 7:    Verbesserte Übersichtlichkeit des wenig ansprechenden Berichts**
 
 ### <a name="tell-a-story-at-a-glance"></a>Eine ganze Geschichte auf einen Blick
 Der ultimative Test ist: Eine Person ohne Vorkenntnisse muss den Bericht schnell verstehen können, ohne dass sie eine Erklärung erhält. Leser sollten auf den ersten Blick erkennen können, um was es auf der Seite und in den einzelnen Diagrammen und Tabellen geht.   
@@ -188,13 +188,13 @@ Wie sieht unsere Beispielseite jetzt aus?  Abbildung 11 zeigt eine aufgeräumter
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Abbildung 11: Berichtsbeispiel mit Texthinweisen und Titel**
+**Abbildung 11:    Berichtsbeispiel mit angewendeten Texthinweisen und hinzugefügtem Titel**
 
 Im Beispiel wurde oben links ein Titel für die Berichtsseite eingefügt, also an der Stelle, die sich Leser als Erstes ansehen. Der Schriftgrad ist 28, und die Schriftart ist Segoe Bold, damit der Text gegenüber den anderen Seitenelementen hervorgehoben ist.  In unserer Stilvorgabe wird Folgendes gefordert: keine Hintergründe, Titeltext in Schwarz, Legenden und Beschriftungen. Diese Vorgaben wurden auf alle visuellen Elemente der Seite angewendet, soweit dies möglich war (die Achsen und Beschriftungen des Kombinationsdiagramms sind nicht änderbar).  Außerdem wurde Folgendes durchgeführt:
 
 * Karten: **Kategoriebeschriftung** auf „Aus“ und **Titel** auf „Ein“ festgelegt und „12 Pt., Schwarz, Zentriert“ ausgewählt.
 * Titel von visuellen Elementen: Bei „Ein“ Auswahl von „12 Pt., Linksbündig“.
-* Datenschnitt: **Kopfzeile** auf „Aus“ und **Titel** auf „Ein“. Behalten Sie für **Elemente** > **Text** die Einstellung „Grau, 10 Pt.“ bei.
+* Slicer: **Kopfzeile** auf „Aus“ und **Titel** auf „Ein“. Behalten Sie für **Elemente** > **Text** die Einstellung „Grau, 10 Pt.“ bei.
 * Punkt- und Säulendiagramme: Schwarze Schrift für X- und Y-Achsen und Titel von X- und Y-Achsen, falls zutreffend.
 
 #### <a name="color"></a>Farbe
@@ -233,25 +233,25 @@ Die beiden Datenschnitte wiesen eine unterschiedliche Formatierung auf, was nich
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-background.png)
 
-**Abbildung 14: Ändern der Hintergrundfarbe für den Datenschnitt**
+**Abbildung 14: Ändern der Hintergrundfarbe für den Slicer**
 
 Fügen Sie einen dünnen weißen Rahmen hinzu.
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-outline.png)
 
-**Abbildung 15: Hinzufügen eines Rahmens für den Datenschnitt**
+**Abbildung 15: Hinzufügen eines Rahmens für den Slicer**
 
 Die graue Farbe ist auf dem Aquamarin-Hintergrund nicht gut zu sehen. Ändern Sie die Farbe für **Elemente** daher in Weiß.
 
 ![](media/power-bi-visualization-best-practices/power-bi-slicer-items.png)
 
-**Abbildung 16: Ändern der Schriftfarbe des Datenschnitts**
+**Abbildung 16: Ändern der Schriftfarbe des Slicers**
 
 Ändern Sie abschließend unter **Titel** die Option **Schriftfarbe** in Weiß, und legen Sie **Hintergrundfarbe** auf „Schwarz“ fest.
 
 ![](media/power-bi-visualization-best-practices/power-bi-card-formatting.png)
 
-**Abbildung 17: Formatieren des Titels für den Datenschnitt**
+**Abbildung 17: Formatieren des Titels für den Slicer**
 
 **Rechteckige Form**
 
@@ -275,7 +275,7 @@ Fügen Sie den restlichen visuellen Elementen auf der Berichtsseite einen weiße
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Abbildung 21: Berichtsbeispiel mit Anwendung von bewährten Methoden für Farbe (weißer Hintergrund)**
+**Abbildung 21:    Berichtsbeispiel mit Anwendung von bewährten Methoden für Farbe (weißer Hintergrund)**
  
 
 ### <a name="aesthetics"></a>Ästhetik
@@ -319,13 +319,13 @@ Erstellen Sie also visuelle Elemente, mit denen die Realität nicht absichtlich 
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Abbildung 22: Diagramm mit Verzerrung der Realität**
+**Abbildung 22:    Diagramm mit Verzerrung der Realität**
 
 In diesem Beispiel wird der Eindruck erweckt, als ob zwischen den vier Unternehmen ein großer Unterschied besteht und als ob CorpB deutlich erfolgreicher als die anderen drei Unternehmen ist.  Beachten Sie aber, dass die X-Achse nicht bei Null beginnt und dass die Unterschiede zwischen den Unternehmen sich innerhalb des Fehlerquotenbereichs bewegen.  Unten sind die gleichen Daten in einem Diagramm dargestellt, bei dem die X-Achse bei Null beginnt.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Abbildung 23: Realistisches Diagramm**
+**Abbildung 23:    Realistisches Diagramm**
 
 Leser erwarten es und setzen es häufig als gegeben voraus, dass die X-Achse bei Null beginnt. Wenn bei Ihnen die X-Achse nicht bei Null beginnt, sollten Sie darauf achten, dass das Ergebnis nicht verzerrt wird. Erwägen Sie, einen visuellen Hinweis oder ein Textfeld einzufügen, um auf die Abweichung von der normalen Vorgehensweise hinzuweisen.  
 
@@ -347,11 +347,11 @@ Falls Sie bestimmte Zeiträume besonders hervorheben möchten, können Sie Linie
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Abbildung 24: Vorher**
+**Abbildung 24:    Vorher**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Abbildung 25: Nachher**
+**Abbildung 25:    Nachher**
 
 **So aktivieren bzw. deaktivieren Sie Achsentitel**
 
@@ -359,7 +359,7 @@ Markieren Sie das visuelle Element, um es zu aktivieren, und öffnen Sie den For
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Abbildung 26: Aktivieren bzw. Deaktivieren von Achsentiteln**
+**Abbildung 26:    Aktivieren und Deaktivieren von Achsentiteln**
 
 **So aktivieren bzw. deaktivieren Sie Achsenbeschriftungen**
 
@@ -367,7 +367,7 @@ Markieren Sie das visuelle Element, um es zu aktivieren, und öffnen Sie den For
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-**Abbildung 27: Aktivieren bzw. Deaktivieren von Achsenbeschriftungen**
+**Abbildung 27: Aktivieren und Deaktivieren von Achsenbeschriftungen**
 
 > [!TIP]
 > Ein Fall, in dem Sie die Beschriftungen der Y-Achse deaktivieren können, ist die Nutzung von aktivierten **Datenbeschriftungen**.
@@ -380,7 +380,7 @@ Markieren Sie das visuelle Element, um es zu aktivieren, und öffnen Sie den For
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Abbildung 28: Entfernen von Titeln aus visuellen Elementen**
+**Abbildung 28:    Entfernen von Titeln von Visuals**
 
 Überlegen Sie, wie die Leser den Bericht anzeigen, und stellen Sie sicher, dass die visuellen Elemente und Texte groß genug und dunkel genug sind, damit sie gut gelesen werden können. Falls die Seite ein überproportional großes visuelles Element enthält, gehen die Leser unter Umständen davon aus, dass es sich um das wichtigste Element handelt. Lassen Sie zwischen den visuellen Elementen genügend Platz, damit der Bericht nicht überladen und verwirrend aussieht.  Richten Sie die visuellen Elemente so aus, dass die Augen der Leser richtig geleitet werden.
 
@@ -390,7 +390,7 @@ Wählen Sie das visuelle Element aus, um es zu aktivieren. Verschieben Sie einen
 
 ![](media/power-bi-visualization-best-practices/power-bi-drag-handles.png)
 
-**Abbildung 29: Ändern der Größe eines visuellen Elements**
+**Abbildung 29: Ändern der Größe eines Visuals**
 
 **So verschieben Sie ein visuelles Element**
 
@@ -398,7 +398,7 @@ Wählen Sie das visuelle Element aus, um es zu aktivieren. Ziehen Sie das visuel
 
 ![](media/power-bi-visualization-best-practices/power-bi-move.png)
 
-**Abbildung 30: Verschieben eines visuellen Elements**
+**Abbildung 30: Verschieben eines Visuals**
 
 #### <a name="titles-and-labels-that-are-part-of-the-visualizations"></a>Titel und Beschriftungen in Visualisierungen
 Achten Sie darauf, dass Titel und Beschriftungen gut lesbar und selbsterklärend sind. Der Text von Titeln und Beschriftungen muss eine optimale Größe und eine auffällige Farbe haben (z.B. Schwarz anstelle der Standardeinstellung Grau). Erinnern Sie sich an unsere Stilvorgabe (siehe Abschnitt „Text“ weiter oben)? Begrenzen Sie die Anzahl unterschiedlicher Farben und Größen. Wenn zu viele verschiedene Schriftgrößen und Farben verwendet werden, sieht die Seite überladen und verwirrend aus.  Erwägen Sie, die gleiche Schriftfarbe und -größe für die Titel aller visuellen Elemente einer Berichtsseite zu nutzen, und wählen Sie die gleiche Ausrichtung für alle Titel einer Berichtsseite.  
@@ -415,7 +415,7 @@ Wählen Sie anschließend das anzupassende visuelle Element aus, und vergewisser
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
-**Abbildung 32: Formatieren des Titels eines visuellen Elements**
+**Abbildung 32: Formatieren des Titels eines Visuals**
 
 **Festlegen der Textgröße**
 
@@ -443,7 +443,7 @@ Damit die Berichtsseite nicht zu verwirrend oder voll aussieht, ist es ratsam, b
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Abbildung 33: Formatieren der Schriftart für das Textfeld**
+**Abbildung 33: Formatieren der Schriftart in einem Textfeld**
 
 #### <a name="sorting"></a>Sortierung
 Eine sehr einfache Möglichkeit zur Förderung des Verständnisses ist das Sortieren der visuellen Elemente. Wenn Sie Balkendiagramme beispielsweise anhand des Werts der Balken in absteigender oder aufsteigender Reihenfolge sortieren, können Sie signifikante inkrementelle Informationen schnell anzeigen, ohne dass mehr Platz verbraucht wird.
@@ -455,7 +455,7 @@ Eine der interessantesten Funktionen von Power BI ist die Möglichkeit zum Ände
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-**Abbildung 34: Visuelle Interaktionen**
+**Abbildung 34: Visualinteraktionen**
 
 Entscheiden Sie dann für jedes visuelle Element auf der Seite, ob das ausgewählte visuelle Element für die Filterung oder Hervorhebung verwendet werden oder ob keine Aktion durchgeführt werden soll. Nicht alle visuellen Elemente können hervorgehoben werden, und das Steuerelement für die Hervorhebung ist dann nicht verfügbar. Weitere Informationen finden Sie unter [Interaktionen mit Visualisierungen in einem Power BI-Bericht](../consumer/end-user-interactions.md).
 
@@ -485,7 +485,7 @@ Die einfachste Möglichkeit zur Verwendung von Farben besteht darin, die Farbe v
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Abbildung 35: Verwenden von Farben zum Erzählen einer Geschichte**
+**Abbildung 35:    Verwenden von Farben zum Erzählen einer Geschichte**
 
 Sie können die Farbe von Datenpunkten im Formatierungsbereich auf der Registerkarte **Datenfarben** ändern. Stellen Sie sicher, dass **Alle anzeigen** auf „Ein“ festgelegt ist, wenn Sie jeden Datenpunkt einzeln anpassen möchten.
 
@@ -506,7 +506,7 @@ In Power BI Desktop können Sie sogar Ausreißer oder einen bestimmten Abschnitt
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Abbildung 38: Verwenden von Desktop zum Darstellen von Ausreißern**
+**Abbildung 38:    Verwenden von Desktop zum Darstellen von Ausreißern**
 
 Hier sind in der Reihe „Ausreißer“ nur Werte enthalten, wenn die Durchschnittstemperatur für den Monat August unter 15,5 °C (60 °F) gefallen ist. Hierfür wurde mit der folgenden Formel per DAX-Berechnung eine Spalte erstellt:
 
@@ -557,7 +557,7 @@ Farben können auch verwendet werden, um die Varianz für einen Hauptwert hervor
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Abbildung 44: Farbe zum Hervorheben der Varianz für einen Hauptwert**
+**Abbildung 44:    Farbe zum Hervorheben der Varianz für einen Hauptwert**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Grundlagen des Entwurfs von visuellen Elementen – Anwendung auf die Berichtsseite aus dem Beispiel
@@ -567,7 +567,7 @@ Vorher
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Abbildung 45: Beispielbericht (vorher)**
+**Abbildung 45:    Beispielbericht (vorher)**
 
 Nachher
 
@@ -595,7 +595,7 @@ Im Beispiel unten sind die Trends bei der Anzahl von vergebenen Medaillen und de
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Abbildung 47: Liniendiagramme**
+**Abbildung 47:    Liniendiagramme**
 
 #### <a name="best-practices"></a>Bewährte Methoden
 * Beim Ansehen von Liniendiagrammen fällt Benutzern zuerst die Form der Kurve auf.  Dies bedeutet, dass Sie eine X-Achse benötigen, damit die Kurve aussagekräftig ist, z.B. mit Zeit- oder Verteilungskategorien.  Wenn Sie auf der X-Achse Kategoriefelder wie „Produkt“ oder „Geografische Region“ anordnen, ist das Liniendiagramm uninteressant, da die Form der Kurve keine Aussagekraft hat.
@@ -644,13 +644,13 @@ Wenn Liniendiagramme der Standard für die Darstellung von Daten in Abhängigkei
   
   ![](media/power-bi-visualization-best-practices/power-bi-drill.png)
   
-  **Abbildung 53: Drilldown**
+  **Abbildung 53: Drilldown ausführen**
 
 Ausführlichere Informationen zu Balken- und Säulendiagrammen finden Sie auf den folgenden Seiten:
 
 * [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts) (Grundlagen von Balkendiagrammen)
-* [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Katalog zu Datenvisualisierungen: Balkendiagramm)
-* [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Katalog zu Datenvisualisierungen: Multiset-Balkendiagramm)
+* [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Katalog für Datenvisualierungen: Balkendiagramm)
+* [Data Visualization Catalogue: Multi-Set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Katalog für Datenvisualierungen: Multiset-Balkendiagramm)
 
 ### <a name="stacked-barcolumn-charts"></a>Gestapelte Balken-/Säulendiagramme
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -682,13 +682,13 @@ In diesem Liniendiagramm ist leicht erkennbar, dass der Umsatzanstieg für „Co
 
 Weitere Informationen zu gestapelten Diagrammen:
 
-* [Data Visualization Catalogue: Stacked bar graphs](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top) (Katalog zu Datenvisualisierungen: Gestapelte Balkendiagramme)
+* [Data Visualization Catalogue: Stacked bar graphs](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top) (Katalog für Datenvisualisierungen: Gestapelte Balkendiagramme)
 * [When are 100% stacked bar graphs useful?](http://www.perceptualedge.com/blog/?p=2239) (Wann sind „Gestapelte Balkendiagramme (100 %)“ sinnvoll?)
 
 ### <a name="combo-barcolumn-charts"></a>Kombinationsdiagramme (Balken/Säulen)
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-In Power BI können Sie Säulen- und Liniendiagramme zu einem Kombinationsdiagramm kombinieren. Die Optionen lauten: „Linien- und gestapeltes Säulendiagramm“ und „Linien- und gruppiertes Säulendiagramm“. Sparen Sie wertvollen Platz im Zeichenbereich, indem Sie zwei separate visuelle Elemente kombinieren.
+In Power BI können Sie Säulen- und Liniendiagramme zu einem Kombinationsdiagramm kombinieren. Die Optionen sind: „Linien- und gestapeltes Säulendiagramm“ und „Linien- und gruppiertes Säulendiagramm“. Sparen Sie wertvollen Platz im Zeichenbereich, indem Sie zwei separate visuelle Elemente kombinieren.
 
 Die beiden Screenshots unten zeigen den Zustand vorher und nachher.  Die erste Seite enthält zwei separate visuelle Elemente: ein Säulendiagramm mit der Bevölkerungszahl in Abhängigkeit der Zeit und ein Liniendiagramm mit dem Bruttoinlandsprodukt (BIP) in Abhängigkeit der Zeit. Diese Diagramme sind ein guter Kandidat für ein Kombinationsdiagramm, weil sie über die gleiche X-Achse (Jahr) und die gleichen Werte (2002 bis 2012) verfügen.  Warum kombinieren wir die Diagramme nicht, um die beiden Trends in einem visuellen Element gemeinsam anzuzeigen und zu vergleichen?  Die Kombination dieser beiden Diagramme ermöglicht einen schnelleren Vergleich der Daten.
 
@@ -700,7 +700,7 @@ Die neue Berichtsseite enthält nur noch ein visuelles Element: ein Linien- und 
 
 ![](media/power-bi-visualization-best-practices/power-bi-spain-combo.png)
 
- **Abbildung 58: Kombinationsdiagramm**
+ **Abbildung 58: Einzelnes Kombinationsdiagramm**
 
 #### <a name="best-practices"></a>Bewährte Methoden
 Kombinationsdiagramme funktionieren am besten, wenn beide visuellen Elemente mindestens eine gleiche Achse aufweisen.
@@ -777,7 +777,7 @@ Hier haben wir eine zusätzliche Datenebene (Region) hinzugefügt und sehen den 
 Weitere Informationen zu Strukturdiagrammen finden Sie unter den unten angegebenen Links.
 
 * [Treemaps overview](http://www.perceptualedge.com/articles/b-eye/treemaps.pdf) (Übersicht über Strukturdiagramme)
-* [Data Visualization Catalogue: Tree maps](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y) (Katalog zu Datenvisualisierungen: Strukturdiagramme)
+* [Data Visualization Catalogue: Tree maps](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y) (Katalog für Datenvisualisierungen: Strukturkarten)
 
 ### <a name="other-charts"></a>Andere Diagramme
 #### <a name="pie-or-donut-charts"></a>Kreis- oder Ringdiagramme
@@ -809,7 +809,7 @@ Weitere Informationen finden Sie unter:
 Sie können diese bewährten Methoden jetzt in der Praxis testen.  Bleiben Sie mit uns in Kontakt. Wir würden uns freuen, wenn Sie uns über Ihre bewährten Methoden informieren würden. Sind Sie anderer Meinung, oder haben Sie einen guten Grund, die „Regeln zu brechen“?  Auch an diesen Informationen sind wir interessiert.  
 
 ### <a name="book-recommendations"></a>Buchempfehlungen
-Es sind viele gute Bücher erhältlich, mit denen sich Teams über Entwurfstechniken für visuelle Elemente informieren können. Ein wichtiges Buch ist *Information Dashboard Design* von Stephen Few. In zwei anderen Büchern, *Show Me the Numbers* und *Now You See It* geht er mehr ins Detail. Stephen Few und andere haben sich von Edward R. Tufte inspirieren lassen, dessen Buch *The Visual Display of Quantitative Information* als Klassiker in diesem Bereich angesehen wird. Weitere Bücher von Edward R. Tufte sind *Visual Explanations*, *Envisioning Information* und *Beautiful Evidence*. Eine weitere Option ist das neue Buch *Data Visualization: A Handbook for Data Driven Design* von Andy Kirk. Weitere empfehlenswerte Autoren sind: Lachlan James, William McKnight und Boris Evelson (Forrester), Darkhorse Analytics.
+Es sind viele gute Bücher erhältlich, mit denen sich Teams über Entwurfstechniken für visuelle Elemente informieren können. Ein wichtiges Buch ist *Information Dashboard Design* von Stephen Few. In zwei anderen Büchern, *Show Me the Numbers* und *Now You See It* geht er mehr ins Detail. Stephen Few und andere haben sich von Edward R. Tufte inspirieren lassen, dessen Buch *The Visual Display of Quantitative Information* als Klassiker in diesem Bereich angesehen wird. Weitere Bücher von Edward R. Tufte sind *Visual Explanations*, *Envisioning Information* und *Beautiful Evidence*. Das neue Buch von Andy Kirk, *Data Visualization: A Handbook for Data Driven Design* ist eine weitere hervorragende Option. Die folgenden Autoren werden ebenfalls empfohlen: Lachlan James, William McKnight und Boris Evelson (Forrester), Darkhorse Analytics.
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

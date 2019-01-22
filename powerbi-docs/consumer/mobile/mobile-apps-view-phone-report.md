@@ -1,20 +1,20 @@
 ---
 title: Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 description: Erfahren Sie, wie Sie mit Berichtsseiten interagieren, die für die Anzeige in Power BI-Smartphone-Apps optimiert sind.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547796"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276904"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Anzeigen von Power BI-Berichten, die für das Smartphone optimiert sind
 
@@ -48,7 +48,7 @@ Wenn bei einem für das Smartphone optimierten Bericht Filter definiert wurden, 
     ![Erweiterter Filter für Power BI-Smartphonebericht](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Kreuzhervorhebung visuelle Objekte
-Die Kreuzhervorhebung visueller Elemente in Smartphoneberichten erfolgt auf die gleiche Weise wie im Power BI-Dienst und in Berichten auf Smartphones in der Querformatansicht: Wenn Sie Daten in einem visuellen Element auswählen, werden zugehörige Daten in den anderen visuellen Elementen auf dieser Seite hervorgehoben.
+Die Kreuzhervorhebung von Visuals in Smartphoneberichten erfolgt genauso wie im Power BI-Dienst und in Berichten auf Smartphones im Querformat: Wenn Sie Daten in einem Visual auswählen, werden die verknüpften Daten in den anderen Visuals auf der jeweiligen Seite hervorgehoben.
 
 Erfahren Sie mehr über das [Filtern und Hervorheben in Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -70,7 +70,7 @@ Aufgrund der Einschränkungen durch die Bildschirmgröße können manche Aktione
 
 * **Durchführen eines Drilldowns** auf die Informationen in einem visuellen Element. Weitere Informationen über das Durchführen von [Drilldown und Drillup](mobile-apps-view-phone-report.md#drill-down-in-a-visual) in einem Smartphonebericht finden Sie weiter unten.
 * **Sortieren** der Werte im visuellen Element.
-* **Zurücksetzen**: Löschen der Untersuchungsschritte, die Sie für ein visuelles Element durchgeführt haben, und Wiederherstellen der Definition, die bei der Erstellung des Berichts festgelegt wurde.
+* **Wiederherstellen**: Löschen der Untersuchungsschritte, die Sie für ein visuelles Element durchgeführt haben, und Wiederherstellen der Definition, die bei der Erstellung des Berichts festgelegt wurde.
   
     Um alle Untersuchungsschritte aus einem visuellen Element zu löschen, tippen Sie auf die Auslassungspunkte (**...** ) und dann auf **Zurücksetzen**.
   

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619630"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280054"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -34,13 +34,13 @@ Wenn Sie einen Bericht anzeigen, sollte der Überprüfungsmodus deaktiviert sein
 Sie können den Fokus zwischen den Seitenregisterkarten von Berichten oder den Objekten auf einer bestimmten Berichtsseite mithilfe von **STRG+F6** wechseln.
 
 * Verwenden der *TAB*-Taste oder der *PFEILTASTEN* zum Bewegen des Fokus von einer Berichtsseite zur nächsten, wenn sich der Fokus auf *Seitenregisterkarten des Berichts* befindet. Der Titel der Berichtsseite und ihr aktueller Auswahlstatus werden von der Sprachausgabe vorgelesen. Um die Berichtsseite zu laden, die aktuell den Fokus hat, können die *EINGABETASTE* oder die *LEERTASTE* verwendet werden.
-* Wenn der Fokus auf einer geladenen *Berichtsseite* liegt, verwenden Sie die *TAB*-Taste, um den Fokus auf die einzelnen Objekte auf der Seite zu bewegen. Zu diesen zählen alle Textfelder, Bilder, Formen und Diagramme. Die Sprachausgabe liest den Typ des Objekts und sofern vorhanden den Titel und die Beschreibung des Objekts. 
+* Wenn der Fokus auf einer geladenen *Berichtsseite* liegt, verwenden Sie die *TAB*-Taste, um den Fokus auf die einzelnen Objekte auf der Seite zu bewegen. Zu diesen zählen alle Textfelder, Bilder, Formen und Diagramme. Die Sprachausgabe liest den Typ des Objekts, den Titel (sofern vorhanden) und die Beschreibung des Objekts, falls sie vom Autor des Berichts angegeben wurde. 
 
-Beim Navigieren zwischen Visuals können Sie weitere Aktionen ausführen. Sie können **ALT+UMSCHALT+F10** drücken, um den Visualheader zu fokussieren, der verschiedene Optionen enthält, dazu gehört das Sortieren, das Exportieren der Daten hinter dem Diagramm und der Fokusmodus. 
+Beim Navigieren zwischen Visuals können Sie **ALT+UMSCHALT+F10** drücken, um den Visualheader zu fokussieren. Dieser enthält verschiedene Optionen, darunter das Sortieren, das Exportieren der Daten hinter dem Diagramm und der Fokusmodus. 
 
 ![Drücken Sie in Power BI Desktop ALT+UMSCHALT+F10, um den Fokus auf den Visualheader zu verschieben.](media/desktop-accessibility/accessibility_08.png)
 
-Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fensters *Daten anzeigen* zu öffnen. Dadurch können Sie die im Visual verwendeten Daten in einer HTML-Tabelle untersuchen, und dabei die gleichen Tastenkombinationen verwenden, die Sie normalerweise mit der Sprachausgabe verwenden. 
+Sie können **ALT+UMSCHALT+F11** drücken, um eine barrierefreie Version des Fensters *Daten anzeigen* zu öffnen. Dadurch können Sie die im Visual verwendeten Daten in einer HTML-Tabelle untersuchen und dabei die gleichen Tastenkombinationen verwenden, die Sie normalerweise mit der Sprachausgabe verwenden. 
 
 ![Drücken Sie in Power BI Desktop ALT+UMSCHALT+F11, um eine barrierefreie Version des Fensters „Daten anzeigen“ für ein Visual zu öffnen.](media/desktop-accessibility/accessibility_04.png)
 
@@ -141,7 +141,7 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 ### <a name="pane-navigation"></a>Navigationsbereich
 | Zweck           | Tastenkombination                |
 | :------------------- | :------------------- |
-| Kontextmenü öffnen | <ul><li>Windows-Tastatur: Taste mit dem Windows-Logo+F10  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastaturen: UMSCHALT+F10</li></ul> |
+| Kontextmenü öffnen | <ul><li>Windows-Tastatur: Windows-Taste + F10.  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastatur: UMSCHALT+F10</li></ul> |
 
 ### <a name="slicer"></a>Slicer
 | Zweck           | Tastenkombination                |
@@ -170,7 +170,10 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 | Alle Vorkommen der aktuellen Auswahl auswählen | STRG+UMSCHALT+L |
 | Alle Vorkommen des aktuellen Worts auswählen | STRG+F2 |
 
-
+### <a name="enter-data"></a>Daten eingeben
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Bearbeitbares Raster beenden | STRG + TAB |
 
 
 ## <a name="next-steps"></a>Nächste Schritte

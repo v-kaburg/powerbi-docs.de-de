@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578495"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276972"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Facebook-Analysen mit Power BI Desktop
 
@@ -187,7 +187,7 @@ Das Diagramm sieht nun schon viel besser aus, die Datenbeschriftungen haben jedo
 2. Wählen Sie im Power Query-Editor die Spalte **Anzahl von Kommentaren**, und ändern Sie den Datentyp in **Ganze Zahl**, indem Sie eine der folgenden Vorgehensweisen wählen: 
    - Wählen Sie das Symbol **1.2** neben der Spaltenüberschrift **Anzahl von Kommentaren** und anschließend in der Dropdownliste **Ganze Zahl** aus.
    - Klicken Sie mit der rechten Maustaste auf die Spaltenüberschrift und wählen **Typ ändern > Ganze Zahl** aus.
-   - Wählen Sie auf der Registerkarte „Start“ in der Gruppe **Transformieren** die Option **Datentyp: Dezimalzahl**, oder auf der Registerkarte **Transformieren** in der Gruppe **Beliebige Spalte** die Option **Ganze Zahl**.
+   - Wählen Sie die Option **Datentyp: Dezimalzahl** auf der Registerkarte „Start“ in der Gruppe **Transformieren** oder die Option **Ganze Zahl** auf der Registerkarte **Transformieren** in der Gruppe **Beliebige Spalte**.
    
    Das Symbol in der Spaltenüberschrift wird in **123** geändert und weist so auf den Datentyp „Ganze Zahl“ hin.
    

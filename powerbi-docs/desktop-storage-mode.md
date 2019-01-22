@@ -1,23 +1,23 @@
 ---
-title: Verwendung des Speichermodus in Power BI Desktop (Vorschau)
+title: Verwendung des Speichermodus in Power BI Desktop (Vorschauversion)
 description: Mit dem Speichermodus können Sie steuern, ob Daten für Berichte in Power BI Desktop im In-Memory-Cache zwischengespeichert werden sollen.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619492"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279180"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschau)
+# <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschauversion)
 
 In Power BI Desktop können Sie den *Speichermodus* von Tabellen festlegen. Mit dem *Speichermodus* können Sie steuern, ob Power BI Desktop Tabellendaten im Arbeitsspeicher für Berichte zwischenspeichert. 
 
@@ -25,23 +25,23 @@ In Power BI Desktop können Sie den *Speichermodus* von Tabellen festlegen. Mit 
 
 Das Festlegen des Speichermodus bietet viele Vorteile. Sie können den Speichermodus für jede Tabelle in Ihrem Modell einzeln festlegen. Durch diese Aktion entsteht ein einzelnes Dataset, das folgende Vorteile bietet:
 
-* **Abfrageleistung:** Bei der Interaktion der Benutzer mit Visuals in Power BI-Berichten werden DAX-Abfragen (Data Analysis Expressions) an das Dataset gesendet. Durch die Zwischenspeicherung von Daten im Speicher (mit ordnungsgemäßer Angabe des Speichermodus) können die Abfrageleistung und die Interaktivität Ihrer Berichte erhöht werden.
+* **Abfrageleistung**: Bei der Interaktion der Benutzer mit Visuals in Power BI-Berichten werden DAX-Abfragen (Data Analysis Expressions) an das Dataset gesendet. Durch die Zwischenspeicherung von Daten im Speicher (mit ordnungsgemäßer Angabe des Speichermodus) können die Abfrageleistung und die Interaktivität Ihrer Berichte erhöht werden.
 
-* **Große Datasets:** Tabellen, die nicht zwischengespeichert werden, belegen keinen Speicher für die Zwischenspeicherung. Sie können interaktive Analysen für große Datasets aktivieren, bei denen eine vollständige Zwischenspeicherung im Speicher zu umfangreich oder zu kostspielig wäre. Sie können die Tabellen auswählen, bei denen eine Zwischenspeicherung sinnvoll ist, und solche, bei denen dies nicht der Fall ist.
+* **Große Datasets**: Tabellen, die nicht zwischengespeichert werden, belegen keinen Speicher für die Zwischenspeicherung. Sie können interaktive Analysen für große Datasets aktivieren, bei denen eine vollständige Zwischenspeicherung im Speicher zu umfangreich oder zu kostspielig wäre. Sie können die Tabellen auswählen, bei denen eine Zwischenspeicherung sinnvoll ist, und solche, bei denen dies nicht der Fall ist.
 
-* **Optimierung der Datenaktualisierung:** Tabellen, die nicht zwischengespeichert werden, müssen nicht aktualisiert werden. Sie können die Aktualisierungszeiten verkürzen, indem Sie nur die Zwischenspeicherung der Daten veranlassen, die erforderlich sind, um Ihre Vereinbarungen zum Servicelevel und Ihre geschäftlichen Anforderungen zu erfüllen.
+* **Optimierung der Datenaktualisierung**: Tabellen, die nicht zwischengespeichert werden, müssen nicht aktualisiert werden. Sie können die Aktualisierungszeiten verkürzen, indem Sie nur die Zwischenspeicherung der Daten veranlassen, die erforderlich sind, um Ihre Vereinbarungen zum Servicelevel und Ihre geschäftlichen Anforderungen zu erfüllen.
 
-* **Anforderungen hinsichtlich einer Ausführung nahezu in Echtzeit:** Bei Tabellen, die nahezu in Echtzeit ausführbar sein sollen, ist ein Verzicht auf eine Zwischenspeicherung möglicherweise sinnvoll, um Datenlatenzen zu verringern.
+* **Anforderungen hinsichtlich einer Ausführung nahezu in Echtzeit**: Bei Tabellen, die nahezu in Echtzeit ausführbar sein sollen, ist ein Verzicht auf eine Zwischenspeicherung möglicherweise sinnvoll, um Datenlatenzen zu verringern.
 
-* **Rückschreiben:** Durch das Rückschreiben können Geschäftsbenutzer mögliche Szenarios durch die Änderung von Zellenwerten untersuchen. Benutzerdefinierte Anwendungen können Änderungen an der Datenquelle anwenden. Tabellen, die nicht zwischengespeichert, können Änderungen sofort darstellen, wodurch eine sofortige Analyse der Auswirkungen möglich ist.
+* **Rückschreiben**: Durch das Rückschreiben können Geschäftsbenutzer mögliche Szenarios durch die Änderung von Zellenwerten untersuchen. Benutzerdefinierte Anwendungen können Änderungen an der Datenquelle anwenden. Tabellen, die nicht zwischengespeichert, können Änderungen sofort darstellen, wodurch eine sofortige Analyse der Auswirkungen möglich ist.
 
 Die Einstellung „Speichermodus“ in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle:** Hierbei kann ein Bericht zwei oder mehr Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md).
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
 
-* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md).
+* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
 
-* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Im vorliegenden Artikel wird der Speichermodus ausführlich erläutert.
+* **Speichermodus**: Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Im vorliegenden Artikel wird der Speichermodus ausführlich erläutert.
 
 ## <a name="use-the-storage-mode-property"></a>Verwenden der Speichermoduseigenschaft
 
@@ -55,11 +55,11 @@ Die aktuelle Eigenschaft wird in der Dropdownliste **Speichermodus** im Bereich 
 
 Es gibt drei Werte für den Speichermodus:
 
-* **Import:** Wenn der Wert auf **Import** festgelegt ist, werden importierte Tabellen zwischengespeichert. Abfragen, die an das Power BI-Dataset gesendet werden, die Daten aus Import-Tabellen zurückgeben, können nur von zwischengespeicherten Daten ausgeführt werden.
+* **Import**: Wenn der Wert auf **Import** festgelegt ist, werden importierte Tabellen zwischengespeichert. Abfragen, die an das Power BI-Dataset gesendet werden, die Daten aus Import-Tabellen zurückgeben, können nur von zwischengespeicherten Daten ausgeführt werden.
 
-* **DirectQuery:** Bei dieser Einstellung werden keine DirectQuery-Tabellen zwischengespeichert. Abfragen, die Sie an das Power BI-Dataset (z.B. DAX-Abfragen) senden, und die Daten von DirectQuery-Tabellen zurückgeben, können nur durch Ausführung von bedarfsgesteuerten Abfragen an die Datenquelle ausgeführt werden. Abfragen, die Sie an die Datenquelle senden, verwenden die Abfragesprache dieser Datenquelle (z.B. SQL).
+* **DirectQuery**: Bei dieser Einstellung werden keine DirectQuery-Tabellen zwischengespeichert. Abfragen, die Sie an das Power BI-Dataset (z.B. DAX-Abfragen) senden, und die Daten von DirectQuery-Tabellen zurückgeben, können nur durch Ausführung von bedarfsgesteuerten Abfragen an die Datenquelle ausgeführt werden. Abfragen, die Sie an die Datenquelle senden, verwenden die Abfragesprache dieser Datenquelle (z.B. SQL).
 
-* **Dual:** Dual-Tabellen können entweder zwischengespeichert oder nicht zwischengespeichert werden, abhängig vom Kontext der an das Power BI-Dataset gesendeten Abfrage. In einigen Fällen werden Abfragen über zwischengespeicherte Daten ausgeführt. In anderen Fällen werden Abfragen durch das Ausführen einer bedarfsgesteuerten Abfrage an die Datenquelle ausgeführt.
+* **Dual**: Dual-Tabellen können entweder zwischengespeichert oder nicht zwischengespeichert werden, abhängig vom Kontext der an das Power BI-Dataset gesendeten Abfrage. In einigen Fällen werden Abfragen über zwischengespeicherte Daten ausgeführt. In anderen Fällen werden Abfragen durch das Ausführen einer bedarfsgesteuerten Abfrage an die Datenquelle ausgeführt.
 
 Das Ändern einer Tabelle in **Import** kann *nicht rückgängig gemacht werden*. Diese Eigenschaft kann nicht in „DirectQuery“ oder „Dual“ zurück geändert werden.
 
@@ -127,13 +127,13 @@ Die folgende Abfrage ist interessant, da sie beide Spalten kombiniert. Diese Abf
 ![Skript für die Speichermodusdiagnose](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Dieses Verhalten unterscheidet sich von [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
+> Dieses Verhalten unterscheidet sich von [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Bedeutung der Synchronisierung von Caches
 
 Die im vorherigen Abschnitt angezeigten Abfragen verdeutlichen, dass **Dual**-Tabellen manchmal vom Cache ausgeführt werden und manchmal nicht. Wenn der Cache veraltet ist, können deshalb unterschiedliche Werte zurückgegeben werden. Bei der Abfrageausführung wird nicht versucht, Datenprobleme, zu maskieren, indem z.B. DirectQuery-Ergebnisse entsprechend den zwischengespeicherten Werten gefiltert werden. Sie müssen bestens mit Ihren Datenflüssen vertraut sein und den Entwurf entsprechend darauf ausrichten. Bei Bedarf können Sie auf etablierte Verfahren zum Umgang mit derartigen Fällen an der Quelle zurückgreifen.
 
-Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md) beschrieben werden.
+Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben werden.
 
 ## <a name="data-view"></a>Datenansicht
 Ist für mindestens eine Tabelle im Dataset der Speichermodus auf **Import** oder **Dual** festgelegt, wird die Registerkarte **Datenansicht** angezeigt.
@@ -162,7 +162,7 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschau)](desktop-composite-models.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschau)](desktop-many-to-many-relationships.md)
+* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
+* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
 * [Verwenden von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)

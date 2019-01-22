@@ -4,17 +4,17 @@ description: Erfahren Sie mehr zu den Schritten, die Sie durchführen müssen, u
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578771"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284171"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 
@@ -48,13 +48,13 @@ RLS wird in Power BI Desktop konfiguriert. Wenn das Dataset und der Bericht geö
 Dieses Schema weist die folgenden Merkmale auf:
 
 * Sämtliche Measures, z.B. **Total Sales** (Gesamtumsatz), werden in der Faktentabelle **Sales** (Umsätze) gespeichert.
-* Es gibt vier zusätzliche verknüpfte Dimensionstabellen: **Item** (Artikel), **Time** (Zeit), **Store** (Geschäft) und **District** (Gebiet).
+* Es gibt vier zusätzliche verknüpfte Dimensionstabellen: **Item** (Element), **Time** (Zeit), **Store** (Geschäft) und **District** (Gebiet).
 * Die Pfeile auf den Beziehungslinien geben die Richtung der Filter zwischen den Tabellen an. Wenn z.B. im aktuellen Schema der Filter **Time[Date]** (Zeit[Datum]) eingesetzt wird, filtert dieser nur Werte in der Tabelle **Sales** (Umsätze). Von diesem Filter sind keine weiteren Tabellen betroffen, da alle Pfeile auf den Beziehungslinien ausschließlich auf die Tabelle „Sales“ (Umsätze) zeigen.
-* Die Tabelle **District** (Gebiet) gibt an, wer der Gebietsleiter für das jeweilige Gebiet ist:
+* Die Tabelle **District** (Bezirk) gibt an, wer der Gebietsleiter für den jeweiligen Bezirk ist:
   
-    ![Zeilen in der Tabelle „Disctrict“ (Gebiet)](media/embedded-row-level-security/powerbi-embedded-district-table.png)
+    ![Zeilen in der Tabelle „Disctrict“ (Bezirk)](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-Wir wenden basierend auf diesem Schema einen Filter auf die Spalte **District Manager** (Gebietsleiter) in der Tabelle **District** (Gebiet) an. Wenn dieser Filter mit dem Benutzer übereinstimmt, der den Bericht anzeigt, wird der Filter auch auf die Tabellen **Store** (Geschäft) und **Sales** (Umsätze) angewendet, damit nur Daten für diesen Gebietsleiter angezeigt werden.
+Wir wenden basierend auf diesem Schema einen Filter auf die Spalte **District Manager** (Gebietsleiter) in der Tabelle **District** (Gebiet) an. Wenn dieser Filter mit dem Benutzer übereinstimmt, der den Bericht anzeigt, wird der Filter auch auf die Tabellen **Store** (Geschäft) und **Sales** (Umsätze) angewendet, damit Daten für diesen Gebietsleiter angezeigt werden.
 
 Dazu gehen Sie wie folgt vor:
 
@@ -73,7 +73,7 @@ Dazu gehen Sie wie folgt vor:
 
     In den Berichten werden jetzt Daten für den angemeldeten Benutzer **AndrewMa** angezeigt.
 
-Wenn der Filter so wie hier angewendet wird, werden alle Datensätze in den Tabellen **District** (Gebiet), **Store** (Geschäft) und **Sales** (Umsätze) gefiltert. Aufgrund der Filterrichtung in den Beziehungen zwischen den Tabellen **Sales** (Umsätze) und **Time** (Zeit), **Sales** (Umsätze) und **Item** (Artikel) sowie **Item** (Artikel) und **Time** (Zeit) erfolgt keine Filterung in diesen Tabellen. Um weitere Informationen über die bidirektionale Kreuzfilterung zu erhalten, laden Sie das Whitepaper [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Bidirektionale Kreuzfilterung in SQL Server Analysis Services 2016 und Power BI Desktop, in englischer Sprache) herunter.
+Wenn der Filter so wie hier angewendet wird, werden alle Datensätze in den Tabellen **District** (Bezirk), **Store** (Geschäft) und **Sales** (Umsätze) gefiltert. Aufgrund der Filterrichtung in den Beziehungen zwischen den Tabellen **Sales** (Umsätze) und **Time** (Zeit), **Sales** (Umsätze) und **Item** (Artikel) sowie **Item** (Artikel) und **Time** (Zeit) erfolgt keine Filterung in diesen Tabellen. Um weitere Informationen über die bidirektionale Kreuzfilterung zu erhalten, laden Sie das Whitepaper [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Bidirektionale Kreuzfilterung in SQL Server Analysis Services 2016 und Power BI Desktop, in englischer Sprache) herunter.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Anwenden eines Benutzers und einer Rolle auf ein Einbettungstoken
 
@@ -239,6 +239,75 @@ Die [Sicherheit auf Zeilenebene](../service-admin-rls.md) ist ein Feature, das D
 
 [JavaScript-Filter](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) werden verwendet, um den Benutzern zu ermöglichen, eine reduzierte, auf einen Bereich beschränkte oder gefilterte Ansicht der Daten zu nutzen. Der Benutzer hat dennoch weiterhin Zugriff auf die Tabellen, Spalten und Measures des Modellschemas und kann möglicherweise auf darin enthaltene Daten zugreifen. Eingeschränkter Zugriff auf die Daten kann nur mit RLS angewendet werden, nicht über APIs zur clientseitigen Filterung.
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Tokenbasierte Identität mit Azure SQL-Datenbank (Vorschau)
+
+Über die **tokenbasierte Identität** können Sie die effektive Identität für ein Einbettungstoken mit dem Zugriffstoken aus **Azure Active Directory (AAD)** für eine **Azure SQL-Datenbank** angeben.
+
+Kunden, die ihre Daten in **Azure SQL-Datenbank** speichern, können jetzt eine neue Funktion zum Verwalten von Benutzern und deren Zugriff auf Daten in Azure SQL bei der Integration in **Power BI Embedded** nutzen.
+
+Beim Generieren des Einbettungstokens können Sie die effektive Identität eines Benutzers in Azure SQL angeben. Die effektive Identität eines Benutzers wird durch die Übergabe des AAD-Zugriffstokens an den Server angegeben. Anhand des Zugriffstokens werden nur die relevanten Daten für diesen Benutzer für diese bestimmte Sitzung per Pull aus Azure SQL abgerufen.
+
+Es kann verwendet werden, um die Ansichten der einzelnen Benutzer in Azure SQL zu verwalten oder um sich bei Azure SQL als bestimmter Kunde in einer Datenbank mit mehreren Mandanten anzumelden. Außerdem können Sie damit die Sicherheit auf Zeilenebene für die jeweilige Sitzung in Azure SQL anwenden und nur die relevanten Daten für diese Sitzung laden, sodass RLS nicht in Power BI verwaltet werden muss.
+
+Probleme mit der effektiven Identität gelten für RLS-Regeln direkt auf dem Azure SQL Server-Computer. Power BI Embedded verwendet das bereitgestellte Zugriffstoken bei der Abfrage von Daten aus Azure SQL Server. Der UPN des Benutzers (für den das Zugriffstoken angegeben wurde) ist als Ergebnis der USER_NAME()-SQL-Funktion zugänglich.
+
+Die tokenbasierte Identität funktioniert nur für DirectQuery-Modelle für dedizierte Kapazität – verbunden mit einer Azure SQL-Datenbank, die für das Zulassen der AAD-Authentifizierung konfiguriert ist. ([Weitere Informationen zur AAD-Authentifizierung für Azure SQL-Datenbank](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins).) Die Datenquelle des Datasets muss für die Verwendung der OAuth2-Anmeldeinformationen des Endbenutzers konfiguriert sein, um einer tokenbasierte Identität zu verwenden.
+
+   ![Konfigurieren von Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>Tokenbasierte Identität – SDK-Erweiterungen
+
+Die Identitätsblobeigenschaft wurde unserer effektiven Identität im Szenario zur Tokengenerierung hinzugefügt.
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+Der IdentityBlob-Typ ist eine einfache JSON-Struktur mit einer Wertzeichenfolgen-Eigenschaft.
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+Die EffectiveIdentity kann mit dem Identitätsblob über den folgenden Aufruf erstellt werden:
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+Das Identitätsblob kann mit dem folgenden Aufruf erstellt werden.
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>Tokenbasierte Identität – Nutzung der REST-API
+
+Wenn Sie die [REST-API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions) aufrufen, können Sie in jeder Identität ein Identitätsblob hinzufügen.
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+Der im Identitätsblob angegebene Wert muss ein gültiges Zugriffstoken für Azure SQL Server mit der Ressourcen-URL (<https://database.windows.net/>) sein.
+
+   > [!Note]
+   > Um ein Zugriffstoken für Azure SQL erstellen zu können, muss die Anwendung die delegierte Berechtigung für den **Zugriff auf Azure SQL-Datenbank und Data Warehouse** für die **Azure SQL-Datenbank**-API in der AAD-App-Registrierungskonfiguration im Azure-Portal besitzen.
+
+   ![App-Registrierung](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
 * Die Zuweisung von Benutzern zu Rollen im Power BI-Dienst wirkt sich bei Verwendung eines Einbettungstokens nicht auf RLS aus.
@@ -248,5 +317,11 @@ Die [Sicherheit auf Zeilenebene](../service-admin-rls.md) ist ein Feature, das D
 * Wenn das zugrunde liegende Dataset kein RLS erfordert, darf die GenerateToken-Anforderung **keine** effektive Identität enthalten.
 * Wenn das zugrunde liegende Dataset ein Cloudmodell ist (Cachemodell oder DirectQuery), muss die effektive Identität mindestens eine Rolle enthalten. Andernfalls erfolgt keine Rollenzuweisung.
 * Mit einer Identitätenliste werden mehrere Identitätstoken für die Dashboardeinbettung aktiviert. Bei allen anderen Artefakten enthält die Liste eine einzelne Identität.
+
+### <a name="token-based-identity-limitations-preview"></a>Einschränkungen der tokenbasierten Identität (Vorschau)
+
+* Diese Funktion beschränkt die Verwendung nur für Power BI Premium.
+* Diese Funktion funktioniert nicht mit einer lokalen SQL Server-Instanz.
+* Diese Funktion funktioniert nicht mit Multi-Geo.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

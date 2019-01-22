@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578219"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277133"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Beheben von Problemen beim Starten von Power BI Desktop
 In **Power BI Desktop** können Benutzer, die frühere Versionen des **lokalen Datengateways von Power BI** installiert haben und ausführen, am Starten von Power BI Desktop gehindert werden. Grund dafür sind Einschränkungen durch eine administrative Richtlinie, die das lokale Datengateway von Power BI auf Named Pipes auf dem lokalen Computer angewendet hat. 
@@ -26,7 +26,7 @@ Es gibt drei Möglichkeiten, das Problem mit dem lokalen Datengateway zu beheben
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Lösung 1: Installieren der neuesten Version des lokalen Datengateways von Power BI
 Die neueste Version des lokalen Datengateways von Power BI wendet keine Named Pipe-Einschränkungen auf dem lokalen Computer an, sodass Power BI Desktop ordnungsgemäß starten kann. Wenn Sie das lokale Datengateway von Power BI weiter verwenden müssen, ist dies die empfohlene Lösung. Sie können die neueste Version des lokalen Datengateways von Power BI [hier](https://go.microsoft.com/fwlink/?LinkId=698863) herunterladen. Beachten Sie, dass der Link ein direkter Downloadlink zur ausführbaren Installationsdatei ist.
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Lösung 2: Deinstallieren oder Beenden des Windows-Diensts lokales Datengateway von Power BI
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Lösung 2: Deinstallieren oder Beenden des Windows-Diensts für das lokale Datengateway von Power BI
 Wenn Sie das lokale Datengateway von Power BI nicht mehr benötigen, können Sie es deinstallieren. Stattdessen können Sie auch den Windows-Dienst lokales Datengateway von Power BI beenden, wodurch die Einschränkung der Zugriffsrichtlinie aufgehoben wird, sodass Power BI Desktop gestartet werden kann.
 
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Lösung 3: Ausführen von Power BI Desktop mit Administratorrechten

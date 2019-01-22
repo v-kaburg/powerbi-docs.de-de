@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829832"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290496"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop und im Power BI-Dienst
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop, im Power BI-Dienst *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen.
@@ -30,7 +30,7 @@ Weitere Informationen finden Sie im [Power Query-Ressourcencenter](https://suppo
 Sie können sich auch die [Formelreferenz](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) ansehen.
 
 ### <a name="data-types-in-query-editor"></a>Datentypen im Abfrage-Editor
-Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, erfolgt eine Datentyperkennung nach bester Vermutung.  Bei Verwendung von Formeln kann es vorkommen, dass Datentypeinstellungen für Spalten nicht beibehalten werden. Sie sollten die Datentypen der Spalten auf Richtigkeit prüfen, nachdem Sie einen der folgenden Vorgänge ausgeführt haben: erstmaliges Laden von Daten auf die Registerkarte für Abfragen, Festlegen der ersten Zeile als Überschrift, Hinzufügen einer Spalte, Gruppieren nach, Zusammenführen, Anfügen. Dies gilt auch, bevor Sie bestätigen, dass die Daten erstmalig geladen werden sollen.
+Wenn Sie den Abfrage-Editor in Power BI Desktop dazu verwenden, Daten zu laden, erfolgt eine Datentyperkennung nach bester Vermutung.  Bei Verwendung von Formeln kann es vorkommen, dass Datentypeinstellungen für Spalten nicht beibehalten werden. Sie sollten die Datentypen der Spalten auf Richtigkeit prüfen, nachdem Sie einen der folgenden Vorgänge ausgeführt haben:  Erstmaliges Laden von Daten auf die Registerkarte für Abfragen, Festlegen der ersten Zeile als Überschrift, Hinzufügen einer Spalte, Gruppieren nach, Zusammenführen, Anfügen. Dies gilt auch, bevor Sie bestätigen, dass die Daten erstmalig geladen werden sollen.
 
 Ein zu beachtender wichtiger Punkt: Kursivformatierung im Datenraster bedeutet nicht, dass der Datentyp richtig festgelegt ist, sondern bedeutet nur, dass die Daten nicht als Text angesehen werden.
 
@@ -167,8 +167,8 @@ DAX ist die Formelsprache für Berechnungen in Power BI Desktop.  Sie ist für B
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI-Dienst *und* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lesen Sie das Whitepaper [Grundlagen des Entwurfs von Power BI-Berichten](visuals/power-bi-visualization-best-practices.md).
-Dieses Dokument enthält Informationen zu den bewährten Methoden beim Entwerfen von Berichten in Power BI. Ausgehend von der Planung werden Entwurfsgrundlagen und -verfahren beschrieben, die Sie für Ihre Berichte sowie für die Seiten und einzelnen visuellen Elemente des Berichts verwenden können. Viele dieser bewährten Methoden gelten auch für das Entwerfen von Dashboards.
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Whitepaper lesen: [Grundlagen des Entwurfs von Power BI-Berichten](visuals/power-bi-visualization-best-practices.md)
+Dieses Dokument enthält Informationen zu den bewährten Methoden zum Entwerfen von Berichten in Power BI. Ausgehend von der Planung werden Entwurfsgrundlagen und -verfahren beschrieben, die Sie für Ihre Berichte sowie für die Seiten und einzelnen visuellen Elemente des Berichts verwenden können. Viele dieser bewährten Methoden gelten auch für das Entwerfen von Dashboards.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Erfahren Sie mehr unter „Erstellen visuell ansprechender Berichte (und Dashboards) in Power BI“.
 Community-Mitglied Miguel Myers ist sowohl Datenanalysten als auch Grafikdesigner.

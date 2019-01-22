@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027458"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277432"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 Mit **Berichtsdesigns** können Sie ein Farbdesign für Ihren gesamten Bericht übernehmen (Unternehmensfarben, saisonbedingte Farben oder andere Farbdesigns). Wenn Sie ein **Berichtsdesign** anwenden, verwenden alle Visuals im Bericht die Farben des ausgewählten Designs. Es gibt einige Ausnahmen, die später in diesem Artikel beschrieben werden.
@@ -133,7 +133,7 @@ Angenommen, Sie wenden eine benutzerdefinierte Farbpalette (oder eine einzelne F
 
 Sie haben auch die Möglichkeit, die Farbe eines Datenpunkts im Abschnitt „Designfarben“ manuell festzulegen. Die Farben werden *nicht* aktualisiert, wenn Sie ein neues Berichtsdesign anwenden. Wenn Sie Farben auf ihre Standardwerte zurücksetzen möchten, damit sie bei Anwenden eines neuen Berichtsdesigns aktualisiert werden, wählen Sie in der Palette **Designfarben** **Auf Standardwert zurücksetzen** aus.
 
-![Auf Standardwert zurücksetzen](media/desktop-report-themes/report-themes_9.png)
+![Standardwert wiederherstellen](media/desktop-report-themes/report-themes_9.png)
 
 Auf viele **benutzerdefinierte Visuals** lassen sich keine Berichtsdesigns anwenden.
 
@@ -222,7 +222,7 @@ Boolesche Werte sind entweder *true* oder *false*. Zeichenfolgen müssen in dopp
 | comboChart |
 | donutChart |
 | filledMap |
-| Trichterdiagramm |
+| Trichter |
 | Tachometerdiagramm |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
@@ -231,7 +231,7 @@ Boolesche Werte sind entweder *true* oder *false*. Zeichenfolgen müssen in dopp
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| Längen- und Breitengrade |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |
@@ -248,7 +248,7 @@ In der folgenden Tabelle sind die Werte von *cardName* definiert. Der erste Wert
 
 | **cardName** |
 | --- |
-| axis: Gauge axis |
+| axis: Messachse |
 | breakdown: Aufschlüsselung |
 | bubbles: Blasen |
 | calloutValue: Beschriftungswert |
@@ -259,9 +259,9 @@ In der folgenden Tabelle sind die Werte von *cardName* definiert. Der erste Wert
 | columnFormatting: Feldformatierung |
 | columnHeaders: Spaltenüberschriften |
 | dataLabels: Datenbeschriftungen |
-| fill: Ausfüllen |
+| fill: Füllung |
 | fillPoint: Füllpunkt |
-| forecast: Vorhersage |
+| forecast: Prognose- |
 | general: Allgemein |
 | goals: Ziele |
 | grid: Raster |
@@ -280,15 +280,15 @@ In der folgenden Tabelle sind die Werte von *cardName* definiert. Der erste Wert
 | plotAreaShading: Symmetrieschattierung |
 | ratioLine: Verhältnislinie |
 | referenceLine: Bezugslinie |
-| ribbonChart: Menübänder |
+| ribbonChart: Schleifen |
 | rotation: Drehung |
 | rowHeaders: Zeilenüberschriften |
 | selection: Auswahlsteuerelemente |
 | sentimentColors: Stimmungsfarben |
-| shape: Form |
+| shape: Formen |
 | slider: Schieberegler |
 | status: Farbcodierung |
-| subTotals: Teilsummen |
+| subTotals: Zwischensummen |
 | target: Ziel |
 | total: Gesamtsumme |
 | trend: Trendlinie |

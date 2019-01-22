@@ -5,24 +5,24 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669725"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275707"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Datenkategorisierung in Power BI Desktop
 In **Power BI Desktop** können Sie die Kategorie der Daten für eine Spalte angeben, damit Power BI Desktop weiß, wie es seine Werte in einer Visualisierung behandeln soll.
 
 Beim Importieren von Daten in Power BI Desktop werden nicht nur die eigentlichen Daten abgerufen, sondern auch Informationen, wie z. B. die Tabellen- und Spaltennamen, ob es sich um einen primären Schlüssel handelt usw.  Diese Informationen nutzt Power BI Desktop, um einige Annahmen darüber aufzustellen, welche Standardbedingungen bei der Erstellung einer Visualisierung für Sie von Vorteil sein könnten. 
 
-Hier ein Beispiel: Wenn Power BI Desktop erkennt, dass eine Spalte numerische Werte enthält, die Sie wahrscheinlich auf irgendeine Weise aggregieren möchten, wird diese im Wertebereich platziert. Oder bei einer Spalte mit Datums- und Uhrzeitwerten wird davon ausgegangen, dass Sie diese wahrscheinlich als Zeit-Hierarchie-Achse in einem Liniendiagramm verwenden.
+Beispiel: Wenn Power BI Desktop erkennt, dass eine Spalte numerische Werte enthält, die Sie wahrscheinlich auf irgendeine Weise aggregieren möchten, wird diese im Wertebereich platziert. Oder bei einer Spalte mit Datums- und Uhrzeitwerten wird davon ausgegangen, dass Sie diese wahrscheinlich als Zeit-Hierarchie-Achse in einem Liniendiagramm verwenden.
 
 Es gibt jedoch einige Fälle, die etwas komplizierter sind, wie z. B. Geografie. Betrachten Sie die folgende Tabelle aus einem Excel-Arbeitsblatt:
 

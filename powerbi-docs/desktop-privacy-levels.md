@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3ccba3e68400a5a4c5fbf486aa8ef4b00c51729
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578334"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282971"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop – Datenschutzebenen
 In **Power BI Desktop** geben Datenschutzebenen eine Isolationsstufe an, die den Grad der Isolation einer Datenquelle von anderen Datenquellen angibt. Obwohl eine restriktive Isolationsstufe den Austausch von Informationen zwischen Datenquellen blockiert, kann sie Funktionalitäts- und Leistungseinbußen bewirken.
@@ -52,7 +52,7 @@ Wählen Sie zum Konfigurieren der Datenschutzebene einer Datenquelle erst die Da
 | **Daten entsprechend den Sicherheitsstufeneinstellungen für jede Quelle kombinieren** (in der Standardeinstellung aktiviert) |Einstellungen für Datenschutzebenen dienen beim Kombinieren von Daten zum Bestimmen des Isolationsgrads zwischen Datenquellen. |
 | **Sicherheitsstufen ignorieren und potenziell die Leistung verbessern** (deaktiviert) |Datenschutzebenen werden beim Kombinieren von Daten nicht berücksichtigt, wodurch sich Leistung und Funktionalität der Daten erhöhen können. |
 
-> **Sicherheitshinweis:** Wenn **Datenschutzebenen** über **Sicherheitsstufen ignorieren und die Leistung möglicherweise verbessern** im Dialogfeld **Datenschutzebenen** aktiviert wird, können sensible oder vertrauliche Daten nicht autorisierten Personen zugänglich gemacht werden. Aktivieren Sie **Datenschutzebenen** nur dann, wenn Sie sicher sind, dass die Datenquelle keine sensiblen oder vertraulichen Daten enthält.
+> **Sicherheitshinweis:** Wenn **Datenschutzebenen** über **Sicherheitsstufen ignorieren und die Leistung möglicherweise verbessern** im Dialogfeld **Datenschutzebenen** aktiviert wird, können nicht autorisierten Personen sensible oder vertrauliche Daten zugänglich gemacht werden. Aktivieren Sie **Datenschutzebenen** nur dann, wenn Sie sicher sind, dass die Datenquelle keine sensiblen oder vertraulichen Daten enthält.
 > 
 > 
 

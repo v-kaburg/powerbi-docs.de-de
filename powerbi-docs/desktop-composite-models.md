@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452773"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290455"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Verwenden zusammengesetzter Modelle in Power BI Desktop
 
@@ -27,9 +27,9 @@ Die Funktion „Zusammengesetzte Modelle“ in Power BI Desktop besteht aus drei
 
 * **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mehrere Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. In diesem Artikel werden die zusammengesetzten Modelle ausführlich erläutert.
 
-* **M:n-Beziehungen**: Sie können mithilfe *zusammengesetzter Modelle* *m:n-Modelle* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen ausschließlich zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
+* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen ausschließlich zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
 
-* **Speichermodus:** Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
+* **Speichermodus**: Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Vorher initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
 
 
 ## <a name="use-composite-models"></a>Verwenden von zusammengesetzten Modelle
@@ -156,9 +156,9 @@ Bei der Verwendung von DirectQuery sollte stets die Leistung berücksichtigt wer
 
 Das Verwenden von zusammengesetzten Modelle bringt weitere Punkte hinsichtlich der Leistung mit sich. Ein einzelnes Visual kann dazu führen, dass Abfragen an mehrere Quellen gesendet werden, wodurch die Ergebnisse häufig von einer Abfrage zu einer zweiten Quelle weitergeleitet werden. Diese Situation kann in den folgenden Ausführungsmöglichkeiten eintreten:
 
-* **Eine SQL-Abfrage, die eine große Anzahl an literalen Werten enthält:** Zum Beispiel ein Visual, das den gesamten *Sales Amount*-Wert für eine Reihe ausgewählter *Product Managers* enthält, die zunächst ermitteln müssen, welche *Produkte* von diesen Product Managers verwaltet wurden. Diese Sequenz muss erfolgen, bevor das Visual eine SQL-Abfrage sendet, die alle Produkt-IDs in einer *WHERE*-Klausel enthält.
+* **Eine SQL-Abfrage, die eine große Anzahl an literalen Werten enthält:** Zum Beispiel muss ein Visual, das den gesamten *Sales Amount*-Wert für eine Reihe ausgewählter *Product Managers* enthält, zunächst ermitteln, welche *Products* von diesen Product Managers verwaltet wurden. Diese Sequenz muss erfolgen, bevor das Visual eine SQL-Abfrage sendet, die alle Produkt-IDs in einer *WHERE*-Klausel enthält.
 
-* **Eine SQL-Abfrage, die auf einer niedrigeren Granularitätsebene abfragt, wobei die Daten dann lokal aggregiert werden:** Da die Anzahl der *Produkte* zunimmt, die den Filterkriterien unter *Product Manager* entsprechen, kann es ineffizient oder nicht praktikabel sein, alle Produkte in einer *WHERE*-Klausel zusammenzufassen. Stattdessen können Sie die relationale Quelle auf der unteren *Product*-Ebene abfragen und die Ergebnisse dann lokal aggregieren. Wenn die Kardinalität der *Produkte* einen Grenzwert von 1 Million überschreitet, tritt bei der Abfrage ein Fehler auf.
+* **Eine SQL-Abfrage, die auf einer niedrigeren Granularitätsebene abfragt, wobei die Daten dann lokal aggregiert werden:** Da die Anzahl von *Products* zunimmt, die den Filterkriterien unter *Product Manager* entsprechen, kann es ineffizient oder nicht praktikabel sein, alle Produkte in einer *WHERE*-Klausel zusammenzufassen. Stattdessen können Sie die relationale Quelle auf der unteren *Product*-Ebene abfragen und die Ergebnisse dann lokal aggregieren. Wenn die Kardinalität der *Produkte* einen Grenzwert von 1 Million überschreitet, tritt bei der Abfrage ein Fehler auf.
 
 * **Mehrere SQL-Abfragen, eine pro Gruppe nach Wert**: Wenn die Aggregation **DistinctCount** verwendet, gruppiert nach einer bestimmten Spalte aus einer anderen Quelle, muss eine SQL-Abfrage pro Gruppe nach Wert gesendet werden, wenn die externe Quelle keine effiziente Übergabe von vielen Literalwerten unterstützt, die die Gruppierung definieren. 
 

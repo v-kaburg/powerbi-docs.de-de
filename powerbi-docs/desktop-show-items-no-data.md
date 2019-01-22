@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072886"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279985"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Elemente ohne Daten in Power BI anzeigen
 
@@ -31,10 +31,10 @@ Um das Konzept zu verstehen, nach dem Power BI bestimmt, welche Daten für die A
 
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |
 |---------|---------|
-|Blau     |Groß         |
-|Blau     |Mittel         |
-|Blau     |Klein         |
-|Rot     |Groß         |
+|Blue     |Large         |
+|Blue     |Medium         |
+|Blue     |Small         |
+|Red     |Large         |
 
 In diesem Beispiel zeigt Power BI die Kombinationen von *[Farbe-Größe]* an, die in der Tabelle *[Produkt]* vorhanden sind. 
 
@@ -44,8 +44,8 @@ Sehen wir uns jetzt eine andere Kombination an:
 
 |*ProduktStil[Finish]*  |*Produkt [Farbe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Glänzend     |Blau         |10         |
-|Matt     |Blau         |15         |
+|Glänzend     |Blue         |10         |
+|Matt     |Blue         |15         |
 
 In diesem Beispiel zeigt Power BI nur vorhandene Kombinationen an. Beispielsweise wird („Ohne“ + „Blau“) oder („Matt“ + „Rot“) nicht angezeigt, weil diese Kombinationen im Modell nicht vorkommen. Die Bedingung, die bestimmt, welche Kombinationen vorhanden sind, ist der nicht leere Wert für *Summe(Umsatz[Menge])*.
 
@@ -55,9 +55,9 @@ Betrachten wir einen anderen Fall:
 
 |*ProduktStil[Finish]*  |*Produkt [Farbe]*  |
 |---------|---------|
-|Glänzend     |Blau         |
-|Glänzend     |Rot         |
-|Matt     |Blau         |
+|Glänzend     |Blue         |
+|Glänzend     |Red         |
+|Matt     |Blue         |
 
 Da es kein explizites Measure gibt und die zwei Tabellen direkt auf einander bezogen sind, versucht Power BI, ein Measure einzufügen, um die sich ergebenden Kombinationen einzuschränken. In diesem Fall fügt Power BI ein Measure *CALCULATE(COUNTROWS('Produkt'))* ein, das nicht leer sein darf, da *Produkt* die Tabelle ist, die beide Tabellen gemein haben.
 
@@ -76,7 +76,7 @@ Im vorherigen Abschnitt wurde beschrieben, wie Power BI bestimmt, welche Daten f
 
 Die Funktion **Elemente ohne Daten anzeigen** ermöglicht genau das – Einschließen von Datenzeilen und -spalten, die keine Measuredaten (leere Measurewerte) enthalten.
 
-Um die Funktion **Elemente ohne Daten anzeigen** zu aktivieren, wählen Sie ein Visual aus, dann klicken Sie im Panel **Felder** mit der rechten Maustaste auf das Feld und wählen im Menü, das dann angezeigt wird, **Elemente ohne Daten anzeigen** aus, wie in der folgenden Abbildung zu sehen.
+Um die Funktion **Elemente ohne Daten anzeigen** zu aktivieren, wählen Sie ein Visual aus, dann klicken Sie im Panel **Felder** mit der rechten Maustaste auf das Feld und wählen im Menü, das dann angezeigt wird, **Elemente ohne Daten anzeigen** aus, wie in der folgenden Abbildung zu sehen:
 
 ![Aktivieren der Funktion „Elemente ohne Daten anzeigen“](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -100,17 +100,17 @@ So wird es mit deaktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt
 
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Blau     |Mittel         |15         |
-|Blau     |Klein         |10         |
+|Blue     |Medium         |15         |
+|Blue     |Small         |10         |
 
 So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
 
 |*Produkt [Farbe]*  |*Produkt [Größe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Blau     |Groß         |         |
-|Blau     |Mittel         |15         |
-|Blau     |Klein         |10         |
-|Rot     |Groß         |         |
+|Blue     |Large         |         |
+|Blue     |Medium         |15         |
+|Blue     |Small         |10         |
+|Red     |Large         |         |
 
 Beachten Sie, dass mit aktivierter Funktion zwei neue Kombinationen sichtbar wurden: *Blau - Groß* und *Rot - Groß*. Diesen beiden Einträgen entspricht keine *Menge* in der Tabelle *Umsatz*. Sie werden dennoch in der Tabelle *Produkt* angezeigt.
 
@@ -120,17 +120,17 @@ So wird es mit deaktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt
 
 |*ProduktStil[Finish]*  |*Produkt [Farbe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Glänzend     |Blau         |10         |
-|Matt     |Blau         |15         |
+|Glänzend     |Blue         |10         |
+|Matt     |Blue         |15         |
 
 So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
 
 |*ProduktStil[Finish]*  |*Produkt [Farbe]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Glänzend     |Blau         |10         |
-|Glänzend     |Rot         |         |
-|Matt     |Blau         |15         |
-|Ohne     |         |         |
+|Glänzend     |Blue         |10         |
+|Glänzend     |Red         |         |
+|Matt     |Blue         |15         |
+|Keine     |         |         |
 
 Beachten Sie, dass *(Glänzend-Rot)* und *(Ohne, leer)* als Kombinationen angezeigt wurden. Dies ist der Grund, warum sie angezeigt wurden:
 * Power BI zog zuerst ProduktStil[Finish] in Betracht und wählte alle anzuzeigenden Werte aus – dies ergab Glänzend, Matt, Ohne.
@@ -147,9 +147,9 @@ So wird es mit aktivierter Funktion **Elemente ohne Daten anzeigen** angezeigt:
 
 |*Produkt [Farbe]* |*ProduktStil[Finish]*  |*[SummeMenge]*  |
 |---------|---------|---------|
-|Blau     |Glänzend         |10         |
-|Blau     |Matt         |15         |
-|Rot     |Glänzend         |         |
+|Blue     |Glänzend         |10         |
+|Blue     |Matt         |15         |
+|Red     |Glänzend         |         |
 
 Beachten Sie, dass in diesem Fall *ProduktStil[Finish]=Ohne* nicht in der Tabelle angezeigt wird. Das hat den Grund, dass in diesem Fall Power BI zuerst alle Werte *Farbe* in der Tabelle *Produkt* auswählte. Anschließend wählte Power BI für jede Farbe die entsprechenden *Finish*-Werte aus, die Daten enthielten. Da *Ohne* in keiner Kombination von *Farbe* vorkommt, wird es nicht ausgewählt.
 
@@ -164,10 +164,10 @@ Dieser Abschnitt zeigt das Beispieldatenmodell, das in den Beispielen in diesem 
 
 |Produkt[ProduktID]|    Produkt[ProduktName]|   Produkt[Farbe]| Produkt[Größe]|  Produkt[KategorieID]|    Produkt[StilID]|
 |---------|---------|---------|---------|---------|---------|
-|1  |Prod1  |Blau   |Klein  |1  |1 |
-|2  |Prod2  |Blau   |Mittel |2  |2 |
-|3  |Prod3  |Rot    |Groß  |1  |1 |
-|4  |Prod4  |Blau   |Groß  |2  |2 |
+|1  |Prod1  |Blue   |Small  |1  |1 |
+|2  |Prod2  |Blue   |Medium |2  |2 |
+|3  |Prod3  |Red    |Large  |1  |1 |
+|4  |Prod4  |Blue   |Large  |2  |2 |
 
 
 |ProduktKategorie[KategorieID]|   ProduktKategorie[KategorieName]|
@@ -181,7 +181,7 @@ Dieser Abschnitt zeigt das Beispieldatenmodell, das in den Beispielen in diesem 
 |---------|---------|---------|
 |1  |Glänzend  |Ja |
 |2  |Matt  |Nein |
-|3  |Ohne   |Nein |
+|3  |Keine   |Nein |
 
 
 |Umsatz[UmsatzID]| Umsatz[ProduktID]|   Umsatz[Datum]|    Umsatz[Menge]|
@@ -195,4 +195,4 @@ Dieser Abschnitt zeigt das Beispieldatenmodell, das in den Beispielen in diesem 
 
 In diesem Artikel wurde beschrieben, wie Sie die Funktion **Elemente ohne Daten anzeigen** in Power BI aktivieren konnten. Folgende Artikel könnten Sie ebenfalls interessieren: 
 
-* [Datenquellen in Power BI Desktop](desktop-data-sources.md)
+* [Standardelement in mehrdimensionalen Modellen in Power BI](desktop-default-member-multidimensional-models.md)

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900549"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291983"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)
 Dieses Lernprogramm erleichtert Ihnen den Einstieg in den ***Power BI-Dienst***. Damit Sie die Funktion des Power BI-Diensts im Hinblick auf die anderen Power BI-Angebote einordnen können, sollten Sie zunächst [Was ist Power BI?](power-bi-overview.md) lesen.
@@ -128,7 +128,7 @@ Nachdem die Verbindung mit den Daten hergestellt wurde, können Sie die Daten un
    
    Wählen Sie die neue Kachel auf dem Dashboard aus, um jederzeit zum Bericht zurückzukehren. Sie kehren in Power BI zum Berichts-Editor in der Leseansicht zurück. Um wieder zur Bearbeitungsansicht zu wechseln, wählen Sie auf der oberen Menüleiste **Bericht bearbeiten** aus. Machen Sie sich in der Bearbeitungsansicht weiter mit den Kacheln und dem Anheften vertraut. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Schritt 3: Setzen Sie die Untersuchung mithilfe von Q&A fort (Abfragen in natürlicher Sprache)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Schritt 3:  Fortsetzen der Untersuchung mithilfe von Q&A (Abfragen in natürlicher Sprache)
 1. Versuchen Sie, im Feld für Fragen und Antworten eine Frage zu stellen, um eine schnelle Untersuchung Ihrer Daten durchzuführen. Das Q&A-Fragefeld befindet sich oben auf dem Dashboard (**Stellen Sie eine Frage zu Ihren Daten**) und im Bericht auf der oberen Menüleiste (**Frage stellen**). Geben Sie z. B. Folgendes ein: „Welches Segment weist den höchsten Umsatz auf?“.
    
    ![Q&A-Zeichenbereich](media/service-get-started/powerbi-qna.png)

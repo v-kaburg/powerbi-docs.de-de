@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679039"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289323"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Erstellen und Veröffentlichen eines organisationsbezogenen Power BI-Inhaltspakets (Tutorial)
 
@@ -53,7 +53,7 @@ Führen Sie hierzu die folgenden Schritte aus: Navigieren Sie im [Power BI-Diens
       > 
       > 
    
-   3. Wir empfehlen Ihnen zudem, eine **Beschreibung** hinzuzufügen. So können Kollegen das benötigte Inhaltspaket leichter finden. Fügen Sie neben der Beschreibung auch noch Schlagwörter hinzu, mit denen Ihre Kollegen nach diesem Inhaltspaket suchen können. Geben Sie auch Ihre Kontaktdaten ein, falls Ihre Kollegen eine Frage haben oder Hilfe brauchen.
+   3. Empfohlen: Fügen Sie eine **Beschreibung** hinzu. So können Kollegen das benötigte Inhaltspaket leichter finden. Fügen Sie neben der Beschreibung auch noch Schlagwörter hinzu, mit denen Ihre Kollegen nach diesem Inhaltspaket suchen können. Geben Sie auch Ihre Kontaktdaten ein, falls Ihre Kollegen eine Frage haben oder Hilfe brauchen.
    
    4. **Laden Sie ein Bild oder Logo hoch**, damit die Gruppenmitglieder das Inhaltspaket besser finden können – auf den ersten Blick lässt sich ein Bild schneller finden als Text. Im folgenden Screenshot wurde ein Bild der Kachel mit dem Säulendiagramm (100 %) für die Gesamtzahl der Verkaufschancen verwendet.
    

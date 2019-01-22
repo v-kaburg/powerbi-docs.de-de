@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578633"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287583"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Erstellen eigener Measures in Power BI Desktop
 Sie können einige der leistungsstärksten Data Analysis-Lösungen in Power BI Desktop können mithilfe von Measures erstellen. Measures unterstützen uns, indem sie Berechnungen mit Ihren Daten durchführen, während Sie mit Ihren Berichten interagieren. Dieses Tutorial führt Sie durch die Grundlagen von Measures hin zum Erstellen eigener einfacher Measures in Power BI Desktop.
@@ -23,7 +23,7 @@ Sie können einige der leistungsstärksten Data Analysis-Lösungen in Power BI D
 ### <a name="prerequisites"></a>Voraussetzungen
 - Dieses Tutorial richtet sich an Power BI-Benutzer, die mit der Verwendung von Power BI Desktop zum Erstellen etwas fortgeschrittener Modelle bereits vertraut sind. Sie sollten bereits mit der Verwendung von „Daten abrufen“ und des Abfrage-Editors zum Importieren von Daten, dem Arbeiten mit mehreren aufeinander bezogenen Tabellen und dem Hinzufügen von Feldern zur Berichtszeichenfläche vertraut sein. Wenn Sie noch nicht mit Power BI Desktop vertraut sind, sollten Sie [Erste Schritte mit Power BI Desktop](desktop-getting-started.md) lesen.
   
-- Laden Sie die Datei [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) herunter, die bereits Onlinevertriebsdaten des fiktiven Unternehmens Contoso, Inc. enthält. Da die Daten in der Datei aus einer Datenbank importiert wurden, können Sie keine Verbindungen mit der Datenquelle herstellen oder sie im Abfrage-Editor anzeigen. Entpacken Sie die Datei auf dem lokalen Computer, und öffnen Sie sie dann in Power BI Desktop.
+- Laden Sie die Datei [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) herunter, welche Onlinevertriebsdaten des fiktiven Unternehmens Contoso, Inc. enthält. Diese Daten wurden aus einer Datenbank importiert. Daher können Sie keine Verbindung mit der Datenquelle herstellen oder die Daten im Abfrage-Editor anzeigen. Entpacken Sie die Datei auf dem lokalen Computer, und öffnen Sie sie dann in Power BI Desktop.
 
 ## <a name="understand-measures"></a>Grundlagen von Measures
 
@@ -85,7 +85,7 @@ Sie möchten Ihren Nettoumsatz analysieren, indem Sie Rabatte und Retouren von d
     
     ![Auswählen der Spalte](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    Ausdrücke treten immer zwischen einer öffnenden und einer schließenden Klammer auf. Der Ausdruck enthält ein einzelnes Argument, das an die SUM-Funktion übergeben werden muss: die SalesAmount-Spalte. Beginnen Sie mit der Eingabe von „SalesAmount“, bis in der Liste nur noch ein Wert angezeigt wird: „Sales(SalesAmount)“. Der Spaltenname, dem der Tabellenname vorangestellt ist, wird als *vollqualifizierter Name* der Spalte bezeichnet. Vollqualifizierte Spaltennamen verbessern die Lesbarkeit Ihrer Formeln. 
+    Ausdrücke treten immer zwischen einer öffnenden und einer schließenden Klammer auf. Der Ausdruck enthält ein einzelnes Argument, das an die SUM-Funktion übergeben werden muss: die SalesAmount-Spalte. Beginnen Sie mit der Eingabe von „SalesAmount“, bis in der Liste nur noch ein Wert angezeigt wird: Sales(SalesAmount). Der Spaltenname, dem der Tabellenname vorangestellt ist, wird als *vollqualifizierter Name* der Spalte bezeichnet. Vollqualifizierte Spaltennamen verbessern die Lesbarkeit Ihrer Formeln. 
     
     ![Auswählen von SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     

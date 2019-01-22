@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830307"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296821"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -67,10 +67,10 @@ Darüber hinaus können sich auch einzelne Benutzer in Ihrer Organisation auf de
 
 Es gibt drei Szenarien, die ggf. für die Benutzer in Ihrer Organisation in Betracht kommen:
 
-* **Szenario 1**: Ihre Organisation verfügt bereits über eine Office 365-Umgebung, und der Benutzer, der sich für Power BI registriert, hat ein Office 365-Konto.
+* **Szenario 1**: Ihre Organisation verfügt bereits über eine Office 365-Umgebung, und der Benutzer, der sich für Power BI registriert, besitzt ein Office 365-Konto.
     In diesem Szenario aktiviert Microsoft einfach den Plan für das Konto, wenn der Benutzer bereits ein Geschäfts-, Schul- oder Unikonto für den Mandanten (z.B. contoso.com) hat, jedoch noch nicht über Power BI verfügt. Der Benutzer wird dann automatisch darüber benachrichtigt, wie er den Power BI-Dienst verwenden kann.
 
-* **Szenario 2**: Ihre Organisation verfügt über eine Office 365-Umgebung, doch der Benutzer, der sich für Power BI registriert, hat noch kein Office 365-Konto.
+* **Szenario 2**: Ihre Organisation verfügt über eine Office 365-Umgebung, doch der Benutzer, der sich für Power BI registriert, besitzt noch kein Office 365-Konto.
     In diesem Szenario besitzt der Benutzer eine E-Mail-Adresse in der Domäne Ihrer Organisation (z. B. „contoso.com“), jedoch noch kein Office 365-Konto. In diesem Fall kann sich der Benutzer für Power BI registrieren und erhält dann automatisch ein Konto. Damit erhalten Benutzer Zugriff auf den Power BI-Dienst. Wenn beispielsweise eine Mitarbeiterin namens Nancy ihre geschäftliche E-Mail-Adresse (z.B. nancy@contoso.com) für die Registrierung verwendet, fügt Microsoft Nancy automatisch der Office 365-Umgebung von Contoso als Benutzerin hinzu und aktiviert Power BI für dieses Konto.
 
 * **Szenario 3**: Ihre Organisation verfügt über keine Office 365-Umgebung, die mit Ihrer E-Mail-Domäne verbunden ist.
@@ -156,13 +156,13 @@ Damit sich vorhandene Benutzer für Power BI registrieren können, führen Sie d
 
 Es gibt drei Szenarien, die ggf. für die Benutzer in Ihrer Organisation in Betracht kommen:
 
-* **Szenario 1**: Wenn Ihre Organisation bereits über eine Office 365-Umgebung verfügt, und alle Benutzer in der Organisation Office 365-Konten haben, ändert sich die Identitätsverwaltung nicht.
+* **Szenario 1**: Wenn Ihre Organisation bereits über eine Office 365-Umgebung verfügt, und alle Benutzer in der Organisation Office 365-Konten besitzen, ändert sich die Identitätsverwaltung nicht.
 
 * **Szenario 2**: Wenn Ihre Organisation bereits über eine Office 365-Umgebung verfügt, jedoch nicht alle Benutzer in Ihrer Organisation Office 365-Konten haben, wird ein Benutzer im Mandanten erstellt, und Lizenzen werden anhand der Geschäfts-, Schul- oder Uni-E-Mail-Adresse des Benutzers zugewiesen.
 
     Das bedeutet, dass die Anzahl von Benutzern, die Sie zu einem bestimmten Zeitpunkt verwalten, steigt, wenn sich Benutzer in Ihrer Organisation für den Dienst registrieren.
 
-* **Szenario 3**: Wenn Ihre Organisation über keine Office 365-Umgebung verfügt, die mit Ihrer E-Mail-Domäne verbunden ist, ändert sich die Identitätsverwaltung nicht.
+* **Szenario 3**: Wenn Ihre Organisation nicht über eine Office 365-Umgebung verfügt, die mit Ihrer E-Mail-Domäne verbunden ist, ändert sich die Identitätsverwaltung nicht.
 
     Benutzer werden einem neuen Benutzerverzeichnis in der Cloud hinzugefügt, und Sie können deren Verwaltung als Mandantenadministrator übernehmen.
 
@@ -186,7 +186,7 @@ Beim Ausführen einer externen Übernahme werden Power BI-Inhalten, die vor der 
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Wenn ich mehrere Domänen habe, kann ich den Office 365-Mandanten steuern, dem Benutzer hinzugefügt werden?
 
-Wenn Sie nichts unternehmen, wird ein Mandant für jede Benutzer-E-Mail-Domäne und -Unterdomäne erstellt. Wenn Sie möchten, dass sich alle Benutzer unabhängig von ihrer E-Mail-Adresse im gleichen Mandanten befinden, erstellen Sie im Vorfeld einen Mandanten, oder verwenden Sie einen vorhandenen Mandanten, und fügen Sie alle vorhandenen Domänen und Unterdomänen hinzu, die Sie in diesem Mandanten zusammenfassen möchten. Dann treten alle Benutzer, deren E-Mail-Adressen auf diese Domänen und Unterdomänen enden, bei der Registrierung automatisch dem Zielmandanten bei.
+Wenn Sie nichts unternehmen, wird ein Mandant für jede Benutzer-E-Mail-Domäne und -Unterdomäne erstellt. Wenn sich alle Benutzer unabhängig von ihren E-Mail-Adresserweiterungen in demselben Mandanten befinden sollen, gehen Sie folgendermaßen vor: Erstellen Sie im Vorfeld einen Mandanten, oder verwenden Sie einen vorhandenen Mandanten, und fügen Sie alle vorhandenen Domänen und Subdomänen hinzu, die Sie in diesem Mandanten zusammenfassen möchten. Dann treten alle Benutzer, deren E-Mail-Adressen auf diese Domänen und Unterdomänen enden, bei der Registrierung automatisch dem Zielmandanten bei.
 
 > [!IMPORTANT]
 > Es werden keine automatisierten Verfahren zum Verschieben von bereits erstellten Benutzern zwischen Mandanten unterstützt. Informationen zum Hinzufügen von Domänen zu einem einzelnen Office 365-Mandanten finden Sie unter dem Thema zum [Hinzufügen von Benutzern und Domänen zu Office 365](/office365/admin/setup/add-domain/).

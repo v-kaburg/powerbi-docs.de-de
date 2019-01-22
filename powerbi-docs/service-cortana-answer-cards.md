@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829893"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273085"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als *Cortana-Antwortkarten*) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
@@ -30,9 +30,9 @@ Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Be
 ## <a name="before-you-begin"></a>Vorbereitung
 Insgesamt gibt es vier Dokumente, in denen Sie ausführliche Anweisungen zum Einrichten und Verwenden von Cortana für Power BI erhalten. Sofern nicht bereits geschehen, lesen Sie zuerst Artikel 1. Artikel 2 ist besonders wichtig, denn darin werden einige Schritte beschrieben, die Sie ausführen müssen, ehe Sie Cortana-Antwortseiten verwenden können.
 
-**Artikel 1**: [Hier erfahren Sie mehr über die Zusammenarbeit von Cortana und Power BI](service-cortana-intro.md)
+**Artikel 1**: [Informationen zur Zusammenarbeit von Cortana und Power BI](service-cortana-intro.md)
 
-**Artikel 2**: [Zum Durchsuchen von Power BI-Berichten: Aktivieren der Integration von Cortana – Power BI – Windows](service-cortana-enable.md)
+**Artikel 2**: [Zum Durchsuchen von Power BI-Berichten: Aktivieren von Cortana für den Zugriff auf Power BI-Berichte](service-cortana-enable.md)
 
 **Artikel 3**: Dieser Artikel
 

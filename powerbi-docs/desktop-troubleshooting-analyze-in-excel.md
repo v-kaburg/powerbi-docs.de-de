@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ca79a676d103a5e3d2a297b9ac0752ee524295
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f50ab78ff6a96beb127376ff9a8b1c7396dd2cc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670100"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282875"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Problembehandlung bei „In Excel analysieren“
 Es kann bei der Verwendung von „In Excel analysieren“ vorkommen, dass ein unerwartetes Ergebnis auftritt oder eine Funktion nicht wie erwartet funktioniert. Diese Seite enthält Lösungen für häufige Probleme bei der Verwendung von „In Excel analysieren“.

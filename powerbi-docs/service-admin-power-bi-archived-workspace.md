@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8636ec85cb56e87f28a93f9f1f89989ffcc097bb
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973141"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292359"
 ---
 # <a name="power-bi-archived-workspace"></a>Archivierter Arbeitsbereich in Power BI
 
@@ -29,19 +29,19 @@ Power BI löscht keine Inhalte aus Ihrem archivierten Arbeitsbereich. Sie könne
 
 * **OneDrive for Business**: Sie können keine Daten mehr aus OneDrive for Business für Datasets in Ihrem archivierten Arbeitsbereich abrufen oder aktualisieren.  Wenn Sie versuchen, eine Verbindung mit dieser Quelle herzustellen, erhalten Sie eine Warnung.
 
-* **Freigabe von Dashboards**: Sie können keine Dashboards in Ihrem archivierten Arbeitsbereich für andere Benutzer freigeben.  Alle Benutzer, die bereits über Zugriff verfügen, können weiterhin freigegebene Dashboards anzeigen, indem sie auf ihren archivierten Arbeitsbereich zugreifen.
+* **Freigeben von Dashboards**: Sie können keine Dashboards in Ihrem archivierten Arbeitsbereich für andere Benutzer freigeben.  Alle Benutzer, die bereits über Zugriff verfügen, können weiterhin freigegebene Dashboards anzeigen, indem sie auf ihren archivierten Arbeitsbereich zugreifen.
 
 * **Erstellen von Gruppen**: Sie können keine Gruppen in Ihrem archivierten Arbeitsbereich erstellen.
 
-* **Zugriff auf mobile Power BI-Apps**: Sie können zwar weiterhin Inhalte im Web in Ihrem archivierten Arbeitsbereich anzeigen, jedoch werden diese Inhalte in den mobilen Power BI-Apps nicht mehr angezeigt.
+* **Zugriff auf Power BI Mobile-Apps**: Sie können in Ihrem archivierten Arbeitsbereich zwar weiterhin Inhalte im Web anzeigen, diese werden jedoch in den Power BI Mobile-Apps nicht mehr angezeigt.
 
 ## <a name="migrating-content-in-your-archived-workspace"></a>Migrieren von Inhalten in Ihrem archivierten Arbeitsbereich
 
 Um Power BI weiterhin zu nutzen, sollten Sie neue Inhalte in Ihrem Arbeitsbereich erstellen. Außerdem sollten Sie die Migration aller Inhalte in Ihrem archivierten Arbeitsbereich zu Ihrem Arbeitsbereich planen.  Die Art und Weise der Migration hängt von der Art der Inhalte ab:
 
-* **Excel- oder Power BI Desktop-Datasets**: Zum Migrieren dieser Datasets wechseln Sie von Ihrem archivierten Arbeitsbereich in Ihren Arbeitsbereich und laden die Excel- oder Power BI-Desktop-Datei erneut hoch, indem Sie auf die Schaltfläche **Meine Daten** klicken.  Wenn Sie eine planmäßige Aktualisierung eingerichtet haben, müssen Sie diese Einstellungen für das neue Dataset in Ihrem Arbeitsbereich neu konfigurieren.
+* **Excel- oder Power BI Desktop-Datasets**: Zum Migrieren dieser Datasets wechseln Sie von Ihrem archivierten Arbeitsbereich in Ihren aktuellen Arbeitsbereich und laden Sie erneut die Excel- oder Power BI Desktop-Datei hoch, indem Sie auf die Schaltfläche **Meine Daten** klicken.  Wenn Sie eine planmäßige Aktualisierung eingerichtet haben, müssen Sie diese Einstellungen für das neue Dataset in Ihrem Arbeitsbereich neu konfigurieren.
 
-* **Weitere Datasets**: Wechseln Sie zu Ihrem Arbeitsbereich, und klicken Sie dann auf die Schaltfläche **Daten abrufen**, um eine erneute Verbindung mit allen weiteren Datasets herzustellen, die Sie in Ihrem archivierten Arbeitsbereich erstellt haben.  Möglicherweise müssen Sie Sicherheits- oder Verbindungsinformationen erneut eingeben.
+* **Weitere Datasets**: Wechseln Sie zu Ihrem Arbeitsbereich, und klicken Sie auf die Schaltfläche **Daten abrufen**, um eine erneute Verbindung mit allen weiteren Datasets herzustellen, die Sie in Ihrem archivierten Arbeitsbereich erstellt haben.  Möglicherweise müssen Sie Sicherheits- oder Verbindungsinformationen erneut eingeben.
 
 * **Berichte**: Berichte in Excel- oder Power BI Desktop-Dateien werden automatisch neu erstellt, sobald Sie die entsprechende Excel- oder Power BI Desktop-Datei erneut hochladen. Berichte, die im Rahmen eines Inhaltspakets installiert wurden, werden ebenfalls neu erstellt, wenn Sie erneut eine Verbindung mit dem Inhaltspaket herstellen. Wenn Sie Ihre eigenen Berichte über den Power BI-Dienst erstellt haben, erstellen Sie diese Berichte in Ihrem Arbeitsbereich neu.
 

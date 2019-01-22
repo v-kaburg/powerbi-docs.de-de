@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280108"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285758"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Kombinieren von Umsatzdaten aus Excel und einem OData-Feed
 
@@ -162,7 +162,7 @@ Wählen Sie die einzelnen Abfragen in der Liste **Abfragen** auf der linken Seit
 
 Wenn Sie mit den transformierten Daten zufrieden sind, klicken Sie auf der Registerkarte **Start** des Menübands in der Gruppe **Schließen** auf **Schließen und übernehmen** > **Schließen und übernehmen**, um die Daten in die Berichtsansicht von Power BI Desktop zu importieren. 
 
-![Schließen und übernehmen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+![Schließen und anwenden](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
 
 Sobald die Daten geladen wurden, werden die Abfragen in der Liste **Felder** in der Berichtsansicht von Power BI Desktop angezeigt.
 

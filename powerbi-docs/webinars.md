@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670415"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283137"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -50,7 +50,7 @@ Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertra
 <br>von Gohul Shanmugalingam
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Make Your Power BI Data Visual: Core Chart Types and How to Use Them** (Visualisieren Ihrer Power BI-Daten: Grundlegende Diagrammtypen und deren Verwendung)
+**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Visualisieren Ihrer Power BI-Daten: Grundlegende Diagrammtypen und deren Verwendung)
 <br>von Miranda Li
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
@@ -78,7 +78,7 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>von Charles Sterling
 <br>[Jetzt ansehen](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI, in englischer Sprache)
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI)
 <br>von Carlos Otero und Miguel Martinez
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -112,7 +112,7 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>von Ed Bobrin von Avanade
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**Manufacturers: Your industry is going through a digital transformation – Maintain leadership by leveraging analytics to maximize profitability** (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren, in englischer Sprache)
+**Manufacturers: Your industry is going through a digital transformation – Maintain leadership by leveraging analytics to maximize profitability** (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren)
 <br>von Jon Thompson von Blue Margin und Jim Pastor von Elgin Fastener Group
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -142,7 +142,7 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>von Kasper de Jonge
 <br>[Jetzt ansehen](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Ask a Partner: Developing Custom Visuals for Power BI** (Fragen Sie einen Partner: Entwickeln benutzerdefinierter Visuals für Power BI, in englischer Sprache)
+**Ask a Partner: Developing Custom Visuals for Power BI** (Fragen Sie einen Partner: Entwickeln benutzerdefinierter Visuals für Power BI)
 <br>von Ted Pattison
 <br>[Jetzt ansehen](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 
 **[Power BI adoption framework webinar series (Webinar-Reihe zur Einführung von Power BI)](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>von Manu Kanwarpal und Paul Henwood
-<br>[Registrieren und jetzt ansehen: Part 1 – Adoption: Adopt a data-driven culture (Teil 1 – Einführung: Eine datengesteuerte Kultur annehmen)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[Registrieren und jetzt ansehen: Part 2 – Governance: Govern your Power BI usage (Teil 2 – Governance: Nutzung von Power BI regeln)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[Registrieren und jetzt ansehen: Part 3 – Service Management: Power BI Service Management Insights (Teil 3 – Dienstverwaltung: Verwaltungseinblicke in Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[Registrieren und jetzt ansehen: Part 4 – Security: Keeping your data secure with Power BI (Teil 4 – Sicherheit: Daten mit Power BI schützen)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[Registrieren und jetzt ansehen: Part 5 – Rollout: Successfully rolling out Power BI (Teil 5 – Bereitstellung: Power BI erfolgreich bereitstellen)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[Registrieren und jetzt ansehen: Part 1 – Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Teil 1 – Einführung: Eine datengesteuerte Kultur annehmen)
+<br>[Registrieren und jetzt ansehen: Part 2 – Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Teil 2 – Governance: Nutzung von Power BI regeln)
+<br>[Registrieren und jetzt ansehen: Part 3 – Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Teil 3 – Dienstverwaltung: Verwaltungseinblicke in Power BI)
+<br>[Registrieren und jetzt ansehen: Part 4 – Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Teil 4 – Sicherheit: Daten mit Power BI schützen)
+<br>[Registrieren und jetzt ansehen: Part 5 – Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Teil 5 – Bereitstellung: Power BI erfolgreich bereitstellen)
 
 **Office 365 Finance Pros Webinar Series (Webinarreihe: Office 365 für Finanzfachleute)**
 <br>Referenten: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky und Miguel Martinez

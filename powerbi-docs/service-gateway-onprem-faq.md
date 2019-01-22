@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: b1c74968365db59d51f7c0a7bdb356552cc75596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273308"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283780"
 ---
 # <a name="on-premises-data-gateway-faq"></a>On-premises data gateway – Häufig gestellte Fragen
 <!-- Shared FAQ shared Include -->
@@ -26,7 +26,7 @@ ms.locfileid: "51273308"
 **Antwort:** Nein. Das wird zurzeit nicht unterstützt.
 
 **Frage:** Kann das Gateway für Verbindungen mit einer mehrdimensionalen (OLAP-) Instanz verwendet werden?  
-**Antwort:** Ja. Das lokale Datengateway unterstützt Liveverbindungen mit Tabellen- und mehrdimensionalen Modellen von Analysis Services.
+**Antwort:** Ja! Das lokale Datengateway unterstützt Liveverbindungen mit Tabellen- und mehrdimensionalen Modellen von Analysis Services.
 
 **Frage:** Was geschieht, wenn ich das Gateway auf einem Computer in einer anderen Domäne als dem lokalen Server installiere, der die Windows-Authentifizierung verwendet?  
 **Antwort:** Dafür geben wir keine Garantien. Es hängt alles von der Vertrauensstellung zwischen den beiden Domänen ab. Wenn sich die zwei verschiedenen Domänen in einem vertrauenswürdigen Domänenmodell befinden, ist das Gateway möglicherweise imstande, eine Verbindung mit dem Analysis Services-Server herzustellen, und der effektive Benutzername kann aufgelöst werden. Wenn dies nicht der Fall ist, treten möglicherweise Fehler bei der Anmeldung auf.
@@ -38,8 +38,8 @@ ms.locfileid: "51273308"
 **Antwort:** Nein. Das ist zwar geplant, jedoch können wir noch keinen Zeitrahmen nennen.
 
 ## <a name="administration"></a>Verwaltung
-**Frage:** Kann ich mehr als einen Administrator für ein Gateway haben?  
-**Antwort:** Ja. Wenn Sie ein Gateway verwalten, können Sie auf der Registerkarte „Administrator“ weitere Administratoren hinzufügen.
+**Frage:** Kann ich mehrere Administratoren für ein Gateway festlegen?  
+**Antwort:** Ja! Wenn Sie ein Gateway verwalten, können Sie auf der Registerkarte „Administrator“ weitere Administratoren hinzufügen.
 
 **Frage:** Muss der Gatewayadministrator auch Administrator auf dem Computer sein, auf dem das Gateway installiert ist?  
 **Antwort:** Nein. Der Gatewayadministrator verwaltet das Gateway innerhalb des Diensts.
@@ -57,7 +57,7 @@ ms.locfileid: "51273308"
 **Frage:** Wie oft werden Kacheln in einem Dashboard in Power BI aktualisiert, wenn eine Verbindung über das lokale Datengateway besteht?  
 **Antwort:** Etwa alle zehn Minuten. Das sind DirectQuery-Verbindungen. Das bedeutet jedoch nicht, dass eine Kachel alle zehn Minuten eine Abfrage an den lokalen Server ausgibt und neue Daten anzeigt.
 
-**Frage:** Kann ich Excel-Arbeitsmappen mit Power Pivot-Datenmodellen hochladen, die Verbindungen mit lokalen Datenquellen aufweisen? Benötige ich bei diesem Szenario ein Gateway?  
+**Frage:** Kann ich Excel-Arbeitsmappen mit Power Pivot-Datenmodellen hochladen, die Verbindungen mit lokalen Datenquellen herstellen? Benötige ich bei diesem Szenario ein Gateway?  
 **Antwort:** Ja, Sie können die Arbeitsmappe hochladen. Sie benötigen aber kein Gateway. Da die Daten sich im Excel-Datenmodell befinden, sind Berichte in Power BI, die auf der Excel-Arbeitsmappe beruhen, jedoch nicht live. Um Berichte in Power BI zu aktualisieren, müssen Sie jedes Mal wieder eine aktualisierte Arbeitsmappe hochladen. Verwenden Sie alternativ das Gateway mit geplanter Aktualisierung.
 
 **Frage:** Wenn Benutzer Dashboards freigeben, die eine DirectQuery-Verbindung verwenden, können die anderen Benutzer die Daten auch dann sehen, wenn sie nicht über die gleichen Berechtigungen verfügen?  

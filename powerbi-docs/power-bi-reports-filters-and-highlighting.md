@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973233"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285321"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informationen zu Filtern und Hervorhebungen in Power BI-Berichten
  Dieser Artikel informiert Sie über das Zuweisen von Filtern und Hervorhebungen im Power BI-Dienst. Die Benutzeroberfläche ist nahezu identisch mit der von Power BI Desktop. ***Filter*** entfernen alles bis auf die Daten, auf die Sie sich konzentrieren möchten. ***Hervorheben*** ist nicht dasselbe wie Filtern. Dieser Vorgang entfernt keine Daten, sondern hebt eine Teilmenge der sichtbaren Daten. Die nicht hervorgehobenen Daten bleiben sichtbar, sind jedoch abgeblendet.
@@ -36,7 +36,7 @@ Sie können die Filter im Bereich **Filter** oder durch [Auswahl von Slicern](vi
 
 Es gibt vier Arten von Filtern.
 
-- Ein **Seitenfilter** gilt für Visuals auf der Berichtsseite.     
+- Ein **Seitenfilter** gilt für Visualisierungen auf der Berichtsseite.     
 - Ein **Visualfilter** gilt für ein einzelnes Visual auf einer Berichtsseite. Die Filter auf Visualebene werden nur angezeigt, wenn Sie in der Berichtscanvas ein Visual ausgewählt haben.    
 - Ein **Berichtsfilter** gilt für alle Seiten im Bericht.    
 - Ein **Drillthroughfilter** gilt für eine einzelne Entität in einem Bericht.    

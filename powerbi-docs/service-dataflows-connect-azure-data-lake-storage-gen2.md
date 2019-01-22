@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649043"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277271"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)
 
@@ -76,7 +76,7 @@ Wählen Sie im Fenster **Add role assignment** (Rollenzuweisung hinzufügen) die
 
 Bevor Ihr Speicherkonto Power BI hinzugefügt werden kann, müssen Sie ein Dateisystem mit dem Namen *powerbi* erstellen. Es gibt viele Möglichkeiten für das Erstellen eines solchen Dateisystems, beispielsweise mithilfe von Azure Databricks, HDInsight, AZCopy oder dem Azure Storage-Explorer. In diesem Abschnitt sehen Sie einen einfachen Weg zum Erstellen eines Dateisystems mithilfe des Azure Storage-Explorers.
 
-Für diesen Schritt müssen Sie Azure Storage Explorer, Version 1.6.1 oder höher, installieren. Erfahren Sie unter [Azure Storage-Explorer](https://azure.microsoft.com/features/storage-explorer/), wie Sie den Azure Storage-Explorer unter Windows, Mac oder Linux installieren.
+Für diesen Schritt müssen Sie Azure Storage Explorer, Version 1.6.2 oder höher, installieren. Erfahren Sie unter [Azure Storage-Explorer](https://azure.microsoft.com/features/storage-explorer/), wie Sie den Azure Storage-Explorer unter Windows, Mac oder Linux installieren.
 
 1. Wenn Sie den Azure Storage-Explorer erfolgreich installiert haben, wird beim ersten Start das Fenster „Microsoft Azure Storage-Explorer – Verbinden“ angezeigt. Während der Storage-Explorer mehrere Möglichkeiten zum Verbinden mit Speicherkonten bietet, wird derzeit nur eine für die erforderliche Einrichtung unterstützt. 
 

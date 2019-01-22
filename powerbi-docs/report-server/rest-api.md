@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250428"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291669"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Entwickeln mithilfe der REST-APIs für Power BI-Berichtsserver
 
@@ -32,7 +32,7 @@ Ein REST API-Anforderungs-/Antwortpaar kann in fünf Komponenten unterteilt werd
   
   * URI-Schema: Gibt das Protokoll an, mit dem die Anforderung übertragen wird. Beispiele sind `http` und `https`.
   * URI-Host: Gibt den Domänennamen oder die IP-Adresse des Servers an, auf dem der REST-Dienstendpunkt gehostet wird, beispielsweise `myserver.contoso.com`.
-  * Ressourcenpfad: Gibt die Ressource oder die Ressourcensammlung an, die mehrere Segmente enthalten, anhand derer der Dienst die Auswahl der betreffenden Ressourcen bestimmt. Beispiel: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kann verwendet werden, um die angegebenen Eigenschaften für das CatalogItem abzurufen.
+  * Ressourcenpfad: Gibt die Ressource oder die Ressourcensammlung an, die mehrere Segmente enthalten kann, anhand derer der Dienst die Auswahl der betreffenden Ressourcen bestimmt. Beispiel: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` kann verwendet werden, um die angegebenen Eigenschaften für das CatalogItem abzurufen.
   * Abfragezeichenfolge (optional): Gibt zusätzliche einfache Parameter an, z.B. die API-Version oder die Ressourcenauswahlkriterien.
 * Headerfelder der HTTP-Anforderungsnachricht:
   

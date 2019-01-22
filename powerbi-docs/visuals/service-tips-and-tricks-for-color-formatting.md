@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983368"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285597"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tipps und Tricks zur Farbformatierung in Power BI
 Power BI bietet viele unterschiedliche Methoden zum Anpassen der Dashboards und Berichte. In diesem Artikel erhalten Sie Tipps, wie Sie Ihre Power BI-Visualisierungen ansprechender, interessanter und personalisierter gestalten können.
@@ -29,41 +29,38 @@ Nachfolgend finden Sie einige Tipps. Haben Sie weitere tolle Tipps? Sehr gut! We
 * Abweichende Farbskalen verwenden
 * Änderungen in Power BI rückgängig machen
 
-Um Änderungen vorzunehmen, müssen Sie einen Bericht bearbeiten: Wählen Sie Ihren **Bericht** unter **Mein Arbeitsbereich** aus, und wählen Sie dann oben im Menübereich wie im folgenden Bild gezeigt **Bericht bearbeiten** aus. Im Folgenden wird das **Beispiel für Personalwesen** verwendet.
+Um Änderungen vorzunehmen, müssen Sie einen Bericht bearbeiten. Öffnen Sie den Bericht, und wählen Sie im oberen Menübereich **Bericht bearbeiten** aus, wie im folgenden Bild gezeigt.
 
-![Berichtszeichenbereich mit hervorgehobener Option „Edit report“ (Bericht bearbeiten)](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-Wenn das Fenster **Visualisierungen** auf der rechten Seite des Bereichs **Bericht** angezeigt wird, können Sie ihn anpassen.
+Wenn das Fenster **Visualisierungen** auf der rechten Seite des Bereichs **Bericht** angezeigt wird, können Sie ihn anpassen. Wenn der Bereich nicht angezeigt wird, klicken Sie auf den Pfeil in der oberen rechten Ecke, um ihn zu öffnen.
 
-![Bericht mit angezeigtem Formatierungsbereich](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Farbe eines einzelnen Datenpunkts ändern
-Unter Umständen möchten Sie einen bestimmten Datenpunkt markieren. Möglicherweise handelt es sich dabei um die Verkaufszahlen für ein neu eingeführtes Produkt oder bessere Qualitätsergebnisse nach der Einführung eines neuen Programms. Mit Power BI können Sie (für die meisten Visualtypen) einen bestimmten Datenpunkt hervorheben, indem Sie seine Farbe ändern.
+Unter Umständen möchten Sie einen bestimmten Datenpunkt markieren. Möglicherweise handelt es sich dabei um die Verkaufszahlen für ein neu eingeführtes Produkt oder bessere Qualitätsergebnisse nach der Einführung eines neuen Programms. Mit Power BI können Sie einen bestimmten Datenpunkt hervorheben, indem Sie seine Farbe ändern.
 
-In der folgenden Visualisierung werden mithilfe von Standardfarben Verkaufsmargen nach Mitarbeiter angezeigt. 
+In der folgenden Visualisierung werden verkaufte Einheiten nach Produktsegment angeordnet. 
 
-![area chart](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Die Fläche für Annelie ist schwer zu erkennen. Verwenden wir also eine Farbe, durch die die Fläche mehr hervorsticht. Gehen Sie wie folgt vor:
+Stellen Sie sich vor, dass Sie das Segment **Convenience** farblich hervorheben möchten, um zu zeigen, wie gut dieses brandneue Segment abschneidet. Gehen Sie wie folgt vor:
 
-Erweitern Sie den Abschnitt **Datenpunktfarben** . Folgendes wird angezeigt:
+Erweitern Sie den Abschnitt **Datenfarben**, und aktivieren Sie den Schieberegler für **Alles einblenden**. Die Farben für jedes Datenelement in der Visualisierung werden angezeigt. Wenn Sie auf die Datenpunkte zeigen, wird der Bildlauf aktiviert, sodass Sie alle Datenpunkte ändern können.
 
-![Abschnitt „Datenfarben“ unter „Formatierung“](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+Legen Sie **Convenience** auf Orange fest. 
 
-In diesem Fall wählen wir keine dunkle, sondern eine helle Farbe aus, die keine Ähnlichkeit mit der Farbe für Valery hat. Klicken Sie im Farbfeld von Annelie auf den Pfeil nach unten, wählen Sie **Benutzerdefinierte Farbe** aus, und wählen Sie anschließend einen hellen Blauton aus.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![Farbauswahl](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Sobald die Auswahl getroffen wurde, wird der Datenpunkt **Convenience** in einem ansprechenden Orange hervorgehoben.
 
-Nachdem Sie die Auswahl getroffen haben, kann die Fläche für Annelie viel einfacher von den Flächen der anderen Mitarbeiter unterschieden werden. 
+Auch wenn Sie Visualisierungstypen ändern und später zurückkehren, speichert Power BI Ihre Auswahl und markiert **Convenience** in Orange.
 
-![Flächendiagramm, die Fläche von Annelie ist jetzt hellblau](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+Sie können die Farbe eines Datenpunkts für einzelne, mehrere oder alle Datenelemente in der Visualisierung ändern. Vielleicht möchten Sie Ihr Visual an Ihre Unternehmensfarben anpassen. 
 
-Auch wenn Sie Visualisierungstypen ändern und später zurückkehren, speichert Power BI Ihre Auswahl und markiert **Washington** in Grün.
-
-Sie können die Farbe eines Datenpunkts auch für mehrere Datenelemente ändern. In der folgenden Abbildung ist **Arizona** rot, und **Washington** ist weiterhin grün.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 Farben bieten Ihnen viele Gestaltungsmöglichkeiten. Im nächsten Abschnitt prüfen wir Farbverläufe.
 
@@ -73,16 +70,27 @@ Diagramme lassen sich mit dynamischen Farbeinstellungen nach dem numerischen Wer
 Die folgenden Abschnitte zeigen die verschiedene Methoden, Farben auf Grundlage eines numerischen Werts anzupassen.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>Farbe von Datenpunkten nach einem numerischen Wert vergeben
-Um eine Farbe auf Grundlage eines Werts zu ändern, ziehen Sie das Feld, auf dem die Farbe basieren soll, in den Bereich **Farbsättigung** im Bereich **Feld** . In der folgenden Abbildung  wurde **Gewinn vor Steuern** in **Farbsättigung**gezogen. Obwohl **Velo** höhere **Bruttoumsätze** verzeichnet (die Spalte ist höher), verfügt **Amarilla** über einen höheren **Gewinn vor Steuern** (die Spalte hat eine stärkere Farbsättigung).
+Um eine Farbe auf Grundlage eines Werts zu ändern, ziehen Sie das Feld, auf dem die Farbe basieren soll, in den Bereich **Farbsättigung** im Bereich **Felder**. In der folgenden Abbildung wurde **%Market Share SPLY YTD** (% Marktanteil im gleichen Vorjahreszeitraum seit Jahresbeginn) in **Farbsättigung** gezogen. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+Legen Sie im Bereich „Formatierung“ unter **Datenfarben** fest, wie Farbe und Schattierung in Ihrem Säulendiagramm durch den Wert von **%Market Share SPLY YTD** (% Marktanteil im gleichen Vorjahreszeitraum seit Jahresbeginn) geändert werden. In diesem Beispiel wird ein niedrigerer prozentualer Marktanteil hellblau angezeigt, und höhere Werte werden in dunklerem Blau dargestellt.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+Sie sehen, dass zwar mehr Einheiten aus den Bereichen **Productivity** und **Extreme** verkauft wurden (die Säulen sind höher), **Moderation** aber dennoch einen höheren Wert für **%Market Share SPLY YTD** (% Marktanteil im gleichen Vorjahreszeitraum seit Jahresbeginn) aufweist (die Säule zeigt eine stärkere Farbsättigung).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>Farben in der Farbskala individuell anpassen
-Sie können auch die Farben in der Farbskala anpassen. Wenn Sie **Datenfarben** erweitern, sehen einen Farbverlauf der Farben für die visuelle Darstellung Ihrer Daten. Standardmäßig wird dem niedrigsten Wert in Ihren Daten die geringste Farbsättigung und dem höchste Wert die stärkste Farbsättigung zugewiesen.
+Sie können auch die Farben in der Farbskala anpassen. Standardmäßig wird dem niedrigsten Wert in Ihren Daten die geringste Farbsättigung und dem höchste Wert die stärkste Farbsättigung zugewiesen. In der obigen Abbildung wurde ein blauer Farbverlauf verwendet. 
 
-Der Farbbereich wird auf einer Farbverlaufsleiste angezeigt, die das Spektrum zwischen den **minimalen** und den **maximalen** Farbwerten anzeigt. Der **Minimalwert** wird links, der **Maximalwert** rechts angezeigt.
+Wenn Sie **Datenfarben** erweitern, sehen einen Farbverlauf der Farben für die visuelle Darstellung Ihrer Daten. Der Farbbereich wird auf einer Farbverlaufsleiste angezeigt, die das Spektrum zwischen den **minimalen** und den **maximalen** Farbwerten anzeigt. Der **Minimalwert** wird links, der **Maximalwert** rechts angezeigt.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 Um die Skalierung für einen anderen Farbbereich zu ändern, wählen Sie das Farb-Dropdown neben **Minimal** oder **Maximal**, und wählen Sie eine Farbe aus. In der folgenden Abbildung wird die **Maximal**-Farbe in Schwarz geändert, und die Farbverlaufsleiste zeigt das neue Farbspektrum zwischen **Minimal** und **Maximal**.
 
