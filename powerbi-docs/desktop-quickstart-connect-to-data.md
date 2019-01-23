@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279203"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420784"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Schnellstart: Verbinden mit Daten in Power BI Desktop
 
@@ -39,13 +39,13 @@ Nachdem Sie **Power BI Desktop** installiert haben, starten Sie die Anwendung, s
 
 ## <a name="connect-to-data"></a>Verbinden mit Daten
 
-Mit **Power BI Desktop** können Sie Verbindungen mit verschiedenen Arten von Daten herstellen. Sie können eine Verbindung mit grundlegenden Datenquellen wie beispielsweise einer Microsoft Excel-Datei oder mit Onlinediensten herstellen, die unterschiedlichste Datentypen enthalten, z.B. Salesforce, Microsoft Dynamics, Azure Blob Storage und viele weitere. 
+Mit **Power BI Desktop** können Sie Verbindungen mit verschiedenen Arten von Daten herstellen. Sie können eine Verbindung mit grundlegenden Datenquellen wie beispielsweise einer Microsoft Excel-Datei oder mit Onlinediensten herstellen, die unterschiedlichste Datentypen enthalten, z.B. Salesforce, Microsoft Dynamics, Azure Blob Storage und viele weitere.
 
 Wählen Sie zum Herstellen einer Verbindung mit Daten im Menüband **Start** den Eintrag **Daten abrufen** aus.
 
 ![Daten abrufen](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-Das Fenster **Daten abrufen** wird angezeigt, in dem Sie aus den vielen verschiedenen Datenquellen auswählen können, mit denen **Power BI Desktop** eine Verbindung herstellen kann. In dieser Schnellstartanleitung verwenden wir die Excel-Arbeitsmappe, die Sie heruntergeladen haben und die im Abschnitt *Voraussetzungen* am Anfang dieses Artikels beschrieben wurde. 
+Das Fenster **Daten abrufen** wird angezeigt, in dem Sie aus den vielen verschiedenen Datenquellen auswählen können, mit denen **Power BI Desktop** eine Verbindung herstellen kann. In dieser Schnellstartanleitung verwenden wir die Excel-Arbeitsmappe, die Sie heruntergeladen haben und die im Abschnitt *Voraussetzungen* am Anfang dieses Artikels beschrieben wurde.
 
 ![Daten abrufen](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Nachdem Sie die Tabellen geladen haben, werden die Daten im Bereich **Felder** a
 
 Und das ist auch schon alles! Sie haben in **Power BI Desktop** eine Verbindung mit Daten hergestellt, diese Daten geladen und können jetzt alle verfügbaren Felder in diesen Tabellen anzeigen.
 
-
 ## <a name="next-steps"></a>Nächste Schritte
+
 In **Power BI Desktop** können Sie nach dem Herstellen einer Verbindung mit Daten verschiedene Aufgaben ausführen; Sie können beispielsweise Visuals und Berichte erstellen. Sehen Sie sich folgende Ressourcen an, um loszulegen:
 
 * [Leitfaden für die ersten Schritte mit Power BI Desktop](desktop-getting-started.md)
-
-

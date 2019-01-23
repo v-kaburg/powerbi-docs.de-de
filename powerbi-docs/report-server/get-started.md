@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291973"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394824"
 ---
 # <a name="what-is-power-bi-report-server"></a>Was ist der Power BI-Berichtsserver?
 
@@ -51,7 +51,7 @@ Ein Power BI-Bericht stellt eine Ansicht eines Datenmodells aus verschiedenen Pe
 Installieren Sie den [optimierten Power BI Desktop für den Power BI-Berichtsserver](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Paginierte Berichte
-Paginierte Berichte (RDL) sind Berichte im Dokumentstil mit Visualisierungen, in denen Tabellen horizontal und vertikal erweitert werden, um alle darin enthaltenen Daten anzuzeigen, nach Bedarf von Seite zu Seite. Dieses Format ist ideal zum Generieren zu druckender Dokumente mit festem Layout und perfektem Aussehen, wie z.B. PDF- und Word-Dateien. 
+Paginierte Berichte (RDL) sind Berichte im Dokumentstil mit Visualisierungen, in denen Tabellen horizontal und vertikal erweitert werden, um alle darin enthaltenen Daten anzuzeigen, nach Bedarf von Seite zu Seite. Diese sind ideal zum Generieren von zu druckenden Dokumenten mit festem Layout und perfektem Aussehen, wie z.B. PDF- und Word-Dateien. 
 
 ![Paginierte Berichte im Power BI-Berichtsserver](media/get-started/paginated-reports.png)
 
