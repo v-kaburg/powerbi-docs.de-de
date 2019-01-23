@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670114"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282262"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI
 Sie können jede Excel-Arbeitsmappe, die kleiner als 1 GB ist, in Power BI hochladen. Eine Excel-Arbeitsmappe kann aus zwei Teilen bestehen: einem Datenmodell und dem Rest des Berichts – den Arbeitsblatt-Kerninhalten. Wenn der Bericht die folgenden Größenanforderungen erfüllt, können Sie ihn auf **OneDrive for Business** speichern, von Power BI aus eine Verbindung damit herstellen und ihn in Excel Online anzeigen:
 
 * Die Arbeitsmappe als Ganzes darf bis zu 1 GB groß sein.
-* Die Arbeitsblatt-Kerninhalte können eine Größe von bis zu 10 MB haben.
+* Die Arbeitsblatt-Kerninhalte können bis zu 30 MB umfassen.
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>Gründe dafür, warum Arbeitsblatt-Kerninhalte größer als 10 MB sind
-Hier sind einige Faktoren aufgeführt, die bewirken können, dass die Arbeitsblatt-Kerninhalte größer als 10 MB sind:
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>Gründe für Arbeitsblatt-Kerninhalte von mehr als 30 MB
+Hier sind einige Faktoren aufgeführt, die dazu führen können, dass die Arbeitsblatt-Kerninhalte mehr als 30 MB umfassen:
 
 * Bilder
 * Schattierte Zellen. [Entfernen Sie ein Format für die Zellenschattierung](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
@@ -44,14 +44,14 @@ Sie müssen die Arbeitsmappe in Excel bearbeiten, um diese Änderungen vorzunehm
 Weitere Informationen finden Sie unter [Dateigrößenbeschränkungen für Arbeitsmappen in SharePoint Online](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e).
 
 ## <a name="remove-data-from-worksheets"></a>Entfernen von Daten aus Arbeitsblättern
-Wenn Sie Daten über die Registerkarte „Power Query“ oder die Registerkarte „Excel-Daten“ in Excel importieren, kann die Arbeitsmappe dieselben Daten in einer Excel-Tabelle und im Datenmodell enthalten. Große Tabellen in Excel-Arbeitsblättern können dazu führen, dass die Arbeitsblatt-Kerninhalte 10 MB übersteigen. Indem Sie die Tabelle in Excel entfernen und die Daten im Datenmodell beibehalten, können Sie den Umfang der Arbeitsblatt-Kerninhalte des Berichts deutlich reduzieren. 
+Wenn Sie Daten über die Registerkarte „Power Query“ oder die Registerkarte „Excel-Daten“ in Excel importieren, kann die Arbeitsmappe dieselben Daten in einer Excel-Tabelle und im Datenmodell enthalten. Umfangreiche Tabellen in Excel-Arbeitsblättern können dazu führen, dass die Arbeitsblatt-Kerninhalte 30 MB übersteigen. Indem Sie die Tabelle in Excel entfernen und die Daten im Datenmodell beibehalten, können Sie den Umfang der Arbeitsblatt-Kerninhalte des Berichts deutlich reduzieren. 
 
 Beachten Sie diese Tipps, wenn Sie Daten in Excel importieren:
 
-* **In Power Query**: Deaktivieren Sie das Kontrollkästchen **In Arbeitsblatt laden** .
+* **In Power Query**: Deaktivieren Sie das Kontrollkästchen **In Arbeitsblatt laden**.
   
   Die Daten werden nur in das Datenmodell importiert, ohne Daten in Excel-Arbeitsblättern.
-* **Auf der Registerkarte „Excel-Daten“**: Falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben, navigieren Sie zu **Vorhandene Verbindungen**\>, klicken Sie auf die Verbindung, und wählen Sie \>**Nur Verbindung erstellen**. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
+* **Auf der Registerkarte „Excel-Daten“**, falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben: Wechseln Sie zu **Vorhandene Verbindungen**, klicken Sie auf die Verbindung, und wählen Sie **Nur Verbindung erstellen**. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
 * **Auf der Registerkarte „Excel-Daten“**: Achten Sie darauf, dass die Option **Tabelle** im Feld **Daten importieren** nicht aktiviert ist.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer

@@ -1,20 +1,20 @@
 ---
 title: Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 description: Laden Sie andere Personen ein, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Erfahren Sie, wie das funktioniert.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271645"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283665"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 Gilt für:
@@ -94,7 +94,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
     Wenn Sie der Besitzer des Dashboards sind, sehen Sie die Liste der Kollegen, mit denen Sie das Dashboard oder den Bericht geteilt haben, einschließlich der folgenden Anmerkungen:
 
     -   **Kann anzeigen**: Sie können Elemente anzeigen, aber nicht freigeben.
-    -   **Kann anzeigen und erneut freigeben**: Das Dashboard kann angezeigt und für andere Kollegen freigegeben werden.
+    -   **Kann anzeigen und erneut freigeben**: Sie können Elemente anzeigen und für andere Kollegen freigeben.
 
 1. Geben Sie die E-Mail-Adressen und eine Nachricht ein, die Ihre Dashboard-Einladung begleitet. Andernfalls sendet Power BI eine Standardnachricht.
 2. Um eine erneute Freigabe zu ermöglichen, lassen Sie **Empfängern das Freigeben des Dashboards erlauben** ausgewählt.
@@ -128,7 +128,7 @@ Sie können die Freigabe nur aufheben, wenn Sie der Besitzer sind.
    
    **Kann anzeigen**: Sie können Elemente anzeigen, aber nicht freigeben.
    
-   **Kann anzeigen und erneut freigeben**: Das Dashboard kann angezeigt und für andere Kollegen freigegeben werden.
+   **Kann anzeigen und erneut freigeben**: Sie können Elemente anzeigen und für andere Kollegen freigeben.
 2. Geben Sie die E-Mail-Adressen und eine Nachricht ein, die Ihre Einladung begleitet. Andernfalls sendet Power BI eine Standardnachricht.
    
    ![Dialogfeld „Einladen“](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

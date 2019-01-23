@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679453"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282584"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
 Dieser Artikel ist für Benutzer gedacht, die noch nicht mit Power BI Desktop gearbeitet haben. Er soll Ihnen kurz eine einfache Einführung in die Verwendung von DAX (Data Analysis Expressions) zum Lösen einer Reihe einfacher Berechnungen und Datenanalyseprobleme geben. Wir gehen einige Konzeptinformationen, eine Reihe von Aufgaben, die Sie ausführen können, und ein paar Quizfragen zum Prüfen des Gelernten durch. Nach dem Durcharbeiten dieses Artikels sollten Sie über ein gutes Verständnis der wichtigsten Konzepte in DAX verfügen.
@@ -33,7 +33,7 @@ Wir legen den Schwerpunkt auf das Verstehen der DAX-Formeln, die in Berechnungen
 
 **Beispielarbeitsmappe**
 
-Die beste Möglichkeit, DAX zu lernen, besteht im Erstellen einiger einfacher Formeln, ihrer Verwendung mit ein paar echten Daten und im Beobachten der Ergebnisse. Für die Beispiele und Aufgaben in diesem Artikel wird die Contoso Sales for Power BI Desktop Preview-Datei verwendet. Das ist die Beispieldatei, die auch im Artikel [Tutorial: Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md) verwendet wird. Die Beispieldatei, die Sie herunterladen können, finden Sie [hier](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
+Die beste Möglichkeit, DAX zu lernen, besteht im Erstellen einiger einfacher Formeln, ihrer Verwendung mit ein paar echten Daten und im Beobachten der Ergebnisse. Für die Beispiele und Aufgaben in diesem Artikel wird die Contoso Sales for Power BI Desktop Preview-Datei verwendet. Dies ist die gleiche Beispieldatei, die im [Tutorial: Erstellen eigener Measures in Power BI Desktop](desktop-tutorial-create-measures.md) verwendet wird. Die Beispieldatei, die Sie herunterladen können, finden Sie [hier](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
 
 ## <a name="lets-begin"></a>Fangen wir an!
 Den Bezugsrahmen für unser Verständnis von DAX bilden drei grundlegende Konzepte: *Syntax*, *Funktionen* und *Kontext*. Natürlich gibt es andere wichtige Konzepte in DAX, aber das Verständnis dieser drei Konzepte bietet die beste Grundlage für die Entwicklung Ihrer DAX-Fertigkeiten.
@@ -83,9 +83,9 @@ Erstellen wir eine einfache Formel. Diese Aufgabe vertieft Ihr Verständnis für
 ### <a name="task-create-a-measure-formula"></a>Aufgabe: Erstellen einer Measureformel
 Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Beispieldatei öffnen.
     
-1. Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf Neues Measure.
+1. Klicken Sie in der Berichtsansicht in der Feldliste mit der rechten Maustaste auf die Tabelle **Sales**, und klicken Sie dann auf **Neues Measure**.
     
-2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: Previous Quarter Sales (Umsätze des Vorquartals).
+2. Ersetzen Sie in der Bearbeitungsleiste **Measure**, indem Sie einen neuen Measurenamen eingeben: **Previous Quarter Sales** (Umsätze des Vorquartals).
     
 3. Geben Sie nach dem Gleichheitszeichen die ersten paar Buchstaben **CAL** ein, und doppelklicken Sie dann die zu verwendende Funktion. In dieser Formel sollten Sie die **CALCULATE**-Funktion verwenden.
 
@@ -186,7 +186,7 @@ Diese Formel beinhaltet die folgenden Syntaxelemente:
 
 **F.** Ein Komma (**,**) trennt das erste Ausdrucksargument vom Filterargument.
 
-**G.** Die vollqualifizierte referenzierte Spalte **Channel[ChannelName]**. Dies ist unser Zeilenkontext. Jede Zeile in dieser Spalte bezeichnet einen Kanal : „Store“, „Online“ usw.
+**G.** Die vollqualifizierte referenzierte Spalte **Channel[ChannelName]**. Dies ist unser Zeilenkontext. Jede Zeile in dieser Spalte bezeichnet einen Kanal: „Store“, „Online“ usw.
 
 **H.** Der Einzelwert **Store** als Filter. Dies ist unser Filterkontext.
 
