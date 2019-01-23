@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406751"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488912"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
@@ -197,7 +197,7 @@ Alle Details finden Sie im [Blog des Power BI-Teams](https://powerbi.microsoft.c
 ***Sicherheit auf Zeilenebene (row-level security; RLS)***
 
 * Unterstützung für Azure Active Directory-Gruppen (AAD): Benutzer können jetzt AAD-Gruppen (Sicherheitsgruppen und Verteilerlisten) einer Rolle zuweisen. Dies erleichtert es, einer großen Gruppe von Benutzern gleichzeitig Rollen zuzuweisen.
-* [Testen von RLS-Rollen mit Berichten, die durch RLS-aktivierte Daten unterstützt werden](service-admin-rls.md#validating-the-role-within-power-bi-desktop): Die RLS-Vorschauversion enthält eine neue Funktion, mit der Sie Ihr Dataset in einer bestimmten Rolle testen können. Dies stellt sicher, dass die Rolle erwartungsgemäß funktioniert, bevor Benutzer Ihr Dashboard nutzen.
+* [Testen von RLS-Rollen mit Berichten, die durch RLS-aktivierte Daten unterstützt werden](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): Die RLS-Vorschauversion enthält eine neue Funktion, mit der Sie Ihr Dataset in einer bestimmten Rolle testen können. Dies stellt sicher, dass die Rolle erwartungsgemäß funktioniert, bevor Benutzer Ihr Dashboard nutzen.
 * Definieren und Anwenden von RLS auf Clouddienstmodelle, die auf direkten Abfragen basieren: Sie können jetzt RLS-Regeln für die direkte Abfrage von Datenquellen erstellen und anwenden.
 
 ***Dashboards***
