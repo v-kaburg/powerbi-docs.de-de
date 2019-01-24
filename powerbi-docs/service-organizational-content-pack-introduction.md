@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286379"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838460"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Einführung in organisationsbezogene Inhaltspakete in Power BI
 > [!NOTE]
@@ -41,8 +41,6 @@ Die Dashboards, Berichte und Excel-Arbeitsmappen sind schreibgeschützt. Sie kö
 Durch Veröffentlichen eines organisationsbezogenen Inhaltspakets wird dieses zu AppSource hinzugefügt.  Dieses zentrale Repository vereinfacht Mitgliedern das Durchsuchen und Ermitteln von Dashboards, Berichten und Datasets, die für sie veröffentlicht wurden.  
 
 * Wählen Sie zum Anzeigen von AppSource **Daten abrufen** > **Meine Organisation** > **Abrufen** aus.
-
-Erfahren Sie mehr über das [Suchen und Öffnen organisationsbezogener Inhaltspakete](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Lebenszyklus eines organisationsbezogenen Inhaltspakets
 Jeder Power BI Pro-Benutzer kann organisationsbezogene Inhaltspakete erstellen, veröffentlichen und auf sie zugreifen. Nur der Ersteller des Inhaltspakets kann die Arbeitsmappe und das Dataset ändern, deren Aktualisierung planen und sie löschen.
