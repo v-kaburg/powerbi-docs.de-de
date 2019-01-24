@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280215"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394839"
 ---
 # <a name="certified-custom-visuals"></a>Zertifizierte benutzerdefinierte Visuals
 
@@ -74,6 +74,10 @@ So reichen Sie ein benutzerdefiniertes visuelles Element zur Zertifizierung ein
 | Link zu AppSource | Link zum Video |
 | --- | --- |
 | [3AG Systems – Column Chart With Relative Variance (3AG Systems: Säulendiagramm mit relativer Varianz)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
+| [Advanced Donut Visual (Erweitertes Ringdiagrammvisual)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
+| [Advanced Network Visualization (Erweiterte Netzwerkvisualisierung)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
+| [Advanced TimeSeries Visual (Erweitertes TimeSeries-Visual)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
+| [Advanced Combo Visual (Erweitertes Combovisual)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
 | [Aster-Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft-Kalender](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Schleifendiagramm von MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Video](https://youtu.be/So5xKMSpVJI) |

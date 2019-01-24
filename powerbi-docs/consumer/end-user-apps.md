@@ -1,5 +1,5 @@
 ---
-title: Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
+title: Was ist eine Power BI-App?
 description: In Power BI lassen sich zusammengehörige Dashboards und Berichte zu Apps zusammenfassen.
 author: mihart
 manager: kvivek
@@ -8,61 +8,42 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859deefd829a696d2a99e896439481357c698e4a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275155"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394798"
 ---
-# <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
-In Power BI lassen sich zusammengehörige Dashboards und Berichte zu *Apps* zusammenfassen. Personen in Ihrer Organisation erstellen und verteilen Apps mit wichtigen Geschäftsinformationen erstellen und verteilen. [Externe Dienste](../service-connect-to-services.md), die Sie u.U. bereits verwenden (wie Google Analytics und Microsoft Dynamics CRM), bieten ebenfalls Power BI-Apps. 
+# <a name="apps-in-power-bi"></a>Apps in Power BI
+## <a name="what-is-a-power-bi-app"></a>Was ist eine Power BI-App?
+Eine *App* ist ein Power BI-Inhaltstyp, bei dem zusammengehörige Dashboards und Berichte an einem Ort zusammengefasst werden. Eine App bündelt ein oder mehrere Dashboards sowie einen oder mehrere Berichte. Apps werden von *Power BI-Designern* erstellt und mit *Endbenutzern* wie Ihnen geteilt. 
 
-![Apps in Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
+Ihre Apps sind in der Inhaltsliste der **Apps** organisiert.
 
-Apps lassen sich im Power BI-Dienst und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
+![Apps in Power BI](./media/end-user-apps/power-bi-apps-nav.png)
+
+## <a name="app-designers-and-app-consumers"></a>***Designer*** und ***Endbenutzer*** von Apps
+Je nach Rolle gibt es Designer, die Apps zur eigenen Nutzung oder zur Freigabe für Kollegen erstellen, und Endbenutzer, die von anderen Personen erstellte Apps erhalten und herunterladen. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
+
+## <a name="advantages-of-apps"></a>Vorteile von Apps
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem mobilen Gerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
+
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben. 
 
+<!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Erhalten einer neuen App
-Sie können Apps auf unterschiedliche Weise erhalten. Der Ersteller der App kann die App automatisch in Ihrem Power BI-Konto installieren lassen oder Ihnen einen direkten Link zur App senden, oder Sie können die App in AppSource suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. In Power BI auf Ihrem Mobilgerät können Sie sie nur über einen Direktlink und nicht aus AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
-
-### <a name="install-an-app-from-a-direct-link"></a>Installieren einer App über einen direkten Link
-Die einfachste Möglichkeit, eine neue App selbst zu installieren, ist das Empfangen eines direkten Links vom Ersteller der App. Power BI erstellt einen Link für die Installation, den Ihnen der Ersteller senden kann.
-
-**Auf Ihrem Computer** 
-
-Wählen Sie den Link in der E-Mail aus, um den Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) in einem Browser zu öffnen. Bestätigen Sie, dass Sie die App installieren möchten, und die Landing Page der App wird geöffnet.
-
-![App-Startseite im Power BI-Dienst](./media/end-user-apps/power-bi-get-app.png)
-
-**Auf Ihrem iOS- oder Android-Mobilgerät** 
-
-Wenn Sie auf Ihrem Mobilgerät den Link in der E-Mail auswählen, wird die App automatisch installiert, und die Inhaltsliste der App wird in der mobilen App geöffnet. 
-
-![Inhaltsliste der App auf dem Mobilgerät](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
-
-### <a name="get-the-app-from-microsoft-appsource"></a>Abrufen der App von Microsoft AppSource
-Sie können auch in Microsoft AppSource Apps suchen und installieren, auf die Sie Zugriff haben. 
-
-1. Wählen Sie **Apps** ![„Apps“ im linken Navigationsbereich](./media/end-user-apps/power-bi-apps-bar.png) > **Apps abrufen** aus. 
-   
-     ![Symbol „Apps abrufen“](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. Suchen Sie in AppSource unter **Meine Organisation**, um die Ergebnisse einzugrenzen und die gewünschte App zu finden.
-   
-     ![In AppSource unter „Meine Organisation“](./media/end-user-apps/power-bi-appsource-my-org.png)
-3. Wählen Sie **Jetzt anfordern** aus, um sie der Seite „Apps“ hinzuzufügen. 
-
-## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagieren mit Dashboards und Berichten in der App
-Jetzt können Sie in der App die Daten in den Dashboards und Berichten untersuchen. Sie haben Zugriff auf alle standardmäßigen Power BI-Interaktionen wie Filtern, Hervorheben, Sortieren und Durchführen von Drilldowns. Informieren Sie sich über das [Interagieren mit Berichten in Power BI](end-user-reading-view.md). 
-
-![Exportieren von Daten aus einem Power BI-Visual](./media/end-user-apps/power-bi-service-export-data-visual.png)
+Sie können Apps auf unterschiedliche Weise erhalten. 
+- Der Ersteller kann die App automatisch in Ihrem Power BI-Konto installieren. Die neue App wird dann beim nächsten Öffnen von Power BI in der Inhaltsliste der **Apps** angezeigt. 
+- Der Ersteller kann Ihnen eine E-Mail mit dem direkten Link zu einer App senden. Durch Klicken auf den Link wird die App in Power BI geöffnet.
+- Sie können in AppSource nach Apps suchen. Dort werden alle Apps angezeigt, auf die Sie Zugriff haben. AppSource enthält Apps, die von Berichts-Designern sowohl innerhalb als auch außerhalb Ihres Unternehmens veröffentlicht wurden. So finden sich in AppSource beispielsweise Apps für Dienste, die Sie bereits verwenden, wie etwa Google Analytics, GitHub oder Microsoft Dynamics. 
+- Wenn Sie Power BI auf Ihrem mobilen Gerät nutzen, können Sie eine App nur über einen direkten Link und nicht über AppSource installieren. Wenn der Ersteller der App diese automatisch installieren lässt, wird sie in der Liste der Apps angezeigt.
 
 
-
-## <a name="next-steps"></a>Nächste Schritte
-[Power BI-Apps für externe Dienste](../service-connect-to-services.md)
+## <a name="next-step"></a>Nächster Schritt
+* [Open and interact with an app (Öffnen einer App und Interagieren mit einer App)](end-user-app-view.md)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d4eeebca1505d376a403bf18f125782efb0d656d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283872"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394750"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplante Aktualisierung von Power BI-Berichten in Power BI-Berichtsserver
 Durch die geplante Aktualisierung für Power BI-Berichte wird sichergestellt, dass die Daten für einen Bericht auf dem neuesten Stand bleiben.
@@ -49,7 +49,7 @@ Nicht für alle Power BI-Berichte kann ein Plan für die geplante Aktualisierung
 * Ihr Bericht enthält eine oder mehrere Datenquellen, die DirectQuery verwenden.
 * Ihr Bericht enthält keine Datenquelle. Daten werden beispielsweise über *Daten eingeben* manuell eingegeben, oder der Bericht enthält ausschließlich statische Inhalte wie Bilder, Text usw.
 
-Zusätzlich zur obigen Liste gibt es spezielle Szenarien mit Datenquellen im *Importmodus*, für die keine Pläne für die geplante Aktualisierung erstellt werden können.
+Zusätzlich zur obigen Liste gibt es spezielle Szenarios mit Datenquellen im *Importmodus*, für die keine Pläne für die geplante Aktualisierung erstellt werden können.
 
 * Wenn eine Datenquelle vom Typ *Datei* oder *Ordner* verwendet wird, und der Dateipfad lokal ist (z.B. „C:\Benutzer\Benutzer\Dokumente“), kann kein Aktualisierungsplan erstellt werden. Der Pfad muss ein Pfad sein, mit dem der Berichtsserver eine Verbindung wie mit einer Netzwerkfreigabe herstellen kann. Beispiel: *\\meineFreigabe\Dokumente*.
 * Wenn eine Verbindung mit einer Datenquelle nur mit OAuth hergestellt werden kann (z.B. Facebook, Google Analytics, Salesforce usw.), kann kein Cache-Aktualisierungsplan erstellt werden. Derzeit wird OAuth von Berichtsserver für keine Datenquellen unterstützt, ganz gleich, ob es sich um paginierte, mobile oder Power BI-Berichte handelt.

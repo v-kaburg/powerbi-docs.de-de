@@ -1,7 +1,7 @@
 ---
 title: Integration von Power BI in Microsoft Flow
 description: Erfahren Sie, wie Sie Flows erstellen, die durch Power BI-Datenwarnungen ausgelöst werden.
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289806"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406613"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow und Power BI
 
@@ -60,7 +60,7 @@ Diese Vorlage verfügt über einen Trigger (Power BI-Datenwarnung bei neuen Olym
    
    ![Anzeige „E-Mail senden an“](media/service-flow-integration/power-bi-flow-email.png)
 
-3. Flow erstellt einen Titel und eine Nachricht für Sie, den bzw. die Sie beibehalten oder ändern können. Alle Werte, die von Ihnen beim Erstellen der Warnung in Power BI festgelegt wurden, können nun verwendet werden. Platzieren Sie einfach Ihren Cursor, und wählen Sie aus dem grau hervorgehobenen Bereich aus. 
+3. Flow erstellt einen Titel und eine Nachricht für Sie, den bzw. die Sie beibehalten oder ändern können. Alle Werte, die Sie beim Erstellen der Warnung in Power BI festgelegt haben, können nun verwendet werden. Platzieren Sie einfach Ihren Cursor, und treffen Sie im grau hervorgehobenen Bereich Ihre Auswahl. 
 
    ![Anzeige „E-Mail senden an“](media/service-flow-integration/power-bi-flow-email-default.png)
 
