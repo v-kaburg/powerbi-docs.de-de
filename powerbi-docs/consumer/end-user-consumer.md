@@ -1,22 +1,23 @@
 ---
 title: Was ist ein Power BI-„Kunde“?
-description: 'Übersicht über Power BI und das Zusammenspiel der verschiedenen Komponenten: Power BI Desktop, Power BI-Dienst, mobile Power BI-Funktionen, Berichtsserver, Power BI Embedded.'
+description: Übersicht über Power BI-Kunden auch als Geschäftsbenutzer oder Endbenutzer bekannt.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 12/06/2018
+ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cd78e281fd9e16857c2a36e7e4f1f253a919c4de
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 38c2161fe0d1bb02975caa405b8047799991d8c2
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291742"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838354"
 ---
+<!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>Power BI für Verbraucher
 Die Art und Weise, wie Sie mit Power BI interagieren, hängt von Ihrer Position ab. Wenn Sie *Endbenutzer* oder *Kunde* sind, empfangen Sie Dashboards, Berichte und Apps von Kollegen. Sie arbeiten im ***Power BI-Dienst***, prüfen diese Inhalte und interagieren mit diesen, um Entscheidungen für Ihr Unternehmen zu treffen.
 
