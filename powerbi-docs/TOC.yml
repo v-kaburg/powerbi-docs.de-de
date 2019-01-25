@@ -10,7 +10,7 @@ items:
     - name: Verbinden mit Daten
       href: desktop-quickstart-connect-to-data.md
     expanded: true
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Strukturieren und Kombinieren mehrerer Datenquellen
       href: desktop-shape-and-combine-data.md
@@ -64,7 +64,7 @@ items:
       href: desktop-many-to-many-relationships.md
     - name: Speichermodus in Power BI Desktop (Vorschauversion)
       href: desktop-storage-mode.md
-    - name: Bidirektionale Kreuzfilterung in Power BI Desktop (Vorschau)
+    - name: Bidirektionale Kreuzfilterung in Power BI Desktop
       href: desktop-bidirectional-filtering.md
     - name: Power BI und DirectQuery
       href: desktop-directquery-about.md
@@ -392,7 +392,7 @@ items:
       href: power-bi-overview.md
     - name: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
       href: service-service-vs-desktop.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Erste Schritte mit Power BI
       href: service-get-started.md
@@ -856,7 +856,7 @@ items:
         href: developer/embedding.md
       - name: Was ist Power BI Embedded in Azure?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
       - name: Einbetten von Inhalten für Kunden
         href: developer/embed-sample-for-customers.md
@@ -952,7 +952,7 @@ items:
       items:
       - name: Benutzerdefinierte Visualisierungen in Power BI
         href: power-bi-custom-visuals.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
       - name: Entwickeln eines benutzerdefinierten Visuals für Power BI
         href: developer/custom-visual-develop-tutorial.md
@@ -1006,7 +1006,7 @@ items:
       items:
       - name: Was kann ich mit der Power BI-API tun?
         href: developer/overview-of-power-bi-rest-api.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
       - name: Übertragen von Daten in ein Dataset per Push
         href: developer/walkthrough-push-data.md
@@ -1058,7 +1058,7 @@ items:
       href: report-server/get-started.md
     - name: Vergleichen von Power BI-Berichtsserver mit dem Dienst
       href: report-server/compare-report-server-service.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer
       href: report-server/tutorial-explore-report-server-web-portal.md
@@ -1110,13 +1110,15 @@ items:
         href: report-server/quickstart-create-powerbi-report.md
       - name: Verwalten von Inhalten im Berichtsserver
         href: report-server/getting-around.md
+      - name: Sicherheit auf Zeilenebene im Berichtsserver
+        href: report-server/row-level-security-report-server.md
       - name: Erstellen eines paginierten Berichts für einen Berichtsserver
         href: report-server/quickstart-create-paginated-report.md
       - name: Eingeben von Daten direkt in einem paginierten Bericht
         href: paginated-reports-enter-data.md
       - name: Arbeiten mit KPIs
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: 'Zugreifen auf freigegebene Datasets als OData-Feeds '
+      - name: Zugreifen auf freigegebene Datasets als OData-Feeds
         href: report-server/access-dataset-odata.md
       - name: Konfigurieren von geplanten Aktualisierungen
         href: report-server/configure-scheduled-refresh.md
@@ -1160,7 +1162,7 @@ items:
     items:
     - name: Was sind Power BI-Gateways?
       href: service-gateway-getting-started.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Herstellen einer Verbindung mit SQL Server-Daten
       href: service-gateway-sql-tutorial.md
@@ -1293,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406728"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488889"
