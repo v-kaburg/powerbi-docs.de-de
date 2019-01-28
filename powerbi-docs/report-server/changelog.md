@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292029"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488866"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
 Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build.
 
 Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
+
+## <a name="january-2019"></a>Januar 2019
+- **Power BI-Berichtsserver**            
+    - *Version 1.4.6960.38798 (Build 15.0.1102.222), Veröffentlichung: 22. Januar 2019*
+        - Features
+            - Power BI-Berichte 
+                - Unterstützung der Sicherheit auf Zeilenebene
+                - Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix
+                - Kopieren und Einfügen zwischen PBIX-Dateien
+                - Intelligente Hinweise zur Ausrichtung
+                - Unterstützung für den SAP BW 2.0-Connector
+            - Administratoren
+                - Können nun die Erweiterungen der Ressourcen einschränken, die auf den Berichtsserver hochgeladen werden können
+                - Können nun die unterstützten Hyperlinkschemas einschränken
+        - Fehlerkorrekturen
+            - Sicherheitsrisiko durch Einschleusung von HTML-Befehlen
+            - Nach dem Exportieren ins PDF-Format wird kein Euro-Symbol angezeigt.
+            - Durch das Speichern eines Kennworts mit mehreren Datenquellen in Power BI-Berichten wurden nicht geänderte Kennwörter ungültig
+            - Visuals zeigen nach einem Leerlauf Fehler in der Power BI Mobile-App an.
+
+- **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - *Version: 2.65.5313.1421 (Januar 2019), Veröffentlichung: 22. Januar 2019*
+        - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (Januar 2019) erforderlich sind  
 
 ## <a name="august-2018"></a>August 2018
 - **Power BI-Berichtsserver**

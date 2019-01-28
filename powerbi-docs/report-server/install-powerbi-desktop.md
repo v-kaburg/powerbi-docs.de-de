@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295879"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488820"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop.
@@ -31,7 +31,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     ![Power BI Desktop aus dem Webportal herunterladen](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Sie können auch direkt [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (optimiert für Power BI-Berichtsserver, August 2018) im Microsoft Download Center aufrufen.
+    Sie können auch direkt zu [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (optimiert für Power BI-Berichtsserver – Januar 2019) im Microsoft Download Center navigieren.
 
 2. Wählen Sie im Download Center **Download** aus.
 
@@ -41,7 +41,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     - **PBIDesktopRS_x64.msi** (64-Bit-Version).
 
-1. Nachdem Sie das Installationsprogramm heruntergeladen haben, führen Sie den Setup-Assistenten für Power BI Desktop (August 2018) aus.
+1. Führen Sie den Setup-Assistenten für Power BI Desktop (Januar 2019) aus, nachdem Sie das Installationsprogramm heruntergeladen haben.
 
 2. Aktivieren Sie am Ende des Installationsvorgangs **Power BI Desktop jetzt starten**.
    
