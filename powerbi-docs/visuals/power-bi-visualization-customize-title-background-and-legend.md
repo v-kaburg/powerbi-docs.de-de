@@ -87,7 +87,7 @@ Erweitern Sie im gleichen Säulendiagramm die Hintergrundoptionen.
 6. Fügen Sie einen Legendentitel hinzu, indem Sie für den **Titel** die Option **Ein** auswählen und im Feld **Legendenname** den Namen **Manager**eingeben.
    ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
 
-   Um die Anpassungen der Legende zurückzusetzen, wählen Sie unten im Anpassungsbereich der **Legende****Standardwert wiederherstellen** aus.
+   Um die Anpassungen der Legende zurückzusetzen, wählen Sie unten im Anpassungsbereich der **Legende** **Standardwert wiederherstellen** aus.
 
 <a name="list"></a>
 
