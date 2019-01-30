@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 13c2742325e0cf2714d759eb1fd21ce6bcfd0187
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03a0e3cbd2a82c0d6741694c4389a8dcf4d207d9
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291209"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234253"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Welche Neuheiten enthält das aktuellste Update für Power BI Desktop? 
 
@@ -39,7 +39,7 @@ In diesem Monat bietet **Power BI Desktop** die folgenden Updates:
 ### <a name="reporting"></a>Berichterstellung
 
 * Intelligente Führungslinien zum Ausrichten von Objekten auf der Seite [[Video]](https://youtu.be/AHNlkjRFdYI?t=11) [[Artikel]](power-bi-reports-filters-and-highlighting.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* Updates für ArcGIS Maps for Power BI [[Video]](https://youtu.be/AHNlkjRFdYI?t=84) [[Artikel]](power-bi-visualization-arcgis.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* Updates für ArcGIS Maps for Power BI [[Video]](https://youtu.be/AHNlkjRFdYI?t=84) [[Artikel]](visuals/power-bi-visualization-arcgis.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * Unterstützung von Barrierefreiheit beim Auflisten von Feldern [[Video]](https://youtu.be/AHNlkjRFdYI?t=464) [[Artikel]](desktop-report-view.md#copy-and-paste-between-reports) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * Festlegen der Aktivierreihenfolge für Objekte auf einer Seite [[Video]](https://youtu.be/AHNlkjRFdYI?t=643) [[Artikel]](power-bi-reports-filters-and-highlighting.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * QuickInfos für Schaltflächenvisuals [[Video]](https://youtu.be/AHNlkjRFdYI?t=884) [[Artikel]](desktop-accessibility.md) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
