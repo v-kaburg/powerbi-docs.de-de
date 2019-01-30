@@ -15,7 +15,9 @@ items:
       href: end-user-experience.md
     - name: Was kann ich mit Power BI tun?
       href: end-user-reading-view.md
-  - name: Lernprogramme
+    - name: Erstmaliges Anmelden
+      href: end-user-sign-in.md
+  - name: Tutorials
     items:
     - name: Erstellen einer Dashboard-Warnung
       href: end-user-alerts.md
@@ -47,6 +49,8 @@ items:
       items:
       - name: Wofür kann ich Visualisierungen verwenden?
         href: end-user-visualizations.md
+      - name: Visualisierungstypen
+        href: end-user-visual-type.md
       - name: Anzeigen der Daten, die zum Erstellen der Visualisierung verwendet wurden
         href: end-user-show-data.md
       - name: Drilldown in einer Visualisierung in Power BI
@@ -103,7 +107,7 @@ items:
     items:
     - name: Erkunden von Dashboards und Berichten
       href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: Lernprogramme
+  - name: Tutorials
     items:
     - name: Stellen von Fragen in mobilen iOS-Apps
       href: mobile/tutorial-mobile-apps-ios-qna.md
@@ -129,7 +133,7 @@ items:
         href: mobile/mobile-apps-favorites.md
       - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
+      - name: Empfangen von Benachrichtigungen in den mobilen Power BI-Apps
         href: mobile/mobile-apps-notification-center.md
       - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
         href: mobile/mobile-apps-deep-link-specific-location.md
@@ -139,7 +143,7 @@ items:
         href: mobile/mobile-apps-view-dashboard.md
       - name: Berichte in mobilen Apps
         href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
+      - name: Herstellen einer Reporting Services-Verbindung mit OAuth
         href: mobile/mobile-oauth-ssrs.md
     - name: Android-Geräte
       items:
@@ -185,9 +189,9 @@ items:
     items:
     - name: Unterstützte Sprachen der mobilen Apps
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 9551f497f497939c78eb241ba28312410f2328c1
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: 623c45cf4522e7596dd1b83925b62d7957474548
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838414"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234322"
