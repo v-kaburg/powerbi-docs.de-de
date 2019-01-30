@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287897"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899248"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -96,7 +96,9 @@ Beim Hinzufügen einer Datenquelle für das Gateway müssen Sie für diese Daten
 
 ## <a name="tenant-level-administration"></a>Verwaltung auf Mandantenebene
 
-Derzeit können Mandantenadministratoren die Gateways, die andere Benutzer installiert und konfiguriert haben, nicht über einen zentralen Ort verwalten.  Mandantenadministratoren wird empfohlen, die Benutzer der Organisation darum zu bitten, sie zu jedem installierten Gateway als Administrator hinzuzufügen. Dadurch können alle Gateways der Organisation über die Seite „Gatewayeinstellungen“ oder über [PowerShell-Befehle](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) verwaltet werden. 
+Als Mandantenadministrator können Sie alle in Ihrem Mandanten installierten lokalen Datengateways anzeigen und verwalten. Diese Funktion ist derzeit in der öffentlichen Vorschauversion verfügbar. Weitere Informationen finden Sie in der Dokumentation des [Power Platform Admin Center](/power-platform/admin/onpremises-data-gateway-management).
+
+Alternativ wird Mandantenadministratoren empfohlen, die Benutzer der Organisation darum zu bitten, sie zu jedem installierten Gateway als Administrator hinzuzufügen. Dadurch können alle Gateways der Organisation über die Seite „Gatewayeinstellungen“ oder über [PowerShell-Befehle](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters) verwaltet werden. 
 
 ## <a name="enabling-outbound-azure-connections"></a>Aktivieren von ausgehenden Azure-Verbindungen
 

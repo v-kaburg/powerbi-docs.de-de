@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394798"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838322"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 ## <a name="what-is-a-power-bi-app"></a>Was ist eine Power BI-App?
@@ -26,12 +26,14 @@ Ihre Apps sind in der Inhaltsliste der **Apps** organisiert.
 
 ![Apps in Power BI](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> Für die Verwendung der Apps-Funktion ist eine Power BI Pro-Lizenz erforderlich. <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>***Designer*** und ***Endbenutzer*** von Apps
 Je nach Rolle gibt es Designer, die Apps zur eigenen Nutzung oder zur Freigabe für Kollegen erstellen, und Endbenutzer, die von anderen Personen erstellte Apps erhalten und herunterladen. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
 
 ## <a name="advantages-of-apps"></a>Vorteile von Apps
 Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem mobilen Gerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
-
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben. 
 
