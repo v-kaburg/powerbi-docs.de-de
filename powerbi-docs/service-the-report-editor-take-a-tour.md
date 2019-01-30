@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284421"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147402"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Überblick über den Berichts-Editor in Power BI
+# <a name="tour-the-report-editor-in-power-bi"></a>Einführung in den Berichts-Editor in Power BI
 
 Der *Berichts-Editor* im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich. Im Video wird der Berichts-Editor in Power BI Desktop gezeigt, und in diesem Artikel wird der Berichts-Editor im Power BI-Dienst gezeigt. 
 
-Als Ersteller eines Berichts erstellen und bearbeiten Sie Dashboards und Berichte. Anschließend verteilen Sie diese an Ihre Berichtsnutzer. Diese können in der Leseansicht im Power BI-Dienst mit Ihren Dashboards und Berichten interagieren, sie können sie jedoch nicht bearbeiten. Weiter Informationen zu den Unterschieden zwischen den Berichten finden Sie unter [Leseansicht und Bearbeitungsansicht im Power BI-Dienst](consumer/end-user-reading-view.md) 
+Als Ersteller eines Berichts erstellen und bearbeiten Sie Dashboards und Berichte. Anschließend verteilen Sie diese an Ihre Berichtsnutzer. Diese können in der Leseansicht im Power BI-Dienst mit Ihren Dashboards und Berichten interagieren, sie können sie jedoch nicht bearbeiten. Erfahren Sie mehr darüber, [welche Möglichkeiten Benutzer des Berichts im Power BI-Dienst haben](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ Der im Berichts-Editor angezeigte Inhalt variiert je nach ausgewählten Optionen
 
 |  |  |
 | --- | --- |
-| ![Bereiche des Berichts-Editors](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>wird am Anfang des Bereichs „Visualisierung“ der Typ des verwendeten visuellen Elements angegeben; in diesem Beispiel ein gruppiertes Säulendiagramm.<br><br></li> <li>werden am Ende des Bereichs „Visualisierung“ (möglicherweise müssen Sie nach unten scrollen) die vom visuellen Element verwendeten Felder angezeigt. In diesem Diagramm werden „FiscalMonth“, „DistrictManager“ und „Total Sales Variance“ verwendet. <br><br></li><li>werden im Bereich „Filter“ (möglicherweise müssen Sie nach unten scrollen) alle Filter angezeigt, die angewendet wurden. <br><br></li><li>werden im Bereich „Felder“ die verfügbaren Tabellen und, wenn Sie den Namen einer Tabelle erweitern, die Felder aufgelistet, die diese Tabelle bilden. An gelber Schrift können Sie erkennen, dass mindestens ein Feld aus dieser Tabelle in der Visualisierung verwendet wird.<br><br></li><li>![Farbrollensymbol](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Klicken Sie auf das Farbrollensymbol, um den Formatierungsbereich der ausgewählten Visualisierung anzuzeigen.<br><br></li><li>![Lupensymbol](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Klicken Sie auf das Lupensymbol, um den Analysebereich anzuzeigen.</ul> |
+| ![Bereiche des Berichts-Editors](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>wird am Anfang des Bereichs „Visualisierung“ der Typ des verwendeten visuellen Elements angegeben; in diesem Beispiel ein gruppiertes Säulendiagramm.<br><br></li> <li>werden am Ende des Bereichs „Visualisierung“ (möglicherweise müssen Sie nach unten scrollen) die vom visuellen Element verwendeten Felder angezeigt. In diesem Diagramm werden „FiscalMonth“, „DistrictManager“ und „Total Sales Variance“ verwendet. <br><br></li><li>werden im Bereich „Filter“ (möglicherweise müssen Sie nach unten scrollen) alle Filter angezeigt, die angewendet wurden. <br><br></li><li>werden im Bereich „Felder“ die verfügbaren Tabellen und, wenn Sie den Namen einer Tabelle erweitern, die Felder aufgelistet, die diese Tabelle bilden. An gelber Schrift können Sie erkennen, dass mindestens ein Feld aus dieser Tabelle in der Visualisierung verwendet wird.<br><br></li><li>![Farbrollensymbol](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Klicken Sie auf das Farbrollensymbol, um den Formatierungsbereich der ausgewählten Visualisierung anzuzeigen.<br><br></li><li>![Lupensymbol](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen.</ul> |
 
 ## <a name="the-visualizations-pane"></a>Der Bereich „Visualisierungen“
 ![Oben im Bereich „Visualisierungen“](media/service-the-report-editor-take-a-tour/selectviz.png)
@@ -65,7 +65,7 @@ Um ein Feld aus der Visualisierung zu entfernen, klicken Sie auf das **X** recht
 Weitere Informationen finden Sie unter [Hinzufügen von Visualisierungen zu einem Power BI-Bericht](visuals/power-bi-report-add-visualizations-i.md).
 
 ### <a name="format-your-visuals"></a>Formatieren von visuellen Elementen
-Wählen Sie das Farbrollen-Symbol aus, um den Formatierungsbereich anzuzeigen. Die verfügbare Option hängt vom ausgewählten Visualisierungstyp ab.
+Wählen Sie das Farbrollen-Symbol aus, um den Formatierungsbereich anzuzeigen. Die verfügbaren Optionen hängen vom ausgewählten Visualisierungstyp ab.
 
 ![Bereich „Formatierung“ im Berichts-Editor](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
@@ -76,7 +76,7 @@ Ihnen stehen nahezu unbegrenzt viele Formatierungsmöglichkeiten zur Verfügung.
 * [Anpassen der Eigenschaften der X- und Y-Achse](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Hinzufügen von Analysen in Visualisierungen
-Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen. Die verfügbare Option hängt vom ausgewählten Visualisierungstyp ab.
+Wählen Sie das Lupensymbol aus, um den Analysebereich anzuzeigen. Die verfügbaren Optionen hängen vom ausgewählten Visualisierungstyp ab.
 
 ![Bereich „Analyse“ im Berichts-Editor](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Mit dem Bereich „Analyse“ im Power BI-Dienst können Sie Visualisierungen dynamische Bezugslinien hinzufügen und wichtige Trends und Erkenntnisse identifizieren. Weitere Informationen finden Sie unter [Analysebereich im Power BI-Dienst](service-analytics-pane.md) oder [Analysebereich in Power BI Desktop](desktop-analytics-pane.md).
@@ -85,7 +85,7 @@ Mit dem Bereich „Analyse“ im Power BI-Dienst können Sie Visualisierungen dy
 ## <a name="the-filters-pane"></a>Bereich „Filter“
 Über den Bereich „Filter“ können Sie persistente Filter für Ihre Berichte auf Seiten-, Berichts-, Drillthrough- und visueller Ebene anzeigen, setzen und ändern. Ja, Sie können eine Ad-hoc-Filterung auf Berichtsseiten und in visuellen Elementen durchführen. Hierzu wählen Sie visuelle Elemente aus oder verwenden Werkzeuge wie „Datenschnitt“, aber wenn Sie den Filterbereich verwenden, wird der Zustand der Filter mit dem Bericht gespeichert. 
 
-Der Bereich „Filter“ verfügt über ein weiteres leistungsstarkes Feature: das Filtern mithilfe eines Felds, ***das nicht bereits in einem der visuellen Elemente in Ihrem Bericht verwendet wird***. Mit anderen Worten: Bei der Erstellung einer Berichtsseite fügt Power BI automatisch alle Felder hinzu, die Sie in Ihren Visualisierungen für den Filterbereich der visuellen Ebene im Bereich „Filter“ verwenden.  Möglicherweise möchten Sie einen Filter für ein visuelles Element, eine Seite, einen Drillthrough oder einen Bericht mithilfe eines Felds festlegen. Wenn der betreffende Inhalt derzeit nicht in einer Visualisierung verwendet wird, ziehen Sie ihn einfach auf einen der Filterbuckets.   
+Der Bereich „Filter“ verfügt über ein weiteres leistungsstarkes Feature: das Filtern mithilfe eines Felds, ***das nicht bereits in einem der Visuals in Ihrem Bericht verwendet wird***. Mit anderen Worten: Bei der Erstellung einer Berichtsseite fügt Power BI automatisch alle Felder hinzu, die Sie in Ihren Visualisierungen für den Filterbereich der visuellen Ebene im Bereich „Filter“ verwenden.  Möglicherweise möchten Sie einen Filter für ein visuelles Element, eine Seite, einen Drillthrough oder einen Bericht mithilfe eines Felds festlegen. Wenn der betreffende Inhalt derzeit nicht in einer Visualisierung verwendet wird, ziehen Sie ihn einfach auf einen der Filterbuckets.   
 
 ![Bereich „Filter“](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Aggregate in Power BI-Berichten](service
 Jedes berechnete Feld verfügt über eine eigene hartcodierte Formel. Die Berechnung kann nicht geändert werden, d. h. eine Summe bleibt eine Summe. Weitere Informationen finden Sie unter [Grundlegendes zu Measures](desktop-measures.md).
 
 ![Symbol „Eindeutige Felder“](media/service-the-report-editor-take-a-tour/icon.png) **Eindeutige Felder**  
-Felder mit diesem Symbol wurden aus Excel importiert und sind so eingestellt, dass sie alle Werte anzeigen, auch wenn sie Duplikate aufweisen. Ihre Daten können z. B. zwei Datensätze für Personen namens „Johan Hofman“ enthalten, die jeweils eindeutig behandelt werden, d. h. es wird keine Summe gebildet.  
+Felder mit diesem Symbol wurden aus Excel importiert und sind so eingestellt, dass sie alle Werte anzeigen, auch wenn sie Duplikate aufweisen. Ihre Daten können z. B. zwei Datensätze für Personen namens „John Smith“ enthalten, die jeweils eindeutig behandelt werden, d. h. sie werden nicht zusammengefasst.  
 
 **![Symbol „Geografie“](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Geografische Felder**  
 Mithilfe der Felder für Ortsangaben können Kartenvisualisierungen erstellt werden. 

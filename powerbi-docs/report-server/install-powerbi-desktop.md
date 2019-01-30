@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 01/24/2019
 ms.author: maggies
-ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: c118e3c2f8b30635982a37c47da9fb9e337aff05
+ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488820"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54907517"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop
 Erfahren Sie mehr zum Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop.
 
-Damit Sie Power BI-Berichte für Power BI-Berichtsserver erstellen können, müssen Sie die für Power BI-Berichtsserver optimierte Power BI Desktop-Version herunterladen und installieren. Diese Version unterscheidet sich von der Power BI Desktop-Version, die mit dem Power BI-Dienst verwendet wird. Beispielsweise enthält die Power BI Desktop-Version für den Power BI-Dienst Vorschaufeatures, die erst nach der Veröffentlichung in der Version für den Power BI-Berichtsserver verfügbar sind. Sie müssen diese Version verwenden, um sicherzustellen, dass der Berichtsserver mit einer bekannten Version der Berichte und des Modells interagieren kann. 
+Damit Sie Power BI-Berichte für Power BI-Berichtsserver erstellen können, müssen Sie die für Power BI-Berichtsserver optimierte Power BI Desktop-Version herunterladen und installieren. Diese Version unterscheidet sich von der Power BI Desktop-Version, die mit dem Power BI-Dienst verwendet wird. Beispielsweise enthält die Power BI Desktop-Version für den Power BI-Dienst Previewfunktionen, die erst nach der Veröffentlichung in der Version für den Power BI-Berichtsserver verfügbar sind. Sie müssen diese Version verwenden, um sicherzustellen, dass der Berichtsserver mit einer bekannten Version der Berichte und des Modells interagieren kann. 
 
-Power BI Desktop und das für Power BI-Berichtsserver optimierte Power BI Desktop können glücklicherweise parallel auf dem gleichen Computer installiert werden.
+Power BI Desktop und Power BI Desktop (optimiert für den Power BI-Berichtsserver) können glücklicherweise parallel auf dem gleichen Computer installiert werden.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Herunterladen und Installieren von Power BI Desktop
 
@@ -31,7 +31,7 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
 
     ![Power BI Desktop aus dem Webportal herunterladen](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Sie können auch direkt zu [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (optimiert für Power BI-Berichtsserver – Januar 2019) im Microsoft Download Center navigieren.
+    Sie können auch direkt zu [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=2055039) (optimiert für Power BI-Berichtsserver – Januar 2019) im Microsoft Download Center navigieren.
 
 2. Wählen Sie im Download Center **Download** aus.
 
@@ -47,21 +47,21 @@ Die einfachste Möglichkeit, um sicherzustellen, dass Sie die aktuelle Version d
    
     Die App wird automatisch gestartet, sodass Sie gleich loslegen können.
 
-## <a name="verify-you-are-using-the-correct-version"></a>Überprüfen, ob Sie die richtige Version verwenden
-Sie können überprüfen, ob Sie die richtige Power BI Desktop-Version verwenden, indem Sie einen Blick auf den Startbildschirm oder die Titelleiste in Power BI Desktop werfen. In der Titelleiste werden Monat und Jahr des Releases angegeben.
+## <a name="verify-youre-using-the-correct-version"></a>Überprüfen, ob Sie die richtige Version verwenden
+Sie können ganz einfach überprüfen, ob Sie die richtige Power BI Desktop-Version verwenden: Schauen Sie sich den Startbildschirm oder die Titelleiste in Power BI Desktop an. In der Titelleiste werden Monat und Jahr des Releases angegeben. Darüber hinaus sind die Farben des Power BI-Logos umgekehrt, d. h. gelb auf schwarz anstatt schwarz auf gelb.
 
-![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
+![Titelleiste für „Installieren von für Power BI-Berichtsserver optimiertem Power BI Desktop“](media/install-powerbi-desktop/power-bi-report-server-desktop-jan-2019.png)
 
 Die Power BI Desktop-Version für den Power BI-Dienst gibt Monat und Jahr nicht in der Titelleiste an.
 
 ## <a name="file-extension-association"></a>Zuordnung der Dateinamenerweiterung
-Wenn Sie Power BI Desktop und für Power BI-Berichtsserver optimiertes Power BI Desktop auf demselben Computer installiert haben, weist die letzte Installation von Power BI Desktop die Dateizuordnung zu PBIX auf. Wenn Sie nun auf eine PBIX-Datei doppelklicken, wird die Power BI Desktop-Version gestartet, die zuletzt installiert wurde.
+Wenn Sie Power BI Desktop und Power BI Desktop (optimiert für den Power BI-Berichtsserver) auf demselben Computer installieren, weist die neueste Installation von Power BI Desktop die Dateizuordnung zu PBIX-Dateien auf. Wenn Sie also auf eine PBIX-Datei doppelklicken, wird die Power BI Desktop-Version gestartet, die Sie zuletzt installiert haben.
 
-Wenn Sie Power BI Desktop bereits installiert hatten und dann für Power BI-Berichtsserver optimiertes Power BI Desktop installiert haben, werden alle PBIX-Dateien standardmäßig in für Power BI-Berichtsserver optimiertem Power BI Desktop geöffnet. Wenn Sie möchten, dass beim Öffnen von PBIX-Dateien standardmäßig Power BI Desktop gestartet wird, müssen Sie Power BI Desktop über den Power BI-Dienst erneut installieren.
+Wenn Sie Power BI Desktop bereits installiert haben und dann Power BI Desktop (optimiert für den Power BI-Berichtsserver) installieren, werden alle PBIX-Dateien standardmäßig in für den Power BI-Berichtsserver optimiertem Power BI Desktop geöffnet. Wenn Sie möchten, dass beim Öffnen von PBIX-Dateien standardmäßig Power BI Desktop gestartet wird, müssen Sie [Power BI Desktop aus dem Microsoft Store](http://aka.ms/pbidesktopstore) erneut installieren.
 
 Sie können immer zuerst die Version von Power BI Desktop öffnen, die Sie verwenden möchten. Öffnen Sie anschließend die Datei in Power BI Desktop.
 
-Zum Bearbeiten eines Power BI-Berichts in Power BI-Berichtsserver oder Erstellen eines neuen Power BI-Berichts über das Webportal wird stets die richtige Version von Power BI Desktop geöffnet.
+Zum Bearbeiten eines Power BI-Berichts auf dem Power BI-Berichtsserver oder Erstellen eines neuen Power BI-Berichts über das Webportal wird stets die richtige Version von Power BI Desktop geöffnet.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Power BI-Berichte in Power BI-Berichtsserver und im Power BI-Dienst (http://app.powerbi.com) sowie in den mobilen Power BI-Apps funktionieren fast identisch, wobei sich einige Features aber unterscheiden.
@@ -81,7 +81,7 @@ Power BI-Berichtsserver-Berichte unterstützen Folgendes nicht:
 ### <a name="in-the-power-bi-mobile-apps"></a>In den mobilen Power BI-Apps
 Power BI-Berichtsserver-Berichte unterstützen alle Grundfunktionen in den [mobilen Power BI-Apps](../consumer/mobile/mobile-apps-for-mobile-devices.md), einschließlich:
 
-* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die Power BI Mobile-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Symbol für Smartphone-Berichtslayout](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) gekennzeichnet, und sie weisen ein besonderes Layout auf.
+* [Berichtslayout für Smartphones](../desktop-create-phone-report.md): Sie können einen Bericht für die Power BI Mobile-Apps optimieren. Auf dem Mobiltelefon sind optimierte Berichte mit einem speziellen Symbol, ![Berichtslayout für Smartphones](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png), gekennzeichnet, und sie weisen ein besonderes Layout auf.
   
     ![Für Telefone optimierter Bericht](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
@@ -95,10 +95,9 @@ Die folgenden Funktionen werden von den Power BI-Berichtsserver-Berichten in den
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop für frühere Versionen von Power BI-Berichtsserver
 
-Wenn Sie eine frühere Version des Berichtsservers verwenden, benötigen Sie die entsprechende Version von Power BI Desktop. Die beiden früheren Versionen sind:
+Wenn Sie eine frühere Version des Berichtsservers verwenden, benötigen Sie die entsprechende Version von Power BI Desktop. Hier ist die vorherige Version.
 
-- Microsoft Power BI Desktop ([optimiert für Power BI-Berichtsserver, Oktober 2017](https://www.microsoft.com/download/details.aspx?id=56136))
-- Microsoft Power BI Desktop ([optimiert für Power BI-Berichtsserver, Juni 2017](https://www.microsoft.com/download/details.aspx?id=55330))
+- Microsoft Power BI Desktop ([optimiert für den Power BI-Berichtsserver, August 2018](https://www.microsoft.com/download/details.aspx?id=57271))
 
 ## <a name="next-steps"></a>Nächste Schritte
 Nachdem Sie Power BI Desktop installiert haben, können Sie mit dem Erstellen von Power BI-Berichten beginnen.

@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488912"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147563"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
 Auf dieser Seite finden Sie Informationen zu bekannten Problemen und kürzlich veröffentlichen Features im **Power BI-Dienst**. Informationen zu verwandten Neuigkeiten finden Sie unter:
 
+- [Neuerungen in Business Intelligence von Oktober 2018](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features), Versionshinweise der Microsoft Business Applications-Gruppe: Die neuesten Updates für Ihre Geschäftsanwendungen.
 - [Neuigkeiten in Power BI Desktop](desktop-latest-update.md)  
 - [Neuigkeiten bei den mobilen Apps für Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Blog des Power BI-Teams](https://powerbi.microsoft.com/blog/)
-- [Versionshinweise für Business Applications im Frühling 2018](http://aka.ms/businessappsreleasenotes) aus Dynamics 365: Die neuesten Updates für unsere Geschäftsanwendungen sowie neue Funktionen zum Erstellen Ihrer Anwendungen und Erweiterungen auf Grundlage unserer Plattform. 
 
-Sie können sich auch die YouTube-Kanäle ansehen, um Informationen zu „Neuigkeiten“ und Features zu erhalten.
+Sehen Sie sich auch die YouTube-Kanäle an, um Informationen zu Neuerungen und Features zu erhalten.
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

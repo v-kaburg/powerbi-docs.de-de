@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284493"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899225"
 ---
 # <a name="connect-to-an-oracle-database"></a>Herstellen einer Verbindung mit einer Oracle-Datenbank
 Um über **Power BI Desktop** eine Verbindung mit einer Oracle-Datenbank herzustellen, muss auf dem Computer, auf dem Power BI Desktop ausgeführt wird, die richtigen Oracle-Clientsoftware installiert sein. Welche Oracle-Clientsoftware Sie verwenden, hängt davon ab, ob Sie für Power BI Desktop die **32-Bit**-Version oder die **64-Bit**-Version installiert haben.
@@ -51,3 +51,11 @@ Nachdem der entsprechende Oracle-Clienttreiber installiert wurde, können Sie ei
 4. Nachdem Sie die erforderlichen Informationen in das Dialogfeld „Oracle-Datenbank“ eingegeben haben (einschließlich aller optionalen Informationen wie SID oder nativer Datenbankabfrage), wählen Sie **OK**, um die Verbindung herzustellen.
 5. Wenn für die Anmeldung bei der Oracle-Datenbank Anmeldeinformationen erforderlich sind, geben Sie diese bei Aufforderung in das Dialogfeld ein.
 
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+Wenn Sie Power BI Desktop aus dem Microsoft Store heruntergeladen haben, können Sie möglicherweise aufgrund eines Problems mit dem Oracle-Treiber keine Verbindung zu Oracle-Datenbanken herstellen. Wenn dieses Problem auftritt, wird die Fehlermeldung „Object reference not set“ (Der Objektverweis ist nicht festgelegt.) zurückgegeben. Führen Sie einen der folgenden Schritte aus, um das Problem zu beheben:
+
+* Laden Sie stattdessen Power BI Desktop von https://powerbi.microsoft.com/desktop herunter.
+
+* Wenn Sie die Version aus dem Microsoft Store verwenden möchten: Kopieren Sie auf Ihrem lokalen Computer die Datei „oraons.dll“ von _12.X.X.X\client_X_ nach _12.X.X.X\client_X\bin_. Das X steht für Versions- und Verzeichnisnummern.

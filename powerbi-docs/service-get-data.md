@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277225"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899294"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Datenquellen für den Power BI-Dienst
 Daten sind der Kern von Power BI. Wenn Sie Daten untersuchen, Diagramme und Dashboards erstellen oder über Q&A Fragen stellen, stammen die Daten, die all diesen Visualisierungen und Antworten zugrunde liegen, aus einem Dataset. Doch woher stammt das Dataset? Aus einer Datenquelle.
@@ -29,7 +29,7 @@ Sie können in Power BI Daten aus jeder dieser Datenquellen abrufen, indem Sie a
 ## <a name="files"></a>Dateien
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (XLSX, XLXM): Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
+**Excel** (XLSX, XLSM): Eine Arbeitsmappe in Excel kann Daten enthalten, die Sie selbst in Arbeitsblätter eingegeben haben, und Sie können in Excel mithilfe von Power Query („Abrufen und Transformieren“ in Excel 2016) oder Power Pivot Daten aus externen Datenquellen abfragen und laden. Sie können Daten in Tabellen in Arbeitsblätter importieren (die Daten *müssen* in einer Tabelle vorliegen), oder Daten importieren, die in ein Datenmodell geladen wurden. Weitere Informationen finden Sie unter [Abrufen von Daten aus Excel](service-get-data-from-files.md).
 
 **Power BI Desktop** (PBIX) – Sie können mithilfe von Power BI Desktop Daten aus externen Datenquellen abfragen und laden, das Datenmodell mit Measures und Beziehungen erweitern und Berichte erstellen. Sie können die Power BI Desktop-Datei in die Power BI-Website importieren. Power BI Desktop eignet sich am besten für fortgeschrittene Benutzer, die über gute Kenntnisse zu Datenquellen, zur Datenabfrage und -transformation und zu Konzepten der Datenmodellierung verfügen. Weitere Informationen finden Sie unter [Verbinden mit Daten in Power BI Desktop](desktop-connect-to-data.md).
 

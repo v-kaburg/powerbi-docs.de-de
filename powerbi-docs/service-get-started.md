@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit dem Power BI-Dienst (Power BI online)
-description: Erste Schritte mit Power BI Online (app.powerbi.com)
+title: Erste Schritte mit dem Power BI-Dienst
+description: Erste Schritte mit dem Power BI-Onlinedienst (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291983"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147494"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)
-Dieses Lernprogramm erleichtert Ihnen den Einstieg in den ***Power BI-Dienst***. Damit Sie die Funktion des Power BI-Diensts im Hinblick auf die anderen Power BI-Angebote einordnen können, sollten Sie zunächst [Was ist Power BI?](power-bi-overview.md) lesen.
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)
+Dieses Tutorial erleichtert Ihnen den Einstieg in den ***Power BI-Dienst***. Damit Sie die Funktion des Power BI-Diensts im Hinblick auf die anderen Power BI-Angebote einordnen können, sollten Sie zunächst [Was ist Power BI?](power-bi-overview.md) lesen.
 
-![Abbildung der Beziehungen zwischen der Desktopversion, dem Dienst und der mobilen Version](media/service-get-started/power-bi-components.png)
+![Abbildung der Beziehungen zwischen Power BI Desktop, dem Dienst und der mobilen Version](media/service-get-started/power-bi-components.png)
 
 In diesem Tutorial führen Sie die folgenden Schritte aus:
 
@@ -35,31 +35,31 @@ In diesem Tutorial führen Sie die folgenden Schritte aus:
 > * Fügen Sie mithilfe des Q&A-Tools für natürliche Sprache eine weitere Visualisierung an Ihr Dashboard an
 > * Bereinigen Sie Ressourcen, indem Sie das Dataset, den Bericht und das Dashboard löschen
 
-## <a name="sign-up-for-power-bi-service"></a>Registrieren beim Power BI-Dienst
+## <a name="sign-up-for-the-power-bi-service"></a>Registrieren beim Power BI-Dienst
 Wenn Sie noch nicht bei Power BI registriert sind, [registrieren Sie sich für eine Power BI Pro-Testversion](https://app.powerbi.com/signupredirect?pbi_source=web), bevor Sie beginnen.
 
 Öffnen Sie einen Browser, und geben Sie zunächst „app.powerbi.com“ ein, um den Power BI-Dienst aufzurufen, sofern Sie bereits ein Konto besitzen. 
 
 ![Anmelden oder kostenloses Registrieren](media/service-get-started/power-bi-sign-up.png)
 
-Hilfe zu Power BI Desktop finden Sie unter [Erste Schritte mit Desktop](desktop-getting-started.md). Hilfe zu Power BI-Version für Mobilgeräte finden Sie unter [Microsoft Power BI – Mobilgeräte](consumer/mobile/mobile-apps-for-mobile-devices.md).
+Hilfe zu Power BI Desktop finden Sie unter [Erste Schritte mit Power BI Desktop](desktop-getting-started.md). Hilfe zu Power BI-Version für Mobilgeräte finden Sie unter [Microsoft Power BI – Mobilgeräte](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Sie möchten Ihre Trainingsgeschwindigkeit lieber selbst bestimmen? [Registrieren Sie sich auf EdX für unseren Kurs zur Datenanalyse und -visualisierung.](http://aka.ms/edxpbi)
 
-Besuchen Sie unsere [Wiedergabeliste auf YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Ein anschauliches Video zum Einstieg ist „Introduction in Power BI service“ (in englischer Sprache):
+Besuchen Sie unsere [Wiedergabeliste auf YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Ein anschauliches Video zum Einstieg ist „Introduction to the Power BI service“:
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>Was ist der Power BI-Dienst?
-Der Microsoft Power BI-Dienst wird gelegentlich auch als Power BI Online oder app.powerbi.com bezeichnet. Power BI hilft Ihnen, hinsichtlich der für Sie wichtigen Informationen auf dem neuesten Stand zu bleiben.  Beim Power BI-Dienst sorgen Sie mit ***Dashboards*** dafür, dass Sie nie den Überblick über Ihr Unternehmen verlieren.  In Ihren Dashboards werden ***Kacheln*** angezeigt, auf die Sie klicken können, um weitere Informationen in Form von ***Berichten*** zu erhalten.  Stellen Sie Verbindungen mit mehreren ***Datasets*** her, um sämtliche relevanten Daten an einem Ort zusammenzuführen. Benötigen Sie Hilfe, um die Grundkomponenten zu verstehen, aus denen Power BI besteht?  Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md).
+## <a name="what-is-the-power-bi-service"></a>Was ist der Power BI-Dienst?
+Der Microsoft Power BI-Dienst wird gelegentlich auch als „Power BI Online“ oder „app.powerbi.com“ bezeichnet. Power BI hilft Ihnen, hinsichtlich der für Sie wichtigen Informationen auf dem neuesten Stand zu bleiben.  Beim Power BI-Dienst verlieren Sie durch ***Dashboards*** nie den Überblick über Ihr Unternehmen.  In Ihren Dashboards werden ***Kacheln*** angezeigt, auf die Sie klicken können, um weitere Informationen in Form von ***Berichten*** zu erhalten.  Stellen Sie Verbindungen mit mehreren ***Datasets*** her, um sämtliche relevanten Daten an einem Ort zusammenzuführen. Benötigen Sie Hilfe, um die Grundkomponenten zu verstehen, aus denen Power BI besteht?  Weitere Informationen finden Sie unter [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md).
 
 Wenn Sie über wichtige Daten in Excel- oder CSV-Dateien verfügen, können Sie ein Power BI-Dashboard erstellen, um jederzeit informiert zu sein und Erkenntnisse mit anderen zu teilen.  Verfügen Sie über ein Abonnement für eine SaaS-Anwendung wie Salesforce?  Verschaffen Sie sich einen Vorsprung, indem Sie eine Verbindung mit Salesforce herstellen, um aus diesen Daten automatisch ein Dashboard zu erstellen, oder [sehen Sie sich die anderen SaaS-Anwendungen an](service-get-data.md), mit denen Sie eine Verbindung herstellen können. Wenn Sie einer Organisation angehören, überprüfen Sie, ob für Sie [Apps](service-create-distribute-apps.md) veröffentlicht wurden.
 
 Informieren Sie sich über alle anderen Möglichkeiten zum [Abrufen von Daten für Power BI](service-get-data.md).
 
-## <a name="step-1-get-data"></a>Schritt 1: Abrufen von Daten
+## <a name="step-1-get-data"></a>Schritt 1: Daten abrufen
 Hier folgt ein Beispiel zum Abrufen von Daten aus einer CSV-Datei. Möchten Sie dieses Tutorial durchführen? [Laden Sie diese CSV-Beispieldatei herunter](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Melden Sie sich bei Power BI an](http://www.powerbi.com/). Verfügen Sie über ein Konto? Keine Sorge: Sie können sich für eine kostenlose Testversion registrieren.
@@ -72,7 +72,7 @@ Hier folgt ein Beispiel zum Abrufen von Daten aus einer CSV-Datei. Möchten Sie 
 4. Navigieren Sie zu der Datei auf Ihrem Computer, und wählen Sie dann **Öffnen** aus. Wenn Sie sie in OneDrive for Business gespeichert haben, wählen Sie diese Option aus. Wenn sie lokal gespeichert ist, wählen Sie **Lokale Datei** aus. 
    
    ![Ansicht „Dateien abrufen > Dateien“](media/service-get-started/gs2.png)
-5. Für dieses Lernprogramm wählen wir **Importieren** aus, um die Excel-Datei als Dataset hinzuzufügen, mit dem dann Berichte und Dashboards erstellt werden können. Wenn Sie **Hochladen** auswählen, wird die gesamte Excel-Arbeitsmappe in Power BI hochgeladen, sodass Sie sie öffnen und online in Excel bearbeiten können.
+5. Für dieses Tutorial wählen wir **Importieren** aus, um die Excel-Datei als Dataset hinzuzufügen, mit dem dann Berichte und Dashboards erstellt werden können. Wenn Sie **Hochladen** auswählen, wird die gesamte Excel-Arbeitsmappe in Power BI hochgeladen, sodass Sie sie öffnen und online in Excel bearbeiten können.
    
    ![„Importieren“ auswählen](media/service-get-started/power-bi-import.png)
 6. Wenn Ihr Dataset bereit ist, wählen Sie **Dataset anzeigen** aus, um es im Berichts-Editor zu öffnen. 
@@ -104,11 +104,11 @@ Nachdem die Verbindung mit den Daten hergestellt wurde, können Sie die Daten un
    
    ![Berichts-Editor mit ausgewähltem Symbol](media/service-get-started/gettingstart5new.png)
 
-3. Das möchten Sie verwenden und an ein Dashboard *anheften*. Zeigen Sie auf die Visualisierung, und wählen Sie das **Stecknadelsymbol** aus.  Wenn Sie diese Visualisierung anheften, wird sie auf dem Dashboard gespeichert und fortlaufend aktualisiert, sodass Sie den aktuellen Wert auf einen Blick nachverfolgen können.
+3. Dieses Diagramm sieht vielversprechend aus. *Heften wir es also an ein Dashboard an*. Zeigen Sie auf die Visualisierung, und wählen Sie das **Stecknadelsymbol** aus.  Wenn Sie diese Visualisierung anheften, wird sie auf dem Dashboard gespeichert und fortlaufend aktualisiert, sodass Sie den aktuellen Wert auf einen Blick nachverfolgen können.
    
    ![Anheften-Symbol](media/service-get-started/pinnew.png)
 
-4. Da es sich um einen neuen Bericht handelt, werden Sie aufgefordert, ihn zu speichern, bevor Sie eine Visualisierung an ein Dashboard anheften können. Weisen Sie dem Bericht einen Namen zu (z.B. *Umsätze im zeitlichen Verlauf*), und wählen Sie **Speichern und Weiter** aus. 
+4. Da dieser Bericht neu ist, werden Sie aufgefordert, ihn zu speichern, bevor Sie eine Visualisierung an ein Dashboard anheften können. Weisen Sie dem Bericht einen Namen zu (z.B. *Umsätze im zeitlichen Verlauf*), und wählen Sie **Speichern und Weiter** aus. 
    
    ![Dialogfeld „Bericht speichern“](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -118,7 +118,7 @@ Nachdem die Verbindung mit den Daten hergestellt wurde, können Sie die Daten un
    
 1. Wählen Sie **Anheften**aus.
    
-    Eine Erfolgsmeldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Visualisierung als Kachel zu Ihrem Dashboard hinzugefügt wurde.
+    Eine Meldung (in der Nähe der oberen rechten Ecke) weist Sie darauf hin, dass die Visualisierung erfolgreich als Kachel zu Ihrem Dashboard hinzugefügt wurde.
    
     ![Dialogfeld „An das Dashboard angeheftet“](media/service-get-started/power-bi-pin-success.png)
 

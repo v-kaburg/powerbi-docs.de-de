@@ -8,22 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: e24cf43c5797293f83c7f678dee328d502ac2243
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/24/2019
+ms.openlocfilehash: b2ddf1e55f54b9c671a92df497c0a2ae1afdcced
+ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280542"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54907516"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
 
-Power BI-Berichtsserver wird mehrmals pro Jahr veröffentlicht. Sicherheits- und wichtige Updates stehen bis zur allgemeinen Verfügbarkeit der nächsten Version zur Verfügung. Nach dem nächsten Release werden während der Restlaufzeit der zwölfmonatigen Lebensdauer weiterhin Sicherheitsupdates für das vorherige Release veröffentlicht.
+Neue Releases des Power BI-Berichtsserver werden mehrmals pro Jahr veröffentlicht. Sicherheits- und wichtige Updates stehen bis zur allgemeinen Verfügbarkeit der nächsten Version zur Verfügung. Nach dem nächsten Release werden während der Restlaufzeit der zwölfmonatigen Lebensdauer weiterhin Sicherheitsupdates für das vorherige Release veröffentlicht.
 
 Diese Supportrichtlinie erlaubt es uns, unseren Kunden Innovationen schnell zur Verfügung zu stellen und ihnen zugleich die Möglichkeit einzuräumen, die Innovationen flexibel im selbstgewählten Tempo einzuführen.
 
-* Wartungsphase mit Sicherheits- und wichtigen Updates: Bei Ausführung der neuesten Version von Power BI-Berichtsserver erhalten Sie sowohl Sicherheits- als auch wichtige Updates.
-* Wartungsphase mit (ausschließlich) Sicherheitsupdates: Nachdem eine neue Version veröffentlicht wurde, wird die Unterstützung älterer Version für die Restlaufzeit des zwölfmonatigen Supportlebenszyklus ausschließlich auf Sicherheitsupdates reduziert (siehe Abbildung 1).
+* Wartungsphase mit Sicherheits- und kritischen Updates: Bei Ausführung der neuesten Version vom Power BI-Berichtsserver erhalten Sie sowohl Sicherheits- als auch kritische Updates.
+* Wartungsphase mit (ausschließlich) Sicherheitsupdates: Nach der Veröffentlichung einer neuen Version wird die Unterstützung älterer Version für die Restlaufzeit des zwölfmonatigen Supportlebenszyklus ausschließlich auf Sicherheitsupdates reduziert (siehe Abbildung 1).
 
     ![Graph zur Veranschaulichung des Supportzeitraums](media/support-timeline/report-server-support-timeline-overall.png)
 
@@ -31,10 +31,11 @@ Diese Supportrichtlinie erlaubt es uns, unseren Kunden Innovationen schnell zur 
 
 | **Version** | **Verfügbarkeitsdatum** | **Enddatum für den Support** |
 | --- | --- | --- |
-| Juni 2017 |12. Juni 2017 |Nicht unterstützt |
-| Oktober 2017 |31. Oktober 2017 |31. Oktober 2018 |
+| Juni 2017 |12. Juni 2017 |Nicht mehr unterstützt |
+| Oktober 2017 |31. Oktober 2017 | Nicht mehr unterstützt |
 | März 2018 | 19. März 2018 | 19. März 2019 |
 | August 2018 | 15. August 2018 | 15. August 2019 |
+| Januar 2019 | 23. Januar 2019 | 23. Januar 2020 |
 
 Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
 
