@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324041"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431244"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -37,15 +37,15 @@ Berichte mit dem neuen modernen Visualheader reservieren keinen Platz für Heade
 
 ### <a name="enhance-presentation-mode-windows"></a>Verbesserter Präsentationsmodus (Windows)
 
-Der Präsentationsmodus für Surface Hub- und Windows 10-Geräte wurde verbessert.  Nutzen Sie die verbesserten Surface Hub-Besprechungsraumfunktionen mit optimierten Tools für die Präsentation und Zusammenarbeit und einer Fokusansicht, die für große Bildschirme optimiert ist, damit Sie sich voll und ganz auf Ihre Daten konzentrieren können. Im Präsentationsmodus können Sie auch Bereiche einfärben und hervorheben, um Ihre Daten anschaulich zu präsentieren und sich darüber mit anderen auszutauschen. [Hier](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/) erfahren Sie mehr zum Präsentationsmodus.
+Der Präsentationsmodus für Surface Hub- und Windows 10-Geräte wurde verbessert.  Nutzen Sie die verbesserten Surface Hub-Besprechungsraumfunktionen mit optimierten Tools für die Präsentation und Zusammenarbeit und einer Fokusansicht, die für große Bildschirme optimiert ist, damit Sie sich voll und ganz auf Ihre Daten konzentrieren können. Im Präsentationsmodus können Sie auch Bereiche einfärben und hervorheben, um Ihre Daten anschaulich zu präsentieren und sich darüber mit anderen auszutauschen. [Hier](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/) erfahren Sie mehr zum Präsentationsmodus.
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Hochformat für Berichte auf Tablets (iOS und Android)
 
-Ab sofort wird (sofern vorhanden) das Telefonberichtlayout verwendet, um Berichte auf Ihrem Tablet im Hochformat anzuzeigen. Unter [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/) erfahren Sie mehr zum Verwenden des Telefonlayouts im Power BI-Dienst oder in Power BI Desktop.
+Ab sofort wird (sofern vorhanden) das Telefonberichtlayout verwendet, um Berichte auf Ihrem Tablet im Hochformat anzuzeigen. Unter [Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind](https://docs.microsoft.com/power-bi/desktop-create-phone-report/) erfahren Sie mehr zum Verwenden des Telefonlayouts im Power BI-Dienst oder in Power BI Desktop.
 
 ### <a name="supporting-report-query-string"></a>Unterstützung für Abfragezeichenfolgen in Berichten 
 
-Wenn Sie einen Berichtslink öffnen, der eine Abfragezeichenfolge enthält, wird dieser jetzt in der mobilen App geöffnet und anhand der definierten Bedingungen in der Abfragezeichenfolge gefiltert. Unter [Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/) erfahren Sie mehr.  
+Wenn Sie einen Berichtslink öffnen, der eine Abfragezeichenfolge enthält, wird dieser jetzt in der mobilen App geöffnet und anhand der definierten Bedingungen in der Abfragezeichenfolge gefiltert. Unter [Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL](https://docs.microsoft.com/power-bi/service-url-filters/) erfahren Sie mehr.  
 
 ### <a name="shared-credentials-now-in-android"></a>Freigegebene Anmeldeinformationen (jetzt für Android)
 
@@ -65,7 +65,7 @@ Das Aktionsmenü eines Berichtsvisuals (...) enthält nun eine Option zum Anzeig
 
 Paginierte Berichte sind jetzt im Power BI-Dienst verfügbar. Benutzer mit Zugriff auf paginierte Berichte im Power BI-Dienst können auch über ihre mobile App auf diese Berichte zugreifen. 
 
-Lesen Sie den Power BI-[Blogbeitrag zu paginierten Berichten auf Mobilgeräten](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+Lesen Sie den Power BI-[Blogbeitrag zu paginierten Berichten auf Mobilgeräten](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
 
 ### <a name="shared-credentials-ios"></a>Gemeinsam genutzte Anmeldeinformationen (iOS)
 

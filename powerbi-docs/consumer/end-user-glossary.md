@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280786"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431267"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -70,7 +70,7 @@ Dieses Glossar ist eine Communityinitiative.  Fehlt hier ein Begriff? Bitten Sie
 
 **Inhaltsliste** Der Inhaltsindex für eine App.
 
-**Inhaltspaket** Eine Sammlung von vorkonfigurierten Datasets, Berichten und Dashboards. Inhaltspakete sind nun **Apps**. Erfahren Sie mehr [über die neuen Arbeitsbereiche](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
+**Inhaltspaket** Eine Sammlung von vorkonfigurierten Datasets, Berichten und Dashboards. Inhaltspakete sind nun **Apps**. Erfahren Sie mehr [über die neuen Arbeitsbereiche](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **Inhaltsansicht**
 

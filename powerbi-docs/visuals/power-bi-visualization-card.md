@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275799"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430186"
 ---
 # <a name="card-visualizations"></a>Kartenvisualisierungen
 Manchmal ist eine einzelne Zahl das Wichtigste, das Sie in Ihrem Power BI-Dashboard oder Bericht nachverfolgen möchten, wie z.B. der Gesamtumsatz, der Marktanteil im Jahresverlauf oder die Gesamtverkaufschancen. Eine solche Visualisierung wird als *Karte* bezeichnet. Wie fast alle nativen Power BI-Visualisierungen können Karten im Berichts-Editor oder in Q&A erstellt werden.
@@ -49,7 +49,7 @@ In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. We
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Erstellen einer Karte aus dem Q&A-Fragefeld
-Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. Das Q&A-Fragefeld ist im Power BI-Dienst in Dashboards oder Berichten und in der Desktopberichtsansicht verfügbar. Die folgenden Schritte beschreiben das Erstellen einer Karte aus einem Dashboard im Power BI-Dienst. Wenn Sie in Power BI Desktop eine Karte mit Q&A erstellen möchten, [folgen Sie diesen Anweisungen](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) für die Q&A-Vorschau von Desktop-Berichten.
+Das Q&A-Fragefeld bietet die einfachste Möglichkeit, eine Karte zu erstellen. Das Q&A-Fragefeld ist im Power BI-Dienst in Dashboards oder Berichten und in der Desktopberichtsansicht verfügbar. Die folgenden Schritte beschreiben das Erstellen einer Karte aus einem Dashboard im Power BI-Dienst. Wenn Sie in Power BI Desktop eine Karte mit Q&A erstellen möchten, [folgen Sie diesen Anweisungen](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) für die Q&A-Vorschau von Desktop-Berichten.
 
 1. Erstellen Sie ein [Dashboard](../service-dashboards.md) und [rufen Sie Daten ab](../service-get-data.md). Hier wird das [Beispiel zur Opportunityanalyse](../sample-opportunity-analysis.md) verwendet.
 

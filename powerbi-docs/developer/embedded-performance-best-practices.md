@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277156"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430348"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Bewährte Methoden für die Leistung von Power BI Embedded
 
@@ -26,7 +26,7 @@ Die Powerbi.embed()-Methode empfängt einige Parameter zum Einbetten eines Beric
 
 ### <a name="embed-url"></a>Einbettungs-URL
 
-Vermeiden Sie es, die Einbettungs-URL selbst zu erstellen. Stellen Sie stattdessen sicher, dass Sie die Einbettungs-URL durch einen Aufruf der API [Get reports](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0), [Get dashboards](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0) oder [Get tiles](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) abrufen. Wir haben der URL einen neuen Parameter mit der Bezeichnung **_config_** hinzugefügt, der für Verbesserungen der Leistung verwendet wird.
+Vermeiden Sie es, die Einbettungs-URL selbst zu erstellen. Stellen Sie stattdessen sicher, dass Sie die Einbettungs-URL durch einen Aufruf der API [Get reports](/rest/api/power-bi/reports/getreportsingroup), [Get dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) oder [Get tiles](/rest/api/power-bi/dashboards/gettilesingroup) abrufen. Wir haben der URL einen neuen Parameter mit der Bezeichnung **_config_** hinzugefügt, der für Verbesserungen der Leistung verwendet wird.
 
 ### <a name="permissions"></a>Berechtigungen
 
@@ -58,7 +58,7 @@ Zwischengespeicherte Daten werden gerendert, wenn sie verfügbar sind, jedoch gi
 
 Halten Sie Tools und SDK-Pakete auf dem aktuellen Stand.
 
-* Verwenden Sie immer die aktuellste Version von [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).
+* Verwenden Sie immer die aktuellste Version von [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
 * Installieren Sie die aktuellste Version des [Power BI-Client-SDKs](https://github.com/Microsoft/PowerBI-JavaScript). Wir veröffentlichen fortlaufend weitere Verbesserungen, also sehen Sie von Zeit zu Zeit einmal nach.
 

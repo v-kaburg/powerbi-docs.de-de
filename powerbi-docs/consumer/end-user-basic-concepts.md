@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281986"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430600"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Grundkonzepte für ***Benutzer*** des Power BI-Diensts
 
@@ -37,7 +37,7 @@ Die meisten Power BI-Benutzer nutzen den Power BI-Dienst, da 1) ihr Unternehmen 
 ![Willkommensbildschirm für Power BI-Dienst](media/end-user-basic-concepts/power-bi-open.png)
 
 Wenn Sie Power BI verwenden, werden Sie personalisieren, was Ihnen jedes Mal beim Öffnen der Website angezeigt wird.  Manchen ist es zum Beispiel lieber, wenn sich Power BI mit der Startseite öffnet, während Andere lieber zuerst ein bevorzugtes Dashboard sehen möchten. Keine Sorge, wir erklären Ihnen, wie das geht. 
-- [Home preview (Vorschau der Startseite)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Home preview (Vorschau der Startseite)](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [Inhalt als **ausgewählt** festlegen](end-user-featured.md) 
 
 ![Zeigt Startseitenansicht und Dashboardansicht](media/end-user-basic-concepts/power-bi-first.png)

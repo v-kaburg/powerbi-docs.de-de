@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277708"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430876"
 ---
 # <a name="azure-and-power-bi"></a>Azure und Power BI
 
@@ -55,7 +55,7 @@ Mit Azure und Power BI können Sie sich so weit ausdehnen, wie Sie es benötigen
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Kontexteinblicke mit Power BI Embedded-Analysen
 
-Betten Sie eindrucksvolle interaktive Datenvisualisierungen in Anwendungen, Websites, Portale usw. ein, um Ihre Geschäftsdaten optimal zu nutzen. Mit [Power BI Embedded als Ressource in Azure](https://azure.microsoft.com/services/power-bi-embedded/) können Sie interaktive Berichte und Dashboards einfach einbetten, damit Ihre Benutzer von konsistenten und hochpräzisen Umgebungen auf allen Geräten profitieren.  Mit der Kombination aus Power BI und eingebetteten Analysen gewinnen Sie aus Daten Wissen und erhalten aus Einblicken handlungsrelevante Informationen, die Sie in Taten umsetzen können.  Darüber hinaus können Sie den Wert von Power BI und Azure erweitern, indem Sie Analysen in die [internen Anwendungen und Portale Ihrer Organisation](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/) einbetten.
+Betten Sie eindrucksvolle interaktive Datenvisualisierungen in Anwendungen, Websites, Portale usw. ein, um Ihre Geschäftsdaten optimal zu nutzen. Mit [Power BI Embedded als Ressource in Azure](https://azure.microsoft.com/services/power-bi-embedded/) können Sie interaktive Berichte und Dashboards einfach einbetten, damit Ihre Benutzer von konsistenten und hochpräzisen Umgebungen auf allen Geräten profitieren.  Mit der Kombination aus Power BI und eingebetteten Analysen gewinnen Sie aus Daten Wissen und erhalten aus Einblicken handlungsrelevante Informationen, die Sie in Taten umsetzen können.  Darüber hinaus können Sie den Wert von Power BI und Azure erweitern, indem Sie Analysen in die [internen Anwendungen und Portale Ihrer Organisation](https://powerbi.microsoft.com/developers/embedded-analytics/organization/) einbetten.
 
 Viele Informationen zu den Power BI-APIs finden Sie im [Power BI-Entwicklerportal](http://dev.powerbi.com).
 

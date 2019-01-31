@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899248"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430784"
 ---
 # <a name="on-premises-data-gateway"></a>Lokales Datengateway
 
@@ -91,7 +91,7 @@ Beim Hinzufügen einer Datenquelle für das Gateway müssen Sie für diese Daten
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) wird derzeit nicht unterstützt.
-* [Access Online](https://products.office.com/en-us/access) wird derzeit nicht unterstützt.
+* [Access Online](https://products.office.com/access) wird derzeit nicht unterstützt.
 * R-Skripts werden nur dann unterstützt, wenn das Gateway im persönlichen Modus ausgeführt wird.
 
 ## <a name="tenant-level-administration"></a>Verwaltung auf Mandantenebene
@@ -102,7 +102,7 @@ Alternativ wird Mandantenadministratoren empfohlen, die Benutzer der Organisatio
 
 ## <a name="enabling-outbound-azure-connections"></a>Aktivieren von ausgehenden Azure-Verbindungen
 
-Das lokale Datengateway nutzt den Azure Service Bus für die Cloudverbindung und stellt gleichzeitig ausgehende Verbindungen zu seiner zugeordneten Azure-Region her. In der Standardeinstellung ist dies der Speicherort Ihres Power BI-Mandanten. Weitere Informationen finden Sie unter [Wo befindet sich mein Power BI-Mandant?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Das lokale Datengateway nutzt den Azure Service Bus für die Cloudverbindung und stellt gleichzeitig ausgehende Verbindungen zu seiner zugeordneten Azure-Region her. In der Standardeinstellung ist dies der Speicherort Ihres Power BI-Mandanten. Weitere Informationen finden Sie unter [Wo befindet sich mein Power BI-Mandant?](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
 Wenn ausgehende Verbindungen von einer Firewall blockiert werden, müssen Sie die Firewall so konfigurieren, dass sie ausgehende Verbindungen vom lokalen Datengateway zu seiner zugeordneten Azure-Region zulässt. Auf der Seite zu [Microsoft Azure Datacenter-IP-Bereichen](https://www.microsoft.com/download/details.aspx?id=41653) finden Sie Details zu den IP-Adressbereichen jedes Azure-Rechenzentrums.
 > [!NOTE]
 > Die IP-Adressbereiche können sich mit der Zeit ändern, laden Sie also regelmäßig die neuesten Informationen herunter. 

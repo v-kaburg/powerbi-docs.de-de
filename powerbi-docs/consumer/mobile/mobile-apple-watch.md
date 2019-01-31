@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278904"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430899"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Auswerten von Daten in der mobilen Power BI-App auf Ihrer Apple Watch
 Mit der Power BI Apple Watch-App können Sie KPIs und Kartenkacheln aus Ihrem Power BI-Dashboards direkt auf Ihrer Apple Watch anzeigen. Mit KPIs und Kartenkacheln haben Sie die Performance auch auf dem kleinen Bildschirm perfekt im Blick. Sie können ein Dashboard auf Ihrem iPhone oder auf der Watch selbst aktualisieren.
 
 ## <a name="install-the-apple-watch-app"></a>Installieren Sie die Apple Watch-App.
-Die Power BI Apple Watch-App ist mit der Power BI für iOS-App gebündelt. Wenn Sie also aus dem Apple App Store die [Power BI-App auf Ihr iPhone herunterladen](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone-App herunterladen"), laden Sie automatisch auch die Power BI Watch-App herunter. Das Apple-Handbuch erläutert, wie [Apple Watch-Anwendungen installiert](https://support.apple.com/en-us/HT204784) werden.
+Die Power BI Apple Watch-App ist mit der Power BI für iOS-App gebündelt. Wenn Sie also aus dem Apple App Store die [Power BI-App auf Ihr iPhone herunterladen](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone-App herunterladen"), laden Sie automatisch auch die Power BI Watch-App herunter. Das Apple-Handbuch erläutert, wie [Apple Watch-Anwendungen installiert](https://support.apple.com/HT204784) werden.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Verwenden Sie die Power BI-App auf der Apple Watch.
 Öffnen Sie die Power BI Apple Watch-App vom Springboard der Uhr aus oder durch Klicken auf das Power BI-Widget (sofern konfiguriert) direkt auf dem Zifferblatt der Uhr.
@@ -69,7 +69,7 @@ Sie können auch eine bestimmte Power BI-Kachel direkt auf dem Zifferblatt der A
 Das Power BI Apple Watch-Widget wird in etwa gleichzeitig mit Ihren Daten aktualisiert, sodass Ihre benötigten Informationen immer auf dem neuesten Stand sind.
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>Hinzufügen eines Power BI-Widgets auf dem Zifferblatt Ihrer Apple Watch
-Informationen darüber finden Sie unter [Zifferblatt der Apple Watch anpassen](https://support.apple.com/en-us/HT205536) im Apple Handbuch.
+Informationen darüber finden Sie unter [Zifferblatt der Apple Watch anpassen](https://support.apple.com/HT205536) im Apple Handbuch.
 
 ### <a name="change-the-text-on-the-widget"></a>Ändern des Texts auf dem Widget
 Für den kleinen Bereich auf dem Zifferblatt der Apple Watch können Sie mithilfe der Power BI Apple Watch-App den Titel des Widgets ändern, damit dieses in den kleinen Bereich passt.

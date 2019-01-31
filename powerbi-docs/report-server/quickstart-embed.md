@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 01815d2e5aa7dd7f05d3a9be33ca4e458deb78ec
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288495"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429772"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Schnellstart: Einbetten eines Power BI-Berichtsserver-Berichts in einen iFrame in SharePoint Server
 
@@ -22,7 +22,7 @@ In diesem Schnellstart erfahren Sie, wie Sie einen Power BI-Berichtsserver-Beric
 
 ![iFrame-Beispiel](media/quickstart-embed/quickstart_embed_01.png)
 ## <a name="prerequisites"></a>Voraussetzungen
-* Der [Power BI-Berichtsserver](https://powerbi.microsoft.com/en-us/report-server/) muss installiert und konfiguriert sein.
+* Der [Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/) muss installiert und konfiguriert sein.
 * [Für den Power BI-Berichtsserver optimiertes Power BI Desktop](install-powerbi-desktop.md) muss installiert sein.
 * Eine installierte und konfigurierte [SharePoint](https://docs.microsoft.com/sharepoint/install/install)-Umgebung ist erforderlich.
 

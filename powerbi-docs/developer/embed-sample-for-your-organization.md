@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283642"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431290"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
 
@@ -32,7 +32,7 @@ In diesem Tutorial lernen Sie Folgendes:
 
 Sie benötigen zunächst ein Power BI Pro-Konto und ein Microsoft Azure-Abonnement:
 
-* Wenn Sie noch nicht bei Power BI Pro registriert sind, müssen Sie sich zuerst [für eine kostenlose Testversion registrieren](https://powerbi.microsoft.com/en-us/pricing/).
+* Wenn Sie noch nicht bei Power BI Pro registriert sind, müssen Sie sich zuerst [für eine kostenlose Testversion registrieren](https://powerbi.microsoft.com/pricing/).
 * Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
 * Richten Sie Ihren eigenen [Azure Active Directory(Azure AD)-Mandanten](create-an-azure-active-directory-tenant.md) ein.
 * Installieren Sie [Visual Studio](https://www.visualstudio.com/) ab Version 2013.
@@ -101,7 +101,7 @@ Aktivieren Sie neben den Einstellungen auf der App-Registrierungsseite zusätzli
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
-### <a name="create-an-app-workspace"></a>App-Arbeitsbereich erstellen
+### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
 
 Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren:
 

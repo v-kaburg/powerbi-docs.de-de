@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: c662fea5bb343d835cffec126ffe6eb071be2218
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f1c05e1c396b1126bffbf6e62798e679decdca9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296637"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431175"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
 
@@ -30,7 +30,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
 Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microsoft Azure**-Abonnement.
 
-* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/en-us/pricing/), bevor Sie beginnen.
+* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
 * Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
 * Sie müssen einen eigenen [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md) eingerichtet haben.
 * [Visual Studio](https://www.visualstudio.com/) muss installiert sein (Version 2013 oder höher).
@@ -104,7 +104,7 @@ Aktivieren Sie zusätzliche Berechtigungen für Ihre Anwendung, darunter die Ein
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
-### <a name="create-an-app-workspace"></a>App-Arbeitsbereich erstellen
+### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
 
 Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren. Das *Hauptkonto* muss Administrator des App-Arbeitsbereichs sein.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295372"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430439"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Datenpunktgrenzwerte und Strategien nach Visualtyp
 
@@ -40,7 +40,7 @@ Für jede Strategie gibt es Standardwerte, die auf Form und Typ der visualisiert
 ## <a name="statistics"></a>Statistik
 Bestimmte Modelle können Statistiken zur Anzahl von Werten für bestimmte Spalten bereitstellen. Wenn solche Informationen vorhanden sind, werden sie dazu genutzt, mehrere Hierarchien ausgewogener darzustellen, wenn ein Visual die Anzahl von Werten für eine Strategie nicht explizit überschreibt.
 
-Weitere Informationen erhalten Sie unter [What's new in Analysis Services (Neuerungen in Analysis Services)](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017).
+Weitere Informationen erhalten Sie unter [What's new in Analysis Services (Neuerungen in Analysis Services)](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017).
 
 ## <a name="dynamic-limits"></a>Dynamische Grenzwerte
 Neben den oben genannten Strategien verwenden Visuals mit zwei Hierarchien von Gruppierungsspalten („Achse und „Legende“ oder „Kategorie“ und „Reihe“) eine weitere Strategie, *dynamische Grenzwerte*.  Dynamische Grenzwerte sind dafür konzipiert, Datenpunkte besser auszugleichen. 
@@ -128,7 +128,7 @@ Keine Datenverringerungsstrategien
 - Werte: Virtualisierung mit Fenstern von 200 Zeilen zur gleichen Zeit
 
 ### <a name="scatter-chart-high-density"></a>Punktdiagramm (mit hoher Dichte)
-Siehe [Punktdiagramme mit hoher Dichte](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+Siehe [Punktdiagramme mit hoher Dichte](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>Kreis
 - Maximale Anzahl von Datenpunkten: 3.500

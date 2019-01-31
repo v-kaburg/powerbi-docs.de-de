@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 6590e442fc5f183213681dc7d10a7d91e87ac35b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282377"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430922"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Entwickeln eines benutzerdefinierten Visuals für Power BI
 
@@ -37,7 +37,7 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/en-us/pricing/), bevor Sie beginnen.
+* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
 * Sie müssen [Visual Studio Code](https://www.visualstudio.com/) installieren.
 * Die benötigen die [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6)-Version 4 oder höher für Windows-Benutzer ODER das [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) für OSX-Benutzer.
 

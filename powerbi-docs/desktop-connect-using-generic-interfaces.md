@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296039"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430623"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Herstellen einer Verbindung mit Daten mithilfe generischer Schnittstellen in Power BI Desktop
 Sie können mithilfe integrierter Datenconnectors, die von **Access-Datenbanken** bis zu **Zendesk**-Ressourcen reichen und im Fenster **Daten abrufen** aufgeführt sind, eine Verbindung mit zahlreichen unterschiedlichen Datenquellen in **Power BI Desktop** herstellen. Sie können auch eine Verbindung mit verschiedenen *anderen* Datenquellen herstellen. So verfügen Sie noch über weitaus mehr Verbindungsoptionen, indem Sie generische Schnittstellen (z.B. **ODBC** oder **REST-APIs**) verwenden, die in **Power BI Desktop** integriert sind.
@@ -49,7 +49,7 @@ In der folgenden Liste sind einige Beispiele für Datenquellen aufgeführt, mit 
 | Generischer Power BI Desktop-Connector | Externe Datenquelle | Link für weitere Informationen |
 | --- | --- | --- |
 | ODBC |Cassandra |[Cassandra-ODBC-Treiber](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase und Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase und Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[DynamoDB-ODBC-Treiber](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |BigQuery von Google |[BigQuery-ODBC-Treiber](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |HBase |[HBase-ODBC-Treiber](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ In der folgenden Liste sind einige Beispiele für Datenquellen aufgeführt, mit 
 
 | Generischer Power BI Desktop-Connector | Externe Datenquelle | Link für weitere Informationen |
 | --- | --- | --- |
-| REST-APIs |Couchbase DB |[Informationen zur Couchbase-REST-API](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST-APIs |Couchbase DB |[Informationen zur Couchbase-REST-API](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Datenquellen mit Zugriff über R-Skript
 Sie können mit **R-Skripts** auf Datenquellen zugreifen und diese Daten in **Power BI Desktop** verwenden.

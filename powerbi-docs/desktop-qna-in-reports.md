@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 474001a183540edb65d8e2b2ed4c0d6c55dc28d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283481"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430097"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in **Power BI Desktop** möglich.
@@ -25,7 +25,7 @@ Damit Q&A die Vielzahl von Fragen, die vom Programm beantwortet werden können, 
 > [!NOTE]
 > Q&A ist nur verfügbar, wenn Sie mit einem Modell arbeiten, das **importierte** Daten enthält. Liveverbindungen mit SSAS- und DirectQuery-Modellen werden nicht unterstützt.
 >
-> Q&A erfordert das folgende C-Runtime-Update, wenn Sie eine Windows-Version vor Windows 10 verwenden. Sie können wichtige Updates über Windows Update installieren oder die erforderliche Komponente über das Microsoft-Update KB2999226 manuell installieren. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
+> Q&A erfordert das folgende C-Runtime-Update, wenn Sie eine Windows-Version vor Windows 10 verwenden. Sie können wichtige Updates über Windows Update installieren oder die erforderliche Komponente über das Microsoft-Update KB2999226 manuell installieren. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 

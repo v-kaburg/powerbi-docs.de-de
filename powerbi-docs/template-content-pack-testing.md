@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281227"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430669"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Testen von Vorlageninhaltspaketen für Power BI
 Es gibt mehrere Methoden zum Testen Ihres Inhaltspakets, bevor Sie es zur Veröffentlichung übermitteln.  
@@ -68,7 +68,7 @@ Es wird empfohlen, dass Sie das Dashboard, den Bericht und das Dataset in einem 
 <a name="submission"></a>
 
 ## <a name="submission"></a>Einreichung
-Beim Einreichen über [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) können Sie das Vorlageninhaltspaket im Katalog für Dienstinhaltspakete auf PowerBI.com veröffentlichen und das Inhaltspaket in [Microsoft AppSource](http://appsource.microsoft.com) auflisten.
+Beim Einreichen über [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) können Sie das Vorlageninhaltspaket im Katalog für Dienstinhaltspakete auf PowerBI.com veröffentlichen und das Inhaltspaket in [Microsoft AppSource](http://appsource.microsoft.com) auflisten.
 
 ### <a name="before-submission"></a>Vor der Einreichung
 * Lesen Sie die Tipps zur Erstellung für die einzelnen Artefakte im Inhaltspaket sorgfältig durch.
@@ -77,7 +77,7 @@ Beim Einreichen über [Microsoft AppSource](https://appsource.microsoft.com/en-u
 * Stellen Sie sicher, dass das Inhaltspaket optimal auf Q&A antwortet. Es wird empfohlen, mindestens 30 verschiedene Fragen für das Datenmodell zu testen. (Überspringen Sie diesen Schritt, wenn Sie einen benutzerdefinierten [Datenconnector](https://aka.ms/DataConnectors) entwickelt haben)
 
 ### <a name="submission"></a>Einreichung
-Wenn Sie das Inhaltspaket einreichen möchten, öffnen Sie die [Seite zum Einreichen von Apps](https://appsource.microsoft.com/en-us/partners/list-an-app) in AppSource, und übermitteln Sie Ihre Informationen. Achten Sie darauf, Power BI in der Liste der verfügbaren Produkte auszuwählen.
+Wenn Sie das Inhaltspaket einreichen möchten, öffnen Sie die [Seite zum Einreichen von Apps](https://appsource.microsoft.com/partners/list-an-app) in AppSource, und übermitteln Sie Ihre Informationen. Achten Sie darauf, Power BI in der Liste der verfügbaren Produkte auszuwählen.
 
 Das Power BI-Team überprüft Ihren Antrag und kontaktiert Sie, um sicherzustellen, dass alle Artefakte die Anforderungen für das Einreichen erfüllen. Dabei wird nicht nur die Vollständigkeit, sondern auch die Qualität des Dashboards und der Berichte überprüft, um sicherzustellen, dass sie dem in der Anwendung beschriebenen Geschäftsszenario entsprechen.
 

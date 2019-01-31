@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289208"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430715"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Verwalten der Mehrinstanzenfähigkeit mit Power BI Embedded Analytics
 
@@ -29,7 +29,7 @@ In diesem Artikel werden die unterschiedlichen Ansätze beschrieben und anhand m
 
 ## <a name="concepts-and-terminology"></a>Konzepte und Terminologie
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
 
 **AAD-Anwendung**: Eine Anwendungsidentität in AAD. Für die Authentifizierung ist eine AAD-Anwendung erforderlich.
 
@@ -105,7 +105,7 @@ Power BI Embedded unterstützt eine Bereitstellung in mehreren geografischen Reg
 
 ### <a name="cost"></a>Cost
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) umfasst ein auf Ressourcen basierendes Tarifmodell wie z.B. **Power BI Premium**. Sie erwerben eine oder mehrere Kapazitäten mit feststehender Rechenleistung und Arbeitsspeicher. Diese Kapazität ist der wichtigste Kostenfaktor bei der Arbeit mit **Power BI Embedded**. Es gibt keine Beschränkung für die Anzahl der Benutzer, die die Kapazität verwenden. Die einzige Einschränkung ist die Leistung der Kapazität. Eine [Power BI Pro-Lizenz](../service-admin-licensing-organization.md) ist erforderlich für die einzelnen *Masterbenutzer* oder für bestimmte Benutzer, die auf das Power BI-Portal zugreifen müssen.
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) umfasst ein auf Ressourcen basierendes Tarifmodell wie z.B. **Power BI Premium**. Sie erwerben eine oder mehrere Kapazitäten mit feststehender Rechenleistung und Arbeitsspeicher. Diese Kapazität ist der wichtigste Kostenfaktor bei der Arbeit mit **Power BI Embedded**. Es gibt keine Beschränkung für die Anzahl der Benutzer, die die Kapazität verwenden. Die einzige Einschränkung ist die Leistung der Kapazität. Eine [Power BI Pro-Lizenz](../service-admin-licensing-organization.md) ist erforderlich für die einzelnen *Masterbenutzer* oder für bestimmte Benutzer, die auf das Power BI-Portal zugreifen müssen.
 
 Wir empfehlen, die erwartete Auslastung der Kapazität zu testen und zu messen, indem Sie eine Liveumgebung und -nutzung simulieren und Auslastungstests für die Kapazität ausführen. Sie können die Auslastung und Leistung anhand der verschiedenen Metriken messen, die in der Azure-Kapazität oder in der App [Premium-Kapazitätsmetriken](../service-admin-premium-monitor-capacity.md) verfügbar sind.
 
@@ -132,17 +132,17 @@ Es gibt zwei Hauptansätze für die Verwaltung von Mandantendaten.
 
 Wenn der SaaS-Anwendungsspeicher eine separate Datenbank pro Mandant verwendet, fällt die natürliche Wahl auf die Verwendung von Datasets auf einzelnen Mandanten in Power BI, wobei die Verbindungszeichenfolge für jedes Dataset auf die entsprechende Datenbank verweist.
 
-Wenn der SaaS-Anwendungsspeicher für alle Mandanten eine mehrinstanzenfähige Datenbank verwendet, können die Mandanten ganz einfach nach Arbeitsbereich getrennt werden. Sie können die Datenbankverbindung für das Power BI-Dataset mit einer parametrisierten Datenbankabfrage konfigurieren, die nur die Daten des entsprechenden Mandanten abruft. Sie können die Verbindung über [Power BI Desktop](../desktop-query-overview.md) oder mithilfe der [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) mit [Parametern](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup) für die Abfrage aktualisieren.
+Wenn der SaaS-Anwendungsspeicher für alle Mandanten eine mehrinstanzenfähige Datenbank verwendet, können die Mandanten ganz einfach nach Arbeitsbereich getrennt werden. Sie können die Datenbankverbindung für das Power BI-Dataset mit einer parametrisierten Datenbankabfrage konfigurieren, die nur die Daten des entsprechenden Mandanten abruft. Sie können die Verbindung über [Power BI Desktop](../desktop-query-overview.md) oder mithilfe der [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) mit [Parametern](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) für die Abfrage aktualisieren.
 
 ### <a name="data-isolation"></a>Datenisolation
 
-Daten in diesem Mandantenmodell werden auf Arbeitsbereichsebene getrennt. Eine einfache Zuordnung zwischen einem Arbeitsbereich und einem Mandanten verhindert, dass Benutzer aus einem Mandanten Inhalte aus einem anderen Mandanten anzeigen können. Bei Verwendung eines einzigen *Masterbenutzers* müssen Sie auf sämtliche Arbeitsbereiche zugreifen können. Die Konfiguration, die festlegt, welche Daten einem Endbenutzer angezeigt werden, erfolgt während der [Generierung des Einbettungstokens](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken). Dies ist ein reiner Back-End-Prozess, der von Endbenutzern weder angezeigt noch geändert werden kann.
+Daten in diesem Mandantenmodell werden auf Arbeitsbereichsebene getrennt. Eine einfache Zuordnung zwischen einem Arbeitsbereich und einem Mandanten verhindert, dass Benutzer aus einem Mandanten Inhalte aus einem anderen Mandanten anzeigen können. Bei Verwendung eines einzigen *Masterbenutzers* müssen Sie auf sämtliche Arbeitsbereiche zugreifen können. Die Konfiguration, die festlegt, welche Daten einem Endbenutzer angezeigt werden, erfolgt während der [Generierung des Einbettungstokens](https://docs.microsoft.com/rest/api/power-bi/embedtoken). Dies ist ein reiner Back-End-Prozess, der von Endbenutzern weder angezeigt noch geändert werden kann.
 
 Um zusätzliche Isolation hinzuzufügen, kann ein Anwendungsentwickler einen *Masterbenutzer* oder eine Anwendung pro Arbeitsbereich definieren statt eines einzelnen *Masterbenutzers* oder einer einzelnen Anwendung mit Zugriff auf mehrere Arbeitsbereiche. Auf diese Weise können Sie sicherstellen, dass bei menschlichem Versagen oder kompromittierten Anmeldeinformationen nicht die Daten mehrerer Kunden verfügbar gemacht werden.
 
 ### <a name="scalability"></a>Skalierbarkeit
 
-Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, [können nicht verwendete Datasets entfernt werden](../service-premium-understand-how-it-works.md), um Arbeitsspeicher für aktive Datasets freizugeben. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden. [Erfahren Sie mehr über die Funktionsweise von Kapazitäten](../service-admin-premium-manage.md).
+Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, [können nicht verwendete Datasets entfernt werden](../service-premium-understand-how-it-works.md), um Arbeitsspeicher für aktive Datasets freizugeben. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden. [Erfahren Sie mehr über die Funktionsweise von Kapazitäten](../service-admin-premium-manage.md).
 
 Trotz dieser Vorteile ist die Skalierung zu berücksichtigen, die die SaaS-Anwendung in der Zukunft erreichen kann. Beispielsweise stößt man möglicherweise auf Grenzen in Bezug auf die Anzahl der Artefakte, die verwaltet werden können. Weitere Details zu [Beschränkungen](#summary-comparison-of-the-different-approaches) bei der Bereitstellung finden Sie weiter unten in diesem Artikel. Durch die verwendete Kapazitäts-SKU wird eine Begrenzung für folgende Größen eingeführt: die Größe des Arbeitsspeichers, den die Datasets einnehmen dürfen, [die Anzahl von Aktualisierungen, die gleichzeitig ausgeführt werden können](../service-premium-understand-how-it-works.md), sowie die maximale Häufigkeit von Datenaktualisierungen. Wenn Hunderte oder Tausende von Datasets verwaltet werden, empfiehlt es sich, Tests durchzuführen. Es wird außerdem empfohlen, die durchschnittliche und die maximale Nutzungsmenge zu berücksichtigen sowie spezifische Mandanten mit großen Datasets oder unterschiedlichen Verwendungsmustern, die anders als andere Mandanten verwaltet werden.
 

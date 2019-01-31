@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291692"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430055"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Optimieren Ihrer Excel-Daten für Q&A in Power BI
 Wenn Sie Datenmodelle oder Excel-Arbeitsmappen erstellen, die mit Power BI verwendet werden, lesen Sie weiter...
@@ -34,7 +34,7 @@ Q&A stützt sich auf die Namen der Tabellen, Spalten und berechneten Felder, um 
 
 Hier finden Sie einige Tipps zur optimalen Nutzung von Q&A in der Arbeitsmappe.
 
-* Stellen Sie sicher, dass Ihre Daten in einer Excel-Tabelle gespeichert sind. [So erstellen Sie eine Excel-Tabelle](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664?ui=en-US&rs=en-US&ad=US).
+* Stellen Sie sicher, dass Ihre Daten in einer Excel-Tabelle gespeichert sind. [So erstellen Sie eine Excel-Tabelle](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664).
 * Stellen Sie sicher, dass die Tabellen, Spalten und berechneten Felds sinnvoll in natürlicher Sprache benannt sind.
   
   Wenn Sie z. B. eine Tabelle mit Verkaufsdaten haben, nennen Sie die Tabelle „Vertrieb“. Spaltennamen wie „Jahr“, „Produkt“, „Vertriebsmitarbeiter“ und „Betrag“ funktionieren in Q&A sehr gut.

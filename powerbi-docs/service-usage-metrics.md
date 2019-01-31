@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d4148eef42f01035fde5601e3dd88b3572c8320
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292474"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430302"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Überwachen von Nutzungsmetriken für Power BI-Dashboards und Berichte
 
@@ -159,7 +159,7 @@ Beim Deaktivieren von Nutzungsmetriken für die gesamte Organisation können Adm
 
 ## <a name="usage-metrics-in-national-clouds"></a>Verwenden von Metriken in nationalen Clouds
 
-Power BI ist in separaten nationalen Clouds verfügbar. Diese Clouds entsprechen hinsichtlich Sicherheit, Datenschutz, Konformität und Transparenz dem Niveau der weltweiten Power BI-Version und verwenden darüber hinaus ein einmaliges Modell für regionale Regelungen zu Servicebereitstellung, Speicherort der Daten, Zugriff und Kontrolle. Aufgrund dieses einzigartigen Modells für regionale Regelungen sind Nutzungsmetriken nicht in nationalen Clouds verfügbar. Weitere Informationen finden Sie in den [Informationen zu den nationalen Clouds](https://powerbi.microsoft.com/en-us/clouds/).
+Power BI ist in separaten nationalen Clouds verfügbar. Diese Clouds entsprechen hinsichtlich Sicherheit, Datenschutz, Konformität und Transparenz dem Niveau der weltweiten Power BI-Version und verwenden darüber hinaus ein einmaliges Modell für regionale Regelungen zu Servicebereitstellung, Speicherort der Daten, Zugriff und Kontrolle. Aufgrund dieses einzigartigen Modells für regionale Regelungen sind Nutzungsmetriken nicht in nationalen Clouds verfügbar. Weitere Informationen finden Sie in den [Informationen zu den nationalen Clouds](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 

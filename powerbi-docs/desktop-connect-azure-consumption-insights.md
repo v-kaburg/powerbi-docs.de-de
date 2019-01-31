@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282538"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430968"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -70,7 +70,7 @@ Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorsch
 > 
 > 
 
-Wenn Sie **Laden** auswählen, werden die Daten in **Power BI Desktop** geladen.  Der Connector lädt Daten anhand des Standardzeitraums der Tabelle.  Wenn Sie den Zeitraum anpassen möchten, [können Sie eine benutzerdefinierte Abfrage erstellen](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+Wenn Sie **Laden** auswählen, werden die Daten in **Power BI Desktop** geladen.  Der Connector lädt Daten anhand des Standardzeitraums der Tabelle.  Wenn Sie den Zeitraum anpassen möchten, [können Sie eine benutzerdefinierte Abfrage erstellen](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
