@@ -70,7 +70,7 @@ items:
       href: desktop-directquery-about.md
     - name: Von DirectQuery unterstützte Datenquellen
       href: desktop-directquery-data-sources.md
-    - name: Voraussetzungen für Power BI-Datenquellen
+    - name: Voraussetzungen für Power BI-Datenquellen
       href: desktop-data-source-prerequisites.md
     - name: Standardelement in mehrdimensionalen Modellen in Power BI
       href: desktop-default-member-multidimensional-models.md
@@ -98,7 +98,7 @@ items:
       href: desktop-report-view.md
     - name: Herstellen einer Verbindung mit mehreren Datenquellen in Power BI Desktop
       href: desktop-connect-to-data.md
-    - name: Veröffentlichen aus Power BI-Desktop
+    - name: Veröffentlichen aus Power BI Desktop
       href: desktop-upload-desktop-files.md
     - name: Teil 1 – Hinzufügen von Visualisierungen zu einem Power BI-Bericht
       href: visuals/power-bi-report-add-visualizations-i.md
@@ -180,7 +180,7 @@ items:
         href: desktop-assume-referential-integrity.md
       - name: Verwendung des SAP BW-Connectors in Power BI Desktop (Vorschau)
         href: desktop-sap-bw-connector.md
-      - name: Verwenden von OneDrive für Geschäftsverknüpfungen in Power BI Desktop
+      - name: Verwenden von OneDrive for Business-Links in Power BI Desktop
         href: desktop-use-onedrive-business-links.md
       - name: 'Drittanbieterdienst: Facebook-Connector für Power BI Desktop'
         href: service-facebook-connector.md
@@ -392,7 +392,7 @@ items:
       href: power-bi-overview.md
     - name: Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
       href: service-service-vs-desktop.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Erste Schritte mit Power BI
       href: service-get-started.md
@@ -400,7 +400,7 @@ items:
       href: service-tutorial-connect-to-github.md
   - name: Konzepte
     items:
-    - name: Neuheiten bei Power BI
+    - name: Neuigkeiten bei Power BI
       href: service-whats-new.md
     - name: Grundkonzepte
       items:
@@ -518,7 +518,7 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: Anheften einer gesamten Berichtsseite an ein Dashboard
         href: service-dashboard-pin-live-tile-from-report.md
-      - name: Datenbenachrichtigungen im Power BI-Dienst
+      - name: Datenwarnungen im Power BI-Dienst
         href: service-set-data-alerts.md
       - name: Hinzufügen eines Bilds, Textfelds, Videos oder von Code zu einem Dashboard
         href: service-dashboard-add-widget.md
@@ -608,11 +608,13 @@ items:
         href: service-share-dashboards.md
       - name: Freigeben eines gefilterten Berichts
         href: service-share-reports.md
+      - name: Abonnieren (selbst oder stellvertretend)
+        href: service-report-subscribe.md
       - name: Einbetten eines Berichts in SharePoint Online
         href: service-embed-report-spo.md
       - name: Einbetten eines Berichts in ein sicheres Portal oder eine Website
         href: service-embed-secure.md
-      - name: Webveröffentlichungen aus Power BI
+      - name: Veröffentlichen aus Power BI im Web
         href: service-publish-to-web.md
       - name: Freigeben eines Dashboards, das mit einer Excel-Arbeitsmappe in OneDrive verknüpft ist
         href: service-share-dashboard-that-links-to-excel-onedrive.md
@@ -946,13 +948,13 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Benutzerdefinierte visuelle Elemente
+  - name: Benutzerdefinierte Visuals
     items:
     - name: Übersicht
       items:
       - name: Benutzerdefinierte Visualisierungen in Power BI
         href: power-bi-custom-visuals.md
-    - name: Tutorials
+    - name: Lernprogramme
       items:
       - name: Entwickeln eines benutzerdefinierten Visuals für Power BI
         href: developer/custom-visual-develop-tutorial.md
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: Häufig gestellte Fragen (FAQ)
       href: service-admin-faq.md
+    - name: 'FAQ: Hochverfügbarkeit und Failover'
+      href: service-admin-failover.md
   - name: Vorgehensweise
     items:
     - name: Lizenzierung und Registrierung
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234483"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431106"
