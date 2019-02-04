@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294258"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430531"
 ---
 # <a name="using-an-alternate-email-address"></a>Verwenden einer alternativen E-Mail-Adresse
 
@@ -64,7 +64,7 @@ Power BI wählt anhand der folgenden Kriterien (in der angegebenen Reihenfolge) 
 
 1. Wenn das E-Mail-Attribut im Azure AD-Benutzerobjekt vorhanden ist, verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse.
 
-1. Wenn es sich bei der UPN-E-Mail-Adresse *nicht* um eine E-Mail-Adresse der Domäne **\*.onmicrosoft.com** handelt (die Informationen hinter dem Symbol „@“), verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse.
+1. Wenn es sich bei der UPN-E-Mail-Adresse *nicht* um eine E-Mail-Adresse der Domäne **\*.onmicrosoft.com** handelt (die Informationen hinter dem Symbol „\@“), verwendet Power BI dieses E-Mail-Attribut für die E-Mail-Adresse.
 
 1. Wenn das Attribut für das Array *Andere E-Mail-Adresse* im Azure AD-Benutzerobjekt vorhanden ist, wird die erste E-Mail-Adresse in dieser Liste verwendet (dieses Attribut kann eine Liste mit E-Mail-Adressen enthalten).
 

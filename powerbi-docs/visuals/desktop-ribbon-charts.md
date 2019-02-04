@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9241c46c368eba094c075efe42d4989c03979125
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296421"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429864"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Verwenden von Menübanddiagrammen in Power BI
 Mit den Menübanddiagrammen können Sie Daten visualisieren und schnell feststellen, welche Kategorie von Daten den höchsten Rang (größten Wert) hat. Menübanddiagramme eignen sich gut zum Anzeigen von Rangänderungen, wobei der höchste Rang (Wert) immer für jeden Zeitraum oben angezeigt wird. 
@@ -23,16 +23,28 @@ Mit den Menübanddiagrammen können Sie Daten visualisieren und schnell feststel
 ![Menübanddiagramm](media/desktop-ribbon-charts/ribbon-charts_01.png)
 
 ## <a name="create-a-ribbon-chart"></a>Erstellen eines Menübanddiagramms
-Wählen Sie zum Erstellen eines leeren Diagramms die Option **Menübanddiagramm** im Bereich **Visualisierungen** aus.
+Öffnen Sie zum besseren Verständnis den [Analysebericht für den Einzelhandel](../sample-retail-analysis.md). 
 
-![](media/desktop-ribbon-charts/ribbon-charts_02.png)
+1. Wählen Sie zum Erstellen eines leeren Diagramms die Option **Menübanddiagramm** im Bereich **Visualisierungen** aus.
 
-Menübanddiagramme verknüpfen eine Kategorie von Daten über das visualisierte Zeitkontinuum mithilfe von Bändern, sodass Sie den Rang einer bestimmten Kategorie während der gesamten Spanne der X-Achse (in der Regel die Zeitachse) erkennen können.
+    ![Visualisierungsvorlagen](media/desktop-ribbon-charts/ribbon-charts_02.png)
+
+    Menübanddiagramme verknüpfen eine Kategorie von Daten über das visualisierte Zeitkontinuum mithilfe von Bändern, sodass Sie den Rang einer bestimmten Kategorie während der gesamten Spanne der X-Achse (in der Regel die Zeitachse) erkennen können.
+
+2. Wählen Sie Felder für **Achse**, **Legende** und **Wert** aus.  In diesem Beispiel wurde Folgendes ausgewählt: **Datum**, **Kategorie** und **This Year Sales** (Verkäufe in diesem Jahr).  
+
+    ![Ausgewählte Felder](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
+
+    Da das Dataset nur die Daten eines Jahres enthält, wurde das Feld **Jahr** von der **Achse** entfernt. 
+
+3. Auf dem Menübanddiagramm wird die Rangfolge in Schritten von je zwei Monaten angezeigt. Diese hat sich im Laufe der Zeit geändert.  Beispielsweise war die Kategorie „Home“ erst auf Platz drei, dann auf Platz vier und anschließend wieder auf Platz drei. Im Juli wechselte die Kategorie „Junior“ außerdem von Platz drei auf Platz fünf. 
+
+    ![Menübanddiagramm](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Formatieren eines Menübanddiagramms
 Wenn Sie ein Menübanddiagramm erstellen, stehen Ihnen im Abschnitt **Format** des Bereichs **Visualisierungen** Formatierungsoptionen zur Verfügung. Die Formatierungsoptionen für Menübanddiagramme ähneln denen für ein gestapeltes Säulendiagramm, mit zusätzlichen speziellen Formatierungsoptionen für die Bänder.
 
-![Menüband-Vorlage auf dem Bereich „Visualisierung“](media/desktop-ribbon-charts/ribbon-charts_03.png)
+![Menüband-Vorlage auf dem Bereich „Visualisierung“](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Mit den Formatierungsoptionen für Menübanddiagramme können Sie Anpassungen vornehmen.
 
@@ -40,6 +52,14 @@ Mit den Formatierungsoptionen für Menübanddiagramme können Sie Anpassungen vo
 * Mit **Serienfarbe abgleichen** können Sie die Farbe der Bänder an die Reihenfarbe anpassen. Wenn die Option auf **Aus** festgelegt ist, sind die Bänder grau.
 * **Transparenz** gibt die Transparenz der Bänder an. Der Standardwert ist 30.
 * Mit **Rand** können Sie am oberen und unteren Rand der Bänder einen dunklen Rahmen platzieren. „Rand“ ist standardmäßig deaktiviert.
+
+Da die die y-Achse in dem Menübanddiagramm nicht beschriftet ist, sollten Sie Datenbeschriftungen hinzufügen. Klicken Sie dafür im Formatierungsbereich auf **Datenbeschriftungen**. 
+
+![Formatierungsoptionen für Datenbeschriftungen](media/desktop-ribbon-charts/power-bi-labels.png)
+
+Legen Sie Formatierungsoptionen für Ihre Datenbeschriftungen fest.  In diesem Beispiel wurde für die Textfarbe „weiß“, für die Dezimalstelle „0“ und für die Anzeigeeinheiten „Tausend“ festgelegt. 
+
+![Menüband-Vorlage auf dem Bereich „Visualisierung“](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -1,6 +1,6 @@
 ---
-title: Abonnieren von Berichten und Dashboards für Power BI-Endbenutzer
-description: Erfahren Sie, wie Sie eine Momentaufnahme eines Power BI-Berichts und -Dashboards per E-Mail abonnieren.
+title: Abonnieren von Berichten und Dashboards
+description: Erfahren Sie, wie Sie ein E-Mail-Abonnement einer Momentaufnahme eines Power BI-Berichts oder Dashboards für sich und Ihre Kollegen einrichten.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,17 +8,17 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 01/29/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b07d3c1d8dec979c70eed86c01307f69af3e8396
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: a35067af531f6da29edef7638fc9a743c948b8ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394626"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430255"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
-Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie legen fest, wie oft Power BI die E-Mail-Nachrichten senden soll: von einmal täglich bis einmal pro Woche. 
+Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie geben an, wie oft Sie E-Mails von Power BI erhalten möchten: täglich, wöchentlich oder wenn die Daten aktualisiert werden. Sie können sogar eine spezifische Uhrzeit festlegen, zu der Power BI die E-Mails sendet.  
 
 Für E-Mails und Momentaufnahmen wird die Sprache verwendet, die in den Power BI-Einstellungen festgelegt ist. Weitere Informationen finden Sie unter [Unterstützte Sprachen und Länder/Regionen für Power BI](../supported-languages-countries-regions.md). Wenn keine Sprache definiert ist, verwendet Power BI die Sprache, die der Gebietsschemaeinstellung Ihres aktuellen Browsers entspricht. Sie können die Spracheinstellung anzeigen bzw. festlegen, indem Sie zuerst auf das Zahnradsymbol ![Zahnradsymbol](./media/end-user-subscribe/power-bi-settings-icon.png) >  **und dann auf Einstellungen > Allgemein > Sprache** klicken. 
 
@@ -28,11 +28,10 @@ Die E-Mail, die Sie erhalten, enthält einen Link, mit dem Sie zum Bericht/Dashb
 
 
 ## <a name="requirements"></a>Anforderungen
-- Das **Erstellen** eines Abonnements ist ein Feature von Power BI Pro. 
-- Da Abonnement-E-Mails nur dann gesendet werden, wenn ein zugrunde liegendes Dataset aktualisiert wird, funktionieren Abonnements von Datasets nicht, wenn diese Datasets nicht aktualisiert werden.
+Das **Erstellen** eines Abonnements ist ein Feature von Power BI Pro.   
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonnieren eines Berichts oder Dashboards
-Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist sehr ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
+Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
  
 ![Das Symbol „Abonnieren“ auswählen](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
@@ -41,49 +40,47 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist seh
    
    ![Symbol „Abonnieren“](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
+   ![Fenster „Abonnieren“](./media/end-user-subscribe/power-bi-emails2.png)
+    
+    Die linke Anzeige wird angezeigt, wenn Sie in einem Dashboard auf **Abonnieren** klicken. Die rechte Anzeige wird angezeigt, wenn Sie auf einer Berichtsseite auf **Abonnieren** klicken. Klicken Sie auf **Weiteres Abonnement hinzufügen**, und wählen Sie die gewünschten Seiten aus, um mehrere Seiten in einem Bericht zu abonnieren. 
+
 3. Mithilfe des gelben Schiebereglers können Sie das Abonnement aktivieren und deaktivieren.  Wenn Sie den Schieberegler auf „Aus“ stellen, wird das Abonnement nicht gelöscht. Verwenden Sie zum Löschen des Abonnements das Papierkorbsymbol.
 
 4. Fügen Sie optional E-Mail-Adressinformationen hinzu. 
 
-    In den unten stehenden Screenshots sehen Sie, dass Sie beim Abonnieren eines Berichts eigentlich eine *Berichtsseite* abonnieren.  Klicken Sie auf **Weiteres Abonnement hinzufügen**, und wählen Sie die gewünschten Seiten aus, um mehrere Seiten in einem Bericht zu abonnieren. 
-      
-   ![Fenster „Abonnieren“](./media/end-user-subscribe/power-bi-emails.png)
+5. Wählen Sie eine Option für **Häufigkeit** für Ihr Abonnement aus.  Ihnen stehen folgende Optionen zur Verfügung: Täglich, Wöchentlich und Nach Datenaktualisierung (einmal täglich).  Wenn Sie die E-Mail des Abonnements nur an bestimmten Tagen erhalten möchten, können Sie **Wöchentlich** und dann die konkreten Tage auswählen.  Wenn Sie die E-Mail des Abonnements zum Beispiel nur an Werktagen erhalten möchten, können Sie **Wöchentlich** für die Häufigkeit auswählen und die Kontrollkästchen bei „Sa“ und „So“ deaktivieren.   
 
-5. Wählen Sie **Speichern und schließen** aus, um das Abonnement zu speichern. Sie erhalten jedes Mal eine E-Mail mit einer Momentaufnahme des Dashboards oder des Berichts, wenn eines der zugrunde liegenden Datasets geändert wurde. Wird das Dashboard oder der Bericht mehrmals an einem Tag aktualisiert, erhalten Sie nur eine E-Mail nach der ersten Aktualisierung.  
-   
-   ![E-Mail mit einer Momentaufnahme des Dashboards](./media/end-user-subscribe/power-bi-dashboard-email-new.jpg)
-   
-Durch das Aktualisieren der Berichtsseite wird nicht das Dataset aktualisiert. Nur der Besitzer des Datasets kann ein Dataset manuell aktualisieren. Um den Namen des zugrunde liegenden Datasets nachzuschlagen, wählen Sie in der oberen Menüleiste **Verwandte Inhalte anzeigen** aus.
-   
-![Zugehörige Datasets](./media/end-user-subscribe/power-bi-view-related-screen.png)
 
-## <a name="how-the-email-schedule-is-determined"></a>Bestimmung des E-Mail-Zeitplans
-In der folgenden Tabelle wird beschrieben, wie häufig Sie E-Mail-Nachrichten erhalten. Dies ist abhängig von der Verbindungsmethode des Datasets, auf dem das Dashboard oder der Bericht basiert (DirectQuery, Live Connect, Import in Power BI oder Excel-Datei in OneDrive oder SharePoint Online) sowie von den verfügbaren und aktivierten Abonnementoptionen (täglich, wöchentlich oder keine).
+6. Planen Sie den Zeitpunkt, zu dem die E-Mail gesendet wird, indem Sie „Täglich“ oder „Wöchentlich“ auswählen und einen **geplanten** **Zeitpunkt** für das Abonnement festlegen.   
 
-|  | **DirectQuery** | **Live Connect** | **Geplante Aktualisierung (Import)** | **Excel-Datei in OneDrive/SharePoint Online** |
-| --- | --- | --- | --- | --- |
-| **Wie oft wird der Bericht/das Dashboard aktualisiert?** |Alle 15 Minuten |Power BI führt alle 15 Minuten eine Überprüfung aus. Wenn das Dataset geändert wurde, wird der Bericht aktualisiert. |Der Benutzer wählt keine, tägliche oder wöchentliche E-Mails aus. „Täglich“ kann bis zu 8 Mal pro Tag bedeuten. „Wöchentlich“ ist eigentlich ein wöchentlicher Zeitplan, den der Benutzer erstellt und für den er die Aktualisierung auf einen Wert zwischen einmal in der Woche und einmal täglich festgelegt. |Einmal pro Stunde |
-| **Welche Kontrolle hat der Benutzer über den Zeitplan für die abonnierten E-Mails?** |Verfügbare Optionen: täglich oder wöchentlich |Keine Optionen: Der Benutzer erhält jedes Mal eine E-Mail-Nachricht, wenn der Bericht aktualisiert wird, jedoch nicht öfter als einmal pro Tag. |Wenn es sich um einen Zeitplan für die tägliche Aktualisierung handelt, lauten die Optionen „Täglich“ und „Wöchentlich“.  Bei einem Zeitplan für die wöchentliche Aktualisierung ist nur die Option „Wöchentlich“ verfügbar. |Keine Optionen: Der Benutzer erhält jedes Mal eine E-Mail-Nachricht, wenn das Dataset aktualisiert wird, jedoch nicht öfter als einmal pro Tag. |
+7. Legen Sie das Start- und Enddatum fest, indem Sie die Datumsangaben in die Datumsfelder eingeben. Der Startzeitpunkt Ihres Abonnements ist standardmäßig das Datum, an dem Sie es erstellt haben, und das Enddatum ist standardmäßig ein Jahr später. Wenn ein Abonnement ein Enddatum erreicht, wird es deaktiviert, bis Sie es erneut aktivieren.  Vor dem geplanten Enddatum werden Sie per Benachrichtigung(en) gefragt, ob Sie das Abonnement verlängern möchten.     
+
+
+5. Wählen Sie **Speichern und schließen** aus, um das Abonnement zu speichern. Sie erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder Berichts gemäß des festgelegten Zeitplans. Für alle Abonnements, für die die Häufigkeit **Nach Datenaktualisierung** festgelegt ist, werden E-Mails erst nach der ersten geplanten Aktualisierung des Tages versendet.
+   
+   ![E-Mail mit einer Momentaufnahme des Dashboards](media/end-user-subscribe/power-bi-subscribe-email.png)
+   
+    Durch das Aktualisieren der Berichtsseite wird nicht das Dataset aktualisiert. Nur der Besitzer des Datasets kann ein Dataset manuell aktualisieren. Um den Namen des zugrunde liegenden Datasets nachzuschlagen, wählen Sie in der oberen Menüleiste **Verwandte Inhalte anzeigen** aus.
+   
+    ![Zugehörige Datasets](./media/end-user-subscribe/power-bi-view-related-screen.png)
+
 
 ## <a name="manage-your-subscriptions"></a>Verwalten Ihrer Abonnements
-Nur Sie können Ihre Abonnements verwalten. Wählen Sie noch mal **Abonnieren** aus, und wählen Sie dann **Alle Abonnements verwalten** aus (siehe Screenshots unter Schritt 4 weiter oben). 
+Nur Sie können Ihre Abonnements verwalten. Klicken Sie erneut auf **Abonnieren**, und klicken Sie dann in der unteren linken Ecke auf **Alle Abonnements verwalten** (siehe Screenshots oben). 
 
-![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](./media/end-user-subscribe/power-bi-subscriptions.png)
+![Alle Abonnements unter „My Workspace“ (Mein Arbeitsbereich) anzeigen](./media/end-user-subscribe/power-bi-manage.png)
 
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder der Bericht vom Besitzer gelöscht wird oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 * Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtsseite abonnieren und diese umbenannt wird, müssen Sie Ihr Abonnement erneut erstellen.
-* Bestimmte Einstellungen Ihrer Organisation sind möglicherweise in Azure Active Directory konfiguriert, wodurch die Möglichkeit zur Verwendung von E-Mail-Abonnements in Power BI eingeschränkt werden kann.  Dies umfasst, ist aber nicht beschränkt auf, das Vorhandensein von Einschränkungen durch mehrstufige Authentifizierung oder IP-Adressbereiche beim Zugriff auf Ressourcen.
-* Bei E-Mail-Abonnements für Live Connection-Datasets erhalten Sie nur dann E-Mail-Nachrichten, wenn die Daten geändert wurden. Wenn also eine Aktualisierung erfolgt, aber keine Daten geändert wurden, sendet Power BI keine E-Mail-Nachricht.
-* E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](../power-bi-custom-visuals.md).  Die einzige Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](../power-bi-custom-visuals-certified.md) wurden.  
+* Wenn Sie das Abonnementfeature nicht verwenden können, wenden Sie sich an Ihren Systemadministrator. Möglicherweise hat Ihre Organisation das Feature aus Authentifizierungs- oder anderen Gründen deaktiviert.  
+* E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](../power-bi-custom-visuals.md).  Die Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](../power-bi-custom-visuals-certified.md) wurden.  
 * E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte benutzerdefinierte Visuals.  
-* Wenn auf Kacheln vom Dashboard Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln nicht angezeigt.
-* E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie nach dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.    
 * Insbesondere für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt.  Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.     
 * Aufgrund der Beschränkungen für die E-Mail-Größe können Dashboards oder Berichte mit extrem großen Bildern möglicherweise nicht abonniert werden.    
-* Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind, die seit mehr als 2 Monaten nicht besucht wurden, wird von Power BI automatisch ausgesetzt.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard bzw. der Bericht längere Zeit nicht besucht wurde.    
+* Die Aktualisierung von Datasets, die mit Dashboards und Berichten verknüpft sind, die seit mehr als zwei Monaten nicht besucht wurden, wird von Power BI automatisch deaktiviert.  Wenn Sie jedoch einem Dashboard oder Bericht ein Abonnement hinzufügen, wird die Aktualisierung nicht ausgesetzt, auch wenn das Dashboard bzw. der Bericht längere Zeit nicht besucht wurde.    
 
 ## <a name="next-steps"></a>Nächste Schritte
 * Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)    

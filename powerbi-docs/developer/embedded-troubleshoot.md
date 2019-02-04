@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294077"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431221"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -99,6 +99,14 @@ Das Back-End der Anwendung muss das Auth-Token möglicherweise vor dem Aufrufen 
 
 ## <a name="authentication"></a>Authentifizierung
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Authentifizierungsfehler mit der Meldung „AADSTS90002: Tenant 'authorize' not found“ (AADSTS90002: Der Mandant "authorize" konnte nicht gefunden werden.)
+
+ Wenn Sie beim Anmelden Nachrichten wie ***error: invalid_request, error_description: AADSTS90002: Tenant 'authorize' not found*** (error: invalid_request, error_description: AADSTS90002: Der Mandant "authorize" konnte nicht gefunden werden.) erhalten, liegt das daran, dass ADAL 4.x „https://login.microsoftonline.com/{Tenant}/oauth2/authorize/“ nicht als Autoritäts-URL erkennt.
+ 
+Dieses Problem können Sie beheben, indem Sie „oauth2/authorize/“ aus der Autoritäts-URL löschen. Weitere Informationen finden Sie in den [Power BI-Beispielen für Entwickler](https://github.com/Microsoft/PowerBI-Developer-Samples).
+
+ Lesen Sie sich außerdem den Abschnitt [Better Authority validation (Bessere Autoritätsüberprüfung)](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) in den Versionshinweise zu ADAL 4.x durch.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Authentifizierung schlägt mit AADSTS70002 oder AADSTS50053 fehl
 
 **_(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)_**
@@ -243,7 +251,7 @@ Sie können mit dem [Einbettungssetuptool](https://aka.ms/embedsetup) schnell ei
 
 Überprüfen Sie, ob Sie alle Voraussetzungen erfüllen, bevor Sie das Einbettungssetuptool verwenden. Sie benötigen ein **Power BI Pro**-Konto und ein **Microsoft Azure**-Abonnement.
 
-* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/en-us/pricing/), bevor Sie beginnen.
+* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
 * Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
 * Sie müssen einen eigenen [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md) eingerichtet haben.
 * [Visual Studio](https://www.visualstudio.com/) muss installiert sein (Version 2013 oder höher).
@@ -294,7 +302,7 @@ Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Power BI Emb
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 
-Wenn Sie weitere Unterstützung benötigen, [wenden Sie sich an den Support](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded), oder [erstellen Sie ein Supportticket über das Azure-Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest), und geben Sie die Fehlermeldungen an, die Sie erhalten.
+Wenn Sie weitere Unterstützung benötigen, [wenden Sie sich an den Support](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded), oder [erstellen Sie ein Supportticket über das Azure-Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest), und geben Sie die Fehlermeldungen an, die Sie erhalten.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

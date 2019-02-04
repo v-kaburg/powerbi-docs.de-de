@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394654"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234529"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Hinzufügen von Kommentaren zu einem Dashboard
 Sie können einen persönlichen Kommentar hinzufügen oder mit Ihren Kollegen eine Unterhaltung über ein Dashboard beginnen. Das Feature **Kommentare** ist nur eine der Möglichkeiten, wie ein *Endbenutzer* mit anderen Personen interagieren kann. 
@@ -73,7 +73,7 @@ Kommentare können einem gesamten Dashboard oder einzelnen Visuals eines Dashboa
 5. Klicken Sie auf **Schließen**, um zum Dashboard oder zum Bericht zurückzukehren.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Kollegen mit dem @-Zeichen auf Kommentare aufmerksam machen
-Beim Erstellen von Kommentaren für ein Dashboard oder ein bestimmtes Visual können Sie mit dem @-Zeichen Kollegen auf Kommentare aufmerksam machen.  Bei der Eingabe des @-Zeichens wird in Power BI eine Dropdownliste geöffnet, in der Sie nach Personen in Ihrer Organisation suchen und diese auswählen können. Überprüfte Namen, denen ein @-Zeichen vorangestellt wurde, werden in blauer Schrift dargestellt. 
+Beim Erstellen von Kommentaren für ein Dashboard oder ein bestimmtes Visual können Sie mit dem \@-Zeichen Kollegen auf Kommentare aufmerksam machen.  Bei der Eingabe des \@-Zeichens wird in Power BI eine Dropdownliste geöffnet, in der Sie nach Personen in Ihrer Organisation suchen und diese auswählen können. Überprüfte Namen, denen ein \@-Zeichen vorangestellt wurde, werden in blauer Schrift dargestellt. 
 
 Hier ist eine Konversation mit dem *Designer* der Visualisierung zu sehen. Er benutzt das @-Symbol, um sicherzustellen, dass ich den Kommentar sehe. Ich weiß, dass dieser Kommentar für mich ist. Wenn ich dieses App-Dashboard in Power BI öffne, wähle ich in der Kopfzeile **Kommentare** aus. Im Bereich **Kommentare** wird unsere Konversation angezeigt.
 

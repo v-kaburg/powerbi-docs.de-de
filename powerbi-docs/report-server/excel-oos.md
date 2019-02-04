@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284217"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234414"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Konfigurieren des Berichtsservers zum Hosten von Excel-Arbeitsmappen mithilfe von Office Online Server (OOS)
 
@@ -57,7 +57,7 @@ Wenn Sie Excel Online-Funktionen verwenden möchten, die auf externe Daten zugre
 1. Laden Sie Office Online Server aus dem [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) herunter. Der Download befindet sich unter diesen Office-Produkten im VLSC-Portal. Für Entwicklungszwecke können Sie OOS unter den Downloads für MSDN-Abonnenten herunterladen.
 2. Führen Sie „Setup.exe“ aus.
 3. Aktivieren Sie auf der Seite **Microsoft-Software-Lizenzbedingungen lesen** die Option **Ich stimme den Bedingungen dieser Vereinbarung zu**, und klicken Sie dann auf **Weiter**.
-4. Wählen Sie auf der Seite **Dateispeicherort auswählen** den Ordner aus, in dem die Office Online Server-Dateien installiert werden sollen (beispielsweise C:\Programme\Microsoft Office Web Apps*), und klicken Sie auf **Jetzt installieren**. Wenn der angegebene Ordner nicht vorhanden ist, wird er von Setup automatisch erstellt.
+4. Wählen Sie auf der Seite **Dateispeicherort auswählen** den Ordner aus, in dem die Office Online Server-Dateien installiert werden sollen (z. B. C:\Programme\Microsoft Office Web Apps\*), und klicken Sie auf **Jetzt installieren**. Wenn der angegebene Ordner nicht vorhanden ist, wird er von Setup automatisch erstellt.
 
     Es wird empfohlen, Office Online Server auf dem Systemlaufwerk zu installieren.
 

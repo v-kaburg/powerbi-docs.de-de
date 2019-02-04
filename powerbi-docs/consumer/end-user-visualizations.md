@@ -1,5 +1,5 @@
 ---
-title: Arbeiten mit Visualisierungen
+title: Arbeiten mit Visualisierungen als Benutzer
 description: Konzepte und Terminologie für Power BI-Benutzer – Visualisierungen, visuelle Elemente. Was ist eine Power BI-Visualisierung bzw. ein visuelles Element.
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287631"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234345"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Visualisierungen für Power BI-**Benutzer**
 
@@ -53,4 +53,5 @@ Aber zuerst ein Wort zu Q&A. Q&A ist das natürlichsprachliche Suchtool von Powe
 
 ## <a name="next-steps"></a>Nächste Schritte
 Zurück zu [Grundlegende Konzepte für Benutzer](end-user-basic-concepts.md)    
-[Auswählen einer Visualisierung zum Öffnen eines Berichts](end-user-report-open.md)
+[Auswählen einer Visualisierung zum Öffnen eines Berichts](end-user-report-open.md)    
+[Types of visualizations available in Power BI (In Power BI verfügbare Visualisierungstypen)](end-user-visual-type.md)
