@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008026"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482681"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Herstellen einer Verbindung mit comScore Digital Analytix mithilfe von Power BI
 Visualisieren und durchsuchen Sie Ihre comScore Digital Analytix-Daten in Power BI mit dem Power BI-Inhaltspaket. Die Daten werden automatisch einmal täglich aktualisiert.
@@ -63,8 +63,6 @@ Details zum Ermitteln Ihrer einzelnen comScore-Parameter finden Sie unten.
 **Rechenzentrum**
 
 Das Rechenzentrum, mit dem Sie eine Verbindung herstellen, wird durch die URL bestimmt, zu der Sie in comScore navigieren.
-
-Wenn Sie https://dax.comscore.com, verwenden, geben Sie „US“ ein, wenn Sie https://dax.comscore.eu verwenden, geben Sie „EU“ ein.
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
