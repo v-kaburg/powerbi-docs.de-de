@@ -1,20 +1,20 @@
 ---
-title: Schnelles Auffinden und Anzeigen von Berichten und Dashboards mithilfe von Cortana
+title: Schnelles Auffinden und Anzeigen Ihrer Berichte und Dashboards mithilfe von Cortana
 description: Verwenden Sie Cortana mit Power BI, um Antworten zu Ihren Daten zu erhalten. Derzeit kann mit Berichten und Dashboards gearbeitet werden.
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292591"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482727"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Schnelles Auffinden und Anzeigen Ihrer Power BI-Daten mithilfe von Cortana für Power BI
 Verwenden Sie Cortana auf Ihren Windows 10-Geräten, um sofort Antworten auf wichtige geschäftliche Fragen zu erhalten. Durch die Integration mit Power BI kann Cortana wichtige Informationen direkt aus Power BI-Dashboards und -Berichten abrufen. Sie benötigen lediglich die Windows 10-Version vom November 2015 oder eine höhere Version, Cortana, Power BI sowie Zugriff auf mindestens ein Dataset.
@@ -22,7 +22,7 @@ Verwenden Sie Cortana auf Ihren Windows 10-Geräten, um sofort Antworten auf wic
 ![Cortana-Suchfeld](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Vorschauversion der neuen *Dashboard*-Suche von Cortana für Windows 10
-Sie sind bereits eine Weile in der Lage, [mithilfe von Cortana bestimmte Typen von Berichtsseiten abzurufen](service-cortana-answer-cards.md). Nun haben wir eine **neue Benutzererfahrung** hinzugefügt: Sie können nun auch Dashboards abrufen. Probieren Sie es aus, und [senden Sie uns Feedback](mailto:pbicortanasg@microsoft.com). Schließlich wird die *neue Benutzererfahrung* erweitert, dass auch eine Cortana-Suche für Berichte verfügbar ist.  Einer der wichtigsten Vorteile der neuen Benutzeroberfläche ist der, dass Sie keine speziellen Einrichtungsschritte ausführen müssen – kein Aktivieren von Cortana und keine Konfiguration von Windows 10 erforderlich. Die Features sind sofort einsatzbereit.
+Sie sind bereits eine Weile in der Lage, [mithilfe von Cortana bestimmte Typen von Berichtsseiten abzurufen](service-cortana-answer-cards.md). Nun haben wir eine **neue Benutzererfahrung** hinzugefügt: Sie können nun auch Dashboards abrufen. Versuchen Sie es selbst, und [senden Sie uns Ihr Feedback unter „Power BI Ideas“](https://ideas.powerbi.com/forums/265200-power-bi). Schließlich wird die *neue Benutzererfahrung* erweitert, dass auch eine Cortana-Suche für Berichte verfügbar ist.  Einer der wichtigsten Vorteile der neuen Benutzeroberfläche ist der, dass Sie keine speziellen Einrichtungsschritte ausführen müssen – kein Aktivieren von Cortana und keine Konfiguration von Windows 10 erforderlich. Die Features sind sofort einsatzbereit.
 
 > [!NOTE]
 > Sollte sie nicht „sofort einsatzbereit“ sein, sehen Sie den [Artikel zur Problembehandlung](service-cortana-troubleshoot.md) ein, um Hilfe zu erhalten.
@@ -127,7 +127,8 @@ Wenn Sie in Cortana eine Frage stellen, gibt Power BI Antworten mit Berichtsseit
 * Cortana ist für Power BI derzeit nur in englischer Sprache verfügbar.
 * Cortana für Power BI ist nur auf Windows-Mobilgeräten verfügbar.
 
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).
+Feedback? [Senden Sie uns Ihr Feedback unter „Power BI Ideas“.](https://ideas.powerbi.com/forums/265200-power-bi)
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Aktivieren der Integration von Cortana – Power BI – Windows für Berichte](service-cortana-enable.md)
