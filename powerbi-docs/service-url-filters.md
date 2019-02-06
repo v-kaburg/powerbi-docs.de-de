@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234437"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648695"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtern eines Berichts mithilfe von Abfragezeichenfolgenparametern in der URL
 
@@ -40,6 +40,14 @@ URL?filter=***Tabelle***/***Feld*** eq '***Wert***'
 
 * Bei den Namen für **Tabelle** und **Feld** muss die Groß-/Kleinschreibung beachtet werden, beim **Wert** nicht.
 * Zum Filtern können auch Felder verwendet werden, die in der Berichtsansicht ausgeblendet sind.
+
+### <a name="reports-in-apps"></a>Berichte in Apps
+
+Wenn Sie einem Bericht in einer App einen URL-Filter hinzufügen möchten, sieht die Formatierung etwas anders aus. Für Links zu Berichten in einer App gibt es einen Abfrageparameter (ctid), der der URL hinzugefügt wird. Abfrageparameter müssen durch das Und-Zeichen (&) abgetrennt werden. An die Abfrage muss also (nach dem ctid-Parameter) „&filter=“ anstelle von „?filter=“ angefügt werden. 
+
+Sehen Sie sich dazu das folgende Beispiel an:
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>Feldtypen
 

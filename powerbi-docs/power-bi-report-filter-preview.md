@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290013"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482704"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Die neue Filteroberfläche in Power BI-Berichten (Vorschau)
 
@@ -108,7 +108,7 @@ Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachde
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Anzeigen von Filtern für ein Visual im Lesemodus
 
-Im Lesemodus können Sie den Mauszeiger über ein Visual bewegen und ein Popup mit allen Filtern, Slicern usw. anzeigen, die sich auf das Visual auswirken. Die Formatierung des Popups entspricht der des Filterbereichs. 
+Bewegen Sie im Lesemodus den Mauszeiger über das Filtersymbol, um für ein Visual ein Popup mit allen Filtern, Slicern usw. anzuzeigen, die sich auf das Visual auswirken. Die Formatierung des Popups entspricht der des Filterbereichs. 
 
 ![Filter, die sich auf ein Visual auswirken](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 
