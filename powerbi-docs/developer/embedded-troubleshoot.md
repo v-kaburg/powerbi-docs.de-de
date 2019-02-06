@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431221"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762097"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -106,7 +106,7 @@ Das Back-End der Anwendung muss das Auth-Token möglicherweise vor dem Aufrufen 
 Dieses Problem können Sie beheben, indem Sie „oauth2/authorize/“ aus der Autoritäts-URL löschen. Weitere Informationen finden Sie in den [Power BI-Beispielen für Entwickler](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
  Lesen Sie sich außerdem den Abschnitt [Better Authority validation (Bessere Autoritätsüberprüfung)](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) in den Versionshinweise zu ADAL 4.x durch.
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Authentifizierung schlägt mit AADSTS70002 oder AADSTS50053 fehl
 
 **_(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)_**

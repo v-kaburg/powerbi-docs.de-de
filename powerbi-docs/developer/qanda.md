@@ -2,21 +2,22 @@
 title: Q&A in Power BI Embedded
 description: Power BI Embedded bietet Ihnen eine Möglichkeit, Q&A in eine Anwendung zu integrieren, sodass Ihre Benutzer in natürlicher Sprache Fragen stellen können.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277982"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761913"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
+
 Power BI Embedded bietet Ihnen eine Möglichkeit, Q&A in eine Anwendung zu integrieren, sodass Ihre Benutzer Fragen in natürlicher Sprache stellen können und sofort Antworten in Form von Visuals wie Diagrammen oder Graphs erhalten.
 
 ![Interaktive Q&A-Frage in einem eingebetteten Rahmen](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>Festgelegte Frage
+
 Wenn Sie den **Ergebnismodus** mit einer festgelegten Frage verwendet haben, können Sie weitere Fragen in den Rahmen einfügen und sofort beantworten lassen, wobei das vorherige Ergebnis ersetzt wird. Ein neues Visual wird für die neue Frage gerendert.
 
 Ein Beispiel für eine solche Verwendung ist eine Liste mit häufig gestellten Fragen. Der Benutzer kann die Fragen durcharbeiten und die Antworten im selben eingebetteten Teil erhalten.
 
 **Codeausschnitt für JS-SDK-Verwendung:**  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>visualRendered-Ereignis
+
 Für den **interaktiven** Modus kann die Anwendung mit einem Datenänderungsereignis benachrichtigt werden, wenn sich das gerenderte Visual ändert, um auf die aktualisierte Eingabeabfrage während ihrer Eingabe zu verweisen.
 
 Durch Überwachen des *visualRendered*-Ereignisses können Sie Fragen für die spätere Verwendung speichern. 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Einbettungstoken
+
 Erstellen Sie ein Einbettungstoken aus einem Dataset, um ein Q&A-Teil zu starten. Weitere Informationen finden Sie im Artikel mit Vorgängen zum [Generieren eines Tokens](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Um sich mit der Q&A-Einbettung vertraut zu machen, sehen Sie sich das [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/) an.
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

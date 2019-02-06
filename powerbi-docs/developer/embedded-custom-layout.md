@@ -2,22 +2,21 @@
 title: Benutzerdefinierte Layouts für eingebettete Inhalte aus Power BI
 description: Informieren Sie sich über benutzerdefinierte Layouts für Power BI-Inhalte, die Sie in Ihre Anwendung einbetten.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288932"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762304"
 ---
 # <a name="custom-layouts"></a>Benutzerdefinierte Layouts
-
 
 Verwenden Sie benutzerdefinierte Layouts, um einen Bericht mit einem anderen Layout als im ursprünglichen Bericht einzubetten. Indem Sie ein neues Layout definieren, können Sie eine abweichende Seitengröße festlegen sowie die Größe, Position und Sichtbarkeit von Visuals steuern.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, Höhe: Definiert die neue Größe des Visuals.
 - `displayState`: Definiert die Sichtbarkeit des Visuals.
 
-
 ## <a name="update-layout"></a>Aktualisieren des Layouts
 
 Mit der updateSettings-Methode können Sie jederzeit während des Ladens des Berichts das Berichtslayout aktualisieren. Weitere Informationen finden Sie unter [Aktualisieren der Einstellungen](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>Siehe auch
 
 [Einbetten von Power BI-Dashboards, -Berichten und -Kacheln](embedding-content.md)   
 [Fragen an die Power BI-Community](https://community.powerbi.com/)
-

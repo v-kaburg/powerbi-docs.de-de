@@ -4,19 +4,20 @@ description: Exemplarische Vorgehensweise zum Übertragen von Daten per Push –
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430486"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761982"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Schritt 5: Hinzufügen von Zeilen zu einer Power BI-Tabelle
+
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
 
 In **Schritt 4** von „Übertragen von Daten per Push in ein Dataset“ ([Abrufen eines Datasets zum Hinzufügen von Zeilen zu einer Power BI-Tabelle](walkthrough-push-data-get-datasets.md)) haben Sie den Vorgang [Datasets abrufen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) und „Newtonsoft.Json“ zum Abrufen einer Dataset-ID verwendet. In diesem Schritt verwenden Sie die Dataset-ID mit dem Vorgang [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), um einem **Power BI-Dataset** Zeilen hinzuzufügen. 
@@ -28,10 +29,9 @@ Durch Aufrufen des Vorgangs [PostRows](https://docs.microsoft.com/rest/api/power
 Nachstehend wird das Hinzufügen von Zeilen zu einem Dataset mithilfe der Power BI-API erläutert.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Hinzufügen von Zeilen zu einer Power BI-Tabelle
+
 > [!NOTE]
 > Wichtig ist, dass Sie zuvor die vorangegangenen Schritte der exemplarischen Vorgehensweise [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md) ausgeführt haben.
-> 
-> 
 
 1. Fügen Sie im Konsolenanwendungsprojekt, das Sie in „Schritt 2: Exemplarische Vorgehensweise zum Übertragen von Daten per Push“ unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) erstellt haben, den unten aufgeführten Code hinzu.
 2. Führen Sie die Konsolen-App aus, und melden Sie sich bei Ihrem Power BI-Konto an. Daraufhin sollte im Konsolenfenster **Zeilen hinzugefügt** angezeigt werden. Sie können sich auch bei Power BI anmelden, um die Zeilen anzuzeigen, die dem Dataset hinzugefügt wurden.
@@ -57,7 +57,8 @@ Fügen Sie diesen Code der Datei „Program.cs“ hinzu.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * Eine „AddRows()“-Methode hinzu:
 

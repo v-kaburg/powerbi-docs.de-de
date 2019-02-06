@@ -2,21 +2,22 @@
 title: Codeausschnitte zum Migrieren von Inhalt von Power BI Embedded
 description: Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429971"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762511"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung
+
 Hier finden Sie einige Codeausschnitte mit grundlegenden Vorgängen, die für die Migration von Inhalten erforderlich sind. Zugehörige Flows für bestimmte Berichtstypen finden Sie unter [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlungen zu Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 Ein **Migrationstool** steht Ihnen zur Verfügung, um Sie beim Kopieren von Inhalt aus Power BI Embedded (PaaS) in den Power BI-Dienst (SaaS) zu unterstützen. Insbesondere, wenn Sie viel Inhalt haben. Weitere Informationen finden Sie unter [Power BI Embedded-Migrationstool](migrate-tool.md).
@@ -25,7 +26,7 @@ Der folgende Code besteht aus Beispielen, in denen C# und das [Power BI .NET SDK
 
 Stellen Sie sicher, dass Sie die folgenden Namespaces verwenden, wenn Sie die weiter unten folgenden Codeausschnitte ausführen.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Exportieren des Berichts aus dem PaaS-Arbeitsbereich
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Importieren des Berichts in den SaaS-Arbeitsbereich
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>Extrahieren der DirectQuery-Verbindungszeichenfolge aus dem PaaS-Bericht
+
 Hiermit wird die PBIX-Datei nach der Migration zu SaaS aktualisiert.
 
 ```
@@ -105,6 +108,7 @@ Hiermit wird die PBIX-Datei nach der Migration zu SaaS aktualisiert.
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>Aktualisieren der DirectQuery-Verbindungszeichenfolge im SaaS-Arbeitsbereich
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ Hiermit wird die PBIX-Datei nach der Migration zu SaaS aktualisiert.
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Festlegen von DirectQuery-Anmeldeinformationen im SaaS-Arbeitsbereich
+
 In diesem Codeausschnitt werden zur Vereinfachung unverschlüsselte Anmeldeinformationen verwendet. Senden von verschlüsselten Anmeldeinformationen wird aber ebenfalls unterstützt.
 
 ```
@@ -159,6 +164,7 @@ In diesem Codeausschnitt werden zur Vereinfachung unverschlüsselte Anmeldeinfor
 ```
 
 ## <a name="push-dataset--report"></a>Übertragen von Dataset und Bericht per Push
+
 Sie müssen den Bericht für das erstellte Dataset neu erstellen.
 
 Für diesen Codeausschnitt wird angenommen, dass sich das im Pushverfahren übertragbare Dataset bereits in einem App-Arbeitsbereich in der SaaS-Umgebung befindet. Informationen über die Push-API finden Sie unter [Übertragen von Daten in ein Power BI-Dataset per Push](walkthrough-push-data.md).
@@ -223,6 +229,7 @@ Für diesen Codeausschnitt wird angenommen, dass sich das im Pushverfahren über
 ```
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 [Power BI Embedded-Migrationstool](migrate-tool.md)  
 [Einbetten mit Power BI](embedding.md)  
 [Migrieren von Inhalten aus Power BI Embedded-Arbeitsbereichsammlungen zu Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ Für diesen Codeausschnitt wird angenommen, dass sich das im Pushverfahren über
 [Power BI Premium-Whitepaper](https://aka.ms/pbipremiumwhitepaper)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
-

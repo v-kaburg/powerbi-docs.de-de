@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431290"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762465"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Organisation
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
 
 In **Power BI** können Sie mit User Owns Data (Benutzer ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Mit **User Owns Data** (Benutzer ist Besitzer der Daten) kann Ihre Anwendung den Power BI-Dienst erweitern, um Embedded Analytics zu nutzen. Dieses Tutorial veranschaulicht die Vorgehensweise beim Integrieren eines Berichts in eine Anwendung. Verwenden Sie das Power BI .NET SDK mit der Power BI-JavaScript-API, um Power BI für Ihre Organisation in eine Anwendung einzubetten.
 
