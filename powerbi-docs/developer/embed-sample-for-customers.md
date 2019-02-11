@@ -4,22 +4,22 @@ description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.component: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 7f1c05e1c396b1126bffbf6e62798e679decdca9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431175"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762626"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden
+# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 
-Mit **Power BI Embedded in Azure** können Sie mit App Owns Data (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. **Unabhängige Softwarehersteller und -entwickler** können Power BI-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer über eine Power BI-Lizenz verfügen müssen. Dieses Tutorial veranschaulicht, wie Sie einen Bericht in eine Anwendung integrieren, indem Sie das Power BI .NET SDK mit der Power BI-JavaScript-API verwenden, wenn Sie **Power BI Embedded in Azure** für Ihre Kunden nutzen.
+Mit **Power BI Embedded in Azure** können Sie mit App Owns Data (App ist Besitzer der Daten) Berichte, Dashboards oder Kacheln in eine Anwendung einbetten. Bei **App Owns Data** verwendet eine Anwendung Power BI als eingebettete Analyseplattform. **Unabhängige Softwarehersteller und -entwickler** können Power BI-Inhalt erstellen, der vollständig integrierte und interaktive Berichte, Dashboards oder Kacheln in einer Anwendung anzeigt, ohne dass die Benutzer über eine Power BI-Lizenz verfügen müssen. In diesem Tutorial wird veranschaulicht, wie Sie in **Power BI Embedded in Azure** einen Bericht für Ihre Kunden in eine Anwendung integrieren, indem Sie das Power BI .NET SDK mit der Power BI-JavaScript-API verwenden.
 
 In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 > [!div class="checklist"]
@@ -28,12 +28,15 @@ In diesem Tutorial erhalten Sie Informationen zu den folgenden Vorgängen:
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Sie benötigen ein **Power BI Pro-Konto** (als **Hauptkonto**) und ein **Microsoft Azure**-Abonnement.
+Sie benötigen Folgendes, um direkt mit dem Tutorial loslegen zu können:
 
-* Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
-* Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
-* Sie müssen einen eigenen [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md) eingerichtet haben.
-* [Visual Studio](https://www.visualstudio.com/) muss installiert sein (Version 2013 oder höher).
+* Ein [Power BI Pro-Konto](../service-self-service-signup-for-power-bi.md) (ein Hauptkonto, d.h. ein Benutzername und ein Kennwort zur Anmeldung in Ihrem Power BI Pro-Konto) oder einen [Dienstprinzipal (Token nur für Anwendungen)](embed-service-principal.md)
+* Ein [Microsoft Azure](https://azure.microsoft.com/)-Abonnement
+* Einen individuell eingerichteten [Azure Active Directory-Mandanten](create-an-azure-active-directory-tenant.md)
+
+Wenn Sie noch nicht bei **Power BI Pro** registriert sind, [registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/pricing/), bevor Sie beginnen.
+
+Wenn Sie kein Azure-Abonnement besitzen, erstellen Sie ein [kostenloses Konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F), bevor Sie beginnen.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Einrichten der Entwicklungsumgebung für eingebettete Analysen
 
@@ -45,98 +48,25 @@ Wenn Sie jedoch die Umgebung manuell einrichten möchten, können Sie weiter unt
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrieren einer Anwendung in Azure Active Directory (Azure AD)
 
-Sie registrieren Ihre Anwendung in Azure Active Directory, damit die Anwendung auf die Power BI-REST-APIs zugreifen kann. Durch das Registrieren Ihrer Anwendung können Sie eine Identität für Ihre Anwendung erstellen und Berechtigungen für Power BI-REST-Ressourcen angeben.
+[Registrieren Sie Ihre Anwendung](register-app.md) in Azure Active Directory, damit die Anwendung auf die [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) zugreifen kann. Durch das Registrieren Ihrer Anwendung können Sie eine Identität für Ihre Anwendung erstellen und Berechtigungen für Power BI-REST-Ressourcen angeben. Je nachdem, ob Sie ein Hauptkonto oder einen [Dienstprinzipal](embed-service-principal.md) verwenden möchten, gibt es Unterschiede bei der Registrierung einer Anwendung.
 
-1. Akzeptieren Sie die [Nutzungsbedingungen für die Microsoft Power BI-API](https://powerbi.microsoft.com/api-terms).
+Die Methode, für die Sie sich entscheiden, beeinflusst die Art der Anwendung, die Sie in Azure registrieren.
 
-2. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
+Wenn Sie mit einem Hauptkonto fortfahren, registrieren Sie eine **native** Anwendung. Eine native Anwendung wird verwendet, wenn Sie mit einer nicht interaktiven Anmeldung arbeiten.
 
-    ![Hauptfenster des Azure-Portals](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
-
-3. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen** > **Neue Anwendungsregistrierung**.
-
-    ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
-    ![Neue App-Registrierung](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
-
-4. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung . Für „App Owns Data“ müssen Sie **Nativ** als Anwendungstyp verwenden. Sie müssen auch einen **Umleitungs-URI** angeben, den **Azure AD** zur Rückgabe von Tokenantworten verwendet. Geben Sie einen für Ihre Anwendung spezifischen Wert ein, z.B. `http://localhost:13526/Redirect`.
-
-    ![App erstellen](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
-
-### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Anwenden von Berechtigungen auf die Anwendung in Azure Active Directory
-
-Aktivieren Sie zusätzliche Berechtigungen für Ihre Anwendung, darunter die Einstellungen auf der App-Registrierungsseite. Melden Sie sich mit dem *Masterkonto* an, das Sie für die Einbettung verwenden. Das Masterkonto muss ein globales Administratorkonto sein.
-
-### <a name="use-the-azure-active-directory-portal"></a>Verwenden des Azure Active Directory-Portals
-
-1. Navigieren Sie im Azure-Portal zu [App-Registrierungen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade), und wählen Sie die App aus, die Sie für die Einbettung verwenden.
-
-    ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
-
-2. Wählen Sie **Einstellungen** und danach unter **API-Zugriff** die Option **Erforderliche Berechtigungen** aus.
-
-    ![Erforderliche Berechtigungen](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
-
-3. Wählen Sie **Windows Azure Active Directory** aus, und stellen Sie sicher, dass **Hiermit greifen Sie als angemeldeter Benutzer auf das Verzeichnis zu** ausgewählt ist. Wählen Sie **Speichern**.
-
-    ![Microsoft Azure AD-Berechtigungen](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
-
-4. Wählen Sie **Hinzufügen**.
-
-    ![Berechtigungen hinzufügen](media/embed-sample-for-customers/embed-sample-for-customers-012.png)
-
-5. Klicken Sie auf **API auswählen**.
-
-    ![API-Zugriff hinzufügen](media/embed-sample-for-customers/embed-sample-for-customers-013.png)
-
-6. Klicken Sie auf **Power BI-Dienst** und dann auf **Auswählen**.
-
-    ![Power BI-Dienste auswählen](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
-
-7. Wählen Sie alle Berechtigungen unter **Delegierte Berechtigungen** aus. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
-
-    ![Delegierte Berechtigungen auswählen](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
-
-8. Wählen Sie unter **Erforderliche Berechtigungen** die Option **Berechtigungen erteilen** aus.
-
-    Die Aktion **Berechtigungen erteilen** benötigt das *Hauptkonto*, damit keine Zustimmung von Azure AD abgefragt wird. Wenn es sich bei dem Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, müssen Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung gewähren. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, müssen Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen gewähren.
-
-    ![Gewähren von Berechtigungen im Dialogfeld „Erforderliche Berechtigungen“](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
+Wenn Sie jedoch mit einem Dienstprinzipal fortfahren, müssen Sie eine **serverseitige Webanwendung** registrieren. Eine serverseitige Webanwendung wird registriert, wenn Sie ein Anwendungsgeheimnis erstellen möchten.
 
 ## <a name="set-up-your-power-bi-environment"></a>Einrichten der Power BI-Umgebung
 
 ### <a name="create-an-app-workspace"></a>Erstellen eines App-Arbeitsbereichs
 
-Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren. Das *Hauptkonto* muss Administrator des App-Arbeitsbereichs sein.
-
-1. Erstellen Sie zunächst den Arbeitsbereich. Wählen Sie **Arbeitsbereiche** > **App-Arbeitsbereich erstellen** aus. Legen Sie unter „App-Arbeitsbereich erstellen“ die Inhalte ab, auf die Ihre Anwendung zugreifen muss.
-
-    ![Arbeitsbereich erstellen](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
-
-2. Benennen Sie den Arbeitsbereich. Wenn die entsprechende **Arbeitsbereichs-ID** nicht verfügbar ist, geben Sie eine eindeutige ID ein.
-
-    ![Arbeitsbereich benennen](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
-
-3. Sie können einige Optionen festlegen. Wenn Sie **Öffentlich** auswählen, können die Inhalte des Arbeitsbereichs von jedem Benutzer in der Organisation angezeigt werden. Wenn Sie **Privat** auswählen, können die Inhalte des Arbeitsbereichs nur von dessen Mitgliedern angezeigt werden.
-
-    ![Privat/Öffentlich](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
-
-    Sie können die Einstellung „Öffentlich“ bzw. „Privat“ einer Gruppe nach deren Erstellung nicht mehr ändern.
-
-4. Sie können auch auswählen, ob Mitglieder Inhalte **bearbeiten** können oder **schreibgeschützten** Zugriff haben.
-
-    ![Mitglieder hinzufügen](media/embed-sample-for-customers/embed-sample-for-customers-023.png)
-
-5. Fügen Sie E-Mail-Adressen von Personen hinzu, die Zugriff auf den Arbeitsbereich haben sollen, und wählen Sie **Hinzufügen** aus. Sie können keine Gruppenaliase, sondern nur einzelne Personen hinzufügen.
-
-6. Legen Sie für jede Person fest, ob sie Mitglied oder Administrator ist. Administratoren können den Arbeitsbereich selbst bearbeiten und weitere Mitglieder hinzufügen. Mitglieder können den Inhalt des Arbeitsbereichs bearbeiten, es sei denn, sie haben schreibgeschützten Zugriff. Sowohl Administratoren als auch Mitglieder können die App veröffentlichen.
-
-    Jetzt können Sie den neuen Arbeitsbereich anzeigen. Der Arbeitsbereich wird in Power BI erstellt und geöffnet. Er wird in der Liste der Arbeitsbereiche angezeigt, deren Mitglied Sie sind. Da Sie Administrator sind, können Sie die Auslassungspunkte (...) auswählen, um zurückzukehren, und Änderungen vornehmen, neue Mitglieder hinzufügen oder deren Berechtigungen ändern.
-
-    ![Neuer Arbeitsbereich](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
+Wenn Sie Berichte, Dashboards oder Kacheln für Ihre Kunden einbetten, müssen Sie Ihre Inhalte in einem App-Arbeitsbereich platzieren. Zur Einrichtung stehen verschiedene Arten von Arbeitsbereichen zur Auswahl: der [traditionelle Arbeitsbereich](../service-create-workspaces.md) oder [neue Arbeitsbereiche](../service-create-the-new-workspaces.md). Wenn Sie ein *Hauptkonto* verwenden, spielt es keine Rolle, welche Art von Arbeitsbereich Sie verwenden. Wenn Sie jedoch einen *[Dienstprinzipal](embed-service-principal.md)* verwenden, um sich in der Anwendung anzumelden, müssen Sie neue Arbeitsbereiche verwenden. In beiden Szenarios müssen das *Hauptkonto* und der *Dienstprinzipal* Administratorkonten für die Arbeitsbereiche Ihrer Anwendung sein.
 
 ### <a name="create-and-publish-your-reports"></a>Erstellen und Veröffentlichen von Berichten
 
-Sie können Ihre Berichte und Datasets mit Power BI Desktop erstellen und diese Berichte dann in einem App-Arbeitsbereich veröffentlichen. Der Benutzer, der die Berichte veröffentlicht, muss über eine Power BI Pro-Lizenz verfügen, damit er einen App-Arbeitsbereich veröffentlichen kann.
+Sie können Ihre Berichte und Datasets mit Power BI Desktop erstellen und diese Berichte dann in einem App-Arbeitsbereich veröffentlichen. Es gibt zwei Möglichkeiten, dies zu erreichen: Als Endbenutzer können Sie Berichte über ein Hauptkonto mit einer Lizenz für Power BI Pro in einem traditionellen Anwendungsarbeitsbereich veröffentlichen. Wenn Sie einen Dienstprinzipal verwenden, können Sie Berichte über die [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) in neuen Arbeitsbereichen veröffentlichen.
+
+Unten finden Sie eine ausführliche Anleitung, wie Sie Ihren PBIX-Bericht in Ihrem Power BI-Arbeitsbereich veröffentlichen.
 
 1. Laden Sie das Beispiel von GitHub herunter: [Blog-Demo](https://github.com/Microsoft/powerbi-desktop-samples).
 
@@ -146,74 +76,163 @@ Sie können Ihre Berichte und Datasets mit Power BI Desktop erstellen und diese 
 
    ![Power BI Desktop-Bericht](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. Veröffentlichen Sie den Bericht im **App-Arbeitsbereich**.
+3. Veröffentlichen Sie den Bericht in **App-Arbeitsbereiche**. Dieser Vorgang unterscheidet sich, je nachdem, ob Sie ein Hauptkonto mit einer Lizenz für Power BI Pro oder einen Dienstprinzipal verwenden. Wenn Sie ein Hauptkonto verwenden, können Sie Ihren Bericht über Power BI Desktop veröffentlichen.  Wenn Sie einen Dienstprinzipal verwenden, müssen Sie die Power BI-REST-APIs verwenden.
 
-   ![Power BI Desktop: Bericht veröffentlichen](media/embed-sample-for-customers/embed-sample-for-customers-028.png)
+## <a name="embed-content-using-the-sample-application"></a>Einbetten von Inhalt mit der Beispielanwendung
 
-    Jetzt können Sie den Bericht online im Power BI-Dienst anzeigen.
+Dieses Beispiel ist zur besseren Anschaulichkeit bewusst einfach gestaltet. Sie oder Ihre Entwickler sind selbst dafür verantwortlich, das Anwendungsgeheimnis bzw. die Anmeldeinformationen für das Hauptkonto zu schützen.
 
-   ![Power BI Desktop-Bericht: Ansicht im Power BI-Dienst](media/embed-sample-for-customers/embed-sample-for-customers-029.png)
+Führen Sie die folgenden Schritte durch, um Ihren Inhalt in eine Beispielanwendung zu implementieren:
 
-## <a name="embed-your-content-using-the-sample-application"></a>Einbetten von Inhalt mit der Beispielanwendung
+1. Installieren Sie [Visual Studio](https://www.visualstudio.com/) (Version 2013 oder höher). Laden Sie das neueste [NuGet-Paket](https://www.nuget.org/profiles/powerbi) herunter.
 
-Führen Sie die folgenden Schritte durch, um Ihren Inhalt in eine Beispielanwendung zu implementieren.
-
-1. Laden Sie das [App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples)-Beispiel aus GitHub herunter, um zu beginnen.
+2. Laden Sie das [App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples)-Beispiel aus GitHub herunter, um zu beginnen.
 
     ![App Owns Data-Anwendungsbeispiel](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Öffnen Sie die Datei „Web.config“ in der Beispielanwendung. Damit die Anwendung erfolgreich ausgeführt werden kann, müssen Sie fünf Felder ausfüllen: **applicationId**, **workspaceId**, **reportId**, **pbiUsername**und **pbiPassword**.
+3. Öffnen Sie die Datei **Web.config** in der Beispielanwendung. Damit die Anwendung ausgeführt werden kann, müssen Sie verschiedene Felder ausfüllen. Für **AuthenticationType** können Sie **MasterUser** oder **ServicePrincipal** auswählen. Je nachdem, für welche Authentifizierungsmethode Sie sich entscheiden, müssen unterschiedliche Felder ausgefüllt werden.
+
+    > [!Note]
+    > Der Standardwert für **AuthenticationType** in diesem Beispiel ist „MasterUser“.
+
+    <center>
+
+    | **MasterUser** </br> (Power BI Pro-Lizenzen) | **ServicePrincipal** </br> (Token nur für Anwendungen)|
+    |---------------|-------------------|
+    | [applicationId](#application-id) | [applicationId](#application-id) |
+    | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
+    | [reportId](#report-id) | [reportId](#report-id) |
+    | [pbiUsername](#power-bi-username-and-password) |  |
+    | [pbiPassword](#power-bi-username-and-password) |  |
+    |  | [applicationsecret](#application-secret) |
+    |  | [tenant](#tenant) |
+
+   </center>
 
     ![Web.config-Datei](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Geben Sie für **applicationId** die **Anwendungs-ID** aus **Azure** an. Die Anwendung identifiziert sich mithilfe der **applicationId** bei den Benutzern, von denen Sie Berechtigungen anfordern. Führen Sie die folgenden Schritte aus, um **applicationId** abzurufen:
+### <a name="application-id"></a>Anwendungs-ID
 
-    Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
+Dieses Attribut wird für beide Authentifizierungstypen benötigt (Hauptkonto und [Dienstprinzipal](embed-service-principal.md)).
 
-    ![Hauptfenster des Azure-Portals](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+Geben Sie für **applicationId** die **Anwendungs-ID** aus **Azure** an. Die Anwendung identifiziert sich mithilfe der **applicationId** bei den Benutzern, von denen Sie Berechtigungen anfordern.
 
-    Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen**.
+Führen Sie die folgenden Schritte aus, um **applicationId** abzurufen:
+
+1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
+
+2. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen**.
 
     ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Wählen Sie die Anwendung aus, für die Sie **applicationId** abrufen möchten.
+3. Wählen Sie die Anwendung aus, für die **applicationID** benötigt wird.
 
     ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Sie sollten eine **Anwendungs-ID** sehen, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **applicationId** für die Anwendung.
+4. Es gibt eine **Anwendungs-ID**, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **applicationId** für die Anwendung.
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Geben Sie als **workspaceId** die **App-Arbeitsbereichs-GUID** aus Power BI an.
+### <a name="workspace-id"></a>Arbeitsbereichs-ID
 
-    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+Dieses Attribut wird für beide Authentifizierungstypen benötigt (Hauptkonto und [Dienstprinzipal](embed-service-principal.md)).
 
-    Geben Sie als **reportId** die **Berichts-GUID** aus Power BI an.
+Geben Sie für **workspaceId** die Anwendungsarbeitsbereichs-GUID (Gruppen-GUID) aus Power BI an. Die benötigten Informationen erhalten Sie entweder aus der URL, wenn Sie im Power BI-Dienst angemeldet sind, oder über PowerShell.
 
-    ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+URL </br>
 
-    * Geben Sie als **pbiUsername** das Power BI-Hauptbenutzerkonto an.
-    * Geben Sie als **pbiPassword** das Kennwort für das Power BI-Hauptbenutzerkonto an.
+![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-3. Führen Sie die Anwendung aus!
+PowerShell </br>
 
-    Wählen Sie zunächst in **Visual Studio** die Option **Ausführen** aus.
+```powershell
+Get-PowerBIworkspace -name "App Owns Embed Test"
+```
+
+   ![workspaceId aus PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+
+### <a name="report-id"></a>Berichts-ID
+
+Dieses Attribut wird für beide Authentifizierungstypen benötigt (Hauptkonto und [Dienstprinzipal](embed-service-principal.md)).
+
+Geben Sie als **reportId** die Berichts-GUID aus Power BI an. Die benötigten Informationen erhalten Sie entweder aus der URL, wenn Sie im Power BI-Dienst angemeldet sind, oder über PowerShell.
+
+URL</br>
+
+![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+
+PowerShell </br>
+
+```powershell
+Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
+```
+
+![reportId aus PowerShell](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+
+### <a name="power-bi-username-and-password"></a>Benutzername und Kennwort für Power BI
+
+Diese Attribute werden nur benötigt, wenn Sie als Authentifizierungmethode ein Hauptkonto verwenden möchten.
+
+Wenn Sie für die Authentifizierung einen [Dienstprinzipal](embed-service-principal.md) verwenden, müssen Sie die Attribute „Benutzername“ und „Kennwort“ nicht ausfüllen.
+
+* Geben Sie als **pbiUsername** das Power BI-Hauptkonto an.
+* Geben Sie als **pbiPassword** das Kennwort für das Power BI-Hauptkonto an.
+
+### <a name="application-secret"></a>Anwendungsgeheimnis
+
+Dieses Attribut wird nur für den Authentifizierungstyp [Dienstprinzipal](embed-service-principal.md) benötigt.
+
+Geben Sie für **ApplicationSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.  Dieses Attribut ist geeignet, wenn ein [Dienstprinzipal](embed-service-principal.md) verwendet wird.
+
+Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
+
+1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com) an.
+
+2. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** und dann auf **App-Registrierungen**.
+
+    ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+
+3. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
+
+    ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+
+4. Wählen Sie **Einstellungen**aus.
+
+    ![„Einstellungen“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+
+5. Klicken Sie auf **Schlüssel**.
+
+    ![„Schlüssel“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+
+6. Geben Sie in das Feld **Beschreibung** einen Namen ein, und wählen Sie eine Dauer aus. Klicken Sie anschließend auf **Speichern**, um den **Wert** für Ihre Anwendung abzurufen. Wenn Sie den Bereich **Schlüssel** nach dem Speichern des Schlüsselwerts schließen, wird das Wertfeld nur als ausgeblendet angezeigt. An diesem Punkt können Sie den Schlüsselwert nicht abrufen. Wenn Sie den Schlüsselwert verlieren, müssen Sie im Azure-Portal einen neuen erstellen.
+
+    ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+
+### <a name="tenant"></a>Mandant
+
+Dieses Attribut wird nur für den Authentifizierungstyp [Dienstprinzipal](embed-service-principal.md) benötigt.
+
+Geben Sie für **tenant** die ID Ihres Azure-Mandanten an. Die benötigten Informationen erhalten Sie entweder aus dem [Azure AD-Portal](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal), wenn Sie im Power BI-Dienst angemeldet sind, oder über PowerShell.
+
+### <a name="run-the-application"></a>Ausführen der Anwendung
+
+1. Wählen Sie in **Visual Studio** die Option **Ausführen** aus.
 
     ![Ausführen der Anwendung](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-    Wählen Sie dann **Bericht einbetten** aus. Wählen Sie die gewünschte Option in der Anwendung aus, je nachdem, mit welchem Inhalt Sie testen möchten: Berichte, Dashboards oder Kacheln.
+2. Wählen Sie dann **Bericht einbetten** aus. Wählen Sie die gewünschte Option in der Anwendung aus, je nachdem, mit welchem Inhalt Sie testen möchten: Berichte, Dashboards oder Kacheln.
 
     ![Inhalt auswählen](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
-    Jetzt können Sie den Bericht in der Beispielanwendung anzeigen.
+3. Jetzt können Sie den Bericht in der Beispielanwendung anzeigen.
 
     ![Anwendung anzeigen](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-## <a name="embed-your-content-within-your-application"></a>Einbetten von Inhalt in Ihre Anwendung
+## <a name="embed-content-within-your-application"></a>Einbetten von Inhalt in Ihre Anwendung
 
-Auch wenn die Schritte zum Einbetten des Inhalts mit den [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchgeführt werden können, werden die in diesem Artikel beschriebenen Beispielcodes mit dem **.NET SDK** erstellt.
+Es ist zwar auch möglich, die Schritte zum Einbetten des Inhalts mit den [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchzuführen, die in diesem Artikel beschriebenen Beispielcodes werden jedoch mit dem **.NET SDK** erstellt.
 
-Damit Kunden Einbettungen in der Anwendung vornehmen können, müssen Sie ein **Zugriffstoken** für Ihr Hauptkonto von **Azure AD** besorgen. Es ist erforderlich, dass Sie zunächst ein [Azure AD-Zugriffstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) für Ihre Power BI-Anwendung mit **App Owns Data** abrufen, bevor Sie Aufrufe an die [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchführen.
+Damit Kunden Einbettungen in der Anwendung vornehmen können, benötigen Sie ein **Zugriffstoken** für Ihr Hauptkonto oder Ihren **Dienstprinzipal** von [Azure AD](embed-service-principal.md). Sie benötigen ein [Azure AD-Zugriffstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) für Ihre Power BI-Anwendung, bevor Sie Aufrufe an die [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) durchführen können.
 
 Sie sollten ein Power BI-Clientobjekt erstellen, durch das Sie mit den [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) interagieren zu können, um den Power BI-Client mit Ihrem **Zugriffstoken** zu erstellen. Sie erstellen das Power BI-Clientobjekt durch Einschließen des **Zugriffstokens** in ein ***Microsoft.Rest.TokenCredentials***-Objekt.
 
@@ -237,7 +256,7 @@ Sie können mit dem Power BI-Clientobjekt einen Verweis auf das Element abrufen,
 
 Im folgenden Codebeispiel wird veranschaulicht, wie Sie den ersten Bericht aus einem bestimmten Arbeitsbereich abrufen.
 
-*In der Datei „Controllers\HomeController.cs“ in der [Beispielanwendung](#embed-your-content-within-a-sample-application) finden Sie ein Beispiel zum Abrufen eines Inhaltselements (Bericht, Dashboard oder Kachel), das Sie einbetten möchten.*
+*In der Datei „Services\EmbedService.cs“ in der [Beispielanwendung](https://github.com/Microsoft/PowerBI-Developer-Samples) finden Sie ein Beispiel zum Abrufen eines Inhaltselements (Bericht, Dashboard oder Kachel), das Sie einbetten möchten.*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -254,9 +273,7 @@ Report report = reports.Value.FirstOrDefault();
 
 Es wurde ein Einbettungstoken generiert, das aus der JavaScript-API verwendet werden kann. Das Einbettungstoken ist spezifisch für das Element, das Sie einbetten. Das heißt, dass Sie bei jedem Einbetten eines Power BI-Inhaltselements dafür ein neues Einbettungstoken erstellen müssen. Weitere Informationen hierzu, u.a. zum erforderlichen **accessLevel**, finden Sie unter [GenerateToken-API](https://msdn.microsoft.com/library/mt784614.aspx).
 
-Hier sehen Sie ein Beispiel für das Hinzufügen eines Einbettungstokens für einen Bericht zu Ihrer Anwendung.
-
-*In der Datei „Controllers\HomeController.cs“ in der [Beispielanwendung](#embed-your-content-within-a-sample-application) finden Sie ein Beispiel zum Erstellen eines Einbettungstokens (sei es ein Bericht, ein Dashboard oder eine Kachel).*
+*In der Datei „Services\EmbedService.cs“ in der [Beispielanwendung](https://github.com/Microsoft/PowerBI-Developer-Samples) finden Sie ein Beispiel zum Erstellen eines Einbettungstokens (Bericht, Dashboard oder Kachel).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -303,7 +320,7 @@ Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** m
     // Get models. models contains enums that can be used.
     var models = window['powerbi-client'].models;
 
-    // Embed configuration used to describe the what and how to embed.
+    // Embed configuration used to describe what and how to embed.
     // This object is used when calling powerbi.embed.
     // This also includes settings and options such as filters.
     // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
@@ -330,7 +347,10 @@ Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** m
 
 ## <a name="move-to-production"></a>In die Produktionsphase wechseln
 
-Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-Arbeitsbereich durch eine dedizierte Kapazität absichern. Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
+Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-Arbeitsbereich durch eine dedizierte Kapazität absichern. 
+
+> [!Important]
+> Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
 
@@ -349,13 +369,17 @@ Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-
 
 **_Mit A-SKUs können Sie mit einer KOSTENLOSEN Power BI-Lizenz nicht auf Power BI-Inhalte zugreifen._**
 
-Da Einbettungstokens mit PRO-Lizenzen nur für Bereitstellungen und das Testen von Bereitstellungen vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto generieren kann. Eine dedizierte Kapazität ist erforderlich, um Einbettungen in einer Produktionsumgebung vornehmen zu können. Sie können mit einer dedizierten Kapazität so viele eingebettete Token generieren, wie Sie möchten. Verwenden Sie die Vorgänge zum Abrufen [verfügbarer Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), um den Auslastungswert zu überprüfen, der die derzeit eingebettete Auslastung in Prozent angibt. Der Verbrauchsbetrag errechnet sich pro Hauptkonto.
+Da Einbettungstokens mit Pro-Lizenzen für Entwicklungstests vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto oder einen -Dienstprinzipal generieren kann. Für eine dedizierte Kapazität ist eine Einbettung in eine Produktionsumgebung erforderlich. Sie können mit einer dedizierten Kapazität so viele eingebettete Token generieren, wie Sie möchten. Verwenden Sie die Vorgänge zum Abrufen [verfügbarer Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), um den Auslastungswert zu überprüfen, der die derzeit eingebettete Auslastung in Prozent angibt. Der Verbrauchsbetrag errechnet sich pro Hauptkonto.
 
 Weitere Informationen finden Sie im [Embedded analytics capacity planning whitepaper (Whitepaper zur Kapazitätsplanung von Embedded Analytics)](https://aka.ms/pbiewhitepaper).
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Zuweisen eines App-Arbeitsbereichs zu einer dedizierten Kapazität
 
-Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren App-Arbeitsbereich zuweisen. Gehen Sie folgendermaßen vor, um eine dedizierte Kapazität einem Arbeitsbereich zuzuweisen.
+Wenn Sie eine dedizierte Kapazität erstellt haben, können Sie ihr Ihren App-Arbeitsbereich zuweisen.
+
+Mithilfe der [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) können Sie einem Arbeitsbereich über einen [Dienstprinzipal](embed-service-principal.md) eine dedizierte Kapazität zuzuweisen. Wenn Sie die Power BI-REST-APIs einsetzen, müssen Sie die [Dienstprinzipalobjekt-ID](embed-service-principal.md#how-to-get-the-service-principal-object-id) verwenden.
+
+Entlang der folgenden Schritte können Sie einem Arbeitsbereich über ein **Hauptkonto** eine dedizierte Kapazität zuordnen.
 
 1. Erweitern Sie im **Power BI-Dienst** Arbeitsbereiche, und klicken Sie auf die Auslassungspunkte neben dem Arbeitsbereich, den Sie zur Einbettung von Inhalt verwenden. Klicken Sie dann auf **Arbeitsbereich bearbeiten**.
 

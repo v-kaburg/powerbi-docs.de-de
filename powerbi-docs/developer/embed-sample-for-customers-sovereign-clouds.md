@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431152"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762672"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Einbetten eines Dashboards, einer Kachel oder eines Berichts von Power BI in eine Anwendung für Sovereign Clouds
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Tutorial: Einbetten von Power BI-Inhalten in Ihre Anwendung für Sovereign Cloud
 
 Erfahren Sie, wie Sie analytische Inhalte in Ihre Geschäftsprozessanwendungen für die Sovereign Cloud einbetten. Sie können das Power BI .NET SDK mit der Power BI-JavaScript-API verwenden, um einen Bericht, ein Dashboard oder eine Kachel in eine Webanwendung einzubetten.
 
@@ -37,7 +37,7 @@ Zu den verschiedenen Sovereign Clouds gehören Folgende:
 
 ![Eingebettetes Dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie sich je nach Art der Sovereign Cloud für ein [Power BI-Konto einer US-Behörde](../service-govus-signup.md), ein [Power BI-Konto für Cloud Deutschland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) oder ein [Power BI-Konto für Cloud China](http://www.21vbluecloud.com/powerbi/) anmelden.
+Für diese exemplarische Vorgehensweise benötigen Sie ein **Power BI-Konto**. Wenn Sie kein Konto eingerichtet haben, können Sie je nach Regierung oder Land die passende Sovereign Cloud auswählen. Sie können sich für ein [Power BI-Konto für US-Behörden](../service-govus-signup.md), ein [Power BI Deutschland-Cloudkonto](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) oder ein [Power BI China-Cloudkonto](http://www.21vbluecloud.com/powerbi/) registrieren.
 
 > [!NOTE]
 > Möchten Sie stattdessen ein Dashboard für Ihre Organisation einbetten? Siehe [Integrieren eines Dashboards in eine App für Ihre Organisation](integrate-dashboard.md).
@@ -229,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Erstellen des Einbettungstokens
 
-Sie können mithilfe der JavaScript-API ein Einbettungstoken generieren. Das Einbettungstoken ist spezifisch für das Element, das Sie einbetten. Bei jedem Einbetten eines Power BI-Inhaltselements müssen Sie ein neues Einbettungstoken erstellen. Weitere Informationen hierzu, einschließlich dem erforderlichen **accessLevel**, finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Sie können mithilfe der JavaScript-API ein Einbettungstoken generieren. Das Einbettungstoken ist spezifisch für das Element, das Sie einbetten. Jedes mal, wenn Sie ein Power BI-Inhaltselement einbetten, müssen Sie ein neues Einbettungstoken erstellen. Weitere Informationen hierzu, einschließlich dem erforderlichen **accessLevel**, finden Sie unter [Embed Token (Einbettungstoken)](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Da Einbettungstoken nur für Entwicklertests vorgesehen sind, ist die Anzahl von Einbettungstoken, die ein Power BI-Masterkonto generieren kann, begrenzt. Es muss eine [Kapazität erworben werden](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical), um Einbettungsszenarios für die Produktion verwenden zu können. Wenn eine Kapazität erworben wird, gibt es keine Einschränkungen bei der Generierung von Einbettungstokens.
@@ -435,7 +435,7 @@ Ein Anwendungsbeispiel hierfür ist im [Beispiel zum Einbetten für Ihre Organis
 
 * [Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI](migrate-from-powerbi-embedded.md)
 
-Einschränkungen und Überlegungen
+Überlegungen und Einschränkungen
 
 * GCC-Konten unterstützen derzeit nur die P- und EM-Funktionen
 

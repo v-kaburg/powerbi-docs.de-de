@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234345"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794295"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Visualisierungen für Power BI-**Benutzer**
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Interagieren mit Visualisierungen in Berichten, Dashboards und Apps
 
 In seiner einfachsten Form ist eine ***Visualisierung*** (oder ein *visuelles Element*) eine Art von Diagramm, das von einem Power BI-*Designer* mithilfe der Daten in *Berichten* und *Datasets* erstellt wurde. 
 
@@ -27,13 +27,14 @@ In seiner einfachsten Form ist eine ***Visualisierung*** (oder ein *visuelles El
 
 ## <a name="what-can-i-do-with-visualizations"></a>Wofür kann ich Visualisierungen verwenden?
 
-Visualisierungen werden von Berichts- und Dashboard-*Designern* erstellt und mit *Benutzern* geteilt. Als Benutzer haben Sie viele Interaktionsmöglichkeiten mit Visualisierungen, um Einblicke zu erhalten und datenbasierte Geschäftsentscheidungen zu treffen. All diese Optionen sind unten zusammen mit Links zu schrittweisen Anweisungen aufgeführt.
+Visualisierungen werden von Berichts- und Dashboard-*Designern* erstellt und mit *Benutzern* geteilt. Als Benutzer haben Sie viele Interaktionsmöglichkeiten mit Visualisierungen, um Einblicke zu erhalten und datenbasierte Geschäftsentscheidungen zu treffen. All diese Optionen sind in der folgenden Tabelle zusammen mit Links zu schrittweisen Anweisungen aufgeführt.
 
-Aber zuerst ein Wort zu Q&A. Q&A ist das natürlichsprachliche Suchtool von Power BI. Sie geben eine Frage in natürlicher Sprache ein, und Q&A beantwortet die Frage in Form einer Visualisierung. Q&A ist eine Möglichkeit für Benutzer, um ihre eigenen Visualisierungen zu erstellen. Die Visualisierungen, die Sie mit Q&A erstellten, lassen sich jedoch nicht speichern. Wenn Sie aber etwas bestimmtes aus den Daten erfahren möchten, und der Designer hat es nicht in einen Bericht oder ein Dashboard aufgenommen, ist Q&A eine hervorragende Option. Weitere Informationen zu Q&A finden Sie unter [Q&A für Benutzer](end-user-q-and-a.md).
+> [!IMPORTANT]
+> Aber zuerst ein Wort zu Q&A. Q&A ist das natürlichsprachliche Suchtool von Power BI. Sie geben eine Frage in natürlicher Sprache ein, und Q&A beantwortet die Frage in Form einer Visualisierung. Q&A ist eine Möglichkeit für Benutzer, um ihre eigenen Visualisierungen zu erstellen. Die Visualisierungen, die Sie mit Q&A erstellten, lassen sich jedoch nicht speichern. Wenn Sie aber etwas bestimmtes aus den Daten erfahren möchten, und der Designer hat es nicht in einen Bericht oder ein Dashboard aufgenommen, ist Q&A eine hervorragende Option. Weitere Informationen zu Q&A finden Sie unter [Q&A für Benutzer](end-user-q-and-a.md).
 
 
 
-|Column1  |In einem Dashboard  |In einem Bericht  | In Q&A
+|Aufgabe  |In einem Dashboard  |In einem Bericht  | In Q&A
 |---------|---------|---------|--------|
 |[Fügen Sie einer Visualisierung für sich selbst Kommentare hinzu, oder beginnen Sie eine Unterhaltung mit Kollegen über die Visualisierung](end-user-comment.md).     |  Ja       |   Nein      |  Nein  |
 |[Öffnen und erkunden Sie den Bericht, in dem die Visualisierung erstellt wurde](end-user-tiles.md).     |    Ja     |   NV      |  NV |

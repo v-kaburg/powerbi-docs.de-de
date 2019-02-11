@@ -4,18 +4,17 @@ description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren 
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280422"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762419"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Multi-Geo-Unterstützung für Power BI Embedded (Vorschau)
 
@@ -56,7 +55,9 @@ Sie können den Standort einer Power BI Embedded-Ressource nicht mehr ändern, n
 Um Ihren Power BI-Inhalt in eine andere Region zu verschieben, führen Sie die folgenden Schritte aus:
 
 1. [Erstellen Sie eine neue Kapazität](azure-pbie-create-capacity.md) in einer anderen Region.
+
 2. Weisen Sie alle Arbeitsbereiche der vorhandenen Kapazität der neuen Kapazität zu.
+
 3. Löschen Sie die alte Kapazität, oder halten Sie sie an.
 
 Wichtig: Wenn Sie sich entscheiden, eine Kapazität zu löschen, ohne ihren Inhalt neu zuzuweisen, wird der gesamte Inhalt dieser Kapazität in eine freigegebene Kapazität verschoben – Ihre Heimatregion.
@@ -66,7 +67,9 @@ Wichtig: Wenn Sie sich entscheiden, eine Kapazität zu löschen, ohne ihren Inha
 Um die Verwaltung von Kapazitäten mit Multi-Geo per API zu unterstützen, wurden einige Änderungen an vorhandenen APIs durchgeführt:
 
 1. **[Kapazitäten abrufen](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)**: Die API gibt eine Liste der Kapazitäten zurück, auf die der Benutzer zugreifen kann. Die Antwort enthält ab sofort eine zusätzliche Eigenschaft namens „region“, die den Standort der Kapazität angibt.
-2. **[Zu Kapazität zuweisen](https://docs.microsoft.com/rest/api/power-bi/capacities)**: Die API ermöglicht das Zuweisen eines vorhandenen Arbeitsbereichs zu einer Kapazität. Dieser Vorgang ermöglicht es Ihnen nicht, Arbeitsbereiche an eine Kapazität außerhalb Ihrer Heimatregion zuzuweisen oder Arbeitsbereiche zwischen Kapazitäten in unterschiedlichen Regionen zu verschieben. Um diesen Vorgang auszuführen, benötigt der Benutzer weiterhin Administratorberechtigungen für den Arbeitsbereich sowie Administrator- oder Zuweisungsberechtigungen für die Zielkapazität.
+
+2. **[Zu Kapazität zuweisen](https://docs.microsoft.com/rest/api/power-bi/capacities)**: Die API ermöglicht das Zuweisen eines vorhandenen Arbeitsbereichs zu einer Kapazität. Dieser Vorgang ermöglicht es Ihnen nicht, Arbeitsbereiche an eine Kapazität außerhalb Ihrer Heimatregion zuzuweisen oder Arbeitsbereiche zwischen Kapazitäten in unterschiedlichen Regionen zu verschieben. Um diesen Vorgang auszuführen, benötigt der Benutzer oder [Dienstprinzipal](embed-service-principal.md) weiterhin Administratorberechtigungen für den Arbeitsbereich sowie Administrator- oder Zuweisungsberechtigungen für die Zielkapazität.
+
 3. **[Azure Resource Manager-API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**: Alle Azure Resource Manager-API-Vorgänge, *Erstellen* und *Löschen* eingeschlossen, unterstützen Multi-Geo.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen

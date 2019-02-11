@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284171"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762695"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
+# <a name="row-level-security-with-power-bi-embedded"></a>Sicherheit auf Zeilenebene mit Power BI Embedded
 
 Mit der **Sicherheit auf Zeilenebene (Row-Level Security, RLS)** kann der Benutzerzugriff auf Daten in Dashboards, Kacheln, Berichten und Datasets beschränkt werden. Verschiedene Benutzer können mit den gleichen Artefakten arbeiten und dabei unterschiedliche Daten sehen. Beim Einbetten wird RLS unterstützt.
 
@@ -307,6 +307,18 @@ Der im Identitätsblob angegebene Wert muss ein gültiges Zugriffstoken für Azu
    > Um ein Zugriffstoken für Azure SQL erstellen zu können, muss die Anwendung die delegierte Berechtigung für den **Zugriff auf Azure SQL-Datenbank und Data Warehouse** für die **Azure SQL-Datenbank**-API in der AAD-App-Registrierungskonfiguration im Azure-Portal besitzen.
 
    ![App-Registrierung](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Lokales Datengateway mit Dienstprinzipal (Vorschau)
+
+Benutzer, die RLS mithilfe einer lokalen Datenquelle mit Liveverbindung von SQL Server Analysis Services (SSAS) konfigurieren, können Sie die neue [Dienstprinzipalfunktion](embed-service-principal.md) zunutze machen, um Benutzer und deren Zugriff auf Daten in SSAS bei der Integration in **Power BI Embedded** zu verwalten.
+
+Mit [Power BI-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/) können Sie die effektive Identität für lokale SSAS-Liveverbindungen für ein Einbettungstoken mithilfe eines [Dienstprinzipalobjekts](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) festlegen.
+
+Bisher musste der Masterbenutzer, der das Einbettungstoken generiert, ein Gatewayadministrator sein, um die effektive Identität für lokale SSAS-Liveverbindungen festzulegen. Der Gatewayadministrator kann Benutzern nun dedizierte Berechtigungen für bestimmte Datenquellen zuweisen, wodurch der Benutzer die effektive Identität beim Generieren des Einbettungstoken überschreiben kann. Dieses neue Feature ermöglicht das Einbetten mit einem Dienstprinzipal für SSAS-Liveverbindungen.
+
+Der Gatewayadministrator verwendet die [REST-API „Add Datasource User“](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) (Datenquellenbenutzer hinzufügen), um dem Dienstprinzipal die Berechtigung *ReadOverrideEffectiveIdentity* für Power BI Embedded zu gewähren.
+
+Sie können diese Berechtigung nicht über das Verwaltungsportal festlegen. Diese Berechtigung kann nur mit der API festgelegt werden. Im Verwaltungsportal werden Benutzer und Dienstprinzipalnamen mit diesen Berechtigungen gekennzeichnet.
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 

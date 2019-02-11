@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234637"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794856"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 In Berichten, Dashboards, Apps und Q&A finden Sie Visualisierungen. Einige der Visualisierungstypen sind in Power BI enthalten, und einige andere sind *benutzerdefinierte Visuals*. Benutzerdefinierte Visuals werden außerhalb von Power BI erstellt, damit *Berichts-Designer* sie zu Power BI-Berichten, -Dashboards und -Apps hinzufügen können. 
@@ -26,7 +26,7 @@ Dieser Artikel bietet eine Übersicht über die in Power BI enthaltenen Visualis
 > Erkunden Sie den Abschnitt **Power BI-Visuals** von [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), um mehr über benutzerdefinierte Visuals zu erfahren. Zu jedem Visual finden Sie eine Beschreibung, Informationen zum Ersteller und Screenshots oder ein Video. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Liste der in Power BI verfügbaren Visualisierungen
-Alle hier genannten Visualisierungen finden Sie in Power BI-Apps, -Dashboards und -Berichten, und Sie können sie [in Q&A angeben](#gna).
+Alle hier genannten Visualisierungen finden Sie in Power BI-Apps, -Dashboards und -Berichten, und Sie können sie [in Q&A angeben](#qna). Informationen zum Interagieren mit Visualisierungen finden Sie unter [Interagieren mit Visualisierungen in Berichten, Dashboards und Apps](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Flächendiagramme: einfach (überlappend) und gestapelt
 ![area chart](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Bei der Eingabe von Abfragen in natürlicher Sprache über den Bereich für Frag
 ![Q&A-Sitzung](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Visualisierungen in Power BI-Berichten](end-user-visualizations.md)    
+[Interagieren mit Visualisierungen in Berichten, Dashboards und Apps](end-user-visualizations.md)    
 [„The right visual reference“ von sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
