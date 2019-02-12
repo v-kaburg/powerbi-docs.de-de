@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430371"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888231"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -287,16 +287,6 @@ Benutzer in der Organisation können Dashboards mit Klassifizierungen markieren,
 ### <a name="embed-content-in-apps"></a>Inhalt in Apps einbetten
 
 Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-Anwendungen (Software as a Service) einbetten. Ist diese Einstellung deaktiviert, können Benutzer die REST-APIs nicht dazu verwenden, um Power BI-Inhalt in ihre Anwendungen einzubetten. [Weitere Informationen](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>Arbeitsbereiche und Importeinstellungen
-
-### <a name="author-content-in-workspaces"></a>Erstellen von Inhalten in Arbeitsbereichen
-
-Benutzer in der Organisation können auf Arbeitsbereiche zugreifen, um Daten zu verknüpfen und Inhalte zu erstellen. [Weitere Informationen](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Importieren von Daten in Power BI
-
-Benutzer in der Organisation können Daten in den Dienst importieren, z.B. durch Veröffentlichen von Berichten aus Power BI Desktop, durch Hochladen von Power BI-Berichtdateien und durch Verknüpfen von Daten direkt aus dem Dienst. [Weitere Informationen](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>Datafloweinstellungen (Vorschau)
 
