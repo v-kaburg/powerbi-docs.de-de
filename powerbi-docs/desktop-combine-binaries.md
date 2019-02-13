@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab71c717bd20c3c66c3c0f12ce5ca5dabe7c47ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bbb24552002711f3ce43654f7a0b5f307dda2a06
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286908"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215663"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Kombinieren von (binären) Dateien in Power BI Desktop
 Ein sehr effizienter Ansatz zum Importieren von Daten in **Power BI Desktop** ist das Kombinieren mehrerer Dateien, die das gleiche Schema aufweisen, in einer einzelnen logischen Tabelle. Mit der **Power BI Desktop**-Version vom November 2016 (und Folgeversionen) wurde dieser beliebte Ansatz vereinfacht und erweitert, wie in diesem Artikel beschrieben.

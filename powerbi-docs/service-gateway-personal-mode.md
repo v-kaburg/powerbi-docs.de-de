@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295745"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216813"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Lokales Datengateway (persönlicher Modus)
 Sie können lokale Datenquellen verwenden und Power BI-Berichte und Dashboards erstellen, indem Sie ein Gateway verwenden. Ein **Gateway** ist eine Software, die den Zugriff auf Daten erleichtert, die in einem privaten, lokalen Netzwerk gespeichert sind. Dann können Sie diese Daten in Onlinediensten wie z.B. **Power BI-Dienst** nutzen. Das **lokale Datengateway (persönlicher Modus)** ist ein kürzlich veröffentlichtes Update für das Power BI-Gateway, das es Benutzern ermöglicht, ein Gateway auf ihrem eigenen Computer zu installieren und auf lokale Daten zuzugreifen.
@@ -86,11 +86,11 @@ Wenn Sie **schnelles Kombinieren** mit dem vorherigen Gateway verwendet haben, m
    ```
 2. Fügen Sie am Ende der Datei den folgenden Text ein:
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. Sobald der Vorgang abgeschlossen ist, wird die Einstellung in ungefähr einer Minute wirksam. Um zu überprüfen, ob es ordnungsgemäß funktioniert, versuchen Sie eine bedarfsgesteuerte Aktualisierung im **Power BI-Dienst**, um zu bestätigen, dass **schnelles Kombinieren** funktioniert.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen

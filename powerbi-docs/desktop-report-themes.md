@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277432"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215733"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 Mit **Berichtsdesigns** können Sie ein Farbdesign für Ihren gesamten Bericht übernehmen (Unternehmensfarben, saisonbedingte Farben oder andere Farbdesigns). Wenn Sie ein **Berichtsdesign** anwenden, verwenden alle Visuals im Bericht die Farben des ausgewählten Designs. Es gibt einige Ausnahmen, die später in diesem Artikel beschrieben werden.
@@ -101,6 +101,7 @@ Um einen Stil auf ein Visual vom Typ **Tabelle** oder **Matrix** anzuwenden, fü
 
 Das ist der Text der Datei *St Patricks Day.json*, mit dem Sie eine eigene JSON-Datei erstellen können:
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Das ist der Text der Datei *St Patricks Day.json*, mit dem Sie eine eigene JSON-
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 Jetzt ist es ganz leicht, eigene Farben (als Hexadezimalcode) einzugeben.
 
@@ -133,7 +135,7 @@ Angenommen, Sie wenden eine benutzerdefinierte Farbpalette (oder eine einzelne F
 
 Sie haben auch die Möglichkeit, die Farbe eines Datenpunkts im Abschnitt „Designfarben“ manuell festzulegen. Die Farben werden *nicht* aktualisiert, wenn Sie ein neues Berichtsdesign anwenden. Wenn Sie Farben auf ihre Standardwerte zurücksetzen möchten, damit sie bei Anwenden eines neuen Berichtsdesigns aktualisiert werden, wählen Sie in der Palette **Designfarben** **Auf Standardwert zurücksetzen** aus.
 
-![Standardwert wiederherstellen](media/desktop-report-themes/report-themes_9.png)
+![Auf Standardwert zurücksetzen](media/desktop-report-themes/report-themes_9.png)
 
 Auf viele **benutzerdefinierte Visuals** lassen sich keine Berichtsdesigns anwenden.
 
@@ -158,6 +160,7 @@ Möchten Sie gleich mit **Berichtdesigns** arbeiten? Hier sind einige vorgeferti
 
 Anstelle eines Downloads stellen wir Ihnen den Code für die JSON-Datei „Valentines Day“ bereit:
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ Anstelle eines Downloads stellen wir Ihnen den Code für die JSON-Datei „Valen
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 Mit **Berichtdesigns** können Sie Berichten in Power BI Desktop eine persönliche Note verleihen, die Corporate Identity vertreten oder Feiertagsgrüße ausrichten. 
 
@@ -280,7 +284,7 @@ In der folgenden Tabelle sind die Werte von *cardName* definiert. Der erste Wert
 | plotAreaShading: Symmetrieschattierung |
 | ratioLine: Verhältnislinie |
 | referenceLine: Bezugslinie |
-| ribbonChart: Schleifen |
+| ribbonChart: Menübänder |
 | rotation: Drehung |
 | rowHeaders: Zeilenüberschriften |
 | selection: Auswahlsteuerelemente |
@@ -303,7 +307,8 @@ In der folgenden Tabelle sind die Werte von *cardName* definiert. Der erste Wert
 ### <a name="properties-within-each-card"></a>Eigenschaften in jeder Karte
 Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ Im folgenden Abschnitt werden die Eigenschaften in jeder Karte definiert.
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>Enumerationen in der JSON-Datei
 Im folgenden Abschnitt werden die Enumerationen definiert, die Sie in der JSON-Datei verwenden können.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ Im folgenden Abschnitt werden die Enumerationen definiert, die Sie in der JSON-D
          ]
        }
     }
+```

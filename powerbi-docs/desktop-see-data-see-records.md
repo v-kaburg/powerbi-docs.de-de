@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 495a33cbb8359a366008b7401988a5f2a24d09ee
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3feed774025c82518126a0ca6e9d2e0ec68ac11e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289017"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215688"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Verwenden von „Daten anzeigen“ und „Datensätze anzeigen“ in Power BI Desktop
 In **Power BI Desktop** können Sie beliebige Visualisierungen genauer betrachten (Drillthrough) und die Textdarstellung der zugrunde liegenden Daten oder einzelner Datensätze der ausgewählten Visuals anzeigen. Diese Features werden auch als *Durchklicken*, *Drillthrough* oder *Drillthrough zu den Details* bezeichnet.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287069"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215698"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Hinzufügen von Bildern, Text, Video und weiteren Elementen zu Ihrem Dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ Fügen oder geben Sie HTML-Inhalte ein.  Power BI fügt diese als Kachel Ihrem D
 ## <a name="tips-for-embedding-web-content"></a>Tipps für das Einbinden von Webinhalten
 * Verwenden Sie für Iframes eine sichere Quelle. Wenn Sie Ihren iframe-Einbindungscode eingeben und eine leere Kachel erhalten, prüfen Sie, ob Sie **http** für die iframe-Quelle verwenden.  Falls ja, ändern Sie die Angabe in **https**.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Bearbeiten Sie die Informationen zu Breite und Höhe. Dieser Einbindungscode bindet ein Video ein und legt den Videoplayer auf 560 x 315 Pixel fest.  Diese Größe wird beim Ändern der Kachelgröße nicht geändert.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ Fügen oder geben Sie HTML-Inhalte ein.  Power BI fügt diese als Kachel Ihrem D
   
   Wenn die Größe des Players entsprechend zur Kachelgröße geändert werden soll, legen Sie Breite und Höhe auf 100 % fest.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Dieser Code bettet einen Tweet ein und behält (separat auf dem Dashboard) Links zum **AFK**-Podcast, zur **@GuyInACubeTwitter-Seite**, zu **Follow**, **#analytics**, **Reply**, **Retweet** und **Like** bei.  Wenn Sie die Kachel selbst auswählen, gelangen Sie zum Podcast auf Twitter.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296568"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223918"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Lokales Datengateway – Problembehandlung
 
@@ -35,11 +35,15 @@ Das Gateway wird als Windows-Dienst ausgeführt und kann daher auf mehrere Arten
 
 * Führen Sie diesen Befehl aus, um den Dienst zu beenden:
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * Führen Sie diesen Befehl aus, um den Dienst zu starten:
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>Konfiguration der Protokolldatei
 
@@ -318,7 +322,7 @@ Sie müssen zwei Konfigurationsdateien ändern, um die Dauer einer Abfrage zu be
 > [!IMPORTANT]
 > Das Aktivieren von EmitQueryTraces kann die Größe des Protokolls erheblich erhöhen, abhängig von der Auslastung des Gateways. Wenn Sie die Protokolle überprüft haben, können Sie EmitQueryTraces auf „FALSE“ festlegen. Es wird nicht empfohlen, diese Einstellung langfristig aktiviert zu lassen.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > Das Aktivieren von TraceVerbosity `5` kann das Protokoll erheblich vergrößern, abhängig von der Auslastung des Gateways. Wenn Sie die Protokolle überprüft haben, sollten Sie TraceVerbosity auf `4` festlegen. Es wird nicht empfohlen, diese Einstellung langfristig aktiviert zu lassen.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ Fehler 1033 tritt auf, sobald Ihre externe ID, die in SAP HANA konfiguriert ist,
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

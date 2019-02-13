@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 68b392f4570d137fabdfe8f10e5b7035babc397b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272625"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215616"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-user-tiles.md) ist das Kopieren aus einem anderen Dashboard. Jede dieser Kacheln stellt (sobald angeklickt) einen Link zurück zum Ort der Erstellung da – entweder im F&A oder einem Bericht. 
@@ -28,7 +28,7 @@ Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-use
 2. Öffnen Sie ein [Dashboard](consumer/end-user-dashboards.md).
 3. Zeigen Sie auf die Kachel, die Sie anheften möchten, und wählen Sie die Auslassungspunkte (...) und dann **Kachel anheften**.  
    
-   ![Menü mit Auslassungspunkten (...)](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
+   ![Das Menü mit Auslassungspunkten (...)](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Heften Sie die Kachel an ein vorhandenes oder neues Dashboard an. 
    
    * **Vorhandenes Dashboard**: Wählen Sie den Namen des Dashboards aus der Dropdownliste aus.

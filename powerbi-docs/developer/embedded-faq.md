@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 54d768e4d2ad1b2eab4559ee5d9db0705fb55542
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762649"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223741"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -79,7 +79,7 @@ Es folgt eine Liste mit einer Auswahl der Unterschiede.
 |  |A-SKU (Power BI Embedded)  |EM-SKU (Power BI Premium)  |P-SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Purchase  |Azure-Portal |Office |Office |
-|Anwendungsfälle | Einbetten von Inhalten in Ihre eigene Anwendung | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br></br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br></br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/)  |
+|Anwendungsfälle | Einbetten von Inhalten in Ihre eigene Anwendung | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br><br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Einbetten von Inhalten in Ihre eigene Anwendung <br><br><br> <li> Einbetten von Inhalten in MS Office-Anwendungen: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (keine mobile App)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Freigeben von Inhalten für Benutzer von Power BI über den [Power BI-Dienst](https://powerbi.microsoft.com/)  |
 |Abrechnung |Stündlich |Monatlich |Monatlich |
 |Vertragsbindung  |Keine Vertragsbindung |Jährlich  |Monatlich/jährlich |
 |Differenzierung |Vollständige Elastizität: vertikale Skalierung, Anhalten/Fortsetzen von Ressourcen im Azure-Portal oder über die API  |Möglichkeit zum Einbetten von Inhalten in SharePoint Online und Microsoft Teams (keine mobile App) |Kombination von Einbettung in Anwendungen und Verwendung des Power BI-Diensts mit der gleichen Kapazität |

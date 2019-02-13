@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762097"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223833"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -161,7 +161,7 @@ Um den Fehler zu ermitteln, führen Sie die Schritte unten aus.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Die Erteilung erfordert eine Administratorberechtigung.
 
-**_Symptome:_**</br>
+**_Symptome:_**<br>
 Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei einer Anwendung anzumelden und seine Einwilligung zu erteilen, erhält er einen der folgenden Fehler:
 
 * ConsentTest benötigt Berechtigung zum Zugriff auf Ressourcen in Ihrer Organisation, die nur ein Administrator gewähren kann. Bitten Sie einen Administrator, Berechtigungen für diese App zu erteilen, bevor Sie sie verwenden.
@@ -171,7 +171,7 @@ Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei ein
 
 Ein Administrator kann sich anmelden und die Einwilligung gewähren.
 
-**_Grundursache:_**</br>
+**_Grundursache:_**<br>
 Das Einwilligen des Benutzers ist für den Mandanten deaktiviert.
 
 **_Es gibt mehrere Lösungen:_**

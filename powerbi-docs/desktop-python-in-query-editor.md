@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283320"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217043"
 ---
 # <a name="using-python-in-query-editor"></a>Verwenden von Python im Abfrage-Editor
 Sie können **Python**, eine häufig von Statistikern, Business Analysten und Datenanalysten verwendete Programmiersprache, im **Abfrage-Editor** von Power BI Desktop verwenden. Dank der Integration von Python in den **Abfrage-Editor** können Sie mithilfe von Python Daten bereinigen, erweiterte Datenstrukturierung und Analysen in Datasets ausführen, einschließlich der Ergänzung fehlender Daten, Prognosen und Clustering, um nur einige der Möglichkeiten zu nennen. **Python** ist eine leistungsfähige Sprache, die im **Abfrage-Editor** zum Erstellen des Datenmodells und Erzeugen von Berichten verwendet werden kann.
@@ -43,10 +43,12 @@ Um die Verwendung von **Python** im **Abfrage-Editor** zu veranschaulichen, wird
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Geben Sie für dieses Beispiel folgenden Skriptcode ein:
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > In der Python-Umgebung muss das Paket *pandas* installiert sein, damit der oben gezeigte Skriptcode ordnungsgemäß ausgeführt wird. Führen Sie zum Installieren des Pakets „pandas“ in der Python-Installation den folgenden Befehl aus: |      > pip install pandas
    > 

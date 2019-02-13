@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430968"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216054"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
 Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
@@ -179,7 +179,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Messbereich |meterRegion |Messbereich |Nein |
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
-| Month | |Month |Nein |
+| Monat | |Monat |Nein |
 | Produkt |product |Produkt |Nein |
 | ProductId |productId | |Ja |
 | Resource Group |resourceGroup |Resource Group |Nein |
