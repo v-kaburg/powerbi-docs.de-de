@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147448"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971715"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Grundlegende Konzepte für Designer im Power BI-Dienst
 
-In diesem Artikel wird davon ausgegangen, dass Sie sich bereits [für den Power BI-Dienst registriert](service-self-service-signup-for-power-bi.md) und [Daten hinzugefügt](service-get-data.md) haben. Wenn Sie noch nicht über Daten verfügen, versuchen Sie, ein [Beispielinhaltspaket für Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs) zu installieren.
+Dieser Artikel soll Ihnen die Orientierung im Power BI-Dienst erleichtern: Was sind die verschiedenen Elemente, wie arbeiten sie zusammen und wie können Sie mit ihnen arbeiten. Sie profitieren mehr davon, wenn Sie sich bereits [für den Power BI-Dienst registriert](service-self-service-signup-for-power-bi.md) und [Daten hinzugefügt](service-get-data.md) haben. Als Entwerfer beginnt Ihr normaler Workflow üblicherweise mit dem Erstellen von Berichten in Power BI Desktop. Anschließend veröffentlichen Sie sie im Power BI-Dienst, wo Sie sie weiter bearbeiten können. Auf der Grundlage Ihrer Berichte erstellen Sie außerdem die Dashboards im Power BI-Dienst. 
+
+Wenn Sie noch nicht über eigene Berichte verfügen, installieren Sie für die Zwecke dieses Artikels ein [Power BI-Beispielinhaltspaket](sample-datasets.md#the-power-bi-samples-as-content-packs).
 
 ![Startbildschirm des Power BI-Diensts in einem Browser](media/service-basic-concepts/power-bi-home-screen.png)
 
-Im Folgenden werden die Elemente aufgeführt, die Sie sehen, wenn Sie den Power BI-Dienst im Browser öffnen:
+Wenn Sie den Power BI-Dienst in einem Browser öffnen, sehen Sie zunächst den Startbildschirm. Vermutlich sind dies die Elemente, die angezeigt werden:
 
 1. Navigationsbereich (linker Navigationsbereich)
 2. Office 365-App-Startfeld
@@ -34,9 +36,9 @@ Im Folgenden werden die Elemente aufgeführt, die Sie sehen, wenn Sie den Power�
 6. Kacheln aus einem bevorzugten Dashboard
 7. Favoriten und häufig verwendete Dashboards und Berichte
 
-Diese Features werden später näher erläutert. Zunächst werden einige Grundkonzepte von Power BI besprochen.
+Die Endbenutzer Ihrer Berichte und Dashboards haben das gleiche Starterlebnis im Power BI-Dienst in einem Browser.
 
-Sie können sich auch erst dieses Video ansehen und anschließend den Rest dieses Artikels lesen.  In diesem Video gibt Will einen Überblick über den Power BI-Dienst und erklärt die grundlegenden Konzepte.
+Diese Features werden später näher erläutert. Zunächst werden einige Grundkonzepte von Power BI besprochen. Alternativ können Sie sich zuerst dieses Video ansehen.  In diesem Video gibt Will einen Überblick über den Power BI-Dienst und erklärt die grundlegenden Konzepte.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -44,14 +46,13 @@ Sie können sich auch erst dieses Video ansehen und anschließend den Rest diese
 ## <a name="power-bi-concepts"></a>Power BI-Konzepte
 Die vier wichtigsten Grundkomponenten von Power BI sind: **_Dashboards_**, **_Berichte_**, **_Arbeitsmappen_** und **_Datasets_**. Diese sind in **_Arbeitsbereichen_** angeordnet. Zunächst sollen Arbeitsbereiche erläutert werden, bevor näher auf die vier Grundkomponenten eingegangen wird.
 
-## <a name="workspaces"></a>Arbeitsbereiche
-Arbeitsbereiche sind Container für Dashboards, Berichte, Arbeitsmappen und Datasets in Power BI. Es gibt zwei Typen von Arbeitsbereichen: *Mein Arbeitsbereich* und *App-Arbeitsbereiche*. Was genau ist eine *App*? Eine Power BI-*App* ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für Ihre Organisation bereitzustellen. Apps sind interaktiv, können jedoch nicht bearbeitet werden.
+## <a name="workspaces"></a>Workspaces
+Arbeitsbereiche sind Container für Dashboards, Berichte, Arbeitsmappen und Datasets in Power BI. Es gibt zwei Typen von Arbeitsbereichen: *Mein Arbeitsbereich* und *App-Arbeitsbereiche*. Was genau ist eine *App*? Eine Power BI-*App* ist eine Sammlung von Dashboards und Berichten, die erstellt wurden, um Schlüsselmetriken für die Power BI-Endbenutzer Ihrer Organisation bereitzustellen. Apps sind interaktiv, können von Endbenutzern aber nicht bearbeitet werden.
 
 - *Mein Arbeitsbereich* ist der persönliche Arbeitsbereich jedes Power BI-Kunden, in dem Sie Ihre eigenen Inhalte bearbeiten. Nur Sie haben Zugriff auf Ihren „Mein Arbeitsbereich“. Sie können Dashboards und Berichte von Ihrem Arbeitsbereich aus freigeben. Wenn Sie in Dashboards und Berichte mit anderen Personen zusammenarbeiten oder eine App erstellen möchten, sollten Sie einen App-Arbeitsbereich verwenden.      
 -  *App-Arbeitsbereiche* werden für die Zusammenarbeit und die Freigabe von Inhalten für Kollegen verwendet. Darüber sind hinaus werden hier Apps für Ihre Organisation erstellt, veröffentlicht und verwaltet. Betrachten Sie sie als eine Art Bereitstellungsraum und Container für Ihre Inhalte, die eine Power BI-App bilden. Sie können Ihren App-Arbeitsbereichen Kollegen hinzufügen und gemeinsam an Dashboards, Berichten, Arbeitsmappen und Datasets arbeiten. Alle Mitglieder des App-Arbeitsbereichs benötigen Power BI Pro-Lizenzen, für App-Anwender (Kollegen, die Zugriff auf die Apps haben) sind Pro-Lizenzen jedoch nicht zwingend erforderlich.  
 
-Weitere Informationen finden Sie im Abschnitt **Freigeben Ihrer Arbeit** des Inhaltsverzeichnisses ab dem Thema [Wie kann ich Dashboards und Berichte freigeben?](service-how-to-collaborate-distribute-dashboards-reports.md)
-
+Um mehr zu erfahren, beginnen Sie mit [Wege zum Teilen Ihrer Arbeit mit Dashboards](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Nun zu den Grundkomponenten von Power BI. Sie können keine Dashboards oder Berichte ohne Daten erstellen (es können zwar leere Dashboards und Berichte verwendet werden, diese wären jedoch nicht nützlich). Beginnen wir also mit **Datasets**.
 
@@ -72,7 +73,7 @@ Im folgenden Beispiel ist die App „Vertrieb und Marketing“ ausgewählt, und 
 
   ![Diagramm der Datasets](media/service-basic-concepts/drawing2.png)
 
-Wählen Sie **Daten abrufen** (am unteren Rand der linken Navigationsleiste) oder wählen Sie **+ Erstellen > Datasets** (in der rechten oberen Ecke) aus, um die [Verbindung mit einem Dataset herzustellen oder es zu importieren](service-get-data.md). Befolgen Sie die Anweisungen zum Herstellen einer Verbindung mit der jeweiligen Quelle bzw. zum Importieren, und fügen Sie das Dataset dem aktiven Arbeitsbereich hinzu. Neue Datasets werden mit einem gelben Sternchen markiert. Das zugrunde liegende Dataset wird durch Ihre Arbeit in Power BI nicht verändert.
+Wählen Sie am unteren Rand der linken Navigationsleiste **Daten abrufen** aus, um die [Verbindung mit einem Dataset herzustellen oder es zu importieren](service-get-data.md). Befolgen Sie die Anweisungen zum Herstellen einer Verbindung mit der jeweiligen Quelle bzw. zum Importieren, und fügen Sie das Dataset dem aktiven Arbeitsbereich hinzu. Neue Datasets werden mit einem gelben Sternchen markiert. Das zugrunde liegende Dataset wird durch Ihre Arbeit in Power BI nicht verändert.
 
 Wenn Sie [zu einem **_App Arbeitsbereich_**](service-collaborate-power-bi-workspace.md) gehören, sind Datasets, die von einem Arbeitsbereichsmitglied hinzugefügt wurden, für die anderen Arbeitsbereichsmitglieder verfügbar.
 

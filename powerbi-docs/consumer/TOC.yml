@@ -17,7 +17,7 @@ items:
       href: end-user-reading-view.md
     - name: Erstmaliges Anmelden
       href: end-user-sign-in.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Erstellen einer Dashboard-Warnung
       href: end-user-alerts.md
@@ -83,8 +83,10 @@ items:
         href: end-user-insights.md
     - name: Daten abrufen
       items:
-      - name: Installieren und Verwenden von Apps
+      - name: Apps in Power BI
         href: end-user-apps.md
+      - name: Installieren und Verwenden von Apps
+        href: end-user-app-view.md
       - name: Verbinden mit Diensten
         href: end-user-connect-to-services.md
     - name: Fragen an Ihre Daten stellen
@@ -111,7 +113,7 @@ items:
     items:
     - name: Erkunden von Dashboards und Berichten
       href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: Tutorials
+  - name: Lernprogramme
     items:
     - name: Stellen von Fragen in mobilen iOS-Apps
       href: mobile/tutorial-mobile-apps-ios-qna.md
@@ -137,7 +139,7 @@ items:
         href: mobile/mobile-apps-favorites.md
       - name: Festlegen von Datenwarnungen in den mobilen Power BI-Apps
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: Empfangen von Benachrichtigungen in den mobilen Power BI-Apps
+      - name: Abrufen von Benachrichtigungen in den mobilen Power BI-Apps
         href: mobile/mobile-apps-notification-center.md
       - name: Erstellen eines Deep-Links zu einer bestimmten Stelle
         href: mobile/mobile-apps-deep-link-specific-location.md
@@ -147,7 +149,7 @@ items:
         href: mobile/mobile-apps-view-dashboard.md
       - name: Berichte in mobilen Apps
         href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: Herstellen einer Reporting Services-Verbindung mit OAuth
+      - name: Herstellen einer Verbindung mit Reporting Services mithilfe von OAuth
         href: mobile/mobile-oauth-ssrs.md
     - name: Android-Geräte
       items:
@@ -193,9 +195,9 @@ items:
     items:
     - name: Unterstützte Sprachen der mobilen Apps
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086561"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248974"

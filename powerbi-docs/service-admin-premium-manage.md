@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 02/07/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 2a38d53a121f0a58c18f627370bf81413cf36982
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794232"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888208"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded
 
@@ -25,7 +25,7 @@ Hier erfahren Sie, wie Sie Power BI Premium- und Power BI Embedded-Kapazitäten 
 
 ## <a name="what-is-capacity"></a>Was ist Kapazität?
 
-*Kapazität* ist der Kern von Power BI Premium und Power BI Embedded. Sie bezeichnet die Gruppe von Ressourcen, die für die ausschließliche Verwendung durch Ihre Organisation reserviert ist. Wenn Sie über dedizierte Kapazität verfügen, können Sie Dashboards, Berichte und Datasets für Benutzer in Ihrer Organisation veröffentlichen, ohne separate Lizenzen für diese erwerben zu müssen. Außerdem bietet sie eine zuverlässige, beständige Leistung für die in der Kapazität gehosteten Inhalte. Weitere Informationen finden Sie unter [What is Power BI Premium? (Was ist Power BI Premium?)](service-premium.md).
+*Kapazität* ist der Kern von Power BI Premium und Power BI Embedded. Sie stellt eine Sammlung von Ressourcen dar, die exklusiv für die Nutzung durch Ihre Organisation reserviert sind. Wenn Sie über dedizierte Kapazität verfügen, können Sie Dashboards, Berichte und Datasets für Benutzer in Ihrer Organisation veröffentlichen, ohne separate Lizenzen für diese erwerben zu müssen. Außerdem bietet sie eine zuverlässige, beständige Leistung für die in der Kapazität gehosteten Inhalte. Weitere Informationen finden Sie unter [What is Power BI Premium? (Was ist Power BI Premium?)](service-premium.md).
 
 ### <a name="capacity-admins"></a>Kapazitätsadministratoren
 

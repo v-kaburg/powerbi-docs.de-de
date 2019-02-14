@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763065"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971669"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
 
@@ -108,9 +108,6 @@ Im Gegensatz zur traditionellen Verwendung eines Hauptkontos müssen für die Ve
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > AAD-Sicherheitsgruppen können nur von einem globalen AAD-Administrator erstellt werden.
-
 3. Als Power BI-Administrator müssen Sie Dienstprinzipale in den **Entwicklereinstellungen** im Power BI-Verwaltungsportal aktivieren. Fügen Sie die Sicherheitsgruppe, die Sie erstellt haben, dem Bereich **Sicherheitsgruppen angeben** in den **Entwicklereinstellungen** hinzu.
 
    > [!Important]
@@ -173,6 +170,7 @@ Unten sehen Sie ein Beispielskript, mit dem Sie die Objekt-ID des Dienstprinzipa
 * Power BI-Administratorberechtigungen sind erforderlich, um Dienstprinzipale in den Entwicklereinstellungen im Power BI-Verwaltungsportal aktivieren zu können.
 * Sie können ein lokales Datengateway über den Dienstprinzipal weder installieren noch verwalten.
 * [Für Ihre Organisation eingebettete Anwendungen](embed-sample-for-your-organization.md) können Dienstprinzipale nicht verwenden.
+* Die Verwaltung von [Datenflüssen](../service-dataflows-overview.md) wird nicht unterstützt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
