@@ -43,7 +43,7 @@ Es folgt eine Liste der vollqualifizierten Domänennamen, die vom Gateway verwen
 
 Sie können erzwingen, dass das Gateway zur Kommunikation mit Azure Service Bus anstelle von TCP das HTTPS-Protokoll verwendet. Dies kann allerdings die Leistung beeinträchtigen. Ändern Sie zu diesem Zweck die Datei *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, indem Sie den Wert von `AutoDetect` in `Https` ändern, wie im Codeausschnitt direkt nach diesem Abschnitt gezeigt. Diese Datei befindet sich (standardmäßig) unter *C:\Programme\Lokales Datengateway*.
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
