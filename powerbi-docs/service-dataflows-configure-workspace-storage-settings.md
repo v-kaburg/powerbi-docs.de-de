@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291945"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086423"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
 
 Mithilfe von Power BI und Dataflows können Sie die Dataflowdefinitionsdatei eines Arbeitsbereichs sowie dessen Datendateien in Ihrem Azure Data Lake Storage Gen2-Konto speichern. Administratoren von Arbeitsbereichen können Power BI entsprechend konfigurieren. In diesem Artikel erhalten Sie die dafür notwendigen Informationen. 
 
-Bevor Sie den Dataflowspeicherort eines Arbeitsbereichs konfigurieren können, muss der globale Administrator Ihres Unternehmens das Speicherkonto Ihrer Organisation mit Power BI verbinden und die Speicherzuweisungsberechtigungen für dieses Speicherkonto aktivieren. * [Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview) (Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion))](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+Bevor Sie den Dataflowspeicherort eines Arbeitsbereichs konfigurieren können, muss der globale Administrator Ihres Unternehmens das Speicherkonto Ihrer Organisation mit Power BI verbinden und die Speicherzuweisungsberechtigungen für dieses Speicherkonto aktivieren. *[Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 Es gibt zwei Möglichkeiten, die Einstellungen für den Dataflowspeicher Ihres Arbeitsbereichs zu konfigurieren: 
 
