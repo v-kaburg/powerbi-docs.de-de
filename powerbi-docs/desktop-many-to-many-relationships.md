@@ -1,53 +1,43 @@
 ---
-title: m:n-Beziehungen in Power BI Desktop (Vorschauversion)
-description: Verwendung von m:n-Beziehungen in Power BI Desktop
+title: m:n-Beziehungen in Power BI Desktop
+description: Verwenden von Beziehungen mit einer m:n-Kardinalität in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291071"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225958"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>m:n-Beziehungen in Power BI Desktop (Vorschauversion)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Beziehungen mit einer m:n-Kardinalität in Power BI Desktop
 
-Mit dem Feature für *m:n-Beziehungen* in Power BI Desktop können Sie Tabellen verknüpfen, die die Kardinalität *m:n* verwenden. Sie können einfacher und intuitiver Datenmodelle erstellen, die zwei oder mehr Datenquellen enthalten können. Das Feature *m:n-Beziehungen* ist Teil der umfangreicheren Funktionen des Features *Zusammengesetzte Modelle* in Power BI Desktop.
+Mit dem Feature für *Beziehungen mit m:n-Kardinalität* in Power BI Desktop können Sie Tabellen verknüpfen, die die Kardinalität *m:n* verwenden. Sie können einfacher und intuitiver Datenmodelle erstellen, die zwei oder mehr Datenquellen enthalten können. Das Feature für *Beziehungen mit m:n-Kardinalität* ist Teil der umfangreicheren Funktionen des Features *Zusammengesetzte Modelle* in Power BI Desktop.
 
 ![Eine m:n-Beziehung im Bereich „Beziehung bearbeiten“](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-Die Funktion *m:n-Beziehungen* in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
+Die Funktion für *Beziehungen mit m:n-Kardinalität* in Power BI Desktop ist eine von drei miteinander in Beziehung stehenden Features:
 
 * **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
 
-* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
+* **Beziehungen mit einer m:n-Kardinalität:** Mithilfe *zusammengesetzter Modelle* können Sie *Beziehungen mit einer m:n-Kardinalität* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
 
 * **Speichermodus**: Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Weitere Informationen finden Sie im Artikel zum [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md).
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>Aktivieren des Vorschaufeatures *m: n-Beziehungen*
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>Was durch *Beziehungen mit einer m:n-Kardinalität* gelöst wird
 
-Das Feature *m:n-Beziehungen* muss in Power BI Desktop aktiviert sein. Um zusammengesetzte Modelle zu aktivieren, klicken Sie auf **Datei** > **Optionen und Einstellungen** > **Optionen** > **Vorschaufeatures**, und aktivieren Sie anschließend das Kontrollkästchen **Zusammengesetzte Modelle**.
+Bevor das Feature für *Beziehungen mit einer m:n-Kardinalität* verfügbar war, wurde die Beziehung zwischen zwei Tabellen in Power BI definiert. Mindestens eine der Tabellenspalten, die an der Beziehung beteiligt war, musste eindeutige Werte enthalten. Häufig hat jedoch keine Spalte eindeutige Werte enthalten. 
 
-![Der Bereich „Vorschaufeatures“](media/desktop-composite-models/composite-models_02.png)
+Beispielsweise enthielten zwei Tabellen eine Spalte namens *Country*, die Werte von *Country* waren jedoch in keiner der beiden Tabellen eindeutig. Solche Tabellen konnten nur über Umwege verknüpft werden. Ein möglicher Umweg besteht darin, zusätzliche Tabellen mit den erforderlichen eindeutigen Werten zum Modell hinzuzufügen. Mit dem Feature für *Beziehungen mit einer m:n-Kardinalität* können Sie solche Tabellen direkt verknüpfen, indem Sie eine Beziehung mit einer Kardinalität von **m:n** verwenden.  
 
-Starten Sie Power BI Desktop neu, um das Feature zu aktivieren.
-
-![Fenster „Das Feature erfordert einen Neustart“](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>Verbesserung durch *m:n-Beziehungen*
-
-Vor dem Feature für *m:n-Beziehungen* wurde die Beziehung zwischen zwei Tabellen in Power BI definiert. Mindestens eine der Tabellenspalten, die an der Beziehung beteiligt war, musste eindeutige Werte enthalten. Häufig hat jedoch keine Spalte eindeutige Werte enthalten. 
-
-Beispielsweise enthielten zwei Tabellen eine Spalte namens *Country*, die Werte von *Country* waren jedoch in keiner der beiden Tabellen eindeutig. Solche Tabellen konnten nur über Umwege verknüpft werden. Ein möglicher Umweg besteht darin, zusätzliche Tabellen mit den erforderlichen eindeutigen Werten zum Modell hinzuzufügen. Mit dem Feature für *m:n-Beziehungen* können Sie solche Tabellen direkt verknüpfen, indem Sie eine Beziehung mit einer Kardinalität von **m:n** verwenden.  
-
-## <a name="use-many-to-many-relationships"></a>Verwenden von *m:n-Beziehungen*.
+## <a name="use-relationships-with-a-many-many-cardinality"></a>Verwenden von *Beziehungen mit einer m:n-Kardinalität*
 
 Wenn Sie eine Beziehung zwischen zwei Tabellen in Power BI definieren, müssen Sie die Kardinalität der Beziehung definieren. Die Beziehung zwischen *ProductSales* und *Product* mithilfe der Spalten *ProductSales[ProductCode]* und *Product[ProductCode]* würde als *n:1* definiert werden. Die Beziehung auf diese Weise wird definiert, weil es viele Verkäufe für jedes Produkt gibt und die Spalte *(ProductCode)* in der Tabelle *Product* eindeutig ist. Wenn Sie die Kardinalität einer Beziehung als *n:1*, *1:n* oder *1:1* definieren, überprüft Power BI diese Angabe, um sicherzustellen, dass die ausgewählte Kardinalität den tatsächlichen Daten entspricht.
 
@@ -117,14 +107,11 @@ Wenn wir die neue Tabelle *Sales* als Kombination aller *State*-Spalten in diese
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Sie sehen, dass *TX* (mit Daten für *Sales*, aber mit unbekannten Daten für *Population*) und *New York* (mit bekannten Daten für *Population*, aber ohne Daten für *Sales*) enthalten wäre. Diese Umgehung ist nicht ideal und führt zu vielen Problemen. Mit der Erstellung von m:n-Beziehungen werden die daraus resultierenden Probleme wie im folgenden Abschnitt beschrieben behoben.
+Sie sehen, dass *TX* (mit Daten für *Sales*, aber mit unbekannten Daten für *Population*) und *New York* (mit bekannten Daten für *Population*, aber ohne Daten für *Sales*) enthalten wäre. Diese Umgehung ist nicht ideal und führt zu vielen Problemen. Mit der Erstellung von Beziehungen mit einer m:n-Kardinalität werden die daraus resultierenden Probleme wie im folgenden Abschnitt beschrieben behoben.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Verwendung von *m:n-Beziehungen* anstelle der Problemumgehung
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>Verwenden von *Beziehungen mit einer m:n-Kardinalität* anstelle einer Problemumgehung
 
 Seit der Power BI Desktop-Version vom Juli 2018 können Sie Tabellen direkt miteinander verknüpfen, ohne auf ähnliche Problemumgehungen zurückgreifen zu müssen. Die Kardinalität für Beziehungen kann nun auf *m:n* festgelegt werden. Diese Einstellung gibt an, dass keine der Tabellen eindeutige Werte enthält. Bei solchen Beziehungen können Sie nach wie vor steuern, welche Tabelle die jeweils andere Tabelle filtert, oder die bidirektionale Filterung anwenden, bei der beide Tabellen sich gegenseitig filtern.  
-
-> [!NOTE]
-> Das Feature für *m:n-Beziehungen* befindet sich in der Vorschauversion. Während der Vorschauphase können Sie keine Modelle im Power BI-Dienst veröffentlichen, bei denen *m:n-Beziehungen* verwendet werden. 
 
 In Power BI Desktop wird die Kardinalität standardmäßig auf *m:n* festgelegt, wenn festgestellt wird, dass keine der Tabellen eindeutige Werte für die Spalten in der Beziehung enthält. In solchen Fällen wird eine Warnung angezeigt, um zu bestätigen, dass diese Beziehungseinstellung Ihren Absichten entspricht und keine unbeabsichtigte Auswirkung eines Datenproblems darstellt. 
 
@@ -136,7 +123,7 @@ Die resultierende **Beziehungsansicht** würde dann die direkte m:n-Beziehung zw
 
 ![Tabellenvisual](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Zwischen *m:n*-Beziehungen und den geläufigeren *n:1*-Beziehungen bestehen folgende wesentliche Unterschiede:
+Zwischen *Beziehungen mit einer m:n-Kardinalität* und den geläufigeren *n:1*-Beziehungen bestehen folgende wesentliche Unterschiede:
 
 * Die angezeigten Werte enthalten keine leere Zeile, die nicht übereinstimmende Zeilen in der anderen Tabelle abdeckt. Die Werte decken ebenfalls nicht die Zeilen ab, bei denen die Spalte, die in der anderen Tabelle in der Beziehung verwendet wurde, den Wert NULL aufweist.
 * Die Funktion `RELATED()` kann nicht verwendet werden, da mehr als eine Zeile verknüpft sein könnte.
@@ -153,7 +140,7 @@ Beachten Sie diese Unterschiede, und stellen Sie sicher, dass die Berechnungen, 
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
-Bei diesem Release für *m:n-Beziehungen* und zusammengesetzte Modelle gibt es einige Einschränkungen.
+Bei diesem Release für *Beziehungen mit einer m:n-Kardinalität* und zusammengesetzte Modelle gibt es einige Einschränkungen.
 
 Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit zusammengesetzten Modellen verwendet werden:
 
@@ -165,7 +152,7 @@ Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit zusamme
 
 Wenn Sie mithilfe von DirectQuery eine Verbindung mit diesen mehrdimensionalen Quellen herstellen, können Sie keine Verbindung mit einer anderen DirectQuery-Quelle herstellen oder diese mit importierten Daten kombinieren.
 
-Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach wie vor, wenn Sie *m:n-Beziehungen* verwenden. Viele dieser Einschränkungen gelten jetzt abhängig vom Speichermodus der Tabelle für eine einzelne Tabelle. Beispielsweise kann eine berechnete Spalte in einer importierten Tabelle auf andere Tabellen verweisen, wohingegen eine berechnete Spalte in einer DirectQuery-Tabelle nach wie vor nur auf Spalten in derselben Tabelle verweisen kann. Es gelten weitere Einschränkungen für das Modell als Ganzes, wenn eine der Tabellen den Modus „DirectQuery“ aufweist. Die Features „QuickInsights“ und „Q&A“ sind nicht für Modelle verfügbar, wenn eine der Tabellen den Speichermodus „DirectQuery“ aufweist. 
+Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach wie vor, wenn Sie *Beziehungen mit einer m:n-Kardinalität* verwenden. Viele dieser Einschränkungen gelten jetzt abhängig vom Speichermodus der Tabelle für eine einzelne Tabelle. Beispielsweise kann eine berechnete Spalte in einer importierten Tabelle auf andere Tabellen verweisen, wohingegen eine berechnete Spalte in einer DirectQuery-Tabelle nach wie vor nur auf Spalten in derselben Tabelle verweisen kann. Es gelten weitere Einschränkungen für das Modell als Ganzes, wenn eine der Tabellen den Modus „DirectQuery“ aufweist. Die Features „QuickInsights“ und „Q&A“ sind nicht für Modelle verfügbar, wenn eine der Tabellen den Speichermodus „DirectQuery“ aufweist. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430416"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216353"
 ---
 # <a name="certified-custom-visuals"></a>Zertifizierte benutzerdefinierte Visuals
 
@@ -45,7 +45,7 @@ Stellen Sie sicher, dass Ihr benutzerdefiniertes Visual folgenden Anforderungen 
 
 * Es muss von Microsoft AppSource genehmigt sein. Ihr benutzerdefiniertes Visual sollte sich in unserem [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) befinden.
 * Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben.
-* Das Coderepository muss dem Power BI-Team zur Überprüfung zur Verfügung stehen (z.B. Quellcode – JavaScriptS oder TypeScript – in einem uns verfügbaren Format in GitHub, das vom Menschen lesbar ist).
+* Das Coderepository muss dem Power BI-Team zur Überprüfung zur Verfügung stehen (z.B. Quellcode – JavaScript oder TypeScript – in einem uns verfügbaren Format in GitHub, das vom Menschen lesbar ist).
 
     >[!Note]
     > Sie müssen Ihren Code nicht öffentlich in GitHub freigeben.

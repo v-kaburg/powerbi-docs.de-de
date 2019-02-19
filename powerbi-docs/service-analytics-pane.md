@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 842d29978fa6a4a714b42b1665112661e0704357
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293739"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223695"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Erstellen dynamischer Bezugslinien für Visuals im Power BI-Dienst
 
@@ -50,11 +50,11 @@ Um die für eine Visualisierung verfügbaren dynamischen Bezugslinien anzuzeigen
 
 3. Wählen Sie zum Erstellen einer neuen Zeile **+ Hinzufügen** aus, und legen Sie das Measure fest, das zum Erstellen der Linie verwendet wird.  Das Dropdownmenü **Measure** enthält automatisch die verfügbaren Daten aus der ausgewählten Visualisierung. Wir verwenden **Open store count**.
 
-5. Für jede Linie steht eine Reihe an Optionen zur Verfügung, z.B. Farbe, Transparenz, Stil und Position (bezogen auf die Datenelemente der Visualisierung). Wenn eine Bezeichnung für die Linie angezeigt werden soll, fügen Sie einen Titel hinzu, und legen Sie den Schieberegler **Datenbeschriftung** auf **Ein** fest.  In diesem Fall geben wir den Titel *Avg # Open Stores* (Durchschnittsanzahl geöffnete Stores) ein und passen einige weitere Optionen an (siehe unten).
+5. Für jede Linie steht Ihnen eine Reihe an Optionen zur Verfügung, z.B. Farbe, Transparenz, Stil und Position (bezogen auf die Datenelemente der Visuals). Wenn eine Bezeichnung für die Linie angezeigt werden soll, fügen Sie einen Titel hinzu, und legen Sie den Schieberegler **Datenbeschriftung** auf **Ein** fest.  In diesem Fall geben wir den Titel *Avg # Open Stores* (Durchschnittsanzahl geöffnete Stores) ein und passen einige weitere Optionen an (siehe unten).
    
    ![Analysen für Durchschnittslinie anpassen](media/service-analytics-pane/power-bi-average-line2.png)
 
-1. Beachten Sie die Zahl, die neben dem Element **Durchschnittslinie** im Bereich **Analyse** angezeigt wird. Dieser Wert steht für die Anzahl der in Ihrer Visualisierung verwendeten dynamischen Linien und verrät auch, von welchem Typ diese sind. Wenn wir eine **Bezugslinie** als Ziel für die Store-Anzahl 9 hinzufügen, wird im Bereich **Analyse** angezeigt, dass nun auch eine **Bezugslinie** im Visual verwendet wird.
+1. Beachten Sie die Zahl, die neben dem Element **Durchschnittslinie** im Bereich **Analyse** angezeigt wird. Dieser Wert steht für die Anzahl der in Ihrem Visual verwendeten dynamischen Linien und verrät auch, von welchem Typ diese sind. Wenn wir eine **Bezugslinie** als Ziel für die Store-Anzahl 9 hinzufügen, wird im Bereich **Analyse** angezeigt, dass nun auch eine **Bezugslinie** im Visual verwendet wird.
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    

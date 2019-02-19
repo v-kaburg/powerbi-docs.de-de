@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277754"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215348"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Verwenden von Einblicken in Power BI Desktop zum Ermitteln von unterschiedlicher Verteilung (Vorschau)
 
@@ -38,7 +38,7 @@ In diesem Beispiel zeigt die automatisierte Analyse schnell, dass bei *Tourenrä
 > 
 
 ## <a name="using-insights"></a>Verwenden von Einblicken
-Um mit Einblicken Verteilungsunterschiede in Diagrammen zu ermitteln, klicken Sie einfach mit der rechten Maustaste auf einen beliebigen Datenpunkt (oder auf das Visual als Ganzes) und wählen Sie **Analysieren > Unterschiede in dieser Verteilung ermitteln** aus.
+Um mit Einblicken Verteilungsunterschiede in Diagrammen zu ermitteln, klicken Sie einfach mit der rechten Maustaste auf einen beliebigen Datenpunkt (oder auf das Visual als Ganzes), und wählen Sie **Analysieren > Unterschiede in dieser Verteilung ermitteln** aus.
 
 ![Rechtsklick für Einblicke](media/desktop-insights-find-where-different/find-where-different_03.png)
 
@@ -65,33 +65,33 @@ Der Algorithmus berücksichtigt im Grunde alle anderen Modellspalten, wendet sie
 
 Doch was genau bedeutet *unterschiedlich*? Angenommen, dass die Gesamtaufteilung der Umsätze zwischen den USA und Kanada folgendermaßen aussieht:
 
-|Country  |Umsatz (Mio. $)|
+|Land  |Umsatz (Mio. $)|
 |---------|----------|
 |USA      |15        |
-|Canada   |5         |
+|Kanada   |5         |
 
 Dann sieht die Umsatzaufteilung für eine bestimmte Produktkategorie (*Rennräder*) möglicherweise so aus:
 
-|Country  |Umsatz (Mio. $)|
+|Land  |Umsatz (Mio. $)|
 |---------|----------|
 |USA      |3        |
-|Canada   |1         |
+|Kanada   |1         |
 
 Während die Zahlen in jeder dieser Tabellen unterschiedlich sind, sind die relativen Werte für die USA und Kanada identisch (75 % und 25 % insgesamt und für Rennräder). Aus diesem Grund werden sie nicht als unterschiedlich betrachtet. Für einfache additive Measures wie diese, sucht der Algorithmus daher nach Unterschieden im *relativen* Wert.  
 
 Betrachten Sie dagegen ein Measure wie die Marge, die als Gewinn/Kosten berechnet wird. Angenommen, dass die Gesamtmargen für die USA und Kanada wie folgt aussehen:
 
-|Country  |Marge (%)|
+|Land  |Marge (%)|
 |---------|----------|
 |USA      |15        |
-|Canada   |5         |
+|Kanada   |5         |
 
 Dann sieht die Umsatzaufteilung für eine bestimmte Produktkategorie (*Rennräder*) möglicherweise so aus:
 
-|Country  |Marge (%)|
+|Land  |Marge (%)|
 |---------|----------|
 |USA      |3        |
-|Canada   |1         |
+|Kanada   |1         |
 
 Solche Measures weisen einen interessanten *Unterschied* auf. Für nicht additive Measures wie in diesem Margenbeispiel sucht der Algorithmus also nach Unterschieden im absoluten Wert.
 
@@ -131,7 +131,7 @@ In der folgenden Liste sind die Szenarien aufgeführt, die derzeit für **Einbli
 * Kennzahlenfilter
 * Nicht numerische Measures
 * Verwendung von „Wert anzeigen als“
-* Gefilterte Measures – diese Berechnungen mit einem bestimmten Filter auf Visualebene (z. B. *Gesamtumsatz Frankreich*) werden für einige Visuals verwendet, die von der Funktion Einblicke erstellt wurden
+* Gefilterte Measures: Diese Berechnungen mit einem bestimmten Filter auf Visualebene (z.B. *Gesamtumsatz Frankreich*) werden für einige Visuals verwendet, die von der Funktion „Einblicke“ erstellt wurden.
 
 Außerdem werden die folgenden Modelltypen und Datenquellen für Einblicke derzeit nicht unterstützt:
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281158"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225912"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
@@ -77,11 +77,14 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (Beta)
-* BI-Connector
+* Dremio
 * Exasol
-* Dremio (Beta)
+* MarkLogic (Beta)
+* AtScale-Cubes (Beta)
+* BI-Connector
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
@@ -136,8 +139,6 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Google Analytics
 * Adobe Analytics
 * appFigures (Beta)
-* comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (Beta)
 * Data.World – Dataset abrufen (Beta)
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * Webtrends (Beta)
 * Zendesk (Beta)
 * TeamDesk (Beta)
+* Emigo Data Source (Beta)
+* Microsoft Graph-Sicherheit (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Onlinedienste** an.
 
@@ -164,7 +167,6 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Onlinedienste*
 
 Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 
-* Vertica
 * Web
 * SharePoint-Liste
 * OData-Feed
@@ -176,8 +178,12 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Python-Skript
 * ODBC
 * OLE DB
+* Workforce Dimensions (Beta)
 * Denado
 * Paxata (Beta)
+* SurveyMonkey (Beta)
+* QubolePresto (Beta)
+* Quick Base (Beta)
 * Leere Abfrage
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Sonstige**.
@@ -190,7 +196,7 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Sonstige**.
 ## <a name="connecting-to-a-data-source"></a>Herstellen der Verbindung mit einer Datenquelle
 Wenn Sie die Verbindung mit einer Datenquelle herstellen möchten, wählen Sie die Datenquelle im Fenster **Daten abrufen** und dann **Verbinden**aus. In der folgenden Abbildung ist **Web** aus der Datenverbindungskategorie **Sonstige** ausgewählt.
 
-![Mit Web verbinden](media/desktop-data-sources/data-sources_08a.png)
+![Mit Web verbinden](media/desktop-data-sources/data-sources_08.png)
 
 Es wird ein für den Typ der Datenverbindung spezifisches Verbindungsfenster angezeigt. Wenn Anmeldeinformationen erforderlich sind, werden Sie aufgefordert, diese bereitzustellen. Die folgende Abbildung zeigt eine URL, die eingegeben wird, um die Verbindung mit einer Webdatenquelle herzustellen.
 

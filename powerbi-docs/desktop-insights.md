@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b8c436088bcd7538c09d4acf0fd5d529f9c8a8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278840"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224017"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Verwenden von Einblicken in Power BI Desktop zur Erklärung von Anstiegen und Rückgängen in Visuals (Vorschau)
 
@@ -116,7 +116,7 @@ In der folgenden Liste sind die Szenarien aufgeführt, die derzeit für **Anstie
 * Kennzahlenfilter
 * Nicht numerische Measures
 * Verwendung von „Wert anzeigen als“
-* Gefilterte Measures – diese Berechnungen mit einem bestimmten Filter auf Visualebene (z. B. *Gesamtumsatz Frankreich*) werden für einige Visuals verwendet, die von der Funktion Einblicke erstellt wurden
+* Gefilterte Measures: Diese Berechnungen mit einem bestimmten Filter auf Visualebene (z.B. *Gesamtumsatz Frankreich*) werden für einige Visuals verwendet, die von der Funktion „Einblicke“ erstellt wurden.
 * Kategoriespalten auf der X-Achse, sofern keine skalare Sortierung nach Spalte definiert wird. Wenn eine Hierarchie verwendet wird, muss jede Spalte in der aktiven Hierarchie diese Bedingung erfüllen.
 
 

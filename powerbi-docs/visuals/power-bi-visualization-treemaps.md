@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 892e056413212e319815341eb9ae95262ed54d46
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274764"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215410"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 Treemaps zeigen hierarchische Daten als verschachtelten Rechtecke an.  Jede Hierarchieebene wird durch ein farbiges Rechteck (auch als „Verzweigung“ bezeichnet) dargestellt, das andere Rechtecke („Blätter“) enthält.  Die Größe der einzelnen Rechtecke hängt von den gemessenen Werten ab. Die Rechtecke werden von oben links (das Größte) nach unten rechts (das Kleinste) angeordnet.
@@ -45,14 +45,14 @@ Treemaps sind gut geeignet:
 
 ### <a name="prerequisites"></a>Voraussetzungen
  - Power BI-Dienst oder Power BI Desktop
- - Analysebeispiel für den Einzelhandel
+ - Retail Analysis sample
 
 ## <a name="create-a-basic-treemap"></a>Erstellen eines einfachen Treemap-Diagramms
 Sie möchten sich zunächst einmal ansehen, wie ein Treemap-Diagramm erstellt wird?  Ab Position 2:10 erläutert Amanda in diesem Video das Erstellen eines Treemap-Diagramms.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Sie können auch ein eigenes Treemap-Diagramm erstellen. In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Melden Sie sich beim Power BI-Dienst an, und klicken Sie auf **Daten abrufen\> Beispiele \> Analysebeispiel für Einzelhandel \> Verbinden\> Zum Dashboard wechseln**. Zum Erstellen von Visualisierungen in einem Bericht benötigen Sie Bearbeitungsberechtigungen für das Dataset und den Bericht. Erfreulicherweise können die Power BI-Beispiele bearbeitet werden. Sie können allerdings keine Visualisierungen zu einem Bericht hinzufügen, den jemand für Sie freigegeben hat.  
+Sie können auch ein eigenes Treemap-Diagramm erstellen. In dieser Anleitung wird das Analysebeispiel für den Einzelhandel verwendet. Melden Sie sich beim Power BI-Dienst an, und klicken Sie auf **Daten abrufen\> Beispiele \> Analysebeispiel für Einzelhandel \> Verbinden\> Zum Dashboard wechseln**. Zum Erstellen von Visualisierungen in einem Bericht benötigen Sie Bearbeitungsberechtigungen für das Dataset und den Bericht. Erfreulicherweise können die Power BI-Beispiele bearbeitet werden. Sie können allerdings keine Visuals zu einem Bericht hinzufügen, den jemand für Sie freigegeben hat.  
 
 1. Wählen Sie die Kachel „Läden gesamt“ aus, um den Bericht „Analysebeispiel für Einzelhandel“ zu öffnen.    
 2. Öffnen Sie die [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md), und wählen Sie das Measure **Umsätze** > **Umsätze letztes Jahr** aus.   

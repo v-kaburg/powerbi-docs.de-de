@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762350"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216376"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded-Migrationstool
 
@@ -207,7 +207,7 @@ Sie müssen das Migrationstool schließen, um die Änderung vorzunehmen und dann
 
 Im obigen Beispiel konnte einer der geklonten Berichte nicht anzeigen, dass ein Bericht mit dem gleichen Namen vorhanden war. Wenn wir uns die Migrationsplan-XML betrachten, sehen wir Folgendes.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ Im obigen Beispiel konnte einer der geklonten Berichte nicht anzeigen, dass ein 
 
 Für das fehlerhafte Element können wir den Namen des SaaSTargetReportName-Objekts ändern.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Kehren wir zu Power BI zurück. Wir sehen, dass die Berichte und Datasets im App
 
 Sie können eine lokale Version von einer Power BI Desktop-Datei hochladen. Schließen Sie das Tool, bearbeiten Sie den XML-Code und fügen Sie den vollständigen Pfad in Ihre lokale PBIX-Datei in die **PbixPath**-Eigenschaft ein.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ Nachdem Sie den XML-Code bearbeitet haben, öffnen Sie den Plan innerhalb des Mi
 
 ### <a name="directquery-reports"></a>DirectQuery-Berichte
 
-Sie müssen eine Aktualisierung durchführen, um die Verbindungszeichenfolge für DirectQuery-Berichte zu aktualisieren. Dies kann in *powerbi.com* erfolgen, oder Sie können die Verbindungszeichenfolge aus Power BI Embedded (Paas) programmgesteuert abfragen. Ein Beispiel finden Sie unter [Extrahieren der DirectQuery-Verbindungszeichenfolge aus dem PaaS-Bericht](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+Sie müssen eine Aktualisierung durchführen, um die Verbindungszeichenfolge für DirectQuery-Berichte zu aktualisieren. Dies kann in *powerbi.com* erfolgen, oder Sie können die Verbindungszeichenfolge aus Power BI Embedded (PaaS) programmgesteuert abfragen. Ein Beispiel finden Sie unter [Extrahieren der DirectQuery-Verbindungszeichenfolge aus dem PaaS-Bericht](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
-Sie können dann die Verbindungszeichenfolge für das Dataset im Power BI-Dienst (Saas) aktualisieren und die Anmeldeinformationen für die Datenquelle festlegen. Betrachten Sie die folgenden Beispiele, um zu sehen wie dies funktioniert.
+Sie können dann die Verbindungszeichenfolge für das Dataset im Power BI-Dienst (SaaS) aktualisieren und die Anmeldeinformationen für die Datenquelle festlegen. Betrachten Sie die folgenden Beispiele, um zu sehen wie dies funktioniert.
 
 * [Die Verbindungszeichenfolge „DirectQuery aktualisieren“ ist ein SaaS-Arbeitsbereich](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [Festlegen von Anmeldeinformationen im SaaS-Arbeitsbereich](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

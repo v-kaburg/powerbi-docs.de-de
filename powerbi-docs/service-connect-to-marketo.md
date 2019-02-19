@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008624"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223787"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Herstellen einer Verbindung mit Marketo mithilfe von Power BI
 Mit dem Power BI-Inhaltspaket für Marketo erhalten Sie Einblicke in Ihr Marketo-Konto mit Daten zu Leads und ihren Aktivitäten.Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann ein Dashboard und zugehörige Berichte automatisch bereitgestellt.
@@ -59,7 +59,7 @@ Die folgenden Daten sind über Marketo in Power BI verfügbar, wobei die Aktivit
 | Tabellenname | Beschreibung |
 | --- | --- |
 | EmailActivities |Daten zu E-Mails, die an Leads/Kontakte gesendet wurden und Details zu Geräten, Kategorien, zurückgesendeter Anzahl und Prozentsatz, geklickter Anzahl und Prozentsatz, geöffneter Anzahl und Prozentsatz und Programmnamen enthalten. Die in Power BI angezeigten E-Mail-Aktivitäten stellen einen absoluten Bericht zur E-Mail-Zustellbarkeit dar. Es wird keine zusätzliche Logik auf die Daten angewendet. Aus diesem Grund sind die Ergebnisse zwischen dem Marketo-Client und Power BI möglicherweise verschieden. |
-| ProgramActivites |Daten zu Programmen, die eine Statusänderung aufweisen. Dazu gehören folgende Details: Ursache, Erfolg, Anzahl und Prozentsatz von Programmanschaffungen sowie Anzahl und Prozentsatz des Programmerfolgs. |
+| ProgramActivities |Daten zu Programmen, die eine Statusänderung aufweisen. Dazu gehören folgende Details: Ursache, Erfolg, Anzahl und Prozentsatz von Programmanschaffungen sowie Anzahl und Prozentsatz des Programmerfolgs. |
 | WebPageActivities |Daten über die Besuche von Benutzerwebseiten, einschließlich Such-Agent, Benutzer-Agent, Webseite und Tagesstunde. |
 | Datetable |Daten von heute und dem vergangenen Jahr.  Ermöglicht die Analyse Ihrer Marketo-Daten nach Datum. |
 | Leads |Leadinformationen wie Unternehmen, Umsatzvolumen, Anzahl von Mitarbeitern, Land, Branche, Leadbewertung und Leadstatus. Die Leads werden auf Basis ihres Vorkommens in den Daten von E-Mail-, Programm- und Webseitenaktivitäten abgerufen. |

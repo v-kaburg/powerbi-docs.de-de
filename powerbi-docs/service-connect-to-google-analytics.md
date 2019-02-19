@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f8777774981e89a88f1fb4f85573fd5a7e078dd6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 9d0eafea7f1ec25d8af86bf05fa130abb1bbd9c2
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008394"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216284"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Google Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Google Analytics über Power BI beginnt mit dem Herstellen einer Verbindung mit Ihrem Google Analytics-Konto. Sie erhalten ein Power BI-Dashboard und eine Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern. Die Daten werden automatisch einmal täglich aktualisiert.
@@ -52,7 +52,7 @@ Sie können beginnend mit dem [Google Analytics-Connector](service-google-analyt
 Zum Herstellen der Verbindung über Power BI benötigen Sie ein [Google Analytics](https://www.google.com/analytics/)-Konto. Bei anderen Google-Konten, die mit keinem Google Analytics-Konto verbunden sind, wird ein Authentifizierungsfehler angezeigt.
 
 ## <a name="troubleshooting"></a>Problembehandlung
-**Anmeldeinformationen** Wenn Sie über mehrere Google-Konten verfügen, verwenden Sie während der Verbindung ein Inkognito- oder ein privates Browserfenster, um sicherzustellen, dass das richtige Konto verwendet wird.
+**Anmeldeinformationen:** Wenn Sie über mehrere Google-Konten verfügen, verwenden Sie während der Verbindung ein Inkognito- oder ein privates Browserfenster, um sicherzustellen, dass das richtige Konto verwendet wird.
 
 Sollte eine Fehlermeldung aufgrund ungültiger Anmeldeinformationen ausgegeben werden, obwohl die Anmeldung bei Google erfolgreich war, überprüfen Sie, ob Sie über ein [Google Analytics](https://www.google.com/analytics/)-Konto verfügen.
 

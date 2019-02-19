@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287805"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216698"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problembehandlung für die geplante Aktualisierung in Power BI-Berichtsserver
 In diesem Artikel werden die verfügbaren Ressourcen für die Behandlung von Problemen mit der geplanten Aktualisierung in Power BI-Berichtsserver erläutert.
@@ -25,7 +25,7 @@ Da weitere Probleme festgestellt werden können, wird dieser Artikel laufend mit
 Im Folgenden werden die am häufigsten auftretenden Probleme beim Planen der Aktualisierung für einen Bericht erläutert. 
 
 ### <a name="driver-related-problems"></a>Treiberbezogene Probleme
-Beim Herstellen einer Verbindung mit Datenquellen können Treiber von Drittanbietern erforderlich sein, die installiert werden müssen, damit erfolgreich eine Verbindung hergestellt werden kann. Sie müssen diese nicht nur auf dem Computer installieren, auf dem Sie mit Power BI Desktop arbeiten, Sie müssen auch sicherstellen, dass der Treiber auf dem Berichtsserver installiert ist.
+Beim Herstellen einer Verbindung mit Datenquellen können Treiber von Drittanbietern erforderlich sein, die installiert werden müssen, damit eine Verbindung erfolgreich hergestellt werden kann. Sie müssen diese nicht nur auf dem Computer installieren, auf dem Sie mit Power BI Desktop arbeiten, Sie müssen auch sicherstellen, dass der Treiber auf dem Berichtsserver installiert ist.
 
 Der Treiber kann zudem in einer 32-Bit-Version und einer 64-Bit-Version vorliegen. Sie müssen den 64-Bit-Treiber installieren, da Power BI-Berichtsserver auf 64 Bit ausgelegt ist.
 
@@ -60,7 +60,7 @@ Anhand der folgenden Einstellungen kann die geplante Aktualisierung konfiguriert
 
 **Einstellungen in „rsreportserver.config“:**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>
@@ -145,7 +145,7 @@ Ausführungsprotokolleinträge für Power BI-Berichte unterscheiden sich von Ein
     * **SaveToCatalog**: Beim Speichern des Datenmodells im Katalog.
 
 ## <a name="analysis-services"></a>Analysis Services
-Möglicherweise möchten sie gelegentlich Analysis Services ändern, um Probleme zu untersuchen oder um Speicherlimits anzupassen.
+Möglicherweise möchten Sie gelegentlich Analysis Services ändern, um Probleme zu untersuchen oder um Speicherlimits anzupassen.
 
 > [!IMPORTANT]
 > Diese Einstellungen werden bei jedem Upgrade des Berichtsservers zurückgesetzt. Bewahren Sie eine Kopie der vorgenommenen Änderungen auf, und wenden Sie sie ggf. erneut an.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280307"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223258"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Verbesserung von Power BI-Berichten anhand von Visualelementen
 
@@ -51,7 +51,7 @@ Die **Berichtsseite** ist (im Vergleich zum Hintergrund) immer im Vordergrund, w
 
 Für alle neuen Berichte gelten die folgenden Standardeinstellungen:
 
-* Die **Berichtsseite** ist auf **Weiß** und deren Transparenz auf **100 %** festgelegt.
+* Die **Berichtsseite** ist auf **Weiß** und deren Transparenz auf **100 %** eingestellt.
 * Der **Hintergrund** ist auf **Weiß** und dessen Transparenz auf **0 %** festgelegt.
 
 Wenn Sie den Seitenhintergrund auf eine Transparenz von mehr als 50 % festlegen, wird beim Erstellen oder Bearbeiten des Berichts eine gepunktete Begrenzung angezeigt, die die Begrenzung des Berichtszeichenbereichs anzeigt. 

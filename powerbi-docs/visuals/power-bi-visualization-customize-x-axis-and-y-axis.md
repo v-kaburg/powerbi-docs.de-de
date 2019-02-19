@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287000"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223304"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Anpassen der Eigenschaften der X- und Y-Achse
 In diesem Tutorial lernen Sie verschiedene Möglichkeiten zum Anpassen der X- und Y-Achse in Ihren visuellen Elementen kennen. Nicht alle visuellen Elemente verfügen über Achsen oder können angepasst werden. Bei Kreisdiagrammen gibt es z. B. keine Achsen. Darüber hinaus variieren die Anpassungsoptionen für die verschiedenen visuellen Elemente, sodass nicht alle Optionen in einem einzigen Artikel abgedeckt werden können. Betrachten wir daher die gängigsten Achsenanpassungen, damit Sie sich mit der Registerkarte für die visuelle Formatierung im Berichtszeichenbereich von Power BI vertraut machen können.  
@@ -70,7 +70,7 @@ Wenn Sie die Anpassungen der X-Achse zurücksetzen möchten, wählen Sie **Stand
 3. Verschieben Sie die **Position** der Y-Achse nach rechts.
 4. Formatieren Sie die Textfarbe, die Textgröße und die Schriftart. In diesem Beispiel haben wir die **Farbe** für den Text auf Schwarz, die **Textgröße** auf 14 und die **Schriftart** auf Arial Black festgelegt.  
 5. Lassen Sie **Anzeigeeinheiten** auf „Millionen“ und **Dezimalstellen für Werte** auf 0 (null) festgelegt.
-6. Da diese Visualisierung durch eine Y-Achse nicht verbessert wird, lassen Sie **Titel** deaktiviert.  
+6. Da dieses Visual durch eine Y-Achse nicht verbessert wird, lassen Sie **Titel** deaktiviert.  
 7. Wir heben die Gitternetzlinien hervor, indem wir die **Farbe** in Dunkelgrau ändern und die **Strichstärke** auf 2 erhöhen.
 
     Nach diesen Anpassungen sollte Ihr Säulendiagramm etwa so aussehen:
@@ -136,7 +136,7 @@ Wenn vom Besitzer des Berichts die X-Achse als Datentyp kategorisiert wurde, wir
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zu [Visualisierungen in Power BI-Berichten](power-bi-report-visualizations.md)
 
-[Anpassen von T](power-bi-visualization-customize-title-background-and-legend.md)[iteln, Hintergründen und Legenden](power-bi-visualization-customize-title-background-and-legend.md)
+[Anpassen von Titeln, Hintergründen und Legenden](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Anpassen von Farben und Achseneigenschaften](service-getting-started-with-color-formatting-and-axis-properties.md)
 

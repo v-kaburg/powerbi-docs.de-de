@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282354"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216583"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Drillmodus in einer Visualisierung in Power BI
 
@@ -112,9 +112,9 @@ Bei dieser Methode wird das Drilldownsymbol in der rechten oberen Ecke der Visua
 
 2. Klicken Sie auf das *Blatt* für **TN**. Jetzt werden in Ihrer Treemap alle Städte in Tennessee angezeigt, in denen es ein Geschäft gibt. 
 
-    ![Treemap zeigt nur Daten für Tennesee an](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Treemap zeigt nur Daten für Tennessee an](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. Jetzt können Sie entweder weiter einen Drilldown für Tennessee durchführen, oder Sie können einen Drilldown für eine bestimmte Stadt in Tennessee durchführen, oder Sie können die Hierarchie erweitern (weitere Informationen dazu im Abschnitt zum **gleichzeitigen Erweitern aller Felder** weiter unten). Führen Sie weiter einen Drilldown für ein Feld durch.  Klicken Sie auf **Knoxville, TN**. Ihre Treemap zeigt jetzt die Postleitzahl Ihres Geschäfts in Knoxville an. 
+2. Jetzt können Sie entweder weiter einen Drilldown für Tennessee ausführen, oder Sie können einen Drilldown für eine bestimmte Stadt in Tennessee ausführen, oder Sie können die Hierarchie erweitern (weitere Informationen dazu finden Sie im Abschnitt zum **gleichzeitigen Erweitern aller Felder** weiter unten). Führen Sie weiter einen Drilldown für ein Feld durch.  Klicken Sie auf **Knoxville, TN**. Ihre Treemap zeigt jetzt die Postleitzahl Ihres Geschäfts in Knoxville an. 
 
    ![Treemap zeigt 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,9 +127,9 @@ Eine Treemap, die nur die Postleitzahl anzeigt, ist nicht nützlich.  Erweitern 
 
     ![Treemap mit Postleitzahl und Geschäftsname](./media/end-user-drill/power-bi-expand1.png)
 
-2. Klicken Sie auf den Drillup-Pfeil, bis Sie die zweite Ebene **Total units this year by territory and city** erreichen, um alle vier Datenebenen für Tennessee anzuzeigen. 
+2. Klicken Sie auf den Drillup-Pfeil, bis Sie die zweite Ebene **Total units this year by territory and city** (Gesamtanzahl der Einheiten in diesem Jahr nach Gebiet und Stadt) Ihrer Treemap erreichen, um alle vier Datenebenen für Tennessee anzuzeigen. 
 
-    ![Treemap zeigt alle Daten für Tennesee an](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Treemap zeigt alle Daten für Tennessee an](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Achten Sie darauf, dass Drilldown immer noch aktiviert ist ![Aktivierter Drilldown](./media/end-user-drill/power-bi-drill-icon2.png), und klicken Sie auf das *Symbol für die nächste Ebene* ![Auf nächste Ebene erweitern](./media/end-user-drill/power-bi-drill-icon6.png). Jetzt zeigt Ihre Treemap zusätzliche Informationen an. Es werden nicht nur die Stadt und der Staat angezeigt, sondern auch die Postleitzahl. 
@@ -138,7 +138,7 @@ Eine Treemap, die nur die Postleitzahl anzeigt, ist nicht nützlich.  Erweitern 
 
 4. Wählen Sie das Symbol *Auf nächste Ebene erweitern* erneut aus, um alle vier Hierarchieebenen der Informationen zu Tennessee auf Ihrer Treemap anzuzeigen. Zeigen Sie auf ein Blatt, um noch mehr Informationen anzuzeigen.
 
-   ![Treemap mit Daten von Tennessee](./media/end-user-drill/power-bi-expand-all.png)
+   ![Treemap zeigt Daten für Tennessee an](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="drilling-filters-other-visuals"></a>Drillfilter anderer Visuals
 Wenn Sie im Drillmodus arbeiten, ist es Ihre Entscheidung, wie sich Drilldown- und Erweiterungsvorgänge auf die anderen Visualisierungen auf Ihrer Seite auswirken. 

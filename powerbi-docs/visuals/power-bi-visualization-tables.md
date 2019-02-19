@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0106c59c5fc4d122205a144d85a6e7f643c5a429
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284769"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223396"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-Berichten und -Dashboards
 Eine Tabelle ist ein Raster, das zusammengehörende Daten in einer logischen Folge von Zeilen und Spalten enthält. Zudem können auch Kopfzeilen und eine Zeile für Summen enthalten sein. Tabellen empfehlen sich insbesondere für quantitative Vergleiche, bei denen Sie viele Werte einer einzigen Kategorie betrachten. In dieser Tabelle werden beispielsweise fünf verschiedene Measures für **Kategorie** angezeigt.
@@ -37,7 +37,7 @@ Tabellen sind für folgende Zwecke gut geeignet:
 
 ## <a name="prerequisites"></a>Voraussetzungen
 - Power BI-Dienst oder Power BI Desktop
-- Analysebeispiel für den Einzelhandel
+- Retail Analysis sample
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
 Wir erstellen die oben abgebildete Tabelle, in der Umsatzwerte nach Artikelkategorien angezeigt werden. Melden Sie sich beim Power BI-Dienst an, navigieren Sie zu **Daten abrufen\> Beispiele \> Analysebeispiel für Einzelhandel > Verbinden**, und klicken Sie auf **Zum Dashboard wechseln**. Zum Erstellen einer Visualisierung benötigen Sie Bearbeitungsberechtigungen für das Dataset und den Bericht. Erfreulicherweise können die Power BI-Beispiele alle bearbeitet werden. Wenn ein Bericht für Sie freigegeben wurde, können Sie keine Visualisierungen in Berichten erstellen.
@@ -135,7 +135,7 @@ Gelegentlich wird in Power BI eine Spaltenüberschrift in einem Bericht oder in 
 ![Video: Nahaufnahme zum Ändern der Größe von Spalten](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-* Wenn Sie die Spaltenformatierung anwenden, können Sie nur eine Ausrichtungsoption pro Spalte auswählen: Auto, Links, Zentriert, Rechts. Normalerweise enthält eine Spalte den gesamten Text oder alle Zahlen und keine Mischung daraus. In Fällen, in denen jedoch eine Spalte jeweils Zahlen und Text enthält, wird durch die Auswahl von **Auto** der Text nach links ausgerichtet, und die Zahlen werden nach rechts ausgerichtet. Dieses Verhalten unterstützt Sprachen, in denen von links nach rechts gelesen wird.   
+* Wenn Sie die Spaltenformatierung anwenden, können Sie nur eine Ausrichtungsoption pro Spalte auswählen: Auto, Links, Zentriert, Rechts. Normalerweise enthält eine Spalte den gesamten Text oder alle Zahlen und keine Mischung daraus. In Fällen, in denen jedoch eine Spalte jeweils Zahlen und Text enthält, wird durch die Auswahl von **Auto** der Text nach links ausgerichtet, und die Zahlen werden nach rechts ausgerichtet. Dieses Verhalten unterstützt Sprachen, bei denen von links nach rechts gelesen wird.   
 
 ## <a name="next-steps"></a>Nächste Schritte
 

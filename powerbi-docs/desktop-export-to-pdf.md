@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290616"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215628"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Exportieren von Berichten aus Power BI Desktop in das PDF-Format
 In **Power BI Desktop** können Sie Berichte in eine PDF-Datei exportieren und diese problemlos freigeben oder drucken.
@@ -43,7 +43,7 @@ Da der Hintergrund nicht in die PDF-Datei exportiert wird, sollten Sie besonders
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-Es gibt viele interessante Visualelemente und Features in **Power BI Desktop**. Weitere Informationen finden Sie in folgenden Ressourcen:
+Es gibt viele interessante Visualelemente und Features in **Power BI Desktop**. Weitere Informationen finden Sie in den folgenden Ressourcen:
 
 * [Use visual elements to enhance Power BI reports (Erweitern von Power BI-Berichten durch Visualelemente)](desktop-visual-elements-for-reports.md)
 * [Was ist Power BI Desktop?](desktop-what-is-desktop.md)

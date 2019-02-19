@@ -1,7 +1,7 @@
 ---
 title: Tipps und Tricks zum Erstellen von Berichten in Power BI
 description: Bewährte Methoden zum Erstellen von Berichten im Power BI-Dienst und in Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295993"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223856"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tipps und Tricks zum Erstellen von Berichten in Power BI Desktop
 Um Ihre Daten optimal zu nutzen, benötigen Sie manchmal etwas zusätzliche Hilfe. Wir haben einige Tipps und Tricks zusammengestellt, die Sie nutzen können, wenn Sie Berichte in Microsoft Power BI Desktop *und* in Microsoft Excel 2016 oder Excel 2013 Pro Plus-Editionen erstellen, wobei das Power Pivot-Add-In und Power Query installiert und aktiviert sein müssen. 
@@ -143,7 +143,7 @@ Um in diesem Fall eine Beziehung zu erstellen, muss ein logisches Dataset aller 
 4. Wählen Sie in der Abfrage **Kundennamen** die Option **Anfügen** im Menüband aus, und wählen Sie die Abfrage **Temp**aus.
 5. Wählen Sie in der Abfrage **Kundennamen** den Befehl **Duplikate entfernen**.
 
-Sie haben nun eine Dimensionstabelle, die Sie dazu verwenden können, Beziehungen zu „Kundenereignisse“ und „Arbeitsaufgaben“ zu erstellen, und die alle Werte der beiden enthält.  
+Sie haben nun eine Dimensionstabelle, die Sie dazu verwenden können, Beziehungen zu „Kundenereignisse“ und „Arbeitsaufgaben“ zu erstellen, und die alle Werte von beiden enthält.  
 
 ## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Muster für den Schnelleinstieg in den Abfrage-Editor
 Der Abfrage-Editor ist sehr leistungsfähig hinsichtlich des Bearbeitens von Daten, um diese zu formen und zu bereinigen, sodass sie visualisiert oder modelliert werden können. Es gibt einige Muster, die Sie beachten sollten.
