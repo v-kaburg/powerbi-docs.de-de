@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296315"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249043"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Behandeln von Problemen bei Cortana für Power BI
 Dieser Artikel ist Teil einer Serie. Es wird empfohlen, die folgenden drei Artikel zu lesen, sofern noch nicht geschehen.
@@ -79,7 +79,7 @@ Immer noch Probleme?  Jetzt empfiehlt es sich, das Cortana-Problembehandlungstoo
 
    ![Antwortkarte](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Registerkarte „Antwortkarte“ in Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. Manchmal führt die erste Eingabe im Feld **Utterance** (Äußerung) zu keiner Reaktion. Durch diese erste Eingabe wird das Problembehandlungstool lediglich aktiviert. Geben Sie den Namen manuell oder durch Ausschneiden und Kopieren erneut im Feld **Utterance** (Äußerung) ein. In diesem Beispiel lautet der Name der Antwortkarte **Cortana stores**. Das Einfügen oder Eingeben von **Cortana stores** im Tool liefert ein einzelnes Ergebnis, das im Feld **Interpretations** (Interpretationen) angezeigt wird. Klicken Sie, um die im Cortana-Fenster dargestellte Antwortkarte anzuzeigen. In diesem Fall handelt es sich um **Cortana stores**.

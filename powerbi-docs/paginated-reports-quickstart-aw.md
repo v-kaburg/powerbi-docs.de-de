@@ -1,20 +1,20 @@
 ---
 title: 'Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst (Vorschau)'
 description: In diesem Tutorial stellen Sie eine Verbindung mit einer Beispielinstanz von Azure SQL-Datenbank her. Anschließend erstellen Sie mithilfe eines Assistenten im Berichts-Generator einen paginierten Bericht. Dann laden Sie den paginierten Bericht in einen Arbeitsbereich in einer Premium-Kapazität im Power BI-Dienst hoch.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.author: maggies
-ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296461"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325241"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Erstellen eines paginierten Berichts und Hochladen in den Power BI-Dienst (Vorschau)
 

@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971669"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248905"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
 
@@ -53,7 +53,7 @@ Sie können einen Dienstprinzipal nur verwenden, wenn Ihre Artefakte und Ressour
 
 Es bestehen Unterschiede, je nachdem, ob Sie für die Authentifizierung einen Dienstprinzipal oder ein standardmäßiges Hauptkonto (Power BI Pro-Lizenz) verwenden. In der untenstehenden Tabelle sehen Sie einige bedeutende Unterschiede:
 
-| aufrufen | Hauptbenutzerkonto </br> (Power BI Pro-Lizenzen) | Dienstprinzipal </br> (Token nur für Anwendungen) |
+| aufrufen | Hauptbenutzerkonto <br> (Power BI Pro-Lizenzen) | Dienstprinzipal <br> (Token nur für Anwendungen) |
 |------------------------------------------------------|---------------------|-------------------|
 | Anmeldung beim Power BI-Dienst möglich?  | Ja | Nein |
 | Im Power BI-Verwaltungsportal aktiviert? | Nein | Ja |

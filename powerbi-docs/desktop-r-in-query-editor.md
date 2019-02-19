@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283343"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248997"
 ---
 # <a name="using-r-in-query-editor"></a>Verwenden von R im Abfrage-Editor
 Sie können **R**, eine häufig von Statistikern, Business Analysten und Datenanalysten verwendete Programmiersprache, im **Abfrage-Editor** von Power BI Desktop verwenden. Dank der Integration von R in den **Abfrage-Editor** können Sie mithilfe von R Daten bereinigen, erweiterte Datenstrukturierung und Analysen in Datasets ausführen, einschließlich der Ergänzung fehlender Daten, Prognosen und Clustering, um nur einige der Möglichkeiten zu nennen. **R** ist eine leistungsfähige Sprache, die im **Abfrage-Editor** zum Erstellen des Datenmodells und Erzeugen von Berichten verwendet werden kann.
@@ -44,11 +44,13 @@ Um die Verwendung von **R** im **Abfrage-Editor** zu veranschaulichen, wird dies
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. Geben Sie für dieses Beispiel folgenden Skriptcode ein:
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > In der R-Umgebung muss das Paket *mice* installiert sein, damit der oben gezeigte Skriptcode ordnungsgemäß ausgeführt wird. Führen Sie zum Installieren des Pakets „mice“ in der R-Installation den folgenden Befehl aus: |      > install.packages('mice')

@@ -1,20 +1,20 @@
 ---
 title: Erstellen eines Power BI-Berichts für den Power BI-Berichtsserver
 description: Erfahren Sie, wie Sie in wenigen einfachen Schritten einen Power BI-Bericht für Power BI-Berichtsserver erstellen.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
-ms.author: maggies
-ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288357"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324861"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Erstellen eines Power BI-Berichts für den Power BI-Berichtsserver
 Sie können Power BI-Berichte lokal im Webportal von Power BI-Berichtsserver ebenso wie in der Cloud im Power BI-Dienst https://powerbi.com) speichern und verwalten. Sie erstellen und bearbeiten Berichte in Power BI Desktop und veröffentlichen sie im Webportal. Anschließend können Leser in Ihrer Organisation die Berichte in einem Browser oder einer mobilen Power BI-App auf einem Mobilgerät anzeigen.

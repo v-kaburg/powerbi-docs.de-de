@@ -2,20 +2,20 @@
 title: Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 description: In diesem Artikel werden die Features des Power BI-Berichtsservers und des Power BI-Diensts miteinander verglichen.
 keywords: ''
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 66f8e03469b28ee4f29c9c679add02e326732943
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794351"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324459"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -51,7 +51,7 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Vollbildmodus | Nein | Ja | [Vollbildmodus](../consumer/end-user-focus.md) im Power BI-Dienst |
 | Erweiterte Zusammenarbeit mit Office 365 | Nein | Ja | [Zusammenarbeiten in einem App-Arbeitsbereich ](../service-collaborate-power-bi-workspace.md) mit Office 365 |
 | R-Visuals | Nein | Ja | [Erstellen von R-Visuals](../desktop-r-visuals.md) in Power BI Desktop, um diese anschließend im Power BI-Dienst zu veröffentlichen. Power BI-Berichte können nicht zusammen mit R-Visuals im Power BI-Berichtsserver gespeichert werden.  |
-| Previewfunktionen | Nein | Ja | [Aktivieren von Vorschaufeatures im Power BI-Dienst](../consumer/end-user-preview-features.md) |
+| Vorschaufeatures | Nein | Ja | [Aktivieren von Vorschaufeatures im Power BI-Dienst](../consumer/end-user-preview-features.md) |
 | Benutzerdefinierte Visuals | Ja | Ja | [Benutzerdefinierte Visualisierungen in Power BI](../power-bi-custom-visuals.md) |
 | Power BI Desktop | Für den Berichtsserver optimierte Version, zum Download mit dem Berichtsserver verfügbar | Für Power BI-Dienst optimierte Version, verfügbar im Windows Store | [Power BI Desktop für den Berichtsserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop für den Power BI-Dienst](http://aka.ms/pbidesktopstore) |
 

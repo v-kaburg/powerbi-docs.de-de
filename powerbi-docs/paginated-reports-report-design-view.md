@@ -1,20 +1,20 @@
 ---
 title: Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 description: Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Erstellung paginierter Berichte, die Sie im Power BI-Dienst veröffentlichen können.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283527"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324812"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 
@@ -22,12 +22,12 @@ Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Er
 
 ![Berichtsentwurfsansicht des Berichts-Generators](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [Berichtsdatenbereich](#report-data-pane) 
-2.  [Berichtsentwurfsfläche](#report-design-surface)  
-3.  [Parameterbereich](#parameters-pane) 
-4.  [Eigenschaftenbereich](#properties-pane) 
-5.  [Gruppierungsbereich](#grouping-pane) 
-6.  [Statusleiste für aktuellen Bericht](#current-report-status-bar)  
+1. [Berichtsdatenbereich](#report-data-pane) 
+2. [Berichtsentwurfsfläche](#report-design-surface)  
+3. [Parameterbereich](#parameters-pane) 
+4. [Eigenschaftenbereich](#properties-pane) 
+5. [Gruppierungsbereich](#grouping-pane) 
+6. [Statusleiste für aktuellen Bericht](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Berichtsdatenbereich  
  Über den Berichtsdatenbereich definieren Sie die Berichtsdaten und Berichtsressourcen, die Sie für einen Bericht benötigen, bevor Sie das Berichtslayout entwerfen. Beispielsweise können Sie dem Berichtsdatenbereich Datenquellen, Datasets, berechnete Felder, Berichtsparameter und Bilder hinzufügen.  

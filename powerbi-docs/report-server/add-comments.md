@@ -1,43 +1,44 @@
 ---
 title: Hinzufügen von Kommentaren zu einem Bericht im Power BI-Berichtsserver
 description: Erfahren Sie, wie Sie einem Power BI-Bericht oder einem paginierten Bericht auf einem Power BI-Berichtsserver oder einem SQL Server Reporting Services-Berichtsserver Kommentare hinzufügen können.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275383"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324229"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Hinzufügen von Kommentaren zu einem Bericht in einem Berichtsserver – Power BI-Berichtsserver
+
 Im Webportal eines Berichtsservers können Sie Berichten, einschließlich Power BI-Berichten, Kommentare hinzufügen. Die Kommentare verbleiben im Bericht, und jeder mit den entsprechenden Berechtigungen kann die Kommentare zum Bericht anzeigen. Weitere Informationen finden Sie weiter unten im Abschnitt [Berechtigungen](#permissions).
 
 ## <a name="add-or-view-comments"></a>Hinzufügen oder Anzeigen von Kommentaren
+
 1. Öffnen eines paginierten Berichts oder eines Power BI-Berichts auf einem Berichtsserver.
 2. Wählen Sie in der oberen rechten Ecke **Kommentare** aus.
-   
+
     ![„Kommentare“ auswählen](media/add-comments/report-server-web-portal-comments-button.png)
-   
+
     Im Bereich „Kommentare“ sehen Sie alle vorhandenen Kommentare.
 3. Schreiben Sie Ihren Kommentar, und wählen Sie dann **Kommentar posten** aus.
-   
+
     ![Kommentar posten](media/add-comments/report-server-web-portal-comments-pane.png)
-   
+
     Ihr Kommentar wird zusammen mit allen früheren Kommentaren im Bereich auf dem Webportal angezeigt. Sie werden auch bei aktivierter Berichtsfunktion in den mobilen Power BI-Apps nicht angezeigt.
-   
+
    > [!TIP]
    > Wussten Sie schon? Sie können [Power BI-Berichte in den mobilen Power BI-Apps kommentieren](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) und die kommentierten Berichte mit anderen teilen.
-   > 
-   > 
 
 ## <a name="permissions"></a>Berechtigungen
+
 Abhängig von Ihren Berechtigungen zeigt sich Ihnen dieses Verhalten:
 
 * Sie sehen keine Kommentare.

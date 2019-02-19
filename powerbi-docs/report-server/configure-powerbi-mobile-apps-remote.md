@@ -1,20 +1,20 @@
 ---
 title: Konfigurieren des Remotezugriffs von mobilen iOS-Apps auf Berichtsserver
 description: Erfahren Sie, wie Sie Ihre mobilen iOS-Apps remote für Ihren Berichtsserver konfigurieren.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293578"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324367"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Remotekonfiguration des Zugriffs der mobilen Power BI-App für iOS auf Berichtsserver
 
@@ -35,10 +35,10 @@ In der folgenden Tabelle sind die Paare aufgeführt.
 
 |Schlüssel  |Typ  |Beschreibung  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL </br> Muss mit http/https beginnen |
-| com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] </br> Der Benutzername, der zum Verbinden des Servers verwendet wird. </br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional] </br> Der Standardwert ist „Berichtsserver“. </br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolescher Wert | Der Standardwert ist TRUE </br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. </br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. </br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. </br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
+| com.microsoft.powerbi.mobile.ServerURL | Zeichenfolge | Berichtsserver-URL <br> Muss mit http/https beginnen |
+| com.microsoft.powerbi.mobile.ServerUsername | Zeichenfolge | [Optional] <br> Der Benutzername, der zum Verbinden des Servers verwendet wird. <br> Wenn keiner vorhanden ist, fordert die App den Benutzer auf, den Benutzernamen für die Verbindung einzugeben.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Zeichenfolge | [Optional] <br> Der Standardwert ist „Berichtsserver“. <br> Ein Anzeigename, der in der App zur Darstellung des Servers verwendet wird | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolescher Wert | Der Standardwert ist TRUE <br>Wenn der Wert TRUE festgelegt ist, werden sämtliche Berichtsserverdefinitionen überschrieben, die möglicherweise bereits auf dem mobilen Gerät gespeichert sind. Alle Server, die bereits konfiguriert wurden, werden gelöscht. <br> Wenn die Außerkraftsetzung auf TRUE festgelegt ist, wird dadurch auch verhindert, dass der Benutzer diese Konfiguration entfernt. <br> Bei FALSE werden die mithilfe von Push übertragenen Werte hinzugefügt, und vorhandene Einstellungen werden beibehalten. <br> Wenn dieselbe Server-URL bereits in der mobilen App konfiguriert ist, werden keine Änderungen an der Konfiguration durch die App vorgenommen. Die App fordert den Benutzer nicht dazu auf, für denselben Server erneut eine Authentifizierung durchzuführen. |
 
 Unten sehen Sie ein Beispiel der Festlegung der Konfigurationsrichtlinie über Intune.
 

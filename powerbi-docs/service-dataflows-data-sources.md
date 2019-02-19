@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280552"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324919"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Herstellen einer Verbindung mit Datenquellen über Power BI-Dataflows (Vorschauversion)
 
@@ -76,6 +76,7 @@ Die Kategorie **Datenbank** enthält die folgenden verfügbaren Datenverbindunge
 * SQL Server-Datenbank
 * Sybase-Datenbank
 * Teradata-Datenbank
+* Vertica
 
 Die Kategorie **Power BI** enthält die folgenden verfügbaren Datenverbindungen für Dataflows:
 
@@ -91,6 +92,7 @@ Die Kategorie **Azure** enthält die folgenden verfügbaren Datenverbindungen f�
 
 Die Kategorie **Onlinedienste** enthält die folgenden verfügbaren Datenverbindungen für Dataflows:
 
+* Amazon Redshift
 * Common Data Service für Apps
 * Microsoft Exchange Online
 * Salesforce-Objekte
@@ -154,12 +156,8 @@ Anschließend stellt Ihr Skript eine Verbindung mit der von Ihnen angegebenen Da
 
 In der folgenden Liste können Sie sehen, welche Connectors Sie aktuell durch Kopieren und Einfügen der M-Abfrage in eine leere Abfrage verwenden können:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ In der folgenden Liste können Sie sehen, welche Connectors Sie aktuell durch Ko
 * Azure HDInsight (HDFS)
 * Hadoop-Datei (HDFS)
 * Informix (Beta)
-* Vertica
 
 Mehr ist zum Herstellen einer Verbindung mit Datenquellen in Power BI-Dataflows nicht erforderlich.
 

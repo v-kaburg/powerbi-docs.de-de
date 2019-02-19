@@ -1,20 +1,20 @@
 ---
 title: Ablauffristen für den Support für Power BI-Berichtsserver
 description: Eine Liste der Versionen und Verfügbarkeit von Power BI-Berichtsserver.
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/24/2019
-ms.openlocfilehash: b2ddf1e55f54b9c671a92df497c0a2ae1afdcced
-ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
+ms.openlocfilehash: 06946f4f838446113d244d4acec74b9f66a60a45
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54907516"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324619"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
 

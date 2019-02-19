@@ -1,22 +1,23 @@
 ---
 title: Eingebettete Datenquellen für paginierte Berichte im Power BI-Dienst (Vorschau)
 description: In diesem Artikel erfahren Sie, wie eine eingebettete Datenquelle in einem paginierten Bericht im Power BI-Dienst erstellt und geändert wird.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d768edbbc57e52186fdb33e1aed9a3da76408963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275592"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324390"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Erstellen einer eingebetteten Datenquelle für paginierte Berichte im Power BI-Dienst (Vorschau)
+
 In diesem Artikel erfahren Sie, wie eine eingebettete Datenquelle für einen paginierten Bericht im Power BI-Dienst erstellt und geändert wird. Sie definieren eine eingebettete Datenquelle in einem einzelnen Bericht und verwenden sie nur in diesem Bericht. Derzeit sind für paginierte Berichte, die im Power BI-Dienst veröffentlicht werden, eingebettete Datasets und eingebettete Datenquellen erforderlich. Sie können eine Verbindung mit folgenden Datenquellen herstellen:
 
 - Azure SQL-Datenbank und Data Warehouse

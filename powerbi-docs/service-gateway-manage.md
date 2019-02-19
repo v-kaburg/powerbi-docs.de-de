@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276995"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324839"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Verwalten eines lokalen Power BI-Gateways
 
-Nach dem [Installieren eines Power BI-Datengateways](service-gateway-install.md) können Sie dieses basierend auf Ihren Anforderungen verwalten. In diesem Thema erfahren Sie, wie Sie folgende Aktionen ausführen: Hinzufügen und Entfernen von Datenquellen und Benutzern, Neustart eines Gateways sowie Migrieren, Wiederherstellen, Übernehmen und Entfernen eines Gateways. 
+Nach dem [Installieren eines Power BI-Datengateways](service-gateway-install.md) können Sie dieses basierend auf Ihren Anforderungen verwalten. In diesem Thema erfahren Sie, wie Sie folgende Aktionen ausführen: Hinzufügen und Entfernen von Datenquellen und Benutzern, Neustart eines Gateways sowie Migrieren, Wiederherstellen, Übernehmen und Entfernen eines Gateways.
 
-Sie können ein Gateway im Bereich **Gateways verwalten** des Power BI-Diensts, in der Gateway-App auf Ihrem lokalen Computer oder mit PowerShell-Skripts verwalten. In diesem Artikel geht es primär um den Power BI-Dienst. 
+Sie können ein Gateway im Bereich **Gateways verwalten** des Power BI-Diensts, in der Gateway-App auf Ihrem lokalen Computer oder mit PowerShell-Skripts verwalten. In diesem Artikel geht es primär um den Power BI-Dienst.
 
 Wenn Sie bereits ein Gateway installiert haben, sollten Sie als Nächstes [eine Datenquelle hinzufügen](#add-a-data-source) und dann [Benutzer hinzufügen](#add-users-to-a-data-source), sodass diese auf die Datenquelle zugreifen können.
 

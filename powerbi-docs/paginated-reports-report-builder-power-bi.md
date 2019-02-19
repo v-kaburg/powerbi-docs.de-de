@@ -1,22 +1,23 @@
 ---
 title: Was sind paginierte Berichte in Power BI Premium? (Vorschau)
 description: Paginierte Berichte sind seit Langem das Standardberichtsformat in SQL Server Reporting Services und stehen jetzt auch im Power BI-Dienst zur Verfügung. Diese Berichte können ausgedruckt oder freigegeben werden. Das Berichtslayout kann detailliert gesteuert werden. Sie zeigen beispielsweise alle Daten in einer Tabelle an, selbst wenn die Tabelle sich über mehrere Seiten erstreckt.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.author: maggies
-ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282838"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324614"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Was sind paginierte Berichte in Power BI Premium? (Vorschau)
+
 Paginierte Berichte sind seit Langem das Standardberichtsformat in SQL Server Reporting Services und stehen jetzt auch im Power BI-Dienst zur Verfügung. Diese Berichte können ausgedruckt oder freigegeben werden. Sie werden als „paginiert“ bezeichnet, weil sie so formatiert sind, dass sie gut auf eine Seite passen. Sie zeigen alle Daten in einer Tabelle an, selbst wenn die Tabelle sich über mehrere Seiten erstreckt. Sie werden gelegentlich auch als „pixelperfekt“ bezeichnet, weil Sie das Berichtsseitenlayout detailliert steuern können. Paginierte Berichte basieren auf der RDL-Berichtstechnologie von SQL Server Reporting Services. Der Berichts-Generator ist das eigenständige Tool für die Erstellung paginierter Berichte. 
 
 Paginierte Berichte können viele Seiten umfassen. Dieser Bericht umfasst beispielsweise 563 Seiten. Jede Seite ist genau strukturiert, mit einer Seite pro Rechnung und sich wiederholenden Kopf- und Fußzeilen.
