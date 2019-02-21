@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794321"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298843"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
 Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie geben an, wie oft Sie E-Mails von Power BI erhalten möchten: täglich, wöchentlich oder wenn die Daten aktualisiert werden. Sie können sogar eine spezifische Uhrzeit festlegen, zu der Power BI die E-Mails sendet, oder die Ausführung sofort starten.  
@@ -73,6 +73,7 @@ Nur Sie können Ihre Abonnements verwalten. Klicken Sie erneut auf **Abonnieren*
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, das Dashboard oder der Bericht vom Besitzer gelöscht wird oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+* Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt. Es wird empfohlen, dass Sie die Anzahl der angehefteten Kacheln auf unter 25 und der angehefteten Liveberichten auf unter vier reduzieren, um sicherzustellen, dass die E-Mails ordnungsgemäß dargestellt werden.  
 * Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtsseite abonnieren und diese umbenannt wird, müssen Sie Ihr Abonnement erneut erstellen.
 * Wenn Sie das Abonnementfeature nicht verwenden können, wenden Sie sich an Ihren Systemadministrator. Möglicherweise hat Ihre Organisation das Feature aus Authentifizierungs- oder anderen Gründen deaktiviert.  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279318"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325012"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises data gateway
 Benutzer in Ihrer Organisation können auf lokale Daten zugreifen (für die sie bereits über Zugriffsberechtigungen verfügen). Bevor diese Benutzer jedoch eine Verbindung mit der lokalen Datenquelle herstellen können, muss ein lokales Datengateway installiert und konfiguriert werden. Das Gateway ermöglicht die schnelle und sichere, im Hintergrund ablaufende Kommunikation eines Benutzers in der Cloud mit Ihrer lokalen Datenquelle und zurück in die Cloud.
@@ -90,7 +90,7 @@ Mit Azure AD Connect können Sie sicherstellen, dass der UPN Ihres AAD-Kontos un
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Das Gateway
-Das Gateway fungiert als Brücke zwischen der Cloud und Ihrem lokalen Server. Die Datenübertragung zwischen der Cloud und dem Gateway ist mithilfe des [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) geschützt. Der Service Bus erstellt einen sicheren Kanal zwischen der Cloud und Ihrem lokalen Server über eine ausgehende Verbindung auf dem Gateway.  Sie müssen dazu keine eingehenden Verbindungen in Ihrer lokalen Firewall zulassen.
+Das Gateway fungiert als Brücke zwischen der Cloud und Ihrem lokalen Server. Die Datenübertragung zwischen der Cloud und dem Gateway ist mithilfe des [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview) geschützt. Der Service Bus erstellt einen sicheren Kanal zwischen der Cloud und Ihrem lokalen Server über eine ausgehende Verbindung auf dem Gateway.  Sie müssen dazu keine eingehenden Verbindungen in Ihrer lokalen Firewall zulassen. Power BI verwaltet den Service Bus für Sie, weshalb keine zusätzlichen Kosten entstehen und keine weiteren Konfigurationsschritte erforderlich sind.
 
 Wenn Sie über eine Analysis Services-Datenquelle verfügen, müssen Sie das Gateway auf einem Computer installieren, der der gleichen Gesamtstruktur oder Domäne wie der Analysis Services-Server angehört.
 

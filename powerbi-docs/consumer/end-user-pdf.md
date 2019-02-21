@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794992"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298866"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportieren von Power BI-Berichten als PDF-Dateien
 Mit Power BI können Sie Berichte im PDF-Format veröffentlichen und darauf basierend einfach ein Dokument erstellen. Wenn Sie das Feature **In PDF exportieren** verwenden, wird jede Seite des Power BI-Berichts als individuelle Seite im PDF-Dokument angezeigt.
@@ -28,6 +28,10 @@ Wählen Sie im Power BI-Dienst einen Bericht aus, der im Zeichenbereich angezeig
 
     ![„Datei“ auf der Menüleiste und Pfeil, der auf „In PDF exportieren“ zeigt](media/end-user-pdf/power-bi-export-pdf.png)
 
+    Ein Popupfenster wird angezeigt, in dem Sie die **aktuelle Ansicht** oder die **Standardansicht** auswählen können.  Die **aktuelle Ansicht** exportiert den Bericht im aktuellen Zustand. Dazu gehören die aktiven Änderungen, die Sie an Datenschnitt- und Filterwerten vorgenommen haben.  Die meisten Benutzer wählen diese Option aus.  Alternativ können Sie **Standardansicht** auswählen, wodurch der Bericht im ursprünglichen Zustand exportiert wird (wie er vom Autor freigegeben wurde). Änderungen, die Sie am ursprünglichen Zustand vorgenommen haben, werden nicht dargestellt.
+    
+    Darüber hinaus können Sie über das Kontrollkästchen auswählen, ob die ausgeblendeten Registerkarten eines Berichts exportiert werden sollen.  Aktivieren Sie das Kontrollkästchen einfach, wenn Sie nur die Registerkarten des Berichts exportieren möchten, die Ihnen im Browser angezeigt werden.  Wenn Sie alle ausgeblendeten Registerkarten im Exportvorgang enthalten möchten, lassen Sie das Kontrollkästchen deaktiviert.  Wenn das Kontrollkästchen ausgegraut ist, enthält der Bericht keine ausgeblendeten Registerkarten.  Sobald Sie Ihre Auswahl vorgenommen haben, klicken Sie auf „Exportieren“, um fortzufahren.
+    
     In der oberen rechten Ecke wird eine Fortschrittsleiste angezeigt. Das Exportieren kann einige Minuten dauern. Während der Bericht exportiert wird, können Sie in Power BI weiterarbeiten.
 
     ![Meldung zum Fortschritt des Exportierens](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ Das war schon alles. Sie können die Datei herunterladen und mit einem beliebige
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Einige Aspekte und Einschränkungen sind bei der Arbeit mit dem Feature **In PDF exportieren** zu beachten.
-
-- Sitzungsinterne Interaktivität wie Hervorheben und Filtern, Drilldown usw. wird beim Export in PDF derzeit nicht unterstützt. Die exportierte PDF-Datei enthält die ursprünglichen Visuals, wie sie im Bericht gespeichert wurden. Wenn Sie Filter und Datenschnitte angewendet haben und diese im Export beibehalten werden sollen, speichern Sie den Bericht, und führen Sie erst dann den Export durch.
 
 * **R-Visuals** werden derzeit nicht unterstützt. Diese Visuals werden in der PDF-Datei leer sein und eine Fehlermeldung anzeigen.  
 

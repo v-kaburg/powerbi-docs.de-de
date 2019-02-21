@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280054"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249112"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -141,6 +141,11 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 ### <a name="pane-navigation"></a>Navigationsbereich
 | Zweck           | Tastenkombination                |
 | :------------------- | :------------------- |
+| Mehrfachauswahl | STRG+LEERTASTE |
+| Eine einzelne Tabelle reduzieren | NACH-LINKS-TASTE |
+| Eine einzelne Tabelle erweitern | NACH-RECHTS-TASTE |
+| Alle Tabellen reduzieren | ALT+UMSCHALT+1 |
+| Alle Tabellen erweitern | ALT+UMSCHALT+9 |
 | Kontextmenü öffnen | <ul><li>Windows-Tastatur: Windows-Taste + F10.  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastatur: UMSCHALT+F10</li></ul> |
 
 ### <a name="slicer"></a>Slicer

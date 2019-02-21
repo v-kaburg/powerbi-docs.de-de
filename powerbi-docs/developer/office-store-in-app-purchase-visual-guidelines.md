@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430002"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408067"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlinien für Power BI-Visuals mit zusätzlichen Käufen
 
@@ -22,6 +22,10 @@ Bis vor Kurzem wurden im **Marketplace (AppSource)** nur kostenlose Power BI-Vis
 
 > [!Note]
 > Damit ein Visual zertifiziert werden kann, darf es nicht auf externe Dienste oder Ressourcen zugreifen.
+
+> [!Note]
+> Alle kostenlosen Visuals sollten dieselben kostenlosen Features beibehalten, die zuvor angeboten wurden. Sie können kostenpflichtige, optionale erweiterte Features auf Grundlage der alten Features hinzufügen. Es wird empfohlen, die IAP-Visuals mit den erweiterten Features als neue Visuals zu veröffentlichen, anstatt die alten, kostenlosen Features zu aktualisieren.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>Was ändert sich am Übermittlungsprozess?
 

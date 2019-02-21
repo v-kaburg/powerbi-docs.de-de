@@ -1,6 +1,6 @@
 ---
 title: Embedded Analytics für das Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
-description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Organisation in eine Anwendung integrieren bzw. einbetten. Hier erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
+description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Organisation in eine Anwendung integrieren bzw. einbetten. In diesem Artikel erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762465"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249434"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
 
@@ -57,7 +57,7 @@ Registrieren Sie Ihre Anwendung in Azure Active Directory, damit die Anwendung a
 
 3. Wählen Sie im Navigationsbereich auf der linken Seite die Option **Alle Dienste** und anschließend **App-Registrierungen** aus. Wählen Sie anschließend **Neue Anwendungsregistrierung** aus.
 
-    ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+    ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![Neue App-Registrierung](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
@@ -367,7 +367,7 @@ window.onload = function () {
     // client side click to embed a selected report.
     var el = document.getElementById("bEmbedReportAction");
     if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReporte, false);
+        el.addEventListener("click", updateEmbedReport, false);
     } else {
         el.attachEvent('onclick', updateEmbedReport);
     }

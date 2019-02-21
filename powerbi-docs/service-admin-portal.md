@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086469"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408182"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -172,11 +172,11 @@ Die folgende Abbildung zeigt die Option zum Exportieren von Daten aus einer Kach
 > [!NOTE]
 > Durch das Deaktivieren von **Daten exportieren** wird zudem verhindert, dass Benutzer das Feature **In Excel analysieren** sowie die Liveverbindung des Power BI-Diensts verwenden können.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Berichte als PowerPoint-Präsentationen exportieren
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportieren von Berichten als PowerPoint-Präsentationen oder PDF-Dokumente
 
-Benutzer in der Organisation können Power BI-Berichte als PowerPoint-Dateien exportieren. [Weitere Informationen](consumer/end-user-powerpoint.md)
+Benutzer in der Organisation können Power BI-Berichte als PowerPoint-Dateien oder PDF-Dokumente exportieren. [Weitere Informationen](consumer/end-user-powerpoint.md)
 
-Die folgenden Abbildung zeigen das Menü **Datei** für einen Bericht, wenn die Einstellung **Berichte aus PowerPoint-Präsentationen exportieren** aktiviert ist.
+In der folgenden Abbildung wird das Menü **Datei** für einen Bericht gezeigt, wenn die Einstellung **Berichte als PowerPoint-Präsentationen oder PDF-Dokumente exportieren** aktiviert ist.
 
 ![Berichte als PowerPoint-Präsentationen exportieren](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Die folgende Abbildung zeigt die Option **Meine gesamte Organisation** beim Erst
 
 ![Veröffentlichen von Inhaltspaketen für die Organisation](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Vorlagenpakete mit Organisationsinhalten und Apps erstellen
+### <a name="create-template-apps"></a>Erstellen von Vorlagen-Apps
 
-Benutzer in der Organisation können Vorlageninhaltspakete erstellen, die in Power BI Desktop erstellte Datasets verwenden. [Weitere Informationen](template-content-pack-authoring.md)
+Benutzer in der Organisation können Vorlagen-Apps erstellen, die in Power BI Desktop erstellte Datasets verwenden. Weitere Informationen finden Sie unter [template apps (Vorlagen-Apps)](template-content-pack-authoring.md).
 
 ### <a name="push-apps-to-end-users"></a>Apps mithilfe von Push an Endbenutzer übertragen
 
@@ -301,6 +301,18 @@ Benutzer in der Organisation können Dataflows erstellen und verwenden. Weitere 
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
+
+## <a name="template-apps-settings-preview"></a>Einstellungen für Vorlagen-Apps (Vorschau)
+
+Es gibt zwei Einstellungen für Vorlagen-Apps. 
+
+![Einstellungen für Vorlagen-Apps im Power BI-Verwaltungsportal](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+Mit der ersten Einstellung **Vorlagen-Apps erstellen** wird gesteuert, wer in Ihrer Organisation Vorlagen-Apps erstellen kann. Die Ersteller der Vorlagen-Apps können sie dann über AppSource oder eine andere Verteilungsmethode an Clients außerhalb Ihrer Organisation verteilen.
+
+![Vorlagen-App-Einstellung im Power BI-Verwaltungsportal erstellen](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+Mit der zweiten Einstellung **Vorlagen-Apps installieren** wird gesteuert, wer in Ihrer Organisation Vorlagen-Apps aus AppSource oder anderen Quellen herunterladen und installieren kann.
 
 ## <a name="capacity-settings"></a>Kapazitätseinstellungen
 

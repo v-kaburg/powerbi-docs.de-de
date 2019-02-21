@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126535"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249135"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Diagnoseprotokollierung für Power BI Embedded in Azure
 
@@ -114,13 +114,13 @@ Die Kategorie „Engine“ weist die Ressource an, die folgenden Ereignisse zu p
 |    Überwachung von Abmeldungsereignissen    |    Zeichnet alle Trennungen von den Engine-Ereignissen seit Beginn der Ablaufverfolgung auf.    |
 |    Fehler (Error)    |    Zeichnet alle Engine-Fehlerereignisse seit Beginn der Ablaufverfolgung auf.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Eigenschaftenname | Beispiel für das Ende der Vertipaq-Abfrage | Eigenschaftenbeschreibung |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | Die Ereignisklasse wird zum Kategorisieren von Ereignissen verwendet. |
-| EventSubclass | 0 | Die Ereignisunterklasse enthält weitere Informationen zu den einzelnen Ereignisklassen. (z.B. 0: VertiPaq-Überprüfung) |
+| EventSubclass | 0 | Die Ereignisunterklasse enthält weitere Informationen zu den einzelnen Ereignisklassen. (Zum Beispiel 0: VertiPaq-Überprüfung) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | Stammaktivitäts-ID. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Der Zeitpunkt, zu dem das Ereignis begonnen hat, falls verfügbar. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Der Zeitpunkt, zu dem das Ereignis begonnen hat, falls verfügbar. |
@@ -136,7 +136,7 @@ Die Kategorie „Engine“ weist die Ressource an, die folgenden Ereignisse zu p
 | ProgressTotal | 0 | Status gesamt. |
 | IntegerData | 0 | Integer-Daten. |
 | Severity | 0 | Schweregrad einer Ausnahme. |
-| Vorgang erfolgreich! | 1 | 1 = Erfolgreiche Ausführung 0 = Fehlerhafte Ausführung (z.B. gibt der Wert „1“ die erfolgreiche Ausführung einer Berechtigungsüberprüfung und „0“ einen Fehler bei dieser Überprüfung an). |
+| Vorgang erfolgreich | 1 | 1 = Erfolgreiche Ausführung 0 = Fehlerhafte Ausführung (z.B. gibt der Wert „1“ die erfolgreiche Ausführung einer Berechtigungsüberprüfung und „0“ einen Fehler bei dieser Überprüfung an). |
 | Fehler (Error) | 0 | Fehlernummer eines bestimmten Ereignisses. |
 | TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | Dem Ereignis zugeordnete Textdaten. |
 | ConnectionID | 3 | Eindeutige Verbindungs-ID. |
@@ -183,7 +183,7 @@ Wählen Sie **EventClass\_s** oder einen der Ereignisnamen aus. Log Analytics f�
 
 Sehen sich unbedingt den Dienst [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) an, der eine Website mit einer erweiterten Abfrage, Dashboards und Warnfunktionen für gesammelte Daten bietet.
 
-### <a name="queries"></a>Abfragen
+### <a name="queries"></a>Queries
 
 Es gibt Hunderte von Abfragen, die Sie verwenden können. Im Folgenden finden Sie einige Beispiele für den Einstieg: Weitere Informationen zur Verwendung der neuen Abfragesprache der Protokollsuche finden Sie unter [Grundlegendes zu Protokollsuchvorgängen in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

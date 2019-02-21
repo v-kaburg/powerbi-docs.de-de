@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281549"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298912"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportieren von Berichten aus Power BI nach PowerPoint
 Mit Power BI können Sie Berichte in **Microsoft PowerPoint** veröffentlichen und darauf basierend einfach eine Foliengruppe erstellen. Beim **Export nach PowerPoint** geschieht Folgendes:
@@ -35,6 +35,10 @@ Wählen Sie im Power BI-Dienst einen Bericht aus, der im Zeichenbereich angezeig
 Sobald der Bericht, den Sie nach PowerPoint exportieren möchten, im Zeichenbereich angezeigt wird, wählen Sie in der Menüleiste im Power BI-Dienst **Datei > Export nach PowerPoint** aus.
 
 ![Nahaufnahme der Navigationsleiste mit ausgewählter Option „Mein Arbeitsbereich“ und ausgewähltem Dropdownmenü „Datei“](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Ein Popupfenster wird angezeigt, in dem Sie die **aktuelle Ansicht** oder die **Standardansicht** auswählen können.  Die **aktuelle Ansicht** exportiert den Bericht im aktuellen Zustand. Dazu gehören die aktiven Änderungen, die Sie an Datenschnitt- und Filterwerten vorgenommen haben.  Die meisten Benutzer wählen diese Option aus.  Alternativ können Sie **Standardansicht** auswählen, wodurch der Bericht im ursprünglichen Zustand exportiert wird (wie er vom Autor freigegeben wurde). Änderungen, die Sie am ursprünglichen Zustand vorgenommen haben, werden nicht dargestellt.
+    
+Darüber hinaus können Sie über das Kontrollkästchen auswählen, ob die ausgeblendeten Registerkarten eines Berichts exportiert werden sollen.  Aktivieren Sie das Kontrollkästchen einfach, wenn Sie nur die Registerkarten des Berichts exportieren möchten, die Ihnen im Browser angezeigt werden.  Wenn Sie alle ausgeblendeten Registerkarten im Exportvorgang enthalten möchten, lassen Sie das Kontrollkästchen deaktiviert.  Wenn das Kontrollkästchen ausgegraut ist, enthält der Bericht keine ausgeblendeten Registerkarten.  Sobald Sie Ihre Auswahl vorgenommen haben, klicken Sie auf **Exportieren**, um fortzufahren.
 
 Rechts oben im Browserfenster des Power BI-Diensts wird ein Benachrichtigungsbanner mit der Information angezeigt, dass ein Export nach PowerPoint ausgeführt wird. Dies kann einige Minuten dauern. Während der Bericht exportiert wird, können Sie in Power BI weiterarbeiten.
 
@@ -74,7 +78,6 @@ Wie Sie mit dem PowerPoint-Stapel und den hochauflösenden Bildern weiter verfah
 ## <a name="limitations"></a>Einschränkungen
 Einige Aspekte und Einschränkungen sind bei der Arbeit mit der Funktion **Export nach PowerPoint** zu beachten.
 
-* Sitzungsinterne Interaktivität wie Hervorheben und Filtern, Drilldown usw. wird beim Export nach PowerPoint derzeit nicht unterstützt. Die exportierte PowerPoint-Datei enthält die ursprünglichen Visualisierungen, wie sie im Bericht gespeichert wurden. Wenn Sie Filter und Slicer angewendet haben und dies im Export beibehalten werden soll, speichern Sie den Bericht, und führen Sie dann erst den Export durch.
 * **R-Visuals** werden derzeit nicht unterstützt. Diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
 * **Benutzerdefinierte Visuals**, die **zertifiziert** wurden, werden unterstützt. Weitere Informationen zu zertifizierten benutzerdefinierten Visuals sowie zum Zertifizieren von benutzerdefinierten Visuals finden Sie unter [Wie wird ein benutzerdefiniertes Visual zertifiziert?](../power-bi-custom-visuals-certified.md). Nicht zertifizierte Visuals werden nicht unterstützt, und diese Visuals werden als leeres Bild in PowerPoint mit der Fehlermeldung exportiert, dass das Visual nicht unterstützt wird.
 * Berichte mit mehr als 30 Berichtsseiten können derzeit nicht exportiert werden.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292046"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249342"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Erstellen und Verwalten von Beziehungen in Power BI Desktop
 Wenn Sie mehrere Tabellen importieren, werden Sie mit großer Wahrscheinlichkeit einige Analysen mit Daten aus allen diesen Tabellen durchführen. Beziehungen zwischen diesen Tabellen sind erforderlich, um die Ergebnisse genau zu berechnen und die richtigen Informationen in Ihren Berichten anzuzeigen. Mit Power BI Desktop können diese Beziehungen ganz leicht erstellt werden. Tatsächlich müssen Sie in den meisten Fällen keine weiteren Schritte unternehmen, da die AutoErmittlungsfunktion dies für Sie übernimmt. In einigen Fällen müssen Sie die Beziehungen jedoch möglicherweise selbst erstellen oder Änderungen an einer Beziehung vornehmen. In beiden Fällen ist es wichtig zu verstehen, wie Beziehungen in Power BI funktionieren und wie sie erstellt und bearbeitet werden.
@@ -58,6 +58,8 @@ Beim Erstellen oder Bearbeiten einer Beziehung können Sie zusätzliche Optionen
 **N zu Eins (\*:1)** – Dies ist der am häufigsten verwendete Typ und somit der Standardtyp. Das bedeutet, dass die Spalte in einer Tabelle mehrere Instanzen eines Werts aufweisen kann, während die andere verknüpfte Tabelle, die häufig als Nachschlagetabelle bezeichnet wird, nur eine Instanz eines Werts besitzt.
 
 **Eins zu Eins (1:1)** – Dies bedeutet, dass die Spalte in einer Tabelle nur eine Instanz eines bestimmten Werts aufweist, wobei die andere verknüpfte Tabelle ebenfalls nur eine Instanz eines bestimmten Werts besitzt.
+
+**m:n-Beziehungen**: Mithilfe zusammengesetzter Modelle können Sie m:n-Beziehungen zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführlichere Informationen finden Sie unter [Relationships with a many-many cardinality (Beziehungen mit einer m:n-Kardinalität)](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Weitere Informationen über den geeigneten Zeitpunkt zum Ändern der Kardinalität finden Sie im Abschnitt „Informationen zu zusätzlichen Optionen“ im Verlauf dieses Artikels.
 

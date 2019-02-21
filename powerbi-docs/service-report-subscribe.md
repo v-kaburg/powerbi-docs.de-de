@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430945"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408113"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst für sich selbst und andere
 
@@ -60,12 +60,10 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 7. Klicken Sie auf **Speichern und schließen**. Die Abonnenten erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder der Berichtseite mit der Häufigkeit und zu der Uhrzeit, die Sie ausgewählt haben. Insgesamt können Sie bis zu 24 Abonnements pro Bericht oder Dashboard erstellen und für jedes Abonnement eigene Empfänger, Uhrzeiten und Häufigkeiten angeben.  Für alle Abonnements, für die **After Data Refresh** (Nach der Datenaktualisierung) für das Dashboard oder den Bericht festgelegt wurde, wird dennoch nur nach der ersten geplanten Aktualisierung eine E-Mail versendet.   
       
    > [!TIP]
-   > Möchten Sie die E-Mail-Nachricht sofort ansehen? Lösen Sie das Senden einer E-Mail aus, indem Sie eines der mit dem Dashboard oder dem Bericht verknüpften Datasets aktualisieren. Wenn Sie nicht über Bearbeitungsberechtigungen für das Dataset verfügen, können Sie einen Benutzer mit den entsprechenden Berechtigungen bitten, es für Sie zu aktualisieren. Klicken Sie zum Anzeigen verwandter Datasets auf das Symbol **Verwandte Inhalte anzeigen** ![Symbol „Verwandte Inhalte anzeigen“](media/service-report-subscribe/power-bi-view-related.png), um **Verwandte Inhalte** zu öffnen, und klicken Sie dann auf das Symbol zum Aktualisieren ![Symbol „Aktualisieren“](media/service-report-subscribe/power-bi-refresh.png). 
+   > Möchten Sie die E-Mail zu einem Abonnement sofort oder zu einem beliebigen Zeitpunkt senden? Klicken Sie bei den Abonnements für das Dashboard oder den Bericht, für die Sie eine E-Mail senden möchten, auf **Jetzt ausführen**. Es wird eine Benachrichtigung angezeigt, die angibt, dass alle Benutzer dieses Abonnements eine E-Mail erhalten.  Sie können diesen Vorgang so oft durchführen, wie Sie möchten. Dies zählt nicht für das tägliche Limit von 24 geplanten Ausführungen von Abonnements pro Bericht oder Dashboard. Beachten Sie, dass die keine Datenaktualisierung für das zugrunde liegende Dataset auslöst. 
    > 
    > 
    
-   ![Zugehörige Datasets](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>E-Mail-Sprachen
 
 Für E-Mails und Momentaufnahmen wird die Sprache verwendet, die in den Power BI-Einstellungen festgelegt ist. Weitere Informationen finden Sie unter [Unterstützte Sprachen und Länder/Regionen für Power BI](supported-languages-countries-regions.md). Wenn keine Sprache definiert ist, verwendet Power BI die Sprache, die der Gebietsschemaeinstellung Ihres aktuellen Browsers entspricht. Sie können die Spracheinstellung anzeigen bzw. festlegen, indem Sie zuerst auf das Zahnradsymbol ![Zahnradsymbol](media/service-report-subscribe/power-bi-settings-icon.png) >  **und dann auf Einstellungen > Allgemein > Sprache** klicken. 
@@ -84,6 +82,7 @@ Welche Abonnements hier angezeigt werden, hängt vom aktiven Arbeitsbereich ab. 
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, der Besitzer das Dashboard oder den Bericht löscht oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
+* Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt.  Abonnements von Dashboards mit mehr als dieser Anzahl von Kacheln werden nicht blockiert, allerdings werden sie als nicht unterstützt betrachtet, wenn Sie auf Probleme stoßen. Diese Abonnements sollten entsprechend angepasst werden, sodass sie eine unterstützte Anzahl von Kacheln enthalten.
 * Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset die RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtseite abonnieren und dann umbenennen, müssen Sie das Abonnement erneut erstellen.
 * Ihre Organisation kann möglicherweise bestimmte Einstellungen in Azure Active Directory konfigurieren, wodurch die Möglichkeit zur Verwendung von E-Mail-Abonnements in Power BI eingeschränkt werden kann.  Dies umfasst unter anderem das Vorhandensein von Einschränkungen durch mehrstufige Authentifizierung oder IP-Adressbereiche beim Zugriff auf Ressourcen.

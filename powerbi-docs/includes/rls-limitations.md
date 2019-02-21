@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333875"
+---
 ## <a name="limitations"></a>Einschränkungen
 
 Es folgt eine Liste der aktuellen Einschränkungen für die Sicherheit auf Zeilenebene für Cloudmodelle.
@@ -8,7 +21,7 @@ Es folgt eine Liste der aktuellen Einschränkungen für die Sicherheit auf Zeile
 
 * Es werden nur ETL- und DirectQuery-Verbindungen unterstützt. Live-Verbindungen zu Analysis Services werden im lokalen Modell verarbeitet.
 
-* RLS unterstützt derzeit Q&A und Cortana nicht. Das Q&A-Eingabefeld für Dashboards wird nicht angezeigt, wenn für alle Modelle RLS konfiguriert ist. Das ist zwar geplant, jedoch können wir noch keinen Zeitplan nennen.
+* RLS unterstützt Cortana derzeit nicht.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086768"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325149"
 ---
 # <a name="key-influencers-visualization"></a>Visual „Wichtige Einflussfaktoren“
 Mithilfe des Visuals „Wichtige Einflussfaktoren“ können Sie die wichtigen Faktoren einer für Sie relevanten Metrik besser nachvollziehen. Es analysiert die Daten, erstellt eine Rangfolge für wichtige Faktoren und stellt diese dar. Das kann beispielsweise relevant sein, wenn Sie ermitteln möchten, welche Faktoren sich auf die Mitarbeiterfluktuation (Stellenwechsel) auswirkt. Dabei können z.B. die Länge des Anstellungsvertrags oder das Alter des Mitarbeiters wichtige Faktoren darstellen. 
@@ -167,11 +167,11 @@ Wenn Sie auf einen Kreis klicken, werden die Details zu diesem Segment angezeigt
  
 Das Visual „Wichtige Einflussfaktoren“ befindet sich derzeit in der Vorschauversion. Deshalb gibt es für Benutzer einige Einschränkungen. Derzeit sind folgende Funktionen nicht verfügbar: 
 - Das Analysieren von Metriken, die Aggregate oder Measures sind 
-- Das Verwenden des Visuals in Power BI Embedded 
-- Das Verwenden des Visuals in Power BI Mobile 
+- Das Verwenden des Visuals in Power BI Embedded
+- Das Verwenden des Visuals in mobilen Power BI-Apps
 - Unterstützung von RLS 
 - Unterstützung von DirectQuery 
-- Unterstützung von Liveabfragen 
+- Unterstützung für Liveverbindung 
  
 **Es wird ein Fehler angezeigt, dass keine Einflussfaktoren bzw. Segmente gefunden wurden. Wieso?**  
 
@@ -247,15 +247,16 @@ Das liegt daran, dass das Visual bei der Ermittlung von Einflussfaktoren auch di
 
 **Wie werden die wichtigen Einflussfaktoren berechnet?**
 
-Das KI-Visual führt im Hintergrund eine logistische Regression aus, um die wichtigen Einflussfaktoren zu berechnen. Bei einer logistischen Regression handelt es sich um ein Statistikmodell, das verschiedene Gruppen miteinander vergleicht. Während wir uns darauf konzentrieren, was Benutzer zu niedrigen Bewertungen bewegt, ermittelt die logistische Regression, was der Unterschied zwischen den Kunden ist, die eine niedrige oder eine hohe Bewertung abgegeben haben. Wenn mehrere Kategorien vorhanden wären (hohe Bewertung, neutrale Bewertung, niedrige Bewertung), würden wir ermitteln, was der Unterschied zwischen den Kunden ist, die eine hohe, neutrale oder niedrige Bewertung abgegeben haben. 
+Das KI-Visual verwendet [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) im Hintergrund, um eine logistische Regression zum Berechnen der wichtigen Einflussfaktoren auszuführen. Bei einer logistischen Regression handelt es sich um ein Statistikmodell, das verschiedene Gruppen miteinander vergleicht. Während wir uns darauf konzentrieren, was Benutzer zu niedrigen Bewertungen bewegt, ermittelt die logistische Regression, was der Unterschied zwischen den Kunden ist, die eine niedrige oder eine hohe Bewertung abgegeben haben. Wenn mehrere Kategorien vorhanden wären (hohe Bewertung, neutrale Bewertung, niedrige Bewertung), würden wir ermitteln, was der Unterschied zwischen den Kunden ist, die eine hohe, neutrale oder niedrige Bewertung abgegeben haben. 
  
 Die logistische Regression sucht in den Daten nach Mustern, um zu ermitteln, welcher Unterschied zwischen den Kunden besteht, die eine niedrige oder hohe Bewertung abgegeben haben. So wird möglicherweise ermittelt, dass Kunden, die viele Supporttickets öffnen, einen höheren prozentualen Anteil an den niedrigen Bewertungen ausmachen als die Kunden, die wenige oder keine Supporttickets öffnen.
  
 Bei der logistischen Regression wird auch die Anzahl der Datenpunkte berücksichtigt. Wenn Kunden mit Administratorrolle beispielsweise anteilig mehr negative Bewertungen abgeben, aber es nur sehr wenige Administratoren gibt, wird dieser Faktor nicht als Einflussfaktor gewertet, weil nicht genügend Datenpunkte vorliegen, um ein Muster abzuleiten. Es wird ein statistischer Test (Wald-Test) verwendet, um zu bestimmen, ob ein Faktor als Einflussfaktor gewertet werden kann. Im Visual wird ein p-Wert von 0,05 verwendet, um den Schwellenwert zu berechnen. 
- 
+
+
 **Wie werden Segmente berechnet?**
 
-Das KI-Visual führt im Hintergrund eine Entscheidungsstruktur aus, um interessante Untergruppen zu ermitteln. Das Ziel der Entscheidungsstruktur besteht darin, eine Untergruppe von Datenpunkten zu ermitteln, die in der relevanten Metrik relativ stark vertreten ist (z.B. Kunden, die eine niedrige Bewertung abgegeben haben). 
+Das KI-Visual verwendet [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) im Hintergrund, um eine Entscheidungsstruktur zum Ermitteln interessanter Untergruppen auszuführen. Das Ziel der Entscheidungsstruktur besteht darin, eine Untergruppe von Datenpunkten zu ermitteln, die in der relevanten Metrik relativ stark vertreten ist (z.B. Kunden, die eine niedrige Bewertung abgegeben haben). 
 
 Die Entscheidungsstruktur analysiert jeden erläuternden Faktor und versucht zu ermitteln, welcher die beste Aufteilung bietet. Wenn die Daten z.B. so gefiltert werden, dass nur große Unternehmenskunden berücksichtigt werden, stellt sich beispielsweise die Frage, ob Kunden aussortiert werden, die eine hohe bzw. niedrige Bewertung abgegeben haben. Weiterhin stellt sich die Frage, ob es sich als besser erweist, die Daten so zu filtern, dass nur Kunden berücksichtigt werden, die eine Bewertung zum Thema Sicherheit abgegeben haben. 
 

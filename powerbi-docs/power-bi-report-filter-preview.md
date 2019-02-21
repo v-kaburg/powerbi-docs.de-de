@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482704"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298820"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Die neue Filteroberfläche in Power BI-Berichten (Vorschau)
 
 In diesem Artikel wird die neue Filteroberfläche beschrieben: Filter in Power BI erhalten eine neue Funktionalität und ein neues Design. Wenn Sie in Power BI Desktop oder im Power BI-Dienst Berichte entwerfen, können Sie den Filterbereich in Bezug auf Aussehen und Verhalten an den gesamten Bericht anpassen. In der neuen Benutzeroberfläche fungiert der alte Filterbereich als Bereich für die Filterbearbeitung, die Berichtnutzer sehen nur den neuen Filterbereich. 
  
 ![Standardansicht (keine zusätzlichen Anpassungen angewendet)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> Die neue Filterfunktion befindet sich in der Vorschau. Neue Builds überschreiben möglicherweise Ihre festgelegte Formatierung.
 
 Beim Berichtentwurf bieten Ihnen die neuen Filter folgende Möglichkeiten:
 
@@ -83,6 +86,7 @@ Ein wichtiger Aspekt der neuen Benutzeroberfläche ist der, dass Sie den Filterb
 - Hintergrundtransparenz
 - Rahmen für Filterbereich (ein/aus)
 - Rahmenfarbe für Filterbereich
+- Schriftart, Farbe und Textgröße für Titel und Header des Filterbereichs
 
 Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachdem, ob sie angewendet wurden (auf einen Wert festgelegt) oder verfügbar (deaktiviert) sind: 
 
@@ -90,6 +94,8 @@ Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachde
 - Hintergrundtransparenz
 - Rahmen: ein/aus
 - Rahmenfarbe
+- Schriftart, Farbe und Textgröße
+- Farbe für Eingabefeld
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>Festlegen des Formats für Filterbereich und -karten
 
@@ -100,11 +106,11 @@ Für Filterkarten können Sie außerdem diese Elemente formatieren – je nachde
 
 1. Erweitern Sie den **Filterbereich**, um die Farbe für den Hintergrund, das Symbol und den linken Rahmen festzulegen und die Berichtseite zu vervollständigen.
 
-    ![Filterbereich erweitern](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![Filterbereich erweitern](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. Erweitern Sie **Filterkarten**, um Farbe und Rahmen für **Verfügbar** und **Angewendet** festzulegen. Wenn Sie unterschiedliche Farben für verfügbare und angewendete Karten festlegen, ist offensichtlich, welche Filter angewendet wurden. 
   
-    ![Filterkarte erweitern](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![Filterkarte erweitern](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Anzeigen von Filtern für ein Visual im Lesemodus
 

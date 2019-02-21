@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274718"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324482"
 ---
 # <a name="what-are-power-bi-gateways"></a>Was sind Power BI-Gateways?
 
@@ -53,7 +53,7 @@ Das Gateway, das Sie installieren, wird als Windows-Dienst **Lokales Datengatewa
 Abfragen und Datenfluss:
 
 1. Der Clouddienst erstellt eine Abfrage mit den verschlüsselten Anmeldeinformationen für die lokale Datenquelle. Dann wird die Abfrage zur Verarbeitung an eine Warteschlange für das Gateway gesendet.
-2. Der Gatewayclouddienst analysiert die Abfrage und übermittelt die Anforderung per Push an den Azure Service Bus.
+2. Der Gatewayclouddienst analysiert die Abfrage und übermittelt die Anforderung per Push an den Azure Service Bus. Power BI verwaltet den Service Bus für Sie, weshalb keine zusätzlichen Kosten entstehen und keine weiteren Konfigurationsschritte erforderlich sind.
 3. Das lokale Datengateway fragt Azure Service Bus für ausstehende Anforderungen ab.
 4. Das Gateway ruft die Abfrage ab, entschlüsselt die Anmeldeinformationen und stellt unter Verwendung dieser Anmeldeinformationen eine Verbindung mit den Datenquellen her.
 5. Das Gateway sendet die Abfrage zur Ausführung an die Datenquelle.
