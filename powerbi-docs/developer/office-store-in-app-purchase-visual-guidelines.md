@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408067"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426537"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlinien für Power BI-Visuals mit zusätzlichen Käufen
 
@@ -33,7 +33,10 @@ Entwickler laden ihre Visuals, die In-App-Käufe enthalten, genau wie kostenlose
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Was ist ein Power BI-Visual mit In-App-Käufen?
 
-Bei einem Visual mit In-App-Käufen handelt es sich um ein kostenloses Visual mit kostenlosen Features handelt, für das jedoch zusätzliche Features erworben werden können. Die Benutzer müssen in der Beschreibung des Visuals darüber informiert werden, welche Features kostenpflichtig sind. Derzeit bietet Microsoft keine nativen Anwendungsprogrammierschnittstellen (APIs) an, die Käufe in Apps und Add-Ins unterstützen. Entwickler müssen ein Zahlungssystem von einem Drittanbieter für diese Käufe verwenden. Weitere Informationen finden Sie in unseren [Richtlinien für Stores](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+Ein IAP-Visual ist ein kostenloses Visual mit kostenlosen Features, das jedoch auch zusätzliche erweiterte Features bietet, für deren Nutzung zusätzliche Kosten anfallen können. Die Benutzer müssen in der Beschreibung des Visuals darüber informiert werden, welche Features kostenpflichtig sind. Derzeit bietet Microsoft keine nativen Anwendungsprogrammierschnittstellen (APIs) an, die Käufe in Apps und Add-Ins unterstützen. Entwickler müssen ein Zahlungssystem von einem Drittanbieter für diese Käufe verwenden. Weitere Informationen finden Sie in unseren [Richtlinien für Stores](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+
+> [!NOTE]
+> Wasserzeichen sind in kostenlosen Features nicht zulässig. Entwickler können ein Popupfenster oder Wasserzeichen anzeigen, wenn die erweiterten kostenpflichtigen Funktionen ohne gültige Lizenz verwendet werden.  
 
 ## <a name="logo-guidelines"></a>Richtlinien für Logos
 

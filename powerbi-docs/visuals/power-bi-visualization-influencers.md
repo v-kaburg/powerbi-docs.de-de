@@ -3,19 +3,19 @@ title: Tutorial zum Visual „Wichtige Einflussfaktoren“
 description: 'Tutorial: Erstellen eines Visuals für wichtige Einflussfaktoren in Power BI'
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325149"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426790"
 ---
 # <a name="key-influencers-visualization"></a>Visual „Wichtige Einflussfaktoren“
 Mithilfe des Visuals „Wichtige Einflussfaktoren“ können Sie die wichtigen Faktoren einer für Sie relevanten Metrik besser nachvollziehen. Es analysiert die Daten, erstellt eine Rangfolge für wichtige Faktoren und stellt diese dar. Das kann beispielsweise relevant sein, wenn Sie ermitteln möchten, welche Faktoren sich auf die Mitarbeiterfluktuation (Stellenwechsel) auswirkt. Dabei können z.B. die Länge des Anstellungsvertrags oder das Alter des Mitarbeiters wichtige Faktoren darstellen. 
@@ -46,7 +46,7 @@ Bei der analysierten Metrik muss es sich um ein kategorisches Feld handeln.
 
 6. ***Rechter Bereich:*** Im rechten Bereich wird ein Visual dargestellt. In diesem Fall werden im Säulendiagramm alle Werte für den links ausgewählten Faktor **Theme** (Thema) des Visuals **Wichtige Einflussfaktoren** dargestellt. Der ausgewählte Wert (hier: **Usability** (Benutzerfreundlichkeit)) wird grün dargestellt, während alle anderen Werte von **Theme** (Thema) schwarz dargestellt werden.
 
-7. ***Durchschnittslinie:*** Der Durchschnitt, der aus allen Werten von **Theme** (Thema) mit Ausnahme von **Usability** (Benutzerfreundlichkeit) berechnet wurde. Die Berechnung setzt sich also aus allen schwarz dargestellten Werten zusammen. Dadurch wird ersichtlich, welcher Prozentsatz der sonstigen **Themen** eine niedrige Bewertung verursacht hat. Das heißt, dass ein Kunde, der eine Bewertung abgibt, auch den Grund bzw. das **Thema** der Bewertung angegeben hat. Zu den Themen zählen unter anderem Benutzerfreundlichkeit, Geschwindigkeit und Sicherheit. „**Theme** is **Usability**“ (Thema ist gleich Benutzerfreundlichkeit) ist dem Visual auf der linken Seite nach der zweitgrößte Einflussfaktor für eine niedrige Bewertung. Die Berechnung des Durchschnitts aus dem Einfluss aller anderen Themen auf die **niedrige** Bewertung führt zu dem rot dargestellten Ergebnis. 
+7. ***Durchschnittslinie:*** Der Durchschnitt, der aus allen Werten von **Theme** (Thema) mit Ausnahme von **Usability** (Benutzerfreundlichkeit) berechnet wurde. Die Berechnung setzt sich also aus allen schwarz dargestellten Werten zusammen. Dadurch wird ersichtlich, welcher Prozentsatz der sonstigen **Themen** eine niedrige Bewertung verursacht hat. Das heißt, dass ein Kunde, der eine Bewertung abgibt, auch den Grund bzw. das **Thema** der Bewertung angegeben hat. Zu den Themen zählen unter anderem Benutzerfreundlichkeit, Geschwindigkeit und Sicherheit. „**Theme** is **Usability**“ (Thema ist gleich Benutzerfreundlichkeit) ist dem Visual auf der linken Seite nach der zweitgrößte Einflussfaktor für eine niedrige Bewertung. Die Berechnung des Durchschnitts aus dem Einfluss aller anderen Themen auf die **niedrige** Bewertung führt zu dem rot dargestellten Ergebnis. Von allen anderen genannten Designs sind nur 11,35% höher als **Benutzerfreundlichkeit**. 
 
 8. ***Kontrollkästchen:*** Nur Werte anzeigen, die Einflussfaktoren sind.
 
@@ -71,7 +71,7 @@ Unser Produkt-Manager möchte ermitteln, welche Faktoren dazu führen, dass Kund
     - Role in Org (Rolle in der Organisation) 
     - Subscription Type (Abonnementtyp) 
     - Company Size (Unternehmensgröße) 
-    - wechseln     
+    - Theme     
 4. Da in diesem Fall die negativen Bewertungen relevant sind, sollten Sie im Dropdownmenü von **What influences Rating to be** (Wodurch fällt die Bewertung folgendermaßen aus:) **Low** (Niedrig) auswählen.  
 
     ![Auswahl von „Low“ (Niedrig) aus dem Dropdownmenü](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
@@ -217,7 +217,7 @@ Genauer gesagt geben Kunden, die den Dienst nicht über den Browser verwenden, 3
 
 ![behobener Fehler](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Es wird ein Fehler angezeigt, dass die Measures nicht in die Analyse einbezogen wurden. Wieso?** [2052261] 
+**Es wird ein Fehler angezeigt, dass die Measures nicht in die Analyse einbezogen wurden. Wieso?** 
 
 ![Fehler: Measures nicht einbezogen](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
