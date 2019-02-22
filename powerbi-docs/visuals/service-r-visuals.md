@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290209"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426606"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Erstellen von R-Visualisierungen im Power BI-Dienst
 Der Power BI-Dienst unterstützt das Anzeigen von und das Interagieren mit Visualisierungen, die mit R-Skripts erstellt werden. Visualisierungen, die mit R-Skripts erstellt werden, sogenannte*R-Visualisierungen*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich die starke Leistung von R hinsichtlich Analysen und Visualisierung zu Nutze machen.
@@ -66,11 +66,19 @@ Die folgende Abbildung zeigt als weiteres Beispiel die Fehlermeldung, die angeze
 ## <a name="licensing"></a>Lizenzierung
 R-Visualisierungen benötigen eine [Power BI Pro](../service-self-service-signup-for-power-bi.md)-Lizenz, um in Berichten zu rendern, um zu aktualisieren, zu filtern und über Kreuz zu filtern. Weitere Informationen zu Power BI Pro-Lizenzen und wie sie sich von kostenlosen Lizenzen unterscheiden, finden Sie unter [Power BI Pro-Inhalt – was ist das?](../service-premium.md)
 
-Kostenlose Benutzer von Power BI können nur für sie freigegebene Kacheln verwenden. Weitere Informationen finden Sie unter [Erwerb von Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
+Benutzer der kostenlosen Version von Power BI können nur für sie freigegebene Kacheln im Premium-Arbeitsbereich verwenden. Weitere Informationen finden Sie unter [Erwerb von Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
 
 Die folgende Tabelle beschreibt die auf der Lizenzierung basierenden Funktionen der R-Visualisierungen.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Erstellen von R-Visuals in Power BI Desktop  | Erstellen von PBI-Dienstberichten mit R-Visuals |Anzeigen von R-Visuals in Berichten  | Anzeigen von R-Kacheln in Dashboards |
+|---------|---------|---------|---------|--------|
+|**Gast** (Power BI Embedded)     |  Nicht relevant|  Nicht relevant       | Nicht unterstützt  | Nicht relevant |
+|**Nicht verwalteter Mandant** (Domäne nicht verifiziert) | Unterstützt | Nicht unterstützt |  Nicht unterstützt |Unterstützt (B2B-Szenario) |
+|**Verwalteter Mandant** mit kostenloser Lizenz    |  Unterstützt       |  Nicht unterstützt       |    Nur in der Premium-Kapazität unterstützt    | Unterstützt |
+**Verwalteter Mandant** mit Pro-Lizenz     |   Unterstützt      | Unterstützt      | Unterstützt    |Unterstützt|
+
+
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 R-Visualisierungen weisen im Power BI-Dienst einige Einschränkungen auf:

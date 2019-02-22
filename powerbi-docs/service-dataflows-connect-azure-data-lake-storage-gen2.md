@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216514"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426721"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)
 
@@ -70,6 +70,8 @@ Führen Sie die in dem Artikel [Assign a role to a security principal (Zuweisen 
 Wählen Sie im Fenster **Add role assignment** (Rollenzuweisung hinzufügen) die **Leserrolle** (Reader) aus, um sie dem Power BI-Dienst zuzuweisen. Verwenden Sie dann die Suche, um den **Power BI-Dienst** zu finden. Die folgende Abbildung zeigt die dem Power BI-Dienst zugewiesene **Leserrolle**.
 
 ![Power BI-Dienst mit zugewiesener Leserrolle](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+Hinweis: Es vergehen mindestens 30 Minuten, bis die Berechtigung in Power BI übernommen wird, nachdem Sie im Portal festgelegt wurde. Jedes Mal, wenn Sie die Berechtigung im Portal ändern, müssen Sie in etwa 30 Minuten warten, bis diese Änderung in Power BI widergespiegelt wird. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Erstellen eines Dateisystems für Power BI

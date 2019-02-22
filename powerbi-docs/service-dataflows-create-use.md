@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279042"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426629"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Erstellen und Verwenden von Dataflows in Power BI (Vorschau)
 
@@ -155,6 +155,10 @@ Es kann vorkommen, dass beim Verbinden von Dataflows mit Datenquellen Probleme a
 * **Salesforce-Connector**: Das Verwenden eines Salesforce-Testkontos mit Dataflows führt zu einem Verbindungsfehler ohne Angabe von weiteren Informationen. Verwenden Sie für diese Problembehandlung ein Salesforce-Produktionskonto oder ein Entwicklerkonto zum Testen.
 
 * **SharePoint-Connector**: Achten Sie darauf, dass Sie die Stammadresse der SharePoint-Website angeben – ohne Unterordner oder Dokumente. Verwenden Sie z.B. einen Link wie den folgenden: https://microsoft.sharepoint.com/teams/ObjectModel/. 
+
+* **JSON-Datei-Connector:** Derzeit können Sie eine Verbindung mit einer JSON-Datei nur über die Standardauthentifizierung herstellen.  Die Verbindung zu einer JSON-Datei durch Bereitstellen der Anmeldeinformationen innerhalb der URL (z.B. https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) wird derzeit **nicht** unterstützt.  
+
+* **Azure SQL Data Warehouse:** Dataflows unterstützen derzeit nicht die Azure Active Directory-Authentifizierung (AAD) für Azure SQL Data Warehouse. Verwenden Sie für dieses Szenario die Standardauthentifizierung.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

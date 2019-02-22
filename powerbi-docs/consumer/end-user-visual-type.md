@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794856"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426767"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 In Berichten, Dashboards, Apps und Q&A finden Sie Visualisierungen. Einige der Visualisierungstypen sind in Power BI enthalten, und einige andere sind *benutzerdefinierte Visuals*. Benutzerdefinierte Visuals werden außerhalb von Power BI erstellt, damit *Berichts-Designer* sie zu Power BI-Berichten, -Dashboards und -Apps hinzufügen können. 
@@ -98,10 +98,12 @@ Radiale Messgeräte sind gut für folgende Zwecke geeignet:
 - Anzeigen der Integrität eines Measures
 - Anzeigen von Informationen, die schnell überblickt und verstanden werden
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Diagramm für die wichtigsten Einflussfaktoren
+![Wichtigste Einflussfaktoren](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Ein Diagramm für die wichtigsten Einflussfaktoren stellt die wichtigsten Beiträge zu einem ausgewählten Ergebnis oder Wert dar.
+
+Wichtige Einflussfaktoren bieten eine gute Möglichkeit, die Faktoren zu verstehen, die eine wichtige Metrik beeinflussen. Beispiele hierfür sind *„Wodurch werden Kunden beeinflusst, eine zweite Bestellung zu tätigen?“ *oder* „Warum waren die Verkäufe im letzten Juni so hoch?“*. 
 
 ### <a name="kpis"></a>KPIs
 ![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
