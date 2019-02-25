@@ -1,6 +1,6 @@
 ---
 title: Einführung in den Berichts-Editor
-description: Der Berichts-Editor im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich.
+description: Der Berichts-Editor im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147402"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971692"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Einführung in den Berichts-Editor in Power BI
 
-Der *Berichts-Editor* im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich. Im Video wird der Berichts-Editor in Power BI Desktop gezeigt, und in diesem Artikel wird der Berichts-Editor im Power BI-Dienst gezeigt. 
+Der *Berichts-Editor* im Power BI-Dienst und der Berichts-Editor in Power BI Desktop sind sich sehr ähnlich. Normalerweise beginnen Sie mit dem Erstellen von Berichten in Power BI Desktop. Anschließend veröffentlichen Sie sie im Power BI-Dienst, wo Sie sie weiter bearbeiten können. Der Power BI-Dienst ist auch der Ort, wo Sie die Dashboards auf der Grundlage Ihrer Berichte bearbeiten.
 
-Als Ersteller eines Berichts erstellen und bearbeiten Sie Dashboards und Berichte. Anschließend verteilen Sie diese an Ihre Berichtsnutzer. Diese können in der Leseansicht im Power BI-Dienst mit Ihren Dashboards und Berichten interagieren, sie können sie jedoch nicht bearbeiten. Erfahren Sie mehr darüber, [welche Möglichkeiten Benutzer des Berichts im Power BI-Dienst haben](consumer/end-user-reading-view.md). 
+Nach dem Erstellen verteilen Sie Ihre Dashboards und Berichte an die Endbenutzer Ihrer Berichte. Abhängig von der Art der Freigabe sind Ihre Endbenutzer möglicherweise imstande, mit den Berichten in der Leseansicht im Power BI-Dienst zu interagieren, können sie allerdings nicht bearbeiten. Erfahren Sie mehr darüber, [welche Möglichkeiten Endbenutzer von Berichten im Power BI-Dienst haben](consumer/end-user-reading-view.md). 
+
+Im folgenden Video wird der Berichts-Editor in Power BI Desktop gezeigt. Dieser Artikel zeigt den Berichts-Editor in Power BI-Dienst. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -90,6 +92,12 @@ Der Bereich „Filter“ verfügt über ein weiteres leistungsstarkes Feature: d
 ![Bereich „Filter“](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Weitere Informationen finden Sie unter [Hinzufügen von Filtern zu Berichten](power-bi-report-add-filter.md).
+
+Eine neue Filteroberfläche befindet sich zurzeit in der Vorschau. Die neuen Filter bieten Formatierungsoptionen zur Anpassung an die Darstellung des Berichts. Ferner können Sie Filter sperren oder sie vor Ihren Endbenutzern verbergen. 
+
+![Neue Filteroberfläche](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+Erfahren Sie mehr über die [neue Filteroberfläche](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>Bereich „Felder“
