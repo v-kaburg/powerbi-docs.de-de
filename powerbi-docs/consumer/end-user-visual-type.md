@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426767"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662386"
 ---
 # <a name="visualization-types-in-power-bi"></a>Visualisierungstypen in Power BI
 In Berichten, Dashboards, Apps und Q&A finden Sie Visualisierungen. Einige der Visualisierungstypen sind in Power BI enthalten, und einige andere sind *benutzerdefinierte Visuals*. Benutzerdefinierte Visuals werden außerhalb von Power BI erstellt, damit *Berichts-Designer* sie zu Power BI-Berichten, -Dashboards und -Apps hinzufügen können. 

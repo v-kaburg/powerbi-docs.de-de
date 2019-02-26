@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: Conceptual
 ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
+ms.openlocfilehash: 44a311bf186ffc2596de2322b18f81386d505b62
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838276"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661720"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Ändern der Sortierung eines Diagramms in einem Power BI-Bericht
 In einem Power BI-Bericht können Sie die meisten Visualisierungen alphabetisch nach den Namen der Kategorien im Diagramm oder nach den numerischen Werten jeder Kategorie sortieren. In diesem Diagramm wird z.B. nach der Kategorie **Geschäftsname** sortiert.
