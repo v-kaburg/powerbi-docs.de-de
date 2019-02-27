@@ -843,7 +843,13 @@ items:
     - name: Unterstützte Sprachen und Länder/Regionen
       href: supported-languages-countries-regions.md
     - name: Whitepaper
-      href: whitepapers.md
+      items:
+      - name: Whitepaper – Übersicht
+        href: whitepapers.md
+      - name: Whitepaper zur Sicherheit in Power BI
+        href: whitepaper-powerbi-security.md
+      - name: Power BI Premium-Bereitstellung
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Power BI für Entwickler
   items:
   - name: Welche Möglichkeiten bietet Power BI Entwicklern?
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Hinzufügen von Zeilen zu einer Tabelle
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Konfigurieren von Anmeldeinformationen
+        href: developer/configure-credentials.md
       - name: Verschlüsseln von Anmeldeinformationen
         href: developer/encrypt-credentials.md
     - name: Referenz
@@ -1228,7 +1236,7 @@ items:
     items:
     - name: Power BI Premium
       items:
-      - name: Power BI Premium – Beschreibung
+      - name: Was ist Power BI Premium?
         href: service-premium.md
       - name: Optimierung der Nutzung der Premium-Kapazität
         href: service-premium-understand-how-it-works.md
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826696"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892434"
