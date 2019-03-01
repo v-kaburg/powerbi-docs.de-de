@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431244"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826719"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
@@ -22,6 +22,16 @@ Informationen zu verwandten Neuigkeiten finden Sie unter:
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
 * [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>Januar – Februar 2019
+ 
+### <a name="visio-visuals"></a>Visio-Visuals
+
+Aktivieren Sie das einmalige Anmelden (Single Sign-On, SSO) in Visio-Visuals, damit keine weiteren Anmeldeschritte erforderlich sind, wenn Benutzer einen Bericht mit Visio-Visuals in der App anzeigen möchten. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Dashboardkommentare in der Power BI Mobile-Windows-App
+
+Sie können Dashboards und bestimmten Kacheln direkt Kommentare hinzufügen, damit Ihre Daten diskutiert werden, und jeder, der sich das Dashboard ansieht, Ihre Kommentare sieht. 
 
 ## <a name="december-2018"></a>Dezember 2018
 
