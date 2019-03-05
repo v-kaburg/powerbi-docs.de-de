@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794866"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014574"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource
 
@@ -55,7 +55,7 @@ Wenn eine interaktive Abfrage an ein Dataset in der Kapazität gerichtet wird un
 
 ### <a name="workloads"></a>Workloads
 
-Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Nun werden zwei weitere Workloads in der Vorschauversion unterstützt: **Paginierte Berichte** und **Dataflows**. Wenn diese aktiviert sind, können sie die Speicherauslastung in Ihrer Kapazität beeinträchtigen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
+Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Nun werden zwei weitere Workloads in der Vorschauversion unterstützt: **Paginierte Berichte** und **Dataflows**. Wenn diese aktiviert sind, können sie die Speicherauslastung in Ihrer Kapazität beeinträchtigen. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>CPU-Ressourcenverwaltung in Premium-Kapazität
 
@@ -116,6 +116,3 @@ Verwenden Sie Power BI Embedded-Kapazität in Azure, um verschiedene SKUs zu tes
 
 In einigen Fällen erhalten Sie ausführliche Informationen zu diesem Problem, wenn Sie eine PBIX-Datei (Power BI Desktop) des Modells auf Ihrem Computer öffnen und Arbeitsspeicher- und CPU-Auslastung überprüfen. Dies eignet sich nicht für sehr große, aber für einige kleinere Modelle – versuchen Sie, das Modell von Ihrem Computer zu öffnen, zu aktualisieren und abzufragen. Überprüfen Sie Modellgröße, Arbeitsspeicher und CPU-Nutzung, wenn Sie das Modell öffnen. Versuchen Sie, zu aktualisieren und abzufragen. Verwenden Sie den Task-Manager, um die CPU- und Arbeitsspeicherauslastung der lokalen Datei zu überprüfen. In einigen Fällen können diese Metriken auf Ihrem Computer selbst feststellen, dass eine niedrigere Premium-Kapazität wie P1/P2 möglicherweise nicht für Ihre Lösung funktioniert.
 
-## <a name="next-steps"></a>Nächste Schritte
-
-[Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-manage.md)

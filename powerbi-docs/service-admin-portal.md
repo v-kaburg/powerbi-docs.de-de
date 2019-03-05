@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408182"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014643"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -144,7 +144,7 @@ Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen extern
 
 ![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Im Web veröffentlichen
+### <a name="publish-to-web"></a>Webveröffentlichung
 
 Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md)
 
@@ -297,7 +297,7 @@ Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-A
 
 ### <a name="create-and-use-dataflows-preview"></a>Erstellen und Verwenden von Dataflows (Vorschau)
 
-Benutzer in der Organisation können Dataflows erstellen und verwenden. Weitere Informationen zu Dataflows finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md). Informationen zum Aktivieren von Dataflows in einer Premium-Kapazität finden Sie im Abschnitt „Konfigurieren von Workloads“ unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-manage.md#configure-workloads).
+Benutzer in der Organisation können Dataflows erstellen und verwenden. Weitere Informationen zu Dataflows finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md). Informationen zum Aktivieren von Dataflows in einer Premium-Kapazität finden Sie im Abschnitt „Konfigurieren von Workloads“ unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
@@ -321,8 +321,6 @@ Mit der zweiten Einstellung **Vorlagen-Apps installieren** wird gesteuert, wer i
 Über die Registerkarte **Power BI Premium** können Sie jede Power BI Premium-Kapazität (EM- oder P-SKU) verwalten, die für Ihre Organisation erworben wurde. Alle Benutzer in Ihrer Organisation sehen die Registerkarte **Power BI Premium**, können deren Inhalt aber nur anzeigen, wenn sie entweder als *Kapazitätsadministrator* oder als Benutzer mit Zuweisungsberechtigungen konfiguriert sind. Hat ein Benutzer keine Berechtigungen, wird die folgende Meldung angezeigt.
 
 ![Kein Zugriff auf Premium-Einstellungen](media/service-admin-portal/premium-settings-no-access.png)
-
-Weitere Informationen zum Verwalten von Premium-Einstellungen finden Sie unter [Verwalten von Power BI Premium](service-admin-premium-manage.md).
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Als Administrator können Sie die Arbeitsbereiche anzeigen, die in Ihrem Mandant
 
 [Verwalten von Power BI in Ihrer Organisation](service-admin-administering-power-bi-in-your-organization.md) [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  
 [Überwachen von Power BI in Ihrer Organisation](service-admin-auditing.md)  
-[Verwalten von Power BI Premium](service-admin-premium-manage.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

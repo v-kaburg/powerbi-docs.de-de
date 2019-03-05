@@ -4,18 +4,18 @@ description: In diesem Artikel werden die Features des Power BI-Berichtsservers 
 keywords: ''
 author: markingmyname
 ms.author: maghan
-ms.date: 02/06/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 11b910d687830e525e0495a785153daa32db042d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.date: 02/06/2019
+ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324459"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327916"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Vergleich zwischen Power BI-Berichtsserver und Power BI-Dienst
 
@@ -56,7 +56,5 @@ Der Power BI-Berichtsserver und der Power BI-Dienst weisen viele Ähnlichkeiten,
 | Power BI Desktop | Für den Berichtsserver optimierte Version, zum Download mit dem Berichtsserver verfügbar | Für Power BI-Dienst optimierte Version, verfügbar im Windows Store | [Power BI Desktop für den Berichtsserver](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop für den Power BI-Dienst](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 [Installieren von Power BI-Berichtsserver](install-report-server.md)  
-
-
-

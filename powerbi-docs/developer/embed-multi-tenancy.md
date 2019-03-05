@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430715"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014252"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Verwalten der Mehrinstanzenfähigkeit mit Power BI Embedded Analytics
 
@@ -142,7 +142,7 @@ Um zusätzliche Isolation hinzuzufügen, kann ein Anwendungsentwickler einen *Ma
 
 ### <a name="scalability"></a>Skalierbarkeit
 
-Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, [können nicht verwendete Datasets entfernt werden](../service-premium-understand-how-it-works.md), um Arbeitsspeicher für aktive Datasets freizugeben. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden. [Erfahren Sie mehr über die Funktionsweise von Kapazitäten](../service-admin-premium-manage.md).
+Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, [können nicht verwendete Datasets entfernt werden](../service-premium-understand-how-it-works.md), um Arbeitsspeicher für aktive Datasets freizugeben. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden.
 
 Trotz dieser Vorteile ist die Skalierung zu berücksichtigen, die die SaaS-Anwendung in der Zukunft erreichen kann. Beispielsweise stößt man möglicherweise auf Grenzen in Bezug auf die Anzahl der Artefakte, die verwaltet werden können. Weitere Details zu [Beschränkungen](#summary-comparison-of-the-different-approaches) bei der Bereitstellung finden Sie weiter unten in diesem Artikel. Durch die verwendete Kapazitäts-SKU wird eine Begrenzung für folgende Größen eingeführt: die Größe des Arbeitsspeichers, den die Datasets einnehmen dürfen, [die Anzahl von Aktualisierungen, die gleichzeitig ausgeführt werden können](../service-premium-understand-how-it-works.md), sowie die maximale Häufigkeit von Datenaktualisierungen. Wenn Hunderte oder Tausende von Datasets verwaltet werden, empfiehlt es sich, Tests durchzuführen. Es wird außerdem empfohlen, die durchschnittliche und die maximale Nutzungsmenge zu berücksichtigen sowie spezifische Mandanten mit großen Datasets oder unterschiedlichen Verwendungsmustern, die anders als andere Mandanten verwaltet werden.
 

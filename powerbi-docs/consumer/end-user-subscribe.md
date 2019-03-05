@@ -2,20 +2,21 @@
 title: Abonnieren von Berichten und Dashboards
 description: Erfahren Sie, wie Sie ein E-Mail-Abonnement einer Momentaufnahme eines Power BI-Berichts oder Dashboards für sich und Ihre Kollegen einrichten.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 02/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 99501c6acc54188e2e87f0ae93354cac8116273c
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661782"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327939"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst 
 Es war noch nie so einfach, bei den wichtigsten Dashboards und Berichten auf dem aktuellen Stand zu bleiben. Wenn Sie die Berichtsseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, erhalten Sie von Power BI per E-Mail eine Momentaufnahme. Sie geben an, wie oft Sie E-Mails von Power BI erhalten möchten: täglich, wöchentlich oder wenn die Daten aktualisiert werden. Sie können sogar eine spezifische Uhrzeit festlegen, zu der Power BI die E-Mails sendet, oder die Ausführung sofort starten.  

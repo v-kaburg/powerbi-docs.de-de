@@ -1,6 +1,7 @@
 ---
 title: Änderungsprotokoll für Power BI-Berichtsserver
 description: Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält neue Elemente sowie Fehlerkorrekturen für jeden veröffentlichten Build.
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224040"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327962"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -23,6 +23,7 @@ Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält
 Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
 
 ## <a name="january-2019"></a>Januar 2019
+
 - **Power BI-Berichtsserver**            
     - *Version 1.4.6969.7395 (Build 15.0.1102.235), Veröffentlichung: 30. Januar 2019*
         - Fehlerkorrekturen
@@ -65,6 +66,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (Januar 2019) erforderlich sind  
 
 ## <a name="august-2018"></a>August 2018
+
 - **Power BI-Berichtsserver**
     - *Version 1.3.6816.37243 (Build 15.0.2.557), Veröffentlichung: 30. August 2018*
         - Fehlerkorrekturen
@@ -86,6 +88,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
         - Enthält Änderungen, die für die Verbindung mit dem Power BI-Berichtsserver (August 2018) erforderlich sind         
         
 ## <a name="march-2018"></a>März 2018
+
 - **Power BI-Berichtsserver**
     - *Version 1.2.6690.34729 (Build 15.0.2.402), Veröffentlichung: 27. April 2018*
         - Fehlerkorrekturen
