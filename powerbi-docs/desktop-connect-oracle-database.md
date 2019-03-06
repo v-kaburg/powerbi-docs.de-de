@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899225"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892273"
 ---
 # <a name="connect-to-an-oracle-database"></a>Herstellen einer Verbindung mit einer Oracle-Datenbank
 Um über **Power BI Desktop** eine Verbindung mit einer Oracle-Datenbank herzustellen, muss auf dem Computer, auf dem Power BI Desktop ausgeführt wird, die richtigen Oracle-Clientsoftware installiert sein. Welche Oracle-Clientsoftware Sie verwenden, hängt davon ab, ob Sie für Power BI Desktop die **32-Bit**-Version oder die **64-Bit**-Version installiert haben.
@@ -43,8 +43,13 @@ Nachdem der entsprechende Oracle-Clienttreiber installiert wurde, können Sie ei
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. Geben Sie im daraufhin angezeigten Dialogfeld **Oracle-Datenbank** den Namen des Servers ein, und wählen Sie **Verbinden**. Wenn eine SID erforderlich ist, können Sie dies über folgendes Format festlegen: *Servername/SID*, wobei SID dem eindeutigen Namen der Datenbank entspricht. Wenn das Format *Servername/SID* nicht funktioniert, versuchen Sie es mit *Servername/Dienstname*, wobei Dienstname der beim Herstellen der Verbindung verwendete Alias ist.
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > Wenn Sie während dieses Schritts Probleme mit der Verbindung haben, verwenden Sie versuchsweise das folgenden Format im Feld „Servername“: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. Wenn Sie Daten mithilfe einer nativen Datenbankabfrage importieren möchten, können Sie Ihre Abfrage in das Feld **SQL-Anweisung** einfügen. Dieses wird angezeigt, wenn Sie im Dialogfeld **Oracle-Datenbank** die **Erweiterten Optionen** einblenden.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)

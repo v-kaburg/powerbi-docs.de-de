@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224017"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892250"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Verwenden von Einblicken in Power BI Desktop zur Erklärung von Anstiegen und Rückgängen in Visuals (Vorschau)
 
 Visuals weisen oft einen starken Anstieg und dann einen starken Rückgang von Werten auf. Was ist die Ursache für solche Schwankungen? Mit **Einblicke** in **Power BI Desktop** können Sie das mit wenigen Klicks herausfinden.
 
-Betrachten Sie zum Beispiel das folgende Visual, das *Umsatzbetrag* pro *Jahr* und *Land* anzeigt. Im Jahr 2014 kommt es zu einem starken Umsatzrückgang zwischen dem *1. Quartal* und dem *2. Quartal*. In solchen Fällen können Sie die Daten untersuchen, um die aufgetretenen Veränderungen zu erklären. 
+Betrachten Sie zum Beispiel das folgende Visual, das *Umsatzbetrag* pro *Jahr* und *Quartal* anzeigt. Im Jahr 2014 kommt es zu einem starken Umsatzrückgang zwischen dem *1. Quartal* und dem *2. Quartal*. In solchen Fällen können Sie die Daten untersuchen, um die aufgetretenen Veränderungen zu erklären. 
 
 ![Visual mit Anstiegen und Rückgängen](media/desktop-insights/insights_01a.png)
 

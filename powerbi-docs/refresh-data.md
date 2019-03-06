@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277662"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892480"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aktualisieren von Daten in Power BI
 Es kann oftmals entscheidend sein, dass Sie immer die neuesten Daten erhalten, um die richtigen Entscheidungen zu treffen. Sie haben wahrscheinlich bereits die Funktion „Daten abrufen“ in Power BI verwendet, um eine Verbindung zu Daten herzustellen und diese hochzuladen sowie Berichte und ein Dashboard zu erstellen. Jetzt möchten Sie sicherstellen, dass Ihre Daten wirklich die neuesten und besten sind.
@@ -216,7 +216,7 @@ Echtzeitdashboards verwenden die REST-API von Microsoft Power BI oder Microsoft 
 Erfahren Sie unter [Konfigurieren von geplanten Aktualisierungen](refresh-scheduled-refresh.md), wie Sie geplante Aktualisierung konfigurieren
 
 ## <a name="common-data-refresh-scenarios"></a>Allgemeine Szenarios zur Datenaktualisierung
-Manchmal ist es am einfachsten, mehr über die Datenaktualisierung in Power BI zu erfahren, wenn man sich einige Beispiele anschaut. Dies sind einige der allgemeineren Szenarios zur Datenaktualisierung:
+Manchmal ist es am einfachsten, mehr über die Datenaktualisierung in Power BI zu erfahren, wenn man sich einige Beispiele ansieht. Dies sind einige der allgemeineren Szenarios zur Datenaktualisierung:
 
 ### <a name="excel-workbook-with-tables-of-data"></a>Excel-Arbeitsmappe mit Datentabellen
 Sie haben eine Excel-Arbeitsmappe mit mehreren Datentabellen, aber keine von ihnen ist in das Excel-Datenmodell geladen. Sie verwenden „Daten abrufen“, um die Arbeitsmappendatei auf dem lokalen Laufwerk in Power BI hochzuladen, und erstellen ein Dashboard. Aber jetzt haben Sie Änderungen bei einer Reihe von Tabellen der Arbeitsmappe auf dem lokalen Laufwerk vorgenommen und Sie möchten das Dashboard in Power BI mit den neuen Daten aktualisieren.

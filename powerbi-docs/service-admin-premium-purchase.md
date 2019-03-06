@@ -8,39 +8,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 02/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794400"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892388"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
 
-In diesem Artikel wird beschrieben, wie Sie eine Power BI Premium-Kapazität für Ihre Organisation erwerben. Sie können eine Power BI Premium-Kapazität über das Office 365 Admin Center erwerben, und die [Verwaltung Ihrer Kapazitäten](service-admin-premium-manage.md) findet im Power BI-Verwaltungsportal statt.
+In diesem Artikel wird beschrieben, wie Sie eine Power BI Premium-Kapazität (P1-P3) für Ihre Organisation erwerben. Sie können eine Power BI Premium-Kapazität über das Office 365 Admin Center erwerben, und die [Verwaltung Ihrer Kapazitäten](service-admin-premium-manage.md) findet im Power BI-Verwaltungsportal statt. Aktuelle Informationen zu Preisen und zur Planung finden Sie auf der [Seite zu den Power BI-Preisen](https://powerbi.microsoft.com/pricing/) und über den [Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/).
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Auch wenn Ihre Organisation Power BI Premium verwendet, benötigen Inhaltsautoren weiterhin eine Power BI Pro-Lizenz. Stellen Sie sicher, dass Sie mindestens eine Power BI Pro-Lizenz für Ihre Organisation erwerben.
 
-Weitere Informationen über Power BI Premium finden Sie unter [Was ist Power BI Premium?](service-premium.md). Aktuelle Informationen zu Preisen und zur Planung finden Sie auf der [Seite zu den Power BI-Preisen](https://powerbi.microsoft.com/pricing/) und über den [Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/).
-
-> [!IMPORTANT]
-> Auch wenn Ihre Organisation Power BI Premium verwendet, benötigen Inhaltsautoren weiterhin eine Power BI Pro-Lizenz. Stellen Sie sicher, dass Sie mindestens eine Power BI Pro-Lizenz für Ihre Organisation erwerben.
->
->Wenn ein Power BI Premium-Abonnement abläuft, bleibt der vollständige Zugriff auf die Kapazität 30 Tage lang erhalten. Danach wird der Inhalt auf eine gemeinsam genutzte Kapazität zurückgesetzt. Modelle mit mehr als 1 GB werden in gemeinsam genutzten Kapazitäten nicht unterstützt.
+Wenn ein Power BI Premium-Abonnement abläuft, bleibt der vollständige Zugriff auf die Kapazität 30 Tage lang erhalten. Danach wird der Inhalt auf eine gemeinsam genutzte Kapazität zurückgesetzt. Modelle mit mehr als 1 GB werden in gemeinsam genutzten Kapazitäten nicht unterstützt.
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Erstellen eines neuen Mandanten mit Power BI Premium P1
 
-Wenn Sie noch nicht über einen Mandanten verfügen und einen erstellen möchten, können Sie gleichzeitig Power BI Premium erwerben. Der folgende Link führt Sie durch die Schritte zum Erstellen eines neuen Mandanten und ermöglicht Ihnen den Erwerb von Power BI Premium: [Power BI Premium P1-Angebot](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1).
-
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
-
-Wenn Sie den Mandanten erstellen, wird Ihnen automatisch die globale Office 365-Administratorrolle für diesen Mandanten zugewiesen.
+Wenn Sie noch nicht über einen Mandanten verfügen und einen erstellen möchten, können Sie gleichzeitig Power BI Premium erwerben. Der folgende Link führt Sie durch die Schritte zum Erstellen eines neuen Mandanten und ermöglicht Ihnen den Erwerb von Power BI Premium: [Power BI Premium P1-Angebot](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Wenn Sie den Mandanten erstellen, wird Ihnen automatisch die globale Office 365-Administratorrolle für diesen Mandanten zugewiesen.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Erwerben einer Power BI Premium-Kapazität für eine vorhandene Organisation
 
-Wenn Sie über eine vorhandene Organisation verfügen, müssen Sie über die globale Office 365-Administratorrolle oder die Rechnungsadministratorrolle verfügen, um Abonnements und Lizenzen zu erwerben. Weitere Informationen finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Wenn Sie über eine vorhandene Organisation (einen Mandanten) verfügen, müssen Sie über die globale Office 365-Administratorrolle oder die Rechnungsadministratorrolle verfügen, um Abonnements und Lizenzen zu erwerben. Weitere Informationen finden Sie unter [Informationen zu Office 365-Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 Führen Sie die folgenden Schritte aus, um eine Premium-Kapazität zu erwerben.
 
@@ -59,19 +50,6 @@ Führen Sie die folgenden Schritte aus, um eine Premium-Kapazität zu erwerben.
     ![Jetzt kaufen](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Führen Sie die Schritte zum Abschließen des Kaufs aus.
-
-Sie können auch auf einen der folgenden Links klicken, um direkt zur Kaufseite der jeweiligen SKU zu gelangen. Weitere Informationen zu diesen SKUs finden Sie unter [Was ist Power BI Premium?](service-premium.md#premium-capacity-nodes).
-
-> [!IMPORTANT]
-> Wenn Sie nicht über die globale Office 365-Administratorrolle oder die Rechnungsadministratorrolle verfügen, resultieren die folgenden Links in einer Fehlermeldung.
-
-| Links direkt zum Kauf |
-| --- |
-| [EM3-SKU (monatlich)](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1-SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1-SKU (monatlich)](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2-SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3-SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 Nachdem Sie den Kauf abgeschlossen haben, zeigt die Seite **Dienste kaufen** an, dass das Angebot erworben wurde und aktiv ist.
 
@@ -102,17 +80,13 @@ Die Seite **Kaufdienste** weist dann die Anzahl der Instanzen aus, über die Sie
 
 Sie können Ihr Abonnement über das Office 365 Admin Center kündigen. Gehen Sie wie folgt vor, um Ihr Premium-Abonnement zu kündigen.
 
-![Abonnement kündigen](media/service-admin-premium-purchase/premium-cancel-subscription.png)
-
 1. Navigieren Sie zum Office 365 Admin Center.
 
 1. Wählen Sie **Abrechnung** > **Abonnements** aus.
 
 1. Wählen Sie Ihr Power BI Premium-Abonnement aus der Liste aus.
 
-1. Wählen Sie in der Dropdownliste **Weitere Aktionen** den Eintrag **Abonnement kündigen** aus.
-
-    ![Weitere Aktionen](media/service-admin-premium-purchase/o365-more-actions.png)
+1. Klicken Sie auf **Weitere Aktionen** > **Abonnement kündigen**.
 
 1. Auf der Seite **Abonnement kündigen** wird angegeben, ob für Sie [Gebühren wegen vorzeitiger Beendigung](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3) anfallen. Auf dieser Seite wird Ihnen außerdem mitgeteilt, wann die Daten für das Abonnement gelöscht werden.
 

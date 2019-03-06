@@ -2,21 +2,22 @@
 title: Verschlüsseln von Anmeldeinformationen
 description: 'Exemplarische Vorgehensweise: Verschlüsseln von Anmeldeinformationen für lokale Gateway-Datenquellen'
 author: mahirdiab
+ms.author: mahirdiab
 manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/02/2019
-ms.author: mahirdiab
-ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.date: 02/04/2019
+ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223511"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892227"
 ---
 # <a name="encrypt-credentials"></a>Verschlüsseln von Anmeldeinformationen
+
 Wenn Sie [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) (Datenquelle erstellen) oder [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Datenquelle aktualisieren) in einem **lokalen Unternehmensgateway** mit der [Power BI-REST-API](https://docs.microsoft.com/rest/api/power-bi/) aufrufen, müssen die Werte für die Anmeldeinformationen mithilfe des öffentlichen Schlüssels des Gateways verschlüsselt werden.
 
 Im folgenden Codebeispiel wird gezeigt, wie die Anmeldeinformationen in .NET verschlüsselt werden.
@@ -24,27 +25,31 @@ Im folgenden Codebeispiel wird gezeigt, wie die Anmeldeinformationen in .NET ver
 Anmeldeinformationen, die an die EncodeCredentials-Methode übergeben werden, sollten je nach Anmeldeinformationstyp eines der folgenden Formate aufweisen:
 
 **Einfache/Windows-Anmeldeinformationen**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Wichtige Anmeldeinformationen**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **OAuth2-Anmeldeinformationen**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
-
 **Anonyme Anmeldeinformationen**
+
 ```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Verschlüsseln von Anmeldeinformationen**
+
 ```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
