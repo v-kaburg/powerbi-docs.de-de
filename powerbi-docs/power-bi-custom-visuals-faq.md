@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408136"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892319"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Häufig gestellte Fragen zu benutzerdefinierten Visuals in Power BI
 
@@ -57,8 +57,44 @@ Ja, wenn der Administrator die benutzerdefinierten Visuals im Administratorporta
 
 ### <a name="what-are-certified-custom-visuals"></a>Was sind zertifizierte benutzerdefinierte Visuals?
 
-Zertifizierte benutzerdefinierte Visuals sind Visuals im [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die bestimmte [angegebene](power-bi-custom-visuals-certified.md) Codeanforderungen und Testkriterien des Power BI-Teams erfüllen.  Die durchgeführten Tests wurden entworfen, um zu bestätigen, dass das Visual nicht auf externe Dienste oder Ressourcen zugreift. Microsoft ist jedoch nicht der Autor benutzerdefinierter Visuals von Drittanbietern. Wir empfehlen Kunden, direkt mit dem Autor Kontakt aufzunehmen, um die Funktionalität eines solchen Visuals zu überprüfen.
+Zertifizierte benutzerdefinierte Visuals sind Visuals im [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals), die bestimmte [angegebene](power-bi-custom-visuals-certified.md) Codeanforderungen und Testkriterien des Power BI-Teams erfüllen.  Die durchgeführten Tests wurden entworfen, um zu überprüfen, ob das Visual nicht auf externe Dienste oder Ressourcen zugreift. Microsoft ist jedoch nicht der Autor benutzerdefinierter Drittanbietervisuals, und Kunden wird empfohlen, direkt mit dem Autor Kontakt aufzunehmen, um die Funktionalität eines solchen Visuals zu überprüfen.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>Welche Tests werden während des Zertifizierungsprozesses durchgeführt?
+
+Die Zertifizierungsprozesstests beinhalten u. a. Folgendes: Codebewertungen, statische Codeanalyse, Testen auf Datenlecks, Testen mit zufälligen Daten, Penetrationstests, XSS-Zugriffstests, Einschleusung schädlicher Daten, Eingabeüberprüfung und Funktionstests.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>Werden Visuals bei jeder Einreichung zertifiziert?
+
+Ja. Jedes Mal, wenn eine neue Version eines zertifizierten Visuals im Marketplace eingereicht wird, wird das Update der Visualversion denselben Zertifizierungsüberprüfungen unterzogen.
+
+Hinweis für Entwickler: Wenn Sie ein Versionsupdate eines zertifizierten Visuals einreichen, müssen Sie keine separate E-Mail versenden. Dies ist nur für die [erstmalige Anforderung einer Zertifizierung](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) erforderlich. Die Zertifizierung von Versionsupdates erfolgt automatisch. Für jegliche Verstöße, die zu einer Ablehnung führen, wird eine E-Mail mit den Details versendet, welche Probleme behoben werden müssen. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>Ist es möglich, dass ein zertifiziertes Visual durch ein neues Update seine Zertifizierung verliert?
+
+Nein, das ist nicht möglich. Einem zertifizierten Visual kann die Zertifizierung durch ein neues Update nicht entzogen werden. Das Update wird zurückgewiesen.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>Muss ich meinen Code im öffentlichen Repository veröffentlichen, wenn ich ein Projekt dem Zertifizierungsprozess unterziehen möchte?
+
+Nein, Sie müssen Ihren Code nicht veröffentlichen. Sie müssen uns jedoch Leseberechtigungen erteilen, damit der Code der Visuals überprüft werden kann. Beispiel: Privates Repository in GitHub.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>Muss das Visual für die Zertifizierung im [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [veröffentlicht](https://docs.microsoft.com/power-bi/developer/office-store) werden?
+
+Ja. Für eine Zertifizierung ist es zwingend erforderlich, das Visual zuerst im Marketplace zu veröffentlichen.
+Damit ein benutzerdefiniertes Visual zertifiziert werden kann, sollte es sich auf unseren Servern befinden. Es ist nicht möglich, private Visuals zu zertifizieren.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>Wie lange benötigt die Zertifizierung eines Visuals?
+
+Für eine aktualisierte Version dauert es bis zu 2 Wochen. Bei einer neuen Einreichung (erstmalige Zertifizierung) können bis zu 3 Wochen vergehen. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Garantiert der Zertifizierungsprozess, dass keine Datenlecks vorkommen?
+
+Die durchgeführten Tests wurden entworfen, um zu überprüfen, ob das Visual nicht auf externe Dienste oder Ressourcen zugreift. Microsoft ist jedoch nicht der Autor benutzerdefinierter Drittanbietervisuals, und Kunden wird empfohlen, direkt mit dem Autor Kontakt aufzunehmen, um die Funktionalität eines solchen Visuals zu überprüfen.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>Ist es sicher, nicht zertifizierte Visuals zu verwenden?
+
+Bei nicht zertifizierten benutzerdefinierten Visuals handelt es sich nicht zwangsläufig um unsichere Visuals.
+Einige Visuals sind nicht zertifiziert, da sie mindestens einem Punkt der [Zertifizierungsanforderungen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) nicht entsprechen. Beispiele hierfür sind die Herstellung einer Verbindung zu einem externen Dienst wie Kartenvisuals oder Visuals, die kommerzielle Bibliotheken verwenden.
+ 
 ## <a name="visuals-with-additional-purchases"></a>Visuals mit zusätzlichen Käufen
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Was ist ein Visual mit zusätzlichen Käufen?
@@ -100,7 +136,6 @@ Wenn Sie im benutzerdefinierten Visual ein Logo verwenden, achten Sie darauf, da
 In den Richtlinien finden Sie außerdem Hinweise zu bewährten Methoden.  
 > [!Note]
 > Alle kostenlosen Visuals sollten dieselben kostenlosen Features beibehalten, die zuvor angeboten wurden. Sie können kostenpflichtige, optionale erweiterte Features auf Grundlage der alten Features hinzufügen. Es wird empfohlen, die IAP-Visuals mit den erweiterten Features als neue Visuals zu veröffentlichen, anstatt die alten, kostenlosen Features zu aktualisieren.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>Kann ich mein benutzerdefiniertes IAP-Visual zertifizieren lassen?
 

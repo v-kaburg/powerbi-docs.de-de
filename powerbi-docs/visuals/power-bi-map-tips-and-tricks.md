@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286680"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014459"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
-Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
+Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 
 
 Sie oder der Administrator müssen möglicherweise die Firewall aktualisieren, um den Zugriff auf die von Bing für die Geocodierung verwendeten URLs zuzulassen.  Diese URLs lauten:
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Befolgen Sie die nachstehenden Tipps, um die Wahrscheinlichkeit einer korrekten 
 ## <a name="what-is-sent-to-bing-maps"></a>An Bing Maps gesendete Informationen
 Der Power BI-Dienst und Power BI Desktop senden die Geodaten an Bing, die Bing zum Erstellen der Kartenvisualisierung benötigt. Dies kann die Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** sowie geografische Felder in jedem der Buckets **Berichtsstufenfilter**, **Filter auf Seitenebene** oder **Filter auf visueller Ebene** umfassen. Welche Daten genau gesendet werden, variiert je nach Kartentyp. Weitere Informationen finden Sie in der [Bing Maps-Datenschutzerklärung](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Für Karten (Blasendiagrammkarten) werden, wenn Breiten- und Längengrad bereitgestellt werden, keine Daten an Bing gesendet. Andernfalls werden alle Daten in „Standort“ und in den Filterbuckets an Bing gesendet.     
-* Flächenkartogramme erfordern ein Feld im Bucket „Standort“, auch wenn Breiten- und Längengrad angegeben werden. Alle Daten in den Buckets „Standort“, „Breitengrad“ und „Längengrad“ werden an Bing gesendet.
+* Für Karten (Blasendiagrammkarten) werden keine Daten an Bing gesendet, wenn Breiten- und Längengrad angegeben werden. Andernfalls werden alle Daten im Bucket **Standort** und in den Filterbuckets an Bing gesendet.     
+* Flächenkartogramme erfordern ein Feld im Bucket **Standort**, auch wenn Breiten- und Längengrad angegeben werden. Alle Daten in den Buckets **Standort**, **Breitengrad** und **Längengrad** werden an Bing gesendet.
   
     Im folgenden Beispiel wird das Feld **Vendor** für Geocodierung verwendet, somit werden alle Lieferantendaten an Bing gesendet. Daten aus den Bucktes **Größe** und **Farbsättigung** werden nicht an Bing gesendet.
   

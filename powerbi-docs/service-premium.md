@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725338"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226133"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Was ist Microsoft Power BI Premium?
 
-Microsoft Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die weite Verteilung von Inhalten, ohne dass Sie für jeden einzelnen Benutzer des Inhalts Power BI Pro-Lizenzen erwerben müssen.  
+> [!NOTE]
+> Dieser Artikel wird gerade mit Beschreibungen neuer Features und ausführlicheren Informationen aktualisiert. Außerdem wird die Lesbarkeit verbessert. Die neuesten Informationen finden Sie unter [Deploying and Managing Power BI Premium Capacities](whitepaper-powerbi-premium-deployment.md) (Bereitstellen und Verwalten von Power BI Premium-Kapazitäten).
+
+Power BI Premium bietet dedizierte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren. Premium ermöglicht darüber hinaus die weite Verteilung von Inhalten, ohne dass Sie für jeden einzelnen Benutzer des Inhalts Power BI Pro-Lizenzen erwerben müssen.  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium-Kapazitäten und gemeinsam genutzte Kapazitäten
 
@@ -65,12 +68,12 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 | Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)*  | Back-End-V-Kerne <sup>[1](#fn1)</sup> | Front-End-V-Kerne <sup>[2](#fn2)</sup> | Grenzwerte für DirectQuery/Liveverbindung | Maximale Anzahl gleichzeitiger Aktualisierungen |  Verfügbarkeit
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (monatlich) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |  1 | Verfügbar |
-| EM2 (monatlich) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |  2 | Verfügbar |
-| EM3 (monatlich) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | | 3 |  Verfügbar |
+| EM1 (monatlich) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |  1 | Verfügbarkeit |
+| EM2 (monatlich) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |  2 | Verfügbarkeit |
+| EM3 (monatlich) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | | 3 |  Verfügbarkeit |
 | P1 |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde | 6 | Verfügbar (auch monatlich) |
-| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde | 12 | Verfügbar |
-| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde | 24 | Verfügbar |
+| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde | 12 | Verfügbarkeit |
+| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde | 24 | Verfügbarkeit |
 | | | | | | | |
 
 <a name="fn1">1</a>: Front-End-V-Kerne sind für den Webdienst verantwortlich. Hierzu gehören beispielsweise die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads sowie allgemein alle Aufgaben in Bezug auf die Benutzeroberfläche. 
@@ -79,9 +82,7 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-Kapazität
 
-Stellen Sie sich eine Workload in Power BI als einen der vielen Dienste vor, die Sie Benutzern zur Verfügung stellen können. Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist.
-
-Nun werden zwei weitere Workloads in der Vorschauversion unterstützt: **Paginierte Berichte** und **Dataflows**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads).
+Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Premium unterstützt auch zusätzliche Workloads für **KI**, **Dataflows** und **paginierte Berichte**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads in einer Premium-Kapazität](service-admin-premium-workloads.md).
 
 ### <a name="default-memory-settings"></a>Standardeinstellungen für den Arbeitsspeicher
 
@@ -91,7 +92,7 @@ Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeich
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Paginierte Berichte | N/V | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
+| Paginierte Berichte | – | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
 | Dataflows | 20 % Standard, mindestens 8 %  | 20 % Standard, mindestens 4 %  | 20 % Standard, mindestens 2 % | 20 % Standard, mindestens 1 %  |
 | | | | | |
 
@@ -99,7 +100,7 @@ Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeich
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Paginierte Berichte | N/V                      | N/V                      | N/V                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
+| Paginierte Berichte | –                      | N/V                      | –                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
 | Dataflows         | 27 % Standard, mindestens 27 % | 20 % Standard, mindestens 16 % | 20 % Standard, mindestens 8 % | 20 % Standard, mindestens 4 %  | 20 % Standard, mindestens 2 % | 20 % Standard, mindestens 1 %   |
 
 ### <a name="considerations-for-paginated-reports"></a>Überlegungen zu paginierten Berichten
@@ -114,10 +115,10 @@ Power BI Premium enthält auch die Funktion zum lokalen Ausführen von Power BI-
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Power BI Premium – Häufig gestellte Fragen](service-premium-faq.md)
-[Erwerben von Power BI Premium](service-admin-premium-purchase.md)
-[Verwalten von Power BI Premium](service-admin-premium-manage.md)
-[Whitepaper zu Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Whitepaper zum Planen einer Unternehmensbereitstellung mit Power BI](https://aka.ms/pbienterprisedeploy)
+[Deploying and Managing Power BI Premium Capacities](whitepaper-powerbi-premium-deployment.md)  (Bereitstellen und Verwalten von Power BI Premium-Kapazitäten)  
+[Erwerben von Power BI Premium](service-admin-premium-purchase.md)   
+[Power BI Premium – Häufig gestellte Fragen (FAQ)](service-premium-faq.md)   
+
+
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

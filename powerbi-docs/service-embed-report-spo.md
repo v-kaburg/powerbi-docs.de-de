@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: a9d90737ed8a62f3791f0741bac1c9ff2b05cbb6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431198"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226156"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -67,7 +67,7 @@ Um den Bericht in SharePoint Online einzubetten, müssen Sie zuerst die URL des 
 
     ![Neuer Bericht in SP](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Fügen Sie die Berichts-URL im Eigenschaftsbereich ein. Dies ist die in den vorhergehenden Schritten kopierte Berichts-URL. Der Bericht wird automatisch geladen.
+4. Fügen Sie die Berichts-URL in den Eigenschaftsbereich ein. Dies ist die in den vorhergehenden Schritten kopierte Berichts-URL. Der Bericht wird automatisch geladen.
 
     ![Neue Webparteigenschaften in SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662251"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196457"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Grundkonzepte für ***Benutzer*** des Power BI-Diensts
 
@@ -88,6 +88,10 @@ Wenn ein Designer eine App für Sie freigegeben hat, können Sie sehen, welche D
 * Visualisierungen dieses einen Datasets können auf vielen verschiedenen Dashboards angezeigt werden
   
   ![Dataset-M:1-Beziehungen](media/end-user-basic-concepts/drawing2.png)
+
+Darüber hinaus können Datasets aus anderen Arbeitsbereichen verwendet werden, um Inhalte (Berichte, Dashboards) in Ihrem Arbeitsbereich zu erstellen. Diese Datasets werden mit dem Symbol für referenzierte Datasets angezeigt: 
+
+![Datenbank mit Verknüpfungssymbol](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 Weiter geht es mit dem nächsten Baustein: Visualisierungen.
 __________________________________________________________

@@ -1,5 +1,5 @@
 ---
-title: Verbinden mit Azure Consumption Insights-Daten (Beta)
+title: Herstellen einer Verbindung mit Azure und Abrufen von Kosten- und Nutzungsdaten über Power BI Desktop
 description: Einfaches Herstellen einer Verbindung mit Azure und Erhalten von Einblicken in Verbrauch und Verwendung mithilfe von Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216054"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327985"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Herstellen einer Verbindung mit Azure Consumption Insights in Power BI Desktop (Beta)
-Mit dem **Azure Consumption Insights**-Connector können Sie in **Power BI Desktop** eine Verbindung mit Azure herstellen und detaillierte Daten und Informationen zur Verwendung von Azure-Diensten durch Ihre Organisation erhalten. Sie können auch Measures, benutzerdefinierte Spalten und Visuals erstellen, um Informationen über die Verwendung von Azure durch Ihre Organisation mitzuteilen und freizugeben. Dies ist eine Betaversion des **Azure Consumption Insights**-Connectors, die Änderungen unterliegt.
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analysieren von Kosten- und Nutzungsdaten für Azure in Power BI Desktop
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI Desktop kann eine Verbindung mit Azure herstellen und detaillierte Daten zur Nutzung des Azure-Diensts durch Ihre Organisation abrufen. Auf der Grundlage dieser Daten können Sie benutzerdefinierte Berichte und Measures erstellen, die Ihnen dabei helfen, Ihre Azure-Ausgaben zu analysieren und besser zu verstehen.
 
-In diesem Artikel erfahren Sie, wie Sie mit dem **Azure Consumption Insights**-Connector eine Verbindung herstellen und die erforderlichen Daten erhalten und wie Sie die Migration vom Azure Enterprise-Connector durchführen. Sie finden in ihm außerdem eine Zuordnung der in der **ACI**-API (Azure Consumption Insights) verfügbaren *Verwendungsdetailspalten*.
+Power BI unterstützt aktuell die Verbindungsherstellung mit Abrechnungskonten vom Typ „Enterprise Agreement“ und „Kundenvertrag“.
 
-## <a name="connect-to-azure-consumption-insights"></a>Herstellen einer Verbindung mit Azure Consumption Insights
+Enterprise Agreement-Benutzer müssen für die Verbindungsherstellung den Azure Consumption Insights-Connector verwenden. Benutzer mit Kundenvertragskonto müssen für die Verbindungsherstellung den Azure Cost Management-Connector verwenden.
+
+## <a name="connect-with-azure-consumption-insights"></a>Herstellen einer Verbindung mit Azure Consumption Insights
+
+Mit Azure Consumption Insights können Sie eine Verbindung mit Azure Enterprise Agreement-Abrechnungskonten herstellen.
+
+In diesem Abschnitt erfahren Sie, wie Sie eine Verbindung herstellen, die benötigten Daten abrufen und die Migration vom Azure Enterprise-Connector durchführen. Darüber hinaus finden Sie hier eine Übersicht über die in der **ACI**-API (Azure Consumption Insights) verfügbaren *Nutzungsdetailspalten*.
+
 Zum erfolgreichen Herstellen einer Verbindung mit dem **Azure Consumption Insights**-Connector benötigen Sie Zugriff auf die Enterprise-Features im Azure-Portal.
 
 Um mithilfe des **Azure Consumption Insights**-Connectors eine Verbindung herzustellen, klicken Sie im Menüband **Start** von **Power BI Desktop** auf **Daten abrufen**. Wählen Sie in den Kategorien auf der linken Seite **Onlinedienste** aus. Anschließend wird **Microsoft Azure Consumption Insights (Beta)** angezeigt. Wählen Sie **Verbinden** aus.
@@ -70,7 +76,7 @@ Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorsch
 > 
 > 
 
-Wenn Sie **Laden** auswählen, werden die Daten in **Power BI Desktop** geladen.  Der Connector lädt Daten anhand des Standardzeitraums der Tabelle.  Wenn Sie den Zeitraum anpassen möchten, [können Sie eine benutzerdefinierte Abfrage erstellen](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+Wenn Sie **Laden** auswählen, werden die Daten in **Power BI Desktop** geladen.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -201,6 +207,71 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Jahr | |Jahr |Nein |
 | SubscriptionId |subscriptionId |SubscriptionId |Ja |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |Nein |
+
+## <a name="connect-with-azure-cost-management"></a>Herstellen einer Verbindung mit Azure Cost Management
+
+In diesem Abschnitt erfahren Sie, wie Sie eine Verbindung mit einem Abrechnungskonto vom Typ „Kundenvertrag“ herstellen.
+
+Um mithilfe des Connectors **Azure Cost Management** eine Verbindung herzustellen, klicken Sie auf dem Menüband **Start** von **Power BI Desktop** auf **Daten abrufen**.  Wählen Sie in den Kategorien auf der linken Seite die Kategorie **Azure** aus. Daraufhin wird **Azure Cost Management (Beta)** angezeigt. Wählen Sie **Verbinden** aus.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+Geben Sie im daraufhin angezeigten Dialogfeld Ihre *ID des Abrechnungsprofils* ein.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+Die ID des Abrechnungsprofils finden Sie im [Azure-Portal](https://portal.azure.com).  Navigieren Sie zu **Kostenverwaltung + Abrechnung**. Wählen Sie Ihr Abrechnungskonto und anschließend auf der Randleiste die Option **Abrechnungsprofile** aus.  Wählen Sie Ihr Abrechnungsprofil und anschließend auf der Randleiste die Option **Eigenschaften** aus.  Kopieren Sie die ID des Abrechnungsprofils.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+Sie werden aufgefordert, sich mit Ihrer Azure-E-Mail-Adresse und Ihrem Kennwort anzumelden.  Nach Abschluss der Authentifizierung wird ein **Navigatorfenster**mit zwölf verfügbaren Tabellen angezeigt:
+
+* **Billing events** (Abrechnungsereignisse): Enthält ein Ereignisprotokoll für neue Rechnungen, Gutschriftkäufe und Ähnliches.
+* **Budgets:** Enthält Budgetdetails zur Anzeige der tatsächlichen Kosten oder Nutzung im Vergleich zu vorhandenen Budgetzielen. 
+* **Charges** (Gebühren): Enthält eine monatsbasierte Zusammenfassung für Azure-Nutzung, Marketplace-Gebühren und separat abgerechnete Gebühren.
+* **Credit lots** (Gutschriftanteile): Enthält Details zu Azure-Gutschriftanteilskäufen für das angegebene Abrechnungsprofil.
+* **Credit summary** (Gutschriftzusammenfassung): Enthält eine Gutschriftzusammenfassung für das angegebene Abrechnungsprofil.
+* **Marketplace**: Hier werden die nutzungsbasierten Azure Marketplace-Gebühren angezeigt.
+* **Pricesheets** (Preisblätter): Enthält die geltenden Preise nach Verbrauchseinheit für das angegebene Abrechnungsprofil.
+* **RI charges** (Gebühren für reservierte Instanzen): Hier werden die Gebühren für Ihre reservierten Instanzen in den letzten 24 Monaten angezeigt.
+* **RI recommendations (single)** (Empfehlungen für reservierte Instanzen (einzeln)): Zeigt basierend auf Ihren Nutzungstrends für ein einzelnes Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RI recommendations (shared)** (Empfehlungen für reservierte Instanzen (gemeinsam genutzt)): Zeigt basierend auf Ihren Nutzungstrends für alle Ihre Abonnement in den letzten 7, 30 oder 60 Tagen Kaufempfehlungen für reservierte Instanzen an.
+* **RI usage** (Nutzung reservierter Instanzen): Hier werden ausführliche Informationen zum Verbrauch für Ihre vorhandenen reservierten Instanzen im letzten Monat angezeigt.
+* **Usage details** (Nutzungsdetails): Enthält eine Aufschlüsselung der verbrauchten Mengen und der geschätzten Kosten für die angegebene ID des Abrechnungsprofils.
+
+Sie können neben jeder Tabelle ein Kontrollkästchen aktivieren, um eine Vorschau anzuzeigen.  Sie können einzelne oder mehrere Tabellen auswählen, indem Sie das Kontrollkästchen neben dem Tabellennamen aktivieren, und dann **Laden** wählen.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+Wenn Sie **Laden** auswählen, werden die Daten in **Power BI Desktop** geladen.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+Nachdem die von Ihnen ausgewählten Daten geladen wurden, werden im Bereich **Felder** die von Ihnen ausgewählten Tabellen und Felder angezeigt.
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>Schreiben benutzerdefinierter Abfragen
+
+Wenn Sie die Monatsanzahl anpassen, die API-Version ändern oder eine komplexere Logik auf die zurückgegebenen Daten anwenden möchten, können Sie eine benutzerdefinierte M-Abfrage erstellen.
+
+Wählen Sie auf dem Menüband **Start** von **Power BI Desktop** das Dropdownelement in **Daten abrufen** und anschließend die Option **Leere Abfrage** aus.  Sie können auch den **Abfrage-Editor** verwenden. Klicken Sie hierzu auf der linken Seite im Bereich **Abfragen** mit der rechten Maustaste, und wählen Sie im daraufhin angezeigten Menü **Neue Abfrage > Leere Abfrage** aus.
+
+Geben Sie auf der **Bearbeitungsleiste** Folgendes ein, und ersetzen Sie dabei `billingProfileId` durch Ihre tatsächliche ID und „charges“ durch einen gültigen Tabellennamen (siehe Liste weiter oben).
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+`numberOfMonths` kann auf einen beliebigen Wert zwischen 1 und 36 festgelegt werden. Außerdem können Sie Folgendes angeben:
+
+* `apiVersion`, um die Version der API anzupassen, die von der Abfrage aufgerufen wird
+* `lookbackWindow`, um bei Empfehlungen für reservierte Instanzen (einzeln oder gemeinsam genutzt) das Zeitfenster für die Empfehlungsgenerierung zu ändern (zulässige Optionen: sieben, 30 oder 60 Tage)
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 Sie können mithilfe von Power BI Desktop eine Verbindung mit Daten jeglicher Art herstellen. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
