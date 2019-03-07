@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892342"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226087"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Self-Service-Datenaufbereitung in Power BI (Vorschau)
 
@@ -75,9 +75,7 @@ Weitere Informationen zu Azure Data Lake Storage Gen2 und zur Integration von Da
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Dataflowfeatures in Power BI Premium
 
-Um Dataflowfeatures und -workloads mit einem Power BI Premium-Abonnement zu verwenden, Müssen Sie die Dataflowworkload für diese Premium-Kapazität aktivieren. Weitere Informationen zu Power BI Premium finden Sie im Artikel [Was ist Power BI Premium?](service-premium.md). 
-
-Die folgende Tabelle beschreibt Dataflowfeatures und ihre Kapazitäten beim Verwenden eines Power BI Pro-Kontos und vergleicht diese mit Power BI Premium.
+Um Dataflowfeatures und -workloads mit einem Power BI Premium-Abonnement zu verwenden, Müssen Sie die Dataflowworkload für diese Premium-Kapazität aktivieren. Die folgende Tabelle beschreibt Dataflowfeatures und ihre Kapazitäten beim Verwenden eines Power BI Pro-Kontos und vergleicht diese mit Power BI Premium.
 
 
 |Dataflowfeature | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Die folgende Tabelle beschreibt Dataflowfeatures und ihre Kapazitäten beim Verw
 |Verknüpfte Dataflowentitäten| |        +|
 |Standardisiertes Schema/integrierte Common Data Model-Unterstützung|  +|  +|
 
-Weitere Informationen über das Aktivieren von Datenfluss-Workloads in Premium-Kapazität finden Sie im Artikel [Konfigurieren von Workloads](service-admin-premium-manage.md#configure-workloads) für Power BI Premium. Dataflowworkloads sind in Multi-Geo-Kapazitäten zurzeit nicht verfügbar.
+Weitere Informationen über das Aktivieren von Datenflussworkloads in Premium-Kapazitäten finden Sie im Artikel [Konfigurieren von Workloads in einer Premium-Kapazität](service-admin-premium-workloads.md). Dataflowworkloads sind in Multi-Geo-Kapazitäten zurzeit nicht verfügbar.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Zusammenfassung: Self-Service-Datenaufbereitung für Big Data in Power BI
 Wie bereits in diesem Artikel erwähnt, gibt es mehrere Szenarien und Beispiele, wie Sie mit **Dataflows** Ihre Geschäftsdaten besser kontrollieren und daraus schneller Informationen gewinnen können. Mit einem Standarddatenmodell (Schema), das durch das Common Data Model definiert ist, können Dataflows Ihre wertvollen Geschäftsdaten importieren und in kürzester Zeit zum Modellieren und Erstellen von BI-Informationen bereitstellen. All das dauerte bislang Monate, wenn nicht gar länger. 

@@ -1,5 +1,5 @@
 ---
-title: Was sind Power BI-Gateways?
+title: Was sind lokale Datengateways?
 description: Erfahren Sie Grundlegendes zu Datengateways für Power BI.
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324482"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461647"
 ---
-# <a name="what-are-power-bi-gateways"></a>Was sind Power BI-Gateways?
+# <a name="what-are-on-premises-data-gateways"></a>Was sind lokale Datengateways?
 
 Ein Power BI-Gateway ist eine Softwareanwendung, die Sie in einem lokalen Netzwerk installieren. Es ermöglicht Zugriff auf Daten in diesem Netzwerk. Es handelt sich dabei um eine Art Torwächter, der Verbindungsanforderungen überwacht und diese nur zulässt, wenn die Benutzeranforderung bestimmte Kriterien erfüllt. So können Organisationen Datenbanken und andere Datenquellen in ihren eigenen Netzwerken behalten, diese lokalen Daten aber sicher in Power BI-Berichten und -Dashboards verwenden.
 

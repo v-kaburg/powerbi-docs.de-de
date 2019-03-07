@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892388"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014137"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
 
-In diesem Artikel wird beschrieben, wie Sie eine Power BI Premium-Kapazität (P1-P3) für Ihre Organisation erwerben. Sie können eine Power BI Premium-Kapazität über das Office 365 Admin Center erwerben, und die [Verwaltung Ihrer Kapazitäten](service-admin-premium-manage.md) findet im Power BI-Verwaltungsportal statt. Aktuelle Informationen zu Preisen und zur Planung finden Sie auf der [Seite zu den Power BI-Preisen](https://powerbi.microsoft.com/pricing/) und über den [Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/).
+> [!NOTE]
+> Dieser Artikel wird gerade mit Beschreibungen neuer Features und ausführlicheren Informationen aktualisiert. Außerdem wird die Lesbarkeit verbessert. 
+
+In diesem Artikel wird beschrieben, wie Sie eine Power BI Premium-Kapazität (P1-P3) für Ihre Organisation erwerben. Sie können eine Power BI Premium-Kapazität über das Office 365 Admin Center erwerben und Ihre Kapazitäten über das Power BI-Verwaltungsportal verwalten. Aktuelle Informationen zu Preisen und zur Planung finden Sie auf der [Seite zu den Power BI-Preisen](https://powerbi.microsoft.com/pricing/) und über den [Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/).
 
 Auch wenn Ihre Organisation Power BI Premium verwendet, benötigen Inhaltsautoren weiterhin eine Power BI Pro-Lizenz. Stellen Sie sicher, dass Sie mindestens eine Power BI Pro-Lizenz für Ihre Organisation erwerben.
 
