@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276780"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555680"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Verwenden von DirectQuery in Power BI Desktop
 Wenn Sie mit **Power BI Desktop** eine Verbindung zu Ihrer Datenquelle herstellen, ist es immer möglich, eine Kopie der Daten in **Power BI Desktop** zu importieren. Für einige Datenquellen steht ein alternativer Ansatz zur Verfügung: das Herstellen einer direkten Verbindung zur Datenquelle mit **DirectQuery**.
@@ -41,17 +41,17 @@ Im Artikel [Power BI und DirectQuery](desktop-directquery-about.md) wird **Direc
 ## <a name="benefits-of-using-directquery"></a>Vorteile der Verwendung von DirectQuery
 Einige Vorteile sprechen für die Verwendung von **DirectQuery**:
 
-* Mithilfe von **DirectQuery** können Visualisierungen sehr großer Datasets erstellt werden, bei denen es andernfalls nicht möglich wäre, sämtliche Daten mit Vorabaggregation zu importieren
+* Mithilfe von **DirectQuery** können Visualisierungen sehr großer Datasets erstellt werden, bei denen es andernfalls nicht möglich wäre, sämtliche Daten mit Vorabaggregation zu importieren.
 * Änderungen an den zugrunde liegenden Daten können eine Aktualisierung der Daten erforderlich machen, und bei einigen Berichten kann das Erfordernis, aktuelle Daten zu zeigen, sehr umfangreiche Datenübertragungen mit sich bringen, was das erneute Importieren von Daten praktisch ausschließt. Im Gegensatz dazu verwenden **DirectQuery** -Berichte immer aktuelle Daten.
 * Die Einschränkung auf 1 GB für Datasets gilt *nicht* für **DirectQuery**.
 
 ## <a name="limitations-of-directquery"></a>Einschränkungen für DirectQuery
 Derzeit bestehen einige Einschränkungen bei der Verwendung von **DirectQuery**:
 
-* Alle Tabellen müssen aus einer einzelnen Datenbank stammen
+* Alle Tabellen müssen aus einer einzelnen Datenbank kommen, es sei denn, es werden [zusammengesetzte Modelle](desktop-composite-models.md) verwendet.
 * Wenn die Abfrage im **Abfrage-Editor** übermäßig komplex ist, tritt ein Fehler auf. Um den Fehler zu beheben, müssen Sie wie folgt vorgehen: Löschen Sie den fraglichen Schritt im **Abfrage-Editor**, oder *importieren* Sie die Daten, statt **DirectQuery** zu verwenden. Bei mehrdimensionalen Datenquellen wie SAP Business Warehouse ist kein **Abfrage-Editor** vorhanden.
 * Beim Filtern von Beziehungen steht nur eine Richtung anstelle beider Richtungen zur Verfügung (es ist aber möglich, Kreuzfilterung in beide Richtungen für **DirectQuery** als Vorschaufunktion zu aktivieren). Für mehrdimensionale Datenquellen wie SAP Business Warehouse sind im Modell keine Beziehungen definiert.
-* Zeitintelligenzfunktionen sind in **DirectQuery** nicht verfügbar. Beispielsweise wird die spezifische Behandlung von Datumsspalten (Jahr, Quartal, Monat, Tag usw.) im **DirectQuery**Modus nicht unterstützt.
+* Zeitintelligenzfunktionen sind in **DirectQuery** nicht verfügbar. Beispielsweise wird die spezifische Behandlung von Datumsspalten (Jahr, Quartal, Monat, Tag usw.) im **DirectQuery**-Modus nicht unterstützt.
 * Standardmäßig gelten für DAX-Ausdrücke, die in Measures zulässig sind, Einschränkungen; weitere Informationen finden Sie im folgenden Abschnitt (nach dieser Aufzählung).
 * Bei Verwendung von **DirectQuery** können maximal 1 Million Zeilen mit Daten zurückgegeben werden. Dies betrifft nicht Aggregationen oder Berechnungen, die zum Erstellen des mit **DirectQuery** zurückgegebenen Datasets verwendet wurden, sondern nur die zurückgegebenen Zeilen. Sie können beispielsweise 10 Millionen Zeilen mit der Abfrage aggregieren, die für die Datenquelle ausgeführt wird, und die Ergebnisse dieser Aggregation mithilfe von **DirectQuery** präzise an Power BI zurückgeben, solange weniger als 1 Million Zeilen mit Daten an Power BI zurückgegeben werden. Wenn mehr als 1 Million Zeilen von **DirectQuery** zurückgegeben werden, gibt Power BI einen Fehler aus.
 

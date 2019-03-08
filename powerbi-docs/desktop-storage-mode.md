@@ -1,5 +1,5 @@
 ---
-title: Verwendung des Speichermodus in Power BI Desktop (Vorschauversion)
+title: Verwenden des Speichermodus in Power BI Desktop
 description: Mit dem Speichermodus können Sie steuern, ob Daten für Berichte in Power BI Desktop im In-Memory-Cache zwischengespeichert werden sollen.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279180"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555870"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Speichermodus in Power BI Desktop (Vorschauversion)
+# <a name="storage-mode-in-power-bi-desktop"></a>Speichermodus in Power BI Desktop
 
 In Power BI Desktop können Sie den *Speichermodus* von Tabellen festlegen. Mit dem *Speichermodus* können Sie steuern, ob Power BI Desktop Tabellendaten im Arbeitsspeicher für Berichte zwischenspeichert. 
 
@@ -37,9 +37,9 @@ Das Festlegen des Speichermodus bietet viele Vorteile. Sie können den Speicherm
 
 Die Einstellung „Speichermodus“ in Power BI Desktop ist eines von drei in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Verwenden zusammengesetzter Modelle in Power BI Desktop](desktop-composite-models.md).
 
-* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Ausführliche Informationen finden Sie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md).
+* **m:n-Beziehungen**: Mithilfe *zusammengesetzter Modelle* können Sie *m:n-Beziehungen* zwischen Tabellen einrichten. Durch *m:n-Beziehungen* entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Weitere Informationen finden Sie unter [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Speichermodus**: Sie können nun angeben, welche Visuals eine Abfrage in Back-End-Datenquellen erfordern. Visuals, für die keine Abfrage nötig ist, werden importiert, auch wenn diese auf DirectQuery basieren. Mit diesem Feature kann die Leistung verbessert und die Auslastung des Back-Ends verringert werden. Zuvor initiierten sogar einfache Visuals wie Slicer Abfragen, die an Back-End-Quellen gesendet wurden. Im vorliegenden Artikel wird der Speichermodus ausführlich erläutert.
 
@@ -127,13 +127,13 @@ Die folgende Abfrage ist interessant, da sie beide Spalten kombiniert. Diese Abf
 ![Skript für die Speichermodusdiagnose](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Dieses Verhalten unterscheidet sich von [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
+> Dieses Verhalten unterscheidet sich von [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md), wenn zwischengespeicherte und nicht zwischengespeicherte Tabellen kombiniert werden.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Bedeutung der Synchronisierung von Caches
 
 Die im vorherigen Abschnitt angezeigten Abfragen verdeutlichen, dass **Dual**-Tabellen manchmal vom Cache ausgeführt werden und manchmal nicht. Wenn der Cache veraltet ist, können deshalb unterschiedliche Werte zurückgegeben werden. Bei der Abfrageausführung wird nicht versucht, Datenprobleme, zu maskieren, indem z.B. DirectQuery-Ergebnisse entsprechend den zwischengespeicherten Werten gefiltert werden. Sie müssen bestens mit Ihren Datenflüssen vertraut sein und den Entwurf entsprechend darauf ausrichten. Bei Bedarf können Sie auf etablierte Verfahren zum Umgang mit derartigen Fällen an der Quelle zurückgreifen.
 
-Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben werden.
+Der Speichermodus *Dual* trägt zur Leistungsoptimierung bei. Er sollte nur auf eine Weise verwendet werden, die die Erfüllung geschäftlicher Anforderungen nicht beeinträchtigt. Ziehen Sie bei anderen Verhaltensweisen ggf. die Verwendung der Methoden in Erwägung, die im Artikel [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md) beschrieben werden.
 
 ## <a name="data-view"></a>Datenansicht
 Ist für mindestens eine Tabelle im Dataset der Speichermodus auf **Import** oder **Dual** festgelegt, wird die Registerkarte **Datenansicht** angezeigt.
@@ -162,7 +162,7 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
+* [Verwenden zusammengesetzter Modelle in Power BI Desktop](desktop-composite-models.md)
+* [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md)
 * [Verwenden von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
