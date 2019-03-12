@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196434"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580057"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Organisationsinhaltspakete: Kopieren, aktualisieren und abrufen
 
@@ -25,13 +25,13 @@ Das Erstellen von Inhaltspaketen unterscheidet sich vom Freigeben von Dashboards
 
 > [!NOTE]
 > Mit der Vorschauversion der neuen Arbeitsbereiche können Sie keine organisationsbezogenen Inhaltspakete erstellen oder installieren. Führen Sie jetzt ein Upgrade durch, und wandeln Sie Ihre Inhaltspakete in Apps um, falls Sie dies noch nicht getan haben. Erfahren Sie [mehr über die neuen Arbeitsbereiche](service-create-the-new-workspaces.md).
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Erstellen einer Kopie eines organisationsbezogenen Inhaltspakets
 Erstellen Sie eine eigene Kopie des Inhaltspakets, die für andere nicht sichtbar ist.
 
 1. Wählen Sie die Auslassungspunkte (...) neben dem Dashboard des Inhaltspakets aus und dann „Kopie erstellen“.
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Wählen Sie **Speichern**.  
 
@@ -41,7 +41,7 @@ Sie haben jetzt eine Kopie, die Sie ändern können. Die von Ihnen vorgenommenen
 > Bislang wurde bei der Installation eines Inhaltspakets oder bei der Erstellung einer Kopie jeweils ein neues Dataset in der Inhaltsliste im Arbeitsbereich angezeigt. Dies wurde kürzlich durch ein Update vereinfacht, sodass nun nur noch ein einzelnes Element mit dem neuen Symbol für referenzierte Datasets angezeigt wird:
 >
 > ![Datenbank mit Verknüpfungssymbol](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Hilfe!  Ich kann nicht mehr auf das Inhaltspaket zugreifen.
 Dies kann verschiedene Ursachen haben:
@@ -51,7 +51,7 @@ Dies kann verschiedene Ursachen haben:
 * **Änderungen der Sicherheitseinstellungen**: Wenn das Dashboard und die Berichte mit lokalen SSAS-Datenquellen verbunden sind und an den Sicherheitseinstellungen Änderungen vorgenommen werden, könnten Ihre Berechtigungen für diesen Server aufgehoben werden.
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>Wie werden organisationsbezogene Inhaltspakete aktualisiert?
-Wenn das Inhaltspaket erstellt wird, werden die Aktualisierungseinstellungen mit dem Dataset geerbt.  Wenn Sie eine Kopie des Inhaltspakets erstellen, bleiben die Verknüpfung der neuen Version mit dem ursprünglichen Dataset und dessen Aktualisierungszeitplan erhalten. 
+Wenn das Inhaltspaket erstellt wird, werden die Aktualisierungseinstellungen mit dem Dataset geerbt.  Wenn Sie eine Kopie des Inhaltspakets erstellen, bleiben die Verknüpfung der neuen Version mit dem ursprünglichen Dataset und dessen Aktualisierungszeitplan erhalten.
 
 Weitere Informationen finden Sie unter [Verwalten, Aktualisieren und Löschen von organisationsbezogenen Inhaltspaketen](service-organizational-content-pack-manage-update-delete.md).
 
@@ -59,4 +59,3 @@ Weitere Informationen finden Sie unter [Verwalten, Aktualisieren und Löschen vo
 * [Einführung in organisationsbezogene Inhaltspakete](service-organizational-content-pack-introduction.md)
 * [Erstellen einer Gruppe in Power BI](service-create-distribute-apps.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-
