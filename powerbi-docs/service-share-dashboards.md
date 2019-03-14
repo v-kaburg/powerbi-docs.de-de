@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277386"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580241"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen von Dashboards und Berichten](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -98,13 +98,15 @@ Bei einer Freigabe für Personen außerhalb Ihrer Organisation erhalten diese ei
 
 Nachdem sie sich angemeldet haben, sehen sie das freigegebene Dashboard bzw. den freigegebenen Bericht in einem eigenen Browserfenster ohne den linken Navigationsbereich, nicht in ihrem üblichen Power BI-Portal. Sie müssen den Link als Favoriten speichern, um künftig auf dieses Dashboard bzw. diesen Bericht zugreifen zu können.
 
-Sie können Inhalte in diesem Dashboard oder Bericht nicht bearbeiten. Aber Sie haben die Möglichkeit, im Bericht mit den Diagrammen zu interagieren und Änderungsfilter oder Datenschnitte zu ändern, wobei sie ihre Änderungen jedoch nicht speichern können.
+Sie können Inhalte in diesem Dashboard oder Bericht nicht bearbeiten. Aber Sie haben die Möglichkeit, im Bericht mit den Diagrammen zu interagieren und Änderungsfilter oder Datenschnitte zu ändern, wobei sie ihre Änderungen jedoch nicht speichern können. 
 
 Nur direkte Empfänger können das freigegebene Dashboard bzw. den freigegebenen Bericht anzeigen. Wenn Sie die E-Mail beispielsweise an Vicki@contoso.com gesendet haben, wird das Dashboard nur für Vicki angezeigt. Niemand sonst kann das Dashboard sehen, selbst wenn der Link verfügbar ist, und Vicki muss dieselbe E-Mail-Adresse verwenden, um auf dieses Dashboard zuzugreifen. Wenn sie sich mit einer anderen E-Mail-Adresse anmeldet, hat sie auch keinen Zugriff auf das Dashboard.
 
 Personen außerhalb Ihrer Organisation können überhaupt keine Daten anzeigen, wenn für lokale Analysis Services-Tabellenmodelle die Sicherheit auf Rollen- oder Zeilenebene implementiert ist.
 
 Wenn Sie aus einer mobilen Power BI-App einen Link an Personen außerhalb Ihrer Organisation senden und diese auf den Link klicken, wird das Dashboard in einem Browser und nicht in der mobilen Power BI-App geöffnet.
+
+Wenn für Gastbenutzer die Einstellung [Allow external guest users to edit and manage content in the organization](service-admin-portal.md#export-and-sharing-settings) (Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben) aktiviert ist, sind sie nicht auf die Nutzung nur als Standardbenutzeroberfläche beschränkt. [Weitere Informationen](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 Aspekte, die beim Freigeben von Dashboards und Berichten zu beachten sind:

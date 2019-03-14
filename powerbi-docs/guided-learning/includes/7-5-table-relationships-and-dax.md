@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555950"
+---
 Power BI ermöglicht es Ihnen, Beziehungen zwischen mehreren Tabellen zu erstellen, einschließlich Tabellen, die aus völlig anderen Datenquellen stammen. Sie können diese Beziehungen für jedes beliebige Datenmodell in der Ansicht **Beziehungen** von Power BI Desktop anzeigen.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ DAX verfügt über **relationale Funktionen**, die die Interaktion mit Tabellen 
 
 Sie können den Wert einer Spalte zurückgeben, oder Sie können alle Zeilen in einer Beziehung mit DAX-Funktionen zurückgeben.
 
-Die **TABLE**-Funktion berücksichtigt z.B. Beziehungen und gibt den Wert einer Spalte zurück, während **RELATEDTABLE**E Beziehungen berücksichtigt und eine gesamte Tabelle zurückgibt, die herausgefiltert wurde und nur verwandte Zeilen besitzt.
+Die **RELATED**-Funktion berücksichtigt z.B. Beziehungen und gibt den Wert einer Spalte zurück, während **RELATEDTABLE**E Beziehungen berücksichtigt und eine gesamte Tabelle zurückgibt, die herausgefiltert wurde und nur verwandte Zeilen besitzt.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

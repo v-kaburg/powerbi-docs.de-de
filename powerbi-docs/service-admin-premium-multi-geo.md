@@ -1,5 +1,5 @@
 ---
-title: Multi-Geo-Unterstützung für Power BI Premium (Vorschau)
+title: Multi-Geo-Unterstützung für Power BI Premium
 description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen können.
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794658"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571977"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Multi-Geo-Unterstützung für Power BI Premium (Vorschau)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Multi-Geo-Unterstützung für Power BI Premium
 
 Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Erfüllung von regionalen, branchenspezifischen oder organisationsbezogenen Data Residency-Anforderungen unterstützt. Als Power BI Premium-Kunde können Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen. Eine geografische Region (Geografie) kann mehr als eine Region umfassen. Die USA sind z.B. eine geografische Region und „USA, Westen-Mitte“ und „USA, Süden-Mitte“ Regionen innerhalb der USA. Außerdem können Sie Inhalte für eine der folgenden geografischen Regionen bereitstellen:
 
@@ -33,7 +33,7 @@ Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Er
 
 Multi-Geo ist nicht für Power BI Deutschland, Power BI China (betrieben von 21Vianet) oder Power BI für die US-Regierung verfügbar.
 
-Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung in Power BI Embedded (Vorschau)](developer/embedded-multi-geo.md).
+Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung in Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Verwendung von Multi-Geo
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014643"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757344"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -144,7 +144,7 @@ Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen extern
 
 ![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Webveröffentlichung
+### <a name="publish-to-web"></a>Im Web veröffentlichen
 
 Benutzer in der Organisation können Berichte im Web veröffentlichen. [Weitere Informationen](service-publish-to-web.md)
 
@@ -191,6 +191,13 @@ Die folgende Abbildung zeigt die Option zum Drucken eines Dashboards.
 Die folgende Abbildung zeigt das Menü **Datei** für einen Bericht, wenn die Einstellung **Dashboards und Berichte drucken** aktiviert ist.
 
 ![Bericht drucken](media/service-admin-portal/powerbi-admin-print-report.png)
+
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben
+Azure AD-B2B-Gastbenutzer können Inhalte in der Organisation bearbeiten und verwalten. [Weitere Informationen](service-admin-azure-ad-b2b.md)
+
+In der folgenden Abbildung wird die Option „Allow external guest users to edit and manage content in the organization“ (Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben) angezeigt.
+
+![Externen Gastbenutzern das Bearbeiten und Verwalten von Inhalten in der Organisation erlauben](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
 ## <a name="content-pack-and-app-settings"></a>Einstellungen für das Inhaltspaket und die App
 
@@ -243,10 +250,45 @@ Benutzer in der Organisation können mit benutzerdefinierten Visuals interagiere
 > [!NOTE]
 > Diese Einstellung kann für die gesamte Organisation gelten oder auf bestimmte Gruppen beschränkt werden.
 
+
+Power BI Desktop unterstützt (ab der Version vom März 2019) die Verwendung des Tools **Gruppenrichtlinie**, um die Verwendung von benutzerdefinierten Visuals auf allen in einer Organisation bereitgestellten Computern zu deaktivieren.
+
+<table>
+<tr><th>Attribut</th><th>Wert</th>
+</tr>
+<td>Schlüssel</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+Mit Wert 1 (dezimal) wird die Verwendung von benutzerdefinierten Visuals in Power BI aktiviert (Standardeinstellung).
+
+Mit Wert 0 (dezimal) wird die Verwendung von benutzerdefinierten Visuals in Power BI deaktiviert.
+
 ### <a name="allow-only-certified-visuals"></a>Ausschließlich zertifizierte Visuals zulassen
 
 Benutzer in der Organisation, denen Berechtigungen zum Hinzufügen und Verwenden benutzerdefinierter Visuals gewährt wurden, gekennzeichnet durch die Einstellung „Benutzerdefinierte Visuals hinzufügen und verwenden“, können nur [zertifizierte benutzerdefinierte Visuals](https://go.microsoft.com/fwlink/?linkid=2002010) verwenden (nicht zertifizierte Visuals werden blockiert, und es wird eine Fehlermeldung angezeigt, wenn diese verwendet werden). 
 
+
+Power BI Desktop unterstützt (ab der Version vom März 2019) die Verwendung des Tools **Gruppenrichtlinie**, um die Verwendung von nicht zertifizierten benutzerdefinierten Visuals auf allen in einer Organisation bereitgestellten Computern zu deaktivieren.
+
+<table>
+<tr><th>Attribut</th><th>Wert</th>
+</tr>
+<td>Schlüssel</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+Mit Wert 1 (dezimal) wird die Verwendung von nicht zertifizierten benutzerdefinierten Visuals in Power BI aktiviert (Standardeinstellung).
+
+Mit Wert 0 (dezimal) wird die Verwendung von nicht zertifizierten benutzerdefinierten Visuals in Power BI deaktiviert. Diese Option aktiviert nur die Verwendung von [zertifizierten benutzerdefinierten Visuals](https://go.microsoft.com/fwlink/?linkid=2002010).
 
 ## <a name="r-visuals-settings"></a>Einstellungen für R-Visualisierungen
 

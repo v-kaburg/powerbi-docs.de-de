@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555943"
+---
 Ein wesentlicher Unterschied zwischen **DAX** und der Excel-Formelsprache ist der, dass Sie mit DAX *komplette Tabellen* in Ausdrücken berechnen können, ohne dass Sie auf einen einzigen Wert beschränkt sind. Ein signifikanter Effekt ist, dass DAX Ihnen erlaubt, Tabellen in deren Ausdrücken zu filtern und anschließend mit dem gefilterten Wertesatz zu arbeiten.
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)
@@ -13,7 +21,7 @@ DAX verfügt über einen umfangreichen Satz von **Tabellenfunktionen**, einschli
 * DISTINCT
 * RELATEDTABLE
 
-Diese Funktionen geben anstatt einen Wert eine vollständige Tabelle zurück. Normalerweise verwenden Sie die Ergebnisse einer **Tabellenfunktion** in weiteren Analysen als Teil eines größeren Ausdrucks und nicht die zurückgegebene Tabelle als endgültigen Wert. Es ist wichtig, zu beachten, dass wenn Sie eine Tabellenfunktion verwenden, die Ergebnisse die Beziehungen zwischen den Spalten erben.
+Diese Funktionen geben anstatt eines Werts eine vollständige Tabelle zurück. Normalerweise verwenden Sie die Ergebnisse einer **Tabellenfunktion** in weiteren Analysen als Teil eines größeren Ausdrucks und nicht die zurückgegebene Tabelle als endgültigen Wert. Es ist wichtig, zu beachten, dass wenn Sie eine Tabellenfunktion verwenden, die Ergebnisse die Beziehungen zwischen den Spalten erben.
 
 Sie können Tabellenfunktionen in Ihrem Ausdruck kombinieren, solange eine Funktion jeweils eine Tabelle verwendet und eine Tabelle zurückgegeben wird. Betrachten Sie beispielsweise den folgenden DAX-Ausdruck:
 

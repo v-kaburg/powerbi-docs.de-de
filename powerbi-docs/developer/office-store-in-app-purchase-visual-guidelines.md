@@ -1,30 +1,34 @@
 ---
-title: Möglicherweise müssen weitere Komponenten erworben werden – Richtlinien für Power BI-Visuals
+title: Richtlinien für Power BI-Visuals
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Visual in AppSource veröffentlichen, damit es von anderen gefunden und erworben werden kann.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826581"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757298"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlinien für Power BI-Visuals mit zusätzlichen Käufen
+# <a name="guidelines-for-power-bi-visuals"></a>Richtlinien für Power BI-Visuals
 
-Bis vor Kurzem wurden im Marketplace (AppSource) nur kostenlose Power BI-Visuals akzeptiert. Diese Vorgabe wurde geändert, Sie können also auch Visuals in AppSource anbieten, für die möglicherweise weitere Komponenten erworben werden müssen. 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Richtlinien für Power BI-Visuals mit zusätzlichen Käufen
+
+Bis vor Kurzem wurden im Marketplace (AppSource) nur kostenlose Power BI-Visuals akzeptiert. Diese Vorgabe wurde geändert (Dezember 2018). Sie können also auch Visuals in AppSource anbieten, für die möglicherweise weitere Komponenten erworben werden müssen. 
 
 Visuals, für die möglicherweise weitere Komponenten erworben werden müssen, ähneln den Add-Ins im Office Store, die per In-App-Kauf (IAP, In-App-Purchase) erworben werden. Entwickler können diese Visuals zudem zur Zertifizierung übermitteln, nachdem das AppSource-Team diese genehmigt hat und nachdem sichergestellt wurde, dass diese den Zertifizierungsanforderungen entsprechen. Weitere Informationen zu den Anforderungen finden Sie unter [Zertifizierte benutzerdefinierte Visuals](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
-> * Damit ein Visual zertifiziert werden kann, darf es nicht auf externe Dienste oder Ressourcen zugreifen.
-> * Alle kostenlosen Visuals sollten dieselben kostenlosen Features beibehalten, die zuvor angeboten wurden. Sie können zusätzlich zu den vorhandenen kostenlosen Features optionale erweiterte Features hinzufügen, die kostenpflichtig sind. Es wird empfohlen, die IAP-Visuals mit den erweiterten Features als neue Visuals zu veröffentlichen, anstatt die vorhandenen kostenlosen Features zu aktualisieren.
+> Damit ein Visual zertifiziert werden kann, darf es nicht auf externe Dienste oder Ressourcen zugreifen.
+
+>[!IMPORTANT]  
+> Wenn Sie Ihr Visual von „Kostenlos“ zu „Möglicherweise sind zusätzliche Käufe erforderlich.“ aktualisieren, müssen den Benutzern im gleichen Umfang kostenlose Funktionen zur Verfügung stehen wie vor der Aktualisierung. Sie können zusätzlich zu den vorhandenen kostenlosen Features optionale erweiterte Features hinzufügen, die kostenpflichtig sind. Es wird empfohlen, die IAP-Visuals mit den erweiterten Features als neue Visuals zu veröffentlichen, anstatt die vorhandenen kostenlosen Features zu aktualisieren.
 
 
 ## <a name="what-changed-in-the-submission-process"></a>Was hat sich am Übermittlungsprozess geändert?
@@ -33,19 +37,19 @@ Entwickler laden ihre Visuals, die In-App-Käufe enthalten, genau wie kostenlose
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Was ist ein Power BI-Visual mit In-App-Käufen?
 
-Ein IAP-Visual ist ein kostenloses Visual, das kostenlose Features bietet. Ein solches Visual verfügt auch über einige erweiterte Features, für deren Nutzung zusätzliche Gebühren anfallen können. Entwickler müssen die Benutzer in der Beschreibung des Visuals über die Features informieren, für deren Funktionsweise möglicherweise zusätzliche Komponenten erworben werden müssen. Derzeit bietet Microsoft keine nativen APIs an, den Erwerb von Apps und Add-Ins unterstützen.
+Ein IAP-Visual ist ein **kostenloses** Visual, das **kostenlose Features** bietet. Ein solches Visual verfügt auch über einige erweiterte Features, für deren Nutzung zusätzliche Gebühren anfallen können. Entwickler müssen die Benutzer in der Beschreibung des Visuals über die Features informieren, für deren Funktionsweise möglicherweise zusätzliche Komponenten erworben werden müssen. Derzeit bietet Microsoft keine nativen APIs an, den Erwerb von Apps und Add-Ins unterstützen.
 
 Entwickler müssen ein Zahlungssystem von einem Drittanbieter für diese Käufe verwenden. Weitere Informationen finden Sie in [den Richtlinien für unseren Store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
-> Wasserzeichen sind in kostenlosen Features nicht zulässig. Entwickler können ein Popupfenster oder Wasserzeichen anzeigen, wenn die erweiterten kostenpflichtigen Features ohne gültige Lizenz verwendet werden.  
+> Wasserzeichen sind in kostenlosen Features oder kostenlosen Visuals nicht zulässig. Wasserzeichen können nur in kostenpflichtigen Features verwendet werden, die ohne gültige Lizenz verwendet werden. Wenn die erweiterten kostenpflichtigen Features ohne gültige Lizenz verwendet werden, wird empfohlen, ein Popupfenster anzuzeigen, das alle Informationen zur Lizenz enthält.  
 
 ## <a name="logo-guidelines"></a>Richtlinien für Logos
 
 In diesem Abschnitt werden die Spezifikationen für das Hinzufügen von Logos und Logotypen in Visuals erläutert.
 
-> [!NOTE]
-> Logos sind nur im Bearbeitungsmodus zulässig. Logos können im Anzeigemodus nicht dargestellt werden.
+> [!IMPORTANT]
+> Logos sind **nur im Bearbeitungsmodus** zulässig. Logos können im Anzeigemodus **nicht** dargestellt werden.
 
 ![Definitionen](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 

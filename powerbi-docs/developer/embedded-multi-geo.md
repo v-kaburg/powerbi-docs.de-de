@@ -1,5 +1,5 @@
 ---
-title: Multi-Geo-Unterstützung für Power BI Embedded (Vorschau)
+title: Multi-Geo-Unterstützung für Power BI Embedded
 description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren in anderen Regionen als der Heimatregion von Power BI Embedded bereitstellen können.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762419"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572023"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Multi-Geo-Unterstützung für Power BI Embedded (Vorschau)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Multi-Geo-Unterstützung für Power BI Embedded
 
-Die **Multi-Geo-Unterstützung für Power BI Embedded (Vorschau)** bewirkt, dass unabhängige Softwarehersteller (ISVs) und Organisationen, die Anwendungen mit Power BI Embedded entwickeln, um eine Analyse in ihre Apps zu integrieren, ihre Daten jetzt in unterschiedlichen Regionen auf der ganzen Welt bereitstellen können.
+Die **Multi-Geo-Unterstützung für Power BI Embedded** bewirkt, dass unabhängige Softwarehersteller (ISVs) und Organisationen, die Anwendungen mit Power BI Embedded entwickeln, um eine Analyse in ihre Apps zu integrieren, ihre Daten jetzt in unterschiedlichen Regionen auf der ganzen Welt bereitstellen können.
 
 Kunden, die **Power BI Embedded** verwenden, können ab sofort eine **A-Kapazität** mit **Multi-Geo**-Optionen einrichten, basierend auf den gleichen Features und Einschränkungen, die für [Power BI Premium mit Verwendung von Multi-Geo](../service-admin-premium-Multi-Geo.md) gelten.
 
