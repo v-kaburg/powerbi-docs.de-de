@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: Herstellen einer Verbindung zu einem GitHub-Beispiel
       href: service-tutorial-connect-to-github.md
+    - name: Verwenden von Cognitive Services in Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: Machine Learning-Integration in Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Konzepte
     items:
     - name: Neuigkeiten bei Power BI
@@ -644,8 +648,12 @@ items:
         href: service-dataflows-connect-azure-data-lake-storage-gen2.md
       - name: Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschau)
         href: service-dataflows-configure-workspace-storage-settings.md
-      - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschau)
+      - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
         href: service-dataflows-add-cdm-folder.md
+      - name: Integrieren von Machine Learning in Power BI
+        href: service-machine-learning-integration.md
+      - name: Verwenden von Cognitive Services in Power BI
+        href: service-cognitive-services.md
     - name: Paginierte Berichte in Power BI
       items:
       - name: Was sind paginierte Berichte? (Vorschau)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Verbinden mit Diensten
         items:
-        - name: Verbinden mit Diensten
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757436"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964914"
