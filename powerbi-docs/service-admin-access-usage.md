@@ -32,7 +32,7 @@ Alle Benutzer – auch Nichtadministratoren – können einen Bericht mit den ei
 
 * Ihr Mandant verfügt über eine Azure AD Premium-Lizenz.
 
-* Sie müssen eine der folgenden Rollen besitzen: „Globaler Administrator“, „Sicherheitsadministrator“ oder „Benutzer mit Leseberechtigung für Sicherheitsfunktionen“.
+* Sie müssen eine der folgenden Rollen besitzen: „Globaler Administrator“, „Sicherheitsadministrator“ oder „Sicherheitsleseberechtigter“.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Anzeigen von Anmeldungen mit dem Azure-Portal
 

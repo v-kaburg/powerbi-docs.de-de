@@ -38,7 +38,7 @@ Mithilfe des Microsoft Graph-Sicherheits-Connectors für Power BI können Sie in
 
    * Bei der ersten Ausführung Ihrer Logik-App kann die App die Administratorzustimmung Ihres Azure AD-Mandanten über die [Zustimmungsoberfläche für die Anwendung](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) anfordern.
    
-* Das Benutzerkonto, das Sie für die Anmeldung zum Herstellen der Verbindung mit dem Microsoft Graph-Sicherheits-Connectors in Power BI verwendet haben, muss Mitglied der eingeschränkten Administratorrolle mit Leseberechtigung für Sicherheitsfunktionen in Azure AD sein. Dabei kann es sich entweder um einen Benutzer mit Leseberechtigung für Sicherheitsfunktionen oder einen Sicherheitsadministrator handeln. Führen Sie die Schritte im Abschnitt [Zuweisen von Azure AD-Rollen für Benutzer](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) aus. 
+* Das Benutzerkonto, das Sie für die Anmeldung zum Herstellen der Verbindung mit dem Microsoft Graph-Sicherheits-Connector in Power BI verwendet haben, muss Mitglied der eingeschränkten Administratorrolle „Sicherheitsleseberechtigter“ in Azure AD sein. Dabei kann es sich entweder um einen Sicherheitsleseberechtigten oder einen Sicherheitsadministrator handeln. Führen Sie die Schritte im Abschnitt [Zuweisen von Azure AD-Rollen für Benutzer](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) aus. 
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Verwenden des Microsoft Graph-Sicherheits-Connectors
 
@@ -54,7 +54,7 @@ Wenn Sie den **Microsoft Graph-Sicherheits-Connector** verwenden möchten, führ
 
     ![Version auswählen](media/desktop-connect-graph-security/selectVersion.PNG)
     
-5. Melden Sie sich bei Ihrem Azure Active Directory-Konto an, wenn Sie dazu aufgefordert werden. Wie im Abschnitt „Voraussetzungen“ ausgeführt, benötigt dieses Konto eine **Benutzerrolle mit Leseberechtigung für Sicherheitsfunktionen**.
+5. Melden Sie sich bei Ihrem Azure Active Directory-Konto an, wenn Sie dazu aufgefordert werden. Wie im Abschnitt „Voraussetzungen“ ausgeführt, benötigt dieses Konto die Rolle **Sicherheitsleseberechtigter**.
 
     ![Anmelden](media/desktop-connect-graph-security/SignIn.PNG)
     
