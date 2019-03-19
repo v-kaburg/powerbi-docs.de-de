@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288518"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174566"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -49,7 +49,7 @@ Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Pow
 2. Über dieses Menü können Sie auf verschiedene Arten mit Ihrer Gruppe zusammenarbeiten: 
    
    * [Gruppenunterhaltung in Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)
-   * [Planen eines Ereignisses](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar) im Gruppenarbeitsbereichskalender
+   * [Planen eines Ereignisses](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar) im Gruppenarbeitsbereichskalender
    
    Beim ersten Aufrufen des Gruppenarbeitsbereichs Ihrer App in Office 365 müssen Sie unter Umständen ein wenig warten. Lassen Sie sich 15 bis 30 Minuten Zeit, und aktualisieren Sie dann Ihren Browser.
 

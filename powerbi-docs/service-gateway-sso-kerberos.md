@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226248"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174980"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Verwenden von Kerberos für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 
@@ -60,7 +60,7 @@ In einer Standardinstallation wird das Gateway als Dienstkonto des lokalen Compu
 
 ![Screenshot des Dienstkontos](media/service-gateway-sso-kerberos/service-account.png)
 
-Zum Aktivieren der eingeschränkten Kerberos-Delegierung muss das Gateway als Domänenkonto ausgeführt werden, es sei denn, Ihre Instanz von Azure Active Directory (Azure AD) ist bereits mit Ihrer lokalen Active Directory-Instanz synchronisiert (mittels Azure AD DirSync/Connect). Informationen zur Umstellung auf ein Domänenkonto finden Sie weiter unten in diesem Artikel unter [Umstellen des Gateways auf ein Domänenkonto](#switching-the-gateway-to-a-domain-account).
+Zum Aktivieren der eingeschränkten Kerberos-Delegierung muss das Gateway als Domänenkonto ausgeführt werden, es sei denn, Ihre Instanz von Azure Active Directory (Azure AD) ist bereits mit Ihrer lokalen Active Directory-Instanz synchronisiert (mittels Azure AD DirSync/Connect). Informationen zur Umstellung auf ein Domänenkonto finden Sie weiter unten in diesem Artikel unter [Umstellen des Gateways auf ein Domänenkonto](#switch-the-gateway-to-a-domain-account).
 
 > [!NOTE]
 > Wenn Azure AD Connect konfiguriert ist und Benutzerkonten synchronisiert werden, muss der Gatewaydienst zur Laufzeit keine lokalen Azure AD-Suchvorgänge ausführen. Sie können anstelle eines Domänenkontos die lokale Dienst-SID für den Gatewaydienst verwenden. Die in diesem Artikel beschriebenen Schritte für die Konfiguration der eingeschränkten Kerberos-Delegierung sind bei dieser Konfiguration identisch. Sie werden lediglich auf das Computerobjekt des Gateways in Azure AD angewendet und nicht auf das Domänenkonto.
@@ -188,7 +188,7 @@ Bei Bedarf können Sie das Gateway über die Benutzeroberfläche **Lokales Daten
 
 ## <a name="configure-sap-bw-for-sso"></a>Konfigurieren von SAP BW für SSO
 
-Da Sie nun wissen, wie Kerberos mit einem Gateway funktioniert, können Sie SSO für SAP Business Warehouse (SAP BW) konfigurieren. Bei den folgenden Schritten wird vorausgesetzt, dass Sie auf die [eingeschränkte Kerberos-Delegierung](#preparing-for-kerberos-constrained-delegation) vorbereitet sind, die zuvor im Artikel beschrieben wurde.
+Da Sie nun wissen, wie Kerberos mit einem Gateway funktioniert, können Sie SSO für SAP Business Warehouse (SAP BW) konfigurieren. Bei den folgenden Schritten wird vorausgesetzt, dass Sie auf die [eingeschränkte Kerberos-Delegierung](#prepare-for-kerberos-constrained-delegation) vorbereitet sind, die zuvor im Artikel beschrieben wurde.
 
 Dieser Leitfaden wurde so umfassend wie möglich gestaltet. Sollten Sie einige dieser Schritte bereits ausgeführt haben, können Sie sie überspringen. Beispielsweise haben Sie vielleicht bereits einen Dienstbenutzer für Ihren SAP BW-Server erstellt und ihm einen SPN zugeordnet, oder Sie haben bereits die Bibliothek `gsskrb5` installiert.
 
@@ -356,7 +356,7 @@ Ist Azure AD Connect nicht konfiguriert, führen Sie für jeden Power BI-Dien
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Hinzufügen einer neuen Datenquelle vom Typ „SAP BW-Anwendungsserver“ zum Power BI-Dienst
 
-Fügen Sie die SAP BW-Datenquelle Ihrem Gateway hinzu. Führen Sie dazu die Schritte zum [Ausführen eines Berichts](#running-a-power-bi-report) aus, die weiter oben in diesem Artikel beschrieben sind.
+Fügen Sie die SAP BW-Datenquelle Ihrem Gateway hinzu. Führen Sie dazu die Schritte zum [Ausführen eines Berichts](#run-a-power-bi-report) aus, die weiter oben in diesem Artikel beschrieben sind.
 
 1. Geben Sie im Konfigurationsfenster der Datenquelle genau wie bei der Anmeldung beim SAP BW-Server über Power BI Desktop den **Hostnamen**, die **Systemnummer** und die **Client-ID** des Anwendungsservers ein. Wählen Sie als **Authentifizierungsmethode** die Option **Windows** aus.
 

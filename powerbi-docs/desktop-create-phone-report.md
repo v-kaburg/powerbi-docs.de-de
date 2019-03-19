@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275316"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174589"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Erstellen von Berichten, die für die mobilen Power BI-Apps optimiert sind
-Sie können die Benutzeroberfläche zum Anzeigen Ihrer Berichte in den mobilen Apps auf einem Smartphone oder Tablet verbessern. Erstellen Sie ein Hochformatlayout eines Berichts speziell für Smartphones und Tablets. In Power BI Desktop und im Power BI-Dienst passen Sie den Bericht an, indem Sie visuelle Elemente in einem Hochformatlayout neu anordnen und ihre Größe ändern, um die Benutzerfreundlichkeit zu optimieren. Sie müssen nicht alle davon einbeziehen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im optimierten Bericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.
+Sie können die Benutzeroberfläche zum Anzeigen Ihrer Berichte in den mobilen Apps auf einem Smartphone oder Tablet verbessern. Erstellen Sie ein Hochformatlayout eines Berichts speziell für Smartphones und Tablets. In Power BI Desktop und im Power BI-Dienst passen Sie den Bericht an, indem Sie visuelle Elemente in einem Hochformatlayout neu anordnen und ihre Größe ändern, um die Benutzerfreundlichkeit zu optimieren. Sie müssen nicht alle davon einbeziehen. Außerdem können Sie [*dynamische* Visuals](#optimize-a-visual-for-any-size) und [dynamische Datenschnitte](#enhance-slicers-to-work-well-in-phone-reports) erstellen, deren Größe auf Smartphones automatisch optimal angepasst wird. Wenn Sie dem Bericht Filter hinzufügen, werden diese Filter automatisch im optimierten Bericht angezeigt. Sie sind für die Leser des Berichts sichtbar und diese können den Bericht mit ihnen filtern.
 
 ![Optimierter Bericht auf einem Smartphone](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
