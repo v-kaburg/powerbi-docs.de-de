@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277800"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220952"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Verwenden berechneter Entitäten in Power BI Premium (Vorschau)
 
@@ -79,7 +79,9 @@ Beachten Sie, dass beim Entfernen des Arbeitsbereichs aus der Power BI Premium-K
 
 Wenn Sie mit Dataflows arbeiten, die insbesondere im Azure Data Lake Storage Gen2-Konto einer Organisation erstellt wurden, funktionieren Entitäten und berechnete Entitäten nur ordnungsgemäß, wenn sich diese im selben Speicherkonto befinden. Weitere Informationen finden Sie unter [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
-Zusätzlich sind verknüpfte Entitäten nicht für Dataflows verfügbar, die aus CDM-Ordnern erstellt wurden. Weitere Informationen finden Sie unter [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md).
+Verknüpfte Entitäten sind nicht für Dataflows verfügbar, die aus Common Data Service-Ordnern (CDS) erstellt wurden. Weitere Informationen finden Sie unter [Add a CDM folder to Power BI as a dataflow (Preview) (Hinzufügen eines CDS-Ordners als Dataflow in Power BI (Vorschauversion))](service-dataflows-add-cdm-folder.md).
+
+Wenn Sie Berechnungen für Daten durchführen, die durch lokale Daten und Clouddaten verknüpft sind, wird empfohlen, eine neue Entität zu erstellen, um solche Berechnungen durchzuführen. Dies ist einfacher, als eine vorhandene Entität für Berechnungen zu verwenden, also z.B. eine Entität, die auch Daten von beiden Quellen abfragt und Data Lake-interne Transformationen durchführt.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

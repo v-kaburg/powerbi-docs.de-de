@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223649"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220906"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Verknüpfen von Entitäten zwischen Dataflows in Power BI (Vorschau)
 
@@ -81,6 +81,7 @@ Es gibt einige Einschränkungen, die es bei der Arbeit mit verknüpften Entität
 * Es gibt maximal fünf verweisende Hops.
 * Zyklische Abhängigkeiten von verknüpften Entitäten sind nicht zulässig.
 * Der Dataflow muss sich in einem [neuen Power BI-Arbeitsbereich](service-create-the-new-workspaces.md) befinden.
+* Eine verknüpfte Entität kann nicht mit einer normalen Entität verbunden werden, die Daten aus einer lokalen Datenquelle abruft.
 
 
 ## <a name="next-steps"></a>Nächste Schritte
