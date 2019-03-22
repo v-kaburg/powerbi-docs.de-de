@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430991"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964707"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -22,13 +22,19 @@ Registrieren Sie sich für unsere nächsten Livewebinare, oder sehen Sie sich un
 
 ## <a name="upcoming-webinars"></a>Kommende Webinare
 
-Es sind noch keine Webinare geplant. Besuchen Sie diese Website regelmäßig, um sich über neue Veranstaltungen zu informieren.
+**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Erzielen einer Win-Win-Situation für Hersteller und Händler von Verbrauchsgütern)
+<br>von Liz McCreesh
+<br>[Jetzt registrieren](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Bevorstehende Webinare der Power BI-Community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Ausgewählte Webinare
 
 Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertraut.
+
+**Power BI and the Future of Modern and Enterprise BI** (Power BI und die Zukunft der modernen und der Unternehmens-BI)
+<br>von Arun Ulag und Amir Netz
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Getting Started with Power BI** (Erste Schritte mit Power BI, in englischer Sprache)
 <br>von Miguel Martinez
@@ -46,13 +52,9 @@ Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertra
 <br>von Cory Hrncirik und Miguel Martinez
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: Analytics Done Right** (Power BI: Analysen richtig aufbereitet)
-<br>von Gohul Shanmugalingam
-<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Visualisieren Ihrer Power BI-Daten: Grundlegende Diagrammtypen und deren Verwendung)
-<br>von Miranda Li
-<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Supercharge Your Applications Using the Power BI JavaScript API** (Steigern der Leistung Ihrer Anwendungen mithilfe der Power BI-JavaScript-API)
+<br>von Nimrod Shalit
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel and Office 365: Optimize Your Enterprise Data** (Power BI, Excel und Office 365: Optimieren Ihrer Unternehmensdaten)
 <br>von Olaf Hubel und Miguel Martinez
@@ -62,10 +64,6 @@ Machen Sie sich mithilfe dieser beliebten On-Demand-Webinare mit Power BI vertra
 <br>von Miranda Li
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**The Total Economic Impact of Microsoft Flow and PowerApps** (Die wirtschaftlichen Gesamtauswirkungen von Microsoft Flow und PowerApps)
-<br>von Jonathan Lipsitz und Enrique Plaza Garcia
-<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[Durchsuchen Sie die Bibliothek der On-Demand-Webinare zu Power BI von unseren Communityexperten](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>On-Demand-Webinare
@@ -74,9 +72,25 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 
 ### <a name="getting-started"></a>Erste Schritte
 
+**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Automatisieren täglicher Geschäftsprozesse mit Power BI, PowerApps und Microsoft Flow)
+<br>von Wim Coorevits und Enrique Plaza Garcia
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: Analytics Done Right** (Power BI: Analysen richtig aufbereitet)
+<br>von Gohul Shanmugalingam
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Visualisieren Ihrer Power BI-Daten: Grundlegende Diagrammtypen und deren Verwendung)
+<br>von Miranda Li
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **How to Design Visually Stunning Power BI Reports** (Entwerfen von visuell beeindruckenden Power BI-Berichten, in englischer Sprache)
 <br>von Charles Sterling
 <br>[Jetzt ansehen](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**The Total Economic Impact of Microsoft Flow and PowerApps** (Die wirtschaftlichen Gesamtauswirkungen von Microsoft Flow und PowerApps)
+<br>von Jonathan Lipsitz und Enrique Plaza Garcia
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Gemeinsam stärker: 5 Vorteile für Excel-Benutzer durch die Verwendung von Power BI)
 <br>von Carlos Otero und Miguel Martinez
@@ -100,6 +114,10 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 
 ### <a name="partners"></a>Partner ###
 
+**Transform Customer Data into Retail Success with Power Bi** (Transformieren von Kundendaten in Handelserfolge mit Power BI)
+<br>von Angad Soni von Hitachi Solutions
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewährte Lösungen für das Gesundheitswesen zur Verbesserung der Patientenergebnisse und der Rentabilität)
 <br>von Stephen Cracknell und Stuart Macanliss von US Medical IT
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 **Applied Intelligence for Sales & Service** (Angewendete Erkenntnisse für Vertrieb und Dienstleistungen)
 <br>von Ed Bobrin von Avanade
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator** (5 Gewohnheiten eines erfolgreichen Trendkurators)
+<br>von Rohit Bhargava von Non-Obvious
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation – Maintain leadership by leveraging analytics to maximize profitability** (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren)
 <br>von Jon Thompson von Blue Margin und Jim Pastor von Elgin Fastener Group
