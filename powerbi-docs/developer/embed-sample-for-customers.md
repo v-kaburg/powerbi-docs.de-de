@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757413"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174957"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 
@@ -214,7 +214,7 @@ Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
 
 Dieses Attribut wird nur für den Authentifizierungstyp [Dienstprinzipal](embed-service-principal.md) benötigt.
 
-Geben Sie für **tenant** die ID Ihres Azure-Mandanten an. Die benötigten Informationen erhalten Sie entweder aus dem [Azure AD-Portal](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal), wenn Sie im Power BI-Dienst angemeldet sind, oder über PowerShell.
+Geben Sie für **tenant** die ID Ihres Azure-Mandanten an. Die benötigten Informationen erhalten Sie entweder aus dem [Azure AD-Admin Center](/onedrive/find-your-office-365-tenant-id), wenn Sie im Power BI-Dienst angemeldet sind, oder über PowerShell.
 
 ### <a name="run-the-application"></a>Ausführen der Anwendung
 
@@ -304,7 +304,7 @@ Ein komplettes Beispiel für die Verwendung der JavaScript-API ist im [Playgroun
 
 Im Beispiel wird ein Modell **EmbedConfig** und ein Modell **TileEmbedConfig** mit Ansichten für einen Bericht verwendet.
 
-*In den Dateien „Views\Home\EmbedReport.cshtml“, „Views\Home\EmbedDashboard.cshtml“ und „Views\Home\Embedtile.cshtml“ in der [Beispielanwendung](#embed-your-content-within-a-sample-application) finden Sie ein Beispiel für das Hinzufügen einer Ansicht zu einem Bericht, Dashboard oder einer Kachel.*
+*In den Dateien „Views\Home\EmbedReport.cshtml“, „Views\Home\EmbedDashboard.cshtml“ oder „Views\Home\Embedtile.cshtml“ in der [Beispielanwendung](#embed-content-using-the-sample-application) finden Sie ein Beispiel für das Hinzufügen einer Ansicht zu einem Bericht, Dashboard oder einer Kachel.*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

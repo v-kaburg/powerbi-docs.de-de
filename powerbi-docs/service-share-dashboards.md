@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580241"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964753"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Freigeben Ihrer Power BI-Dashboards und -Berichte für Kollegen und andere
 *Freigeben* ist eine gute Möglichkeit, einigen Personen Zugriff auf Ihre Dashboards und Berichte zu gewähren. Zudem bietet Power BI [verschiedene Möglichkeiten zum gemeinsamen Bearbeiten und Verteilen von Dashboards und Berichten](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -38,12 +38,18 @@ Sehen Sie sich an, wie Amanda ihr Dashboard für Kollegen im Unternehmen und ext
 
 1. Wählen Sie in einer Liste von Dashboards bzw. Berichten oder in einem geöffneten Dashboard oder Bericht **Freigeben** ![Symbol „Freigeben“](media/service-share-dashboards/power-bi-share-icon.png).
 
-1. Geben Sie im oberen Feld die vollständigen E-Mail-Adressen für Einzelpersonen, Verteilergruppen oder Sicherheitsgruppen ein. Bei dynamischen Verteilerlisten sind Freigaben nicht möglich. 
+2. Geben Sie im oberen Feld die vollständigen E-Mail-Adressen für Einzelpersonen, Verteilergruppen oder Sicherheitsgruppen ein. Bei dynamischen Verteilerlisten sind Freigaben nicht möglich. 
    
    Freigaben sind auch für Personen mit Adressen außerhalb der Organisation möglich. In diesem Fall wird allerdings eine Warnung angezeigt.
    
    ![Warnung zur externen Freigabe](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >Das Eingabefeld unterstützt maximal 100 Benutzer oder Gruppen. Wenn eine Freigabe für eine große Anzahl von Benutzern nötig ist, können Sie mehrmals freigeben oder für eine Benutzergruppe freigeben.
+   > 
+   > 
+
+
 3. Wenn Sie möchten, fügen Sie eine Nachricht hinzu. Dies ist optional.
 4. Damit Ihre Kollegen Ihren Inhalt für weitere Personen freigeben können, aktivieren Sie das Kontrollkästchen **Empfängern das Freigeben Ihres Dashboards/Berichts erlauben**.
    
@@ -119,6 +125,7 @@ Aspekte, die beim Freigeben von Dashboards und Berichten zu beachten sind:
 * Kollegen in derselben E-Mail-Domäne wie Sie und Kollegen, die zu einer anderen Domäne gehören, aber innerhalb desselben Mandanten registriert sind, können das Dashboard für andere freigeben. Angenommen, die Domänen „contoso.com“ und „contoso2.com“ sind im selben Mandanten registriert. Wenn Sie die E-Mail-Adresse konrads@contoso.com haben, ist sowohl ravali@contoso.com als auch gustav@contoso2.com eine Freigabe erlaubt, sofern Sie ihnen die Berechtigung zum Freigeben erteilt haben.
 * Wenn Ihre Kollegen bereits über den Zugriff auf ein bestimmtes Dashboard bzw. einen bestimmten Bericht verfügen, können Sie einen direkten Link senden, indem Sie einfach die URL kopieren, wenn Sie sich auf dem Dashboard bzw. im Bericht befinden. Beispiel: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Ebenso können Sie, wenn Ihre Kollegen bereits Zugriff auf ein bestimmtes Dashboard haben, [einen direkten Link zum zugrunde liegenden Bericht senden](service-share-reports.md). 
+* Sie können bei einer einzelnen Freigabeaktion für maximal 100 Benutzer oder Gruppen freigeben. Allerdings können Sie mehr als 500 Benutzern Zugriff auf ein Element gewähren. Zu diesem Zweck können Sie entweder mehrmals freigeben und die Benutzer einzeln angeben oder für eine Benutzergruppe freigeben, die alle Benutzer enthält.
 
 ## <a name="troubleshoot-sharing"></a>Behandeln von Problemen bei der Freigabe
 

@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291163"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980402"
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
 
@@ -56,7 +56,7 @@ Die Power BI-Überwachungsprotokolle sind direkt über das [Office 365 Security 
 
 ## <a name="search-only-power-bi-activities"></a>Nur nach Power BI-Aktivitäten suchen
 
-Sie können die Ergebnisse mithilfe dieser Schritte auf Power BI-Aktivitäten einschränken. Eine Liste der Aktivitäten finden Sie in der [Liste der Aktivitäten, die von Power BI überwacht werden](#list-of-activities-audited-by-power-bi) weiter unten in diesem Artikel.
+Sie können die Ergebnisse mithilfe dieser Schritte auf Power BI-Aktivitäten einschränken. Eine Liste der [Aktivitäten, die von Power BI überwacht werden](#activities-audited-by-power-bi) finden Sie weiter unten in diesem Artikel.
 
 1. Wählen Sie auf der Seite **Überwachungsprotokollsuche** unter **Suche** die Dropdownliste für **Aktivitäten** aus.
 

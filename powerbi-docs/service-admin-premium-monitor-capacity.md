@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/25/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 032fae40a7e2328879ba01b6d94c3c532369b3ab
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826673"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174911"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Überwachen von Premium-Kapazitäten über die App
 
@@ -67,11 +67,11 @@ Das Dashboard umfasst die folgenden Metriken:
 | Metrik | Beschreibung |
 | --- | --- |
 | Version | Die App-Version. | 
-| Capacities | Die Anzahl der Kapazitäten, für die Sie als Administrator zuständig sind. | 
-| Workspaces | Die Anzahl der Arbeitsbereiche in Ihren Kapazitäten, die Metriken melden.|
+| Funktionen | Die Anzahl der Kapazitäten, für die Sie als Administrator zuständig sind. | 
+| Arbeitsbereiche | Die Anzahl der Arbeitsbereiche in Ihren Kapazitäten, die Metriken melden.|
 |||
 
-#### <a name="system-summary"></a>System Summary
+#### <a name="system-summary"></a>Systemübersicht
 
 | Metrik | Beschreibung |
 | --- | --- |
@@ -97,7 +97,7 @@ Das Dashboard umfasst die folgenden Metriken:
 | Anzahl von DirectQuery-/Liveverbindungen mit hoher Auslastung| Die Anzahl der Fälle, in denen DirectQuery-/Liveverbindungen innerhalb der letzten sieben Tage 80 % der Schwellenwerte überschritten haben, unterteilt in Buckets von je drei Minuten. |
 | Anzahl von DirectQuery-/Liveverbindungen mit maximaler Auslastung| Die häufigste Fälle, in denen DirectQuery-/Liveverbindungen 80 % überschritten haben, unterteilt in Buckets von je einer Stunde. |
 | DirectQuery-/Liveverbindungen mit maximaler Auslastung | Die maximale Anzahl der Fälle, in denen DirectQuery-/Liveverbindungen innerhalb der letzten sieben Tage 80 % der Schwellenwerte überschritten haben, unterteilt in Buckets von je drei Minuten.|
-| Maximale Vorkommnisse von DirectQuery-/Liveverbindungen – lokale Uhrzeit | Die lokale Uhrzeit, zu der DirectQuery-/Liveverbindungen den Wert von 80 % am häufigsten innerhalb einer Stunde überschritten haben. |
+| Maximale Vorkommnisse von DirectQuery-/Liveverbindungen – lokale Uhrzeit | Die UTC-Zeit, zu der DirectQuery-/Liveverbindungen den Wert von 80% am häufigsten innerhalb einer Stunde überschritten haben. |
 | Aktualisierungen gesamt | Die Gesamtanzahl von Aktualisierungen in den letzten sieben Tagen. |
 | Zuverlässigkeit der Aktualisierung (%) | Die Anzahl von erfolgreichen Aktualisierungen, geteilt durch die Gesamtanzahl von Aktualisierungen in den letzten sieben Tagen. |
 | Durchschnittliche Dauer von Aktualisierungen (Minuten) | Der durchschnittliche Zeitraum für eine vollständige Aktualisierung. |
@@ -162,8 +162,8 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | Refreshes |  Gesamtanzahl: Die Gesamtanzahl aller Aktualisierungen für jedes Dataset.<br>  Zuverlässigkeit: Der Prozentsatz von Aktualisierungen, die für jedes Dataset ausgeführt wurden.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Datasetaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für das Dataset in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer der Aktualisierung des Datasets in Minuten.<br>  Maximale Dauer: Die Dauer der Datasetaktualisierung mit der längsten Ausführungsdauer in Minuten. |
 | Top-5-Datasets nach durchschnittlicher Dauer (Minuten) |  Die fünf Datasets mit der längsten durchschnittlichen Aktualisierungsdauer in Minuten. |
 | Top-5-Datasets nach durchschnittlicher Wartezeit (Minuten) |  Die fünf Datasets mit der längsten durchschnittlichen Aktualisierungswartezeit in Minuten. |
-| Stündliche Aktualisierungen und Arbeitsspeicherverbrauch (GB) |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
-| Durchschnittliche stündliche Aktualisierungswartezeiten (Minuten) |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
+| Stündliche Aktualisierungen und Arbeitsspeicherverbrauch (GB) |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| Durchschnittliche stündliche Aktualisierungswartezeiten (Minuten) |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
 |  |  |
 
 #### <a name="query-durations-area"></a>Bereich „Query Durations“ (Abfragedauer) 
@@ -172,9 +172,9 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | --- | --- |
 | Abfragedauer |  Die Daten in diesem Bereich sind nach Datasets, Arbeitsbereich und in Buckets von je einer Stunde in den letzten sieben Tagen aufgeteilt.<br>  Gesamt: Die Gesamtzahl der Abfragen, die für das Dataset ausgeführt werden.<br>  Durschnitt: die durchschnittliche Abfragedauer für das Dataset in Millisekunden<br>  Maximal: Die Dauer der Abfrage mit der längsten Ausführungsdauer im Dataset in Millisekunden.|
 | Verteilung der Abfragedauer |  Das Histogramm der Abfragedauer ist nach der Dauer (in Millisekunden) in die folgenden Kategorien unterteilt: <= 30 ms, 30–100 ms, 100–300 ms, 300 ms bis 1 s, 1–3 s, 3–10 s, 10–30 s und > 30 s. Lange Ausführungsdauern und lange Wartezeiten sind ein Hinweis auf sich erschöpfende Kapazität. Es kann aber auch bedeuten, dass ein einzelnes Dataset Probleme verursacht und weitere Untersuchungen erforderlich sind. |
-| Top-5-Datasets nach durchschnittlicher Dauer |  Die fünf Datasets mit der längsten durchschnittlichen Abfragedauer in Millisekunden. |
-| Stündliche Verteilungen der Abfragedauer |  Abfrageanzahl und durchschnittliche Dauer (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
-| DirectQuery-/Liveverbindungen (> 80 % Auslastung) |  Die Häufigkeit, mit der eine DirectQuery-Verbindung oder Liveverbindung eine CPU-Auslastung von 80 % überschritten hat, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
+| Top 5 Datasets nach durchschnittlicher Dauer |  Die fünf Datasets mit der längsten durchschnittlichen Abfragedauer in Millisekunden. |
+| Stündliche Verteilungen der Abfragedauer |  Abfrageanzahl und durchschnittliche Dauer (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| DirectQuery-/Liveverbindungen (> 80 % Auslastung) |  Die Häufigkeit, mit der eine DirectQuery-Verbindung oder Liveverbindung eine CPU-Auslastung von 80% überschritten hat, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 |  |  |
 
 #### <a name="query-waits-area"></a>Bereich „Query Waits“ (Abfragewartezeit)
@@ -182,9 +182,9 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | Berichtsabschnitt | Metrics |
 | --- | --- |
 | Abfragewartezeiten |  Die Daten in diesem Bereich sind nach Datasets, Arbeitsbereich und in Buckets von je einer Stunde in den letzten sieben Tagen aufgeteilt.<br>  Gesamt: Die Gesamtzahl der Abfragen, die für das Dataset ausgeführt werden.<br>  Anzahl der Wartevorgänge: Die Anzahl von Abfragen im Dataset, die vor der Ausführung auf Systemressourcen gewartet haben.<br>  Durschnitt: Die durchschnittliche Abfragewartezeit für das Dataset in Millisekunden.<br>  Maximal: Die Dauer der Abfrage mit der längsten Wartezeit für das Dataset in Millisekunden.|
-| Top-5-Datasets nach durchschnittlicher Wartezeit |  Die fünf Datasets mit der längsten durchschnittlichen Wartezeit bis zum Start der Ausführung einer Abfrage in Millisekunden. |
+| Top 5 Datasets nach durchschnittlicher Wartezeit |  Die fünf Datasets mit der längsten durchschnittlichen Wartezeit bis zum Start der Ausführung einer Abfrage in Millisekunden. |
 | Wartezeitverteilungen |  Das Histogramm der Abfragedauer ist nach der Dauer (in Millisekunden) in die folgenden Intervallkategorien unterteilt: <= 50 ms, 50–100 ms, 100–200 ms, 200–400 ms, 400 ms bis 1 s, 1–5 s und > 5 s. |
-| Stündliche Wartezeitverteilungen für Abfragen |  Anzahl von Wartevorgängen und durchschnittliche Wartezeit für Abfragen (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
+| Stündliche Wartezeitverteilungen für Abfragen |  Anzahl von Wartevorgängen und durchschnittliche Wartezeit für Abfragen (in Millisekunden) im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 |  |  |
 
 #### <a name="datasets-area"></a>Bereich „Datasets“
@@ -193,8 +193,8 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | --- | --- |
 | Datasetgrößen  |  Maximale Größe: Die maximale Größe des Datasets in MB für den angezeigten Zeitraum. |
 | Anzahl von entfernten Datasets |  Gesamt: Gesamtzahl der *entfernten* Datasets für jede Kapazität. Wenn eine Kapazität Arbeitsspeicherauslastung unterliegt, entfernt der Knoten mindestens ein Dataset aus dem Arbeitsspeicher. Datasets, die inaktiv sind (ohne derzeit ausgeführten Abfrage- oder Aktualisierungsvorgang), werden zuerst entfernt. Anschließend orientiert sich die Entfernungsreihenfolge an den „am seltensten verwendeten“ Datasets.|
-| Anzahl von stündlich geladenen Datasets |  Die Anzahl der in den Arbeitsspeicher geladenen Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
-| Entfernte Datasets und Arbeitsspeicherverbrauch pro Stunde |  Entfernte Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
+| Anzahl von stündlich geladenen Datasets |  Die Anzahl der in den Arbeitsspeicher geladenen Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| Entfernte Datasets und Arbeitsspeicherverbrauch pro Stunde |  Entfernte Datasets im Vergleich zum Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 | Prozentsätze des verbrauchten Arbeitsspeichers |  Gesamtanzahl der aktiven Datasets im Arbeitsspeicher, angegeben als Prozentsatz des gesamten Arbeitsspeichers. Das Delta zwischen den aktiven und allen definierten Datasets, die entfernt werden können. Angabe in Stunden für die letzten sieben Tage. |
 |  |  |
 
@@ -203,10 +203,10 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | **Berichtsabschnitt** | **Metriken** |
 | --- | --- |
 | Verwendung gesamt |  Aufrufe gesamt: Die Häufigkeit der Aufrufe des Berichts durch Benutzer.<br>  Zeilenanzahl: Die Anzahl von Datenzeilen im Bericht.<br>  Abrufe (durchschn.): die durchschnittlich benötigte Zeit in Millisekunden zum Abrufen von Daten für den Bericht. Eine lange Dauer kann auf langsame Abfragen oder andere Probleme mit der Datenquelle hinweisen. <br>  Verarbeitung (durchschn.): Die durchschnittlich benötigte Zeit zum Verarbeiten von Daten für einen Bericht in Millisekunden.<br> Rendering (durchschn.): Die durchschnittlich benötigte Zeit zum Rendern eines Berichts im Browser in Millisekunden.<br>  Gesamtzeit: Die für alle Phasen des Berichts benötigte Zeit in Millisekunden. |
-| Top-5-Berichte nach durchschnittlicher Datenabrufzeit |  Die fünf Berichte mit der längsten durchschnittlichen Datenabrufzeit in Millisekunden. |
-| Top-5-Berichte nach durchschnittlicher Berichtverarbeitungsdauer |  Die fünf Berichte mit der längsten durchschnittlichen Berichtverarbeitungsdauer in Millisekunden. |
-| Stündliche Ergebnisse |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
-| Stündliche Dauer |  Die Dauer des Datenabrufs im Vergleich zur Verarbeitungs- und Renderingdauer, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
+| Top 5 Berichte nach durchschnittlicher Datenabrufzeit |  Die fünf Berichte mit der längsten durchschnittlichen Datenabrufzeit in Millisekunden. |
+| Top 5 Berichte nach durchschnittlicher Berichtverarbeitungsdauer |  Die fünf Berichte mit der längsten durchschnittlichen Berichtverarbeitungsdauer in Millisekunden. |
+| Stündliche Ergebnisse |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| Stündliche Dauer |  Die Dauer des Datenabrufs im Vergleich zur Verarbeitungs- und Renderingdauer, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 |  |  |
 
 ### <a name="dataflows"></a>Dataflows
@@ -216,8 +216,8 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 | Refreshes |  Gesamt: Die Gesamtanzahl aller Aktualisierungen für jeden Dataflow.<br>  Zuverlässigkeit: Der Prozentsatz der Aktualisierungen, die für jeden Dataflow ausgeführt wurden.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Dataflowaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für den Dataflow in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer für die Aktualisierung des Dataflows in Minuten.<br>  Maximale Dauer: Die Dauer der Dataflowaktualisierung mit der längsten Ausführungsdauer in Minuten. |
 | Top-5-Dataflows nach durchschnittlicher Aktualisierungsdauer |  Die fünf Dataflows mit der längsten durchschnittlichen Aktualisierungsdauer in Minuten. |
 | Top-5-Dataflows nach durchschnittlicher Wartezeit |  Die fünf Dataflows mit der längsten durchschnittlichen Aktualisierungswartezeit in Minuten. |
-| Durchschnittliche stündliche Aktualisierungswartezeiten |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
-| Stündliche Aktualisierungen und Arbeitsspeicherverbrauch |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in Ortszeit. |
+| Durchschnittliche stündliche Aktualisierungswartezeiten |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
+| Stündliche Aktualisierungen und Arbeitsspeicherverbrauch |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 |  |  |
 
 ### <a name="resource-consumption"></a>Ressourcenverbrauch
@@ -244,7 +244,7 @@ Die Registerkarte **IDs und Info** enthält die Bereiche **Kapazitäten**, **Arb
 
 | Berichtsabschnitt | Metrics |
 | --- | --- |
-| Workspaces | Die Namen und IDs für alle Arbeitsbereiche. |
+| Arbeitsbereiche | Die Namen und IDs für alle Arbeitsbereiche. |
 |||
 
 #### <a name="datasets-area"></a>Bereich „Datasets“

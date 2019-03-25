@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: f327cb95c10756f079778d20e62cba4871b95c02
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226133"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964937"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Was ist Microsoft Power BI Premium?
 
@@ -66,15 +66,15 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 * EM-Knoten können nur für eingebettete Bereitstellungen verwendet werden. EM-Knoten haben keinen Zugriff auf Premium-Funktionen, z.B. die Freigabe von Apps für Benutzer, die keine Power BI Pro-Lizenz besitzen.
 
-| Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)*  | Back-End-V-Kerne <sup>[1](#fn1)</sup> | Front-End-V-Kerne <sup>[2](#fn2)</sup> | Grenzwerte für DirectQuery/Liveverbindung | Maximale Anzahl gleichzeitiger Aktualisierungen |  Verfügbarkeit
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (monatlich) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |  1 | Verfügbarkeit |
-| EM2 (monatlich) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |  2 | Verfügbarkeit |
-| EM3 (monatlich) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | | 3 |  Verfügbarkeit |
-| P1 |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde | 6 | Verfügbar (auch monatlich) |
-| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde | 12 | Verfügbarkeit |
-| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde | 24 | Verfügbarkeit |
-| | | | | | | |
+| Kapazitätsknoten | Gesamtzahl an V-Kernen<br/>*(Back-End + Front-End)*  | Back-End-V-Kerne <sup>[1](#fn1)</sup> | Front-End-V-Kerne <sup>[2](#fn2)</sup> | Grenzwerte für DirectQuery/Liveverbindung | Maximale Anzahl gleichzeitiger Aktualisierungen |
+| --- | --- | --- | --- | --- | --- |
+| EM1 (monatlich) |1 V-Kern |0,5 V-Kerne, 2,5 GB RAM |0,5 V-Kerne |3,75 pro Sekunde |  1 |
+| EM2 (monatlich) |2 V-Kerne |1 V-Kern, 5 GB RAM |1 V-Kern |7,5 pro Sekunde |  2 |
+| EM3 (monatlich) |4 V-Kerne |2 V-Kerne, 10 GB RAM |2 V-Kerne | 15 | 3 |
+| P1 |8 V-Kerne |4 V-Kerne, 25 GB RAM |4 V-Kerne |30 pro Sekunde | 6 |
+| P2 |16 V-Kerne |8 V-Kerne, 50 GB RAM |8 V-Kerne |60 pro Sekunde | 12 |
+| P3 |32 V-Kerne |16 V-Kerne, 100 GB RAM |16 V-Kerne |120 pro Sekunde | 24 |
+| | | | | | |
 
 <a name="fn1">1</a>: Front-End-V-Kerne sind für den Webdienst verantwortlich. Hierzu gehören beispielsweise die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads sowie allgemein alle Aufgaben in Bezug auf die Benutzeroberfläche. 
 
@@ -82,32 +82,7 @@ Power BI Premium steht in Knotenkonfigurationen mit abweichenden V-Kernkapazitä
 
 ## <a name="workloads-in-premium-capacity"></a>Workloads in Premium-Kapazität
 
-Standardmäßig unterstützen **Power BI Premium**- und **Power BI Embedded**-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Premium unterstützt auch zusätzliche Workloads für **KI**, **Dataflows** und **paginierte Berichte**. Sie aktivieren diese Workloads im Power BI-Verwaltungsportal oder über die Power BI-REST-API. Sie legen auch den maximalen Arbeitsspeicherverbrauch für jede Workload fest. So können Sie steuern, wie sich die verschiedenen Workloads gegenseitig beeinflussen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads in einer Premium-Kapazität](service-admin-premium-workloads.md).
-
-### <a name="default-memory-settings"></a>Standardeinstellungen für den Arbeitsspeicher
-
-Die folgende Tabelle zeigt die Standard- und Mindestwerte für den Arbeitsspeicher, basierend auf den verschiedenen verfügbaren [Kapazitätsknoten](#premium-capacity-nodes). Der Arbeitsspeicher wird Dataflows dynamisch zugeordnet, ist paginierten Berichten jedoch statisch zugeordnet. Weitere Informationen finden Sie im nächsten Abschnitt [Überlegungen zu paginierten Berichten](#considerations-for-paginated-reports).
-
-#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Microsoft Office-SKUs für Software-as-a-Service-Szenarios (SaaS)
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Paginierte Berichte | – | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
-| Dataflows | 20 % Standard, mindestens 8 %  | 20 % Standard, mindestens 4 %  | 20 % Standard, mindestens 2 % | 20 % Standard, mindestens 1 %  |
-| | | | | |
-
-#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Microsoft Azure-SKUs für Plattform-as-a-Service-Szenarios (PaaS)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Paginierte Berichte | –                      | N/V                      | –                     | 20 % Standard, mindestens 10 % | 20 % Standard, mindestens 5 % | 20 % Standard, mindestens 2,5 % |
-| Dataflows         | 27 % Standard, mindestens 27 % | 20 % Standard, mindestens 16 % | 20 % Standard, mindestens 8 % | 20 % Standard, mindestens 4 %  | 20 % Standard, mindestens 2 % | 20 % Standard, mindestens 1 %   |
-
-### <a name="considerations-for-paginated-reports"></a>Überlegungen zu paginierten Berichten
-
-Beachten Sie bei Verwendung der Workload für paginierte Berichte Folgendes: Mit paginierten Berichten können Sie beim Rendern eines Berichts Ihren eigenen Code ausführen (z.B. dynamisches Ändern der Textfarbe basierend auf dem Inhalt). Vor diesem Hintergrund wird die Power BI Premium-Kapazität gesichert, indem paginierte Berichte in einem Bereich innerhalb der Kapazität ausgeführt werden. Diesem Bereich wird der maximale Arbeitsspeicher zugewiesen, den Sie angeben, unabhängig davon, ob die Workload aktiv ist. Wenn Sie Power BI-Berichte oder Dataflows in der gleichen Kapazität verwenden, legen Sie den Arbeitsspeicher für paginierte Berichte so niedrig fest, dass er die anderen Workloads nicht beeinträchtigt.
-
-In seltenen Fällen kann es vorkommen, dass die Workload von paginierten Berichten nicht verfügbar ist. In diesem Fall zeigt die Workload einen Fehlerstatus im Verwaltungsportal an, und den Benutzern werden Timeouts für das Rendern von Berichten angezeigt. Um dieses Problem zu beheben, deaktivieren Sie die Workload, und aktivieren Sie sie dann erneut.
+Standardmäßig unterstützen Power BI Premium- und Power BI Embedded-Kapazitäten nur die Workload, die mit der Ausführung von Power BI-Abfragen in der Cloud verbunden ist. Premium unterstützt auch zusätzliche Workloads für **KI**, **Dataflows** und **paginierte Berichte**. Bevor diese Workloads die Ressourcen Ihrer Kapazität verwenden können, müssen sie im Power BI-Verwaltungsportal oder über die Power BI-REST-API aktiviert werden. Jede Workload verfügt über Standardeinstellungen für die maximale Arbeitsspeichermenge, die jede Workload nutzen kann. Allerdings können Sie verschiedene Einstellungen für die Speichernutzung konfigurieren, um zu bestimmen, wie die Workloads sich gegenseitig beeinflussen und Ihre Kapazitätsressourcen nutzen. Weitere Informationen finden Sie unter [Konfigurieren von Workloads in einer Premium-Kapazität](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283987"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964661"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Konfigurieren von Proxyeinstellungen für das lokale Datengateway
 Aufgrund Ihres Arbeitsumfelds ist es möglicherweise erforderlich, eine Internetverbindung über einen Proxy herzustellen. Dies kann eine Verbindung des lokalen Datengateways mit dem Dienst verhindern.
@@ -46,24 +46,41 @@ Die zweite bezieht sich auf den tatsächlichen Windows-Dienst, der mit dem Power
 ## <a name="configuring-proxy-settings"></a>Konfigurierung von Proxyeinstellungen
 Die standardmäßige Proxykonfiguration lautet wie folgt.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 Die Standardkonfiguration unterstützt die Windows-Authentifizierung. Wenn der Proxy eine andere Form der Authentifizierung verwendet, müssen Sie die Einstellungen zu ändern. Wenn Sie nicht sicher sind, wenden Sie sich an den Netzwerkadministrator. Die einfache Proxyauthentifizierung wird nicht empfohlen. Wenn Sie versuchen, diese Authentifizierung zu verwenden, können Proxyauthentifizierungsfehler auftreten, die dazu führen, dass das Gateway nicht ordnungsgemäß konfiguriert wird. Verwenden Sie zur Auflösung einen stärkeren Authentifizierungsmechanismus für den Proxy.
 
 Zusätzlich zur Verwendung von Standardanmeldeinformationen können Sie ein <proxy>-Element hinzufügen, um Proxyservereinstellungen ausführlicher zu definieren. Sie können z.B. definieren, dass Ihr lokales Datengateway immer den Proxy verwenden soll, auch für lokale Ressourcen. Dazu wird der Parameter „bypassonlocal“ auf FALSE festgelegt. Dies kann in Problembehebungssituationen hilfreich sein, wenn Sie alle HTTPS-Anforderungen nachverfolgen möchten, die von einem lokalen Datengateway in den Proxyprotokolldateien stammen. Die folgende Beispielkonfiguration gibt an, dass alle Anforderungen einen bestimmten Proxy mit der IP-Adresse 192.168.1.10 durchlaufen müssen.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+Aktualisieren Sie darüber hinaus die folgende Datei, damit das Gateway über einen Proxy die Verbindung mit Clouddatenquellen herstellen kann: *C:\Programme\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe*. Erweitern Sie in der Datei den `<configurations>`-Abschnitt, um die folgenden Inhalte einzuschließen, und aktualisieren Sie das `proxyaddress`-Attribut mit Ihren Proxyinformationen. Im folgenden Beispiel würden alle Cloudanforderungen über einen bestimmten Proxy mit der IP-Adresse 192.168.1.10 weitergeleitet.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 Weitere Informationen über die Konfiguration der Proxy-Elemente für NET-Konfigurationsdateien finden Sie unter [<defaultProxy>-Element (Netzwerkeinstellungen)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

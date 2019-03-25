@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223833"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174819"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -290,7 +290,7 @@ Wenn Sie die Beispiel-App **Einbetten für Ihre Organisation** ausführen, wird 
 
 Dieser Fehler entsteht, weil die Umleitungs-URL, die für die Webserveranwendung angegeben ist, sich von der URL des Beispiels unterscheidet. Wenn Sie die Beispielanwendung registrieren möchten, verwenden Sie `http://localhost:13526/` als Umleitungs-URL.
 
-Wenn Sie die registrierte Anwendung bearbeiten möchten, lernen Sie, wie Sie die [mit AAD registrierte Anwendung](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) bearbeiten, damit die Anwendung Zugriff auf die Web-APIs bereitstellen kann.
+Wenn Sie die registrierte Anwendung bearbeiten möchten, lernen Sie, wie Sie die [mit AAD registrierte Anwendung aktualisieren](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), damit die Anwendung Zugriff auf die Web-APIs bereitstellen kann.
 
 Wenn Sie Ihr Power BI-Benutzerprofil oder Ihre Daten bearbeiten möchten, lernen Sie, wie Sie Ihre [Power BI-Daten](https://docs.microsoft.com/power-bi/service-basic-concepts) bearbeiten können.
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58052251"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definieren von Rollen und Regeln in Power BI Desktop
 Sie können Rollen und Regeln in Power BI Desktop definieren. Wenn Sie etwas in Power BI veröffentlichen, werden auch die Rollendefinitionen veröffentlicht.
 
@@ -21,7 +29,7 @@ Gehen Sie folgendermaßen vor, wenn Sie Sicherheitsrollen definieren möchten.
 7. Geben Sie die DAX-Ausdrücke ein. Dieser Ausdruck muss TRUE oder FALSE zurückgeben. Zum Beispiel: [Entitäts-ID] = "Wert".
    
    > [!NOTE]
-   > Sie können *username()* innerhalb dieses Ausdrucks verwenden. Beachten Sie, dass *username()* in Power BI Desktop das Format *DOMÄNE\Benutzername* aufweist. Im Power BI-Dienst und im Power BI-Berichtsserver entspricht das Format dem Benutzerprinzipalnamen des Benutzers. Alternativ können Sie *userprincipalname()* verwenden, wodurch der Benutzer immer im Format seines Benutzerprinzipalnamens (*username@contoso.com*) zurückgegeben wird.
+   > Sie können *username()* innerhalb dieses Ausdrucks verwenden. Beachten Sie, dass *username()* in Power BI Desktop das Format *DOMÄNE\Benutzername* aufweist. Im Power BI-Dienst und im Power BI-Berichtsserver entspricht das Format dem Benutzerprinzipalnamen des Benutzers. Alternativ können Sie *userprincipalname()* verwenden, wodurch der Benutzer immer im Format seines Benutzerprinzipalnamens (*Benutzername\@contoso.com*) zurückgegeben wird.
    > 
    > 
    

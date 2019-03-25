@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223741"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174888"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -137,7 +137,7 @@ Ja, es gibt PowerShell-Cmdlets und Azure Resource Manager-APIs, mit denen Sie Po
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Was ist die Power BI Embedded-Rolle „Dedizierte Kapazität“ in einer Power BI Embedded-Lösung?
 
-Zur [Höherstufung Ihrer Lösung in die Produktion](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production) muss der Power BI-Inhalt (der App-Arbeitsbereich, den Sie in Ihrer Anwendung verwenden) einer Power BI Embedded-Kapazität (A-SKU) zugewiesen werden.
+Zur [Höherstufung Ihrer Lösung in die Produktion](embed-sample-for-customers.md#move-to-production) muss der Power BI-Inhalt (der App-Arbeitsbereich), den Sie in Ihrer Anwendung verwenden, einer Power BI Embedded-Kapazität (A-SKU) zugewiesen werden.
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>In welchen Azure-Regionen ist Power BI Embedded verfügbar?
 
@@ -167,7 +167,7 @@ Sie eine der [Azure Active Directory-Authentifizierungsbibliotheken](https://doc
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Meine Anwendung verwendet bereits AAD für die Benutzerauthentifizierung Wie können wir diese Identität bei der Authentifizierung in Power BI in einem Szenario einsetzen, in dem der Benutzer die Daten besitzt?
 
-In einem standardmäßigen OAuth-Flow im Namen des Benutzers (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api). Die Anwendung muss so konfiguriert sein, dass sie Berechtigungen des Power BI-Diensts (für die erforderlichen Bereiche) erfordert. Sobald Sie ein Benutzerzugriffstoken für Ihre App haben, führen Sie mit diesem Token einen Aufruf an ADAL API AcquireTokenAsync durch und geben die Power BI-Ressourcen-URL als Ressourcen-ID an. Unten sehen Sie einen Codeausschnitt, der dies veranschaulicht:
+Es ist standardmäßig ein OAuth-On-Behalf-Of-Fluss (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). Die Anwendung muss konfiguriert werden, um Berechtigungen für den Power BI-Dienst (mit den erforderlichen Bereichen) zu erfordern. Sobald Sie über ein Benutzertoken für Ihre App verfügen, rufen Sie einfach ADAL-API-AcquireTokenAsync mit dem Benutzerzugriffstoken auf, und geben Sie die Power BI-Ressourcen-URL als Ressourcen-ID an. Der folgende Codeausschnitt zeigt, wie Sie dies erreichen:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Wenn Sie mit dem Szenario **Einbetten für Ihre Organisation arbeiten**, speiche
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Wie kann ich meine registrierte Anwendung bearbeiten?
 
-[Hier](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) lernen Sie, wie Sie mit AAD registrierte Anwendungen bearbeiten können.
+Wie Sie mit Azure AD-registrierte Anwendungen bearbeiten können, erfahren Sie unter [Schnellstart: Aktualisieren einer Anwendung in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Wie kann ich mein Power BI-Benutzerprofil bzw. meine Power BI-Benutzerdaten bearbeiten?
 

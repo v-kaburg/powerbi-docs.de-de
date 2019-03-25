@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426721"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174750"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Verbinden von Azure Data Lake Storage Gen2 zur Dataflowspeicherung (Vorschauversion)
 
@@ -65,7 +65,7 @@ Führen Sie die in dem Artikel [Create an Azure Data Lake Storage Gen2 storage a
 
 Als nächstes müssen Sie dem Power BI-Dienst eine Leserrolle in Ihrem erstellten Speicherkonto gewähren. Da es sich um eine integrierte Rolle handelt, ist dies sehr einfach. 
 
-Führen Sie die in dem Artikel [Assign a role to a security principal (Zuweisen einer Rolle zu einem Sicherheitsprinzipal)](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal) genannten Schritte aus.
+Führen Sie die Schritte in [Zuweisen einer auf einen Container oder eine Warteschlange begrenzten Rolle im Azure-Portal](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) aus.
 
 Wählen Sie im Fenster **Add role assignment** (Rollenzuweisung hinzufügen) die **Leserrolle** (Reader) aus, um sie dem Power BI-Dienst zuzuweisen. Verwenden Sie dann die Suche, um den **Power BI-Dienst** zu finden. Die folgende Abbildung zeigt die dem Power BI-Dienst zugewiesene **Leserrolle**.
 
@@ -150,6 +150,9 @@ Mit den folgenden Schritten verbinden Sie Ihr **Azure Data Lake Storage Gen2**-K
 6. Wählen Sie **Verbinden** aus.
 
 Nachdem Sie diese Schritte ausgeführt haben, ist Ihr Azure Data Lake Storage Gen2-Konto mit Power BI verbunden. 
+
+> [!NOTE]
+> Um eine Verbindung mit Azure Data Lake Storage Gen2 im Power BI-Verwaltungsportal konfigurieren zu können, müssen Sie über globale Administratorrechte verfügen. Globale Administratoren können jedoch keine Verbindung mit externem Speicher im Verwaltungsportal herstellen.  
 
 Als nächstes müssen Sie Personen in Ihrer Organisation das Konfigurieren ihrer Arbeitsbereiche ermöglichen. Erst dann können sie dieses Speicherkonto für Dataflowdefinitionen und Datenspeicherung verwenden. Dies werden wir im nächsten Abschnitt machen. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430278"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980425"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -84,7 +84,7 @@ Es gibt drei Szenarien, die ggf. für die Benutzer in Ihrer Organisation in Betr
 
 Sie können als Administrator Schritte unternehmen, die verhindern, dass Benutzer Ihren vorhandenen Office 365-Mandanten beitreten. Wenn Sie den Zugriff blockieren, können sich keine Benutzer registrieren. Sie werden stattdessen an den Administrator ihrer Organisation weitergeleitet. Sie müssen diesen Vorgang nicht wiederholen, wenn Sie die automatische Verteilung von Lizenzen (z.B. Office 365 Education für Studenten, Bildungseinrichtungen und Lehrpersonal) bereits deaktiviert haben.
 
-Verwenden Sie das folgende PowerShell-Skript, um zu verhindern, dass neue Benutzer einem verwalteten Mandanten beitreten. [Hier erfahren Sie mehr über PowerShell.](#basic-powershell-information)
+Verwenden Sie das folgende PowerShell-Skript, um zu verhindern, dass neue Benutzer einem verwalteten Mandanten beitreten. ([Hier erfahren Sie mehr über PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Wie kann ich Benutzern erlauben, meinem vorhandenen Office 365-Mandanten beizutreten?
 
-Verwenden Sie das folgende PowerShell-Skript, um neuen Benutzern den Beitritt zu einem verwalteten Mandanten zu ermöglichen. [Hier erfahren Sie mehr über PowerShell.](#basic-powershell-information)
+Verwenden Sie das folgende PowerShell-Skript, um neuen Benutzern den Beitritt zu einem verwalteten Mandanten zu ermöglichen. ([Hier erfahren Sie mehr über PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Wie überprüfe ich, ob eine Sperre im Mandanten vorliegt?
 
-Verwenden Sie das folgende PowerShell-Skript zum Überprüfen der Einstellungen. *AllowEmailVerifiedUsers* muss auf FALSE festgelegt sein. [Hier erfahren Sie mehr über PowerShell.](#basic-powershell-information)
+Verwenden Sie das folgende PowerShell-Skript zum Überprüfen der Einstellungen. *AllowEmailVerifiedUsers* muss auf FALSE festgelegt sein. ([Hier erfahren Sie mehr über PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 Die entsprechende Azure AD-Einstellung ist **AllowAdHocSubscriptions**. Für die meisten Mandanten ist diese Einstellung auf TRUE festgelegt. Das bedeutet, dass sie aktiviert ist. Wenn Sie Power BI über einen Partner erworben haben, kann die Einstellung jedoch auf FALSE festgelegt sein, was bedeutet, dass sie deaktiviert ist.
 
-Verwenden Sie das folgende PowerShell-Skript, um Ad-hoc-Abonnements zu deaktivieren. [Hier erfahren Sie mehr über PowerShell.](#basic-powershell-information)
+Verwenden Sie das folgende PowerShell-Skript, um Ad-hoc-Abonnements zu deaktivieren. ([Hier erfahren Sie mehr über PowerShell][1].)
 
 1. Melden Sie sich mithilfe Ihrer Office 365-Anmeldeinformationen bei Azure Active Directory an. In der ersten Zeile des folgenden PowerShell-Skripts werden Sie aufgefordert, Ihre Anmeldeinformationen einzugeben. Die zweite Zeile stellt die Verbindung mit Azure Active Directory her.
 
@@ -270,3 +270,5 @@ Power BI basiert auf der Grundlage von Office 365, das wiederum auf Azure-Dienst
 [Office 365-Gruppenverwaltung](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

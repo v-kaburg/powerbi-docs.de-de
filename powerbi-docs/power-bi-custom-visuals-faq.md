@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757321"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980356"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Häufig gestellte Fragen zu benutzerdefinierten Visuals in Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757321"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Wie kann der Administrator die benutzerdefinierten Visuals für Organisationen verwalten?
 
-Im Administratorportal kann der Administrator auf der Registerkarte „Benutzerdefinierte Visuals für Organisationen“ [alle benutzerdefinierten Visuals im Unternehmen sehen und verwalten](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): hinzufügen, deaktivieren, aktivieren und löschen.
+Im Administratorportal kann der Administrator auf der Registerkarte „Benutzerdefinierte Visuals für Organisationen“ [alle benutzerdefinierten Visuals im Unternehmen sehen und verwalten](service-admin-portal.md#organizational-visuals): hinzufügen, deaktivieren, aktivieren und löschen.
 Diese Visuals müssen nicht mehr per E-Mail oder über einen freigegebenen Ordner weitergegeben werden. Nach der Bereitstellung im Repository der Organisation können die Benutzer in der Organisation diese benutzerdefinierten Visuals für Organisationen einfach finden und direkt über Power BI Desktop oder -Dienst in ihre Berichte importieren. Die benutzerdefinierten Visuals für Organisationen finden Sie im integrierten Store (in Desktop und Dienst) auf der Registerkarte *MEINE ORGANISATION*. Sobald der Administrator eine neue Version eines benutzerdefinierten Visuals hochlädt, erhält jeder in der Organisation die gleiche aktualisierte Version. Berichtsautoren müssen das Visual in ihren Berichten nicht löschen, um die neue Version zu erhalten, da alle Berichte, die diese Visuals verwenden, automatisch aktualisiert werden! Der Aktualisierungsmechanismus ist ähnlich wie bei den Visuals im Marketplace.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Wenn ein Administrator ein benutzerdefiniertes Visual vom öffentlichen Marketplace in den Unternehmensspeicher hochlädt, wird es dann automatisch aktualisiert, sobald ein Anbieter das Visual auf dem öffentlichen Marketplace aktualisiert?

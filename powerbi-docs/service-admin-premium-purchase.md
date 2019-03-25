@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014137"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964845"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
 
@@ -95,13 +95,15 @@ Sie können Ihr Abonnement über das Office 365 Admin Center kündigen. Gehen Si
 
 1. Lesen Sie die Informationen. Wenn Sie fortfahren möchten, wählen Sie **Abonnement kündigen** aus.
 
+### <a name="when-canceling-or-your-license-expires"></a>Kündigung oder Ablauf Ihrer Lizenz
+
+Wenn Sie Ihr Premium-Abonnement kündigen oder Ihre Kapazitätslizenz abläuft, können Sie weiterhin für einen Zeitraum von 30 Tagen ab dem Datum der Kündigung oder des Ablaufs der Lizenz auf Ihre Premium-Kapazitäten zugreifen. Nach 30 Tagen können Sie nicht mehr auf Ihre Premium-Kapazitäten oder die darin enthaltenen Arbeitsbereiche zugreifen.
+
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Power BI-Preise](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/)
-[Was ist Power BI Premium?](service-premium.md)
-[Power BI Premium: Häufig gestellte Fragen](service-premium-faq.md)
-[Microsoft Power BI Premium whitepaper (Whitepaper zu Microsoft Power BI Premium)](https://aka.ms/pbipremiumwhitepaper)
-[Planning a Power BI Enterprise Deployment whitepaper (Whitepaper zur Planung einer Unternehmensbereitstellung von Power BI)](https://aka.ms/pbienterprisedeploy)
+[Power BI – Preise](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium-Rechner](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium – Häufig gestellte Fragen](service-premium-faq.md)   
+[Planning a Power BI Enterprise Deployment whitepaper (Whitepaper zum Planen der Unternehmensbereitstellung von Power BI)](https://aka.ms/pbienterprisedeploy)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

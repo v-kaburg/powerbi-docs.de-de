@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430302"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174934"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Überwachen von Nutzungsmetriken für Power BI-Dashboards und Berichte
 
@@ -47,7 +47,7 @@ Wenn Sie auf **Nutzungsmetriken** oder das Symbol ![Symbol „Nutzungsmetriken�
 
 Der Bericht zu Nutzungsmetriken wird nicht unter **Zuletzt verwendet**, **Arbeitsbereiche**, **Favoriten** oder in anderen Inhaltslisten angezeigt. Sie können nicht zu Apps hinzugefügt werden. Wenn Sie eine Kachel aus dem Bericht zu Nutzungsmetriken an ein Dashboard anheften, kann das Dashboard nicht zu einer App oder einem Inhaltspaket hinzugefügt werden.
 
-Um in den Berichtsdaten bis ganz nach unten vorzudringen oder um Ihre eigenen Berichte aus dem Dataset zu erstellen, klicken Sie auf **Speichern unter** (weitere Informationen finden Sie unter [Save the Usage Metrics report as a full-featured Power BI report (Bericht zu Nutzungsmetriken als vollständigen Power BI-Bericht speichern)](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))).
+Um in den Berichtsdaten bis ganz nach unten vorzudringen, oder um Ihre eigenen Berichte aus dem Dataset zu erstellen, verwenden Sie **Speichern unter** (weitere Informationen finden Sie unter [Speichern des Berichts „Nutzungsmetriken“ als Power BI-Bericht mit vollem Funktionsumfang (personalisiert)](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Öffnen des Berichts „Nutzungsmetriken“ für ein Dashboard oder einen Bericht
 

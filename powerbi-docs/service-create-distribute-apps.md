@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294056"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964684"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Veröffentlichen von Apps mit Dashboards und Berichten in Power BI
 
@@ -121,6 +121,11 @@ Beachten Sie bei der Übertragung von Apps mithilfe von Push an Benutzer folgend
 
 ## <a name="unpublish-an-app"></a>Aufheben der Veröffentlichung einer App
 Jedes Mitglied eines App-Arbeitsbereichs kann die Veröffentlichung der App aufheben.
+
+>[!NOTE]
+>Wenn Sie die Veröffentlichung einer App aufheben, gehen die Anpassungen der App-Benutzer verloren. Dies bedeutet, dass persönliche Lesezeichen, Kommentare oder Abonnements, die Inhalten der App zugeordnet sind, verlorengehen. Heben Sie die Veröffentlichung einer App nur dann auf, wenn Sie sie entfernen müssen.
+> 
+> 
 
 * Klicken Sie im App-Arbeitsbereich rechts oben auf die Auslassungspunkte (**...**), und wählen Sie **Veröffentlichung der App aufheben** aus.
   
