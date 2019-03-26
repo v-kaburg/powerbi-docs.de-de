@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296445"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382936"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI kann einem Office 365-Partnerabonnement nicht hinzugefügt werden
 
@@ -33,9 +33,9 @@ Wenn Sie ein Abonnement für Power BI Pro oder Power BI Premium erwerben möchte
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Erwerben bei Microsoft oder über einen anderen Kanal
 
-Je nach Art der Beziehung zu Ihrem Partner können Sie Power BI möglicherweise direkt bei Microsoft oder einem anderen Partner erwerben. Im Office 365-Portal können Sie überprüfen, ob Sie Power BI-Abonnements hinzufügen können (erfordert die Mitgliedschaft in den Rollen „Globaler Administrator“ oder „Abrechnungsadministrator“).
+Je nach Art der Beziehung zu Ihrem Partner können Sie Power BI möglicherweise direkt bei Microsoft oder einem anderen Partner erwerben. Im Microsoft 365 Admin Center können Sie überprüfen, ob Sie Power BI-Abonnements hinzufügen können (erfordert die Mitgliedschaft in den Rollen „Globaler Administrator“ oder „Abrechnungsadministrator“).
 
-1. Wechseln Sie zum [Office 365-Verwaltungsportal](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Navigieren Sie zum [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Öffnen Sie im linken Menü den Eintrag **Abrechnung**:
 
