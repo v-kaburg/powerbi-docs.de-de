@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965960"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430321"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Tutorial: Aufrufen eines Machine Learning Studio-Modells in Power BI (Vorschau)
 
@@ -92,7 +92,7 @@ Im nächsten Bildschirm werden Sie aufgefordert, eine Verbindung mit einer Daten
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-[Verbindung mit Datenquelle herstellen](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Verbinden mit einer Datenquelle](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Der Power Query-Editor zeigt eine Vorschau der Daten aus der CSV-Datei an. Wählen Sie **Tabelle transformieren** im Menübefehlsband und dann **Erste Zeile als Überschriften verwenden** aus.  Dadurch wird der Abfrageschritt _Höher gestufte Header_ im Bereich **Angewendete Schritte** rechts hinzugefügt. Sie können die Abfrage im Bereich auf der rechten Seite auch mit einem aussagekräftigeren Namen umbenennen, z.B. _Automobile Pricing_.
 
@@ -137,7 +137,7 @@ Durch Auswahl des **Bearbeiten**-Symbols wird der Power Query-Editor für die En
 
 Wählen Sie die **KI-Erkenntnisse**-Schaltfläche im Menüband und dann im linken Navigationsmenü den _Azure Machine Learning Models_-Ordner aus.
 
-Wählen Sie den **Azure Machine Learning Models**-Ordner aus. Die Azure ML-Modelle, auf die Ihnen Zugriff gewährt wurde, werden als Power Query-Funktionen mit einem *AzureML*-Präfix aufgelistet.  Beim Klicken auf die Funktion, die dem _AutomobilePricePrediction_-Modell entspricht, werden die Parameter für den Webdienst des Modells als Funktionsparameter aufgelistet.
+Die Azure ML-Modelle, auf die Ihnen Zugriff gewährt wurde, werden als Power Query-Funktionen mit einem *AzureML*-Präfix aufgelistet.  Beim Klicken auf die Funktion, die dem _AutomobilePricePrediction_-Modell entspricht, werden die Parameter für den Webdienst des Modells als Funktionsparameter aufgelistet.
 
 Um ein Azure ML-Modell aufzurufen, können Sie beliebige Spalten der ausgewählten Entität als Eingabe aus der Dropdownliste angeben. Sie können auch einen konstanten Wert angeben, der als Eingabe verwendet werden soll, indem Sie das Spaltensymbol auf der linken Seite des Eingabedialogfelds umschalten. Wenn ein Spaltenname mit einem der Funktionsparameternamen übereinstimmt, wird die Spalte automatisch als Eingabe vorgeschlagen.  Wenn der Spaltenname nicht übereinstimmt, können Sie ihn in der Dropdownliste auswählen.
 
