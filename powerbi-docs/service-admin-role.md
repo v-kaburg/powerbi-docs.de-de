@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287563"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382804"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Grundlegendes zur Rolle „Power BI-Dienstadministrator“
 
@@ -25,23 +25,23 @@ Erfahren Sie, wie Sie Rolle des Power BI-Dienstadministrators in Ihrer Organisat
 
 Die Rolle des Power BI-Dienstadministrators kann Benutzern zugewiesen werden, die Zugriff auf das Power BI-Verwaltungsportal benötigen, ohne dass diesen Benutzern auch vollständiger Administratorzugriff auf Office 365 gewährt wird.
 
-Administratoren für die Office 365-Benutzerverwaltung weisen Benutzer im Office 365 Admin Center oder mithilfe eines PowerShell-Skripts zur Rolle des Power BI-Dienstadministrators zu. Sobald ein Benutzer zugewiesen wurde, erhält er Zugriff auf das [Power BI-Verwaltungsportal](service-admin-portal.md). Dort kann der Benutzer auf Nutzungsmetriken des Mandanten zugreifen und die Verwendung von Power BI-Funktionen im Mandanten steuern.
+Administratoren für die Office 365-Benutzerverwaltung weisen Benutzern im Microsoft 365 Admin Center oder mithilfe eines PowerShell-Skripts die Rolle des Power BI-Dienstadministrators zu. Sobald ein Benutzer zugewiesen wurde, erhält er Zugriff auf das [Power BI-Verwaltungsportal](service-admin-portal.md). Dort kann der Benutzer auf Nutzungsmetriken des Mandanten zugreifen und die Verwendung von Power BI-Funktionen im Mandanten steuern.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
 Die Rolle „Power BI-Dienstadministrator“ bietet keine Berechtigungen für die folgenden Aktivitäten:
 
-* Ändern von Benutzern und Lizenzen im Office 365 Admin Center.
+* Ändern von Benutzern und Lizenzen im Microsoft 365 Admin Center
 
 * Zugreifen auf die Überwachungsprotokolle. Weitere Informationen finden Sie unter [Verwenden von Überwachung in der Organisation](service-admin-auditing.md).
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Zuweisen von Benutzern zur Administratorrolle in Office 365
 
-Um Benutzern im Office 365 Admin Center zur Rolle des Power BI-Dienstadministrators zuzuweisen, führen Sie folgende Schritte aus.
+Führen Sie folgende Schritte aus, um Benutzern im Microsoft 365 Admin Center die Rolle des Power BI-Dienstadministrators zuzuweisen.
 
-1. Wählen Sie im Office 365 Admin Center die Optionen **Benutzer** > **Aktive Benutzer**.
+1. Rufen Sie im Microsoft 365 Admin Center **Benutzer** > **Aktive Benutzer** auf.
 
-    ![Office 365 Admin Center](media/service-admin-role/powerbi-admin-users.png)
+    ![Microsoft 365 Admin Center](media/service-admin-role/powerbi-admin-users.png)
 
 1. Wählen Sie den Benutzer aus, dem Sie die Rolle zuweisen möchten.
 
@@ -57,7 +57,7 @@ Um Benutzern im Office 365 Admin Center zur Rolle des Power BI-Dienstadministrat
 
 Daraufhin sollte für den Benutzer **Power BI-Dienstadministrator** als Rolle aufgeführt werden.
 
-![Rollen](media/service-admin-role/powerbi-admin-role-set.png)
+![anzeigen](media/service-admin-role/powerbi-admin-role-set.png)
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Zuweisen von Benutzern zur Administratorrolle mit PowerShell
 

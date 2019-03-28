@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580034"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430252"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -39,7 +39,7 @@ Die folgenden Funktionen stehen Kunden von **Power BI US Government** zur Verfü
 * Verschlüsselung sämtlicher Daten in SQL Azure und Blob Storage für Power BI
 * Herstellen einer Dienstverbindung mit [Inhaltspaketen](service-connect-to-services.md)
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Konnektivität zwischen Azure Government Cloud-Diensten und öffentlichen Azure Cloud Services 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Konnektivität zwischen Government-Clouddiensten und globalen Azure Cloud Services 
 
 Azure ist auf mehrere Clouds verteilt. Standardmäßig dürfen Mandanten Firewallregeln für eine cloudspezifische Instanz öffnen. Für cloudübergreifende Netzwerke müssen jedoch bestimmte Firewallregeln geöffnet werden, damit zwischen Diensten kommuniziert werden kann. Wenn Sie ein Power BI-Kunde sind und über SQL-Instanzen in der öffentlichen Cloud verfügen, für die Sie Zugriff benötigen, müssen Sie in SQL für die folgenden Datencenter bestimmte Firewallregeln für den Azure Government Cloud-IP-Adressbereich öffnen:
 
@@ -93,7 +93,7 @@ Anhand der folgenden Fragen (und Antworten) finden Sie schnell die benötigten I
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Frage:** Mein Konto wird in mehreren Sovereign Clouds bereitgestellt. Wie wähle ich in **Power BI Desktop** aus, mit welcher Cloud eine Verbindung hergestellt werden soll?
+**Frage:** Mein Konto wird in mehreren nationalen Clouds bereitgestellt. Wie wähle ich in **Power BI Desktop** aus, mit welcher Cloud eine Verbindung hergestellt werden soll?
 
 **Antwort:** Seit dem **Power BI Desktop**-Release im Juli 2018 können Sie auswählen, welche Cloud Sie verwenden möchten, wenn Sie sich bei **Power BI Desktop** anmelden.
 

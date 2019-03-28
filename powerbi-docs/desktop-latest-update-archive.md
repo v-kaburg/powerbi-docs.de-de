@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964983"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430482"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Vorherige monatliche Updates für Power BI Desktop
 
@@ -119,7 +119,7 @@ Es gab kein Release von Power BI Desktop im Januar 2019 – wir genossen unsere 
 
 ## <a name="december-2018-update-2655313501"></a>Dezember 2018-Update (2.65.5313.501)
 
-Über unsere Updates im Dezember haben sich unseren Kunden mindestens so sehr gefreut wie über Omas Lebkuchen. So fällt das erstellen von überzeugenden datengesteuerten Visuals bestimmt doppelt so leicht. 
+Die Updates im Dezember sind auf große Resonanz gestoßen und ermöglichen es Kunden, überzeugende datengesteuerte Visuals zu erstellen. 
 
 Sie können jetzt [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, auch wenn die Versionsnummerierung zwischen zwei Versionen abweichen kann, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
 
@@ -558,7 +558,7 @@ Im Juni wurden die folgenden Updates für **Power BI Desktop** veröffentlicht:
 
 ### <a name="other"></a>Sonstige
 
-* Auswahl der Sovereign Cloud [[Video]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Auswahl der nationalen Cloud [[Video]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -1796,7 +1796,7 @@ Im April gab es wieder einen Schwung spannender Updates für Power BI Desktop al
 
 ### <a name="data-modeling"></a>Datenmodellierung:
 
--   Modellierungsvorgänge werden während der Aktualisierung visueller Elemente nicht länger blockiert
+-   Modellierungsvorgänge werden während der Aktualisierung von Visuals nicht mehr blockiert
 -   Zeitintelligenz mit integrierten Feldern für Datumshierarchie (Vorschau)
 -   Datenmodellsynonyme
 
@@ -2231,7 +2231,7 @@ Dieses Update wurde um die folgenden Features erweitert:
 
 -   Verbesserungen beim Erstellen/Löschen von Abfragegruppen (Mehrfachauswahl usw.)
 
--   Möglichkeit zum Teilen von Abfragen (d.h. Umgestalten von allgemeinen Grundschritten in eine neue Abfrage)
+-   Möglichkeit zum Teilen von Abfragen (d. h. Umgestalten von allgemeinen Grundschritten in eine neue Abfrage)
 
 -   Abfragesymbole, die den Typ der Abfrage im Navigatorbereich für Abfragen anzeigen
 
@@ -2250,7 +2250,7 @@ Weitere Details zu diesem Update können Sie im folgenden Video kennenlernen:
 
 Dieses Update wurde um die folgenden Features erweitert:
 
--   **Neue Datenconnectors**: appFigures, Quickbooks Online, Zendesk, Github, Twilio und SweetIQ.
+-   **Neue Datenconnectors:** appFigures, Quickbooks Online, Zendesk, GitHub, Twilio und SweetIQ.
 
 -   **Neue Transformationen**: Extrahieren des ersten/letzten Buchstabens oder eines Buchstabenbereichs aus einer Textspalte; Option zum Festlegen des Join-Typs im Dialogfeld für Mergeabfragen; Möglichkeit zum Anpassen der Anführung im Dialogfeld zum Teilen von Spalten mithilfe von Trennzeichen.
 

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: a27a6f9ce1eac861415a8231eb50ec898900202e
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226156"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430344"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Einbetten mit dem Berichts-Webpart in SharePoint Online
 
@@ -166,7 +166,7 @@ Benutzer, die einen Bericht in SharePoint anzeigen, benötigen entweder eine **P
 
 * Bei Verwendung von Internet Explorer 10 können Probleme auftreten. Informieren Sie sich über die [Browserunterstützung für Power BI](consumer/end-user-browsers.md) und für [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* Das Power BI-Webpart ist für [Sovereign Clouds](https://powerbi.microsoft.com/clouds/) nicht verfügbar.
+* Das Power BI-Webpart ist für [nationale Clouds](https://powerbi.microsoft.com/clouds/) nicht verfügbar.
 
 * Der klassische Server von SharePoint Server wird mit diesem Webpart nicht unterstützt.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980425"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383437"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Verwalten von Power BI – häufig gestellte Fragen (FAQ)
 
@@ -60,7 +60,7 @@ Für einige der Verfahren in diesem Abschnitt sind Windows PowerShell-Skripts er
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Wie können sich Benutzer für Power BI registrieren?
 
-Als Administrator können Sie auf der [Power BI-Website](https://powerbi.microsoft.com) oder im Office 365 Admin Center auf der Seite [Dienste kaufen](https://admin.microsoft.com/AdminPortal/Home#/catalog) für Power BI registrieren. Wenn sich Administratoren für Power BI registrieren, können sie Benutzern, die Zugriff erhalten sollten, Benutzerlizenzen zuweisen.
+Als Administrator können Sie sich auf der [Power BI-Website](https://powerbi.microsoft.com) oder im Microsoft 365 Admin Center auf der Seite [Dienste kaufen](https://admin.microsoft.com/AdminPortal/Home#/catalog) für Power BI registrieren. Wenn sich Administratoren für Power BI registrieren, können sie Benutzern, die Zugriff erhalten sollten, Benutzerlizenzen zuweisen.
 
 Darüber hinaus können sich auch einzelne Benutzer in Ihrer Organisation auf der [Power BI-Website](https://powerbi.microsoft.com) für Power BI registrieren. Wenn sich ein Benutzer in Ihrer Organisation für Power BI registriert, wird diesem Benutzer automatisch eine Power BI-Lizenz zugewiesen. Weitere Informationen finden Sie unter [Registrieren für Power BI als Einzelperson](service-self-service-signup-for-power-bi.md) und [Power BI-Lizenzierung in Ihrem Unternehmen](service-admin-licensing-organization.md).
 
@@ -169,7 +169,7 @@ Es gibt drei Szenarien, die ggf. für die Benutzer in Ihrer Organisation in Betr
 
 ### <a name="how-do-we-manage-power-bi"></a>Wie verwalte ich Power BI?
 
-Power BI bietet ein Verwaltungsportal, über das Sie Nutzungsstatistiken anzeigen können. Es enthält auch einen Link zum Office 365 Admin Center zum Verwalten von Benutzern und Gruppen und die Möglichkeit zum Steuern von Einstellungen, die für den gesamten Mandanten gelten.
+Power BI stellt ein Verwaltungsportal bereit, in dem Sie Nutzungsstatistiken anzeigen können. Es enthält auch einen Link zum Microsoft 365 Admin Center zum Verwalten von Benutzern und Gruppen und die Möglichkeit zum Steuern von Einstellungen, die für den gesamten Mandanten gelten.
 
 Damit Sie Zugriff auf das Power BI-Verwaltungsportal erhalten, muss Ihr Konto in Office 365 oder Azure Active Directory als **Globaler Administrator** gekennzeichnet oder der Power BI-Dienstadministratorrolle zugewiesen sein. Weitere Informationen finden Sie unter [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md) und [Power BI-Verwaltungsportal](service-admin-portal.md).
 
@@ -196,7 +196,7 @@ Wenn Sie nichts unternehmen, wird ein Mandant für jede Benutzer-E-Mail-Domäne 
 
 Wenn sich ein Benutzer für Power BI registriert hat, Sie aber nicht möchten, dass er weiterhin auf Power BI zugreifen kann, können Sie die Power BI-Lizenz für diesen Benutzer entfernen.
 
-1. Navigieren Sie zum [Office 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Navigieren Sie zum [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Wählen Sie in der linken Navigationsleiste **Benutzer** > **Aktive Benutzer** aus.
 
@@ -214,7 +214,7 @@ Wenn sich ein Benutzer für Power BI registriert hat, Sie aber nicht möchten, d
 
 Benutzern, die Ihrem Mandanten im Rahmen dieses Programms beigetreten sind, wird eine eindeutige Lizenz zugewiesen, nach der Sie innerhalb Ihres aktiven Benutzerbereichs im Verwaltungsdashboard filtern können. Gehen Sie wie folgt vor, um diese neue Ansicht zu erstellen.
 
-1. Navigieren Sie zum [Office 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Navigieren Sie zum [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Wählen Sie in der linken Navigationsleiste **Benutzer** > **Aktive Benutzer** aus.
 
@@ -232,7 +232,7 @@ Benutzern, die Ihrem Mandanten im Rahmen dieses Programms beigetreten sind, wird
 
 Es kann häufiger zur Anfragen zur Kennwortrücksetzung kommen. Weitere Informationen zu diesem Vorgang finden Sie unter [Zurücksetzen eines Benutzerkennworts in Office 365](/office365/admin/add-users/reset-passwords).
 
-Sie können einen Benutzer über den Standardprozess im Office 365 Admin Center aus Ihrem Mandanten entfernen. Wenn der Benutzer jedoch weiterhin über eine aktive E-Mail-Adresse in Ihrer Organisation verfügt, kann er erneut beitreten, es sei denn, Sie sperren den Beitritt für alle Benutzer.
+Sie können einen Benutzer über den Standardprozess im Microsoft 365 Admin Center aus Ihrem Mandanten entfernen. Wenn der Benutzer jedoch weiterhin über eine aktive E-Mail-Adresse in Ihrer Organisation verfügt, kann er erneut beitreten, es sei denn, Sie sperren den Beitritt für alle Benutzer.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Wo befindet sich mein Power BI-Mandant?
 

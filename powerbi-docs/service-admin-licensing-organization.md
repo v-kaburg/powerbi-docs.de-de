@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430219"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383236"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Power BI-Lizenzierung in Ihrem Unternehmen
 
@@ -35,7 +35,7 @@ Sie können Power BI Pro-Lizenzen über Microsoft Office 365 oder einen zertifiz
 
 Einzelpersonen in Ihrer Organisation können sich für eine Power BI Pro-Testversion registrieren. Weitere Informationen finden Sie unter [Signing up for Power BI as an individual](service-self-service-signup-for-power-bi.md) (Registrieren für Power BI als Einzelperson).
 
-Benutzer, die das ins Produkt integrierte Power BI Pro-Testangebot nutzen, werden im Office 365-Administratorportal nicht als Power BI Pro-Testbenutzer aufgeführt (sie werden als Benutzer der kostenlosen Power BI-Version angezeigt). Allerdings werden sie auf der Seite „Speicher verwalten“ in Power BI als Benutzer der Power BI Pro-Testversion angezeigt.
+Benutzer, die die ins Produkt integrierte Power BI Pro-Testversion nutzen, werden im Microsoft 365 Admin Center nicht als Benutzer der Power BI Pro-Testversion aufgeführt. Stattdessen werden sie als kostenlose Power BI-Benutzer angezeigt. Allerdings werden sie auf der Seite „Speicher verwalten“ in Power BI als Benutzer der Power BI Pro-Testversion angezeigt.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro-Testversion für Organisationen
 
@@ -47,7 +47,7 @@ Bedenken Sie Folgendes, bevor Sie die Schritte zum Registrieren ausführen:
 
 * Es gibt eine Beschränkung auf maximal eine Testversion für Organisationseinheiten pro Mandant. Wenn also die Power BI Pro – Testversion bereits auf Ihrem Mandanten angewendet wurde, kann dies nicht erneut durchgeführt werden. Wenn Sie Hilfe benötigen, wenden Sie sich an den [Office 365-Abrechnungssupport](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
-1. Navigieren Sie zum [Office 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
+1. Navigieren Sie zum [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home#/homepage).
 
 1. Wählen Sie im linken Navigationsbereich **Abrechnung** und dann **Abonnements** aus.
 
@@ -71,7 +71,7 @@ Jetzt können Sie [Lizenzen in Office 365 zuweisen](https://support.office.com/a
 
 Die Benutzer in Ihrer Organisation können auf zwei verschiedene Arten auf kostenlose Power BI-Lizenzen zugreifen:
 
-* Sie können ihnen im Office 365-Administratorportal eine Power BI-Lizenz zuweisen.
+* Sie können ihnen im Microsoft 365 Admin Center eine Power BI-Lizenz zuweisen.
 
 * Wenn sich ein Benutzer [für eine Power BI Pro-Testversion registriert](service-self-service-signup-for-power-bi.md) und diese Testversion abläuft, wird ihm eine kostenlose Lizenz zugewiesen.
 
@@ -81,7 +81,7 @@ Wenn Sie Lizenzanforderungen und -zuweisungen zentral verwalten möchten, überp
 
 Dieser Lizenzblock steht zur Verfügung, nachdem sich jemand erstmalig als Einzelperson für Power BI registriert hat. Im Zuge dieses Vorgangs wird Ihrer Organisation dieser Lizenzblock zugeordnet, und dem Benutzer, der sich registriert, wird seine Lizenz zugewiesen.
 
-1. Aktivieren Sie im Office 365 Admin Center unter **Abrechnung** > **Lizenzen** die Option für **unbegrenzt**.
+1. Aktivieren Sie im Microsoft 365 Admin Center unter **Abrechnung** > **Lizenzen** die Option für **Unbegrenzt**.
 
     ![Unbeschränkter kostenloser Lizenzblock](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Dieser Lizenzblock steht zur Verfügung, nachdem sich jemand erstmalig als Einze
 
 Wenn der unbeschränkte Power BI Free-Lizenzblock nicht verfügbar ist und Sie eine individuelle Registrierung vermeiden möchten, befolgen Sie diese Vorgehensweise.
 
-1. Navigieren Sie zum [Office 365 Admin Center](https://portal.office.com/admin/default.aspx).
+1. Navigieren Sie zum [Microsoft 365 Admin Center](https://portal.office.com/admin/default.aspx).
 
 1. Wählen Sie im linken Navigationsbereich **Abrechnung** > **Abonnements** aus.
 

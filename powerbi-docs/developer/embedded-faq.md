@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174888"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430436"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Häufig gestellte Fragen zu Power BI Embedded
 
@@ -274,9 +274,9 @@ Ja, Sie können eine [Azure-Gutschrift](https://azure.microsoft.com/free/) für 
 
 Da Power BI Embedded Teil von Azure ist, können Sie den Dienst mit der [bei der Registrierung bei Azure erhaltenen 200-USD-Gutschrift](https://azure.microsoft.com/free/) verwenden.
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Ist Power BI Embedded für unabhängige Clouds (US-Behörden, Deutschland, China) verfügbar?
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>Ist Power BI Embedded für nationale Clouds (US-Behörden, Deutschland, China) verfügbar?
 
-Power BI Embedded ist für einige [unabhängige Clouds](embed-sample-for-customers-sovereign-clouds.md) verfügbar. Es ist noch **NICHT** für die China-Cloud verfügbar.
+Power BI Embedded ist auch für [nationale Clouds](embed-sample-for-customers-national-clouds.md) verfügbar.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Ist Power BI Embedded für Non-Profit-Organisationen und Bildungseinrichtungen erhältlich?
 

@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980402"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383483"
 ---
 # <a name="using-auditing-within-your-organization"></a>Verwenden von Überwachung in der Organisation
 
@@ -34,7 +34,7 @@ Die folgenden Anforderungen müssen erfüllt sein, um auf Überwachungsprotokoll
 
     Um Nicht-Administratorkonten Zugriff auf die Überwachungsprotokolle zu geben, müssen Sie den Benutzer als Mitglied einer dieser Rollengruppen hinzufügen. Alternativ können Sie eine benutzerdefinierte Rollengruppe im Exchange Admin Center erstellen, dieser Gruppe die Rolle „Überwachungsprotokolle“ oder „Überwachungsprotokolle schreibgeschützt“ zuweisen und dann der neuen Rollengruppe das Nicht-Administratorkonto zuweisen. Weitere Informationen finden Sie unter [Verwalten von Rollengruppen in Exchange Online](/Exchange/permissions-exo/role-groups).
 
-    Wenn Sie vom Office 365 Admin Center aus nicht auf das Exchange Admin Center zugreifen können, navigieren Sie zu https://outlook.office365.com/ecp, und melden Sie sich mit Ihren Anmeldeinformationen an.
+    Wenn Sie über das Microsoft 365 Admin Center nicht auf das Exchange Admin Center zugreifen können, navigieren Sie zu https://outlook.office365.com/ecp, und melden Sie sich mit Ihren Anmeldeinformationen an.
 
 * Wenn Sie Zugriff auf das Überwachungsprotokoll haben, aber kein globaler Administrator oder Power BI-Dienst-Administrator sind, haben Sie keinen Zugriff auf das Power BI-Verwaltungsportal. In diesem Fall müssen Sie einen direkten Link zum [Office 365 Security & Compliance Center](https://sip.protection.office.com/#/unifiedauditlog) verwenden.
 
@@ -50,9 +50,9 @@ Die Power BI-Überwachungsprotokolle sind direkt über das [Office 365 Security 
 
 1. Wählen Sie **Azure-Überwachungsprotokolle** aus.
 
-1. Wählen Sie **Zum O365 Admin Center wechseln** aus.
+1. Klicken Sie auf **Go to Microsoft 365 admin center** (Microsoft 365 Admin Center aufrufen).
 
-   ![O365 Admin Center aufrufen](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![„Go to Microsoft 365 admin center“ (Microsoft 365 Admin Center aufrufen)](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Nur nach Power BI-Aktivitäten suchen
 
@@ -214,7 +214,7 @@ Die folgenden Aktivitäten werden von Power BI überwacht.
 | Took over a Power BI datasource (Power BI-Datenquellen übernommen)                   | TakeOverDataset                          |                                          |
 | Took over Power BI dataset (Power BI-Dataset übernommen)                        | TakeOverDataset                             |                                          |
 | Unpublished Power BI app (Veröffentlichung der Power BI-App aufgehoben)                          | UnpublishApp                                |                                          |
-| Update capacity resource governance settings (Governanceeinstellungen für Kapazitätsressourcen aktualisiert)      | UpdateCapacityResourceGovernanceSettings    | Derzeit nicht im Administratorportal für Office 365 |
+| Update capacity resource governance settings (Governanceeinstellungen für Kapazitätsressourcen aktualisiert)      | UpdateCapacityResourceGovernanceSettings    | Derzeit nicht im Microsoft 365 Admin Center verwendet |
 | Updated capacity admin (Administrator der Kapazität aktualisiert)                            | UpdateCapacityAdmins                        |                                          |
 | Updated capacity display name (Anzeigename der Kapazität aktualisiert)                     | UpdateCapacityDisplayName                   |                                          |
 | Updated organization's Power BI settings (Power BI-Einstellungen der Organisation aktualisiert)          | UpdatedAdminFeatureSwitch                   |                                          |

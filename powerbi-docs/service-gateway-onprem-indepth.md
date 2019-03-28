@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325012"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383414"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Ausführliche Informationen zu On-premises data gateway
 Benutzer in Ihrer Organisation können auf lokale Daten zugreifen (für die sie bereits über Zugriffsberechtigungen verfügen). Bevor diese Benutzer jedoch eine Verbindung mit der lokalen Datenquelle herstellen können, muss ein lokales Datengateway installiert und konfiguriert werden. Das Gateway ermöglicht die schnelle und sichere, im Hintergrund ablaufende Kommunikation eines Benutzers in der Cloud mit Ihrer lokalen Datenquelle und zurück in die Cloud.
@@ -77,7 +77,7 @@ Die Clouddienste haben nur Kenntnis von Konten in Azure Active Directory. Es spi
 
 1. Sie können Konten in Azure Active Directory manuell hinzufügen.
    
-   Sie können im Azure-Portal oder im Office 365 Admin Portal ein Konto erstellen, bei dem der Kontoname dem UPN des lokalen Active Directory-Kontos entspricht.
+   Sie können im Azure-Portal oder im Microsoft 365 Admin Center ein Konto erstellen, bei dem der Kontoname dem UPN des lokalen Active Directory Domain Services-Kontos entspricht.
 2. Sie können das [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis)-Tool verwenden, um lokale Konten mit Ihrem Azure Active Directory-Mandanten zu synchronisieren.
    
    Das Azure AD Connect-Tool umfasst Optionen für die Verzeichnissynchronisierung und das Einrichten der Authentifizierung wie die Kennworthashsynchronisierung, die Passthrough-Authentifizierung und den Verbund. Wenn Sie weder ein Mandantenadministrator noch ein lokaler Domänenadministrator sind, müssen Sie sich für diese Konfiguration an Ihren IT-Administrator wenden.

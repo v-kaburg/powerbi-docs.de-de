@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249112"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306295"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -137,6 +137,13 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 | :------------------- | :------------------- |
 | Fokus auf Visualmenü verschieben | ALT+UMSCHALT+F10 |
 | Daten anzeigen | ALT+UMSCHALT+F11  |
+| Visual eingeben | STRG+NACH-RECHTS-TASTE |
+| Ebene eingeben | Daten |
+| Ebene oder Visual beenden | ESC |
+| Datenpunkt auswählen oder Auswahl aufheben | EINGABETASTE oder LEERTASTE |
+| Mehrfachauswahl | STRG+EINGABETASTE oder STRG+LEERTASTE |
+| Rechtsklick | <ul><li>Windows-Tastatur: Windows-Taste + F10.  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastatur: UMSCHALT+F10</li></ul> |
+| Auswahl löschen | STRG+UMSCHALT+C |
 
 ### <a name="pane-navigation"></a>Navigationsbereich
 | Zweck           | Tastenkombination                |
