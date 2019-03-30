@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383713"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489589"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Neuigkeiten bei Power BI
@@ -32,12 +32,21 @@ Sehen Sie sich auch die YouTube-Kanäle an, um Informationen zu Neuerungen und F
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>Februar 2019
-* Workloads und aktive Metrik für Datasetgrößen in der [App zum Überwachen der Kapazität](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
-* Exportieren ins PDF-Format und bedarfsgesteuerte E-Mail-Abonnements (service-report-subscribe.md).
-* Massenvorgänge im Verwaltungsportal.
+## <a name="march-2019"></a>März 2019
+* Allgemeine Verfügbarkeit von Multi-Geo für Power BI Premium.
+* Unterstützung für die Bearbeitung und Verwaltung von Power BI-Inhalten für Azure B2B.
 
 ## <a name="previous-months-2019"></a>Vorherige Monate (2019)
+### <a name="february-2019"></a>Februar 2019
+* Workloads und aktive Metrik für Datasetgrößen in der [App zum Überwachen der Kapazität](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Exportieren nach PDF für Power BI-Berichte.
+* [E-Mail-Abonnements bei Bedarf](service-report-subscribe.md).
+* Massenvorgänge im Verwaltungsportal.
+* Gefilterter Export für PPT und PDF.
+* [Hilfe- und Supporteinstellungen](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) im Verwaltungsportal.
+* Datenherkunftserfahrung für [Dataflows](service-dataflows-overview.md).
+* Zertifizierte benutzerdefinierte visuelle Einstellungen im Verwaltungsportal.
+
 ### <a name="january-2019"></a>Januar 2019
 * [Einbetten von sicheren Power BI-Berichten](service-embed-secure.md) in interne Portale oder Websites.
 * Updates für den [Dataflow](service-dataflows-overview.md)-Editor mit neuen Connectors und Unterstützung für native SQL-Abfragen und Power Query-Onlinetransformationen.

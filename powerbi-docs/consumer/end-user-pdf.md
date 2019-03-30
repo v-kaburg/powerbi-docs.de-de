@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306479"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473727"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportieren von Power BI-Berichten als PDF-Dateien
 Mit Power BI können Sie Berichte im PDF-Format veröffentlichen und darauf basierend einfach ein Dokument erstellen. Wenn Sie das Feature **In PDF exportieren** verwenden, wird jede Seite des Power BI-Berichts als individuelle Seite im PDF-Dokument angezeigt.
@@ -67,6 +67,8 @@ Einige Aspekte und Einschränkungen sind bei der Arbeit mit dem Feature **In PDF
 * Wenn Sie Berichte mit Hintergrundbild in eine PDF-Datei exportieren und für den Seitenhintergrund die Optionen „Normal“ oder „Füllung“ verwenden, wird das Bild im Export möglicherweise verzerrt dargestellt.  Wenn Sie optimale Ergebnisse erzielen möchten, empfiehlt sich die Verwendung der Option „Anpassen“, um Probleme mit dem exportierten Dokument zu vermeiden.
 
 * Der Power BI-Dienst verwendet Ihre Power BI-Spracheinstellung, um die Sprache für den PDF-Export festzulegen. Sie können die Spracheinstellung anzeigen, indem Sie das Zahnradsymbol und dann **Einstellungen** > **Allgemein** > **Sprache** auswählen.
+
+* URL-Filter werden zurzeit nicht beachtet, wenn Sie „Aktuelle Werte“ für Ihren Export auswählen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Drucken eines Berichts](end-user-print.md)

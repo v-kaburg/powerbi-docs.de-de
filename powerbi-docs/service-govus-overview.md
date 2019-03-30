@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
+ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430252"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473865"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI für Angehörige von US-Behörden
 Für den **Power BI-Dienst** ist im Rahmen von **Office 365 US Government Community**-Abonnements eine Version für Kunden verfügbar, die Angehörige von US-Behörden sind. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Angehörige von US-Behörden konzipiert. Es handelt sich hierbei um ein separates und von der kommerziellen Version des **Power BI-Diensts** abweichendes Produkt.
@@ -60,6 +60,7 @@ Einige Funktionen, die in der kommerziellen Version des **Power BI-Diensts** ver
 * **Power BI-Inhalte in Cortana:** Power BI-Ergebnisse werden in den Cortana-Suchergebnissen nicht angezeigt. Hierzu zählen auch Ergebnisse für Power BI-Inhalte (Dashboards, Berichte, Apps) sowie Ergebnisse, in denen für bestimmte Schlüsselwörter für Cortana optimierte Berichtsseiten angezeigt werden.
 * **Freigabe für externe Benutzer:** Die Freigabe ist innerhalb eines Power BI-Mandanten zulässig, und ab Juni 2018 ist die keine Freigabe auch für Benutzer außerhalb Ihres Power BI-Mandanten möglich. Weitere Informationen finden Sie unter [Verteilen von Power BI-Inhalten an externe Gastbenutzer mit Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Nutzungsmetriken für Dashboards und Berichte**: Nutzungsmetriken sind für Berichte und Dashboards nicht verfügbar. Kunden können Überwachungsprotokolldaten verwenden, um Nutzungsinformationen für Inhalte in Ihrer Organisation abzurufen.
+* **Dataflows** – Dataflows sind nicht verfügbar.
 
 Wenn Ihrem Konto **Power BI**-Free-Lizenzen zugewiesen sind, wird dieses Konto in einer kommerziellen Version des **Power BI**-Diensts ausgeführt und ist nicht Teil des Angebots **Power BI US Government**. Bei diesen Free-Konten können die folgenden Probleme auftreten:
 
