@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226202"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489566"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver
 
@@ -28,11 +28,11 @@ Sie konfigurieren die RLS für Berichte, die mithilfe von Power BI Desktop in Po
 
 Standardmäßig werden beim Filtern mit Sicherheit auf Zeilenebene einzelne unidirektionale Filter verwendet, unabhängig davon, ob die Beziehungen als unidirektional oder bidirektional festgelegt wurden. Sie können die bidirektionale Kreuzfilterung mit Sicherheit auf Zeilenebene manuell aktivieren.
 
-- Wählen Sie die Beziehung aus, und aktivieren Sie das Kontrollkästchen  **Sicherheitsfilter in beide Richtungen anwenden** . 
+- Wählen Sie die Beziehung aus, und aktivieren Sie das Kontrollkästchen **Sicherheitsfilter in beide Richtungen anwenden**. 
 
     ![Anwenden eines Sicherheitsfilters](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Aktivieren Sie dieses Kontrollkästchen, wenn Sie die  [dynamische Sicherheit auf Zeilenebene](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basierend auf dem Benutzernamen oder der Anmelde-ID implementieren. 
+Aktivieren Sie dieses Kontrollkästchen, wenn Sie die [dynamische Sicherheit auf Zeilenebene](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basierend auf dem Benutzernamen oder der Anmelde-ID implementieren. 
 
 Weitere Informationen finden Sie unter [Bidirektionale Kreuzfilterung mithilfe von DirectQuery in Power BI Desktop](../desktop-bidirectional-filtering.md) und im Whitepaper [Securing the Tabular BI Semantic Model (Sichern des semantischen BI-Tabellenmodells)](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -85,7 +85,7 @@ Nachfolgend finden Sie die aktuellen Einschränkungen für die Sicherheit auf Ze
 
 Benutzer, die Berichte besessen haben, die die DAX-Funktion username() verwendet haben, bemerken ein neues Verhalten: der Benutzerprinzipalname (UPN) wird zurückgegeben, es sei denn, der DirectQuery-Modus mit integrierter Sicherheit wird verwendet.  Da die RLS in diesem Szenario nicht berücksichtigt wird, bleibt das Verhalten in diesem Szenario unverändert.
 
-Sie können die RLS nur in den mithilfe von Power BI Desktop erstellten Datasets definieren. Wenn Sie die RLS für mit Excel erstellte Datasets aktivieren möchten, müssen Sie Ihre Dateien zunächst in PBIX-Dateien (Power BI Desktop) konvertieren. Erfahren Sie mehr über das [Konvertieren von Excel-Dateien](../desktop-import-excel-workbooks.md).
+Sie können die RLS nur in den mithilfe von Power BI Desktop erstellten Datasets definieren. Wenn Sie die RLS für mit Excel erstellte Datasets aktivieren möchten, müssen Sie Ihre Dateien zunächst in PBIX-Dateien (Power BI Desktop) konvertieren. Erfahren Sie mehr über das [Konvertieren von Excel-Dateien](../desktop-import-excel-workbooks.md).
 
 Es werden nur Verbindungen zum Extrahieren, Transformieren und Laden (ETL) und DirectQuery-Verbindungen unterstützt, die gespeicherte Anmeldeinformationen verwenden. Liveverbindungen zu Analysis Services und DirectQuery-Verbindungen über die integrierte Authentifizierung werden in den zugrunde liegenden Datenquellen behandelt. 
 

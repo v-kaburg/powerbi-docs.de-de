@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014298"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473796"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportieren von Berichten aus Power BI nach PowerPoint
 Mit Power BI können Sie Berichte in **Microsoft PowerPoint** veröffentlichen und darauf basierend einfach eine Foliengruppe erstellen. Beim **Export nach PowerPoint** geschieht Folgendes:
 
 * Jede Seite im Power BI-Bericht entspricht einer einzelnen Folie in PowerPoint.
-* Jede Seite im Power BI-Bericht wird beim Export in ein einzelnes hochauflösendes Bild in PowerPoint umgewandelt <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Jede Seite im Power BI-Bericht wird beim Export in ein einzelnes hochauflösendes Bild in PowerPoint umgewandelt.
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * In PowerPoint wird ein Link zum Power BI-Bericht erstellt. 
 
 **Power BI-Berichte** lassen sich ganz schnell nach **PowerPoint** exportieren. Befolgen Sie einfach die Schritte im nächsten Abschnitt.
@@ -91,6 +92,7 @@ Einige Aspekte und Einschränkungen sind bei der Arbeit mit der Funktion **Expor
 * Wie bereits erwähnt, wird jede Berichtsseite als ein einzelnes Bild in der PowerPoint-Datei exportiert.
 * Der Power BI-Dienst verwendet Ihre Power BI-Spracheinstellung, um die Sprache für den PowerPoint-Export festzulegen. Sie können die Spracheinstellung anzeigen, indem Sie das Zahnradsymbol ![Zahnradsymbol](media/end-user-powerpoint/power-bi-settings-icon.png) und dann **Einstellungen > Allgemein > Sprache** auswählen.
 * Das Datum und die Uhrzeit unter **Heruntergeladen am** auf der Deckfolie für die exportierte PowerPoint-Datei ist auf den Zeitpunkt des Exports entsprechend der Zeitzone des Computers festgelegt.
+* URL-Filter werden zurzeit nicht beachtet, wenn Sie „Aktuelle Werte“ für Ihren Export auswählen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Drucken eines Berichts](end-user-print.md)
