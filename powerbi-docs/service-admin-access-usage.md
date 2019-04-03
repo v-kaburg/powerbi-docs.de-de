@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 26cf9b10d2a7bfffca151fe36cd45626487b6eef
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 8186cebfce23ab5cb73862541213260a80182230
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383644"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872476"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Suchen nach angemeldeten Power BI-Benutzern
 
@@ -68,5 +68,5 @@ Daten zu Anmeldungen sind bis zu 30 Tage verfügbar. Weitere Informationen finde
 
 [Verwenden von Überwachung in der Organisation](service-admin-auditing.md)
 
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community.](https://community.powerbi.com/)
 
