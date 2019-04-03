@@ -628,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: Self-Service-Datenvorbereitung
       items:
-      - name: Self-Service-Datenvorbereitung mit Dataflows (Vorschau)
+      - name: Self-Service-Datenvorbereitung mit Dataflows
         href: service-dataflows-overview.md
-      - name: Erstellen und Verwenden von Dataflows (Vorschau)
+      - name: Erstellen und Verwenden von Dataflows
         href: service-dataflows-create-use.md
-      - name: Berechnete Entitäten mit Power BI Premium (Vorschau)
+      - name: Berechnete Entitäten mit Power BI Premium
         href: service-dataflows-computed-entities-premium.md
-      - name: Verbinden von Datenquellen und Dataflows (Vorschauversion)
+      - name: Verbinden von Datenquellen und Dataflows
         href: service-dataflows-data-sources.md
-      - name: Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)
+      - name: Verwenden von Dataflows mit lokalen Datenquellen
         href: service-dataflows-on-premises-gateways.md
-      - name: Verknüpfen von Entitäten zwischen Dataflows (Vorschau)
+      - name: Verknüpfen von Entitäten zwischen Dataflows
         href: service-dataflows-linked-entities.md
-      - name: Verwenden der inkrementellen Aktualisierung mit Dataflows (Vorschau)
+      - name: Verwenden der inkrementellen Aktualisierung mit Dataflows
         href: service-dataflows-incremental-refresh.md
-      - name: Entwicklerressourcen für Dataflows (Vorschau)
+      - name: Entwicklerressourcen für Dataflows
         href: service-dataflows-developer-resources.md
       - name: Herstellen einer Verbindung mit Dataflows in Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -654,9 +654,9 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
         href: service-dataflows-add-cdm-folder.md
-      - name: Integrieren von Machine Learning in Power BI
+      - name: Integrieren von Machine Learning in Power BI (Vorschauversion)
         href: service-machine-learning-integration.md
-      - name: Verwenden von Cognitive Services in Power BI
+      - name: Verwenden von Cognitive Services in Power BI (Vorschau)
         href: service-cognitive-services.md
       - name: Automatisiertes Machine Learning in Power BI (Vorschauversion)
         href: service-machine-learning-automated.md
@@ -880,6 +880,18 @@ items:
         href: developer/embedding.md
       - name: Was ist Power BI Embedded in Azure?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: Schnellstartanleitungen
+      items:
+      - name: Verwalten von Kapazitäten in Azure
+        items:
+        - name: Erstellen einer Kapazität in Azure
+          href: developer/azure-pbie-create-capacity.md
+        - name: Erstellen einer Kapazität mit Multi-Geo in Azure
+          href: developer/embedded-multi-geo.md
+        - name: Skalieren einer Kapazität in Azure
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Anhalten und Starten einer Kapazität in Azure
+          href: developer/azure-pbie-pause-start.md
     - name: Lernprogramme
       items:
       - name: Einbetten von Inhalten für Kunden
@@ -1034,6 +1046,16 @@ items:
       items:
       - name: Übertragen von Daten in ein Dataset per Push
         href: developer/walkthrough-push-data.md
+      - name: Registrieren einer App in Azure AD
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: Abrufen eines Authentifizierungszugriffstokens
+        href: developer/walkthrough-push-data-get-token.md
+      - name: Dataset erstellen
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: Abrufen eines Datasets zum Hinzufügen von Zeilen
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: Hinzufügen von Zeilen zu einer Tabelle
+        href: developer/walkthrough-push-data-add-rows.md
     - name: Konzepte
       items:
       - name: Automatische Beibehaltungsrichtlinie für Echtzeitdaten
@@ -1048,16 +1070,6 @@ items:
           href: developer/api-data-model-versioning.md
     - name: Vorgehensweise
       items:
-      - name: Registrieren einer App in Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-      - name: Abrufen eines Authentifizierungszugriffstokens
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Dataset erstellen
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Abrufen eines Datasets zum Hinzufügen von Zeilen
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Hinzufügen von Zeilen zu einer Tabelle
-        href: developer/walkthrough-push-data-add-rows.md
       - name: Konfigurieren von Anmeldeinformationen
         href: developer/configure-credentials.md
       - name: Verschlüsseln von Anmeldeinformationen
@@ -1331,9 +1343,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
-ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
+ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58639366"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872591"
