@@ -48,7 +48,7 @@ Dieses Glossar ist eine Communityinitiative.  Fehlt hier ein Begriff? Bitten Sie
 
 **Zuweisen** [Power BI Premium] Verb für das Verschieben eines Arbeitsbereichs in dedizierte Kapazität hinein oder aus dieser heraus. Verwenden Sie für das Verschieben eines Arbeitsbereichs in die dedizierte Kapazität nicht den Begriff „höher stufen“, da dies den Eindruck erweckt, dedizierte Kapazität habe einen höheren Rang als gemeinsam genutzte Kapazität.  
 
-## <a name="b"></a>F
+## <a name="b"></a>B
 
 **BI, Business Intelligence**
 
@@ -142,7 +142,7 @@ In Dokumentation kann „Power BI-Umgebung (Mandant)“ verwendet werden; hier k
 ## <a name="h"></a>H
 **Visuelle Elemente mit hoher Dichte** Visuelle Elemente mit mehr Datenpunkten als Power BI darstellen kann. Power BI nimmt Stichproblem der Daten, um die Form und Ausreißer darzustellen.
 
-## <a name="i"></a>K
+## <a name="i"></a>I
 
 **Erkenntnisse** Die automatische Datenanalyse, die durch das Ausführen unserer Algorithmen für maschinelles Lernen erfolgt.
 
@@ -308,7 +308,7 @@ Power BI-Dashboards enthalten Berichtskacheln.
 
 **Bereich „Visualisierung“** Name für die Visualisierungsvorlagen, die mit der gemeinsamen Zeichnungsfläche für Power BI Desktop und dem Power BI-Dienst geliefert werden. Enthält kleine Vorlagen, auch als Symbole bezeichnet, für jeden nativen Visualisierungstyp.  
 
-## <a name="w"></a>M
+## <a name="w"></a>W
 
 **Arbeitsmappe** Eine Excel-Arbeitsmappe, die als Datenquelle verwendet wird. Arbeitsmappen können ein Datenmodell mit einer oder mehreren Tabellen enthalten, die mithilfe von verknüpften Tabellen, Power Query oder Power Pivot geladen wurden.
 
