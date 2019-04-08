@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Zusammenarbeit in Power BI
       items:
+      - name: Erstellen neuer Arbeitsbereiche
+        href: service-create-the-new-workspaces.md
       - name: Erstellen von App-Arbeitsbereichen
         href: service-create-workspaces.md
-      - name: Erstellen neuer Arbeitsbereiche (Vorschau)
-        href: service-create-the-new-workspaces.md
-      - name: Erstellen und Teilen von Apps
+      - name: Veröffentlichen von Apps über Arbeitsbereiche
         href: service-create-distribute-apps.md
       - name: Verwalten von Datenspeicher in Arbeitsbereichen
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Was ist Power BI Embedded in Azure?
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Schnellstartanleitungen
-      items:
-      - name: Verwalten von Kapazitäten in Azure
-        items:
-        - name: Erstellen einer Kapazität in Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: Erstellen einer Kapazität mit Multi-Geo in Azure
-          href: developer/embedded-multi-geo.md
-        - name: Skalieren einer Kapazität in Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Anhalten und Starten einer Kapazität in Azure
-          href: developer/azure-pbie-pause-start.md
     - name: Lernprogramme
       items:
       - name: Einbetten von Inhalten für Kunden
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Einbetten von Q&A
         href: developer/qanda.md
+      - name: Problembehandlung bei eingebetteten Anwendungen
+        href: developer/embedded-troubleshoot.md
       - name: Verwalten von Kapazitäten in Azure
         items:
         - name: Erstellen einer Kapazität in Azure
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Anhalten und Starten einer Kapazität in Azure
           href: developer/azure-pbie-pause-start.md
-        - name: Problembehandlung bei eingebetteten Anwendungen
-          href: developer/embedded-troubleshoot.md
       - name: Migrieren von Arbeitsbereichssammlungen
         items:
         - name: So migrieren Sie von Power BI-Arbeitsbereichssammlungen
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: Übertragen von Daten in ein Dataset per Push
         href: developer/walkthrough-push-data.md
-      - name: Registrieren einer App in Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Abrufen eines Authentifizierungszugriffstokens
         href: developer/walkthrough-push-data-get-token.md
       - name: Dataset erstellen
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Sicherheit in Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914211"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053436"
