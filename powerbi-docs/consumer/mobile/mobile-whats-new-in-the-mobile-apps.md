@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826719"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872729"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
-* [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+* [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
+* [Neuigkeiten bei Power BI](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>März 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Unterstützung externer Gastbenutzer in Power BI-Apps (iOS, Android)
+
+Sie können direkt über die App auf Power BI-Inhalte zugreifen, die eine andere Organisation für Sie freigegeben hat. Dieses Verfahren ist auch als B2B bekannt. Weitere Informationen zu B2B für mobile Power BI-Apps finden Sie [hier](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/).
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Verbessern des Präsentationsmodus für Windows mit Diashows (Windows)
+
+Mithilfe von [Diashows](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) können Sie öffentliche Bildschirme in Ihrem Büro nutzen, um Power BI-Berichte im Vollbildmodus darzustellen und Berichtsseiten automatisch nacheinander wiederzugeben.  
 
 ## <a name="january---february-2019"></a>Januar – Februar 2019
  
@@ -289,7 +299,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom April 2017](https://p
 Lesen Sie die [Featurezusammenfassung für mobile Apps vom März 2017](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-2017/).
 
 #### <a name="all-devices"></a>Alle Geräte
-**Datenschnitt-Interaktionen**
+**Datenschnittinteraktionen**
 
 Wir haben die Touchinteraktion für Zeitdatenschnitte verbessert.
 
@@ -352,7 +362,7 @@ Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Janua
 Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Dezember 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
 
 #### <a name="all-devices"></a>Alle Geräte
-**Offline-Hintergrundaktualisierung**
+**Offlineaktualisierung im Hintergrund**
 
 Damit Sie auch offline auf Ihre aktuellen Daten zugreifen können, wird im Hintergrund der App eine Aktualisierung ausgeführt, sodass Ihre Geschäftsdaten auf dem neuesten Stand sind, auch wenn Sie seit Längerem nicht darauf zugegriffen haben. Wenn Sie sicherstellen möchten, dass bestimmte Dashboards immer auf dem neuesten Stand sind, markieren Sie sie einfach als Favoriten. Erfahren Sie mehr über [Offlinefunktionen in den mobilen Power BI-Apps](mobile-apps-offline-data.md).
 
@@ -377,7 +387,7 @@ Wenn für eine Bildkachel vom Dashboardbesitzer eine benutzerdefinierte URL defi
 
 Sie können jetzt Apple Watch-Daten direkt aus der Watch-App aktualisieren. Drücken Sie stärker auf der Indexseite des Dashboards, um Ihre Daten zu aktualisieren. (Die mobile Power BI-App muss hierfür auf Ihrem iPhone im Hintergrund ausgeführt werden).
 
-#### <a name="android"></a>Android
+#### <a name="android"></a>Android-
 **Benutzerdefinierte URL für Bildkacheln**
 
 Wenn für eine Bildkachel vom Dashboardbesitzer eine benutzerdefinierte URL definiert wurde, wird beim Tippen auf die Kachel direkt diese URL geöffnet, ohne die Kachel im Fokusmodus anzuzeigen. Darüber hinaus können Dashboardkacheln, die vordefinierte benutzerdefinierte URLs enthalten, den Leser jetzt zu Berichten innerhalb der App umleiten.

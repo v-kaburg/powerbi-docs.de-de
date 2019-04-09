@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327962"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872499"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -23,6 +23,13 @@ Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält
 Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
 
 ## <a name="january-2019"></a>Januar 2019
+
+- **Power BI-Berichtsserver**          
+    - *Version 1.4.7024.16477 (Build 15.0.1102.299), Veröffentlichung: 28. März 2019*
+        - Fehlerkorrekturen
+            - Power BI-Berichte
+                - Korrigiert: Ein Problem mit Standardanmeldeinformationen bei direkter Abfrage für SAP HANA und SAP BW
+                - Korrigiert: Datenaktualisierung für OData-Feed schlägt fehl. Fehler: „Datei oder Assembly 'Microsoft.OData.Core.NetFX35.V7' konnte nicht geladen werden.“
 
 - **Power BI-Berichtsserver**            
     - *Version 1.4.6969.7395 (Build 15.0.1102.235), Veröffentlichung: 30. Januar 2019*
@@ -97,7 +104,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
                 - Berichte können aktualisiert werden, wenn ein Server für die Verwendung der benutzerdefinierten Authentifizierung konfiguriert ist.
                 - Durch Ändern der Eigenschaften eines Berichts werden die Anmeldeinformationen der Datenquelle nicht zurückgesetzt.
             - Für paginierte Berichte (RDL)
-                - Die Verwendung von `Lookup()` oder Ableitungsfunktionen wie `LookupSet()` und `MultiLookup()` in RDL-Ausdrücken führt nicht mehr zu `#Error`.
+                - Die Verwendung von `Lookup()` oder Ableitungsfunktionen wie `LookupSet()` und `MultiLookup()` in RDL-Ausdrücken führt nicht mehr zu `#Error`
                 - Verknüpfte Berichte behalten beim Drucken die Seitengröße des Zielberichts bei.
                 - Abonnements können für verknüpfte Berichte erstellt werden, die kaskadierende Parameter verwenden.
                 - Bei Verwendung von IE11 können die Standardwerte mehrwertiger Parameter geändert werden.
@@ -213,8 +220,8 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 [Was ist der Microsoft Power BI-Berichtsserver?](get-started.md)
 [Administratorübersicht](admin-handbook-overview.md)  
-[Installieren von Power BI-Berichtsserver](install-report-server.md)  
+[Power BI-Berichtsserver installieren](install-report-server.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Herunterladen von SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community.](https://community.powerbi.com/)

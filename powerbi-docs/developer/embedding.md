@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762442"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872706"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Embedded Analytics mit Power BI
 
@@ -82,12 +89,12 @@ Ausführliche Informationen zum Einbetten finden Sie unter [Einbetten von Power 
 Nun können Sie mit der Einbettung von Power BI-Inhalten in eine Anwendung oder Power BI-Inhalten für Ihre Kunden loslegen.
 
 > [!div class="nextstepaction"]
-> [Embed for your organization (Einbetten für Ihre Organisation)](embed-sample-for-your-organization.md)
+> [Einbetten für Ihre Organisation](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
 > [Was ist Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
->[Inhalte für Ihre Kunden einbetten](embed-sample-for-customers.md)
+>[Einbetten für Ihre Kunden](embed-sample-for-customers.md)
 
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+Weitere Fragen? [Wenden Sie sich an die Power BI-Community.](http://community.powerbi.com/)

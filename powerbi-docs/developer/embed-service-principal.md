@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014413"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872545"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
 
@@ -111,13 +111,15 @@ Im Gegensatz zur traditionellen Verwendung eines Hauptkontos müssen für die Ve
 3. Als Power BI-Administrator müssen Sie Dienstprinzipale in den **Entwicklereinstellungen** im Power BI-Verwaltungsportal aktivieren. Fügen Sie die Sicherheitsgruppe, die Sie erstellt haben, dem Bereich **Sicherheitsgruppen angeben** in den **Entwicklereinstellungen** hinzu.
 
    > [!Important]
-   > Dienstprinzipale erben die Berechtigungen für alle Power BI-Mandanteneinstellungen von ihrer Sicherheitsgruppe. Wenn Berechtigungen eingeschränkt werden sollen, erstellen Sie eine dedizierte Sicherheitsgruppe für Dienstprinzipale und fügen diese der Liste „Ausgenommen spezifische Sicherheitsgruppen“ für die relevanten, aktivierten Power BI-Einstellungen hinzu.
+   > Dienstprinzipale haben Zugriff auf alle Mandanteneinstellungen, die für die gesamte Organisation oder für die Sicherheitsgruppen aktiviert sind, die als Teil der Gruppe Dienstprinzipale besitzen. Genehmigen Sie nur bestimmten Sicherheitsgruppen Zugriff, oder erstellen Sie eine dedizierte Sicherheitsgruppe für Dienstprinzipale, und schließen Sie sie aus, um den Zugriff von Dienstprinzipalen auf bestimmte Mandanteneinstellungen zu beschränken.
 
     ![Verwaltungsportal](media/embed-service-principal/admin-portal.png)
 
 4. Richten Sie Ihre [Power BI-Umgebung](embed-sample-for-customers.md#set-up-your-power-bi-environment) ein.
 
 5. Fügen Sie dem neuen Arbeitsbereich den Dienstprinzipal als **Administrator** hinzu. Sie können diese Aufgabe über die [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) oder den Power BI-Dienst verwalten.
+
+    ![Hinzufügen eines Dienstprinzipals zu einem Arbeitsbereich](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Wählen Sie nun aus, dass Ihr Inhalt in eine Beispielanwendung oder Ihre eigene Anwendung eingebettet werden soll.
 
@@ -171,9 +173,10 @@ Unten sehen Sie ein Beispielskript, mit dem Sie die Objekt-ID des Dienstprinzipa
 * Sie können ein lokales Datengateway über den Dienstprinzipal weder installieren noch verwalten.
 * [Für Ihre Organisation eingebettete Anwendungen](embed-sample-for-your-organization.md) können Dienstprinzipale nicht verwenden.
 * Die Verwaltung von [Datenflüssen](../service-dataflows-overview.md) wird nicht unterstützt.
+* Der Dienstprinzipal unterstützt keine Administrator-APIs.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md)
-* [Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden](embed-sample-for-customers.md)
+* [Registrieren einer App](register-app.md)
+* [Power BI Embedded für Ihre Kunden](embed-sample-for-customers.md)
 * [Anwendungs- und Dienstprinzipalobjekte in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
