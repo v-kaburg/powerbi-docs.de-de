@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306502"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533699"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Verwenden von SAML (Security Assertion Markup Language) für SSO (Single Sign-On, Einmaliges Anmelden) von Power BI bei lokalen Datenquellen
 
@@ -75,7 +75,7 @@ Da so erstellte IdP-Zertifikat ist ein Jahr lang gültig (siehe „-days“-Opti
 
     ![SAML konfigurieren](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Wählen Sie den Identitätsanbieter aus, den Sie in Schritt 2 erstellt haben. Geben Sie die UPN des Power BI-Benutzers für die **External Identity (externe Identität)** ein, und klicken Sie dann auf **Add (Hinzufügen)**.
+1. Wählen Sie den Identitätsanbieter aus, den Sie in Schritt 2 erstellt haben. Für **externen Identität**, geben Sie die Power BI-Benutzer-UPN (in der Regel die e-Mail-Adresse der Benutzer sich bei Power BI anmeldet), und wählen Sie dann **hinzufügen**. Beachten Sie, dass wenn Sie Ihr Gateway aus, um die Konfigurationsoption ADUserNameReplacementProperty verwenden konfiguriert haben sollten Sie den Wert eingeben, der ursprüngliche UPN des Power BI-Benutzers ersetzt. Wenn Sie die ADUserNameReplacementProperty "sAMAccountName" festlegen sollten Sie z. B. des Benutzers "sAMAccountName" eingeben.
 
     ![Identitätsanbieter auswählen](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ In den Authentifizierungsablaufverfolgungen finden sich detaillierte Information
 
 Weitere Informationen zum **lokalen Datengateway** und **DirectQuery** finden Sie in den folgenden Ressourcen:
 
-* [Lokales Datengateway](service-gateway-onprem.md)
+* [On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery unterstützte Datenquellen](desktop-directquery-data-sources.md)
 * [DirectQuery und SAP BW](desktop-directquery-sap-bw.md)
