@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bc6eaccc2976266102dcca0d20df73df810fa5f3
+ms.sourcegitcommit: bf535771c9ef495f9bb658569403fa5e3dd82e6a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284516"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65853636"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Problembehandlung für Power BI Gateway – Personal
-Im Folgenden werden einige häufige Fehler erläutert, die beim Verwenden von Power BI Gateway – Personal möglicherweise auftreten.
+In den folgenden Abschnitten wechseln Sie über einige häufig auftretende Probleme, die Sie stoßen können, wenn Sie die Power BI Gateway-Personal verwenden.
 
 > [!NOTE]
 > Die aktuelle Version des Gateways für den persönlichen Gebrauch ist das **lokale Datengateway (Personal)**. Aktualisieren Sie Ihre Installation mit dieser Version.
@@ -26,68 +26,68 @@ Im Folgenden werden einige häufige Fehler erläutert, die beim Verwenden von Po
 > 
 
 ## <a name="update-to-the-latest-version"></a>Aktualisieren auf die neueste Version
-Viele Probleme können auftreten, wenn die Gatewayversion veraltet ist.  Es ist ratsam sicherzustellen, dass Sie immer die aktuelle Version verwenden.  Wenn Sie das Gateway einen Monat oder länger nicht mehr aktualisiert haben, sollten Sie die aktuelle Version des Gateways installieren und prüfen, ob Sie das Problem reproduzieren können.
+Viele Probleme können auftreten, wenn die gatewayversion veraltet ist.  Es ist allgemein empfohlen, stellen Sie sicher, dass Sie die neueste Version verwenden. Wenn Sie das Gateway einen Monat oder länger nicht aktualisiert haben, sollten Sie die neueste Version des Gateways installieren. Prüfen Sie, ob Sie das Problem reproduzieren können.
 
 ## <a name="installation"></a>Installation
-**Personal Gateway unterstützt nur 64 Bit**: Wenn Ihr Computer ein 32-Bit-Betriebssystem verwendet, können Sie das persönliche Gateway nicht installieren. Es muss ein 64-Bit-Betriebssystem verwendet werden. Installieren Sie entweder eine 64-Bit-Version von Windows, oder installieren Sie das persönliche Gateway auf einem 64-Bit-Computer.
+**Personal Gateway ist 64-Bit-** – Wenn Ihr Computer die 32-Bit ist, können nicht Sie personal Gateway installieren. Das Betriebssystem muss 64-Bit-Version sein. Eine 64-Bit-Version von Windows zu installieren, oder Installieren von personal Gateway auf einem 64-Bit-Computer.
 
-**Fehler bei der Installation von Personal Gateway als Dienst, obwohl Sie ein lokaler Administrator des Computers sind**: Bei der Installation kann ein Fehler auftreten, wenn der Benutzer Mitglied der lokalen Administratorgruppe des Computers ist, die Gruppenrichtlinien die Anmeldung dieses Benutzernamens als Dienst jedoch nicht erlauben.  Stellen Sie zunächst sicher, dass die Gruppenrichtlinien die Anmeldung von Benutzern als Dienst zulassen. Wir arbeiten an einer Korrektur für dieses Problem. [Weitere Informationen](https://technet.microsoft.com/library/cc739424.aspx)
+**Fehler bei Personal Gateway als Dienst zu installieren, auch wenn Sie ein lokaler Administrator für den Computer sind** -Installation kann fehlschlagen, wenn der Benutzer Mitglied der Gruppe zu lokalen Administratoren des Computers ist, aber die Gruppenrichtlinie nicht als Anmeldung dieses Benutzernamens ermöglichen eine -Dienst. Stellen Sie sicher, dass die Gruppenrichtlinie einen Benutzer, die als Dienst anmelden können, im Moment. Wir arbeiten an einer Korrektur für dieses Problem. [Weitere Informationen](https://technet.microsoft.com/library/cc739424.aspx)
 
-**Timeout beim Vorgang**: Dies tritt häufig auf, wenn der Computer (physischer Computer oder VM), auf dem Sie Personal Gateway installieren, über einen Einzelkernprozessor verfügt. Schließen Sie eventuell geöffnete Anwendungen, deaktivieren Sie alle nicht benötigten Prozesse, und versuchen Sie die Installation erneut.
+**Timeout beim Vorgang** : Diese Meldung ist häufig auf, wenn der Computer (physischer Computer oder VM), auf dem Sie personal Gateway installieren, über einen Einzelkernprozessor verfügt. Schließen Sie eventuell geöffnete Anwendungen, deaktivieren Sie alle nicht benötigten Prozesse, und versuchen Sie die Installation erneut.
 
-**Das Datenverwaltungsgateway und der Analysis Services Connector können nicht auf demselben Computer wie Personal Gateway installiert werden** – Wenn auf dem Computer bereits ein Analysis Services Connector oder ein Datenverwaltungsgateway installiert ist, müssen Sie den Connector oder das Gateway zuerst deinstallieren und dann erneut versuchen, Personal Gateway zu installieren.
+**Data Management Gateway, oder Analysis Services Connector kann nicht auf demselben Computer wie personal Gateway installiert werden** – Wenn bereits ein Analysis Services Connector oder Datenverwaltungsgateway installiert ist, müssen Sie zuerst den Connector deinstallieren oder Das Gateway. Versuchen Sie dann das personal Gateway installieren.
 
 > [!NOTE]
-> Wenn während der Installation ein Fehler auftritt, können Sie in den Setupprotokollen möglicherweise hilfreiche Informationen zum Lösen des Problems finden. Weitere Informationen finden Sie unter [Setupprotokolle](#SetupLogs).
+> Wenn Sie während der Installation ein Fehler auftritt, bieten die Setupprotokolle Informationen, damit Sie das Problem zu beheben. Weitere Informationen finden Sie unter [Setupprotokolle](#SetupLogs).
 > 
 > 
 
- **Proxykonfiguration:** Es treten möglicherweise Probleme beim Konfigurieren des persönlichen Gateways auf, wenn für Ihre Umgebung ein Proxy erforderlich ist. Weitere Informationen zum Konfigurieren von Proxyinformationen finden Sie unter [Konfigurieren von Proxyeinstellungen für Power BI-Gateways](service-gateway-proxy.md).
+ **Proxykonfiguration** möglicherweise Probleme beim Konfigurieren des persönlichen Gateways aus, wenn für Ihre Umgebung ein Proxy erforderlich angezeigt. Weitere Informationen zum Konfigurieren von Proxyinformationen finden Sie unter [Konfigurieren von Proxyeinstellungen für Power BI-Gateways](service-gateway-proxy.md).
 
 ## <a name="schedule-refresh"></a>Zeitplanaktualisierung
 **Fehler: Die in der Cloud gespeicherten Anmeldeinformationen sind nicht vorhanden.**
 
-Dieser Fehler kann z.B. in den Einstellungen für \<dataset\> auftreten, wenn Sie eine Zeitplanaktualisierung geplant und anschließend Personal Gateway deinstalliert und erneut installiert haben. Bei der Deinstallation von Personal Gateway werden die Datenquellen-Anmeldeinformationen für ein Dataset, die für die Aktualisierung konfiguriert wurden, aus dem Power BI-Dienst entfernt.
+Sie erhalten diesen Fehler in den Einstellungen für \<Dataset\> , wenn Sie eine zeitplanaktualisierung geplante haben, und klicken Sie dann deinstalliert und neu das personal Gateway installiert. Bei der Deinstallation eines personal Gateways werden die Datenquellen-Anmeldeinformationen für ein Dataset, die für die Aktualisierung konfiguriert wurden, wird von Power BI-Dienst entfernt.
 
-**Lösung:** Navigieren Sie in Power BI zu den Aktualisierungseinstellungen für ein Dataset. Klicken Sie in „Datenquellen verwalten“ für eine beliebige Datenquelle mit einem Fehler auf „Anmeldeinformationen bearbeiten“, und melden Sie sich dann wieder bei der Datenquelle an.
+**Lösung:** Navigieren Sie in Power BI zu den Aktualisierungseinstellungen für ein Dataset. Datenquellen verwalten, wählen Sie für eine beliebige Datenquelle mit einem Fehler **Anmeldeinformationen bearbeiten** und melden Sie sich an die Datenquelle erneut.
 
 **Fehler: Die für das Dataset bereitgestellten Anmeldeinformationen sind ungültig. Aktualisieren Sie die Anmeldeinformationen mithilfe einer Aktualisierung oder im Dialogfeld „Datenquelleneinstellungen“, um fortzufahren.**
 
 **Lösung**: Wenn Sie eine Nachricht bezüglich Anmeldeinformationen erhalten, könnte Folgendes zutreffen:
 
-* Achten Sie darauf, dass die für die Anmeldung bei Datenquellen verwendeten Benutzernamen und Kennwörter aktuell sind. Navigieren Sie in Power BI zu den Aktualisierungseinstellungen für das Dataset. Klicken Sie in „Datenquellen verwalten“ auf „Anmeldeinformationen bearbeiten“, um die Anmeldeinformationen für die Datenquelle zu aktualisieren.
-* Mashups zwischen einer Cloud-Quelle und einer lokalen Quelle in einer einzelnen Abfrage werden im persönlichen Gateway nicht aktualisiert, wenn eine der Quellen OAuth als Authentifizierungsmethode verwendet. Ein Beispiel hierfür ist ein Mashup zwischen CRM Online und einem lokalen SQL Server. Dies funktioniert nicht, da CRM Online OAuth erfordert.
+* Stellen Sie sicher, dass die Benutzernamen und Kennwörtern zum Anmelden bei Datenquellen auf dem neuesten Stand sind. Navigieren Sie in Power BI zu den Aktualisierungseinstellungen für das Dataset. Wählen Sie Datenquellen verwalten **Anmeldeinformationen bearbeiten** um die Anmeldeinformationen für die Datenquelle zu aktualisieren.
+* Mashups zwischen einer clouddatenquelle und einer lokalen Quelle, in einer einzelnen Abfrage, nicht im persönlichen Gateway aktualisieren, wenn eine der Quellen OAuth als Authentifizierungsmethode verwendet wird. Ein Beispiel für dieses Problem ist ein Mashup zwischen CRM Online und einer lokalen SQL Server. Das Mashup schlägt fehl, da es sich bei CRM Online OAuth erfordert.
   
-  Dieses Fehlverhalten ist bekannt und wird derzeit untersucht. Um das Problem zu umgehen, können für die Cloudquelle und die lokale Quelle getrennte Abfragen verwendet werden, die dann in einer Merge- oder Append-Abfrage zusammengeführt werden.
+  Dieser Fehler ist ein bekanntes Problem, und es wird derzeit untersucht. Um das Problem zu umgehen, müssen Sie eine separate Abfrage für die cloudquelle und die lokale Datenquelle. Dann verwendet eine Zusammenführung, oder fügen Sie die Abfrage aus, um diese zu kombinieren.
 
 **Fehler: Nicht unterstützte Datenquelle.**
 
 **Lösung:** Wenn in den Einstellungen für die Zeitplanaktualisierung eine Nachricht zu einer nicht unterstützten Datenquelle angezeigt wird, kann das Folgendes bedeuten: 
 
-* Die Aktualisierung der Datenquelle wird von Power BI aktuell nicht unterstützt. 
-* Die Excel-Arbeitsmappe enthält kein Datenmodell, sondern nur Arbeitsblattdaten. Power BI unterstützt die Aktualisierung zurzeit nur, wenn die hochgeladene Excel-Arbeitsmappe ein Datenmodell enthält. Achten Sie beim Importieren von Daten in Excel mithilfe von Power Query darauf, die Option zum Laden von Daten in ein Datenmodell zu aktivieren. Dadurch wird sichergestellt, dass die Daten in ein Datenmodell importiert werden. 
+* Für die Aktualisierung in Power BI die Datenquelle wird derzeit nicht unterstützt. 
+* Die Excel-Arbeitsmappe enthält kein Datenmodell, sondern nur Arbeitsblattdaten. Power BI unterstützt die Aktualisierung zurzeit nur, wenn die hochgeladene Excel-Arbeitsmappe ein Datenmodell enthält. Achten Sie beim Importieren von Daten in Excel mithilfe von Power Query darauf, die Option zum Laden von Daten in ein Datenmodell zu aktivieren. Diese Option stellt sicher, dass die Daten in ein Datenmodell importiert werden. 
 
-**Fehler: [Daten können nicht verbunden werden] &lt;Abfragteteil&gt;/&lt;…&gt;/&lt;…&gt; greift auf Datenquellen mit Sicherheitsstufen zu, die nicht gemeinsam verwendet werden können. Erstellen Sie diese Datenkombination neu.**
+**Fehler: [Konnte nicht zum Kombinieren von Daten] &lt;Abfrageteil&gt;/&lt;... &gt; / &lt;... &gt; greift auf Datenquellen mit Sicherheitsstufen, die nicht zusammen verwendet werden können. Erstellen Sie diese Datenkombination neu.**
 
-**Lösung**: Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
+**Lösung**: Dieser Fehler wird aufgrund der Einschränkungen der Datenschutzstufe und die Typen von Datenquellen, die Sie verwenden.
 
 **Fehler: Datenquellenfehler: Der Wert „\[Tabelle\]“ kann nicht in den Typ „Tabelle“ konvertiert werden.**
 
-**Lösung**: Dieser Fehler wird durch die Einschränkungen der Datenschutzstufe verursacht sowie durch die Arten der verwendeten Datenquellen.
+**Lösung**: Dieser Fehler wird aufgrund der Einschränkungen der Datenschutzstufe und die Typen von Datenquellen, die Sie verwenden.
 
 **Fehler: Für diese Zeile ist nicht ausreichend Platz vorhanden.**
 
-Dieser Fehler tritt auf, wenn eine einzelne Zeile größer als 4 MB ist. Finden Sie in diesem Fall heraus, um welche Zeile in der Datenquelle es sich handelt, und versuchen Sie, die Zeile herauszufiltern oder deren Größe zu verringern.
+Dieser Fehler tritt auf, wenn Sie eine einzelne Zeile größer als 4 MB groß sein. Suchen Sie die Zeile aus der Datenquelle, und versuchen Sie, sie herauszufiltern oder verringern Sie die Größe für diese Zeile.
 
 ## <a name="data-sources"></a>Datenquellen
-**Fehlender Datenanbieter** – Personal Gateway unterstützt nur 64-Bit-Systeme. Auf demselben Computer, auf dem Personal Gateway installiert ist, muss eine 64-Bit-Version der Datenanbieter installiert sein. Wenn beispielsweise die Datenquelle im Dataset Microsoft Access ist, müssen Sie den 64-Bit-ACE-Anbieter auf demselben Computer wie Personal Gateway installieren.  
+**Fehlender Datenanbieter** – das personal Gateway ist nur für 64-Bit-Version. Auf demselben Computer, auf dem Personal Gateway installiert ist, muss eine 64-Bit-Version der Datenanbieter installiert sein. Wenn beispielsweise die Datenquelle im Dataset Microsoft Access ist, müssen Sie den 64-Bit-ACE-Anbieter auf demselben Computer wie Personal Gateway installieren.  
 
 >[!NOTE]
->Wenn Sie die 32-Bit-Version von Excel verwenden, können Sie keinen 64-Bit-ACE-Anbieter auf dem gleichen Computer installieren.
+>Wenn Sie die 32-Bit-Version Excel verfügen, können nicht Sie keinen 64-Bit-Version-ACE-Anbieter auf dem gleichen Computer installieren.
 
-**Windows-Authentifizierung wird für Access-Datenbanken nicht unterstützt** – Power BI unterstützt zurzeit für Access-Datenbanken nur „anonym“. Wir arbeiten an einer Lösung, Windows-Authentifizierung für Access-Datenbanken zu ermöglichen.
+**Windows-Authentifizierung wird für Access-Datenbanken nicht unterstützt** – Power BI unterstützt zurzeit für Access-Datenbanken nur „anonym“. Wir arbeiten daran, zum Aktivieren der Windows-Authentifizierung für Access-Datenbank.
 
-**Anmeldefehler beim Eingeben von Anmeldeinformationen für eine Datenquelle** – Wenn bei der Eingabe von Windows-Anmeldeinformationen für eine Datenquelle dieser oder ein ähnlicher Fehler angezeigt wird, verwenden Sie möglicherweise noch eine alte Version von Personal Gateway. [Installieren Sie die neueste Version von Power BI Gateway – Personal](https://powerbi.microsoft.com/gateway/).
+**Anmeldefehler beim Eingeben von Anmeldeinformationen für eine Datenquelle** – Wenn Sie einen Fehler wie diesen erhalten, wenn Sie Windows-Anmeldeinformationen für eine Datenquelle eingeben, Sie können möglicherweise weiterhin auf einer älteren Version von personal Gateway. [Installieren Sie die neueste Version von Power BI Gateway – Personal](https://powerbi.microsoft.com/gateway/).
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
@@ -95,49 +95,49 @@ Dieser Fehler tritt auf, wenn eine einzelne Zeile größer als 4 MB ist. Finden 
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/aceoledberror.png)
 
-Power BI unterstützt derzeit keine Windows-Authentifizierung für eine Datenquelle, die den ACE-OLEDB-Anbieter verwendet.
+Powerbi unterstützt derzeit keine Windows-Authentifizierung für eine Datenquelle, die ACE-OLEDB-Anbieter verwendet.
 
-**Lösung:** Zur Umgehung dieses Fehlers können Sie die anonyme Authentifizierung auswählen. Bei ACE-OLEDB-Legacyanbietern sind anonyme Anmeldeinformationen gleichbedeutend mit Windows-Anmeldeinformationen.
+**Lösung:** Um diesen Fehler zu umgehen, können Sie auswählen **anonyme Authentifizierung**. Für ältere ACE-OLEDB-Anbieter sind anonyme Anmeldeinformationen auf Windows-Anmeldeinformationen.
 
 ## <a name="tile-refresh"></a>Kachelaktualisierung
-Falls ein Fehler beim Aktualisieren von Dashboardkacheln auftritt, lesen Sie folgenden Artikel.
+Wenn Sie einen Fehler mit dashboardkacheln aktualisieren erhalten, finden Sie im folgenden Artikel.
 
 [Problembehandlung für Kachelfehler](refresh-troubleshooting-tile-errors.md)
 
 ## <a name="tools-for-troubleshooting"></a>Tools zur Problembehandlung
-### <a name="refresh-history"></a>Aktualisieren des Verlaufs
-Mit **Verlauf aktualisieren** können Sie sehen, welche Fehler aufgetreten sind, und Sie erhalten nützliche Daten, wenn Sie eine Supportanfrage erstellen müssen. Sie können sowohl geplante Aktualisierungen als auch Aktualisierungen nach Bedarf anzeigen. Hier ist beschrieben, wie Sie zur Option **Verlauf aktualisieren**gelangen.
+### <a name="refresh-history"></a>Verlauf aktualisieren
+**Verlauf aktualisieren** können Sie sehen, welche Fehler aufgetreten sind, und bietet nützliche Daten, wenn Sie eine Supportanfrage erstellen müssen. Sie können sowohl geplante als auch bei Bedarf Aktualisierungen anzeigen. Hier ist, wie Sie zum Abrufen der **Verlauf der Datenaktualisierung**.
 
 1. Wählen Sie im Power BI-Navigationsbereich in **Datasets** für das Dataset &gt; Menü öffnen &gt;**Aktualisierung planen** aus.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-2. Wählen Sie unter **Einstellungen für...** &gt;**Aktualisierung planen** die Option **Verlauf aktualisieren** aus.  
+1. In **Einstellungen für...** Option **Verlauf der Datenaktualisierung**.  
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>Ereignisprotokolle
-Es gibt mehrere Ereignisprotokolle, die Informationen liefern können. Die ersten beiden, **Datenverwaltungsgateway** und **PowerBIGateway**, sind vorhanden, wenn Sie der Administrator des Computers sind.  Wenn Sie kein Administrator sind und das Personal Gateway verwenden, werden die Protokolleinträge im Protokoll **Anwendung** angezeigt.
+Mehrere Ereignisprotokolle können Informationen bereitstellen. Die ersten beiden, **Data Management Gateway** und **PowerBIGateway**, vorhanden sind, wenn Sie Administrator auf dem Computer sind.  Wenn Sie kein Administrator noch, und Sie Personal Gateway verwenden, sehen Sie die Protokolleinträge im Protokoll der **Anwendung** Protokoll.
 
 Die Protokolle **Datenverwaltungsgateway** und **PowerBIGateway** befinden sich unter **Anwendungs- und Dienstprotokolle**.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Ablaufverfolgung mit Fiddler
-[Fiddler](http://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann.  Sie können den Datenaustausch zwischen dem Power BI-Dienst und dem Clientcomputer verfolgen. So können Sie Fehler und ähnliche Informationen anzeigen.
+[Fiddler](http://www.telerik.com/fiddler) ist ein kostenloses Tool von Telerik, mit dem HTTP-Verkehr überwacht werden kann. Sie sehen, dass die Kommunikation mit Power BI-Dienst auf dem Clientcomputer. Diese Kommunikation möglicherweise Fehler und andere zugehörige Informationen angezeigt.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
 <a name="SetupLogs"></a>
 
 ### <a name="setup-logs"></a>Setupprotokolle
-Wenn **Personal Gateway** nicht installiert werden kann, wird ein Link zum Anzeigen des Setupprotokolls eingeblendet. Darin können Details zum Fehler enthalten sein. Dies sind Windows-Installationsprotokolle, auch MSI-Protokolle genannt. Sie können recht komplex und schwierig zu lesen sein. Der resultierende Fehler taucht in der Regel unten auf, das Bestimmen der Fehlerursache ist jedoch nicht trivial. Es könnte sich dabei um das Ergebnis von Fehlern in einem anderen Protokoll oder das Ergebnis eines Fehlers weiter oben im Protokoll handeln.
+Wenn die **Personal Gateway**, Fehler bei der Installation, sehen Sie einen Link zum Anzeigen des Setupprotokolls eingeblendet. Der Setup-Protokoll können Sie Details zum Fehler anzeigen. Diese Protokolle sind Windows-Installationsprotokolle, auch bekannt als MSI-Protokolle. Sie können recht komplex und schwierig zu lesen sein. In der Regel wird der resultierende Fehler befindet sich unten, aber das Ermitteln der Ursache des Fehlers ist nicht trivial. Es könnte sich dabei um das Ergebnis von Fehlern in einem anderen Protokoll oder das Ergebnis eines Fehlers weiter oben im Protokoll handeln.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/setup-log.png)
 
-Sie können auch im Ordner **Temp** (%temp%) nach Dateien suchen, die mit **Power\_BI\_** beginnen.
+Oder wechseln Sie zu Ihrem **Ordner "Temp"** (% Temp%) und suchen Sie nach Dateien, die mit beginnen **Power\_BI\_**.
 
 > [!NOTE]
-> Wenn Sie auf „%temp%“ zugreifen, gelangen Sie unter Umständen in einen Unterordner von „temp“.  Die Dateien mit**Power\_BI\_** befinden sich im Stamm des temp-Verzeichnisses.  Sie müssen also ggf. ein oder zwei Ebenen nach oben navigieren.
+> Wenn Sie auf „%temp%“ zugreifen, gelangen Sie unter Umständen in einen Unterordner von „temp“. Die **Power\_BI\_**  Dateien befinden sich im Stammverzeichnis des temp-Verzeichnisses.  Sie müssen also ggf. ein oder zwei Ebenen nach oben navigieren.
 > 
 > 
 
