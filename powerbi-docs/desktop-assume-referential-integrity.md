@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 33e38505111c625c4325a380b62309aea7170736
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274488"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239871"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Einstellungen für „Referenzielle Integrität voraussetzen“ in Power BI Desktop
 Wenn Sie mithilfe von **DirectQuery** eine Verbindung mit einer Datenquelle herstellen, können Sie die Option **Referenzielle Integrität voraussetzen** verwenden, um die Ausführung effizienterer Abfragen der Datenquelle zu ermöglichen. Diese Funktion beinhaltet einige Anforderungen an die zugrunde liegenden Daten und ist nur bei Verwendung von **DirectQuery** verfügbar.

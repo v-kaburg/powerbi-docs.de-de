@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a147a071c4d93150261847e5156848395482aa30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285436"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514175"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Verbinden mit CSV-Dateien in Power BI Desktop
 Das Verbinden mit einer *CSV*-Datei (durch Trennzeichen getrennte Datei) von Power BI Desktop aus hat große Ähnlichkeit mit dem Verbinden mit einer Excel-Arbeitsmappe. Beides ist einfach, und dieser Artikel führt Sie Schritt für Schritt durch das Verbinden mit einer beliebigen CSV-Datei, auf die Sie Zugriff haben.

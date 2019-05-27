@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02ef382ffa4199255612c4ae6c782a55efb2f7ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281940"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239782"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Hinzufügen einer Spalte aus einem Beispiel in Power BI Desktop
 Ab der **Power BI Desktop**-Version vom April 2017 können Sie Ihrem Modell durch Angabe von Beispielwerten über den **Abfrage-Editor** ganz einfach neue Datenspalten hinzufügen. Zur Erstellung eines Beispiels für eine neue Spalte können Sie eine aktuelle Auswahl oder aber eine Eingabe verwenden, die auf allen (oder auf ausgewählten) Spalten in einer bestimmten Tabelle basiert.

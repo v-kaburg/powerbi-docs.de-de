@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225958"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941435"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Beziehungen mit einer m:n-Kardinalität in Power BI Desktop
 
@@ -25,7 +25,7 @@ Mit dem Feature für *Beziehungen mit m:n-Kardinalität* in Power BI Desktop kö
 
 Die Funktion für *Beziehungen mit m:n-Kardinalität* in Power BI Desktop ist eine von drei miteinander in Beziehung stehenden Features:
 
-* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md).
+* **Zusammengesetzte Modelle**: Hierbei kann ein Bericht mindestens zwei Datenverbindungen beinhalten, einschließlich DirectQuery- oder Importverbindungen in beliebiger Kombination. Weitere Informationen finden Sie unter [Verwenden zusammengesetzter Modelle in Power BI Desktop](desktop-composite-models.md).
 
 * **Beziehungen mit einer m:n-Kardinalität:** Mithilfe *zusammengesetzter Modelle* können Sie *Beziehungen mit einer m:n-Kardinalität* zwischen Tabellen einrichten. Bei diesem Ansatz entfallen die Anforderungen für eindeutige Werte in Tabellen. Zudem sind vorherige Problemumgehungen hinfällig, wie z.B. die Einführung neuer Tabellen zum Einrichten von Beziehungen. Im vorliegenden Artikel wird das Feature ausführlich erläutert.
 
@@ -157,7 +157,7 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
+* [Verwenden zusammengesetzter Modelle in Power BI Desktop](desktop-composite-models.md)
 * [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
 * [Verwenden von DirectQuery in Power BI Desktop](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI Desktop unterstützte Datenquellen](desktop-directquery-data-sources.md)

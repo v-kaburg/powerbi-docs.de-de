@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430390"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051347"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper zur Sicherheit in Power BI
 
@@ -46,7 +46,7 @@ Jede Power BI-Bereitstellung umfasst zwei Cluster – ein Web-Front-End (**WFE**
 
 ![Das Web-Front-End und das -Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI verwendet Azure Active Directory (**AAD**) zur Kontoauthentifizierung und -verwaltung. Für den Authentifizierungsvorgang und zum Herunterladen von statischen Inhalten und Dateien verwendet Power BI außerdem den **Azure Traffic Manager (ATM)**, um den Benutzerverkehr an das nächstgelegene Rechenzentrum weiterzuleiten, das durch den DNS-Eintrag des Clients bestimmt wird, der eine Verbindung herstellen möchte. Zudem verwendet Power BI **Azure Content Delivery Network (CDN)** für die effiziente Verteilung der erforderlichen statischen Inhalte und Dateien an Benutzer basierend auf einem Gebietsschema.
+Power BI verwendet Azure Active Directory (**AAD**) zur Kontoauthentifizierung und -verwaltung. Für den Authentifizierungsvorgang und zum Herunterladen von statischen Inhalten und Dateien verwendet Power BI außerdem den **Azure Traffic Manager (ATM)**, um den Benutzerverkehr an das nächstgelegene Rechenzentrum weiterzuleiten, das durch den DNS-Eintrag des Clients bestimmt wird, der eine Verbindung herstellen möchte. Powerbi verwendet dem geografisch am nächsten WFE-Server für die effiziente Verteilung der erforderlichen statischen Inhalte und Dateien an Benutzer, mit Ausnahme von benutzerdefinierten Visuals, die übermittelt werden, mithilfe der **Azure Content Delivery Network (CDN)**.
 
 ### <a name="the-wfe-cluster"></a>Der WFE-Cluster
 
@@ -231,7 +231,7 @@ Bei cloudbasierten Datenquellen verschlüsselt die Datenverschiebungsrolle die V
 
     b. ETL: Die Daten werden i gespeichert. Für alle derzeit im Azure-Blobspeicher in Power BI-Diensts enthaltenen Daten wird die [Speicherdienstverschlüsselung (SSE) von Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) verwendet, die auch als serverseitige Verschlüsselung bekannt ist. Für Multi-Geo wird ebenfalls die SSE verwendet.
 
-    c. Push-Daten v1: Die Daten werden im Azure-Blobspeicher gespeichert. Für alle derzeit im Azure-Blobspeicher des Power BI-Diensts enthaltenen Daten wird die [Speicherdienstverschlüsselung (SSE) von Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) verwendet, die auch als serverseitige Verschlüsselung bekannt ist. Für Multi-Geo wird ebenfalls die SSE verwendet.
+    c. Push-Daten v1: Die Daten werden im Azure-Blobspeicher gespeichert. Für alle derzeit im Azure-Blobspeicher des Power BI-Diensts enthaltenen Daten wird die [Speicherdienstverschlüsselung (SSE) von Azure](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) verwendet, die auch als serverseitige Verschlüsselung bekannt ist. Für Multi-Geo wird ebenfalls die SSE verwendet. Push Daten v1 wurden ab 2016 eingestellt. 
 
     d. Push-Daten v2: werden in Azure SQL gespeichert.
 
@@ -248,22 +248,24 @@ Power BI stellt die Überwachung der Datenintegrität auf folgende Weise zur Ver
 1. Metadaten (Berichtsdefinition)
 
    a. Bei Berichten kann es sich entweder um mit Excel erstellte Office 365-Berichte oder um Power BI-Berichte handeln. Für Metadaten gilt je nach Art von Bericht Folgendes:
+        
+    &ensp; &ensp; a. Excel-Bericht-Metadaten werden in SQL Azure verschlüsselt gespeichert. Metadaten werden auch in Office 365 gespeichert.
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b. Power BI-Berichte werden verschlüsselt in Azure SQL-Datenbank gespeichert.
 
 2. Statische Daten
 
    Statische Daten umfassen Artefakte wie Hintergrundbilder und benutzerdefinierte Visuals.
 
-    a. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten gespeichert.
+    &ensp; &ensp; a. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten gespeichert.
 
-    b. Für Power BI-Berichte werden statische Daten im Azure-Blobspeicher gespeichert und verschlüsselt.
+    &ensp; &ensp; b. Für Power BI-Berichte werden statische Daten im Azure-Blobspeicher gespeichert und verschlüsselt.
 
-3. Caches a. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten zwischengespeichert.
+3. Caches
 
-    b. Für Power BI-Berichte werden die Daten für die angezeigten Visuals verschlüsselt in Azure SQL-Datenbank zwischengespeichert.
+    &ensp; &ensp; a. Für Berichte, die mit Excel für Office 365 erstellt wurden, werden keine Daten zwischengespeichert.
+
+    &ensp; &ensp; b. Für Power BI-Berichte werden die Daten für die angezeigten Visuals verschlüsselt in Azure SQL-Datenbank zwischengespeichert.
  
 
 4. Ursprüngliche Power BI Desktop- (.pbix) oder Excel-Dateien (.xlsx), die in Power BI veröffentlicht werden.
@@ -280,7 +282,7 @@ Microsoft verwaltet die Verschlüsselung der Schlüssel für Kunden unabhängig 
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Vorübergehend auf nichtflüchtigen Speichergeräten gespeicherte Daten
 
-Im Folgenden werden Daten beschrieben, die vorübergehend auf nichtflüchtigen Geräten gespeichert werden.
+Non-Volatile-Geräte sind Geräte, die Arbeitsspeicher verfügen, die ohne Konstante Leistung beibehält. Im Folgenden werden Daten beschrieben, die vorübergehend auf nichtflüchtigen Geräten gespeichert werden. 
 
 #### <a name="datasets"></a>Datasets
 
@@ -293,6 +295,9 @@ Im Folgenden werden Daten beschrieben, die vorübergehend auf nichtflüchtigen G
     a. Analysis Services (lokal): Es werden keine Anmeldeinformationen gespeichert.
 
     b. DirectQuery: dies hängt davon ab, ob das Modell direkt im Dienst erstellt wurde. In diesem Fall wird es im verschlüsselten Format mit dem in Klartext gespeicherten Verschlüsselungsschlüssel (mit den verschlüsselten Informationen) in der Verbindungszeichenfolge gespeichert. Wenn das Modell hingegen aus Power BI Desktop importiert wird, werden die Anmeldeinformationen nicht auf nichtflüchtigen Speichergeräten gespeichert.
+
+    > [!NOTE]
+    > Die Dienstseite Modell Erstellung-Funktion wurden ab 2017 eingestellt.
 
     c. Push-Daten: keine (nicht zulässig)
 
@@ -311,7 +316,7 @@ Zur Überwachung der Datenintegrität von Daten in Verarbeitung nutzt Power BI H
 
 ## <a name="user-authentication-to-data-sources"></a>Benutzerauthentifizierung in Datenquellen
 
-Benutzer stellen mit jeder Datenquelle eine Verbindung basierend auf ihren Anmeldenamen her und greifen mit diesen Anmeldeinformationen auf die Daten zu. Benutzer können dann Abfragen, Dashboards und Berichte basierend auf den zugrunde liegenden Daten erstellen.
+Mit jeder Datenquelle ein Benutzer stellt eine Verbindung, basierend auf seiner Anmeldung her, und greift auf die Daten mit diesen Anmeldeinformationen. Benutzer können dann Abfragen, Dashboards und Berichte basierend auf den zugrunde liegenden Daten erstellen.
 
 Wenn ein Benutzer Abfragen, Dashboards, Berichte oder beliebige Visualisierungen freigibt, hängt der Zugriff auf diese Daten und Visualisierungen davon ab, ob die zugrunde liegenden Datenquellen die rollenbasierte Sicherheit (Role Level Security, RLS) unterstützen.
 
@@ -452,6 +457,12 @@ Im Folgenden finden Sie häufige Sicherheitsfragen und dazugehörige Antworten f
 
 * Ja. Bing-Karten und ESRI-Visuals übermitteln Daten vom Power BI-Dienst nach außen, wenn Visuals diese Dienste nutzen. Weitere Informationen und ausführliche Beschreibungen des Datenverkehrs vom Power BI-Mandanten nach außen finden Sie unter [**Power BI und ExpressRoute**](service-admin-power-bi-expressroute.md).
 
+**Für Apps-Vorlage führt Microsoft alle Sicherheits- und Datenschutzbestimmungen Bewertung der Vorlage app vor dem Veröffentlichen von Elementen im Katalog?**
+* Nein. Herausgeber der app ist verantwortlich für den Inhalt und der Verantwortung des Kunden zu überprüfen und bestimmen, ob die app-Herausgeber Vorlage vertrauen. 
+
+**Gibt es Vorlage-apps, die Informationen, die außerhalb des Netzwerks des Kunden gesendet werden können?**
+* Ja. Es ist der Verantwortung des Kunden überprüfen die Datenschutzrichtlinie des Herausgebers ein, und bestimmen, ob zum Installieren der Vorlage-app für Mandanten. Darüber hinaus ist der Verleger dafür verantwortlich, die von Verhalten und die Funktionen der app zu benachrichtigen.
+
 **Was ist mit Datenhoheit? Können wir Mandanten in Rechenzentren in bestimmten Regionen bereitstellen, um sicherzustellen, dass Daten das Land nicht verlassen?**
 
 * Einige Kunden in bestimmten Regionen haben die Möglichkeit, einen Mandanten in einer nationalen Cloud zu erstellen. Dort finden Datenspeicherung und -verarbeitung von allen anderen Datencentern getrennt statt. In nationalen Clouds wird die Sicherheit anders gewährleistet, da ein separater Datentreuhänder den Power BI-Dienst der nationalen Cloud im Auftrag von Microsoft betreibt.
@@ -481,7 +492,7 @@ Weitere Informationen zu Power BI finden Sie in den folgenden Ressourcen:
 - [Lokales Datengateway](service-gateway-manage.md)
 - [Power BI REST APIs – Overview (Power BI-REST-APIs – Übersicht)](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI REST APIs (Power BI-REST-APIs)](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Lokales Datengateway](service-gateway-manage.md)
+- [On-premises data gateway (Lokales Datengateway)](service-gateway-manage.md)
 - [Power BI und ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Nationale Power BI-Clouds](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

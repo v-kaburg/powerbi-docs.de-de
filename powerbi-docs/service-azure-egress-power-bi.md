@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 528d31a72d2c78b0a00f853d2df82f3a4eb04eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 720ef2f059c3c87be84c3d8db98e89400c161ad0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295331"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514403"
 ---
 # <a name="power-bi-and-azure-egress"></a>Ausgehender Datenverkehr in Power BI und Azure
 
@@ -33,7 +33,7 @@ Wenn Sie Multi-Geo von Power BI Premium verwenden und sich ihr Power BI-Mandant 
 
 Weitere Informationen zu Power BI Premium oder Multi-Geo finden Sie in den folgenden Artikeln:
 
-* [Was ist Microsoft Power BI Premium?](service-premium.md)
+* [Was ist Microsoft Power BI Premium?](service-premium-what-is.md)
 * [Erwerben von Power BI Premium](service-admin-premium-purchase.md)
 * [Multi-Geo-Unterstützung für Power BI Premium (Vorschau)](service-admin-premium-multi-geo.md)
 * [Wo befindet sich mein Power BI-Mandant?](service-admin-where-is-my-tenant-located.md)

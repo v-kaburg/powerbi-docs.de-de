@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279847"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051155"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Leitfaden zum Bereitstellen eines Datengateways für Power BI
 
@@ -42,7 +42,7 @@ Es existiert eine Einschränkung in **Power BI**, die nur *ein* Gateway pro *Ber
 ### <a name="connection-type"></a>Verbindungstyp
 **Power BI** bietet zwei Arten von Verbindungen: **DirectQuery** und **Import**. Nicht alle Datenquellen unterstützen beide Verbindungstypen, und viele verschiedene Gründe tragen möglicherweise dazu bei, dass jeweils ein Typ bevorzugt wird, z.B. Sicherheitsanforderungen, Leistung, Datenlimits und Datenmodellgrößen. Weitere Informationen zum Verbindungstyp und unterstützten Datenquellen finden Sie in der *Liste der verfügbaren Datenquellentypen* im Artikel [Lokales Datengateway](service-gateway-onprem.md).
 
-Je nachdem, welcher Verbindungstyp verwendet wird, kann die Netzwerkgateway-Verwendung variieren. Sie sollten beispielsweise versuchen, wenn möglich **DirectQuery**-Datenquellen von **ScheduledRefresh**-Datenquellen zu trennen (vorausgesetzt, sie befinden sich in unterschiedlichen Berichten und können getrennt werden). Dadurch wird verhindert, dass sich im Gateway tausende DirectQuery-Anforderungen in der Warteschlange befinden, wenn gleichzeitig die morgendlich geplante Aktualisierung eines großen Datenmodells stattfindet,das für das Hauptdashboard des Unternehmens verwendet wird. Berücksichtigen Sie deshalb Folgendes:
+Je nachdem, welche Art von Verbindung verwendet wird kann die Auslastung des Gateways unterschiedlich sein. Sie sollten beispielsweise versuchen, wenn möglich **DirectQuery**-Datenquellen von **ScheduledRefresh**-Datenquellen zu trennen (vorausgesetzt, sie befinden sich in unterschiedlichen Berichten und können getrennt werden). Auf diese Weise wird verhindert, dass das Gateway Tausende **DirectQuery** Anforderungen in einer Warteschlange und gleichzeitig die morgendlich geplante Aktualisierung eines großen Datenmodells, die für das Hauptdashboard des Unternehmens verwendet wird. Berücksichtigen Sie deshalb Folgendes:
 
 * Für die **geplante Aktualisierung**: Je nach Abfragegröße und Anzahl der pro Tag auftretenden Aktualisierungen können Sie sich zwischen den empfohlenen Mindestanforderungen für die Hardware und das Upgrade auf einen Computer mit höherer Leistung entscheiden. Wenn eine bestimmte Abfrage nicht reduziert ist, treten Transformationen auf dem Gatewaycomputer auf, und daher profitiert der Gatewaycomputer von mehr verfügbarem RAM.
 * Für **DirectQuery**: Jedes Mal, wenn ein Benutzer den Bericht öffnet oder Daten ansieht, wird eine Abfrage gesendet. Wenn also mehr als 1.000 Benutzer gleichzeitig auf die Daten zugreifen, müssen Sie sicherstellen, dass Ihr Computer über robuste und leistungsfähige Hardwarekomponenten verfügt. Mehr CPU-Kerne führen zu einem besseren Durchsatz für eine **DirectQuery**-Verbindung.

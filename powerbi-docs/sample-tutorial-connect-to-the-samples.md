@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275546"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625078"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Herstellen einer Verbindung mit Beispielen im Power BI-Dienst
 
@@ -78,7 +78,7 @@ Untersuchen Sie jetzt selbstständig das Dashboard, das Dataset und den Bericht.
     ![Berichtseite mit dem entsprechenden hervorgehobenen Visual](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Wenn die Kachel mit [Power BI Q&A](consumer/end-user-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet. Wenn die Kachel [aus Excel angeheftet](service-dashboard-pin-tile-from-excel.md) wurde, wird Excel Online in Power BI geöffnet.
+   > Wenn die Kachel mit [Power BI Q&A](power-bi-tutorial-q-and-a.md) erstellt wird, wird stattdessen die Seite „Q&A“ geöffnet. Wenn die Kachel [aus Excel angeheftet](service-dashboard-pin-tile-from-excel.md) wurde, wird Excel Online in Power BI geöffnet.
    > 
    > 
 1. Auf der Registerkarte **Datasets** haben Sie mehrere Möglichkeiten, das Dataset zu untersuchen.  Sie können es nicht öffnen und alle Zeilen und Spalten anzeigen (wie dies in Power BI Desktop oder in Excel möglich ist).  Wenn eine Person ein Inhaltspaket für Kollegen freigibt, möchte diese Person normalerweise die Informationen freigeben, ihren Kollegen jedoch keinen direkten Zugriff auf die Daten gewähren. Dies bedeutet jedoch nicht, dass Sie das Dataset nicht erkunden können.  
@@ -129,11 +129,9 @@ Erkunden Sie das Dashboard, die Beziehungen und den Bericht jetzt selbst. Hilfe 
 
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
 
-[Beispiele für den Power BI-Dienst](sample-datasets.md)
-
-[Datenquellen für Power BI](service-get-data.md)
+- [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+- [Beispiele für den Power BI-Dienst](sample-datasets.md)
+- [Datenquellen für Power BI](service-get-data.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
-

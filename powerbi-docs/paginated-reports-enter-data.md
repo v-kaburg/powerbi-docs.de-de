@@ -1,7 +1,7 @@
 ---
 title: Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie im Berichts-Generator Daten direkt in paginierte Berichte eingeben können.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424470"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Direktes Eingeben von Daten in paginierte Berichte im Berichts-Generator (Vorschau): Power BI
 
@@ -23,7 +23,7 @@ In diesem Artikel erhalten Sie Informationen zu einem Feature in der neuen Versi
 ## <a name="prerequisites"></a>Voraussetzungen
 
 - Wenn Sie Daten direkt in einen paginierten Bericht eingeben möchten, installieren Sie die neue Version des [Berichts-Generators über das Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Zum Speichern Ihres paginierten Berichts im Power BI-Dienst benötigen Sie ein [Konto für Power BI Pro](service-self-service-signup-for-power-bi.md) und Schreibzugriff auf einen Arbeitsbereich in einer [Power BI Premium-Kapazität](service-premium.md).
+- Zum Speichern Ihres paginierten Berichts im Power BI-Dienst benötigen Sie ein [Konto für Power BI Pro](service-self-service-signup-for-power-bi.md) und Schreibzugriff auf einen Arbeitsbereich in einer [Power BI Premium-Kapazität](service-premium-what-is.md).
 - Zum Speichern Ihres paginierten Berichts im Berichtsserver benötigen Sie Berechtigungen zum [Bearbeiten der RsReportServer.config-Datei](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Erste Schritte
