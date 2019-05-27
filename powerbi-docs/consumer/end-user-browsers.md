@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b97d2b44e6751f9185b02afc61ca89296fbbd5cf
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661627"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608281"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Unterstützte Browser für Power BI
 Power BI wird in den folgenden Browsern ausgeführt:
@@ -30,7 +30,6 @@ Power BI wird in den folgenden Browsern ausgeführt:
 Diese Browser werden auf allen Plattformen unterstützt, für die sie verfügbar sind.
 
 ### <a name="next-steps"></a>Nächste Schritte
-* [Was ist Power BI?](../power-bi-overview.md)
 * Stellen Sie Ihre Frage in der [Power BI-Community](http://community.powerbi.com/).
 * Treten weiterhin Probleme auf? Weitere Informationen finden Sie auf der [Supportseite für Power BI](https://powerbi.microsoft.com/support/).
 

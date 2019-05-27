@@ -1,20 +1,21 @@
 ---
 title: Dienstprinzipal in Power BI
 description: Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory über einen Dienstprinzipal registrieren können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872545"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710518"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
 
@@ -177,6 +178,6 @@ Unten sehen Sie ein Beispielskript, mit dem Sie die Objekt-ID des Dienstprinzipa
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Registrieren einer App](register-app.md)
-* [Power BI Embedded für Ihre Kunden](embed-sample-for-customers.md)
+* [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md)
+* [Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden](embed-sample-for-customers.md)
 * [Anwendungs- und Dienstprinzipalobjekte in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
