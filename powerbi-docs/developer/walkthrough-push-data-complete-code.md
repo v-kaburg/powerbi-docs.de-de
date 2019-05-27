@@ -1,20 +1,20 @@
 ---
 title: Vollständige Codeliste
 description: Exemplarische Vorgehensweise zum Übertragen von Daten per Push – vollständige Codeliste
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762235"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710290"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Übertragen von Daten in ein Dataset per Push – vollständiger Code
 
@@ -24,6 +24,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
 
 ## <a name="push-data-to-dataset-code"></a>Übertragen von Daten in ein Dataset per Push – Code
 
+```csharp
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -71,7 +72,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
                   string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                   //OAuth2 authority Uri
-                  string authorityUri = "https://login.microsoftonline.net/common/";
+                  string authorityUri = "https://login.microsoftonline.com/common/";
 
                   //Get access token:
                   // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
@@ -220,6 +221,7 @@ Nachdem Sie die Schritte 2 bis 5 unter **Übertragen von Daten in ein Dataset pe
               #endregion
           }
       }
+```
 
 ## <a name="next-steps"></a>Nächste Schritte
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b68cbafd3572100d5983eb8b17f07464d39baf3f
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217066"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514741"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Herstellen einer Verbindung zu mehrdimensionalen SSAS-Modellen in Power BI Desktop
 Mit Power BI Desktop können Sie auf **mehrdimensionale SSAS-Modelle**(häufig als **SSAS MD**bezeichnet) zugreifen.
@@ -36,7 +36,7 @@ Die folgende Tabelle beschreibt die Beziehungen zwischen mehrdimensionalen Objek
 | --- | --- |
 | Cube |Modell |
 | Cubedimension |Tabelle |
-| Dimensionsattribute (Schlüssel), Name |Spalten |
+| Dimensionsattribute (Schlüssel), Name |entfernen |
 | Measuregruppe |Tabelle |
 | Measure |Measure |
 | Measures ohne zugeordnete Measuregruppe |Innerhalb einer Tabelle mit dem Namen *Measures* |

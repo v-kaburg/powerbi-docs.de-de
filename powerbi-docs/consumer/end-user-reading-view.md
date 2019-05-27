@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280119"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608263"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Schnellstart: Informationen zu Funktionen für ***Benutzer*** in Power BI
 In dieser Schnellstartanleitung erfahren Sie, wie Sie mit Power BI interagieren können, um nach datengesteuerten Geschäftsinformationen zu suchen. Dieser Artikel bietet keinen detaillierten Einblick, sondern vielmehr einen groben Überblick über eine Vielzahl der verfügbaren Aktionen für **Benutzer** in Power BI.
 
 Wenn Sie noch nicht bei Power BI registriert sind, müssen Sie sich zuerst für eine [kostenlose Testversion registrieren](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Voraussetzungen
-- Power BI-Dienst (app.powerbi.com) <!-- app from AppSource -->
+- Power BI service (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>Leseansicht
 Die Leseansicht ist im Power BI-Dienst für *Benutzer* von Berichten verfügbar. Wenn ein Kollege einen Bericht mit Ihnen teilt, können Sie diesen in der Leseansicht untersuchen und mit ihm interagieren. 
@@ -185,7 +186,7 @@ Eine Power BI-Visualisierung wird mithilfe von Daten aus zugrunde liegenden Data
 1. Öffnen Sie im Power BI-Dienst einen Bericht, und wählen Sie ein visuelles Element aus.  
 2. Um die Daten hinter dem visuellen Element anzuzeigen, klicken Sie auf die Auslassungspunkte (...) und dann auf **Daten anzeigen**.
    
-   ![Daten anzeigen auswählen](./media/end-user-show-data/power-bi-show-data2.png)
+   ![Daten anzeigen auswählen](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 Das war ein kurzer Überblick einiger der Aktionen, die für **Benutzer** im Power BI-Dienst verfügbar sind.  
 
