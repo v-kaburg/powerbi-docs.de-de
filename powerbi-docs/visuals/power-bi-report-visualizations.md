@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292865"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375668"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisierungen in Power BI-Berichten
 
 Visualisierungen (auch als Visuals bezeichnet) zeigen Erkenntnisse an, die in den Daten ermittelt wurden. Ein Power BI-Bericht kann eine einzelne Seite mit einem Visual oder mehrere mit Visuals gefüllte Seiten enthalten. Im Power BI-Dienst können Visuals [aus Berichten an Dashboards angeheftet](../service-dashboard-pin-tile-from-report.md) sein.
 
-Es ist wichtig, zwischen *Erstellern* und *Nutzern* von Berichten zu unterscheiden. Wenn Sie die Person sind, die den Bericht erstellt oder ändert, sind Sie ein Ersteller.  Ersteller verfügen über Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset. In Power BI Desktop bedeutet dies, dass Sie das Dataset in der Datensicht öffnen und in der Berichtsansicht Visuals erstellen können. Im Power BI-Dienst bedeutet dies, dass Sie das Dataset oder den Bericht im Berichts-Editor in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md) öffnen können. Wenn ein Bericht oder Dashboard [für Sie freigegeben](../consumer/end-user-shared-with-me.md) wurde, sind Sie ein **Nutzer** des Berichts. Sie können den Bericht und seine Visuals anzeigen und mit ihnen interagieren, jedoch keine Änderungen speichern.
+Es ist wichtig, den Unterschied zwischen einem *Designer* und *Consumer* Wenn die Person sind, erstellen oder ändern den Bericht, sind Sie mit einem Designer.  Designer über Bearbeitungsberechtigungen für den Bericht und das zugrunde liegende Dataset verfügen. In Power BI Desktop bedeutet dies, dass Sie das Dataset in der Datensicht öffnen und in der Berichtsansicht Visuals erstellen können. In Power BI-Dienst bedeutet dies können Sie das Dataset oder den Bericht in Berichts-Editor in öffnen [Bearbeitungsansicht](../consumer/end-user-reading-view.md). Wenn ein Bericht oder Dashboard [für Sie freigegeben](../consumer/end-user-shared-with-me.md) wurde, sind Sie ein **Nutzer** des Berichts. Zum Anzeigen und interagieren mit dem Bericht und seine Visuals können jedoch nicht möglich, wichtige Änderungen zu speichern.
 
 Im Power BI-Bereich „VISUALISIERUNGEN“ stehen viele verschiedene Visualtypen zur Verfügung.
 
@@ -50,6 +50,11 @@ Versuchen Sie [den Visualisierungstyp zu ändern](power-bi-report-change-visuali
 ## <a name="pin-the-visualization"></a>Anheften der Visualisierung
 
 Wenn die Visualisierung Ihren Wünschen entspricht, können Sie sie im Power BI-Dienst als Kachel an ein [Dashboard anheften](../service-dashboard-pin-tile-from-report.md). Wenn Sie die im Bericht verwendete Visualisierung ändern, nachdem Sie sie angeheftet haben, wird die Kachel im Dashboard nicht geändert. Wenn die Visualisierung ein Liniendiagramm war, bleibt sie ein Liniendiagramm, selbst wenn Sie sie im Bericht in ein Ringdiagramm geändert haben.
+
+## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
+- Abhängig von der Datenquelle und die Anzahl von Feldern (Measures oder Spalten) kann ein visuelles langsam geladen werden.  Es wird empfohlen, Visuals auf insgesamt 10 bis 20-Felder, beide Gründen der Lesbarkeit und Leistung zu beschränken. 
+
+- Der obere Grenzwert für die visuellen Elemente ist 100 Feldern (Measures oder Spalten). Wenn Ihre Visualisierung nicht laden, reduzieren Sie die Anzahl der Felder an.   
 
 ## <a name="next-steps"></a>Nächste Schritte
 

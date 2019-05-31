@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514535"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Erstellen von berechneten Spalten in Power BI Desktop
@@ -44,7 +44,7 @@ Angenommen, Sie möchten im Verkaufsbericht Produktkategorien und Unterkategorie
     
     ![Bearbeitungsleiste](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  Der Standardname für eine neue berechnete Spalte lautet „Spalte“. Wenn Sie diese nicht umbenennen, werden weitere neue Spalten „Spalte 2“, „Spalte 3“ usw. benannt. Wenn Sie die Spalte eindeutiger bezeichnen möchten, geben Sie für die bereits markierte **Spalte** in der Bearbeitungsleiste den Namen **ProductFullCategory** und anschließend ein Gleichheitszeichen (**=**) ein.
+2.  Der Standardname für eine neue berechnete Spalte lautet „Spalte“. Wenn Sie diese nicht umbenennen, werden weitere neue Spalten „Spalte 2“, „Spalte 3“ usw. benannt. Wenn Sie die Spalte eindeutiger bezeichnen möchten, geben Sie für die bereits markierte **Spalte** in der Bearbeitungsleiste den Namen **ProductFullCategory** und anschließend ein Gleichheitszeichen ( **=** ) ein.
     
 3.  Die Werte in der neuen Spalte sollen mit dem ProductCategory-Namen beginnen. Da sich diese Spalte in einer anderen, aber verknüpften Tabelle befindet, können Sie die Funktion [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) zum Abrufen der Spalte verwenden.
     
@@ -56,19 +56,19 @@ Angenommen, Sie möchten im Verkaufsbericht Produktkategorien und Unterkategorie
     
     ![Auswählen von „ProductCategory“](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-4.  Sie möchten nur die Spalte **ProductCategory** in der Tabelle **ProductCategory**. Klicken Sie auf **ProductCategory[ProductCategory]**, drücken Sie die **EINGABETASTE**, und geben Sie dann eine schließende Klammer ein.
+4.  Sie möchten nur die Spalte **ProductCategory** in der Tabelle **ProductCategory**. Klicken Sie auf **ProductCategory[ProductCategory]** , drücken Sie die **EINGABETASTE**, und geben Sie dann eine schließende Klammer ein.
     
     > [!TIP]
     > Syntaxfehler werden meistens durch eine fehlende oder falsch platzierte schließende Klammer verursacht. In manchen Fällen wird sie jedoch auch von Power BI Desktop hinzugefügt.
     
-4. Damit in den neuen Werten „ProductCategories“ und „ProductSubcategories“ durch Bindestriche und Leerzeichen voneinander getrennt werden, geben Sie hinter der schließenden Klammer des ersten Ausdrucks ein Leerzeichen, ein kaufmännisches Und-Zeichen (**&**), ein doppeltes Anführungszeichen (**"**), ein weiteres Leerzeichen, einen Bindestrich (**-**), ein weiteres Leerzeichen, ein weiteres doppeltes Anführungszeichen sowie ein weiteres kaufmännisches Und-Zeichen ein. Die Formel sollte nun wie folgt aussehen:
+4. Damit in den neuen Werten „ProductCategories“ und „ProductSubcategories“ durch Bindestriche und Leerzeichen voneinander getrennt werden, geben Sie hinter der schließenden Klammer des ersten Ausdrucks ein Leerzeichen, ein kaufmännisches Und-Zeichen ( **&** ), ein doppeltes Anführungszeichen ( **"** ), ein weiteres Leerzeichen, einen Bindestrich ( **-** ), ein weiteres Leerzeichen, ein weiteres doppeltes Anführungszeichen sowie ein weiteres kaufmännisches Und-Zeichen ein. Die Formel sollte nun wie folgt aussehen:
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > Klicken Sie für mehr Platz auf der rechten Seite der Bearbeitungsleiste auf das Erweiterungssymbol (den nach unten gerichteten Winkel), um den Formel-Editor zu erweitern. Drücken Sie im Editor auf **ALT+EINGABETASTE**, um eine Zeile nach unten zu springen, und die **TAB-TASTE** zum Verschieben.
     
-5.  Geben Sie eine öffnende eckige Klammer (**[**) ein, und wählen Sie dann die Spalte **[ProductSubcategory]** aus, um die Formel fertigzustellen. 
+5.  Geben Sie eine öffnende eckige Klammer ( **[** ) ein, und wählen Sie dann die Spalte **[ProductSubcategory]** aus, um die Formel fertigzustellen. 
     
     ![Auswählen von „ProductSubcategory“](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -110,11 +110,11 @@ Die Tabelle „Stores“ besitzt glücklicherweise eine Spalte namens **Status**
     
     ![Auswählen von „Status“](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  Geben Sie direkt hinter **[Status]** den Wert **="On"** ein. Geben Sie anschließend zum Beenden des Arguments ein Komma (**,**) ein. In der QuickInfo wird vorgeschlagen, dass Sie nun einen Wert hinzufügen, der für das Ergebnis „TRUE“ zurückgibt.
+4.  Geben Sie direkt hinter **[Status]** den Wert **="On"** ein. Geben Sie anschließend zum Beenden des Arguments ein Komma ( **,** ) ein. In der QuickInfo wird vorgeschlagen, dass Sie nun einen Wert hinzufügen, der für das Ergebnis „TRUE“ zurückgibt.
     
     ![Wert für „TRUE“ hinzufügen](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-5.  Wenn der Status des Geschäfts „On“ lautet, soll der Name des Geschäfts angezeigt werden. Geben Sie eine öffnende eckige Klammer (**[**) ein, wählen Sie die Spalte **[StoreName]** aus, und geben Sie dann ein weiteres Komma ein. In der QuickInfo wird nun vorgeschlagen, dass Sie einen Wert hinzufügen, der für das Ergebnis „FALSE“ zurückgegeben wird. 
+5.  Wenn der Status des Geschäfts „On“ lautet, soll der Name des Geschäfts angezeigt werden. Geben Sie eine öffnende eckige Klammer ( **[** ) ein, wählen Sie die Spalte **[StoreName]** aus, und geben Sie dann ein weiteres Komma ein. In der QuickInfo wird nun vorgeschlagen, dass Sie einen Wert hinzufügen, der für das Ergebnis „FALSE“ zurückgegeben wird. 
     
     ![Wert für „FALSE“ hinzufügen](media/desktop-tutorial-create-calculated-columns/if4.png)
     

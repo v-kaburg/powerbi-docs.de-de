@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283114"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375173"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Verwenden der Drillthroughfunktion in Power BI Desktop
 Mit einem **Drillthrough** können Sie in **Power BI Desktop** in Ihrem Bericht eine Seite erstellen, die sich auf eine bestimmte Entität konzentriert, z.B. auf einen Lieferanten, einen Kunden oder einen Hersteller. Benutzer können mit der rechten Maustaste auf einen Datenpunkt in anderen Berichtsseiten klicken. Dann können sie einen Drillthrough für die fokussierte Seite ausführen, um Details abzurufen, die in diesem Kontext gefiltert werden.
@@ -81,5 +81,6 @@ Das ist bereits alles, was Sie über das Verwenden der **Drillthroughfunktion** 
 
 Folgende Artikel könnten Sie ebenfalls interessieren:
 
-* [Verwenden von Slicern in Power BI Desktop](visuals/desktop-slicers.md)
+* [Verwenden von Cross-Report-Drillthrough im Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Verwenden von Slicern in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

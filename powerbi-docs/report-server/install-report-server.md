@@ -1,30 +1,32 @@
 ---
 title: Installieren von Power BI-Berichtsserver
 description: Erfahren Sie, wie Power BI-Berichtsserver installiert wird.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014436"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187729"
 ---
 # <a name="install-power-bi-report-server"></a>Installieren von Power BI-Berichtsserver
 
 Erfahren Sie, wie Power BI-Berichtsserver installiert wird.
 
- **Herunterladen** ![herunterladen](media/install-report-server/download.png "herunterladen")
+## <a name="download-power-bi-report-server"></a>Power BI-Berichtsserver herunterladen
 
-Um Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/), und klicken Sie auf **Kostenlose Testversion herunterladen**. 
+[Herunterladen von Power BI-Berichtsserver](https://www.microsoft.com/download/details.aspx?id=56722) aus dem Microsoft Download Center.
 
-## <a name="before-you-begin"></a>Vorbereitung
+Es ist auch eine kostenlose Testversion. Auf der [lokale berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/) Seite **kostenlose Testversion herunterladen**.
+
+## <a name="before-you-install"></a>Vor der Installation
 
 Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [Hardware- und Softwareanforderungen für die Installation von Power BI-Berichtsserver](system-requirements.md) lesen.
 
@@ -32,6 +34,13 @@ Vor der Installation von Power BI-Berichtsserver wird empfohlen, dass Sie die [H
  > Während Sie den Power BI-Berichtsserver in einer Umgebung mit schreibgeschütztem Domänencontroller (RODC) installieren können, benötigt der Power BI-Berichtsserver Zugang zu einem Domänencontroller mit Lese-/Schreibzugriff, um wie vorgesehen zu funktionieren. Wenn der Power BI-Berichtsserver nur Zugang zu einem RODC hat, treten beim Verwalten des Diensts möglicherweise Fehlermeldungen auf.
 
 ### <a name="power-bi-report-server-product-key"></a>Product Key für den Power BI-Berichtsserver
+
+Sie können den Product Key für Power BI-Berichtsserver aus zwei verschiedenen Quellen abrufen:
+
+- Power BI Premium
+- SQL Server Enterprise Software Assurance (SA)
+
+Erhalten Sie ausführliche.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ Zum Zeitpunkt der Installation ist kein Server mit der SQL Server-Datenbank-Engi
 
     ![Edition 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    Andernfalls können Sie für den Server einen Product Key eingeben, den Sie entweder im Power BI-Dienst oder im Volume License Service Center abgerufen haben. Weitere Informationen zum Abrufen Ihres Product Keys finden Sie im Abschnitt [Vorbereitende Schritte](#before-you-begin).
-4. Lesen und akzeptieren Sie die Lizenzbedingungen, und klicken Sie dann auf **Weiter**.
+    Andernfalls geben Sie den Product Key ein, dem Sie entweder aus dem Power BI-Dienst oder das Volume Licensing Service Center abgerufen haben. Weitere Informationen dazu, wie Sie Ihren Product Key zu erhalten, finden Sie die [vor der Installation](#before-you-install) weiter oben.
+4. Gelesen und stimme den Lizenzbedingungen und die Bedingungen, und wählen Sie dann **Weiter**.
 
     ![Lizenzbedingungen](media/install-report-server/pbireportserver-eula.png)
 5. Es muss eine Datenbank-Engine zum Speichern der Berichtsserver-Datenbank zur Verfügung stehen. Klicken Sie auf **Weiter**, um nur den Berichtsserver zu installieren.
@@ -83,7 +92,7 @@ Zum Zeitpunkt der Installation ist kein Server mit der SQL Server-Datenbank-Engi
 
     ![Konfigurieren des Berichtsservers](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>Konfigurieren des Berichtsservers
+## <a name="configure-your-report-server"></a>Konfigurieren Sie Ihres Berichtsservers
 
 Nach Auswahl von **Berichtsserver konfigurieren** beim Setup wird der Konfigurations-Manager für Reporting Services angezeigt. Weitere Informationen finden Sie unter [Konfigurations-Manager für Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 

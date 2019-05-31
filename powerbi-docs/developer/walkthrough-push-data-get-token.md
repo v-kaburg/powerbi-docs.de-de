@@ -1,20 +1,20 @@
 ---
 title: Abrufen eines Authentifizierungszugriffstokens
 description: Exemplarische Vorgehensweise zum Übertragen von Daten per Push – Abrufen eines Authentifizierungszugriffstokens
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216560"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710359"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Schritt 2: Abrufen eines Authentifizierungszugriffstokens
 
@@ -27,13 +27,11 @@ Nachstehend wird das Abrufen eines Authentifizierungszugriffstokens erläutert.
 ## <a name="get-an-authentication-access-token"></a>Abrufen eines Authentifizierungszugriffstokens
 
 > **HINWEIS**: Wichtig ist, dass Sie zuvor die vorangegangenen Schritte der exemplarischen Vorgehensweise [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md) ausgeführt haben.
-> 
-> 
 
-1. Erstellen Sie in Visual Studio 2015 ein Projekt des Typs **Konsolenanwendung** .
-2. Installieren Sie das [NuGet-Paket mit der Azure AD-Authentifizierungsbibliothek für .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Verwenden Sie dieses Paket, um ein Authentifizierungssicherheitstoken in einer .NET-App abzurufen. Das Paket wird so installiert:
+1. Erstellen Sie in Visual Studio (2015 oder höher), eine **Konsolenanwendung** Projekt.
+2. Installieren Sie das [NuGet-Paket mit der Azure AD-Authentifizierungsbibliothek für .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Verwenden Sie dieses Paket, um ein Authentifizierungssicherheitstoken in einer .NET-App abzurufen. Das Paket wird so installiert:
 
-     a. Wählen Sie in Visual Studio 2015 **Tools** > **NuGet-Paket-Manager** > **Paket-Manager-Konsole**.
+     a. Wählen Sie in Visual Studio (2015 oder höher) **Tools** > **NuGet Package Manager** >  **-Paket-Manager-Konsole**.
 
      b. Geben Sie der **Paket-Manager-Konsole**„Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory-Version 2.21.301221612“ ein.
 3. Fügen Sie den folgenden Code „class Program {...}“ hinzu.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

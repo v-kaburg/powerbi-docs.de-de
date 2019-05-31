@@ -7,25 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273085"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375238"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Verwenden des Power BI-Diensts oder von Power BI Desktop zum Erstellen einer benutzerdefinierten Antwortseite für Cortana
 Verwenden Sie sämtliche Funktionen von Power BI zum Erstellen von speziellen Berichtsseiten, die als *Cortana-Antwortseiten* (und gelegentlich als *Cortana-Antwortkarten*) bezeichnet werden und zur Beantwortung von Cortana-Fragen entworfen wurden.
 
-![](media/service-cortana-answer-cards/power-bi-cortana.png)
-
 > [!IMPORTANT]
-> Wenn Sie die Vorschauversion für Cortana und Power BI-**Dashboards** testen, müssen Sie den Rest dieses Artikels nicht lesen. Es gelten keine Setupanforderungen, damit Cortana Ihre Power BI-Dashboards durchsuchen kann.
-> 
-> 
+> Cortana-Integration ist in Power BI veraltet. Gestartet am 11. Juni, funktioniert Cortana nicht mehr für alle Dashboards und Berichte.
+
+![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 ## <a name="before-you-begin"></a>Vorbereitung
 Insgesamt gibt es vier Dokumente, in denen Sie ausführliche Anweisungen zum Einrichten und Verwenden von Cortana für Power BI erhalten. Sofern nicht bereits geschehen, lesen Sie zuerst Artikel 1. Artikel 2 ist besonders wichtig, denn darin werden einige Schritte beschrieben, die Sie ausführen müssen, ehe Sie Cortana-Antwortseiten verwenden können.

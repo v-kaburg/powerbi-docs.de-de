@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 05/09/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290455"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65533601"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Verwenden zusammengesetzter Modelle in Power BI Desktop
 
-Wenn Sie bislang in Power BI Desktop DirectQuery in einem Bericht verwendet haben, waren keine anderen &mdash;Datenverbindungen&mdash; für diesen Bericht zulässig, ganz gleich, ob es sich um DirectQuery- oder Importdatenverbindungen handelte. Bei zusammengesetzten Modellen ist diese Einschränkung hinfällig. Ein Bericht kann problemlos mehrere DirectQuery- oder Importdatenverbindungen in einer beliebigen Kombination derselbigen umfassen.
+Zuvor in Power BI Desktop, bei der Verwendung einer DirectQuery in einem Bericht keine andere datenverbindungen - DirectQuery oder Import - wurden Zulässigkeit für diesen Bericht. Bei zusammengesetzten Modellen ist diese Einschränkung hinfällig. Ein Bericht kann problemlos mehrere DirectQuery- oder Importdatenverbindungen in einer beliebigen Kombination derselbigen umfassen.
 
 ![Zusammengesetzte Modelle in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Mithilfe zusammengesetzter Modelle können Sie eine Verbindung mit einer Vielzah
 * Durch das Importieren von Daten in Power BI, was den einfachsten Weg darstellt, Daten abzurufen
 * Durch die direkte Verbindung mit Daten im ursprünglichen Quellrepository über DirectQuery. Weitere Informationen zu DirectQuery finden Sie unter [Verwenden von DirectQuery mit Power BI](desktop-directquery-about.md).
 
-Bei Verwendung von DirectQuery mit *zusammengesetzten Modellen* ist es möglich, ein Power BI-Modell (z.B. eine einzelne Power BI Desktop-Datei im *PBIX*-Format) für folgende Zwecke zu erstellen:
+Bei der Verwendung von DirectQuery *zusammengesetzten Modelle* können sie ein Power BI-Modell zu erstellen (z. B. ein einzelnes *pbix* Power BI Desktop-Datei), das ist eine oder beide der folgenden:
 
 * Kombinieren von Daten aus mindestens einer DirectQuery-Quelle
 * Kombinieren von Daten aus DirectQuery-Quellen und Importdaten
@@ -52,8 +52,6 @@ Wenn Sie z.B. zusammengesetzte Modelle verwenden, können Sie ein Modell erstell
 
 Ein Modell, bei dem Daten aus mehr als einer DirectQuery-Quelle kombiniert werden oder bei dem DirectQuery mit importierten Daten kombiniert wird, wird als *zusammengesetztes Modell* bezeichnet.
 
-> [!NOTE]
-> Ab dem Oktober 2018-Release von Power BI Desktop *können* Sie zusammengesetzte Modelle im Power BI-Dienst veröffentlichen. Bei geplanten Aktualisierungen und Aktualisierungen von Dashboardkacheln verhalten sich zusammengesetzte Modelle im Power BI-Dienst auf dieselbe Weise wie Importmodelle. 
 
 Sie können wie gewohnt Beziehungen zwischen Tabellen erstellen, auch wenn diese Tabellen von verschiedenen Quellen stammen. Hierbei gilt jedoch eine Einschränkung: Beziehungen, die sich über mehrere Quellen erstrecken, müssen so definiert werden, dass sie die Kardinalität *m:n* aufweisen, unabhängig von der tatsächlichen Kardinalität. Das Verhalten solcher Beziehungen entspricht dann dem normalen Verhalten für *m:n*-Beziehungen, wie unter [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md) beschrieben wird. 
 
@@ -102,7 +100,7 @@ Nun können wir Visuals erstellen, indem wir ein beliebiges Feld der Liste **Fie
 
 ![Bereich „Felder“](media/desktop-composite-models/composite-models_11.png)
 
-Im folgenden Beispiel wird ein häufiges Szenario einer *Dimensionstabelle* dargestellt, z.B. das *Produkt* oder der *Kunde*, das bzw. der mit einigen zusätzlichen Daten erweitert wird, die aus einer anderen Quelle stammen. Es ist ebenso möglich, dass Tabellen DirectQuery verwenden, um eine Verbindung zu verschiedenen Quellen herzustellen. Stellen Sie sich für unser Beispiel zudem vor, dass *SalesTargets* nach *Country* und *Period* in einer separaten Abteilungsdatenbank gespeichert werden würden. Mit *GetData* können Sie wie gewohnt eine Verbindung mit diesen Daten herstellen, wie in der folgenden Abbildung dargestellt wird. 
+Das folgende Beispiel zeigt ein häufiges Szenario eine *Dimension* Tabelle – z. B. *Produkt* oder *Kunden* –, wird erweitert, mit einigen zusätzlichen Daten, die an anderer Stelle importiert. Es ist ebenso möglich, dass Tabellen DirectQuery verwenden, um eine Verbindung zu verschiedenen Quellen herzustellen. Stellen Sie sich für unser Beispiel zudem vor, dass *SalesTargets* nach *Country* und *Period* in einer separaten Abteilungsdatenbank gespeichert werden würden. Mit *GetData* können Sie wie gewohnt eine Verbindung mit diesen Daten herstellen, wie in der folgenden Abbildung dargestellt wird. 
 
 ![Das Navigator-Fenster](media/desktop-composite-models/composite-models_12.png)
 
@@ -154,7 +152,7 @@ Aus ähnlichen Gründen müssen Sicherheitsvorkehrungen getroffen werden, wenn e
 
 Bei der Verwendung von DirectQuery sollte stets die Leistung berücksichtigt werden, und zwar in erster Linie, um sicherzustellen, dass die Back-End-Quelle genügend Ressourcen aufweist, um ein zufriedenstellendes Benutzererlebnis bereitzustellen. Das bedeutet, dass sich die Visuals in weniger als fünf Sekunden aktualisieren. Zudem sollten Sie den Hinweis hinsichtlich der Leistung im Artikel [Verwendung von DirectQuery in Power BI](desktop-directquery-about.md) berücksichtigen. 
 
-Das Verwenden von zusammengesetzten Modelle bringt weitere Punkte hinsichtlich der Leistung mit sich. Ein einzelnes Visual kann dazu führen, dass Abfragen an mehrere Quellen gesendet werden, wodurch die Ergebnisse häufig von einer Abfrage zu einer zweiten Quelle weitergeleitet werden. Diese Situation kann in den folgenden Ausführungsmöglichkeiten eintreten:
+Das Verwenden von zusammengesetzten Modelle bringt weitere Punkte hinsichtlich der Leistung mit sich. Senden von Suchabfragen an mehreren Quellen, die häufig die Ergebnisse aus einer bestimmten Abfrage über, um eine zweite Quelle übergeben kann ein einzelnes visuelles führen. Diese Situation kann in den folgenden Ausführungsmöglichkeiten eintreten:
 
 * **Eine SQL-Abfrage, die eine große Anzahl an literalen Werten enthält:** Zum Beispiel muss ein Visual, das den gesamten *Sales Amount*-Wert für eine Reihe ausgewählter *Product Managers* enthält, zunächst ermitteln, welche *Products* von diesen Product Managers verwaltet wurden. Diese Sequenz muss erfolgen, bevor das Visual eine SQL-Abfrage sendet, die alle Produkt-IDs in einer *WHERE*-Klausel enthält.
 
@@ -162,7 +160,7 @@ Das Verwenden von zusammengesetzten Modelle bringt weitere Punkte hinsichtlich d
 
 * **Mehrere SQL-Abfragen, eine pro Gruppe nach Wert**: Wenn die Aggregation **DistinctCount** verwendet, gruppiert nach einer bestimmten Spalte aus einer anderen Quelle, muss eine SQL-Abfrage pro Gruppe nach Wert gesendet werden, wenn die externe Quelle keine effiziente Übergabe von vielen Literalwerten unterstützt, die die Gruppierung definieren. 
 
-   Beispielsweise müsste ein Visual, das eine andere *CustomerAccountNumber*-Anzahl (aus der SQL Server-Tabelle) von *ProductManagers* (aus dem Arbeitsblatt) anfordert, die Details aus der Tabelle *ProductManagers* in der Abfrage übergeben, die an SQL Server gesendet wird. Diese Aktion ist für andere Quellen (z.B. Redshift) nicht durchführbar. In diesem Fall müsste eine SQL-Abfrage pro *Sales Manager* gesendet werden, bis zu einem bestimmten durchführbaren Grenzwert, bei dem die Abfrage bei Überschreitung einen Fehler verursachen würde. 
+   Beispielsweise müsste ein Visual, das eine andere *CustomerAccountNumber*-Anzahl (aus der SQL Server-Tabelle) von *ProductManagers* (aus dem Arbeitsblatt) anfordert, die Details aus der Tabelle *ProductManagers* in der Abfrage übergeben, die an SQL Server gesendet wird. Diese Aktion ist für andere Quellen (z.B. Redshift) nicht durchführbar. Stattdessen wäre eine SQL-Abfrage, die pro gesendeten *Vertriebsleiter* – bis zu einige praktische Grenze, die an diesem Punkt würde die Abfrage einen Fehler. 
 
 Jeder dieser Fälle bringt andere Folgen für die Leistung mit sich, wobei die jeweiligen Details je nach Datenquelle variieren können. Obwohl die Kardinalität der Spalten, die in der Beziehung verwendet werden, die zwei Quellen verknüpft, weiterhin gering ausfällt (im vierstelligen Bereich), sollte die Leistung nicht beeinträchtigt werden. Mit zunehmender Kardinalität sollten Sie Ihre Aufmerksamkeit auf den Einfluss auf die resultierende Leistung richten. Wenden Sie diese Anleitung als Faustregel an. 
 
@@ -170,7 +168,9 @@ Darüber hinaus hat die Verwendung von *m:n*-Beziehungen zur Folge, dass die Ein
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
-Bei diesem Release des Features „Zusammengesetzte Modelle“ gibt es einige Einschränkungen.
+Diese Version von zusammengesetzten Modelle bietet einige Einschränkungen:
+
+Derzeit [inkrementelle Aktualisierung](service-premium-incremental-refresh.md) wird für zusammengesetzte Herstellen einer Verbindung mit SQL, Oracle und Teradata-Datenquellen nur Modelle unterstützt.
 
 Die folgenden (mehrdimensionalen) Live Connect-Quellen können nicht mit zusammengesetzten Modellen verwendet werden:
 
@@ -187,8 +187,8 @@ Die bestehenden Einschränkungen für die Verwendung von DirectQuery gelten nach
 ## <a name="next-steps"></a>Nächste Schritte
 
 Weitere Informationen zu zusammengesetzten Modellen und DirectQuery finden Sie in den folgenden Artikeln:
-* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
-* [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
+* [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md)
+* [Speichermodus in Power BI Desktop](desktop-storage-mode.md)
 * [Verwenden von DirectQuery in Power BI](desktop-directquery-about.md)
 * [Von DirectQuery in Power BI unterstützte Datenquellen](desktop-directquery-data-sources.md)
 

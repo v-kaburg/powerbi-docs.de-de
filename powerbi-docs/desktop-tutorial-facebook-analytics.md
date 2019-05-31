@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513691"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Facebook-Analysen mit Power BI Desktop
@@ -23,9 +23,9 @@ In diesem Tutorial erfahren Sie, wie Sie Daten aus Facebook importieren und in P
 
 ## <a name="connect-to-a-facebook-page"></a>Herstellen der Verbindung mit einer Facebook-Seite
 
-In diesem Tutorial werden Daten von der [Microsoft Power BI-Facebook-Seite](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) verwendet. Um sich mit dieser Seite zu verbinden und Daten zu importieren, benötigen Sie keine besonderen Anmeldeinformationen, sondern lediglich ein persönliches Facebook-Konto.
+In diesem Tutorial werden Daten von der [Microsoft Power BI-Facebook-Seite](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) verwendet. Um sich mit dieser Seite zu verbinden und Daten zu importieren, benötigen Sie keine besonderen Anmeldeinformationen, sondern lediglich ein persönliches Facebook-Konto.
 
-1. Öffnen Sie Power BI Desktop, und wählen Sie im Dialogfeld **Erste Schritte** oder auf der Registerkarte des Menübands **Start** die Option **Daten abrufen**. Wählen Sie dann **Daten abrufen** und anschließend **Mehr...**.
+1. Öffnen Sie Power BI Desktop, und wählen Sie im Dialogfeld **Erste Schritte** oder auf der Registerkarte des Menübands **Start** die Option **Daten abrufen**. Wählen Sie dann **Daten abrufen** und anschließend **Mehr...** .
    
 2. Wählen Sie im Dialogfeld **Daten abrufen** aus der Gruppe **Onlinedienste** die Option **Facebook** aus, und wählen Sie dann **Verbinden**.
    
@@ -147,7 +147,7 @@ Nachdem Sie die Daten von der Facebook-Seite importiert haben, können Sie mithi
    
    ![Nach Anzahl von Kommentaren sortieren](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. Beachten Sie, dass die meisten Kommentare mit **leeren** Nachrichten verbunden waren (diese Beiträge können Geschichten, Links, Videos oder andere Inhalte ohne Text gewesen sein). Um die Zeile „Leer“ herauszufiltern, wählen Sie am unteren Rand des Bereichs „Visualisierungen“ unter **Filter**die Option **Nachricht (alle)**, wählen Sie **Alle auswählen**, und wählen Sie dann **Leer**, um die Auswahl aufzuheben. Die Filtereinträge zeigen nun **Nachricht ist nicht (Leer)** an, und die Zeile „Leer“ wird im Diagramm nicht mehr angezeigt. 
+5. Beachten Sie, dass die meisten Kommentare mit **leeren** Nachrichten verbunden waren (diese Beiträge können Geschichten, Links, Videos oder andere Inhalte ohne Text gewesen sein). Um die Zeile „Leer“ herauszufiltern, wählen Sie am unteren Rand des Bereichs „Visualisierungen“ unter **Filter**die Option **Nachricht (alle)** , wählen Sie **Alle auswählen**, und wählen Sie dann **Leer**, um die Auswahl aufzuheben. Die Filtereinträge zeigen nun **Nachricht ist nicht (Leer)** an, und die Zeile „Leer“ wird im Diagramm nicht mehr angezeigt. 
    
    ![Leere herausfiltern](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -178,7 +178,7 @@ Die X-Achse (Anzahl von Kommentaren) des Diagramms zeigt keine genauen Werte an 
    
 ### <a name="edit-the-data-type"></a>Bearbeiten des Datentyps
 
-Das Diagramm sieht nun schon viel besser aus, die Datenbeschriftungen haben jedoch noch alle eine Nachkommastelle (**,0**). Dies ist störend und irreführend, da die **Anzahl von Beiträgen** eine ganze Zahl sein muss. Daher müssen Sie den Datentyp für die Spalte **Anzahl von Beiträgen** in „Ganzzahl“ ändern.
+Das Diagramm sieht nun schon viel besser aus, die Datenbeschriftungen haben jedoch noch alle eine Nachkommastelle ( **,0**). Dies ist störend und irreführend, da die **Anzahl von Beiträgen** eine ganze Zahl sein muss. Daher müssen Sie den Datentyp für die Spalte **Anzahl von Beiträgen** in „Ganzzahl“ ändern.
 
 1. Klicken Sie zum Ändern des Datentyps mit der rechten Maustaste in der Liste „Felder“ auf **Abfrage1**, oder zeigen Sie darauf, und wählen Sie die Auslassungszeichen (...) für **Weitere Optionen** und dann **Abfrage bearbeiten**. Sie können auch in der Registerkarte „Start“ des Menübands im Bereich **Externe Daten** die Option **Abfragen bearbeiten** wählen und dann in der Dropdownliste erneut **Abfragen bearbeiten** wählen. Der **Power Query-Editor** von Power BI Desktop wird in einem separaten Fenster geöffnet.
    
@@ -220,7 +220,7 @@ Sie entscheiden sich, dem Diagramm einen aussagekräftigeren und attraktiveren T
 1. Wählen Sie bei ausgewähltem Diagramm das Symbol **Format**, und wählen Sie den Dropdownpfeil, um **Titel** zu erweitern.
 2. Ändern Sie **Titeltext** in **Kommentare pro Beitrag**. 
 3. Wählen Sie den Dropdownpfeil neben **Schriftfarbe**, und wählen Sie eine grüne Farbe, passend zu den grünen Balken der Visualisierung.
-4. Erhöhen Sie die **Textgröße** auf **10**, und ändern Sie die **Schriftfamilie** in **Segoe (Fett)**.
+4. Erhöhen Sie die **Textgröße** auf **10**, und ändern Sie die **Schriftfamilie** in **Segoe (Fett)** .
 
 ![Formatieren des Diagrammtitels](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

@@ -1,21 +1,21 @@
 ---
 title: Embedded Analytics für das Einbetten von Power BI-Inhalten in Ihre Anwendung für Ihre Kunden
 description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Kunden in eine Anwendung integrieren bzw. einbetten. In diesem Artikel erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174957"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710949"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Kunden
 
@@ -192,23 +192,19 @@ Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
 
 2. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** und dann auf **App-Registrierungen**.
 
-    ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
 
-    ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![App auswählen](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Wählen Sie **Einstellungen**aus.
+4. Wählen Sie **Zertifikaten und geheimen Schlüsseln** unter **verwalten**.
 
-    ![„Einstellungen“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Klicken Sie auf **Schlüssel**.
-
-    ![„Schlüssel“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Wählen Sie **neue clientschlüsseln**.
 
 6. Geben Sie in das Feld **Beschreibung** einen Namen ein, und wählen Sie eine Dauer aus. Klicken Sie anschließend auf **Speichern**, um den **Wert** für Ihre Anwendung abzurufen. Wenn Sie den Bereich **Schlüssel** nach dem Speichern des Schlüsselwerts schließen, wird das Wertfeld nur als ausgeblendet angezeigt. An diesem Punkt können Sie den Schlüsselwert nicht abrufen. Wenn Sie den Schlüsselwert verlieren, müssen Sie im Azure-Portal einen neuen erstellen.
 
-    ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Schlüsselwert](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>Mandant
 
@@ -369,7 +365,7 @@ Verwenden Sie die folgende Tabelle, um herauszufinden, welche Power BI Embedded-
 | A5 |16 V-Kerne |8 Kerne, 50 GB RAM |8 Kerne |60 pro Sekunde |
 | A6 |32 V-Kerne |16 Kerne, 100 GB RAM |16 Kerne |120 pro Sekunde |
 
-**_Mit A-SKUs können Sie mit einer KOSTENLOSEN Power BI-Lizenz nicht auf Power BI-Inhalte zugreifen._**
+**_Mit A-SKUs können Sie mit einer KOSTENLOSEN Power BI-Lizenz nicht auf Power BI-Inhalte zugreifen._ **
 
 Da Einbettungstokens mit Pro-Lizenzen für Entwicklungstests vorgesehen sind, ist die Anzahl von Einbettungstokens limitiert, die ein Power BI-Hauptkonto oder einen -Dienstprinzipal generieren kann. Für eine dedizierte Kapazität ist eine Einbettung in eine Produktionsumgebung erforderlich. Sie können mit einer dedizierten Kapazität so viele eingebettete Token generieren, wie Sie möchten. Verwenden Sie die Vorgänge zum Abrufen [verfügbarer Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures), um den Auslastungswert zu überprüfen, der die derzeit eingebettete Auslastung in Prozent angibt. Der Verbrauchsbetrag errechnet sich pro Hauptkonto.
 

@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249043"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375228"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Behandeln von Problemen bei Cortana für Power BI
-Dieser Artikel ist Teil einer Serie. Es wird empfohlen, die folgenden drei Artikel zu lesen, sofern noch nicht geschehen.
+Dieser Artikel ist Teil einer Serie. 
 
-**Artikel 1**: [Zusammenarbeit von Cortana und Power BI beim Suchen nach Power BI-Dashboards und -Berichten](service-cortana-intro.md)
+> [!IMPORTANT]
+> Cortana-Integration ist in Power BI veraltet. Gestartet am 11. Juni, funktioniert Cortana nicht mehr für alle Dashboards und Berichte.
 
-**Artikel 2**: [Zum Durchsuchen von Berichten: Aktivieren von Cortana für den Zugriff auf Power BI-Berichte](service-cortana-enable.md)
-
-**Artikel 3**: [Zum Durchsuchen von Berichten: Erstellen von speziellen *Cortana-Antwortkarten*](service-cortana-answer-cards.md)
-
-Wenn weiterhin Probleme beim Integrieren von Cortana in Power BI auftreten, finden Sie hier entsprechende Lösungsvorschläge. Führen Sie die folgenden Schritte zum Diagnostizieren und Beheben des Problems aus.
+Wenn Sie beim Abrufen von Cortana in Power BI integrieren Probleme auftreten, sind Sie an die richtige Stelle gekommen. Führen Sie die folgenden Schritte zum Diagnostizieren und Beheben des Problems aus.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Warum findet Cortana keine Antworten in meinen Power BI-Berichten oder -Dashboards?
 1. Haben Sie ein Power BI-Konto?  Wenn nicht, [Registrieren Sie sich für eine kostenlose Testversion](https://powerbi.microsoft.com/get-started/).

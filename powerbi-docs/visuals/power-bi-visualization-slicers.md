@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/25/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2c9daf54ec18b53655043cd4a472674ee5123be
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295947"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710849"
 ---
 # <a name="slicers-in-power-bi"></a>Slicer in Power BI
 Die Leser des Berichts sollen die gesamten Vertriebsmetriken ansehen können, aber auch die Leistung einzelner Bezirksleiter und unterschiedliche Zeitrahmen hervorheben können. Sie könnten separate Berichte oder vergleichende Diagramme erstellen. Alternativ könnten Sie auch Slicer verwenden. Ein Slicer stellt eine Alternative zur Filterung dar. Er schränkt den Teil des Datasets ein, das in den anderen Visualisierungen in einem Bericht angezeigt wird. 
@@ -42,7 +42,7 @@ Power BI-Slicer weisen die folgenden Einschränkungen auf:
 
 ## <a name="create-slicers"></a>Erstellen von Slicern
 
-Wenn Sie einen neuen Slicer erstellen möchten, können Sie das Slicersymbol und anschließend das Datenfeld für die Filterung auswählen (Sie können es auch im Bereich **Visualisierungen** in das Feld **Felder** ziehen). Alternativ können Sie das Datenfeld zur Erstellung einer Visualisierung zunächst auswählen oder ziehen und anschließend das Slicersymbol auswählen, um die Visualisierung in einen Slicer zu konvertieren. Mit unterschiedlichen Datentypen werden individuelle Slicertypen erstellt, die verschiedene Effekte und Optionen aufweisen. 
+Um einen neuen Slicer erstellen möchten, können Sie das slicersymbol auswählen und wählen Sie dann auf das Datenfeld zum Filtern nach (oder ziehen Sie dann auf die **Filter** im Feld der **Visualisierungen** Bereich), oder Sie können auswählen, oder ziehen Sie zuerst das Datenfeld an Erstellen Sie eine Visualisierung, und wählen Sie dann auf das Symbol "Datenschnitt", um die Visualisierung in einen Slicer zu aktivieren. Mit unterschiedlichen Datentypen werden individuelle Slicertypen erstellt, die verschiedene Effekte und Optionen aufweisen. 
 
 Wenn Sie einen Bericht zum ersten Mal ändern, leuchtet die Schaltfläche **Auf Standardwert zurücksetzen** auf. Dies soll Sie daran erinnern, dass Sie eine Änderung an den ursprünglichen Berichtseinstellungen vorgenommen haben. Wenn Sie die Ansicht wechseln, wird diese Änderung gespeichert (beibehalten). Wenn Sie zum Bericht zurückkehren, müssen Sie diesen nicht neu unterteilen.  Wenn Sie jedoch den Bericht auf die Standardeinstellungen des Autors zurücksetzen möchten, klicken Sie auf der oberen Menüleiste auf die Schaltfläche **Auf Standardwert zurücksetzen**.
 
@@ -51,26 +51,30 @@ Wenn Sie einen Bericht zum ersten Mal ändern, leuchtet die Schaltfläche **Auf 
 > [!NOTE]
 > Wenn die Schaltfläche **Auf Standardwert zurücksetzen** deaktiviert bleibt, bedeutet dies entweder, dass der Berichtsautor das Feature für den Bericht deaktiviert hat oder dass der Bericht ein benutzerdefiniertes Visual enthält. Zeigen Sie einfach mit dem Mauszeiger auf die Schalfläche, um die QuickInfo mit einer Erklärung anzuzeigen. 
 
-**So erstellen Sie einen neuen Slicer zum Filtern von Daten nach Bezirksleiter**
+**Erstellen Sie einen neuen Slicer zum Filtern von Daten nach Bezirksleiter**
 
-1. Öffnen Sie in Power BI Desktop oder im Power BI-Dienst das [Analysebeispiel für den Einzelhandel](../sample-retail-analysis.md). (Wählen Sie im Power BI-Dienst oben links die Option **Bericht bearbeiten** aus.)
-2. Wählen Sie auf der Seite **Übersicht**, auf der im Zeichenbereich keine Auswahl getroffen wurde, im Bereich **Visualisierungen** das Symbol ![Slicer](media/power-bi-visualization-slicers/slicer-icon.png) **Slicersymbol** aus, um einen neuen Slicer zu erstellen. 
-3. Wählen Sie nach der Auswahl des neuen Slicers im Bereich **Felder** unter **Bezirk** den **Bezirksleiter** aus, um den Slicer aufzufüllen. Der neue Slicer besteht aus einer Liste mit Auswahlfeldern vor den Namen. 
+1. Öffnen Sie in Power BI Desktop oder Power BI-Dienst die [Analysebeispiel für Einzelhandel](../sample-retail-analysis.md). (Wählen Sie im Power BI-Dienst oben links die Option **Bericht bearbeiten** aus.)
+2. Wählen Sie auf der Seite "Übersicht", mit nichts im Zeichenbereich ausgewählt der **Slicer** Symbol ![Symbol "Datenschnitt"](media/power-bi-visualization-slicers/slicer-icon.png) in die **Visualisierungen** Bereich, um einen neuen Slicer erstellen. 
+3. Wählen Sie bei neuen Slicer ausgewählt haben, klicken Sie im Bereich "Felder" **Bezirk** > **DM** um den Slicer aufzufüllen. Der neue Slicer besteht aus einer Liste mit Auswahlfeldern vor den Namen. 
     
-    ![Neuer Slicer](media/power-bi-visualization-slicers/2-slicer.png)
+    ![Neuer Slicer](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Ändern Sie die Größe, und ziehen Sie den Slicer sowie andere Elemente in den Zeichenbereich, um Platz für den Slicer zu machen. Beachten Sie, dass die Slicerelemente abgeschnitten werden, wenn Sie den Slicer zu stark verkleinern. 
-5. Wählen Sie Namen im Slicer aus, und beachten Sie die Auswirkungen auf die anderen Visualisierungen auf der Seite. Wählen Sie Namen erneut aus, wenn Sie diese abwählen möchten. Halten Sie die Taste **STRG** gedrückt, wenn Sie mehrere Namen auswählen möchten. Die Auswahl sämtlicher Namen hat die gleiche Wirkung wie die Auswahl keiner Namen. 
+5. Wählen Sie Namen im Slicer aus, und beachten Sie die Auswirkungen auf die anderen Visualisierungen auf der Seite. Wählen Sie Namen erneut aus, wenn Sie diese abwählen möchten. Halten Sie die Taste **STRG** gedrückt, wenn Sie mehrere Namen auswählen möchten. Die Auswahl sämtlicher Namen hat die gleiche Wirkung wie die Auswahl keiner Namen. \
 
+6. Wählen Sie alternativ das farbrollen-Symbol, das die Formatierung des Datenschnitts. Es gibt einfach zu viele Optionen zum beschrieben werden alle – also experimentieren und erstellen einen Slicer Funktionsfähigkeit der für Sie. In den folgenden Beispielen wurde der ersten Slicer in einer Dropdownliste aus, um Speicherplatz zu sparen konvertiert, und die Option "Alles auswählen" hinzugefügt wurde.  Der zweite Slicer mit Farben, Schriftarten-Größen, formatiert wurde, und lässt nur eine einzelne Auswahl.
+
+   ![Neuer Slicer](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Slicerelemente für Listen werden standardmäßig in aufsteigender alphanumerischer Reihenfolge sortiert. Wenn Sie die Sortierreihenfolge in eine absteigende Reihenfolge umkehren möchten, wählen Sie in der rechten oberen Ecke des Slicers die Auslassungspunkte (**...**) und anschließend in der Dropdownliste **Sort by District Manager** (nach Bezirksleiter sortieren) aus. 
+>Slicerelemente für Listen werden standardmäßig in aufsteigender alphanumerischer Reihenfolge sortiert. Wenn Sie die Sortierreihenfolge in eine absteigende Reihenfolge umkehren möchten, wählen Sie in der rechten oberen Ecke des Slicers die Auslassungspunkte ( **...** ) und anschließend in der Dropdownliste **Sort by District Manager** (nach Bezirksleiter sortieren) aus. 
 
 **So erstellen Sie einen neuen Slicer zum Filtern von Daten nach Datumsbereich**
 
-1. Öffnen Sie, ohne dass im Zeichenbereich eine Auswahl getroffen wurde, das Dropdownfeld **Zeit** im Bereich „Felder“, und ziehen Sie **Monat** (im Power BI-Dienst **Datum**) im Bereich „Visualisierungen“ in das Feld **Werte**, um eine neue Visualisierung zu erstellen.
+1. Mit nichts im Zeichenbereich ausgewählt haben, öffnen Sie die Dropdownliste **Datum** in den Bereich "Felder" ein, und ziehen Sie **Datum** auf die **Werte** Feld in den Bereich "Visualisierungen", um eine neue Visualisierung zu erstellen.
 2. Wählen Sie nach der Auswahl der neuen Visualisierung das Symbol **Slicer** aus, um die neue Visualisierung in einen Slicer zu konvertieren. Dieser Slicer stellt ein Schieberegler-Steuerelement mit ausgefülltem Datumsbereich dar.
     
-    ![Slicer für neuen Bereich](media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![Slicer für neuen Bereich](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
+
     
 4. Ändern Sie die Größe, und ziehen Sie den Slicer sowie andere Elemente in den Zeichenbereich, um Platz für den Slicer zu machen. Beachten Sie, dass sich die Größe des Schiebereglers abhängig von der Größe des Slicers ändert. Eine zu starke Verkleinerung des Slicers führt jedoch dazu, dass der Schieberegler verschwindet und die Datumsangaben abgeschnitten werden. 
 4. Wählen Sie mit dem Schieberegler unterschiedliche Datumsbereiche aus, oder wählen Sie ein Datumsfeld aus, um für eine genauere Auswahl einen Wert einzugeben oder einen Kalender in einem Popup-Menü zu öffnen. Beachten Sie die Auswirkungen auf die anderen Visualisierungen auf der Seite.
@@ -78,8 +82,11 @@ Wenn Sie einen Bericht zum ersten Mal ändern, leuchtet die Schaltfläche **Auf 
     >[!NOTE]
     >Numerische Datentypen und Datentypen des Typs „Datum/Uhrzeit“ erzeugen standardmäßig Schieberegler-Slicer für Bereiche. Seit dem Power BI-Update im Februar 2018 werden Schieberegler für Bereiche mit Datentypen des Typs „Ganzzahl“ jetzt an ganzzahligen Werten ausgerichtet und nicht mit Dezimalstellen angezeigt. 
 
->[!TIP]
->Auch wenn das Datumsfeld **Monat** standardmäßig einen Schieberegler-Slicer für Bereiche des Typs **Zwischen** erzeugt, können Sie diesen in andere Slicertypen und Auswahloptionen ändern. Wenn Sie den Slicertyp bei dem ausgewählten Slicer ändern möchten, zeigen Sie mit dem Mauszeiger auf den rechten oberen Bereich, öffnen Sie das Dropdownfeld bei dem angezeigten Carat-Zeichen, und wählen Sie eine der anderen Optionen aus, z.B. **Liste** oder **Vorher**. Beachten Sie, wie sich die Darstellung des Slicers und die Auswahloptionen ändern. 
+
+5. Ändern Sie nun den Feldwert aus **Datum** zu **MonthIndex**.  Dies führt zu einem **zwischen** reichen von Schieberegler-Slicer-Typ in der Standardeinstellung jedoch können Sie ihn in andere slicertypen und Auswahloptionen ändern. Wenn Sie den Slicertyp bei dem ausgewählten Slicer ändern möchten, zeigen Sie mit dem Mauszeiger auf den rechten oberen Bereich, öffnen Sie das Dropdownfeld bei dem angezeigten Carat-Zeichen, und wählen Sie eine der anderen Optionen aus, z.B. **Liste** oder **Vorher**. Beachten Sie, wie sich die Darstellung des Slicers und die Auswahloptionen ändern. 
+ 
+    ![Slicer für neuen Bereich](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
+
 
 Weitere Informationen zum Erstellen von Slicern für Datumsbereiche und numerische Bereiche finden Sie unter [Verwenden der Funktion „Slicer für numerische Bereiche“ in Power BI Desktop](../desktop-slicer-numeric-range.md) oder im folgenden Video.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 

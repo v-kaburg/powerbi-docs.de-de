@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662409"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412900"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossar für den Power BI-Dienst
 Der Power BI-Dienst führt möglicherweise Terminologie ein, die nicht vertraut oder zunächst verwirrend ist. Das Glossar ist der ideale Ort, um Begriffe nachzuschlagen – vielleicht sollten Sie ein Lesezeichen setzen? Eine weitere hervorragende Ressource, mehr über die Bausteine zu erfahren, aus denen sich der Power BI-Dienst zusammensetzt, sind die [Grundkonzepte](end-user-basic-concepts.md). Grundkonzepte bietet einen allgemeinen Überblick über die Power BI-*Bestandteile* und die Art ihrer Verbindung.
@@ -142,6 +142,8 @@ In Dokumentation kann „Power BI-Umgebung (Mandant)“ verwendet werden; hier k
 ## <a name="h"></a>H
 **high-density visuals (Visuelle Elemente mit hoher Dichte)** Visuelle Elemente mit mehr Datenpunkten als Power BI darstellen kann. Power BI nimmt Stichproblem der Daten, um die Form und Ausreißer darzustellen.
 
+**Startseite** die standardmäßige landing Age für Benutzer von Power BI-Dienst. Alles nicht geändert werden. Kann Powerbi Home oder einfach Start aufgerufen werden.
+
 ## <a name="i"></a>I
 
 **insights (Erkenntnisse)** Die automatische Datenanalyse, die durch das Ausführen unserer Algorithmen für maschinelles Lernen erfolgt.
@@ -207,7 +209,7 @@ Erste Nennung: linker Navigationsbereich. In späteren Nennungen oder wenig Plat
 
 **pin, unpin (anheften, lösen)** Der Platzierungsvorgang eines visuellen Elements, normalerweise aus einem Bericht, auf einem Dashboard.
 
-**Power BI**, **Power BI service (Power BI-Dienst)**, **Power BI Desktop**, **Power BI Mobile**: einige der Power BI-Angebote. *Power BI* ist der allgemeine Ausdruck. Er wird häufig anstelle eines vollständigen Produktnamens verwendet, etwa für *Power BI service (Power BI-Dienst)* und *Power BI Mobile* nach der ersten Nennung des vollständigen Produktnamens.
+**Power BI**, **Power BI service (Power BI-Dienst)** , **Power BI Desktop**, **Power BI Mobile**: einige der Power BI-Angebote. *Power BI* ist der allgemeine Ausdruck. Er wird häufig anstelle eines vollständigen Produktnamens verwendet, etwa für *Power BI service (Power BI-Dienst)* und *Power BI Mobile* nach der ersten Nennung des vollständigen Produktnamens.
 
 **Power BI Desktop** Auch als *Desktop* bezeichnet. Die kostenlose Windows-Anwendung von Power BI, die Sie auf Ihrem lokalen Computer installieren können und die es Ihnen ermöglicht, eine Verbindung mit Ihren Daten herzustellen und diese zu transformieren und zu visualisieren. Wird von Berichts-Designern und Administratoren verwendet. Weitere Informationen finden Sie unter [Was ist Power BI?](../power-bi-overview.md).
 
@@ -288,7 +290,7 @@ Auf mobilen Geräten kann sich Teilen auf die native Freigabefunktionalität des
 
 **streaming data (Streamen von Daten)** Siehe *Echtzeitstreaming*.
 
-**subscriptions (Abonnements)**, **Subscribe (abonnieren)**  
+**subscriptions (Abonnements)** , **Subscribe (abonnieren)**  
 Sie können Berichtsseiten, Apps und Dashboards abonnieren und E-Mails empfangen, die eine Momentaufnahme enthalten. Setzt eine Power BI Pro-Lizenz voraus.
 
 **summarization (Zusammenfassung)** [Power BI Desktop] Der Vorgang, der auf die Werte in einer Spalte angewendet wird.

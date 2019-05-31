@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513718"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>DAX-Grundlagen in Power BI Desktop
@@ -47,9 +47,9 @@ Diese Formel beinhaltet die folgenden Syntaxelemente:
 
 **A.** Den Measurenamen **Total Sales** (Gesamtumsatz).
 
-**B.** Der Gleichheitszeichenoperator (**=**) kennzeichnet den Anfang der Formel. Bei der Berechnung gibt er ein Ergebnis zurück.
+**B.** Der Gleichheitszeichenoperator ( **=** ) kennzeichnet den Anfang der Formel. Bei der Berechnung gibt er ein Ergebnis zurück.
 
-**C.** Die DAX-Funktion **SUM** addiert alle Zahlen in der Spalte **Sales[SalesAmount]**. Im weiteren Verlauf erfahren Sie mehr über Funktionen.
+**C.** Die DAX-Funktion **SUM** addiert alle Zahlen in der Spalte **Sales[SalesAmount]** . Im weiteren Verlauf erfahren Sie mehr über Funktionen.
 
 **D.** Klammern **()** umschließen einen Ausdruck, der ein oder mehrere Argumente enthält. Für alle Funktionen ist mindestens ein Argument erforderlich. Ein Argument übergibt einen Wert an eine Funktion.
 
@@ -57,7 +57,7 @@ Diese Formel beinhaltet die folgenden Syntaxelemente:
 
 **F.** Die referenzierte Spalte **[SalesAmount]** in der Tabelle „Sales“. Dank dieses Arguments weiß die Funktion SUM, für welche Spalte sie eine SUMME aggregieren soll.
 
-Bei dem Versuch, eine DAX-Formel zu verstehen, ist es oft hilfreich, jedes der Elemente in eine Sprache aufzuschlüsseln, die Sie im Alltag verwenden. Beispielsweise können Sie diese Formel wie folgt lesen: 
+Bei dem Versuch, eine DAX-Formel zu verstehen, ist es oft hilfreich, jedes der Elemente in eine Sprache aufzuschlüsseln, die Sie im Alltag verwenden. Beispielsweise können Sie diese Formel wie folgt lesen:
 
 > *Für das Measure mit dem Namen „Total Sales“ (Gesamtumsatz) berechne (=) die SUMME der Werte in der Spalte „[SalesAmount]“ (Umsatzbetrag) in der Tabelle „Sales“ (Umsätze).*
 > 
@@ -91,11 +91,11 @@ Um diese Aufgabe auszuführen, müssen Sie die Contoso Sales Power BI Desktop-Be
 
    Sie verwenden die Funktion CALCULATE, um die zu addierenden Beträge mithilfe eines Arguments, das wir der Funktion CALCULATE übergeben, zu filtern. Dies wird als Verschachteln von Funktionen bezeichnet. Die Funktion CALCULATE weist mindestens zwei Argumente auf. Das erste ist der auszuwertende Ausdruck und das zweite ein Filter.
    
-4. Geben Sie nach der öffnenden Klammer **(** der **CALCULATE**-Funktion **SUM** gefolgt von einer weiteren öffnenden Klammer ein **(**. Nun müssen Sie ein Argument an die SUM-Funktion übergeben.
+4. Geben Sie nach der öffnenden Klammer **(** der **CALCULATE**-Funktion **SUM** gefolgt von einer weiteren öffnenden Klammer ein **(** . Nun müssen Sie ein Argument an die SUM-Funktion übergeben.
 
 5. Beginnen Sie mit der Eingabe von **Sal**, und wählen Sie dann **Sales[SalesAmount]** aus. Fügen Sie dann eine schließende Klammer **)** ein. Dies ist das erste Ausdrucksargument für unsere CALCULATE-Funktion.
     
-6. Geben Sie ein Komma (**,**) gefolgt von einem Leerzeichen ein, um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** ein. Dies ist der Filter.
+6. Geben Sie ein Komma ( **,** ) gefolgt von einem Leerzeichen ein, um den ersten Filter anzugeben, und geben Sie dann **PREVIOUSQUARTER** ein. Dies ist der Filter.
     
    Sie verwenden die PREVIOUSQUARTER-Zeitintelligenzfunktion, um die SUM-Ergebnisse nach dem vorherigen Quartal zu filtern.
     
@@ -176,7 +176,7 @@ Diese Formel beinhaltet die folgenden Syntaxelemente:
 
 **A.** Den Measurenamen **Store Sales**.
 
-**B.** Der Gleichheitszeichenoperator (**=**) kennzeichnet den Anfang der Formel.
+**B.** Der Gleichheitszeichenoperator ( **=** ) kennzeichnet den Anfang der Formel.
 
 **C.** Die Funktion **CALCULATE** wertet einen Ausdruck als Argument in einem Kontext aus, der durch die angegebenen Filter verändert wird.
 
@@ -184,9 +184,9 @@ Diese Formel beinhaltet die folgenden Syntaxelemente:
 
 **E.** Ein Measure **[Total Sales]** in derselben Tabelle wie ein Ausdruck. Das Measure „Total Sales“ hat die Formel: =SUM(Sales[SalesAmount]).
 
-**F.** Ein Komma (**,**) trennt das erste Ausdrucksargument vom Filterargument.
+**F.** Ein Komma ( **,** ) trennt das erste Ausdrucksargument vom Filterargument.
 
-**G.** Die vollqualifizierte referenzierte Spalte **Channel[ChannelName]**. Dies ist unser Zeilenkontext. Jede Zeile in dieser Spalte bezeichnet einen Kanal: „Store“, „Online“ usw.
+**G.** Die vollqualifizierte referenzierte Spalte **Channel[ChannelName]** . Dies ist unser Zeilenkontext. Jede Zeile in dieser Spalte bezeichnet einen Kanal: „Store“, „Online“ usw.
 
 **H.** Der Einzelwert **Store** als Filter. Dies ist unser Filterkontext.
 
