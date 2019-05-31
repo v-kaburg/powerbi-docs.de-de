@@ -12,11 +12,11 @@ ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147494"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238346"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Erste Schritte mit dem Power BI-Dienst (app.powerbi.com)
 Dieses Tutorial erleichtert Ihnen den Einstieg in den ***Power BI-Dienst***. Damit Sie die Funktion des Power BI-Diensts im Hinblick auf die anderen Power BI-Angebote einordnen können, sollten Sie zunächst [Was ist Power BI?](power-bi-overview.md) lesen.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9a7afafaa14ed890e10e77507aafb637755cd87f
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965976"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232396"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Integration von Azure Machine Learning in Power BI (Vorschau)
 
@@ -106,9 +106,9 @@ Dieser Artikel enthält eine Übersicht über die Integration von Machine Learni
 
 Weitere Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 * [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 
 

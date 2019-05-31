@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306295"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770418"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Barrierefreiheit in Power BI Desktop-Berichten
 Power BI verfügt über Features, die von Personen mit Behinderungen für die leichtere Nutzung von und Interaktion mit Power BI-Berichten verwendet werden können. Zu diesen Funktionen gehört die Möglichkeit, einen Bericht mithilfe der Tastatur oder einer Sprachausgabe zu verwenden, den Fokus per TAB-Taste auf die verschiedenen Objekte auf einer Seite zu verlagern und Marker in Visualisierungen sinnvoll einzusetzen.
@@ -23,7 +23,7 @@ Power BI verfügt über Features, die von Personen mit Behinderungen für die le
 ![Verwenden Sie für Linien- und Flächendiagramme verschiedene Marker, um die Barrierefreiheit zu verbessern](media/desktop-accessibility/accessibility_01.png)
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Nutzen eines Power BI Desktop-Berichts mit Tastatur oder Sprachausgabe
-Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie die **?**-Taste drücken, um ein Fenster anzuzeigen, in dem die in **Power BI Desktop** verfügbaren Tastenkombinationen für Barrierefreiheit beschrieben werden.
+Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie die **?** -Taste drücken, um ein Fenster anzuzeigen, in dem die in **Power BI Desktop** verfügbaren Tastenkombinationen für Barrierefreiheit beschrieben werden.
 
 ![Drücken Sie in Power BI Desktop die ?-Taste , um Tastenkombinationen für Barrierefreiheit anzuzeigen.](media/desktop-accessibility/accessibility_03.png)
 
@@ -144,6 +144,12 @@ Wir arbeiten fortlaufend daran, die Barrierefreiheit weiter zu verbessern, desha
 | Mehrfachauswahl | STRG+EINGABETASTE oder STRG+LEERTASTE |
 | Rechtsklick | <ul><li>Windows-Tastatur: Windows-Taste + F10.  Die Windows-Taste befindet sich zwischen der linken ALT-TASTE und der Taste mit den spitzen Klammern.</li><li>Andere Tastatur: UMSCHALT+F10</li></ul> |
 | Auswahl löschen | STRG+UMSCHALT+C |
+
+### <a name="table--matrix-navigation"></a>Tabelle und Matrix-Navigation
+| Zweck           | Tastenkombination                |
+| :------------------- | :------------------- |
+| Verschieben des Fokus nach oben / unten eine Zelle (über alle Zellen in allen Bereichen)  | Oben-Taste, Schlüssel / nach-unten-Taste |
+| Verschieben des Fokus nach links / rechts von einer Zelle (über alle Zellen in allen Bereichen)  | Linke Pfeiltaste bzw. rechte Pfeiltaste |
 
 ### <a name="pane-navigation"></a>Navigationsbereich
 | Zweck           | Tastenkombination                |

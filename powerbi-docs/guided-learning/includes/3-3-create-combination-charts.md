@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396891"
+---
 Wenn Sie zwei Measures mit stark abweichenden Skalen visualisieren möchten, z.B. Umsatz und Einheiten, ist ein **Verbunddiagramm** nützlich, in dem eine Zeile und eine Leiste mit unterschiedlichen Achsenskalierungen angezeigt werden. Power BI unterstützt standardmäßig viele Arten von Verbunddiagrammen, darunter die gängigen **Zeilendiagramme** und **Gestapelte Säulendiagramme**.
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

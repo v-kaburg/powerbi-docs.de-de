@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454480"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Datenkategorisierung in Power BI Desktop
@@ -33,7 +33,7 @@ Soll Power BI Desktop die Codes in der Spalte „GeoCode“ als Abkürzung für 
 **So geben Sie eine Datenkategorie an**
 
 1. In der Berichtsansicht oder der Datenansicht wählen Sie in der Liste **Felder** das Feld aus, das nach einer anderen Kategorisierung sortiert werden soll.
-2. Klicken Sie im Menüband auf der Registerkarte **Modellierung** auf die Dropdownliste **Datenkategorie:**.  Daraufhin wird eine Liste der möglichen Kategorien angezeigt, die Sie für die Spalte auswählen können.  Möglicherweise sind einige Optionen deaktiviert, wenn sie mit dem aktuellen Datentyp der Spalte nicht funktionieren.  Beispiel: Bei einer Spalte mit einem binären Datentyp erlaubt Power BI Desktop Ihnen nicht, geografische Datenkategorien auszuwählen. 
+2. Klicken Sie im Menüband auf der Registerkarte **Modellierung** auf die Dropdownliste **Datenkategorie:** .  Daraufhin wird eine Liste der möglichen Kategorien angezeigt, die Sie für die Spalte auswählen können.  Möglicherweise sind einige Optionen deaktiviert, wenn sie mit dem aktuellen Datentyp der Spalte nicht funktionieren.  Beispiel: Bei einer Spalte mit einem binären Datentyp erlaubt Power BI Desktop Ihnen nicht, geografische Datenkategorien auszuwählen. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

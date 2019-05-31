@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217043"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61286878"
 ---
 # <a name="using-python-in-query-editor"></a>Verwenden von Python im Abfrage-Editor
 Sie können **Python**, eine häufig von Statistikern, Business Analysten und Datenanalysten verwendete Programmiersprache, im **Abfrage-Editor** von Power BI Desktop verwenden. Dank der Integration von Python in den **Abfrage-Editor** können Sie mithilfe von Python Daten bereinigen, erweiterte Datenstrukturierung und Analysen in Datasets ausführen, einschließlich der Ergänzung fehlender Daten, Prognosen und Clustering, um nur einige der Möglichkeiten zu nennen. **Python** ist eine leistungsfähige Sprache, die im **Abfrage-Editor** zum Erstellen des Datenmodells und Erzeugen von Berichten verwendet werden kann.

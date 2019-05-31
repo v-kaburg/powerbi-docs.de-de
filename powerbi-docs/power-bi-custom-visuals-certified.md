@@ -9,13 +9,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/10/2019
-ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 05/9/2019
+ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174796"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454561"
 ---
 # <a name="certified-custom-visuals"></a>Zertifizierte benutzerdefinierte Visuals
 
@@ -31,7 +31,7 @@ Dieser Zertifizierungsprozess ist ein optionaler Prozess, und es obliegt den Ent
 
 Bei **nicht zertifizierten benutzerdefinierten Visuals** handelt es sich nicht zwangsläufig um unsichere Visuals. Einige Visuals sind nicht zertifiziert, da sie mindestens einem Punkt der [Zertifizierungsanforderungen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) nicht entsprechen. Beispiele hierfür sind die Herstellung einer Verbindung zu einem externen Dienst wie Kartenvisuals oder Visuals, die kommerzielle Bibliotheken verwenden.
 
-Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu  **[Microsoft AppSource](https://appsource.microsoft.com)** hinzufügen? Weitere Informationen finden Sie unter  **[Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md)**.
+Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu  **[Microsoft AppSource](https://appsource.microsoft.com)** hinzufügen? Weitere Informationen finden Sie unter  **[Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md)** .
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Entfernen benutzerdefinierter zertifizierter visueller Power BI-Elemente
 
@@ -44,11 +44,34 @@ Microsoft kann nach eigenem Ermessen ein Visual aus der Liste [zertifizierter Vi
 Stellen Sie sicher, dass Ihr benutzerdefiniertes Visual folgenden Anforderungen entspricht, damit es [zertifiziert](#certified-custom-visuals) werden kann:  
 
 * Es muss von Microsoft AppSource genehmigt sein. Ihr benutzerdefiniertes Visual sollte sich in unserem [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) befinden.
-* Das benutzerdefinierte visuelle Element wurde mit der API-Version 1.2 oder höher geschrieben.
-* Das Coderepository muss dem Power BI-Team zur Überprüfung zur Verfügung stehen (z.B. Quellcode – JavaScript oder TypeScript – in einem uns verfügbaren Format in GitHub, das vom Menschen lesbar ist).
+* Benutzerdefiniertes visual richtet mit Versionsangabe **API v2. 5** oder höher.
+* Coderepository steht zur Überprüfung von Power BI-Team (für die Instanz, Source Code (JavaScript oder TypeScript) in der vom Menschen lesbaren Format! Teilen Sie uns über GitHub verfügbar ist).
 
     >[!Note]
     > Sie müssen Ihren Code nicht öffentlich in GitHub freigeben.
+* Code-Repository-Anforderungen:
+   * Muss den minimalen erforderlichen Satz von Dateien enthalten:
+      * .gitignore
+      * capabilities.json
+      * pbiviz.json
+      * package.json
+      * package-lock.json
+      * tsconfig.json
+   * Dürfen keine Ordner "Node_modules" (Hinzufügen von "node_modules".gitingore-Datei)
+   * **Installieren Sie Npm** Befehl muss keine Fehler zurück.
+   * **Npm-Audit** Befehl muss keine Warnungen mit hoher oder mittleren Ebene zurück.
+   * **Pbiviz-Paket** Befehl muss keine Fehler zurück.
+   * Muss enthalten [TSlint von Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) ohne außer Kraft gesetzte Konfiguration, und dieser Befehl muss keine Lint-Fehler zurückgeben.
+   * Das kompilierte Paket über die benutzerdefinierte Visualisierung muss gesendeten Pakets entsprechen (md5-Hash von Dateien sollte gleich sein).
+* Anforderungen an die Source-Code:
+   * Das visuelle Element muss unterstützen [rendern, Ereignis-API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Stellen Sie sicher, ohne Code beliebige oder dynamisch ausgeführt wird (ungültige: eval(), die unsichere Verwendung von settimeout(), requestAnimationFrame(), Setinterval (eine Funktion mit der Benutzereingabe), ausgeführte Eingabe-/Benutzerdaten).
+   * Stellen Sie sicher, DOM bearbeitet wird, sicher (ungültige: InnerHTML, D3.html (< einige Benutzerdaten/Input >), verwenden Sie Bereinigung für die Eingabe/Daten für Benutzer vor dem Hinzufügen zu DOM
+   * Stellen Sie sicher, dass keine Javascript-Fehler/Ausnahmen in der Browserkonsole für alle eingegebenen Daten vorhanden sind. Benutzer können Ihre Visualisierung mit einem anderen Bereich der unerwartete Daten so, dass das visuelle Element nicht durchgeführt werden muss. Sie können [dieses Beispielberichts](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) als ein testdataset.
+
+* Stellen Sie alle Eigenschaften in capabilities.json geändert werden, sicher, dass sie die vorhandenen der Berichte eines Benutzers nicht beeinträchtigt werden.
+
+* Stellen Sie sicher, dass das visuelle Element entspricht, mit der [Richtlinien für die Power BI-Visualisierungen](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Es dürfen keine Wasserzeichen**.
 
 * Ihr Visual darf nur öffentlich überprüfbare OSS-Komponenten besitzen (öffentliche JS-Bibliotheken oder TypeScript. Der Quellcode ist für die Überprüfung verfügbar und besitzt keine bekannten Sicherheitsrisiken). Wir können überprüfen, ob ein benutzerdefiniertes Visual eine kommerzielle Komponente verwendet.
 

@@ -1,5 +1,5 @@
 ---
-title: Entwicklerressourcen für Power BI-Dataflows (Vorschau)
+title: Entwicklerressourcen für Power BI-Datenflüsse
 description: In diesem Artikel erfahren Sie, wo Sie Ressourcen für die Entwicklung und Power BI-Dataflows finden.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274695"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136760"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Entwicklerressourcen für Power BI-Dataflows (Vorschau)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Entwicklerressourcen für Power BI-Datenflüsse
 
 Es gibt viele Möglichkeiten, Dataflows ohne Code zu verwenden, indem Sie Entitäten im Power BI-Dienst erstellen und in Power BI Desktop eine Verbindung mit diesen herstellen. Viele Organisationen wünschen sich Flexibilität, um ihre eigenen Lösungen zu entwickeln. Dieser Artikel enthält Informationen über die Power BI-REST-API und andere Entwicklerressourcen.
 
@@ -38,8 +38,8 @@ Dieser Artikel enthält Informationen zu Entwicklerressourcen für Dataflows. We
 
 * [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
 
 Informationen zur Entwicklung eines CDM (Common Data Modell) sowie Tutorials finden Sie in den folgenden Artikeln:
 * [Was ist das Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)

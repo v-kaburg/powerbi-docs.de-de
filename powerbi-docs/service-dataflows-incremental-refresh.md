@@ -1,23 +1,23 @@
 ---
 title: Verwenden der inkrementellen Aktualisierung mit Power BI-Dataflows
 description: Erfahren Sie, wie die inkrementelle Aktualisierung für Dataflows konfiguriert wird.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293708"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136553"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Verwenden der inkrementellen Aktualisierung mit Power BI-Dataflows (Vorschau)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Verwenden der inkrementellen Aktualisierung mit Power BI-Dataflows
 
 Mit Dataflows können Sie große Datenmengen zu Power BI migrieren, um ansprechende Berichte und Analysen zu erstellen. In einigen Fällen ist es jedoch nicht praktikabel, eine vollständige Kopie der Quelldaten bei jedem Aktualisierungsvorgang zu aktualisieren. Eine gute Alternative ist die **inkrementelle Aktualisierung**, die folgende Vorteile für Dataflows bietet:
 
@@ -27,13 +27,13 @@ Mit Dataflows können Sie große Datenmengen zu Power BI migrieren, um anspreche
 
 ![Inkrementelle Aktualisierung für Dataflows](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-Für die inkrementelle Aktualisierung für Power BI-Dataflows muss der Arbeitsbereich, in dem sich der Dataflow befindet, zur Ausführung in der [Premium-Kapazität](service-premium.md) enthalten sein, und die Datenquelle, die im Dataflow erfasst wird, muss ein *datetime*-Feld enthalten, auf das bei der inkrementellen Aktualisierung gefiltert werden kann. 
+Für die inkrementelle Aktualisierung für Power BI-Dataflows muss der Arbeitsbereich, in dem sich der Dataflow befindet, zur Ausführung in der [Premium-Kapazität](service-premium-what-is.md) enthalten sein, und die Datenquelle, die im Dataflow erfasst wird, muss ein *datetime*-Feld enthalten, auf das bei der inkrementellen Aktualisierung gefiltert werden kann. 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>Konfigurieren der inkrementellen Aktualisierung für Dataflows
 
 Ein Dataflow kann viele Entitäten enthalten. Die inkrementelle Aktualisierung wird auf Entitätsebene eingerichtet, sodass ein Dataflow vollständig und inkrementell aktualisierte Entitäten enthalten kann.
 
-Um eine inkrementell aktualisierte Entität einzurichten, konfigurieren Sie Ihre Entität zunächst wie jede andere Entität. Weitere Informationen zur Datafloweinrichtung finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md).
+Um eine inkrementell aktualisierte Entität einzurichten, konfigurieren Sie Ihre Entität zunächst wie jede andere Entität. Weitere Informationen zum Datenfluss einrichten, finden Sie unter [in Power BI für die Vorbereitung von Self-service-](service-dataflows-overview.md).
 
 Nachdem Sie den Dataflow erstellt und gespeichert haben, klicken Sie auf das Symbol **Inkrementelle Aktualisierung** in der Entitätsansicht, wie in der folgenden Abbildung gezeigt wird:
 
@@ -156,8 +156,8 @@ In diesem Artikel wird die inkrementelle Aktualisierung für Dataflows beschrieb
 
 * [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 
 Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie in den folgenden Artikeln:
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)

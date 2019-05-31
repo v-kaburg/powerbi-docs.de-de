@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396804"
+---
 Zusätzlich zu einer Fülle von Diagrammen unterstützt Power BI Desktop auch weitere tabellarische Visualisierungen. Wenn Sie ein Kategorienfeld oder ein Textfeld auf die Berichtszeichenfläche ziehen, erhalten Sie standardmäßig eine Tabelle der Ergebnisse. Sie können einen Bildlauf nach oben und unten durch die Tabelle durchführen. Anfänglich ist die Tabelle alphabetisch sortiert.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

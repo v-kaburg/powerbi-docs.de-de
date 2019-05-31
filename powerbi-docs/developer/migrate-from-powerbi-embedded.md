@@ -1,18 +1,18 @@
 ---
 title: Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI
 description: Erfahren Sie, wie Sie Inhalte aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded migrieren und die Vorteile für das Einbetten in Apps nutzen können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223603"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270453"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung zu Power BI Embedded
 
@@ -131,7 +131,7 @@ Zwischengespeicherte Datasets finden Sie in PBIX-Dateien, die Daten im Gegensatz
 3. Speichern Sie die PBIX.
 4. Rufen Sie Import PBIX SaaS-Arbeitsbereich auf.
 5. Aktualisieren Sie die Verbindungszeichenfolge, indem Sie POST aufrufen (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections).
-6. Rufen Sie die GW-ID und Datenquellen-ID über GET (https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources) auf.
+6. Rufen Sie GW und Datasource-Bezeichner, durch den Aufruf - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Aktualisieren Sie die Benutzeranmeldedaten, indem Sie PATCH (https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}) aufrufen.
 
 #### <a name="old-dataset--reports"></a>Altes Dataset & Bericht
@@ -200,7 +200,7 @@ Sie sollten in Azure einige Bereinigungsschritte ausführen.
 [Migrationstool für die Power BI-Arbeitsbereichssammlung](migrate-tool.md)  
 [Codeausschnitte zum Migrieren von Inhalten aus der Power BI-Arbeitsbereichssammlung](migrate-code-snippets.md)  
 [Wie soll ich Power BI-Dashboards, -Berichte und -Kacheln einbetten?](embedding-content.md)  
-[Power BI Premium – Beschreibung](../service-premium.md)  
+[Power BI Premium – Beschreibung](../service-premium-what-is.md)  
 [JavaScript-API-Git-Repository](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI-C#-Git-Repository](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript-Einbettungsbeispiel](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

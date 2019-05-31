@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007727"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163069"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Herstellen einer Verbindung mit Planview Enterprise mithilfe von Power BI
 Mit dem Planview Enterprise-Inhaltspaket können Sie Ihre Ressourcen- und Arbeitsverwaltungsdaten auf ganz neue Weise direkt in Power BI visualisieren. Verwenden Sie Ihre Planview Enterprise-Anmeldeinformationen, um auf interaktive Weise Ihre Portfolio-Investitionsausgaben anzuzeigen und zu sehen, welche Ihrer Projekte sich oberhalb und welche unterhalb des Budgetrahmens befinden und wie gut sich diese im Einklang mit den strategischen Prioritäten des Unternehmens befinden. Sie können das Standarddashboard und die Berichte auch erweitern, um diejenigen Einblicke zu erhalten, die für Sie am wichtigsten sind.

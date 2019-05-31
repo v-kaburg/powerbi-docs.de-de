@@ -1,8 +1,8 @@
 ---
 title: Multi-Geo-Unterstützung für Power BI Premium
 description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen können.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571977"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564942"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Multi-Geo-Unterstützung für Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Konfigurieren der Multi-Geo-Unterstützung für Power BI Premium
 
 Multi-Geo ist ein Power BI Premium-Feature, das multinationale Kunden bei der Erfüllung von regionalen, branchenspezifischen oder organisationsbezogenen Data Residency-Anforderungen unterstützt. Als Power BI Premium-Kunde können Sie Inhalte für Rechenzentren in anderen Regionen als der ursprünglichen Region des Power BI-Mandanten bereitstellen. Eine geografische Region (Geografie) kann mehr als eine Region umfassen. Die USA sind z.B. eine geografische Region und „USA, Westen-Mitte“ und „USA, Süden-Mitte“ Regionen innerhalb der USA. Außerdem können Sie Inhalte für eine der folgenden geografischen Regionen bereitstellen:
 
@@ -35,7 +35,7 @@ Multi-Geo ist nicht für Power BI Deutschland, Power BI China (betrieben von 21V
 
 Multi-Geo steht ab sofort auch in Power BI Embedded zur Verfügung. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung in Power BI Embedded](developer/embedded-multi-geo.md).
 
-## <a name="using-multi-geo"></a>Verwendung von Multi-Geo
+## <a name="enable-and-configure"></a>Aktivieren und konfigurieren
 
 Aktivieren Sie für die Verwendung der neuen Funktionen Multi-Geo, indem Sie eine andere Region als die Standardregion aus der Dropdownliste auswählen.  Jede verfügbare Kapazität zeigt die Region an, in der sie sich zurzeit befindet, z.B. **USA, Westen-Mitte**.
 
@@ -68,7 +68,7 @@ Diese Elemente bleiben in der ursprünglichen Region des Mandanten:
 - Berechtigungen
 - Datasetanmeldeinformationen
 
-## <a name="view-capacity-regions"></a>Anzeigen von Kapazitätsregionen
+## <a name="view-capacity-regions"></a>Die Kapazität Regionen anzeigen
 
 Im Verwaltungsportal können Sie alle Kapazitäten für Ihren Power BI-Mandanten und die Regionen anzeigen, in denen sie sich aktuell befinden.
 
@@ -98,7 +98,7 @@ Sie haben zwei Möglichkeiten, Arbeitsbereiche aus der Multi-Geo-Kapazität zu e
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-- [Was ist Microsoft Power BI Premium Was ist das?](service-premium.md)
+- [Was ist Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo für Power BI Embedded-Kapazitäten](developer/embedded-multi-geo.md)
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

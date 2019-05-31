@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4c1a7bce8eb24534974fe6a06a8bada4ba9fb708
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264689"
+---
 In diesem Thema sehen wir uns genauer an, wie sich die ersten beiden Bestandteile von Power BI zusammenfügen:
 
 * Erstellen eines Berichts in **Power BI Desktop**
@@ -41,7 +49,7 @@ Sie werden aufgefordert, sich bei Power BI anzumelden.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_7.png)
 
-Wenn Sie angemeldet waren, und der Veröffentlichungsprozess abgeschlossen ist, wird das folgende Dialogfeld angezeigt. Sie können den Link auswählen (unter **Erfolg!**), um zum Power BI-Dienst zu gelangen, in dem der soeben veröffentlichte Bericht angezeigt wird.
+Wenn Sie angemeldet waren, und der Veröffentlichungsprozess abgeschlossen ist, wird das folgende Dialogfeld angezeigt. Sie können den Link auswählen (unter **Erfolg!** ), um zum Power BI-Dienst zu gelangen, in dem der soeben veröffentlichte Bericht angezeigt wird.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_8.png)
 

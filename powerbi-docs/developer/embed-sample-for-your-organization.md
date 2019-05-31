@@ -1,21 +1,21 @@
 ---
 title: Embedded Analytics für das Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
 description: Hier erfahren Sie, wie Sie mit den Power BI-APIs einen Bericht, ein Dashboard oder eine Kachel für Embedded Analytics für Ihre Organisation in eine Anwendung integrieren bzw. einbetten. In diesem Artikel erfahren Sie, wie Sie Power BI mit Embedded Analytics-Software, Embedded Analytics-Tools oder eingebetteten Business Intelligence-Tools in Ihre Anwendung integrieren.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757459"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355023"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Einbetten von Power BI-Inhalten in eine Anwendung für Ihre Organisation
 
@@ -116,17 +116,17 @@ Führen Sie die folgenden Schritte aus, um **applicationId** abzurufen:
 
 2. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** > **App-Registrierungen**.
 
-    ![App-Registrierung, Suche](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. Wählen Sie die Anwendung aus, für die **applicationID** benötigt wird.
 
-    ![Auswählen einer App](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![Auswählen einer App](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. Es gibt eine **Anwendungs-ID**, die als GUID aufgeführt ist. Verwenden Sie diese **Anwendungs-ID** als **applicationId** für die Anwendung.
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>Anwendungsgeheimnis
+
+Dieses Attribut wird nur für den Authentifizierungstyp [Dienstprinzipal](embed-service-principal.md) benötigt.
 
 Geben Sie für **ApplicationSecret** die Informationen aus dem Abschnitt **Schlüssel** Ihres Abschnitts für **App-Registrierungen** in **Azure** ein.  Dieses Attribut ist geeignet, wenn ein [Dienstprinzipal](embed-service-principal.md) verwendet wird.
 
@@ -136,23 +136,17 @@ Führen Sie die folgenden Schritte aus, um **ApplicationSecret** abzurufen:
 
 2. Klicken Sie im Navigationsbereich auf der linken Seite auf **Alle Dienste** und dann auf **App-Registrierungen**.
 
-    ![App-Registrierung, Suche](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. Wählen Sie die Anwendung aus, die **ApplicationSecret** verwenden muss.
 
-    ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![App auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. Wählen Sie **Einstellungen**aus.
+4. Wählen Sie **Zertifikaten und geheimen Schlüsseln** unter **verwalten**.
 
-    ![„Einstellungen“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Klicken Sie auf **Schlüssel**.
-
-    ![„Schlüssel“ auswählen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Wählen Sie **neuer geheimer Clientschlüssel**.
 
 6. Geben Sie in das Feld **Beschreibung** einen Namen ein, und wählen Sie eine Dauer aus. Klicken Sie anschließend auf **Speichern**, um den **Wert** für Ihre Anwendung abzurufen. Wenn Sie den Bereich **Schlüssel** nach dem Speichern des Schlüsselwerts schließen, wird das Wertfeld nur als ausgeblendet angezeigt. An diesem Punkt können Sie den Schlüsselwert nicht abrufen. Wenn Sie den Schlüsselwert verlieren, müssen Sie im Azure-Portal einen neuen erstellen.
 
-    ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Schlüsselwert](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>Arbeitsbereichs-ID
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Geben Sie die **AADAuthorityUrl**-Informationen mit der URL an, die Ihnen entweder das Einbetten in Ihrem Organisationsmandanten oder mit einem Gastbenutzer erlaubt.
 
-Zum Einbetten mit Ihrem Organisationsmandanten verwenden Sie die folgende URL: *https://login.microsoftonline.com/common/oauth2/authorize*.
+Zum Einbetten mit Ihrem Organisationsmandanten verwenden Sie die folgende URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Zum Einbetten mit einem Gastbenutzer verwenden Sie die folgende URL: *https://login.microsoftonline.com/report-owner-tenant-id*. Fügen Sie auf dieser Seite die Mandanten-ID des Besitzers des Berichts hinzu, welche *report-owner-tenant-id* (Mandanten-ID des Berichtsbesitzers) ersetzt.
+Zum Einbetten mit einem Gastbenutzer verwenden Sie die folgende URL: *https://login.microsoftonline.com/report-owner-tenant-id* . Fügen Sie auf dieser Seite die Mandanten-ID des Besitzers des Berichts hinzu, welche *report-owner-tenant-id* (Mandanten-ID des Berichtsbesitzers) ersetzt.
 
 ### <a name="run-the-application"></a>Ausführen der Anwendung
 
@@ -400,7 +394,7 @@ Wenn Sie mit dem Entwickeln Ihrer Anwendung fertig sind, sollten Sie Ihren App-A
 
 ### <a name="create-a-dedicated-capacity"></a>Erstellen einer dedizierten Kapazität
 
-Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem App-Arbeitsbereich verwenden. Sie können mit [Power BI Premium](../service-premium.md) eine dedizierte Kapazität erstellen.
+Indem Sie eine dedizierte Kapazität erstellen, können Sie die dazugehörigen Vorteile für den Inhalt in Ihrem App-Arbeitsbereich verwenden. Sie können mit [Power BI Premium](../service-premium-what-is.md) eine dedizierte Kapazität erstellen.
 
 In der folgenden Tabelle werden die verfügbaren Power BI Premium-SKUs in [Microsoft Office 365](../service-admin-premium-purchase.md) aufgelistet:
 

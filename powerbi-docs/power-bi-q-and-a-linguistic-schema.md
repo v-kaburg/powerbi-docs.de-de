@@ -11,11 +11,11 @@ ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289921"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61420707"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Bearbeiten des linguistischen Schemas für Q&A und Hinzufügen von Ausdrücken in Power BI Desktop 
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in Power BI möglich. Wenn Sie Power BI eine Frage stellen, bemüht sich das Programm, diese richtig zu beantworten. 
@@ -92,7 +92,7 @@ Wenn Sie Ihre linguistische Schemadatei wieder in Power BI Desktop importieren, 
 2. Wählen Sie die Registerkarte **Modellierung** aus, und klicken Sie auf **Linguistisches Schema exportieren**.
 3. Wählen Sie Visual Studio Code (oder einen anderen Editor) aus.
 4. Nehmen Sie Ihre Bearbeitungen vor, und speichern Sie die YAML-Datei.
-5. Wählen Sie in Power BI Desktop in der **Beziehungsansicht die Registerkarte „Modellierung“ aus, und klicken Sie auf „Linguistisches Schema > Linguistisches Schema importieren“**.
+5. Wählen Sie in Power BI Desktop in der **Beziehungsansicht die Registerkarte „Modellierung“ aus, und klicken Sie auf „Linguistisches Schema > Linguistisches Schema importieren“** .
 6. Navigieren Sie zum Speicherort der bearbeiteten YAML-Datei, und wählen Sie sie aus. Eine Erfolgsmeldung lässt Sie wissen, dass die YAML-Datei des linguistischen Schemas erfolgreich importiert wurde.
 
     ![Erfolgsmeldung](media/power-bi-q-and-a-linguistic-schema/power-bi-success.png)

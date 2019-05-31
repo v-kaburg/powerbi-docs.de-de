@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514637"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analysieren von Webseitendaten mit Power BI Desktop
@@ -55,7 +55,7 @@ So importieren Sie die Daten:
    >[!NOTE]
    >Der Bereich **Vorschau** zeigt die zuletzt ausgewählte Tabelle an, es werden aber alle ausgewählten Tabellen in den **Power Query-Editor** geladen, wenn Sie auf **Bearbeiten** oder **Laden** klicken. 
    
-3. Wählen Sie die **Results[edit]**-Tabelle in der **Navigator**-Liste aus, und klicken Sie auf **Bearbeiten**. 
+3. Wählen Sie die **Results[edit]** -Tabelle in der **Navigator**-Liste aus, und klicken Sie auf **Bearbeiten**. 
    
    Eine Vorschau der Tabelle wird im **Power Query-Editor** geöffnet, in dem Sie Transformationen zum Bereinigen der Daten anwenden können. 
    
@@ -127,7 +127,7 @@ Die Abfrage wird in die **Berichtsansicht** von Power BI Desktop geladen. Dort k
    ![Bereich „Felder“](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 >[!TIP]
 >Sie können immer zum **Power Query-Editor** zurückkehren und Ihre Abfrage bearbeiten und optimieren. Dazu stehen zwei Möglichkeiten zur Verfügung:
->- Klicken Sie im Bereich **Felder** neben **Euro Cup Winners** auf die Schaltfläche mit den drei Auslassungspunkten (**...**), um **weitere Optionen** anzuzeigen, und wählen Sie **Abfrage bearbeiten** aus der Dropdownliste aus.
+>- Klicken Sie im Bereich **Felder** neben **Euro Cup Winners** auf die Schaltfläche mit den drei Auslassungspunkten ( **...** ), um **weitere Optionen** anzuzeigen, und wählen Sie **Abfrage bearbeiten** aus der Dropdownliste aus.
 >- Wählen Sie auf der Menübandregisterkarte **Start** der Ansicht „Bericht“ in der Gruppe **Externe Daten** nacheinander die Optionen **Abfragen bearbeiten** > **Abfragen bearbeiten** aus. 
 
 ## <a name="create-a-visualization"></a>Erstellen einer Visualisierung
@@ -163,7 +163,7 @@ Sie können die Darstellung einer Visualisierung ändern, indem Sie die Visualis
    ![Farbe ändern](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
    
 3. Klicken Sie auf **Titel**, um die Titeloptionen zu erweitern, und geben Sie im Feld **Titeltext** anstelle des aktuellen Titels **Euro Cup Winners** ein. 
-4. Ändern Sie die **Schriftfarbe** zu Rot, die **Textgröße** zu **12** und die **Schriftfamilie** zu **Segoe (Fett)**. 
+4. Ändern Sie die **Schriftfarbe** zu Rot, die **Textgröße** zu **12** und die **Schriftfamilie** zu **Segoe (Fett)** . 
    
    ![Datenfarben formatieren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
    
@@ -181,7 +181,7 @@ Um die Karte in ein Kreisdiagramm zu ändern, wählen Sie die Karte aus, und kli
 
 >[!TIP]
 >- Sie können die Formatierungsoptionen **Datenfarben** verwenden, um „Germany“ und „West Germany“ mit der gleichen Farbe anzuzeigen. 
->- Um die Länder mit den meisten Siegen im Kreisdiagramm zu gruppieren, klicken Sie oben rechts in der Visualisierung auf die Auslassungspunkte (**...**), und wählen Sie **Nach Anzahl der Jahre sortieren** aus der Dropdownliste aus. 
+>- Um die Länder mit den meisten Siegen im Kreisdiagramm zu gruppieren, klicken Sie oben rechts in der Visualisierung auf die Auslassungspunkte ( **...** ), und wählen Sie **Nach Anzahl der Jahre sortieren** aus der Dropdownliste aus. 
 
 Power BI Desktop bietet ein nahtloses End-to-End-Erlebnis, das vom Abrufen der Daten aus einer Vielzahl von Datenquellen über die Strukturierung der Daten für Analysezwecke bis zur Visualisierung dieser Daten auf umfassende und interaktive Weise reicht. Nachdem Ihr Bericht fertig ist, können Sie ihn [in Power BI hochladen](desktop-upload-desktop-files.md) und auf seiner Grundlage Dashboards erstellen, die Sie für andere Power BI-Benutzer freigeben können.
 

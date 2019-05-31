@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008486"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171617"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Herstellen einer Verbindung mit UserVoice mithilfe von Power BI
 Das Nachverfolgen und Durchsuchen Ihrer UserVoice-Daten ist mit Power BI und dem UserVoice-Inhaltspaket problemlos möglich. Power BI ruft Ihre Daten ab, einschließlich der Tickets, Vorschläge und Zufriedenheitsbewertungen, und erstellt dann ohne Konfiguration ein Dashboard sowie Berichte auf der Grundlage dieser Daten.

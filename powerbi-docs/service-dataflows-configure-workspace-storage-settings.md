@@ -1,21 +1,21 @@
 ---
 title: Konfigurieren von Datafloweinstellungen im Arbeitsbereich
-description: Konfigurieren eines App-Arbeitsbereichs in Power BI, um dessen Dataflowdefinition und Datendateien in Azure Data Lake Storage Gen2 zu speichern
+description: Konfigurieren Sie einen app-Arbeitsbereich in Power BI, um die Datenfluss-Definition und die Datendateien in Azure Data Lake-Speicher Gen2 gespeichert
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168556"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion)
 
@@ -52,9 +52,6 @@ Erweitern Sie als nächsten Schritt im Dialogfeld **App-Arbeitsbereich erstellen
 ![Erweiterte Einstellungen für den neuen Arbeitsbereich](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Klicken Sie auf **Speichern**, um den neuen Arbeitsbereich zu erstellen. Sobald nun ein neuer Dataflow in diesem Arbeitsbereich erstellt wird, werden automatisch auch dessen Definitionsdatei (Datei des Typs „model.json“) und Daten im Azure Data Lake Storage Gen2-Konto Ihrer Organisation gespeichert. 
-
-> [!NOTE]
-> Die Dataflowfunktionalität befindet sich in der Vorschau und unterliegt vor der allgemeinen Verfügbarkeit Änderungen und Updates.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Aktualisieren eines Dataflowspeichers in einem vorhandenen Arbeitsbereich
 

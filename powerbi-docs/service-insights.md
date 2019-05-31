@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276420"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238463"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Automatisches Erstellen von Einblicken in Daten mit Power BI
 Sie besitzen ein neues Dataset und wissen nicht, womit Sie beginnen sollen?  Sie müssen schnell ein Dashboard erstellen?  Sie möchten nach Einblicken suchen, die Sie möglicherweise übersehen haben?

@@ -7,15 +7,15 @@ ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/03/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: ''
-ms.openlocfilehash: fbfd8c98743144e0c9604aca4174d6ef32916e77
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: c981a3e2a05129a470c8d26675226bfb42c1bb68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914274"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769532"
 ---
 # <a name="query-caching-in-power-bi-premium"></a>Zwischenspeicherung von Abfragen in Power BI Premium
 
@@ -26,9 +26,7 @@ Organisationen mit Power BI Premium können von der *Zwischenspeicherung von Abf
 
 Zwischengespeicherte Abfrageergebnisse beziehen sich auf den Benutzer- und Datasetkontext und berücksichtigen Sicherheitsregeln. Derzeit führt der Dienst die Zwischenspeicherung von Abfragen nur für die erste Seite durch, auf die Sie gelangen. Abfragen werden also nicht zwischengespeichert, wenn Sie mit dem Bericht interagieren. Der Cache enthält persönliche Lesezeichen und permanente Filter. [Dashboardkacheln](service-dashboard-tiles.md), die von denselben Abfragen unterstützt werden, profitieren ebenfalls davon, sobald die Abfrage zwischengespeichert wurde. Die Leistung wird ebenfalls optimiert, wenn regelmäßig auf ein Dataset zugegriffen wird und dieses nicht oft aktualisiert werden muss. Die Zwischenspeicherung von Abfragen kann zudem die Last auf Ihrer Premium-Kapazität verringern, indem die Gesamtzahl der Abfragen reduziert wird.
 
-Sie steuern das Zwischenspeicherungsverhalten für Abfragen für das Dataset im Power BI-Dienst über die Seite **Einstellungen**. Ihnen stehen drei mögliche Einstellungen zur Verfügung:
-
-- **Kapazitätsstandard:** Das Dataset erbt die Einstellung von der Premium-Kapazität. Die Standardkapazität wird vom Administrator der Power BI Premium-Kapazität gesteuert.
+Sie steuern das Zwischenspeicherungsverhalten für Abfragen für das Dataset im Power BI-Dienst über die Seite **Einstellungen**. Er hat zwei mögliche Einstellungen:
 
 - **Aus:** Die Zwischenspeicherung von Abfragen darf für dieses Dataset nicht verwendet werden.
 

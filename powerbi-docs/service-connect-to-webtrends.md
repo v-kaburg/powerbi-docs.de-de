@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008670"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138041"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Herstellen einer Verbindung mit Webtrends mithilfe von Power BI
 Das Webtrends-Inhaltspaket für Power BI enthält eine Vielzahl von Metriken, die ohne Konfiguration verfügbar sind, wie etwa die Anzahl der Seitenaufrufe und die Besuche nach Verkehrsquelle. Das Visualisieren Ihrer Webtrends-Daten in Power BI beginnt mit dem Herstellen der Verbindung mit Ihrem Webtrends-Konto. Sie können die bereitgestellten Dashboards und Berichte verwenden oder sie anpassen, um die für Sie wichtigsten Informationen hervorzuheben.  Die Daten werden automatisch einmal täglich aktualisiert.

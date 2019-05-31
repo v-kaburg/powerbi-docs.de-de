@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695194"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269812"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Veröffentlichen von benutzerdefinierten Visuals in AppSource
 
@@ -30,7 +30,7 @@ Nachdem Sie ein benutzerdefiniertes Visual erstellt haben, empfiehlt es sich, es
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Vorbereiten der Übermittlung Ihrer benutzerdefinierten Visualisierung
 
-Nachdem Sie das benutzerdefinierte Visual programmiert, [getestet](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) und als PBIVIZ-Datei gepackt haben, sollten zudem die folgenden Elemente für die Übermittlung bereitstehen:
+Sobald Sie fertig sind lesen unsere [Power BI-Visuals-Richtlinien](guidelines-powerbi-visuals.md), Codierung und [Testen Ihrer benutzerdefinierten Visualisierung](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) und haben verpackt es in eine Pbiviz-Datei, außerdem müssen Sie folgende Angaben bereit für die Übermittlung.
 
 | Artikel | Erforderlich | Beschreibung |
 | --- | --- | --- |

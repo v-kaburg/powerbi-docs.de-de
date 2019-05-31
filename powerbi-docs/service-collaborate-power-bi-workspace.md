@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174566"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181681"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Zusammenarbeit in Ihrem Power BI-App-Arbeitsbereich
 Power BI-App-Arbeitsbereiche stellen einen hervorragenden Ort für die Zusammenarbeit mit Ihren Kollegen an Dashboards, Berichten und Datasets dar, um *Apps* zu erstellen. Die Zusammenarbeit endet jedoch nicht bei Arbeitsbereichen in Power BI. Office 365 bietet weitere Gruppendienste, z.B. das Freigeben von Dateien auf OneDrive for Business, Unterhaltungen in Exchange, freigegebene Kalender und Aufgaben usw. Weitere Informationen erhalten Sie unter [Gruppen in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -43,7 +43,7 @@ Wenn Sie eine Power BI Desktop-Datei erstellt haben und diese in Ihrem Power BI-
 ## <a name="collaborate-in-office-365"></a>Zusammenarbeiten in Office 365
 Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Power BI.
 
-1. Wählen Sie im Power BI-Dienst den Pfeil neben „Arbeitsbereiche“ aus, und wählen Sie dann die Auslassungspunkte (**...**) neben dem Namen Ihres Arbeitsbereichs aus. 
+1. Wählen Sie im Power BI-Dienst den Pfeil neben „Arbeitsbereiche“ aus, und wählen Sie dann die Auslassungspunkte ( **...** ) neben dem Namen Ihres Arbeitsbereichs aus. 
    
    ![Menü „Arbeitsbereiche“](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Über dieses Menü können Sie auf verschiedene Arten mit Ihrer Gruppe zusammenarbeiten: 
@@ -64,7 +64,7 @@ Ausgangspunkt der Zusammenarbeit in Office 365 ist der App-Arbeitsbereich in Pow
 2. Erfahren Sie mehr über [Gruppenunterhaltungen in Outlook für Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Planen eines Ereignisses im Gruppenarbeitsbereichskalender der App
-1. Wählen Sie die Auslassungspunkte (**...**) neben dem Arbeitsbereichsnamen \> **Kalender** aus. 
+1. Wählen Sie die Auslassungspunkte ( **...** ) neben dem Arbeitsbereichsnamen \> **Kalender** aus. 
    
    ![Registerkarte „Kalender“](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

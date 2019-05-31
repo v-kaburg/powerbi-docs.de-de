@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941595"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Verwalten von Power BI im Verwaltungsportal
 
@@ -34,7 +34,7 @@ Ihr Konto muss in Office 365 oder Azure Active Directory als **Globaler Administ
 
     ![Einstellungen im Verwaltungsportal](media/service-admin-portal/powerbi-admin-settings.png)
 
-Das Portal umfasst sieben Registerkarten. In den verbleibenden Abschnitten dieses Artikels erhalten Sie Informationen zu jeder dieser Registerkarten.
+Es gibt neun Registerkarten im Portal ein. In den verbleibenden Abschnitten dieses Artikels erhalten Sie Informationen zu jeder dieser Registerkarten.
 
 ![Navigation im Verwaltungsportal](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,7 +44,9 @@ Das Portal umfasst sieben Registerkarten. In den verbleibenden Abschnitten diese
 * [Mandanteneinstellungen](#tenant-settings)
 * [Kapazitätseinstellungen](#capacity-settings)
 * [Einbindungscodes](#embed-codes)
-* [Visuals für Organisationen](#organizational-visuals)
+* [Visuals für Organisationen](#organization-visuals)
+* [Datenfluss Storage (Vorschau)](#dataflowStorage)
+* [Arbeitsbereiche](#workspaces)
 
 ## <a name="usage-metrics"></a>Nutzungsmetriken
 
@@ -126,15 +128,27 @@ Einstellungen können drei Zustände aufweisen:
 
 Die nächsten Abschnitte bieten einen Überblick über die verschiedenen Arten von Mandanteneinstellungen.
 
+## <a name="help-and-support-settings"></a>Hilfe und support – Einstellungen
+
+### <a name="publish-get-help-information"></a>Informationen über "Get-Help" Veröffentlichen
+
+Benutzer in der Organisation können interne Hilfe finden Sie unter und unterstützen von Ressourcen aus der Power BI-Menü "Hilfe". Dieser Parameter wird insbesondere das Verhalten von die Menüelemente erfahren Sie mehr, zur Community und Get-Help ändern.
+
+Es ist auch möglich, eine URL zur Weiterleitung von Benutzern, eine benutzerdefinierte Lösung für lizenzierungsanforderungen an. Dieser Parameter passt die Ziel-URL der Schaltfläche mit den Upgrade-Konto, den ein Benutzer ohne Power BI Pro-Lizenz finden Sie in das Update zu Power BI Pro (Dialogfeld), sowie auf persönlichen Speicher verwalten kann.
+
 ## <a name="workspace-settings"></a>Arbeitsbereichseinstellungen
 
-### <a name="create-workspaces-preview"></a>Erstellen von Arbeitsbereichen (Vorschau)
+### <a name="create-workspaces"></a>Erstellen von Arbeitsbereichen
 
-Benutzer in der Organisation können App-Arbeitsbereiche erstellen, um gemeinsam an Dashboards, Berichten und anderen Inhalten zu arbeiten. [Weitere Informationen](service-create-the-new-workspaces.md)
+Administratoren verwenden die **Arbeitsbereiche erstellen** Einstellung, um anzugeben, welche Benutzer in der Organisation app-Arbeitsbereiche für die Zusammenarbeit auf Dashboards, Berichte und andere Inhalte erstellen können. Erfahren Sie mehr über [app-Arbeitsbereiche](service-create-the-new-workspaces.md).
+
+Das Verwaltungsportal ist einem anderen Bereich der Einstellungen über die Arbeitsbereiche in Ihrem Mandanten. In diesem Abschnitt können Sie sortieren und Filtern Sie die Liste der Arbeitsbereiche und die Details für jeden Arbeitsbereich angezeigt. Finden Sie unter [Arbeitsbereiche](#workspaces) Details.
+
+Im Verwaltungsportal steuern Sie auch die Benutzer über Berechtigungen zum Verteilen von apps für die Organisation verfügen. Finden Sie unter [Inhaltspakete und apps für die gesamte Organisation veröffentlichen](#publish-content-packs-and-apps-to-the-entire-organization) in diesem Artikel Weitere Informationen.
 
 ## <a name="export-and-sharing-settings"></a>Einstellungen für Export und Freigabe
 
-### <a name="share-content-to-external-users"></a>Freigeben von Inhalten für externe Benutzer
+### <a name="share-content-with-external-users"></a>Inhalten für externe Benutzer freigeben
 
 Benutzer in der Organisation können Dashboards für Benutzer außerhalb der Organisation freigeben. [Weitere Informationen](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
@@ -142,7 +156,7 @@ Benutzer in der Organisation können Dashboards für Benutzer außerhalb der Org
 
 Die folgende Abbildung zeigt die Meldung, die bei der Freigabe für einen externen Benutzer angezeigt wird.
 
-![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Freigabe für externen Benutzer](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
 ### <a name="publish-to-web"></a>Im Web veröffentlichen
 
@@ -154,7 +168,7 @@ Die folgende Abbildung zeigt das Menü **Datei** für einen Bericht an, wenn die
 
 Den Benutzer werden basierend auf der Einstellung **Im Web veröffentlichen** unterschiedliche Optionen in der Benutzeroberfläche angezeigt.
 
-|Ausgewählt |Für die gesamte Organisation aktiviert |Für die gesamte Organisation deaktiviert |Bestimmte Sicherheitsgruppen   |
+|Feature |Für die gesamte Organisation aktiviert |Für die gesamte Organisation deaktiviert |Bestimmte Sicherheitsgruppen   |
 |---------|---------|---------|---------|
 |**Im Web veröffentlichen** im Menü **Datei** des Berichts.|Für alle aktiviert|Nicht für alle sichtbar|Nur für autorisierte Benutzer oder Gruppen sichtbar|
 |**Einbindungscodes verwalten** unter **Einstellungen**|Für alle aktiviert|Für alle aktiviert|Für alle aktiviert<br><br>Option * **Löschen** nur für autorisierte Benutzer oder Gruppen<br>* **Codes abrufen** für alle aktiviert|
@@ -203,19 +217,19 @@ In der folgenden Abbildung wird die Option „Allow external guest users to edit
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Inhaltspakete und Apps für die gesamte Organisation veröffentlichen
 
-Benutzer in der Organisation können Inhaltspakete und Apps für die gesamte Organisation veröffentlichen, nicht nur für bestimmte Gruppen. [Weitere Informationen](service-organizational-content-pack-manage-update-delete.md)
+Administratoren verwenden Sie diese Einstellung um zu entscheiden, welche Benutzer auf die gesamte Organisation und nicht nur bestimmte Gruppen Inhaltspakete und apps veröffentlichen können. Erfahren Sie mehr über [Veröffentlichen von apps](service-create-distribute-apps.md).
 
 Die folgende Abbildung zeigt die Option **Meine gesamte Organisation** beim Erstellen eines Inhaltspakets.
 
 ![Veröffentlichen von Inhaltspaketen für die Organisation](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps"></a>Erstellen von Vorlagen-Apps
+### <a name="create-template-apps-and-organizational-content-packs"></a>Vorlage-apps und organisationsbezogene Inhaltspakete erstellen
 
-Benutzer in der Organisation können Vorlagen-Apps erstellen, die in Power BI Desktop erstellte Datasets verwenden. Weitere Informationen finden Sie unter [template apps (Vorlagen-Apps)](template-content-pack-authoring.md).
+Vorlage-apps und organisationsbezogene Inhaltspakete, die auf einer Datenquelle in Power BI Desktop basierende Datasets verwenden, können Benutzer in der Organisation erstellen. Erfahren Sie mehr über [Vorlage apps](template-content-pack-authoring.md).
 
 ### <a name="push-apps-to-end-users"></a>Apps mithilfe von Push an Endbenutzer übertragen
 
-Benutzer können Apps direkt und ohne Installation aus AppSource für Endbenutzer freigeben. [Weitere Informationen](service-create-distribute-apps.md)
+Berichtersteller können apps direkt mit Benutzern teilen, ohne Installation aus [AppSource](https://appsource.microsoft.com). Erfahren Sie mehr über [automatischen Installieren von apps für Endbenutzer](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
 
 ## <a name="integration-settings"></a>Integrationseinstellungen
 
@@ -335,11 +349,18 @@ Benutzer in der Organisation können Dashboards mit Klassifizierungen markieren,
 
 Benutzer in der Organisation können Power BI-Dashboards und -Berichte in SaaS-Anwendungen (Software as a Service) einbetten. Ist diese Einstellung deaktiviert, können Benutzer die REST-APIs nicht dazu verwenden, um Power BI-Inhalt in ihre Anwendungen einzubetten. [Weitere Informationen](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>Datafloweinstellungen (Vorschau)
+### <a name="allow-service-principals-to-use-power-bi-apis"></a>Dienstprinzipalen die Verwendung von Power BI-APIs gestatten
 
-### <a name="create-and-use-dataflows-preview"></a>Erstellen und Verwenden von Dataflows (Vorschau)
+Web-apps in Azure Active Directory (Azure AD) registriert werden einen zugewiesenen Dienstprinzipal verwenden, um Power BI-APIs, die ohne einen angemeldeten Benutzer darauf zugreifen. Damit einer app, die dienstprinzipalauthentifizierung verwenden ihres dienstprinzipals kann müssen in einer zulässigen Sicherheitsgruppe enthalten sein. [Weitere Informationen](developer/embed-service-principal.md)
 
-Benutzer in der Organisation können Dataflows erstellen und verwenden. Weitere Informationen zu Dataflows finden Sie unter [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md). Informationen zum Aktivieren von Dataflows in einer Premium-Kapazität finden Sie im Abschnitt „Konfigurieren von Workloads“ unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-workloads.md).
+> [!NOTE]
+> Dienstprinzipale erben die Berechtigungen für alle Power BI-Mandanteneinstellungen von ihrer Sicherheitsgruppe. Wenn Berechtigungen eingeschränkt werden sollen, erstellen Sie eine dedizierte Sicherheitsgruppe für Dienstprinzipale und fügen diese der Liste „Ausgenommen spezifische Sicherheitsgruppen“ für die relevanten, aktivierten Power BI-Einstellungen hinzu.
+
+## <a name="dataflow-settings"></a>Datafloweinstellungen
+
+### <a name="create-and-use-dataflows"></a>Erstellen und Verwenden von Dataflows
+
+Benutzer in der Organisation können Dataflows erstellen und verwenden. Einen Überblick über die Datenflüsse, finden Sie unter [in Power BI für die Vorbereitung von Self-service-](service-dataflows-overview.md). Informationen zum Aktivieren von Dataflows in einer Premium-Kapazität finden Sie im Abschnitt „Konfigurieren von Workloads“ unter [Verwalten von Kapazitäten in Power BI Premium und Power BI Embedded](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Diese Einstellung gilt für die gesamte Organisation und kann nicht auf bestimmte Gruppen beschränkt werden.
@@ -350,11 +371,18 @@ Es gibt zwei Einstellungen für Vorlagen-Apps.
 
 ![Einstellungen für Vorlagen-Apps im Power BI-Verwaltungsportal](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-Mit der ersten Einstellung **Vorlagen-Apps erstellen** wird gesteuert, wer in Ihrer Organisation Vorlagen-Apps erstellen kann. Die Ersteller der Vorlagen-Apps können sie dann über AppSource oder eine andere Verteilungsmethode an Clients außerhalb Ihrer Organisation verteilen.
+### <a name="create-template-apps-preview"></a>Vorlagen-Apps erstellen (Vorschau)
+
+Benutzer in der Organisation können die Vorlage apps erstellen. App-Ersteller der Vorlage können sie dann für Clients außerhalb Ihrer Organisation mithilfe von verteilen [AppSource](https://appsource.microsoft.com) oder anderen Verteilungsmethoden.
 
 ![Vorlagen-App-Einstellung im Power BI-Verwaltungsportal erstellen](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-Mit der zweiten Einstellung **Vorlagen-Apps installieren** wird gesteuert, wer in Ihrer Organisation Vorlagen-Apps aus AppSource oder anderen Quellen herunterladen und installieren kann.
+### <a name="install-template-apps-preview"></a>Installieren Sie die Vorlage apps (Vorschau)
+
+Benutzer in der Organisation können apps heruntergeladen und installiert Vorlage aus [AppSource](https://appsource.microsoft.com) oder einer anderen Quelle.
+
+> [!NOTE]
+> Diese Einstellung bestimmt, welche Benutzer die Vorlage-apps in ihren Power BI-Konten installieren können.
 
 ## <a name="capacity-settings"></a>Kapazitätseinstellungen
 
@@ -366,7 +394,7 @@ Mit der zweiten Einstellung **Vorlagen-Apps installieren** wird gesteuert, wer i
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Auf der Registerkarte **Power BI Embedded** können Sie die Power BI Embedded-Kapazitäten (A-SKU) anzeigen, die Sie für Ihren Kunden erworben haben. Da es nur möglich ist, A-SKUs von Azure zu erwerben, können Sie [verwaltete Embedded-Kapazitäten in Azure](developer/azure-pbie-create-capacity.md) über das **Azure-Portal** verwalten.
+Auf der Registerkarte **Power BI Embedded** können Sie die Power BI Embedded-Kapazitäten (A-SKU) anzeigen, die Sie für Ihren Kunden erworben haben. Da Sie nur A-SKUs von Azure erwerben können Sie [eingebundene Kapazitäten in Azure verwalten](developer/azure-pbie-create-capacity.md) aus **im Azure-Portal**.
 
 Weitere Informationen zum Verwalten von Power BI Embedded-Einstellungen (A-SKU) finden Sie unter [Was ist Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md).
 
@@ -376,9 +404,9 @@ Als Administrator können Sie die Einbindungscodes anzeigen, die für Ihren Mand
 
 ![Einbindungscodes innerhalb des Power BI-Verwaltungsportals](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals"></a>Visuals für Organisationen
+## <a name="organizational-visuals">Visuals für Organisationen</a>
 
-Auf der Registerkarte **Visuals für Organisationen** können Sie benutzerdefinierte Visuals in Ihrer Organisation bereitstellen und verwalten. Mit Organisationsvisuals können Sie ganz einfach proprietäre Visuals in Ihrer Organisation bereitstellen. Berichtsautoren können diese Visuals dann erkunden und in ihre Berichte in Power BI Desktop importieren. [Weitere Informationen](power-bi-custom-visuals-organization.md)
+Auf der Registerkarte **Organisationsvisuals** können Sie benutzerdefinierte Visuals in Ihrer Organisation bereitstellen und verwalten. Mit Organisationsvisuals können Sie ganz einfach proprietäre Visuals in Ihrer Organisation bereitstellen. Berichtsautoren können diese Visuals dann erkunden und in ihre Berichte in Power BI Desktop importieren. [Weitere Informationen](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses im Repository der Organisation bereitstellen.
@@ -436,19 +464,21 @@ Stellen Sie sicher, dass die Visual-ID unverändert bleibt. Die neue Datei erset
 
 Weitere Informationen finden Sie in den [häufig gestellten Fragen zu benutzerdefinierten Visuals in Organisationen](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals).
 
-## <a name="dataflow-storage-preview"></a>Dataflowspeicher (Vorschau)
+## <a name="dataflowStorage">Datenfluss Storage (Vorschau)</a>
 
 Mit Power BI verwendete Daten werden standardmäßig im internen Speicher von Power BI gespeichert. Mit der Integration von Dataflows und Azure Data Lake Storage Gen2 (ADLS Gen2) können Sie Ihre Dataflows im Azure Data Lake Storage Gen2-Konto Ihrer Organisation speichern. Weitere Informationen finden Sie unter [Dataflows und Azure Data Lake-Integration (Vorschauversion)](service-dataflows-azure-data-lake-integration.md).
 
-## <a name="workspaces-preview"></a>Arbeitsbereiche (Vorschau)
+## <a name="workspaces"></a>Arbeitsbereiche
 
-Als Administrator können Sie die Arbeitsbereiche anzeigen, die in Ihrem Mandanten vorhanden sind. Sie können die Liste der Arbeitsbereiche sortieren und filtern und die Details zu jedem Arbeitsbereich anzeigen. Beachten Sie, dass die Tabellenspalten den von der [Power BI Admin-Rest-API](/rest/api/power-bi/admin) für Arbeitsbereiche zurückgegebenen Eigenschaften entsprechen. Persönliche Arbeitsbereiche weisen den Typ **PersonalGroup**, Legacy-Arbeitsbereiche den Typ **Group** und moderne Arbeitsbereiche den Typ **Workspace** auf. Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche (Vorschau) in Power BI](service-create-the-new-workspaces.md).
+Als Administrator können Sie die Arbeitsbereiche anzeigen, die in Ihrem Mandanten vorhanden sind. Sie können die Liste der Arbeitsbereiche sortieren und filtern und die Details zu jedem Arbeitsbereich anzeigen. Spalten der Tabelle entsprechen den Eigenschaften, die zurückgegeben werden, indem die [Power BI-Administrator-Rest-API](/rest/api/power-bi/admin) für Arbeitsbereiche. Persönlichen Arbeitsbereiche sind vom Typ **PersonalGroup**, klassischen Arbeitsbereiche sind vom Typ **Gruppe**, und der neue Arbeitsbereich Erfahrung Arbeitsbereiche vom Typ **Arbeitsbereich**. Weitere Informationen finden Sie unter [erstellen Sie die neue Arbeitsbereiche in Power BI](service-create-the-new-workspaces.md).
 
 ![Liste der Arbeitsbereiche](media/service-admin-portal/workspaces-list.png)
 
+
 ## <a name="next-steps"></a>Nächste Schritte
 
-[Verwalten von Power BI in Ihrer Organisation](service-admin-administering-power-bi-in-your-organization.md) [Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  
+[Verwalten von Power BI in Ihrer Organisation](service-admin-administering-power-bi-in-your-organization.md)  
+[Grundlegendes zur Power BI-Administratorrolle](service-admin-role.md)  
 [Überwachen von Power BI in Ihrer Organisation](service-admin-auditing.md)  
 
-Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

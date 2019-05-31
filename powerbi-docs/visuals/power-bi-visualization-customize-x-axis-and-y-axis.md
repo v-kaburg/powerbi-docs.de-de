@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223304"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068579"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Anpassen der Eigenschaften der X- und Y-Achse
 In diesem Tutorial lernen Sie verschiedene Möglichkeiten zum Anpassen der X- und Y-Achse in Ihren visuellen Elementen kennen. Nicht alle visuellen Elemente verfügen über Achsen oder können angepasst werden. Bei Kreisdiagrammen gibt es z. B. keine Achsen. Darüber hinaus variieren die Anpassungsoptionen für die verschiedenen visuellen Elemente, sodass nicht alle Optionen in einem einzigen Artikel abgedeckt werden können. Betrachten wir daher die gängigsten Achsenanpassungen, damit Sie sich mit der Registerkarte für die visuelle Formatierung im Berichtszeichenbereich von Power BI vertraut machen können.  

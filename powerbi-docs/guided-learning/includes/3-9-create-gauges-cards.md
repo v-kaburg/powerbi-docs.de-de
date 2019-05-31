@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3fd97374836978a4902a878da141865c271df643
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396834"
+---
 Im Allgemeinen werden Visualisierungen zum Vergleichen von mindestens zwei unterschiedlichen Werten verwendet. Mitunter soll beim Erstellen von Berichten jedoch nur ein einzelner Key Performance Indicator (KPI) oder eine einzelne Metrik nachverfolgt werden. In Power BI Desktop besteht eine Möglichkeit hierfür in der Verwendung eines **Maßstabs** oder einer visuellen Karte mit **einzelner Zahl**. Um ein leeres Diagramm von einem dieser Typen zu erstellen, wählen Sie im Bereich **Visualisierungen** das entsprechende Symbol aus.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)

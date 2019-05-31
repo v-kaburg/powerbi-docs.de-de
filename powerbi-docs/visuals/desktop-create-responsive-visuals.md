@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280123"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394903"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimieren eines Power BI-Visuals für eine beliebige Größe
 Wenn Sie einen neuen Bericht erstellen, sind die Visuals standardmäßig *reaktionsfähig*: Sie ändern sich dynamisch, um unabhängig von der Bildschirmgröße eine möglichst große Menge an Daten und Erkenntnissen anzuzeigen. Die Größe von Visuals älterer Berichte können Sie ebenfalls dynamisch anpassen.

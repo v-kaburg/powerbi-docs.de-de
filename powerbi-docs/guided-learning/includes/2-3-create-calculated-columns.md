@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255704"
+---
 Das Erstellen von berechneten Spalten ist eine einfache Möglichkeit zum Erweitern und Optimieren von Daten. Eine **berechnete Spalte** ist eine neue Spalte, die Sie erstellen, indem Sie eine Berechnung definieren, die zwei oder mehr Elemente vorhandener Daten transformiert oder kombiniert. Beispielsweise können Sie eine neue Spalte erstellen, indem Sie zwei Spalten zu einer Spalte kombinieren.
 
 Nützlich ist das Erstellen einer berechneten Spalte beispielsweise, um eine Beziehung zwischen Tabellen herzustellen, wenn keine eindeutigen Felder vorhanden sind, die zum Herstellen einer Beziehung verwendet werden können. Eine fehlende Beziehung wird offensichtlich, wenn Sie eine einfache Tabellenvisualisierung in Power BI Desktop erstellen und für alle Einträge denselben Wert erhalten, obwohl die zugrunde liegenden Daten nachweislich unterschiedlich sind.

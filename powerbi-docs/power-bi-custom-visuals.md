@@ -8,26 +8,26 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: 3fd2f3e47c9b6dd2144ed5a66d45e65a00c5b92e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980333"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051259"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Benutzerdefinierte Visualisierungen in Power BI
 
-Beim Erstellen oder Bearbeiten eines Power BI-Berichts stehen Ihnen viele verschiedene Typen von Visuals zur Verfügung. Diese Visuals werden im Bereich **Visualisierungen** angezeigt. Wenn Sie [Power BI Desktop](https://powerbi.microsoft.com/desktop/) herunterladen oder den [Power BI-Dienst](https://app.powerbi.com) öffnen, ist dieser Satz von Visuals vorkonfiguriert.
+Beim Erstellen oder Bearbeiten von Power BI-Berichten, können Sie viele verschiedene Arten von Visualisierungen verwenden. Die Symbole für diese visuellen Elemente angezeigt werden, der **Visualisierungen** Bereich. Diese visuellen Elemente gibt es bereits beim Herunterladen von [Power BI Desktop](https://powerbi.microsoft.com/desktop/) oder öffnen Sie die [Power BI-Dienst](https://app.powerbi.com).
 
 ![Visualisierungen](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-Sie sind jedoch nicht auf diesen Satz von Visuals beschränkt. Durch Auswählen der Auslassungspunkte wird eine weitere Quelle von Berichtsvisuals geöffnet: *benutzerdefinierte Visuals*.
+Allerdings sind Sie nicht auf diesen Satz von Visuals beschränkt. Wenn Sie die Auslassungspunkte (...) am unteren Rand auswählen, wird eine andere Quelle von berichtsvisuals verfügbar –*benutzerdefinierte Visuals*.
 
-Benutzerdefinierte Visuals werden von Entwicklern mithilfe des SDK für benutzerdefinierte Visuals erstellt. Dadurch können Geschäftskunden die Daten auf die Weise anzeigen, die für das Unternehmen am besten geeignet ist. Berichtsautoren können die Dateien der benutzerdefinierten Visuals dann in ihre Berichte importieren und diese wie die anderen Power BI-Visuals verwenden. Benutzerdefinierte Visuals sind wichtige Bestandteile und können in Power BI unter anderem gefiltert, hervorhoben, bearbeitet und freigegeben werden.
+Entwickler Erstellen benutzerdefinierter Visualisierungen, die mit dem SDK für benutzerdefinierte Visuals. Diese Visuals können Geschäftskunden ihre Daten auf eine Weise finden, dass am besten zu ihren Unternehmen passt. Berichtsautoren können Sie dann die benutzerdefinierten visualdateien in ihre Berichte importieren und diese genauso wie bei anderen Power BI-Visuals. Benutzerdefinierte Visuals sind Bürger erster Klasse in Power BI und können gefiltert werden, hervorgehoben, bearbeitet, freigegebene und so weiter.
 
-Benutzerdefinierte Visuals können in Form von drei Bereitstellungskanälen vorliegen:
+Benutzerdefinierte visuelle Elemente werden auf drei verschiedene Arten bereitgestellt:
 
 * Benutzerdefinierte Visualdateien
 * Visuals für Organisationen
@@ -35,33 +35,33 @@ Benutzerdefinierte Visuals können in Form von drei Bereitstellungskanälen vorl
 
 ## <a name="custom-visual-files"></a>Benutzerdefinierte Visualdateien
 
-Bei benutzerdefinierten Visuals handelt es sich um Pakete, die Code zum Rendern der Daten enthalten, die für diese bereitgestellt werden. Jeder Benutzer kann ein benutzerdefiniertes Visual erstellen und dieses in eine einzige `.pbiviz`-Datei packen, die in einen Power BI-Bericht importiert werden kann.
+Benutzerdefinierte Visuals werden Pakete, die enthalten Code zum Rendern der Daten, die für sie bereitgestellt. Jeder kann eine benutzerdefinierte Visualisierung zu erstellen und Verpacken Sie sie als einzelne `.pbiviz` Datei, die dann in einen Power BI-Bericht importiert werden kann.
 
 > [!WARNING]
-> Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quelle des benutzerdefinierten Visuals vertrauen können, bevor Sie dieses in Ihren Bericht importieren.
+> Ein benutzerdefiniertes Visual kann Code mit Sicherheits- oder Datenschutzrisiken enthalten. Stellen Sie sicher, dass Sie dem Autor und der Quellcode für die benutzerdefinierte Visualisierung vertrauen, bevor sie zu einem Bericht importieren.
 
 ## <a name="organizational-visuals"></a>Visuals für Organisationen
 
-Power BI-Administratoren können benutzerdefinierte Visuals für ihre Organisation bereitstellen, sodass Berichtsautoren die benutzerdefinierten Visuals, deren Verwendung innerhalb der Organisation vom Administrator genehmigt wurde, einfacher ermitteln und verwenden können. Dadurch kann der Administrator steuern, welche benutzerdefinierten Visuals für die Organisation bereitgestellt werden sollen. Zudem können die Visuals auf diese Weise einfach verwaltet werden (z.B. Aktualisieren der Version, Aktivieren/Deaktivieren). Für den Berichtsautor stellt dies einen einfachen Weg dar, um Visuals zu ermitteln, die nur für die Organisation verfügbar sind. Außerdem wird ein nahtloser Support bereitgestellt, um diese Visuals zu aktualisieren.
+Power BI-Administratoren genehmigen und Bereitstellen von benutzerdefinierten Visuals in ihren Unternehmen, die Berichtsautoren ganz einfach ermitteln, aktualisieren und verwenden können. Administratoren können ganz einfach verwalten (z. B. Version aktualisieren, aktivieren/deaktivieren) diese visuellen Elemente.
 
-Weitere Informationen zu benutzerdefinierten Visuals für Organisationen finden Sie [hier](power-bi-custom-visuals-organization.md).
+ [Erfahren Sie mehr über Power BI-Verwaltungsportal](power-bi-custom-visuals-organization.md).
 
 ## <a name="marketplace-visuals"></a>Visuals im Marketplace
 
-Mitglieder der Community und Microsoft haben benutzerdefinierte Visuals für die Öffentlichkeit erstellt und diese im [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)-Marketplace bereitgestellt. Diese Visuals können heruntergeladen und Power BI-Berichten hinzugefügt werden. Alle dieser benutzerdefinierten Visuals wurden von Microsoft auf Funktionalität und Qualität getestet und genehmigt.
+Mitglieder der Community und Microsoft haben benutzerdefinierte Visuals für Öffentliche Vorteil erstellt und diese die [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Marketplace. Sie können diese visuellen Elemente auf Ihre Power BI-Berichte hinzufügen. Microsoft hat getestet und genehmigt diese benutzerdefinierten Visuals auf Funktionalität und Qualität.
 
-Was ist [AppSource](developer/office-store.md)? Einfach ausgedrückt ist es der Ort, an dem Sie Apps, Add-Ins und Erweiterungen für Microsoft-Software finden. In [AppSource](https://appsource.microsoft.com/) finden Millionen von Benutzern Produkte, z.B. Office 365, Azure, Dynamics 365, Cortana und Power BI, mit denen sie die Effizienz ihrer Arbeit steigern, größere Einblicke gewinnen oder die Darstellung der Ergebnisse verbessern können.
+Was ist [AppSource](developer/office-store.md)? Es ist die Möglichkeit, die Sie apps, Add-Ins und Erweiterungen für Microsoft-Software finden. [AppSource](https://appsource.microsoft.com/) Millionen von Benutzern Produkte wie Office 365, Azure, Dynamics 365, Cortana und Power BI, um Lösungen, mit denen sie Arbeit effizient, Einblicke, und reibungslose als je zuvor.
 
 ### <a name="certified-visuals"></a>Zertifizierte Visuals
 
-Bei zertifizierten Power BI-Visuals handelt es sich um Marketplace-Visuals, die zusätzlichen strengen Qualitätstests unterzogen wurden. Diese werden für zusätzliche Szenarios unterstützt, z.B. für [E-Mail-Abonnements](https://docs.microsoft.com/power-bi/service-report-subscribe) und die Option [Nach PowerPoint exportieren](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Zertifizierten Powerbi-Visuals handelt es sich Marketplace-Visuals, die zusätzlichen strengen Qualität Testen übergeben wurden, und werden in weiteren Szenarien, z. B. unterstützt [e-Mail-Abonnements](https://docs.microsoft.com/power-bi/service-report-subscribe), und [export nach PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Die Liste der zertifizierten benutzerdefinierten visuellen Elemente sowie eine Anleitung zum Einreichen eigener benutzerdefinierter visueller Elemente finden Sie unter [Zertifizierte benutzerdefinierte visuelle Elemente](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu AppSource hinzufügen? Lesen Sie [Entwickeln eines benutzerdefinierten Visuals für Power BI](developer/custom-visual-develop-tutorial.md), und erfahren Sie, wie [benutzerdefinierte Visuals in AppSource veröffentlicht werden](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).
+Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu AppSource hinzufügen? Finden Sie unter [Entwickeln einer benutzerdefinierten Visualisierung mit Power BI](developer/custom-visual-develop-tutorial.md) und erfahren Sie, wie Sie [veröffentlichen benutzerdefinierter Visuals in AppSource](https://docs.microsoft.com/power-bi/developer/office-store).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importieren eines benutzerdefinierten Visuals aus einer Datei
 
-1. Wählen Sie am unteren Rand des Bereichs „Visualisierungen“ die Auslassungspunkte aus.
+1. Wählen Sie die Auslassungspunkte zwischen dem unteren Rand der **Visualisierungen** Bereich.
 
     ![visualisierungen2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -69,17 +69,17 @@ Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu App
 
     ![Aus Datei importieren](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. Klicken Sie im Menü „Datei öffnen“ auf die `.pbiviz`-Datei, die Sie importieren möchten, und klicken Sie dann auf „Öffnen“. Am unteren Ende des Bereichs „Visualisierungen“ wird das Symbol für das benutzerdefinierte Visual hinzugefügt, und dieses kann jetzt in Ihrem Bericht verwendet werden.
+3. Wählen Sie im Menü Datei öffnen die `.pbiviz` -Datei, die Sie importieren möchten und wählen Sie dann **öffnen**. Symbol für die benutzerdefinierte Visualisierung wurde an das Ende Ihrer **Visualisierungen** Bereich ist jetzt für die Verwendung in Ihrem Bericht verfügbar.
 
     ![benutzerdefiniertes Visual importiert](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
 ### <a name="import-organizational-visuals"></a>Importieren von Visuals für Organisationen
 
-1. Wählen Sie am unteren Rand des Bereichs „Visualisierungen“ die Auslassungspunkte aus.
+1. Wählen Sie die Auslassungspunkte zwischen dem unteren Rand der **Visualisierungen** Bereich.
 
     ![Visual für Organisationen 1](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
 
-2. Wählen Sie in der Dropdownliste „Aus Marketplace importieren“ aus.
+2. Wählen Sie in der Dropdownliste **Aus Marketplace importieren** aus.
 
     ![Visual für Organisationen 2](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
@@ -91,17 +91,17 @@ Sind Sie Webentwickler und möchten eigene Visualisierungen erstellen und zu App
 
     ![Visual für Organisationen 4](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
 
-5. Importieren Sie das benutzerdefinierte Visual, indem Sie **Hinzufügen** auswählen. Am unteren Ende des Bereichs „Visualisierungen“ wird das Symbol für das benutzerdefinierte Visual hinzugefügt, und dieses kann jetzt in Ihrem Bericht verwendet werden.
+5. Wählen Sie **hinzufügen** zum Importieren der benutzerdefinierten Visualisierung. Das entsprechende Symbol wird am unteren Rand hinzugefügt Ihre **Visualisierungen** Bereich ist jetzt für die Verwendung in Ihrem Bericht verfügbar.
 
     ![Visual für Organisationen 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Herunterladen oder Importieren benutzerdefinierter Visuals von Microsoft AppSource
 
-Sie haben zwei Möglichkeiten zum Herunterladen und Importieren benutzerdefinierter Visuals: in Power BI und über die AppSource-Website.
+Sie haben zwei Optionen für das Herunterladen und Importieren benutzerdefinierter Visuals: aus in Power BI und über die [AppSource-Website](https://appsource.microsoft.com/).
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Importieren benutzerdefinierter Visuals in Power BI
 
-1. Wählen Sie am unteren Rand des Bereichs „Visualisierungen“ die Auslassungspunkte aus.
+1. Wählen Sie die Auslassungspunkte zwischen dem unteren Rand der **Visualisierungen** Bereich.
 
     ![Visualisierungen 2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -125,7 +125,7 @@ Sie haben zwei Möglichkeiten zum Herunterladen und Importieren benutzerdefinier
 
     ![Überprüfungen](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7. Importieren Sie das benutzerdefinierte Visual, indem Sie auf „Hinzufügen“ klicken. Am unteren Ende des Bereichs „Visualisierungen“ wird das Symbol für das benutzerdefinierte Visual hinzugefügt, und dieses kann jetzt in Ihrem Bericht verwendet werden.
+7. Wählen Sie **hinzufügen** zum Importieren der benutzerdefinierten Visualisierung. Das entsprechende Symbol wird am unteren Rand hinzugefügt Ihre **Visualisierungen** Bereich ist jetzt für die Verwendung in Ihrem Bericht verfügbar.
 
     ![Visual importiert](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -135,15 +135,15 @@ Sie haben zwei Möglichkeiten zum Herunterladen und Importieren benutzerdefinier
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Wechseln Sie zur Seite [App-Ergebnisse](https://appsource.microsoft.com/marketplace/apps), auf der Sie die beliebtesten Apps in den einzelnen Kategorien, einschließlich *Power BI-Apps*, anzeigen können. Da Sie jedoch benutzerdefinierte Visuals suchen, wählen Sie in der linken Navigationsliste **Power BI-Visuals** aus, um die Ergebnisse einzugrenzen.
+2. Wechseln Sie zur Seite [App-Ergebnisse](https://appsource.microsoft.com/marketplace/apps), auf der Sie die beliebtesten Apps in den einzelnen Kategorien, einschließlich *Power BI-Apps*, anzeigen können. Wir suchen nach benutzerdefinierten Visualisierungen, die wir wählen **Power BI-Visualisierungen** aus der Liste linken Navigationsbereich, um die Ergebnisse einzugrenzen.
 
     ![AppSource-Visuals](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. In AppSource wird für jedes benutzerdefinierte Visual eine Kachel angezeigt.  Jede Kachel enthält eine Momentaufnahme des benutzerdefinierten Visuals, eine kurze Beschreibung und einen Downloadlink. Wählen Sie die Kachel aus, um weitere Details anzuzeigen.
+3. In AppSource wird für jedes benutzerdefinierte Visual eine Kachel angezeigt.  Jede Kachel verfügt über eine benutzerdefinierte visuelle Momentaufnahme mit einer kurzen Beschreibung und einen Link zum Herunterladen. Wählen Sie die Kachel aus, um weitere Details anzuzeigen.
 
     ![Benutzerdefiniertes Visual auswählen](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. Auf der Detailseite können Sie Screenshots, Videos, ausführliche Beschreibungen und weitere Elemente anzeigen. Klicken Sie auf **Jetzt anfordern**, und stimmen Sie den Nutzungsbedingungen zu, um das benutzerdefinierte Visual herunterzuladen.
+4. Auf der Detailseite können Sie Screenshots, Videos, ausführliche Beschreibungen und weitere Elemente anzeigen. Wählen Sie **jetzt** der benutzerdefinierten Visualisierung herunterladen, und klicken Sie dann die Nutzungsbedingungen akzeptieren.
 
     ![Anfordern über AppSource](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -151,25 +151,25 @@ Sie haben zwei Möglichkeiten zum Herunterladen und Importieren benutzerdefinier
 
     ![Herunterladen](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
-    Die Downloadseite enthält auch Anweisungen zum Importieren des benutzerdefinierten Visuals in Power BI Desktop und den Power BI-Dienst.
+    Die Download-Seite enthält auch Anweisungen zum Importieren der benutzerdefinierten Visualisierung in Power BI Desktop und Power BI-Dienst.
 
     Sie können auch einen Beispielbericht herunterladen, der das benutzerdefinierte Visual enthält und dessen Funktionen veranschaulicht.
 
     ![Beispiel ausprobieren](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. Speichern Sie die PBIVIZ-Datei, und öffnen Sie dann Power BI.
+6. Speichern Sie die `.pbiviz` , und klicken Sie dann öffnen Sie Power BI.
 
-7. Importieren Sie die PBIVIZ-Datei in Ihren Bericht. (Siehe obigen Abschnitt [Importieren eines benutzerdefinierten Visuals aus einer Datei](#import-a-custom-visual-from-a-file).)
+7. Importieren der `.pbiviz` -Datei in Ihrem Bericht. (Siehe obigen Abschnitt [Importieren eines benutzerdefinierten Visuals aus einer Datei](#import-a-custom-visual-from-a-file).)
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 
 * Beim Importieren wird eine benutzerdefinierte Visualisierungen einem bestimmten Bericht hinzugefügt. Wenn Sie die Visualisierung in einem anderen Bericht verwenden möchten, müssen Sie sie in diesen Bericht ebenfalls importieren. Wenn ein Bericht mit einer benutzerdefinierten Visualisierung mit der Option **Speichern unter** gespeichert wird, wird eine Kopie der benutzerdefinierten Visualisierung mit dem neuen Bericht gespeichert.
 
-* Wenn der Bereich **Visualisierungen** nicht angezeigt wird, bedeutet dies, dass Sie über keine Bearbeitungsberechtigungen für den Bericht verfügen.  Sie können benutzerdefinierte Visuals nur Berichten hinzufügen, die Sie bearbeiten können, und keinen Berichten, die für Sie freigegeben wurden.
+* Wenn Sie nicht angezeigt wird eine **Visualisierungen** Bereich, das bedeutet, Sie haben keine Berechtigungen bearbeiten Bericht.  Sie können benutzerdefinierte Visuals nur Berichten hinzufügen, die Sie bearbeiten können, und keinen Berichten, die für Sie freigegeben wurden.
 
 ## <a name="troubleshoot"></a>Problembehandlung
 
-Informationen zur Problembehandlung finden Sie auf der Seite [Troubleshoot Power BI custom visuals (Problembehandlung für benutzerdefinierte Power BI-Visuals)](power-bi-custom-visuals-troubleshoot.md).
+Zur Problembehandlung finden Sie unter [Problembehandlung Ihrer benutzerdefinierten Visuals für Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>HÄUFIG GESTELLTE FRAGEN
 
@@ -177,6 +177,6 @@ Weitere Informationen und Antworten auf Fragen finden Sie in den [häufig gestel
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-* [Visualisierungen in Power BI](visuals/power-bi-report-visualizations.md)
+* [Visualisierungen in Power BI-Berichte](visuals/power-bi-report-visualizations.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/).

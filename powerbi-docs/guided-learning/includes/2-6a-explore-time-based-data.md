@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255707"
+---
 Das Analysieren von zeitbasierten Daten mit Power BI ist denkbar einfach. Die Modellierungstools in Power BI Desktop enthalten automatisch generierte Felder, mit denen Sie mit einem einzigen Mausklick einen Drilldown durch Jahre, Quartale, Monate und Tage ausführen können.  
 
 Beim Erstellen einer Tabellenvisualisierung in einem Bericht mithilfe eines Datumsfelds enthält Power BI Desktop automatisch eine Aufgliederung nach Zeiträumen. Wie in der folgenden Abbildung dargestellt, wird das Datumsfeld in der Tabelle **Datum** beispielsweise in Power BI automatisch nach Jahr, Quartal, Monat und Tag untergliedert.
@@ -23,7 +31,7 @@ Wenn Sie anstelle der Datumshierarchie wieder einzelne Datumsangaben verwenden m
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-**Herzlichen Glückwunsch!** Sie haben diesen Abschnitt im Kurs **Geführtes Lernen** für Power BI abgeschlossen. Nachdem Sie sich mit der *Modellierung* von Daten vertraut gemacht haben, können Sie sich jetzt auf den nächsten Abschnitt freuen, der sich mit **Visualisierungen** beschäftigt.
+**Herzlichen Glückwunsch!** Sie haben diesen Abschnitt im Kurs **Geführtes Lernen** für Power BI abgeschlossen. Nun, dass Sie wissen *Modellierung* Daten, Sie sind bereit, die interessanten Informationen auf dem nächsten Abschnitt: **Visualisierungen**.
 
 Wie bereits zuvor erwähnt, eignen Sie sich in diesem Kurs Ihr Wissen anhand des allgemeinen Arbeitsablaufs in Power BI an:
 

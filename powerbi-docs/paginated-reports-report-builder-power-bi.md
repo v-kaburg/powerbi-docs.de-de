@@ -1,20 +1,20 @@
 ---
 title: Was sind paginierte Berichte in Power BI Premium? (Vorschau)
 description: Paginierte Berichte sind seit Langem das Standardberichtsformat in SQL Server Reporting Services und stehen jetzt auch im Power BI-Dienst zur Verfügung. Diese Berichte können ausgedruckt oder freigegeben werden. Das Berichtslayout kann detailliert gesteuert werden. Sie zeigen beispielsweise alle Daten in einer Tabelle an, selbst wenn die Tabelle sich über mehrere Seiten erstreckt.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 12/05/2018
-ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/20/2019
+ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014183"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991065"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Was sind paginierte Berichte in Power BI Premium? (Vorschau)
 
@@ -26,17 +26,21 @@ Paginierte Berichte können viele Seiten umfassen. Dieser Bericht umfasst beispi
 
 Sie können eine Vorschau Ihres Berichts im Berichts-Generator anzeigen und dann im Power BI-Dienst unter http://app.powerbi.com veröffentlichen. Sie benötigen eine Power BI Pro-Lizenz, um einen Bericht im Dienst zu veröffentlichen. Sie können paginierte Berichte in Ihrem Arbeitsbereich oder in App-Arbeitsbereichen veröffentlichen und freigeben, solange sich der Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Darüber hinaus muss ein Power BI-Administrator paginierte Berichte im Power BI-Verwaltungsportal aktivieren. 
 
-## <a name="create-reports-in-report-builder"></a>Erstellen von Berichten im Berichts-Generator
+## <a name="create-reports-in-power-bi-report-builder"></a>Erstellen von Berichten in Power BI-Berichts-Generator
 
-Paginierte Berichte besitzen ihr eigenes Designtool, den Berichts-Generator. Dieses Tool unterscheidet sich nicht von dem Tool, das Sie verwenden, wenn Sie paginierte Berichte für den Power BI-Berichtsserver oder SQL Server Reporting Services (SSRS) erstellen. Tatsächlich sind paginierte Berichte, die Sie für SSRS 2016 und 2017 oder für den Power BI-Berichtsserver lokal erstellen, mit dem Power BI-Dienst kompatibel. Der Power BI-Dienst gewährleistet Abwärtskompatibilität, sodass Sie Ihre Berichte weiterverwenden und paginierte Berichte früherer Versionen aktualisieren können. Mit Veröffentlichung sind nicht alle Berichtsfunktionen verfügbar. Unter [Einschränkungen und Überlegungen](#limitations-and-considerations) finden Sie weitere Informationen.
+Paginierte Berichte haben ihre eigenen Design-Tool, Power BI-Berichts-Generator. Es ist ein neues Tool, das die gleiche Grundlage wie die Tools, die Sie zuvor, zum Erstellen paginierter Berichte für Power BI-Berichtsserver und SQL Server Reporting Services (SSRS verwendet haben), gemeinsam verwendet. Tatsächlich sind paginierte Berichte, die Sie für SSRS 2016 und 2017 oder für den Power BI-Berichtsserver lokal erstellen, mit dem Power BI-Dienst kompatibel. Der Power BI-Dienst gewährleistet Abwärtskompatibilität, sodass Sie Ihre Berichte weiterverwenden und paginierte Berichte früherer Versionen aktualisieren können. Mit Veröffentlichung sind nicht alle Berichtsfunktionen verfügbar. Unter [Einschränkungen und Überlegungen](#limitations-and-considerations) finden Sie weitere Informationen.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Erstellen von Berichten aus einer Vielzahl von Datenquellen
 
-Ein einzelner paginierter Bericht kann über eine Reihe unterschiedlicher Datenquellen verfügen. Im Gegensatz zu Power BI-Berichten liegt ihm kein Datenmodell zugrunde. Für die erste Version paginierter Berichte im Power BI-Dienst erstellen Sie eingebettete Datenquellen und Datasets im Bericht selbst. Momentan können Sie keine freigegebenen Datenquellen oder freigegebene Datasets verwenden. Sie erstellen Berichte im Berichts-Generator auf dem lokalen Computer. Wenn ein Bericht eine Verbindung mit lokalen Daten herstellt, nachdem Sie den Bericht in den Power BI-Dienst hochgeladen haben, müssen Sie ein Gateway erstellen und die Datenverbindung umleiten. Hier sind die Datenquellen aufgeführt, mit denen Sie für die erste Version eine Verbindung herstellen können:
+Ein einzelner paginierter Bericht kann über eine Reihe unterschiedlicher Datenquellen verfügen. Im Gegensatz zu Power BI-Berichten liegt ihm kein Datenmodell zugrunde. Für die erste Version paginierter Berichte im Power BI-Dienst erstellen Sie eingebettete Datenquellen und Datasets im Bericht selbst. Momentan können Sie keine freigegebenen Datenquellen oder freigegebene Datasets verwenden. Sie erstellen Berichte im Berichts-Generator auf dem lokalen Computer. Wenn ein Bericht eine Verbindung mit lokalen Daten herstellt, nachdem Sie den Bericht in den Power BI-Dienst hochgeladen haben, müssen Sie ein Gateway erstellen und die Datenverbindung umleiten. Hier sind die Datenquellen, die Sie zu diesem Zeitpunkt Verbindung möglich:
 
 - Azure SQL-Datenbank und Data Warehouse
+- Azure Analysis Services (über SSO).
 - SQL Server über ein Gateway
 - SQL Server Analysis Services über ein Gateway
+- Power BI-Premium-Datasets
+- Oracle
+- Teradata
  
 Weitere Datenquellen werden während des Vorschauzeitraums hinzugefügt.
 
@@ -62,7 +66,13 @@ Wenn Sie einen paginierten Bericht entwerfen, erstellen Sie eigentlich eine *Ber
 
 ## <a name="view-your-paginated-report"></a>Anzeigen Ihres paginierten Berichts
 Sie können Ihren paginierten Bericht im Power BI-Dienst in einem Browser und auch in den Power BI Mobile-Apps anzeigen. Sie können den Bericht über den Power BI-Dienst in mehrere Formate exportieren, darunter HTML, MHTML, PDF, XML, CSV, TIFF, Word und Excel. Zudem können Sie ihn für andere Benutzer freigeben.  
-  
+
+## <a name="create-a-subscription-to-your-report"></a>Erstellen Sie ein Abonnement zu einem Bericht
+
+Sie können jetzt e-Mail-Abonnements für sich selbst und andere für paginierte Berichte im Power BI-Dienst einrichten. Im Allgemeinen ist der Prozess identisch mit dem Abonnieren von Berichten und Dashboards in Power BI-Dienst. Einrichten von Abonnements, Sie wählen Sie im wie oft soll die e-Mail-Nachrichten: täglich, wöchentlich oder stündlich. Das Abonnement enthält eine Anlage PDF-Datei der gesamte Berichtsausgabe.
+
+Weitere Informationen finden Sie im Artikel [sich selbst und andere paginierte Berichte in Power BI-Dienst abonnieren](paginated-reports-subscriptions.md). 
+
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 
 Hier sind einige andere Features aufgeführt, die in der ersten Version nicht unterstützt werden:
@@ -70,15 +80,12 @@ Hier sind einige andere Features aufgeführt, die in der ersten Version nicht un
 - Anheften von Berichtsseiten oder Visuals an Power BI-Dashboards. Sie können noch immer Visualisierungen aus einem lokalen paginierten Bericht auf einem Power BI-Berichtsserver oder einem Reporting Services-Berichtsserver an ein Power BI-Dashboard anheften. Weitere Informationen finden Sie unter [Anheften von Reporting Services-Elementen an Power BI-Dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 - Interaktive Features wie Dokumentstrukturen und Schaltflächen zum Ein-/Ausblenden.
 - Unterberichte und Drillthroughberichte.
-- Abonnements.
 - Freigegebene Datenquellen und freigegebene Datasets.
-- Power BI-Datasets.
 - Visuals aus Power BI-Berichten.
-- Paginierte Berichte in Apps. Sie können einen paginierten Bericht aus einem App-Arbeitsbereich freigeben, aber Sie können ihn nicht einschließen, wenn Sie die App über diesen Arbeitsbereich veröffentlichen.
  
 ## <a name="next-steps"></a>Nächste Schritte
 
-- [Installieren des Berichts-Generators über das Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=734968)
+- [Installieren von Power BI-Berichts-Generator aus dem Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Erstellen eines paginierten Berichts](paginated-reports-quickstart-aw.md)
 - [Enter data directly in a paginated report (Eingeben von Daten direkt in einem paginierten Bericht)](paginated-reports-enter-data.md)
 

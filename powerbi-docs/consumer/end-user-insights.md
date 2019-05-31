@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661558"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049247"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Anzeigen von Einblicken auf Dashboardkacheldaten mit Power BI
 Jede Visualisierungskachel in Ihrem Dashboard ist ein Ausgangspunkt für das Durchsuchen von Daten. Wenn Sie eine Kachel auswählen, wird ein Bericht geöffnet, in dem Sie filtern und sortieren und das dem Bericht zugrunde liegende Dataset detailliert analysieren können. Und wenn Sie Einblicke ausführen, erledigt Power BI das Durchsuchen der Daten für Sie.

@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513997"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Verwenden von Quickmeasures zur einfachen Nutzung gängiger und leistungsstarker Berechnungsfunktionen
@@ -99,7 +99,7 @@ Wenn wir mit der rechten Maustaste auf den Feldbereich **Werte** klicken und **Q
 
 Wenn wir nun **OK** auswählen, passieren einige interessante Dinge, wie in der Abbildung nach der folgenden Liste zu sehen:
 
-1. Die **Matrix** enthält nun eine neue Spalte mit unserer Berechnung (in diesem Fall: *Durchschnitt innerhalb von „SalesAmount“*).
+1. Die **Matrix** enthält nun eine neue Spalte mit unserer Berechnung (in diesem Fall: *Durchschnitt innerhalb von „SalesAmount“* ).
 2. Ein neues **Measure** wurde erstellt. Es befindet sich im Bereich **Felder** und wird von Power BI durch ein gelbes Kästchen hervorgehoben. Dieses Measure steht für jedes andere visuelle Element im Bericht zur Verfügung (nicht nur für das visuelle Element, für das es ursprünglich erstellt wurde).
 3. Die für das **Schnellmeasure** erstellte DAX-Formel wird auf der Bearbeitungsleiste angezeigt.
 

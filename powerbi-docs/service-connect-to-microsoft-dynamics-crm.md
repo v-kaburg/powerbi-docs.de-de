@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008808"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61190437"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Herstellen einer Verbindung mit Microsoft Dynamics CRM mithilfe von Power BI
 Mit Microsoft Dynamics CRM Online für Power BI können Sie einfach auf Ihre Daten zuzugreifen und sie analysieren. Power BI verwendet den OData-Feed, um ein anschauliches Modell mit allen erforderlichen Entitäten und Measures zu erstellen, z.B. Konten, Aktivitäten, Verkaufschancen, Produkte, Leads, Benutzer usw. Nachdem Sie die App installiert haben, können Sie das Dashboard und die Berichte im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und in den mobilen Power BI-Apps anzeigen. 
@@ -77,7 +77,7 @@ In der folgenden Tabelle werden die CRM-Entitäten aufgelistet, die für diesen 
 
 | CRM-Entität | Angewendete Filter |
 | --- | --- |
-| Konto |Alle Konten, die über verknüpfte Verkaufschancen verfügen, die in den letzten 365 Tagen geändert wurden |
+| Account |Alle Konten, die über verknüpfte Verkaufschancen verfügen, die in den letzten 365 Tagen geändert wurden |
 | Aktivität |Alle Aktivitäten, die in den letzten 90 Tagen geändert wurden <br> [modifiedon] > today - 90 days |
 | Business Unit |Alle Unternehmenseinheiten, die nicht deaktiviert wurden <br> [isdisabled] = false |
 | Lead |Alle Leads, die in den letzten 180 Tagen geändert wurden <br> [modifiedon] > today - 180 days |

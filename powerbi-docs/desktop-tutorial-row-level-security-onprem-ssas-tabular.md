@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513590"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Dynamische Sicherheit auf Zeilenebene mit dem tabellarischen Modell von Analysis Services
@@ -40,7 +40,7 @@ In vielen veröffentlichten Artikeln wird beschrieben, wie die dynamische Sicher
 1. In diesem Beispiel verwenden wir die rationale Datenbank von **AdventureworksDW2012**. Erstellen Sie in der Datenbank die **DimUserSecurity**-Tabelle, wie in der folgenden Abbildung dargestellt. In diesem Beispiel verwenden wir SQL Server Management Studio (SSMS) zum Erstellen der Tabelle.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. Nachdem die Tabelle erstellt und gespeichert wurde, müssen wir die Beziehung zwischen der **SalesTerritoryID**-Spalte der **DimUserSecurity**-Tabelle und der **SalesTerritoryKey**-Spalte der **DimSalesTerritory**-Tabelle erstellen, so wie in der folgenden Abbildung gezeigt. Dies können Sie über **SSMS** vornehmen, indem Sie einen Rechtsklick auf die Tabelle **DimUserSecurity** ausführen und auf **Bearbeiten** klicken. Klicken Sie dann im Menü auf **Tabellen-Designer > Beziehungen…**.
+2. Nachdem die Tabelle erstellt und gespeichert wurde, müssen wir die Beziehung zwischen der **SalesTerritoryID**-Spalte der **DimUserSecurity**-Tabelle und der **SalesTerritoryKey**-Spalte der **DimSalesTerritory**-Tabelle erstellen, so wie in der folgenden Abbildung gezeigt. Dies können Sie über **SSMS** vornehmen, indem Sie einen Rechtsklick auf die Tabelle **DimUserSecurity** ausführen und auf **Bearbeiten** klicken. Klicken Sie dann im Menü auf **Tabellen-Designer > Beziehungen…** .
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 3. Speichern Sie die Tabelle, und fügen Sie anschließend ein paar Zeilen mit Benutzerinformationen in die Tabelle ein, indem Sie erneut einen Rechtsklick auf die Tabelle **DimUserSecurity** ausführen und anschließend **Edit Top 200 Rows** (Oberste 200 Zeilen bearbeiten) auswählen. Nachdem Sie diese Benutzer hinzugefügt haben, sehen die Zeilen der **DimUserSecurity**-Tabelle wie in der folgenden Abbildung aus:

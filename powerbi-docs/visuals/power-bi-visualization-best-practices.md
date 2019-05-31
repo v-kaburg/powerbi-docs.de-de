@@ -11,11 +11,11 @@ ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296721"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61146566"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Bewährte Entwurfsmethoden für Berichte und Visualisierungen
 <!-- Shared newnav Include -->
@@ -713,7 +713,7 @@ Achten Sie auf die Achsen! Lässt sich Ihr Kombinationsdiagramm leicht lesen und
 
 Das Kombinationsdiagramm ist auch nicht aussagekräftig, wenn für das Säulendiagramm und das Liniendiagramm zwei verschiedene Measures verwendet werden und Sie nicht zwei Achsen erstellen.  Beispiel: US-Dollar und Prozent. Binden Sie beide Achsen ein, damit die Leser das Diagramm besser verstehen können, und erwägen Sie auch, Achsenbeschriftungen zu verwenden.
 
-Öffnen Sie hierzu den Formatierungsbereich, erweitern Sie die **Y-Achse**, und legen Sie die Option **Sekundäre anzeigen** auf „Ein“ fest (falls nicht bereits aktiviert). Diese Einstellung ist manchmal nicht leicht zu finden. Erweitern Sie die Option **Y-Achse (Spalte)**, und scrollen Sie nach unten, bis die Option **Sekundäre anzeigen** zu sehen ist. Legen Sie außerdem den **Titel** für „Y-Achse (Spalte)“ auf „Ein“ und den **Titel** für „Y-Achse (Linie)“ auf „Ein“ fest.
+Öffnen Sie hierzu den Formatierungsbereich, erweitern Sie die **Y-Achse**, und legen Sie die Option **Sekundäre anzeigen** auf „Ein“ fest (falls nicht bereits aktiviert). Diese Einstellung ist manchmal nicht leicht zu finden. Erweitern Sie die Option **Y-Achse (Spalte)** , und scrollen Sie nach unten, bis die Option **Sekundäre anzeigen** zu sehen ist. Legen Sie außerdem den **Titel** für „Y-Achse (Spalte)“ auf „Ein“ und den **Titel** für „Y-Achse (Linie)“ auf „Ein“ fest.
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 

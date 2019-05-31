@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280077"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514103"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Abrufen von Daten aus einer Webseite durch Angeben von Beispielen
 
@@ -64,7 +64,7 @@ Nun können Sie Visuals erstellen oder die Webseitendaten auf andere Weise nutze
 ## <a name="next-steps"></a>Nächste Schritte
 Es gibt viele verschiedene Arten von Daten, mit denen Sie über **Power BI Desktop** eine Verbindung herstellen können. Weitere Informationen zu Datenquellen finden Sie in folgenden Ressourcen:
 
-* [Hinzufügen einer Spalte anhand von Beispielen](desktop-add-column-from-example.md)
+* [Spalte nach Beispiel hinzufügen](desktop-add-column-from-example.md)
 * [Herstellen einer Verbindung mit einer Webseite](desktop-connect-to-web.md)
 * [Datenquellen in Power BI Desktop](desktop-data-sources.md)
 * [Strukturieren und Kombinieren von Daten mit Power BI Desktop](desktop-shape-and-combine-data.md)

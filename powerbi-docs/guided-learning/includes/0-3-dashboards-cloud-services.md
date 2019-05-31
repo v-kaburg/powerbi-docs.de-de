@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260475"
+---
 Wie wir gesehen haben, wird in Power BI normalerweise zuerst ein Bericht in Power BI Desktop erstellt, dann im Power BI-Dienst veröffentlicht und schließlich für andere Benutzer freigegeben, damit diese ihn im Dienst oder in einer mobilen App anzeigen können.
 
 Einige Benutzer beginnen allerdings auch im Power BI-Dienst, betrachten wir also kurz diesen Dienst und eine einfache und häufig genutzte Möglichkeit, um schnell Visualisierungen in Power BI zu erstellen: *Inhaltspakete*.

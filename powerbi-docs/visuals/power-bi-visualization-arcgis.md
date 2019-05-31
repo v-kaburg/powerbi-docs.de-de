@@ -12,11 +12,11 @@ ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086584"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253034"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>ArcGIS Maps von ESRI im Power BI-Dienst und in Power BI Desktop
 Dieses Tutorial richtet sich an Personen, die eine ArcGIS-Karte erstellen. Sobald der Ersteller eine ArcGIS-Karte für einen Kollegen freigegeben hat, kann dieser die Karte anzeigen und mit ihr interagieren, jedoch keine Änderungen speichern. Weitere Informationen zum Anzeigen von ArcGIS-Karten finden Sie unter [Interagieren mit ArcGIS-Karten](power-bi-visualizations-arcgis.md).

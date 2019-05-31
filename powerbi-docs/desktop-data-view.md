@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c8a96918049f2f1898ab80a9368a8d2f0a8fe53a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286135"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454461"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Datenansicht in Power BI Desktop
 Mit der **Datenansicht** können Sie Daten im **Power BI Desktop-Modell** überprüfen, untersuchen und verstehen. Sie unterscheidet sich von der Anzeige von Tabellen, Spalten und Daten im **Abfrage-Editor**. Mit der Datenansicht sehen Sie die Daten, *nachdem* sie in das Modell geladen wurden.
@@ -28,7 +28,7 @@ Sehen Sie sich nun einige der Elemente in der **Datenansicht** näher an.
 
 1. **Symbol für die Datenansicht:** Mit einem Klick auf dieses Symbol gelangen Sie zur Datenansicht zurück.
 
-2. **Datenraster:** Zeigt die ausgewählte Tabelle und alle darin enthaltenen Spalten und Zeilen an. Spalten, die aus der **Berichtsansicht** ausgeblendet sind, sind ausgegraut. Sie können mit der rechten Maustaste auf eine Spalte klicken, um Optionen zu erhalten.
+2. **Datenraster:** Zeigt die ausgewählte Tabelle und alle darin enthaltenen Spalten und Zeilen an. Spalten, die aus der **Berichtsansicht** ausgeblendet sind, sind ausgegraut. Sie können für eine Spalte für Optionen mit der rechten Maustaste.
 
 3. **Menüband „Modellierung“:** Hier können Sie Beziehungen verwalten, Berechnungen erstellen und den Datentyp, das Format und die Datenkategorie für eine Spalte ändern.
 

@@ -2,21 +2,22 @@
 title: Markieren eines Barcodefelds in Power BI Desktop für die mobilen Apps
 description: Wenn Sie in Ihrem Modell in Power BI Desktop ein Barcodefeld markieren, können Sie Daten für Barcodes in der Power-BI-App auf Ihrem iPhone automatisch filtern.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 584947dcd92078ea025468f5a38fc7fed3e2616a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289898"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61293561"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Markieren eines Barcodes in Power BI Desktop für die mobilen Apps
+
 In Power BI Desktop können Sie in einer Spalte [Daten kategorisieren](desktop-data-categorization.md), damit Power BI Desktop weiß, wie Werte in Visualisierungen in einem Bericht behandelt werden sollen. Sie können auch eine Spalte als **Barcode** kategorisieren. Wenn Sie oder Ihre Kollegen [einen Barcode auf einem Produkt mit der Power BI-App scannen](consumer/mobile/mobile-apps-scan-barcode-iphone.md), finden Sie auf dem iPhone jeden Bericht, der diesen Barcode enthält. Wenn Sie den Bericht in der mobilen App öffnen, filtert Power BI im Bericht automatisch nach Daten, die mit diesem Barcode verknüpft sind.
 
 1. Wechseln Sie in Power BI Desktop zur Datenansicht.

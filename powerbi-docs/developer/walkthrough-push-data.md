@@ -1,26 +1,26 @@
 ---
 title: Übertragen von Daten in ein Dataset per Push
 description: Übertragen von Daten in ein Power BI-Dataset per Push
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762258"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222155"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Übertragen von Daten in ein Power BI-Dataset per Push
 
-Mit der Power BI-API können Sie Daten per Push in ein Power BI-Dataset übertragen. Angenommen, Sie möchten einen vorhandenen Geschäftsworkflow erweitern, um wichtige Daten per Push in ein Dataset zu übertragen. In diesem Fall möchten Sie das Dataset „Sales Marketing“ mit einer Tabelle „Product“ per Push in ein Dataset übertragen.
+Die Power BI-API können Sie Daten in ein Power BI-Dataset übertragen. In diesem Artikel erläutert, wie Sie eine Sales Marketing Dataset mit einer Product-Tabelle in einem vorhandenen Dataset per Push übertragen.
 
-Damit Sie Daten per Push an ein Dataset übermitteln können, benötigen Sie ein Azure Active Directory (Azure AD)- und ein [Power BI-Konto](create-an-azure-active-directory-tenant.md).
+Bevor Sie beginnen, benötigen Sie ein Azure Active Directory (Azure AD) und ein [Power BI-Konto](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Schritte zum Übertragen von Daten per Push in ein Dataset
 
@@ -34,7 +34,7 @@ Im nächste Abschnitt folgt eine allgemeine Erläuterung von Power BI-API-Vorgä
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI-API-Vorgänge zum Übertragen von Daten per Push
 
-Mit der Power BI-REST-API können Sie Datenquellen per Push in Power BI übertragen. Wenn eine Anwendung einem Dataset Zeilen hinzufügt, werden die Kacheln auf dem Dashboard automatisch mit den neuen Daten aktualisiert. Verwenden Sie den Vorgang [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) mit dem Vorgang [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), um Daten per Push zu übertragen. Zum Auffinden eines Datasets verwenden Sie den Vorgang [Datasets abrufen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Für alle diese Vorgänge können Sie eine Gruppen-ID übergeben, um mit einer Gruppe zu arbeiten. Verwenden Sie den Vorgang [Gruppen abrufen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups), um eine Liste mit Gruppen-IDs abzurufen.
+Mit der Power BI-REST-API können Sie Datenquellen per Push in Power BI übertragen. Wenn eine app auf einem Dataset Zeilen hinzufügt, Kacheln Dashboard aktualisieren automatisch mit den neuen Daten an. Verwenden Sie zum Verschieben von Daten die [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) und [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) Vorgänge. Um ein Dataset zu suchen, verwenden die [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) Vorgang. Sie können eine Gruppen-ID für die Arbeit mit einer Gruppe für jeden dieser Vorgänge übergeben. Um eine Liste der Gruppen-ID abzurufen, verwenden die [Get Groups](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) Vorgang.
 
 Es folgen die Vorgänge, um Daten per Push in ein Dataset zu übertragen:
 
@@ -59,7 +59,7 @@ Die JSON-Zeichenfolge für ein Dataset hat das folgende Format:
         ]
     }
 
-Bei unserem Beispiel mit dem Dataset „Sales Marketing“ übergeben Sie eine JSON-Zeichenfolge wie im nachstehenden Beispiel. In diesem Beispiel ist **SalesMarketing** der Name des Datasets und **Product** der Name der Tabelle. Nach Definieren der Tabelle definieren Sie das Tabellenschema. Das Tabellenschema des Datasets **SalesMarketing** weist die folgenden Spalten auf: ProductID, Manufacturer, Category, Segment, Product, IsCompete.
+In unserem Beispiel Vertrieb-Marketing-Dataset, übergeben Sie eine JSON-Zeichenfolge wie unten dargestellt. In diesem Beispiel **"salesmarketing"** ist der DatasetName und **Produkt** ist der Tabellenname. Nach dem Definieren der Tabelle an, definieren Sie das Tabellenschema. Das Tabellenschema des Datasets **SalesMarketing** weist die folgenden Spalten auf: ProductID, Manufacturer, Category, Segment, Product, IsCompete.
 
 **Beispiel-JSON für Datasetobjekt**
 
@@ -105,10 +105,10 @@ Für ein Power BI-Tabellenschema können Sie die folgenden Datentypen verwenden.
 | **Datentyp** | **Einschränkungen** |
 | --- | --- |
 | Int64 |Int64.MaxValue und Int64.MinValue sind nicht zulässig. |
-| Double |Die Werte Double.MaxValue und Double.MinValue sind nicht zulässig. NaN wird nicht unterstützt. +Infinity und -Infinity werden bei einigen Funktionen (z. B. Min, Max) nicht unterstützt. |
-| Boolesch |Keine |
-| Datetime |Beim Laden von Daten werden Werte mit Bruchteilen von Tagen auf ganze Vielfache von 1/300 Sekunden (3,33 ms) quantisiert. |
-| Zeichenfolge |Derzeit sind bis zu 128.000 Zeichen zulässig. |
+| Double |Die Werte Double.MaxValue und Double.MinValue sind nicht zulässig. NaN wird nicht unterstützt. + Infinity und -Infinity, die bei einigen Funktionen (z. B. Min, Max) nicht unterstützt. |
+| Boolescher Wert |Keine |
+| Datetime |Beim Laden der Daten werden Werte mit Bruchteilen von Tagen auf ganze Vielfache von 1/300 Sekunden (3,33 ms) quantisiert. |
+| Zeichenfolge |Derzeit können bis zu 128 Zeichen. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Weitere Informationen zum Übertragen von Daten per Push in Power BI
 

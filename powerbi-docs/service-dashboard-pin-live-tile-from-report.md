@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285804"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140127"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Heften Sie eine gesamte Berichtsseite als Live-Kachel an ein Power BI-Dashboard an
 Eine weitere Möglichkeit, eine neue [Dashboardkachel](consumer/end-user-tiles.md) hinzuzufügen, besteht im Anheften einer ganzen Berichtsseite. Dies ist eine einfache Möglichkeit, mehr als eine Visualisierung gleichzeitig anzuheften.  Wenn Sie eine gesamte Seite anheften, werden Ihre Kacheln zudem *live* geschaltet. Sie können dann damit direkt auf dem Dashboard interagieren. Änderungen, die Sie im Berichts-Editor an Visualisierungen vornehmen, z. B. Hinzufügen eines Filters oder Ändern der im Diagramm verwendeten Felder, werden von der Dashboardkachel übernommen.  

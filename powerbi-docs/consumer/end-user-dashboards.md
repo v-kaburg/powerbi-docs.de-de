@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2019
+ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1dc085d822463ecf394d6257741d4af82d72b8c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661588"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608335"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard für Benutzer des Power BI-Diensts
 
@@ -24,7 +24,7 @@ Ein Power BI-***Dashboard*** ist eine einzelne Seite (häufig als Zeichenbereich
 
 ![Dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Die Visualisierungen auf einem Dashboard werden als *Kacheln* bezeichnet und werden von den Erstellern der Berichten an ein Dashboard *angeheftet*. Durch Auswählen einer Kachel gelangen Sie zur Berichtsseite, auf der die Visualisierung erstellt wurde. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](end-user-basic-concepts.md).
+Die Visualisierungen auf dem Dashboard heißen *Kacheln* und *angeheftet* an das Dashboard, Bericht *Designer*. In den meisten Fällen führt Sie eine Kachel auswählen Sie zur Berichtsseite, die Visualisierung erstellt wurde. Wenn Sie mit Power BI noch nicht vertraut sind, lesen Sie den Artikel [Grundkonzepte des Power BI-Diensts](end-user-basic-concepts.md).
 
 > [!NOTE]
 > Sie können Dashboards auf [mobilen Geräten anzeigen und freigeben](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ Die Visualisierungen eines Dashboards stammen aus Berichten. Jeder Bericht basie
 ## <a name="advantages-of-dashboards"></a>Vorteile von Dashboards
 Mit Dashboards können Sie die Entwicklung Ihres Geschäfts verfolgen, entscheidenden Fragen nachgehen und die wichtigsten Metriken immer im Auge behalten. Jede Visualisierung eines Dashboards kann auf einem oder vielen Datasets, auf einem einzelnen Bericht oder zahllosen Berichten basieren. Ein Dashboard fasst lokale und Clouddaten zusammen und bietet eine konsolidierte Ansicht – unabhängig vom Speicherort der Daten.
 
-Ein Dashboard sieht nicht nur gut aus, es ist ausgesprochen interaktiv, weitgehend anpassbar und immer aktuell, wenn sich die zugrunde liegenden Daten ändern.
+Ein Dashboard ist nicht nur schön anzusehen. Es ist interaktiv und die Kacheln aktualisiert werden, als die zugrunde liegenden Daten ändern.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Dashboards und Berichte für Power BI-***Kunden***
 Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden Berichte gerne mit Dashboards verwechselt. Es gibt aber einige wichtige Unterschiede für Power BI-*Kunden*.
@@ -48,11 +48,9 @@ Als Zeichenbereiche, die ebenfalls Visualisierungen enthalten, werden Berichte g
 | --- | --- | --- |
 | Pages |Eine Seite |Eine oder mehrere Seiten |
 | Datenquellen |Ein oder mehrere Berichte und ein oder mehrere Datasets pro Dashboard |Ein Dataset pro Bericht |
-| Abonnieren |Es können Dashboard-E-Mails abonniert werden. |Es können E-Mails der Berichtsseite abonniert werden. |
 | Filter |Keine Filter, keine Slices |Viele Filter, Hervorhebungen und Slices |
 | Benachrichtigungen festlegen |Benachrichtigungen können erstellt werden. Sie erhalten eine E-Mail, wenn bestimmte Bedingungen erfüllt sind. |Nein |
 | Empfohlen |Ein Dashboard kann als „ausgewähltes“ Dashboard festgelegt werden. |Ein ausgewählter Bericht kann nicht erstellt werden. |
-| Abfragen in natürlicher Sprache |Über das Dashboard verfügbar |Über Berichte nicht verfügbar |
 | Zugrunde liegende Dataset-Tabellen und Felder sichtbar |Nein. Exportieren von Daten, aber Tabellen und Felder im Dashboard nicht sichtbar |Ja. Tabellen, Felder und Werte des Datasets sichtbar |
 
 

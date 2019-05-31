@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
-ms.translationtype: HT
+ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226087"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136373"
 ---
-# <a name="self-service-data-prep-in-power-bi-preview"></a>Self-Service-Datenaufbereitung in Power BI (Vorschau)
+# <a name="self-service-data-prep-in-power-bi"></a>Self-service-Prep in Power BI
 
 Mit dem stets wachsenden Datenvolumen wächst auch die Herausforderung, diese Daten in gut geformte, handlungsrelevante Informationen umzuwandeln. Wir wollen Daten, die für Analysen geeignet sind, um Visuals, Berichte und Dashboards aufzufüllen, damit wir aus den Datenmengen schnell handlungsrelevante Informationen gewinnen. Mit der  **Self-Service-Datenaufbereitung** für Big Data in Power BI wandeln Sie Daten mit wenigen Klicks in Power BI-Informationen um.
 
@@ -26,10 +26,6 @@ Mit dem stets wachsenden Datenvolumen wächst auch die Herausforderung, diese Da
 Power BI führt **Dataflows** ein, um Organisationen dabei zu unterstützen, Daten aus unterschiedlichen Quellen zu vereinheitlichen und zum Modellieren aufbereiten. Analysten können mit vertrauten Self-Service-Tools ganz einfach Dataflows erstellen. Dataflows werden zum Erfassen, Transformieren, Integrieren und Anreichern von Big Data verwendet, indem unter anderem Datenquellenverbindungen, ETL-Logik und Aktualisierungspläne definiert werden. Darüber hinaus gestaltet die neue modellgesteuerte Berechnungs-Engine, die zum Funktionsumfang eines Dataflows gehört, die Datenaufbereitung verwaltbar, deterministischer und unkomplizierter für Datenanalysten und Berichtsersteller. Ähnlich wie Tabellenkalkulationen Neuberechnungen für alle betroffenen Formeln verarbeiten, verwalten Dataflows Änderungen für Entitäten oder Datenelemente in Ihrem Namen, automatisieren Updates und erleichtern einst schwierige und zeitaufwändige Logikprüfungen für eine einfache Datenaktualisierung. Mit Dataflows können Aufgaben, die früher von Data Scientists überwacht werden mussten – und mehrere Stunden oder Tage dauerten – nun mit wenigen Klicks von Analysten und Berichtserstellern erledigt werden. 
 
 Daten werden als Entitäten im [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2 gespeichert. Dataflows werden in App-Arbeitsbereichen mithilfe des Power BI-Diensts erstellt und verwaltet.  
-
-> [!NOTE]
-> Die Dataflowfunktionalität befindet sich in der Vorschau und unterliegt vor der allgemeinen Verfügbarkeit Änderungen und Updates.
-
  
 **Dataflows** wurden zum Verwenden des **Common Data Model** konzipiert. Dabei handelt es sich um eine standardisierte, modulare und erweiterbare Sammlung von Datenschemas, die von Microsoft veröffentlicht wurde und darauf ausgelegt ist, das Erstellen, Verwenden und Analysieren von Daten zu vereinfachen. Mit diesem Modell können Sie schnell und einfach von Datenquellen zu Power BI-Dashboards wechseln.
 
@@ -112,10 +108,10 @@ Durch das Speichern von Geschäftsdaten im standardisierten **Common Data Model*
 Dieser Artikel bietet einen Überblick über die Self-Service-Datenaufbereitung für Big Data in Power BI und die vielfältigen Verwendungsoptionen. Die folgenden Artikel gehen näher auf gängige Anwendungsszenarien für Dataflows ein. 
 
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
-* [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
+* [Datenflüsse und Azure Data Lake-integration](service-dataflows-azure-data-lake-integration.md)
 
 Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie in den folgenden Artikeln:
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)

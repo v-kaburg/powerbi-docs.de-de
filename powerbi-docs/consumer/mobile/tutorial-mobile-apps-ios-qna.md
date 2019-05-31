@@ -10,11 +10,11 @@ ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
 ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282930"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61337406"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Stellen von Fragen zu Ihren Daten mit dem virtuellen Q&A-Analysten in iOS-Apps für Power BI
 
@@ -72,7 +72,7 @@ Der erste Schritt im Tutorial ist das Herunterladen der Beispiele zur Opportunit
 
 4. Wählen Sie das **Beispiel für die Opportunityanalyse** aus.
  
-    ![Analysebeispiel für Verkaufschancen](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Wählen Sie **Verbinden** aus.  
   

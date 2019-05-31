@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249020"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180259"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Herstellen einer Verbindung mit Adobe Analytics mithilfe von Power BI
 Das Herstellen einer Verbindung mit Adobe Analytics über Power BI beginnt mit dem Verbinden mit Ihrem Konto für die Adobe Analytics Marketing Cloud. Sie erhalten eine App mit einem Power BI-Dashboard und einer Reihe von Power BI-Berichten, die Erkenntnisse zum Datenverkehr Ihrer Website und zu Benutzerdimensionen bieten. Die Daten werden automatisch einmal täglich aktualisiert. Sie können mit dem Dashboard und den Berichten interagieren, jedoch keine Änderungen speichern.
@@ -91,7 +91,7 @@ Aus der [Dokumentation](https://marketing.adobe.com/resources/help/en_US/referen
 ## <a name="troubleshooting"></a>Problembehandlung
 Wenn Sie nach Angabe Ihrer Anmeldeinformationen eine Fehlermeldung erhalten, der zufolge Sie keine Berechtigungen haben, stellen Sie gemeinsam mit Ihrem Administrator sicher, dass Sie Zugang zur Adobe Analytics-API haben. Vergewissern Sie sich zudem, dass die bereitgestellte Adobe-ID mit Ihrer Marketing Cloud-Organisation (zugeordnet zu einem Adobe Analytics-Unternehmen) verknüpft ist.
 
-Wenn erst nach dem erfolgreichen Verlassen des Anmeldebildschirms ein Fehler auftritt, ist seine Ursache möglicherweise, dass das Ausführen der Berichte zu lange dauert. Ein häufiger Fehler lautet etwa wie *„Fehler beim Auslesen der Daten aus dem Adobe Analytics-Bericht. Der Bericht enthielt &quot;referrer, page&quot;. Die geschätzte Dauer betrug xx Sekunden“*. Schlagen Sie im Abschnitt „Inhalt“ nach, und führen Sie einen Vergleich mit der Größe Ihrer Adobe-Instanz durch. Leider gibt es derzeit keine Möglichkeit zum Umgehen dieses Timeouts. Wir ziehen allerdings Updates zur Unterstützung größerer Instanzen in Betracht. Unter https://ideas.powerbi.com können Sie dem Power BI-Team Feedback geben.
+Wenn erst nach dem erfolgreichen Verlassen des Anmeldebildschirms ein Fehler auftritt, ist seine Ursache möglicherweise, dass das Ausführen der Berichte zu lange dauert. Ein häufiger Fehler lautet etwa wie *„Fehler beim Auslesen der Daten aus dem Adobe Analytics-Bericht. Der Bericht enthielt &quot;referrer, page&quot;. Die geschätzte Dauer betrug xx Sekunden“* . Schlagen Sie im Abschnitt „Inhalt“ nach, und führen Sie einen Vergleich mit der Größe Ihrer Adobe-Instanz durch. Leider gibt es derzeit keine Möglichkeit zum Umgehen dieses Timeouts. Wir ziehen allerdings Updates zur Unterstützung größerer Instanzen in Betracht. Unter https://ideas.powerbi.com können Sie dem Power BI-Team Feedback geben.
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Was sind Apps in Power BI?](service-create-distribute-apps.md)

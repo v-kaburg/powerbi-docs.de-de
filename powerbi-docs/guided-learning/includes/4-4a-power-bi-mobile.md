@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256282"
+---
 Wenn Sie Ihre Daten auch unterwegs im Blick behalten möchten, können Sie eine der mobilen Power BI-Anwendungen für iOS, Android und Windows-Geräte verwenden.
 
 Um die Power BI-App zu verwenden, melden Sie sich zunächst mit Ihren Kontoinformationen des Power BI-Diensts bei Ihrem Konto an. Auf einem mobilen Windows-Gerät (in diesem Fall ein Tablet) sieht die Anmeldung wie folgt aus.

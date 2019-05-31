@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289599"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051233"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Anpassen der Titel, Legenden und Hintergründe von Visualisierungen
 In diesem Tutorial lernen Sie einige verschiedene Möglichkeiten zum Anpassen von Visualisierungen kennen.   Es gibt eine Vielzahl von Optionen zum Anpassen von Visualisierungen. Diese lernen Sie am besten im Formatierungsbereich kennen (wählen Sie das Farbrollersymbol aus).  Um Ihnen den Einstieg zu erleichtern, wird in diesem Artikel das Anpassen des Titels, der Legende und des Hintergrunds einer Visualisierung erläutert.  
 
 Nicht alle Visualisierungen können benutzerdefiniert angepasst werden. [Hier finden Sie eine vollständige Liste](#list).  
 
-Sehen Sie sich an, wie Amanda Visualisierungen in ihrem Bericht anpasst (Schnellvorlauf zu 4:50 im Video). Befolgen Sie anschließend die Anweisungen unter dem Video, um es mit Ihren eigenen Daten selbst auszuprobieren.
+Schnellen Vorlauf bis 4:50 im Video eine Demonstration zum Anpassen von Visualisierungen. Befolgen Sie anschließend die Anweisungen unter dem Video, um es mit Ihren eigenen Daten selbst auszuprobieren.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="prerequisites"></a>Voraussetzungen
 - Power BI-Dienst oder Power BI Desktop
-- Analysebeispiel für den Einzelhandel
+- Retail Analysis sample
 
 ## <a name="customize-visualization-titles-in-reports"></a>Anpassen der Visualisierungstitel in Berichten
 Melden Sie sich beim Power BI-Dienst (app.powerbi.com) an, und [öffnen Sie das Analysebeispiel für den Einzelhandel](../sample-datasets.md) in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md).

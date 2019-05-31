@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396814"
+---
 Durch die R-Integration können Sie mit Power BI Desktop analytische und statistische Analysen durchführen und beeindruckende visuelle Elemente erstellen. Sie können diese R-Visualisierungen im Bericht Power BI Desktop hosten.
 
 Bei der Auswahl des Symbols für **visuelle R-Elemente** im Bereich **Visualisierungen** erstellt Power BI einen Platzhalter im Zeichenbereich, um das visuelle R-Element zu hosten. Anschließend wird ein R-Skript-Editor geöffnet, den Sie direkt im Zeichenbereich verwenden können. Während Sie dem visuellen R-Element Felder hinzufügen, werden diese von Power BI Desktop im Bereich des R-Skript-Editors hinzugefügt.

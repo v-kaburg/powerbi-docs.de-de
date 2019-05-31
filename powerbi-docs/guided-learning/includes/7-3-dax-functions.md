@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273388"
+---
 Mit DAX erhalten Sie viele verfügbare Funktionen zum Strukturieren, Formatieren oder Analysieren Ihrer Daten. Diese Funktionen können in eine Handvoll Kategorien unterteilt werden:
 
 * **Aggregationsfunktionen**
@@ -52,7 +60,7 @@ Die Sammlung der **logischen** Funktionen in DAX enthalten:
 
 Diese speziellen Funktionen können auch mit *Operatoren* ausgedrückt werden. Sie können in Ihrer DAX-Formel beispielsweise **AND** als **&&** eingeben bzw. dadurch ersetzen.
 
-Sie können Operatoren verwenden (z.B. **&&**), wenn Sie mehr als zwei Bedingungen in der Formel benötigen. Andernfalls ist es jedoch von Vorteil, den Namen der Funktion (z.B. **AND**) für die Lesbarkeit Ihres DAX-Codes zu verwenden.
+Sie können Operatoren verwenden (z.B. **&&** ), wenn Sie mehr als zwei Bedingungen in der Formel benötigen. Andernfalls ist es jedoch von Vorteil, den Namen der Funktion (z.B. **AND**) für die Lesbarkeit Ihres DAX-Codes zu verwenden.
 
 ## <a name="information-functions"></a>Informationsfunktionen
 **Informationsfunktionen** in DAX enthalten:

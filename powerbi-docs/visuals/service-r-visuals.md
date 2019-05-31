@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426606"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389499"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Erstellen von R-Visualisierungen im Power BI-Dienst
 Der Power BI-Dienst unterstützt das Anzeigen von und das Interagieren mit Visualisierungen, die mit R-Skripts erstellt werden. Visualisierungen, die mit R-Skripts erstellt werden, sogenannte*R-Visualisierungen*, können erweiterte Datenstrukturierung und -analysen wie z.B. Vorhersagen darstellen, indem sie sich die starke Leistung von R hinsichtlich Analysen und Visualisierung zu Nutze machen.
@@ -64,7 +64,7 @@ Die folgende Abbildung zeigt als weiteres Beispiel die Fehlermeldung, die angeze
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Lizenzierung
-R-Visualisierungen benötigen eine [Power BI Pro](../service-self-service-signup-for-power-bi.md)-Lizenz, um in Berichten zu rendern, um zu aktualisieren, zu filtern und über Kreuz zu filtern. Weitere Informationen zu Power BI Pro-Lizenzen und wie sie sich von kostenlosen Lizenzen unterscheiden, finden Sie unter [Power BI Pro-Inhalt – was ist das?](../service-premium.md)
+R-Visualisierungen benötigen eine [Power BI Pro](../service-self-service-signup-for-power-bi.md)-Lizenz, um in Berichten zu rendern, um zu aktualisieren, zu filtern und über Kreuz zu filtern. Weitere Informationen zu Power BI Pro-Lizenzen und wie sie sich von kostenlosen Lizenzen unterscheiden, finden Sie unter [Power BI Pro-Inhalt – was ist das?](../service-premium-what-is.md)
 
 Benutzer der kostenlosen Version von Power BI können nur für sie freigegebene Kacheln im Premium-Arbeitsbereich verwenden. Weitere Informationen finden Sie unter [Erwerb von Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
 

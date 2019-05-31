@@ -1,20 +1,20 @@
 ---
 title: Registrieren einer App zum Einbetten von Power BI-Inhalten
 description: Erfahren Sie, wie Sie eine Anwendung zum Einbetten von Power BI-Inhalten in Azure Active Directory registrieren können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 2fb633c8f23d5d9d70dc6a01c2467debb169da54
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762373"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269699"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registrieren einer Azure AD-Anwendung zur Verwendung mit Power BI-Inhalten
 
@@ -53,7 +53,7 @@ So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
 
     ![App-Typ](media/register-app/register-app-new-design-app-type.png)
 
-5. Wenn Sie den Anwendungstyp **Serverseitige Web-Anwendung** ausgewählt haben, geben Sie einen Wert für die Felder **Homepage-URL** und **Umleitungs-URL** ein. Für das Feld **Umleitungs-URL** können Sie eine beliebige gültige URL eingeben, die Ihrer Anwendung entsprechen sollte. Wenn Sie den Anwendungstyp **Nativ** ausgewählt haben, fahren Sie mit Schritt 6 fort.
+5. Wenn Sie den Anwendungstyp **Serverseitige Web-Anwendung** ausgewählt haben, geben Sie einen Wert für die Felder **Homepage-URL** und **Umleitungs-URL** ein. Die **Umleitungs-URL** funktioniert mit jedem gültigen URL und sollte mit der erstellten Anwendung entsprechen. Wenn Sie den Anwendungstyp **Nativ** ausgewählt haben, fahren Sie mit Schritt 6 fort.
 
 6. Wählen Sie die für Ihre Anwendung erforderlichen Power BI-APIs aus. Weitere Informationen zu Power BI-Zugriffsberechtigungen finden Sie unter [Power BI-Berechtigungen](power-bi-permissions.md). Klicken Sie dann auf **Registrieren**.
 
@@ -62,7 +62,7 @@ So registrieren Sie Ihre Anwendung mit dem Power BI-App-Registrierungs-Tool:
     > [!Important]
     > Sobald Sie die Verwendung von Dienstprinzipalen für Power BI aktivieren, sind die Azure Active Directory-Berechtigungen nicht länger wirksam. Die Berechtigungen werden dann über das Power BI-Verwaltungsportal verwaltet.
 
-7. Wenn Sie den Anwendungstyp **Nativ** auswählen, wird Ihnen eine **Anwendungs-ID** bereitgestellt. Wenn Sie den Anwendungstyp **Serverseitige Web-App** auswählen, wird Ihnen eine **Anwendungs-ID** sowie ein **Anwendungsgeheimnis** bereitgestellt.
+7. Auf Wunsch **Native** für den Anwendungstyp, dann sind dann eingegebene ein **Anwendungs-ID**. Wenn Sie den Anwendungstyp **Serverseitige Web-App** auswählen, wird Ihnen eine **Anwendungs-ID** sowie ein **Anwendungsgeheimnis** bereitgestellt.
 
     > [!Note]
     > Die **Anwendungs-ID** kann bei Bedarf später aus dem Azure-Portal abgerufen werden. Wenn Sie das **Anwendungsgeheimnis** verlieren, müssen Sie im Azure-Portal ein neues erstellen.
@@ -83,16 +83,11 @@ Die andere Möglichkeit zum Registrieren Ihrer Anwendung besteht direkt im Azure
 
 3. Wählen Sie Ihren Azure AD-Mandanten aus, indem Sie Ihr Konto in der oberen rechten Ecke der Seite auswählen.
 
-4. Wählen Sie im Navigationsbereich auf der linken Seite **Alle Dienste**, **Azure Active Directory**, **App-Registrierungen** und schließlich **Registrierung einer neuen Anwendung** aus.
-
-    ![Neue App-Registrierung](media/register-app/azuread-new-app-registration.png)
+4. Navigieren Sie im linken Navigationsbereich zu **alle Dienste**Option **App-Registrierungen** und wählen Sie dann **Registrierung einer neuen**.
 
 5. Folgen Sie den Anweisungen, und erstellen Sie eine neue Anwendung .
 
-   * Geben Sie für Webanwendungen die Anmelde-URL an. Dabei handelt es sich um die Basis-URL Ihrer App, bei der sich die Benutzer anmelden können (z.B. `http://localhost:13526`).
-   * Geben Sie für native Anwendungen einen **Umleitungs-URI** an, den Azure AD zur Rückgabe von Tokenantworten verwendet. Vergewissern Sie sich, dass Sie einen für Ihre Anwendung spezifischen Wert eingeben (z.B. `http://myapplication/Redirect`).
-
-Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory finden Sie unter [Integrieren von Anwendungen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
+   Weitere Informationen zum Registrieren von Anwendungen in Azure Active Directory, finden Sie unter [Registrieren einer app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 
 ## <a name="how-to-get-the-application-id"></a>Abrufen der Anwendungs-ID
 
@@ -112,30 +107,21 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
 
 1. Navigieren Sie im Azure-Portal zu [App-Registrierungen](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade), und wählen Sie die App aus, die Sie für die Einbettung verwenden.
 
-    ![Über Azure AD registrierte Apps](media/register-app/powerbi-embedded-azuread-registered-apps.png)
-2. Wählen Sie unter **API-Zugriff** die Option **Erforderliche Berechtigungen** aus.
+2. Wählen Sie **API-Berechtigungen** unter **verwalten**.
 
-    ![Erforderliche Berechtigungen für Azure AD-App](media/register-app/powerbi-embedded-azuread-app-required-permissions.png)
-
-3. Wählen Sie unter **Erforderliche Berechtigungen** die Option **Power BI-Dienst (Power BI)** aus.
+3. In **API-Berechtigungen**Option **Hinzufügen einer Berechtigung**, und wählen Sie dann **Power BI-Dienst**.
 
     ![App-Berechtigungen 3](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-   > [!NOTE]
-   > Wenn Sie die App direkt im Azure AD-Portal erstellt haben, ist der **Power BI-Dienst (Power BI)** möglicherweise nicht vorhanden. Wenn dies der Fall ist, klicken Sie auf **+ Hinzufügen**, und wählen Sie dann **1 Select and API** (1 API auswählen). Klicken Sie auf **Power BI Service** (Power BI-Dienst) in der API-Liste, und klicken Sie dann auf **Select** (Auswählen).  Wenn **Power BI-Dienst (Power BI)** in **+ Hinzufügen** nicht verfügbar ist, registrieren Sie sich mit mindestens einem Benutzer bei Power BI.
+4. Wählen Sie die spezifischen Berechtigungen, die Sie unter benötigen **delegierte Berechtigungen**. Wählen sie die Berechtigungen einzeln aus, um die Auswahl zu speichern. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
 
-4. Wählen Sie alle Berechtigungen unter **Delegierte Berechtigungen** aus. Wählen sie die Berechtigungen einzeln aus, um die Auswahl zu speichern. Wählen Sie **Speichern** aus, wenn Sie fertig sind.
+5. Wählen Sie **Grant Zustimmung**.
 
-    ![App-Berechtigungen 4](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
-5. Wählen Sie unter **Erforderliche Berechtigungen** die Option **Berechtigungen erteilen** aus.
-
-    Für die Aktion **Berechtigungen erteilen** wird das *Hauptkonto* benötigt, damit keine Zustimmung von Azure AD abgefragt wird. Wenn es sich beim Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, gewähren Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, gewähren Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen.
-
-    ![Gewähren von Berechtigungen im Dialogfeld „Erforderliche Berechtigungen“](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
+    Die **Grant Zustimmung** Aktion muss für die *Hauptkonto* um zu vermeiden, wird zur Zustimmung von Azure AD aufgefordert. Wenn es sich beim Konto, das diese Aktion ausführt, um das Konto eines globalen Administrators handelt, gewähren Sie allen Benutzern in der Organisation Berechtigungen für diese Anwendung. Wenn das Konto, das diese Aktion ausführt, das *Masterkonto* und nicht das Konto des globalen Administrators ist, gewähren Sie für diese Anwendung lediglich dem *Masterkonto* Berechtigungen.
 
 ### <a name="applying-permissions-programmatically"></a>Programmgesteuertes Anwenden von Berechtigungen
 
-1. Sie müssen die vorhandenen Dienstprinzipale (Benutzer) in Ihrem Mandanten abrufen. Informationen hierzu finden Sie im [Artikel zu Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get).
+1. Sie müssen die vorhandenen Dienstprinzipale (Benutzer) in Ihrem Mandanten abrufen. Informationen hierzu finden Sie unter [ServicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta).
 
     Sie können die API *Get servicePrincipal* ohne {ID} aufrufen. So werden alle Dienstprinzipale innerhalb des Mandanten abgerufen.
 
@@ -161,7 +147,7 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
    Der Wert für **consentType** kann entweder auf **AllPrincipals** oder **Principal** festgelegt werden.
 
    * Nur Mandantenadministratoren können mit **AllPrincipals** im Namen aller Benutzer im Mandanten Berechtigungen erteilen.
-   * Mit **Principal** werden Berechtigungen im Namen eines bestimmten Benutzers gewährt. In diesem Fall sollte dem Anforderungstext eine zusätzliche Eigenschaft hinzugefügt werden: *principalId={User_ObjectId}*.
+   * Mit **Principal** werden Berechtigungen im Namen eines bestimmten Benutzers gewährt. In diesem Fall sollte dem Anforderungstext eine zusätzliche Eigenschaft hinzugefügt werden: *principalId={User_ObjectId}* .
 
      Die Konfiguration über *Berechtigungen erteilen* ist für das Masterkonto erforderlich, damit von Azure AD keine Zustimmung abgefragt wird. Dies ist bei einer nicht interaktiven Anmeldung nicht möglich.
 
@@ -190,8 +176,8 @@ Sie können sich entweder mit dem *Masterkonto* (zur Einbettung von Inhalten) od
 
    Der Wert für **consentType** kann entweder auf **AllPrincipals** oder **Principal** festgelegt werden.
 
-   * Nur Mandantenadministratoren können mit **AllPrincipals** im Namen aller Benutzer im Mandanten Berechtigungen erteilen.
-   * Mit **Principal** werden Berechtigungen im Namen eines bestimmten Benutzers gewährt. In diesem Fall sollte dem Anforderungstext eine zusätzliche Eigenschaft hinzugefügt werden: *principalId={User_ObjectId}*.
+   * **AllPrincipals** kann nur vom mandantenadministrator zum Gewähren von Berechtigungen für alle Benutzer im Mandanten verwendet werden.
+   * **Dienstprinzipal** wird verwendet, um Berechtigungen für einen bestimmten Benutzer zu gewähren. In diesem Fall sollte dem Anforderungstext eine zusätzliche Eigenschaft hinzugefügt werden: *principalId={User_ObjectId}* .
 
    Die Konfiguration über *Berechtigungen erteilen* ist für das Masterkonto erforderlich, damit von Azure AD keine Zustimmung abgefragt wird. Dies ist bei einer nicht interaktiven Anmeldung nicht möglich.
 

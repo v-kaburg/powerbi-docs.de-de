@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454223"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Verwenden von Inlinehierarchiebeschriftungen in Power BI Desktop
@@ -51,7 +51,7 @@ Sehen wir uns jetzt ein anderes Diagramm an. Dieses enthält Daten mit einer inf
 
 ![Diagramm mit informeller Hierarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Durch Auswahl von **Auf nächste Ebene erweitern** wird die nächste Ebene mit der Inlineanzeige von Hierarchiebeschriftungen angezeigt. Standardmäßig werden Inlinehierarchien nach Measurewert sortiert, in diesem Fall **Quantity**. Wenn Sie Inlinehierarchiebeschriftungen aktivieren, können Sie diese Daten auch nach Hierarchie sortiere. Klicken Sie hierfür rechts oben auf die Auslassungszeichen (**...**), und wählen Sie dann **Sort by ProductName ShipCountry** (Sortieren nach ProductName ShipCountry), wie in der folgenden Abbildung dargestellt.
+Durch Auswahl von **Auf nächste Ebene erweitern** wird die nächste Ebene mit der Inlineanzeige von Hierarchiebeschriftungen angezeigt. Standardmäßig werden Inlinehierarchien nach Measurewert sortiert, in diesem Fall **Quantity**. Wenn Sie Inlinehierarchiebeschriftungen aktivieren, können Sie diese Daten auch nach Hierarchie sortiere. Klicken Sie hierfür rechts oben auf die Auslassungszeichen ( **...** ), und wählen Sie dann **Sort by ProductName ShipCountry** (Sortieren nach ProductName ShipCountry), wie in der folgenden Abbildung dargestellt.
 
 ![Diagramm mit der Standardsortierung der informellen Hierarchie](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 

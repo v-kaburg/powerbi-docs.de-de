@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396861"
+---
 Standardmäßig werden Spaltenüberschriften in Berichten nur angezeigt, wenn die Spalten Daten enthalten. Wenn Sie z. B. den Umsatzerlös nach Ländern anzeigen möchten und in Norwegen kein Umsatzerlös zu verzeichnen ist, wird Norwegen in der Visualisierung nicht angezeigt.
 
 Um leere Kategorien anzuzeigen, klicken Sie auf den Pfeil nach unten in dem zu ändernden Feld im Bereich **Visualisierungen**, und wählen Sie **Elemente ohne Daten anzeigen** aus.

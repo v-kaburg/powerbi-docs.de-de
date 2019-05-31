@@ -10,11 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286959"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61296041"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Festlegen eines geografischen Filters in Power BI Desktop für die mobilen Apps
 In Power BI Desktop können Sie für eine Spalte [geografische Daten kategorisieren](desktop-data-categorization.md), damit Power BI Desktop weiß, wie Werte in Visualisierungen in einem Bericht behandelt werden sollen. Als zusätzlichen Vorteil stellt Power BI automatisch geografische Filter zu Ihrem Standort zur Verfügung, wenn dieser Bericht Ihnen oder Ihren Kollegen in den mobilen Power BI-Apps angezeigt wird. 

@@ -11,11 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: ce6305ccaee7fac44917c1b3911cdd360ac204b9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283946"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61065237"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Informationen zum Kopieren und Einfügen einer Visualisierung im Power BI-Dienst und in Power BI Desktop
 Zum Kopieren und Einfügen einer Visualisierung benötigen Sie Bearbeitungsberechtigungen für den Bericht. Im Power BI-Dienst muss der Bericht hierzu in der [Bearbeitungsansicht](../consumer/end-user-reading-view.md) geöffnet werden.

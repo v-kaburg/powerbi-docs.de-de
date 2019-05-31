@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263403"
+---
 Wenn Sie mit einem Dashboard, Bericht oder Dataset im Power BI-Dienst arbeiten, können Sie sich mithilfe von Power BI schnelle Einblicke in die Daten verschaffen. Wählen Sie in Power BI im Abschnitt **Datasets** im linken Bereich die *Auslassungspunkte* (drei Punkte) neben dem gewünschten Dataset aus. Ein Menü mit verschiedenen Optionen wird angezeigt, ganz rechts befindet sich die Option **Schnelleinblicke**.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

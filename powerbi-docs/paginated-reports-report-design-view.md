@@ -1,24 +1,24 @@
 ---
 title: Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 description: Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Erstellung paginierter Berichte, die Sie im Power BI-Dienst veröffentlichen können.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174773"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423342"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Tour durch die Berichtsentwurfsansicht für paginierte Berichte (Vorschau)
 
-Die Berichtsentwurfsansicht im Berichts-Generator ist der Entwurfsbereich zur Erstellung paginierter Berichte, die Sie im Power BI-Dienst veröffentlichen können. Die Entwurfsfläche befindet sich im Zentrum des Berichts-Generators, und das Menüband und die Bereiche sind rundherum angeordnet. Auf der Entwurfsfläche können Sie Berichtselemente hinzufügen und organisieren. Dieser Artikel erläutert die Bereiche zum Hinzufügen, Auswählen und Anordnen von Berichtsressourcen sowie zum Ändern der Eigenschaften von Berichtselementen.  
+Entwurfsansicht des Berichts im Power BI-Berichts-Generator ist der Platz für den Entwurf für das Erstellen von paginierter Berichten, die Sie in Power BI-Dienst veröffentlichen können. Die Entwurfsfläche befindet sich im Zentrum des Berichts-Generators, und das Menüband und die Bereiche sind rundherum angeordnet. Auf der Entwurfsfläche können Sie Berichtselemente hinzufügen und organisieren. Dieser Artikel erläutert die Bereiche zum Hinzufügen, Auswählen und Anordnen von Berichtsressourcen sowie zum Ändern der Eigenschaften von Berichtselementen.  
 
 ![Berichtsentwurfsansicht des Berichts-Generators](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 

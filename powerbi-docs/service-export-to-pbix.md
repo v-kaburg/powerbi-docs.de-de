@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282009"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61159767"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht in den Power BI-Dienst exportieren (dieser Vorgang wird auch als *Herunterladen* bezeichnet), indem Sie den Bericht speichern und **Veröffentlichen** auswählen. Es ist auch ein Export in die andere Richtung möglich, und Sie können einen Bericht aus dem Power BI-Dienst in die Desktopversion herunterladen. Die Erweiterung für in beide Richtungen exportierte Dateien lautet *.pbix*.

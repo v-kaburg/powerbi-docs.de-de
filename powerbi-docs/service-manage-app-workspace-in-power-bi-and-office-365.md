@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282239"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231582"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Verwalten Ihres App-Arbeitsbereichs in Power BI und Office 365
 Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](service-create-distribute-apps.md) oder in Office 365 verwalten Sie einige Aspekte des Arbeitsbereichs in Power BI. Andere Aspekte werden in Office 365 verwaltet. 
@@ -36,10 +36,10 @@ Als Ersteller oder Administrator eines [App-Arbeitsbereichs in Power BI](service
 * Anzeigen der E-Mail-Adresse der Gruppe
 * Löschen der Gruppe
 
-Sie benötigen eine [Power BI Pro](service-features-license-type.md)-Lizenz, damit Sie Administrator oder Mitglied eines App-Arbeitsbereichs sein können. Ihre App-Benutzer benötigen ebenfalls eine Power BI Pro-Lizenz, es sei denn, der App-Arbeitsbereich befindet sich in einer Power BI Premium-Kapazität. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
+Sie benötigen eine [Power BI Pro](service-features-license-type.md)-Lizenz, damit Sie Administrator oder Mitglied eines App-Arbeitsbereichs sein können. Ihre App-Benutzer benötigen ebenfalls eine Power BI Pro-Lizenz, es sei denn, der App-Arbeitsbereich befindet sich in einer Power BI Premium-Kapazität. Details finden Sie unter [Was ist Power BI Premium?](service-premium-what-is.md).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Verwalten Ihres App-Arbeitsbereichs in Power BI
-1. Wählen Sie im Power BI-Dienst den Pfeil neben **Arbeitsbereiche** aus, wählen Sie die Auslassungspunkte (**...**) neben dem Namen Ihres Arbeitsbereichs aus, und wählen Sie **Arbeitsbereich bearbeiten** aus. 
+1. Wählen Sie im Power BI-Dienst den Pfeil neben **Arbeitsbereiche** aus, wählen Sie die Auslassungspunkte ( **...** ) neben dem Namen Ihres Arbeitsbereichs aus, und wählen Sie **Arbeitsbereich bearbeiten** aus. 
    
    ![Arbeitsbereiche in Power BI bearbeiten](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ Sie benötigen eine [Power BI Pro](service-features-license-type.md)-Lizenz, dam
 3. Wählen Sie **Speichern** oder **Abbrechen**aus.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Bearbeiten von Eigenschaften des Power BI-App-Arbeitsbereichs in Office 365
-1. Wählen Sie im Power BI-Dienst den Pfeil neben **Arbeitsbereiche** aus, wählen Sie die Auslassungspunkte (**...**) neben dem Namen Ihres Arbeitsbereichs aus, und wählen Sie **Mitglieder** aus. 
+1. Wählen Sie im Power BI-Dienst den Pfeil neben **Arbeitsbereiche** aus, wählen Sie die Auslassungspunkte ( **...** ) neben dem Namen Ihres Arbeitsbereichs aus, und wählen Sie **Mitglieder** aus. 
    
    ![Arbeitsbereiche in Power BI bearbeiten](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Daraufhin wird die Outlook für Office 365-Gruppenansicht Ihres App-Arbeitsbereichs geöffnet.
    
    Sie müssen sich möglicherweise mit Ihrem Geschäftskonto anmelden.
-2. Tippen Sie auf die Auslassungspunkte (**...**) neben dem Namen eines Mitglieds, um das Mitglied als Administrator hinzuzufügen oder aus dem App-Arbeitsbereich zu löschen. 
+2. Tippen Sie auf die Auslassungspunkte ( **...** ) neben dem Namen eines Mitglieds, um das Mitglied als Administrator hinzuzufügen oder aus dem App-Arbeitsbereich zu löschen. 
    
    ![Gruppe in Office 365 bearbeiten](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

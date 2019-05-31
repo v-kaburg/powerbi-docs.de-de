@@ -7,24 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215582"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150457"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows und Azure Data Lake-Integration (Vorschauversion)
 
 Mit Power BI verwendete Daten werden standardmäßig im internen Speicher von Power BI gespeichert. Mit der Integration von Dataflows und Azure Data Lake Storage Gen2 (ADLS Gen2) können Sie Ihre Dataflows im Azure Data Lake Storage Gen2-Konto Ihrer Organisation speichern. 
 
 ![Dataflows in Azure Storage](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
-
-> [!NOTE]
-> Die Dataflowfunktionalität befindet sich in der Vorschau und unterliegt vor der allgemeinen Verfügbarkeit Änderungen und Updates.
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>Beziehung zwischen CDM-Ordnern und Dataflows
 
@@ -87,9 +84,9 @@ Weitere Informationen zu Dataflows, CDM und Azure Data Lake Storage Gen2 finden 
 Allgemeine Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 
 Weitere Informationen zu Azure Storage finden Sie in den folgenden Artikeln:
 * [Azure Storage-Sicherheitsleitfaden](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

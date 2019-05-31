@@ -8,111 +8,43 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/10/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d3f526b79f6029943743e66b13745a9d037fe9b9
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661512"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608204"
 ---
-# <a name="change-the-size-of-a-report-page"></a>Ändern der Größe einer Berichtsseite
-Im [vorherigen Artikel und Video](../power-bi-report-display-settings.md) haben Sie zwei unterschiedliche Arten zum Steuern der Seitenanzeige in Power BI-Berichten kennengelernt: **Ansicht** und **Seitengröße**. „Seitenansicht“ und „Seitengröße“ sind sowohl im Power BI-Dienst als auch in Power BI Desktop verfügbar, mit nahezu identischem Aussehen und Verhalten. Für dieses Tutorial verwenden wir jedoch den Power BI-Dienst.
+# <a name="change-the-display-of-a-report-page"></a>Ändern Sie die Anzeige einer Berichtsseite
+Berichte werden auf vielen verschiedenen Geräten mit unterschiedlichen Bildschirmgrößen und Seitenverhältnissen angezeigt.  Ändern Sie die Möglichkeit eine Berichtsseite angezeigt wird, um Ihren Anforderungen anpassen.    
 
-### <a name="prerequisites"></a>Voraussetzungen
-- Power BI-Dienst   
-- [Bericht zum Analysebeispiel für den Einzelhandel](../sample-retail-analysis.md)
+![Bericht wird im Zeichenbereich angezeigt.](media/end-user-report-view/power-bi-report.png)
 
-## <a name="first-lets-change-the-page-view-setting"></a>Ändern Sie zunächst die Einstellung für die Seitenansicht.
+## <a name="explore-the-view-menu"></a>Untersuchen Sie das Menü "Ansicht"
+Die Optionen im Menü Ansicht bieten Ihnen Flexibilität beim Anzeigen von Berichtsseiten mit der Größe und Breite, die Sie auswählen.
 
-1. Öffnen Sie den Bericht in der Leseansicht oder Bearbeitungsansicht, und wählen Sie die Berichtsregisterkarte für **Neue Filialen** aus. Diese Berichtsseite wird standardmäßig mit der Einstellung **An Seite anpassen** angezeigt.  In diesem Fall zeigt „An Seite anpassen“ die Berichtsseite ohne Scrollleisten an, einige Details und Titel sind jedoch zu klein zum Lesen.
+- Angenommen Sie einen Bericht auf kleineren Geräten anzeigen, und es ist schwierig, Titel und Legenden finden Sie unter.  Wählen Sie **Ansicht** > **Originalgröße** der Berichtsseite vergrößert. Verwenden Sie die Bildlaufleisten, um den Bericht zu verschieben. 
 
-   ![Auf der Canvas angezeigter Bericht](media/end-user-report-view/pbi_fit_to_page.png)
-2. Stellen Sie sicher, dass im Zeichenbereich keine Visualisierungen ausgewählt sind. Wählen Sie **Ansicht** aus, und überprüfen Sie die Anzeigeoptionen.
+    ![Bericht wird auf der Canvas mit beiden Scrollleisten angezeigt](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   * In der Leseansicht wird dies angezeigt.
 
-     ![Anzeigen des Dropdownmenüs mit ausgewählter Option „An Seite anpassen“](media/end-user-report-view/power-bi-page-view-menu-new.png)
-   * Die Bearbeitungsansicht sieht wie folgt aus.
+- Eine andere Möglichkeit besteht, passen Sie den Bericht, um Ihre Bildschirmbreite dazu **an Breite anpassen**. Dies erfordert möglicherweise immer noch die Verwendung einer vertikalen Bildlaufleiste.
 
-     ![Anzeigen des Dropdownmenüs mit ausgewählter Option „An Seite anpassen“](media/end-user-report-view/power-bi-view-editing-view.png)
+  ![Bericht wird angezeigt, mit der Breite des gesamten Zeichenbereich](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-3. So sieht die Seite mit der Einstellung **Tatsächliche Größe** aus.
+- Wenn Sie keine Bildlaufleisten, aber machen Ihre Bildschirmgröße optimal nutzen möchten.  Wählen Sie **an Seite anpassen**.
 
-   ![Bericht wird auf der Canvas mit beiden Scrollleisten angezeigt](media/end-user-report-view/power-bi-actal-size2.png)
+   ![Bericht wird ohne Scrollleisten angezeigt.](media/end-user-report-view/power-bi-fit-to-width.png)
 
-   Allerdings hat das Dashboard jetzt zwei Bildlaufleisten.
-4. Wechseln Sie zu **An Breite anpassen**.
+   
+- Die letzte Option, **Vollbild**, die Berichtsseite ohne Header und Menüleisten angezeigt. Vollbildmodus möglicherweise eine gute Wahl für kleine Bildschirme, in dem die Details schwer zu erkennen sind.  Vollbildmodus möglicherweise auch eine gute Wahl, beim Projizieren von Berichtsseiten auf großen Bildschirmen für Benutzer anzeigen, aber keine Interaktionen miteinander durch.  
 
-   ![Bericht wird ohne Scrollleisten/nur mit einer Scrollleiste angezeigt](media/end-user-report-view/pbi_fit_to_width.png)
+    ![Bericht wird im Vollbildmodus angezeigt](media/end-user-report-view/power-bi-full-screen.png)
 
-   Das sieht besser aus. Nun ist zwar immer noch eine Scrollleiste vorhanden, aber die Details sind einfacher zu lesen.
-
-## <a name="change-the-default-view-for-a-report-page"></a>Festlegen der Standardansicht für eine Berichtsseite
-Wenn Sie der *Ersteller* des Berichts sind, können Sie die Standardansicht für die Berichtsseiten ändern. Wenn Sie den Bericht für andere Benutzer freigeben, werden die Berichtsseiten in der Ansicht geöffnet, die Sie festgelegt haben. *Nutzer* des Berichts können die Ansicht ändern, ihre Änderungen werden jedoch nicht gespeichert, nachdem sie den Bericht geschlossen haben.
-
-1. Wechseln Sie auf der Seite **Neue Filialen** des Berichts zurück zur Ansicht **Tatsächliche Größe**.
-
-   ![Anzeigen des Dropdownmenüs mit ausgewählter Option „Tatsächliche Größe“](media/end-user-report-view/power-bi-actual-size.png)
-
-2. Legen Sie auf der Berichtsseite **Monatliche Verkäufe nach Region** „Ansicht“ auf **An Breite anpassen** fest.
-
-3. Behalten Sie auf der Berichtsseite **Übersicht** die Standardeinstellung für „Ansicht“ bei.
-
-4. Speichern Sie jetzt den Bericht, indem Sie **Datei > Speichern** auswählen. Wenn Sie den Bericht das nächste Mal öffnen, werden die Seiten mit den neuen Ansichtseinstellungen angezeigt. Sehen wir uns das einmal an.
-
-   ![Dateidropdownliste mit ausgewählter Option „Speichern“](media/end-user-report-view/power-bi-save.png)
-3. Wählen Sie den Namen des aktuellen Arbeitsbereichs in der oberen Navigationsleiste aus, um zu diesem Arbeitsbereich zurückzuwechseln.  
-
-   ![Oberen Menüleiste mit Breadcrumbs](media/end-user-report-view/power-bi-my-workspace.png)
-4. Wählen Sie die Registerkarte **Berichte**, und wählen Sie den gleichen Bericht (Analysebeispiel für Einzelhandel) aus.
-
-    ![Inhaltsansicht mit ausgewählter Registerkarte „Berichte“](media/end-user-report-view/power-bi-new-report2.png)
-5. Öffnen Sie jede Seite des Berichts, um die neuen Einstellungen anzuzeigen.
-
-   ![Video zeigt das Ändern von Anzeigeoptionen](media/end-user-report-view/power-bi-page-view.gif)
-
-## <a name="now-lets-explore-the-page-size-setting"></a>Betrachten wir nun die Einstellung *Seitengröße*.
-Die Einstellungen für „Seitengröße“ sind nur in der [Bearbeitungsansicht](../service-interact-with-a-report-in-editing-view.md) verfügbar. Deshalb müssen Sie über Bearbeitungsberechtigungen (*Ersteller*) für den Bericht verfügen, um diese Einstellungen zu ändern. Wenn Sie eine Verbindung mit einem der [Beispiele](../sample-datasets.md) hergestellt haben, verfügen Sie über *Erstellerberechtigungen* für diese Berichte.
-
-1. Öffnen Sie die Seite „Monatliche Verkäufe nach Region“ des [Analysebeispiels für den Einzelhandel](../sample-retail-analysis.md) in der Bearbeitungsansicht.
-2. Stellen Sie sicher, dass im Zeichenbereich keine Visualisierungen ausgewählt sind.  Wählen Sie im Bereich **Visualisierungen** das Farbrollersymbol aus ![](media/end-user-report-view/power-bi-paintroller.png).
-3. Wählen Sie **Seitengröße** &gt; **Typ** aus, um die Optionen für die Seitengröße anzuzeigen.
-
-   ![Erweiterte Seitengrößekarte und Auswahl „16:9“](media/end-user-report-view/power-bi-page-size-menu-new.png)
-4. Wählen Sie **Brief**.  Nur die Inhalte innerhalb des Formats 816 x 1056 Pixel (Letter-Format) werden im weißen Teil des Zeichenbereichs angezeigt.
-
-   ![Berichtscanvas mit erweiterter Karte „Seitengröße“ und ausgewähltem Typ „Buchstabe“](media/end-user-report-view/power-bi-letter-new.png)
-5. Wählen Sie **Seitengröße** und das Verhältnis **16:9** aus.
-
-   ![Erweiterte Seitengrößekarte und Typauswahl „16:9“](media/end-user-report-view/power-bi-16-to-9-new.png)
-
-   Die Berichtsseite wird mit der Seitenbreite 16 im Verhältnis zur Höhe 9 angezeigt. Die tatsächlich verwendete Pixelgröße wird Ihnen in den abgeblendeten Feldern für Breite und Höhe angezeigt (1280 x 720). Um den Berichtszeichenbereich wird ein leerer Bereich angezeigt, da für die **Ansicht** zuvor „An Breite anpassen“ festgelegt wurde.
-7. Lernen Sie die Optionen für **Seitengröße** genauer kennen.
-
-## <a name="use-page-view-and-page-size-together"></a>Gemeinsame Verwendung der Optionen „Ansicht“ und „Seitengröße“
-Verwenden Sie die Optionen „Ansicht“ und „Seitengröße“ gemeinsam, um einen Bericht zu erstellen, der besonders übersichtlich ist, wenn er für Kollegen freigegeben oder in eine andere Anwendung eingebettet wird.
-
-In dieser Übung erstellen Sie eine Berichtsseite, die in einer Anwendung mit 500 Pixel Breite und 750 Pixel Höhe angezeigt wird.
-
-Aus dem letzten Schritt wissen wir, dass unsere Berichtsseite derzeit mit einer Breite von 1280 Pixel und einer Höhe von 720 Pixel angezeigt wird. Wir müssen also die Größe verändern und die Daten neu anordnen, damit die Visualisierung Platz hat.
-
-1. Ändern Sie die Größe und Position der Visualisierung, sodass sie mit weniger als der Hälfte an Platz verglichen mit dem derzeitigen Zeichenbereich auskommt.
-
-    ![Video mit visuellen Elementen, deren Größe geändert wird und die auf der Canvas verschoben werden](media/end-user-report-view/power-bi-custom-view.gif)
-2. Wählen Sie **Seitengröße** &gt; **Benutzerdefiniert**.
-3. Legen Sie die Breite auf 500 und die Höhe auf 750 fest.
-
-    ![Bereich „Formatierung“ mit erweiterter Karte „Seitengröße“](media/end-user-report-view/power-bi-custom-new.png)
-4. Optimieren Sie die Berichtsseite für eine ideale Darstellung. Wechseln Sie zwischen **Ansicht > Tatsächliche Größe** und **Ansicht > An Seite anpassen**, während Sie die Anpassungen vornehmen.
-
-    ![Berichtscanvas mit erweitertem Bereich „Formatierung“](media/end-user-report-view/power-bi-final-new.png)
+Wenn Sie den Bericht verlassen, werden Ihre Einstellungen werden nicht gespeichert, aber die Standardeinstellung wiederherstellen. Wenn es wichtig, diese Einstellungen zu speichern ist, verwenden Sie [Lesezeichen](end-user-bookmarks.md). 
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erstellen von Berichten für Cortana](../service-cortana-answer-cards.md)
-
-[Einstellungen für die Seitenanzeige in einem Power BI-Bericht](../power-bi-report-display-settings.md)
-
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

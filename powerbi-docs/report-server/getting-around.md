@@ -1,20 +1,20 @@
 ---
 title: Verwalten von Inhalten im Webportal des Power BI-Berichtsservers
 description: Informieren Sie sich über das Verwalten von Inhalten im Webportal des Power BI-Berichtsservers.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
-ms.author: maghan
-ms.openlocfilehash: dcb0507e5812ae35b5be8405ce0a2e347077511b
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324505"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770138"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Verwalten von Inhalten im Webportal 
 Das Webportal von Power BI-Berichtsserver ist ein lokaler Speicherort zum Anzeigen, Speichern und Verwalten Ihrer Power BI-, mobilen und paginierten Berichte sowie von KPIs.

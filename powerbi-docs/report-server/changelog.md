@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872499"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65990620"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Änderungsprotokoll für Power BI-Berichtsserver
 
@@ -22,10 +22,34 @@ Dieses Änderungsprotokoll bezieht sich auf Power BI-Berichtsserver und enthält
 
 Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in Power BI-Berichtsserver](whats-new.md). 
 
+## <a name="may-2019"></a>Mai 2019
+
+- **Power BI-Berichtsserver**          
+    - *Version 1.5.7074.36177 (Build 15.0.1102.371), Released: 21 Mai 2019*
+        - Fehlerkorrekturen
+            - Paginated Reports
+                - Die Lösung für die Pdf-schriftarteinbettung immer zu aktivieren.
+                - Beheben Sie über "Https" Secure gesendeten Cookies festlegen
+                - Beheben Sie Probleme mit Pop USV aufgrund von Fehlern
+                - Fehlerbehebung für Probleme bei der Anzeige mit der mobilen App auf Android-Smartphones
+                - Korrektur für Mobile Bericht Zeitnavigation, zeigen die richtige Wochennummern unabhängig vom Beginn des Geschäftsjahrs
+                - Hinzugefügte "RestrictedResourceMimeTypeForUpload" konfigurierbare Eigenschaft für Administratoren an gesperrt MIME-Typen
+         - Features
+            - Hinzufügen von Unterstützung für vertrauenswürdige visuelle Elemente zu PBIRS
+
+- **Power BI Desktop (optimiert für Power BI-Berichtsserver)**
+    - *Version: 2.69.5467.1801 (Mai 2019), Veröffentlichung: 21 Mai 2019*
+        - Fehlerkorrekturen
+            - Korrektur für-Nutzern Anmeldeinformationen während des Uploads von pbix-Datei zu PBIRS zu vermeiden.
+            - Öffnen von Dokumenten mit # im Dateinamen Korrekturen
+            - Einfacher Link für die Rückwärtsnavigation auf PBIRS Auswahlfenster hinzugefügt
+            - Um den Modus für hohe Kontraste in PBIRS zum Anzeigen der Schaltfläche "zurück", zeigen visual Warnmeldungen beheben.
+            - UI-Korrekturen für von Bereichs "Auswahl", canvas-Skalierung.
+
 ## <a name="january-2019"></a>Januar 2019
 
 - **Power BI-Berichtsserver**          
-    - *Version 1.4.7024.16477 (Build 15.0.1102.299), Veröffentlichung: 28. März 2019*
+    - *Version 1.4.7024.16477 (Build 15.0.1102.299), Released: 28. März 2019*
         - Fehlerkorrekturen
             - Power BI-Berichte
                 - Korrigiert: Ein Problem mit Standardanmeldeinformationen bei direkter Abfrage für SAP HANA und SAP BW
@@ -104,7 +128,7 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
                 - Berichte können aktualisiert werden, wenn ein Server für die Verwendung der benutzerdefinierten Authentifizierung konfiguriert ist.
                 - Durch Ändern der Eigenschaften eines Berichts werden die Anmeldeinformationen der Datenquelle nicht zurückgesetzt.
             - Für paginierte Berichte (RDL)
-                - Die Verwendung von `Lookup()` oder Ableitungsfunktionen wie `LookupSet()` und `MultiLookup()` in RDL-Ausdrücken führt nicht mehr zu `#Error`
+                - Die Verwendung von `Lookup()` oder Ableitungsfunktionen wie `LookupSet()` und `MultiLookup()` in RDL-Ausdrücken führt nicht mehr zu `#Error`.
                 - Verknüpfte Berichte behalten beim Drucken die Seitengröße des Zielberichts bei.
                 - Abonnements können für verknüpfte Berichte erstellt werden, die kaskadierende Parameter verwenden.
                 - Bei Verwendung von IE11 können die Standardwerte mehrwertiger Parameter geändert werden.
@@ -220,8 +244,8 @@ Ausführliche Informationen zu neuen Funktionen finden Sie unter [Neuerungen in 
 
 [Was ist der Microsoft Power BI-Berichtsserver?](get-started.md)
 [Administratorübersicht](admin-handbook-overview.md)  
-[Power BI-Berichtsserver installieren](install-report-server.md)  
+[Installieren von Power BI-Berichtsserver](install-report-server.md)  
 [Herunterladen des Berichts-Generators](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Herunterladen von SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Herunterladen der SQL Server Data Tools](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-Weitere Fragen? [Wenden Sie sich an die Power BI-Community.](https://community.powerbi.com/)
+Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](https://community.powerbi.com/)

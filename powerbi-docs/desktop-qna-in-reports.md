@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430097"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61284822"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Verwenden von Q&A in Power BI Desktop für Abfragen in natürlicher Sprache
 Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihre Daten effizient auswerten. Wenn die Daten Ihnen dann noch Antworten liefern, sind sie noch leistungsfähiger – und genau das ist mit Q&A in **Power BI Desktop** möglich.
@@ -23,7 +23,7 @@ Indem Sie gängige Ausdrücke und natürliche Sprache verwenden, können Sie Ihr
 Damit Q&A die Vielzahl von Fragen, die vom Programm beantwortet werden können, erfolgreich interpretieren kann, muss Q&A Annahmen über das Modell machen. Wenn die Struktur des Modells nicht mindestens einer dieser Annahmen entspricht, müssen Sie das Modell anpassen. Diese Anpassungen für Q&A sind die gleichen Optimierungen, die als bewährte Methoden für jedes Modell in Power BI vorgenommen werden, unabhängig davon, ob Sie Q&A verwenden. 
 
 > [!NOTE]
-> Q&A ist nur verfügbar, wenn Sie mit einem Modell arbeiten, das **importierte** Daten enthält. Liveverbindungen mit SSAS- und DirectQuery-Modellen werden nicht unterstützt.
+> F & A ist nur verfügbar, wenn mit einem Modell arbeiten, die enthält **nicht importiert** Daten und Live-Verbindungen mit SSAS. DirectQuery-Modelle werden nicht unterstützt.
 >
 > Q&A erfordert das folgende C-Runtime-Update, wenn Sie eine Windows-Version vor Windows 10 verwenden. Sie können wichtige Updates über Windows Update installieren oder die erforderliche Komponente über das Microsoft-Update KB2999226 manuell installieren. [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >

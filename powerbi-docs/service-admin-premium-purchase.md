@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565285"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Erwerben von Power BI Premium
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um eine Premium-Kapazität zu erwerben.
 
 1. Suchen Sie unter **Andere Pläne** nach Angeboten für Power BI Premium. Diese werden als P1 bis P3, EM3 und P1 (monatlich) aufgeführt.
 
-1. Zeigen Sie mit dem Mauszeiger auf die Auslassungspunkte (**...**), und klicken Sie dann auf **Jetzt kaufen**.
+1. Zeigen Sie mit dem Mauszeiger auf die Auslassungspunkte ( **...** ), und klicken Sie dann auf **Jetzt kaufen**.
 
     ![Jetzt kaufen](media/service-admin-premium-purchase/premium-purchase.png)
 
@@ -66,7 +66,7 @@ Da Sie nun über eine Kapazität verfügen, können Sie weitere hinzufügen, wen
 
 1. Suchen Sie unter **Andere Pläne** den Power BI Premium-Artikel aus, von dem Sie mehr erwerben möchten.
 
-1. Zeigen Sie mit dem Mauszeiger auf das **Auslassungszeichen (...)**, und wählen Sie dann **Lizenzanzahl ändern** aus.
+1. Zeigen Sie mit dem Mauszeiger auf das **Auslassungszeichen (...)** , und wählen Sie dann **Lizenzanzahl ändern** aus.
 
     ![Anzahl an Lizenzen ändern](media/service-admin-premium-purchase/premium-purchase-more.png)
 

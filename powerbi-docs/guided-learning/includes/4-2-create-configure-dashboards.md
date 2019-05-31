@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263422"
+---
 **Dashboards** in Power BI sind einseitige Sammlungen mit Visualisierungen, die über den Power BI-Dienst erstellt werden. Dashboards erstellen Sie durch **Anheften** von Visualisierungen aus Berichten, die Sie mithilfe von Power BI Desktop erstellt und veröffentlicht haben, oder von Visualisierungen, die Sie im Power BI-Dienst erstellt haben. Das **Anheften** von visuellen Elementen an ein Dashboard gestaltet sich in etwa wie das Anheften eines Bilds an eine Korkwand: Ein visuelles Element wird an einer bestimmten Position angebracht und ist für andere Benutzer sichtbar. Um ein visuelles Element anzuheften, öffnen Sie den zugehörigen Bericht im Power BI-Dienst. Zeigen Sie auf das visuelle Element, das Sie anheften möchten, und wählen Sie das **Anheftsymbol** aus.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

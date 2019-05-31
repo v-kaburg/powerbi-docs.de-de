@@ -1,20 +1,20 @@
 ---
 title: Verwenden von Sicherheit auf Zeilenebene für eingebettete Inhalte aus Power BI
 description: Erfahren Sie mehr zu den Schritten, die Sie durchführen müssen, um Inhalte von Power BI in Ihre Anwendung einzubetten.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328008"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61353812"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicherheit auf Zeilenebene mit Power BI Embedded
 
@@ -64,7 +64,7 @@ Dazu gehen Sie wie folgt vor:
 2. Erstellen Sie eine neue Rolle mit dem Namen **Manager**.
 
     ![Neue Rolle erstellen](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Geben Sie in der Tabelle **District** (Gebiet) diesen DAX-Ausdruck ein: **[District Manager] = USERNAME()**.
+3. Geben Sie in der Tabelle **District** (Gebiet) diesen DAX-Ausdruck ein: **[District Manager] = USERNAME()** .
 
     ![DAX-Anweisung für RLS-Regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Um sicherzustellen, dass die Regeln angewendet werden, wählen Sie auf der Registerkarte **Modellierung** die Option **Als Rollen anzeigen** aus, und wählen Sie dann die von Ihnen erstellte Rolle **Manager** sowie **Anderer Benutzer** aus. Geben Sie als Benutzer **AndrewMa** ein.
@@ -145,9 +145,9 @@ Das CustomData-Feature funktioniert nur für Modelle, die in **Azure Analysis Se
 
 Das CustomData-Feature ermöglicht das Hinzufügen eines Zeilenfilters beim Anzeigen von Power BI-Daten in Ihrer Anwendung, wenn **Azure Analysis Services** als Datenquelle verwendet wird (Anzeigen von Power BI-Daten, die in Ihrer Anwendung mit Azure Analysis Services verbunden sind).
 
-Das CustomData-Feature ermöglicht die Übergabe von Freitext (Zeichenfolge) mithilfe der Verbindungszeichenfolgen-Eigenschaft von CustomData. Analysis Services verwendet diesen Wert über die *CUSTOMDATA()*-Funktion.
+Das CustomData-Feature ermöglicht die Übergabe von Freitext (Zeichenfolge) mithilfe der Verbindungszeichenfolgen-Eigenschaft von CustomData. Analysis Services verwendet diesen Wert über die *CUSTOMDATA()* -Funktion.
 
-Die einzige Möglichkeit, in **Azure Analysis Services** eine dynamische Sicherheit auf Zeilenebene zu erzielen (bei der dynamische Werte für die Filterauswertung verwendet werden), ist die Verwendung der *CUSTOMDATA()*-Funktion.
+Die einzige Möglichkeit, in **Azure Analysis Services** eine dynamische Sicherheit auf Zeilenebene zu erzielen (bei der dynamische Werte für die Filterauswertung verwendet werden), ist die Verwendung der *CUSTOMDATA()* -Funktion.
 
 Sie können das Feature innerhalb der DAX-Rollenabfrage verwenden. Außerdem können Sie es ohne eine Rolle in einer DAX-Measureabfrage verwenden.
 Das CustomData-Feature ist Teil der Funktionalität zur Tokengenerierung für folgende Elemente: Dashboards, Berichte und Kacheln. Dashboards können über mehrere CustomData-Identitäten (eine pro Kachel/Modell) verfügen.
@@ -205,7 +205,7 @@ Im Folgenden finden Sie die Schritte, mit denen Sie mit der Einrichtung der Cust
 
     ![Rolle erstellen: Einstellungen für Mitgliedschaft festlegen](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Legen Sie die DAX-Abfrage **Zeilenfilter** mithilfe der *CUSTOMDATA()*-Funktion fest.
+5. Legen Sie die DAX-Abfrage **Zeilenfilter** mithilfe der *CUSTOMDATA()* -Funktion fest.
 
     ![Rolle erstellen: Zeilenfilter festlegen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ Im Folgenden finden Sie die Schritte, mit denen Sie mit der Einrichtung der Cust
     ![Beispiel für PBI-Bericht](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Verwenden Sie die Power BI-APIs, um das CustomData-Feature in Ihrer Anwendung zu verwenden.  Wenn ein Token mit dem CustomData-Feature generiert wird, müssen Sie einen Benutzernamen besitzen. Der Benutzername muss dem UPN des Hauptbenutzers entsprechen. Der Hauptbenutzer muss Mitglied der von Ihnen erstellten Rollen sein. Wenn keine Rollen angegeben werden, werden alle Rollen, in denen der Hauptbenutzer Mitglied ist, für die RLS-Auswertung verwendet.
+
+    Bei der Arbeit mit einem [Dienstprinzipal](embed-service-principal.md), müssen Sie auch die oben aufgeführten Schritte anstelle mit einem master-Konto. Wenn AAD-Token generieren, verwenden Sie die [principal-Objekt-ID des](embed-service-principal.md#how-to-get-the-service-principal-object-id) als Benutzername.
 
     > [!Note]
     > Wenn Sie zum Bereitstellen Ihrer Anwendung in der Produktion bereit sind, darf das Feld bzw. die Option für das Hauptbenutzerkonto für die Endbenutzer nicht sichtbar sein.

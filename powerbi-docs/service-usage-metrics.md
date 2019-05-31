@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174934"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61400994"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Überwachen von Nutzungsmetriken für Power BI-Dashboards und Berichte
 
@@ -105,7 +105,7 @@ Das zugrunde liegende Dataset enthält sogar die Nutzungsdetails für alle Dashb
 
 ### <a name="what-is-created-when-using-save-as"></a>Was wird erstellt, wenn Sie „Speichern unter“ klicken?
 
-Wenn Power BI den vollständigen Bericht erstellt, erstellt es auch ein neues Dataset, das sich **aus allen Dashboards oder allen Berichten, die im aktuellen Arbeitsbereich enthalten sind, zusammensetzt**, auf die innerhalb der letzten 90 Tagen zugegriffen wurde. Angenommen Sie haben einen Arbeitsbereich mit dem Namen „Umsätze“, der drei Dashboards und zwei Berichte enthält, und Sie erstellen einen Bericht zu Nutzungsmetriken auf dem Dashboard „Nordost“. Und anschließend klicken Sie auf **Speichern unter**, um ihn zu personalisieren und zu einem vollständigen Bericht zu konvertieren. Das Dataset für diesen neuen Bericht enthält die Nutzungsmetrik *nicht nur für dieses eine Dashboard mit dem Namen „Nordost“*, sondern auch für alle drei Dashboards im Arbeitsbereich „Umsätze“. Der Bericht zeigt standardmäßig Daten für das Dashboard „Northeast“, und Sie müssen einen [Filter entfernen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (Einzelklick), damit die Daten für alle drei Dashboards angezeigt werden.
+Wenn Power BI den vollständigen Bericht erstellt, erstellt es auch ein neues Dataset, das sich **aus allen Dashboards oder allen Berichten, die im aktuellen Arbeitsbereich enthalten sind, zusammensetzt**, auf die innerhalb der letzten 90 Tagen zugegriffen wurde. Angenommen Sie haben einen Arbeitsbereich mit dem Namen „Umsätze“, der drei Dashboards und zwei Berichte enthält, und Sie erstellen einen Bericht zu Nutzungsmetriken auf dem Dashboard „Nordost“. Und anschließend klicken Sie auf **Speichern unter**, um ihn zu personalisieren und zu einem vollständigen Bericht zu konvertieren. Das Dataset für diesen neuen Bericht enthält die Nutzungsmetrik *nicht nur für dieses eine Dashboard mit dem Namen „Nordost“* , sondern auch für alle drei Dashboards im Arbeitsbereich „Umsätze“. Der Bericht zeigt standardmäßig Daten für das Dashboard „Northeast“, und Sie müssen einen [Filter entfernen](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (Einzelklick), damit die Daten für alle drei Dashboards angezeigt werden.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Erstellen Sie eine Kopie des Nutzungsberichts mithilfe von „Speichern unter“
 
@@ -159,7 +159,7 @@ Beim Deaktivieren von Nutzungsmetriken für die gesamte Organisation können Adm
 
 ## <a name="usage-metrics-in-national-clouds"></a>Verwenden von Metriken in nationalen Clouds
 
-Power BI ist in separaten nationalen Clouds verfügbar. Diese Clouds entsprechen hinsichtlich Sicherheit, Datenschutz, Konformität und Transparenz dem Niveau der weltweiten Power BI-Version und verwenden darüber hinaus ein einmaliges Modell für regionale Regelungen zu Servicebereitstellung, Speicherort der Daten, Zugriff und Kontrolle. Aufgrund dieses einzigartigen Modells für regionale Regelungen sind Nutzungsmetriken nicht in nationalen Clouds verfügbar. Weitere Informationen finden Sie in den [Informationen zu den nationalen Clouds](https://powerbi.microsoft.com/clouds/).
+Power BI ist in separaten nationalen Clouds verfügbar. Diese Clouds bieten den gleichen Grad an Sicherheit, Datenschutz, Compliance und Transparenz als die internationale Version von Power BI, kombiniert mit einem eindeutigen Modell für regionale Regelungen zu servicebereitstellung, datenhoheit, Zugriff und Steuerung. Aufgrund dieses einzigartigen Modells für regionale Regelungen sind Nutzungsmetriken nicht in nationalen Clouds verfügbar. Weitere Informationen finden Sie in den [Informationen zu den nationalen Clouds](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 

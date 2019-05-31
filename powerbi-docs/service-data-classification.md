@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139608"
 ---
 # <a name="dashboard-data-classification"></a>Datenklassifizierung für Dashboards
 Für jedes Dashboard bestehen andere Anforderungen. Je nach der Datenquelle, mit der Sie eine Verbindung herstellen, werden Sie wahrscheinlich feststellen, dass Sie und die Kollegen, für die Sie das Dashboard freigeben, abhängig von der Vertraulichkeit der Daten verschiedene Vorsichtsmaßnahmen treffen müssen. Einige Dashboards sollten niemals außerhalb Ihres Unternehmens freigegeben oder gedruckt werden, während andere ohne Bedenken freigegeben werden können. Mithilfe der Datenklassifizierung für Dashboards können Sie den Personen, von denen die Dashboards angezeigt werden, die Bestimmung der zu verwendenden Sicherheitsstufe erleichtern. Sie können die Dashboards mit Klassifizierungstags versehen, die von der IT-Abteilung Ihres Unternehmens definiert wurden, damit jede Person, die den Inhalt anzeigt, den gleichen Kenntnisstand hinsichtlich der Vertraulichkeit der Daten hat.

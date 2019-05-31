@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b1658a9351c05a8673c6cc582a4e54ad982791fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255693"
+---
 Mit Power BI können Sie die Beziehung zwischen Tabellen oder Elemente visuell festlegen. Um eine Diagrammansicht Ihrer Daten anzuzeigen, verwenden Sie die **Beziehungsansicht** ganz links auf dem Bildschirm neben dem Berichtszeichenbereich.
 
 ![](media/2-2-manage-data-relationships/2-2_1.png)

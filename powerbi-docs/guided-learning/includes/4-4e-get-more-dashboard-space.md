@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263393"
+---
 Beim Erstellen von Dashboards stellen Sie manchmal vielleicht fest, dass nicht alle Inhalte im Zeichenbereich Platz finden. Es gibt einige Lösungen, mit denen Sie die Anzeige des Dashboards verwalten können, um eine vollständige Ansicht aller Dashboardinhalte zu erhalten.
 
 Die einfachste Methode zum Anzeigen des gesamten Dashboards auf einem Bildschirm besteht darin, in der oberen rechten Ecke des Dashboards die Schaltfläche **Vollbildmodus** auszuwählen.

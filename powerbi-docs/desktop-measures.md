@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514158"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Measures in Power BI Desktop
@@ -45,9 +45,9 @@ Lea ist Vertriebsmanagerin bei Contoso. Sie wird gebeten, Umsatzprognosen für H
 
 Um die Schätzungen zu melden, importiert Lea die Umsatzdaten des letzten Jahres in Power BI Desktop. Sie sucht das Feld „Umsatzbetrag“ in der Tabelle „Umsätze von Handelspartnern“. Da die importierten Daten nur die Umsätze des letzten Jahres enthalten, benennt Lea das Feld „SalesAmount“ (Umsatzbetrag) in „Last Years Sales“ (Umsätze Vorjahr) um. Anschließend zieht sie „Last Years Sales“ auf die Berichtszeichenfläche. Das Feld wird im visualisierten Diagramm als Einzelwert dargestellt, bei dem es sich um die Summe aller Umsätze von Handelspartnern aus dem letzten Jahr handelt.
 
-Lea fällt auf, dass eine Berechnung automatisch durchgeführt wurde, obwohl sie selbst keine Berechnung angegeben hat. Power BI Desktop hat ein eigenes Measure erstellt, indem er alle Werte aus „Umsätze letztes Jahr“ addiert hat. 
+Lea fällt auf, dass eine Berechnung automatisch durchgeführt wurde, obwohl sie selbst keine Berechnung angegeben hat. Power BI Desktop hat ein eigenes Measure erstellt, indem er alle Werte aus „Umsätze letztes Jahr“ addiert hat.
 
-Lea benötigt jedoch ein Measure zum Berechnen der Prognosen für das nächste Jahr, das auf den Umsätzen des letzten Jahres basiert, multipliziert mit 1,06, um dem erwarteten Wachstum der Geschäftsaktivitäten von 6 Prozent Rechnung zu tragen. Für diese Berechnung erstellt sie ein eigenes Measure. Mithilfe des Features „Neues Measure“ erstellt sie ein neues Measure und gibt dann die folgende DAX-Formel ein: 
+Lea benötigt jedoch ein Measure zum Berechnen der Prognosen für das nächste Jahr, das auf den Umsätzen des letzten Jahres basiert, multipliziert mit 1,06, um dem erwarteten Wachstum der Geschäftsaktivitäten von 6 Prozent Rechnung zu tragen. Für diese Berechnung erstellt sie ein eigenes Measure. Mithilfe des Features „Neues Measure“ erstellt sie ein neues Measure und gibt dann die folgende DAX-Formel ein:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 

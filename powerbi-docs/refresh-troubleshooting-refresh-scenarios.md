@@ -1,21 +1,21 @@
 ---
 title: Problembehandlung bei Aktualisierungsszenarios
 description: Problembehandlung bei Aktualisierungsszenarios
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285114"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770525"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Problembehandlung bei Aktualisierungsszenarios
 Hier finden Sie Informationen zu verschiedenen Szenarios, auf die Sie möglicherweise stoßen, wenn Daten innerhalb des Power BI-Diensts aktualisiert werden.
@@ -57,6 +57,9 @@ Ein Dataset, das in den **Power BI-Dienst** importiert wird, darf maximal 1 GB 
 
 ## <a name="scheduled-refresh-timeout"></a>Timeout der geplanten Aktualisierung
 Das Timeout geplanter Aktualisierungen für importierte Datasets erfolgt nach zwei Stunden. Für Datasets in **Premium**-Arbeitsbereichen erhöht sich dieses Timeout auf fünf Stunden. Wenn dieses Limit auftritt, können Sie die Größe oder Komplexität des Datasets reduzieren oder das Dataset in kleinere Datasets aufteilen.
+
+## <a name="scheduled-refresh-failures"></a>Fehler für die geplante Aktualisierung
+Wenn eine geplante Aktualisierung viermal in einer Zeile ein Fehler auftritt, wird Power BI die Aktualisierung deaktiviert. Das zugrunde liegende Problem zu beheben, und klicken Sie dann die geplante Aktualisierung erneut aktivieren.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Der Zugriff auf die Ressource ist untersagt  
 Dieser Fehler kann auftreten, wenn die zwischengespeicherten Anmeldeinformationen angelaufen sind. Löschen Sie den Cache Ihres Browsers. Melden Sie sich dazu in Power BI an, und navigieren Sie zu https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Dadurch wird eine Aktualisierung Ihrer Anmeldeinformationen erzwungen. 

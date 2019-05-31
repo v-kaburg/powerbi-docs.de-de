@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 4c69113d245d47a4d2702f16f6cea21a6cbd3b0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295806"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136079"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Ringdiagramme in Power BI
 Ein Ringdiagramm ähnelt einem Kreisdiagramm insofern, als dass es die Beziehung von Teilen zu einem Ganzen zeigt. Der einzige Unterschied ist, dass die Mitte leer und Platz für eine Beschriftung oder ein Symbol bleibt.

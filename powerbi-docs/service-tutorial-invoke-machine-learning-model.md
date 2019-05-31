@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430321"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404400"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Tutorial: Aufrufen eines Machine Learning Studio-Modells in Power BI (Vorschau)
 
@@ -90,9 +90,9 @@ Wählen Sie **Text/CSV-Datei** als Datenquelle aus.
 
 Im nächsten Bildschirm werden Sie aufgefordert, eine Verbindung mit einer Datenquelle herzustellen. Fügen Sie den Link zu den Daten ein, die Sie verwendet haben, um Ihr Azure ML-Modell zu erstellen. Wenn Sie die _Automobilpreis_-Daten verwendet haben, können Sie den folgenden Link in das Feld **Dateipfad oder URL** einfügen und dann auf **Weiter** klicken.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
-![Verbinden mit einer Datenquelle](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Mit Datenquelle verbinden](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 Der Power Query-Editor zeigt eine Vorschau der Daten aus der CSV-Datei an. Wählen Sie **Tabelle transformieren** im Menübefehlsband und dann **Erste Zeile als Überschriften verwenden** aus.  Dadurch wird der Abfrageschritt _Höher gestufte Header_ im Bereich **Angewendete Schritte** rechts hinzugefügt. Sie können die Abfrage im Bereich auf der rechten Seite auch mit einem aussagekräftigeren Namen umbenennen, z.B. _Automobile Pricing_.
 

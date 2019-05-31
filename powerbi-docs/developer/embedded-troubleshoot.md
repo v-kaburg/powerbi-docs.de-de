@@ -1,20 +1,20 @@
 ---
 title: Problembehandlung bei Embedded-Anwendungen
 description: In diesem Artikel werden einige häufige Probleme erläutert, die beim Einbetten von Inhalten aus Power BI auftreten können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174819"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770478"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problembehandlung bei Embedded-Anwendungen
 
@@ -109,7 +109,7 @@ Dieses Problem können Sie beheben, indem Sie „oauth2/authorize/“ aus der Au
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Authentifizierung schlägt mit AADSTS70002 oder AADSTS50053 fehl
 
-**_(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)_**
+** _(AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einem falschen Benutzernamen oder Kennwort anzumelden.)_ **
 
 Wenn Sie Power BI Embedded verwenden und die direkte Authentifizierung mit Azure AD einsetzen, erhalten Sie beim Anmelden Meldungen wie die folgende: ***error:unauthorized_client,error_description:AADSTS70002: Fehler beim Überprüfen der Anmeldeinformationen. AADSTS50053: Sie haben zu oft versucht, sich mit einer falschen Benutzer-ID oder einem falschen Kennwort anzumelden***. Dies liegt daran, dass die direkte Authentifizierung seit dem 14 Juni 2018 nicht mehr verwendet wird.
 
@@ -161,7 +161,7 @@ Um den Fehler zu ermitteln, führen Sie die Schritte unten aus.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: Die Erteilung erfordert eine Administratorberechtigung.
 
-**_Symptome:_**<br>
+**_Symptome:_ **<br>
 Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei einer Anwendung anzumelden und seine Einwilligung zu erteilen, erhält er einen der folgenden Fehler:
 
 * ConsentTest benötigt Berechtigung zum Zugriff auf Ressourcen in Ihrer Organisation, die nur ein Administrator gewähren kann. Bitten Sie einen Administrator, Berechtigungen für diese App zu erteilen, bevor Sie sie verwenden.
@@ -171,10 +171,10 @@ Wenn ein Benutzer ohne Administratorrechte versucht, sich zum ersten Mal bei ein
 
 Ein Administrator kann sich anmelden und die Einwilligung gewähren.
 
-**_Grundursache:_**<br>
+**_Grundursache:_ **<br>
 Das Einwilligen des Benutzers ist für den Mandanten deaktiviert.
 
-**_Es gibt mehrere Lösungen:_**
+**_Es gibt mehrere Lösungen:_ **
 
 *Aktivieren Sie die Benutzereinwilligung für den gesamten Mandanten (alle Benutzer, alle Anwendung)*
 
@@ -184,6 +184,10 @@ Das Einwilligen des Benutzers ist für den Mandanten deaktiviert.
     ![Lösung ConsentTest](media/embedded-troubleshoot/consent-test-02.png)
 
 *Erteilen Sie Berechtigungen* für die Anwendung durch einen Administrator, entweder für den gesamten Mandanten oder für einen bestimmten Benutzer.
+
+### <a name="cs1061-error"></a>CS1061-Fehler
+
+Herunterladen [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) bei einem ""AuthenticationContext"enthält keine Definition für"AcquireToken"und nicht zugegriffen werden kann 'AcquireToken" akzeptiert ein erstes Argument vom Typ " AuthenticationContext "gefunden (fehlt eine using-Direktive oder ein Assemblyverweis?)" Fehler.
 
 ## <a name="data-sources"></a>Datenquellen
 

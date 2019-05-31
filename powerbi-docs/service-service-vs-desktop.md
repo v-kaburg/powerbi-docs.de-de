@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284102"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403436"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Vergleich zwischen Power BI Desktop und dem Power BI-Dienst
 
@@ -48,7 +48,7 @@ Im folgenden Video wird der Berichts-Editor in Power BI Desktop gezeigt.
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Zusammenarbeit im Power BI-Dienst
 
-Nachdem Sie Ihre Berichte erstellt haben, können Sie diese in einem *Arbeitsbereich* im **Power BI-Dienst** speichern, in dem Sie und Ihre Kollegen zusammenarbeiten. Zusätzlich zu diesen Berichten erstellen Sie *Dashboards*. Anschließend geben Sie die Dashboards und Berichte für Berichtsbenutzer innerhalb und außerhalb Ihrer Organisation frei. Ihre Berichtbenutzer zeigen diese im Power BI-Dienst in der [Leseansicht](consumer/end-user-reading-view.md) an, nicht in der Bearbeitungsansicht. Sie haben keinen Zugriff auf alle Features, die für Berichtersteller verfügbar sind. 
+Nachdem Sie Ihre Berichte erstellt haben, können Sie diese in einem *Arbeitsbereich* im **Power BI-Dienst** speichern, in dem Sie und Ihre Kollegen zusammenarbeiten. Zusätzlich zu diesen Berichten erstellen Sie *Dashboards*. Anschließend geben Sie die Dashboards und Berichte für Berichtsbenutzer innerhalb und außerhalb Ihrer Organisation frei. Ihre Berichtbenutzer zeigen diese im Power BI-Dienst in der [Leseansicht](consumer/end-user-reading-view.md) an, nicht in der Bearbeitungsansicht. Diese zugreifen nicht auf alle Funktionen für berichtsersteller. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 

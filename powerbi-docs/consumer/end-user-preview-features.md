@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Vorschaufeatures
+title: Abonnieren von vorschaufeatures
 description: Power BI-Vorschaufeatures aktivieren (und deaktivieren)
 author: mihart
 manager: kvivek
@@ -9,34 +9,30 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9bfb3d00ace74707bf81ff518e9c1c31a016557a
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: ea81f7c264e4329ae29bb71e0fa8b038604504a1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662202"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608410"
 ---
-# <a name="opt-in-for-power-bi-service-preview-features"></a>Verwenden von Vorschaufeatures im Power BI-Dienst
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Abonnieren von Power BI-Vorschau Dienstfunktionen
 ## <a name="what-are-preview-features"></a>Was sind *Vorschaufeatures*?
-Der Power BI-Dienst wird ständig verbessert. Neue Funktionen stellen wir immer wieder als *Vorschaufeatures* vor. Wenn Sie sie testen möchten, können Sie Vorschaufeatures aktivieren (und deaktivieren).
+Wenn wir Verbesserungen an Power BI-Dienst vornehmen, müssen wir einige neue Funktionen wie Veröffentlichen *vorschaufeatures*. Wenn Sie sie testen möchten, können Sie Vorschaufeatures aktivieren (und deaktivieren).
 
-> [!TIP]
-> Vorschaufeatures sind auch für Power BI Desktop verfügbar. Weitere Informationen erhalten Sie im [Forum der Power BI-Community](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer).
-> 
-> 
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Suchen und Aktivieren (und Deaktivieren) von Vorschauversionen
-1. Öffnen Sie das Menü „Einstellungen“, indem Sie das Zahnradsymbol in der oberen rechten Ecke des Power BI-Bildschirms und dann **Einstellungen** auswählen.
+1. Öffnen Sie Ihr Menü "Einstellungen", indem Sie das Zahnradsymbol in der oberen rechten Ecke des Power BI-Bildschirms auswählen und dann **Einstellungen**.
    
    ![Menü „Einstellungen“](./media/end-user-preview-features/power-bi-settings.png).
 2. Wählen Sie die Registerkarte **Allgemein** aus. Wenn eine Vorschau vorhanden ist, wird eine Option für **Vorschaufeatures** oder ein Vorschaufeature auf der linken Seite angezeigt.  In diesem Beispiel wird eine Vorschau für ArcGIS Maps aufgeführt. 
    
    ![Registerkarte „Allgemein“](./media/end-user-preview-features/power-bi-preview-arcgis.png)
 3. Im Optionsfeld können Sie die neue Oberfläche mit **Ein** bzw. über das Kontrollkästchen aktivieren. Klicken Sie dann auf **Übernehmen**.
-4. Um die Vorschaufeatures zu deaktivieren, führen Sie die ersten drei oben beschriebenen Schritte aus, und wählen Sie im Sie im dritten Schritt **Aus** aus bzw. deaktivieren Sie das Kontrollkästchen. Wählen Sie dann **Übernehmen** aus.
+4. Um die vorschaufeatures zu deaktivieren, führen Sie die Schritte 1 bis 3 oben, und wählen Sie in Schritt 3 **aus**, oder deaktivieren Sie das Kontrollkästchen, und wählen Sie **übernehmen**.
 
 
 Haben Sie Fragen oder Feedback? [Besuchen Sie das Power BI-Communityforum](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).

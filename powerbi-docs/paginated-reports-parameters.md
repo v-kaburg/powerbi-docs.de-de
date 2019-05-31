@@ -1,26 +1,26 @@
 ---
 title: Erstellen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 description: In diesem Artikel erfahren Sie, wie Sie Parameter für paginierte Berichte im Power BI-Dienst erstellen.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 2240d2bf622122527d4d052a9d7098be648e368d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324603"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987679"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Erstellen von Parametern für paginierte Berichte im Power BI-Dienst (Vorschau)
 
 In diesem Artikel erfahren Sie, wie Sie Parameter für paginierte Berichte im Power BI-Dienst erstellen.  Mit Berichtsparametern können Sie Berichtsdaten auswählen und die Berichtsdarstellung anpassen. Sie haben die Möglichkeit, einen Standardwert und eine Liste der verfügbaren Werte anzugeben, auf deren Grundlage Ihre Berichtsleser die Auswahl ändern.  
 
-Die folgende Abbildung zeigt die Entwurfsansicht im Berichts-Generator für einen Bericht mit den Parametern @BuyingGroup, @Customer, @FromDate und @ToDate. 
+Die folgende Abbildung zeigt die Entwurfsansicht für einen Bericht mit den Parametern im Power BI-Berichts-Generator @BuyingGroup, @Customer, @FromDate, und @ToDate. 
   
 ![Parameter im Berichts-Generator](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ Die folgende Abbildung zeigt die Entwurfsansicht im Berichts-Generator für eine
   
 ## <a name="create-or-edit-a-report-parameter"></a>Erstellen oder Bearbeiten eines Berichtsparameters  
   
-1.  Öffnen Sie Ihren paginierten Bericht im Berichts-Generator.
+1.  Öffnen Sie Ihren paginierten Bericht im Power BI-Berichts-Generator.
 
 1. Klicken Sie im Bereich **Berichtsdaten** mit der rechten Maustaste auf den Knoten **Parameter** > **Parameter hinzufügen**. Daraufhin wird das Dialogfeld **Berichtsparametereigenschaften** geöffnet.  
   

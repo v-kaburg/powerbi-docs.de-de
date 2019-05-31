@@ -12,11 +12,11 @@ ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473727"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048001"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportieren von Power BI-Berichten als PDF-Dateien
 Mit Power BI können Sie Berichte im PDF-Format veröffentlichen und darauf basierend einfach ein Dokument erstellen. Wenn Sie das Feature **In PDF exportieren** verwenden, wird jede Seite des Power BI-Berichts als individuelle Seite im PDF-Dokument angezeigt.

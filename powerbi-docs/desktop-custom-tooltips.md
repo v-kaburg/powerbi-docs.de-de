@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fc013df4526c62a9f2e1aa25328119983aaa30e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65239746"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>Anpassen von QuickInfos in Power BI Desktop
 QuickInfos sind eine elegante Methode zum Bereitstellen von kontextbezogenen Informationen und Details zu Datenpunkten in einer Visualisierung. Die folgende Abbildung zeigt eine QuickInfo zu einem Diagramm in Power BI Desktop.
 
 ![Standard-QuickInfo](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Wenn eine Visualisierung erstellt wird, werden in der Standard-QuickInfo der Wert und die Kategorie Datenpunkts angezeigt. Es gibt viele Fälle, in denen es hilfreich ist, die QuickInfo-Informationen anzupassen und mehr Kontext und Informationen für die Benutzer bereitzustellen, die die Visualisierung anzeigen. Mit QuickInfos können Sie zusätzliche Datenpunkte angeben, die als Teil der QuickInfo angezeigt werden.
+Wenn eine Visualisierung erstellt wird, werden in der Standard-QuickInfo der Wert und die Kategorie Datenpunkts angezeigt. Es gibt viele Instanzen beim Anpassen der QuickInfo-Informationen nützlich ist, und kann zusätzlichen Kontext und Informationen für Benutzer, die die Visualisierung anzeigen bereitstellen. Mit QuickInfos können Sie zusätzliche Datenpunkte angeben, die als Teil der QuickInfo angezeigt werden.
 
 ## <a name="how-to-customize-tooltips"></a>Anpassen von QuickInfos
-Zum Erstellen einer benutzerdefinierten QuickInfo ziehen Sie einfach im Bereich **Felder** unter **Visualisierungen** ein Feld in den Bucket **QuickInfos**, wie in der folgenden Abbildung dargestellt. In der folgenden Abbildung wurden zwei Felder im Bucket **QuickInfos** eingefügt.
+Zum Erstellen einer benutzerdefinierten QuickInfo in der **Felder** und die **Visualisierungen** Bereich ziehen ein Feld in der **QuickInfos** Bucket in der folgenden Abbildung dargestellt. In der folgenden Abbildung wurden zwei Felder im Bucket **QuickInfos** eingefügt.
 
 ![Hinzufügen von QuickInfo-Feldern](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ Sie können eine QuickInfo weiter anpassen, indem Sie eine Aggregationsfunktion 
 
 ![QuickInfo mit Schnellberechnung](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-Es gibt viele Methoden zum Anpassen von **QuickInfos** mit beliebigen Feldern im Dataset, um schnell Informationen und Einblicke für die Benutzer zu übermitteln, die Ihre Dashboards oder Berichte anzeigen.
+Es gibt viele Möglichkeiten zum Anpassen **QuickInfos**, mit beliebigen Feldern im Dataset, um schnell Informationen und Einblicke für die Benutzer anzeigen, Ihre Dashboards oder Berichte zu übermitteln.
 

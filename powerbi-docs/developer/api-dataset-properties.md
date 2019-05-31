@@ -1,20 +1,20 @@
 ---
 title: Eigenschaften von Power BI-Datasets
 description: Erfahren Sie mehr über die Eigenschaften von Power BI-Dataset-APIs
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248928"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386291"
 ---
 # <a name="dataset-properties"></a>Dataseteigenschaften
 
@@ -31,7 +31,7 @@ id     |  GUID       | Systemweit eindeutiger Bezeichner für das Dataset.      
 name     | Zeichenfolge        | Benutzerdefinierter Name des Datasets.        | False        | True        
 tables     | Table[]        | Eine Auflistung von Tabellen.        |  False       | False        
 relationships     | Relationship[]        | Eine Auflistung von Beziehungen zwischen Tabellen.        | False        |  False  
-defaultMode     | Zeichenfolge        | Legt anhand der Werte „Push“, „Streaming“ oder „PushStreaming“ fest, ob das Dataset gepusht, gestreamt oder sowohl gepusht als auch gestreamt wird.         | False        |  False
+defaultMode     | Zeichenfolge        | Bestimmt, ob das Dataset gestreamt, überführt wird, oder beide Werte "Push" und "Streaming".         | False        |  False
 
 ## <a name="table"></a>Tabelle (Table)
 

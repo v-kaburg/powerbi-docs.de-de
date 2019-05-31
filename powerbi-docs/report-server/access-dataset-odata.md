@@ -1,20 +1,20 @@
 ---
 title: Zugreifen auf freigegebene Datasets als OData-Feeds in Power BI-Berichtsserver
 description: Power BI-Berichte können mit verschiedenen Datenquellen verbunden sein. Je nach Verwendung der Daten sind verschiedene Datenquellen verfügbar.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/05/2018
-ms.author: maghan
-ms.openlocfilehash: cf322fc518185d87021f2df3d4573805315e625f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 7505860f7eedf62fe4384fea051a2731a932fce9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295341"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769890"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Zugreifen auf freigegebene Datasets als OData-Feeds in Power BI-Berichtsserver
 Sie können mit einem OData-Feed auf freigegebene Datasets aus Power BI Desktop zugreifen.

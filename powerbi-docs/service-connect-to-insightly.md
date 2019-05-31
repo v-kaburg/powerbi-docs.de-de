@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174020"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Herstellen einer Verbindung mit Insightly mithilfe von Power BI
 Visualisieren und teilen Sie Ihre Insightly CRM-Daten in Power BI mit dem Insightly-Inhaltspaket. Verbinden Sie sich über Ihren Insightly-API-Schlüssel mit Power BI, um Berichte und Dashboards aus Ihren CRM-Daten zu erstellen und anzuzeigen. Mit Power BI können Sie Ihre Daten auf neue Weise analysieren, leistungsstarke Graphen und Diagramme erstellen und Kontakte, Leads und Organisationen auf einer Karte anzeigen.

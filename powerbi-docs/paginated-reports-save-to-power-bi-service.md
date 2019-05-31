@@ -1,20 +1,20 @@
 ---
 title: Veröffentlichen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 description: In diesem Tutorial lernen Sie, einen paginierten Bericht durch Hochgeladen von Ihrem lokalen Computer im Power BI-Dienst zu veröffentlichen.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174543"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424006"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Veröffentlichen eines paginierten Berichts im Power BI-Dienst (Vorschau)
 
@@ -26,7 +26,7 @@ Wenn Sie über eine lokale Berichtsdatenquelle verfügen, müssen Sie nach dem H
 
 Wenn im Arbeitsbereich das Diamantsymbol ![Diamantsymbol in Power BI Premium-Kapazität](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) neben dem Namen nicht angezeigt wird, müssen Sie den Arbeitsbereich einer Premium-Kapazität hinzufügen. 
 
-1. Wählen Sie **Arbeitsbereiche**, die Auslassungspunkte (**...**) neben dem Arbeitsbereichsnamen und dann **Arbeitsbereich bearbeiten** aus.
+1. Wählen Sie **Arbeitsbereiche**, die Auslassungspunkte ( **...** ) neben dem Arbeitsbereichsnamen und dann **Arbeitsbereich bearbeiten** aus.
 
     ![Auswählen von „Arbeitsbereich bearbeiten“](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

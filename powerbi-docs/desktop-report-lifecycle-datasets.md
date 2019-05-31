@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987921"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Herstellen einer Verbindung mit Datasets im Power BI-Dienst über Power BI Desktop
 Sie können eine Liveverbindung mit einem gemeinsam genutzten Dataset im Power BI-Dienst herstellen und auf Grundlage des gleichen Datasets viele verschiedene Berichte erstellen. Sie können also in Power BI Desktop ein optimal auf Ihre Anforderungen abgestimmtes Datenmodell erstellen und für den Power BI-Dienst veröffentlichen. Dadurch können Sie und andere Benutzer dann zahlreiche verschiedene Berichte (in separaten PBIX-Dateien) erstellen, die auf diesem gemeinsamen Datenmodell basieren. Das Feature heißt **Liveverbindung mit Power BI-Dienst**.
@@ -77,9 +77,8 @@ Nach Abschluss des Vorgangs werden in **Power BI Desktop** eine Erfolgsmeldung, 
 Als Nächstes erfahren Sie, wie Teamkollegen mit Zugriff auf den Arbeitsbereich, in dem der Bericht und das Dataset veröffentlichten wurden, eine Verbindung mit dem Dataset herstellen und eigene Berichte erstellen können.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Herstellen einer Liveverbindung zwischen dem Power BI-Dienst und dem veröffentlichten Dataset
-Um eine Verbindung mit dem veröffentlichten Bericht herzustellen und einen eigenen Bericht auf der Grundlage des veröffentlichten Datasets zu erstellen, wählen Sie in **Power BI Desktop** auf dem Menüband **Start** die Option **Daten abrufen** und anschließend **Power BI-Dienst** aus. Alternativ können Sie auch die Befehlsfolge **Daten abrufen > Onlinedienste > Power BI-Dienst** verwenden.
+Wählen Sie zum Herstellen einer Verbindung mit dem veröffentlichten Bericht und einen eigenen Bericht auf Basis des veröffentlichten Datasets zu erstellen, **Get Data** aus der **Startseite** Menüband **Power BI Desktop** , wählen Sie **Power BI** aus der linken Seite, und wählen Sie dann **Power BI-Datasets**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Falls Sie noch nicht bei Power BI angemeldet sind, erscheint eine Anmeldeaufforderung. In dem Fenster, das nach der Anmeldung angezeigt wird, sehen Sie die Arbeitsbereiche, denen Sie angehören. Hier können Sie den Arbeitsbereich mit dem Dataset auswählen, mit dem Sie eine **Liveverbindung mit dem Power BI-Dienst** herstellen möchten.
 

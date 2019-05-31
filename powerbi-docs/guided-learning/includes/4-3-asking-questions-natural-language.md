@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263373"
+---
 Power BI beinhaltet eine leistungsfähige Spracherkennungs-Engine, die es Ihnen ermöglicht, mithilfe von Sätzen und Fragen aus der gesprochenen Sprache Fragen an Ihre Daten zu stellen. Sie können also mit Power BI nicht nur Berichte und Visualisierungen, sondern auch Diagramme und Grafiken erstellen, indem Sie einfache Fragen stellen.
 
 Um eine Frage zu stellen, öffnen Sie ein Dashboard in Power BI. Am oberen Rand des Bildschirms sehen Sie ein Eingabefeld, in dem Sie Fragen zu den angezeigten Daten stellen können. Dieses Feature wird manchmal als *Fragen und Antworten* oder zumeist als **F&A** bezeichnet.

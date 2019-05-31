@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695125"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61278648"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Verwenden von R-gestützten, benutzerdefinierten Visualisierungen in Power BI
 
@@ -79,7 +79,7 @@ Befolgen Sie die folgenden Schritte, um benutzerdefinierte Visuals auf der **App
 
     Es lohnt sich, die Bibliothek häufiger zu besuchen, da regelmäßig neue Visuals hinzugefügt werden.
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Importieren benutzerdefinierter Visuals in **Power BI Desktop** 
+### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Importieren benutzerdefinierter Visuals in **Power BI Desktop**
 
 1. Sie können benutzerdefinierte Visuals auch in **Power BI Desktop** importieren. Klicken Sie in **Power BI Desktop** auf die Auslassungspunkte (...) im Bereich **Visuals**, und wählen Sie **Aus Marketplace importieren** aus.
 

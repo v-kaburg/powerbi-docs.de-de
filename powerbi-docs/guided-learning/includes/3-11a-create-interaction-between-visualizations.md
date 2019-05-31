@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396824"
+---
 Wenn eine Berichtseite mehrere Visualisierungen umfasst, wirkt sich die Auswahl eines bestimmten Segments durch Klicken oder Verwenden eines Datenschnitts auf alle visuellen Elemente auf der Seite aus. In einigen Fällen möchten Sie jedoch möglicherweise einen Datenschnitt nur für bestimmte visuelle Elemente durchführen. Dies gilt besonders bei Verwendung von Elementen wie Punktdiagrammen, bei denen durch die Beschränkung der Daten auf ein bestimmtes Segment die Aussagekraft verloren geht. Glücklicherweise können Sie in Power BI Desktop die Interaktionen zwischen Visuals festlegen.
 
 Wenn Sie die Interaktion zwischen den Visualisierungen ändern möchten, wählen Sie **Bearbeiten** im Abschnitt „Visuelle Elemente“ des Menübands **Start** aus, um den **Bearbeitungsmodus** zu aktivieren.

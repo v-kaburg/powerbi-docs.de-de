@@ -12,11 +12,11 @@ ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282561"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068073"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radialmessgerät-Diagramme in Power BI
 Ein Diagramm für ein radiales Messgerät verfügt über einen Kreisbogen und zeigt einen einzelnen Wert an, mit dem der Fortschritt bei Erreichen eines Ziels oder KPI-Werts gemessen wird.  Das Ziel bzw. der Zielwert wird durch die Linie (Nadel) dargestellt. Der Fortschritt zur Erreichung des Ziels wird durch die Schattierung dargestellt.  Der Wert, der für diesen Fortschritt steht, ist innerhalb des Bogens in Fettschrift angegeben. Alle möglichen Werte sind gleichmäßig auf den Bogen verteilt, vom kleinsten Wert (ganz links) bis zum höchsten Wert (ganz rechts).

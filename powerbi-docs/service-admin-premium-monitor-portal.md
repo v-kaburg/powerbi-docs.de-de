@@ -1,51 +1,123 @@
 ---
 title: Überwachen von Power BI Premium-Kapazitäten mithilfe des Verwaltungsportals
 description: Verwenden des Power BI-Verwaltungsportals zum Überwachen von Premium-Kapazitäten.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 59097c07719e4bb8db188e8a86db377076aea7a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794117"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564895"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Überwachen von Kapazitäten im Verwaltungsportal
 
-In diesem Artikel wird beschrieben, wie Sie den Einstellungsbereich „Kapazität“ im Verwaltungsportal verwenden, um einen schnellen Überblick über die Leistung Ihrer Kapazität zu erhalten.  Die Verwendung der [Power BI Premium-Kapazitätsmetriken](service-admin-premium-monitor-capacity.md)-App, um die ausführlichsten Metriken zu Ihrer Kapazität zu erhalten.
+Die **Integrität** Registerkarte die **kapazitätseinstellungen** Bereich im Verwaltungsportal finden Sie eine Zusammenfassung zu Ihrer Kapazität "und" enabled Workloads Metriken.  
 
-## <a name="capacity-metrics"></a>Kapazitätsmetriken
+![Registerkarte "Capacity Integrität" im portal](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-Der Bereich **Kapazitätseinstellungen** im Verwaltungsportal bietet Messanzeigen in Bezug auf die Lasten und die von Ihrer Kapazität verwendeten Ressourcen für die letzten 7 Tage. Diese vier Kacheln arbeiten mit einem Zeitfenster von 1 Stunde. Sie zeigen an, wie viele Stunden die zugehörige Metrik in den vergangenen 7 Tagen 80% überschritten hat. Diese Metrik weist auf eine potenzielle Beeinträchtigung für den Endbenutzer hin.
+Wenn Sie eine umfassendere Metriken benötigen, verwenden die [Kapazitätsmetriken für Power BI Premium](service-admin-premium-monitor-capacity.md) app. Die app bietet Drilldown- und filtern, und die ausführlichsten Metriken für nahezu alle Aspekte, die Auswirkung auf die Leistung der Kapazität. Weitere Informationen finden Sie unter [Monitor Premium-Kapazitäten, mit der app](service-admin-premium-monitor-capacity.md).
 
-![Nutzung in 7 Tagen](media/service-admin-premium-monitor-capacity/usage-in-days.png)
+## <a name="system-metrics"></a>Systemmetriken
+
+Auf der **Integrität** Registerkarte auf der höchsten Ebene, CPU-Auslastung und speicherauslastung bieten einen schnellen Überblick über die wichtigsten Metriken für die Kapazität. Diese Metriken sind kumulativ, einschließlich alle Workloads für die Kapazität aktiviert.
 
 | **Metrik** | **Beschreibung** |
 | --- | --- |
-| CPU |Häufigkeit, mit der die CPU eine Auslastung von 80 % überschritten hat. |
-| Speicherüberlastung |Zeigt die Speicherauslastung Ihrer Back-End-Kerne. Dies ist insbesondere eine Metrik dazu, wie oft Datasets aufgrund hoher Speicherauslastung bei Verwenden mehrerer Datasets aus dem Arbeitsspeicher entfernt werden. |
-| Speicherauslastung |Durchschnittliche Arbeitsspeicherauslastung in Gigabytes (GB). |
-| DQ/s | Häufigkeit, mit der die Anzahl von „Direkte Abfrage“- und Liveverbindungen 80 % des Grenzwerts überschritten hat. <br>  Die Gesamtzahl von Abfragen mit DirectQuery und Liveverbindungen pro Sekunde ist eingeschränkt. Die Grenzwerte betragen 30/s für P1, 60/s für P2 und 120/s für P3.  Die Anzahl von Abfragen des Typs „Direkte Abfrage“ und „Liveverbindung“ werden zur Drosselung hinzu gerechnet. Wenn Sie z.B. 15 direkte Abfragen und 15 Liveverbindungen in einer Sekunde haben, ist die Begrenzung erreicht.<br> Dies gilt sowohl für lokale als auch für Cloudverbindungen. |
-|  |  |
+| CPU-AUSLASTUNG | Durchschnittliche CPU-Auslastung als Prozentwert des insgesamt verfügbaren CPU. |
+| SPEICHERAUSLASTUNG | Die durchschnittliche arbeitsspeicherauslastung in Gigabyte (GB).|
 
-Metriken spiegeln die Auslastung in der letzten Woche wider.  Wenn Sie eine detailliertere Ansicht der Metriken wünschen, können Sie dies tun, indem Sie auf eine der Zusammenfassungskacheln klicken.  Sie gelangen zu detaillierten Diagrammen für jede der Metriken für Ihre Premium-Kapazität. Das folgende Diagramm zeigt Details zur CPU-Metrik.
+## <a name="workload-metrics"></a>Workloadmetriken
 
-![Ausführlicher Nutzungsdiagramm zur CPU](media/service-admin-premium-monitor-capacity/premium-usage-detailed-chart-cpu.png)
+Für jede Workload, die für die Kapazität aktiviert. CPU-Auslastung und speicherauslastung angezeigt werden.
 
-Diese Diagramme sind für die letzte Woche stündlich zusammengefasst und können Ihnen helfen zu ermitteln, wann bestimmte leistungsbezogene Ereignisse in Ihrer Premium-Kapazität aufgetreten sind.
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| CPU-AUSLASTUNG | Durchschnittliche CPU-Auslastung als Prozentwert des insgesamt verfügbaren CPU. |
+| SPEICHERAUSLASTUNG | Die durchschnittliche arbeitsspeicherauslastung in Gigabyte (GB).|
 
-Sie können auch die für jede der Metriken zugrunde liegenden Daten in eine CSV-Datei exportieren.  Dieser Export liefert Ihnen im Drei-Minuten-Takt detaillierte Informationen für jeden Tag der vergangenen Woche.
+### <a name="detailed-workload-metrics"></a>Ausführliche workloadmetriken
+
+Jede Workload verfügt über zusätzliche Metriken anzuzeigen. Der Typ der gezeigten Metriken hängen von der arbeitsauslastung ab. Um detaillierte Metriken für eine arbeitsauslastung anzuzeigen, klicken Sie auf die erweitern (Pfeil nach unten).
+
+![Workload-Integrität zu erweitern.](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+
+#### <a name="dataflows"></a>Dataflows
+
+##### <a name="dataflow-operations"></a>Datenflussvorgängen
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Gesamtanzahl | Die Gesamtanzahl aller Aktualisierungen für jeden Dataflow. |
+| Anzahl erfolgreicher Vorgänge | Insgesamt erfolgreiche Aktualisierungen für jeden Datenfluss.|
+| Durchschnittliche Dauer (Min.) | die durchschnittliche Dauer in Minuten für die Aktualisierung des Datenflusses |
+| Max. Dauer (Min.) | Die Dauer der Dataflowaktualisierung mit der längsten Ausführungsdauer in Minuten. |
+| Durchschnittliche Wartezeit (Min.) | Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Dataflowaktualisierung in Minuten. |
+| Max. Wartezeit (Min.) | Die maximale Wartezeit für den Dataflow in Minuten.  |
+
+#### <a name="datasets"></a>Datasets
+
+##### <a name="refresh"></a>Aktualisieren
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Gesamtanzahl | Die Gesamtanzahl aller Aktualisierungen für jedes Dataset. |
+| Anzahl erfolgreicher Vorgänge | Insgesamt erfolgreiche wird für jedes Dataset aktualisiert. |
+| Anzahl Fehler | Gesamtanzahl der fehlgeschlagenen Aktualisierungen für jedes Dataset. |
+| Erfolgsrate  | Die Anzahl der erfolgreich aktualisiert, geteilt durch die gesamte wird aktualisiert, um zu messen. Zuverlässigkeit. |
+| Durchschnittliche Dauer (Min.) | Die durchschnittliche Dauer der Aktualisierung des Datasets in Minuten.  |
+| Max. Dauer (Min.) | Die Dauer der Datasetaktualisierung mit der längsten Ausführungsdauer in Minuten. |
+| Durchschnittliche Wartezeit (Min.) | Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Datasetaktualisierung in Minuten. |
+| Max. Wartezeit (Min.) | Die maximale Wartezeit für das Dataset in Minuten. |
+
+##### <a name="query"></a>Abfrage
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Gesamtanzahl | Die Gesamtzahl der Abfragen, die für das Dataset ausgeführt werden. |
+| Durchschnittliche Dauer (ms) |die durchschnittliche Abfragedauer für das Dataset in Millisekunden|
+| Maximale Dauer (ms) |Die Dauer der Abfrage mit der längsten Ausführungsdauer im Dataset in Millisekunden. |
+| Durchschnittliche Wartezeit (ms) |Die durchschnittliche Abfragewartezeit für das Dataset in Millisekunden. |
+| Max. Wartezeit (ms) |Die Dauer der Abfrage mit der längsten Wartezeit für das Dataset in Millisekunden. |
+
+##### <a name="eviction"></a>Entfernung
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Modell-Anzahl | Die Gesamtzahl der entfernungen von Datasets für diese Kapazität. Wenn eine Kapazität Arbeitsspeicherauslastung unterliegt, entfernt der Knoten mindestens ein Dataset aus dem Arbeitsspeicher. Datasets, die inaktiv sind (ohne derzeit ausgeführten Abfrage- oder Aktualisierungsvorgang), werden zuerst entfernt. Anschließend orientiert sich die Entfernungsreihenfolge an den „am seltensten verwendeten“ Datasets. |
+
+#### <a name="paginated-reports"></a>Paginated Reports
+
+##### <a name="report-execution"></a>Berichtsausführung
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Anzahl von Ausführungen  | Die Anzahl der Male, die der Bericht ausgeführt wurden wurde und von Benutzern angezeigt.|
+
+##### <a name="report-usage"></a>Berichte zur Nutzung
+
+| **Metrik** | **Beschreibung** |
+| --- | --- |
+| Anzahl erfolgreicher Vorgänge | Die Anzahl der Häufigkeit, mit die Anzeige des Berichts durch einen Benutzer. |
+| Anzahl Fehler |Die Anzahl der Häufigkeit, mit die Anzeige des Berichts durch einen Benutzer.|
+| Zeilenanzahl |Die Anzahl von Datenzeilen im Bericht. |
+| Daten abrufen-Dauer (ms) |die durchschnittlich benötigte Zeit in Millisekunden zum Abrufen von Daten für den Bericht. Eine lange Dauer kann auf langsame Abfragen oder andere Probleme mit der Datenquelle hinweisen.  |
+| Verarbeitungsdauer (ms) |Die durchschnittlich benötigte Zeit zum Verarbeiten von Daten für einen Bericht in Millisekunden. |
+| Rendering-Dauer (ms) |Die durchschnittlich benötigte Zeit zum Rendern eines Berichts im Browser in Millisekunden. |
+
+> [!NOTE]
+> Ausführliche Metriken für die **AI** arbeitsauslastung sind noch nicht verfügbar.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 Nachdem Sie die Überwachung von Power BI Premium-Kapazitäten kennengelernt haben, können Sie sich über das Optimieren von Kapazitäten informieren.
 
 > [!div class="nextstepaction"]
-> [Verwaltung und Optimierung der Power BI Premium-Kapazitätsressource](service-premium-understand-how-it-works.md)
+> [Optimieren der Power BI Premium-Kapazitäten](service-premium-capacity-optimize.md)

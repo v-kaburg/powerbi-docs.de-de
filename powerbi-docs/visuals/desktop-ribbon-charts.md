@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429864"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394466"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Verwenden von Menübanddiagrammen in Power BI
 Mit den Menübanddiagrammen können Sie Daten visualisieren und schnell feststellen, welche Kategorie von Daten den höchsten Rang (größten Wert) hat. Menübanddiagramme eignen sich gut zum Anzeigen von Rangänderungen, wobei der höchste Rang (Wert) immer für jeden Zeitraum oben angezeigt wird. 

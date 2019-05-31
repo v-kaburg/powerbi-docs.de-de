@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325018"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analysieren von Kosten- und Nutzungsdaten für Azure in Power BI Desktop
 
@@ -24,7 +24,9 @@ Power BI Desktop kann eine Verbindung mit Azure herstellen und detaillierte Da
 
 Power BI unterstützt aktuell die Verbindungsherstellung mit Abrechnungskonten vom Typ „Enterprise Agreement“ und „Kundenvertrag“.
 
-Enterprise Agreement-Benutzer müssen für die Verbindungsherstellung den Azure Consumption Insights-Connector verwenden. Benutzer mit Kundenvertragskonto müssen für die Verbindungsherstellung den Azure Cost Management-Connector verwenden.
+* **Enterprise Agreement** Benutzer sollte eine Verbindung herstellen, mit der **Azure Consumption Insights-Connector**.
+
+* **Kundenvertrag** Benutzer sollte eine Verbindung herstellen, mit der **Azure Cost Management-Connector**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Herstellen einer Verbindung mit Azure Consumption Insights
 
@@ -155,7 +157,7 @@ Viele Dashboards verfügen über zusätzliche Tabellen, die zum Nachschlagen und
 Nachdem Sie die vorherigen Schritte ausgeführt haben, sollten die meisten Ihrer ursprünglichen Visuals, Tabellen und Drilldowns wie erwartet ausgeführt werden. Möglicherweise sind jedoch einige kleinere Anpassungen der Formatierung erforderlich, damit die Darstellung Ihren Wünschen entspricht. Nehmen Sie sich etwas Zeit, um sich alle Dashboards und Visuals anzusehen und sicherzustellen, dass sie wie gewünscht aussehen.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Abrufen von Verbrauchsdaten mithilfe der ACI-API (Azure Consumption and Insights)
-Azure stellt auch die [**ACI-API (Azure Consumption and Insights)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/) bereit. Mit der ACI-API können Sie eigene benutzerdefinierte Lösungen zum Sammeln, Dokumentieren und Visualisieren von Azure-Verbrauchsinformationen erstellen.
+Azure stellt auch die [**ACI-API (Azure Consumption and Insights)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/) bereit. Mit der ACI-API können Sie eigene benutzerdefinierte Lösungen zum Sammeln, Dokumentieren und Visualisieren von Azure-Verbrauchsinformationen erstellen.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Zuordnen von Namen und Nutzungsdetails zwischen dem Portal, dem Connector und der API
 Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connector ähnlich, jedoch nicht immer identisch. Zur Erläuterung enthält die folgende Tabelle eine Zuordnung zwischen der API, dem Connector und den im Azure-Portal angezeigten Spalten. Es wird außerdem angegeben, ob die Spalte veraltet ist. Weitere Informationen und Definitionen der Begriffe finden Sie im [Azure-Wörterbuch für Abrechnungsdaten](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
@@ -185,7 +187,7 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 | Messbereich |meterRegion |Messbereich |Nein |
 | Unterkategorie für Messung |meterSubCategory |Unterkategorie für Messung |Nein |
 | MeterId |meterId |Messungs-ID |Nein |
-| Monat | |Monat |Nein |
+| Month | |Month |Nein |
 | Produkt |product |Produkt |Nein |
 | ProductId |productId | |Ja |
 | Resource Group |resourceGroup |Resource Group |Nein |
@@ -211,6 +213,11 @@ Die Spalten und Namen der Details im Azure-Portal sind in der API und im Connect
 ## <a name="connect-with-azure-cost-management"></a>Herstellen einer Verbindung mit Azure Cost Management
 
 In diesem Abschnitt erfahren Sie, wie Sie eine Verbindung mit einem Abrechnungskonto vom Typ „Kundenvertrag“ herstellen.
+
+> [!NOTE]
+> Der Azure Cost Management-Connector unterstützt derzeit die Kunden auf der **Kundenvertrag**.  **Enterprise Agreement** Kunden sollten die Microsoft Azure Consumption Insights-Connector verwenden.
+> 
+> 
 
 Um mithilfe des Connectors **Azure Cost Management** eine Verbindung herzustellen, klicken Sie auf dem Menüband **Start** von **Power BI Desktop** auf **Daten abrufen**.  Wählen Sie in den Kategorien auf der linken Seite die Kategorie **Azure** aus. Daraufhin wird **Azure Cost Management (Beta)** angezeigt. Wählen Sie **Verbinden** aus.
 

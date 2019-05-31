@@ -1,5 +1,5 @@
 ---
-title: Übersicht über Q&A im Power BI-Dienst
+title: Q & A für Power BI-Kunden
 description: Thema mit der Dokumentationsübersicht für Power BI Q&A zum Stellen von Fragen in natürlicher Sprache.
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661972"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625109"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Q&A für Power BI-**Verbraucher**
 ## <a name="what-is-qa"></a>Was ist Q&A?
-Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Beispiel: „Wie lautet der Gesamtumsatz für das letzte Jahr“.  
+Manchmal ist die schnellste Möglichkeit, um eine Antwort auf Basis Ihrer Daten zu erhalten, eine Frage in natürlicher Sprache zu stellen. Beispiel: „Wie lautet der Gesamtumsatz für das letzte Jahr“.
+
 Verwenden Sie den Bereich für Fragen und Antworten (F&A), um Ihre Daten mithilfe intuitiver Möglichkeiten der natürlichen Sprache zu untersuchen und die entsprechenden Antworten in Form von Diagrammen und Grafiken zu erhalten. Der Bereich für Fragen und Antworten unterscheidet sich von einer Suchmaschine. Dieser Bereich stellt ausschließlich Ergebnisse zu den Daten in Power BI bereit.
 
 **Power BI Q&A** unterstützt nur die Beantwortung von Fragen in natürlicher Sprache, die in Englisch gestellt werden. Es steht eine Vorschauversion für Spanisch zur Verfügung, die von Ihrem Power BI-Administrator aktiviert werden kann.
@@ -35,7 +36,7 @@ Fragen stellen ist erst der Anfang.  Viel Spaß bei Ihrer Reise, bei der Sie Dat
 Die Erfahrung ist wahrhaft interaktiv... und schnell! Unterstützt durch einen In-Memory-Speicher wird die Antwort nahezu unmittelbar zurückgegeben.
 
 ## <a name="where-can-i-use-qa"></a>Wo finde ich die Q&A-Funktion?
-Die Q&A-Funktion ist im Power BI-Dienst im Dashboard enthalten, in Power BI Mobile finden Sie sie ganz unten und in Power BI Embedded über der Visualisierung. Sie können mit Q&A Daten untersuchen, jedoch keine mit Q&A erstellten Visualisierungen speichern, es sei denn, der Designer hat Ihnen Bearbeitungsberechtigungen erteilt.
+Häufig gestellte Fragen zu Dashboards und Berichten in Power BI-Dienst, und klicken Sie am unteren Rand des Dashboards in Power BI mobile finden Sie. Sie können mit Q&A Daten untersuchen, jedoch keine mit Q&A erstellten Visualisierungen speichern, es sei denn, der Designer hat Ihnen Bearbeitungsberechtigungen erteilt.
 
 ![Fragefeld](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ Sie können Q&A auch mitteilen, welche Visualisierung verwendet werden soll, ind
 **Antwort 1**: Wenn Sie kein Fragefeld finden können, überprüfen Sie zunächst Ihre Einstellungen. Klicken Sie hierzu auf das Zahnradsymbol in der oberen rechten Ecke der Power BI-Symbolleiste.   
 ![Zahnradsymbol](media/end-user-q-and-a/power-bi-settings.png)
 
-Klicken Sie dann auf **Einstellungen** > **Dashboards**. Stellen Sie sicher, dass die Option **Show the Q&A search box on this dashboard** (Q&A-Suchfeld auf diesem Dashboard anzeigen) aktiviert ist.
+Klicken Sie dann auf **Einstellungen** > **Dashboards**. Stellen Sie sicher, dass die Option **Show the Q&A search box on this dashboard** (Q&A-Suchfeld auf diesem Dashboard anzeigen) aktiviert ist.    
 ![Q&A-Einstellungen für das Dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295934"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513483"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Erstellen und Verwenden eines Was-wäre-wenn-Parameters zum Visualisieren von Variablen in Power BI Desktop
 Ab dem **Power BI Desktop**-Release von August 2018 können Sie **Was-wäre-wenn**-Variablen für Ihre Berichte erstellen, mit Variablen als Slicer interagieren und unterschiedliche wichtige Werte in den Berichten visualisieren und quantifizieren.
@@ -50,7 +50,7 @@ Lassen Sie uns ein einfaches Beispiel für die Verwendung eines **Was-wäre-wenn
 
 ![](media/desktop-what-if/what-if_05.png)
 
-Das neue Measure ist einfach der Gesamtumsatz, auf den der Rabatt angewendet wird. Sie können selbstverständlich komplexe und interessante Measures erstellen, mit denen die Benutzer Ihrer Berichte die Variable des **Was-wäre-wenn**-Parameters visualisieren können. Sie können z.B. einen Bericht erstellen, mit dem Vertriebsmitarbeiter die Vergütung, die sie beim Erreichen bestimmter Umsatzziele oder -prozentwerte erhalten, oder die Erhöhung von Rabatten aufgrund höherer Umsätze anzeigen können.
+Das neue Measure ist einfach der Gesamtumsatz, auf den der Rabatt angewendet wird. Sie können selbstverständlich komplexe und interessante Measures erstellen, mit denen die Benutzer Ihrer Berichte die Variable des **Was-wäre-wenn**-Parameters visualisieren können. Sie können z. B. einen Bericht erstellen, mit dem Vertriebsmitarbeiter sehen, dass die Vergütung bestimmter Umsatzziele oder-Prozentwerte zu erfüllen, oder Anzeigen der Auswirkung der Rabatten erhöht.
 
 Sobald wir die Measureformel in der Bearbeitungsleiste eingegeben und sie mit **Sales after Discount** (Auftragsrabatt) benannt haben, wird das Ergebnis angezeigt:
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264694"
+---
 **Power BI Desktop** umfasst auch den **Abfrage-Editor**, ein leistungsstarkes Tool zum Strukturieren und Transformieren von Daten, sodass Sie sie in Ihren Modellen und Visualisierungen verwenden können. Wenn Sie die Schaltfläche „Bearbeiten“ im Navigator auswählen, wird der Abfrage-Editor gestartet und mit den Tabellen oder anderen Entitäten aufgefüllt, die Sie in der Datenquelle ausgewählt haben.
 
 Sie können den **Abfrage-Editor** auch direkt über **Power BI Desktop** starten. Verwenden Sie dazu die Schaltfläche **Abfragen bearbeiten** im Menüband **Start**.

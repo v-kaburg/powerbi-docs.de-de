@@ -3,7 +3,7 @@ title: Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisi
 description: Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280399"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188052"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung
 Bei der Konfiguration eines Datasets für die planmäßige Aktualisierung kann ein Fehler angezeigt werden.
@@ -41,7 +41,7 @@ Wenn Sie unsicher sind, welche Datenquelle verwendet wurde, können Sie diese su
 ## <a name="next-steps"></a>Nächste Schritte
 [Datenaktualisierung](refresh-data.md)  
 [Power BI Gateway – Personal](service-gateway-personal-mode.md)  
-[Lokales Datengateway](service-gateway-onprem.md)  
+[On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)  
 [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

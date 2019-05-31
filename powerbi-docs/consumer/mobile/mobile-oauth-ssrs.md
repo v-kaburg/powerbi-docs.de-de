@@ -1,20 +1,20 @@
 ---
 title: Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
 description: In diesem Artikel erfahren Sie, wie Sie Ihre Umgebung für die Unterstützung der OAuth-Authentifizierung mit der mobilen Power BI-App konfigurieren, um eine Verbindung mit Reporting Services 2016 oder höher herzustellen.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383621"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770372"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Verwenden von OAuth zum Herstellen einer Verbindung mit dem Power BI-Berichtsserver und SSRS
 
@@ -25,7 +25,7 @@ In diesem Artikel erfahren Sie, wie Sie Ihre Umgebung für die Unterstützung de
 Mit OAuth können Sie eine Verbindung zum Power BI-Berichtsserver und Reporting Services herstellen, um mobile Berichte oder KPIs anzuzeigen. Windows Server 2016 enthält einige Verbesserungen der Rolle „Webanwendungsproxy“ (WAP), um diese Art der Authentifizierung zu ermöglichen.
 
    > [!NOTE]
-   > Das Anzeigen von Power BI-Berichten, die im Power BI-Berichtsserver mit WAP zur Authentifizierung gehostet werden, wird derzeit nicht offiziell unterstützt.
+   > Anzeigen von Power BI-Berichte in Power BI-Berichtsserver gehostet wird mit WAP Authentifizierung derzeit nur in iOS-app unterstützt. Android-app wird zu diesem Zeitpunkt nicht offiziell unterstützt.
 
 ## <a name="requirements"></a>Anforderungen
 
@@ -118,7 +118,7 @@ Hierzu führen Sie die folgenden Schritten aus.
    > [!NOTE]
    > Bei der URL wird die Groß- und Kleinschreibung beachtet.
 
-   *https://<url to report server>/reports*
+   *https://< Berichtsserver-Url > / reports*
 
    ![Assistent zum Hinzufügen von Anwendungsgruppen in ADFS (3)](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Wählen Sie **Weiter**aus.
@@ -191,7 +191,7 @@ Gehen Sie zum Konfigurieren der eingeschränkten Delegierung wie folgt vor.
 Sie können Anwendungen innerhalb der Report Access Management Console veröffentlichen, hier wird die Anwendung allerdings über PowerShell erstellt. Der Befehl zum Hinzufügen der Anwendung lautet wie folgt:
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | Parameter | Kommentare |

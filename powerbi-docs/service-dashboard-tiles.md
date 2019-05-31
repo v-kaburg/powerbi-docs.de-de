@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138996"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Einführung in Dashboardkacheln für Power BI-Designer
 
@@ -43,7 +43,7 @@ Es gibt viele verschiedene Möglichkeiten, eine Kachel zu Ihrem Dashboard hinzuz
 * [einem anderen Dashboard](service-pin-tile-to-another-dashboard.md)
 * [einer Excel-Arbeitsmappe auf OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher für Excel](publisher-for-excel.md)
-* [Schnelle Einblicke](service-insights.md)
+* [Quick Insights (Schnelle Einblicke)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Eigenständige Kacheln für Bilder, Textfelder, Videos, Streamingdaten und Webinhalte können mit [Kachel hinzufügen](service-dashboard-add-widget.md) direkt auf dem Dashboard erstellt werden.

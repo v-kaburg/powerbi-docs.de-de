@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220975"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187714"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -22,9 +22,7 @@ Registrieren Sie sich für unsere nächsten Livewebinare, oder sehen Sie sich un
 
 ## <a name="upcoming-webinars"></a>Kommende Webinare
 
-**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Erzielen einer Win-Win-Situation für Hersteller und Händler von Verbrauchsgütern)
-<br>von Liz McCreesh
-<br>[Jetzt registrieren](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+Es sind noch keine Webinare geplant. Besuchen Sie diese Website regelmäßig, um sich über neue Veranstaltungen zu informieren.
 
 >[Bevorstehende Webinare der Power BI-Community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>von Wim Coorevits und Enrique Plaza Garcia
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**Bewährte Methoden für die Verwaltung von Power BI Embedded Analytics für Bereitstellungen mit mehreren Mandanten**
+<br>von Nimrod Shalit
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI: Analytics Done Right** (Power BI: Analysen richtig aufbereitet)
 <br>von Gohul Shanmugalingam
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>[Jetzt ansehen](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partner ###
+
+**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Erzielen einer Win-Win-Situation für Hersteller und Händler von Verbrauchsgütern)
+<br>durch Liz McCreesh aus Thorogood
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Transform Customer Data into Retail Success with Power Bi** (Transformieren von Kundendaten in Handelserfolge mit Power BI)
 <br>von Angad Soni von Hitachi Solutions

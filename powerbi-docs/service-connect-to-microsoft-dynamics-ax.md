@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008118"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174358"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Herstellen einer Verbindung mit einem Microsoft Dynamics AX-Inhaltspaket mithilfe von Power BI
 Microsoft Dynamics AX bietet drei Power BI-Inhaltspakete, die jeweils auf bestimmte geschäftliche Benutzer zugeschnitten sind. Das Inhaltspaket für die Finanzleistung wurde eigens für CFOs entwickelt und erlaubt Einblicke in die Finanzlage Ihres Unternehmens. Das Inhaltspaket für die Handelskanalleistung ist auf Channel-Manager ausgerichtet und dient der Umsatzanalyse, um direkt aus den Handelsdaten Trends abzuleiten und Erkenntnisse zu gewinnen. Die Kostenverwaltung ist für COOs und CFOs bestimmt. Sie enthält Details zur Leistung von Vorgängen.

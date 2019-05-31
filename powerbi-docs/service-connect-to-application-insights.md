@@ -11,11 +11,11 @@ ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008233"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61177141"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Herstellen einer Verbindung mit Application Insights mithilfe von Power BI
 Verwenden Sie Power BI, um leistungsstarke benutzerdefinierte Dashboards auf Basis der [Application Insights](/azure/application-insights/app-insights-overview/)-Telemetriedaten zu erstellen. Profitieren Sie von einer völlig neuen Sicht auf Ihre App-Telemetrie. Kombinieren Sie Metriken aus mehreren Apps oder Komponentendiensten in einem Dashboard. Diese erste Version des Power BI-Inhaltspakets für Application Insights enthält Widgets für auf die allgemeine Nutzung bezogene Metriken wie aktive Benutzer, Seitenansicht, Sitzungen, Browser- und Betriebssystemversion sowie die geografische Verteilung von Benutzern in einer Karte.

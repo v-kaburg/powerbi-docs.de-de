@@ -11,11 +11,11 @@ ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61370464"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Elemente ohne Daten in Power BI anzeigen
 
@@ -47,7 +47,7 @@ Sehen wir uns jetzt eine andere Kombination an:
 |Glänzend     |Blue         |10         |
 |Matt     |Blue         |15         |
 
-In diesem Beispiel zeigt Power BI nur vorhandene Kombinationen an. Beispielsweise wird („Ohne“ + „Blau“) oder („Matt“ + „Rot“) nicht angezeigt, weil diese Kombinationen im Modell nicht vorkommen. Die Bedingung, die bestimmt, welche Kombinationen vorhanden sind, ist der nicht leere Wert für *Summe(Umsatz[Menge])*.
+In diesem Beispiel zeigt Power BI nur vorhandene Kombinationen an. Beispielsweise wird („Ohne“ + „Blau“) oder („Matt“ + „Rot“) nicht angezeigt, weil diese Kombinationen im Modell nicht vorkommen. Die Bedingung, die bestimmt, welche Kombinationen vorhanden sind, ist der nicht leere Wert für *Summe(Umsatz[Menge])* .
 
 Betrachten wir einen anderen Fall: 
 

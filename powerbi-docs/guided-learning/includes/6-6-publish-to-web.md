@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256310"
+---
 In dieser Lektion erfahren Sie in wenigen Schritten, wie Sie einen Power BI-Bericht auf einer Webseite oder per E-Mail freigeben. Dieses leicht zu verwendende und einfach zu verwaltende Power BI-Feature wird häufig als **Webveröffentlichung** bezeichnet.
 
 Wählen Sie in Power BI den Bericht aus, den Sie freigeben möchten, sodass er im Zeichenbereich angezeigt wird. Wählen Sie dann im Menü **Datei > Im Web veröffentlichen**.

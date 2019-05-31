@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287346"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233852"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Analysebeispiel für Beschaffung für Power BI: Übersicht
 
@@ -72,9 +72,9 @@ Zuerst sehen wir uns Trends bei den Ausgaben nach Kategorie und Standort an.
 Beachten Sie die folgenden Punkte:
 
 * Im Liniendiagramm **Gesamtrechnung nach Monat und Kategorie**: Die Ausgaben sind für die Kategorie **Direkt** relativ konstant, **Logistik** weist eine Spitze im Dezember auf, und **Sonstige** weist eine Spitze im Februar auf.
-* In der Karte **Gesamtrechnung nach Land/Region**: Die meisten Ausgaben fallen in den USA an.
+* In der Karte **Gesamtrechnung nach Land/Region**: Die meisten Ausgaben fallen in den USA.
 * Im Säulendiagramm **Gesamtrechnung nach Unterkategorie**: **Hardware** und **Indirekte Waren und Dienstleistungen** sind die Kategorien mit den höchsten Ausgaben.
-* Im Balkendiagramm „Gesamtrechnung nach Ebene“: Der meiste Geschäftsverkehr wird mit Lieferanten der Ebene 1 (Top 10) abgewickelt. Dies ist für eine bessere Verwaltung der Lieferantenbeziehungen hilfreich.
+* Im Balkendiagramm „Gesamtrechnung nach Ebene“: Unser Kerngeschäft erfolgt mit unseren Lieferanten der Ebene-1 (Top 10). Dies ist für eine bessere Verwaltung der Lieferantenbeziehungen hilfreich.
 
 ## <a name="spending-in-mexico"></a>Ausgaben in Mexiko
 Sehen wir uns die Ausgabenbereiche für Mexiko an:

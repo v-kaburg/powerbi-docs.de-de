@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282607"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61402993"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Freigeben eines Power BI-Dashboards, das mit einer Excel-Datei in OneDrive verknüpft ist
 In Power BI können Sie sich [mit Excel-Arbeitsmappen auf OneDrive for Business verbinden](service-excel-workbook-files.md) und Kacheln an ein Dashboard aus der jeweiligen Arbeitsmappe anheften. Wenn Sie dieses Dashboard freigeben oder ein Inhaltspaket erstellen, das dieses Dashboard enthält:

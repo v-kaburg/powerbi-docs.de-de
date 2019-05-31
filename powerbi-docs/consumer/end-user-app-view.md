@@ -11,11 +11,11 @@ ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661836"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61064125"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installieren und Verwenden von Apps mit Dashboards und Berichten in Power BI
 Nachdem Sie [grundlegende Informationen zu Apps](end-user-apps.md) erhalten haben, erfahren Sie hier, wie Apps geöffnet werden und wie Sie mit ihnen interagieren. 

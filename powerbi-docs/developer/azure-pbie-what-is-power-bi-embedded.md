@@ -1,8 +1,8 @@
 ---
 title: Power BI Embedded und Embedded Analytics in Azure | Microsoft-Dokumentation
 description: Power BI Embedded ist als Embedded Analytics-Tool gedacht und soll die Nutzung von Power BI-Funktionen für unabhängige Softwarehersteller und Entwickler vereinfachen und ihnen dabei helfen, ihren Anwendungen schnell beeindruckende Visuals, Berichte und Dashboards hinzuzufügen. In diesem Artikel erfahren Sie mehr über Embedded Analytics-Software, Embedded Analytics-Tools sowie eingebettete Business Intelligence-Tools bei der Verwendung von Power BI Embedded.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
@@ -11,12 +11,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2e60d29602fb412f66f74d5258081003610c30cd
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762074"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385015"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Was ist Power BI Embedded in Azure?
 
@@ -40,7 +40,7 @@ Haben Sie eine vorhandene App mit eingebetteten Power BI-Inhalten mit Power BI P
 
 Mit Power BI Embedded können Sie sich auf das konzentrieren, was Sie am besten können: das Entwickeln großartiger Anwendungen. Sie können mit Power BI Embedded mit bereits vorhandenen Tools und Fähigkeiten verwalten und entwickeln.
 
-* [**Azure-Portal:**](https://portal.azure.com/) eine webbasierte Anwendung zum Verwalten aller Azure-Dienste
+* [**Azure-Portal:** ](https://portal.azure.com/) eine webbasierte Anwendung zum Verwalten aller Azure-Dienste
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): ein kostenloser, herunterladbarer Open Source-Code-Editor für Windows, macOS und Linux, der Erweiterungen unterstützt
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): ein kostenloses, herunterladbares Tool zum Erstellen umfassender, interaktiver Berichte mit visuellen Analysen
 

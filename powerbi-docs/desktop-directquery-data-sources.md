@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826558"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305453"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Von DirectQuery in Power BI unterstützte Datenquellen
 
@@ -24,26 +24,29 @@ ms.locfileid: "56826558"
 Die folgenden Datenquellen unterstützen DirectQuery in Power BI:
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (Beta)
+* Azure HDInsight Spark
 * Azure SQL-Datenbank
 * Azure SQL Data Warehouse
-* BigQuery von Google (Beta)
+* Google BigQuery
+* HDInsight Interactive Query
 * IBM DB2-Datenbank
-* IBM Netezza (Beta)
+* IBM Netezza
 * Impala (Version 2.x)
 * Oracle-Datenbank (Version 12 und höher)
+* Oracle Essbase
 * SAP Business Warehouse-Anwendungsserver
-* SAP Business Warehouse-Nachrichtenserver (Beta)
+* SAP Business Warehouse-Nachrichtenserver
 * SAP HANA
 * Snowflake
-* Spark (Beta) (Version 0.9 und höher)
+* Spark (Version 0.9 und höher)
 * SQL Server
 * Teradata-Datenbank
-* Vertica (Beta)
+* Vertica
 
 Datenquellen, auf deren Namen **(Beta)** oder **(Vorschau)** folgt, unterliegen noch Änderungen und werden für den Einsatz in Produktionsumgebungen nicht unterstützt. Möglicherweise werden sie auch nach dem Veröffentlichen eines Berichts im **Power BI-Dienst** nicht unterstützt, was bedeutet, dass das Öffnen eines veröffentlichten Berichts oder das Untersuchen des Datasets zu einem Fehler führen kann.
 
-Der einzige Unterschied zwischen als **(Beta)** und als **(Vorschau)** gekennzeichneten Datenquellen besteht darin, dass **(Vorschau)**-Datenquellen als Vorschaufunktion aktiviert werden müssen, um zur Verwendung verfügbar zu sein. Um einen **(Vorschau)**-Datenconnector zu aktivieren, wechseln Sie in **Power BI Desktop** zu **Datei > Optionen und Einstellungen > Optionen** und dann zu **Vorschaufeatures**.
+Der einzige Unterschied zwischen als **(Beta)** und als **(Vorschau)** gekennzeichneten Datenquellen besteht darin, dass **(Vorschau)** -Datenquellen als Vorschaufunktion aktiviert werden müssen, um zur Verwendung verfügbar zu sein. Um einen **(Vorschau)** -Datenconnector zu aktivieren, wechseln Sie in **Power BI Desktop** zu **Datei > Optionen und Einstellungen > Optionen** und dann zu **Vorschaufeatures**.
 
 > [!NOTE]
 > DirectQuery-Abfragen an SQL Server erfordern die Authentifizierung mit aktuellen Anmeldeinformationen für die Windows-Authentifizierung oder Datenbankanmeldeinformationen, um Zugang herzustellen. Alternative Anmeldeinformationen werden nicht unterstützt.

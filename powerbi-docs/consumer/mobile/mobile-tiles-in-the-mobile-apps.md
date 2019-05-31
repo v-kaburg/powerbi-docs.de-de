@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286402"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977994"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Kacheln in den mobilen Power BI-Apps
 Gilt für:
@@ -71,7 +71,7 @@ Anschließend öffnen Sie in den mobilen Power BI-Apps Kacheln im Fokusmodus und
    * Auf das Diagramm tippen, um die Leiste in einem Linien-, Balken-, Säulen- oder Blasendiagramm zu verschieben, damit die Werte für einen bestimmten Punkt in der Visualisierung angezeigt werden.  
    * Tippen Sie auf das Symbol „Momentaufnahme freigeben“ ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png), um [die Kachel mit einer Anmerkung zu versehen und sie für andere freizugeben](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
    * Tippen Sie auf das Symbol „Bericht öffnen“ ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png), um den [Bericht in der mobilen App anzuzeigen](mobile-reports-in-the-mobile-apps.md).
-3. Manchmal hat der Ersteller des Dashboards einen Link zu einer Kachel hinzugefügt. Wenn dies der Fall ist, wird beim Tippen auf die Auslassungspunkte (**...**) die Option **Link öffnen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) angezeigt:
+3. Manchmal hat der Ersteller des Dashboards einen Link zu einer Kachel hinzugefügt. Wenn dies der Fall ist, wird beim Tippen auf die Auslassungspunkte ( **...** ) die Option **Link öffnen** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) angezeigt:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

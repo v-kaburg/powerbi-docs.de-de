@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279226"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140605"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Anzeigen von Dashboards und Berichten in mobilen Power BI-Apps
 Gilt für:
@@ -87,7 +87,7 @@ Mithilfe der Zusammendrückbewegung können Sie unterschiedliche Bereiche des Da
    
    * Die gelben Sterne ![Favoriten-Stern](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) kennzeichnen die Dashboards, die Favoriten sind. 
    * Die Bezeichnung unterhalb jedes Dashboardnamens (in diesem Fall „MBI“) ![Datenklassifizierung](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) gibt an, wie die Daten in den einzelnen Dashboards klassifiziert sind. Erfahren Sie mehr über die [Klassifizierung von Daten in Power BI](../../service-data-classification.md).
-3. Sie können ein Dashboard aus Ihrem Arbeitsbereich freigeben. Tippen Sie auf die Auslassungspunkte (**...**) in der unteren rechten Ecke der Dashboardkachel, und tippen Sie auf **Andere einladen**.
+3. Sie können ein Dashboard aus Ihrem Arbeitsbereich freigeben. Tippen Sie auf die Auslassungspunkte ( **...** ) in der unteren rechten Ecke der Dashboardkachel, und tippen Sie auf **Andere einladen**.
    
    ![Einladungssymbol](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Sie könne auch auf ein Dashboard tippen, um es zu öffnen und die Kacheln in diesem Dashboard anzuzeigen. Im Dashboard können Sie mit folgenden Elementen interagieren:

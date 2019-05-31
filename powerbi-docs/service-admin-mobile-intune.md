@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296223"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710936"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Konfigurieren mobiler Apps mit Microsoft Intune
 
@@ -50,11 +50,11 @@ Die App-URL für iOS müssen wir aus iTunes abrufen.
 
     ![App-URL in iTunes](media/service-admin-mobile-intune/itunes-url.png)
 
-Die URL sollte ungefähr wie folgt aussehen: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+Die URL sollte ungefähr wie folgt aussehen: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>Abrufen der URL für Android
 
-Sie können die URL zu Google Play von der [Website von Power BI Mobile](https://powerbi.microsoft.com/mobile/) abrufen. Klicken Sie auf **Von Google Play herunterladen**, um zur Seite der App zu gelangen. Kopieren Sie die URL aus der Adressleiste des Browsers. Die URL sollte ungefähr wie folgt aussehen: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+Sie können die URL zu Google Play von der [Website von Power BI Mobile](https://powerbi.microsoft.com/mobile/) abrufen. Klicken Sie auf **Von Google Play herunterladen**, um zur Seite der App zu gelangen. Kopieren Sie die URL aus der Adressleiste des Browsers. Die URL sollte ungefähr wie folgt aussehen: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>Schritt 2: Erstellen einer Richtlinie für die Verwaltung mobiler Anwendungen
 
@@ -86,7 +86,7 @@ Sie können zunächst die Anwendung oder die Richtlinie erstellen. Die Reihenfol
 
 1. Wählen Sie in der Dropdownliste **Verwaltete iOS-App aus dem App Store** aus.
 
-1. Geben Sie die App-URL ein, die wir in [Schritt 1](#step-1-get-the-URL-for-the-application) erhalten haben, und wählen Sie **Weiter** aus.
+1. Geben Sie die App-URL ein, die wir in [Schritt 1](#step-1-get-the-url-for-the-application) erhalten haben, und wählen Sie **Weiter** aus.
 
     ![Softwaresetup: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 
@@ -104,7 +104,7 @@ Sie können zunächst die Anwendung oder die Richtlinie erstellen. Die Reihenfol
 
 1. Wählen Sie in der Dropdownliste **Externer Link** aus.
 
-1. Geben Sie die App-URL ein, die wir in [Schritt 1](#step-1-get-the-URL-for-the-application) erhalten haben, und wählen Sie **Weiter** aus.
+1. Geben Sie die App-URL ein, die wir in [Schritt 1](#step-1-get-the-url-for-the-application) erhalten haben, und wählen Sie **Weiter** aus.
 
     ![Softwaresetup: Android-](media/service-admin-mobile-intune/intune-add-software-android1.png)
 

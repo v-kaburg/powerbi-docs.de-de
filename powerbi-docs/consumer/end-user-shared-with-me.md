@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6069368810fd89d8f8102b24fe220351e6e7e0ec
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a4cbc152784d7536a5aa179769cf753645c932b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661697"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048717"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Anzeigen der Dashboards und Berichte, die mit mir geteilt wurden
 ## <a name="shared-with-me"></a>Für mich freigegeben
@@ -26,7 +26,7 @@ Wenn ein Kollege Inhalte mit Ihnen teilt und dazu die Schaltfläche **Freigeben*
 
 ![Symbol „Freigeben“](./media/end-user-shared-with-me/power-bi-share-dash.png)
 
-Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Details finden Sie unter [Was ist Power BI Premium?](../service-premium.md).
+Sehen Sie sich an, wie Amanda die Inhaltsliste **Für mich freigegeben** erläutert und veranschaulicht, wie Sie durch die Liste navigieren und sie filtern. Befolgen Sie dann die schrittweisen Anleitungen unter dem Video, um es selbst ausprobieren. Damit Sie Dashboards anzeigen können, die für Sie freigegeben sind, benötigen Sie eine Power BI Pro-Lizenz. Details finden Sie unter [Was ist Power BI Premium?](../service-premium-what-is.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

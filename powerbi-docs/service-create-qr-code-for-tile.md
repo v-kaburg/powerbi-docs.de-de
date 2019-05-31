@@ -11,11 +11,11 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280192"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169054"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Erstellen eines QR-Codes für eine Kachel in Power BI für die Verwendung in mobilen Apps
 QR-Codes in Power BI können alle Elemente in der realen Welt direkt mit verwandten BI-Informationen verbinden – es ist keine Navigation oder Suche erforderlich.

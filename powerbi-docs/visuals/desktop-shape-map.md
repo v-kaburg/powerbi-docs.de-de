@@ -11,11 +11,11 @@ ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290887"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394789"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Flächenkartogramme in Power BI Desktop (Vorschau)
 Erstellen Sie ein Visual für die **Formenzuordnung**, um Regionen auf einer Karte voneinander abzutrennen. Im Gegensatz zum Visual **Karte** kann das Visual **Formenzuordnung** keine genauen geografischen Standorte von Datenpunkten auf einer Karte anzeigen. Stattdessen soll es vor allem Regionen auf einer Karte in Beziehung zueinander setzen, indem diese unterschiedliche Farben erhalten.

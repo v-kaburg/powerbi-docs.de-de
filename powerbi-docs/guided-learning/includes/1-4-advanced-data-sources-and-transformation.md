@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54083965"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264669"
 ---
 In diesem Artikel werden einige komplexere Methoden zum Importieren und Bereinigen von Daten in **Power BI Desktop** erläutert. Nachdem Sie die Daten im **Abfrage-Editor** strukturiert und in **Power BI Desktop** importiert haben, können Sie sie in unterschiedlichen Ansichten anzeigen. Power BI Desktop weist drei Ansichten auf: Die Ansicht **Bericht**, die Ansicht **Daten** und die Ansicht **Beziehungen**. Die jeweilige Ansicht können Sie anzeigen, indem Sie oben links im Zeichenbereich das entsprechende Symbol auswählen. In der folgenden Abbildung ist die Ansicht **Bericht** ausgewählt. Der gelbe Balken neben dem Symbol gibt die jeweils aktive Ansicht an.
 

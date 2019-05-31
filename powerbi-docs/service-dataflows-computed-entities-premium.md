@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220952"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137900"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>Verwenden berechneter Entitäten in Power BI Premium (Vorschau)
+# <a name="using-computed-entities-on-power-bi-premium"></a>Verwenden berechneter Entitäten in Power BI Premium
 
 Sie haben die Möglichkeit, **Berechnungen im Speicher** auszuführen, wenn Sie **Dataflows** mit einem Power BI Premium-Abonnement verwenden. So können Sie Berechnungen mit Ihren vorhandenen Dataflows ausführen und Ergebnisse zurückgeben, mit denen Sie sich auf die Berichtserstellung und Analysen konzentrieren können. 
 
@@ -31,10 +31,6 @@ Sie haben zwei Optionen, Dataflowdaten mit Power BI zu verbinden:
 * Mit einem externen Dataflow
 
 Die folgenden Abschnitte beschreiben, wie Sie berechnete Entitäten mit Ihren Dataflowdaten erstellen.
-
-> [!NOTE]
-> Die Dataflowfunktionalität befindet sich in der Vorschau und unterliegt vor der allgemeinen Verfügbarkeit Änderungen und Updates.
-
 
 ## <a name="how-to-create-computed-entities"></a>Erstellen von berechneten Entitäten 
 
@@ -89,8 +85,8 @@ Dieser Artikel beschreibt berechnete Entitäten und Dataflows, die im Power BI-D
 
 * [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 * [Configure workspace dataflow settings (Preview) (Konfigurieren von Datafloweinstellungen im Arbeitsbereich (Vorschauversion))](service-dataflows-configure-workspace-storage-settings.md)
 * [Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)](service-dataflows-add-cdm-folder.md)
 * [Verbinden von Azure Data Lake Storage Gen2 für die Dataflowspeicherung (Vorschauversion)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

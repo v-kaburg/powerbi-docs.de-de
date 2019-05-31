@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
 ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430367"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187356"
 ---
 # <a name="power-bi-security"></a>Sicherheit in Power BI
 
@@ -38,7 +38,7 @@ Das **Back-End**-Cluster zeigt, wie authentifizierte Clients mit dem Power BI-Di
 > [!IMPORTANT]
 > Es ist unbedingt zu beachten, dass nur **Azure API Management** (APIM) und **Gateway**-Rollen (GW) über das öffentliche Internet zugänglich sind. Sie bieten Authentifizierung, Autorisierung, DDoS-Schutz, Einschränkung, Lastenausgleich, Routing und andere Funktionen.
 
-## <a name="data-storage-security"></a>Datenspeichersicherheit 
+## <a name="data-storage-security"></a>Datenspeichersicherheit
 
 Power BI verwendet zwei primäre Repositorys zum Speichern und Verwalten von Daten: Daten, die von Benutzern hochgeladen werden, werden in der Regel an den **Azure-BLOB** Speicher gesendet, und alle Metadaten sowie Artefakte des Systems selbst werden in der **Azure SQL-Datenbank**gespeichert.
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661949"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059947"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Häufig gestellte Fragen zu Power BI
 * Wenn Sie weitere Fragen haben, [stellen Sie sie in der Power BI-Community](http://community.powerbi.com/).
@@ -31,8 +31,9 @@ Power BI Pro ist eine Einzellizenz, die Zugriff auf alle Inhalte und Funktionen 
 Premium bietet dedizierte Kapazitäten, um konsistentere Leistung und Unterstützung größerer Datenvolumen in Power BI bereitzustellen. Mit Premium können individuelle Benutzer Inhalte von Power BI Pro-Benutzern weiträumig verteilen, ohne Benutzerlizenzen für Empfänger zu erfordern, die den Inhalt anzeigen.
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Was geschieht, wenn meine Power BI Pro-Lizenz abläuft?
-Nach dem Ablauf einer Power BI Pro-Lizenz gibt es eine 30-tägige Karenzzeit.
-Für Power BI Pro gilt der gleiche Abonnementslebenszyklus wie für Office 365. Weitere Informationen finden Sie unter [Was geschieht mit meinen Daten und dem Zugriff darauf, wenn mein Office 365 Business-Abonnement endet?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Nach Ablauf einer Power BI Pro-Lizenz gibt es eine Karenzzeit. Bei Lizenzen, die Teil einer Volumenlizenz sind, beträgt die Karenzzeit 90 Tage. Bei direkt erworbenen Lizenzen beträgt die Karenzzeit 30 Tage.
+
+Für Power BI Pro gilt der gleiche Abonnementslebenszyklus wie für Office 365. Weitere Informationen finden Sie unter [was geschieht mit meinen Daten und den Zugriff, wenn mein Office 365 Business-Abonnement endet?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Wie gehe ich vor, wenn ich Fragen zu Power BI Premium haben?
 Fragen, die sich auf Power BI Premium beziehen, finden Sie unter [Power BI Premium – Häufig gestellte Fragen](../service-premium-faq.md).
@@ -90,11 +91,6 @@ Hier ist eine vollständige Liste der [Regionen und Sprachen, die von Power BI u
 Sie können Power BI Pro-Lizenzen direkt kaufen oder mit einem Mitarbeiter unter [www.powerbi.com](http://www.powerbi.com) chatten.
 
 Sie können sich auch einen [Microsoft-Partner](https://partner.microsoft.com/) aufsuchen, der Sie bei Ihrer Power BI-Implementierung unterstützt.
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Was geschieht, wenn meine Power BI Pro-Lizenz abläuft?
-Nach Ablauf einer Power BI Pro-Lizenz gibt es eine Karenzzeit. Bei Lizenzen, die Teil einer Volumenlizenz sind, beträgt die Karenzzeit 90 Tage. Bei direkt erworbenen Lizenzen beträgt die Karenzzeit 30 Tage.
-
-Für Power BI Pro gilt der gleiche Abonnementslebenszyklus wie für Office 365. Weitere Informationen finden Sie unter [Was geschieht mit meinen Daten und dem Zugriff darauf, wenn mein Office 365 Business-Abonnement endet?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Erfüllt Power BI nationale, regionale und branchenspezifische Anforderungen an die Konformität?
 Erfahren Sie mehr zur Power BI-Konformität im [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).

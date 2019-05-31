@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58052251"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61193828"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definieren von Rollen und Regeln in Power BI Desktop
 Sie können Rollen und Regeln in Power BI Desktop definieren. Wenn Sie etwas in Power BI veröffentlichen, werden auch die Rollendefinitionen veröffentlicht.
@@ -39,5 +39,5 @@ Gehen Sie folgendermaßen vor, wenn Sie Sicherheitsrollen definieren möchten.
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
 9. Wählen Sie **Speichern**.
 
-In Power BI Desktop ist es nicht möglich, Benutzer einer Rolle zuzuweisen. Sie können diese Zuweisung im Power BI-Dienst vornehmen. Sie können die dynamische Sicherheit in Power BI Desktop aktivieren, indem Sie *username()*- oder *userprincipalname()*-DAX-Funktionen verwenden und die richtigen Beziehungen konfigurieren. 
+In Power BI Desktop ist es nicht möglich, Benutzer einer Rolle zuzuweisen. Sie können diese Zuweisung im Power BI-Dienst vornehmen. Sie können die dynamische Sicherheit in Power BI Desktop aktivieren, indem Sie *username()* - oder *userprincipalname()* -DAX-Funktionen verwenden und die richtigen Beziehungen konfigurieren. 
 

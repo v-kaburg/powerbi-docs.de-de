@@ -1,6 +1,6 @@
 ---
-title: Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere
-description: Hier erfahren Sie, wie Sie für sich selbst und für andere eine Momentaufnahme eines Power BI-Berichts oder -Dashboards abonnieren.
+title: Abonnieren von sich selbst und andere von Berichten und Dashboards - Power BI
+description: Erfahren Sie, wie sich selbst und andere eine Momentaufnahme eines Power BI-Berichtsseite, Dashboards oder paginierten Bericht abonnieren.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,31 +8,35 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 639fbd58236debc2c71a87a9e9cfd551ad4b433d
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306525"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991135"
 ---
-# <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Abonnieren eines Berichts oder Dashboards im Power BI-Dienst für sich selbst und andere
+# <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Abonnieren von Berichten und Dashboards im Power BI-Dienst für sich selbst und andere
 
-Sie können für sich selbst und Ihre Kollegen die Berichtseiten und Dashboards abonnieren, die für Sie am wichtigsten sind, und von Power BI per E-Mail eine Momentaufnahme erhalten. Sie geben an, wie oft Sie E-Mails von Power BI erhalten möchten: täglich, wöchentlich oder einmal am Tag nach der anfänglichen Datenaktualisierung.  Wenn Sie täglich oder wöchentlich auswählen, können Sie die Zeit(en) bestimmen, wann das Abonnement ausgeführt werden soll.  Insgesamt können Sie für jede Berichtseite und jedes Dashboard bis zu 24 verschiedene Abonnements pro Tag einrichten.
+Sich selbst und Ihre Kollegen die Seiten des Berichts, Dashboards und paginierte Berichte, die Ihnen am wichtigsten sind, können Sie abonnieren. Powerbi per e-Mail eine Momentaufnahme in Ihrem Posteingang. Sie geben an, wie oft Sie E-Mails von Power BI erhalten möchten: täglich, wöchentlich oder einmal am Tag nach der anfänglichen Datenaktualisierung.  Wenn Sie täglich oder wöchentlich durchgeführt wird, Sie die Zeit können möchten Sie das Abonnement ausgeführt haben.  Insgesamt können Sie für jede Berichtseite und jedes Dashboard bis zu 24 verschiedene Abonnements pro Tag einrichten.
 
 ![E-Mail mit einer Momentaufnahme des Dashboards](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
 Sie können Abonnements nur im Power BI-Dienst erstellen. Sie erhalten eine E-Mail mit einer Momentaufnahme der Berichtseite oder des Dashboards und einem Link, über den Sie den Bericht oder das Dashboard öffnen können. Wenn Sie diesen Link auf mobilen Geräten auswählen, auf denen Power BI-Apps installiert sind, wird die Power BI-App gestartet und nicht der Bericht oder das Dashboard auf der Power BI-Website geöffnet.
 
 ## <a name="requirements"></a>Anforderungen
+
 - Das **Erstellen** eines Abonnements ist ein Feature von Power BI Pro.
 - Sie müssen nicht über Berechtigungen zum Bearbeiten des Inhalts (Dashboard oder Bericht) verfügen, um ein Abonnement für sich selbst zu erstellen. Sie müssen jedoch über Berechtigungen zum Bearbeiten verfügen, um ein Abonnement für eine andere Person zu erstellen. 
 - Seit Januar 2019 müssen Sie nicht länger eine Datasetaktualisierung eingerichtet haben, um ein Abonnement auszuführen.  Es wird unabhängig von planmäßigen Aktualisierungen ausgeführt, die Sie eingerichtet haben.  
 
-## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonnieren eines Berichts oder Dashboards
-Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Abonnieren eines Dashboard, eine Berichtsseite oder ein paginierter Bericht
+
+Gibt an, ob Sie abonnieren können, ein Dashboard, Bericht oder paginierten Bericht, der Prozess ist ähnlich. Sie können Dashboards und Berichte im Power BI-Dienst über dieselbe Schaltfläche abonnieren.
+
+Abonnieren von paginierten Berichten ist ein wenig anders. Finden Sie unter [einen paginierten Bericht im Power BI-Dienst abonnieren sich selbst und andere](paginated-reports-subscriptions.md) Details.
  
 ![Das Symbol „Abonnieren“ auswählen](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -43,7 +47,7 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 
 3. Mithilfe des gelben Schiebereglers können Sie das Abonnement aktivieren und deaktivieren.  Wenn Sie den Schieberegler auf **Aus** stellen, wird das Abonnement nicht gelöscht. Verwenden Sie zum Löschen des Abonnements das Papierkorbsymbol.
 
-4. Ihre E-Mail-Adresse befindet sich bereits im Feld **Abonnieren**. Sie können dem Abonnement weitere E-Mail-Adressen hinzufügen, jedoch nur in derselben Domäne. Wenn der Bericht oder das Dashboard in einer [Premium-Kapazität](service-premium.md) gehostet wird, können Sie Abonnements für andere einzelne E-Mail-Adressen und Gruppenaliase abschließen. Wenn der Bericht oder das Dashboard nicht in einer Premium-Kapazität gehostet wird, können Sie Abonnements für andere Personen abschließen, aber diese müssen auch über eine Power BI Pro-Lizenz verfügen. Weitere Informationen finden Sie im Folgenden unter [Zu beachtende Aspekte und Problembehandlung](#considerations-and-troubleshooting). 
+4. Ihre E-Mail-Adresse befindet sich bereits im Feld **Abonnieren**. Sie können dem Abonnement weitere E-Mail-Adressen hinzufügen, jedoch nur in derselben Domäne. Wenn der Bericht oder das Dashboard in einer [Premium-Kapazität](service-premium-what-is.md) gehostet wird, können Sie Abonnements für andere einzelne E-Mail-Adressen und Gruppenaliase abschließen. Wenn der Bericht oder das Dashboard nicht in einer Premium-Kapazität gehostet wird, können Sie Abonnements für andere Personen abschließen, aber diese müssen auch über eine Power BI Pro-Lizenz verfügen. Weitere Informationen finden Sie im Folgenden unter [Zu beachtende Aspekte und Problembehandlung](#considerations-and-troubleshooting). 
 
 5. Füllen Sie **Subject** (Betreff) und **Nachricht** der E-Mail aus. 
 
@@ -60,7 +64,7 @@ Egal, ob Sie ein Dashboard oder einen Bericht abonnieren – der Vorgang ist äh
 7. Klicken Sie auf **Speichern und schließen**. Die Abonnenten erhalten eine E-Mail und eine Momentaufnahme des Dashboards oder der Berichtseite mit der Häufigkeit und zu der Uhrzeit, die Sie ausgewählt haben. Insgesamt können Sie bis zu 24 Abonnements pro Bericht oder Dashboard erstellen und für jedes Abonnement eigene Empfänger, Uhrzeiten und Häufigkeiten angeben.  Für alle Abonnements, für die **After Data Refresh** (Nach der Datenaktualisierung) für das Dashboard oder den Bericht festgelegt wurde, wird dennoch nur nach der ersten geplanten Aktualisierung eine E-Mail versendet.   
       
    > [!TIP]
-   > Möchten Sie die E-Mail zu einem Abonnement sofort oder zu einem beliebigen Zeitpunkt senden? Klicken Sie bei den Abonnements für das Dashboard oder den Bericht, für die Sie eine E-Mail senden möchten, auf **Jetzt ausführen**. Es wird eine Benachrichtigung angezeigt, die angibt, dass alle Benutzer dieses Abonnements eine E-Mail erhalten.  Sie können diesen Vorgang so oft durchführen, wie Sie möchten. Dies zählt nicht für das tägliche Limit von 24 geplanten Ausführungen von Abonnements pro Bericht oder Dashboard. Beachten Sie, dass die keine Datenaktualisierung für das zugrunde liegende Dataset auslöst. 
+   > Möchten Sie die E-Mail zu einem Abonnement sofort oder zu einem beliebigen Zeitpunkt senden? Klicken Sie bei den Abonnements für das Dashboard oder den Bericht, für die Sie eine E-Mail senden möchten, auf **Jetzt ausführen**. Es wird eine Benachrichtigung angezeigt, die angibt, dass alle Benutzer dieses Abonnements eine E-Mail erhalten.  Sie können beliebig oft so vorgehen wie gewünscht. Dies zählt nicht für das tägliche Limit von 24 geplanten Ausführungen von Abonnements pro Bericht oder Dashboard. Eine datenaktualisierung für das zugrunde liegende Dataset nicht ausgelöst. 
    > 
    > 
    
@@ -82,16 +86,16 @@ Welche Abonnements hier angezeigt werden, hängt vom aktiven Arbeitsbereich ab. 
 Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, der Besitzer das Dashboard oder den Bericht löscht oder das zum Erstellen des Abonnements verwendete Benutzerkonto gelöscht wird.
 
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
-* Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt.  Abonnements von Dashboards mit mehr als dieser Anzahl von Kacheln werden nicht blockiert, allerdings werden sie als nicht unterstützt betrachtet, wenn Sie auf Probleme stoßen. Diese Abonnements sollten entsprechend angepasst werden, sodass sie eine unterstützte Anzahl von Kacheln enthalten.
-* Wenn Sie Ihre E-Mail-Abonnements einrichten, sollten Sie bedenken, dass es zwischen dem Start des Abonnementauftrags und dem Senden der E-Mail zu einer Verzögerung kommt.  Zur Minimierung dieses Zeitraums wird empfohlen, für die geplante Datenaktualisierung eine andere Zeit als für die geplante Ausführung des E-Mail-Abonnements festzulegen.
-* Wenn auf Kacheln Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln bei Dashboard-E-Mail-Abonnements nicht angezeigt.  Wenn das Dataset die RLS verwendet, können Sie kein neues Abonnement für Berichts-E-Mail-Abonnements erstellen.
+
+* Dashboards mit mehr als 25 angehefteten Kacheln oder vier angehefteten Berichtsseiten werden in an Benutzer gesendeten Abonnement-E-Mails möglicherweise nicht vollständig dargestellt.  Abonnements für Dashboards, die über diese Anzahl von Kacheln werden nicht blockiert. Sie sind jedoch berücksichtigt, nicht unterstützt, wenn Probleme auftreten. Erwägen Sie diese entsprechend ändern, um in einen unterstützten Bereich fallen.
+* Wenn Sie Ihre e-Mail-Abonnements einrichten, Bedenken Sie denken Sie daran, gibt es eine Verzögerung zwischen dem Start des Auftrags für Abonnements und die genaue Zeit, die die e-Mail-Nachricht gesendet wird.  Um die Verzögerung zwischen den beiden zu minimieren, richten Sie eine andere Zeit für Ihre geplante datenaktualisierungen als bei Ihrem e-Mail-Abonnement Ausführung geplant ist.
+* Für Dashboards e-Mail-Abonnements Wenn alle Kacheln Sicherheit auf Zeilenebene (RLS) angewendet wird, haben nicht diese Kacheln angezeigt werden soll.  
+* Für Berichtsserver-e-Mail-Abonnements Wenn das Dataset RLS, verwendet können Sie ein Abonnement für sich selbst erstellen. Sie können keine anderen Abonnieren eines Berichts mit Sicherheit auf Zeilenebene (RLS) angewendet.
 * Abonnements von Berichtseiten sind mit dem Namen der Berichtseite verknüpft. Wenn Sie eine Berichtseite abonnieren und dann umbenennen, müssen Sie das Abonnement erneut erstellen.
 * Ihre Organisation kann möglicherweise bestimmte Einstellungen in Azure Active Directory konfigurieren, wodurch die Möglichkeit zur Verwendung von E-Mail-Abonnements in Power BI eingeschränkt werden kann.  Dies umfasst unter anderem das Vorhandensein von Einschränkungen durch mehrstufige Authentifizierung oder IP-Adressbereiche beim Zugriff auf Ressourcen.
 * Aktuell werden keine E-Mail-Abonnements für Berichte/Dashboards mit Datasets mit Liveverbindung unterstützt, wenn Sie ein Abonnement für jemand anderen abschließen.
 * E-Mail-Abonnements bieten keine Unterstützung für die meisten [benutzerdefinierten Visuals](power-bi-custom-visuals.md).  Die einzige Ausnahme sind benutzerdefinierte Visuals, die [zertifiziert](power-bi-custom-visuals-certified.md) wurden.  
 * E-Mail-Abonnements bieten aktuell keine Unterstützung für R-gestützte benutzerdefinierte Visuals.  
-* Wenn auf Kacheln des Dashboards Sicherheit auf Zeilenebene (Row Level Security, RLS) angewendet wurde, werden diese Kacheln nicht angezeigt.
-* Sie können andere Benutzer nicht zu einem Bericht abonnieren, auf den die Sicherheit auf Zeilenebene angewendet wurde.
 * E-Mail-Abonnements werden mit Standardzuständen für Filter und Slicer des Berichts gesendet. Alle Änderungen der Standardwerte, die Sie nach dem Abonnieren vornehmen, werden nicht in der E-Mail angezeigt.    
 * Für Abonnements von Dashboards werden bestimmte Typen von Kacheln noch nicht unterstützt.  Dazu zählen Streamingkacheln, Videokacheln und benutzerdefinierte Kacheln mit Webinhalten.     
 * Wenn Sie ein Dashboard für einen Kollegen außerhalb Ihres Mandanten freigeben, können Sie zusätzlich kein Abonnement für diesen Kollegen erstellen. Wenn Sie aaron@xyz.com sind, können Sie es für anyone@ABC.com freigeben, aber es kann dafür derzeit kein Abonnement für anyone@ABC.com abgeschlossen werden.      
@@ -100,6 +104,7 @@ Ein Abonnement wird beendet, wenn die Pro-Lizenz abläuft, der Besitzer das Dash
 * Wenn Ihr Dashboard oder Bericht sich in einer Premium-Kapazität befindet, können Sie E-Mail-Aliase von Gruppen für Abonnements verwenden, statt für jeden Kollegen einzeln mit dessen E-Mail-Adresse ein Abonnement abschließen zu müssen. Die Aliase basieren auf dem aktuellen Verzeichnis der aktiven Benutzer. 
 
 ## <a name="next-steps"></a>Nächste Schritte
-* Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)    
-* [Blogbeitrag lesen](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 
+- [Abonnieren von sich selbst und andere zu einem paginierten Bericht im Power BI-Dienst](paginated-reports-subscriptions.md)
+- Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)    
+- [Blogbeitrag lesen](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

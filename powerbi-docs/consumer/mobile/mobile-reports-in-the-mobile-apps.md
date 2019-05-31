@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281572"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565598"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Durchsuchen von Berichten in den mobilen Power BI-Apps
 Gilt für:
@@ -32,89 +32,78 @@ Ein Power BI-Bericht ist eine interaktive Ansicht Ihrer Daten, und mit den darin
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Öffnen eines Power BI-Berichts in der mobilen App
 Power BI-Berichte werden abhängig von ihrer Herkunft an verschiedenen Stellen in der mobilen App gespeichert. Sie können sich in „Apps“, „Für mich freigegeben“, „Arbeitsbereiche“ (einschließlich „Mein Arbeitsbereich“) oder auf einem Berichtsserver befinden. Manchmal müssen Sie einen Bericht in einem entsprechenden Dashboard suchen, und manchmal sind Berichte aufgelistet.
 
-* Tippen Sie in einem Dashboard auf die Auslassungspunkte (...) in der rechten oberen Ecke einer Kachel, und wählen Sie dann **Bericht öffnen** aus.
+In Listen und Menüs finden Sie ein Symbol neben dem Berichtsnamen, hilft Ihnen zu verstehen, dass dieses Element aus einem Bericht ist. 
+
+![Berichte im Arbeitsbereich](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+
+Es gibt zwei Symbole für Berichte in Power BI Mobile apps:
+
+* ![Berichtssymbol](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) Gibt an, einen Bericht, der wird im Querformat in der app angezeigt werden und wird genauso aussehen, wie sie im Browser dargestellt wird.
+
+* ![Symbol für smartphonebericht](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) Gibt an, einen Bericht, der mindestens ein Telefon optimierte Berichtsseite enthält, die im Hochformat angezeigt werden. 
+
+Hinweis: Halten Sie Ihr Telefon im Querformat, erhalten immer das Layout mit Querformat, Sie auch, wenn die Berichtsseite smartphonelayout aufweist. 
+
+Um zu einem Bericht aus einem Dashboard erhalten möchten, tippen Sie auf die Auslassungspunkte (...) in der oberen rechten Ecke einer Kachel > **Bericht öffnen**.
   
   ![Bericht öffnen](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Nicht alle Kacheln verfügen über eine Option zum Öffnen als Bericht. Beispielsweise werden für Kacheln, die durch Stellen einer Frage im Q&A-Feld erstellt wurden, keine Berichte geöffnet, wenn Sie auf die Kachel tippen. 
   
-  Auf einem Telefon wird der Bericht im Querformat geöffnet, es sei denn, er ist [für die Anzeige auf einem Telefon optimiert](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones).
-  
-  ![Smartphonebericht im Querformat](./media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+## <a name="interacting-with-reports"></a>Interagieren mit Berichten
+Nachdem Sie einen Bericht in der app geöffnet haben, können Sie damit arbeiten. Es gibt viele Dinge, die Sie mit dem Bericht und die Daten ausführen können. In der Fußzeile des Berichts finden Sie Aktionen, die Sie ausführen können, für den Bericht, und klicken Sie auf der und lang Tippen auf die Daten in den Bericht auch slice und den Daten arbeiten können.
 
-## <a name="view-reports-optimized-for-phones"></a>Anzeigen von Berichten, die für Telefone optimiert sind
-Autoren von Power BI-Berichten können ein für Telefone optimiertes Berichtslayout erstellen. Für Smartphones optimierte Berichtsseiten bieten zusätzliche Funktionalität: Beispielsweise können Sie in Visuals Drilldowns und Sortierungen durchführen, und Sie haben Zugriff auf die [Filter, die der Autor des Berichts der Berichtsseite hinzugefügt hat](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Der Bericht wird auf Ihrem Smartphone geöffnet, und es werden die im Web gefilterten Werte zusammen mit einer Meldung angezeigt, dass die Seite aktive Filter enthält. Sie können die Filtereinstellungen auf Ihrem Smartphone ändern.
+### <a name="using-tap-and-long-tap"></a>Tippen Sie auf verwenden, und tippen Sie lang auf
+Tippen Sie auf eine Maus gleich klicken Sie auf. Daher sollten Sie den Bericht basierend auf einen Datenpunkt Hervorhebung, tippen Sie auf diesem Datenpunkt.
+Tippen auf einen Slicer-Wert, wird dieser Wert ausgewählt und der Rest des Berichts aufteilen, um diesen Wert. Tippen auf einen Link, werden Schaltfläche oder ein Lesezeichen basierend auf die vom Autor definierte Aktion aktiviert.
 
-Ein optimierter Bericht ist in einer Liste mit Berichten durch das Symbol ![Symbol für Smartphonebericht](./media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)gekennzeichnet:
+Wahrscheinlich haben Sie bemerkt, dass wenn Sie auf ein visuelles Element tippen, wird ein Rahmen angezeigt. Auf der oberen rechten Ecke des Rahmens steht es mit den Auslassungspunkten (...). Tippen, wird ein Menü mit Aktionen angezeigt, die Sie auf das visuelle ausführen können.
 
-![Smartphonebericht öffnen](./media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+![berichtsvisuals und Menü](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-Wenn Sie diesen Bericht auf einem Telefon anzeigen, wird er im Hochformat geöffnet.
+### <a name="tooltip-and-drill-actions"></a>QuickInfo und Drilldown-Aktionen
 
-![Bericht im Hochformat](./media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+Wenn Sie lange Tippen Sie auf (tippen und halten) einen Datenpunkt, eine QuickInfo wird angezeigt, präsentieren die Werte, die diesen Datenpunkt darstellt. 
 
- Ein Bericht kann eine Mischung aus für Telefone optimierten Seiten und aus nicht für Telefone optimierten Seiten enthalten. Wenn dies der Fall ist, wechselt beim Durchblättern des Berichts die Ansicht für jede nicht optimierte Seite vom Hochformat zum Querformat.
+![QuickInfo für Berichte](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-Weitere Informationen über [Berichte, die für die Smartphoneansicht optimiert sind](mobile-apps-view-phone-report.md).
+Berichtsautoren können Hierarchien in den Daten und die Beziehungen zwischen den Seiten des Berichts definieren. Hierarchie können Drilldowns, einen Drilldown nach oben, und zeigen Sie Details zu einer anderen Berichtsseite aus einem visuellen Element und einen Wert. Wenn Sie lange auf einen Wert neben QuickInfo tippen werden also der relevanten drilloptionen zur Verfügung in der Fußzeile angezeigt. 
 
-## <a name="use-slicers-to-filter-a-report"></a>Verwenden von Datenschnitten zum Filtern eines Berichts
-Beim Entwerfen eines Berichts in Power BI Desktop oder dem Power BI-Dienst, ist es von Vorteil, [einer Berichtsseite Datenschnitte hinzuzufügen](../../visuals/power-bi-visualization-slicers.md). Sie und Ihre Kollegen können Datenschnitte verwenden, um die Seite in einem Browser und in den mobilen Apps zu filtern. Wenn Sie den Bericht auf einem Smartphone betrachten, können Sie die Datenschnitte im Querformat und auf einer für das Hochformat des Geräts optimierten Seite sehen und mit ihnen interagieren. Wenn Sie einen Wert in einem Slicer oder Filter im Browser auswählen, wird der Wert auch beim Anzeigen der Seite in der mobilen App ausgewählt. Es wird eine Meldung angezeigt, dass die Seite aktive Filter enthält.  
+![Drill berichtsaktionen](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-* Wenn Sie auf der Berichtsseite einen Wert in einem Datenschnitt auswählen, werden die anderen Visuals auf der Seite entsprechend gefiltert.
-  
-  ![Berichtsdatenschnitt](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
-  
-  In dieser Abbildung filtert der Datenschnitt das Säulendiagramm nach Juli-Werten.
-
-## <a name="cross-filter-and-highlight-a-report"></a>Kreuzfiltern und Hervorheben eines Berichts
-Wenn Sie einen Wert in einem Visual auswählen, werden die anderen Visuals nicht nach diesem gefiltert. Jedoch werden die entsprechenden Werte in den anderen Visuals hervorgehoben.
-
-* Tippen Sie auf einen Wert in einem Visual.
-  
-  ![Seite kreuzfiltern](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
-  
-  Wenn Sie in einem Visual auf die große Säule klicken, werden verwandte Werte in den anderen Visuals hervorgehoben. 
-
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Sortieren eines Visuals auf einem iPad oder Tablet
-* Tippen Sie auf das Diagramm, tippen Sie auf die Auslassungspunkte (**...**), und tippen Sie auf den Feldnamen.
-  
-   ![Visual sortieren](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
-* Um die Sortierreihenfolge umzukehren, tippen Sie erneut auf die Auslassungspunkte (**...**), und tippen Sie dann erneut auf den gleichen Feldnamen.
-
-## <a name="drill-down-and-up-in-a-visual"></a>Durchführen eines Drilldowns und Drillups in einem Visual
-Wenn ein Berichtsautor die Drilldownfunktion einem Visual hinzugefügt hat, können Sie einen Drilldown in einem Visual durchführen, um die Werte anzuzeigen, aus denen ein Teil des Visuals besteht. Sie können in Power BI Desktop und im Power BI-Dienst [einem Visual die Drill-Down-Funktion hinzufügen](../end-user-drill.md). 
-
-* Tippen Sie auf einen bestimmten Balken oder Punkt in einem Visual, und halten Sie diesen, um die zugehörige QuickInfo anzuzeigen. Wenn ein Drilldown möglich ist, können Sie am unteren Rand der QuickInfo auf Pfeile tippen. 
-  
-  ![Durchführen von Drilldown in einem visuellen Element](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
-
-* Um per Drillup zurückzugelangen, tippen Sie auf den Aufwärtspfeil in der QuickInfo.
-  
-  ![Drillup ausführen](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
-
-* Sie können auch einen Drilldown für alle Datenpunkte in einem Visual durchführen. Öffnen Sie es im Fokusmodus, tippen Sie auf das Symbol „Durchsuchen“, und klicken Sie dann auf „Nächste Ebene anzeigen“, oder erweitern Sie das Visual, sodass die aktuelle und die nächste Ebene angezeigt wird.
-
-   ![Drilldown für alle Datenpunkte in Power BI](./media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
-
-## <a name="drill-through-from-one-page-to-another"></a>Drillthrough von einer Seite zu einer anderen
-
-Wenn Sie beim *Drillthrough* auf einen bestimmten Teil eines Visual tippen, gelangen Sie zu einer anderen Berichtsseite, die nach dem Wert gefiltert ist, auf den Sie getippt haben. Der Autor eines Berichts kann mindestens eine Drillthroughoption festlegen, durch die Sie auf eine andere Seite weitergeleitet werden. In diesem Fall können Sie entscheiden, auf welche Seite Sie einen Drillthrough durchführen möchten. In folgendem Beispiel können Sie zwischen **spent by business area** und **planning by business area** wählen, wenn Sie auf einen Wert auf dem Messgerät tippen.
-
-![Power BI Mobile: Drillthrough für einen Bericht](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
-
-Wenn Sie einen Drillthrough durchführen, gelangen Sie über die Schaltfläche „Zurück“ auf die vorherige Berichtsseite.
+Wenn Sie beim *Drillthrough* auf einen bestimmten Teil eines Visual tippen, gelangen Sie zu einer anderen Berichtsseite, die nach dem Wert gefiltert ist, auf den Sie getippt haben.  Der Autor eines Berichts kann mindestens eine Drillthroughoption festlegen, durch die Sie auf eine andere Seite weitergeleitet werden. In diesem Fall können Sie entscheiden, auf welche Seite Sie einen Drillthrough durchführen möchten. Schaltfläche "zurück" gelangen Sie zurück zur vorherigen Berichtseite.
 
 Erfahren Sie, wie Sie [Drillthrough in Power BI Desktop verwenden](../../desktop-drillthrough.md).
+   
+   > [!IMPORTANT]
+   > In Power BI Mobile-app ist die Matrix- und tabellenvisuals Details über nur einen Zellenwert, und nicht von Spalten- und Zeilenüberschriften aktiviert.
+   
+   
+   
+### <a name="using-the-actions-in-the-report-footer"></a>Verwenden die Aktionen in der Fußzeile des Berichts
+Die Fußzeile des Berichts hat die Aktionen, die Sie ausführen können, auf die aktuelle Berichtsseite oder auf den gesamten Bericht. Die Fußzeile hat schnellen Zugriff auf die nützlichsten Aktionen aus, und alle Aktionen können über die Auslassungspunkte (...) zugegriffen werden.
 
-## <a name="show-data-and-copy-values"></a>Anzeigen von Daten und Kopieren von Werten
+![Fußzeile des Berichts](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Sie können die zugrunde liegenden Daten einer Visualisierung anzeigen, indem Sie in einem Smartphonebericht auf die Auslassungspunkte (**...**) für die Menüoptionen tippen und dann **Daten anzeigen** auswählen.
+Sind die Aktionen, die Sie anhand der Fußzeile ausführen können:
+1) Berichtsfilter zurücksetzen und übergreifende hervorheben Auswahl wieder auf den ursprünglichen Zustand.
+2) Öffnen Sie die Konversation Bereich zum Anzeigen oder Hinzufügen von Kommentaren für diesen Bericht.
+3) Öffnen Sie den Bereich "Filter" zum Anzeigen und ändern Sie den Filter, die derzeit für den Bericht angewendet.
+4) Listen Sie alle Seiten in diesem Bericht. Tippen Sie auf den Namen lädt und präsentieren dieser Seite.
+Verschieben zwischen den Berichtseiten kann durch Wischen von der Rand des Bildschirms, das Center erfolgen.
+5) Zeigen Sie alle Aktionen für den Bericht an.
 
-![Menüoption „Daten anzeigen“ in Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+#### <a name="all-report-actions"></a>Alle Aktionen für den Bericht
+Tippen auf der... Option in der Fußzeile des Berichts, gelangen alle Aktionen, die Sie für einen Bericht ausführen können. 
 
-Durch langes Tippen auf eine Zelle in der angezeigten Tabelle wird das native Auswahl- und Kopiermenü geöffnet, das Sie zum Kopieren der Daten aus der Tabelle (oder der gesamten Tabelle) verwenden können.
+![Alle berichtsaktionen](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-![Power BI Mobile: Drillthrough für einen Bericht](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
+Einige der Aktionen kann deaktiviert werden, da sie bestimmte Berichtsfunktionen abhängig sind.
+Beispiel:
+1) **Nach dem aktuellen Standort filtern** ist aktiviert, wenn die Daten im Bericht vom Autor mit geografischen Daten kategorisiert wurde. [Erfahren Sie, wie zum Identifizieren von geografischer Daten in Ihrem Bericht](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+2) **Überprüfung, um den Bericht von Barcode filtern** ist nur aktiviert, wenn das Dataset im Bericht als Barcode markiert wurde. [Wie Markieren von Barcodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
+3) **Laden Sie** ist nur aktiviert, wenn Sie diesen Bericht für andere Benutzer freigeben dürfen. Sie haben eine Berechtigung nur dann, wenn Sie der Besitzer des Berichts sind, oder wenn Sie erneut freigeben Berechtigung vom Besitzer gegeben wurden.
+4) **Kommentieren und freigeben** möglicherweise deaktivieren, wenn es steht eine [-Schutzrichtlinie für Intune](https://docs.microsoft.com/intune/app-protection-policies) in Ihrer Organisation, die nicht zulässig in mobilen Power BI-app freigeben. 
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anzeigen von und Interagieren mit Power BI-Berichten, die für das Smartphone optimiert sind](mobile-apps-view-phone-report.md)

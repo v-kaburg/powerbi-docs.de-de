@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426629"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143932"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Erstellen und Verwenden von Dataflows in Power BI (Vorschau)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Erstellen und Verwenden von Dataflows in Power BI
 
 Mit der erweiterten Datenaufbereitung in **Power BI** können Sie eine Sammlung von Daten erstellen, den sogenannten Dataflow. Damit können Sie eine Verbindung zu Geschäftsdaten aus verschiedenen Quellen herstellen sowie Daten bereinigen, transformieren und dann in den Power BI-Speicher laden.
 
@@ -34,9 +34,6 @@ Das Verwenden eines Dataflows umfasst drei wesentliche Schritte:
 3. Erstellen des Datasets mit Ihrem Dataflow und Power BI Desktop 
 
 Die folgenden Abschnitten widmen sich jedem dieser Schritte und stellen die dafür verfügbaren Tools vor. Fangen wir an.
-
-> [!NOTE]
-> Die Dataflowfunktionalität befindet sich in der Vorschau und unterliegt vor der allgemeinen Verfügbarkeit Änderungen und Updates.
 
 ## <a name="creating-a-dataflow"></a>Erstellen eines Dataflows
 Um einen Dataflow zu erstellen, starten Sie den Power BI-Dienst im Browser, und wählen Sie im Navigationsbereich links einen **App-Arbeitsbereich** aus (Dataflows sind im Power BI-Dienst unter *my-workspace* nicht verfügbar). Die folgende Abbildung veranschaulicht das. Sie können auch einen neuen Arbeitsbereich zum Erstellen Ihres neuen Dataflows erstellen. 
@@ -165,9 +162,9 @@ Es kann vorkommen, dass beim Verbinden von Dataflows mit Datenquellen Probleme a
 Dieser Artikel beschreibt, wie Sie Ihren eigenen **Dataflow** und in **Power BI Desktop** ein Dataset und einen Bericht erstellen, um diesen zu nutzen. Die folgenden Artikel enthalten nützliche Informationen und Szenarien zur Verwendung von Dataflows:
 
 * [Self-Service-Datenaufbereitung mit Dataflows](service-dataflows-overview.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 * [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 
 Weitere Informationen zum Common Data Model finden Sie im folgenden Übersichtsartikel:

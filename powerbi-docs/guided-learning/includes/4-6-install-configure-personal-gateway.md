@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263412"
+---
 In vorherigen Themen wurde erläutert, wie Sie mithilfe von Power BI Datenquellen verbinden können und wie Sie Ihre Datasets im Power BI-Dienst manuell aktualisieren. Da Sie aber vermutlich nicht bei jeder Änderung der Daten eine manuelle Aktualisierung durchführen möchten, können Sie Power BI verwenden, um eine geplante Aktualisierung einzurichten. Diese wird mit den Datenquellen verbunden, die dann automatisch im Power BI-Dienst veröffentlicht werden. Dies gibt Ihnen außerdem die Möglichkeit, den Dienst mit lokalen Datenquellen zu verbinden, einschließlich Excel-Dateien, Access-Datenbanken, SQL-Datenbanken und mehr.
 
 Das System, das es Ihnen ermöglicht, lokale Datenquellen mit dem Power BI-Dienst zu verbinden, wird als **Datengateway** bezeichnet. Dabei handelt es sich um eine kleine Anwendung, die auf Ihrem Computer ausgeführt wird und die einen vordefinierten Zeitplan verwendet, um eine Verbindung mit Ihren Daten herzustellen und um Updates abzurufen und an den Power BI-Dienst zu übertragen. **Personal Gateway** ist eine Version von **Datengateway**, die ohne Administratorkonfiguration verwendet werden kann.

@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285758"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368558"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Kombinieren von Umsatzdaten aus Excel und einem OData-Feed
 
@@ -114,7 +114,7 @@ Im Power Query-Editor können Sie Berechnungen und benutzerdefinierte Felder ers
    
 2. Geben Sie im Dialogfeld **Benutzerdefinierte Spalte** im Feld **Neuer Spaltenname** den Text **LineTotal** ein.
 
-3. Geben Sie im Feld **Benutzerdefinierte Spaltenformel** nach dem **=** Folgendes ein: **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**. (Sie können die Feldnamen auch aus dem Scrollfeld **Verfügbare Spalten** auswählen und auf **<< Einfügen** klicken, statt sie einzugeben.) 
+3. Geben Sie im Feld **Benutzerdefinierte Spaltenformel** nach dem **=** Folgendes ein: **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (Sie können die Feldnamen auch aus dem Scrollfeld **Verfügbare Spalten** auswählen und auf **<< Einfügen** klicken, statt sie einzugeben.) 
 3. Wählen Sie **OK**aus.
    
    ![Dialogfeld „Benutzerdefinierte Spalte“](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
@@ -162,7 +162,7 @@ Wählen Sie die einzelnen Abfragen in der Liste **Abfragen** auf der linken Seit
 
 Wenn Sie mit den transformierten Daten zufrieden sind, klicken Sie auf der Registerkarte **Start** des Menübands in der Gruppe **Schließen** auf **Schließen und übernehmen** > **Schließen und übernehmen**, um die Daten in die Berichtsansicht von Power BI Desktop zu importieren. 
 
-![Schließen und anwenden](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+![Schließen und übernehmen](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
 
 Sobald die Daten geladen wurden, werden die Abfragen in der Liste **Felder** in der Berichtsansicht von Power BI Desktop angezeigt.
 
@@ -208,7 +208,7 @@ Erstellen Sie zunächst ein gestapeltes Säulendiagramm, das Felder aus beiden A
    
 2. Klicken Sie im Bereich **Felder** unter **Products** auf **ProductName**, oder ziehen Sie das Element auf das Diagramm, um die Menge der einzelnen bestellten Produkte anzuzeigen. 
    
-3. Um die Produkte von den meistbestellten bis zu den am wenigsten bestellten zu sortieren, wählen Sie oben rechts in der Visualisierung die Auslassungspunkte **Weitere Optionen** (**...**), und klicken Sie dann auf **Sortieren nach „Quantity“**.
+3. Um die Produkte von den meistbestellten bis zu den am wenigsten bestellten zu sortieren, wählen Sie oben rechts in der Visualisierung die Auslassungspunkte **Weitere Optionen** ( **...** ), und klicken Sie dann auf **Sortieren nach „Quantity“** .
    
 4. Verwenden Sie die Handles an den Ecken des Diagramms, um es zu vergrößern, sodass weitere Produktnamen angezeigt werden. 
    

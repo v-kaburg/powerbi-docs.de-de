@@ -3,19 +3,19 @@ title: Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket
 description: Wenn Sie das Xero-Inhaltspaket für Power BI verwenden, sind Sie möglicherweise auf ein Problem bei der täglichen Aktualisierung des Inhaltspakets festgestellt, das kürzlich durch eine Störung des Power BI-Diensts verursacht wurde.
 author: SarinaJoan
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0e49f4b1260e293f0b6e496b06fbe5645c813c8b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278130"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61221029"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Aktualisieren der Anmeldeinformationen für das Xero-Inhaltspaket nach einem Aktualisierungsfehler
 Wenn Sie das Xero-Inhaltspaket für Power BI verwenden, sind Sie möglicherweise auf Probleme bei der täglichen Aktualisierung des Inhaltspakets festgestellt, das kürzlich durch eine Störung des Power BI-Diensts verursacht wurde.

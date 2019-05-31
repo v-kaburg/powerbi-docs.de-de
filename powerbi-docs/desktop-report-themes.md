@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215733"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989203"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Verwenden von Berichtdesigns in Power BI Desktop
 Mit **Berichtsdesigns** können Sie ein Farbdesign für Ihren gesamten Bericht übernehmen (Unternehmensfarben, saisonbedingte Farben oder andere Farbdesigns). Wenn Sie ein **Berichtsdesign** anwenden, verwenden alle Visuals im Bericht die Farben des ausgewählten Designs. Es gibt einige Ausnahmen, die später in diesem Artikel beschrieben werden.
@@ -24,21 +24,7 @@ Mit **Berichtsdesigns** können Sie ein Farbdesign für Ihren gesamten Bericht �
 
 Wenn Sie ein **Berichtsdesign** anwenden, benötigen Sie eine JSON-Datei mit einer Grundstruktur. Sie können diese JSON-Datei dann in Power BI Desktop importieren und auf Ihren Bericht anwenden. Die Struktur der JSON-Datei ist leicht zu verstehen, und ihr Import erfordert nur wenige Klicks.
 
-Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** können Sie mit einer JSON-Datei noch mehr Berichtsdesignelemente definieren. Sie können auch fast alle Elemente anpassen und standardisieren. Verwenden Sie zum Anpassen die JSON-Datei, die Sie im Bereich **Formatierung** manuell anpassen. Das Release von September 2017 (und höher) soll Ihnen eine umfassende und genaue Kontrolle über das Erscheinungsbild Ihrer Berichte bieten.
-
-### <a name="enable-report-themes"></a>Aktivieren von Berichtsdesigns
-Ab der **Power BI Desktop**-Version, die August 2018 veröffentlicht wurde, sind Berichtsdesigns allgemein verfügbar und müssen nicht aktiviert werden. 
-
-Wenn Sie eine frühere Version von **Power BI Desktop** verwenden, können Sie die Option folgendermaßen als Previewfunktion aktivieren: 
-
-1. Wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures** aus. 
-2. Wählen Sie das Kontrollkästchen neben **Benutzerdefinierte Berichtsdesigns** aus. 
-
-Sie müssen **Power BI Desktop** neu starten, nachdem Sie die Auswahl vorgenommen haben.
-
-![Benutzerdefinierte Berichtsdesigns](media/desktop-report-themes/report-themes_2.png)
-
-Grundsätzlich wird ein Upgrade auf die neueste **Power BI Desktop**-Version empfohlen. Diese können Sie über einen Link in [Power BI Desktop](desktop-get-the-desktop.md) abrufen. 
+Sie können auch fast alle Elemente anpassen und standardisieren. Verwenden Sie zum Anpassen die JSON-Datei, die Sie im Bereich **Formatierung** manuell anpassen. Ziel ist es, Sie erhalten die vollständige Kontrolle darüber, wie Sie Ihre Berichte zum Suchen und den Eindruck haben, klicken Sie auf granularer Ebene.
 
 ## <a name="how-report-themes-work"></a>Funktionsweise von Berichtdesigns
 Um ein Berichtsdesign auf einen Power BI Desktop-Bericht anzuwenden, wählen Sie ein verfügbares integriertes Design aus, oder importieren Sie ein benutzerdefiniertes Design.
@@ -113,7 +99,7 @@ Das ist der Text der Datei *St Patricks Day.json*, mit dem Sie eine eigene JSON-
 
 Jetzt ist es ganz leicht, eigene Farben (als Hexadezimalcode) einzugeben.
 
-Ab der im September 2017 veröffentlichten Version von **Power BI Desktop** kann die JSON-Datei weitaus komplexer sein. In der JSON-Datei definieren Sie nur die Formatierung, die Sie anpassen möchten. Für alle Formatierungselemente, die *nicht* in der JSON-Datei angegeben werden, werden die Standardeinstellungen von Power BI verwendet.
+In der JSON-Datei definieren Sie nur die Formatierung, die Sie anpassen möchten. Für alle Formatierungselemente, die *nicht* in der JSON-Datei angegeben werden, werden die Standardeinstellungen von Power BI verwendet.
 
 Das Erstellen einer JSON-Datei bietet viele Vorteile. Sie können beispielsweise festlegen, dass für alle Diagramme der Schriftgrad 12 oder für bestimmte Visuals eine bestimmte Schriftfamilie verwendet wird. Sie haben auch die Möglichkeit, Datenbeschriftungen für bestimmte Diagrammtypen zu deaktivieren.
 

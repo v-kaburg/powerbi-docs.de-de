@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264679"
+---
 Willkommen im zweiten Abschnitt **Abrufen von Daten** im Kurs **Geführtes Lernen** für Power BI. In diesem Abschnitt werden die zahlreichen datenorientierten Features und Tools von Power BI erörtert. Der Schwerpunkt liegt dabei auf Power BI Desktop. Viele dieser Tools gelten auch für den Power BI-Dienst, sodass sich die Informationen in diesem Abschnitt für Sie doppelt auszahlen.
 
 Wenn Sie Daten abrufen, sind diese nicht immer so wohlgeformt bzw. *bereinigt*, wie Sie sich dies wünschen. In diesem Abschnitt erfahren Sie, wie Sie Daten abrufen und diese bereinigen (dieser Vorgang wird manchmal als *Bereinigen* oder *Transformieren* von Daten bezeichnet). Zudem erhalten Sie einige Tipps und Tricks für das optimierte Abrufen von Daten.

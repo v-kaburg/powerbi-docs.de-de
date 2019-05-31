@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263413"
+---
 Willkommen im Abschnitt **Durchsuchen von Daten** im Kurs **Geführtes Lernen** für Power BI. Nachdem Sie nun Power BI Desktop kennen und wissen, wie Sie Daten abrufen und visualisieren, sind Sie bereit, um Daten im Power BI-Dienst zu durchsuchen.
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396831"
+---
 In diesem Artikel erfahren Sie, wie Sie neue Balkendiagramme, Kreisdiagramme und Treemaps erstellen und für Ihre Berichte anpassen können.
 
 Es gibt zwei Möglichkeiten, eine neue Visualisierung in Power BI Desktop zu erstellen:

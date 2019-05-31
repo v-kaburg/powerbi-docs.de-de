@@ -1,36 +1,36 @@
 ---
-title: 'Erstellen eines neuen Berichts aus einem Dataset '
-description: Erstellen Sie einen neuen Power BI-Bericht aus einem Dataset.
+title: Erstellen eines Berichts aus einem Dataset
+description: Erstellen Sie einen Power BI-Bericht aus einem Dataset.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/24/2018
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216951"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770234"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Erstellen Sie einen neuen Bericht im Power BI-Dienst durch Importieren eines Datasets.
-Sie haben [Berichte in Power BI](consumer/end-user-reports.md) gelesen, und jetzt möchten Sie Ihren eigenen erstellen. Es gibt viele verschiedene Möglichkeiten zum Erstellen eines Berichts. In diesem Artikel wird zunächst ein sehr einfacher Bericht aus einem Excel-Dataset mithilfe des Power BI-Diensts erstellt. Nachdem Sie die Grundlagen zur Erstellung eines Berichts kennen, gelangen Sie über die **nächsten Schritte** ganz unten zu komplexeren Themen über Berichte.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Erstellen eines Berichts im Power BI-Dienst durch Importieren eines Datasets
+Sie haben [Berichte in Power BI](consumer/end-user-reports.md) gelesen, und jetzt möchten Sie Ihren eigenen erstellen. Es gibt verschiedene Möglichkeiten zum Erstellen eines Berichts. In diesem Artikel beginnen wir durch das Erstellen eines einfachen Berichts im Power BI-Dienst aus einem Excel-Dataset. Wenn Sie die Grundlagen zum Erstellen eines Berichts verstehen, sehen Sie sich die [nächste Schritte](#next-steps) am Ende Weitere Erweiterte Themen des Berichts.  
 
 ## <a name="prerequisites"></a>Voraussetzungen
-> - Power BI-Dienst (Informationen zum Erstellen von Berichten mit Power BI Desktop finden Sie unter [Berichtsansicht in Power BI Desktop](desktop-report-view.md))  
-> - Dataset des Analysebeispiels für den Einzelhandel
+- [Melden Sie sich für Power BI-Dienst](service-self-service-signup-for-power-bi.md). Erstellen von Berichten mit Power BI Desktop, finden Sie unter [Desktop-Berichtsansicht](desktop-report-view.md). 
+- [Herunterladen der Beispiel-Excel-Dataset mit Einzelhandelsdaten](http://go.microsoft.com/fwlink/?LinkId=529778) und in OneDrive for Business oder lokal zu speichern.
 
 ## <a name="import-the-dataset"></a>Importieren des Datasets
-Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem leeren Berichtszeichenbereich. Um die Vorgehensweise selbst nachzuvollziehen, [laden Sie das Excel-Dataset „Analysebeispiel für Einzelhandel“ herunter](http://go.microsoft.com/fwlink/?LinkId=529778), und speichern Sie es in OneDrive for Business (bevorzugt) oder lokal.
+Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem leeren Berichtszeichenbereich. Sie können in der Beispiel-Excel-Dataset mit Einzelhandelsdaten folgen.
 
-1. Wir erstellen den Bericht in einem Arbeitsbereich des Power BI-Diensts. Wählen Sie daher einen vorhandenen Arbeitsbereich aus, oder erstellen Sie einen neuen.
+1. Wir müssen den Bericht in einem Arbeitsbereich des Power BI-Dienst erstellen, daher wählen Sie einen vorhandenen Arbeitsbereich oder eine 1: erstellen.
    
    ![Liste von App-Arbeitsbereichen](media/service-report-create-new/power-bi-workspaces2.png)
-2. Wählen Sie unten im linken Navigationsbereich **Daten abrufen** aus.
+2. Wählen Sie unten im linken Navigationsbereich, **Abrufen von Daten**.
    
    ![Daten abrufen](media/service-report-create-new/power-bi-get-data3.png)
 3. Wählen Sie **Dateien** aus, und navigieren Sie zum Speicherort des Beispiels für die Einzelhandelsanalyse.
@@ -46,8 +46,8 @@ Diese Methode zum Erstellen eines Berichts beginnt mit einem Dataset und einem l
    
    ![Berichts-Editor](media/service-report-create-new/power-bi-blank-report.png)
 
-> **TIPP**: Wenn Sie mit dem Berichtszeichenbereich nicht vertraut sind oder Ihre Kenntnisse auffrischen möchten, [verschaffen Sie sich einen Überblick über den Berichts-Editor](service-the-report-editor-take-a-tour.md), bevor Sie fortfahren.
-> 
+> [!TIP]
+> Wenn Sie nicht vertraut sind, mit dem berichtszeichenbereich oder auffrischen, [Überblick über den Berichts-Editor](service-the-report-editor-take-a-tour.md) vor dem fortfahren. > 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Hinzufügen eines radialen Messgeräts zum Bericht
@@ -62,7 +62,7 @@ Nachdem das Dataset importiert wurde, beginnen wir damit, einige Fragen zu beant
 3. Ziehen Sie **Sales** > **This Year Sales** > **Ziel** in den Bereich **Zielwert**. Anscheinend haben wir unser Ziel nahezu erreicht.
    
     ![Visuelles Element „Maßstab“ mit dem Zielwert „Ziel“](media/service-report-create-new/power-bi-report-step3.png)
-4. Jetzt sollte [der Bericht gespeichert werden](service-report-save.md).
+4. Nun wäre ein guter Zeitpunkt für den Bericht zu speichern.
    
    ![Dateimenü](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ Die CMO stellt noch weitere Fragen, die beantwortet werden müssen. Sie möchte 
    
     ![Berichts-Editor mit aktivem Flächendiagramm](media/service-report-create-new/power-bi-report-step5.png)
 5. Wählen Sie zum Sortieren der Visualisierung die Auslassungspunkte und anschließend die Option **Nach Zeitraum sortieren** aus.
-6. Nun fügen wir den Slicer hinzu. Klicken Sie zunächst auf einen leeren Bereich im Zeichenbereich und anschließend auf die Slicer- ![Symbol „Slicer“](media/service-report-create-new/power-bi-slicer-icon.png)    Vorlage. Dadurch wird im Zeichenbereich ein leerer Slicer hinzugefügt.
+6. Nun fügen wir den Slicer hinzu. Klicken Sie zunächst auf einen leeren Bereich im Zeichenbereich und anschließend auf die Slicer- ![Symbol „Slicer“](media/service-report-create-new/power-bi-slicer-icon.png) Vorlage. Wir haben jetzt einen leeren Slicer im Zeichenbereich.
    
     ![dem Zeichenbereich für den Bericht](media/service-report-create-new/power-bi-report-step6.png)    
 7. Wählen Sie im Bereich „Felder“ die Option **Region** > **Region** aus. Verschieben Sie den Slicer, und ändern Sie seine Größe.

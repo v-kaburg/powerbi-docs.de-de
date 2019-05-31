@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430899"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338877"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Auswerten von Daten in der mobilen Power BI-App auf Ihrer Apple Watch
 Mit der Power BI Apple Watch-App können Sie KPIs und Kartenkacheln aus Ihrem Power BI-Dashboards direkt auf Ihrer Apple Watch anzeigen. Mit KPIs und Kartenkacheln haben Sie die Performance auch auf dem kleinen Bildschirm perfekt im Blick. Sie können ein Dashboard auf Ihrem iPhone oder auf der Watch selbst aktualisieren.

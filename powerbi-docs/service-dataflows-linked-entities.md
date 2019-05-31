@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220906"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136442"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Verknüpfen von Entitäten zwischen Dataflows in Power BI (Vorschau)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Verknüpfen von Entitäten zwischen Dataflows in Power BI
 
 Mit Dataflows in Power BI können Sie eine einzelne Datenspeicherquelle einer Organisation unterhalten, mit der Business Analysten Daten einmal aufbereiten und verwalten und dann zwischen verschiedenen Analyse-Apps in der Organisation wiederverwenden können. 
 
@@ -29,7 +29,7 @@ Verknüpfte Entitäten sind **schreibgeschützt**. Wenn Sie Transformationen fü
 
 ## <a name="linked-entity-availability"></a>Verfügbarkeit verknüpfter Entitäten
 
-Für verknüpfte Entitäten ist zur Aktualisierung ein [Power BI Premium](service-premium.md)-Abonnement erforderlich. Verknüpfte Entitäten sind in jedem Dataflow in einem Arbeitsbereich verfügbar, der in der Power BI Premium-Kapazität gehostet wird. Es gibt keine Einschränkungen hinsichtlich des Quelldataflows.
+Für verknüpfte Entitäten ist zur Aktualisierung ein [Power BI Premium](service-premium-what-is.md)-Abonnement erforderlich. Verknüpfte Entitäten sind in jedem Dataflow in einem Arbeitsbereich verfügbar, der in der Power BI Premium-Kapazität gehostet wird. Es gibt keine Einschränkungen hinsichtlich des Quelldataflows.
 
 Verknüpfte Entitäten werden nur in neuen Power BI-Arbeitsbereichen ordnungsgemäß ausgeführt. Weitere Informationen finden Sie unter [Erstellen der neuen Arbeitsbereiche (Vorschau) in Power BI](service-create-the-new-workspaces.md). Alle verknüpften Dataflows müssen sich in neuen Arbeitsbereichen befinden, damit sie ordnungsgemäß ausgeführt werden können.
 
@@ -88,11 +88,11 @@ Es gibt einige Einschränkungen, die es bei der Arbeit mit verknüpften Entität
 
 Die folgenden Artikeln können für das Erstellen oder Arbeiten mit Dataflows nützlich sein: 
 
-* [Self-Service-Datenaufbereitung in Power BI (Vorschau)](service-dataflows-overview.md)
-* [Erstellen und Verwenden von Dataflows in Power BI (Vorschau)](service-dataflows-create-use.md)
-* [Verwenden berechneter Entitäten in Power BI Premium (Vorschau)](service-dataflows-computed-entities-premium.md)
-* [Verwenden von Dataflows mit lokalen Datenquellen (Vorschau)](service-dataflows-on-premises-gateways.md)
-* [Entwicklerressourcen für Power BI-Dataflows (Vorschau)](service-dataflows-developer-resources.md)
+* [Self-service-Prep in Power BI](service-dataflows-overview.md)
+* [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
+* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 
 Weitere Informationen zu Power Query und zur geplanten Aktualisierung finden Sie in den folgenden Artikeln:
 * [Abfrageübersicht in Power BI Desktop](desktop-query-overview.md)

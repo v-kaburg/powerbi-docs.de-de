@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662133"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608365"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 ## <a name="what-is-a-power-bi-app"></a>Was ist eine Power BI-App?
@@ -30,10 +30,10 @@ Ihre Apps sind in der Inhaltsliste der **Apps** organisiert.
 > Für die Verwendung der Apps-Funktion ist eine Power BI Pro-Lizenz erforderlich. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>***Designer*** und ***Endbenutzer*** von Apps
-Je nach Rolle gibt es Designer, die Apps zur eigenen Nutzung oder zur Freigabe für Kollegen erstellen, und Endbenutzer, die von anderen Personen erstellte Apps erhalten und herunterladen. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
+Abhängig von Ihrer Rolle, können Sie eine Person, die apps erstellt werden (*Designer*) für Ihre eigenen Zwecke und für Kollegen freigeben. Oder erhalten Sie eine Person, die empfängt und downloads von apps (*Consumer*) von anderen Benutzern erstellt. Dieser Artikel richtet sich an *Endbenutzer* von Apps.
 
 ## <a name="advantages-of-apps"></a>Vorteile von Apps
-Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem mobilen Gerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
+Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com)) und auf Ihrem Mobilgerät einfach finden und installieren. Nach dem Installieren einer App müssen Sie sich nicht mehr die Namen der vielen verschiedenen Dashboards merken, da sie alle zusammen in einer App im Browser oder auf dem Mobilgerät gesammelt sind.
 
 In Apps sehen Sie bei jeder Veröffentlichung von Updates durch den Ersteller die Änderungen. Der Ersteller steuert außerdem die Häufigkeit der planmäßigen Datenaktualisierung. Sie müssen sich also nicht darum kümmern, auf dem aktuellen Stand zu bleiben. 
 

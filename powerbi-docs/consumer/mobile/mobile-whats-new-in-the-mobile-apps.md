@@ -7,21 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872729"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991041"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Neuigkeiten bei den mobilen Apps für Power BI
 Informationen zu verwandten Neuigkeiten finden Sie unter:
 
 * [Blog des Power BI-Teams zu mobilen Apps](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
-* [Neuigkeiten bei Power BI](../../service-whats-new.md)  
+* [Neuigkeiten in Power BI Desktop](../../desktop-latest-update.md)  
+* [Neuigkeiten beim Power BI-Dienst](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>April 2019
+
+### <a name="key-influencers-visual"></a>Wichtige Einflussfaktoren visual 
+Wichtige Einflussfaktoren visual ist nun auf Ihrer mobilen app verfügbar. Dieses visuelle Element können Sie die Analyse der Hauptgründe für Ihre Daten mit nur wenigen Klicks durchführen.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Hinzufügen von Kommentaren zu Berichtsinhalt (Android und iOS)
+Jetzt können Sie Kommentare zum gemeinsamen Bearbeiten und uns Ihr Feedback auf Berichtsseiten und Visualisierungen verwenden. Erfahren Sie mehr über die Kommentare in Power BI-Dienst und der Mobile Bericht [in diesem Blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximieren Sie die Ansicht mit den Vollbildmodus, (Android und iOS)
+Wir haben die Schaltfläche "Neu", mit denen Sie steuern, wann auf Ihre Daten zu konzentrieren, durch Entfernen von berichtskopfzeilen und-Fußzeilen und bietet Ihnen maximale Größe des Speicherplatzes für das Anzeigen der Berichte hinzugefügt.
 
 ## <a name="march-2019"></a>März 2019
 
@@ -31,7 +42,20 @@ Sie können direkt über die App auf Power BI-Inhalte zugreifen, die eine andere
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Verbessern des Präsentationsmodus für Windows mit Diashows (Windows)
 
-Mithilfe von [Diashows](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) können Sie öffentliche Bildschirme in Ihrem Büro nutzen, um Power BI-Berichte im Vollbildmodus darzustellen und Berichtsseiten automatisch nacheinander wiederzugeben.  
+Mit [Diaschau](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) können Sie für die Ausführung Power BI-Berichten im Vollbildmodus, die automatische wird drehen zwischen den Berichtseiten öffentliche angezeigt, die in Ihrem Büro befinden.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Unterstützung von PBI-RS-Berichte über AD FS und WAP-Konfiguration (nur iOS)
+
+Power BI-Berichten (PBIX) in PBI-RS über AD FS-Konfiguration gehostet, kann jetzt von Power BI-iOS-app zugegriffen werden.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Aktivieren der einzelnen tippeninteraktion mit berichtsvisualisierungen
+
+Wir interaktionsmöglichkeiten für Berichte geändert, damit nur ein Tippen auf ein visuelles Element, eine Schaltfläche oder Slicer aus, um sofort mit den Daten interagieren erforderlich wird. Benutzer müssen nicht mehr in einem Visual, um es auszuwählen, und tippen erneut, um die Interaktion mit Tippen Sie auf, die einem einzigen fingertipp tun sie beide.
+
+![Einzelne tippeninteraktion](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Vorhandene Benutzer müssen dieses Verhalten in der app-Einstellung zu aktivieren. Weitere Informationen finden Sie unter den [Vorgehensweise: Konfigurieren von einzelnen Berichts tippeninteraktion](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) Artikel.
 
 ## <a name="january---february-2019"></a>Januar – Februar 2019
  
@@ -299,7 +323,7 @@ Lesen Sie die [Featurezusammenfassung für mobile Apps vom April 2017](https://p
 Lesen Sie die [Featurezusammenfassung für mobile Apps vom März 2017](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-2017/).
 
 #### <a name="all-devices"></a>Alle Geräte
-**Datenschnittinteraktionen**
+**Datenschnitt-Interaktionen**
 
 Wir haben die Touchinteraktion für Zeitdatenschnitte verbessert.
 
@@ -362,7 +386,7 @@ Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Janua
 Lesen Sie die [Zusammenfassung der Funktionen der mobilen Apps im Blog vom Dezember 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
 
 #### <a name="all-devices"></a>Alle Geräte
-**Offlineaktualisierung im Hintergrund**
+**Offline-Hintergrundaktualisierung**
 
 Damit Sie auch offline auf Ihre aktuellen Daten zugreifen können, wird im Hintergrund der App eine Aktualisierung ausgeführt, sodass Ihre Geschäftsdaten auf dem neuesten Stand sind, auch wenn Sie seit Längerem nicht darauf zugegriffen haben. Wenn Sie sicherstellen möchten, dass bestimmte Dashboards immer auf dem neuesten Stand sind, markieren Sie sie einfach als Favoriten. Erfahren Sie mehr über [Offlinefunktionen in den mobilen Power BI-Apps](mobile-apps-offline-data.md).
 
@@ -387,7 +411,7 @@ Wenn für eine Bildkachel vom Dashboardbesitzer eine benutzerdefinierte URL defi
 
 Sie können jetzt Apple Watch-Daten direkt aus der Watch-App aktualisieren. Drücken Sie stärker auf der Indexseite des Dashboards, um Ihre Daten zu aktualisieren. (Die mobile Power BI-App muss hierfür auf Ihrem iPhone im Hintergrund ausgeführt werden).
 
-#### <a name="android"></a>Android-
+#### <a name="android"></a>Android
 **Benutzerdefinierte URL für Bildkacheln**
 
 Wenn für eine Bildkachel vom Dashboardbesitzer eine benutzerdefinierte URL definiert wurde, wird beim Tippen auf die Kachel direkt diese URL geöffnet, ohne die Kachel im Fokusmodus anzuzeigen. Darüber hinaus können Dashboardkacheln, die vordefinierte benutzerdefinierte URLs enthalten, den Leser jetzt zu Berichten innerhalb der App umleiten.

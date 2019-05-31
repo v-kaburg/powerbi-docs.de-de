@@ -1,21 +1,21 @@
 ---
 title: Konfigurieren von geplanten Aktualisierungen
 description: Hier werden die Schritte zur Auswahl eines Gateways und zur Konfiguration einer geplanten Aktualisierung behandelt.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289416"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413806"
 ---
 # <a name="configuring-scheduled-refresh"></a>Konfigurieren geplanter Aktualisierungen
 
@@ -69,7 +69,7 @@ Wenn Sie das lokale Datengateway verwenden, um die Daten zu aktualisieren, müss
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Bei lokalen Verbindungen mit SharePoint für die Datenaktualisierung unterstützt Power BI nur *Anonyme Authentifizierung*, *Standardauthentifizierung* und *Windows-Authentifizierung (NTLM/Kerberos)*. Power BI unterstützt die *ADFS-Authentifizierung* und *formularbasierte Authentifizierung* für die Datenaktualisierung von lokalen SharePoint-Datenquellen nicht.
+> Bei lokalen Verbindungen mit SharePoint für die Datenaktualisierung unterstützt Power BI nur *Anonyme Authentifizierung*, *Standardauthentifizierung* und *Windows-Authentifizierung (NTLM/Kerberos)* . Power BI unterstützt die *ADFS-Authentifizierung* und *formularbasierte Authentifizierung* für die Datenaktualisierung von lokalen SharePoint-Datenquellen nicht.
 > 
 > 
 
@@ -124,7 +124,7 @@ Manchmal werden Daten nicht wie erwartet aktualisiert. Dies weist meistens auf e
 ## <a name="next-steps"></a>Nächste Schritte
 [Aktualisieren von Daten in Power BI](refresh-data.md)  
 [Power BI Gateway – Personal](service-gateway-personal-mode.md)  
-[Lokales Datengateway](service-gateway-onprem.md)  
+[On-premises data gateway (Lokales Datengateway)](service-gateway-onprem.md)  
 [Problembehandlung beim lokalen Datengateway](service-gateway-onprem-tshoot.md)  
 [Problembehandlung für Power BI Gateway – Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

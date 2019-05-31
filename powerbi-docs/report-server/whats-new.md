@@ -1,26 +1,24 @@
 ---
 title: Neuerungen in Power BI-Berichtsserver
 description: Lernen Sie die Neuerungen in Power BI-Berichtsserver kennen. Dieser Artikel, in dem die wichtigsten Funktionsbereiche behandelt werden, wird aktualisiert, sobald neue Elemente freigegeben werden.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662455"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187315"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Neuerungen in Power BI-Berichtsserver
 
-Lernen Sie die Neuerungen in Power BI-Berichtsserver kennen. Dieser Artikel behandelt die wichtigsten Featurebereiche und wird aktualisiert, sobald neue Elemente veröffentlicht werden.
-
-Wenn Sie die neuesten Versionen des Power BI-Berichtsservers und von Power BI Desktop (mit Optimierung für den Power BI-Berichtsserver) herunterladen möchten, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
+Erfahren Sie mehr über in Power BI-Berichtsserver und für Power BI-Berichtsserver optimiertem Power BI Desktop neuerungen. Dieser Artikel behandelt die wichtigsten Featurebereiche und wird aktualisiert, sobald neue Elemente veröffentlicht werden.
 
 Informationen zu verwandten Power BI-Neuigkeiten finden Sie hier:
 
@@ -28,17 +26,89 @@ Informationen zu verwandten Power BI-Neuigkeiten finden Sie hier:
 * [Neuigkeiten in Power BI Desktop](../desktop-latest-update.md)
 * [Neuigkeiten bei den mobilen Apps für Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mai 2019: Power BI Desktop für Power BI-Berichtsserver
+
+Finden Sie unter den [Power BI-Berichtsserver Mai 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) Blogbeitrag, um Details zu den neuen Funktionen.
+
+Hier sind einige der Highlights des Release:
+
+### <a name="performance-analyzer"></a>Leistungsanalyse 
+
+Wenn Ihre langsamer berichtsausführung als erwartet, versuchen Sie die Performance Analyzer in Power BI Desktop. Wenn Sie ihn starten, wird eine Protokolldatei mit Informationen zu jeder Aktion, dass Sie im Bericht erstellen. Erfahren Sie mehr über die [Performance Analyzer](../desktop-performance-analyzer.md).
+
+### <a name="new-modeling-view"></a>Neue Modellierung anzeigen
+
+In der neuen Ansicht Modellierung in Power BI Desktop können Sie anzeigen und Arbeiten mit komplexen Datasets, die viele Tabellen enthalten. Highlights gehören mehrere Diagrammlayouts und massenbearbeitung von Spalten, Measures und Tabellen. Erfahren Sie mehr über [Modellierung Ansicht](../desktop-modeling-view.md).
+
+### <a name="accessible-visual-interaction"></a>Zugegriffen werden kann, visuelle Interaktion
+
+Sie können jetzt den Zugriff von Datenpunkten in viele der integrierten visuellen Elemente, die Navigation per Tastatur zu verwenden. Erfahren Sie mehr über [Barrierefreiheit in Power BI-Berichten](../desktop-accessibility.md).
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Bedingte Formatierung, Titel und Web-URL-Aktionen
+
+Power BI-Berichte sind interaktiv. Es ist sinnvoll, dass Titel in einem Bericht entsprechend den aktuellen Status des Berichts dynamisch ist. Sie können die gleiche ausdrucksgebundenen Formatierung die URLs der Ihrer Schaltflächen, Formen und Bilder dynamic stellen. Erfahren Sie mehr über [Titel auf Ausdrücken beruhende](../desktop-conditional-format-visual-titles.md).
+
+### <a name="cross-highlight-by-axis-labels"></a>Hervorheben von achsenbezeichnungen
+
+Wählen Sie die Kategorie-achsenbezeichnungen in einem visuellen Element auf den anderen Elementen auf einer Seite kreuzhervorhebung, genau, wie Sie die Datenpunkte in einem Visual auswählen. Erfahren Sie mehr über [kreuzhervorhebung](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+
+### <a name="all-the-new-features"></a>Alle neuen features
+
+Hier ist die Liste sämtlicher neuer Funktionen:
+
+### <a name="reporting"></a>Berichterstellung
+
+- Kreuzhervorhebung für ein einzelner Punkt in Liniendiagrammen 
+- Zeilenumbruch in Titel 
+- Aktualisieren Sie die standardmäßige visuelle Interaktion auf kreuzfiltern ¬­
+- Abgerundete Ecken für Visuals 
+- Einzelne select-slicer  
+- Heat Map-Unterstützung für Bing maps  
+- Hervorheben von achsenbezeichnungen  
+- Formatieren von Standard-QuickInfo  
+- Statische Web URL-Unterstützung für Schaltflächen, Formen und Bilder  
+- Optionen auf der Seite Ausrichtung   
+- Verbesserungen der Auswahl im  
+- Zugegriffen werden kann, visuelle Interaktion  
+- Bedingte Formatierung für den Titel von visuellen Elementen  
+- Bedingte Formatierung für Web-URL-Aktionen für Schaltflächen, Formen und Bilder
+- Performance Analyzer-Bereich
+- Tabellen- und matrixvisuals Tastaturnavigation
+- Zeile Daten Bezeichnungssteuerelement position
+- KPI visuellen Indikator Text Steuerelementgröße verändern
+
+### <a name="analytics"></a>Analyse
+
+- Anzeigen von Datumsangaben als Hierarchie, die jetzt allgemein verfügbar  
+
+### <a name="modeling"></a>Modellierung
+
+- Modellieren von neue Ansicht, die jetzt allgemein verfügbar
+- Neue DAX-Funktionen
+- Aktualisieren Sie auf die ALLSELECTED-DAX-Funktion
+- Deaktivieren Sie automatische Datumstabellen für neue Berichte
+
+## <a name="may-2019-power-bi-report-server"></a>Mai 2019: Power BI-Berichtsserver
+
+### <a name="support-for-trusted-visuals"></a>Unterstützung für vertrauenswürdige visuals
+
+Wir haben Unterstützung für vertrauenswürdige Visualisierungen in Power BI-Berichtsserver hinzugefügt. Derzeit unterstützen wir Mapbox und PowerOn Visualisierungen. Für diese Version ESRI, Visio und PowerApps werden nicht unterstützt.)
+
+### <a name="improved-security-features"></a>Verbesserte Sicherheitsfeatures
+
+**RestrictedResourceMimeTypeForUpload**, die Administratoren können eine durch Trennzeichen getrennte Liste der gesperrten MIME-Typen, z. B. Text/html angeben.
+
 ## <a name="january-2019"></a>Januar 2019
 
 Folgende Features werden nun in Power BI-Berichten unterstützt:
 
-[**Sicherheit auf Zeilenebene:**](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
+[**Sicherheit auf Zeilenebene:** ](row-level-security-report-server.md) Wenn Sie die Sicherheit auf Zeilenebene (Row Level Security, RLS) auf dem Power BI-Berichtsserver einrichten, können Sie den Datenzugriff für bestimmte Benutzer einschränken. Filter beschränken den Datenzugriff auf Zeilenebene, und Sie können Filter in Rollen definieren.
 
-[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
+[**Erweitern und Reduzieren in den Zeilenüberschriften einer Matrix:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Es ist nun möglich, einzelne Zeilenüberschriften in Visuals zu erweitern oder zu reduzieren. Dieses Feature wurde sehr häufig gefordert.
 
-[**Kopieren und Einfügen zwischen PBIX-Dateien:**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
+[**Kopieren und Einfügen zwischen PBIX-Dateien:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Sie können Visuals zwischen PBIX-Dateien kopieren, indem Sie entweder das Kontextmenü des Visuals oder die Standardtastenkombination STRG+C verwenden. Fügen Sie die Datei anschließend mit STRG+V in einen anderen Bericht ein.
 
-[**Intelligente Hinweise zur Ausrichtung:**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
+[**Intelligente Hinweise zur Ausrichtung:** ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Wenn Sie Objekte auf Ihrer Berichtsseite verschieben, werden Ihnen intelligente Hinweise zur Ausrichtung angezeigt (ähnlich wie in PowerPoint), damit Sie Ihre Seite optimaler gestalten können. Die intelligenten Hinweise werden immer angezeigt, wenn Sie ein Objekt auf der Seite ziehen oder dessen Größe ändern. Wenn Sie ein Objekt in die Nähe eines anderen verschieben, wird es an der Position des anderen Objekts ausgerichtet.
 
 **Features für die Barrierefreiheit:** Es gibt viele Features für die Barrierefreiheit, z. B. [die Unterstützung für die Barrierefreiheit des Bereichs zum Auflisten von Feldern](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Der Bereich zum Auflisten von Feldern ist vollständig barrierefrei. Sie können in diesem Bereich navigieren, indem Sie nur die Tastatur und die Sprachausgabe verwenden. Über das Kontextmenü können Sie Felder zu Ihrer Berichtsseite hinzufügen.
 

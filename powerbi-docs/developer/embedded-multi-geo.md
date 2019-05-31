@@ -1,20 +1,20 @@
 ---
 title: Multi-Geo-Unterstützung für Power BI Embedded
 description: In diesem Artikel erfahren Sie, wie Sie Inhalte für Rechenzentren in anderen Regionen als der Heimatregion von Power BI Embedded bereitstellen können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57572023"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344974"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Multi-Geo-Unterstützung für Power BI Embedded
 
@@ -66,11 +66,11 @@ Wichtig: Wenn Sie sich entscheiden, eine Kapazität zu löschen, ohne ihren Inha
 
 Um die Verwaltung von Kapazitäten mit Multi-Geo per API zu unterstützen, wurden einige Änderungen an vorhandenen APIs durchgeführt:
 
-1. **[Kapazitäten abrufen](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)**: Die API gibt eine Liste der Kapazitäten zurück, auf die der Benutzer zugreifen kann. Die Antwort enthält ab sofort eine zusätzliche Eigenschaft namens „region“, die den Standort der Kapazität angibt.
+1. **[Kapazitäten abrufen](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** : Die API gibt eine Liste der Kapazitäten zurück, auf die der Benutzer zugreifen kann. Die Antwort enthält ab sofort eine zusätzliche Eigenschaft namens „region“, die den Standort der Kapazität angibt.
 
-2. **[Zu Kapazität zuweisen](https://docs.microsoft.com/rest/api/power-bi/capacities)**: Die API ermöglicht das Zuweisen eines vorhandenen Arbeitsbereichs zu einer Kapazität. Dieser Vorgang ermöglicht es Ihnen nicht, Arbeitsbereiche an eine Kapazität außerhalb Ihrer Heimatregion zuzuweisen oder Arbeitsbereiche zwischen Kapazitäten in unterschiedlichen Regionen zu verschieben. Um diesen Vorgang auszuführen, benötigt der Benutzer oder [Dienstprinzipal](embed-service-principal.md) weiterhin Administratorberechtigungen für den Arbeitsbereich sowie Administrator- oder Zuweisungsberechtigungen für die Zielkapazität.
+2. **[Zu Kapazität zuweisen](https://docs.microsoft.com/rest/api/power-bi/capacities)** : Die API ermöglicht das Zuweisen eines vorhandenen Arbeitsbereichs zu einer Kapazität. Dieser Vorgang ermöglicht es Ihnen nicht, Arbeitsbereiche an eine Kapazität außerhalb Ihrer Heimatregion zuzuweisen oder Arbeitsbereiche zwischen Kapazitäten in unterschiedlichen Regionen zu verschieben. Um diesen Vorgang auszuführen, benötigt der Benutzer oder [Dienstprinzipal](embed-service-principal.md) weiterhin Administratorberechtigungen für den Arbeitsbereich sowie Administrator- oder Zuweisungsberechtigungen für die Zielkapazität.
 
-3. **[Azure Resource Manager-API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**: Alle Azure Resource Manager-API-Vorgänge, *Erstellen* und *Löschen* eingeschlossen, unterstützen Multi-Geo.
+3. **[Azure Resource Manager-API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** : Alle Azure Resource Manager-API-Vorgänge, *Erstellen* und *Löschen* eingeschlossen, unterstützen Multi-Geo.
 
 ## <a name="limitations-and-considerations"></a>Einschränkungen und Überlegungen
 

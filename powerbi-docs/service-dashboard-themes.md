@@ -11,11 +11,11 @@ ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282898"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143226"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Verwenden von Dashboarddesigns im Power BI-Dienst
 Mit **Dashboarddesigns** können Sie einem Dashboard ein Farbschema zuweisen (Unternehmensfarben, Farben der Jahreszeit oder beliebige andere Farben). Wenn Sie ein **Dashboarddesigns** zuweisen, verwenden alle Visualisierungen des Dashboards die Farben des gewünschten Farbschemas (mit wenigen Ausnahmen, siehe unten).

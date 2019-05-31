@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: abc9671338e916671f243093bad455ed0cb4ef7e
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662041"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61061840"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Anzeigen von Inhalten im Detail: Fokusmodus und Vollbildmodus
 

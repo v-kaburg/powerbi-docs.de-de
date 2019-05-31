@@ -12,11 +12,11 @@ ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661650"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61050133"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardkacheln in Power BI
 Eine Kachel ist eine Momentaufnahme Ihrer Daten, die von einem *Designer* an das Dashboard geheftet wurde. Eine Kachel kann aus einem Bericht, einem Dataset, einem Dashboard, dem Q&A-Fragefeld, Excel, SSRS (SQL Server Reporting Services) und noch mehr erstellt werden.  Der Screenshot zeigt viele verschiedene Kacheln, die an ein Dashboard angeheftet sind.

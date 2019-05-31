@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263382"
+---
 Wenn Sie sich Power BI-Dashboards oder -Berichte im Dienst ansehen, kann es manchmal hilfreich sein, den Fokus auf ein einzelnes Diagramm oder eine einzelne Visualisierung zu legen. Dafür haben Sie zwei Möglichkeiten.
 
 In einem Dashboard zeigen Sie auf eine Kachel, um einige andere Symboloptionen in der oberen rechten Ecke anzuzeigen. Bei Auswahl der drei Auslassungspunkte sehen Sie eine Sammlung von Symbolen, die Aktionen darstellen, die Sie für die Kachel durchführen können.

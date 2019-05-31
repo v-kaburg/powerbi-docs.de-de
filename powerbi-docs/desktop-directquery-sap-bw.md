@@ -11,14 +11,14 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278076"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61304395"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery und SAP Business Warehouse (BW)
-Sie können sich mit **SAP Business Warehouse (BW)**-Datenquellen direkt über **DirectQuery** verbinden. Da SAP BW multidimensional ist bzw. OLAP einsetzt, gibt es viele wesentliche Unterschiede zwischen DirectQuery via SAP BW und über relationalen Datenquellen wie SQL Server. Die Unterschiede werden im Folgenden dargestellt:
+Sie können sich mit **SAP Business Warehouse (BW)** -Datenquellen direkt über **DirectQuery** verbinden. Da SAP BW multidimensional ist bzw. OLAP einsetzt, gibt es viele wesentliche Unterschiede zwischen DirectQuery via SAP BW und über relationalen Datenquellen wie SQL Server. Die Unterschiede werden im Folgenden dargestellt:
 
 * Es gibt bei **DirectQuery** über relationale Datenquellen einen Satz von Abfragen (wie in den Dialogfeldern **Get Data** (Daten abrufen) und **Query Editor** (Abfrage-Editor) definiert), die die im Feld verfügbaren Daten logisch definieren. Bei der Verbindung mit einer OLAP-Quelle wie SAP BW ist dies *nicht* der Fall. Bei der Verbindung mit dem SAP-Server mit **Daten abrufen** wird stattdessen nur die Abfrage „Infocube“ oder „BEx“ verwendet. Anschließend stehen alle Kennzahlen und Dimensionen der Infocube/BEx-Abfrage in der Feldliste zur Verfügung.   
 * Ebenso gibt es keinen **Abfrage-Editor**, wenn Sie mit SAP BW verbunden sind. Die Einstellungen der Datenquelle (z.B. der Servername) können unter **Edit Queries > Data source settings** (Abfragen bearbeiten > Datenquelleneinstellungen) geändert werden. Die Einstellungen eines Parameters können unter **Abfragen bearbeiten > Parameter verwalten** geändert werden.

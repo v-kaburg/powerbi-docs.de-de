@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
 ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294259"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61152313"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Erstellen eines Power BI-Dashboards aus einem Bericht
 Sie haben [Dashboards in Power BI](service-dashboards.md) gelesen, und jetzt möchten Sie Ihr eigenes erstellen. Ein Dashboard kann auf verschiedene Arten erstellt werden, beispielsweise aus einem Bericht, von Grund auf neu, aus einem Dataset oder durch Duplizieren eines vorhandenen Dashboards.  

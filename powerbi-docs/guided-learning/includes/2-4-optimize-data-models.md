@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255690"
+---
 Importierte Daten enthalten oft Felder, die Sie für Ihre Berichte und Visualisierungen nicht benötigen, da es sich entweder um zusätzliche Informationen handelt oder da die betreffenden Daten bereits in einer anderen Spalte verfügbar sind. Mit den Tools von Power BI Desktop können Sie Ihre Daten optimieren, die Daten sinnvoller für das Erstellen von Berichten und Visualisierungen verwenden und freigegebene Berichte anzeigen.
 
 ## <a name="hiding-fields"></a>Ausblenden von Feldern

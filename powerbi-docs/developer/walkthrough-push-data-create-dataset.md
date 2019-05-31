@@ -1,27 +1,27 @@
 ---
 title: Erstellen eines Datasets
 description: Exemplarische Vorgehensweise – Übertragen von Daten in ein Dataset per Push – Erstellen eines Datasets in Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f0815f3712992b26a69ac60aba6eecae8b60fde4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216169"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710377"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Schritt 3: Erstellen eines Datasets in Power BI
 Dieser Artikel ist Teil einer Anleitung zum [Übertragen von Daten in ein Dataset per Push](walkthrough-push-data.md).
 
 In **Schritt 2** von „Übertragen von Daten in ein Dataset per Push“ ([Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md)) haben Sie ein Token für die Authentifizierung bei **Azure AD** abgerufen. In diesem Schritt verwenden Sie das Token zum Aufrufen des Vorgangs [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
-Um einen Aufruf einer anderen Ressource zu erstellen, verwenden Sie eine URL zum Bestimmen der Ressource und senden eine JSON-Zeichenfolge (JavaScript Object Notation), die das Dataset beschreibt, an die Power BI-Dienstressource. Eine REST-Ressource gibt den Teil des Power BI-Diensts an, mit dem Sie arbeiten möchten. Beim Übertragen von Daten per Push in das Dataset ist die Zielressource ein **Dataset**. Die URL zum Bestimmen eines Datasets ist https://api.PowerBI.com/v1.0/myorg/datasets. Wenn Sie Daten in einer Gruppe per Push übertragen, ist die URL https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Um einen Aufruf einer anderen Ressource zu erstellen, verwenden Sie eine URL zum Bestimmen der Ressource und senden eine JSON-Zeichenfolge (JavaScript Object Notation), die das Dataset beschreibt, an die Power BI-Dienstressource. Eine REST-Ressource gibt den Teil des Power BI-Diensts an, mit dem Sie arbeiten möchten. Beim Übertragen von Daten per Push in das Dataset ist die Zielressource ein **Dataset**. Die URL eines Datasets ist https://api.PowerBI.com/v1.0/myorg/datasets. Wenn Sie Daten in einer Gruppe per Push übertragen werden, ist die Url https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Zum Authentifizieren eines Power BI-REST-Vorgangs fügen Sie das unter [Abrufen eines Authentifizierungszugriffstokens](walkthrough-push-data-get-token.md) abgerufene Token einem Anforderungsheader hinzu:
 
@@ -155,7 +155,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

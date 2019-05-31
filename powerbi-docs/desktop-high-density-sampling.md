@@ -1,32 +1,32 @@
 ---
-title: Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI
-description: Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI
+title: Stichprobenentnahme mit hoher Dichte in Powerbi
+description: Stichprobenentnahme mit hoher Dichte in Powerbi
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cb4a0f81766aa030b1981cb67a26c296dab2ba2a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 357611d36fd59be1b674f06ce72c5aba8d020822
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277202"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454334"
 ---
-# <a name="high-density-line-sampling-in-power-bi"></a>Stichprobenentnahme für visuelle Linienelemente mit hoher Dichte in Power BI
-Ab dem im Juni 2017 veröffentlichten Release von **Power BI Desktop** und Updates des **Power BI-Diensts** steht ein neuer Stichprobenalgorithmus zur Verfügung, der die Visuals verbessert, die Daten mit hoher Dichte stichprobenartig entnehmen. Sie können z.B. ein Liniendiagramm aus den Verkaufsergebnissen Ihres Einzelhandelsgeschäfts erstellen, auch wenn jedes Geschäft mehr als zehntausend Verkaufsbelege jährlich verzeichnet. Ein Liniendiagramm mit derartigen Verkaufsinformationen entnimmt stichprobenartig Daten (wählen Sie eine aussagekräftige Darstellung dieser Daten, um zu veranschaulichen, wie die Verkaufszahlen über die Zeit hinweg variieren) aus den Daten jedes Geschäfts und erstellt ein Mehrfachliniendiagramm, das die zugrunde liegenden Daten veranschaulicht. Dies ist eine gängige Methode für das Visualisieren von Daten mit hoher Dichte. Die Stichprobenentnahme von Daten mit hoher Dichte von Power BI Desktop wurde verbessert. Dies wird in diesem Artikel ausführlicher beschrieben.
+# <a name="high-density-line-sampling-in-power-bi"></a>Stichprobenentnahme mit hoher Dichte in Power BI
+Ab dem im Juni 2017 veröffentlichten Release von **Power BI Desktop** und Updates des **Power BI-Diensts** steht ein neuer Stichprobenalgorithmus zur Verfügung, der die Visuals verbessert, die Daten mit hoher Dichte stichprobenartig entnehmen. Sie können z.B. ein Liniendiagramm aus den Verkaufsergebnissen Ihres Einzelhandelsgeschäfts erstellen, auch wenn jedes Geschäft mehr als zehntausend Verkaufsbelege jährlich verzeichnet. Ein Liniendiagramm mit derartigen Verkaufsinformationen würden Daten (Wählen Sie eine aussagekräftige Darstellung dieser Daten, um zu veranschaulichen, wie die Umsätze im Laufe der Zeit variieren) aus den Daten jedes Geschäfts und erstellt ein mehrfachliniendiagramm, das dadurch die zugrunde liegenden Daten darstellt. Dies ist eine gängige Methode für das Visualisieren von Daten mit hoher Dichte. Die Stichprobenentnahme von Daten mit hoher Dichte von Power BI Desktop wurde verbessert. Dies wird in diesem Artikel ausführlicher beschrieben.
 
 ![](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > Der in diesem Artikel beschriebene Algorithmus zur **Stichprobenentnahme mit hoher Dichte** ist in **Power BI Desktop** und in **Power BI-Dienst** verfügbar.
 
-## <a name="how-high-density-line-sampling-works"></a>So funktioniert die Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte
-Früher hat **Power BI** eine Sammlung von Beispieldatenpunkten im vollständigen Bereich der zugrunde liegenden Daten auf deterministische Weise ausgewählt. Es kann z.B. sein, dass für Daten mit hoher Dichte in einer Visualisierung eines Kalenderjahrs 350 Beispieldatenpunkte angezeigt werden, die jeweils ausgewählt wurden, um sicherzustellen, dass der vollständige Datenbereich im Visual dargestellt wird. Um dies besser zu verstehen, können Sie sich vorstellen, dass ein Aktienkurs über ein Jahr aufgezeichnet und 365 Datenpunkte ausgewählt wurden, um eine Liniendiagrammvisualisierung zu erstellen (also ein Datenpunkt pro Tag).
+## <a name="how-high-density-line-sampling-works"></a>Wie funktioniert die strichprobenentnahme linienstichproben
+Früher hat **Power BI** eine Sammlung von Beispieldatenpunkten im vollständigen Bereich der zugrunde liegenden Daten auf deterministische Weise ausgewählt. Es kann z.B. sein, dass für Daten mit hoher Dichte in einer Visualisierung eines Kalenderjahrs 350 Beispieldatenpunkte angezeigt werden, die jeweils ausgewählt wurden, um sicherzustellen, dass der vollständige Datenbereich im Visual dargestellt wird. Angenommen Sie, um besser zu verstehen, wie dies geschieht, zeichnen den Aktienkurs über einen Zeitraum von einem Jahr und 365 Datenpunkte zum Erstellen der Visualisierung ein Liniendiagramm (das ein Datenpunkt pro Tag) auswählen.
 
 In diesem Fall gibt es allein am Tag mehrere Werte für den Aktienkurs. Natürlich gibt es ein Tageshoch und -tief, aber diese können zu jedem Zeitpunkt am Tag während der Öffnung des Börsenmarkts auftreten. Für Linienstichproben mit hoher Dichte erhalten Sie eine repräsentative Momentaufnahme der zugrunde liegenden Daten (der Preis um 10:30 Uhr und um 12:00 Uhr), wenn das zugrunde liegenden Datenbeispiel an jedem Tag um 10:30 Uhr und 12:00 Uhr entnommen wurde. Allerdings wird dadurch nicht gewährleistet, dass das tatsächliche Tageshoch und -tief des Aktienkurses (an diesem Tag) für diesen repräsentativen Datenpunkt erfasst wird. In dieser und in anderen Situationen ist die Stichprobenentnahme für die zugrunde liegenden Daten repräsentativ. Allerdings werden die wichtigsten Punkte nicht immer erfasst (in diesem Fall wären dies das Tageshoch und -tief gewesen).
 
@@ -35,9 +35,9 @@ Definitionsgemäß werden Stichproben von Daten mit hoher Dichte entnommen, um s
 ## <a name="how-the-new-line-sampling-algorithm-works"></a>So funktioniert der neue Algorithmus für die Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte
 Der neue Algorithmus für Linienstichproben mit hoher Dichte steht für Visuals mit Liniendiagrammen und Flächendiagrammen mit fortlaufender X-Achse zur Verfügung.
 
-Für ein Visual mit hoher Dichte teilt **Power BI** Ihre Daten auf intelligente Weise in hochauflösende Blöcke ein und wählt anschließend wichtige Punkte für jeden Block aus. Dieses Aufteilen von hochauflösenden Daten wurde so optimiert, dass sich das entstehende Diagramm optisch nicht von einem Diagramm unterscheidet, für das alle zugrunde liegende Datenpunkte geladen wurden – und zudem ist es deutlich schneller und interaktiver.
+Für ein visuelles Element mit hoher Dichte **Power BI** slices Sie Ihre Daten auf intelligente Weise in hochauflösende Blöcke ein und wählt anschließend wichtige Punkte für jeden Block aus. Aufteilen von hochauflösenden hochauflösende Daten speziell optimiert ist, um sicherzustellen, dass das resultierende Diagramm ist visuell aus zusammen mit allen von der zugrunde liegenden Datenpunkten, aber viel schneller und interaktiver nicht unterschieden.
 
-### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Mindest- und Höchstwerte für visuelle Linienlemente mit hoher Dichte
+### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Mindest- und Höchstwerte für visuelle Linienelemente mit hoher Dichte
 Für jedes visuelle Element gelten die folgenden visuellen Einschränkungen:
 
 * Die maximale Anzahl von Datenpunkten, die in den meisten Visuals *angezeigt* werden können, beträgt **3.500**, unabhängig von der Anzahl der zugrunde liegenden Datenpunkte oder -reihen (weitere Informationen finden Sie unter den *Ausnahmen* in der folgenden Aufzählung). Bei 10 Reihen mit jeweils 350 Datenpunkten hat das visuelle Element deshalb die Höchstgrenze an Datenpunkten erreicht. Wenn Sie eine Reihe haben, kann diese bis zu 3.500 Datenpunkte haben, wenn der neue Algorithmus dies für die beste Stichprobenentnahme für die zugrunde liegenden Daten hält.
@@ -64,10 +64,10 @@ Jede Gruppierung wird durch zwei Datenpunkte dargestellt, die im visuellen Eleme
 
 Dies scheint auf den ersten Blick ein sehr hoher Analyseaufwand zu sein, um sicherzustellen, dass vereinzelte Ausreißer erfasst und ordnungsgemäß im Visual dargestellt werden. Deshalb gibt es jetzt den neuen Algorithmus und den neuen Diskretisierungsvorgang.
 
-## <a name="tooltips-and-high-density-line-sampling"></a>QuickInfos und Stichprobenentnahme für visuelle Linienelemente
+## <a name="tooltips-and-high-density-line-sampling"></a>QuickInfos und linienstichproben
 Beachten Sie, dass der Diskretisierungsvorgang, der die Mindest- und Höchstwerte in einer gegebenen Gruppe erfasst und darstellt, sich darauf auswirken kann, wie QuickInfos Daten anzeigen, wenn Sie mit der Maus auf Datenpunkte zeigen. Um zu erläutern, wie und warum dies passiert, sehen wir uns erneut unser Beispiel zu Aktienkursen an.
 
-Angenommen, Sie erstellen ein Visual auf der Grundlage von Aktienkursen, und Sie vergleichen zwei unterschiedliche Aktien miteinander, die beide die **Stichprobenentnahme mit hoher Dichte** verwenden. Die zugrunde liegenden Daten für jede Reihe haben viele Datenpunkte (möglicherweise erfassen Sie den Aktienkurs für jede Sekunde am Tag). Der Algorithmus für Linienstichproben mit hoher Dichte führt die Diskretisierung für jede Reihe einzeln durch.
+Nehmen wir an, erstellen Sie ein Visual auf Grundlage von Aktienkursen und Sie vergleichen zwei unterschiedliche Aktien miteinander, beide **High-Density Sampling**. Die zugrunde liegenden Daten für jede Reihe haben viele Datenpunkte (möglicherweise erfassen Sie den Aktienkurs für jede Sekunde am Tag). Der Algorithmus für Linienstichproben mit hoher Dichte führt die Diskretisierung für jede Reihe einzeln durch.
 
 Nehmen wir weiterhin an, dass der Preis der ersten Aktie um 12:02 Uhr steigt und zehn Sekunden später wieder schnell absinkt. Das ist ein wichtiger Datenpunkt. Wenn die Gruppierung für diese Aktie durchgeführt wird, ist das Tageshoch um 12:02 Uhr der repräsentative Datenpunkt für diese Gruppe.
 
@@ -75,15 +75,15 @@ Bei der zweiten Aktie gab es um 12:02 Uhr allerdings weder ein Tageshoch noch ei
 
 Dies tritt mit QuickInfos häufig auf. Möglicherweise stimmen die Höchst- und Tiefwerte einer Gruppe nicht genau mit den gleichmäßig skalierten Wertpunkten der X-Achse überein, und deshalb wird der Wert nicht von QuickInfos angezeigt.  
 
-## <a name="how-to-turn-on-high-density-line-sampling"></a>So können Sie die Strichprobenentnahme für visuelle Linienelemente mit hoher Dichte aktivieren
-Standardmäßig ist der neue Algorithmus **eingeschaltet**. Um diese Einstellung zu ändern, wechseln Sie in den Bereich **Formatierung** auf der Karte **Allgemein**. Am unteren Rand sehen Sie einen Schieberegler mit dem Namen **Stichprobenentnahme mit hoher Dichte**. Um den Algorithmus zu deaktivieren, schieben Sie ihn auf **off** (aus).
+## <a name="how-to-turn-on-high-density-line-sampling"></a>Informationen zum Aktivieren von strichprobenentnahme für visuelle Linienelemente mit hoher Dichte
+Standardmäßig ist der neue Algorithmus **eingeschaltet**. Um diese Einstellung zu ändern, rufen Sie die **Formatierung** Bereich in der **allgemeine** Karte am unteren Rand, sehen Sie einen Schieberegler mit dem Namen **High-Density Sampling**. Um den Algorithmus zu deaktivieren, schieben Sie ihn auf **off** (aus).
 
 ![](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Überlegungen und Einschränkungen
 Der neue Algorithmus für Linienstichproben mit hoher Dichte ist eine wichtige Verbesserung in Power BI. Es gibt jedoch einige Aspekte, die Sie berücksichtigen sollten, wenn Sie mit Werten und Daten mit hoher Dichte arbeiten.
 
-* Aufgrund der erhöhten Granularität und des erweiterten Gruppierungsprozesses, zeigt **QuickInfos** möglicherweise nur dann einen Wert an, wenn repräsentative Daten nach dem Cursor übereinstimmen. Weitere Informationen finden Sie im Abschnitt *QuickInfos und Linienstichproben mit hoher Dichte* dieses Artikels.
+* Aufgrund der erhöhten Granularität und des erweiterten Gruppierungsprozesses, zeigt **QuickInfos** möglicherweise nur dann einen Wert an, wenn repräsentative Daten nach dem Cursor übereinstimmen. Finden Sie unter den *QuickInfos und linienstichproben* Abschnitt in diesem Artikel Weitere Informationen.
 * Wenn die Größe einer allgemeinen Datenquelle zu groß ist, eliminiert der neue Algorithmus Reihen (Legendenelemente), um sie an das Maximum an importieren Daten anzupassen.
   
   * In diesem Fall ordnet der Algorithmus Legendenreihen alphabetisch und durchläuft die Liste von Legendenelementen von oben nach unten in alphabetischer Reihenfolge, bis das Maximum an importierten Daten erreicht ist. Danach werden keine weiteren Reihen mehr importiert.

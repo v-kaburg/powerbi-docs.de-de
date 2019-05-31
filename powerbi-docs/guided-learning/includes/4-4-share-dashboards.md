@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263402"
+---
 Wir haben bereits gesehen, wie Sie mit Power BI Daten suchen, in einem Datenmodell erfassen und Berichte und Visualisierungen auf Basis dieser Daten erstellen können. Darüber hinaus wurde gezeigt, wie Sie diese Berichte im Power BI-Dienst veröffentlichen und Dashboards erstellen können, mit denen Sie Ihre Informationen im Laufe der Zeit überwachen können. Alle diese Funktionen sind noch nützlicher, wenn Sie Ihre Erkenntnisse für andere Personen in Ihrer Organisation freigeben. Das Freigeben von Dashboards ist glücklicherweise ganz einfach.
 
 Um ein Dashboard freizugeben, öffnen Sie es im Power BI-Dienst, und wählen Sie in der oberen rechten Ecke den Link **Freigeben** aus.

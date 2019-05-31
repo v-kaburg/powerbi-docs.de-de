@@ -1,20 +1,20 @@
 ---
 title: Ablauffristen für den Support für Power BI-Berichtsserver
 description: Eine Liste der Versionen und Verfügbarkeit von Power BI-Berichtsserver.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/24/2019
-ms.openlocfilehash: 06946f4f838446113d244d4acec74b9f66a60a45
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eaef23963c369d9fa124124c616b20d4d8a4752
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324619"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187406"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Ablauffristen für den Support für Power BI-Berichtsserver
 
@@ -36,6 +36,7 @@ Diese Supportrichtlinie erlaubt es uns, unseren Kunden Innovationen schnell zur 
 | März 2018 | 19. März 2018 | 19. März 2019 |
 | August 2018 | 15. August 2018 | 15. August 2019 |
 | Januar 2019 | 23. Januar 2019 | 23. Januar 2020 |
+| Mai 2019 | 22 Mai 2019 | 22 Mai 2020 |
 
 Um Power BI-Berichtsserver und Power BI Desktop mit Optimierung für Power BI-Berichtsserver herunterzuladen, navigieren Sie zu [Lokale Berichterstellung mit Power BI-Berichtsserver](https://powerbi.microsoft.com/report-server/).
 

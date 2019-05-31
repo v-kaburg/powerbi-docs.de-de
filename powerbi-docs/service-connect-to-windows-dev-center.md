@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008831"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163964"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Herstellen einer Verbindung mit Windows Dev Center mithilfe von Power BI
 Mit diesem Power BI-Inhaltspaket können Sie die Analysedaten von Windows Dev Center-Apps in Power BI untersuchen und überwachen. Die Daten werden automatisch einmal täglich aktualisiert.

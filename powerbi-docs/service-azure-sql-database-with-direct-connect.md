@@ -1,23 +1,25 @@
 ---
 title: Azure SQL-Datenbank mit DirectQuery
 description: Azure SQL-Datenbank mit DirectQuery
-author: markingmyname
-manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
+author: mgblythe
+ms.author: mblythe
+manager: kfile
+ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/20/2018
-ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 3bee2d5a4bbb470ed85d2ec0ae501d3dcc875e7f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286287"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770601"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL-Datenbank mit DirectQuery
+
 Erfahren Sie, wie Sie eine direkte Verbindung mit der Azure SQL-Datenbank herstellen und Berichte erstellen, in denen Livedaten verwendet werden. Sie können Ihre Daten in der Datenquelle und nicht in Power BI speichern.
 
 Durch DirectQuery werden Abfragen zurück zur Azure SQL-Datenbank gesendet, während Sie die Daten in der Berichtsansicht untersuchen. Diese Variante wird für Benutzer empfohlen, die mit den Datenbanken und den Entitäten vertraut sind, mit denen die Verbindung hergestellt wird.
@@ -35,14 +37,14 @@ Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzerobe
 
 > [!Important]
 > Die Konnektivität mit Azure SQL-Datenbank wurde verbessert.  Verwenden Sie Power BI Desktop für optimale Ergebnisse beim Herstellen einer Verbindung mit Ihrer Azure SQL-Datenbank-Datenquelle.  Sobald Sie Ihr Modell und Ihren Bericht erstellt haben, können Sie diese im Power BI-Dienst veröffentlichen.  Der direkte Connector für Azure SQL-Datenbank im Power BI-Dienst ist mittlerweile veraltet.
->
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop und DirectQuery
-Zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery müssen Sie Power BI Desktop verwenden. Dieser Ansatz bietet zusätzliche Flexibilität und Funktionalität. Mit Power BI Desktop erstellte Berichte können dann im Power BI-Dienst veröffentlicht werden. [Hier](desktop-use-directquery.md) erhalten Sie weitere Informationen zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery in Power BI Desktop. 
+
+Zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery müssen Sie Power BI Desktop verwenden. Dieser Ansatz bietet zusätzliche Flexibilität und Funktionalität. Mit Power BI Desktop erstellte Berichte können dann im Power BI-Dienst veröffentlicht werden. [Hier](desktop-use-directquery.md) erhalten Sie weitere Informationen zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery in Power BI Desktop.
 
 ## <a name="single-sign-on"></a>Einmaliges Anmelden
 
-Nachdem Sie ein Azure SQL DirectQuery-Dataset im Dienst veröffentlichen, können Sie einmaliges Anmelden (Single Sign-On, SSO) über Azure AD-OAuth2 (Azure Active Directory) für Endbenutzer aktivieren. 
+Nachdem Sie ein Azure SQL DirectQuery-Dataset im Dienst veröffentlichen, können Sie einmaliges Anmelden (Single Sign-On, SSO) über Azure AD-OAuth2 (Azure Active Directory) für Endbenutzer aktivieren.
 
 Um SSO zu aktivieren, rufen Sie die Einstellungen für das Dataset auf, öffnen die Registerkarte **Datenquellen**, und aktivieren Sie das Kontrollkästchen „SSO“.
 
@@ -54,17 +56,19 @@ Die SSO-Option gilt für alle Datasets, die diese Datenquelle verwenden. Sie hat
 
 > [!Note]
 > Azure Multi-Factor Authentication (MFA) wird nicht unterstützt. Benutzer, die SSO mit Azure SQL DirectQuery verwenden möchten, müssen von MFA ausgenommen werden.
->
 
 ## <a name="finding-parameter-values"></a>Suchen von Parameterwerten
+
 Ihren vollqualifizierten Servernamen und den Datenbanknamen finden Sie im Azure-Portal.
 
-![](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![Neues Update für Azure-port](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
-![](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+![Azure-Portal-update](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Verwenden von DirectQuery in Power BI Desktop](desktop-use-directquery.md)  
-[Was ist Power BI?](power-bi-overview.md)  
-[Abrufen von Daten in Power BI](service-get-data.md)  
+
+* [Verwenden von DirectQuery in Power BI Desktop](desktop-use-directquery.md)  
+* [Was ist Power BI?](power-bi-overview.md)  
+* [Abrufen von Daten in Power BI](service-get-data.md)  
+
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa6296485897b983c3ca4044ffa2875de3326dec
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264684"
+---
 Obwohl Daten aus nahezu jeder Datenquelle in Power BI importiert werden können, lassen sich die Visualisierungs- und Modellierungstools am besten auf Daten in Spalten anwenden. Ihre Daten sind jedoch nicht immer in einfachen Spalten formatiert. Dies ist häufig der Fall bei Excel-Arbeitsblättern, deren Tabellenlayout nicht unbedingt optimal für automatisierte Abfragen geeignet ist. Das nachfolgende Arbeitsblatt enthält beispielsweise Überschriften, die sich über mehrere Spalten erstrecken.
 
 ![](media/1-5-cleaning-irregular-data/1-5_1.png)

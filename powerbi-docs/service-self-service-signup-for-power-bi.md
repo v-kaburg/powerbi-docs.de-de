@@ -7,47 +7,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 05/09/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d62793ea5f33c8d098a9a1e9d7f808d600e0de54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f8645daeec1551af59a98058b02cf3eb8972d09a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293026"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710787"
 ---
-# <a name="signing-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
+# <a name="sign-up-for-power-bi-as-an-individual"></a>Registrieren für Power BI als Einzelperson
 
-Power BI kann Ihr persönliches Tool für Berichte und Visualisierungen sein und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen. In diesem Artikel wird erläutert, wie Sie sich als Einzelperson für eine Power BI-Testversion registrieren. Wenn Sie ein Power BI-Administrator sind, finden Sie unter [Power BI-Lizenzierung in Ihrem Unternehmen](service-admin-licensing-organization.md) weitere Informationen.
+Power BI kann Ihr persönliches Tool für Berichte und Visualisierungen sein und darüber hinaus als Engine für Analyse und Entscheidungsfindung für Gruppenprojekte, Abteilungen oder gesamte Unternehmen dienen. In diesem Artikel wird erläutert, wie für die Testversion von Power BI Pro als Einzelperson registrieren. Wenn Sie eine Power BI-Administrator sind, finden Sie unter [Power BI in Ihrer Organisation Lizenzen](service-admin-licensing-organization.md).
 
 ![Power BI-Dashboard](media/service-self-service-signup-for-power-bi/dashboard.png)
 
 ## <a name="supported-email-addresses"></a>Unterstützte E-Mail-Adressen
 
-Bevor Sie mit dem Registrierungsprozess beginnen, ist es wichtig, dass Sie verstehen, welche E-Mail-Adressen Sie in Power BI verwenden können:
+Bevor Sie den Registrierungsprozess beginnen, ist es wichtig, um welche Typen von e-Mail-Adressen zu erhalten, die Sie in Power BI verwenden können:
 
-* Bei der Registrierung für Power BI können nur E-Mail-Adressen von Geschäfts-, Schul- oder Unikonten verwendet werden. Sie können sich nicht mit E-Mail-Adressen anmelden, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. Dazu gehören auch outlook.com, hotmail.com, gmail.com und andere.
+* Bei der Registrierung für Power BI können nur E-Mail-Adressen von Geschäfts-, Schul- oder Unikonten verwendet werden. Sie können keine registrieren Sie sich mit e-Mail-Adressen, die vom e-Mail-Diensten oder Telekommunikationsanbietern bereitgestellt. Dies schließt outlook.com, hotmail.com, gmail.com und andere.
 
 * Nachdem Sie sich registriert haben, [können Sie Gastbenutzer einladen](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b), um Ihren Power BI-Inhalt für diese freizugeben. Dies geht mit jeder E-Mail-Adresse, auch mit einer privaten.
 
-* Sie können sich bei Power BI mit den Adressendungen „.gov“ oder „.mil“ anmelden, dafür ist jedoch ein anderes Verfahren notwendig. Sehen Sie sich für weitere Informationen den Artikel zum [Registrieren einer US-Behörde für den Power BI-Dienst](service-govus-signup.md) an.
+* Sie können sich bei Power BI mit den Adressendungen „.gov“ oder „.mil“ anmelden, dafür ist jedoch ein anderes Verfahren notwendig. Weitere Informationen finden Sie unter [Ihre US-Behörde in Power BI-Dienst registrieren](service-govus-signup.md).
 
 ## <a name="sign-up-for-a-trial"></a>Registrieren für eine Testversion
 
-Gehen Sie wie folgt vor, um sich für eine Power BI Pro-Testversion zu registrieren. Im nächsten Abschnitt, [Ablaufzeit der Testversion](#trial-expiration), erfahren Sie, welche Optionen Ihnen bei Ablauf der Testversion zur Verfügung stehen.
+Gehen Sie wie folgt vor, um sich für eine Power BI Pro-Testversion zu registrieren. Im nächsten Abschnitt, [Ablauf der Testversion](#trial-expiration), erfahren Sie die Optionen haben Sie beim Ablauf der Testversion.
 
-1. Wechseln Sie in Power BI zur [Registrierungsseite](https://app.powerbi.com/signupredirect?pbi_source=web).
+1. Wechseln Sie in Power BI zur [Registrierungsseite](https://signup.microsoft.com/signup?sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235).
 
 1. Geben Sie Ihre E-Mail-Adresse ein, und klicken Sie auf **Registrieren**.
 
     ![Erste Schritte](media/service-self-service-signup-for-power-bi/get-started.png)
 
-1. Wenn Sie eine Meldung wie die folgende erhalten, wählen Sie eine Option aus, um einen Prüfcode zu empfangen. Fahren Sie anschließend mit dem nächsten Schritt fort.
+1. Wenn Sie eine Meldung wie diese erhalten, wählen Sie eine Option aus, um einen Prüfcode empfangen, und klicken Sie dann mit dem nächsten Schritt in diesem Verfahren fortfahren.
 
     ![Bestätigung, dass Sie kein Roboter sind](media/service-self-service-signup-for-power-bi/prove-robot.png)
 
-    Wenn Sie eine Nachricht wie die folgende erhalten, schließen Sie die Schritte zur Anmeldung und Verwendung von Power BI ab.
+    Wenn Sie eine Meldung wie diese erhalten, schließen Sie die Schritte, um sich anmelden und Power BI verwenden.
 
     ![Vorhandenes Konto](media/service-self-service-signup-for-power-bi/existing-account.png)
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um sich für eine Power BI Pro-Testversion zu registrie
 
     ![Registrieren](media/service-self-service-signup-for-power-bi/sign-up.png)
 
-1. Sehen Sie nach, ob Sie eine Nachricht wie die folgende per E-Mail erhalten haben.
+1. Überprüfen Sie Ihre e-Mail-Adresse für eine Meldung wie diese.
 
     ![Überprüfung per E-Mail](media/service-self-service-signup-for-power-bi/email-verification.png)
 
@@ -63,26 +63,25 @@ Gehen Sie wie folgt vor, um sich für eine Power BI Pro-Testversion zu registrie
 
     ![Konto erstellen](media/service-self-service-signup-for-power-bi/create-account.png)
 
-1. Sie gelangen anschließend zu https://app.powerbi.com und können von da an Power BI verwenden.
+1. Sie gelangen anschließend auf [Anmeldeseite für Power BI](https://powerbi.microsoft.com/landing/signin/), und Sie können mithilfe von Power BI.
 
     ![Vorhandenes Konto](media/service-self-service-signup-for-power-bi/welcome-screen.png)
 
 ## <a name="trial-expiration"></a>Ablauf der Testversion
 
-Wenn Ihre Power BI-Textversion abläuft, wird Ihre Lizenz in eine Power BI Free-Lizenz geändert. Wenn dies geschieht, haben Sie keinen Zugriff mehr auf Features, die eine Power BI Pro-Lizenz erfordern. Weitere Informationen finden Sie unter [Funktionen nach Lizenztyp](service-features-license-type.md).
+Wenn Ihre Power BI Pro-Testversion läuft ab, die lizenzänderungen zu einer Power BI (free) Lizenz. Wenn dies passiert, müssen Sie nicht mehr den Zugriff auf Funktionen, die eine Power BI Pro-Lizenz erforderlich. Weitere Informationen finden Sie unter [Funktionen nach Lizenztyp](service-features-license-type.md).
 
-Wenn Ihnen eine Power BI Free-Lizenz genügt, ist keine Aktion erforderlich. Wenn Sie jedoch die Power BI Pro-Features nutzen möchten, wenden Sie sich an Ihren IT-Administrator, um eine Power BI Pro-Lizenz zu erwerben.
+Wenn eine Power BI (free) Lizenz ausreicht, müssen Sie nichts weiter tun. Um Power BI Pro-Features nutzen zu können, wenden Sie sich an Ihren IT-Administrator über den Erwerb einer Power BI Pro-Lizenz.
 
 ## <a name="troubleshooting-the-sign-up-process"></a>Behandeln von Problemen beim Registrieren
 
-In den meisten Fällen können Sie sich bei Power BI registrieren, indem Sie den vorher beschriebenen Prozess durchlaufen. Dennoch können Probleme auftreten, die Sie daran hindern, sich zu registrieren. In der folgenden Tabelle sind die Probleme und Problemumgehungen aufgeführt.
+In den meisten Fällen können Sie für Power BI registrieren gemäß den beschriebenen Prozess. Einige der Probleme, die Sie für die Registrierung verhindern möglicherweise werden in der folgenden Tabelle, mit möglichen problemumgehungen beschrieben.
 
-|                                                                                                                                                                                                                          **Symptom/Fehlermeldung**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Mögliche Ursache und Lösung**                                                                                                                                                                                                                                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>Persönliche E-Mail-Adressen (beispielsweise nancy@gmail.com)</strong> Sie erhalten während der Registrierung eine Meldung wie die folgende: <br /><br /> *Sie haben eine private E-Mail-Adresse eingegeben: Geben Sie Ihre geschäftliche E-Mail-Adresse ein, damit wir die Daten Ihres Unternehmens sicher speichern können.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* |                          Power BI unterstützt keine E-Mail-Adressen, die von E-Mail-Diensten für Endkunden oder von Telekommunikationsanbietern zur Verfügung gestellt werden. <br /><br /> Damit Sie die Registrierung abschließen können, versuchen Sie es noch mal, und geben Sie eine E-Mail-Adresse Ihrer Organisation oder Bildungseinrichtung an. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Es ist ebenso möglich, dass ein vorhandener Benutzer [Sie als Gast einlädt](service-admin-azure-ad-b2b.md).                           |
-|            **Self-Service-Registrierung deaktiviert** Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Ihre Registrierung konnte nicht beendet werden. Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert. Bitte wenden Sie sich an Ihre IT-Abteilung, um den Anmeldeprozess abzuschließen.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.*             |                             Der IT-Administrator Ihres Unternehmens hat die Self-Service-Registrierung für Power BI deaktiviert. <br /><br /> Wenden Sie sich an Ihren IT-Administrator, und bitten Sie diesen, [die Anweisungen zu befolgen, um die Registrierung zu ermöglichen](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory). So können Sie den Registrierungsprozess abschließen. <br/><br/> Dieses Problem kann auch auftreten, wenn Sie sich [über einen Partner für Office 365 registriert haben](service-admin-syndication-partner.md). |
-|                                                                                          **Die E-Mail-Adresse ist keine Office 365-ID**. Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Wir können Sie auf „contoso.com“ nicht finden.  Verwenden Sie auf der Arbeit oder in der Schule eine andere ID? <br /><br /> Versuchen Sie, sich damit anzumelden. Wenn es nicht funktioniert, wenden Sie sich an Ihre IT-Abteilung.*                                                                                           | Ihre Organisation verwendet für die Anmeldung bei Office 365 und anderen Microsoft-Diensten andere IDs als Ihre E-Mail-Adresse.  Ihre E-Mail-Adresse ist z. B., Nancy.Smith@contoso.com aber Ihre ID ist nancys@contoso.com. <br /><br /> Nutzen Sie zum Abschließen der Registrierung die ID, die Ihrem Unternehmen für die Anmeldung bei Office 365 oder anderen Microsoft-Diensten zugewiesen wurde.  Wenn Sie diese nicht kennen, wenden Sie sich an Ihren IT-Administrator. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
-|  |  |
+| Symptom/Fehlermeldung | Mögliche Ursache und Lösung |
+| ----------------------- | -------------------- |
+| <strong>Persönliche e-Mail-Adressen (z. B. nancy@gmail.com)</strong> erhalten Sie eine Meldung wie diese während der Registrierung: <br /><br /> *Sie haben eine private E-Mail-Adresse eingegeben: Geben Sie Ihre geschäftliche E-Mail-Adresse ein, damit wir die Daten Ihres Unternehmens sicher speichern können.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* | Powerbi unterstützt keine e-Mail-Adressen von Verbraucher-e-Mail-Diensten oder Telekommunikationsanbietern-Anbieter bereitgestellt. <br /><br /> Um die Anmeldung abgeschlossen haben, geben Sie eine e-Mail-Adresse, die von Ihrer Organisation oder Schule zugewiesen. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Es ist ebenso möglich, dass ein vorhandener Benutzer [Sie als Gast einlädt](service-admin-azure-ad-b2b.md). |
+| **Self-service-Registrierung deaktiviert**: Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Ihre Registrierung konnte nicht beendet werden. Ihre IT-Abteilung hat die Registrierung für Microsoft Power BI deaktiviert. Bitte wenden Sie sich an Ihre IT-Abteilung, um den Anmeldeprozess abzuschließen.* <br /><br /> oder <br /><br /> *Bei der E-Mail-Adresse handelt es sich anscheinend um eine persönliche Adresse. Geben Sie Ihre geschäftliche Adresse ein, damit wir Sie mit anderen Personen in Ihrem Unternehmen verbinden können. Und keine Sorge: Wir geben die Adresse an niemanden weiter.* | Ihre Organisation IT-Administrator hat die Self-service-Registrierung für Power BI deaktiviert. <br /><br /> Um die Anmeldung abgeschlossen haben, wenden Sie sich an Ihren IT-Administrator, und bitten Sie ihn, [führen Sie die Anweisungen, um die Registrierung](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory). <br/><br/> Dieses Problem kann auch auftreten, wenn Sie sich [über einen Partner für Office 365 registriert haben](service-admin-syndication-partner.md). |
+| **E-Mail-Adresse ist nicht in Office 365-ID** Sie erhalten eine Meldung wie die folgende während der Registrierung: <br /><br /> *Wir können Sie auf „contoso.com“ nicht finden.  Verwenden Sie auf der Arbeit oder in der Schule eine andere ID? <br /><br /> Versuchen Sie, sich damit anzumelden. Wenn es nicht funktioniert, wenden Sie sich an Ihre IT-Abteilung.* | Ihre Organisation verwendet für die Anmeldung bei Office 365 und anderen Microsoft-Diensten andere IDs als Ihre E-Mail-Adresse.  Ihre E-Mail-Adresse ist z. B., Nancy.Smith@contoso.com aber Ihre ID ist nancys@contoso.com. <br /><br /> Verwenden Sie die ID, die Ihre Organisation Ihnen zugewiesen wurden, für die Anmeldung bei Office 365 oder andere Microsoft-Dienste, um die Registrierung abzuschließen.  Wenn Sie nicht wissen, was ist, wenden Sie sich an Ihren IT-Administrator. <br /><br /> Wenn Sie sich noch immer nicht registrieren können und zu einem erweiterten Setup bereit sind, können Sie sich [mit dieser E-Mail-Adresse für ein neues Office 365-Testabonnement registrieren](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Nächste Schritte
 

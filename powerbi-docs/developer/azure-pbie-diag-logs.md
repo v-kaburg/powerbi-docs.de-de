@@ -1,19 +1,19 @@
 ---
 title: Diagnoseprotokollierung für den Power BI Embedded-Dienst in Azure | Microsoft-Dokumentation
 description: In diesem Artikel erfahren Sie mehr über das Einrichten der Diagnoseprotokollierung für den Power BI Embedded-Dienst in Azure.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249135"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385381"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Diagnoseprotokollierung für Power BI Embedded in Azure
 
@@ -183,7 +183,7 @@ Wählen Sie **EventClass\_s** oder einen der Ereignisnamen aus. Log Analytics f�
 
 Sehen sich unbedingt den Dienst [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) an, der eine Website mit einer erweiterten Abfrage, Dashboards und Warnfunktionen für gesammelte Daten bietet.
 
-### <a name="queries"></a>Queries
+### <a name="queries"></a>Abfragen
 
 Es gibt Hunderte von Abfragen, die Sie verwenden können. Im Folgenden finden Sie einige Beispiele für den Einstieg: Weitere Informationen zur Verwendung der neuen Abfragesprache der Protokollsuche finden Sie unter [Grundlegendes zu Protokollsuchvorgängen in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

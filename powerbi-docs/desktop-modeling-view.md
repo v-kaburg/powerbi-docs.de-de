@@ -1,5 +1,5 @@
 ---
-title: Verwenden der Modellierungsansicht in Power BI Desktop (Vorschau)
+title: Verwenden Sie die Modellierung-Ansicht in Power BI Desktop
 description: Verwenden der Modellierungsansicht zur Anzeige komplexer Datasets in einem visuellen Format in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216307"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941340"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Modellierungsansicht in Power BI Desktop (Vorschau)
+# <a name="modeling-view-in-power-bi-desktop"></a>Modellieren die Ansicht in Power BI Desktop
 
-Die **Modellierungsansicht** in **Power BI Desktop** erlaubt es Ihnen, komplexe Datasets mit vielen Tabellen anzuzeigen und mit diesen zu arbeiten. Die Modellierungsansicht ermöglicht Folgendes:
+Die **Modellierungsansicht** in **Power BI Desktop** erlaubt es Ihnen, komplexe Datasets mit vielen Tabellen anzuzeigen und mit diesen zu arbeiten.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Aktivieren des Vorschaufeatures „Modellierungsansicht“
-
-Die Modellierungsansicht befindet sich in der Vorschau und muss in **Power BI Desktop** aktiviert werden. Um die Modellierungsansicht zu aktivieren, wählen Sie **Datei > Optionen und Einstellungen > Optionen > Vorschaufeatures**, und aktivieren Sie dann das Kontrollkästchen **Modellierungsansicht** wie im folgenden Screenshot gezeigt wird.
-
-![Aktivieren des Vorschaufeatures „Modellierungsansicht“ in Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-Sie werden aufgefordert, **Power BI Desktop** neu zu starten, damit das Vorschaufeature aktiviert wird. 
-
-![Neustart von Power BI Desktop zum Aktivieren der Vorschaufeatures](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Verwenden der Modellierungsansicht
 
@@ -40,7 +30,7 @@ Um auf die Modellierungsansicht zuzugreifen, wählen Sie das Symbol „Modellier
 
 ## <a name="creating-separate-diagrams"></a>Erstellen separater Diagramme
 
-Mit der Modellierungsansicht können Sie Diagramme Ihres Modells erstellen, die nur eine Teilmenge der Tabellen in Ihrem Modell umfassen. So erhalten Sie einen klareren Überblick über die Tabellen, mit denen Sie arbeiten möchten, und es kann die Arbeit mit komplexen Datasets erleichtern. Um ein neues Diagramm zu erstellen, das nur einen Teil der Tabellen enthält, klicken Sie auf das **+**-Zeichen neben der Registerkarte **Alle Tabellen** im unteren Bereich des Power BI Desktop-Fensters.
+Mit der Modellierungsansicht können Sie Diagramme Ihres Modells erstellen, die nur eine Teilmenge der Tabellen in Ihrem Modell umfassen. So erhalten Sie einen klareren Überblick über die Tabellen, mit denen Sie arbeiten möchten, und es kann die Arbeit mit komplexen Datasets erleichtern. Um ein neues Diagramm zu erstellen, das nur einen Teil der Tabellen enthält, klicken Sie auf das **+** -Zeichen neben der Registerkarte **Alle Tabellen** im unteren Bereich des Power BI Desktop-Fensters.
 
 ![Erstellen eines neuen Diagramms durch Klicken auf das +-Zeichen im Registerkartenabschnitt](media/desktop-modeling-view/modeling-view_03.png)
 
@@ -66,9 +56,9 @@ Sie können beispielsweise den [Speichermodus](desktop-storage-mode.md) für meh
 Die folgenden Artikeln enthalten weitere Informationen über Datenmodelle sowie Details zu DirectQuery.
 
 * [Aggregationen in Power BI Desktop (Vorschau)](desktop-aggregations.md)
-* [Zusammengesetzte Modelle in Power BI Desktop (Vorschauversion)](desktop-composite-models.md)
+* [Verwenden zusammengesetzter Modelle in Power BI Desktop](desktop-composite-models.md)
 * [Speichermodus in Power BI Desktop (Vorschauversion)](desktop-storage-mode.md)
-* [m:n-Beziehungen in Power BI Desktop (Vorschauversion)](desktop-many-to-many-relationships.md)
+* [Beziehungen mit einer m:n-Kardinalität in Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 Artikel zu DirectQuery:

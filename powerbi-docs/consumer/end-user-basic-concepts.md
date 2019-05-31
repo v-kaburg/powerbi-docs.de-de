@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580103"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051415"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Grundkonzepte für ***Benutzer*** des Power BI-Diensts
 
@@ -104,7 +104,7 @@ Einige der Visualisierungen, die Ihnen in Power BI begegnen werden, sind Wasserf
 
    ![8 Beispielvisuals](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Visualisierungen werden auch von der Community zur Verfügung gestellt und heißen dann *benutzerdefinierte Visuals*. Wenn Sie einen Bericht mit einem Visual erhalten und dieses nicht erkennen, handelt es sich wahrscheinlich um ein benutzerdefiniertes Visual. Wenn Sie Hilfe beim Interpretieren des benutzerdefinierten visuellen Elements benötigen, können Sie <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->den Namen des *Designers* des Berichts oder Dashboards suchen und ihn oder sie kontaktieren.
+Visualisierungen werden auch von der Community zur Verfügung gestellt und heißen dann *benutzerdefinierte Visuals*. Wenn Sie einen Bericht mit einem Visual erhalten und dieses nicht erkennen, handelt es sich wahrscheinlich um ein benutzerdefiniertes Visual. Wenn Sie Hilfe zum Interpretieren der benutzerdefinierten Visualisierung benötigen, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->Suchen Sie den Namen des Berichts oder Dashboards *Designer* und wenden Sie sich an ihn.
 
 **EINE** Visualisierung in einem Bericht...
 

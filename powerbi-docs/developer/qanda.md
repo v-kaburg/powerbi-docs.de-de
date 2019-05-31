@@ -1,20 +1,20 @@
 ---
 title: Q&A in Power BI Embedded
 description: Power BI Embedded bietet Ihnen eine Möglichkeit, Q&A in eine Anwendung zu integrieren, sodass Ihre Benutzer in natürlicher Sprache Fragen stellen können.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: 03a348a2b1078a731df37157b254df069ca79fa9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.openlocfilehash: afe53e7b24328612bd7858abe263e4365f1c891d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757367"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61268723"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
 

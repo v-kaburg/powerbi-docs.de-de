@@ -1,5 +1,5 @@
 ---
-title: Freigeben Ihrer Arbeit
+title: Freigeben Ihrer Arbeit in Power BI
 description: In Power BI können Sie Dashboards, Berichte und Kacheln und Apps auf verschiedene Weisen freigeben und für die Zusammenarbeit verwenden. Jede dieser Möglichkeiten hat ihre Vorteile.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290412"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234905"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Freigeben Ihrer Arbeit in Power BI
 
@@ -29,7 +29,7 @@ In diesem Artikel werden folgende Optionen für die Zusammenarbeit und die Freig
 * Drucken von Berichten.
 * Einbetten von Berichten in sichere Portale oder öffentliche Websites.
 
-Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
+Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben eines Dashboards eine [Power BI Pro-Lizenz](service-features-license-type.md), oder es muss sich um Inhalte in einer [Premium-Kapazität](service-premium-what-is.md) handeln. Die Lizenzanforderungen für die Kollegen, die Ihre Dashboards anzeigen, variieren abhängig von der Option, die Sie auswählen. In den folgenden Abschnitten werden die Einzelheiten erläutert. 
 
 ![Apps im Power BI-Dienst](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Unabhängig davon, welche Option Sie auswählen, benötigen Sie zum Freigeben ei
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Zusammenarbeit mit Kollegen in einem Arbeitsbereich
 
-Bei der Arbeit im Team ist der Zugriff auf die gleichen Dokumente erforderlich, damit die Zusammenarbeit schnell erfolgen kann. In Arbeitsbereichen in Power BI können Teams effektiv zusammenarbeiten, um relevante Dashboards, Berichte, Datasets und Arbeitsmappen gemeinsam zu besitzen und zu verwalten. Manchmal organisieren Power BI-Benutzer Ihre Arbeitsbereiche basierend auf Organisationsstrukturen, in anderen Fällen erstellen sie sie für bestimmte Projekte. Andere Organisationen verwenden mehrere Arbeitsbereiche zum Speichern verschiedener Versionen von Berichten oder Dashboards, die sie verwenden. 
+Bei der Arbeit im Team ist der Zugriff auf die gleichen Dokumente erforderlich, damit die Zusammenarbeit schnell erfolgen kann. In Power BI-Arbeitsbereiche stammen die Teams zusammen, die Besitz und Verwaltung ihrer Dashboards, Berichte, Datasets und Arbeitsmappen freizugeben. Manchmal organisieren Power BI-Benutzer Ihre Arbeitsbereiche basierend auf Organisationsstrukturen, in anderen Fällen erstellen sie sie für bestimmte Projekte. Andere Organisationen verwenden mehrere Arbeitsbereiche zum Speichern verschiedener Versionen von Berichten oder Dashboards, die sie verwenden. 
 
 Arbeitsbereiche enthalten Rollen, die bestimmen, welche Berechtigungen Ihre Kollegen haben. Sie können diese Rollen verwenden, um zu bestimmen, wer den gesamten Arbeitsbereich verwalten oder Inhalt bereitstellen kann.
 
@@ -45,11 +45,16 @@ Arbeitsbereiche enthalten Rollen, die bestimmen, welche Berechtigungen Ihre Koll
 
 Einige Benutzer fügen den Inhalt auf natürliche Weise unter „Mein Arbeitsbereich“ hinzu und geben diesen frei. Arbeitsbereiche sind für die Zusammenarbeit besser als „Mein Arbeitsbereich“, da sie den gemeinsamen Besitz von Inhalt ermöglichen. Sie und Ihr gesamtes Team können Änderungen ganz unkompliziert vornehmen oder anderen Zugriff erteilen. „Mein Arbeitsbereich“ ist am besten für einmalige oder persönliche Inhalte von einzelnen Benutzern geeignet.
 
-Angenommen Sie verfügen über ein fertiggestelltes Dashboard, das Sie für Ihre Kollegen freigeben müssen. Was ist die beste Möglichkeit, ihnen den Zugriff auf das Dashboard zu gewähren? Die Antwort hängt von unterschiedlichen Faktoren ab. Wenn ein bestimmter Kollege Besitzer des Dashboards sein und es auf dem neuesten Stand halten muss oder Zugriff auf alle Inhalte im Arbeitsbereich benötigt, bietet es sich an, ihn dem Arbeitsbereich hinzuzufügen. Wenn Ihr Kollege anstelle des gesamten Inhalts nur das Dashboard anzeigen muss, können Sie aus mehreren Alternativen auswählen. Wenn das Dashboard Teil einer größeren Menge an Inhalt ist, die Sie an viele Kollegen verteilen müssen, ist das Veröffentlichen einer App vermutlich die beste Lösung. Wenn der Kollege jedoch nur das eine Dashboard benötigt, ist oft das Freigeben des Dashboards die beste Vorgehensweise.
+Angenommen Sie verfügen über ein fertiggestelltes Dashboard, das Sie für Ihre Kollegen freigeben müssen. Was ist die beste Möglichkeit, ihnen den Zugriff auf das Dashboard zu gewähren? Die Antwort hängt von unterschiedlichen Faktoren ab. 
+
+- Wenn es sich bei Kollegen das Dashboard auf dem neuesten Stand zu halten, oder benötigen Zugriff auf alle Inhalte im Arbeitsbereich müssen, sollten Sie sie mit dem Arbeitsbereich hinzufügen. 
+- Wenn Kollegen nur um das Dashboard und nicht alle Inhalte im Arbeitsbereich anzuzeigen, müssen Sie erneut alternativen. 
+- Wenn das Dashboard Teil einer größeren Menge an Inhalt ist, die Sie an viele Kollegen verteilen müssen, ist das Veröffentlichen einer App vermutlich die beste Lösung. 
+- Wenn Kollegen nur dieses eine Dashboard benötigen, kann jedoch dann Freigabe des Dashboards die beste Lösung sein.
 
 Weitere Informationen zum [Erstellen von Arbeitsbereichen](service-create-workspaces.md).
 
-**Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Erstellen der neuen Arbeitsbereiche (Vorschau)](service-create-the-new-workspaces.md) erfahren Sie, wie sich Arbeitsbereiche in der Zukunft entwickeln. 
+**Wussten Sie schon?** Powerbi bietet eine neue Benutzeroberfläche für den Arbeitsbereich. Lesen [erstellen Sie die neue Arbeitsbereiche](service-create-the-new-workspaces.md) angezeigt, wie sich Arbeitsbereiche ändern. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Verteilen von Daten und Erkenntnissen durch Erstellen einer App
 
@@ -61,7 +66,7 @@ Apps lassen sich im Power BI-Dienst ([https://powerbi.com](https://powerbi.com))
 
 Nachdem die Benutzer eine App installiert haben, können sie diese in ihren Browsern oder mobilen Geräten anzeigen.
 
-Damit die Benutzer Ihre App anzeigen können, müssen sie eine Power BI Pro-Lizenz haben, oder die App muss in einer Power BI-Premium-Kapazität gespeichert sein. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
+Damit die Benutzer Ihre App anzeigen können, müssen sie eine Power BI Pro-Lizenz haben, oder die App muss in einer Power BI-Premium-Kapazität gespeichert sein. Details finden Sie unter [Was ist Power BI Premium?](service-premium-what-is.md).
 
 Sie können Apps auch für Benutzer außerhalb Ihrer Organisation veröffentlichen. Diese können den App-Inhalt anzeigen und damit interagieren, ihn jedoch nicht freigeben.
 
@@ -71,7 +76,7 @@ Angenommen, Sie haben ein Dashboard und einen Bericht in Ihrem eigenen „Mein A
 
 ![Symbol „Freigeben“](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-Zum Freigeben von Inhalten müssen diese in einem Arbeitsbereich in einer [Premium-Kapazität](service-premium.md) enthalten sein, oder Sie und die Empfänger der Inhalte benötigen eine Power BI Pro-Lizenz. Wenn Sie ein Dashboard oder einen Bericht freigeben, können Empfänger das Dashboard anzeigen und mit ihm interagieren, es aber nicht bearbeiten. Sie sehen die gleichen Daten wie im Dashboard und in den Berichten, es sei denn, auf das zugrundeliegende Dataset ist die Sicherheit auf Zeilenebene (RLS) angewendet. Die Kollegen, für die Sie Inhalte freigeben, können diese für ihre Kollegen freigeben, wenn Sie dies zulassen. 
+Zum Freigeben von Inhalten müssen diese in einem Arbeitsbereich in einer [Premium-Kapazität](service-premium-what-is.md) enthalten sein, oder Sie und die Empfänger der Inhalte benötigen eine Power BI Pro-Lizenz. Wenn Sie ein Dashboard oder einen Bericht freigeben, können Empfänger das Dashboard anzeigen und mit ihm interagieren, es aber nicht bearbeiten. Sie sehen die gleichen Daten wie im Dashboard und in den Berichten, es sei denn, auf das zugrundeliegende Dataset ist die Sicherheit auf Zeilenebene (RLS) angewendet. Die Kollegen, für die Sie Inhalte freigeben, können diese für ihre Kollegen freigeben, wenn Sie dies zulassen. 
 
 Sie können das Dashboard auch für Personen außerhalb Ihrer Organisation freigeben. Diese können das Dashboard oder den Bericht anzeigen und auch damit interagieren, es jedoch nicht freigeben. 
 
@@ -83,7 +88,7 @@ In den mobilen Power BI-Apps für iOS- und Android-Geräte können Sie Kacheln, 
 
 ![Kommentieren und Freigeben in den mobilen Apps](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-Sie geben eine Momentaufnahme der Kacheln, Berichte oder visuellen Elemente frei, und diese werden für die Empfänger in dem Zustand angezeigt, in dem sie beim Versenden der E-Mail vorlagen. Die E-Mail enthält außerdem einen Link zum Dashboard oder Bericht. Wenn die Empfänger eine Power BI Pro-Lizenz haben oder wenn es sich um Inhalte in einer [Premium-Kapazität](service-premium.md) handelt, können die Empfänger das Objekt öffnen, sofern Sie das Objekt bereits für sie freigegeben haben. Sie können Momentaufnahmen von Kacheln an beliebige Empfänger senden – nicht nur an Kollegen in der gleichen E-Mail-Domäne.
+Sie geben eine Momentaufnahme der Kacheln, Berichte oder visuellen Elemente frei, und diese werden für die Empfänger in dem Zustand angezeigt, in dem sie beim Versenden der E-Mail vorlagen. Die E-Mail enthält außerdem einen Link zum Dashboard oder Bericht. Wenn die Empfänger eine Power BI Pro-Lizenz haben oder wenn es sich um Inhalte in einer [Premium-Kapazität](service-premium-what-is.md) handelt, können die Empfänger das Objekt öffnen, sofern Sie das Objekt bereits für sie freigegeben haben. Sie können Momentaufnahmen von Kacheln an beliebige Empfänger senden – nicht nur an Kollegen in der gleichen E-Mail-Domäne.
 
 Hier finden Sie weitere Informationen zum [Kommentieren und Freigeben von Kacheln, Berichten und visuellen Elementen](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) in den mobilen iOS- und Android-Apps.
 
@@ -96,8 +101,12 @@ Sie können ein gesamtes Dashboard, eine Dashboardkachel, eine Berichtsseite ode
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Einbetten von Berichten in sichere Portale oder öffentliche Websites
 
 Sie können Power BI-Berichte in die Portale oder Websites einbetten, in denen die Benutzer sie suchen würden.  
+Mit der Option **Embed in SharePoint Online** (In SharePoint Online einbetten) und der Option **Einbetten** können Sie im Power BI-Dienst Berichte sicher für interne Benutzer einbetten. 
 
-Mit der Option **Embed in SharePoint Online** (In SharePoint Online einbetten) und der Option **Einbetten** können Sie im Power BI-Dienst Berichte sicher für interne Benutzer einbetten. Die Option „Embed in SharePoint Online“ (In SharePoint Online einbetten) ist im Power BI-Webpart für SharePoint Online verfügbar und ermöglicht das einmalige Anmelden sowie die Anpassung der Einbettung des Berichts. Die Option „Einbetten“ kann für alle Portale und Websites verwendet werden, die das Einbetten von Inhalten mithilfe einer URL oder eines IFrame unterstützen. Bei beiden Optionen wird sichergestellt, dass alle Berechtigungen und die Datensicherheit erzwungen werden, bevor ein Benutzer Zugriff auf Inhalte erhält. Die Person, die Zugriff auf den Bericht erhalten möchte, benötigt die entsprechende Lizenz. Hier finden Sie weitere Informationen zu den Power BI-Optionen [Embed in SharePoint Online](service-embed-report-spo.md) (In SharePoint Online einbetten) und [Einbetten](service-embed-secure.md).
+- **In SharePoint Online einbetten** funktioniert mit der Power BI-Webpart für SharePoint Online. Er bietet eine Benutzeroberfläche für einmalige Anmelden steuern, wie der Bericht eingebettet ist. 
+- **Betten Sie** funktioniert mit jedem beliebigen-Portal oder die Website, die beim Einbetten von Inhalt über eine URL oder einen iFrame unterstützt. 
+
+Welche Option Sie auswählen, erzwingt Power BI alle Berechtigungen und Sicherheit der Daten ab, damit Benutzer Inhalte angezeigt werden. Die Person, die Zugriff auf den Bericht erhalten möchte, benötigt die entsprechende Lizenz. Weitere Informationen zu [in SharePoint Online einbetten](service-embed-report-spo.md) und [einbetten](service-embed-secure.md) -Option in Power BI.
 
 Mit **Im Web veröffentlichen** können Sie Power BI-Berichte im Internet veröffentlichen, indem Sie interaktive Visualisierungen in Blogbeiträge, Websites, soziale Medien und andere Onlinekommunikationsmittel auf jedem Gerät einbetten. Jede Person im Internet kann Ihre Berichte aufrufen, und Sie haben keine Kontrolle darüber, wer die von Ihnen veröffentlichten Daten einsieht. Diese Personen benötigen keine Power BI-Lizenz. Die Veröffentlichung im Web ist nur für Berichte verfügbar, die Sie bearbeiten können. Sie können keine Berichte im Web veröffentlichen, wenn diese für Sie freigegeben wurden oder sich in einer App befinden. Weitere Informationen zum [Veröffentlichen im Web](service-publish-to-web.md).
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a98c06ac1e164328a9a88081e2b4b734b4d62ef1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255665"
+---
 Willkommen im Abschnitt **Modellierung** im Kurs **Geführtes Lernen** für Power BI. In diesem Abschnitt erfahren Sie, wie Sie die verbundenen Daten mit Power BI Desktop für die Verwendung vorbereiten. Häufig stellen Sie eine Verbindung mit mehreren Datenquellen her, um Berichte zu erstellen, und benötigen alle diese Daten, um zusammenarbeiten. Dies wird durch die Modellierung ermöglicht.
 
 Um eine logische Verbindung zwischen verschiedenen Datenquellen zu erstellen, erstellen Sie eine **Beziehung**. Durch eine Beziehung zwischen Datenquellen kann Power BI erkennen, wie diese Tabellen zusammenhängen, sodass Sie interessante Visualisierungen und Berichte erstellen können. In diesem Abschnitt werden *Beziehungen* erläutert (allerdings nur datenorientierte Beziehungen), und Sie erfahren außerdem, wie Sie Beziehungen erstellen können, wenn noch keine vorhanden sind.

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61063127"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Anheften eines Dashboards aus der mobilen Power BI-App an den Windows 10-Startbildschirm
 Sie können Power BI-Dashboards aus der mobilen Power BI-App für Windows 10 an den Windows-Startbildschirm anheften. Sie werden zu *Live-Kacheln*. Wenn Sie auf dem Startbildschirm auf die Kachel tippen, wird das Dashboard in der mobilen Power BI-App für Windows 10 geöffnet.

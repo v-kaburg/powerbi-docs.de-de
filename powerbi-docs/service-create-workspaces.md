@@ -1,36 +1,34 @@
 ---
-title: Gemeinsames Erstellen von Arbeitsbereichen mit Ihren Kollegen in Power BI
-description: Erfahren Sie, wie Sie Arbeitsbereiche und Sammlungen aus Dashboards und Berichten erstellen, die zum Bereitstellen von Schlüsselmetriken für Ihre Organisation konzipiert wurden.
+title: Erstellen Sie klassische Arbeitsbereiche in Power BI
+description: Informationen Sie zum Erstellen von Arbeitsbereichen, Sammlungen von Dashboards, Berichten und paginierten Berichten erstellt, um Schlüsselmetriken für Ihre Organisation bereitzustellen.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23c011eded113a0249f5e4a354f909a30bc97148
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277914"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150953"
 ---
-# <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Gemeinsames Erstellen von Arbeitsbereichen mit Ihren Kollegen in Power BI
+# <a name="create-classic-workspaces-in-power-bi"></a>Erstellen Sie klassische Arbeitsbereiche in Power BI
 
-Sie können in Power BI *Arbeitsbereiche* erstellen. Diese stellen einen hervorragenden Ort für die Zusammenarbeit mit Kollegen dar, um Sammlungen von Dashboards und Berichten zu erstellen und zu verbessern. Anschließend bündeln Sie diese Sammlungen in *Apps*, die Sie an die gesamte Organisation oder an bestimmte Personen oder Gruppen verteilen können. 
+Sie können in Power BI erstellen *Arbeitsbereiche*, platziert werden, um die Zusammenarbeit mit Kollegen zum Erstellen und Optimieren von Sammlungen von Dashboards, Berichte und paginierten Berichten. Und Sie die Auflistung in bündeln können *apps* , die Sie für die gesamte Organisation oder an bestimmte Personen oder Gruppen verteilen. 
 
-![Power BI-Apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
+**Wussten Sie schon?** Powerbi bietet eine neue Benutzeroberfläche von Arbeitsbereich, die jetzt der Standard ist. Lesen [organisieren Arbeit in die neue Arbeitsbereiche](service-new-workspaces.md) ausführliche Informationen zu neuen Arbeitsbereichen. 
 
-Wenn Sie einen Arbeitsbereich erstellen, erstellen Sie eine zugrunde liegende, zugehörige Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Office 365 statt. Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. Im Arbeitsbereich können Sie alle beim Erstellen von Dashboards, Berichten und anderen Artikeln zusammenarbeiten, die Sie für eine größere Zielgruppe veröffentlichen möchten. Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. 
-
-**Wussten Sie schon?** Power BI enthält nun neue Vorschaufeatures für Arbeitsbereiche. Unter [Organize work in the new workspaces (preview) (Strukturiertes Arbeiten in den neuen Arbeitsbereichen (Vorschauversion))](service-new-workspaces.md) finden Sie weitere Informationen zu den neuen Arbeitsbereichen. 
+Wenn Sie einen klassischen Arbeitsbereich erstellen, erstellen Sie eine zugrunde liegende, zugehörigen Office 365-Gruppe. Die gesamte Arbeitsbereichsverwaltung findet in Office 365 statt. Sie können diesen Arbeitsbereichen Kollegen als Mitglieder oder Administratoren hinzufügen. Im Arbeitsbereich können Sie alle beim Erstellen von Dashboards, Berichten und anderen Artikeln zusammenarbeiten, die Sie für eine größere Zielgruppe veröffentlichen möchten. Alle Benutzer, die Sie einem App-Arbeitsbereich hinzufügen, benötigen eine Power BI Pro-Lizenz. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Apps und App-Arbeitsbereiche
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Erstellen eines App-Arbeitsbereichs basierend auf einer Office 365-Gruppe
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Erstellen Sie einen klassischen app-Arbeitsbereich basierend auf einer Office 365-Gruppe
 
 Wenn Sie einen App-Arbeitsbereich erstellen, basiert dieser auf einer Office 365-Gruppe.
 
@@ -52,6 +50,8 @@ Standardmäßig wird für die App in Power BI ein kleiner farbiger Kreis mit den
 3. Wählen Sie das Stiftsymbol erneut aus, und suchen Sie das Bild, das Sie verwenden möchten.
    
      ![Erneutes Auswählen des Stifts](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+
+     Bilder können PNG, JPG und BMP-Dateien sein. Ihrer Dateigröße kann groß, um auf 3 MB sein. 
 
 4. Wählen Sie **Speichern**.
    
@@ -77,9 +77,16 @@ In den aktuellen Arbeitsbereichen können Sie auch mithilfe organisationsbezogen
 
 ## <a name="distribute-an-app"></a>Verteilen einer App
 
-Wenn der Inhalt bereit ist, können Sie auswählen, welche Dashboards und Berichte Sie veröffentlichen möchten. Anschließend veröffentlichen Sie diese als *App*. Ihre Kollegen können Ihre Apps auf verschiedene Weise abrufen. Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt. Andernfalls können diese Ihre Apps über Microsoft AppSource finden und installieren, oder Sie können ihnen einen direkten Link senden. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Ausführliche Informationen finden Sie unter [Veröffentlichen von Apps mit Dashboards und Berichten in Power BI](service-create-distribute-apps.md).
+Wenn Sie die offizielle Inhalte für eine große Zielgruppe in Ihrer Organisation verteilen möchten, können Sie eine app aus dem Arbeitsbereich veröffentlichen.  Wenn der Inhalt fertig ist, Sie wählen, welche Dashboards und Berichte, die Sie veröffentlichen möchten, und veröffentlichen Sie sie als ein *app*. Sie können über jeden Arbeitsbereich eine App erstellen.
 
-## <a name="power-bi-apps-faq"></a>Power BI-Apps – Häufig gestellte Fragen
+Die Liste der Apps im linken Navigationsbereich zeigt alle apps, die Sie installiert haben. Ihre Kollegen können Ihre App auf verschiedene Weise abrufen. 
+- Suchen und Installieren der app in Microsoft AppSource
+- Sie können sie einen direkten Link senden. 
+- Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt. 
+
+Benutzer sehen die aktualisierte app-Inhalte automatisch nach dem Veröffentlichen eines Updates aus dem Arbeitsbereich. Sie können steuern, wie oft die Daten aktualisiert, durch den Aktualisierungszeitplan festlegen, in den Datasets, die von der app-Inhalte in Ihrem Arbeitsbereich verwendet. Finden Sie unter [veröffentlichen eine app über die neue Arbeitsbereiche in Power BI](service-create-distribute-apps.md) Details.
+
+## <a name="power-bi-classic-apps-faq"></a>Power BI-klassischen apps – häufig gestellte Fragen
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Wie unterscheiden sich Apps von organisationsbezogenen Inhaltspaketen?
 Apps sind die Weiterentwicklung von organisationsbezogenen Inhaltspaketen. Wenn Sie bereits über organisationsbezogene Inhaltspakete verfügen, können sie weiterhin neben Apps verwendet werden. Apps und Inhaltspakete unterscheiden sich deutlich. 

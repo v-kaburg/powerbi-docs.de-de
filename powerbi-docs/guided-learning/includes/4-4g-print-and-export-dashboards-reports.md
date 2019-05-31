@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256236"
+---
 Manchmal möchten Sie vielleicht einen gedruckten Bericht oder ein gedrucktes Dashboard zu einer Besprechung mitbringen, um sie mit anderen zu teilen. Mit Power BI haben Sie verschiedene Möglichkeiten, Ihre Visuals auszudrucken.
 
 Wählen Sie im Power BI-Dienst die drei Auslassungspunkte oben rechts aus, und wählen Sie dann **Dashboard drucken**.

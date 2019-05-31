@@ -12,11 +12,11 @@ ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014459"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61411845"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tipps und Tricks für Power BI-Kartenvisualisierungen
 Power BI arbeitet mit Bing Maps zusammen, um Standardkartenkoordinaten bereitzustellen (ein Prozess, der als Geocodierung bezeichnet wird), sodass Sie Karten erstellen können. Beide identifizieren mit Algorithmen den richtigen Standort, manchmal ist es jedoch lediglich eine bestmögliche Schätzung. Wenn Power BI allein keine eigene Kartenvisualisierung erstellen kann, wird auf Bing Maps zurückgegriffen. 

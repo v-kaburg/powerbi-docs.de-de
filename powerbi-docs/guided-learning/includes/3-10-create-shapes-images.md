@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7415008e3e1faf3aa2665c643523db2e861bfe85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396801"
+---
 Zusammen mit datengebundenen Visualisierungen können Sie auch statische Elemente hinzufügen, z.B. Textfelder, Bilder und Formen, um das visuelle Design Ihrer Berichte zu verbessern. Wählen Sie zum Hinzufügen eines visuellen Elements **Textfeld**, **Bild** oder **Formen** auf der Registerkarte **Start** aus.
 
 ![](media/3-10-create-shapes-images/3-10_1.png)

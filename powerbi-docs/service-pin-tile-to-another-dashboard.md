@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215616"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61225870"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anheften einer Kachel aus einem Dashboard an ein anderes Dashboard
 Eine Möglichkeit zum Hinzufügen einer neuen [Dashboardkachel](consumer/end-user-tiles.md) ist das Kopieren aus einem anderen Dashboard. Jede dieser Kacheln stellt (sobald angeklickt) einen Link zurück zum Ort der Erstellung da – entweder im F&A oder einem Bericht. 

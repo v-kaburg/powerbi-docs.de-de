@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513900"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Erstellen eigener Measures in Power BI Desktop
@@ -97,7 +97,7 @@ Sie möchten Ihren Nettoumsatz analysieren, indem Sie Rabatte und Retouren von d
     
     
 5.  So subtrahieren Sie die anderen beiden Spalten
-    1. Geben Sie nach der schließenden Klammer für den ersten Ausdruck ein Leerzeichen, einen Minusoperator (**-**) und ein weiteres Leerzeichen ein. 
+    1. Geben Sie nach der schließenden Klammer für den ersten Ausdruck ein Leerzeichen, einen Minusoperator ( **-** ) und ein weiteres Leerzeichen ein. 
     2. Geben Sie eine weitere SUM-Funktion ein, und beginnen Sie mit der Eingabe von „DiscountAmount“, bis Sie die Spalte **Sales[DiscountAmount]** als Argument auswählen können. Fügen Sie eine schließende Klammer hinzu. 
     3. Geben Sie ein Leerzeichen, einen weiteren Minusoperator, ein Leerzeichen, eine weitere SUM-Funktion mit **Sales[ReturnAmount]** als Argument und eine schließende Klammer ein.
     
@@ -164,11 +164,11 @@ Sie möchten herausfinden, welche Produkte den höchsten Nettoumsatz pro verkauf
     
     ![Formel mit „Net Sales“](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    Sie können außerdem auf Measures verweisen, indem Sie einfach eine öffnende eckige Klammer eingeben (**[**). In der Vorschlagsliste werden nur für Ihre Formel geeignete Measures angezeigt.
+    Sie können außerdem auf Measures verweisen, indem Sie einfach eine öffnende eckige Klammer eingeben ( **[** ). In der Vorschlagsliste werden nur für Ihre Formel geeignete Measures angezeigt.
     
     ![Klammer zeigt nur die Measures](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Geben Sie ein Leerzeichen, einen Divisionsoperator (**/**), ein anderes Leerzeichen, eine SUM-Funktion und dann **Quantity** ein. Die Vorschlagsliste zeigt alle Spalten an, deren Name „Quantity“ enthält. Wählen Sie **Sales[SalesQuantity]**, geben Sie die schließende Klammer ein, und drücken Sie die EINGABETASTE, oder wählen Sie das Häkchen, um Ihre Formel zu bestätigen. Die Formel sollte nun so aussehen:
+3.  Geben Sie ein Leerzeichen, einen Divisionsoperator ( **/** ), ein anderes Leerzeichen, eine SUM-Funktion und dann **Quantity** ein. Die Vorschlagsliste zeigt alle Spalten an, deren Name „Quantity“ enthält. Wählen Sie **Sales[SalesQuantity]** , geben Sie die schließende Klammer ein, und drücken Sie die EINGABETASTE, oder wählen Sie das Häkchen, um Ihre Formel zu bestätigen. Die Formel sollte nun so aussehen:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

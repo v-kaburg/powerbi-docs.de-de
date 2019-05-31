@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225912"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853461"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Datenquellen in Power BI Desktop
 Mit Power BI Desktop können Sie Verbindungen mit Daten aus vielen verschiedenen Quellen herstellen. Eine vollständige Liste der verfügbaren Datenquellen wird am unteren Rand dieser Seite angezeigt.
@@ -51,7 +51,7 @@ Die Kategorie **Datei** bietet die folgenden Datenverbindungen:
 * XML
 * JSON
 * Ordner
-* PDF (Beta)
+* PDF
 * SharePoint-Ordner
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Datei**.
@@ -79,14 +79,16 @@ Die Kategorie **Datenbank** bietet die folgenden Datenverbindungen:
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (Beta)
-* Dremio
-* Exasol
-* MarkLogic (Beta)
+* Essbase
 * AtScale-Cubes (Beta)
 * BI-Connector
+* Dremio
+* Exasol
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
+* MarkLogic (Beta)
 
 > [!NOTE]
 > Sie müssen einige Datenbankconnectors aktivieren, indem Sie **Datei > Optionen und Einstellungen > Optionen** und dann **Vorschaufeatures** auswählen und den Connector aktivieren. Wenn einige der oben genannten Connectors nicht angezeigt werden und Sie diese verwenden möchten, überprüfen Sie die Einstellungen von **Vorschaufeatures**. Außerdem stehen für alle als *Beta* oder *Vorschau* markierten Datenquellen nur eingeschränkter Support und weniger Funktionen zur Verfügung, und sie sollten nicht in Produktionsumgebungen verwendet werden.
@@ -98,7 +100,7 @@ Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Datenbank**.
 Die Kategorie **Power BI** bietet die folgenden Datenverbindungen:
 
 * Power BI-Datasets
-* Power BI-Dataflows (Beta)
+* Power BI-Dataflows
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Power BI**.
 
@@ -112,11 +114,12 @@ Die Kategorie **Azure** bietet die folgenden Datenverbindungen:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Storage
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure Data Explorer (Beta)
+* Azure-Daten-Explorer (Kusto)
+* Azure-Kostenverwaltung (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Azure**.
 
@@ -157,9 +160,10 @@ Die Kategorie **Online Services** bietet die folgenden Datenverbindungen:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
-* TeamDesk (Beta)
 * Emigo Data Source (Beta)
+* IndustrialAppStore (Beta)
 * Microsoft Graph-Sicherheit (Beta)
+* TeamDesk (Beta)
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Onlinedienste** an.
 
@@ -178,12 +182,16 @@ Die Kategorie **Sonstige** bietet die folgenden Datenverbindungen:
 * Python-Skript
 * ODBC
 * OLE DB
-* Workforce Dimensions (Beta)
+* BI360 - budgetbezogene Aspekte & Financial Reporting (Beta)
 * Denado
-* Paxata (Beta)
-* SurveyMonkey (Beta)
+* Informationen-Raster (Beta)
+* PREP von Paxata 
 * QubolePresto (Beta)
 * Quick Base (Beta)
+* Roamler (Beta)
+* SurveyMonkey (Beta)
+* Tenforce (Beta)
+* Workforce Dimensions (Beta)
 * Leere Abfrage
 
 Die folgende Abbildung zeigt das Fenster **Daten abrufen** für **Sonstige**.

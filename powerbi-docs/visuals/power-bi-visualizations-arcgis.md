@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086722"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136968"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagieren mit ArcGIS-Karten in Power BI
 Dieses Thema ist für Personen verfasst, die ArcGIS-Karten im Power BI-Dienst, in Power BI Desktop oder in einer mobilen Power BI-App *nutzen*. Sobald ein Ersteller eine ArcGIS-Karte für Sie freigegeben hat, gibt es viele Möglichkeiten für die Interaktion mit dieser Karte.  Weitere Informationen zum Erstellen einer ArcGIS-Karte finden Sie im [Tutorial zu ArcGIS Maps von ESRI](../visuals/power-bi-visualization-arcgis.md).

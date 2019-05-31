@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260444"
+---
 Alle Aufgaben in Power BI können in wenige **Grundkomponenten** unterteilt werden. Wenn Sie diese Grundkomponenten verstehen, können Sie sich gezielt intensiver mit ihnen befassen und ausführliche und komplexe Berichte erstellen. Schließlich bestehen auch scheinbar komplexe Dinge aus Grundbausteinen – Gebäude werden aus Holz, Stahl, Beton und Glas gebaut. Autos bestehen aus Metall, Stoff und Kunststoff. Natürlich können Gebäude und Autos einfach oder aufwendig sein – abhängig davon, wie die Grundbausteine kombiniert werden.
 
 Wir betrachten diese grundlegenden Komponenten, erläutern einige einfache Aufgaben, die damit durchgeführt werden können, und geben Ihnen einen Einblick, wie damit auch komplexe Dinge erstellt werden können.

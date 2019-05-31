@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 9aac366f04d53da56b62c10fdb85229d0d412834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396851"
+---
 Beim Hinzufügen eines *Datumsfelds* zu einem visuellen Element im Feldbucket *Achse* wird in Power BI automatisch eine Zeithierarchie hinzugefügt, die *Jahr*, *Quartal*, *Monat* und *Tag* enthält. Dies ermöglicht eine zeitbasierte Interaktion mit den visuellen Elementen in den Berichten in Power BI, sodass Benutzer einen Drilldown durch die verschiedenen Zeitebenen ausführen können.
 
 ![](media/3-11g-visual-hierarchies-drilling/3-11g_1.png)

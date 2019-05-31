@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396844"
+---
 Power BI umfasst Eigenschaften, die Sie Feldern in Ihrem Modell zuweisen können, sodass die Daten übersichtlicher erfasst, visualisiert und präsentiert werden können. In manchen Fällen möchten Sie beispielsweise den Mittelwert mehrerer Zahlen anzeigen, die Zahlen werden in Power BI jedoch automatisch summiert. In Power BI können Sie anpassen, wie Aufstellungen von Zahlen zusammengefasst werden.
 
 ## <a name="numeric-control-over-summarization"></a>Steuern der Zusammenfassung von numerischen Daten

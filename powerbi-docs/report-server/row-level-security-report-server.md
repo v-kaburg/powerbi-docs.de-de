@@ -1,20 +1,20 @@
 ---
 title: Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver
 description: Erfahren Sie mehr zur Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489566"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769819"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicherheit auf Zeilenebene auf dem Power BI-Berichtsserver
 
@@ -46,7 +46,7 @@ Nachdem Sie Ihren Bericht im Power BI-Berichtsserver gespeichert haben, verwalte
  Wenn für den Bericht nicht die erforderlichen Rollen verfügbar sind, müssen Sie den Bericht in Power BI Desktop öffnen und die Rollen hinzufügen oder ändern. Anschließend müssen Sie den Bericht wieder auf dem Power BI-Berichtsserver speichern. 
 
 1. Speichern Sie den Bericht in Power BI Desktop auf dem Power BI-Berichtsserver. Sie müssen die Version von Power BI Desktop verwenden, die für den Power BI-Berichtsserver optimiert ist.
-2. Wählen Sie auf dem Power BI-Berichtsserver die Auslassungspunkte (**...**) neben dem Bericht aus. 
+2. Wählen Sie auf dem Power BI-Berichtsserver die Auslassungspunkte ( **...** ) neben dem Bericht aus. 
 
 3. Wählen Sie **Verwalten** > **Sicherheit auf Zeilenebene** aus. 
 

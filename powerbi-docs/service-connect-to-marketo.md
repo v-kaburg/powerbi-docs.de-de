@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223787"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172817"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Herstellen einer Verbindung mit Marketo mithilfe von Power BI
 Mit dem Power BI-Inhaltspaket für Marketo erhalten Sie Einblicke in Ihr Marketo-Konto mit Daten zu Leads und ihren Aktivitäten.Durch das Herstellen dieser Verbindung werden Ihre Daten abgerufen. Auf Basis dieser Daten werden dann ein Dashboard und zugehörige Berichte automatisch bereitgestellt.

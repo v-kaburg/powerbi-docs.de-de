@@ -1,20 +1,20 @@
 ---
 title: Verwalten der Mehrinstanzenfähigkeit mit Power BI Embedded Analytics
 description: Entwerfen einer mehrinstanzenfähigen Anwendung mit Embedded Analytics.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014252"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374686"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Verwalten der Mehrinstanzenfähigkeit mit Power BI Embedded Analytics
 
@@ -29,35 +29,35 @@ In diesem Artikel werden die unterschiedlichen Ansätze beschrieben und anhand m
 
 ## <a name="concepts-and-terminology"></a>Konzepte und Terminologie
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
 **AAD-Anwendung**: Eine Anwendungsidentität in AAD. Für die Authentifizierung ist eine AAD-Anwendung erforderlich.
 
-**SaaS-Anwendung (Software-as-a-Service)**: Ein System, das von einem Unternehmen oder unabhängigen Softwarehersteller implementiert wird, in der Regel von einem Onlinedienst. Ebenso die zugehörigen Softwaresysteme zum Bedienen mehrerer Kundenmandanten (Organisationen). In diesem Artikel **verwendet die SaaS-Anwendung Power BI Embedded, um den verschiedenen Mandanten Analysefunktionen bereitzustellen**. Power BI Embedded kann auch für alle Arten von Anwendungen eingesetzt werden, wenn diese eine Onlineverbindung besitzen.
+**SaaS-Anwendung (Software-as-a-Service)** : Ein System, das von einem Unternehmen oder unabhängigen Softwarehersteller implementiert wird, in der Regel von einem Onlinedienst. Ebenso die zugehörigen Softwaresysteme zum Bedienen mehrerer Kundenmandanten (Organisationen). In diesem Artikel **verwendet die SaaS-Anwendung Power BI Embedded, um den verschiedenen Mandanten Analysefunktionen bereitzustellen**. Power BI Embedded kann auch für alle Arten von Anwendungen eingesetzt werden, wenn diese eine Onlineverbindung besitzen.
 
 **Mandant**: Ein einzelner Kunde (Organisation), der die SaaS-Anwendung und alle Ressourcen oder Daten verwendet, die der Kunde in die SaaS-Anwendung einbringt.
 
-**[Power BI](../power-bi-overview.md)**: Der Power BI-Clouddienst, der als Plattform für Power BI Embedded dient.
+**[Power BI](../power-bi-overview.md)** : Der Power BI-Clouddienst, der als Plattform für Power BI Embedded dient.
 
 **Power BI-Mandant**: Ein Satz von Power BI-Ressourcen, die mit einem einzelnen AAD-Mandanten verknüpft sind.
 
-**[Power BI-Arbeitsbereich](../service-create-workspaces.md)**: Ein Container für Inhalte in Power BI.
+**[Power BI-Arbeitsbereich](../service-create-workspaces.md)** : Ein Container für Inhalte in Power BI.
 
 **Power BI-Artefakten**: Es gibt mehrere Power BI-Artefakte in Power BI-Arbeitsbereichen, z.B. Dashboards, Berichte, Datasets und Dataflows.
 
 **[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : Eine Reihe öffentlicher APIs, mit denen Entwickler Anwendungen zum Verwalten von Power BI-Inhalten und zum Einbetten von Power BI-Elementen erstellen können.
 
-**[Sicherheit auf Zeilenebene (RLS)](embedded-row-level-security.md)**: Bietet die Möglichkeit, den Benutzerzugriff auf die Daten für einzelne Zeilen in einer Tabelle zu steuern. Sie können die Sicherheit auf Zeilenebene auf der Ebene der Datenquelle oder im Power BI-Semantikmodell implementieren.
+**[Sicherheit auf Zeilenebene (RLS)](embedded-row-level-security.md)** : Bietet die Möglichkeit, den Benutzerzugriff auf die Daten für einzelne Zeilen in einer Tabelle zu steuern. Sie können die Sicherheit auf Zeilenebene auf der Ebene der Datenquelle oder im Power BI-Semantikmodell implementieren.
 
 **Masterbenutzer**: Die Identität, die die SaaS-Anwendung in Power BI darstellt und die von der SaaS-Anwendung beim Aufruf von Power BI-APIs verwendet wird. Hierbei muss es sich um einen AAD-Benutzer mit einer Power BI Pro-Lizenz handeln.
 
-**AAD-Anwendungsbenutzer (Dienstprinzipal)**: Die Identität, die die SaaS-Anwendung in Power BI darstellt und die von der SaaS-Anwendung beim Aufruf von Power BI-APIs verwendet wird. Hierbei muss es sich um eine AAD-Webanwendung handeln. Kann die Verwendung eines *Masterbenutzers* zur Authentifizierung bei Power BI ersetzen.
+**AAD-Anwendungsbenutzer (Dienstprinzipal)** : Die Identität, die die SaaS-Anwendung in Power BI darstellt und die von der SaaS-Anwendung beim Aufruf von Power BI-APIs verwendet wird. Hierbei muss es sich um eine AAD-Webanwendung handeln. Kann die Verwendung eines *Masterbenutzers* zur Authentifizierung bei Power BI ersetzen.
 
-**Kapazität**: Eine Reihe von Ressourcen, die ausschließlich zur Ausführung des Power BI-Diensts verwendet werden. [Power BI Premium-Kapazitäten](../service-premium.md): Für Unternehmen, die Power BI intern verwenden, während [Power BI Embedded-Kapazitäten](azure-pbie-create-capacity.md) für Anwendungsentwickler bestimmt sind, die SaaS-Anwendungen für Drittanbieter entwickeln möchten.
+**Kapazität**: Eine Reihe von Ressourcen, die ausschließlich zur Ausführung des Power BI-Diensts verwendet werden. [Power BI Premium-Kapazitäten](../service-premium-what-is.md): Für Unternehmen, die Power BI intern verwenden, während [Power BI Embedded-Kapazitäten](azure-pbie-create-capacity.md) für Anwendungsentwickler bestimmt sind, die SaaS-Anwendungen für Drittanbieter entwickeln möchten.
 
-**[Power BI Pro-Lizenz](../service-admin-purchasing-power-bi-pro.md)**: Eine benutzerbasierte Lizenz, die Rechte zum Veröffentlichen von Inhalten in App-Arbeitsbereichen, zum Nutzen von Apps ohne Premium-Kapazität, zum Freigeben von Dashboards und zum Abonnieren von Dashboards und Berichten erteilt.
+**[Power BI Pro-Lizenz](../service-admin-purchasing-power-bi-pro.md)** : Eine benutzerbasierte Lizenz, die Rechte zum Veröffentlichen von Inhalten in App-Arbeitsbereichen, zum Nutzen von Apps ohne Premium-Kapazität, zum Freigeben von Dashboards und zum Abonnieren von Dashboards und Berichten erteilt.
 
-**[Datenkonnektivitätsmodi](../desktop-directquery-about.md)**: Die Verbindung zwischen Datenquellen und Power BI kann in verschiedenen Modi hergestellt werden:
+**[Datenkonnektivitätsmodi](../desktop-directquery-about.md)** : Die Verbindung zwischen Datenquellen und Power BI kann in verschiedenen Modi hergestellt werden:
 
    * Import: Dies ist die gängigste Methode zum Abrufen von Daten.
    * DirectQuery: Hiermit stellen Sie eine direkte Verbindung mit den Daten im zugehörigen Quellrepository her.
@@ -142,9 +142,9 @@ Um zusätzliche Isolation hinzuzufügen, kann ein Anwendungsentwickler einen *Ma
 
 ### <a name="scalability"></a>Skalierbarkeit
 
-Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, [können nicht verwendete Datasets entfernt werden](../service-premium-understand-how-it-works.md), um Arbeitsspeicher für aktive Datasets freizugeben. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden.
+Ein Vorteil dieses Modells ist, dass durch diese Trennung der Daten in mehrere Datasets für jeden Mandanten die [Größenbeschränkungen für ein einzelnes Dataset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (derzeit 10 GB in einer Kapazität) nicht mehr zum Tragen kommen. Wenn die Kapazität überladen ist, können sie nicht verwendete Datasets zum Freigeben von Arbeitsspeicher für aktiver Datasets entfernen. Diese Aufgabe ist mit einem großen Dataset nicht möglich. Durch die Verwendung mehrerer Datasets können Mandanten bei Bedarf auch in mehrere Power BI-Kapazitäten getrennt werden.
 
-Trotz dieser Vorteile ist die Skalierung zu berücksichtigen, die die SaaS-Anwendung in der Zukunft erreichen kann. Beispielsweise stößt man möglicherweise auf Grenzen in Bezug auf die Anzahl der Artefakte, die verwaltet werden können. Weitere Details zu [Beschränkungen](#summary-comparison-of-the-different-approaches) bei der Bereitstellung finden Sie weiter unten in diesem Artikel. Durch die verwendete Kapazitäts-SKU wird eine Begrenzung für folgende Größen eingeführt: die Größe des Arbeitsspeichers, den die Datasets einnehmen dürfen, [die Anzahl von Aktualisierungen, die gleichzeitig ausgeführt werden können](../service-premium-understand-how-it-works.md), sowie die maximale Häufigkeit von Datenaktualisierungen. Wenn Hunderte oder Tausende von Datasets verwaltet werden, empfiehlt es sich, Tests durchzuführen. Es wird außerdem empfohlen, die durchschnittliche und die maximale Nutzungsmenge zu berücksichtigen sowie spezifische Mandanten mit großen Datasets oder unterschiedlichen Verwendungsmustern, die anders als andere Mandanten verwaltet werden.
+Trotz dieser Vorteile ist die Skalierung zu berücksichtigen, die die SaaS-Anwendung in der Zukunft erreichen kann. Beispielsweise stößt man möglicherweise auf Grenzen in Bezug auf die Anzahl der Artefakte, die verwaltet werden können. Weitere Details zu [Beschränkungen](#summary-comparison-of-the-different-approaches) bei der Bereitstellung finden Sie weiter unten in diesem Artikel. Die Kapazität, die SKU verwendet, führt eine Begrenzung der Größe des Arbeitsspeichers, der Datasets, in wie viele Aktualisierungen werden, auf der gleichen Zeit und die maximale Häufigkeit von datenaktualisierungen ausgeführt können eingepasst werden müssen. Wenn Hunderte oder Tausende von Datasets verwaltet werden, empfiehlt es sich, Tests durchzuführen. Es wird außerdem empfohlen, die durchschnittliche und die maximale Nutzungsmenge zu berücksichtigen sowie spezifische Mandanten mit großen Datasets oder unterschiedlichen Verwendungsmustern, die anders als andere Mandanten verwaltet werden.
 
 ### <a name="automation--operational-complexity"></a>Automatisierung und Komplexität des Betriebs
 
@@ -245,17 +245,17 @@ Während Endbenutzer Berichte bearbeiten oder erstellen, können sie das mehrins
 
 **Aspekte und Einschränkungen der Power BI-Kapazität:**
 
-* Jede Kapazität kann nur den Speicher und die virtuellen Kerne verwenden, die gemäß der [erworbenen SKU](../service-premium.md) zugewiesen wurden.
-* Informationen zur empfohlenen Datasetgröße für die einzelnen SKUs finden Sie unter [Unterstützung für große Datasets in Power BI Premium](../service-premium-large-datasets.md).
+* Jede Kapazität kann nur den Speicher und die virtuellen Kerne verwenden, die gemäß der [erworbenen SKU](../service-premium-what-is.md) zugewiesen wurden.
+* Informationen zur empfohlenen Datasetgröße für die einzelnen SKUs finden Sie unter [Unterstützung für große Datasets in Power BI Premium](../service-premium-what-is.md#large-datasets).
 * Die maximale Datasetgröße in einer dedizierten Kapazität beträgt 10 GB.
 * Die Anzahl der geplanten Aktualisierungen für ein Dataset im *Importmodus* beträgt 48 pro Tag.
 * Der Zeitraum zwischen geplanten Aktualisierungen für ein Dataset im *Importmodus* beträgt 30 Minuten.
-* Die Anzahl von Aktualisierungen, die für eine Kapazität gleichzeitig ausgeführt werden können, finden Sie unter [Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource](../service-premium-understand-how-it-works.md).
+* Die Anzahl von Aktualisierungen, die für eine Kapazität gleichzeitig ausgeführt werden können, finden Sie unter [Verwaltung und Optimierung der Microsoft Power BI Premium-Kapazitätsressource](../service-premium-what-is.md#capacity-nodes).
 * Die Skalierung einer Kapazität dauert im Durchschnitt zwischen 1 und 2 Minuten. Während dieses Zeitraums ist die Kapazität nicht verfügbar. Es wird empfohlen, einen Ansatz für horizontales Skalieren zu verwenden, um [Downtime zu vermeiden](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 * [Embedded Analytics mit Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [Sicherheit auf Zeilenebene](embedded-row-level-security.md)

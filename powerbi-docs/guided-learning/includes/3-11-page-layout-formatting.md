@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396841"
+---
 In Power BI Desktop haben Sie die Möglichkeit, das Layout und die Formatierung von Berichtseiten, z. B. die Größe oder Ausrichtung, festzulegen.
 
 Die Skalierung von Berichtseiten können Sie auf der Registerkarte „Start“ im Menü **Seitenansicht** anpassen. Verfügbare Optionen sind **An Seite anpassen** (Standardoption), **An Breite anpassen** und **Tatsächliche Größe**.

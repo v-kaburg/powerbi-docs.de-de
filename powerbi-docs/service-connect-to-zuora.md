@@ -11,11 +11,11 @@ ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008601"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156989"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Herstellen einer Verbindung mit Zuora mithilfe von Power BI
 Mit Zuora für Power BI können Sie wichtige Umsatzerlös-, Abrechnungs- und Abonnementdaten visuell darstellen. Verwenden Sie die standardmäßigen Dashboards und Berichte, um Nutzungstrends zu analysieren, Abrechnungen und Zahlungen nachzuverfolgen und wiederkehrende Umsatzerlöse zu überwachen, oder passen Sie sie an Ihre eigenen Anforderungen an Dashboards und Berichte an.

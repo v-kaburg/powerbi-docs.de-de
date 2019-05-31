@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 78e5ba4edc84e7dabef17d608c938adc4693145d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396811"
+---
 Wasserfall- und Trichterdiagramme sind zwei der interessanteren (und vielleicht ungewöhnlicheren) Standardvisualisierungen, die in Power BI enthalten sind. Um ein leeres Diagramm von einem dieser Typen zu erstellen, wählen Sie im Bereich **Visualisierungen** das entsprechende Symbol aus.
 
 ![](media/3-8-create-waterfall-funnel-charts/3-8_1.png)

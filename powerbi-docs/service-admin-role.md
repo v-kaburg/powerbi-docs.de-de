@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382804"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099638"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Grundlegendes zur Rolle „Power BI-Dienstadministrator“
 
@@ -39,7 +39,7 @@ Die Rolle „Power BI-Dienstadministrator“ bietet keine Berechtigungen für di
 
 Führen Sie folgende Schritte aus, um Benutzern im Microsoft 365 Admin Center die Rolle des Power BI-Dienstadministrators zuzuweisen.
 
-1. Rufen Sie im Microsoft 365 Admin Center **Benutzer** > **Aktive Benutzer** auf.
+1. In der [Microsoft 365 Administrationscenter](https://portal.office.com/adminportal/home#/homepage)Option **Benutzer** > **aktive Benutzer**.
 
     ![Microsoft 365 Admin Center](media/service-admin-role/powerbi-admin-users.png)
 
@@ -57,13 +57,18 @@ Führen Sie folgende Schritte aus, um Benutzern im Microsoft 365 Admin Center di
 
 Daraufhin sollte für den Benutzer **Power BI-Dienstadministrator** als Rolle aufgeführt werden.
 
-![anzeigen](media/service-admin-role/powerbi-admin-role-set.png)
+![Rollen](media/service-admin-role/powerbi-admin-role-set.png)
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Zuweisen von Benutzern zur Administratorrolle mit PowerShell
 
 Sie können auch PowerShell verwenden, um Benutzer zu Rollen zuzuweisen. Benutzer werden in Azure Active Directory (Azure AD) verwaltet. Wenn Sie noch nicht über das Azure AD-PowerShell-Modul verfügen, [laden Sie die neueste Version herunter, und installieren Sie sie](https://www.powershellgallery.com/packages/AzureAD/).
 
-1. Rufen Sie zuerst die **ObjectId** für die Rolle **Power BI-Dienstadministrator** ab. Sie können den Befehl [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) ausführen, um die **ObjectId** abzurufen.
+1. Zunächst eine Verbindung mit Azure AD:
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. Zweitens: Abrufen der **ObjectId** für die **Power BI-Dienstadministrator** Rolle. Sie können den Befehl [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) ausführen, um die **ObjectId** abzurufen.
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ Sie können auch PowerShell verwenden, um Benutzer zu Rollen zuzuweisen. Benutze
 1. Rufen Sie als Nächstes die **ObjectId** des Benutzers ab. Diese können Sie mit dem Befehl [Get-AzureADUser](/powershell/module/azuread/get-azureaduser) ermitteln.
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

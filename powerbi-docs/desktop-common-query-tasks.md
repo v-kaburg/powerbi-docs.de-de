@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239444"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Allgemeine Abfrageaufgaben in Power BI Desktop

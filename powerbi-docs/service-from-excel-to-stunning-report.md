@@ -11,11 +11,11 @@ ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290391"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139645"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 Ihre Vorgesetzte möchte bis zum Ende des Arbeitstages von Ihnen einen Bericht über die aktuellen Verkaufszahlen in Verbindung mit den Eindrücken der letzten Kampagne angefertigt bekommen. Die neuesten Daten befinden sich jedoch in verschiedenen Systemen von Drittanbietern und in Dateien auf Ihrem Laptop. Bisher hat es Stunden gedauert, Visualisierungen zu erstellen und einen Bericht zu formatieren. Sie werden langsam unruhig.

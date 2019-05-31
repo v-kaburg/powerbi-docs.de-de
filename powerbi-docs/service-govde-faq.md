@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295855"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514829"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Häufig gestellte Fragen zu Power BI für Kunden der Microsoft Cloud Deutschland
 Der **Power BI-Dienst** verfügt über eine Version für Kunden in der Europäischen Union/Europäischen Freihandelszone (EU/EFTA), die häufig auch als Microsoft Cloud Deutschland (MCD) bezeichnet wird. Die in diesem Artikel vorgestellte Version des **Power BI-Diensts** ist speziell für Kunden in der EU/EFTA konzipiert. Es handelt sich hierbei um ein eigenes, von der kommerziellen Version des **Power BI-Diensts** und von den Power BI-Diensten für Kunden in Behörden abweichendes Produkt.
@@ -32,10 +32,10 @@ Die folgenden Fragen und Antworten bieten wichtige Informationen für den Power 
    Der Power BI-Dienst für Kunden in der EU/EFTA, auch als Microsoft Cloud Deutschland (MCD) bezeichnet, ist eine mit Bestimmungen der EU/EFTA konforme Cloud, wobei der Power BI-Dienst über deutsche Datencenter bereitgestellt wird. Alle ruhenden Kundendaten im Power BI-Dienst für die EU/EFTA-Cloud sind in Deutschland gespeichert. Dabei fungiert T-Systems als unabhängiger deutscher Datentreuhänder, und der physische und logische Zugriff auf die Daten unterliegt deutschem Recht. Der Power BI-Dienst für die EU/EFTA-Cloud erfordert ein anderes Konto als die kommerzielle Version des Power BI-Diensts. Weitere Informationen über Microsoft Cloud Deutschland finden Sie [hier](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud).
 2. **Wo finde ich Preis- und Anmeldeinformationen für Power BI in der Microsoft Cloud Deutschland?**
    
-   Auf der [Homepage von Microsoft Power BI Deutschland](https://powerbi.microsoft.com/power-bi-germany/) finden Sie viele Informationen, einschließlich Informationen zu den Preisen. Auf dieser Seite finden Sie auch einen Link zur Registrierung für eine 30-Tage-Testversion des **Power BI Pro-Diensts** mit 25 Benutzerlizenzen. Bei der Registrierung für die Testversion haben Sie die Möglichkeit, nach Bedarf zusätzliche Lizenzen zu kaufen oder hinzuzufügen. Wir bieten auch EA-Preise (Enterprise Agreement), Behördenpreise und Preise für gemeinnützige Organisationen. Weitere Informationen erhalten Sie von Ihrem Microsoft-Kundenbetreuer.
+   Auf der [Homepage von Microsoft Power BI Deutschland](https://powerbi.microsoft.com/power-bi-germany/) finden Sie viele Informationen, einschließlich Informationen zu den Preisen. Auf dieser Seite finden Sie auch einen Link zur Registrierung für **Power BI Pro-Dienst** 30-Tage-Testversion mit 25 Benutzerlizenzen. Im Rahmen der Testversion registrieren müssen Sie eine Option zum Erwerb oder nach Bedarf weitere Lizenzen hinzufügen. Wir bieten auch EA-Preise (Enterprise Agreement), Behördenpreise und Preise für gemeinnützige Organisationen. Weitere Informationen erhalten Sie bei Ihrem Microsoft-Kundenbetreuer.
 3. **Ich habe einen Microsoft Cloud Deutschland-Mandanten im Rahmen von Azure Deutschland- und/oder Office 365 Deutschland-Abonnements. Kann ich mich mit einem vorhandenen Mandanten bei Power BI Deutschland registrieren?**
    
-   Ja. Sie können sich bei der Registrierung mit dem Administratorkonto eines vorhandenen Microsoft Cloud Deutschland-Mandanten anmelden und dem vorhandenen Mandanten in der Microsoft Cloud Deutschland die Lizenzen für den Power BI Pro-Dienst hinzufügen. Bitte beachten Sie, dass Microsoft Cloud Deutschland-Mandanten und -Benutzerkonten sich von den Mandanten und Benutzerkonten des Power BI-Diensts für die Microsoft Cloud Deutschland unterscheiden.
+   Ja. Sie können sich bei der Registrierung mit dem Administratorkonto eines vorhandenen Microsoft Cloud Deutschland-Mandanten anmelden und dem vorhandenen Mandanten in der Microsoft Cloud Deutschland die Lizenzen für den Power BI Pro-Dienst hinzufügen. Beachten Sie, dass Microsoft Cloud Deutschland-Mandanten und Benutzerkonten sich von Power BI-Dienst für Microsoft Cloud Deutschland unterscheiden.
 4. **Gibt es einen kostenlosen Dienst im Power BI-Dienst für die Microsoft Cloud Deutschland?**
    
    Nein. Wir bieten im Power BI-Dienst für die Microsoft Cloud Deutschland keine kostenlosen Lizenzversionen. Wir empfehlen Ihnen jedoch, sich für [Power BI Free in unserer öffentlichen Cloud](https://powerbi.microsoft.com/get-started/) zu registrieren, wenn sich Ihre geschäftlichen Anforderungen mit Power BI Free erfüllen lassen.
@@ -45,7 +45,7 @@ Die folgenden Fragen und Antworten bieten wichtige Informationen für den Power 
    
    * [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
    * [Power BI – Mobilgeräte](https://powerbi.microsoft.com/mobile/)
-   * [Lokales Datengateway](https://powerbi.microsoft.com/gateway/)
+   * [On-premises data gateway (Lokales Datengateway)](https://powerbi.microsoft.com/gateway/)
    * [Power BI Publisher für Excel](https://powerbi.microsoft.com/excel-dashboard-publisher/)
 6. **Gibt es Einschränkungen der Features des Power BI-Diensts für die Microsoft Cloud Deutschland?**
    
@@ -56,7 +56,7 @@ Die folgenden Fragen und Antworten bieten wichtige Informationen für den Power 
    * Power BI Embedded (getrennt getaktete ISV-Lizenzen, wird in der Zukunft über [Microsoft Azure Deutschland](https://azure.microsoft.com/overview/clouds/germany/) angeboten)
 7. **Wo finde ich Informationen zum Konfigurieren des Power BI-Diensts für die Microsoft Cloud Deutschland zur Verwendung und Integration in meinen Anwendungen?**
    
-   Wir haben unsere [SaaS-Einbettungsbeispiele für Entwickler](https://github.com/Microsoft/PowerBI-Developer-Samples) mit Konfigurationsinformationen für die Microsoft Cloud Deutschland und andere spezielle Power BI-Clouds aktualisiert. Beachten Sie in den Beispielen für cloudspezifische Konfigurationsendpunkte den Ordner **CloudConfigs**. In der folgenden Tabelle werden verschiedene Konfigurationsendpunkte für den Power BI-Dienst für die Microsoft Cloud Deutschland (und zum Vergleich die öffentliche Cloud) aufgeführt.
+   Wir haben unsere [SaaS-Einbettungsbeispiele für Entwickler](https://github.com/Microsoft/PowerBI-Developer-Samples) mit Konfigurationsinformationen für die Microsoft Cloud Deutschland und andere spezielle Power BI-Clouds aktualisiert. Sehen Sie sich die **Cloudkonfigurationen** Ordner in den Beispielen für cloudspezifische konfigurationsendpunkte. In der folgenden Tabelle werden verschiedene Konfigurationsendpunkte für den Power BI-Dienst für die Microsoft Cloud Deutschland (und zum Vergleich die öffentliche Cloud) aufgeführt.
 
 | **Endpunktname und/oder -verwendung** | **URL des Power BI-Diensts für die Microsoft Cloud Deutschland** | **Entsprechende URL in der öffentlichen Cloud (zum Vergleich)** |
 | --- | --- | --- |

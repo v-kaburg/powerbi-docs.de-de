@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292040"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222264"
 ---
 # <a name="conditional-formatting-in-tables"></a>Bedingte Formatierung in Tabellen 
 Mithilfe der bedingten Formatierung für Tabellen können Sie benutzerdefinierte Zellenfarben basierend auf Zellwerten oder auf anderen Werten oder Feldern festlegen und Verlaufsfarben verwenden. Sie können auch Zellwerte mit Datenbalken darstellen. 
@@ -129,6 +129,12 @@ Dadurch werden beispielsweise Ergebnisse wie die folgende Matrix angezeigt.
 ![Matrixvisual mit auf KPI-Wert basierender Farbe](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Mithilfe von DAX und etwas Kreativität können Sie viele weitere Varianten erstellen.
+
+Können Sie die Werte aufgeführt, die in der Spezifikation für CSS-Farbe am [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) , auf die Farbe der visuellen Elemente:
+* 3, 6 oder 8 Ziffern hexadezimal-codes z. B. #3E4AFF. Stellen Sie sicher, dass Sie das Symbol "#" am Anfang des Codes enthalten. "3E4AFF" wird nicht akzeptiert. 
+* RGB- oder RGBA-Werte z. B. RGBA ("234", "234", "234", "0.5")
+* HSL- oder HSLA-Werte z. B. HSLA (123, 75 %, 75 %, 0.5)
+* Farbe Namen, z. B. grün SkyBlue, PeachPuff 
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen finden Sie im folgenden Artikel:  

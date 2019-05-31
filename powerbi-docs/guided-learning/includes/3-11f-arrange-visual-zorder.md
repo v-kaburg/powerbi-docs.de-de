@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2019376373268ff57802525ba5b7ee6b7a8ff32e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396894"
+---
 Wenn ein Bericht zahlreiche Elemente umfasst, können Sie in Power BI festlegen, wie diese Elemente einander überlappen. Die Art und Weise, wie Elemente einander überlappen oder übereinander angeordnet sind, wird häufig als „Z-Reihenfolge“ bezeichnet.
 
 Um die Z-Reihenfolge der Elemente in einem Bericht zu verwalten, wählen Sie ein Element aus und verwenden die Schaltfläche **Anordnen** auf der Registerkarte **Start** des Menübands, um seine Z-Reihenfolge zu ändern.

@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275753"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187748"
 ---
 # <a name="combo-chart-in-power-bi"></a>Kombinationsdiagramm in Power BI
 Ein Kombinationsdiagramm in Power BI ist eine einzelne Visualisierung, die ein Liniendiagramm und ein Säulendiagramm kombiniert. Die Kombination von zwei Diagrammen in einem ermöglicht einen schnelleren Vergleich von Daten.
@@ -52,7 +52,7 @@ In diesem Video sehen Sie, wie ein Kombinationsdiagramm anhand des Beispiels fü
 
     b.  Ziehen Sie **Vertrieb** \>**Bruttogewinn in diesem Jahr** in den Bereich **Wert**.
 
-    c.  Wählen Sie **Zeit** \> **Geschäftsmonat** aus, um den Wert dem Bereich **Achse** hinzuzufügen.
+    c. Wählen Sie **Zeit** \> **Geschäftsmonat** aus, um den Wert dem Bereich **Achse** hinzuzufügen.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Klicken Sie erst auf die Auslassungspunkte (...) in der rechten oberen Ecke der Visualisierung und dann auf **Sortieren nach > FiscalMonth**. Wenn Sie die Sortierreihenfolge ändern möchten, klicken Sie erst erneut auf die Auslassungspunkte und anschließend auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
@@ -71,7 +71,7 @@ In diesem Video sehen Sie, wie ein Kombinationsdiagramm anhand des Beispiels fü
 ## <a name="create-a-combo-chart-with-two-axes"></a>Erstellen eines Kombinationsdiagramms mit zwei Achsen
 In dieser Aufgabe vergleichen wir Bruttogewinn und Umsätze.
 
-1. Erstellen Sie ein neues Liniendiagramm, das den **Bruttogewinn in Prozent im letzten Jahr** nach **Monaten** nachverfolgt. Klicken Sie auf die Auslassungspunkte, um **Aufsteigend** nach **Monat** zu sortieren.  
+1. Erstellen Sie ein neues Liniendiagramm, das nachverfolgt **Bruttogewinn % Vorjahr** von **Geschäftsmonat**. Klicken Sie auf die Auslassungspunkte, um **Aufsteigend** nach **Monat** zu sortieren.  
 Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im April lag bei 45 %, im Juli fiel der Wert, und im August erreichte er wieder einen Spitzenwert. Sehen wir ein ähnliches Muster bei den Umsätzen im letzten und in diesem Jahr?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ Im Januar lag der Prozentsatz des Bruttogewinns bei 35 %, der Höchststand im A
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Ziehen Sie **Bruttogewinn % Vorjahr** aus **Spaltenwerte** in **Zeilenwerte**. Power BI erstellt zwei Achsen, sodass die Datasets anders skaliert werden können. Die linke Achse gibt den Dollarbetrag der Umsätze an, die rechte Achse die Prozentzahl. Und hier sehen Sie die Antwort auf unsere Frage: Ja, wir sehen ein ähnliches Muster.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Hinzufügen von Titeln zu den Achsen
 1. Wählen Sie das Farbrollersymbol ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) aus, um den Formatierungsbereich zu öffnen.
 2. Wählen Sie den Pfeil nach unten aus, um die Optionen für die **Y-Achse** zu erweitern.
-3. Nehmen Sie für **Y-Achse (Spalte)** die folgenden Einstellungen vor: Wählen Sie für **Position** die Option **Links**, für **Titel** die Option **Ein**, für **Stil** die Option **Nur Titel anzeigen** und für **Anzeigen** die Option **Millionen**.
+3. Für **Y-Achse (Spalte)** legen **Position** zu **Links**legen **Titel** zu **auf**,  **Stil** zu **nur Titel anzeigen**, und **Anzeigeeinheiten** als **Millionen**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. Scrollen Sie unter **Y-Achse (Spalte)** nach unten, und stellen Sie sicher, dass für **Sekundäre anzeigen** die Option **Ein** festgelegt ist. Dadurch werden für den Liniendiagrammanteil des Kombinationsdiagramms Formatierungsoptionen angezeigt.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. Klicken Sie unter **Y-Achse (Spalte)** , scrollen Sie nach unten, bis Sie sehen **sekundäre anzeigen**. Da so viele Optionen für die y-Achsen sind, müssen Sie möglicherweise sowohl Bildlaufleisten verwendet. Der sekundäre anzeigen-Abschnitt zeigt Optionen zur Formatierung von des liniendiagrammanteil des kombinationsdiagramms.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
 5. Unter **Y-Achse (Linie)** ist für **Position** bereits die hier benötigte Option **Rechts** aktiviert. Stellen Sie **Titel**  auf **Ein**, und wählen Sie für **Stil** die Option **Nur Titel anzeigen**.
 
    Das Kombinationsdiagramm verfügt nun über zwei Y-Achsen mit jeweils eigenem Titel.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. Optional können Sie die Schriftart, den Schriftgrad und die Farbe des Texts ändern und weitere Formatierungsoptionen festlegen, um die Darstellung und Lesbarkeit des Diagramms zu verbessern.
 

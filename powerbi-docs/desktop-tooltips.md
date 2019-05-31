@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514523"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Erstellen von QuickInfos basierend auf Berichtsseiten in Power BI Desktop
@@ -27,7 +27,7 @@ Sie können beliebig viele QuickInfo-Seiten erstellen. Jede QuickInfo-Seite kann
 QuickInfos für Berichte bieten Ihnen viele interessante Möglichkeiten. Erfahren Sie im folgenden Abschnitt, wie Sie QuickInfos erstellen und konfigurieren.
 
 ## <a name="create-a-report-tooltip-page"></a>Erstellen einer QuickInfo-Berichtsseite
-Klicken Sie zunächst auf die **+**-Schaltfläche am unteren Rand des **Power BI Desktop**-Zeichenbereichs im Bereich der Seiten-Registerkarten, um eine neue Berichtsseite zu erstellen. Die Schaltfläche befindet sich neben der letzten Seite des Berichts. 
+Klicken Sie zunächst auf die **+** -Schaltfläche am unteren Rand des **Power BI Desktop**-Zeichenbereichs im Bereich der Seiten-Registerkarten, um eine neue Berichtsseite zu erstellen. Die Schaltfläche befindet sich neben der letzten Seite des Berichts. 
 
 ![Erstellen einer neuen Berichtsseite für die QuickInfo](media/desktop-tooltips/desktop-tooltips_02.png)
 

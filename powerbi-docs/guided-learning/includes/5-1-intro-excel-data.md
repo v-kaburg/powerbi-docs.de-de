@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271376"
+---
 Willkommen im Abschnitt **Power BI und Excel** im Kurs **Geführtes Lernen** für Power BI.
 
 Mit hoher Wahrscheinlichkeit haben Sie bereits mit **Excel** gearbeitet. Vielleicht haben Sie Excel verwendet, um Berichte zu erstellen oder anzuzeigen oder um Kreisdiagramme oder andere visuelle Elemente zu erstellen. Möglicherweise haben Sie auch **Power Pivot** oder **Power Query** zum Erstellen von Lösungen verwendet, die technisch etwas anspruchsvoller waren. Wenn dies der Fall ist, wird Ihnen Power BI gleich vertraut vorkommen. Und Ihre Arbeitsmappen können Sie nahtlos integrieren.
