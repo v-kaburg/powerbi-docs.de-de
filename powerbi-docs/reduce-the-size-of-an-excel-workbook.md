@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282262"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972610"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduzieren der Größe einer Excel-Arbeitsmappe für die Anzeige in Power BI
 Sie können jede Excel-Arbeitsmappe, die kleiner als 1 GB ist, in Power BI hochladen. Eine Excel-Arbeitsmappe kann aus zwei Teilen bestehen: einem Datenmodell und dem Rest des Berichts – den Arbeitsblatt-Kerninhalten. Wenn der Bericht die folgenden Größenanforderungen erfüllt, können Sie ihn auf **OneDrive for Business** speichern, von Power BI aus eine Verbindung damit herstellen und ihn in Excel Online anzeigen:
@@ -51,8 +51,8 @@ Beachten Sie diese Tipps, wenn Sie Daten in Excel importieren:
 * **In Power Query**: Deaktivieren Sie das Kontrollkästchen **In Arbeitsblatt laden**.
   
   Die Daten werden nur in das Datenmodell importiert, ohne Daten in Excel-Arbeitsblättern.
-* **Auf der Registerkarte „Excel-Daten“**, falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben: Wechseln Sie zu **Vorhandene Verbindungen**, klicken Sie auf die Verbindung, und wählen Sie **Nur Verbindung erstellen**. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
-* **Auf der Registerkarte „Excel-Daten“**: Achten Sie darauf, dass die Option **Tabelle** im Feld **Daten importieren** nicht aktiviert ist.
+* **Auf der Registerkarte „Excel-Daten“** , falls Sie im Import-Assistenten die Option **Tabelle** aktiviert haben: Wechseln Sie zu **Vorhandene Verbindungen**, klicken Sie auf die Verbindung, und wählen Sie **Nur Verbindung erstellen**. Löschen Sie die ursprünglichen Tabellen, die Sie während des ersten Importvorgangs erstellt haben.
+* **Auf der Registerkarte „Excel-Daten“** : Achten Sie darauf, dass die Option **Tabelle** im Feld **Daten importieren** nicht aktiviert ist.
 
 ## <a name="workbook-size-optimizer"></a>Workbook Size Optimizer
 Wenn die Arbeitsmappe ein Datenmodell enthält, können Sie den Workbook Size Optimizer ausführen, um die Größe Ihrer Arbeitsmappe zu verringern. [Workbook Size Optimizer herunterladen](https://www.microsoft.com/download/details.aspx?id=38793).

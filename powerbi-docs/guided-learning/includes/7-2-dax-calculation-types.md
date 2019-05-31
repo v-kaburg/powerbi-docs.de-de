@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273383"
+---
 Es gibt zwei primäre Berechnungen, die Sie mithilfe von DAX erstellen können:
 
 * **Berechnete Spalten**
@@ -32,7 +40,7 @@ Sie können berechnete Spalten in Power BI Desktop erstellen, indem Sie **New Co
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 
-Sobald Sie die Schaltfläche **New Column** (Neue Spalte) auswählen, wird die**Bearbeitungsleiste** mit einem Standardspaltennamen (den Sie natürlich so verändern, dass er zu Ihrer Formel passt) und dem **=**-Operator aufgefüllt, und die neue Spalte erscheint im Datenraster, wie im folgenden Bild gezeigt.
+Sobald Sie die Schaltfläche **New Column** (Neue Spalte) auswählen, wird die**Bearbeitungsleiste** mit einem Standardspaltennamen (den Sie natürlich so verändern, dass er zu Ihrer Formel passt) und dem **=** -Operator aufgefüllt, und die neue Spalte erscheint im Datenraster, wie im folgenden Bild gezeigt.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_3.png)
 

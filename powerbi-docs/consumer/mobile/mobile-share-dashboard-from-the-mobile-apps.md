@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283665"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274438"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Freigeben eines Dashboards oder Berichts in den mobilen Power BI-Apps
 Gilt für:
@@ -23,7 +23,7 @@ Gilt für:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-Telefone |Android-Tablets |Windows 10-Geräte |
 
-Mit einer [Power BI Pro-Lizenz](../../service-features-license-type.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../service-premium.md) handeln.
+Mit einer [Power BI Pro-Lizenz](../../service-features-license-type.md) können Sie andere Personen dazu einladen, sich Ihre Dashboards und Berichte anzusehen, indem Sie Links aus der mobilen Power BI-App freigeben. Sie können diese mit jedem teilen, unabhängig davon, ob die Person sich innerhalb oder außerhalb Ihrer Organisation befindet und ob sie ein Firmen-E-Mail-Konto hat oder nicht. Sie benötigen ebenfalls Power BI Pro-Lizenzen, oder es muss sich um Inhalte in einer [Premium-Kapazität](../../service-premium-what-is.md) handeln.
 
 Aus den mobilen Power BI-Apps für iOS und Android können Sie auch [eine Momentaufnahme einer Kachel, eines Berichts oder einer Visualisierung mit Anmerkungen versehen und freigeben](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md). 
 

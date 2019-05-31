@@ -1,20 +1,20 @@
 ---
 title: 'Tutorial: Erkunden von Power BI-Berichtsserver auf einem virtuellen Computer'
 description: In diesem Tutorial erstellen Sie einen virtuellen Computer, auf dem Power BI-Berichtsserver bereits installiert ist, und erkunden das Webportal.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325080"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240079"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Erkunden des Power BI-Berichtsserver-Webportals auf einem virtuellen Computer
 In diesem Tutorial erstellen Sie einen virtuellen Azure-Computer mit bereits installiertem Power BI-Berichtsserver, sodass Sie das Anzeigen, Bearbeiten und Verwalten von Power BI-Beispielberichten und paginierten Berichten sowie KPIs üben können.
@@ -37,32 +37,38 @@ Für dieses Tutorial benötigen Sie ein Azure-Abonnement. Wenn Sie noch keins be
 
 Das Power BI-Team hat einen virtuellen Computer erstellt, auf dem Power BI-Berichtsserver bereits installiert ist.
 
-1. Öffnen Sie [Power BI-Berichtsserver](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview) im Azure Marketplace.  
+1. Wählen Sie im Azure Marketplace Power BI-Berichtsserver. Dieser Link öffnet er direkt aus: [Power BI-Berichtsserver](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. Wählen Sie **Jetzt anfordern** aus.
 3. Um den Nutzungsbedingungen und der Datenschutzrichtlinie des Anbieters zuzustimmen, klicken Sie auf **Fortfahren**.
 
-    ![Erstellen eines virtuellen Computers mit Power BI-Berichtsserver](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. Wählen Sie **Erstellen** aus.
 
-4. Geben Sie in **Schritt 1 – Grundlagen** **reportservervm** als **VM-Name** ein.
+    ![Erstellen eines virtuellen Computers mit Power BI-Berichtsserver](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. In **Schritt 1 Grundlagen**, für die **Name des virtuellen Computers**, nenne **Reportservervm**.
+
+    Der Power BI Report Server-VM-Name darf keine Bindestriche enthalten.
 
 5. Erstellen Sie einen Benutzername und ein Kennwort.
 
-6. Wählen Sie unter **Ressourcengruppe** die Option **Neu erstellen** aus, und geben Sie den Namen **reportserverresourcegroup** ein.
+6. Für **Ressourcengruppe**Option **neu erstellen**, und nennen Sie sie **Reportserverresourcegroup** > **OK**.
 
     Wenn Sie mehrmals das Tutorial durchlaufen, müssen Sie der Ressourcengruppe nach dem ersten Mal einen anderen Namen geben. Sie können denselben Ressourcengruppennamen nicht zweimal in einem Abonnement verwenden. 
 
-7. Behalten Sie die anderen Standardwerte bei, und klicken Sie auf **OK**.
-
     ![Benennen des virtuellen Computers und der Ressourcengruppe](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. Behalten Sie in **Schritt 2 – Einstellungen** die Standardwerte bei, und klicken Sie auf **OK**.
+7. Behalten Sie die anderen Standardwerte bei, und klicken Sie auf **OK**.
 
-9. Klicken Sie in **Schritt 3 – Zusammenfassung** auf **OK**.
+8. In **Schritt 2 Einstellungen**, behalten Sie die Standardwerte > **OK**.
+ 
+    Die **SQL-Speicherkonto** und **-Diagnose-Speicherkonto** Werte müssen außerdem eindeutig sein. Wenn Sie mehr als einmal mit dem Tutorial wechseln, müssen Sie ihnen unterschiedliche Namen geben.
 
-10. Lesen Sie in **Schritt 4** die Nutzungsbedingungen und die Datenschutzrichtlinie, und klicken Sie auf **Erstellen**.
+9. In **Schritt 3 Zusammenfassung**, überprüfen Sie Ihre Auswahl > **OK**.
 
-    Der Prozess **Bereitstellung für Power BI-Berichtsserver wird übermittelt** dauert einige Minuten.
+10. In **kaufen Sie Schritt 4**, überprüfen Sie die Bedingungen der Richtlinie für Benutzer und Datenschutz > **erstellen**.
+
+    Die **Bereitstellung für Power BI-Berichtsserver** Prozess kann einige Minuten dauern.
 
 ## <a name="connect-to-your-virtual-machine"></a>Herstellen einer Verbindung mit dem virtuellen Computer
 
@@ -78,11 +84,13 @@ Das Power BI-Team hat einen virtuellen Computer erstellt, auf dem Power BI-Beric
 
     ![Herstellen einer Verbindung mit dem virtuellen Computer](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. Klicken Sie im Dialogfeld „Remotedesktopverbindung“ auf **Verbinden**.
+5. In der **Herstellen einer Verbindung mit dem virtuellen Computer** Bereich behalten Sie die Standardwerte, und wählen Sie **RDP-Datei herunterladen**.
+
+1. In der **Remotedesktopverbindung** wählen Sie im Dialogfeld **Connect**.
 
 6. Geben Sie den Namen und das Kennwort ein, den bzw. das Sie für den virtuellen Computer erstellt haben, und klicken Sie auf **OK**.
 
-7. Das nächste Dialogfeld informiert darüber, dass die Identität des Remotecomputers nicht identifiziert werden kann. Klicken Sie auf **OK**.
+7. Im nächste Dialogfeld sagt **die Identität des Remotecomputers kann nicht identifiziert werden**. Klicken Sie auf **OK**.
 
    Voilà! Ihr neuer virtueller Computer wird geöffnet.
 
@@ -90,15 +98,15 @@ Das Power BI-Team hat einen virtuellen Computer erstellt, auf dem Power BI-Beric
 
 Wenn der virtuelle Computer geöffnet wird, werden auf dem Desktop folgende Elemente angezeigt.
 
-![Virtueller Computer mit Power BI-Berichtsserver nach dem Start](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![Virtueller Computer mit Power BI-Berichtsserver nach dem Start](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |Zahl  |Beschreibung  |
 |---------|---------|
-|![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Startet SQL Server Data Tools zum Erstellen paginierter Berichte (RDL) |
-|![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI-Beispielberichte (PBIX)  |
-|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Links zur Dokumentation zu Power BI-Berichtsserver   |
-|![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Startet die für Power BI-Berichtsserver optimierte Power BI Desktop-Anwendung (März 2018)  |
-|![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Öffnet das Webportal von Power BI-Berichtsserver im Browser   |
+|![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Power BI-Beispielberichte (PBIX) |
+|![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Links zur Dokumentation zu Power BI-Berichtsserver |
+|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Desktop mit Optimierung für Power BI-Berichtsserver (Januar 2019) beginnt |
+|![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Öffnet das Webportal von Power BI-Berichtsserver im Browser |
+|![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Startet SQL Server Data Tools zum Erstellen paginierter Berichte (RDL) |
 
 Doppelklicken Sie auf das Symbol **Berichtsserver-Webportal**. Der Browser öffnet die Seite `http://localhost/reports/browse`. Im Webportal sehen Sie verschiedene Dateien nach Typ gruppiert. 
 
@@ -117,7 +125,7 @@ Doppelklicken Sie auf das Symbol **Berichtsserver-Webportal**. Der Browser öffn
 ## <a name="tag-your-favorites"></a>Markieren von Favoriten
 Sie können die Berichte und KPIs markieren, die Sie als Favoriten wünschen. Sie sind leichter zu finden, da sie alle, sowohl im Webportal als auch in den mobilen Power BI-Apps, im zentralen Ordner „Favoriten“ gesammelt werden. 
 
-1. Klicken Sie rechts oben in der KPI **Profit Margin** auf die Auslassungspunkte (**...**), und klicken Sie dann auf **Zu Favoriten hinzufügen**.
+1. Klicken Sie rechts oben in der KPI **Profit Margin** auf die Auslassungspunkte ( **...** ), und klicken Sie dann auf **Zu Favoriten hinzufügen**.
    
     ![Zu Favoriten hinzufügen](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Wählen Sie **Favoriten** im Menüband des Webportals aus, um dieses mit den anderen Favoriten auf der Seite „Favoriten“ im Webportal anzuzeigen.
@@ -155,11 +163,9 @@ Im Webportal können Sie Power BI-Berichte anzeigen und damit interagieren und P
 
 1. Klicken Sie auf **Zulassen**, um der Website zu erlauben, ein Programm auf Ihrem Computer zu öffnen. 
 
-     Der Bericht wird in Power BI Desktop geöffnet. Beachten Sie den Namen in der oberen Leiste: Power BI Desktop (März 2018). Das ist die für Power BI-Berichtsserver optimierte Version.
+     Der Bericht wird in Power BI Desktop geöffnet. Notieren Sie den Namen in der oberen Leiste, "Power BI Desktop (Januar 2019)". Das ist die für Power BI-Berichtsserver optimierte Version.
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     Verwenden Sie die Version von Power BI Desktop, die auf der VM installiert ist. Sie können Berichte nicht domänenübergreifend hochladen.
+    Verwenden Sie die Version von Power BI Desktop, die auf der VM installiert ist. Sie können Berichte nicht domänenübergreifend hochladen.
 
 3. Erweitern Sie im Bereich „Felder“ die Tabelle „Customers“, und ziehen Sie das Feld „Occupation“ in den Filterbereich auf Berichtsebene.
 
