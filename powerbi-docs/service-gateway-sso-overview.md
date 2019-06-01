@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274212"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448289"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Übersicht: Single Sign-On für Gateways in Power BI
 
@@ -29,6 +29,7 @@ Folgende Datenquellen werden derzeit unterstützt:
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* SSO ist auch möglich, dass [Daten aus anderen Quellen](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) ohne Verwendung eines Datengateways
 
 Wenn ein Benutzer mit einem DirectQuery-Bericht im Power BI-Dienst interagiert, kann jeder Kreuzfilter-, Segmentierungs-, Sortier- und Berichtsbearbeitungsvorgang Abfragen bewirken, die live für die zugrunde liegende Datenquelle ausgeführt werden.  Wenn SSO für die Datenquelle konfiguriert ist, werden Abfragen unter der Identität des Benutzers ausgeführt, der mit Power BI interagiert (d.h. über die Webumgebung oder mobile Power BI-Apps). Somit sieht jeder Benutzer genau die Daten, für die er in der zugrunde liegenden Datenquelle über Berechtigungen verfügt – bei aktiviertem einmaligen Anmelden erfolgt keine Zwischenspeicherung freigegebener Daten für verschiedene Benutzer.
 
