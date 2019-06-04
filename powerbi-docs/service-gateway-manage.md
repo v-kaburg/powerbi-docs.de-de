@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324839"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469802"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Verwalten eines lokalen Power BI-Gateways
 
@@ -38,26 +38,26 @@ Power BI unterstützt viele lokale Datenquellen, von denen jede eigene Anforderu
 
     ![Gateways verwalten](media/service-gateway-manage/manage-gateways.png)
 
-2. Wählen Sie ein Gateway aus und klicken auf **Datenquelle hinzufügen**, oder wechseln Sie zu „Gateways“ und klicken Sie auf **Datenquelle hinzufügen**.
+1. Wählen Sie ein Gateway aus und klicken auf **Datenquelle hinzufügen**, oder wechseln Sie zu „Gateways“ und klicken Sie auf **Datenquelle hinzufügen**.
 
     ![Datenquelle hinzufügen](media/service-gateway-manage/add-data-source.png)
 
-3. Wählen Sie den **Datenquellentyp** aus.
+1. Wählen Sie den **Datenquellentyp** aus.
 
     ![SQL Server auswählen](media/service-gateway-manage/select-sql-server.png)
 
 
-4. Geben Sie Informationen zur Datenquelle ein. In diesem Beispiel: **Server**, **Datenbank** und weitere Informationen.  
+1. Geben Sie Informationen zur Datenquelle ein. In diesem Beispiel: **Server**, **Datenbank** und weitere Informationen.  
 
     ![Datenquelleneinstellungen](media/service-gateway-manage/data-source-settings.png)
 
-5. Für SQL Server wählen Sie eine **Authentifizierungsmethode** aus: **Windows** oder **Standard** (SQL-Authentifizierung).  Wenn Sie **Standard** auswählen, geben Sie die Anmeldeinformationen für Ihre Datenquelle ein.
+1. Für SQL Server wählen Sie eine **Authentifizierungsmethode** aus: **Windows** oder **Standard** (SQL-Authentifizierung).  Wenn Sie **Standard** auswählen, geben Sie die Anmeldeinformationen für Ihre Datenquelle ein.
 
-6. Konfigurieren Sie optional unter **Erweiterte Einstellungen** die [Datenschutzebene](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) für Ihre Datenquelle (gilt nicht für [DirectQuery](desktop-directquery-about.md)).
+1. Konfigurieren Sie optional unter **Erweiterte Einstellungen** die [Datenschutzebene](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) für Ihre Datenquelle (gilt nicht für [DirectQuery](desktop-directquery-about.md)).
 
     ![Erweiterte Einstellungen](media/service-gateway-manage/advanced-settings.png)
 
-7. Wählen Sie **Hinzufügen**. Bei erfolgreicher Ausführung wird *Die Verbindung wurde hergestellt.* angezeigt.
+1. Wählen Sie **Hinzufügen**. Bei erfolgreicher Ausführung wird *Die Verbindung wurde hergestellt.* angezeigt.
 
     ![Die Verbindung wurde hergestellt.](media/service-gateway-manage/connection-successful.png)
 
@@ -91,7 +91,7 @@ Sie können Benutzern und Sicherheitsgruppen auch Verwaltungszugriff auf das Gat
 
 4. Klicken Sie auf **Hinzufügen**, und das hinzugefügte Mitglied wird im Feld angezeigt.
 
-    ![Hinzufügen von Benutzern](media/service-gateway-manage/add-user.png)
+    ![Fügen Sie Benutzer hinzu](media/service-gateway-manage/add-user.png)
 
 Das war schon alles. Denken Sie daran, dass Sie jeder Datenquelle, für die Sie den Zugriff gewähren möchten, Benutzer hinzufügen müssen. Jede Datenquelle verfügt über eine eigene Liste von Benutzern, und Sie müssen jeder Datenquelle separat Benutzer hinzufügen.
 
