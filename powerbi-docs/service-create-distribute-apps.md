@@ -1,6 +1,6 @@
 ---
-title: Veröffentlichen einer app in Powerbi
-description: Erfahren Sie, wie die neuen apps veröffentlicht werden, sind Sammlungen von Dashboards und Berichte mit integrierter Navigation.
+title: Veröffentlichen von Apps in Power BI
+description: Erfahren Sie, wie die neuen Apps veröffentlicht werden, die Sammlungen von Dashboards und Berichten mit integrierter Navigation sind.
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
@@ -9,154 +9,154 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f3f933a3e3af2ef1d7864b379e9b8b5520d505ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
+ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941555"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66459570"
 ---
-# <a name="publish-an-app-in-power-bi"></a>Veröffentlichen einer app in Powerbi
+# <a name="publish-an-app-in-power-bi"></a>Veröffentlichen von Apps in Power BI
 
-In Power BI können Sie offiziellen verpackt Inhalt erstellen und dann an eine Breite Zielgruppe als Verteilen einer *app*. Sie können Apps in *App-Arbeitsbereichen* erstellen, in denen Sie mit Ihren Kollegen zusammen an Power BI-Inhalten arbeiten können. Anschließend können Sie die fertigen Apps für große Personengruppen in Ihrer Organisation veröffentlichen. 
+In Power BI können Sie offiziellen verpackten Inhalt erstellen und dann als *App* an eine breite Zielgruppe verteilen. Sie können Apps in *App-Arbeitsbereichen* erstellen, in denen Sie mit Ihren Kollegen zusammen an Power BI-Inhalten arbeiten können. Anschließend können Sie die fertigen Apps für große Personengruppen in Ihrer Organisation veröffentlichen. 
 
 ![Power BI-Apps](media/service-create-distribute-apps/power-bi-new-apps.png)
 
 Ihre Geschäftskunden benötigen für den Betrieb ihres Unternehmens häufig mehrere Power BI-Dashboards und -Berichte. Mit Power BI-Apps können Sie Sammlungen von Dashboards und Berichten erstellen und diese Apps in Ihrer gesamten Organisation oder für bestimmte Personen oder Gruppen veröffentlichen. Apps vereinfachen das Verwalten von Berechtigungen für derartige Sammlungen für Berichtersteller und Administratoren.
 
-Geschäftskunden erhalten Ihre apps auf verschiedene Weise:
+Geschäftskunden erhalten Ihre Apps mit unterschiedlichen Methoden:
 
-- Suchen und Installieren der app in Microsoft AppSource
-- Sie können sie einen direkten Link senden.
+- Sie können Ihre Apps in Microsoft AppSource suchen und installieren.
+- Sie können Ihnen einen direkten Link senden.
 - Sie können sie automatisch in den Power BI-Konten Ihrer Kollegen installieren, wenn Ihr Power BI-Administrator Ihnen die Berechtigung dazu erteilt.
 
-Sie können die app einen eigenen integrierten Navigation zu erstellen, sodass Ihre Benutzer ihren Weg auf Ihre Inhalte leicht finden können. Der Inhalt der app ändern nicht. Sie können mit ihnen in Power BI-Dienst oder eine mobile App - interagieren – filtern, hervorheben und Sortieren der Daten selbst. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](consumer/end-user-apps.md).
+Sie können die App mit einer eigenen integrierten Navigation erstellen, sodass Ihre Benutzer mühelos den Weg zu Ihren Inhalten finden. Sie können die Inhalte der App nicht ändern, aber sie können mit ihr im Power BI-Dienst oder in einer der mobilen Apps interagieren, indem sie die Daten selbst filtern, hervorheben und sortieren. Sie erhalten Updates automatisch, und Sie können steuern, wie oft die Daten aktualisiert werden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](consumer/end-user-apps.md).
 
 ## <a name="licenses-for-apps"></a>Lizenzen für Apps
-Zum Erstellen oder eine app aktualisieren, benötigen Sie eine Power BI Pro-Lizenz. Für app *Consumer*, es gibt zwei Optionen zur Verfügung.
+Zum Erstellen oder Aktualisieren einer App benötigen Sie eine Power BI Pro-Lizenz. App-*Benutzern* stehen zwei Optionen zur Verfügung.
 
 * Option 1: Alle Geschäftsbenutzer benötigen **Power BI Pro**-Lizenzen, um Ihre App anzeigen zu können. 
-* Option 2: Wenn Ihre app-Arbeitsbereich in einer Power BI Premium-Kapazität befindet, können free-Benutzer in Ihrer Organisation auf app-Inhalte anzeigen. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
+* Option 2: Benutzer von Power BI Free in Ihrer Organisation können App-Inhalte anzeigen, wenn sich Ihr App-Arbeitsbereich in einer Power BI Premium-Kapazität befindet. Details finden Sie unter [Was ist Power BI Premium?](service-premium.md).
 
 ## <a name="publish-your-app"></a>Veröffentlichen der App
 Wenn die Dashboards und Berichte in Ihrem Arbeitsbereich bereit sind, wählen Sie aus, welche Dashboards und Berichte Sie veröffentlichen möchten. Anschließend veröffentlichen Sie diese als App. 
 
-1. In der Listenansicht des Arbeitsbereichs, zu entscheiden, welche Dashboards und Berichte, die gewünschten **in app eingeschlossen**.
+1. Entscheiden Sie in der Listenansicht des Arbeitsbereichs, welche Dashboards und Berichte Sie **in die App einschließen** möchten.
 
      ![Das zu veröffentlichende Dashboard auswählen](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     Wenn Sie sich nicht um einen Bericht einschließen, die ein dazugehöriges Dashboard auswählen, sehen Sie eine Warnung neben dem Bericht. Sie können die app veröffentlichen, aber im entsprechenden Dashboard keine Kacheln aus diesem Bericht.
+     Wenn Sie einen Bericht mit einem zugehörige Dashboard nicht zu einem Bericht hinzufügen möchten, wird eine Warnung neben dem Bericht angezeigt. Sie können die App trotzdem veröffentlichen, jedoch fehlen im entsprechenden Dashboard die Kacheln aus diesem Bericht.
 
      ![Warnung zu zugehörigem Dashboard](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-2. Wählen Sie die **app veröffentlichen** -Schaltfläche in der oberen rechten Ecke, um den Prozess zum Erstellen und Veröffentlichen einer app aus dem Arbeitsbereich zu starten.
+2. Wählen Sie rechts oben die Schaltfläche **App veröffentlichen** aus, um mit dem Erstellen und Veröffentlichen einer App aus dem Arbeitsbereich heraus zu beginnen.
    
      ![App veröffentlichen](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-3. Auf **Setup**, geben Sie Name und Beschreibung können Personen, die die app zu finden. Sie können ein Farbdesign aus, um ihn zu personalisieren festlegen. Sie können auch einen Link zu einer Support-Website hinzufügen.
+3. Geben Sie unter **Setup** den Namen und die Beschreibung ein, damit andere Personen die App leichter finden. Sie können eine Designfarbe festlegen, um die App zu personalisieren. Sie können auch einen Link zu einer Supportwebsite hinzufügen.
    
-     ![Erstellen Sie Ihre app](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+     ![Erstellen Sie Ihre App](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. Auf **Navigation**, Sie wählen Sie den Inhalt als Teil der app veröffentlicht wird. Dann fügen Sie die app-Navigation verwendet werden, um den Inhalt in den Abschnitten zu organisieren. Finden Sie unter [entwerfen Sie die Navigation für Ihre app](#design-the-navigation-experience-for-your-app) in diesem Artikel Weitere Informationen.
+4. Wählen Sie in der **Navigation** den zu veröffentlichenden Inhalt als Teil der App aus. Dann fügen Sie die App-Navigation hinzu, um den Inhalt in Abschnitten zu organisieren. Weitere Informationen finden Sie in diesem Artikel unter [Entwerfen der Navigation für Ihre App](#design-the-navigation-experience-for-your-app).
    
-     ![App-navigation](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+     ![App-Navigation](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. Auf **Zugriff**, fest, wer Zugriff auf die app hat. 
-    - In [klassischen Arbeitsbereiche](service-create-workspaces.md): alle Benutzer in Ihrer Organisation, bestimmte Personen oder Sicherheitsgruppen von Azure Active Directory (AAD).
-    - In der [neue Erfahrung Arbeitsbereiche](service-create-the-new-workspaces.md): bestimmte Personen, AAD-Sicherheitsgruppen und Verteilerlisten und Office 365-Gruppen.
+5. Entscheiden Sie unter **Berechtigung**, wer Zugriff auf die App erhält, und wie diese Benutzer die App verwenden können. 
+    - In [klassischen Arbeitsbereichen](service-create-workspaces.md): alle Benutzer in Ihrer Organisation, bestimmte Personen oder Azure Active Directory (AAD)-Sicherheitsgruppen.
+    - In der [Arbeitsbereichen der neuen Oberfläche ](service-create-the-new-workspaces.md): bestimmte Personen, AAD-Sicherheitsgruppen und Verteilerlisten und Office 365-Gruppen.
 
-6. Wenn Sie über Berechtigungen verfügen, können Sie die app automatisch installieren, für die Empfänger. Power BI-Administratoren können diese Einstellung im Power BI-Verwaltungsportal aktivieren. Erfahren Sie mehr über [automatisch installieren einer app](#automatically-install-apps-for-end-users) in diesem Artikel.
+6. Sie können die App automatisch für die Empfänger installieren, wenn Ihr Power BI-Administrator diese Einstellung für Sie im Power BI-Verwaltungsportal aktiviert hat. In diesem Artikel erfahren Sie mehr über das [automatische Installieren einer App](#automatically-install-apps-for-end-users).
 
      ![App-Berechtigungen](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
-7. Bei der Auswahl **app veröffentlichen**, daraufhin wird eine Meldung zur Bestätigung zum Veröffentlichen bereit ist. In der **diese app freigeben** im Dialogfeld können Sie die URL, die einen direkten Link zu dieser app kopieren.
+7. Wenn Sie **App veröffentlichen** auswählen, wird eine Meldung mit der Bestätigung angezeigt, dass die App jetzt veröffentlicht werden kann. Im Dialogfeld **Diese App freigeben**  können Sie die URL kopieren, die einen direkten Link zu dieser App darstellt.
    
      ![Fertigstellen der App](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Sie können senden, direkten Link an die Personen die App wurde freigegeben haben, oder sie können Ihre app auf der Registerkarte "Apps" zu finden **herunterladen und erkunden Sie weitere apps aus AppSource**. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](consumer/end-user-apps.md).
+Diesen direkten Link können Sie an die Personen senden, für die Sie die App freigeben möchten. Alternativ können diese Personen zu **Mehr Apps aus AppSource herunterladen und kennenlernen** navigieren, um Ihre App auf der Registerkarte „Apps“ zu finden. Erfahren Sie mehr über die [Nutzung von Apps durch Geschäftskunden](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Ändern der veröffentlichten App
-Nachdem Sie Ihre App veröffentlicht haben, möchten Sie sie eventuell ändern oder aktualisieren. Es ist einfach zu aktualisieren, wenn Sie ein Administrator oder Mitglied in der neuen app-Arbeitsbereichs sind. 
+Nachdem Sie Ihre App veröffentlicht haben, möchten Sie sie eventuell ändern oder aktualisieren. Sie lässt sich einfach aktualisieren, wenn Sie Administrator oder Mitglied des neuen App-Arbeitsbereichs sind. 
 
 1. Öffnen Sie den App-Arbeitsbereich, der der App entspricht. 
    
      ![Öffnen des Arbeitsbereichs](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
-2. Stellen Sie alle gewünschten Änderungen an den Dashboards oder Berichte.
+2. Nehmen Sie alle gewünschten Änderungen an den Dashboards oder Berichten vor.
  
      Der App-Arbeitsbereich ist der Stagingbereich. Deshalb werden Ihre Änderungen nicht in Echtzeit in der App angezeigt, bis Sie die App erneut veröffentlichen. So können Sie Änderungen vornehmen, ohne dass sich diese auf die veröffentlichten Apps auswirken.  
  
     > [!IMPORTANT]
-    > Wenn Sie einen Bericht zu entfernen und die app aktualisieren, auch wenn Sie den Bericht an die app hinzufügen, verlieren die app-Benutzer alle Anpassungen wie das Lesezeichen, Kommentare usw. an.  
+    > Wenn Sie einen Bericht entfernen und die App aktualisieren, verlieren Ihre App-Benutzer alle Anpassungen wie Lesezeichen, Kommentare usw., selbst wenn Sie den Bericht anschließend wieder zur App hinzufügen.  
  
-3. Wechseln Sie zurück zur Liste app-Arbeitsbereich der Inhalt, und wählen **app aktualisieren** in der oberen rechten Ecke.
+3. Kehren Sie zur App-Arbeitsbereichsliste zurück, und wählen Sie in der oberen rechten Ecke **App aktualisieren** aus.
    
-1. Update **Setup**, **Navigation**, und **Berechtigungen**, wenn Sie möchten, und wählen Sie dann **app aktualisieren**.
+1. Aktualisieren Sie bei Bedarf **Setup**, **Navigation** und **Berechtigungen**, und wählen Sie dann **App aktualisieren** aus.
    
 Den Personen, für die Sie die App veröffentlicht haben, wird automatisch die aktualisierte Version der App angezeigt. 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>Entwerfen Sie die Navigation für Ihre app
-Die **neue Navigation Generator** Option können Sie eine benutzerdefinierte Navigation für Ihre app zu erstellen. Die benutzerdefinierte Navigation erleichtert es für Ihre Benutzer zu suchen und Verwenden von Inhalt in der app. Vorhandene apps verfügen über diese Option deaktiviert und neue apps sind standardmäßig die Option auf.
+## <a name="design-the-navigation-experience-for-your-app"></a>Entwerfen der Navigation für Ihre App
+Mit der Option **Neuer Navigations-Generator** können Sie eine benutzerdefinierte Navigation für Ihre App erstellen. Die benutzerdefinierte Navigation erleichtert Ihren Benutzer das Suchen und Verwenden von Inhalten in der App. In vorhandenen Apps ist diese Option deaktiviert, in neuen Apps ist die Option standardmäßig aktiviert.
 
-Wenn die Option deaktiviert ist, klicken Sie auf die **Landing Page der App** entweder **bestimmte Inhalte**zum Beispiel ein Dashboard oder Bericht, oder wählen Sie **keine** eine einfache Liste der anzuzeigenden der Inhalt für den Benutzer.
+Ist die Option deaktiviert, können Sie für die **Landing Page der App** zwischen **Bestimmte Inhalte**, z.B. einem Dashboard oder Bericht, und **Keine** auswählen, wodurch dem Benutzer eine einfache Liste mit Inhalten angezeigt wird.
 
-Wenn Sie aktivieren **neue Navigation Generator**, Sie können eine benutzerdefinierte Navigation entwerfen. Standardmäßig werden alle Berichte, Dashboards und Excel-Arbeitsmappen, die Sie in Ihrer app berücksichtigt werden soll, als flache Liste aufgeführt. 
+Wenn Sie **Neuer Navigations-Generator** aktivieren, können Sie eine benutzerdefinierte Navigation entwerfen. Standardmäßig werden alle Berichte, Dashboards und Excel-Arbeitsmappen, die Sie zu Ihrer App hinzugefügt haben, als flache Liste aufgeführt. 
 
-![App-navigation](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+![App-Navigation](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-Sie können die app-Navigation, indem weiter anpassen:
-* Neuordnung der Elemente mithilfe der nach-oben / nach-unten-Taste. 
-* Umbenennen von Elementen in der **melden Details**, **Dashboard-Detailfenster**, und **arbeitsmappendetails**.
-* Durch das bestimmte Elemente aus dem Navigationsbereich ausblenden.
-* Mithilfe der **neu** Option zum Hinzufügen von **Abschnitte** Gruppe verwandte Inhalte.
-* Mithilfe der **neu** Option zum Hinzufügen einer **Link** auf eine externe Ressource auf der linken Navigationsleiste. 
+Sie können die App-Navigation folgendermaßen weiter anpassen:
+* Elemente mithilfe der Nach-Oben-/Nach-Unten-Tasten neu anordnen. 
+* Elemente in den Bereichen **Berichtsdetails**, **Dashboarddetails** und **Arbeitsmappendetails** umbenennen.
+* Bestimmte Elemente aus der Navigation ausblenden.
+* Mithilfe der Option **Neu** **Abschnitte** hinzufügen, um verwandte Inhalte zu gruppieren.
+* Mithilfe der Option **Neu** zur linken Navigationsleiste einen **Link** zu einer externen Ressource hinzufügen. 
 
-Beim Hinzufügen einer **Link**im **Link Details** können Sie, bei dem auf der Link öffnet. Standardmäßig Links öffnen, in der **aktuelle Registerkarte**, Sie können jedoch **neue Registerkarte**, oder **Inhaltsbereich**. 
+Wenn Sie einen **Link** hinzufügen, können Sie unter **Linkdetails** auswählen, wo der Link geöffnet wird. Standardmäßig werden Links in der **aktuellen Registerkarte** geöffnet, Sie können jedoch auch **Neue Registerkarte** oder **Inhaltsbereich** auswählen. 
 
-### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Überlegungen zur Verwendung der neuen Navigation-Generator-option
-Hier werden allgemeine Dinge zu bedenken, wenn den neue Generator für die Navigation zu verwenden:
-* Seiten des Berichts werden im Navigationsbereich der app als einen erweiterbaren Abschnitt angezeigt.
-* Wenn Sie der neuen Navigation-Generator deaktivieren, und klicken Sie dann veröffentlichen oder aktualisieren Sie Ihre app, die vorgenommenen Anpassungen gehen verloren. Beispielsweise sind die Abschnitte, Sortierung, Links und benutzerdefinierte Namen für die Navigationselemente alle verloren.
+### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Überlegungen zur Verwendung der Option „Neuer Navigations-Generator“
+Hier finden Sie allgemeine Dinge, die Sie berücksichtigen sollten, wenn den neuen Navigations-Generator verwenden:
+* Berichtsseiten werden im App-Navigationsbereich als erweiterbarer Abschnitt angezeigt.
+* Wenn Sie den neuen Navigations-Generator deaktivieren, und für Ihre App auf „Veröffentlichen“ oder „Aktualisieren“ klicken, gehen die vorgenommenen Anpassungen verloren. Beispielsweise gehen Abschnitte, Sortierung, Links und benutzerdefinierte Namen für Navigationselemente verloren.
 
-Beim Hinzufügen von Links zu Ihrer app-Navigation und die Inhaltsbereich-Option auswählen:
-* Stellen Sie sicher, dass der Link eingebettet werden kann. Einige Dienste blockiert das Einbetten ihrer Inhalte in Drittanbieter-Websites wie Power BI.
-* Einbetten von Power BI-Dienst-Inhalten wie Berichte oder Dashboards in anderen Arbeitsbereichen wird nicht unterstützt. 
-* Einbetten von Power BI-Berichtsserver Inhalte über das systemeigene Einbetten von URL-Inhalten aus einer Bereitstellung vor Ort. Verwenden Sie die Schritte in [erstellen die Power BI Berichtsserver-URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) um die URL abzurufen. Denken Sie daran regulären Authentifizierungsregeln anwenden, Anzeigen des Inhalts eine VPN-Verbindung mit dem lokalen Server erforderlich ist. 
-* Eine sicherheitswarnung wird am oberen Rand die eingebetteten Inhalte angezeigt, um anzugeben, dass die Inhalte in Power BI nicht.
+Wenn Sie Links zu Ihrer App-Navigation hinzufügen und die Option „Inhaltsbereich“ auswählen:
+* Stellen Sie sicher, dass der Link eingebettet werden kann. Einige Dienste blockieren das Einbetten ihrer Inhalte in Drittanbieterwebsites wie Power BI.
+* Das Einbetten von Inhalten wie Berichten oder Dashboards des Power BI-Diensts in andere Arbeitsbereiche wird nicht unterstützt. 
+* Betten Sie Power BI-Berichtsserver-Inhalt unter Verwendung seines nativen eingebetteten URL-Inhalts aus einer lokalen Bereitstellung ein. Verwenden Sie die Schritte unter [Erstellen der Berichts-URL für den Power BI-Berichtsserver](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url), um die URL abzurufen. Denken Sie daran, dass die regulären Authentifizierungsregeln gelten. Zum Anzeigen des Inhalts ist daher eine VPN-Verbindung mit dem lokalen Server erforderlich. 
+* Am oberen Rand der eingebetteten Inhalte wird mit einer Sicherheitswarnung darauf hingewiesen, dass sich der Inhalt außerhalb von Power BI befindet.
 
 
 
 ## <a name="automatically-install-apps-for-end-users"></a>Automatisches Installieren von Apps für Endbenutzer
-Wenn ein Administrator Sie Berechtigungen erhalten, können Sie apps automatisch installieren *mithilfe von Push übertragen* diese für Endbenutzer bereitzustellen. Diese Funktionalität Push erleichtert es, um die richtigen apps an die richtigen Personen oder Gruppen verteilen. Ihre app wird automatisch in Ihrer Endbenutzer-Apps-Inhaltsliste angezeigt. Sie müssen keine finden sie in Microsoft AppSource, oder führen einen Link für die Installation. Sehen Sie, wie Administratoren aktivieren [apps an Endbenutzer übertragen](service-admin-portal.md#push-apps-to-end-users) im Power BI Admin Portal Artikel.
+Wenn ein Administrator Ihnen Berechtigungen erteilt, können Sie Apps automatisch per *Push* an Endbenutzersenden und installieren. Diese Push-Funktionalität erleichtert es, die richtigen Apps an die richtigen Personen oder Gruppen zu verteilen. Ihre App wird automatisch in der Inhaltsliste der Apps Ihrer Endbenutzer angezeigt. Die Benutzer brauchen die App nicht in der Microsoft AppSource zu suchen oder einem Installationslink zu folgen. Im Artikel über das Power BI-Verwaltungsportal erfahren Sie, wie Administratoren das [Übertragen von Apps per Push an Endbenutzer](service-admin-portal.md#push-apps-to-end-users) aktivieren.
 
-### <a name="how-to-push-an-app-automatically-to-end-users"></a>Wie Sie eine app automatisch per Push an Endbenutzer übertragen
-Sobald der Administrator Ihnen die Berechtigungen zugewiesen hat, verfügen Sie über die neue Option **install the app automatically** (App automatisch installieren). Wenn Sie das Kontrollkästchen und **app veröffentlichen** (oder **app aktualisieren**), die app wird mithilfe von Push übertragen für alle Benutzer oder Gruppen definiert, der **Berechtigungen** Abschnitt der app auf die **Zugriff** Registerkarte.
+### <a name="how-to-push-an-app-automatically-to-end-users"></a>Automatisches Übertragen einer App per Push an Endbenutzer
+Sobald der Administrator Ihnen die Berechtigungen zugewiesen hat, verfügen Sie über die neue Option **install the app automatically** (App automatisch installieren). Wenn Sie das Kontrollkästchen aktivieren und auf **App veröffentlichen** (oder **App aktualisieren**) klicken, wird die App mithilfe von Push an alle Benutzer oder Gruppen übertragen, die im Abschnitt **Berechtigungen** der App auf der Registerkarte **Zugriff** definiert sind.
 
 ![Aktivieren der Übertragung von Apps mithilfe von Push](media/service-create-distribute-apps//power-bi-apps-access.png)
 
-### <a name="how-users-get-the-apps-that-you-push-to-them"></a>Wie Benutzer apps erhalten, die Sie auf diese per Push übertragen
-Nachdem Sie eine app übertragen, wird sie in der Liste ihrer Apps automatisch. Auf diese Weise können Sie die apps, bestimmte Benutzer oder Rollen der Auftrag in Ihrer Organisation müssen jederzeit überprüfen.
+### <a name="how-users-get-the-apps-that-you-push-to-them"></a>So erhalten Benutzer die Apps, die Sie mithilfe von Push an sie übertragen haben
+Nachdem Sie eine App mithilfe von Push übertragen haben, wird sie automatisch in ihrer Liste der Apps angezeigt. Auf diese Weise können Sie die Apps zusammenstellen, die bestimmte Benutzer oder Aufgabengebiete in Ihrer Organisation benötigen.
 
 ![Aktivieren der Übertragung von Apps mithilfe von Push](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 ### <a name="considerations-for-automatically-installing-apps"></a>Überlegungen zum automatischen Installieren von Apps
 Beachten Sie bei der Übertragung von Apps mithilfe von Push an Benutzer folgende Punkte:
 
-* Die automatische Installation für Benutzer einer App kann zeitaufwendig sein. Die meisten apps, die Installation sofort für Benutzer, aber die Übertragung von apps kann Zeit in Anspruch nehmen.  Dies ist von der Anzahl der Elemente in der App und der Anzahl der Personen abhängig, denen der Zugriff gewährt wird. Es wird empfohlen, die Übertragung von Apps mithilfe von Push außerhalb der Stoßzeiten und mit ausreichend Vorlaufzeit durchzuführen, bevor die Benutzer diese benötigen. Überprüfen Sie die Funktionsfähigkeit des Vorgangs mit einigen wenigen Benutzern, bevor Sie die Verfügbarkeit der App im großen Rahmen ankündigen.
+* Die automatische Installation für Benutzer einer App kann zeitaufwendig sein. Die meisten Apps werden für Benutzer sofort installiert, die Übertragung von Apps mithilfe von Push kann allerdings einige Zeit in Anspruch nehmen.  Dies ist von der Anzahl der Elemente in der App und der Anzahl der Personen abhängig, denen der Zugriff gewährt wird. Es wird empfohlen, die Übertragung von Apps mithilfe von Push außerhalb der Stoßzeiten und mit ausreichend Vorlaufzeit durchzuführen, bevor die Benutzer diese benötigen. Überprüfen Sie die Funktionsfähigkeit des Vorgangs mit einigen wenigen Benutzern, bevor Sie die Verfügbarkeit der App im großen Rahmen ankündigen.
 
 * Aktualisieren Sie den Browser. Bevor die mithilfe von Push übertragene App in der Liste der Apps angezeigt wird, muss der Benutzer seinen Browser gegebenenfalls aktualisieren, schließen und neu öffnen.
 
-* Wenn Benutzer die app in der Liste der Apps nicht sofort sehen, sollten sie aktualisieren oder zu schließen und öffnen Sie ihren Browser erneut.
+* Wenn Benutzer die App nicht sofort in der Liste der Apps sehen, sollte der Browser aktualisiert, geschlossen und neu geöffnet werden.
 
-* Versuchen Sie die Benutzer nicht zu überfordern. Achten Sie darauf, dass nicht zu viele Apps mithilfe von Push übertragen werden, damit die Benutzer die vorinstallierten Apps als nützlich wahrnehmen. Um ein sinnvolles Timing zu gewährleisten, sollten Sie steuern können, wer Apps mithilfe von Push an Endbenutzer übertragen kann. Richten Sie eine Anlaufstelle zum Abrufen von apps in Ihrer Organisation mithilfe von Push an Endbenutzer übertragen.
+* Versuchen Sie die Benutzer nicht zu überfordern. Achten Sie darauf, dass nicht zu viele Apps mithilfe von Push übertragen werden, damit die Benutzer die vorinstallierten Apps als nützlich wahrnehmen. Um ein sinnvolles Timing zu gewährleisten, sollten Sie steuern können, wer Apps mithilfe von Push an Endbenutzer übertragen kann. Wählen Sie eine Kontaktperson aus, die für das Übertragen von Apps in Ihrer Organisation mithilfe von Push an Endbenutzer verantwortlich ist.
 
-* Gastbenutzer die Einladung nicht akzeptiert haben abrufen keine apps, die die automatische Installation.  
+* Für Gastbenutzer, die keine Einladung angenommen haben, werden keine Apps automatisch installiert.  
 
 ## <a name="unpublish-an-app"></a>Aufheben der Veröffentlichung einer App
 Jedes Mitglied eines App-Arbeitsbereichs kann die Veröffentlichung der App aufheben.
 
 >[!IMPORTANT]
->Wenn Sie die Veröffentlichung einer App aufheben, gehen die Anpassungen der App-Benutzer verloren. Sie verlieren privaten Lesezeichen, Kommentare oder Abonnements, die Inhalt in der app zugeordnet ist. Heben Sie die Veröffentlichung einer App nur dann auf, wenn Sie sie entfernen müssen.
+>Wenn Sie die Veröffentlichung einer App aufheben, gehen die Anpassungen der App-Benutzer verloren. Persönliche Lesezeichen, Kommentare oder Abonnements, die Inhalten der App zugeordnet sind, gehen verloren. Heben Sie die Veröffentlichung einer App nur dann auf, wenn Sie sie entfernen müssen.
 > 
 > 
 
@@ -166,11 +166,11 @@ Jedes Mitglied eines App-Arbeitsbereichs kann die Veröffentlichung der App aufh
 
 Dadurch wird die App für alle Benutzer, für die sie veröffentlicht wurde, deinstalliert, sodass diese keinen Zugriff mehr darauf haben. Der App-Arbeitsbereich oder sein Inhalt wird dadurch nicht gelöscht.
 
-## <a name="view-your-published-app"></a>Anzeigen der veröffentlichten app
+## <a name="view-your-published-app"></a>Anzeigen der veröffentlichten App
 
-Wenn die app-Benutzer Ihre app öffnen, sehen sie die Navigation, die Sie erstellt, anstatt im linken Navigationsbereich standard Power BI haben. Die app-Navigation Listet die Berichte und Dashboards in den Abschnitten, die Sie definiert haben. Es enthält eine Liste mit die einzelnen Seiten in jedem Bericht stattdessen, die gerade den Namen des Berichts.
+Wenn Ihre App-Benutzer die App öffnen, wird anstelle des standardmäßigen linken Navigationsbereichs von Power BI die von Ihnen erstellte Navigation angezeigt. In der App-Navigation sind die Berichte und Dashboards in den von Ihnen definierten Abschnitten aufgelistet. Zudem sind die einzelnen Seiten in jedem Bericht aufgeführt, nicht nur der Berichtsname.
 
-![App mit navigation](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+![App mit Navigation](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Erstellen eines App-Arbeitsbereichs](service-create-workspaces.md)
