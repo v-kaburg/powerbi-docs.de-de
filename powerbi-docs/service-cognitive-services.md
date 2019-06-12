@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61182016"
@@ -25,7 +25,7 @@ Die derzeit unterstützten Dienste sind [Standpunktanalyse](https://docs.microso
 
 ## <a name="enabling-ai-features"></a>**Aktivieren von KI-Funktionen**
 
-Cognitive Services werden für Premium-Kapazitätsknoten EM2, A2 oder P1 und höher unterstützt. Eine separate AI-Workload auf der Kapazität wird zum Ausführen von Cognitive Services verwendet. Während der Vorschauphase ist diese Workload standardmäßig deaktiviert. Bevor Cognitive Services in Power BI verwendet werden können, muss die KI-Workload in den Einstellungen für die Kapazität des Verwaltungsportals aktiviert werden. Sie können die KI-Workload im Workloadsabschnitt aktivieren und die Höchstmenge an Arbeitsspeicher definieren, die diese Workload nutzen soll. Die empfohlene Arbeitsspeichergrenze beträgt 20%. Die Überschreitung dieser Grenze führt zur Verlangsamung der Abfrage.
+Cognitive Services werden für Premium-Kapazitätsknoten EM2, A2 oder P1 und höher unterstützt. Eine separate KI-Workload auf der Kapazität wird zum Ausführen von Cognitive Services verwendet. Während der Vorschauphase ist diese Workload standardmäßig deaktiviert. Bevor Cognitive Services in Power BI verwendet werden können, muss die KI-Workload in den Einstellungen für die Kapazität des Verwaltungsportals aktiviert werden. Sie können die KI-Workload im Workloadsabschnitt aktivieren und die Höchstmenge an Arbeitsspeicher definieren, die diese Workload nutzen soll. Die empfohlene Arbeitsspeichergrenze beträgt 20%. Die Überschreitung dieser Grenze führt zur Verlangsamung der Abfrage.
 
 ![Cognitive Services in Power BI](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -35,9 +35,9 @@ Cognitive Services-Transformationen sind Teil der [Self-Service-Datenvorbereitun
 
 ![Bearbeiten einer Datenbank](media/service-cognitive-services/cognitive-services_02.png)
 
-Wählen Sie die **AI Insights**-Schaltfläche im oberen Menüband des Power Query-Editors aus.
+Klicken Sie auf die Schaltfläche **KI Insights** im oberen Menüband des Power Query-Editors.
 
-![AI Insights im Power Query-Editor](media/service-cognitive-services/cognitive-services_03.png)
+![KI Insights im Power Query-Editor](media/service-cognitive-services/cognitive-services_03.png)
 
 Wählen Sie im Popupfenster die Funktion aus, die Sie verwenden möchten, und die Daten, die Sie transformieren möchten. In diesem Beispiel bewerte ich den Standpunkt einer Spalte, die einen Rezensionstext enthält.
 
