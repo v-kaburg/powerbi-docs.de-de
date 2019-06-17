@@ -176,12 +176,20 @@
           items:
             - name: Erste Schritte mit der iOS-App
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 'Schützen mit Face ID, Touch ID oder einem Passcode'
+              href: mobile/mobile-ios-native-secure-access.md
             - name: Virtueller Q&A-Analyst in mobilen iOS-Apps
               href: mobile/mobile-apps-ios-qna.md
+            - name: Integration der mobilen Power BI-App mit Siri-Kurzbefehlen
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: Integration der iOS-Gerätesuche
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Power BI Apple Watch-App
               href: mobile/mobile-apple-watch.md
             - name: Scannen eines Barcodes mit der App auf dem iPhone
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Konfigurieren mithilfe der Verwaltung mobiler Geräte
+              href: mobile/mobile-app-configuration.md
         - name: Android-Geräte
           items:
             - name: Erste Schritte mit der Android-App

@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Hinzufügen einer benutzerdefinierten Spalte
               href: desktop-add-custom-column.md
-            - name: Optimieren eines Power BI-Visuals für eine beliebige Größe
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Verwenden von Inlinehierarchiebeschriftungen in Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Verwenden der Funktion „Datenschnitt für numerischen Bereich“
@@ -681,32 +679,14 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Hinzufügen eines CDM-Ordners als Dataflow in Power BI (Vorschauversion)
               href: service-dataflows-add-cdm-folder.md
-            - name: Integrieren von Machine Learning in Power BI (Vorschauversion)
+            - name: Integrieren von Machine Learning in Power BI
               href: service-machine-learning-integration.md
-            - name: Verwenden von Cognitive Services in Power BI (Vorschau)
+            - name: Verwenden von Cognitive Services in Power BI
               href: service-cognitive-services.md
             - name: Automatisiertes Machine Learning in Power BI (Vorschauversion)
               href: service-machine-learning-automated.md
         - name: Paginierte Berichte in Power BI
           items:
-            - name: Was sind paginierte Berichte? (Vorschau)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Häufig gestellte Fragen zu paginierten Berichten (Vorschauversion)
-              href: paginated-reports-faq.md
-            - name: Erstellen und Hochladen eines paginierten Berichts (Vorschauversion)
-              href: paginated-reports-quickstart-aw.md
-            - name: Übersicht über die Berichtsentwurfsansicht (Vorschauversion)
-              href: paginated-reports-report-design-view.md
-            - name: Eingeben von Daten direkt in einem paginierten Bericht (Vorschauversion)
-              href: paginated-reports-enter-data.md
-            - name: Erstellen einer eingebetteten Datenquelle (Vorschauversion)
-              href: paginated-reports-embedded-data-source.md
-            - name: Erstellen eines eingebetteten Datasets (Vorschauversion)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Erstellen von Parametern (Vorschauversion)
-              href: paginated-reports-parameters.md
-            - name: Veröffentlichen eines paginierten Berichts (Vorschauversion)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Anzeigen eines paginierten Berichts (Vorschauversion)
               href: paginated-reports-view-power-bi-service.md
             - name: Interagieren mit Parametern (Vorschauversion)
@@ -723,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: Installieren und Verteilen von Vorlagen-Apps
               href: service-template-apps-install-distribute.md
+            - name: 'Aktualisieren, Löschen und Extrahieren einer Power BI-Vorlagen-App'
+              href: service-template-update-delete-extract.md
         - name: Problembehandlung
           items:
             - name: Sie haben Ihr Kennwort für Power BI vergessen?
@@ -745,8 +727,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Problembehandlung bei nicht unterstützter Datenquelle für die Aktualisierung
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: 'Problembehandlung bei geschachtelten Werten, die als Text zurückgegeben werden'
-              href: service-troubleshooting-nested-values.md
             - name: Problembehandlung bei der planmäßigen Aktualisierung für Azure SQL-Datenbanken
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Fehler: Wir haben in Ihrer Excel-Arbeitsmappe keine Daten gefunden'
@@ -927,10 +907,58 @@
           href: service-premium-incremental-refresh.md
         - name: Konfigurieren von Multi-Geo-Funktionen
           href: service-admin-premium-multi-geo.md
+        - name: Verwenden der eigenen Verschlüsselungsschlüssel
+          href: service-encryption-byok.md
         - name: Neu starten einer Premium-Kapazität
           href: service-admin-premium-restart.md
         - name: Herstellen einer Verbindung zu Datasets mit Clientanwendungen und Tools
           href: service-premium-connect-tools.md
+- name: Paginierter Berichts-Generator in Power BI
+  items:
+    - name: Übersicht
+      items:
+        - name: Was sind paginierte Berichte?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Berichts-Generator in Power BI
+          href: report-builder-power-bi.md
+    - name: Lernprogramme
+      items:
+        - name: Erstellen und Hochladen eines paginierten Berichts
+          href: paginated-reports-quickstart-aw.md
+    - name: Konzepte
+      items:
+        - name: Übersicht über die Berichtsentwurfsansicht
+          href: paginated-reports-report-design-view.md
+        - name: Planen eines Berichts
+          href: report-builder-planning-report.md
+        - name: Daten des Berichts-Generators
+          href: report-builder-data.md
+        - name: Entwurfstipps
+          href: report-builder-design-tips.md
+        - name: 'Tabellen, Matrizen, Listen'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parameter
+          href: report-builder-parameters.md
+        - name: Ausdrücke
+          href: report-builder-expressions.md
+        - name: Ausdrucksbeispiele
+          href: report-builder-expression-examples.md
+        - name: Vorschauversion von Berichten
+          href: report-builder-previewing-reports.md
+        - name: Häufig gestellte Fragen zu paginierten Berichten
+          href: paginated-reports-faq.md
+    - name: Vorgehensweise
+      items:
+        - name: Eingeben von Daten direkt in einem paginierten Bericht
+          href: paginated-reports-enter-data.md
+        - name: Erstellen einer eingebetteten Datenquelle
+          href: paginated-reports-embedded-data-source.md
+        - name: Erstellen eines eingebetteten Datasets
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Erstellen von Parametern
+          href: paginated-reports-parameters.md
+        - name: Veröffentlichen eines paginierten Berichts
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI für Entwickler
   items:
     - name: Welche Möglichkeiten bietet Power BI Entwicklern?
