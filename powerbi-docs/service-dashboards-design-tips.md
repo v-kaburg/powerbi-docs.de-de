@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0e523707caa38c808c777eb29bb8dcbdc6af5ebf
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150329"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721217"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tipps zum Gestalten von Power BI-Dashboards
 Nachdem Sie ein Dashboard erstellt und einige Kacheln hinzugefügt haben, können Sie Ihr Dashboard ansprechend und funktionell gestalten. In der Regel bedeutet das, dass die wichtigsten Informationen hervorgehoben werden, sodass das Dashboard ordentlich und übersichtlich ist.
@@ -81,5 +81,5 @@ Wenn Sie die Gestaltung erstklassiger Dashboards perfektionieren möchten, infor
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Erstellen eines Dashboards aus einem Bericht](service-dashboard-create.md)  
-[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)  
+[Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)  
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
