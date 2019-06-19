@@ -1,20 +1,20 @@
 ---
 title: Power BI-Webinare
 description: Power BI-Webinare
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453781"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750987"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -22,7 +22,15 @@ Registrieren Sie sich für unsere nächsten Livewebinare, oder sehen Sie sich un
 
 ## <a name="upcoming-webinars"></a>Kommende Webinare
 
-Es sind noch keine Webinare geplant. Besuchen Sie diese Website regelmäßig, um sich über neue Veranstaltungen zu informieren.
+Registrieren Sie sich, um sich von Power BI-Experten informieren zu lassen und an Live-Q&A-Sitzungen teilzunehmen.
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury**
+<br>Referenten: Pankaj Gudimella und Guru Kirthigavasan
+<br>[Registrieren Sie sich für die Teilnahme am 25. Juni, 10:00 Uhr – 11:00 Uhr PST.](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: How to Get Insights from Your Workday HR Data**
+<br>Referenten: Iman Eftekhari, Julia Paton von Agile Analytics und Shahram Karimi von QBE Insurance
+<br>[Registrieren Sie sich für die Teilnahme am 27. Juni, 13:30 Uhr – 14:30 Uhr PST.](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Bevorstehende Webinare der Power BI-Community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

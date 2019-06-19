@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461854"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816675"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Verwenden von Datasets in mehreren Arbeitsbereichen (Vorschau)
 
 Business Intelligence ist eine gemeinschaftliche Aktivität. Es ist wichtig, standardisierte Datasets einzurichten, die als „eindeutig wahre Quelle“ fungieren können. Das Entdecken und Wiederverwenden solcher standardisierten Datasets ist von entscheidender Bedeutung. Wenn Experten für Datenmodellierung in Ihrer Organisation optimierte Datasets erstellen und teilen, können Berichtersteller von diesen Datasets ausgehen, um präzise Berichte zu erstellen. Dann verfügt Ihre Organisation über konsistente Daten für die Entscheidungsfindung und ist auf dem Weg zu einer gesunden Datenkultur.
+
+![Freigegebenes Dataset auswählen](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Mit Power BI wird es für Datasetersteller einfach, Datasets zu zertifizieren oder höher zu stufen, damit sie von anderen entdeckt werden können. Dann finden Berichtautoren qualitätvolle, offizielle Datasets, die sie überall in Power BI verwenden können. Datasetbesitzer können die Kontrolle über die zum Zugriff auf ihre Daten berechtigten Personen behalten, indem Sie die [Erstellungsberechtigung](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) verwenden. Mandantenadministratoren verfügen über eine neue Mandanteneinstellung zum [Steuern der Arbeitsbereiche übergreifenden Verwendung von Datasets](service-datasets-admin-across-workspaces.md).
 

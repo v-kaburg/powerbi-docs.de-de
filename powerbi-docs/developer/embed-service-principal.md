@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720337"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823300"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
+# <a name="service-principal-with-power-bi"></a>Dienstprinzipal in Power BI
 
 Mit **Dienstprinzipalen** können Sie Power BI-Inhalt in eine Anwendung einbetten und über ein **Token nur für eine Anwendung** die Automatisierung in Power BI verwenden. Ein Dienstprinzipal ist hilfreich, wenn Sie **Power BI Embedded** verwenden oder **Aufgaben und Prozesse in Power BI automatisieren möchten**.
 
@@ -94,7 +94,7 @@ Im Gegensatz zur traditionellen Verwendung eines Hauptkontos müssen für die Ve
    > [!Important]
    > Sobald Sie angeben, dass ein Dienstprinzipal mit Power BI verwendet werden soll, sind die AD-Berechtigungen der Anwendung nicht länger wirksam. Die Anwendungsberechtigungen werden dann über das Power BI-Verwaltungsportal verwaltet.
 
-2. Erstellen Sie eine [Sicherheitsgruppe in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal), und fügen Sie dieser Sicherheitsgruppe die von Ihnen erstellte Anwendung hinzu. Sie können eine AAD-Sicherheitsgruppe mit [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) erstellen.
+2.  **Empfehlung**: Erstellen Sie eine [Sicherheitsgruppe in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal), und fügen Sie dieser Sicherheitsgruppe die von Ihnen erstellte Anwendung hinzu. Sie können eine AAD-Sicherheitsgruppe mit [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) erstellen.
 
     Unten finden Sie ein Beispielskript, wie eine neue Sicherheitsgruppe erstellt wird, und wie dieser Sicherheitsgruppe eine Anwendung hinzugefügt wird.
 
@@ -109,7 +109,7 @@ Im Gegensatz zur traditionellen Verwendung eines Hauptkontos müssen für die Ve
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Als Power BI-Administrator müssen Sie Dienstprinzipale in den **Entwicklereinstellungen** im Power BI-Verwaltungsportal aktivieren. Fügen Sie die Sicherheitsgruppe, die Sie erstellt haben, dem Bereich **Sicherheitsgruppen angeben** in den **Entwicklereinstellungen** hinzu.
+3. Als Power BI-Administrator müssen Sie Dienstprinzipale in den **Entwicklereinstellungen** im Power BI-Verwaltungsportal aktivieren. Fügen Sie die von Ihnen erstellte Sicherheitsgruppe dem spezifischen Bereich für Sicherheitsgruppen in den **Entwicklereinstellungen** hinzu. Sie können auch den Dienstprinzipalzugriff für die gesamte Organisation aktivieren. In diesem Fall ist Schritt 2 nicht erforderlich.
 
    > [!Important]
    > Dienstprinzipale haben Zugriff auf alle Mandanteneinstellungen, die für die gesamte Organisation oder für die Sicherheitsgruppen aktiviert sind, die als Teil der Gruppe Dienstprinzipale besitzen. Genehmigen Sie nur bestimmten Sicherheitsgruppen Zugriff, oder erstellen Sie eine dedizierte Sicherheitsgruppe für Dienstprinzipale, und schließen Sie sie aus, um den Zugriff von Dienstprinzipalen auf bestimmte Mandanteneinstellungen zu beschränken.
@@ -181,4 +181,4 @@ Unten sehen Sie ein Beispielskript, mit dem Sie die Objekt-ID des Dienstprinzipa
 * [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md)
 * [Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden](embed-sample-for-customers.md)
 * [Anwendungs- und Dienstprinzipalobjekte in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Sicherheit auf Zeilenebene bei Verwendung eines lokalen Datengateways mit Dienstprinzipal (Vorschau)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Sicherheit auf Zeilenebene bei Verwendung eines lokalen Datengateways mit Dienstprinzipal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
