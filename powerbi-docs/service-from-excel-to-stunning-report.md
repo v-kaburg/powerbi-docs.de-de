@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139645"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721466"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Im Handumdrehen von einer Excel-Arbeitsmappe zum eindrucksvollen Bericht
 Ihre Vorgesetzte möchte bis zum Ende des Arbeitstages von Ihnen einen Bericht über die aktuellen Verkaufszahlen in Verbindung mit den Eindrücken der letzten Kampagne angefertigt bekommen. Die neuesten Daten befinden sich jedoch in verschiedenen Systemen von Drittanbietern und in Dateien auf Ihrem Laptop. Bisher hat es Stunden gedauert, Visualisierungen zu erstellen und einen Bericht zu formatieren. Sie werden langsam unruhig.
@@ -98,6 +98,6 @@ Nächste Schritte
 
 * [Erste Schritte mit dem Power BI-Dienst](service-get-started.md)
 * [Erste Schritte mit Power BI Desktop](desktop-getting-started.md)
-* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

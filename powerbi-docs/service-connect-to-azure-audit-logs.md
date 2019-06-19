@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178929"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720591"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Herstellen einer Verbindung mit Azure-Überwachungsprotokollen mithilfe von Power BI
 Mit dem Azure-Überwachungsprotokoll-Inhaltspaket können Sie die in den Überwachungsprotokollen gespeicherten Informationen analysieren und visualisieren. Power BI ruft Ihre Daten ab und erstellt ein Standard-Dashboard sowie Berichte basierend auf diesen Daten.
@@ -70,5 +70,5 @@ Wenn ein Fehler aufgrund der Anmeldeinformationen oder beim Aktualisieren aufgru
 
 ## <a name="next-steps"></a>Nächste Schritte
 [Was ist Power BI?](power-bi-overview.md)  
-[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)  
+[Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)  
 

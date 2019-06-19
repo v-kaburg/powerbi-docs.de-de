@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770601"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448401"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL-Datenbank mit DirectQuery
 
@@ -42,28 +42,15 @@ Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzerobe
 
 Zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery müssen Sie Power BI Desktop verwenden. Dieser Ansatz bietet zusätzliche Flexibilität und Funktionalität. Mit Power BI Desktop erstellte Berichte können dann im Power BI-Dienst veröffentlicht werden. [Hier](desktop-use-directquery.md) erhalten Sie weitere Informationen zum Herstellen einer Verbindung mit der Azure SQL-Datenbank über DirectQuery in Power BI Desktop.
 
-## <a name="single-sign-on"></a>Einmaliges Anmelden
-
-Nachdem Sie ein Azure SQL DirectQuery-Dataset im Dienst veröffentlichen, können Sie einmaliges Anmelden (Single Sign-On, SSO) über Azure AD-OAuth2 (Azure Active Directory) für Endbenutzer aktivieren.
-
-Um SSO zu aktivieren, rufen Sie die Einstellungen für das Dataset auf, öffnen die Registerkarte **Datenquellen**, und aktivieren Sie das Kontrollkästchen „SSO“.
-
-![Dialogfeld zum Konfigurieren von Azure SQL-Datenquellen](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-Wenn die Option „SSO“ aktiviert ist und Benutzer auf Berichte zugreifen, die auf der Datenquelle beruhen, werden deren authentifizierten Azure AD-Anmeldeinformationen von Power BI in den Abfragen an die Azure SQL-Datenbank gesendet. Dadurch wird sichergestellt, dass die auf Datenquellenebene konfigurierten Sicherheitseinstellungen in Power BI berücksichtigt werden.
-
-Die SSO-Option gilt für alle Datasets, die diese Datenquelle verwenden. Sie hat keine Auswirkungen auf das Authentifizierungsverfahren, das bei Importszenarien verwendet wird.
-
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) wird nicht unterstützt. Benutzer, die SSO mit Azure SQL DirectQuery verwenden möchten, müssen von MFA ausgenommen werden.
-
 ## <a name="finding-parameter-values"></a>Suchen von Parameterwerten
 
 Ihren vollqualifizierten Servernamen und den Datenbanknamen finden Sie im Azure-Portal.
 
-![Neues Update für Azure-port](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![Neues Azure Port-Update](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
-![Azure-Portal-update](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+![Azure Portal-Update](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Nächste Schritte
 

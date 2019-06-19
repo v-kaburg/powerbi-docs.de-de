@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624945"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720888"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Aktivieren von Q&A für Liveverbindungen in Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Was ist das lokale datengateway?  Was ist eine Liveverbindung?
-Sie können Datasets in Power BI importieren oder eine Liveverbindung zu den Daten herstellen. Eine liveverbindung verwendete Datasets häufig auf die verwiesen wird als "lokal". Die Liveverbindungen werden mit einem [Gateway](service-gateway-onprem.md) verwaltet, und die Übermittlung der Daten und Abfragen erfolgt über Liveabfragen.
+## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Was ist das lokale Datengateway?  Was ist eine Liveverbindung?
+Sie können Datasets in Power BI importieren oder eine Liveverbindung zu den Daten herstellen. Über eine Liveverbindung verwendete Datasets werden häufig als „lokal“ bezeichnet. Die Liveverbindungen werden mit einem [Gateway](service-gateway-onprem.md) verwaltet, und die Übermittlung der Daten und Abfragen erfolgt über Liveabfragen.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Q&A für Datasets mit Zugriff über das lokale Datengateway
 Wenn Sie F&A mit Datasets verwenden möchten, auf die Sie über ein Gateway zugreifen, müssen Sie die Datasets zuerst aktivieren.
@@ -33,7 +33,7 @@ Da Power BI F&A die Text- und Schemawerte aus Ihrer Datenquelle verwenden, um z
 Weitere Informationen finden Sie unter:
 
 * Was ist das [lokale Datengateway](service-gateway-onprem.md)?
-* [Power BI Q & A für Consumer](consumer/end-user-q-and-a.md)
+* [Power BI Q&A für Nutzer](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>Aktivieren von Q&A
 Nachdem Sie das Datengateway eingerichtet haben, stellen Sie aus Power BI eine Verbindung mit Ihren Daten her.  Erstellen Sie ein Dashboard mit Ihren lokalen Daten oder laden Sie eine PBIX-Datei hoch, die lokale Daten verwendet.  Möglicherweise enthalten Ihre Dashboards, Berichte und Datasets auch bereits lokale Daten, die für Sie freigegeben wurden.
@@ -54,16 +54,16 @@ Wenn Sie F&A für Ihre lokalen Daten aktivieren, wird eine Teilmenge der Daten i
 ## <a name="considerations-and-troubleshooting"></a>Zu beachtende Aspekte und Problembehandlung
 Die Funktion weist einige Einschränkungen auf:
 
-* Das Feature ist zunächst nur für tabellarische SQL Server 2016 Analysis Services-Datenquellen verfügbar. Das Feature wurde für die Zusammenarbeit mit tabellarischen Daten optimiert. Die f & A wird noch nicht unterstützt für mehrdimensionale. Im Lauf der Zeit werden weitere vom lokalen Datengateway unterstützte Datenquellen eingeführt.
-* Sicherheit auf Zeilenebene, die in SQL Server Analysis Services definierte vollständige Unterstützung ist anfänglich nicht verfügbar. Beim stellen von Fragen in f & A, zugreifen nicht die "Automatische Vervollständigung" Fragen während der Eingabe-Werte ein Benutzer angezeigt werden kann auf. Die im Modell definierte Sicherheit auf Zeilenebene wird jedoch für Berichts- und Diagrammvisualisierungen respektiert, wobei keine zugrunde liegenden numerischen Daten angezeigt werden können. Optionen zum Steuern dieses Verhalten werden in kommenden Updates veröffentlicht.
-* Sicherheit auf Objektebene (OLS) wird nicht unterstützt. Q & A nicht Sicherheit auf Objektebene respektieren und kann Offenlegen Tabellen- oder Spaltennamen für Benutzer, die keinen Zugriff darauf haben. Sie sollten die Sicherheit auf Zeilenebene aktivieren, um sicherzustellen, dass Datenwerte angemessen gesichert sind. 
-* Liveverbindungen werden nur mit dem lokalen Datengateway unterstützt. Daher kann dies mit dem personal Gateway verwendet werden.
+* Das Feature ist zunächst nur für tabellarische SQL Server 2016 Analysis Services-Datenquellen verfügbar. Das Feature wurde für die Zusammenarbeit mit tabellarischen Daten optimiert. Die Q&A-Funktion wird noch nicht für mehrere Dimensionen unterstützt. Im Lauf der Zeit werden weitere vom lokalen Datengateway unterstützte Datenquellen eingeführt.
+* Die in SQL Server Analysis Services definierte vollständige Unterstützung der Sicherheit auf Zeilenebene steht nicht von Beginn an zur Verfügung. Bei der Eingabe von Fragen in Q&A können durch die „automatische Vervollständigung“ Zeichenfolgenwerte angezeigt werden, auf die der Benutzer keinen Zugriff hat. Die im Modell definierte Sicherheit auf Zeilenebene wird jedoch für Berichts- und Diagrammvisualisierungen respektiert, wobei keine zugrunde liegenden numerischen Daten angezeigt werden können. Optionen zum Steuern dieses Verhalten werden in kommenden Updates veröffentlicht.
+* Die Sicherheit auf Objektebene wird nicht unterstützt. Q&A berücksichtigt die Sicherheit auf Objektebene nicht und kann Tabellen- oder Spaltennamen für Benutzer offenlegen, die keinen Zugriff darauf haben. Sie sollten die Sicherheit auf Zeilenebene aktivieren, um sicherzustellen, dass Datenwerte angemessen gesichert sind. 
+* Liveverbindungen werden nur mit dem lokalen Datengateway unterstützt. Daher können sie nicht mit dem persönlichen Gateway verwendet werden.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 - [Lokales Datengateway](service-gateway-onprem.md)  
 - [Verwalten Ihrer Datenquelle – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI: Grundlegende Konzepte](consumer/end-user-basic-concepts.md)  
+- [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)  
 - [Übersicht über Power BI Q&A](consumer/end-user-q-and-a.md)  
 
 Weitere Fragen? [Stellen Sie Ihre Frage in der Power BI-Community.](http://community.powerbi.com/)

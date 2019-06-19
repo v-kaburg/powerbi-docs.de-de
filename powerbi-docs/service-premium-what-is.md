@@ -1,6 +1,6 @@
 ---
 title: Was ist Microsoft Power BI Premium?
-description: Power BI Premium bietet dedizierte Kapazität für Ihre Organisation bietet Ihnen verlässlicherer Leistung und größeren Datenmengen, ohne dass Sie pro Benutzer erforderliche Lizenzen zu erwerben.
+description: Power BI Premium bietet dedizierte Kapazitäten für Ihre Organisation, sodass Sie von verlässlicherer Leistung und größeren Datenmengen profitieren, ohne Benutzerlizenzen kaufen zu müssen.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -11,161 +11,161 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e5ffa624bf69cf470aade076c80ac37028a55456
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1c2f867140c5a717c80d39db75b3a54e40bd1e34
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565260"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721047"
 ---
 # <a name="what-is-power-bi-premium"></a>Was ist Power BI Premium?
 
-Power BI Premium bietet dedizierte und verbesserte Ressourcen zum Ausführen von Power BI-Dienst für Ihre Organisation. Beispiel:
+Power BI Premium bietet dedizierte und erweiterte Ressourcen für die Ausführung des Power BI-Diensts für Ihre Organisation. Beispiel:
 
-- Eine größere Skalierung und Leistung
-- Flexibilität mit Lizenz von Kapazität
-- Vereinheitlichen der Self-Service und Unternehmens-BI
-- Erweitern von lokalen BI mit Power BI-Berichtsserver
-- Unterstützung für datenresidenz nach Region (Multi-Geo Capabilities)
-- Freigeben Sie Daten für andere, ohne den Erwerb einer Lizenz pro Benutzer
+- Größere Skalierung und Leistung
+- Flexibilität bei der Lizenzierung nach Kapazität
+- Vereinheitlichung von Self-Service- und Unternehmens-BI
+- Erweitern der lokalen BI mit Power BI-Berichtsserver
+- Unterstützung für Datenresidenz nach Region (Multi-Geo)
+- Teilen von Daten mit beliebigen Personen ohne Erwerb einer Benutzerlizenz
 
-In diesem Artikel ist nicht vorgesehen, um ausführliche Informationen über jedes Feature von Power BI Premium – in der Tat bereitzustellen, es wird nur die Oberfläche berührt. Bei Bedarf werden Links zu weiteren Artikeln mit ausführlicheren Informationen bereitgestellt.
+Dieser Artikel bietet keine tiefgreifenden Details zu allen Funktionen von Power BI Premium – er berührt gerade einmal die Oberfläche. Wo es erforderlich ist, bieten Links zu weiteren Artikeln ausführlichere Informationen.
 
-## <a name="subscriptions-and-licensing"></a>Abonnements und Lizenzen
+## <a name="subscriptions-and-licensing"></a>Abonnements und Lizenzierung
 
-Power BI Premium ist ein auf Mandantenebene Office 365-Abonnement in zwei SKU (Stock Keeping Unit)-Familien verfügbar:
+Power BI Premium ist ein Office 365-Abonnement auf Mandantenebene, das in zwei SKU-Familien (Stock Keeping Unit) erhältlich ist:
 
-- **EM** SKUs (EM1-EM3) für das einbetten, erfordern eine jährliche Verpflichtung, monatlich in Rechnung gestellt.
-- **P** SKUs (P1-P3) einbetten und Enterprise-Funktionen erfordern eine monatliche oder jährliche Verpflichtung monatlich in Rechnung gestellt, und enthält eine Lizenz für Power BI-Berichtsserver lokal installieren.
+- **EM**-SKUs (EM1–EM3) zum Einbetten, die eine jährliche Verpflichtung erfordern und monatlich abgerechnet werden. Die EM1- und EM2-SKUs sind nur über Volumenlizenzierungspläne erhältlich. Sie können sie nicht direkt erwerben.
+- **P**-SKUs (P1–P3) für Einbettungs- und Unternehmensfunktionen, die eine monatliche oder jährliche Verpflichtung erfordern, monatlich abgerechnet werden und eine Lizenz zur lokalen Installation von Power BI-Berichtsserver beinhalten.
 
-Ein alternativer Ansatz ist der Kauf einer **Azure Power BI Embedded** -Abonnement, das einem einzelnen **ein** nur zu Testzwecken (A1-A6) SKU-Familie für die Einbettung und Kapazitätstests durch. Alle SKUs bieten V-Kerne zum Erstellen von Kapazitäten, aber die EM-SKUs sind für Einbetten von kleineren Skalierung eingeschränkt. EM1 und EM2, A1 A2-SKUs mit weniger als vier V-Kerne werden für dedizierte Infrastruktur nicht ausgeführt.
+Ein alternativer Ansatz ist der Kauf eines **Azure Power BI Embedded** -Abonnements, das ein einzelnes Abonnement der **A**-SKU-Familie (A1–A6) zur Einbettung und für Kapazitätstests nur zu Testzwecken enthält. Alle SKUs bieten V-Kerne zum Erstellen von Kapazitäten, die EM-SKUs sind jedoch für Einbettung im kleineren Maßstab eingeschränkt. EM1-, EM2-, A1- und A2-SKUs mit weniger als vier V-Kernen können nicht in dedizierter Infrastruktur ausgeführt werden.
 
-Während der Schwerpunkt dieses Artikels auf der P-SKUs ist, sind viele der erläuterungen auch relevant für die A-SKUs. Im Gegensatz zu den Premium-Abonnement können Sie SKUs, die Azure-SKUs erfordern keine Zeitaufwand und abgerechnet wird. Sie bieten vollständige Skalierung aktivieren, um Flexibilität, zentral Herunterskalieren, Pause-, fortsetzen- und löschen. 
+Zwar liegt der Schwerpunkt dieses Artikels auf den P-SKUs, viel vom Beschriebenen ist jedoch auch für die A-SKUs relevant. Im Gegensatz zu den Premium-Abonnement-SKUs, erfordern Azure-SKUs keine zeitliche Verpflichtung und werden stundenweise abgerechnet. Sie bieten uneingeschränkte Elastizität, die zentrales Hochskalieren, Herunterskalieren, Anhalten, Fortsetzen und Löschen ermöglicht. 
 
-Azure Power BI Embedded wird im Rahmen dieses Artikels zum größten Teil, aber es wird beschrieben, der [testen Ansätze](service-premium-capacity-optimize.md#testing-approaches) Abschnitt des Artikels Optimieren von Premium-Kapazitäten als praktische und wirtschaftliche-Option von Tests und Messungen Workloads. Weitere Informationen zu Azure-SKUs finden Sie unter [Dokumentation zu Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/).
+Azure Power BI Embedded liegt weitgehend außerhalb der Reichweite dieses Artikels, ist aber im Abschnitt [Testansätze](service-premium-capacity-optimize.md#testing-approaches) des Artikels „Optimieren von Premium-Kapazitäten“ als praktische und wirtschaftliche Option zum Testen und Messen von Workloads beschrieben. Weitere Informationen zu Azure-SKUs finden Sie in der [Dokumentation zu Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/).
 
-### <a name="purchasing"></a>Erwerb von
+### <a name="purchasing"></a>Erwerb
 
-Power BI-Premium-Abonnements werden von Administratoren im Microsoft 365 Administrationscenter gekauft. Insbesondere können nur globale Office 365 oder Administratoren Abrechnung SKUs erwerben. Wenn erworben haben, erhält der Mandant keine entsprechende Anzahl von V-Kerne zum Zuweisen von Kapazitäten, bekannt als *V-Kern-pooling*. Beispielsweise stellt der Erwerb einer P3-SKU des Mandanten mit 32 V-Kerne. Weitere Informationen finden Sie unter [zum Erwerb von Power BI Premium](service-admin-premium-purchase.md).
+Power BI-Premium-Abonnements werden von Administratoren im Microsoft 365 Admin Center gekauft. Genauer gesagt können nur globale Office 365-Administratoren oder Abrechnungsadministratoren SKUs erwerben. Beim Kauf erhält der Mandant eine entsprechende Anzahl V-Kerne zur Zuweisung zu Kapazitäten, was als *V-Kern-Pooling* bezeichnet wird. Beispielsweise erhält der Mandant durch den Erwerb einer P3-SKU 32 V-Kerne. Weitere Informationen finden Sie unter [How to purchase Power BI Premium (Erwerben von Power BI Premium)](service-admin-premium-purchase.md).
 
-## <a name="dedicated-capacities"></a>Dedizierte Kapazität
+## <a name="dedicated-capacities"></a>Dedizierte Kapazitäten
 
-Mit Power BI Premium, erhalten Sie *dedizierten Kapazitäten*. Im Gegensatz zu einer gemeinsam genutzten Kapazität, wenn die Workloads auf Computerressourcen gemeinsam mit anderen Kunden ausführen, ist eine dedizierte Kapazität für die ausschließliche Verwendung von einer anderen Organisation ein. Es wurde mit dedizierten Compute-Ressourcen isoliert, die zuverlässige und konsistente Leistung für gehosteten Inhalt zu bieten. 
+Mit Power BI Premium erhalten Sie *dedizierte Kapazitäten*. Im Gegensatz zu einer gemeinsam genutzten Kapazität, bei der die Workloads auf gemeinsam mit anderen Kunden genutzten Computerressourcen ausgeführt werden, ist eine dedizierte Kapazität für die ausschließliche Verwendung durch eine Organisation bestimmt. Sie ist isoliert und verfügt über dedizierte Computeressourcen, die verlässliche und konsistente Leistung für die gehosteten Inhalte zur Verfügung stellt. 
 
-Arbeitsbereiche befinden sich in Kapazitäten. Jeder Power BI-Benutzer hat einen persönlichen Arbeitsbereich, bekannt als **Arbeitsbereich**. Zusätzliche Arbeitsbereiche können erstellt werden, um die Zusammenarbeit und die Bereitstellung zu ermöglichen, und diese werden als bezeichnet **App-Arbeitsbereiche**. Standardmäßig sind Arbeitsbereiche, einschließlich der persönlichen Arbeitsbereiche, die gemeinsam genutzte Kapazität erstellt. Wenn Sie Premium-Kapazitäten verfügen, können Premium-Kapazitäten sowohl Meine Arbeitsbereiche und App-Arbeitsbereichen zugewiesen werden.
+Arbeitsbereiche befinden sich innerhalb von Kapazitäten. Jeder Power BI-Benutzer verfügt über einen persönlichen Arbeitsbereich, der als **Mein Arbeitsbereich** bezeichnet wird. Zusätzliche Arbeitsbereiche können erstellt werden, um die Zusammenarbeit und die Bereitstellung zu ermöglichen, und diese werden als **App-Arbeitsbereiche** bezeichnet. Standardmäßig werden Arbeitsbereiche, einschließlich persönlicher Arbeitsbereiche, in der gemeinsam genutzten Kapazität erstellt. Wenn Sie über Premium-Kapazitäten verfügen, können sowohl zu „Meine Arbeitsbereiche“ als auch zu App-Arbeitsbereichen Premium-Kapazitäten zugewiesen werden.
 
-### <a name="capacity-nodes"></a>Kapazität von Knoten
+### <a name="capacity-nodes"></a>Kapazitätsknoten
 
-Siehe die [Subscriptions und Lizenzierung](#subscriptions-and-licensing) Abschnitt, gibt es zwei Power BI Premium-SKU-Familien: **EM** und **P**. Alle Power BI Premium-SKUs stehen als Kapazität *Knoten*, die jeweils die Ressourcen, die der Prozessor, Arbeitsspeicher und Speicher aus einen festgelegten Zeitraum darstellt. Zusätzlich zu den Ressourcen jede SKU hat funktionsbegrenzungen, auf die Anzahl von DirectQuery und Liveverbindung Verbindungen pro Sekunde und die Anzahl der parallelen Modell aktualisiert.
+Wie im Abschnitt [Abonnements und Lizenzierung](#subscriptions-and-licensing) beschrieben, gibt es zwei SKU-Familien bei Power BI Premium: **EM** und **P**. Alle Power BI Premium-SKUs sind als *Kapazitätsknoten* erhältlich, von denen jeder eine festgelegte Menge an Ressourcen in Form von Prozessor, Arbeitsspeicher und Speicherplatz darstellt. Über Ressourcen hinaus bestehen für jede SKU Grenzwerte im Betrieb hinsichtlich der Anzahl der DirectQuery- und Live Connection-Verbindungenpro Sekunde und der Anzahl der parallelen Modellaktualisierungen.
 
-Verarbeitung erfolgt durch eine festgelegte Anzahl von V-Kerne, gleichmäßig zwischen Back-End- und Front-End unterteilt.
+Die Verarbeitung erfolgt mithilfe einer festgelegten Anzahl V-Kerne, die zu gleichen Teilen zwischen Back-End und Front-End aufgeteilt werden.
 
-**Back-End-V-Kerne** sind verantwortlich für die Core-Power BI-Funktionen, einschließlich der abfrageverarbeitung, cacheverwaltung, Ausführen von R Services, Aktualisierung des Modells, die Verarbeitung natürlicher Sprache (Q & A) und serverseitiges Rendering von Berichten und Bildern. Back-End-V-Kerne werden eine feste Menge an Arbeitsspeicher die in erster Linie verwendet wird, der Host-Modellen, auch bekannt als aktiver Datasets zugewiesen werden.
+**Back-End-V-Kerne** sind für die Power BI-Kernfunktionalität zuständig, einschließlich Abfrageverarbeitung, Cacheverwaltung, das Ausführen von R-Diensten, die Verarbeitung natürlicher Sprache (Q&A) und das serverseitige Rendern von Berichten und Bildern. Back-End-V-Kernen wird eine festgelegte Menge Arbeitsspeicher zugewiesen, der hauptsächlich zum Hosten von Modellen verwendet wird, die auch als aktive Datasets bezeichnet werden.
 
-**Front-End-V-Kerne** sind verantwortlich für die Web Service, Dashboard und Bericht dokumentverwaltung, zugriffsrechteverwaltung, zeitplanung, APIs, uploads downloads und Allgemein für alles im Zusammenhang mit der Benutzer hat.
+Die **Front-End-V-Kerne** sind für den Webdienst, die Verwaltung von Dashboard und Berichtsdokumenten, die Zugriffsrechteverwaltung, Zeitplanung, APIs, Uploads und Downloads und allgemein für alles zuständig, das mit der Benutzererfahrung zusammenhängt.
 
-Storage nastaven NA hodnotu **100 TB pro kapazitätsknoten**.
+Der Speicherplatz ist auf **100 TB pro Kapazitätsknoten** festgelegt.
 
-Die Ressourcen und die Grenzen der einzelnen Premium-SKU (und gleichermaßen Größe ein SKU) werden in der folgenden Tabelle beschrieben:
+Die Ressourcen und Grenzwerte der einzelnen Premium-SKUs (und A-SKU jeweils gleicher Größe) sind in der folgenden Tabelle beschrieben:
 
-| Kapazität von Knoten | Gesamtzahl an V-Kernen | Back-End-V-Kerne | RAM (GB) | Front-End-V-Kerne | DirectQuery/Liveverbindung (pro Sekunde) | Modell aktualisieren Parallelität |
+| Kapazitätsknoten | Gesamtzahl an V-Kernen | Back-End-V-Kerne | RAM (GB) | Front-End-V-Kerne | DirectQuery/Live Connection (s) | Modell-Aktualisierungsparallelität |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
 
-### <a name="capacity-workloads"></a>Capacity-workloads
+### <a name="capacity-workloads"></a>Kapazitätsworkloads
 
-Capacity-Workloads sind Dienste, die Benutzern zur Verfügung gestellt. Premium- und Azure-Kapazitäten Unterstützung standardmäßig nur eine Dataset-Workload, die mit der Ausführung von Abfragen mit Power BI. Die Dataset-Workload kann nicht deaktiviert werden. Zusätzlicher Workloads können aktiviert werden, für die [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Datenflüsse](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium), und [paginierte Berichte](paginated-reports-save-to-power-bi-service.md). Diese Workloads werden nur für Premium-Abonnements unterstützt. 
+Kapazitätsworkloads sind Dienste, die Benutzern zur Verfügung gestellt werden. Standardmäßig unterstützen Premium- und Azure-Kapazitäten nur die Workload für die Ausführung von Power BI-Abfragen. Die Dataset-Workload kann nicht deaktiviert werden. Zusätzliche Workloads können für [KI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Dataflows](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) und [paginierte Berichte](paginated-reports-save-to-power-bi-service.md) aktiviert werden. Diese Workloads werden nur in Premium-Abonnements unterstützt. 
 
-Jede zusätzliche Arbeitslast ermöglicht das Konfigurieren des maximalen Arbeitsspeichers (als Prozentsatz des gesamten verfügbaren Arbeitsspeichers), der von der arbeitsauslastung verwendet werden kann. Standardwerte für den maximalen Arbeitsspeicher werden nach SKU bestimmt. Sie können die Kapazität der verfügbaren Ressourcen maximieren, indem nur die zusätzlichen Workloads aktivieren, wenn sie verwendet werden. Und Sie können ändern, Arbeitsspeicher, dass Einstellungen nur, wenn Sie die Einstellungen der Standardrichtlinie ermittelt haben Ihre kapazitätsanforderungen für die Ressource nicht erfüllt werden. Arbeitsauslastungen aktiviert und für eine Kapazität von kapazitätsadministratoren mit konfiguriert werden können, **kapazitätseinstellungen** in die [-Verwaltungsportal](service-admin-portal.md) oder mithilfe der [Kapazitäten-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/capacities).  
+Jede zusätzliche Workload ermöglicht das Konfigurieren des maximalen Arbeitsspeichers (als Prozentsatz des gesamten verfügbaren Arbeitsspeichers) für die Verwendung durch die Workload. Die Standardwerte für den maximalen Arbeitsspeicher werden nach SKU bestimmt. Sie können die verfügbaren Ressourcen Ihrer Kapazität maximieren, indem Sie diese zusätzlichen Workloads nur bei Bedarf aktivieren. Und Sie können die Arbeitsspeichereinstellungen erst ändern, wenn Sie bestimmt haben, dass die Standardeinstellungen Ihre Anforderungen an Kapazitätsressourcen nicht erfüllen. Workloads können von Kapazitätsadministratoren für eine Kapazität mithilfe von **Kapazitätseinstellungen** im [Verwaltungsportal](service-admin-portal.md) oder mithilfe der [Kapazitäts-REST-APIs](https://docs.microsoft.com/rest/api/power-bi/capacities) aktiviert und konfiguriert werden.  
 
 ![Aktivieren von Workloads](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
 Weitere Informationen finden Sie unter [Konfigurieren von Workloads in einer Premium-Kapazität](service-admin-premium-workloads.md). 
 
-### <a name="how-capacities-function"></a>Wie Kapazitäten-Funktion
+### <a name="how-capacities-function"></a>Funktiosweise von Kapazitäten
 
-AT wird immer im Power BI-Dienst kapazitätsressourcen beim Überschreiten von Grenzwerten für die Kapazität auferlegt nicht optimal nutzen.
+Der Power BI-Dienst nutzt die Kapazitätsressourcen jederzeit optimal, ohne die der Kapazität auferlegten Grenzwerte zu überschreiten.
 
-Capacity-Vorgänge werden entweder als klassifiziert *interaktive* oder *Hintergrund*. Interaktive Vorgänge enthalten, Rendern von Anforderungen und die Reaktion auf Benutzerinteraktionen (filtern, Q & A-Abfragen usw.). Im Allgemeinen ist die Import-Modell abgefragt Arbeitsspeicher ressourcenintensiv, während Abfragen von Modellen für DirectQuery und Liveverbindung CPU-intensiv ist. Hintergrundvorgänge Datenfluss einschließen, und importieren Sie Modell aktualisiert und das Dashboard Abfrage Zwischenspeichern.
+Kapazitätsvorgänge werden entweder als *interaktiv* oder *im Hintergrund* klassifiziert. Zu den interaktiven Vorgängen gehören Renderinganforderungen und das Reagieren auf Benutzerinteraktionen (Filtern, Q&A-Abfragen usw.). Im Allgemeinen wird beim Abfragen von Importmodellen die Arbeitsspeicherressource stärker genutzt, während das Abfragen von DirectQuery- und Live Connection-Modellen CPU-intensiv ist. Zu den Hintergrundvorgängen gehören die Aktualisierung von Datenflüssen und Importmodellen sowie das Cachen von Dashboardabfragen.
 
-Es ist wichtig zu verstehen, dass interaktive Vorgänge immer über die Hintergrundvorgänge ausgeführt, um sicherzustellen, dass die bestmögliche benutzerumgebung priorisiert werden. Wenn nicht genügend Ressourcen vorhanden sind, werden die Hintergrundvorgänge hinzugefügt, an eine Warteschlange zur Verarbeitung, wenn Ressourcen frei. Hintergrundvorgänge, z.B. das Dataset aktualisiert, können beendet mitten von Power BI-Dienst und einer Warteschlange hinzugefügt.
+Es ist wichtig zu verstehen, dass interaktive Vorgänge immer Vorrang vor Hintergrundvorgängen haben, um die bestmögliche Benutzererfahrung sicherzustellen. Wenn nicht ausreichend Ressourcen vorhanden sind, werden Hintergrundvorgänge einer Warteschlange hinzugefügt, um bei freiwerdenden Ressourcen verarbeitet zu werden. Hintergrundvorgänge, wie Datasetaktualisierungen, können vom Power BI-Dienst im Vorgang angehalten und einer Warteschlange hinzugefügt werden.
 
-Importmodelle müssen vollständig in den Arbeitsspeicher geladen werden, damit diese abgefragt oder aktualisiert werden können. Power BI-Dienst verwaltet Speicher der Nutzung von anspruchsvolle Algorithmen, um sicherzustellen, dass maximal verfügbaren Arbeitsspeicher nutzen, und committen die Kapazität zu verursachen kann: Es ist möglich, für eine Kapazität zum Speichern von vielen importieren (bis zu 100 TB pro Premium-Kapazität) modelliert, wenn die kombinierte Datenträgerspeicher überschreitet den unterstützten Speicher (zusätzlicher Speicher ist erforderlich, zum Abfragen und aktualisieren), können nicht diese alle an in den Speicher geladen werden gleichzeitig.
+Importmodelle müssen vollständig in den Arbeitsspeicher geladen werden, damit sie abgefragt oder aktualisiert werden können. Der Power BI-Dienst verwaltet den Arbeitsspeicherverbrauch mithilfe hoch entwickelter Algorithmen, um die maximale Nutzung des verfügbaren Arbeitsspeichers sicherzustellen, was zu Überbuchung der Kapazität führen kann: Eine Kapazität kann zwar viele Importmodelle speichern (bis zu 100 TB pro Premium-Kapazität), wenn der kombinierte Datenträgerspeicher den unterstützten Arbeitsspeicher jedoch überschreitet (und zusätzlicher Arbeitsspeicher für Abfragen und Aktualisierungen benötigt wird), können sie nicht alle zugleich in den Arbeitsspeicher geladen werden.
 
-Importmodelle werden aus diesem Grund in geladen und aus dem Speicher entsprechend der Verwendung entfernt. Ein Modell importieren wird geladen, wenn es sich um abgefragten (interaktive Vorgang) ist und noch nicht im Arbeitsspeicher, oder wenn es aktualisiert werden (Vorgang im Hintergrund).
+Importmodelle werden aus diesem Grund nach Bedarf in den Arbeitsspeicher geladen und aus diesem entfernt. Ein Importmodell wird geladen, wenn es abgefragt wird (interaktiver Vorgang) und sich noch nicht im Arbeitsspeicher befindet, oder wenn es aktualisiert werden soll (Hintergrundvorgang).
 
-Das Entfernen eines Modells aus dem Arbeitsspeicher wird als bezeichnet *Entfernung*. Es ist ein Vorgang, den Power BI abhängig von der Größe der Modelle schnell ausführen können. Wenn die Kapazität jeder ungenügendem Arbeitsspeicher nicht auftreten, werden Modelle sind einfach in den Arbeitsspeicher geladen und bleiben dort. Wenn nicht genügend Arbeitsspeicher zum Laden eines Modells verfügbar ist, wird Power BI-Dienst zuerst Freigeben von Arbeitsspeicher müssen allerdings. Gibt Arbeitsspeicher frei, durch das Erkennen von Modellen, die inaktiv haben durch Suchvorgänge Modelle, die nicht in den letzten drei Minuten verwendet wurden \[ [1](#endnote-1)\], und klicken Sie dann entfernen sie. Wenn es keine inaktiven Modelle gibt zu entfernen, versucht Power BI-Dienst für Hintergrundoperationen geladene Modelle zu entfernen. Letzte Möglichkeit, nach 30 Sekunden nicht erfolgreicher Versuche \[ [1](#endnote-1)\], besteht darin, das interaktive fehl. In diesem Fall wird der Benutzer des Berichts bildschirmaufnahmedatei eine Empfehlung, versuchen es in Kürze informiert. In einigen Fällen können Modelle aus dem Arbeitsspeicher aufgrund von Dienstvorgängen entladen werden.
+Das Entfernen eines Modells aus dem Arbeitsspeicher wird als *Entfernung* bezeichnet. Dies ist ein Vorgang, den Power BI – je nach Größe der Modelle – schnell ausführen kann. Wenn die Kapazität keinen Engpass beim Arbeitsspeicher erlebt, werden Modelle einfach in den Arbeitsspeicher geladen und verbleiben dort. Wenn jedoch nicht genügend Arbeitsspeicher zum Laden eines Modells zur Verfügung steht, muss der Power BI-Dienst zuerst Arbeitsspeicher freigeben. Er gibt Arbeitsspeicher frei, indem er inaktive Modelle erkennt; dazu sucht er Modelle, die innerhalb der letzten drei Minuten \[[1](#endnote-1)\] nicht verwendet wurden, und entfernt diese dann. Wenn keine inaktiven Modelle zum Entfernen vorhanden sind, versucht der Power BI-Dienst, Modelle zu entfernen, die für Hintergrundoperationen geladen wurden. Als letztes Mittel lässt er nach 30 Sekunden erfolgloser Versuche \[[1](#endnote-1)\] den interaktiven Vorgang fehlschlagen. In diesem Fall wird der Berichtsbenutzer über den Fehlschlag informiert und gleichzeitig ermutigt, es in Kürze noch einmal zu versuchen. In einigen Fällen können Modelle aufgrund von Dienstvorgängen aus dem Arbeitsspeicher entladen werden.
 
-Es ist wichtig zu betonen, dass das Dataset Entfernung ein normales und erwartetes Verhalten ist. Es zielt darauf ab, zum Maximieren der speicherauslastung durch Laden und Entladen von Modellen, die zusammen mit verfügbaren Arbeitsspeicher überschreiten können. Dies ist beabsichtigt, und für Benutzer des Berichts vollständig transparent. Hohe entfernungsraten bedeuten nicht unbedingt, dass die Kapazität unzureichend Ressourcen zugewiesen ist. Sie können jedoch einem Problem werden, wenn die Abfrage oder Aktualisierung Reaktionsfähigkeit aufgrund hoher entfernungsraten warnungskontext.
+Es muss unbedingt betont werden, dass die Entfernung von Datasets ein normales und erwartetes Verhalten darstellt. Es zielt darauf ab, die Speicherauslastung durch Laden und Entladen von Modellen zu maximieren, deren kombinierte Größe den verfügbaren Arbeitsspeicher überschreiten kann. Dies ist beabsichtigt und für Benutzer des Berichts vollständig transparent. Hohe Entfernungsraten bedeuten nicht zwangsläufig, dass die Kapazität unzureichend mit Ressourcen ausgestattet ist. Dies kann jedoch zu einem Problem werden, wenn die Reaktionsfähigkeit auf Abfragen oder Aktualisierungen aufgrund hoher Entfernungsraten leidet.
 
-Aktualisierungen von importmodelle sind immer Arbeitsspeicheraufwand hoch, wie Modelle in den Arbeitsspeicher geladen werden müssen. Zusätzlicher Speicher ist für die Verarbeitung erforderlich. Eine vollständige Aktualisierung kann ungefähr doppelt so viel Arbeitsspeicher, die das Modell benötigte eingabedatenschema verwenden. Dadurch wird sichergestellt, dass das Modell abgefragt werden kann, sogar während der Verarbeitung, da Abfragen für das vorhandene Modell, gesendet werden, bis die Aktualisierung abgeschlossen wurde und die neue Modelldaten verfügbar sind. Die inkrementelle Aktualisierung erfordert weniger Arbeitsspeicher und kann schneller ausgeführt werden kann und daher nicht genügend kapazitätsressourcen erheblich reduzieren. Aktualisierungen können auch die CPU-intensiv sein für Modelle, vor allem solche mit komplexen Power Query-Transformationen oder berechneten Tabellen/Spalten, die komplex sind oder für große Tabellen basieren.
+Aktualisierungen von Importmodellen sind immer speicherintensiv, da die Modelle in den Arbeitsspeicher geladen werden müssen. Weiterer Speicher ist für die Verarbeitung erforderlich. Eine vollständige Aktualisierung kann ungefähr doppelt so viel Arbeitsspeicher in Anspruch nehmen, wie für das Modell erforderlich ist. Dadurch wird sichergestellt, dass das Modell auch während der Verarbeitung abgefragt werden kann, da Abfragen an das vorhandene Modell gesendet werden, bis die Aktualisierung abgeschlossen ist und die Daten des neuen Modells verfügbar sind. Inkrementelle Aktualisierungen erfordern weniger Arbeitsspeicher und können schneller abgeschlossen werden und so den Druck auf Kapazitätsressourcen deutlich verringern. Aktualisierungen von Modellen können außerdem CPU-intensiv sein, insbesondere solche mit komplexen Power Query-Transformationen oder berechneten Tabellen/Spalten, die komplex sind oder auf umfangreichen Tabelle basieren.
 
-Aktualisierungen, wie Abfragen, erfordern das Modell in den Arbeitsspeicher geladen werden. Wenn nicht genügend Arbeitsspeicher verfügbar ist, versucht Power BI-Dienst zum Löschen der inaktiv Modelle, und wenn dies nicht möglich ist (wie alle Modelle aktiv sind), der Aktualisierungsauftrag in die Warteschlange eingereiht. Aktualisierungen werden in der Regel CPU-intensiv, mehr dennoch als Abfragen. Aus diesem Grund stehen Kapazitätsgrenzen für die Anzahl der gleichzeitigen Aktualisierungen, legen Sie auf 1,5 Mal die Anzahl der Back-End-V-Kerne, die aufgerundet. Wenn zu viele gleichzeitige Aktualisierungen sind, wird eine geplante Aktualisierung in die Warteschlange eingereiht werden. Wenn diese Situationen auftreten, dauert es länger, bis die Aktualisierung abzuschließen. Bei Bedarf aktualisiert werden, z. B. durch eine benutzeranforderung ausgelöst wird, oder ein API-Aufruf wird dreimal wiederholt \[ [1](#endnote-1)\]. Wenn es immer noch nicht genügend Ressourcen, schlägt die Aktualisierung fehl.
+Für Aktualisierungen muss das Modell wie für Abfragen in den Arbeitsspeicher geladen werden. Bei unzureichendem Arbeitsspeicher versucht der Power BI-Dienst, inaktive Modelle zu entfernen, und wenn das nicht möglich ist (weil alle Modelle aktiv sind), wird der Aktualisierungsauftrag in die Warteschlange eingestellt. Aktualisierungen sind in der Regel CPU-intensiv, sogar mehr als Abfragen. Aus diesem Grund bestehen Kapazitätsgrenzen für die Anzahl der gleichzeitigen Aktualisierungen, die auf das 1,5-fache der Anzahl der V-Kerne im Back-End festgelegt ist (aufgerundet). Bei zu vielen gleichzeitigen Aktualisierungen wird eine geplante Aktualisierung in die Warteschlange eingestellt. Wenn diese Situationen eintreten, benötigt die Aktualisierung mehr Zeit bis zum Abschluss. Für Aktualisierungen bei Bedarf, wie sie etwa durch Benutzeranforderung oder einen API-Aufruf ausgelöst werden, wird die Ausführung dreimal versucht \[[1](#endnote-1)\]. Wenn dann immer noch nicht genügend Ressourcen verfügbar sind, schlägt die Aktualisierung fehl.
 
-Im Abschnitt Hinweise:   
-<a name="endnote-1"></a>\[1\] vorbehalten.
+Abschnittshinweise:   
+<a name="endnote-1"></a>\[1\] Änderungen vorbehalten.
 
-### <a name="regional-support"></a>Unterstützung der Regionen
+### <a name="regional-support"></a>Regionsunterstützung
 
-Beim Erstellen einer neuen Kapazität, globale Office 365 und Power BI-Dienstadministratoren angeben kann, befindet sich eine Region, in dem die Kapazität Arbeitsbereiche zugewiesen. Dies bezeichnet man als **Multi-Geo Capabilities**. Mit Multi-Geo Capabilities können Organisationen Daten vor-Ort-Anforderungen erfüllen durch Bereitstellung von Inhalten in Rechenzentren in einer bestimmten Region, auch wenn sie andere als die Region ist in dem sich das Office 365-Abonnement befindet. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung für Power BI Premium](service-admin-premium-multi-geo.md).
+Beim Erstellen einer neuen Kapazität können globale Office 365-Administratoren und Power BI-Dienstadministratoren angeben, wo Arbeitsbereiche, die der Kapazität zugewiesen werden, sich befinden sollen. Dies wird als **Multi-Geo** bezeichnet. Mithilfe von Multi-Geo können Organisationen Anforderungen an die Datenresidenz erfüllen, indem sie Inhalte in Rechenzentren in einer bestimmten Region bereitstellen, auch wenn es sich dabei um eine andere Region als die des Office 365-Abonnements handelt. Weitere Informationen finden Sie unter [Multi-Geo-Unterstützung für Power BI Premium](service-admin-premium-multi-geo.md).
 
-### <a name="capacity-management"></a>Das Capacity management
+### <a name="capacity-management"></a>Kapazitätsmanagement
 
-Verwalten von Premium-Kapazitäten umfasst, erstellen oder Löschen von Kapazitäten, Zuweisen von Administratoren, Zuweisen von Arbeitsbereichen, Konfigurieren von Workloads, Überwachung, und nehmen Anpassungen vor, um die Kapazität zu optimieren. 
+Das Verwalten von Premium-Kapazitäten umfasst das Erstellen oder Löschen von Kapazitäten, das Zuweisen von Administratoren, das Zuweisen von Arbeitsbereichen, das Konfigurieren von Workloads, das Überwachen und das Vornehmen von Anpassungen zum Optimieren der Kapazitätsleistung. 
 
-Globale Administratoren von Office 365 und Power BI-Dienstadministratoren können Premium-Kapazitäten verfügbaren V-Kerne erstellen oder Ändern von vorhandenen Premium-Kapazitäten. Wenn eine Kapazität erstellt wird, kapazitätsumfang und geografischen Region angegeben sind, und mindestens ein kapazitätsadministrator zugewiesen wird. 
+Globale Office 365-Administratoren und Power BI-Dienstadministratoren können Premium-Kapazitäten aus verfügbaren V-Kernen erstellen oder vorhandene Premium-Kapazitäten ändern. Wenn eine Kapazität erstellt wird, werden die Größe und die geografische Region der Kapazität angegeben, und es wird mindestens ein Kapazitätsadministrator zugewiesen. 
 
-Wenn Kapazitäten erstellt werden, werden die meisten administrative Aufgaben abgeschlossen, der [Verwaltungsportal](service-admin-portal.md).
+Die meisten Verwaltungsaufgaben beim Erstellen von Kapazitäten finden im [Verwaltungsportal](service-admin-portal.md) statt.
 
 ![Verwaltungsportal](media/service-premium-what-is/premium-admin-portal.png)
 
-Kapazitätsadministratoren können die Kapazität Arbeitsbereiche zuweisen, Verwalten von Benutzerberechtigungen und andere Administratoren zuweisen. Kapazitätsadministratoren können auch Workloads, Anpassen der speicherbelegung, konfigurieren und bei Bedarf neu starten eine Kapazität, Zurücksetzen der Vorgänge bei einer Überladung der Kapazität.
+Kapazitätsadministratoren können der Kapazität Arbeitsbereiche zuweisen, Benutzerberechtigungen verwalten und weitere Administratoren zuweisen. Kapazitätsadministratoren können außerdem Workloads konfigurieren, wobei sie Arbeitsspeicherzuteilungen anpassen und gegebenenfalls eine Kapazität neu starten, um den Betrieb für den Fall einer Kapazitätsüberlastung zurückzusetzen.
 
 ![Verwaltungsportal](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
-Kapazitätsadministratoren können außerdem stellen Sie sicher, dass eine Kapazität reibungslos ausgeführt wird. Sie können Kapazität Integrität rechts im Administratorportal oder mithilfe der Premium-Kapazität Metriken app überwachen.
+Kapazitätsadministratoren können außerdem sicherstellen, dass eine Kapazität reibungslos ausgeführt wird. Sie können den Kapazitätsstatus direkt im Verwaltungsportal oder mithilfe der Premium-Kapazitäts-Metrik-App überwachen.
 
-Weitere Informationen zu Kapazitäten erstellen, Zuweisen von Administratoren und Zuweisen von Arbeitsbereichen finden Sie unter [Verwalten von Premium-Kapazitäten](service-premium-capacity-manage.md). Weitere Informationen zu Rollen finden Sie unter [Administratorrollen im Zusammenhang mit der Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
+Weitere Informationen zum Erstellen von Kapazitäten, Zuweisen von Administratoren und Zuweisen von Arbeitsbereichen finden Sie unter [Verwalten von Premium-Kapazitäten](service-premium-capacity-manage.md). Weitere Informationen zu Rollen finden Sie unter [Administratorrollen im Zusammenhang mit Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
 ### <a name="monitoring"></a>Monitoring
 
-Überwachen von Premium-Kapazitäten bietet Administratoren einen Überblick über die Leistung von Kapazitäten. Kapazitäten über das Admin-Portal überwacht werden können und die [Kapazitätsmetriken für Power BI Premium-app](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics).
+Durch Überwachen von Premium-Kapazitäten erhalten Administratoren ein Verständnis der Leistung ihrer Kapazitäten. Kapazitäten können mithilfe des Verwaltungsportals und der [Power BI Premium-Kapazitäts-Metrik-App](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) überwacht werden.
 
-Überwachen im Portal stellt einen schnellen Überblick mit allgemeinen Metriken, der angibt, lädt platziert und die Ressourcen, die von Ihrer Kapazität, gemittelt, über den letzten sieben Tagen genutzt werden. 
+Die Überwachung im Portal bietet einen schnellen Überblick mit allgemeinen Metriken, die den Mittelwert der platzierten Auslastungen und der von Ihrer Kapazität genutzten Ressourcen über die vergangenen sieben Tage ausweisen. 
 
 ![Verwaltungsportal](media/service-premium-what-is/premium-admin-portal-health.png)
 
-Die **Kapazitätsmetriken für Power BI Premium** app enthält, die am häufigsten ausführliche Informationen in die Leistung von Ihre Kapazitäten. Die app bietet ein Dashboard auf hoher Ebene und ausführlichere Berichte.
+Die **Power BI Premium-Kapazitäts-Metrik-App** stellt ausführliche Informationen zur Leistung Ihrer Kapazitäten bereit. Die App bietet ein allgemeines Dashboard und ausführlichere Berichte.
 
 ![Metrik-App-Dashboard](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Die app Dashboard klicken Sie auf einer Metrik Zelle, um einen detaillierten Bericht zu öffnen. Berichte enthalten, die ausführliche Metriken und die Filterfunktion, um auf die wichtigsten Informationen Sie Detailinformationen benötigen, um Ihre Kapazitäten laufen zu halten.
+Sie können im Dashboard der App auf eine Metrikzelle klicken, um einen tiefgreifenden Bericht zu öffnen. In Berichten stehen tiefgreifende Metriken und Filterfunktionen zur Verfügung, mit denen Sie Drilldowns zu den wichtigsten Informationen ausführen können, die Sie benötigen, um eine reibungslose Ausführung Ihrer Kapazitäten zu gewährleisten.
 
-![Periodische Spitzen Abfrage Wartezeit Anzahl potenzieller die CPU-Auslastung angeben](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
+![Regelmäßig auftretende Spitzen bei den Indikatoren der Abfragewartezeit weisen auf eine potenzielle CPU-Sättigung hin](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
-Weitere Informationen zum Überwachen von Kapazitäten finden Sie unter [im Power BI-Verwaltungsportal Überwachen](service-admin-premium-monitor-portal.md) und [Überwachung mit der app für Power BI Premium-Kapazitätsmetriken](service-admin-premium-monitor-capacity.md).
+Weitere Informationen zum Überwachen von Kapazitäten finden Sie unter [Überwachen im Power BI-Verwaltungsportal](service-admin-premium-monitor-portal.md) und [Überwachen mit der Power BI Premium-Kapazitäts-Metrik-App](service-admin-premium-monitor-capacity.md).
 
 ### <a name="optimizing-capacities"></a>Optimieren von Kapazitäten
 
-Die optimale Nutzung der Ihre Kapazitäten für die Sicherstellung der Benutzer der Leistungs wichtig ist, und Sie erhalten die Vorteile für Ihre Premium-Investition. Überwachung des Schlüsselmetriken können Administratoren ermitteln, wie sich Engpässe und erforderliche Maßnahmen. Weitere Informationen finden Sie unter [Optimieren von Premium-Kapazitäten](service-premium-capacity-optimize.md) und [Szenarien für Premium-Kapazität](service-premium-capacity-scenarios.md).
+Die optimale Nutzung Ihrer Kapazitäten ist kritisch, um Benutzern die erforderliche Leistung und Ihnen das Erzielen des bestmöglichen Nutzens aus Ihrer Investition in Premium zuzusichern. Durch Überwachen von Schlüsselmetriken können Administratoren bestimmen, wie sich Engpässe optimal beheben lassen, und die erforderlichen Aktionen ausführen. Weitere Informationen finden Sie unter [Optimieren von Premium-Kapazitäten](service-premium-capacity-optimize.md) und [Premium-Kapazitätsszenarien](service-premium-capacity-scenarios.md).
 
-### <a name="capacities-rest-apis"></a>Kapazitäten REST-APIs
+### <a name="capacities-rest-apis"></a>Kapazitäten-REST-APIs
 
-Die Power BI-REST-APIs enthalten eine Reihe von [Kapazitäten APIs](https://docs.microsoft.com/rest/api/power-bi/capacities). Mit den APIs können Administratoren programmgesteuert auf viele Aspekte der Ihre Premium-Kapazitäten, einschließlich aktivieren und Deaktivieren von Workloads und Zuweisen von Arbeitsbereichen zu einer Kapazität und vieles mehr verwalten.
+Die Power BI REST-APIs beinhalten eine Sammlung von [Kapazitäts-APIs](https://docs.microsoft.com/rest/api/power-bi/capacities). Mit den APIs können Administratoren viele Aspekte Ihrer Premium-Kapazitäten programmgesteuert verwalten, darunter das Aktivieren und Deaktivieren von Workloads, das Zuweisen von Arbeitsbereichen zu einer Kapazität usw.
 
-## <a name="large-datasets"></a>Große datasets
+## <a name="large-datasets"></a>Große Datasets
 
-Abhängig von der SKU, Power BI Premium unterstützt Power BI Desktop (.pbix) Modell Uploaddateien maximal **10 GB** Größe. Wenn geladen, kann das Modell mit einem Arbeitsbereich einer Premium-Kapazität zugewiesen veröffentlicht werden. Das Dataset kann dann aktualisiert werden, um bis zu **12 GB** Größe.
+Je nach der gewählten SKU unterstützt Power BI Premium das Hochladen von PBIX-Modelldateien (Power BI Desktop) bis zu einer Größe von maximal **10 GB**. Wenn es geladen ist, kann das Modell anschließend in einem Arbeitsbereich veröffentlicht werden, der einer Premium-Kapazität zugewiesen ist. Das Dataset kann dann bis zu einer Größe von **12 GB** aktualisiert werden.
 
-### <a name="size-considerations"></a>Überlegungen zu Größen
+### <a name="size-considerations"></a>Dimensionierungsaspekte
 
-Große Modelle können ressourcenintensiv sein. Sie sollten mindestens eine P1-SKU für Modelle mit mehr als 1 GB verfügen. Obwohl veröffentlichen große Modelle mit Arbeitsbereichen, die von A-SKUs auf A3 unterstützt konnte nicht Arbeit aktualisiert wird.
+Große Modelle können ressourcenintensiv sein. Für Modelle mit mehr als 1 GB sollten Sie mindestens eine P1-SKU verwenden. Sie können zwar große Modelle in Arbeitsbereichen veröffentlichen, die von A-SKUs (bis A3) gestützt sind, aber Sie können diese Modelle nicht aktualisieren.
 
 In der folgenden Tabelle werden die empfohlenen SKUs für verschiedene PBIX-Größen aufgeführt:
 
@@ -177,59 +177,55 @@ In der folgenden Tabelle werden die empfohlenen SKUs für verschiedene PBIX-Grö
 
 Die A4-SKU für Power BI Embedded entspricht der P1-SKU, A5 entspricht P2 und A6 entspricht P3. Beachten Sie, dass beim Veröffentlichen von großen Modellen in A- und EM-SKUs möglicherweise Fehler zurückgegeben werden, die sich nicht auf den Fehler zur Begrenzung der Modellgröße in der gemeinsam genutzten Kapazität beziehen. Aktualisierungsfehler bei großen Modellen in A- und EM-SKUs verweisen häufig auf Timeouts. 
 
-Pbix-Dateien darstellen, Daten in einem *stark komprimiert Zustand*. Die Daten werden in den meisten Fällen beim Laden in den Speicher mehrmals größer, ebenso wie anschließend bei jeder Datenaktualisierung.
+Ihre PBIX-Dateien stellen Daten in einem *stark komprimierten Zustand* dar. Die Daten werden in den meisten Fällen beim Laden in den Speicher mehrmals größer, ebenso wie anschließend bei jeder Datenaktualisierung.
 
-Geplante Aktualisierung von großen Datasets kann lange dauern und ressourcenintensiv sein. Es ist wichtig, die nicht zu viele parallele Aktualisierungen zu planen. Es empfiehlt sich [inkrementelle Aktualisierung](service-premium-incremental-refresh.md) konfiguriert ist, da sie schnelleren, zuverlässigeren und weniger Ressourcen beansprucht.
+Die geplante Aktualisierung von großen Datasets kann lange dauern und ressourcenintensiv sein. Es ist wichtig, nicht zu viele sich überschneidende Aktualisierungen zu planen. Die Konfiguration von [inkrementeller Aktualisierung](service-premium-incremental-refresh.md) wird empfohlen, da sie schneller sowie zuverlässiger ist und weniger Ressourcen beansprucht.
 
-Den ersten Bericht laden umfangreicher Datasets kann lange dauern, wenn es eine Weile, da das letzte Mal wurde, die das Dataset verwendet wurde. Der Ladevorgang wird bei Berichten mit längerer Ladezeit in einer Statusanzeige angezeigt.
+Das erste Laden eines Berichts für große Datasets kann sehr lange dauern, wenn das Dataset längere Zeit nicht verwendet wurde. Der Ladevorgang wird bei Berichten mit längerer Ladezeit in einer Statusanzeige angezeigt.
 
-Während die pro Abfrage Arbeitsspeicher und die Zeit in Premium-Kapazität deutlich höher sind, empfiehlt es sich, dass Sie Filter und Slicer verwenden, um visuelle Elemente zum Anzeigen von wirklich benötigten zu beschränken.
+Die Speicher- und Zeitkapazitäten für die einzelnen Abfragen sind bei Premium-Kapazität deutlich höher, es wird jedoch empfohlen, Visuals mit Filtern und Datenschnitten so einzuschränken, dass nur die benötigten Daten angezeigt werden.
 
 ## <a name="incremental-refresh"></a>Inkrementelle Aktualisierung
 
-Die inkrementelle Aktualisierung bietet einen wesentlicher Bestandteil müssen, und warten große Datasets in Power BI Premium. Die inkrementelle Aktualisierung hat viele Vorteile, z. B. sind Aktualisierungen schneller, da nur Daten, die geänderten muss aktualisiert werden. Aktualisierungen sind zuverlässiger, da es nicht erforderlich ist, lang andauernden Verbindungen mit flüchtigen Datenquellen zu verwalten ist. Ressourcenverbrauch wird reduziert, da weniger Daten aktualisiert gesamte Verbrauch von Arbeitsspeicher und andere Ressourcen reduziert wird. Richtlinien für die inkrementelle Aktualisierung werden in definiert **Power BI Desktop**, angewendet, wenn in einem Arbeitsbereich in einer Premium-Kapazität veröffentlicht. 
+Die inkrementelle Aktualisierung stellt einen integralen Bestandteil von Besitz und Verwaltung großer Datasets in Power BI Premium dar. Die inkrementelle Aktualisierung hat viele Vorteile, z. B. erfolgen Aktualisierungen schneller, da nur Daten mit Änderungen aktualisiert werden müssen. Aktualisierungen sind zuverlässiger, weil es nicht notwendig ist, Verbindungen mit langer Ausführungsdauer mit flüchtigen Datenquellen herzustellen. Der Ressourcenverbrauch wird reduziert, da sich der Gesamtbedarf an Arbeitsspeicher und anderen Ressourcen durch weniger zu aktualisierende Daten verringert. Richtlinien für die inkrementelle Aktualisierung sind in **Power BI Desktop** definiert und werden bei der Veröffentlichung in einem Arbeitsbereich in einer Premium-Kapazität angewendet. 
 
 ![Details zur Aktualisierung](media/service-premium-incremental-refresh/refresh-details.png)
 
-Weitere Informationen finden Sie unter [inkrementell zu aktualisieren, klicken Sie in Power BI Premium](service-premium-incremental-refresh.md).
+Weitere Informationen finden Sie unter [Inkrementelle Aktualisierung in Power BI Premium](service-premium-incremental-refresh.md).
 
 ## <a name="paginated-reports"></a>Paginierte Berichte
 
-Paginierte Berichte, die auf P1-P3 und A4_A6-SKUs unterstützt basieren auf der Berichtsdefinitionssprache (Report Definition Language, RDL)-Technologie in SQL Server Reporting Services. Während auf RDL-Technologie basiert, ist es nicht identisch mit Power BI-Berichtsserver, die eine herunterladbare Berichtsplattform ist, die Sie lokal, auch mit Power BI Premium enthalten installieren können. Paginierte Berichte werden formatiert entsprechend auch auf einer Seite, die gedruckt bzw. gemeinsam genutzt werden können. Daten werden in einer Tabelle angezeigt, auch wenn die Tabelle über mehrere Seiten erstreckt. Mit der kostenlosen [ **Power BI-Berichts-Generator** ](https://go.microsoft.com/fwlink/?linkid=2086513) Windows-Desktop-Anwendung, Benutzer erstellen paginierter Berichte, und veröffentlichen Sie sie an den Dienst.
+Paginierte Berichte, die in den SKUs P1–P3 und A4–A6 unterstützt werden, basieren auf der Technologie der Berichtsdefinitionssprache (Report Definition Language, RDL) in SQL Server Reporting Services. Trotz der Grundlage der RDL-Technologie sind sie nicht mit dem Power BI-Berichtsserver zu verwechseln, der eine herunterladbare Berichtsplattform darstellt, die lokal installiert werden kann und ebenfalls in Power BI Premium enthalten ist. Paginierte Berichte sind so formatiert, dass sie gut auf eine Seite passen, die gedruckt oder geteilt werden kann. Die Daten werden in einer Tabelle angezeigt, auch dann, wenn die Tabelle mehrere Seiten überspannt. Mithilfe der kostenlosen Windows Desktop-Anwendung [**Power BI-Berichts-Generators**](https://go.microsoft.com/fwlink/?linkid=2086513) können Benutzer paginierte Berichte verfassen und sie im Dienst veröffentlichen.
 
-In Power BI Premium sind Paginated Reports eine arbeitsauslastung, die für eine Kapazität über das Administratorportal aktiviert werden muss. Kapazitätsadministratoren können aktivieren, und geben Sie dann die Größe des Speichers als Prozentsatz der Kapazität des insgesamt verfügbaren Speicherressourcen. Im Gegensatz zu anderen Arten von arbeitsauslastungen führt Premium paginierte Berichte in einem enthaltenen Bereich innerhalb der Kapazität. Der maximale Arbeitsspeicher, der für diesen Bereich verwendet wird, ob die Workload aktiv ist oder nicht angegeben ist. Der Standardwert ist 20 %. 
+In Power BI Premium sind paginierte Berichte eine Workload, die im Verwaltungsportal für eine Kapazität aktiviert werden muss. Kapazitätsadministratoren können sie aktivieren und dann die Menge Arbeitsspeicher als Prozentsatz der Gesamtspeicherressoucen der Kapazität angeben. Im Gegensatz zu anderen Arten von Workloads führt Premium paginierte Berichte in einem abgeschlossenen Bereich innerhalb der Kapazität aus. Der für diesen Bereich angegebene maximale Arbeitsspeicher wird unabhängig davon belegt, ob die Workload aktiv ist oder nicht. Der Standardwert beträgt 20 %. 
 
-Weitere Informationen finden Sie unter [paginierte Berichte in Power BI Premium](paginated-reports-report-builder-power-bi.md). Weitere Informationen zum Aktivieren der Paginated Reports Workloads finden Sie unter [Konfigurieren von Workloads](service-admin-premium-workloads.md).
+Weitere Informationen finden Sie unter [Paginierte Berichte in Power BI Premium](paginated-reports-report-builder-power-bi.md). Weitere Informationen zum Aktivieren der Workload Paginierte Berichte finden Sie unter [Konfigurieren von Workloads](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Power BI-Berichtsserver
  
-Mit Power BI Premium, Power BI-Berichtsserver umfasst einen *lokalen* Berichtsserver mit einer Web-Portal. Sie können Ihre BI-Umgebung lokal erstellen und verteilen Sie Berichte hinter der Firewall Ihrer Organisation. Berichtsserver bietet Benutzern Zugriff auf, um umfassende, interaktive und und Enterprise-Berichterstattungsfunktionen von SQL Server Reporting Services. Benutzer können visuelle Daten erkunden und schnell erkennen von Mustern, bessere, schnellere Entscheidungen zu treffen. Der Berichtsserver bietet Governance zu Ihren eigenen Bedingungen. Wenn die Zeit ist, erleichtert Power BI Report Server in die Cloud migrieren, wenn Ihre Organisation vollständig alle Power BI Premium-Funktionen nutzen kann.
+Der in Power BI Premium enthaltene Power BI-Berichtsserver ist ein *lokaler* Berichtsserver mit einem Webportal. Sie können eine lokale BI-Umgebung erstellen und Berichte hinter der Firewall Ihrer Organisation verteilen. Der Berichtsserver bietet den Benutzern Zugriff auf komplexe interaktive Berichte und die Berichterstellungsfunktionen von SQL Server Reporting Services für Unternehmen. Benutzer können visuelle Daten untersuchen und schnell Muster erkennen, um bessere Entscheidungen treffen zu können. Report Server bietet Governance zu Ihren Bedingungen. Falls und wenn die Zeit dafür kommt, macht Power BI-Berichtsserver die Migration in die Cloud einfach, wo Ihre Organisation den gesamten Funktionsumfang von Power BI Premium in vollem Umfang nutzen kann.
 
 Weitere Informationen finden Sie unter [Power BI-Berichtsserver](report-server/get-started.md).
 
-## <a name="unlimited-content-sharing"></a>Unbegrenzte inhaltsfreigabe
+## <a name="unlimited-content-sharing"></a>Unbegrenztes Teilen von Inhalten
 
-Mit Premium können weiter, unabhängig davon, ob sie innerhalb oder außerhalb Ihrer Organisation anzeigen Ihrer Power BI-Inhalte, einschließlich paginierte und interaktive Berichte ohne einzelne Lizenzen erwerben. 
+Mit Premium kann jeder Benutzer – innerhalb und außerhalb Ihrer Organisation – Ihre Power BI-Inhalte wie paginierte und interaktive Berichte anzeigen, ohne dass Sie Einzellizenzen erwerben müssen. 
 
-![Inhaltsfreigabe](media/service-premium-what-is/premium-sharing.png)
+![Teilen von Inhalten](media/service-premium-what-is/premium-sharing.png)
 
-Premium ermöglicht weitreichende Verteilung von Inhalten von Pro-Benutzer, ohne dass Pro-Lizenzen für Empfänger, die den Inhalt anzuzeigen. Pro-Lizenzen sind für Inhaltsersteller erforderlich. Ersteller Verbinden mit Datenquellen, Modellieren von Daten, und erstellen Sie Berichte und Dashboards, die als Arbeitsbereich apps verpackt werden. 
+Premium ermöglicht das weiträumige Verteilen von Inhalten durch Power BI Pro-Benutzer, und für Benutzer, die die Inhalte nur anzeigen, sind keine Pro-Lizenzen erforderlich. Pro-Lizenzen sind für Inhaltsersteller erforderlich. Ersteller stellen Verbindungen mit Datenquellen her, modellieren Daten und erstellen Berichte und Dashboards, die als Arbeitsbereichs-Apps verpackt werden. 
 
 Weitere Informationen finden Sie unter [Power BI-Lizenzierung](service-admin-licensing-organization.md).
 
 ## <a name="tool-connectivity-preview"></a>Tool-Verbindungen (Vorschau)
 
-Hinter den Kulissen der bewährten Microsoft Enterprise **Analysis Services Vertipaq-Engine** eignet sich ideal für Power BI-Datasets. Analysis Services bietet Programmierbarkeit und die Clientanwendung und Tools unterstützen, durch die Client-Bibliotheken und APIs, die das Open-Standard-XMLA-Protokoll unterstützen. Power BI Premium-Datasets kann derzeit *schreibgeschützte* Vorgänge von Microsoft und Drittanbieter-Clientanwendungen und Tools über **XMLA-Endpunkte**. 
+Hinter den Kulissen stützen sich Power BI-Datasets auf die im Unternehmenseinsatz bewährte Microsoft **Analysis Services Vertipaq-Engine**. Analysis Services bietet Programmierbarkeit und Unterstützung für Clientanwendungen und Tools in Form von Clientbibliotheken und APIs, die das XMLA-Protokoll als offenen Standard unterstützen. Aktuell unterstützen Power BI Premium-Datasets *schreibgeschützte* Vorgänge aus Clientanwendungen von Microsoft und Drittanbietern sowie Tools über **XMLA-Endpunkte**. 
 
-Microsoft-Tools wie SQL Server Management Studio und SQL Server Profiler und Drittanbieter-apps wie z. B. DAX-Studio, und datenvisualisierungsanwendungen, können Herstellen einer Verbindung mit und Abfragen von Premium-Datasets mithilfe von XMLA, DAX, MDX, DMVs und Ablaufverfolgungsereignisse. 
+Microsoft-Tools wie SQL Server Management Studio und SQL Server Profiler und Apps von Drittanbietern wie DAX Studio und Anwendungen zur Datenvisualisierung können mithilfe von XMLA, DAX, MDX, DMVs und Trace-Ereignissen Verbindungen mit Premium-Datasets herstellen und diese abfragen. 
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Datasets mit Clientanwendungen und Tools](service-premium-connect-tools.md).
-
-## <a name="acknowledgements"></a>Bestätigungen
-
-Peter Myers, Data Platform MVP und unabhängige BI-Experte mit [bitweise Lösungen](https://www.bitwisesolutions.com.au/), und die Microsoft Power BI Customer Advisory Teams (CAT) sind wichtige Mitwirkende zu diesem Artikel.
+Weitere Informationen finden Sie unter [Herstellen einer Verbindung zu Datasets mit Clientanwendungen und Tools](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

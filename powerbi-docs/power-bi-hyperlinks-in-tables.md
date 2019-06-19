@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen von Links zu einer Tabelle
-description: Verwenden Sie Power BI Desktop, um Hyperlinks zu erstellen. Sie mithilfe von Power BI Desktop oder Power BI-Dienst um diese Hyperlinks Ihren Berichtstabellen und Matrizen hinzuzufügen.
+description: Verwenden Sie Power BI Desktop, um Hyperlinks zu erstellen. Verwenden Sie dann entweder Power BI Desktop oder den Power BI-Dienst, um diese Links Ihren Berichtstabellen und Matrizen hinzuzufügen.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421577"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721382"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Hinzufügen von Links zu einer Tabelle
 In diesem Thema wird erläutert, wie in Power BI Desktop Hyperlinks erstellt werden. Verwenden Sie dann entweder Desktop oder den Power BI-Dienst, um diese Links Ihren Berichtstabellen und Matrizen hinzuzufügen. 
@@ -24,11 +24,11 @@ In diesem Thema wird erläutert, wie in Power BI Desktop Hyperlinks erstellt wer
 ![Tabelle mit Links](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Sie können Links im erstellen [Kacheln in Dashboards](service-dashboard-edit-tile.md) und [Textfeldern in Dashboards](service-dashboard-add-widget.md) auf dynamisch mithilfe von Power BI-Dienst. Sie können Links im erstellen [Textfeldern in Berichten](service-add-hyperlink-to-text-box.md) auf dynamisch mithilfe von Power BI-Dienst und Power BI Desktop.
+> Hyperlinks in [Kacheln in Dashboards](service-dashboard-edit-tile.md) und [Textfeldern in Dashboards](service-dashboard-add-widget.md) können dynamisch mit dem Power BI-Dienst erstellt werden. Sie können Hyperlinks in [Textfeldern in Berichten](service-add-hyperlink-to-text-box.md) dynamisch mit dem Power BI-Dienst und Power BI Desktop erstellen.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>So erstellen Sie mithilfe von Power BI Desktop einen Hyperlink in einer Tabelle oder Matrix
-Sie können die Links in Tabellen und Matrizen in Power BI Desktop, jedoch nicht in Power BI-Dienst erstellen. Sie können auch Hyperlinks in Power Pivot für Excel erstellen, bevor Sie die Arbeitsmappe in Power BI importieren. Beide Methoden werden nachfolgend beschrieben.
+Sie können Hyperlinks in Tabellen und Matrizen in Power BI Desktop, jedoch nicht im Power BI-Dienst erstellen. Sie können außerdem Hyperlinks in Power Pivot für Excel erstellen, bevor Sie die Arbeitsmappe in Power BI importieren. Beide Methoden werden nachfolgend beschrieben.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Erstellen eines Tabellen- oder Matrix-Hyperlinks in Power BI Desktop
 Das Verfahren zum Hinzufügen eines Hyperlinks hängt davon ab, ob Sie die Daten importiert oder über DirectQuery eine Verbindung mit ihnen hergestellt haben. Beide Szenarien werden nachfolgend beschrieben.
@@ -55,7 +55,7 @@ Das Verfahren zum Hinzufügen eines Hyperlinks hängt davon ab, ob Sie die Daten
 
     Erweitern Sie **Werte**, suchen Sie das **URL-Symbol**, und aktivieren Sie es mit **Ein**.
 
-    ![Aktivieren Sie URL-Symbol](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+    ![URL-Symbol aktivieren](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
 1. (Optional) [Veröffentlichen Sie den Bericht aus der Desktopversion im Power BI-Dienst](guided-learning/publishingandsharing.yml?tutorial-step=2), und öffnen Sie den Bericht im Power BI-Dienst. Die Hyperlinks werden hier ebenfalls geöffnet.
 
@@ -99,7 +99,7 @@ A: Nein. Sie können ein Linksymbol verwenden. Wenn Sie benutzerdefinierten Text
 ## <a name="next-steps"></a>Nächste Schritte
 [Visualisierungen in Power BI-Berichten](visuals/power-bi-report-visualizations.md)
 
-[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+[Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 
 Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

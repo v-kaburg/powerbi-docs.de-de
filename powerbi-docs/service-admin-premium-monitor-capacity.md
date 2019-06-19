@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2019
+ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565318"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497972"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Überwachen von Premium-Kapazitäten über die App
 
 Die Überwachung Ihrer Kapazitäten ist entscheidend für das Treffen fundierter Entscheidungen zur optimalen Nutzung Ihrer Premium-Kapazitäten. Sie können die Kapazitäten im Verwaltungsportal oder mithilfe der App **Power BI Premium-Kapazitätsmetriken** überwachen. In diesem Artikel wird die Verwendung der Premium-Kapazitätsmetriken-App erläutert. Die App stellt ausführliche Informationen zur Leistung Ihrer Kapazitäten bereit. Einen allgemeineren Überblick durchschnittlicher Nutzungsmetriken der letzten sieben Tage finden Sie im Verwaltungsportal. Weitere Informationen zur Überwachung im Portal finden Sie unter [Monitor Premium capacities in the Admin portal (Überwachung von Premium-Kapazitäten im Verwaltungsportal)](service-admin-premium-monitor-portal.md).
 
-Die App erhält regelmäßige Updates mit neuen Features und Funktionalitäten. Stellen Sie sicher, dass Sie die neueste Version ausführen. Wenn Sie bereits eine ältere Version installiert haben, löschen Sie sie aus Ihren Apps, und drücken Sie das STRG+F5 zum Aktualisieren. 
+Die App erhält regelmäßige Updates mit neuen Features und Funktionalitäten. Stellen Sie sicher, dass Sie die neueste Version verwenden. Wenn Sie bereits eine ältere Version installiert haben, löschen Sie sie aus Ihren Apps, und drücken Sie das STRG+F5 zum Aktualisieren. 
 
 ## <a name="install-the-app"></a>Installieren der App
 
@@ -49,7 +49,7 @@ Die letzte Aktualisierung wird angezeigt. Wenn Sie auf **Aktualisierungsverlauf*
 
 ## <a name="monitor-capacities-with-the-app"></a>Überwachen von Kapazitäten über die App
 
-Nachdem Sie die App installiert haben, können Sie Metriken zu den Kapazitäten in Ihrer Organisation anzeigen. Die app bietet ein Dashboard mit Metriken Übersichten und ausführliche Metrikberichte.
+Nachdem Sie die App installiert haben, können Sie Metriken zu den Kapazitäten in Ihrer Organisation anzeigen. Die App stellt ein Dashboard mit Metrikübersichten und detaillierten Metrikberichten bereit.
 
 ### <a name="dashboard"></a>Dashboard
 
@@ -133,18 +133,18 @@ Das Dashboard umfasst die folgenden Metriken:
 | Arbeitsspeicher – Durchschnittswert für paginierte Berichte (GB) | Der durchschnittliche Arbeitsspeicherverbrauch nach Workload für paginierte Berichte in den letzten sieben Tagen. |
 |||
 
-#### <a name="ai-summary"></a>AI-Zusammenfassung
+#### <a name="ai-summary"></a>KI-Zusammenfassung
 
 | Metrik | Beschreibung |
 | --- | --- |
-| Aktualisierungen gesamt | Die Gesamtanzahl von Aktualisierungen in den letzten sieben Tagen. |
-| Zuverlässigkeit der Aktualisierung (%) | Die Anzahl von erfolgreichen Aktualisierungen, geteilt durch die Gesamtanzahl von Aktualisierungen in den letzten sieben Tagen. |
-| CPU Max (%)| Max. CPU-Auslastung durch die AI-arbeitsauslastung in den letzten sieben Tagen. |
-| Arbeitsspeicher maximal (GB) | Max. die arbeitsspeichernutzung durch die AI-arbeitsauslastung in den letzten sieben Tagen.|
-| Aktualisiert die maximale Wartezeit (MS) | Maximale Zeitdauer vor dem Starten der Aktualisierung. |
-| Durchschnittliche Wartezeit (MS) aktualisiert| Der durchschnittliche Zeitraum vor dem Starten einer Aktualisierung. |
-| Aktualisiert die maximale Dauer (MS) | Maximale Zeitdauer, eine vollständige Aktualisierung. |
-| Aktualisierungen, durchschnittliche Dauer (MS)| Der durchschnittliche Zeitraum für eine vollständige Aktualisierung. |
+| AI Function Execution (KI-Funktionsausführung) | Die Gesamtzahl der Ausführungen in den letzten sieben Tagen. |
+| AI Function Execution Reliability (%) (Zuverlässigkeit der KI-Funktionsausführung (%)) | Die Anzahl der erfolgreichen Ausführungen, geteilt durch die Gesamtzahl der Ausführungen in den letzten sieben Tagen. |
+| CPU Max (%)| Der maximale CPU-Verbrauch nach KI-Workload in den letzten sieben Tagen. |
+| Memory Max (GB) (Arbeitsspeicher maximal (GB)) | Maximale Arbeitsspeichernutzung durch die KI-Workload in den letzten sieben Tagen.|
+| AI Function Execution Max Wait Time (MS) (Maximale Wartezeit bei KI-Funktionsausführung (ms)) | Maximal verstrichene Zeit vor Beginn der Ausführung. |
+| AI Function Execution Average Wait Time (MS) (Mittlere Wartezeit bei KI-Funktionsausführung (ms))| Durchschnittlich verstrichene Zeit vor Beginn der Ausführung. |
+| AI Function Execution Max Duration (MS) (Maximale Dauer bei KI-Funktionsausführung (ms)) | Der maximale Zeitraum für die vollständige Ausführung. |
+| AI Function Execution Average Duration (MS) (Mittlere Dauer der KI-Funktionsausführung (ms))| Der mittlere Zeitraum für die vollständige Ausführung. |
 | | |
 
 ### <a name="reports"></a>Berichte
@@ -156,7 +156,7 @@ Am unteren Rand des Berichts finden Sie fünf *Registerkarten*:
 [**Datasets**](#datasets): Hier finden Sie ausführliche Metriken zur Integrität der Power BI-Datasets in Ihren Kapazitäten.
 [**Paginierte Berichte**](#paginated-reports): Hier finden Sie ausführliche Metriken zur Integrität der paginierten Berichte in Ihren Kapazitäten.
 [**Dataflows**](#dataflows): Hier finden Sie ausführliche Aktualisierungsmetriken für Dataflows in Ihren Kapazitäten.
-[**AI** ](#ai) -bietet ausführliche Metriken zur Integrität der KI-Funktionen in Ihre Kapazitäten verwendet.
+[**KI**](#ai): Stellt detaillierte Metriken zum Status der in Ihren Kapazitäten verwendeten KI-Funktionen bereit.
 [**Ressourcenverbrauch**](#resource-consumption): Hier finden Sie detaillierte Ressourcenmetriken, einschließlich hoher Auslastung von Arbeitsspeicher und CPU.
 [**IDs und Info:** ](#ids-and-info) Hier finden Sie die Namen, IDs und Besitzer von Kapazitäten, Arbeitsbereichen und Workloads.
 
@@ -170,7 +170,7 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 
 | Berichtsabschnitt | Metrics |
 | --- | --- |
-| Refreshes |  Gesamtanzahl: Die Gesamtanzahl aller Aktualisierungen für jedes Dataset.<br>  Zuverlässigkeit: Der Prozentsatz der Aktualisierungen, die für jedes Dataset abgeschlossen.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Datasetaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für das Dataset in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer der Aktualisierung des Datasets in Minuten.<br>  Maximale Dauer: Die Dauer der Datasetaktualisierung mit der längsten Ausführungsdauer in Minuten. |
+| Refreshes |  Gesamtanzahl: Die Gesamtanzahl aller Aktualisierungen für jedes Dataset.<br>  Zuverlässigkeit: Der Prozentsatz von Aktualisierungen, die für jedes Dataset ausgeführt wurden.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Datasetaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für das Dataset in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer der Aktualisierung des Datasets in Minuten.<br>  Maximale Dauer: Die Dauer der Datasetaktualisierung mit der längsten Ausführungsdauer in Minuten. |
 | Top-5-Datasets nach durchschnittlicher Dauer (Minuten) |  Die fünf Datasets mit der längsten durchschnittlichen Aktualisierungsdauer in Minuten. |
 | Top-5-Datasets nach durchschnittlicher Wartezeit (Minuten) |  Die fünf Datasets mit der längsten durchschnittlichen Aktualisierungswartezeit in Minuten. |
 | Stündliche Aktualisierungen und Arbeitsspeicherverbrauch (GB) |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
@@ -224,22 +224,20 @@ Die Seite „Datasets“ weist verschiedene *Bereiche* auf: **Aktualisierungen**
 
 | **Berichtsabschnitt** | **Metriken** |
 | --- | --- |
-| Refreshes |  Gesamt: Die Gesamtanzahl aller Aktualisierungen für jeden Dataflow.<br>  Zuverlässigkeit: Der Prozentsatz der Aktualisierungen, die für jeden Datenfluss abgeschlossen.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Dataflowaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für den Dataflow in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer für die Aktualisierung des Dataflows in Minuten.<br>  Maximale Dauer: Die Dauer der Dataflowaktualisierung mit der längsten Ausführungsdauer in Minuten. |
+| Refreshes |  Gesamt: Die Gesamtanzahl aller Aktualisierungen für jeden Dataflow.<br>  Zuverlässigkeit: Der Prozentsatz von Aktualisierungen, die für jeden Datenfluss ausgeführt wurden.<br>  Durchschnittliche Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Dataflowaktualisierung in Minuten.<br>  Maximale Wartezeit: Die maximale Wartezeit für den Dataflow in Minuten.<br>  Durchschnittliche Dauer: Die durchschnittliche Dauer für die Aktualisierung des Dataflows in Minuten.<br>  Maximale Dauer: Die Dauer der Dataflowaktualisierung mit der längsten Ausführungsdauer in Minuten. |
 | Top-5-Dataflows nach durchschnittlicher Aktualisierungsdauer |  Die fünf Dataflows mit der längsten durchschnittlichen Aktualisierungsdauer in Minuten. |
 | Top-5-Dataflows nach durchschnittlicher Wartezeit |  Die fünf Dataflows mit der längsten durchschnittlichen Aktualisierungswartezeit in Minuten. |
 | Durchschnittliche stündliche Aktualisierungswartezeiten |  Die durchschnittliche Aktualisierungswartezeit, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. Mehrere Spitzen mit langen Aktualisierungswartezeiten weisen auf eine hohe Auslastung der Kapazität hin. |
 | Stündliche Aktualisierungen und Arbeitsspeicherverbrauch |  Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
 |  |  |
 
-### <a name="ai"></a>AI
+### <a name="ai"></a>KI
 
 | **Berichtsabschnitt** | **Metriken** |
 | --- | --- |
-| Verwendung gesamt | Gesamtanzahl: Anzahl von KI-Funktionen in einem Arbeitsbereich oder den Datenfluss. <br> Zuverlässigkeit: Der Prozentsatz der Aktualisierungen, die abgeschlossen wird.<br> Avg. Wartezeit: Die durchschnittliche Verzögerung zwischen dem geplanten Zeitpunkt und den Anfang einer Aktualisierung in Millisekunden.<br> Maximale Wartezeit: Die maximale Wartezeit in Millisekunden.<br> Avg. Dauer: Die durchschnittliche Dauer der Aktualisierungsvorgang, in Millisekunden.<br> Maximale Dauer: Die Dauer der längsten Ausführungsdauer zu aktualisieren, in Millisekunden.<br> AVG-Eingabe-Größe: Der durchschnittlichen Eingabegröße in Byte für die KI-Funktion, die durch eine Aktualisierung der Datenfluss ausgeführt.<br> Größe der AVG-Ausgabe: Die durchschnittliche Ausgabegröße in Byte für die KI-Funktion, die durch eine Aktualisierung der Datenfluss ausgeführt. |
-| Top 5-KI-Funktionen nach Durchschnittlicher Dauer | Aktualisieren Sie die fünf Funktionen mit dem längsten durchschnittlichen Dauer in Millisekunden. |
-| Top 5-KI-Funktionen von der durchschnittlichen Eingabegröße | Die fünf Funktionen mit der größten Durchschnittswerten von Daten geben die Größe in Bytes. |
-| Stündliche Aktualisierungen und Arbeitsspeicherverbrauch | Erfolgreiche Vorgänge, Fehler und Arbeitsspeicherverbrauch, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
-| Stündliche durchschnittlichen Dauer | Die durchschnittliche Dauer der Aktualisierungsvorgang, teilen Sie in einer Stunde Buckets, im UTC-Zeit gemeldet wird. |
+| KI-Arbeitsspeicherverbrauch | Arbeitsspeicherverbrauch in GB, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| AI Function Execution Average Wait Time (MS) (Stündliche KI-Funktionsausführung und mittlere Wartezeit (ms)) | KI-Ausführungen und durchschnittliche Wartezeit in Millisekunden, unterteilt in Buckets von je einer Stunde, Angabe in UTC-Zeit. |
+| Verwendung gesamt | Gesamtzahl: Anzahl von KI-Funktionen in einem Arbeitsbereich oder Datenfluss. <br> System Reliability (Zuverlässigkeit des Systems): Der Prozentsatz von Ausführungen, die abgeschlossen wurden.<br> Avg. Wartezeit: Die durchschnittliche Verzögerung zwischen der geplanten Zeit und dem Start einer Ausführung in Millisekunden.<br> Maximale Wartezeit: Die maximale Wartezeit in Millisekunden.<br> Avg. Dauer: Die durchschnittliche Dauer einer Ausführung in Millisekunden.<br> Maximale Dauer: Die Dauer der Abfrage mit der längsten Ausführungsdauer in Millisekunden.<br> Avg Total Size (Mittlere Gesamtgröße): Die durchschnittliche Größe in Byte der eingehenden und ausgehenden Daten für die KI-Funktion. |
 | | |
 
 ### <a name="resource-consumption"></a>Ressourcenverbrauch
@@ -296,7 +294,7 @@ Sie können die Power BI Premium-Kapazitätsmetriken-App zum Überwachen von Kap
 
 1. Öffnen Sie Ihre Kapazität im Azure-Portal.
 
-1. Klicken Sie auf **Zugriffssteuerung (IAM)** , und fügen Sie die App **Power BI Premium** zur Rolle „Leser“ hinzu. Wenn Sie nicht die app anhand des Namens ermitteln können, können Sie auch hinzufügen es vom Client-ID: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. Klicken Sie auf **Zugriffssteuerung (IAM)** , und fügen Sie die App **Power BI Premium** zur Rolle „Leser“ hinzu. Wenn Sie den Namen der App nicht finden, können Sie sie auch per Client-ID hinzufügen: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Berechtigungen für Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -307,4 +305,4 @@ Sie können die Power BI Premium-Kapazitätsmetriken-App zum Überwachen von Kap
 ## <a name="next-steps"></a>Nächste Schritte
 
 > [!div class="nextstepaction"]
-> [Optimieren der Power BI Premium-Kapazitäten](service-premium-capacity-optimize.md)
+> [Optimieren von Power BI Premium-Kapazitäten](service-premium-capacity-optimize.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159767"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720207"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportieren eines Berichts aus dem Power BI-Dienst nach Power BI Desktop (Vorschau)
 In Power BI Desktop können Sie einen Bericht in den Power BI-Dienst exportieren (dieser Vorgang wird auch als *Herunterladen* bezeichnet), indem Sie den Bericht speichern und **Veröffentlichen** auswählen. Es ist auch ein Export in die andere Richtung möglich, und Sie können einen Bericht aus dem Power BI-Dienst in die Desktopversion herunterladen. Die Erweiterung für in beide Richtungen exportierte Dateien lautet *.pbix*.
@@ -68,7 +68,7 @@ Sehen Sie sich das **Guy in a Cube**-Kurzvideo (in englischer Sprache) zu diesem
 Weitere Informationen zur Verwendung des **Power BI-Diensts** finden Sie in den folgenden Artikeln:
 
 * [Berichte in Power BI](consumer/end-user-reports.md)
-* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 
 Nachdem Sie **Power BI Desktop** installiert haben, erhalten Sie in den folgenden Artikeln die nötigen Informationen für einen schnellen Einstieg:
 

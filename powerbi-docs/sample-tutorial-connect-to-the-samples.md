@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625078"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721388"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Herstellen einer Verbindung mit Beispielen im Power BI-Dienst
 
@@ -130,7 +130,7 @@ Erkunden Sie das Dashboard, die Beziehungen und den Bericht jetzt selbst. Hilfe 
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-- [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+- [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 - [Beispiele für den Power BI-Dienst](sample-datasets.md)
 - [Datenquellen für Power BI](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402993"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721449"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Freigeben eines Power BI-Dashboards, das mit einer Excel-Datei in OneDrive verknüpft ist
 In Power BI können Sie sich [mit Excel-Arbeitsmappen auf OneDrive for Business verbinden](service-excel-workbook-files.md) und Kacheln an ein Dashboard aus der jeweiligen Arbeitsmappe anheften. Wenn Sie dieses Dashboard freigeben oder ein Inhaltspaket erstellen, das dieses Dashboard enthält:
@@ -56,6 +56,6 @@ Das Freigeben eines Dashboards in einem Power BI-Arbeitsbereich ähnelt dem Frei
 
 ## <a name="next-steps"></a>Nächste Schritte
 * [Anheften einer Kachel an ein Power BI-Dashboard aus Excel](service-dashboard-pin-tile-from-excel.md)
-* [Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+* [Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 * Weitere Fragen? [Wenden Sie sich an die Power BI-Community](http://community.powerbi.com/)
 

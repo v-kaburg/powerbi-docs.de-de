@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770247"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448432"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse mit DirectQuery
 
@@ -40,7 +40,7 @@ Diese Einschränkungen und Hinweise können sich ändern, da wir die Benutzerobe
 
 Die Schaltfläche **In Power BI öffnen** im Azure-Portal bietet die einfachste Möglichkeit zum Navigieren zwischen Ihrem SQL Data Warehouse und Power BI. Mit dieser Schaltfläche können Sie nahtlos beginnen, neue Dashboards in Power BI zu erstellen.
 
-1. Navigieren Sie zunächst im Azure-Portal zu Ihrer SQL Data Warehouse-Instanz. Beachten Sie, dass SQL Data Warehouse zu diesem Zeitpunkt nur im Azure-Vorschauportal verfügbar ist.
+1. Navigieren Sie zunächst im Azure-Portal zu Ihrer SQL Data Warehouse-Instanz. Beachten Sie, dass SQL Data Warehouse zu diesem Zeitpunkt nur im Azure-Portal verfügbar ist.
 
 2. Klicken Sie auf die Schaltfläche **Open in Power BI** .
 
@@ -56,7 +56,7 @@ SQL Data Warehouse ist auf der Seite zum Abrufen von Daten von Power BI ebenfall
 
 1. Wählen Sie unten im linken Navigationsbereich **Daten abrufen** aus.  
 
-    ![Erhalten Sie die Schaltfläche "Daten"](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Schaltfläche „Daten abrufen“](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. Wählen Sie in **Datenbanken**die Option **Abrufen**aus.
 
@@ -70,7 +70,7 @@ SQL Data Warehouse ist auf der Seite zum Abrufen von Daten von Power BI ebenfall
 
     ![Servername](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![Erweiterte Servername](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![Erweiterter Servername](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![Benutzername](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -79,20 +79,22 @@ SQL Data Warehouse ist auf der Seite zum Abrufen von Daten von Power BI ebenfall
 
 5. Führen Sie einen Drilldown in das Dataset durch, indem Sie die neue Kachel oder das neu erstellte Dataset (durch das Sternchen gekennzeichnet) auswählen. Dieses Dataset muss den gleichen Namen haben wie Ihre Datenbank.
 
-    ![DataSet-2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
+    ![Dataset 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
 
 6. Sie können alle Tabellen und Spalten durchsuchen. Wenn Sie eine Spalte auswählen, wird eine Abfrage zurück an die Quelle gesendet, wodurch Ihre Visualisierung dynamisch erstellt wird. Auch Filter werden in Abfragen übersetzt, die zurück an das Datawarehouse gesendet werden. Diese visuellen Objekte können in einem neuen Bericht gespeichert und wieder an Ihr Dashboard angeheftet werden.
 
-    ![Untersuchen von 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Erkunden 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Suchen von Parameterwerten
 
-Ihren vollqualifizierten Servernamen und den Datenbanknamen finden Sie im Azure-Portal. Beachten Sie, dass SQL Data Warehouse zu diesem Zeitpunkt nur im Azure-Vorschauportal verfügbar ist.
+Ihren vollqualifizierten Servernamen und den Datenbanknamen finden Sie im Azure-Portal. Beachten Sie, dass SQL Data Warehouse zu diesem Zeitpunkt nur im Azure-Portal verfügbar ist.
 
 ![Azure-Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Wenn sich Ihr Power BI-Mandant in derselben Region wie Azure SQL Data Warehouse befindet, werden keine Gebühren für ausgehenden Datenverkehr berechnet. [Mithilfe diese Anleitung](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located) finden Sie heraus, wo sich Ihr Power BI-Mandant befindet.
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Nächste Schritte
 

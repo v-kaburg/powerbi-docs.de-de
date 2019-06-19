@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375104"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720337"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Dienstprinzipal in Power BI (Vorschauversion)
 
@@ -120,7 +120,7 @@ Im Gegensatz zur traditionellen Verwendung eines Hauptkontos müssen für die Ve
 
 5. Fügen Sie dem neuen Arbeitsbereich den Dienstprinzipal als **Administrator** hinzu. Sie können diese Aufgabe über die [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) oder den Power BI-Dienst verwalten.
 
-    ![Hinzufügen eines dienstprinzipals als Administrator mit einem Arbeitsbereich](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Hinzufügen eines Dienstprinzipals zu einem Arbeitsbereich als Administrator](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Wählen Sie nun aus, dass Ihr Inhalt in eine Beispielanwendung oder Ihre eigene Anwendung eingebettet werden soll.
 
@@ -168,17 +168,17 @@ Unten sehen Sie ein Beispielskript, mit dem Sie die Objekt-ID des Dienstprinzipa
 
 * Dienstprinzipale sind nur für [neue Anwendungsarbeitsbereiche](../service-create-the-new-workspaces.md) geeignet.
 * **Mein Arbeitsbereich** wird nicht unterstützt, wenn ein Dienstprinzipal verwendet wird.
-* Dedizierte Premium-Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
+* Dedizierte Kapazität ist erforderlich, um in die Produktionsphase wechseln zu können.
 * Sie können sich über den Dienstprinzipal nicht im Power BI-Portal anmelden.
 * Power BI-Administratorberechtigungen sind erforderlich, um Dienstprinzipale in den Entwicklereinstellungen im Power BI-Verwaltungsportal aktivieren zu können.
 * Sie können ein lokales Datengateway über den Dienstprinzipal weder installieren noch verwalten.
 * [Für Ihre Organisation eingebettete Anwendungen](embed-sample-for-your-organization.md) können Dienstprinzipale nicht verwenden.
 * Die Verwaltung von [Datenflüssen](../service-dataflows-overview.md) wird nicht unterstützt.
-* Dienstprinzipal unterstützt derzeit keine Administratoren APIs.
+* Der Dienstprinzipal unterstützt aktuell überhaupt keine Administrator-APIs.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
 * [Registrieren einer Azure AD-App zum Einbetten von Power BI-Inhalten](register-app.md)
 * [Tutorial: Einbetten von Power BI-Berichten, -Dashboards oder -Kacheln in eine Anwendung für Ihre Kunden](embed-sample-for-customers.md)
 * [Anwendungs- und Dienstprinzipalobjekte in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Sicherheit auf Zeilenebene, die mit lokalen datengateway mit Dienstprinzipal (Vorschau)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Sicherheit auf Zeilenebene bei Verwendung eines lokalen Datengateways mit Dienstprinzipal (Vorschau)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

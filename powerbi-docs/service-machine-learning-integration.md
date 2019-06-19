@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232396"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448337"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Integration von Azure Machine Learning in Power BI (Vorschau)
 
@@ -68,7 +68,14 @@ Die Schritte in diesem Artikel beschreiben, wie Power BI-Benutzern Zugriff auf e
 
 Data Scientists verwenden zum Entwickeln und sogar Bereitstellen ihre Machine Learning-Modelle für den Machine Learning Service in erster Linie Python.  Im Gegensatz zu Machine Learning Studio, das die Automatisierung des Erstellens einer Schemadatei für das Modell erleichtert, muss der Data Scientist beim Machine Learning Service die Schemadatei explizit mit Python generieren.
 
-Diese Schemadatei muss einbezogen werden in das
+Diese Schemadatei muss in den bereitgestellten Webdienst für Modelle des Machine Learning-Diensts aufgenommen werden. Um das Schema für den Webdienst automatisch zu generieren, müssen Sie ein Beispiel der Eingabe/Ausgabe im Eingangsskript für das bereitgestellte Modell angeben. Lesen Sie dazu den Unterabschnitt zur (optionalen) automatischen Swagger-Schemagenerierung in den Bereitstellungsmodellen in der Dokumentation zum Azure Machine Learning Service. Der Link beinhaltet das Beispieleingangsskript mit den Anweisungen für die Schemagenerierung. 
+
+Insbesondere die Funktionen *@input_schema* und *@output_schema* im Eingangsskript verweisen auf die Eingabe- und Ausgabebeispielformate in den Variablen *input_sample* und *output_sample* und verwenden diese Beispiele zum Generieren einer OpenAPI-Spezifikation (Swagger) für den Webdienst während der Bereitstellung.
+
+Diese Anweisungen zur Schemagenerierung durch Aktualisieren des Eingangsskripts müssen ebenfalls auf Modelle angewendet werden, die automatisierte Experimente in Machine Learning unter Nutzung des Azure Machine Learning-SDKs verwenden.
+
+> [!NOTE]
+> Modelle, die mithilfe der grafischen Oberfläche des Azure Machine Learning Service (Vorschau) erstellt werden, unterstützen aktuell keine Schemagenerierung, werden dies aber in kommenden Releases tun. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Aufrufen des Azure ML-Modells in Power BI
 
@@ -106,8 +113,8 @@ Dieser Artikel enthält eine Übersicht über die Integration von Machine Learni
 
 Weitere Informationen zu Dataflows finden Sie in den folgenden Artikeln:
 * [Erstellen und Verwenden von Dataflows in Power BI](service-dataflows-create-use.md)
-* [Verwenden berechnete Elemente in Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [Verwenden Datenflüsse mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
+* [Verwenden berechneter Entitäten in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Verwenden von Datenflüssen mit lokalen Datenquellen](service-dataflows-on-premises-gateways.md)
 * [Entwicklerressourcen für Power BI-Datenflüsse](service-dataflows-developer-resources.md)
 * [Dataflows und Integration in Azure Data Lake (Vorschauversion)](service-dataflows-azure-data-lake-integration.md)
 

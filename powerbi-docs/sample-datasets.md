@@ -11,23 +11,23 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 45d029d5f3aa51057a9ff9c3a18c5c324d21fac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61206375"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721483"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Welche Beispieldaten sind für die Verwendung mit Power BI verfügbar?
-Angenommen, Sie sind mit Power BI noch nicht vertraut und möchten es ausprobieren, haben jedoch keine Daten.  Oder vielleicht haben Sie ein Dataset. Sie (noch) nicht verstehen Funktionsweise von Power BI Sorgen machen, da Sie, dass Sie aus irgendeinem Grund das Dataset zu beschädigen könnte?
+Angenommen, Sie sind mit Power BI noch nicht vertraut und möchten es ausprobieren, haben jedoch keine Daten.  Aber vielleicht haben Sie ja ein Dataset. Da Sie (noch) nicht verstehen, wie Power BI funktioniert, fürchten Sie vielleicht, Ihr Dataset irgendwie zu beschädigen?
 
-Kein Grund zur Beunruhigung! obviEnce ([www.obvience.com](http://www.obvience.com/)) und Microsoft haben Beispiele für Sie erstellt, die Sie verwenden können, bis Sie sich mit Power BI besser auskennen.  Die Daten sind anonymisiert und stellen verschiedene Branchen dar: Finanzindustrie, Personalwesen, Vertrieb und weitere Branchen. Darüber hinaus verwendet der Onlinedokumentation eben diese Beispiele anhand von Tutorials und Beispiele, sodass Sie nachvollziehen können.      
+Kein Grund zur Beunruhigung! obviEnce ([www.obvience.com](http://www.obvience.com/)) und Microsoft haben Beispiele für Sie erstellt, die Sie verwenden können, bis Sie sich mit Power BI besser auskennen.  Die Daten sind anonymisiert und stellen verschiedene Branchen dar: Finanzindustrie, Personalwesen, Vertrieb und weitere Branchen. Darüber hinaus verwendet unsere Onlinedokumentation genau diese Stichproben in Tutorials und Beispielen, Sie können sie also nachvollziehen.      
 
    ![Verfügbare Beispiele](media/sample-datasets/power-bi-samples.png)
 
-Jedes dieser Beispiele ist in verschiedenen Formaten verfügbar: als Inhaltspaket, als einzelne Excel-Arbeitsmappe und als PBIX-Datei. Wenn Sie nicht wissen, worum es sich bei diesen Dingen handelt oder wie Sie sie sich beschaffen können – kein Problem. Alles wird im Verlauf dieses Artikels erläutert. Zudem für jedes Beispiel erstellten eine *Tour*. Touren sind Artikeln, die hinter dem Beispiel erzählt und führt Sie durch verschiedene Szenarien. Beispielsweise kann es sich bei einem Szenario um das Beantworten von Fragen für Ihren Vorgesetzten handeln, bei einem anderen um das Erlangen von Informationen über das Wettbewerberumfeld oder um das Erstellen von Berichten und Dashboards, die freigegeben werden sollen oder um das Erläutern einer Umstellung des Geschäfts.   
+Jedes dieser Beispiele ist in verschiedenen Formaten verfügbar: als Inhaltspaket, als einzelne Excel-Arbeitsmappe und als PBIX-Datei. Wenn Sie nicht wissen, worum es sich bei diesen Dingen handelt oder wie Sie sie sich beschaffen können – kein Problem. Alles wird im Verlauf dieses Artikels erläutert. Und wir haben für jede Stichprobe eine *Tour* erstellt. Touren sind Artikel, die die Geschichte hinter der Stichprobe erzählen und Sie durch verschiedene Szenarien führen. Beispielsweise kann es sich bei einem Szenario um das Beantworten von Fragen für Ihren Vorgesetzten handeln, bei einem anderen um das Erlangen von Informationen über das Wettbewerberumfeld oder um das Erstellen von Berichten und Dashboards, die freigegeben werden sollen oder um das Erläutern einer Umstellung des Geschäfts.   
 
-Bevor wir beginnen, sind hier die rechtlichen Hinweise zur Verwendung der Beispiele. Danach müssen wir führen die Beispiele und zeigen, wie Sie diese verwenden.   
+Lesen Sie jedoch erst die folgenden rechtlichen Hinweise zur Verwendung der Stichproben, bevor wir beginnen. Anschließend stellen wir die Stichproben vor und erläutern ihre Verwendung.   
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Nutzungsleitfäden für die Excel-Beispielsarbeitsmappen für Power BI
 
@@ -39,7 +39,7 @@ Die Arbeitsmappen und zugehörigen Daten werden von obviEnce bereitgestellt. [ww
 
 ObviEnce ist ein unabhängiger Softwareanbieter und eine Unternehmensschmiede für geistiges Eigentum, die sich auf Microsoft Business Intelligence konzentriert. ObviEnce arbeitet eng mit Microsoft zusammen, um eine entsprechende Vordenkerrolle zu übernehmen und bewährte Methoden zum Fördern und Bereitstellen von Microsoft Business Intelligence-Lösungen zu entwickeln.
 
-Die Arbeitsmappen und Daten sind Eigentum der ObviEnce, LLC und wurden ausschließlich zum Zweck der Veranschaulichung der Power BI-Funktionen mit branchenbeispieldaten freigegeben.
+Die Arbeitsmappen und Daten sind Eigentum der obviEnce, LLC und wurden ausschließlich zum Zweck der Veranschaulichung der Power BI-Funktionen mit Branchenbeispieldaten freigegeben.
 
 Jede Verwendung der Arbeitsmappen und/oder Daten muss die oben genannte Zuordnung enthalten (die sich auch auf dem Informationsblatt befindet, das jeder Arbeitsmappe beiliegt). Den Arbeitsmappen und allen Visualisierungen muss der folgende Urheberrechtshinweis beiliegen: obviEnce ©.
 
@@ -51,17 +51,17 @@ Es sind acht Beispiele verfügbar, die Sie verwenden können.  Jedes stellt eine
 ### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Beispiel zur Kundenrentabilität  ![Beispiel zur Kundenrentabilität](media/sample-datasets/power-bi-cp2.png)
 [Tour durch das Beispiel zur Kundenrentabilität](sample-customer-profitability.md)
 
-Dieses branchenbeispiel analysiert ein Leiter der FINANZABTEILUNGs Schlüsselmetriken für Führungskräfte, Produkte und Kunden des Unternehmens. Sie können untersuchen, welche Faktoren Einfluss auf die Rentabilität Ihres Unternehmens haben.
+In diesem Branchenbeispiel werden die Schlüsselmetriken eines CFO für seine leitenden Mitarbeiter, Produkte und Kunden analysiert. Sie können untersuchen, welche Faktoren Einfluss auf die Rentabilität Ihres Unternehmens haben.
 
 ### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>Beispiel für das Personalwesen  ![Beispiel für das Personalwesen](media/sample-datasets/power-bi-hr.png)
 [Tour durch das Beispiel für das Personalwesen](sample-human-resources.md)
 
-Dieses branchenbeispiel konzentriert sich auf die einstellungsstrategie für ein Unternehmen durch die Analyse von Neueinstellungen, aktiven Mitarbeitern und Mitarbeitern verlassen haben.  Durch Untersuchen der Daten finden Sie Trends bei freiwilligem Ausscheiden und Verzerrungen in der Einstellungsstrategie.
+Dieses Branchenbeispiel konzentriert sich auf die Einstellungsstrategie eines Unternehmens durch die Analyse von Neueinstellungen, aktiven Mitarbeitern und Mitarbeitern, die das Unternehmen verlassen haben.  Durch Untersuchen der Daten finden Sie Trends bei freiwilligem Ausscheiden und Verzerrungen in der Einstellungsstrategie.
 
 ### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>Analysebeispiel für IT-Ausgaben ![Analysebeispiel für IT-Ausgaben](media/sample-datasets/power-bi-it.png)
 [Tour durch das Analysebeispiel zu IT-Investitionen](sample-it-spend.md)
 
-In diesem branchenbeispiel analysieren wir die geplanten gegenüber den tatsächlichen Kosten der IT-Abteilung eines Unternehmens. Dieser Vergleich hilft uns, zu verstehen, wie gut das Unternehmen auf Jahressicht geplant hat und welche Bereiche große Abweichungen gegenüber dem Plan aufwiesen. Das Unternehmen aus dem Beispiel durchläuft einen jährlichen Planungszyklus und erstellt dann quartalsweise eine neueste Schätzung (Latest Estimate, LE), um die Änderungen an den IT-Ausgaben im Verlauf des Geschäftsjahrs zu analysieren.
+In diesem Branchenbeispiel analysieren wir die geplanten gegenüber den tatsächlichen Kosten der IT-Abteilung eines Unternehmens. Dieser Vergleich hilft uns, zu verstehen, wie gut das Unternehmen auf Jahressicht geplant hat und welche Bereiche große Abweichungen gegenüber dem Plan aufwiesen. Das Unternehmen aus dem Beispiel durchläuft einen jährlichen Planungszyklus und erstellt dann quartalsweise eine neueste Schätzung (Latest Estimate, LE), um die Änderungen an den IT-Ausgaben im Verlauf des Geschäftsjahrs zu analysieren.
 
 ### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Opportunity Analysis sample  ![Opportunity Analysis sample](media/sample-datasets/power-bi-oa.png)
 [Tour durch das Analysebeispiel zu Opportunity](sample-opportunity-analysis.md)
@@ -71,7 +71,7 @@ In diesem Branchenbeispiel wird der Vertriebskanal eines Softwareunternehmens er
 ### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Beispiel für die Beschaffungsanalyse  ![Beispiel für die Beschaffungsanalyse](media/sample-datasets/power-bi-pa.png)
 [Tour durch das Analysebeispiel zur Beschaffung](sample-procurement.md)
 
-Dieses branchenbeispiel analysiert ein Leiter der FINANZABTEILUNGs Schlüsselmetriken für Führungskräfte, Produkte und Kunden des Unternehmens. Sie können untersuchen, welche Faktoren Einfluss auf die Rentabilität Ihres Unternehmens haben.
+In diesem Branchenbeispiel werden die Schlüsselmetriken eines CFO für seine leitenden Mitarbeiter, Produkte und Kunden analysiert. Sie können untersuchen, welche Faktoren Einfluss auf die Rentabilität Ihres Unternehmens haben.
 
 ### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Retail Analysis sample  ![Retail Analysis sample](media/sample-datasets/power-bi-rs.png)
 [Tour durch das Analysebeispiel für den Einzelhandel](sample-retail-analysis.md)
@@ -91,14 +91,14 @@ Dieses Branchenbeispiel legt den Schwerpunkt auf eine der typischen Herausforder
 Jetzt wissen Sie, was verfügbar ist. Erfahren Sie jetzt, wie Sie sich diese Beispiele beschaffen.  
 
 ## <a name="how-to-get-the-samples"></a>Erhalten der Beispiele
-Wie Sie weiter oben gelesen haben, sind die Beispiele in verschiedenen Formaten verfügbar: als Inhaltspakete, Excel-Arbeitsmappen und PBIX-Dateien. Verwendung der folgenden Formate, beschreiben wir beginnen mit den Inhaltspaketen.
+Wie Sie weiter oben gelesen haben, sind die Beispiele in verschiedenen Formaten verfügbar: als Inhaltspakete, Excel-Arbeitsmappen und PBIX-Dateien. Im Folgenden wird beschrieben, wie Sie die einzelnen Formate verwenden. Wir beginnen mit den Inhaltspaketen.
 
 ## <a name="the-power-bi-samples-as-content-packs"></a>Die Power BI-Beispiele als Inhaltspakete
-Inhaltspakete sind das einzige Beispielformat, das innerhalb von Power BI verfügbar ist. Sie müssen Power BI nicht verlassen, um Inhaltspakete zu suchen. Ein Inhaltspaket ist im Wesentlichen eine Zusammenstellung von ein oder mehrere Dashboards, Datasets und Berichte, die eine Person erstellt und mit Power BI-Dienst verwendet werden kann. Personen erstellen Inhaltspakete, um sie für Kollegen freizugeben. Jedes Power BI-Beispielinhaltspaket enthält ein Dataset, einen Bericht und ein Dashboard.  Für Power BI Desktop sind keine Inhaltspakete verfügbar. Wenn Sie weitere Informationen zu Inhaltspaketen erhalten möchten, lesen Sie [Einführung in organisationsbezogene Inhaltspakete in Power BI](service-organizational-content-pack-introduction.md).
+Inhaltspakete sind das einzige Beispielformat, das innerhalb von Power BI verfügbar ist. Sie müssen Power BI nicht verlassen, um Inhaltspakete zu suchen. Ein Inhaltspaket ist im Wesentlichen eine Zusammenstellung von einem oder mehreren Dashboards, Datasets und Berichten, die von jemandem erstellt wurden und im Power BI-Dienst verwendet werden können. Personen erstellen Inhaltspakete, um sie für Kollegen freizugeben. Jedes Power BI-Beispielinhaltspaket enthält ein Dataset, einen Bericht und ein Dashboard.  Für Power BI Desktop sind keine Inhaltspakete verfügbar. Wenn Sie weitere Informationen zu Inhaltspaketen erhalten möchten, lesen Sie [Einführung in organisationsbezogene Inhaltspakete in Power BI](service-organizational-content-pack-introduction.md).
 
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Abrufen und Öffnen eines Beispielinhaltspakets im Power BI-Dienst
-1. Öffnen Sie Power BI-Dienst (app.powerbi.com), und melden Sie sich.
-2. Wählen Sie in der unteren linken Ecke **Abrufen von Daten**.
+1. Öffnen Sie den Power BI-Dienst („app.powerbi.com“), und melden Sie sich an.
+2. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
 
     ![Symbol „Daten abrufen“](media/sample-datasets/power-bi-get-data.png)
 3. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ das Symbol **Beispiele** aus.
@@ -128,17 +128,17 @@ Jedes der Beispielinhaltspakete ist auch als Excel-Arbeitsmappe verfügbar. Die 
    * [Beispiel für Vertrieb und Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Speichern Sie die heruntergeladene Datei. Es ist wichtig, wo Sie die Datei speichern.
 
-   * ![Lokal](media/sample-datasets/power-bi-local-file2.png) **Lokal**: Wenn Sie Ihre Datei auf einem lokalen Laufwerk Ihres Computers oder an einem anderen Speicherort in Ihrer Organisation speichern, können Sie Ihre Datei über Power BI in Power BI importieren. Verbleibt Ihre Datei wird tatsächlich auf dem lokalen Laufwerk aus, damit die gesamte Datei in Power BI importiert wird nicht. Was geschieht, wird ein neues Dataset wird in Ihrem Power BI-Website und die Daten erstellt und in einigen Fällen wird des Datenmodells, in das Dataset geladen werden. Wenn Ihre Datei Berichte enthält, werden diese Berichte in Power BI-Website unter "Berichte" angezeigt.
-   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – geschäftlich** : Wenn Sie OneDrive for Business haben und Sie sich bei ihr mit dem gleichen Konto dort anmelden wie bei Power BI mit OneDrive for Business Anmelden mit Abstand am besten so Ihre Arbeit in Excel ist Power BI: oder. CSV-Datei synchron mit Ihrem Dataset, Berichte und Dashboards im Power BI. Da sich sowohl Power BI als auch OneDrive in der Cloud befinden, verbindet sich Power BI etwa einmal in der Stunde mit Ihrer Datei in OneDrive. Wenn Änderungen gefunden werden, werden Ihre Dataset, Berichte und Dashboards in Power BI automatisch aktualisiert.
+   * ![Lokal](media/sample-datasets/power-bi-local-file2.png) **Lokal**: Wenn Sie Ihre Datei auf einem lokalen Laufwerk Ihres Computers oder an einem anderen Speicherort in Ihrer Organisation speichern, können Sie Ihre Datei über Power BI in Power BI importieren. Tatsächlich verbleibt Ihre Datei auf Ihrem lokalen Laufwerk. Die Datei wird also eigentlich gar nicht in Power BI importiert. Stattdessen wird ein neues Dataset auf Ihrer Power BI-Website erstellt. Daraufhin werden Daten und ggf. das Datenmodell in das Dataset geladen. Wenn Ihre Datei Berichte enthält, werden diese auf Ihrer Power BI-Website unter „Berichte“ angezeigt.
+   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Business**: Wenn Sie OneDrive for Business verwenden, können Sie sich mit demselben Konto auch bei Power BI anmelden. OneDrive for Business ist mit Abstand der beste Speicherort, um Ihre Arbeit in Excel, Power BI oder einer CSV-Datei mit den Datasets, Berichten und Dashboards in Power BI synchron zu halten. Da sich sowohl Power BI als auch OneDrive in der Cloud befinden, verbindet sich Power BI etwa einmal in der Stunde mit Ihrer Datei in OneDrive. Wenn Änderungen gefunden werden, werden Ihre Dataset, Berichte und Dashboards in Power BI automatisch aktualisiert.
    * ![OneDrive – Persönlich](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive – Persönlich**: Wenn Sie Ihre Dateien in Ihrem eigenen OneDrive-Konto speichern, erhalten Sie dennoch viele der Vorteile, die Ihnen OneDrive for Business bieten würde. Der Hauptunterschied besteht darin, dass Sie sich beim ersten Verknüpfen mit Ihrer Datei, mit Ihrem Microsoft-Konto bei OneDrive anmelden müssen (mit „Daten abrufen“ > „Dateien“ > „OneDrive – Persönlich“). Normalerweise sind Ihr Microsoft- und Ihr Power BI-Konto nicht identisch. Stellen Sie bei der OneDrive-Anmeldung mithilfe Ihres Microsoft Kontos sicher, dass Sie die Option „Angemeldet bleiben“ aktiviert haben. Auf diese Weise ist Power BI in der Lage, sich etwa einmal die Stunde mit Ihrer Datei zu verbinden und sicherzustellen, dass Ihr Dataset in Power BI synchronisiert ist.
    * ![SharePoint-Teamwebsites](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint-Teamwebsites**: Das Speichern der Power BI-Dateien in SharePoint-Teamwebsites erfolgt auf ähnliche Weise wie das Speichern in OneDrive for Business. Der größte Unterschied besteht im Herstellen der Verknüpfung zur Datei aus Power BI. Sie können eine URL angeben oder eine Verknüpfung mit einem Stammordner erstellen.
-1. Öffnen Sie Power BI-Dienst (app.powerbi.com), und melden Sie sich.
+1. Öffnen Sie den Power BI-Dienst („app.powerbi.com“), und melden Sie sich an.
 
    > [!TIP]
    > Jetzt sollten Sie ein neues Dashboard erstellen und nach der Datei benennen, die Sie importieren möchten.  Andernfalls wird beim Importieren des Excel-Datasets kein neues nach dem Beispiel benanntes Dashboard erstellt, sondern dem derzeit geöffneten Dashboard wird eine Kachel hinzugefügt. Durch Auswählen dieser Kachel gelangen Sie zum Bericht für das Dataset. Dies ist kein großes Problem, da Sie jederzeit später ein neues Dashboard erstellen können. Sie ersparen sich jedoch einen oder zwei Schritte, wenn Sie mit einem neuen Dashboard beginnen.
    >
    >
-4. Wählen Sie in der unteren linken Ecke **Abrufen von Daten**.
+4. Wählen Sie in der linken unteren Ecke **Daten abrufen** aus.
 
     ![Symbol „Daten abrufen“](media/sample-datasets/power-bi-get-data.png)
 5. Wählen Sie auf der daraufhin angezeigten Seite „Daten abrufen“ **Dateien > Abrufen** aus.
@@ -147,27 +147,27 @@ Jedes der Beispielinhaltspakete ist auch als Excel-Arbeitsmappe verfügbar. Die 
 6. Navigieren Sie zu dem Verzeichnis, in dem Sie das heruntergeladene Beispiel gespeichert haben.
 
    ![Speicherort des Beispiels](media/sample-datasets/power-bi-files3.png)
-7. Wählen Sie die Datei, in diesem Fall **Procurement Analysis Sample.xlsx**, die auf OneDrive for Business gespeichert wurde, und wählen **Connect**.
+7. Wählen Sie die Datei aus, in diesem Fall **Procurement Analysis Sample.xlsx**, die auf OneDrive for Business gespeichert wurde, und wählen Sie **Verbinden** aus.
 
    ![OneDrive for Business > Verbinden](media/sample-datasets/power-bi-connect2.png)
 8. Wählen Sie, ob die Daten importiert werden soll oder ob die Arbeitsmappe in Power BI importiert und genau wie in Excel Online angezeigt werden soll.
 
     ![Importieren oder Verbinden](media/sample-datasets/power-bi-import.png)
 9. Wenn Sie **Importieren** auswählen, wird die Beispielarbeitsmappe in Power BI importiert und als neues Dataset mit dem Namen **Analysebeispiel für Beschaffung** hinzugefügt.  Wenn die Arbeitsmappe Power View-Blätter, -Tabellen oder -Bereiche oder ein Datenmodell enthält, wird von Power BI auch ein Bericht (mit dem gleichen Namen) erstellt. Und wenn Sie noch kein Dashboard geöffnet haben, wird ein neues Dashboard erstellt. (Wenn beim Klicken auf **Daten abrufen** ein Dashboard geöffnet war, wird auf diesem Dashboard eine neue leere Kachel angezeigt.  Durch Klicken auf diese Kachel gelangen Sie zu dem Bericht für das Dataset, das Sie gerade hinzugefügt haben). Der neue Inhalt wird nach dem Beispiel benannt und mit einem gelben Sternchen markiert.
-10. Wenn der Bildschirm **Ihr Dataset steht bereit** angezeigt wird, wählen **Dataset anzeigen** oder **Schnelleinblicke** oder Ihrem linken Navigationsbereich von Power BI zu suchen und öffnen Sie den zugehörigen Bericht oder Dashboard verwenden.  
+10. Wenn der Bildschirm **Ihr Dataset steht bereit** angezeigt wird, wählen Sie **Dataset anzeigen** oder **Quick Insights** aus, oder verwenden Sie die linke Power BI-Navigationsleiste, um den zugehörigen Bericht oder das zugehörige Dashboard zu suchen und zu öffnen.  
 
      ![Dataset anzeigen](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Optional) Anzeigen der Excel-Beispiele in Excel
 Möchten Sie wissen, wie die Daten in einer Excel-Arbeitsmappe in Power BI-Datasets und -Berichte konvertiert werden? Durch das Öffnen der Excel-Beispiele ***in Excel*** und Erkunden der Arbeitsblätter erhalten Sie einige Antworten.
 
-* Wenn Sie eine Beispielarbeitsmappe zum ersten Mal in Excel öffnen, werden möglicherweise zwei Warnungen angezeigt. Die erste Warnung besagt, dass die Arbeitsmappe in der geschützten Ansicht ist. Wählen Sie **Bearbeitung aktivieren**aus. Die zweite Warnung kann z. B., dass die Arbeitsmappe externe datenverbindungen aufweist. Wählen Sie **Inhalt aktivieren**aus.
-* Jede Arbeitsmappe enthält mehrere Power View-Blätter. Wenn die Power View-Blätter in Excel angezeigt werden sollen, müssen Sie [Power View-add-in aktivieren](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) durch Herunterladen eines Pakets von Registrierungsschlüsseln.
-* Wo sind nun die eigentlichen Daten? Sie befinden sich im PowerPivot-Datenmodell. Sie benötigen keine Power View-Blätter, um die Daten anzuzeigen. Auf der **PowerPivot** Registerkarte **verwalten**.
+* Wenn Sie eine Beispielarbeitsmappe zum ersten Mal in Excel öffnen, werden möglicherweise zwei Warnungen angezeigt. Die erste Warnung besagt, dass die Arbeitsmappe in der geschützten Ansicht angezeigt wird. Wählen Sie **Bearbeitung aktivieren**aus. Die zweite Warnung besagt möglicherweise, dass die Arbeitsmappe externe Datenverbindungen aufweist. Wählen Sie **Inhalt aktivieren**aus.
+* Jede Arbeitsmappe enthält mehrere Power View-Blätter. Wenn Sie die Power View-Blätter in Excel anzeigen möchten, müssen Sie das [Power View-Add-In aktivieren](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1), indem Sie ein Paket mit Registrierungsschlüsseln herunterladen.
+* Wo sind nun die eigentlichen Daten? Sie befinden sich im PowerPivot-Datenmodell. Sie benötigen die Power View-Blätter nicht, um die Daten anzuzeigen. Wählen Sie auf der Registerkarte **PowerPivot** **Verwalten** aus.
 
-    Finden Sie nicht die **Power Pivot** Registerkarte? [Aktivieren Sie das Power Pivot-Add-In](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
+    Wird die Registerkarte **PowerPivot** nicht angezeigt? [Aktivieren Sie das Power Pivot-Add-In](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 
-    In Power Pivot erstellt wurde sehen Sie die Daten in alle zugrunde liegenden Tabellen sowie die DAX-Formeln. 
+    In Power Pivot können Sie die Daten in allen zugrundliegenden Tabellen anzeigen und außerdem alle DAX-Formeln. 
 
 * Die Registerkarte „Info“ enthält Informationen zu obviEnce, dem Unternehmen, das das Beispiel erstellt hat.
 
@@ -192,7 +192,7 @@ Jedes der Beispielinhaltspakete ist auch als PBIX-Datei von Power BI verfügbar.
 4. Wählen Sie die PBIX-Datei aus, um sie in Power BI Desktop zu öffnen.
 
 ## <a name="next-steps"></a>Nächste Schritte
-[Power BI – Grundkonzepte](consumer/end-user-basic-concepts.md)
+[Grundlegende Konzepte für Designer im Power BI-Dienst](service-basic-concepts.md)
 
 [Tutorial: Die Power BI-Beispiele](sample-tutorial-connect-to-the-samples.md)
 
