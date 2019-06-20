@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
+ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750987"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "67144932"
 ---
 # <a name="power-bi-webinars"></a>Power BI-Webinare
 
@@ -141,17 +141,9 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 <br>von Stephen Cracknell und Stuart Macanliss von US Medical IT
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Boost Your BI with Location Intelligence (Optimieren Ihrer Power BI-Lösung mit Location Intelligence)**
-<br>von Scott Ball von Esri und Enrique Plaza von Microsoft
-<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **Applied Intelligence for Sales & Service** (Angewendete Erkenntnisse für Vertrieb und Dienstleistungen)
 <br>von Ed Bobrin von Avanade
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**5 Habits of a Successful Trend Curator** (5 Gewohnheiten eines erfolgreichen Trendkurators)
-<br>von Rohit Bhargava von Non-Obvious
-<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation – Maintain leadership by leveraging analytics to maximize profitability** (Hersteller: Ihre Branche erlebt eine digitale Transformation – wahren Sie Ihre führende Stellung, indem Sie Ihre Rentabilität mit Analysen maximieren)
 <br>von Jon Thompson von Blue Margin und Jim Pastor von Elgin Fastener Group
@@ -160,6 +152,14 @@ Sehen Sie sich zu einem beliebigen Zeitpunkt aufgezeichnete Sitzungen an.
 **Visualisieren von öffentlichen oder privaten Datasets mit dem neuen Power BI- und data.world-Connector**
 <br>von Patrick McGarry und Miguel Martinez
 <br>[Jetzt registrieren und ansehen](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Boost Your BI with Location Intelligence (Optimieren Ihrer Power BI-Lösung mit Location Intelligence)**
+<br>von Scott Ball von Esri und Enrique Plaza von Microsoft
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator** (5 Gewohnheiten eines erfolgreichen Trendkurators)
+<br>von Rohit Bhargava von Non-Obvious
+<br>[Jetzt registrieren und ansehen](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>Community ###
 
