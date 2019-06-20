@@ -106,6 +106,8 @@
       items:
         - name: Glossar und Terminologie
           href: end-user-glossary.md
+        - name: Häufig gestellte Fragen
+          href: end-user-faq.md
         - name: Unterstützte Browser
           href: end-user-browsers.md
         - name: Von Power BI unterstützte schnelle Einblicke
