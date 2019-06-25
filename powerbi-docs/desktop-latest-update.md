@@ -21,7 +21,7 @@ ms.locfileid: "65853316"
 
 ## <a name="may-2019-update-26954671251"></a>Aktualisieren Sie Mai 2019 (2.69.5467.1251)
 
-Hier sind unsere Aktualisierungen für Mai in Ihrem Garten hervorragende Berichte, mit interessante neue Features und eine Blume Pot farbig und ansprechende Visualisierungen gefüllte blühen. 
+Unsere Mai-Updates blühten mit tollen Berichten auf, mit überzeugenden neuen Funktionen und einem Strauß voller bunter, wunderschöner Grafiken. 
 
 Sie können jetzt [die neueste Version von Power BI Desktop herunterladen](https://powerbi.microsoft.com/desktop). Wenn Sie Windows 10 verwenden, erhalten Sie **Power BI Desktop** auch aus dem Windows Store. Die monatlichen Versionen sind identisch, auch wenn die Versionsnummerierung zwischen zwei Versionen abweichen kann, unabhängig davon, wie Sie **Power BI Desktop** installieren. Weitere Informationen finden Sie in [diesem Artikel](desktop-get-the-desktop.md). 
 
